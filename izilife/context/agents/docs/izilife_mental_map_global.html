@@ -1,0 +1,142 @@
+
+<style>
+.mm-section { margin-bottom: 20px; }
+.mm-title { font-size: 11px; font-weight: 500; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 10px; }
+.mm-grid { display: grid; gap: 10px; }
+.mm-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 12px 14px; }
+.mm-card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+.mm-card-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+.chip { font-size: 11px; padding: 2px 8px; border-radius: 20px; border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); background: var(--color-background-secondary); white-space: nowrap; }
+.sub-item { display: flex; gap: 8px; align-items: flex-start; padding: 5px 0; border-top: 0.5px solid var(--color-border-tertiary); font-size: 12px; color: var(--color-text-secondary); line-height: 1.4; }
+.sub-item i { font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+.sub-bold { font-weight: 500; color: var(--color-text-primary); }
+.hub { background: var(--color-background-secondary); border: 0.5px solid var(--color-border-secondary); border-radius: var(--border-radius-md); padding: 8px 12px; font-size: 12px; color: var(--color-text-secondary); display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
+</style>
+
+<h2 class="sr-only">Image mentale globale — tout l'écosystème izilife agents</h2>
+<div style="padding: 1rem 0">
+
+<div class="hub">
+  <i class="ti ti-table" style="font-size:16px;color:var(--color-text-info)" aria-hidden="true"></i>
+  <span><strong style="color:var(--color-text-primary)">Hub central :</strong> Google Sheets + Tables _tmp BDD izilife — tout passe par là, validation humaine avant prod</span>
+</div>
+
+<div class="mm-section">
+  <div class="mm-title">🗺 Alimentation contenu izilife</div>
+  <div class="mm-grid" style="grid-template-columns: 1fr 1fr">
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-map-pin" style="font-size:18px;color:#E24B4A" aria-hidden="true"></i><span class="mm-card-title">Enrichissement lieux</span></div>
+      <div class="sub-item"><i class="ti ti-clock" style="color:var(--color-text-warning)"></i><div><span class="sub-bold">40 lieux/jour en cron</span> — descriptions, photos, tags, équipements, happy hours, fermeture</div></div>
+      <div class="sub-item"><i class="ti ti-search" style="color:var(--color-text-secondary)"></i><div>Google, TripAdvisor, site du lieu, Maps</div></div>
+      <div class="sub-item"><i class="ti ti-upload" style="color:var(--color-text-secondary)"></i><div>Upload photos par URL si manquantes</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-calendar-event" style="font-size:18px;color:#E24B4A" aria-hidden="true"></i><span class="mm-card-title">Curation events</span></div>
+      <div class="sub-item"><i class="ti ti-brand-instagram" style="color:var(--color-text-secondary)"></i><div>Instagram / Facebook — scroll + source HTML</div></div>
+      <div class="sub-item"><i class="ti ti-ticket" style="color:var(--color-text-secondary)"></i><div>Eventbrite, Shotgun, sites agenda</div></div>
+      <div class="sub-item"><i class="ti ti-brand-whatsapp" style="color:var(--color-text-success)"></i><div><span class="sub-bold">Nouveau — WhatsApp pro partenaires :</span> lieu envoie flyer/lien → agent déclenche injection _tmp</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-map-search" style="font-size:18px;color:#BA7517" aria-hidden="true"></i><span class="mm-card-title">Découverte lieux manquants</span></div>
+      <div class="sub-item"><i class="ti ti-building" style="color:var(--color-text-secondary)"></i><div>Ville → Google Maps, Pages Jaunes, Yelp</div></div>
+      <div class="sub-item"><i class="ti ti-git-compare" style="color:var(--color-text-secondary)"></i><div>Compare avec BDD → rapport manquants</div></div>
+      <div class="sub-item"><i class="ti ti-plus" style="color:var(--color-text-secondary)"></i><div>postFetchAndStoreOnePlace() scope limité</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-tag" style="font-size:18px;color:#BA7517" aria-hidden="true"></i><span class="mm-card-title">Happy hours & promos</span></div>
+      <div class="sub-item"><i class="ti ti-world" style="color:var(--color-text-secondary)"></i><div>Scraping sites restaurants/bars</div></div>
+      <div class="sub-item"><i class="ti ti-discount" style="color:var(--color-text-secondary)"></i><div>Codes promos influenceurs, sites externes</div></div>
+      <div class="sub-item"><i class="ti ti-handshake" style="color:var(--color-text-secondary)"></i><div>Tes propres promos négociées → saisie guidée</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-article" style="font-size:18px;color:#185FA5" aria-hidden="true"></i><span class="mm-card-title">Blog izilife</span></div>
+      <div class="sub-item"><i class="ti ti-rss" style="color:var(--color-text-secondary)"></i><div>RSS → script PHP cron → Sheets (0 token)</div></div>
+      <div class="sub-item"><i class="ti ti-robot" style="color:var(--color-text-secondary)"></i><div>Claude résume, angle éditorial, rédige</div></div>
+      <div class="sub-item"><i class="ti ti-language" style="color:var(--color-text-secondary)"></i><div>Agent traduction multilingue fiches</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-star" style="font-size:18px;color:#185FA5" aria-hidden="true"></i><span class="mm-card-title">Contenu gamification</span></div>
+      <div class="sub-item"><i class="ti ti-help-circle" style="color:var(--color-text-secondary)"></i><div>Quiz / blind tests sur les lieux & events</div></div>
+      <div class="sub-item"><i class="ti ti-sparkles" style="color:var(--color-text-secondary)"></i><div>Génération questions + variantes</div></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="mm-section">
+  <div class="mm-title">📣 Communication & marketing</div>
+  <div class="mm-grid" style="grid-template-columns: 1fr 1fr">
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-social" style="font-size:18px;color:#534AB7" aria-hidden="true"></i><span class="mm-card-title">Réseaux sociaux izilife</span></div>
+      <div class="sub-item"><i class="ti ti-table" style="color:var(--color-text-secondary)"></i><div>Google Sheets = planning éditorial</div></div>
+      <div class="sub-item"><i class="ti ti-robot" style="color:var(--color-text-secondary)"></i><div>Claude génère texte + prompt image Canva</div></div>
+      <div class="sub-item"><i class="ti ti-device-desktop" style="color:var(--color-text-secondary)"></i><div>Cowork/Chrome publie si pas d'API</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-users" style="font-size:18px;color:#534AB7" aria-hidden="true"></i><span class="mm-card-title">Réseaux sociaux clients</span><span class="chip">Agence possible</span></div>
+      <div class="sub-item"><i class="ti ti-copy" style="color:var(--color-text-secondary)"></i><div>Même pipeline que izilife, répliqué par client</div></div>
+      <div class="sub-item"><i class="ti ti-calendar" style="color:var(--color-text-secondary)"></i><div>Planning client dans Sheets séparé</div></div>
+      <div class="sub-item"><i class="ti ti-coin" style="color:var(--color-text-warning)"></i><div>Monétisable dès maintenant avec Pro 20€</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-flyer" style="font-size:18px;color:#534AB7" aria-hidden="true"></i><span class="mm-card-title">Flyers & campagnes terrain</span></div>
+      <div class="sub-item"><i class="ti ti-qrcode" style="color:var(--color-text-secondary)"></i><div>QR code dynamique par ville/type de flyer</div></div>
+      <div class="sub-item"><i class="ti ti-brand-figma" style="color:var(--color-text-secondary)"></i><div>Modèle Canva → Claude in Chrome personnalise</div></div>
+      <div class="sub-item"><i class="ti ti-printer" style="color:var(--color-text-secondary)"></i><div>Export PDF prêt à imprimer</div></div>
+    </div>
+
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-mail-forward" style="font-size:18px;color:#534AB7" aria-hidden="true"></i><span class="mm-card-title">Campagnes email / push</span></div>
+      <div class="sub-item"><i class="ti ti-map-pin" style="color:var(--color-text-secondary)"></i><div>Une fois ville remplie → séquence auto</div></div>
+      <div class="sub-item"><i class="ti ti-user-check" style="color:var(--color-text-secondary)"></i><div>Ciblage géo + centres d'intérêt</div></div>
+    </div>
+
+  </div>
+</div>
+
+<div class="mm-section">
+  <div class="mm-title">💼 Activité clients (revenus)</div>
+  <div class="mm-grid" style="grid-template-columns: 1fr 1fr">
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-brand-wordpress" style="font-size:18px;color:#0F6E56" aria-hidden="true"></i><span class="mm-card-title">Sites WordPress clients</span></div>
+      <div class="sub-item"><i class="ti ti-code" style="color:var(--color-text-secondary)"></i><div>Claude Code SSH → génère/modifie → déploie OVH</div></div>
+      <div class="sub-item"><i class="ti ti-git-branch" style="color:var(--color-text-secondary)"></i><div>Git par client, branche dev → review → prod</div></div>
+      <div class="sub-item"><i class="ti ti-tool" style="color:var(--color-text-secondary)"></i><div>Maintenance, plugins, contenu</div></div>
+    </div>
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-speakerphone" style="font-size:18px;color:#0F6E56" aria-hidden="true"></i><span class="mm-card-title">Com réseaux clients</span><span class="chip">Agence</span></div>
+      <div class="sub-item"><i class="ti ti-layout-grid" style="color:var(--color-text-secondary)"></i><div>Planning mensuel en Sheets, briefing simple</div></div>
+      <div class="sub-item"><i class="ti ti-wand" style="color:var(--color-text-secondary)"></i><div>Claude génère les posts dans le style du client</div></div>
+      <div class="sub-item"><i class="ti ti-clock-play" style="color:var(--color-text-secondary)"></i><div>Cowork programme et publie</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="mm-section">
+  <div class="mm-title">⚙️ Pilotage & infra</div>
+  <div class="mm-grid" style="grid-template-columns: 1fr 1fr 1fr">
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-dashboard" style="font-size:18px;color:var(--color-text-secondary)" aria-hidden="true"></i><span class="mm-card-title" style="font-size:13px">Dashboard KPIs izilife</span></div>
+      <div class="sub-item"><i class="ti ti-chart-bar" style="color:var(--color-text-secondary)"></i><div>Script extraction BDD → rapport hebdo auto</div></div>
+    </div>
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-shield" style="font-size:18px;color:var(--color-text-secondary)" aria-hidden="true"></i><span class="mm-card-title" style="font-size:13px">Sécurité agents</span></div>
+      <div class="sub-item"><i class="ti ti-lock" style="color:var(--color-text-secondary)"></i><div>Comptes service, scopes limités, _tmp, validation humaine</div></div>
+    </div>
+    <div class="mm-card">
+      <div class="mm-card-head"><i class="ti ti-brand-python" style="font-size:18px;color:var(--color-text-secondary)" aria-hidden="true"></i><span class="mm-card-title" style="font-size:13px">Scripts locaux</span></div>
+      <div class="sub-item"><i class="ti ti-server" style="color:var(--color-text-secondary)"></i><div>XAMPP local, OVH SSH, cron jobs, Git</div></div>
+    </div>
+  </div>
+</div>
+
+</div>

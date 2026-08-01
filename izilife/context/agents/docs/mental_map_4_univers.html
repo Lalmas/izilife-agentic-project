@@ -1,0 +1,120 @@
+
+<style>
+.u-block { border-radius: var(--border-radius-lg); border: 0.5px solid var(--color-border-tertiary); padding: 14px 16px; margin-bottom: 14px; }
+.u-head { display:flex; align-items:center; gap:10px; margin-bottom:12px; padding-bottom:10px; border-bottom:0.5px solid var(--color-border-tertiary); }
+.u-title { font-size:15px; font-weight:500; }
+.u-sub { font-size:11px; opacity:.7; margin-top:1px; }
+.volet { background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:8px 12px; margin-bottom:8px; }
+.volet-title { font-size:13px; font-weight:500; color:var(--color-text-primary); display:flex; align-items:center; gap:6px; }
+.volet-items { margin-top:5px; }
+.vi { font-size:11px; color:var(--color-text-secondary); padding:2px 0; display:flex; gap:6px; }
+.vi i { font-size:12px; flex-shrink:0; margin-top:1px; }
+.prio-1 { background:#FAECE7; border:0.5px solid #F5C4B3; }
+.prio-2 { background:#E6F1FB; border:0.5px solid #B5D4F4; }
+.prio-3 { background:#EEEDFE; border:0.5px solid #CECBF6; }
+.prio-4 { background:#F1EFE8; border:0.5px solid #D3D1C7; }
+</style>
+
+<h2 class="sr-only">Les 4 univers de ton activité</h2>
+<div style="padding:1rem 0">
+
+<div class="u-block prio-1">
+  <div class="u-head">
+    <i class="ti ti-map-pin" style="font-size:22px;color:#993C1D" aria-hidden="true"></i>
+    <div>
+      <div class="u-title" style="color:#712B13">Univers 1 — Piloter izilife</div>
+      <div class="u-sub" style="color:#993C1D">Prio absolue — tu livres la v2 et relances l'activité</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-database" style="color:#993C1D" aria-hidden="true"></i>Volet contenus (le carburant de l'app)</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-building"></i>Lieux — enrichissement quotidien (descriptions, tags, équipements, photos, HH)</div>
+      <div class="vi"><i class="ti ti-calendar-event"></i>Events — curation Instagram/FB/Shotgun/Eventbrite + WhatsApp partenaires</div>
+      <div class="vi"><i class="ti ti-ticket"></i>Promos & happy hours — scraping + tes propres négociations</div>
+      <div class="vi"><i class="ti ti-discount-2"></i>Codes promos — influenceurs, sites externes</div>
+      <div class="vi"><i class="ti ti-map-search"></i>Découverte lieux manquants — exploration ville par ville</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-social" style="color:#993C1D" aria-hidden="true"></i>Volet réseaux sociaux izilife</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-edit"></i>Posts sur les events, lieux, bons plans de la ville</div>
+      <div class="vi"><i class="ti ti-users"></i>Republication / mise en avant des events partenaires</div>
+      <div class="vi"><i class="ti ti-table"></i>Planning éditorial dans Google Sheets</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-confetti" style="color:#993C1D" aria-hidden="true"></i>Volet toi comme créateur d'events & animateur</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-help-circle"></i>Quiz, blind tests dans les lieux — tu crées, tu animes, ça alimente izilife</div>
+      <div class="vi"><i class="ti ti-flyer"></i>Flyer de l'event → généré automatiquement (Canva + QR code)</div>
+      <div class="vi"><i class="ti ti-plus"></i>Création event dans l'espace organisateur izilife via API</div>
+      <div class="vi"><i class="ti ti-brand-whatsapp"></i>WhatsApp partenaires → flyer/lien reçu → injection _tmp auto</div>
+    </div>
+  </div>
+</div>
+
+<div class="u-block prio-2">
+  <div class="u-head">
+    <i class="ti ti-speakerphone" style="font-size:22px;color:#185FA5" aria-hidden="true"></i>
+    <div>
+      <div class="u-title" style="color:#0C447C">Univers 2 — Mode agence réseaux sociaux</div>
+      <div class="u-sub" style="color:#185FA5">Finance izilife — quelques clients, quasi full auto</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-device-desktop" style="color:#185FA5" aria-hidden="true"></i>Même pipeline que izilife, répliqué par client</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-table"></i>Sheets client → Claude génère dans le ton du client → Cowork publie</div>
+      <div class="vi"><i class="ti ti-photo"></i>Création visuels — Canva template par client, génération auto</div>
+      <div class="vi"><i class="ti ti-video"></i>Montage vidéo automatique — CapCut/Canva Video avec sous-titres auto</div>
+      <div class="vi"><i class="ti ti-map-pin"></i>Cas particulier : animateurs de lieux/organisateurs d'events — même outil que toi</div>
+    </div>
+  </div>
+</div>
+
+<div class="u-block prio-3">
+  <div class="u-head">
+    <i class="ti ti-brand-wordpress" style="font-size:22px;color:#534AB7" aria-hidden="true"></i>
+    <div>
+      <div class="u-title" style="color:#3C3489">Univers 3 — Créateur & gestionnaire de sites web</div>
+      <div class="u-sub" style="color:#534AB7">Au fil des contrats — 1 500€ le site, évolutions incluses</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-code" style="color:#534AB7" aria-hidden="true"></i>Tu indiques, Claude Code fait</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-terminal-2"></i>Protect Solaire en cours — plugin sur mesure, long</div>
+      <div class="vi"><i class="ti ti-plug"></i>Plugin WordPress izilife → exporter produits/lieux vers WP clients</div>
+      <div class="vi"><i class="ti ti-git-branch"></i>Git par client, SSH OVH, deploy auto</div>
+      <div class="vi"><i class="ti ti-device-desktop"></i>Cowork pour les évolutions mineures (interface, contenu)</div>
+    </div>
+  </div>
+</div>
+
+<div class="u-block prio-4">
+  <div class="u-head">
+    <i class="ti ti-user-circle" style="font-size:22px;color:#5F5E5A" aria-hidden="true"></i>
+    <div>
+      <div class="u-title" style="color:#444441">Univers 4 — Ta présence personnelle</div>
+      <div class="u-sub" style="color:#5F5E5A">CEO, créateur, sportif — marque personnelle</div>
+    </div>
+  </div>
+
+  <div class="volet">
+    <div class="volet-title"><i class="ti ti-microphone" style="color:#5F5E5A" aria-hidden="true"></i>Contenu personnel</div>
+    <div class="volet-items">
+      <div class="vi"><i class="ti ti-article"></i>Articles de blog — ton regard de fondateur, sportif, créateur</div>
+      <div class="vi"><i class="ti ti-brand-linkedin"></i>Posts LinkedIn/Instagram perso — séparés du compte izilife</div>
+      <div class="vi"><i class="ti ti-video"></i>Vidéos behind the scenes, events animés</div>
+    </div>
+  </div>
+</div>
+
+</div>

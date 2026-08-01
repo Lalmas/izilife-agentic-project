@@ -1,0 +1,96 @@
+
+<style>
+.tool-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px 16px; margin-bottom: 10px; }
+.tool-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.tool-name { font-size: 15px; font-weight: 500; color: var(--color-text-primary); }
+.tool-tagline { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; }
+.can-row { display: flex; gap: 8px; align-items: flex-start; padding: 5px 0; border-top: 0.5px solid var(--color-border-tertiary); font-size: 12px; }
+.can-row i { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+.yes { color: var(--color-text-success); }
+.no { color: var(--color-text-danger); }
+.pill { font-size: 11px; padding: 2px 8px; border-radius: 20px; border: 0.5px solid; white-space: nowrap; display: inline-block; margin-left: 4px; vertical-align: middle; }
+.pill-warn { background: #FAEEDA; color: #854F0B; border-color: #FAC775; }
+.pill-ok { background: #EAF3DE; color: #3B6D11; border-color: #C0DD97; }
+.pill-info { background: #E6F1FB; color: #185FA5; border-color: #85B7EB; }
+.token-box { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 14px; margin-top: 10px; font-size: 12px; color: var(--color-text-secondary); }
+</style>
+
+<h2 class="sr-only">Clarification des 4 outils Claude et leur consommation de tokens</h2>
+<div style="padding:1rem 0">
+
+<div class="tool-card" style="border-color: var(--color-border-info);">
+  <div class="tool-head">
+    <i class="ti ti-message-circle" style="font-size:22px;color:var(--color-text-info)" aria-hidden="true"></i>
+    <div>
+      <div class="tool-name">Claude.ai (chatbot)</div>
+      <div class="tool-tagline">Tu parles, il répond. C'est tout.</div>
+    </div>
+  </div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Répond à tes questions, rédige, analyse, planifie</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Cherche sur le web (outil intégré dans le chat)</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Ne peut PAS agir sur ton PC, publier, cliquer, créer des fichiers</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Ne peut PAS tourner en boucle la nuit tout seul</span></div>
+  <div class="token-box">
+    <strong style="color:var(--color-text-primary)">Tokens Pro 20€ :</strong> ~45 msg/jour avec Sonnet 4 (illimité en pratique pour une utilisation normale). Quota remis à zéro chaque jour. <span class="pill pill-ok">Inclus dans 20€</span>
+  </div>
+</div>
+
+<div class="tool-card">
+  <div class="tool-head">
+    <i class="ti ti-terminal-2" style="font-size:22px;color:var(--color-text-warning)" aria-hidden="true"></i>
+    <div>
+      <div class="tool-name">Claude Code</div>
+      <div class="tool-tagline">IA de dev qui s'exécute dans un terminal sur ton PC.</div>
+    </div>
+  </div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Lit, écrit, exécute du code (PHP, Python, JS…) sur ton PC local</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Se connecte en SSH à un serveur distant (OVH), push Git</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Lance des scripts, lit des fichiers, gère des projets entiers</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Ne contrôle PAS un navigateur (n'ouvre pas Chrome, ne clique pas)</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Ne publie PAS sur les réseaux sociaux directement</span></div>
+  <div class="token-box">
+    <strong style="color:var(--color-text-primary)">Tokens :</strong> Claude Code = terminal sur ton PC, utilise l'API Claude. Avec Pro 20€ il y a une enveloppe incluse (limites d'usage par session/mois). Si tu dépasses → facturation API séparée. <strong>Une session de dev interactive (tu poses des questions, il répond) consomme peu.</strong> Un agent autonome qui tourne en boucle 8h = beaucoup de tokens car il analyse et re-analyse en continu. <span class="pill pill-warn">Inclus Pro avec limites</span>
+  </div>
+</div>
+
+<div class="tool-card" style="border-color: #C0DD97;">
+  <div class="tool-head">
+    <i class="ti ti-browser" style="font-size:22px;color:#3B6D11" aria-hidden="true"></i>
+    <div>
+      <div class="tool-name">Claude in Chrome</div>
+      <div class="tool-tagline">Claude voit et comprend ce que ton navigateur affiche.</div>
+    </div>
+  </div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Lit et <strong>comprend intelligemment</strong> n'importe quelle page web ouverte dans Chrome</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Peut cliquer, remplir des formulaires, naviguer de page en page</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Page Facebook event → comprend directement titre/date/lieu sans sauvegarder le HTML</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Peut faire des screenshots (= tokens consommés pour analyser l'image)</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Chaque page lue = tokens consommés (lecture + analyse du contenu)</span></div>
+  <div class="token-box">
+    <strong style="color:var(--color-text-primary)">Tokens :</strong> Oui, Claude in Chrome consomme des tokens à chaque page visitée — parce que Claude lit et analyse le contenu. C'est le prix de l'intelligence. Une page simple ~1 000-2 000 tokens. Une page dense (Maps, Instagram) ~3 000-5 000. <span class="pill pill-warn">Inclus Pro avec limites</span>
+  </div>
+</div>
+
+<div class="tool-card">
+  <div class="tool-head">
+    <i class="ti ti-device-desktop-analytics" style="font-size:22px;color:#534AB7" aria-hidden="true"></i>
+    <div>
+      <div class="tool-name">Cowork</div>
+      <div class="tool-tagline">Robot qui clique sur ton PC Windows — sans comprendre.</div>
+    </div>
+  </div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Automatise des actions répétitives sur ton bureau Windows (ouvrir, cliquer, copier, sauvegarder)</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Ouvre Chrome, va sur une URL, scrolle, clique droit → "Enregistrer sous"</span></div>
+  <div class="can-row"><i class="ti ti-check yes"></i><span>Publie sur Instagram/Facebook si tu lui montres le chemin</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>N'est PAS intelligent — il exécute des séquences mécaniques</span></div>
+  <div class="can-row"><i class="ti ti-x no"></i><span>Ne "comprend" pas une page — il clique sur des coordonnées/sélecteurs</span></div>
+  <div class="token-box">
+    <strong style="color:var(--color-text-primary)">Tokens :</strong> Cowork lui-même est piloté par Claude (il y a un LLM derrière pour interpréter tes instructions). Donc oui, ça consomme des tokens Claude — mais beaucoup moins que Claude in Chrome car il n'analyse pas le contenu des pages. <span class="pill pill-warn">Abonnement Cowork séparé</span>
+  </div>
+</div>
+
+<div style="background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:12px 16px; font-size:12px; color:var(--color-text-secondary); margin-top:4px;">
+  <strong style="color:var(--color-text-primary)">Résumé brutal :</strong> Cowork = robot mécanique qui clique. Claude in Chrome = cerveau qui lit et comprend. Pour scraper du volume → Cowork + script PHP (économique). Pour extraire intelligemment d'une page complexe → Claude in Chrome (qualitatif mais coûteux en tokens).
+</div>
+
+</div>

@@ -1,0 +1,626 @@
+# izilife — Contexte global du moteur de réservation
+
+> Version : V0
+>
+> Ce document définit l'architecture fonctionnelle et technique du moteur de réservation d'izilife. Il sert de référence pour l'ensemble des développements Front, Back et Base de données.
+
+---
+
+# Objectifs
+
+Créer un moteur de réservation unique capable de gérer tous les objets réservables d'izilife sans dupliquer le code métier.
+
+Le moteur doit fonctionner pour :
+
+- Place
+- Shop
+- Equipment
+- Animation
+- Experience
+- Event
+
+L'objectif est de disposer d'un seul système de réservation capable de s'adapter au type d'objet réservé grâce à sa configuration.
+
+Le moteur devra rester évolutif afin de gérer par la suite :
+
+- réservation immédiate
+- réservation avec paiement
+- validation automatique
+- validation manuelle
+- privatisation
+- réservation de services
+- réservation d'équipements
+- réservation de sessions
+- réservation de créneaux
+- réservation de journées
+- listes d'attente
+- annulation
+- remboursement
+- synchronisation calendrier
+
+---
+
+# Philosophie générale
+
+Le moteur ne doit jamais être développé pour un objet particulier.
+
+Il doit uniquement savoir réserver **une ressource**.
+
+Cette ressource est identifiée par :
+
+```php
+from_type
+from_id
+```
+
+Exemple :
+
+```php
+from_type = place
+from_id = 15
+```
+
+ou
+
+```php
+from_type = equipment
+from_id = 92
+```
+
+ou
+
+```php
+from_type = experience
+from_id = 54
+```
+
+Le moteur ne doit jamais connaître directement les modèles Place, Shop ou Experience.
+
+Il délègue cette logique à un Resolver.
+
+---
+
+# Objets compatibles
+
+## Place
+
+Restaurant
+
+Bar
+
+Brasserie
+
+Salon de thé
+
+Buffet
+
+Parc
+
+Musée
+
+Salle
+
+Monument
+
+etc.
+
+---
+
+## Shop
+
+Commerce
+
+Salon de coiffure
+
+Institut
+
+Tatoueur
+
+Pressing
+
+Artisan
+
+etc.
+
+---
+
+## Equipment
+
+Table
+
+Salle
+
+Terrain
+
+Machine
+
+Terrasse
+
+Chambre
+
+Espace VIP
+
+Parking
+
+Objet réservable
+
+etc.
+
+---
+
+## Animation
+
+Animation ponctuelle.
+
+Elle pourra utiliser une BookingConfiguration.
+
+---
+
+## Experience
+
+Une Experience n'est jamais réservée directement.
+
+Elle est réservée via :
+
+- SessionConfigurationContent
+- Session
+
+---
+
+## Event
+
+Même principe que Experience.
+
+---
+
+# Le moteur Booking
+
+Le moteur Booking est totalement générique.
+
+Il ne contient aucune logique spécifique métier.
+
+Il reçoit uniquement :
+
+```php
+from_type
+
+from_id
+
+booking_date
+
+booking_start_time
+
+booking_end_time
+
+quantity
+```
+
+Puis il délègue.
+
+---
+
+# BookingResolver
+
+Le BookingResolver est la seule couche qui connaît les objets métier.
+
+Exemple :
+
+```text
+place
+↓
+BookingConfiguration
+
+shop
+↓
+BookingConfiguration
+
+equipment
+↓
+BookingConfiguration
+
+animation
+↓
+BookingConfiguration
+
+experience
+↓
+SessionConfiguration
+
+event
+↓
+SessionConfiguration
+```
+
+Ainsi le contrôleur Booking reste unique.
+
+---
+
+# Deux familles de réservation
+
+Il existe deux familles totalement différentes.
+
+## Famille BookingConfiguration
+
+Utilisée pour :
+
+Place
+
+Shop
+
+Equipment
+
+Animation
+
+Ces objets sont réservés directement.
+
+Le moteur utilise :
+
+```text
+BookingContent
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+BookingSlot
+
+↓
+
+Booking
+```
+
+---
+
+## Famille SessionConfiguration
+
+Utilisée pour :
+
+Experience
+
+Event
+
+Ces objets ne sont pas directement réservés.
+
+Ils passent par :
+
+```text
+SessionConfiguration
+
+↓
+
+SessionConfigurationContent
+
+↓
+
+Session (si besoin)
+
+↓
+
+Booking
+```
+
+Cette séparation est fondamentale.
+
+Elle ne doit jamais disparaître.
+
+---
+
+# BookingContent
+
+BookingContent représente le container de réservation.
+
+Un objet ne possède qu'un seul BookingContent actif.
+
+Il peut être limité dans le temps.
+
+Il contient plusieurs BookingConfigurationContent.
+
+---
+
+# BookingConfigurationContent
+
+La BookingConfigurationContent décrit les règles de réservation.
+
+Elle définit notamment :
+
+- jours concernés
+
+- horaires
+
+- créneaux
+
+- capacité
+
+- durée
+
+- délai minimum
+
+- délai maximum
+
+- réservation instantanée
+
+- validation manuelle
+
+- réservation par créneau
+
+- réservation libre
+
+Une même BookingConfiguration peut contenir plusieurs BookingConfigurationContent.
+
+Exemple :
+
+```text
+Lundi midi
+
+Mardi midi
+
+Vendredi soir
+
+Brunch dimanche
+
+Privatisation
+```
+
+Chaque ligne possède ses propres règles.
+
+---
+
+# BookingSlot
+
+BookingSlot représente un créneau métier.
+
+Exemple :
+
+Petit déjeuner
+
+Déjeuner
+
+Brunch
+
+Goûter
+
+Dîner
+
+Afterwork
+
+Soirée
+
+Privatisation matin
+
+Privatisation journée
+
+Privatisation soirée
+
+Le slot est une aide au moteur.
+
+Il ne remplace pas l'heure réelle.
+
+---
+
+# BookingMethod
+
+BookingMethod pilote le fonctionnement du moteur de réservation izilife.
+
+Il ne représente pas une information utilisateur.
+
+Il indique comment le moteur doit fonctionner.
+
+Valeurs actuelles :
+
+```text
+jour-seulement
+
+jour-et-creneau
+
+sans-reservation-requise
+```
+
+## jour-seulement
+
+Le moteur demande uniquement :
+
+- date
+
+- quantité
+
+Exemple :
+
+Entrée parc
+
+Accès journée
+
+Visite touristique
+
+---
+
+## jour-et-creneau
+
+Le moteur demande :
+
+- date
+
+- heure ou créneau
+
+- quantité
+
+Exemple :
+
+Restaurant
+
+Bar
+
+Salon de thé
+
+Terrain
+
+Salle
+
+Massage
+
+Coiffure
+
+Tateliers
+
+Tatouage
+
+---
+
+## sans-reservation-requise
+
+Le moteur de réservation izilife n'est pas utilisé.
+
+---
+
+# AccessBookingNeeded
+
+Cette table est indépendante du moteur.
+
+Elle sert uniquement à informer l'utilisateur.
+
+Exemples :
+
+- Sur réservation
+
+- Réservation conseillée
+
+- Possible sans réservation
+
+Cette information peut être affichée sur la fiche.
+
+Elle ne pilote pas le moteur de réservation.
+
+Le moteur ne doit jamais prendre une décision uniquement à partir de cette table.
+
+---
+
+# AccessType
+
+AccessType décrit la nature de l'accès.
+
+Exemples :
+
+Libre
+
+Payant
+
+Gratuit
+
+Sur abonnement
+
+Sur adhésion
+
+Payant par attraction
+
+Gratuit avec consommation
+
+etc.
+
+Il apporte du contexte métier.
+
+Il ne décide pas du fonctionnement du moteur Booking.
+
+---
+
+# ElementAccessAndBookingConf
+
+Cette table contient la configuration générale d'accès d'un objet.
+
+Elle regroupe :
+
+- access_mean
+
+- booking_method
+
+- réservation après paiement
+
+- délai maximum
+
+Elle représente le point d'entrée du moteur.
+
+Le champ utilisé par le moteur V0 est principalement :
+
+```text
+booking_method
+```
+
+Les autres champs seront utilisés progressivement dans les versions suivantes.
+
+---
+
+# Abonnement réservation
+
+Le moteur de réservation est une fonctionnalité Premium.
+
+Avant toute réservation, il faut vérifier que le système de réservation est activé.
+
+En V0, le moteur utilisera simplement un booléen :
+
+```php
+can_use_booking_feature
+```
+
+Ce booléen sera relié plus tard au système d'abonnement.
+
+Règle :
+
+```text
+false
+↓
+
+aucun module réservation
+```
+
+```text
+true
+↓
+
+le moteur continue
+```
+
+---
+
+# Conditions d'affichage du bouton Réserver
+
+Pour afficher le bouton Réserver :
+
+- abonnement actif
+
+- BookingMethod compatible
+
+- BookingConfiguration active
+
+ou
+
+- SessionConfiguration active
+
+Si une de ces conditions manque, le moteur ne s'affiche pas.
+
+Le bouton peut être remplacé par un simple bouton Contact.
+
+---
+
+# Première version
+
+La V0 a pour objectif de fonctionner immédiatement.
+
+Elle gère :
+
+- réservation simple
+
+- réservation de table
+
+- réservation d'équipement
+
+- réservation de service
+
+- demande de privatisation
+
+Toutes les réservations sont créées avec le statut :
+
+```text
+en-attente
+```
+
+La validation reste entièrement manuelle.

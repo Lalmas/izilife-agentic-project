@@ -1,0 +1,148 @@
+
+<style>
+.emp { background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-lg); padding:13px 15px; margin-bottom:10px; }
+.emp-head { display:flex; align-items:flex-start; gap:10px; margin-bottom:10px; }
+.emp-avatar { width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
+.emp-info { flex:1; }
+.emp-name { font-size:14px; font-weight:500; color:var(--color-text-primary); }
+.emp-role { font-size:11px; color:var(--color-text-secondary); margin-top:1px; }
+.emp-schedule { font-size:11px; padding:2px 8px; border-radius:20px; border:0.5px solid var(--color-border-secondary); background:var(--color-background-secondary); color:var(--color-text-secondary); margin-left:auto; white-space:nowrap; }
+.task-row { display:flex; gap:7px; align-items:flex-start; padding:4px 0; border-top:0.5px solid var(--color-border-tertiary); font-size:12px; color:var(--color-text-secondary); }
+.task-row i { font-size:13px; flex-shrink:0; margin-top:1px; }
+.tool-pills { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+.tp { font-size:10px; padding:1px 7px; border-radius:20px; border:0.5px solid; }
+.tp-cic { background:#EAF3DE; color:#3B6D11; border-color:#C0DD97; }
+.tp-php { background:#E6F1FB; color:#185FA5; border-color:#85B7EB; }
+.tp-cowork { background:#EEEDFE; color:#534AB7; border-color:#CECBF6; }
+.tp-code { background:#FAEEDA; color:#854F0B; border-color:#FAC775; }
+.tp-api { background:#F1EFE8; color:#5F5E5A; border-color:#D3D1C7; }
+.output-box { background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:6px 10px; margin-top:7px; font-size:11px; color:var(--color-text-secondary); display:flex; gap:6px; align-items:center; }
+.section-label { font-size:11px; font-weight:500; color:var(--color-text-secondary); text-transform:uppercase; letter-spacing:.06em; margin:16px 0 8px; }
+.orchestra { background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:12px 14px; margin-bottom:12px; }
+.orch-title { font-size:13px; font-weight:500; color:var(--color-text-primary); margin-bottom:8px; }
+.orch-row { font-size:11px; color:var(--color-text-secondary); padding:3px 0; display:flex; gap:6px; }
+.orch-row i { font-size:12px; flex-shrink:0; margin-top:1px; }
+</style>
+
+<h2 class="sr-only">L'équipe virtuelle izilife — agents data quality et contenu</h2>
+<div style="padding:1rem 0">
+
+<div class="section-label">L'orchestration — qui déclenche qui</div>
+<div class="orchestra">
+  <div class="orch-title">Deux cerveaux planificateurs</div>
+  <div class="orch-row"><i class="ti ti-server" style="color:var(--color-text-info)"></i><strong style="color:var(--color-text-primary)">OVH staging (cron)</strong> — tout ce qui ne nécessite pas de navigateur : RSS, injection JSON, rapports, appels Claude API directs</div>
+  <div class="orch-row"><i class="ti ti-device-desktop" style="color:var(--color-text-warning)"></i><strong style="color:var(--color-text-primary)">PC local (Windows Task Scheduler)</strong> — tout ce qui nécessite Chrome : CIC enrichissement, Cowork publication. Lance un script qui ouvre le bon workflow.</div>
+  <div class="orch-row"><i class="ti ti-arrows-exchange" style="color:var(--color-text-secondary)"></i>Les deux se synchronisent via Google Sheets (file de tâches) et les tables _tmp</div>
+</div>
+
+<div class="section-label">L'équipe — 6 employés virtuels</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#EAF3DE"><i class="ti ti-map-search" style="color:#3B6D11;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">L'Inspecteur de ville</div>
+      <div class="emp-role">Trouve les lieux manquants, détecte les fermés</div>
+    </div>
+    <span class="emp-schedule">1×/semaine par ville</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Cherche les restos/bars/salons d'une ville via Google Places API</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Compare avec BDD izilife → liste manquants + liste suspects fermés</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Génère un rapport "état de la ville" → Google Sheets</div>
+  <div class="task-row"><i class="ti ti-arrow-right" style="color:var(--color-text-secondary)"></i>Passe la liste au Greffier pour traitement</div>
+  <div class="tool-pills"><span class="tp tp-php">PHP cron OVH</span><span class="tp tp-api">Google Places API</span><span class="tp tp-api">Claude API rapport</span></div>
+  <div class="output-box"><i class="ti ti-file-text" style="font-size:13px"></i>Rapport Google Sheets + JSON manquants dans file de tâches</div>
+</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#E6F1FB"><i class="ti ti-pencil-plus" style="color:#185FA5;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">Le Greffier</div>
+      <div class="emp-role">Crée les fiches manquantes, ferme les obsolètes</div>
+    </div>
+    <span class="emp-schedule">Après l'Inspecteur</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Prend la file "manquants" → postFetchAndStoreOnePlace() par lieu</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Marque comme fermé les lieux détectés éteints</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Validation humaine avant push prod (reste en _tmp)</div>
+  <div class="tool-pills"><span class="tp tp-php">PHP cron OVH</span><span class="tp tp-api">Google Places API</span></div>
+  <div class="output-box"><i class="ti ti-database" style="font-size:13px"></i>Nouvelles fiches en _tmp_lieux → validation → prod</div>
+</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#FAEEDA"><i class="ti ti-star" style="color:#854F0B;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">L'Enrichisseur</div>
+      <div class="emp-role">Complète et améliore les fiches existantes</div>
+    </div>
+    <span class="emp-schedule">Tous les soirs 1h</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Prend 40 lieux incomplets depuis la BDD</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Pour chaque lieu : Google Maps + TripAdvisor + site propre (3-5 URLs)</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Extrait : description, tags, équipements, HH, ambiance, photos URLs</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Pousse JSON enrichi → méthode POST izilife</div>
+  <div class="tool-pills"><span class="tp tp-cic">CIC (lecture pages)</span><span class="tp tp-php">PHP local → push JSON</span><span class="tp tp-api">Google Photos API</span></div>
+  <div class="output-box"><i class="ti ti-upload" style="font-size:13px"></i>JSON enrichi pushé direct via méthode POST → _tmp → validation</div>
+</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#FAECE7"><i class="ti ti-calendar-event" style="color:#993C1D;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">Le Chasseur d'events</div>
+      <div class="emp-role">Trouve et ingère les events de la ville</div>
+    </div>
+    <span class="emp-schedule">Dimanche + WhatsApp 24/7</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Dimanche : CIC parcourt FB/Instagram/Shotgun/Eventbrite</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>WhatsApp partenaire → webhook → OCR flyer si image → JSON</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Dédup via URL + hash image avant insertion</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Toi en manuel → même tuyau JSON → même résultat</div>
+  <div class="tool-pills"><span class="tp tp-cic">CIC lecture events</span><span class="tp tp-cowork">Cowork scroll FB</span><span class="tp tp-api">Claude API OCR</span><span class="tp tp-php">PHP webhook WhatsApp</span></div>
+  <div class="output-box"><i class="ti ti-database" style="font-size:13px"></i>_tmp_events → validation → prod</div>
+</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#FBEAF0"><i class="ti ti-discount-2" style="color:#993556;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">Le Chasseur de promos</div>
+      <div class="emp-role">Happy hours, codes promos, bons plans</div>
+    </div>
+    <span class="emp-schedule">Mardi + vendredi</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Scrape sites bars/restos pour HH (PHP direct si HTML statique)</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Récupère codes promos influenceurs depuis leurs liens affiliés</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Tes propres promos négociées : formulaire guidé → JSON direct</div>
+  <div class="tool-pills"><span class="tp tp-php">PHP scraping OVH</span><span class="tp tp-cic">CIC sites dynamiques</span><span class="tp tp-api">Claude API extraction</span></div>
+  <div class="output-box"><i class="ti ti-database" style="font-size:13px"></i>_tmp_promos → validation → prod</div>
+</div>
+
+<div class="emp">
+  <div class="emp-head">
+    <div class="emp-avatar" style="background:#EEEDFE"><i class="ti ti-social" style="color:#534AB7;font-size:18px" aria-hidden="true"></i></div>
+    <div class="emp-info">
+      <div class="emp-name">Le Community Manager</div>
+      <div class="emp-role">Génère et publie le contenu social izilife + clients</div>
+    </div>
+    <span class="emp-schedule">Planning Sheets</span>
+  </div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Lit le planning éditorial Google Sheets du jour</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Claude API génère le texte (prompt système = style du compte)</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Cowork ouvre Instagram/FB, colle le texte, publie</div>
+  <div class="task-row"><i class="ti ti-check" style="color:var(--color-text-success)"></i>Même pipeline répliqué pour chaque client agence</div>
+  <div class="tool-pills"><span class="tp tp-cowork">Cowork publication</span><span class="tp tp-api">Claude API génération</span><span class="tp tp-code">Claude Code visuels</span></div>
+  <div class="output-box"><i class="ti ti-send" style="font-size:13px"></i>Post publié + log dans Sheets (date, reach si API dispo)</div>
+</div>
+
+<div class="section-label">Le tuyau commun — tout converge ici</div>
+<div class="orchestra">
+  <div class="orch-row"><i class="ti ti-arrow-right" style="color:var(--color-text-success)"></i>Tous les agents poussent via <strong style="color:var(--color-text-primary)">POST JSON → méthode izilife</strong> — même tuyau, quel que soit l'agent</div>
+  <div class="orch-row"><i class="ti ti-arrow-right" style="color:var(--color-text-success)"></i>Tout passe par <strong style="color:var(--color-text-primary)">_tmp → validation humaine → prod</strong> — tu gardes le contrôle</div>
+  <div class="orch-row"><i class="ti ti-arrow-right" style="color:var(--color-text-success)"></i>Google Sheets = tableau de bord de l'équipe — ce qui est fait, ce qui est en attente, ce qui a échoué</div>
+  <div class="orch-row"><i class="ti ti-arrow-right" style="color:var(--color-text-success)"></i>Toi en manuel → même tuyau, tu n'es qu'un agent de plus</div>
+</div>
+
+</div>

@@ -1,0 +1,708 @@
+# Cas d'usage métier
+
+Le moteur de réservation doit rester totalement générique.
+
+Il ne connaît jamais un métier particulier.
+
+Chaque métier est obtenu uniquement grâce à la configuration.
+
+---
+
+# Restaurant
+
+Configuration :
+
+```text
+BookingMethod
+↓
+
+jour-et-creneau
+```
+
+Réservation :
+
+```text
+Date
+
+↓
+
+Créneau
+
+↓
+
+Nombre de personnes
+
+↓
+
+Table (optionnel)
+
+↓
+
+Notes
+```
+
+Peut proposer :
+
+- réservation simple
+- réservation d'une table précise
+- privatisation d'une salle
+- privatisation complète
+
+---
+
+# Bar
+
+Même fonctionnement.
+
+Le moteur ne fait aucune différence avec un restaurant.
+
+---
+
+# Salon de thé
+
+Même fonctionnement.
+
+---
+
+# Buffet
+
+Même fonctionnement.
+
+---
+
+# Salon de coiffure
+
+Configuration :
+
+```text
+BookingMethod
+
+↓
+
+jour-et-creneau
+```
+
+Le moteur détecte des services réservables.
+
+Le formulaire devient :
+
+```text
+Choix du service
+
+↓
+
+Date
+
+↓
+
+Heure
+```
+
+Le nombre de personnes disparaît.
+
+---
+
+# Massage
+
+Même principe.
+
+Choix du service.
+
+Puis réservation.
+
+---
+
+# Tatouage
+
+Même principe.
+
+Possibilité d'ajouter plus tard :
+
+```text
+Choix du tatoueur
+```
+
+---
+
+# Hôtel
+
+BookingMethod :
+
+```text
+jour-seulement
+```
+
+Puis évolution future :
+
+```text
+Date arrivée
+
+↓
+
+Date départ
+
+↓
+
+Nombre de voyageurs
+```
+
+---
+
+# Parc d'attractions
+
+Deux possibilités.
+
+## Réservation d'accès
+
+```text
+jour-seulement
+```
+
+L'utilisateur choisit uniquement :
+
+- date
+- quantité
+
+---
+
+## Réservation d'attractions
+
+Chaque attraction devient un Equipment.
+
+Le moteur réserve alors :
+
+```text
+Equipment
+
+↓
+
+BCC
+
+↓
+
+Booking
+```
+
+---
+
+# Salle de sport
+
+Deux possibilités.
+
+Réserver :
+
+- une séance
+- un terrain
+- un cours
+
+Le Resolver choisit automatiquement.
+
+---
+
+# Terrain
+
+Réservation classique.
+
+```text
+Date
+
+↓
+
+Heure
+
+↓
+
+Durée
+```
+
+---
+
+# Parking
+
+Même fonctionnement.
+
+---
+
+# Salle
+
+Même fonctionnement.
+
+---
+
+# Experience
+
+Une Experience n'est jamais directement réservée.
+
+Le moteur passe toujours par :
+
+```text
+SCC
+
+↓
+
+Occurrence virtuelle
+
+↓
+
+Booking
+```
+
+ou
+
+```text
+Session
+
+↓
+
+Booking
+```
+
+---
+
+# Event
+
+Même logique.
+
+---
+
+# Animation
+
+Passe par :
+
+```text
+BCC
+```
+
+---
+
+# Priorité des données
+
+Le moteur utilise toujours la donnée la plus spécifique.
+
+Ordre :
+
+```text
+Utilisateur
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+BookingContent
+
+↓
+
+Objet
+
+↓
+
+Valeurs par défaut
+```
+
+Exemple capacité :
+
+```text
+BCC.capacity
+
+↓
+
+Equipment.capacity
+
+↓
+
+0
+```
+
+Exemple durée :
+
+```text
+BCC.duration
+
+↓
+
+Equipment.duration
+
+↓
+
+0
+```
+
+---
+
+# Priorité des configurations
+
+Pour Place :
+
+```text
+Place
+
+↓
+
+ElementAccessAndBookingConf
+
+↓
+
+BookingContent
+
+↓
+
+BCC
+```
+
+Pour Shop :
+
+```text
+Shop
+
+↓
+
+ElementAccessAndBookingConf
+
+↓
+
+BookingContent
+
+↓
+
+BCC
+```
+
+Pour Equipment :
+
+```text
+Equipment
+
+↓
+
+BookingContent
+
+↓
+
+BCC
+```
+
+Pour Experience :
+
+```text
+Experience
+
+↓
+
+ElementAccessAndBookingConf
+
+↓
+
+SessionConfiguration
+
+↓
+
+SCC
+```
+
+---
+
+# Affichage du bouton Réserver
+
+Le bouton est affiché uniquement si :
+
+```text
+Abonnement réservation actif
+
+↓
+
+BookingMethod compatible
+
+↓
+
+Configuration active
+
+↓
+
+Objet publiable
+```
+
+Sinon aucun moteur n'est affiché.
+
+---
+
+# Capacité
+
+La capacité ne doit jamais être calculée par le Front.
+
+Le Back calcule toujours :
+
+```text
+Capacité
+
+-
+
+Réservations existantes
+
+=
+
+Capacité restante
+```
+
+---
+
+# Réservation de groupe
+
+Le moteur doit accepter :
+
+```text
+quantity
+```
+
+Le calcul de disponibilité dépend de cette quantité.
+
+---
+
+# Réservation d'équipement
+
+Le moteur doit pouvoir réserver :
+
+- une table
+- une salle
+- un terrain
+- une terrasse
+- une chambre
+- un objet
+
+sans modifier le formulaire principal.
+
+---
+
+# Réservation de services
+
+Le moteur doit pouvoir réserver :
+
+- coiffure
+- massage
+- esthétique
+- tatouage
+- artisan
+- réparation
+- pressing
+
+Le formulaire affichera automatiquement les services disponibles.
+
+---
+
+# Privatisation
+
+Deux modes.
+
+## Equipment
+
+```text
+is_equipment_privatization
+```
+
+Exemple :
+
+Salle.
+
+Terrain.
+
+Terrasse.
+
+---
+
+## Lieu complet
+
+```text
+is_full_place_privatization
+```
+
+Exemple :
+
+Restaurant entier.
+
+Bar entier.
+
+Salle entière.
+
+---
+
+# Règles importantes
+
+Le Front ne calcule jamais :
+
+- capacité
+- disponibilité
+- conflits
+- horaires
+- créneaux
+
+Tout provient du Back.
+
+---
+
+# Ce que le Front fait
+
+Le Front :
+
+- demande la configuration
+- affiche les champs nécessaires
+- envoie le formulaire
+- affiche le résultat
+
+Rien de plus.
+
+---
+
+# Ce que le Back fait
+
+Le Back :
+
+- choisit BCC ou SCC
+- calcule les disponibilités
+- calcule la capacité
+- valide les données
+- crée la Booking
+- applique les règles métier
+
+---
+
+# Ce que le moteur ne doit jamais faire
+
+Ne jamais :
+
+- coder un cas particulier "restaurant"
+- coder un cas particulier "bar"
+- coder un cas particulier "salon de thé"
+- coder un cas particulier "coiffeur"
+
+Tous les comportements doivent venir des configurations.
+
+---
+
+# Architecture finale
+
+Le moteur est organisé ainsi :
+
+```text
+Objet
+
+↓
+
+BookingResolver
+
+↓
+
+ElementAccessAndBookingConf
+
+↓
+
+BookingMethod
+
+↓
+
+BookingContent
+ou
+SessionConfiguration
+
+↓
+
+BCC
+ou
+SCC
+
+↓
+
+AvailabilityResolver
+
+↓
+
+BookingValidator
+
+↓
+
+BookingCreator
+
+↓
+
+Booking
+
+↓
+
+Notifications futures
+```
+
+---
+
+# Principes fondateurs
+
+Le moteur doit toujours respecter les règles suivantes.
+
+## 1
+
+Un seul moteur de réservation pour tous les objets.
+
+---
+
+## 2
+
+Aucune logique métier dans le Front.
+
+---
+
+## 3
+
+Aucune logique spécifique aux restaurants, bars ou salons de thé.
+
+Tout est piloté par les configurations.
+
+---
+
+## 4
+
+Le moteur connaît uniquement :
+
+```text
+from_type
+
+from_id
+```
+
+---
+
+## 5
+
+Les Places, Shops, Equipments, Animations utilisent les BCC.
+
+---
+
+## 6
+
+Les Experiences et Events utilisent les SCC ou les Sessions.
+
+---
+
+## 7
+
+Une Session n'est jamais générée massivement.
+
+Une occurrence virtuelle est suffisante dans la majorité des cas.
+
+---
+
+## 8
+
+Une Session physique n'est créée que lorsqu'une occurrence devient spécifique ou doit être pilotée individuellement.
+
+---
+
+## 9
+
+Le moteur doit pouvoir évoluer sans modifier son architecture.
+
+Toutes les futures fonctionnalités (paiement, acompte, check-in, QR Code, synchronisation calendrier, rappels, statistiques...) devront pouvoir s'ajouter sous forme de nouvelles couches, sans réécrire le cœur du moteur.
+
+---
+
+# Objectif V0
+
+À la fin de cette première version, izilife devra disposer d'un moteur de réservation unique, configurable, multi-objet et réutilisable, capable de gérer les réservations de lieux, commerces, équipements, animations, expériences et événements avec une seule architecture, tout en restant suffisamment générique pour accompagner les évolutions futures sans remettre en cause les fondations du système.

@@ -1,0 +1,552 @@
+# Architecture du moteur
+
+Le moteur de réservation est découpé en plusieurs couches indépendantes.
+
+Chaque couche possède une responsabilité unique.
+
+L'objectif est de pouvoir faire évoluer une partie sans casser les autres.
+
+Architecture cible :
+
+```text
+Controller
+
+↓
+
+BookingResolver
+
+↓
+
+AvailabilityResolver
+
+↓
+
+BookingValidator
+
+↓
+
+BookingCreator
+
+↓
+
+BookingModel
+```
+
+---
+
+# BookingController
+
+Le contrôleur Booking est unique.
+
+Il ne contient aucune logique métier.
+
+Il :
+
+- reçoit les requêtes Ajax ;
+- valide les paramètres minimum ;
+- appelle les Resolvers ;
+- retourne une réponse JSON.
+
+Le contrôleur ne connaît jamais directement :
+
+- Place
+- Shop
+- Equipment
+- Experience
+- Event
+- Animation
+
+---
+
+# BookingResolver
+
+Le BookingResolver est le cœur du moteur.
+
+Son rôle est d'identifier ce qui doit être réservé.
+
+Entrée :
+
+```text
+from_type
+
+from_id
+```
+
+Sortie :
+
+```text
+type de réservation
+
+configuration
+
+objet cible
+
+source des disponibilités
+
+services
+
+équipements
+
+capacités
+
+durées
+
+privatisation
+```
+
+Il est responsable de choisir :
+
+```text
+BCC
+
+ou
+
+SCC
+```
+
+---
+
+# AvailabilityResolver
+
+L'AvailabilityResolver calcule toutes les disponibilités.
+
+Il ne crée jamais de Booking.
+
+Il répond uniquement à :
+
+```text
+Qu'est-il possible de réserver ?
+```
+
+Il calcule notamment :
+
+- jours ouverts ;
+- jours fermés ;
+- créneaux disponibles ;
+- créneaux complets ;
+- capacité restante ;
+- équipements réservables ;
+- services réservables.
+
+---
+
+# BookingValidator
+
+Avant toute création de Booking, le moteur valide :
+
+- objet existant ;
+- objet publiable ;
+- réservation autorisée ;
+- date valide ;
+- créneau valide ;
+- capacité disponible ;
+- durée valide ;
+- quantité valide ;
+- privatisation possible.
+
+Le Validator est le seul endroit où doivent être écrites les règles métier.
+
+---
+
+# BookingCreator
+
+Le BookingCreator ne calcule rien.
+
+Il reçoit un payload déjà validé.
+
+Il :
+
+- crée la Booking ;
+- renseigne le statut ;
+- crée les relations ;
+- déclenche les événements futurs.
+
+---
+
+# BookingModel
+
+Le modèle Booking ne doit contenir que :
+
+- CRUD
+- requêtes SQL
+- récupération de Booking
+- statistiques
+
+Toute logique métier reste dans les services.
+
+---
+
+# Payload standard
+
+Tous les objets utilisent exactement le même payload.
+
+```json
+{
+    "from_type": "place",
+    "from_id": 15,
+
+    "booking_date": "2026-06-01",
+
+    "booking_start_time": "20:00",
+
+    "booking_end_time": "22:00",
+
+    "booking_slot_id": 4,
+
+    "booking_conf_content_id": 12,
+
+    "session_conf_content_id": null,
+
+    "session_id": null,
+
+    "equipment_id": null,
+
+    "service_id": null,
+
+    "quantity": 4,
+
+    "notes": "Table calme"
+}
+```
+
+Le moteur ne fait aucune différence entre un Place ou un Shop.
+
+Tout passe par ce payload.
+
+---
+
+# Availability API
+
+Le Front doit d'abord appeler :
+
+```text
+booking/availability
+```
+
+Le Back renvoie :
+
+```json
+{
+    "success": true,
+
+    "booking_method": "jour-et-creneau",
+
+    "booking_source": "bcc",
+
+    "can_book": true,
+
+    "can_privatize": true,
+
+    "requires_service": false,
+
+    "requires_equipment": false,
+
+    "requires_time": true,
+
+    "requires_quantity": true,
+
+    "available_days": [],
+
+    "slots": [],
+
+    "equipments": [],
+
+    "services": []
+}
+```
+
+Le Front ne calcule jamais.
+
+Il affiche.
+
+---
+
+# Create API
+
+Deuxième endpoint :
+
+```text
+booking/create
+```
+
+Retour :
+
+```json
+{
+    "success": true,
+
+    "booking_unique_id": "...",
+
+    "status": "en-attente"
+}
+```
+
+---
+
+# Module Front
+
+Le Front doit rester totalement générique.
+
+Le même composant est utilisé partout.
+
+Il reçoit :
+
+```php
+from_type
+
+from_id
+```
+
+Puis il interroge l'API.
+
+Il adapte ensuite automatiquement l'interface.
+
+---
+
+# Champs affichés
+
+Le moteur affiche uniquement ce qui est nécessaire.
+
+Exemple :
+
+Restaurant
+
+```text
+Date
+
+↓
+
+Heure
+
+↓
+
+Nombre de personnes
+```
+
+---
+
+Salon de coiffure
+
+```text
+Choix du service
+
+↓
+
+Date
+
+↓
+
+Heure
+```
+
+---
+
+Terrain
+
+```text
+Date
+
+↓
+
+Heure
+
+↓
+
+Durée
+```
+
+---
+
+Parc
+
+```text
+Date
+```
+
+---
+
+Le composant ne doit jamais contenir plusieurs formulaires différents.
+
+Il masque simplement les champs inutiles.
+
+---
+
+# Services
+
+Le moteur doit pouvoir réserver un service.
+
+Exemple :
+
+```text
+Massage
+
+↓
+
+Service
+
+↓
+
+Date
+
+↓
+
+Heure
+```
+
+ou
+
+```text
+Tatouage
+
+↓
+
+Tatoueur
+
+↓
+
+Créneau
+```
+
+Le service devient simplement une donnée supplémentaire.
+
+---
+
+# Equipements
+
+Le moteur doit également pouvoir réserver :
+
+- une salle ;
+
+- un terrain ;
+
+- une table ;
+
+- une terrasse ;
+
+- une machine ;
+
+- un objet.
+
+L'équipement est traité comme une cible supplémentaire.
+
+---
+
+# Privatisation
+
+Le moteur doit proposer plusieurs modes.
+
+Exemple :
+
+```text
+Réserver une table
+
+Réserver une salle
+
+Privatiser une salle
+
+Privatiser tout le lieu
+```
+
+Ces modes sont pilotés par la configuration.
+
+Le Front ne doit rien coder en dur.
+
+---
+
+# Gestion des capacités
+
+La capacité est toujours calculée côté Back.
+
+Le calcul dépend :
+
+- de la configuration ;
+
+- des Booking existantes ;
+
+- de la date ;
+
+- du créneau ;
+
+- des privatisations.
+
+Le Front ne doit jamais recalculer une capacité.
+
+---
+
+# Conflits
+
+Le moteur doit être capable de détecter :
+
+- deux privatisations ;
+
+- deux réservations incompatibles ;
+
+- un équipement déjà réservé ;
+
+- une salle complète.
+
+Toutes ces vérifications sont faites avant la création de la Booking.
+
+---
+
+# Statut
+
+Toutes les nouvelles Bookings sont créées avec :
+
+```text
+en-attente
+```
+
+Le changement vers :
+
+```text
+confirmee
+```
+
+ou
+
+```text
+confirmee-automatiquement
+```
+
+sera effectué ultérieurement.
+
+---
+
+# Evolutions prévues
+
+Le moteur est conçu pour accueillir progressivement :
+
+- paiement intégré ;
+
+- acompte ;
+
+- caution ;
+
+- liste d'attente ;
+
+- QR Code ;
+
+- check-in ;
+
+- check-out ;
+
+- synchronisation Google Calendar ;
+
+- synchronisation Outlook ;
+
+- synchronisation iCal ;
+
+- notifications ;
+
+- rappels ;
+
+- SMS ;
+
+- e-mails ;
+
+- statistiques ;
+
+- validation automatique.
+
+Aucune de ces fonctionnalités ne doit nécessiter une réécriture du moteur.

@@ -1,0 +1,706 @@
+# SessionConfiguration et Session
+
+La gestion des Experiences et des Events est différente des Places, Shops ou Equipments.
+
+Contrairement à un restaurant, une Experience possède généralement des séances répétitives.
+
+Exemple :
+
+```text
+Cours de Yoga
+
+Tous les mercredis
+18h00
+```
+
+ou
+
+```text
+Projection cinéma
+
+Tous les jours
+20h30
+```
+
+Il est impossible de créer physiquement toutes les Sessions à l'avance.
+
+Exemple :
+
+```text
+50 000 Experiences
+
+×
+
+10 créneaux
+
+×
+
+365 jours
+
+=
+
+182 500 000 Sessions
+```
+
+Cette approche est impossible à maintenir.
+
+---
+
+# Philosophie retenue
+
+La SessionConfiguration décrit les occurrences possibles.
+
+La Session représente une occurrence physique.
+
+Une Booking peut réserver :
+
+- une occurrence virtuelle
+- une Session physique
+
+Le moteur doit gérer les deux.
+
+---
+
+# SessionConfigurationContent
+
+Une SCC décrit uniquement une règle.
+
+Exemple :
+
+```text
+Tous les mercredis
+
+18h00
+
+60 minutes
+
+20 personnes
+```
+
+Elle ne représente jamais une séance.
+
+Elle décrit uniquement comment générer une séance.
+
+---
+
+# Occurrence virtuelle
+
+Une occurrence virtuelle est calculée à partir :
+
+- SCC
+
+- date
+
+- heure
+
+Aucune ligne Session n'existe.
+
+Exemple :
+
+```text
+Experience
+
+↓
+
+SCC
+
+↓
+
+Samedi 12 juillet
+
+↓
+
+18h00
+
+↓
+
+Occurrence virtuelle
+```
+
+Le moteur peut réserver directement cette occurrence.
+
+---
+
+# Session
+
+Une Session représente une occurrence physique.
+
+Elle existe lorsqu'une occurrence doit être pilotée individuellement.
+
+Exemple :
+
+```text
+Cours Yoga
+
+12 juillet
+
+18h00
+
+Salle 3
+```
+
+Cette occurrence possède sa propre identité.
+
+---
+
+# Quand créer une Session ?
+
+Une Session ne doit pas être créée automatiquement.
+
+Elle est créée uniquement lorsqu'elle apporte une valeur métier.
+
+Exemples :
+
+- séance créée manuellement
+
+- séance exceptionnelle
+
+- changement d'horaire
+
+- changement de salle
+
+- changement de capacité
+
+- annulation d'une occurrence
+
+- remplacement d'un intervenant
+
+- pilotage BO spécifique
+
+- besoin de communication ciblée
+
+En dehors de ces cas, la réservation reste virtuelle.
+
+---
+
+# Réservation virtuelle
+
+Une Booking peut parfaitement exister sans Session.
+
+Elle pointe simplement vers :
+
+```text
+Experience
+
+↓
+
+SCC
+
+↓
+
+date
+
+↓
+
+heure
+```
+
+Cette approche permet de réserver des millions d'occurrences sans créer des millions de Sessions.
+
+---
+
+# Clé d'occurrence
+
+Chaque occurrence virtuelle est identifiée par :
+
+```text
+from_type
+
+from_id
+
+session_conf_content_id
+
+booking_date
+
+booking_start_time
+
+booking_end_time
+```
+
+Cette clé est suffisante pour identifier une séance virtuelle.
+
+Toutes les capacités sont calculées sur cette clé.
+
+---
+
+# Calcul des capacités
+
+Le moteur ne compte jamais uniquement les Session.
+
+Il compte toujours les Booking.
+
+Exemple :
+
+```text
+SCC
+
+↓
+
+date
+
+↓
+
+heure
+
+↓
+
+Booking
+```
+
+La capacité restante est donc :
+
+```text
+Capacité SCC
+
+-
+
+Nombre de Booking
+```
+
+Cette logique fonctionne avec ou sans Session.
+
+---
+
+# Booking
+
+Une Booking représente toujours une réservation utilisateur.
+
+Elle peut pointer vers :
+
+```text
+Place
+
+Shop
+
+Equipment
+
+Animation
+
+Experience
+
+Event
+```
+
+Mais une seule cible principale doit être définie.
+
+---
+
+# Booking sur Place
+
+Flux :
+
+```text
+Place
+
+↓
+
+BookingContent
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+Booking
+```
+
+---
+
+# Booking sur Shop
+
+Flux :
+
+```text
+Shop
+
+↓
+
+BookingContent
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+Booking
+```
+
+---
+
+# Booking sur Equipment
+
+Flux :
+
+```text
+Equipment
+
+↓
+
+BookingContent
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+Booking
+```
+
+---
+
+# Booking sur Animation
+
+Flux :
+
+```text
+Animation
+
+↓
+
+BookingContent
+
+↓
+
+BookingConfigurationContent
+
+↓
+
+Booking
+```
+
+---
+
+# Booking sur Experience
+
+Flux :
+
+```text
+Experience
+
+↓
+
+SessionConfigurationContent
+
+↓
+
+Occurrence virtuelle
+
+↓
+
+Booking
+```
+
+ou
+
+```text
+Experience
+
+↓
+
+Session
+
+↓
+
+Booking
+```
+
+---
+
+# Booking sur Event
+
+Même fonctionnement que Experience.
+
+---
+
+# Resolver
+
+Le moteur Booking ne connaît jamais les objets métier.
+
+Il appelle simplement un Resolver.
+
+Exemple :
+
+```text
+place
+
+↓
+
+BookingResolver
+
+↓
+
+BCC
+```
+
+```text
+shop
+
+↓
+
+BookingResolver
+
+↓
+
+BCC
+```
+
+```text
+experience
+
+↓
+
+BookingResolver
+
+↓
+
+SCC
+```
+
+Le contrôleur Booking reste donc totalement générique.
+
+---
+
+# Disponibilité
+
+Le Front ne calcule jamais les disponibilités.
+
+Le Front demande :
+
+```text
+availability()
+```
+
+Le Back renvoie :
+
+- jours disponibles
+
+- horaires
+
+- créneaux
+
+- capacité restante
+
+- durée
+
+- services
+
+- équipements
+
+- privatisation
+
+Le Front ne fait qu'afficher.
+
+---
+
+# Priorité des données
+
+Le moteur utilise toujours la donnée la plus spécifique.
+
+Ordre :
+
+```text
+BookingConfigurationContent
+
+↓
+
+Objet
+
+↓
+
+Valeur par défaut
+```
+
+Exemple Equipment :
+
+```text
+BCC.capacity
+
+↓
+
+Equipment.capacity
+```
+
+Exemple durée :
+
+```text
+BCC.duration
+
+↓
+
+Equipment.duration
+```
+
+---
+
+# Place et Shop
+
+Pour Place et Shop, la capacité et les horaires proviennent principalement de la BCC.
+
+Le moteur ne doit pas essayer de déduire une capacité directement depuis Place.
+
+---
+
+# Equipment
+
+Equipment peut compléter la configuration.
+
+Exemple :
+
+```text
+capacité
+
+durée
+
+durée minimum
+
+durée maximum
+
+privatisable
+```
+
+La BCC reste prioritaire.
+
+---
+
+# Animation
+
+Même principe.
+
+Si l'Animation ne possède pas suffisamment d'informations, la BCC fait foi.
+
+---
+
+# Réservation de services
+
+Tous les objets ne réservent pas une table.
+
+Exemples :
+
+Salon de coiffure
+
+Massage
+
+Tatouage
+
+Réparation
+
+Artisan
+
+Le moteur doit donc pouvoir réserver :
+
+- un lieu
+
+- un équipement
+
+- un service
+
+Le formulaire pourra afficher :
+
+```text
+Choix du service
+
+↓
+
+Date
+
+↓
+
+Heure
+
+↓
+
+Validation
+```
+
+Le champ :
+
+```text
+service_id
+```
+
+reste optionnel.
+
+---
+
+# Privatisation
+
+Deux modes sont prévus.
+
+## Privatisation d'un équipement
+
+Exemple :
+
+Salle
+
+Terrain
+
+Terrasse
+
+Salon privé
+
+Zone VIP
+
+La Booking sera créée avec :
+
+```text
+is_equipment_privatization = 1
+```
+
+---
+
+## Privatisation complète
+
+Exemple :
+
+Restaurant
+
+Bar
+
+Salle entière
+
+Lieu entier
+
+La Booking sera créée avec :
+
+```text
+is_full_place_privatization = 1
+```
+
+La validation reste manuelle.
+
+---
+
+# Validation
+
+Toutes les Bookings sont créées avec :
+
+```text
+en-attente
+```
+
+Le partenaire valide ensuite la demande.
+
+L'auto-confirmation sera ajoutée dans une version ultérieure.
+
+---
+
+# Ce que la V0 ne fait pas
+
+- paiement obligatoire
+
+- génération automatique de Session
+
+- gestion des exceptions SCC
+
+- remboursement
+
+- listes d'attente
+
+- synchronisation calendrier
+
+- validation automatique
+
+Ces fonctionnalités seront ajoutées progressivement sans modifier l'architecture du moteur.

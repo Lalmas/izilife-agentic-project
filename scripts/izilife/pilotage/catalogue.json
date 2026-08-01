@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "agents": {
+    "lieux-collecte": {"label": "Chasseur de lieux — collecte Maps vers Sheet", "group": "Lieux", "script": "places/chasseur_lieux.py", "scope": ["zone", "city"], "arguments": ["--collect-only"], "limit_option": "--max-per-cat", "duration_option": "--max-duration", "default_limit": 40, "default_duration_minutes": 60, "schedule": "quotidien"},
+    "lieux-insertion": {"label": "Chasseur de lieux — insertion Sheet vers iziLife", "group": "Lieux", "script": "places/chasseur_lieux.py", "scope": ["zone", "city"], "arguments": ["--insert-only"], "schedule": "apres-collecte"},
+    "lieux-import-manuel": {"label": "Import manuel de lieux", "group": "Lieux", "script": "places/createur_lieux.py", "scope": ["zone", "city"], "schedule": "a-la-demande"},
+    "lieux-enrichisseur": {"label": "Améliorateur Place et Shop", "group": "Lieux", "script": "places/enrichisseur.py", "scope": ["zone", "city"], "limit_option": "--max", "default_limit": 10, "schedule": "quotidien"},
+
+    "events-facebook": {"label": "Événements Facebook", "group": "Événements", "script": "events/facebook_scraper.py", "scope": ["city"], "limit_option": "--max-events", "default_limit": 5, "schedule": "quotidien"},
+    "events-shotgun": {"label": "Événements Shotgun", "group": "Événements", "script": "events/shotgun_scraper.py", "scope": ["city"], "limit_option": "--pages", "default_limit": 1, "schedule": "quotidien"},
+    "events-eventbrite": {"label": "Événements Eventbrite", "group": "Événements", "script": "events/eventbrite_scraper.py", "scope": ["zone", "city"], "limit_option": "--pages", "default_limit": 1, "schedule": "quotidien"},
+    "events-meetup": {"label": "Événements Meetup", "group": "Événements", "script": "events/meetup_scraper.py", "scope": ["zone", "city"], "limit_option": "--pages", "default_limit": 1, "schedule": "quotidien"},
+    "events-helloasso": {"label": "Événements HelloAsso", "group": "Événements", "script": "events/helloasso_scraper.py", "scope": ["zone", "city"], "limit_option": "--pages", "default_limit": 1, "schedule": "quotidien"},
+    "events-billetweb": {"label": "Événements Billetweb", "group": "Événements", "script": "events/billetweb_scraper.py", "scope": ["zone", "city"], "limit_option": "--pages", "default_limit": 1, "schedule": "quotidien"},
+    "events-lien": {"label": "Import d'un lien événement", "group": "Événements", "script": "events/link_scraper.py", "scope": ["city"], "required_inputs": ["url"], "schedule": "a-la-demande"},
+    "events-fichier-manuel": {"label": "Fichier manuel d'événements", "group": "Événements", "script": "events/ingest_manual_curate.py", "scope": ["zone", "city"], "schedule": "a-la-demande"},
+    "events-envoi-sources": {"label": "Envoi des sources collectées", "group": "Traitement événements", "script": "events/send_sources.py", "scope": ["city"], "schedule": "apres-collecte"},
+    "events-images": {"label": "Traitement des images événements", "group": "Traitement événements", "script": "events/event_images.py", "scope": ["city"], "schedule": "apres-collecte"},
+
+    "pages": {"label": "Pages et organisateurs", "group": "Objets", "script": "objects/agent_pages.py", "scope": ["zone"], "arguments": ["--collect"], "limit_option": "--max", "default_limit": 20, "schedule": "hebdomadaire"},
+    "experiences": {"label": "Expériences", "group": "Objets", "script": "objects/agent_experiences.py", "scope": ["zone"], "arguments": ["--collect"], "limit_option": "--max", "default_limit": 10, "schedule": "hebdomadaire"},
+    "liens": {"label": "Liens des objets", "group": "Objets", "script": "objects/agent_links.py", "scope": ["zone"], "limit_option": "--max", "default_limit": 50, "schedule": "hebdomadaire"},
+    "ambiances-medias": {"label": "Contenus et médias externes", "group": "Objets", "script": "objects/agent_external_media.py", "scope": ["zone"], "limit_option": "--max", "default_limit": 50, "schedule": "hebdomadaire"},
+    "circuits": {"label": "Circuits", "group": "Objets", "script": "objects/agent_circuits.py", "scope": ["zone"], "arguments": ["--collect"], "limit_option": "--max", "default_limit": 10, "schedule": "mensuel"},
+    "habitudes-locales": {"label": "Habitudes locales", "group": "Objets", "script": "objects/agent_local_habits.py", "scope": ["zone"], "arguments": ["--insert"], "limit_option": "--max", "default_limit": 20, "schedule": "mensuel"},
+    "conseils-locaux": {"label": "Conseils locaux", "group": "Objets", "script": "objects/agent_local_tips.py", "scope": ["zone"], "arguments": ["--insert"], "limit_option": "--max", "default_limit": 20, "schedule": "mensuel"},
+    "idees-sorties": {"label": "Idées de sorties", "group": "Objets", "script": "objects/agent_outing_ideas.py", "scope": ["zone"], "arguments": ["--insert"], "limit_option": "--max", "default_limit": 20, "schedule": "mensuel"},
+    "offres-speciales": {"label": "Offres spéciales + avantage associé", "group": "Offres", "script": "offers/special_offer.py", "scope": ["zone"], "limit_option": "--max", "default_limit": 100, "schedule": "a-la-demande"},
+    "avantages-abonnements": {"label": "Avantages des abonnements iziLife", "group": "Offres", "script": "offers/izilife_subscription_benefit.py", "scope": ["zone"], "limit_option": "--max", "default_limit": 100, "schedule": "a-la-demande"},
+    "promotions": {"label": "Promotions Dealabs", "group": "Promotions", "script": "deals/dealabs_scraper.py", "scope": ["city"], "schedule": "quotidien"},
+    "community-manager": {"label": "Préparation des contenus sociaux", "group": "Social", "script": "social/cm_izilife.py", "scope": ["zone"], "schedule": "hebdomadaire"},
+    "territoires-geographie": {"label": "Classification littoral, montagne, village et rural", "group": "Territoires", "script": "geography/classificateur_territoires.py", "scope": ["country"], "limit_option": "--limit", "default_limit": 0, "schedule": "annuel"}
+  },
+  "suites": {
+    "evenements-collecte": ["events-facebook", "events-shotgun", "events-eventbrite", "events-meetup", "events-helloasso", "events-billetweb"],
+    "evenements-traitement": ["events-envoi-sources", "events-images"],
+    "lieux-quotidien": ["lieux-collecte", "lieux-insertion", "lieux-enrichisseur"],
+    "objets-hebdomadaire": ["pages", "experiences", "liens", "ambiances-medias"],
+    "zone-quotidienne": ["lieux-collecte", "lieux-insertion", "events-facebook", "events-shotgun", "events-eventbrite", "events-meetup", "events-helloasso", "events-billetweb", "events-envoi-sources", "events-images", "lieux-enrichisseur"],
+    "hebdomadaire-all": ["lieux-collecte", "lieux-insertion", "events-facebook", "events-shotgun", "events-eventbrite", "events-meetup", "events-helloasso", "events-billetweb", "events-envoi-sources", "events-images", "lieux-enrichisseur", "pages", "experiences", "liens", "ambiances-medias", "promotions", "community-manager"]
+  },
+  "zone_rotation": {"enabled": false, "zones_per_day": 1, "note": "Future rotation locale d'une ou deux zones par jour. Désactivée pendant les tests."},
+  "planning": [
+    {"frequency": "hors-planning", "jobs": ["Webhooks Stripe front et admin", "Callbacks onboarding Stripe"], "note": "Ils ne bougent pas et ne sont jamais lancés par le pilote local."},
+    {"frequency": "phase-de-demarrage", "jobs": ["PC local : hebdomadaire-all par zone", "Serveur : scraping:run pour les hubs", "Serveur : events:run-recurrences"], "note": "Un passage complet par semaine. Le PC local et le serveur restent deux systèmes séparés."},
+    {"frequency": "quotidien-nuit", "jobs": ["zone-quotidienne", "promotions", "events:run-recurrences", "newsletter:send-due-reminders"], "note": "Par zone, avec durée maximale et rapport au réveil."},
+    {"frequency": "hebdomadaire", "jobs": ["objets-hebdomadaire", "newsletter:send-weekly-digests", "community-manager"], "note": "Après validation des données quotidiennes."},
+    {"frequency": "mensuel", "jobs": ["circuits", "habitudes-locales", "conseils-locaux", "idees-sorties", "contrôle doublons et complétude"], "note": "Maintenance éditoriale et qualité."},
+    {"frequency": "debut-de-saison", "jobs": ["calendrier saisonnier", "sports et compétitions", "escapades", "terrasses/plages/montagne", "rentrée des cours et activités"], "note": "À préparer avant chaque saison, avec dates configurables."},
+    {"frequency": "avant-vacances", "jobs": ["vacances scolaires par zone", "jours fériés", "ponts", "sélections famille", "campagnes draft"], "note": "Lancer plusieurs semaines avant chaque période."},
+    {"frequency": "annuel", "jobs": ["calendar:run", "création des éditions annuelles", "célébrations annuelles", "calendriers sportifs"], "note": "Préparation de l'année suivante, puis contrôle humain."},
+    {"frequency": "a-la-demande", "jobs": ["lieux-import-manuel", "events-lien", "events-fichier-manuel"], "note": "Déclenché quand un fichier ou un lien est fourni."}
+  ]
+}

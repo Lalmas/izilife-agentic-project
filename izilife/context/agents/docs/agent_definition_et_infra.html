@@ -1,0 +1,110 @@
+
+<style>
+.card { background:var(--color-background-primary); border:0.5px solid var(--color-border-tertiary); border-radius:var(--border-radius-lg); padding:14px 16px; margin-bottom:12px; }
+.section-label { font-size:11px; font-weight:500; color:var(--color-text-secondary); text-transform:uppercase; letter-spacing:.06em; margin:18px 0 8px; }
+.row { display:flex; gap:8px; align-items:flex-start; padding:5px 0; border-top:0.5px solid var(--color-border-tertiary); font-size:12px; color:var(--color-text-secondary); line-height:1.5; }
+.row:first-of-type { border-top:none; }
+.row i { font-size:14px; flex-shrink:0; margin-top:1px; }
+.yes { color:var(--color-text-success); }
+.no { color:var(--color-text-danger); }
+.pill { font-size:11px; padding:2px 8px; border-radius:20px; border:0.5px solid; white-space:nowrap; display:inline-block; margin-left:4px; vertical-align:middle; }
+.pill-ok { background:#EAF3DE; color:#3B6D11; border-color:#C0DD97; }
+.pill-warn { background:#FAEEDA; color:#854F0B; border-color:#FAC775; }
+.pill-no { background:#FCEBEB; color:#A32D2D; border-color:#F7C1C1; }
+.agent-def { background:var(--color-background-secondary); border-left:3px solid var(--color-border-info); padding:10px 14px; border-radius:0 var(--border-radius-md) var(--border-radius-md) 0; font-size:13px; color:var(--color-text-primary); margin-bottom:12px; }
+.tier { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:8px; }
+.tier-box { background:var(--color-background-secondary); border-radius:var(--border-radius-md); padding:10px 12px; }
+.tier-title { font-size:13px; font-weight:500; color:var(--color-text-primary); margin-bottom:4px; }
+.tier-item { font-size:11px; color:var(--color-text-secondary); padding:2px 0; display:flex; gap:5px; }
+.infra-layer { border-radius:var(--border-radius-md); padding:10px 14px; margin-bottom:8px; }
+.layer-1 { background:#EAF3DE; border:0.5px solid #C0DD97; }
+.layer-2 { background:#E6F1FB; border:0.5px solid #B5D4F4; }
+.layer-3 { background:#EEEDFE; border:0.5px solid #CECBF6; }
+.layer-4 { background:#FAEEDA; border:0.5px solid #FAC775; }
+.layer-title { font-size:13px; font-weight:500; }
+.layer-items { font-size:11px; color:var(--color-text-secondary); margin-top:4px; line-height:1.6; }
+</style>
+
+<h2 class="sr-only">Définition d'un agent et image mentale de l'infra finale</h2>
+<div style="padding:1rem 0">
+
+<div class="section-label">Un agent c'est quoi ?</div>
+<div class="agent-def">
+Un agent = un programme qui reçoit un objectif, décide lui-même des étapes pour l'atteindre, exécute des actions dans le monde réel, et boucle jusqu'au résultat. Ce n'est pas un format de fichier ou un outil précis — c'est une architecture.
+</div>
+
+<div class="card">
+  <div style="font-size:13px;font-weight:500;margin-bottom:10px;color:var(--color-text-primary)">Les 4 ingrédients d'un agent</div>
+  <div class="row"><i class="ti ti-brain yes"></i><div><strong style="color:var(--color-text-primary)">Un LLM qui décide</strong> — Claude API, GPT, Mistral. Il reçoit un objectif + contexte, il choisit quoi faire.</div></div>
+  <div class="row"><i class="ti ti-tool yes"></i><div><strong style="color:var(--color-text-primary)">Des outils (tools)</strong> — actions que le LLM peut déclencher : appel API, lire un fichier, écrire en BDD, envoyer un message, naviguer sur une page.</div></div>
+  <div class="row"><i class="ti ti-refresh yes"></i><div><strong style="color:var(--color-text-primary)">Une boucle</strong> — il agit, observe le résultat, décide de la prochaine action, jusqu'à objectif atteint ou erreur.</div></div>
+  <div class="row"><i class="ti ti-database yes"></i><div><strong style="color:var(--color-text-primary)">Un état / mémoire</strong> — ce qu'il sait déjà (BDD, fichier JSON, Google Sheets). Pas la mémoire interne de Claude — c'est TOI qui la gères.</div></div>
+</div>
+
+<div class="card">
+  <div style="font-size:13px;font-weight:500;margin-bottom:10px;color:var(--color-text-primary)">Tes agents aujourd'hui — tu en as déjà !</div>
+  <div class="tier">
+    <div class="tier-box">
+      <div class="tier-title">Script PHP + Claude API</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>C'est un agent simple</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Objectif : enrichir un lieu</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Outil : appel API Perplexity/Google</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Boucle : cron chaque nuit</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>État : JSON en BDD</div>
+    </div>
+    <div class="tier-box">
+      <div class="tier-title">Cowork + Chrome</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Agent aussi</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Objectif : scraper Instagram</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Outil : navigateur</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>Boucle : scroll jusqu'à fin de page</div>
+      <div class="tier-item"><i class="ti ti-check" style="color:var(--color-text-success);font-size:12px"></i>État : fichiers HTML sur disque</div>
+    </div>
+  </div>
+  <div style="font-size:12px;color:var(--color-text-secondary);background:var(--color-background-secondary);padding:8px 10px;border-radius:var(--border-radius-md)">
+    Un .md de prompt système c'est juste la description du rôle et des règles de l'agent — c'est utile pour Claude Code mais ce n'est pas ce qui "fait" un agent.
+  </div>
+</div>
+
+<div class="section-label">N8N, Dust — faut-il en avoir ?</div>
+
+<div class="card">
+  <div class="row"><i class="ti ti-x no"></i><div><strong style="color:var(--color-text-primary)">N8N</strong> — orchestrateur de workflows visuels. Utile si tu veux connecter des services sans coder (Gmail → Sheets → Slack). Dans ton cas tu codes déjà en PHP, les webhooks tu les fais toi-même. N8N = couche supplémentaire sans valeur réelle pour toi pour l'instant.</div></div>
+  <div class="row"><i class="ti ti-x no"></i><div><strong style="color:var(--color-text-primary)">Dust</strong> — plateforme d'agents d'entreprise. Trop cher, trop opinionated, fait pour des équipes pas pour un solo founder.</div></div>
+  <div class="row"><i class="ti ti-check yes"></i><div><strong style="color:var(--color-text-primary)">Ce dont tu as besoin à la place</strong> — un orchestrateur maison léger : un script PHP central qui planifie et déclenche tes agents. Simple, sous ton contrôle, 0 abonnement.</div></div>
+</div>
+
+<div class="section-label">Image mentale — l'infra finale sur ton PC à la maison</div>
+
+<div class="infra-layer layer-1">
+  <div class="layer-title" style="color:#3B6D11">Couche 0 — Hardware (ton PC fixe à la maison)</div>
+  <div class="layer-items">Ubuntu ou Windows + WSL2 · Docker Compose · accès SSH depuis partout · IP fixe OVH ou DynDNS</div>
+</div>
+
+<div class="infra-layer layer-2">
+  <div class="layer-title" style="color:#185FA5">Couche 1 — Données & état (le cerveau persistant)</div>
+  <div class="layer-items">MySQL izilife local + replica · Google Sheets hub (planning éditorial, files d'attente agents) · Fichiers JSON /data/agents/ · Redis pour les queues légères</div>
+</div>
+
+<div class="infra-layer layer-3">
+  <div class="layer-title" style="color:#534AB7">Couche 2 — Orchestrateur (le chef d'orchestre)</div>
+  <div class="layer-items">Script PHP central (ou Python) · Cron jobs planifiés · File de tâches : lieu à enrichir, event à processer, post à générer · Déclenche les agents au bon moment, log tout</div>
+</div>
+
+<div class="infra-layer layer-4">
+  <div class="layer-title" style="color:#854F0B">Couche 3 — Les agents (les exécutants)</div>
+  <div class="layer-items">
+    Agent enrichissement : PHP → Google Places API → Claude API (analyse diff) → _tmp<br>
+    Agent curation events : Cowork (scroll) → PHP parse HTML → Claude API (OCR flyers) → _tmp<br>
+    Agent WhatsApp : webhook → PHP → Claude API → _tmp<br>
+    Agent réseaux : PHP → Claude API (génération) → Cowork ou Buffer API (publication)<br>
+    Agent blog : PHP cron RSS → Claude API (rédaction) → WordPress API<br>
+    Agent WordPress clients : Claude Code (SSH) → Git → deploy OVH
+  </div>
+</div>
+
+<div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:10px 14px;font-size:12px;color:var(--color-text-secondary);margin-top:4px;">
+  <strong style="color:var(--color-text-primary)">Ce que Claude in Chrome & Cowork font dans cette infra :</strong> ils sont des outils des agents de la couche 3 — quand un agent a besoin d'un navigateur humain pour une page dynamique, il délègue à Claude in Chrome. Cowork pour les publications. Tout le reste = scripts PHP directs.
+</div>
+
+</div>

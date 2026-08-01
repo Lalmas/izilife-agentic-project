@@ -1,0 +1,174 @@
+
+<style>
+.rp-phase { margin-bottom: 18px; }
+.rp-phase-header { display: flex; align-items: center; gap: 10px; padding: 8px 14px; border-radius: var(--border-radius-md); margin-bottom: 10px; }
+.rp-phase-1 { background: var(--color-background-danger); }
+.rp-phase-2 { background: var(--color-background-warning); }
+.rp-phase-3 { background: var(--color-background-info); }
+.rp-phase-title { font-size: 14px; font-weight: 500; }
+.rp-phase-sub { font-size: 12px; opacity: .7; }
+.rp-item { display: flex; gap: 10px; align-items: flex-start; padding: 9px 12px; background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-md); margin-bottom: 7px; cursor: pointer; transition: background .15s; }
+.rp-item:hover { background: var(--color-background-secondary); }
+.rp-num { font-size: 13px; font-weight: 500; color: var(--color-text-secondary); min-width: 20px; margin-top: 1px; }
+.rp-body { flex: 1; }
+.rp-name { font-size: 14px; font-weight: 500; color: var(--color-text-primary); }
+.rp-why { font-size: 12px; color: var(--color-text-secondary); margin-top: 2px; line-height: 1.4; }
+.rp-tools { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
+.rp-chip { font-size: 11px; padding: 2px 7px; border-radius: 20px; border: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); color: var(--color-text-secondary); }
+.rp-chip-free { background: #EAF3DE; color: #3B6D11; border-color: #C0DD97; }
+.rp-chip-warn { background: #FAEEDA; color: #854F0B; border-color: #FAC775; }
+.budget-note { font-size: 12px; padding: 8px 14px; background: var(--color-background-secondary); border-radius: var(--border-radius-md); color: var(--color-text-secondary); margin-bottom: 14px; display: flex; gap: 8px; align-items: flex-start; }
+</style>
+
+<h2 class="sr-only">Roadmap priorisée avec contraintes budget</h2>
+<div style="padding: 1rem 0">
+
+<div class="budget-note">
+  <i class="ti ti-info-circle" style="font-size:16px;color:var(--color-text-info);flex-shrink:0;margin-top:1px" aria-hidden="true"></i>
+  <span><strong style="color:var(--color-text-primary)">Logique :</strong> les chips <span style="background:#EAF3DE;color:#3B6D11;border:0.5px solid #C0DD97;padding:1px 6px;border-radius:10px;font-size:11px">0 token</span> passent en premier — ils ne consomment rien de ton quota Pro 20€. Réserve Claude pour la valeur ajoutée pure.</span>
+</div>
+
+<div class="rp-phase">
+  <div class="rp-phase-header rp-phase-1">
+    <i class="ti ti-flame" style="font-size:18px;color:var(--color-text-danger)" aria-hidden="true"></i>
+    <span class="rp-phase-title" style="color:var(--color-text-danger)">Phase 1 — Maintenant (Pro 20€)</span>
+    <span class="rp-phase-sub" style="color:var(--color-text-danger)">Cash & goulets à résoudre</span>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire le script PHP pour parser les sources HTML Instagram et injecter en _tmp_events ?')">
+    <span class="rp-num">1</span>
+    <div class="rp-body">
+      <div class="rp-name">Agent curateur events (Cowork + script PHP)</div>
+      <div class="rp-why">Ton plus gros goulet. Cowork scrolle/sauvegarde sources HTML → script PHP parse → _tmp → tu valides. Claude appelé uniquement sur OCR flyers ambigus.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Script PHP 0 token</span><span class="rp-chip rp-chip-warn">Cowork (scroll)</span><span class="rp-chip">Claude API (OCR ponctuel)</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire le channel WhatsApp partenaires pour que les lieux envoient leurs flyers et que ça déclenche une injection automatique ?')">
+    <span class="rp-num">2</span>
+    <div class="rp-body">
+      <div class="rp-name">WhatsApp partenaires → injection events</div>
+      <div class="rp-why">Lieu envoie flyer/lien dans le channel → webhook WhatsApp Business API → script PHP → OCR si image → _tmp. Zéro friction pour le partenaire, zéro action manuelle pour toi.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">WhatsApp Business API</span><span class="rp-chip rp-chip-free">Script PHP webhook</span><span class="rp-chip">Claude API OCR si flyer</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment monter une petite agence com réseaux sociaux pour clients avec mon abonnement Pro 20€ et Cowork ?')">
+    <span class="rp-num">3</span>
+    <div class="rp-body">
+      <div class="rp-name">Réseaux sociaux clients (agence) + izilife</div>
+      <div class="rp-why">Monétisable dès maintenant. Google Sheets planning → Claude génère posts → Cowork publie. Même pipeline répliqué par client. À 200€/client/mois × 5 clients = finance tout le reste.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Google Sheets planning</span><span class="rp-chip">Claude API génération</span><span class="rp-chip rp-chip-warn">Cowork publication</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire le pipeline RSS PHP + Google Sheets pour le blog izilife sans consommer de tokens ?')">
+    <span class="rp-num">4</span>
+    <div class="rp-body">
+      <div class="rp-name">Blog izilife — pipeline RSS</div>
+      <div class="rp-why">Quick win. Script PHP cron → fetch RSS → Sheets. Zéro token. Claude intervient uniquement pour rédiger l'article final depuis le brief déjà préparé.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Script PHP cron</span><span class="rp-chip rp-chip-free">Google Sheets hub</span><span class="rp-chip">Claude rédaction (ponctuel)</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire le premier site WordPress client avec Claude Code, Git et déploiement OVH ?')">
+    <span class="rp-num">5</span>
+    <div class="rp-body">
+      <div class="rp-name">Premier site WordPress client (Claude Code)</div>
+      <div class="rp-why">Revenu direct. Claude Code local → SSH OVH → Git. Template réutilisable pour accélérer les suivants.</div>
+      <div class="rp-tools"><span class="rp-chip">Claude Code (Pro inclus)</span><span class="rp-chip rp-chip-free">Git/GitHub</span><span class="rp-chip rp-chip-free">SSH OVH</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="rp-phase">
+  <div class="rp-phase-header rp-phase-2">
+    <i class="ti ti-trending-up" style="font-size:18px;color:var(--color-text-warning)" aria-hidden="true"></i>
+    <span class="rp-phase-title" style="color:var(--color-text-warning)">Phase 2 — Dans 4-8 semaines</span>
+    <span class="rp-phase-sub" style="color:var(--color-text-warning)">Quand phase 1 tourne + premiers revenus</span>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire l'agent enrichissement lieux avec script PHP + API Perplexity direct, 40 lieux par jour en cron ?')">
+    <span class="rp-num">6</span>
+    <div class="rp-body">
+      <div class="rp-name">Enrichissement lieux (script PHP + Perplexity API)</div>
+      <div class="rp-why">Cron nuit → 40 lieux → recherche Perplexity → compare BDD → _tmp à valider. ~20$/mois Perplexity. Pas de Cowork, pas de tokens Claude sur le volume.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">PHP cron</span><span class="rp-chip rp-chip-warn">Perplexity API ~20$/mois</span><span class="rp-chip">Claude analyse diff (ponctuel)</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire l'agent exploration ville pour trouver les lieux manquants sur izilife ?')">
+    <span class="rp-num">7</span>
+    <div class="rp-body">
+      <div class="rp-name">Exploration ville — lieux manquants</div>
+      <div class="rp-why">Ville cible → scrape Google Maps + Pages Jaunes → rapport diff → postFetchAndStoreOnePlace() sur les manquants validés.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Script PHP</span><span class="rp-chip rp-chip-warn">Google Places API (payant)</span><span class="rp-chip">Claude rapport</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item" onclick="sendPrompt('Comment construire l'agent flyers campagne terrain avec QR code dynamique et Canva ?')">
+    <span class="rp-num">8</span>
+    <div class="rp-body">
+      <div class="rp-name">Flyers & campagnes terrain</div>
+      <div class="rp-why">Ville remplie → flyer général + flyers lieux spécifiques avec QR dynamique. Claude in Chrome remplit le template Canva, exporte PDF.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-warn">Claude in Chrome</span><span class="rp-chip rp-chip-free">Canva (gratuit)</span><span class="rp-chip rp-chip-free">QR code API libre</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item">
+    <span class="rp-num">9</span>
+    <div class="rp-body">
+      <div class="rp-name">Agent happy hours & codes promos</div>
+      <div class="rp-why">Scrape sites bars/restos + influenceurs. Injection _tmp_promos. Tes propres promos négociées = formulaire guidé → validation → prod.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Script PHP scraping</span><span class="rp-chip">Claude extraction</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="rp-phase">
+  <div class="rp-phase-header rp-phase-3">
+    <i class="ti ti-rocket" style="font-size:18px;color:var(--color-text-info)" aria-hidden="true"></i>
+    <span class="rp-phase-title" style="color:var(--color-text-info)">Phase 3 — Max 200€ ou revenus agence</span>
+    <span class="rp-phase-sub" style="color:var(--color-text-info)">Full auto, volume, qualité supérieure</span>
+  </div>
+
+  <div class="rp-item">
+    <span class="rp-num">10</span>
+    <div class="rp-body">
+      <div class="rp-name">Enrichissement lieux via Claude in Chrome (remplace Cowork)</div>
+      <div class="rp-why">Navigation réelle, sites dynamiques, TripAdvisor, Instagram. Meilleure qualité que Perplexity seul. Inclus dans Max 200€.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-warn">Claude in Chrome (Max inclus)</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item">
+    <span class="rp-num">11</span>
+    <div class="rp-body">
+      <div class="rp-name">Dashboard pilotage izilife automatique</div>
+      <div class="rp-why">Script extraction KPIs BDD → rapport hebdo → recommandations Claude.</div>
+      <div class="rp-tools"><span class="rp-chip rp-chip-free">Script PHP/Python</span><span class="rp-chip">Claude analyse</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item">
+    <span class="rp-num">12</span>
+    <div class="rp-body">
+      <div class="rp-name">Quiz / blind tests / gamification contenu</div>
+      <div class="rp-why">Génération questions sur lieux et events. Enrichissement engagement app.</div>
+      <div class="rp-tools"><span class="rp-chip">Claude API</span><span class="rp-chip rp-chip-free">BDD izilife</span></div>
+    </div>
+  </div>
+
+  <div class="rp-item">
+    <span class="rp-num">13</span>
+    <div class="rp-body">
+      <div class="rp-name">Agent traduction multilingue fiches</div>
+      <div class="rp-why">Parcourt les fiches, génère traductions, insertion contrôlée. Priorité basse mais fort impact à l'international.</div>
+      <div class="rp-tools"><span class="rp-chip">Claude API batch</span></div>
+    </div>
+  </div>
+
+</div>
+</div>

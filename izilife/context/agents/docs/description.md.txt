@@ -1,0 +1,251 @@
+Oui. Ton projet s’articule autour d’un écosystème d’agents spécialisés branchés autour de ton application, avec une logique très pragmatique :
+
+## Architecture générale
+
+Tu ne veux pas :
+
+* un “super agent magique” ;
+* donner la prod entière à une IA ;
+* laisser un LLM publier directement.
+
+Tu veux :
+
+* des agents spécialisés ;
+* cloisonnés ;
+* supervisés ;
+* alimentant des tables temporaires ;
+* avec validation humaine finale.
+
+Tu as choisi :
+
+* comptes de service ;
+* scopes limités ;
+* blocage global des comptes agents sur l’UI humaine ;
+* accès uniquement à certaines méthodes autorisées.
+
+## Ton architecture actuelle
+
+Tu as déjà :
+
+* tables `_tmp` ;
+* pipelines scraping ;
+* validation humaine ;
+* scripts d’import ;
+* Google Places ;
+* enrichissement ;
+* gestion des doublons ;
+* hubs de sources.
+
+Donc ton système est déjà semi-agentique.
+
+## Ce que tu veux construire
+
+### 1. Agent curateur d’events (priorité absolue)
+
+Objectif :
+remplacer le travail manuel de recherche Facebook / Instagram / Shotgun.
+
+Fonctionnement :
+
+* humain + agent travaillent sur la même queue ;
+* Google Sheet ultra simple ;
+* URLs uniquement ;
+* Cowork traite :
+
+  * URLs ;
+  * screenshots ;
+  * images ;
+  * OCR ;
+  * injection `_tmp`.
+
+Puis :
+
+* curation autonome limitée ;
+* découverte d’events ;
+* détection doublons.
+
+Instagram :
+
+* gestion des carousels ;
+* détection agendas ;
+* extraction multi-events.
+
+### 2. Agent enrichissement lieux
+
+Mission :
+
+* chercher infos manquantes ;
+* descriptions ;
+* photos ;
+* ambiance ;
+* tags ;
+* happy hours ;
+* équipements ;
+* fermeture définitive ;
+* Google seulement si nécessaire.
+
+Pas de modification directe prod.
+
+### 3. Agent création / découverte lieux
+
+Mission :
+
+* rechercher lieux absents ;
+* vérifier existence ;
+* proposer création ;
+* utiliser :
+
+  * Google ;
+  * web ;
+  * réseaux ;
+  * données locales.
+
+Utilisation de :
+
+```php
+postFetchAndStoreOnePlace()
+```
+
+avec scope :
+
+```text
+place_tmp:fetch_or_create
+```
+
+### 4. Agent traduction
+
+Mission :
+
+* parcourir fiches ;
+* générer traductions ;
+* SQL ou insertion contrôlée ;
+* enrichissement multilingue.
+
+### 5. Agent blogging / recherche
+
+Mission :
+
+* trouver sources ;
+* chiffres ;
+* articles ;
+* contradictions ;
+* résumés ;
+* angles éditoriaux.
+
+### 6. Agent WordPress / clients
+
+Plus tard :
+
+* maintenance ;
+* mises à jour ;
+* génération ;
+* gestion multi-clients ;
+* plugins ;
+* contenu.
+
+### 7. Agents événements / quiz / blind tests
+
+Mission :
+
+* trouver questions ;
+* enrichir contenu ;
+* générer variantes.
+
+## Ta philosophie sécurité
+
+Tu refuses :
+
+* accès complet DB ;
+* accès complet code ;
+* secrets ;
+* `.env` ;
+* publication directe ;
+* suppression directe.
+
+Tu veux :
+
+* staging ;
+* compte service ;
+* scopes ;
+* logs ;
+* permissions minimales ;
+* validation humaine.
+
+## Décisions techniques prises
+
+### Comptes de service
+
+Dans `Employee` :
+
+```sql
+is_service_account
+service_account_type
+service_scopes
+last_service_use_at
+```
+
+### Session
+
+Tu gardes :
+
+```php
+logged_in = TRUE
+```
+
+mais :
+
+* filtre global bloque agents ;
+* seules certaines méthodes passent.
+
+### Méthodes autorisées agents
+
+Actuellement :
+
+```php
+postScrapEventsFromBloggerWebsite()
+postUploadEventImages()
+postScrapExperiencesFromBloggerWebsite()
+postUploadEventSources()
+postUploadEventSourcesReplacement()
+postFetchAndStoreOnePlace()
+```
+
+### Méthodes interdites
+
+Par exemple :
+
+```php
+postClassifyPoi()
+```
+
+## Ta roadmap réelle
+
+Tu n’as :
+
+* ni 4 Mac Mini ;
+* ni gros budget ;
+* ni infra énorme.
+
+Tu as :
+
+* un PC ;
+* staging ;
+* prod ;
+* scripts existants ;
+* beaucoup de travail manuel ;
+* un besoin immédiat d’automatisation rentable.
+
+Donc la stratégie retenue :
+
+```text
+petits gains réels
+avant grosse architecture agentique
+```
+
+Et ton premier vrai chantier est :
+
+```text
+Agent curateur events Facebook / Instagram / Shotgun
+```
+
+car c’est ton plus gros goulet opérationnel actuel.
