@@ -568,6 +568,39 @@ def handle_igram_consent(page, appearance_timeout: int = 15000) -> bool:
     log("  ⚠️ Bouton Refuser du CMP introuvable")
     return False
 
+
+def close_igram_ad_popup(page) -> bool:
+    """Ferme uniquement l'interstitiel publicitaire, jamais son bouton Ouvrir."""
+    selectors = [
+        "text=Fermer",
+        "[aria-label='Fermer' i]",
+        "[aria-label='Close' i]",
+        "[title='Fermer' i]",
+        "[title='Close' i]",
+    ]
+
+    for scope in [page, *page.frames]:
+        for selector in selectors:
+            try:
+                close_button = scope.locator(selector).first
+                if close_button.is_visible(timeout=250):
+                    close_button.click(force=True, timeout=1500)
+                    page.wait_for_timeout(500)
+                    log("  ✅ Publicité interstitielle fermée")
+                    return True
+            except Exception:
+                pass
+
+    if "google_vignette" in page.url:
+        try:
+            page.keyboard.press("Escape")
+            page.wait_for_timeout(300)
+        except Exception:
+            pass
+
+    return False
+
+
 def download_from_igram_world(
     page,
     instagram_url: str,
@@ -652,13 +685,41 @@ def download_from_igram_world(
         ".search-result a.button__download[href]"
     ).last
 
-    try:
-        result_link.wait_for(state="visible", timeout=120000)
-    except Exception:
-        log("  ⚠️ Le bouton de téléchargement du résultat n'est pas apparu")
-        return []
+    href = None
+    for _ in range(20):
+        close_igram_ad_popup(page)
+        try:
+            if result_link.is_visible(timeout=250):
+                href = result_link.get_attribute("href")
+                break
+        except Exception:
+            pass
+        page.wait_for_timeout(1000)
 
-    href = result_link.get_attribute("href")
+    if not href:
+        log("  ⚠️ Le bouton de téléchargement du résultat n'est pas apparu")
+        close_igram_ad_popup(page)
+        candidates = page.locator("img").evaluate_all("""
+            images => images.map(img => ({
+                src: img.currentSrc || img.src || '',
+                width: img.naturalWidth || 0,
+                height: img.naturalHeight || 0,
+                context: `${img.alt || ''} ${img.className || ''} ${img.closest('a,article,section,div')?.className || ''}`.toLowerCase()
+            })).filter(item =>
+                /^https?:\/\//i.test(item.src)
+                && item.width >= 300
+                && item.height >= 300
+                && !/(logo|avatar|icon|favicon|advert|publicit|banner|doubleclick|googleads)/i.test(`${item.src} ${item.context}`)
+            ).sort((a, b) => (b.width * b.height) - (a.width * a.height))
+        """)
+        if not candidates:
+            log("  ⚠️ Aucune grande image de résultat exploitable")
+            return []
+        href = candidates[0]["src"]
+        log(
+            f"  ✅ Image de résultat détectée directement "
+            f"({candidates[0]['width']}x{candidates[0]['height']})"
+        )
 
     if not href or not href.startswith("http"):
         log("  ⚠️ Le lien de téléchargement igram est absent ou invalide")
