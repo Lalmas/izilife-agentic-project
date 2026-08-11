@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import json, os, re, sys
-from datetime import date, datetime
+from datetime import date, datetime, time as datetime_time
 from pathlib import Path
 
 import openpyxl
@@ -52,7 +52,11 @@ def workbook_path(env_name: str, zone: str, filename: str) -> Path:
 
 
 def normalize_time(value: str) -> str:
+    if isinstance(value, datetime_time):
+        return value.strftime("%H:%M")
     value = str(value or "").strip().lower().replace("h", ":")
+    if re.fullmatch(r"(?:[01]?\d|2[0-3]):[0-5]\d:[0-5]\d", value):
+        value = value[:5]
     if re.fullmatch(r"\d{1,2}", value): value += ":00"
     if re.fullmatch(r"\d{1,2}:\d", value): value += "0"
     if not re.fullmatch(r"(?:[01]?\d|2[0-3]):[0-5]\d", value):

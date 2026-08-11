@@ -34,6 +34,8 @@ SQL à exécuter UNE FOIS :
     ('Dealabs', 'dealabs', 'manual_web', 'https://www.dealabs.com', 1);
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import re

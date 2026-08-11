@@ -9,9 +9,7 @@ Sources (dans l'ordre) :
   2. postAgentImproveFromGoogle si pas de google_place_id
   3. Playwright → Google Maps
   4. Playwright → site web du lieu
-  5. Playwright → TripAdvisor (SHOP uniquement)
-  6. Playwright → Privateaser (SHOP uniquement)
-  7. LLM via postAgentAnalyzeContent (PHP, clé côté serveur)
+  5. LLM via postAgentAnalyzeContent (PHP, clé côté serveur)
 
 Usage :
     python enrichisseur.py --zone=lille --env=local --city=lille --dry-run
@@ -425,15 +423,25 @@ def purge_done(zone: str, script: str = "enrichisseur"):
 # ─────────────────────────────────────────────
 
 def accept_cookies(page):
-    for sel in ['button:has-text("Tout accepter")', 'button:has-text("Accept all")',
-                'button:has-text("Accepter")', '[aria-label*="accept"]']:
-        try:
-            btn = page.locator(sel).first
-            if btn.is_visible(timeout=1500):
-                btn.click()
-                sleep_rnd(0.5, 1)
-                return
-        except: pass
+    selectors = [
+        'button:has-text("Tout accepter")', 'button:has-text("Accept all")',
+        'button:has-text("Accepter tout")', 'input[value="Tout accepter"]',
+        'input[value="Accept all"]', '[aria-label*="Tout accepter" i]',
+        '[aria-label*="Accept all" i]', 'form:has-text("Tout accepter") button',
+    ]
+    for _ in range(3):
+        for sel in selectors:
+            try:
+                btn = page.locator(sel).last
+                if btn.is_visible(timeout=1000):
+                    btn.click(force=True)
+                    page.wait_for_timeout(1200)
+                    if "consent.google." not in page.url:
+                        return True
+            except Exception:
+                pass
+        page.wait_for_timeout(500)
+    return "consent.google." not in page.url
 
 def scrape_google_maps(page, name: str, city: str = "") -> str:
     query = f"{name} {city}".strip()
@@ -442,7 +450,8 @@ def scrape_google_maps(page, name: str, city: str = "") -> str:
     try:
         page.goto(url, timeout=30000)
         sleep_rnd(2, 3)
-        accept_cookies(page)
+        if not accept_cookies(page):
+            raise RuntimeError("Ecran de consentement Google non ferme")
         sleep_rnd(1, 2)
 
         # Si liste de résultats : cliquer le premier résultat pertinent.
@@ -517,48 +526,6 @@ def scrape_website(page, url: str) -> str:
     except Exception as e:
         log(f"    ⚠️  Site web: {e}"); return ""
 
-def scrape_tripadvisor(page, name: str, city: str = "") -> str:
-    query = f"{name} {city}".strip()
-    url   = f"https://www.tripadvisor.fr/Search?q={requests.utils.quote(query)}"
-    try:
-        page.goto(url, timeout=25000)
-        sleep_rnd(2, 3)
-        accept_cookies(page)
-        try:
-            result = page.locator('a[href*="Restaurant_Review"], a[href*="Attraction_Review"]').first
-            if result.is_visible(timeout=4000):
-                result.click(); sleep_rnd(2, 3)
-                page.wait_for_selector("h1", timeout=8000)
-        except: return ""
-        text = page.evaluate("() => document.body.innerText")
-        return f"=== TRIPADVISOR ===\n{text[:5000]}"
-    except Exception as e:
-        log(f"    ⚠️  TripAdvisor: {e}"); return ""
-
-def scrape_privateaser(page, name: str, city: str = "") -> str:
-    """Cherche le lieu sur Privateaser et extrait équipements + espaces privatisables."""
-    query = f"{name} {city}".strip()
-    search_url = f"https://www.privateaser.com/search?q={requests.utils.quote(query)}"
-    try:
-        page.goto(search_url, timeout=25000)
-        sleep_rnd(2, 3)
-        accept_cookies(page)
-        # Chercher le premier résultat qui ressemble au bon lieu
-        try:
-            result = page.locator('a[href*="/lieu/"]').first
-            if not result.is_visible(timeout=4000): return ""
-            href = result.get_attribute("href")
-            full_url = f"https://www.privateaser.com{href}" if href and href.startswith("/") else href
-            if not full_url: return ""
-            page.goto(full_url, timeout=20000)
-            sleep_rnd(2, 3)
-            page.wait_for_selector("h1", timeout=8000)
-        except: return ""
-        text = page.evaluate("() => document.body.innerText")
-        return f"=== PRIVATEASER ===\n{text[:6000]}"
-    except Exception as e:
-        log(f"    ⚠️  Privateaser: {e}"); return ""
-
 # ─────────────────────────────────────────────
 # WORKFLOW PAR LIEU
 # ─────────────────────────────────────────────
@@ -612,14 +579,6 @@ def enrich_one(lieu: dict, page, env: dict, dry_run: bool, stats: dict):
         if website:
             sw = scrape_website(page, website)
             if sw: content_parts.append(sw); sleep_rnd(1,2)
-
-        # TripAdvisor (SHOP uniquement)
-        if etype == "SHOP":
-            ta = scrape_tripadvisor(page, name)
-            if ta: content_parts.append(ta); sleep_rnd(2,3)
-            # Privateaser (bars/restos)
-            pv = scrape_privateaser(page, name)
-            if pv: content_parts.append(pv); sleep_rnd(2,3)
 
     full_content = "\n\n".join(filter(None, content_parts))
     if not full_content.strip():

@@ -36,6 +36,8 @@ izilife_villes.xlsx — onglets :
     Catégories   : categorie | label_fr | actif (copie de categories_lieux.json)
 """
 
+from __future__ import annotations
+
 import os
 import sys
 import re
@@ -331,24 +333,28 @@ def load_categories(zone: str) -> list[dict]:
 # ─────────────────────────────────────────────
 
 def accept_google_cookies(page):
-    """Clique sur Tout accepter si la popup cookies Google est présente."""
-    try:
-        # Sélecteurs possibles pour le bouton Tout accepter
-        selectors = [
-            'button:has-text("Tout accepter")',
-            'button:has-text("Accept all")',
-            'button:has-text("Accepter tout")',
-            'form[action*="consent"] button[jsname]',
-        ]
+    """Traite la page de consentement Google avant de continuer vers Maps."""
+    selectors = [
+        'button:has-text("Tout accepter")', 'button:has-text("Accept all")',
+        'button:has-text("Accepter tout")', 'input[value="Tout accepter"]',
+        'input[value="Accept all"]', '[aria-label*="Tout accepter" i]',
+        '[aria-label*="Accept all" i]', 'form:has-text("Tout accepter") button',
+        'form[action*="consent"] button[jsname]',
+    ]
+    for _ in range(3):
         for sel in selectors:
-            btn = page.locator(sel).first
-            if btn.is_visible(timeout=1500):
-                btn.click()
-                log("  🍪 Cookies acceptés")
-                sleep_random(1, 2)
-                return
-    except:
-        pass
+            try:
+                btn = page.locator(sel).last
+                if btn.is_visible(timeout=1000):
+                    btn.click(force=True)
+                    page.wait_for_timeout(1200)
+                    if "consent.google." not in page.url:
+                        log("  🍪 Consentement Google traité")
+                        return True
+            except Exception:
+                pass
+        page.wait_for_timeout(500)
+    return "consent.google." not in page.url
 
 
 def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
@@ -364,7 +370,8 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
         sleep_random(2, 3)
 
         # Accepter cookies si popup présente
-        accept_google_cookies(page)
+        if not accept_google_cookies(page):
+            raise RuntimeError("Ecran de consentement Google non ferme")
         sleep_random(1, 2)
 
         # Fermer les éventuelles autres popups

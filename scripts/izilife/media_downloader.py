@@ -438,6 +438,50 @@ def result_links(page):
     )
 
 
+def close_igram_ad_popup(page) -> bool:
+    """Ferme l'interstitiel publicitaire sans cliquer sur son bouton Ouvrir."""
+    selectors = [
+        "text=Fermer", "[aria-label='Fermer' i]", "[aria-label='Close' i]",
+        "[title='Fermer' i]", "[title='Close' i]",
+    ]
+    for scope in [page, *page.frames]:
+        for selector in selectors:
+            try:
+                close_button = scope.locator(selector).first
+                if close_button.is_visible(timeout=250):
+                    close_button.click(force=True, timeout=1500)
+                    page.wait_for_timeout(500)
+                    log("  ✅ Publicité interstitielle fermée")
+                    return True
+            except Exception:
+                pass
+    if "google_vignette" in page.url:
+        try:
+            page.keyboard.press("Escape")
+            page.wait_for_timeout(300)
+        except Exception:
+            pass
+    return False
+
+
+def direct_result_urls(page) -> list[str]:
+    """Récupère les grands médias du résultat quand le bouton final est absent."""
+    candidates = page.locator("img, video").evaluate_all("""
+        elements => elements.map(el => ({
+            src: el.currentSrc || el.src || '',
+            width: el.naturalWidth || el.videoWidth || 0,
+            height: el.naturalHeight || el.videoHeight || 0,
+            context: `${el.alt || ''} ${el.className || ''} ${el.closest('a,article,section,div')?.className || ''}`.toLowerCase()
+        })).filter(item =>
+            /^https?:\/\//i.test(item.src)
+            && item.width >= 300
+            && item.height >= 300
+            && !/(logo|avatar|icon|favicon|advert|publicit|banner|doubleclick|googleads)/i.test(`${item.src} ${item.context}`)
+        ).sort((a, b) => (b.width * b.height) - (a.width * a.height))
+    """)
+    return list(dict.fromkeys(item["src"] for item in candidates if item.get("src")))
+
+
 def download_one_url(
     page,
     instagram_url: str,
@@ -466,10 +510,14 @@ def download_one_url(
     log("  ⏳ URL envoyée, attente des résultats...")
 
     links = result_links(page)
-    try:
-        links.first.wait_for(state="visible", timeout=120000)
-    except Exception:
-        raise RuntimeError("Aucun bouton de téléchargement iGram n'est apparu")
+    for _ in range(20):
+        close_igram_ad_popup(page)
+        try:
+            if links.count() > 0 and links.first.is_visible(timeout=250):
+                break
+        except Exception:
+            pass
+        page.wait_for_timeout(1000)
 
     # Un carrousel expose plusieurs boutons. On attend brièvement que la liste
     # complète se stabilise avant de la parcourir.
@@ -487,22 +535,26 @@ def download_one_url(
         previous_count = count
         page.wait_for_timeout(500)
 
-    count = links.count()
-    log(f"  ✅ {count} média(s) trouvé(s)")
+    hrefs = []
+    for index in range(links.count()):
+        href = links.nth(index).get_attribute("href")
+        if href and href.startswith("http"):
+            hrefs.append(href)
+    if not hrefs:
+        log("  ⚠️ Bouton final absent : détection directe des médias")
+        close_igram_ad_popup(page)
+        hrefs = direct_result_urls(page)
+    hrefs = list(dict.fromkeys(hrefs))
+    if not hrefs:
+        raise RuntimeError("Aucun média de résultat iGram exploitable")
+    log(f"  ✅ {len(hrefs)} média(s) trouvé(s)")
 
     folder = reel_output if media_type == "reel" else image_output
     identifier = source_identifier(instagram_url)
     saved: list[Path] = []
     hashes: set[str] = set()
 
-    for index in range(count):
-        link = links.nth(index)
-        href = link.get_attribute("href")
-
-        if not href or not href.startswith("http"):
-            log(f"  ⚠️ Résultat #{index + 1} sans URL exploitable")
-            continue
-
+    for index, href in enumerate(hrefs):
         response = page.request.get(
             href,
             headers={"Referer": page.url},
