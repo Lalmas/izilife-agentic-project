@@ -29,6 +29,8 @@ Fichiers Drive (zone) :
     logs/WXX/enrichisseur_YYYY-MM-DD.xlsx  → lignes done déplacées par --purge
 """
 
+from __future__ import annotations
+
 import os, sys, re, time, json, random, argparse, requests
 from datetime import datetime, date
 from pathlib import Path
