@@ -231,7 +231,7 @@ def _add_cf(ws, rng, col, colors):
             fill=PatternFill("solid", fgColor=color)
         ))
 
-PRIO_COLS = ["string_id", "type", "notes", "statut"]
+PRIO_COLS = ["string_id", "type", "ferme_definitivement", "notes", "statut"]
 
 
 def create_ameliorateur(zone: str):
@@ -257,12 +257,13 @@ def create_ameliorateur(zone: str):
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = "Prioritaires"
-    _make_header(ws, PRIO_COLS, [42, 12, 50, 14])
+    _make_header(ws, PRIO_COLS, [42, 12, 22, 50, 14])
 
     # Validations sans écrire de lignes fantômes.
     _add_dv(ws, "B", '"SHOP,PLACE"', max_row=500)
-    _add_dv(ws, "D", '"pending,done,error,skip"', max_row=500)
-    _add_cf(ws, "A2:D500", "D", {"done":"C6EFCE","error":"FFC7CE","skip":"D9D9D9"})
+    _add_dv(ws, "C", '"NON,OUI"', max_row=500)
+    _add_dv(ws, "E", '"pending,done,error,skip"', max_row=500)
+    _add_cf(ws, "A2:E500", "E", {"done":"C6EFCE","error":"FFC7CE","skip":"D9D9D9"})
 
     wb.save(f)
     log(f"✅ ameliorateur.xlsx créé : {f}")
@@ -280,6 +281,14 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
     wb = openpyxl.load_workbook(f)
     ws = wb["Prioritaires"] if "Prioritaires" in wb.sheetnames else wb.active
     headers = [str(c.value or "").strip().lower() for c in ws[1]]
+    if "ferme_definitivement" not in headers:
+        insert_at = headers.index("notes") + 1 if "notes" in headers else len(headers) + 1
+        ws.insert_cols(insert_at)
+        ws.cell(1, insert_at, "FERME_DEFINITIVEMENT")
+        _make_header(ws, [str(c.value or "") for c in ws[1]], [42, 12, 22, 50, 14])
+        _add_dv(ws, ws.cell(1, insert_at).column_letter, '"NON,OUI"', max_row=500)
+        wb.save(f)
+        headers = [str(c.value or "").strip().lower() for c in ws[1]]
     rows = []
 
     for r_idx, row in enumerate(ws.iter_rows(min_row=2, values_only=True), 2):
@@ -314,6 +323,10 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
             continue
 
         item = resp["item"]
+        closed_value = data.get("ferme_definitivement", data.get("ferme", ""))
+        item["_close_permanently"] = str(closed_value).strip().lower() in {
+            "1", "oui", "true", "yes", "ferme", "fermé", "ferme-definitivement", "closed"
+        }
         item["_row_idx"] = r_idx
         item["_file"]    = f
         rows.append(item)
@@ -336,6 +349,24 @@ def mark_prioritaire_done(lieu: dict, status="done"):
             return
         except PermissionError:
             time.sleep(2)
+
+def close_permanently(lieu: dict, env: dict, dry_run: bool, stats: dict):
+    label = f"{lieu['type']}#{lieu['id']} {lieu['name']}"
+    if dry_run:
+        log(f"  [DRY RUN] fermeture définitive : {label}")
+        stats["closed"] += 1
+        return True
+    resp = izilife_post("/scraper/agentClosePlace", {
+        "entity_type": lieu["type"],
+        "entity_id": lieu["id"],
+    }, env)
+    if resp and resp.get("success"):
+        log(f"  ✅ Fermé définitivement : {label}")
+        stats["closed"] += 1
+        return True
+    log(f"  ❌ Fermeture impossible : {label} — {resp}")
+    stats["errors"] += 1
+    return False
 
 # ─────────────────────────────────────────────
 # PURGE — déplacer les done vers logs/WXX/
@@ -367,7 +398,8 @@ def purge_done(zone: str, script: str = "enrichisseur"):
     lb = openpyxl.Workbook()
     lws = lb.active
     lws.title = "Done"
-    _make_header(lws, headers, [42,12,50,14][:len(headers)])
+    width_by_header = {"string_id": 42, "type": 12, "ferme_definitivement": 22, "notes": 50, "statut": 14}
+    _make_header(lws, headers, [width_by_header.get(h, 20) for h in headers])
     for r, row in enumerate(done_rows, 2):
         for c, val in enumerate(row, 1):
             lws.cell(row=r, column=c, value=val)
@@ -688,9 +720,19 @@ def main():
     if not lieux:
         log("✅ Aucun lieu à enrichir."); return
 
-    stats = {"found": len(lieux), "sent": 0, "skipped": 0, "errors": 0}
+    stats = {"found": len(lieux), "sent": 0, "closed": 0, "skipped": 0, "errors": 0}
 
-    if not HAS_PLAYWRIGHT:
+    to_close = [l for l in priority if l.get("_close_permanently")]
+    for lieu in to_close:
+        err_before = stats["errors"]
+        close_permanently(lieu, env, dry_run, stats)
+        if not dry_run:
+            mark_prioritaire_done(lieu, "done" if stats["errors"] == err_before else "error")
+    lieux = [l for l in lieux if not l.get("_close_permanently")]
+
+    if not lieux:
+        pass
+    elif not HAS_PLAYWRIGHT:
         for lieu in lieux:
             enrich_one(lieu, None, env, dry_run, stats)
             if lieu in priority: mark_prioritaire_done(lieu, "done" if not stats["errors"] else "error")
@@ -718,6 +760,7 @@ def main():
     log(f"\n=== RÉSULTAT ===")
     log(f"  Trouvés  : {stats['found']}")
     log(f"  Envoyés  : {stats['sent']}")
+    log(f"  Fermés    : {stats['closed']}")
     log(f"  Skippés  : {stats['skipped']}")
     log(f"  Erreurs  : {stats['errors']}")
 
