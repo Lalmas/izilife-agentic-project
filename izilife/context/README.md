@@ -65,3 +65,6 @@ izilife-context/
 - [ ] Créer `agents/cm-clients/` avec un .md par client agence
 - [ ] Compléter les sources RSS dans `agents/redacteur-blog.md`
 - [ ] Ajouter les nouveaux objets métier quand confirmés
+# Mise à jour V2 du 9 août 2026
+
+Les décisions actives sur la géographie Event/Experience/Place/Shop, les lieux par séance et le socle Community/UserGroup sont consolidées dans `Experience$/BOOKING_ACCESS_SESSIONS_DOMAIN.md` et `Communautes_et_groupes/SOCLE_V2_2026-08-08.md`. Elles priment sur toute ancienne note proposant de déduire `Experience.city_id` depuis une division administrative.

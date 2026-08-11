@@ -9,7 +9,7 @@ Usage :
     python event_images.py --env=local --city=lille --dir="C:/Users/alcamara/Pictures/instagram"
 
     # Google Drive synchronisé
-    python event_images.py --env=local --city=lille --drive="G:/Mon Drive/agentic_workspace/izilife/events/lille-zone/images/instagram/2026-06"
+    python event_images.py --env=local --city=lille --drive="$AGENTIC_DRIVE_ROOT/agentic_workspace/izilife/events/lille-zone/images/instagram/2026-06"
 
     # Dry run
     python event_images.py --env=local --city=lille --dir="..." --dry-run
@@ -55,7 +55,7 @@ except Exception:
         return Path.home() / "Documents" / "agentic_Workspace" / "izilife" / f"izilife-agent-workspace{suffix}"
     def workspace_root(env_name="prod"):
         folder = {"local":"agentic_workspace_local", "staging":"agentic_workspace_staging", "prod":"agentic_workspace"}.get(env_name, "agentic_workspace")
-        return Path("G:/Mon Drive") / folder
+        return Path(os.environ["AGENTIC_DRIVE_ROOT"]).expanduser() / folder
     def event_curate_file(zone, env_name="prod"):
         return workspace_root(env_name) / "izilife" / "events" / normalize_zone(zone) / "curate_events.xlsx"
     def event_download_dir(zone, env_name="prod", downloads=True):

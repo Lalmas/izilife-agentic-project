@@ -36,7 +36,7 @@ except Exception:
         v = str(v or "").strip().lower(); return v if v.endswith("-zone") else v + "-zone"
     def drive_workspace_root(env_name="prod"):
         suffix={"local":"agentic_workspace_local","staging":"agentic_workspace_staging","prod":"agentic_workspace"}
-        return Path(os.getenv("AGENTIC_DRIVE_ROOT","G:/Mon Drive")) / suffix[normalize_env(env_name)]
+        return Path(os.environ["AGENTIC_DRIVE_ROOT"]).expanduser() / suffix[normalize_env(env_name)]
 
 
 DAY = {"lun":1,"mar":2,"mer":3,"jeu":4,"ven":5,"sam":6,"dim":7}

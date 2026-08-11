@@ -112,15 +112,9 @@ DELAY = (3, 6)
 # ─────────────────────────────────────────────
 
 def get_drive_root() -> Path:
-    if sys.platform == "win32":
-        for p in [Path("G:/Mon Drive"), Path("G:/My Drive"), Path.home()/"Google Drive"]:
-            if p.exists(): return p
-    else:
-        for p in [Path.home()/"GoogleDrive", Path("/mnt/gdrive")]:
-            if p.exists(): return p
-    fb = Path(__file__).parent / "izilife-agent-workspace"
-    fb.mkdir(parents=True, exist_ok=True)
-    return fb
+    value = os.environ.get("AGENTIC_DRIVE_ROOT", "").strip()
+    if not value: raise RuntimeError("AGENTIC_DRIVE_ROOT non défini.")
+    return Path(value).expanduser()
 
 def zone_dir(zone: str) -> Path:
     if HAS_CORE_PATHS:

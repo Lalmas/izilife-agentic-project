@@ -7,7 +7,7 @@ Usage:
   python .\scripts\izilife\objects\agent_links.py --zone=lille --env=local
 
 Sheet:
-  G:/Mon Drive/agentic_workspace[_local|_staging]/izilife/links/lille-zone/links.xlsx
+  $AGENTIC_DRIVE_ROOT/agentic_workspace[_local|_staging]/izilife/links/lille-zone/links.xlsx
 """
 
 from __future__ import annotations
@@ -45,7 +45,10 @@ except Exception:
         return e if e in ("local","staging","prod") else "prod"
     def drive_workspace_root(env_name="prod"):
         roots = {"local":"agentic_workspace_local", "staging":"agentic_workspace_staging", "prod":"agentic_workspace"}
-        return Path(os.getenv("AGENTIC_DRIVE_ROOT", "G:/Mon Drive")) / roots[normalize_env(env_name)]
+        value = os.getenv("AGENTIC_DRIVE_ROOT", "").strip()
+        if not value:
+            raise RuntimeError("AGENTIC_DRIVE_ROOT doit pointer vers la racine du Drive synchronise.")
+        return Path(value).expanduser() / roots[normalize_env(env_name)]
     IZILIFE_ENVS = {
         "local": {"base_url": os.getenv("IZILIFE_LOCAL_URL", "https://localhost:4443/izilife-admin"), "verify_ssl": False},
         "staging": {"base_url": os.getenv("IZILIFE_STAGING_URL", "https://www.staging.izilife.co/izilife-admin"), "verify_ssl": True},

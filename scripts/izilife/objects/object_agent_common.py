@@ -43,7 +43,7 @@ except Exception:
         z = str(z or "").strip().lower()
         return z if z.endswith("-zone") else f"{z}-zone"
     def drive_workspace_root(env_name="prod"):
-        root = Path(os.getenv("AGENTIC_DRIVE_ROOT", "G:/Mon Drive"))
+        root = Path(os.environ["AGENTIC_DRIVE_ROOT"]).expanduser()
         return root / {"local":"agentic_workspace_local","staging":"agentic_workspace_staging","prod":"agentic_workspace"}[normalize_env(env_name)]
 
 

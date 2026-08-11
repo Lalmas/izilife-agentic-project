@@ -124,3 +124,10 @@ création sites WordPress.
 - Toujours charger ce fichier en premier
 - Puis charger le(s) .md correspondant au chantier (voir README.md)
 - Une conversation par chantier — ne pas mélanger
+# Décisions structurelles V2 confirmées le 9 août 2026
+
+- La création manuelle des Place, Shop, Event et Experience part de leur liste BO ; la ville obligatoire est choisie dans le formulaire.
+- `city_id` reste le cœur de l'architecture de recherche. Il n'est jamais synthétisé depuis `AdministrativeDivision.city_id`.
+- Une Experience peut avoir des lieux de séance dans des villes voisines sans changer sa ville cœur.
+- Les Community forment l'arbre d'antennes. Les UserGroup sont des subdivisions internes terminales, sans sous-groupes ni versement propre.
+- Une Community a toujours un administrateur User ; son Partner juridique/financier reste facultatif.

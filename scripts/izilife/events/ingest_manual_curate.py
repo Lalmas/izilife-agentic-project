@@ -62,12 +62,16 @@ except ImportError:
 # ─────────────────────────────────────────────
 
 def get_drive_root() -> Path:
+    value = os.environ.get("AGENTIC_DRIVE_ROOT", "").strip()
+    if not value:
+        raise RuntimeError("AGENTIC_DRIVE_ROOT non défini.")
+    return Path(value).expanduser()
+    # Ancienne détection conservée temporairement mais désormais inaccessible.
     """Retourne la racine Google Drive selon l'OS."""
     if sys.platform == "win32":
         # Google Drive for Desktop sur Windows
         candidates = [
-            Path("G:/Mon Drive"),
-            Path("G:/My Drive"),
+            Path(value),
             Path.home() / "Google Drive",
             Path.home() / "Mon Drive",
         ]
@@ -77,7 +81,7 @@ def get_drive_root() -> Path:
             Path.home() / "GoogleDrive",
             Path.home() / "Google Drive",
             Path.home() / "gdrive",
-            Path("/mnt/gdrive"),
+            Path(value),
         ]
 
     for p in candidates:
@@ -142,7 +146,7 @@ except Exception:
         return Path.home() / "Documents" / "agentic_Workspace" / "izilife" / f"izilife-agent-workspace{suffix}"
     def workspace_root(env_name="prod"):
         folder = {"local":"agentic_workspace_local", "staging":"agentic_workspace_staging", "prod":"agentic_workspace"}.get(env_name, "agentic_workspace")
-        return Path("G:/Mon Drive") / folder
+        return get_drive_root() / folder
     def event_curate_file(zone, env_name="prod"):
         return workspace_root(env_name) / "izilife" / "events" / normalize_zone(zone) / "curate_events.xlsx"
     def event_download_dir(zone, env_name="prod", downloads=True):

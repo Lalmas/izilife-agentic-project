@@ -7,9 +7,9 @@ import os
 # Utilisateur : --zone=lille, --city=lille, --env=local|staging|prod
 # Dossiers zone internes : lille-zone
 # Drive :
-#   local   -> G:/Mon Drive/agentic_workspace_local
-#   staging -> G:/Mon Drive/agentic_workspace_staging
-#   prod    -> G:/Mon Drive/agentic_workspace
+#   local   -> $AGENTIC_DRIVE_ROOT/agentic_workspace_local
+#   staging -> $AGENTIC_DRIVE_ROOT/agentic_workspace_staging
+#   prod    -> $AGENTIC_DRIVE_ROOT/agentic_workspace
 # Local technique izilife :
 #   local   -> Documents/agentic_Workspace/izilife/izilife-agent-workspace-local
 #   staging -> Documents/agentic_Workspace/izilife/izilife-agent-workspace-staging
@@ -26,7 +26,8 @@ PROJECT_ROOT = Path(os.getenv(
     Path.home() / "Documents" / "agentic_Workspace"
 ))
 
-DRIVE_ROOT = Path(os.getenv("AGENTIC_DRIVE_ROOT", "G:/Mon Drive"))
+_drive_root_value = os.getenv("AGENTIC_DRIVE_ROOT", "").strip()
+DRIVE_ROOT = Path(_drive_root_value).expanduser() if _drive_root_value else None
 
 ENV_GLOBAL = PROJECT_ROOT / ".env"
 ENV_IZILIFE = PROJECT_ROOT / "izilife" / ".env.izilife"
@@ -66,6 +67,8 @@ def normalize_env(env_name: str | None) -> str:
 
 
 def drive_workspace_root(env_name: str = "prod") -> Path:
+    if DRIVE_ROOT is None:
+        raise RuntimeError("AGENTIC_DRIVE_ROOT non défini : impossible de localiser Google Drive.")
     return DRIVE_ROOT / WORKSPACE_BY_ENV[normalize_env(env_name)]
 
 
@@ -92,3 +95,28 @@ def izilife_social_zone(zone: str, env_name: str = "prod") -> Path:
 
 def agence_client(slug: str, env_name: str = "prod") -> Path:
     return drive_workspace_root(env_name) / "agence" / "clients" / str(slug).strip()
+
+
+# Chemins communs utilisés par tous les agents événements.
+def event_curate_file(zone: str, env_name: str = "prod") -> Path:
+    return izilife_events_zone(zone, env_name) / "curate_events.xlsx"
+
+
+def event_download_dir(zone: str, env_name: str = "prod", downloads: bool = True) -> Path:
+    path = izilife_event_images_zone(zone, env_name)
+    if downloads:
+        path /= "downloads"
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def event_source_dir(platform: str, zone: str, env_name: str = "prod") -> Path:
+    path = local_agent_workspace_root(env_name) / str(platform).strip().lower() / normalize_zone(zone) / "events"
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def event_sent_log_file(env_name: str = "prod") -> Path:
+    path = local_agent_workspace_root(env_name) / "logs"
+    path.mkdir(parents=True, exist_ok=True)
+    return path / "event_images_sent.txt"

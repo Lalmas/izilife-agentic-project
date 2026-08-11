@@ -17,7 +17,7 @@ Prérequis :
     Variable : IZILIFE_AGENT_TOKEN
 
 Fichier xlsx :
-    G:/Mon Drive/agentic_workspace/izilife/places/{zone}-zone/curate_places.xlsx
+    $AGENTIC_DRIVE_ROOT/agentic_workspace/izilife/places/{zone}-zone/curate_places.xlsx
     Colonnes :
         nom          : Nom du lieu (obligatoire)
         ville        : Slug ville izilife (ex: roubaix). Si vide → ville du --city
@@ -86,19 +86,9 @@ except ImportError:
 # ─────────────────────────────────────────────
 
 def get_drive_root() -> Path:
-    if sys.platform == "win32":
-        candidates = [Path("G:/Mon Drive"), Path("G:/My Drive"),
-                      Path.home() / "Google Drive", Path.home() / "Mon Drive"]
-    else:
-        candidates = [Path.home() / "GoogleDrive", Path.home() / "Google Drive",
-                      Path.home() / "gdrive", Path("/mnt/gdrive")]
-    for p in candidates:
-        if p.exists():
-            return p
-    fallback = Path(__file__).parent / "izilife-agent-workspace"
-    fallback.mkdir(parents=True, exist_ok=True)
-    print(f"⚠️  Google Drive non trouvé — fallback : {fallback}")
-    return fallback
+    value = os.environ.get("AGENTIC_DRIVE_ROOT", "").strip()
+    if not value: raise RuntimeError("AGENTIC_DRIVE_ROOT non défini.")
+    return Path(value).expanduser()
 
 
 def get_curate_file(zone: str) -> Path:

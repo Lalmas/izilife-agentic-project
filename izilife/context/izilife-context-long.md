@@ -860,3 +860,6 @@ Le rôle de Suggestions n'est pas de remplacer Whattodo : Whattodo/Search sorten
 5. Brancher `trackOnce()` avec parcimonie : Home, Whattodo, Search texte/catégorie, fiche objet, menu/catalogue/agenda. Pas de ligne à chaque pagination ou onglet.
 
 Attention : vérifier le mapping `BenefitPolicyRule` utilisé dans `LocalSpecialConditions::offerCondition()` (`target_type/target_id`) vs le modèle BPR actuel (`scope_level/scope_id`) avant de s'appuyer dessus pour les offres. Ne jamais lire les `.env` ; les flags `env()` existent dans le code mais ne doivent pas être inspectés directement.
+# Correctif d'architecture — 9 août 2026
+
+Ne jamais interpréter `AdministrativeDivision.city_id` comme une ville-centre universelle. La hiérarchie administrative dépend du pays et peut se poursuivre sous la ville ; les intercommunalités disposent de leur liste propre de villes. Pour Place, Shop, Event et Experience, une vraie ligne `City` explicitement choisie reste obligatoire. Voir les documents Experience et Communautés pour le contrat complet.

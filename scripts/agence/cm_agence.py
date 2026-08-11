@@ -45,7 +45,15 @@ DEFAULT_SOCIAL_ENV = os.getenv("SOCIAL_ENV", "prod")
 if HAS_CORE_PATHS:
     DRIVE_ROOT = drive_workspace_root(DEFAULT_SOCIAL_ENV) / "agence" / "clients"
 else:
-    DRIVE_ROOT = Path("G:/Mon Drive/agentic_workspace/agence/clients")
+    drive_root_value = os.getenv("AGENTIC_DRIVE_ROOT", "").strip()
+    if not drive_root_value:
+        raise RuntimeError("AGENTIC_DRIVE_ROOT doit pointer vers la racine du Drive synchronise.")
+    workspace_name = {
+        "local": "agentic_workspace_local",
+        "staging": "agentic_workspace_staging",
+        "prod": "agentic_workspace",
+    }.get(DEFAULT_SOCIAL_ENV, "agentic_workspace")
+    DRIVE_ROOT = Path(drive_root_value).expanduser() / workspace_name / "agence" / "clients"
 CONTEXT_ROOT = PROJECT_ROOT / "agence" / "context"
 TEMPLATES_DIR = PROJECT_ROOT / "agence" / "templates"
 

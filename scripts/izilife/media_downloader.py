@@ -11,7 +11,7 @@ Le script reprend la mécanique iGram de ingest_manual_curate.py :
 - téléchargement de tous les résultats, notamment les carrousels.
 
 Fichier attendu :
-    G:/Mon Drive/agentic_workspace_local/izilife/medias/medias_igram.xlsx
+    $AGENTIC_DRIVE_ROOT/agentic_workspace_local/izilife/medias/medias_igram.xlsx
 
 Onglet Medias :
     URL | Type | Etat
@@ -85,7 +85,7 @@ except Exception:
             "staging": "agentic_workspace_staging",
             "prod": "agentic_workspace",
         }.get(str(env_name).lower(), "agentic_workspace")
-        return Path("G:/Mon Drive") / folder
+        return Path(os.environ["AGENTIC_DRIVE_ROOT"]).expanduser() / folder
 
 
 IGRAM_HOME = "https://igram.world/fr/"

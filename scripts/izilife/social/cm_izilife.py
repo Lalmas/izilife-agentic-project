@@ -166,7 +166,7 @@ def zone_config(zone: str, env_name: str | None = None) -> dict[str, Any]:
         drive = izilife_social_zone(z, env_name)
     else:
         workspace = {"local": "agentic_workspace_local", "staging": "agentic_workspace_staging", "prod": "agentic_workspace"}.get(env_name, "agentic_workspace")
-        drive = Path(os.getenv("AGENTIC_DRIVE_ROOT", "G:/Mon Drive")) / workspace / "izilife" / "social" / z
+        drive = Path(os.environ["AGENTIC_DRIVE_ROOT"]).expanduser() / workspace / "izilife" / "social" / z
     return {
         "env": env_name,
         "zone": z,
