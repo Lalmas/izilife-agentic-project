@@ -332,9 +332,17 @@ def load_categories(zone: str) -> list[dict]:
 # PLAYWRIGHT — collecte Google Maps
 # ─────────────────────────────────────────────
 
+class GoogleMapsConsentError(RuntimeError):
+    """Google Maps reste bloque sur l'ecran de consentement."""
+
+
 def accept_google_cookies(page):
-    """Traite la page de consentement Google avant de continuer vers Maps."""
+    """Refuse le consentement Google puis continue vers Maps."""
     selectors = [
+        'button:has-text("Tout refuser")', 'button:has-text("Reject all")',
+        'button:has-text("Refuser tout")', 'input[value="Tout refuser"]',
+        'input[value="Reject all"]', '[aria-label*="Tout refuser" i]',
+        '[aria-label*="Reject all" i]', 'form:has-text("Tout refuser") button',
         'button:has-text("Tout accepter")', 'button:has-text("Accept all")',
         'button:has-text("Accepter tout")', 'input[value="Tout accepter"]',
         'input[value="Accept all"]', '[aria-label*="Tout accepter" i]',
@@ -371,7 +379,7 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
 
         # Accepter cookies si popup présente
         if not accept_google_cookies(page):
-            raise RuntimeError("Ecran de consentement Google non ferme")
+            raise GoogleMapsConsentError("Ecran de consentement Google non ferme")
         sleep_random(1, 2)
 
         # Fermer les éventuelles autres popups
@@ -461,6 +469,8 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
 
         log(f"    → {len(results)} lieux trouvés sur Maps pour '{query}'")
 
+    except GoogleMapsConsentError:
+        raise
     except Exception as e:
         log(f"    ❌ Erreur Maps : {e}")
 
@@ -820,7 +830,12 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
                     continue
 
                 # Chercher sur Google Maps (on finit toujours la catégorie en cours)
-                found = search_google_maps(page, query, max_results=max_per_cat)
+                try:
+                    found = search_google_maps(page, query, max_results=max_per_cat)
+                except GoogleMapsConsentError as exc:
+                    log(f"    ERREUR BLOQUANTE : {exc}")
+                    log(f"    Offset conserve a #{cat_idx_abs}; cette categorie sera retentee.")
+                    raise
 
                 if not found:
                     sleep_random(*DELAY_BETWEEN_CATS)

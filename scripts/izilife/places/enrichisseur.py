@@ -422,6 +422,10 @@ def purge_done(zone: str, script: str = "enrichisseur"):
 # PLAYWRIGHT — collecteurs
 # ─────────────────────────────────────────────
 
+class GoogleMapsConsentError(RuntimeError):
+    """Google Maps reste bloque sur l'ecran de consentement."""
+
+
 def accept_cookies(page):
     selectors = [
         'button:has-text("Tout refuser")', 'button:has-text("Reject all")',
@@ -458,7 +462,7 @@ def scrape_google_maps(page, name: str, city: str = "") -> str:
         page.goto(url, timeout=30000)
         sleep_rnd(2, 3)
         if not accept_cookies(page):
-            raise RuntimeError("Ecran de consentement Google non ferme")
+            raise GoogleMapsConsentError("Ecran de consentement Google non ferme")
         sleep_rnd(1, 2)
 
         # Si liste de résultats : cliquer le premier résultat pertinent.
@@ -519,6 +523,8 @@ def scrape_google_maps(page, name: str, city: str = "") -> str:
 
         return f"{marker}\n{text[:10000]}"
 
+    except GoogleMapsConsentError:
+        raise
     except Exception as e:
         log(f"    ⚠️  Google Maps: {e}")
         return ""
