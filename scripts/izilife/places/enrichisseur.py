@@ -446,10 +446,14 @@ def accept_cookies(page, target_url: str):
         for target in targets:
             for sel in selectors:
                 try:
-                    btn = target.locator(sel).last
-                    if btn.is_visible(timeout=700):
-                        btn.click(force=True, timeout=3000)
-                        clicked = True
+                    buttons = target.locator(sel)
+                    for index in range(buttons.count()):
+                        btn = buttons.nth(index)
+                        if btn.is_visible(timeout=700):
+                            btn.click(force=True, timeout=3000)
+                            clicked = True
+                            break
+                    if clicked:
                         break
                 except Exception:
                     pass
@@ -457,13 +461,12 @@ def accept_cookies(page, target_url: str):
                 break
         if clicked or was_redirected:
             page.wait_for_timeout(1500)
-            if "consent.google." in page.url:
-                try:
-                    page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
-                except Exception:
-                    pass
-                page.wait_for_timeout(1500)
-        if "consent.google." not in page.url:
+            try:
+                page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+            except Exception:
+                pass
+            page.wait_for_timeout(2000)
+        if "consent.google." not in page.url and "/maps" in page.url:
             return True
     return False
 
