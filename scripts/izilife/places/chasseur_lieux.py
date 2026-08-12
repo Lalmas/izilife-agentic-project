@@ -336,8 +336,8 @@ class GoogleMapsConsentError(RuntimeError):
     """Google Maps reste bloque sur l'ecran de consentement."""
 
 
-def accept_google_cookies(page):
-    """Refuse le consentement Google puis continue vers Maps."""
+def accept_google_cookies(page, target_url: str):
+    """Traite le popup ou la redirection Google Consent, puis revient sur Maps."""
     selectors = [
         'button:has-text("Tout refuser")', 'button:has-text("Reject all")',
         'button:has-text("Refuser tout")', 'input[value="Tout refuser"]',
@@ -349,20 +349,33 @@ def accept_google_cookies(page):
         '[aria-label*="Accept all" i]', 'form:has-text("Tout accepter") button',
         'form[action*="consent"] button[jsname]',
     ]
-    for _ in range(3):
-        for sel in selectors:
-            try:
-                btn = page.locator(sel).last
-                if btn.is_visible(timeout=1000):
-                    btn.click(force=True)
-                    page.wait_for_timeout(1200)
-                    if "consent.google." not in page.url:
-                        log("  🍪 Consentement Google traité")
-                        return True
-            except Exception:
-                pass
-        page.wait_for_timeout(500)
-    return "consent.google." not in page.url
+    for _ in range(4):
+        page.wait_for_timeout(1500)
+        was_redirected = "consent.google." in page.url
+        clicked = False
+        for target in [page] + list(page.frames):
+            for sel in selectors:
+                try:
+                    btn = target.locator(sel).last
+                    if btn.is_visible(timeout=700):
+                        btn.click(force=True, timeout=3000)
+                        clicked = True
+                        break
+                except Exception:
+                    pass
+            if clicked:
+                break
+        if clicked or was_redirected:
+            page.wait_for_timeout(1500)
+            if "consent.google." in page.url:
+                try:
+                    page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(1500)
+        if "consent.google." not in page.url:
+            return True
+    return False
 
 
 def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | None:
@@ -378,7 +391,7 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
         sleep_random(2, 3)
 
         # Accepter cookies si popup présente
-        if not accept_google_cookies(page):
+        if not accept_google_cookies(page, search_url):
             raise GoogleMapsConsentError("Ecran de consentement Google non ferme")
         sleep_random(1, 2)
 

@@ -426,7 +426,7 @@ class GoogleMapsConsentError(RuntimeError):
     """Google Maps reste bloque sur l'ecran de consentement."""
 
 
-def accept_cookies(page):
+def accept_cookies(page, target_url: str):
     selectors = [
         'button:has-text("Tout refuser")', 'button:has-text("Reject all")',
         '[role="button"]:has-text("Tout refuser")', '[role="button"]:has-text("Reject all")',
@@ -438,21 +438,34 @@ def accept_cookies(page):
         '[aria-label*="Accept all" i]', '[role="button"]:has-text("Tout accepter")',
         '[role="button"]:has-text("Accept all")',
     ]
-    for _ in range(5):
+    for _ in range(4):
+        page.wait_for_timeout(1500)
+        was_redirected = "consent.google." in page.url
+        clicked = False
         targets = [page] + list(page.frames)
         for target in targets:
             for sel in selectors:
                 try:
                     btn = target.locator(sel).last
-                    if btn.is_visible(timeout=500):
+                    if btn.is_visible(timeout=700):
                         btn.click(force=True, timeout=3000)
-                        page.wait_for_timeout(1500)
-                        if "consent.google." not in page.url:
-                            return True
+                        clicked = True
+                        break
                 except Exception:
                     pass
-        page.wait_for_timeout(750)
-    return "consent.google." not in page.url
+            if clicked:
+                break
+        if clicked or was_redirected:
+            page.wait_for_timeout(1500)
+            if "consent.google." in page.url:
+                try:
+                    page.goto(target_url, wait_until="domcontentloaded", timeout=30000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(1500)
+        if "consent.google." not in page.url:
+            return True
+    return False
 
 def scrape_google_maps(page, name: str, city: str = "") -> str:
     query = f"{name} {city}".strip()
@@ -461,7 +474,7 @@ def scrape_google_maps(page, name: str, city: str = "") -> str:
     try:
         page.goto(url, timeout=30000)
         sleep_rnd(2, 3)
-        if not accept_cookies(page):
+        if not accept_cookies(page, url):
             raise GoogleMapsConsentError("Ecran de consentement Google non ferme")
         sleep_rnd(1, 2)
 
