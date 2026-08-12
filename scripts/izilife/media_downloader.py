@@ -738,4 +738,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    from agent_excel_logger import run_logged
+    run_logged("media_downloader", "medias", main)

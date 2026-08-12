@@ -33,4 +33,9 @@ def main():
         example={"scope_type":"SHOP","scope_string_id":"soultrain-cafe","special_campain_string_id":"happy-hour","title":"Happy Hour","deal":"-20% sur une sélection","note":"Sur présentation de l'app iziLife","promotion_mechanic_string_id":"reduction-pourcentage","offer_hours":"lun-mer: 17h00-20h00 & jeu-ven: 18h00-22h00 & sam-dim: 16h00-23h00","priority":10,"is_active":1,"bpr_benefit_resume":"-20% sur une sélection","bpr_promotion_mechanic_string_id":"reduction-pourcentage","bpr_value_int":20,"bpr_currency":1,"bpr_benefit_target":"all","bpr_on_izilife_object":"selections","bpr_delivery_mode":"onsite_redemption","bpr_priority":100,"bpr_is_active":1,"status":"skip","last_result":"EXEMPLE — copier la ligne puis mettre pending"}
         create_workbook(path,SHEET,COLUMNS,example,{"scope_type":["PLACE","SHOP","PARTNER","EVENT","EVENT_SERIE","EXPERIENCE"],"special_campain_string_id":["happy-hour","promo-etudiante","promo-senior","promo-enfant","promo-ado"],"promotion_mechanic_string_id":["reduction-montant","reduction-pourcentage","x-achete-y-offert","credit-offert","produit-offert","tous-les-produits-a","tels-produits-a"],"bpr_promotion_mechanic_string_id":["reduction-montant","reduction-pourcentage","x-achete-y-offert","credit-offert","produit-offert","tous-les-produits-a","tels-produits-a"],"bpr_delivery_mode":["onsite_redemption","promo_code"],"status":["pending","done","error","skip"]}); return
     process(path,SHEET,a.env,"/scraper/agentCreateSpecialOffer",payload,a.dry_run,a.max)
-if __name__=="__main__": main()
+if __name__=="__main__":
+    import sys as _sys
+    from pathlib import Path as _Path
+    _sys.path.insert(0, str(_Path(__file__).resolve().parents[1]))
+    from agent_excel_logger import run_logged
+    run_logged("special_offers", "offers", main)

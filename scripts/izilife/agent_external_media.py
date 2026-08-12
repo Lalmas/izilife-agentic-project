@@ -54,5 +54,9 @@ def run(zone,env,file,dry_run,maximum):
                 elif result.get("success") and result.get("skipped"):skipped+=1;print(f"SKIP déjà présent -> {url}")
                 else:errors+=1;print(f"ERREUR {typ} {ref}: {result.get('error',result)}")
     print(f"Résultat: liens={total} ajoutés={created} ignorés={skipped} erreurs={errors}")
-if __name__=="__main__":
+def main():
     ap=argparse.ArgumentParser();ap.add_argument("--zone",required=True);ap.add_argument("--env",default="prod",choices=["local","staging","prod"]);ap.add_argument("--file");ap.add_argument("--init",action="store_true");ap.add_argument("--dry-run",action="store_true");ap.add_argument("--max",type=int,default=1000);a=ap.parse_args();init_sheet(a.zone,a.env) if a.init else run(a.zone,a.env,a.file,a.dry_run,a.max)
+
+if __name__=="__main__":
+    from agent_excel_logger import run_logged
+    run_logged("external_medias", "external_medias", main)

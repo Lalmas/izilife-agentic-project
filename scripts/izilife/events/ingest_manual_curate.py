@@ -1061,4 +1061,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from agent_excel_logger import run_logged
+    run_logged("curate_manuel_events", "events", main)

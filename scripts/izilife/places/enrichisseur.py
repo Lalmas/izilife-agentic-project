@@ -424,23 +424,30 @@ def purge_done(zone: str, script: str = "enrichisseur"):
 
 def accept_cookies(page):
     selectors = [
+        'button:has-text("Tout refuser")', 'button:has-text("Reject all")',
+        '[role="button"]:has-text("Tout refuser")', '[role="button"]:has-text("Reject all")',
         'button:has-text("Tout accepter")', 'button:has-text("Accept all")',
         'button:has-text("Accepter tout")', 'input[value="Tout accepter"]',
+        'input[value="Tout refuser"]', 'input[value="Reject all"]',
         'input[value="Accept all"]', '[aria-label*="Tout accepter" i]',
-        '[aria-label*="Accept all" i]', 'form:has-text("Tout accepter") button',
+        '[aria-label*="Tout refuser" i]', '[aria-label*="Reject all" i]',
+        '[aria-label*="Accept all" i]', '[role="button"]:has-text("Tout accepter")',
+        '[role="button"]:has-text("Accept all")',
     ]
-    for _ in range(3):
-        for sel in selectors:
-            try:
-                btn = page.locator(sel).last
-                if btn.is_visible(timeout=1000):
-                    btn.click(force=True)
-                    page.wait_for_timeout(1200)
-                    if "consent.google." not in page.url:
-                        return True
-            except Exception:
-                pass
-        page.wait_for_timeout(500)
+    for _ in range(5):
+        targets = [page] + list(page.frames)
+        for target in targets:
+            for sel in selectors:
+                try:
+                    btn = target.locator(sel).last
+                    if btn.is_visible(timeout=500):
+                        btn.click(force=True, timeout=3000)
+                        page.wait_for_timeout(1500)
+                        if "consent.google." not in page.url:
+                            return True
+                except Exception:
+                    pass
+        page.wait_for_timeout(750)
     return "consent.google." not in page.url
 
 def scrape_google_maps(page, name: str, city: str = "") -> str:
@@ -726,4 +733,6 @@ def main():
     log(f"  Erreurs  : {stats['errors']}")
 
 if __name__ == "__main__":
-    main()
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from agent_excel_logger import run_logged
+    run_logged("enrichisseur_lieux", "places", main)

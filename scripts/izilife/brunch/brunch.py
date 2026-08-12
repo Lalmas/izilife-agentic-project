@@ -65,4 +65,7 @@ def main():
         return
     process(path,SHEET,a.env,"/scraper/agentUpsertBrunch",payload,a.dry_run,a.max)
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from agent_excel_logger import run_logged
+    run_logged("brunch", "brunch", main)

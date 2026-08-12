@@ -89,6 +89,10 @@ def run(zone,env,file,dry_run,maximum):
                     else: errors+=1; print(f"  ERREUR média {media.name}: {mr.get('error',mr)}")
     print(f"Résultat: pages={total} créées={created} existantes={skipped} médias ajoutés={media_added} erreurs={errors}")
 
-if __name__=="__main__":
+def main():
     ap=argparse.ArgumentParser(); ap.add_argument("--zone",required=True); ap.add_argument("--env",default="prod",choices=["local","staging","prod"]); ap.add_argument("--file"); ap.add_argument("--init",action="store_true"); ap.add_argument("--dry-run",action="store_true"); ap.add_argument("--max",type=int,default=500); a=ap.parse_args()
     init_sheet(a.zone,a.env) if a.init else run(a.zone,a.env,a.file,a.dry_run,a.max)
+
+if __name__=="__main__":
+    from agent_excel_logger import run_logged
+    run_logged("pages", "pages", main)
