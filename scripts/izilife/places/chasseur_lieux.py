@@ -365,7 +365,7 @@ def accept_google_cookies(page):
     return "consent.google." not in page.url
 
 
-def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
+def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | None:
     """
     Lance une recherche sur Google Maps et retourne la liste des lieux trouvés.
     Chaque lieu : {nom, adresse, google_place_id, rating, types_raw}
@@ -469,10 +469,12 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict]:
 
         log(f"    → {len(results)} lieux trouvés sur Maps pour '{query}'")
 
-    except GoogleMapsConsentError:
-        raise
+    except GoogleMapsConsentError as e:
+        log(f"    ERREUR BLOQUANTE : {e}")
+        return None
     except Exception as e:
         log(f"    ❌ Erreur Maps : {e}")
+        return None
 
     return results[:max_results]
 
@@ -790,6 +792,7 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
 
     log(f"{len(villes)} ville(s) × {len(categories)} catégorie(s)")
     total_new = 0
+    blocked = False
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -830,12 +833,12 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
                     continue
 
                 # Chercher sur Google Maps (on finit toujours la catégorie en cours)
-                try:
-                    found = search_google_maps(page, query, max_results=max_per_cat)
-                except GoogleMapsConsentError as exc:
-                    log(f"    ERREUR BLOQUANTE : {exc}")
+                found = search_google_maps(page, query, max_results=max_per_cat)
+                if found is None:
                     log(f"    Offset conserve a #{cat_idx_abs}; cette categorie sera retentee.")
-                    raise
+                    blocked = True
+                    timed_out = True
+                    break
 
                 if not found:
                     sleep_random(*DELAY_BETWEEN_CATS)
@@ -887,7 +890,9 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
 
     log(f"\n=== COLLECTE TERMINÉE ===")
     log(f"  Nouveaux lieux dans 'À créer' : {total_new}")
-    log(f"  → Lance '--insert' pour les importer dans izilife")
+    if not blocked:
+        log(f"  → Lance '--insert' pour les importer dans izilife")
+    return not blocked
 
 
 # ─────────────────────────────────────────────
@@ -1089,7 +1094,9 @@ def main():
 
     if do_collect:
         log("\n── PHASE 1 : COLLECTE ──────────────────────────────────")
-        phase_collect(zone, args.city, env, args.max_per_cat, dry_run, args.max_duration)
+        collect_ok = phase_collect(zone, args.city, env, args.max_per_cat, dry_run, args.max_duration)
+        if not collect_ok:
+            sys.exit(2)
 
     if do_insert:
         log("\n── PHASE 2 : INSERT ────────────────────────────────────")
