@@ -407,8 +407,9 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
 
         # Scroller la liste des résultats pour charger plus
         scrolled = 0
+        stagnant_rounds = 0
         prev_count = 0
-        while len(results) < max_results and scrolled < 15:
+        while scrolled < 100:
             # Extraire les résultats visibles
             raw = page.evaluate("""
                 () => {
@@ -465,23 +466,37 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                     })
                     existing_names.add(item["nom"])
 
+            try:
+                end_marker = page.get_by_text(re.compile(
+                    r"(Vous êtes arrivé à la fin de la liste|You've reached the end of the list)", re.I
+                )).first
+                if end_marker.is_visible(timeout=500):
+                    log("    Fin de la liste Google Maps atteinte")
+                    break
+            except Exception:
+                pass
+
             if len(results) == prev_count:
-                # Rien de nouveau — on a probablement tout
-                break
+                stagnant_rounds += 1
+            else:
+                stagnant_rounds = 0
             prev_count = len(results)
 
             # Scroller le panneau gauche
             try:
                 panel = page.locator('[role="feed"]').first
                 if panel.is_visible(timeout=1000):
-                    panel.evaluate("el => el.scrollTop += 800")
+                    panel.evaluate("el => { el.scrollTop = el.scrollHeight; }")
                 else:
                     page.evaluate("window.scrollBy(0, 800)")
             except:
                 page.evaluate("window.scrollBy(0, 800)")
 
-            sleep_random(*DELAY_SCROLL)
+            sleep_random(2.5, 4.0)
             scrolled += 1
+            if stagnant_rounds >= 8:
+                log("    Aucun nouveau résultat après 8 chargements : arrêt de sécurité")
+                break
 
         log(f"    → {len(results)} lieux trouvés sur Maps pour '{query}'")
 
@@ -492,7 +507,7 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
         log(f"    ❌ Erreur Maps : {e}")
         return None
 
-    return results[:max_results]
+    return results
 
 
 # ─────────────────────────────────────────────
@@ -505,6 +520,7 @@ VILLES_COLS   = ["ville_slug", "nom_affichage", "prio", "tags",
 A_CREER_COLS  = ["nom", "adresse", "ville_slug", "google_place_id",
                  "maps_url", "categorie_source", "statut", "date_trouve"]
 CATS_COLS     = ["categorie", "label_fr", "actif"]
+TRAITEES_COLS = ["ville_slug", "categorie", "label_fr", "traite_le", "source", "resultats", "crees"]
 
 
 def _header_row(ws, cols: list[str], widths: list[int] = None):
@@ -676,6 +692,37 @@ def _get_sheet(wb, name: str):
     return None
 
 
+def read_categories_traitees(vfile: Path) -> set[tuple[str, str]]:
+    wb = openpyxl.load_workbook(vfile, read_only=True)
+    ws = _get_sheet(wb, "Catégories traitées")
+    if ws is None:
+        return set()
+    headers = [str(c.value or "").strip().lower() for c in ws[1]]
+    done = set()
+    for row in ws.iter_rows(min_row=2, values_only=True):
+        data = {headers[i]: str(value or "").strip().lower() for i, value in enumerate(row) if i < len(headers)}
+        if data.get("ville_slug") and data.get("categorie"):
+            done.add((data["ville_slug"], data["categorie"]))
+    return done
+
+
+def mark_category_traitee(vfile: Path, city: str, category: str, label: str,
+                          source: str, found: int, created: int) -> None:
+    wb = openpyxl.load_workbook(vfile)
+    ws = _get_sheet(wb, "Catégories traitées")
+    if ws is None:
+        ws = wb.create_sheet("Catégories traitées")
+        _header_row(ws, TRAITEES_COLS, widths=[24, 38, 28, 20, 18, 12, 12])
+    existing = {
+        (str(row[0].value or "").strip().lower(), str(row[1].value or "").strip().lower())
+        for row in ws.iter_rows(min_row=2)
+    }
+    if (city.lower(), category.lower()) not in existing:
+        ws.append([city, category, label, datetime.now(), source, found, created])
+        ws.cell(ws.max_row, 4).number_format = "yyyy-mm-dd hh:mm:ss"
+    wb.save(vfile)
+
+
 def append_to_a_creer(vfile: Path, items: list[dict]):
     """Ajoute les nouveaux lieux à l'onglet À créer sans doublons sur nom+ville."""
     wb = openpyxl.load_workbook(vfile)
@@ -794,6 +841,7 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
 
     categories = load_categories(zone)
     villes     = read_villes_pending(vfile)
+    categories_traitees = read_categories_traitees(vfile)
 
     if city_filter:
         villes = [v for v in villes if v.get("ville_slug") == city_filter]
@@ -841,6 +889,12 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
                 cat_query   = cat["categorie"]
                 cat_label   = cat["label_fr"]
                 query       = f"{cat_query} à {nom_v}"
+
+                if (slug.lower(), cat_query.lower()) in categories_traitees:
+                    log(f"\n  [{cat_idx_abs+1}/{len(categories)}] [{cat_label}] déjà traitée manuellement — skip")
+                    next_offset = cat_idx_abs + 1
+                    update_ville_statut(vfile, ville["row_idx"], "en_cours", cat_offset=next_offset)
+                    continue
 
                 log(f"\n  [{cat_idx_abs+1}/{len(categories)}] [{cat_label}] → '{query}'")
 

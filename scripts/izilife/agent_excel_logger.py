@@ -7,6 +7,7 @@ import re
 import sys
 import time
 import uuid
+import zipfile
 from datetime import datetime
 from pathlib import Path
 
@@ -22,6 +23,37 @@ PILOTAGE_HEADERS = [
     "started_at", "etat", "agent", "environment", "zone", "duration_seconds",
     "processed", "created", "skipped", "errors", "detail_file", "message",
 ]
+
+
+def _load_workbook_or_new(path: Path, sheet_name: str, headers: list[str]):
+    """Charge un XLSX valide ou recrée un fichier Drive incomplet."""
+    if path.exists():
+        try:
+            return openpyxl.load_workbook(path), False
+        except (KeyError, zipfile.BadZipFile, EOFError, OSError):
+            try:
+                path.unlink()
+            except OSError:
+                pass
+    workbook = openpyxl.Workbook()
+    sheet = workbook.active
+    sheet.title = sheet_name
+    sheet.append(headers)
+    return workbook, True
+
+
+def _save_workbook_atomic(workbook, path: Path) -> None:
+    """Écrit un XLSX complet avant de remplacer le fichier visible par Google Drive."""
+    temporary = path.with_name(f".{path.stem}.{uuid.uuid4().hex}.tmp.xlsx")
+    try:
+        workbook.save(temporary)
+        os.replace(temporary, path)
+    finally:
+        if temporary.exists():
+            try:
+                temporary.unlink()
+            except OSError:
+                pass
 
 
 def _arg(name: str, default: str = "") -> str:
@@ -76,14 +108,9 @@ def _append(path: Path, values: list) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     for attempt in range(5):
         try:
-            if path.exists():
-                workbook = openpyxl.load_workbook(path)
-                sheet = workbook["Executions"] if "Executions" in workbook.sheetnames else workbook.active
-            else:
-                workbook = openpyxl.Workbook()
-                sheet = workbook.active
-                sheet.title = "Executions"
-                sheet.append(HEADERS)
+            workbook, created = _load_workbook_or_new(path, "Executions", HEADERS)
+            sheet = workbook["Executions"] if "Executions" in workbook.sheetnames else workbook.active
+            if created:
                 for cell in sheet[1]:
                     cell.font = Font(bold=True, color="FFFFFF")
                     cell.fill = PatternFill("solid", fgColor="24364B")
@@ -100,7 +127,7 @@ def _append(path: Path, values: list) -> None:
             sheet.cell(row, 14).alignment = Alignment(wrap_text=True, vertical="top")
             status = str(values[7]).upper()
             sheet.cell(row, 8).fill = PatternFill("solid", fgColor={"DONE": "C6EFCE", "ERROR": "FFC7CE", "INIT": "DDEBF7"}.get(status, "FFF2CC"))
-            workbook.save(path)
+            _save_workbook_atomic(workbook, path)
             return
         except PermissionError:
             if attempt == 4:
@@ -112,14 +139,9 @@ def _append_pilotage(path: Path, values: list) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     for attempt in range(5):
         try:
-            if path.exists():
-                workbook = openpyxl.load_workbook(path)
-                sheet = workbook["Pilotage"] if "Pilotage" in workbook.sheetnames else workbook.active
-            else:
-                workbook = openpyxl.Workbook()
-                sheet = workbook.active
-                sheet.title = "Pilotage"
-                sheet.append(PILOTAGE_HEADERS)
+            workbook, created = _load_workbook_or_new(path, "Pilotage", PILOTAGE_HEADERS)
+            sheet = workbook["Pilotage"] if "Pilotage" in workbook.sheetnames else workbook.active
+            if created:
                 for cell in sheet[1]:
                     cell.font = Font(bold=True, color="FFFFFF")
                     cell.fill = PatternFill("solid", fgColor="24364B")
@@ -133,7 +155,7 @@ def _append_pilotage(path: Path, values: list) -> None:
             sheet.cell(row, 2).font = Font(bold=True)
             sheet.cell(row, 2).fill = PatternFill("solid", fgColor={"VERT": "C6EFCE", "ORANGE": "FFF2CC", "ROUGE": "FFC7CE"}[values[1]])
             sheet.cell(row, 12).alignment = Alignment(wrap_text=True, vertical="top")
-            workbook.save(path)
+            _save_workbook_atomic(workbook, path)
             return
         except PermissionError:
             if attempt == 4:
