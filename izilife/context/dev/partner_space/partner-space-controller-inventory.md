@@ -11,6 +11,19 @@ Regle de scan:
 
 Important: aucun `.env` n'a ete ouvert.
 
+> Mise a jour du 15 aout 2026 : cet inventaire conserve l'historique du nettoyage de juin, mais son comptage n'est plus l'etat courant du repertoire. Des controllers et vues ont depuis ete recopies pour les chantiers suivants et l'autorouting est de nouveau actif. Ne pas utiliser les listes quantitatives ci-dessous comme une validation de securite actuelle.
+
+## Etat courant valide : socle Place / Shop
+
+- `Place.php` est reduit aux listes, affichages scopes, modification des champs autorises et horaires habituels/exceptionnels.
+- `Shop.php` est reduit aux affichages scopes, modification des champs autorises et horaires habituels/exceptionnels.
+- `Media.php`, `Offer.php` et `ScopedElement.php` protegent chaque mutation par session Partner et appartenance `partner_id` de la cible.
+- Les vues Place/Shop actives ne chargent plus la pile de modales ni les requetes du BO.
+- Les actions Google, produits, equipements, attractions, services, news et autres parcours non MVP ne sont plus rendues dans ces fiches.
+- L'oeil de la liste ouvre la derniere section consultee et l'ancre de son bloc.
+- Les routes de mutation de ce socle sont des routes POST generees par l'autorouting ameliore ; le retrait d'un media n'existe plus en GET.
+- L'autorouting reste un risque transversal pour les autres controllers recopies. Chaque prochain chantier doit reduire son controller avant de considerer l'objet expose au Partner.
+
 ## Constat critique
 
 `app/Config/Routing.php` contient:

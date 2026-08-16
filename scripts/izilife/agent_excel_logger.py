@@ -80,7 +80,16 @@ def _zone(value: str) -> str:
 
 
 def log_path(domain: str, agent: str, env_name: str, zone: str, day: datetime) -> Path:
-    return _workspace(env_name) / "izilife" / domain / _zone(zone) / "logs" / f"{agent}_{day:%Y-%m-%d}.xlsx"
+    week_directory = f"W{day.isocalendar().week:02d}"
+    return (
+        _workspace(env_name)
+        / "izilife"
+        / domain
+        / _zone(zone)
+        / "logs"
+        / week_directory
+        / f"{agent}_{day:%Y-%m-%d}.xlsx"
+    )
 
 
 class _Tee(io.TextIOBase):

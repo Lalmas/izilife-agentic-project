@@ -14,7 +14,9 @@ Construire une vue utilisateur unifiée sans transformer `Booking` en table four
 Voir aussi `BOOKING_ACCESS_SESSIONS_DOMAIN.md`.
 # Socle désormais disponible
 
-- `CommunityActivity` porte les propositions et sorties légères sans polluer LocalEvent.
+- `CommunityActivity` porte les propositions et sorties légères personnelles ou communautaires sans polluer LocalEvent. Le nom SQL historique est conservé, mais `activity_scope` distingue `PERSONAL`, `COMMUNITY` et `USER_GROUP`.
+- Une activité personnelle est toujours privée, partageable par `ActivityInvitation` ou lien non devinable, et absente de toutes les surfaces de découverte.
+- La promotion vers Event/Experience conserve l'activité comme espace social (invités, RSVP, futur feed et historique).
 - Une activité peut être rattachée à une Community ou un UserGroup, jamais les deux.
 - Elle peut pointer vers un Place/Shop et évoluer ensuite vers LocalEvent/Experience.
 - Le RSVP communautaire est stocké par occurrence.

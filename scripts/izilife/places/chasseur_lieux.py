@@ -304,10 +304,21 @@ def izilife_post(endpoint: str, data: dict, env: dict) -> dict | None:
         r = requests.post(env["base_url"] + endpoint, data=data,
                           headers={"X-Agent-Token": AGENT_TOKEN},
                           verify=env["verify_ssl"], timeout=30)
-        return r.json() if r.status_code == 200 else None
+        try:
+            body = r.json()
+        except Exception:
+            body = None
+        if r.status_code != 200:
+            detail = (body.get("error") if isinstance(body, dict) else None) or r.text[:500] or "réponse vide"
+            log(f"  ❌ POST {endpoint} : HTTP {r.status_code} — {detail}")
+            return {"success": False, "error": f"HTTP {r.status_code} — {detail}"}
+        if not isinstance(body, dict):
+            log(f"  ❌ POST {endpoint} : réponse non JSON — {r.text[:500]}")
+            return {"success": False, "error": "Réponse serveur non JSON"}
+        return body
     except Exception as e:
         log(f"  ❌ POST {endpoint} : {e}")
-        return None
+        return {"success": False, "error": str(e)}
 
 def resolve_city_id(city_slug: str, env: dict) -> int:
     r = izilife_get(f"/scraper/cityByStringId/{city_slug}", env)

@@ -1,5 +1,7 @@
 # Partner context - izilife
 
+> Mise a jour active du 14 aout 2026 : ce document conserve l'inventaire historique du socle. Pour les decisions produit et techniques actuellement applicables, lire `partner-space-decisions-2026-08-14.md` puis `partner-space-roadmap-priorisee.md`. En cas de contradiction, ces deux documents plus recents priment.
+
 Document descriptif de l'etat actuel, base sur:
 
 - `C:/Users/alcamara/Documents/agentic_Workspace/izilife/context/tables.sql`

@@ -80,9 +80,9 @@ Sur la fiche Experience, le bloc « Séances / Réservation » conserve la cohé
 
 Les tarifs restent donc présentés en cartes même lorsqu'ils ne sont pas achetables sur iziLife. En revanche, aucun contrôle de formulaire, compteur ou faux bouton de réservation n'est affiché si iziLife ne peut pas exécuter l'action.
 
-### RSVP communautaire
+### RSVP social léger
 
-Le CTA « Rejoindre le groupe » et les réponses RSVP appartiennent à `CommunityRSVP`, pas à `Booking` ni à la billetterie. Le FO propose `présent / peut-être / absent` aux membres pour une occurrence, sans Ticket ni QR code. L'agrégation dans « Mes activités » reste un chantier distinct.
+Les réponses RSVP appartiennent à `CommunityRSVP`, pas à `Booking` ni à la billetterie. Le FO propose `présent / peut-être / absent` pour une occurrence, sans Ticket ni QR code. Dans une Community, l'autorisation vient de l'adhésion. Pour une activité personnelle privée, elle vient du créateur, d'une `ActivityInvitation` ou du lien non devinable. L'agrégation dans « Mes activités » reste un chantier distinct.
 
 Le module rattache directement une Experience ou un Event à zéro ou une `Community`, ou zéro ou un `UserGroup`. Il n'introduit aucune table intermédiaire ni politique d'accès supplémentaire.
 
@@ -96,7 +96,7 @@ Lorsque l'activité est directement liée à un UserGroup, l'appartenance est v�
 
 Ce module fait partie de la mission de recette Experience décrite dans le PDF. Il ne doit pas être reclassé comme une évolution facultative. La conception doit néanmoins réutiliser `Community`, `CommunityMember`, `UserGroup` et `UserGroupMember`, sans créer une seconde notion concurrente de communauté.
 
-Une `Page` éventuelle reste une façade éditoriale/marketing. Elle ne doit porter ni l'adhésion, ni les droits, ni les RSVP. Une Community peut donc fonctionner sans Page ; si une Page lui est associée plus tard, elle restera une projection visible facultative et non l'identité métier de la communauté.
+Une `Page` éventuelle reste une façade éditoriale/marketing. Elle ne doit porter ni l'adhésion, ni les invitations, ni les droits, ni les RSVP. Une Community et une activité personnelle peuvent donc fonctionner sans Page.
 
 Le SQL du module est regroupé à la fin de `izilife-admin/statics/izilife_new_version/021_Next_Improves.sql`. Il ajoute les rattachements Event/Experience, `CommunityRSVP`, `CommunityActivity`, les attributs publics de Community et `SessionRecurrenceOverride`. `Page` reste indépendante.
 

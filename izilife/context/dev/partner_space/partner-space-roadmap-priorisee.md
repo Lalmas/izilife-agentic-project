@@ -2,6 +2,8 @@
 
 Version de travail avant developpement. Ce document reformule et priorise les notes produit autour de l'espace Partner et des futures apps satellites.
 
+> Mise a jour du 14 aout 2026 : les decisions detaillees dans `partner-space-decisions-2026-08-14.md` priment sur les formulations historiques conservees dans ce document.
+
 ## 1. Intention produit
 
 L'espace Partner n'est pas un simple back-office adapte. Il doit devenir le cockpit des commercants, organisateurs et partenaires izilife. Il doit permettre de gerer leur presence, leurs lieux, leurs ventes, leurs reservations, leurs evenements, leurs produits, leurs avis et plus tard leurs messages et actions marketing.
@@ -65,6 +67,9 @@ Objectif: permettre a un commercant de gerer son lieu et ses reservations rapide
 ### Lieu / Shop
 
 - Voir mes lieux et mes shops.
+- Une Place n'est pas creee depuis le Partner Space pour le MVP.
+- Le partner reclame une Place existante ; la demande est validee en BO.
+- Si la Place n'existe pas, elle est creee en BO, par import Google ou saisie interne, puis rattachee au Partner.
 - Ouvrir une fiche lieu/shop.
 - Modifier les informations principales.
 - Modifier horaires et horaires exceptionnels.
@@ -185,7 +190,11 @@ A couvrir:
 
 - Onboarding PSP/Stripe.
 - Statut du compte de paiement.
-- Conditions pour lancer une vente: partner onboarde, objet vendable, tickets/EAP configures, remuneration coherent.
+- Stripe n'est pas une condition pour creer ou gerer un Partner, un Shop, un Event, une Experience, des produits, des tarifs ou des reservations.
+- Un Partner peut organiser des ventes et recevoir ensuite un versement manuel gere par izilife.
+- Les justificatifs d'entreprise et le RIB sont demandes selon le circuit de versement, notamment avant le premier versement.
+- Distinguer versement Stripe automatise, versement manuel izilife, paiement externe/TPE, gratuite et versement bloque en attente de validation.
+- Industrialiser l'onboarding et les versements plus tard sans imposer de friction inutile au lancement.
 - Event pret a vendre: tickets, capacite, paiement, split/remuneration si besoin.
 - Finances partner: vision simple des ventes, paiements, remboursements et frais.
 - Terminal/service account plus tard.
@@ -230,6 +239,11 @@ Ces apps doivent etre pensees apres le socle commerce, mais leurs besoins influe
 
 ### Kiosk tablette
 
+- Application web/PWA separee du Partner Space.
+- Identite technique propre a chaque appareil, rattachee a un lieu/shop.
+- Activation depuis le Partner Space par QR/code temporaire.
+- Connexion persistante avec jetons courts renouvelables et revocables ; aucun mot de passe partage permanent.
+- Utilisation collective pendant le service ; PIN ou validation superieure pour les actions sensibles.
 - Gerer le lieu en live.
 - Activer/desactiver reservation, commande, menu, services.
 - Voir commandes/paiements.
@@ -238,9 +252,16 @@ Ces apps doivent etre pensees apres le socle commerce, mais leurs besoins influe
 
 ### Scanner event
 
-- Connexion partner/employee.
-- Liste des events accessibles.
+- Application web separee, sans statistiques ni navigation d'administration.
+- Deux modes: compte scanner operationnel partage et compte PartnerEmployee personnel autorise a scanner.
+- Le Partner cree un compte scanner puis l'autorise sur un ou plusieurs Events.
+- Connexion rapide du telephone par QR temporaire genere dans le Partner Space.
+- Une session distincte est creee pour chaque telephone et peut etre revoquee individuellement.
+- Autorisation Event bornee dans le temps, avec expiration automatique et reaffectation possible.
 - Scan ticket.
+- Recherche manuelle d'une inscription.
+- Inscription sur place avec email ou telephone obligatoire, les deux encourages.
+- Enregistrement d'un paiement TPE externe ou generation d'un lien de paiement izilife.
 - Validation offline/online a definir.
 - Format QR/code izilife specifique.
 - Historique des scans.

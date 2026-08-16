@@ -1,5 +1,7 @@
 # Communautés, groupes et activités collectives
 
+> Mise à jour du 15 août 2026 : `CommunityActivity` devient l'activité sociale légère commune aux sorties personnelles et communautaires. Une activité créée hors Community est toujours privée et partageable uniquement par invitation/lien. Elle peut ensuite évoluer vers un Event ou une Experience sans perdre ses participants ni son historique.
+
 > Mise à jour du 10 août 2026 : `DECISIONS_FEED_2026-08-10.md` remplace toute règle antérieure imposant un groupe `Général`. Chaque Community et chaque UserGroup possède son propre feed/canal d'annonces.
 
 Dernière mise à jour : 8 août 2026.
@@ -17,25 +19,28 @@ Ce dossier fixe progressivement le domaine Community/UserGroup. Il évite de tra
 
 ## 2. Trois objets à ne pas confondre
 
-### Activité interne légère
+### Activité sociale légère
 
-Exemples : « On va boire un verre ? », sortie proposée par un membre, entraînement informel ou choix collectif d'un lieu/d'une date.
+Exemples : anniversaire à domicile, sortie entre amis dans un lieu, « On va boire un verre ? », sortie proposée dans une Community, entraînement informel ou choix collectif d'un lieu/d'une date.
 
-Cette activité n'est pas nécessairement un Event iziLife et ne doit pas polluer `LocalEvent`. Elle peut commencer par un sondage, puis référencer un Place, un Shop, une Experience ou un Event existant.
+Cette activité n'est pas nécessairement un Event iziLife et ne doit pas polluer `LocalEvent`. Elle peut être créée par un utilisateur seul ou dans une Community/UserGroup, commencer par une invitation ou un sondage, puis référencer un Place, un Shop, une Experience ou un Event existant.
 
-Une future entité légère, provisoirement nommée `CommunityActivity`, devra pouvoir porter :
+L'entité historique `CommunityActivity` est conservée pour compatibilité mais représente désormais cette activité sociale légère. Elle porte :
 
-- Community ou UserGroup propriétaire ;
+- scope `PERSONAL`, `COMMUNITY` ou `USER_GROUP` ;
 - auteur ;
 - titre et texte court ;
 - état `proposal / scheduled / cancelled / completed` ;
 - date/heure facultatives ;
 - Place, Shop, Event ou Experience référencé ;
 - Survey éventuel pour choisir date ou lieu ;
-- RSVP interne une fois l'activité planifiée ;
+- invitation privée par utilisateur, email ou lien non devinable pour le scope personnel ;
+- RSVP une fois l'activité planifiée ;
 - passage facultatif vers une réservation réelle chez un lieu.
 
 Elle ne doit pas créer artificiellement un Event tant que le groupe n'a besoin ni d'une fiche Event publique, ni de billetterie, ni des fonctions éditoriales d'un Event.
+
+Une activité `PERSONAL` est toujours privée : elle ne remonte jamais dans Search, Home Builder, What To Do, Around, IA ou les autres surfaces de découverte. Son auteur et les invités autorisés peuvent la consulter. Le rattachement ultérieur à un Event/Experience ne supprime pas l'activité : celle-ci devient l'espace social et conserve invitations, RSVP, futur feed et historique, tandis que l'objet métier porte publication, réservation et billetterie.
 
 ### Experience autonome à séances
 
@@ -57,7 +62,7 @@ Un Event est l'existence datée d'un concept sur un lieu. Il n'existe pas de la 
 - `AnnualCelebration` explique une récurrence calendaire annuelle.
 - un Event peut être créé par une Community/UserGroup lorsqu'il s'agit réellement d'un événement ;
 - un Event communautaire peut rester privé ou devenir visible publiquement ;
-- une sortie interne qui pointe vers un Event public existant reste une CommunityActivity référant cet Event, et ne crée pas un doublon.
+- une sortie personnelle ou communautaire qui pointe vers un Event public existant reste une CommunityActivity référant cet Event, et ne crée pas un doublon.
 
 Le rattachement `Event.community_id` ou `Event.user_group_id` reste pertinent pour les vrais Events créés par une communauté. Il ne signifie pas que toutes les sorties de groupe doivent devenir des Events.
 
@@ -94,7 +99,7 @@ Le futur workflow `demande -> modération/abonnement éventuel -> acceptation` s
 
 ## 5. CommunityRSVP
 
-`CommunityRSVP` conserve une réponse par utilisateur et occurrence : `yes`, `no` ou `maybe`.
+`CommunityRSVP` conserve pour compatibilité une réponse par utilisateur et occurrence : `yes`, `no` ou `maybe`. Il couvre aussi l'activité personnelle, mais l'autorisation vient alors du créateur, d'une `ActivityInvitation` ou du lien privé, jamais d'une adhésion Community.
 
 Il peut viser un Event, une Session manuelle d'Experience ou une occurrence virtuelle SCC identifiée par contenu, date et heure.
 
@@ -113,8 +118,8 @@ Le SQL est regroupé à la fin de `izilife-admin/statics/izilife_new_version/021
 ## 7. Décisions encore ouvertes
 
 - nom définitif de `CommunityActivity` ;
-- visibilité exacte d'une activité strictement privée dans les recherches publiques ;
-- transformation ou liaison d'une CommunityActivity vers une réservation Place/Shop ;
+- écran de gestion complet de la sortie personnelle et son futur feed ;
+- notification et relance des invités ;
 - possibilité future pour un non-membre de demander à rejoindre depuis la fiche ;
 - rôle d'une Page marketing associée à une Community ;
 - relation future de modèle/réseau entre plusieurs Experiences locales partageant un même concept.
