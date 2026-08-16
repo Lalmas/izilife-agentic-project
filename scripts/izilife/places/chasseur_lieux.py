@@ -254,6 +254,9 @@ DEFAULT_CATEGORIES = [
     {"categorie": "parc de loisirs", "label_fr": "Parcs de loisirs", "actif": True},
     {"categorie": "parc d'attractions", "label_fr": "Parcs d'attractions", "actif": True},
     {"categorie": "base de loisirs", "label_fr": "Bases de loisirs", "actif": True},
+    {"categorie": "zone commerciale", "label_fr": "Zones commerciales", "actif": True},
+    {"categorie": "zone industrielle", "label_fr": "Zones industrielles", "actif": True},
+    {"categorie": "plage", "label_fr": "Plages", "actif": True},
 
     # 11. DERNIÈRE PASSE — à activer plus tard
     {"categorie": "parking", "label_fr": "Parkings", "actif": False},
@@ -529,7 +532,8 @@ VILLES_COLS   = ["ville_slug", "nom_affichage", "prio", "tags",
                  "chasseur_statut", "chasseur_date", "chasseur_cat_offset",
                  "enrichisseur_statut", "notes"]
 A_CREER_COLS  = ["nom", "adresse", "ville_slug", "google_place_id",
-                 "maps_url", "categorie_source", "statut", "date_trouve"]
+                 "maps_url", "categorie_source", "statut", "date_trouve",
+                 "erreur_detail"]
 CATS_COLS     = ["categorie", "label_fr", "actif"]
 TRAITEES_COLS = ["ville_slug", "categorie", "label_fr", "traite_le", "source", "resultats", "crees"]
 
@@ -628,7 +632,7 @@ def create_villes_xlsx(zone: str):
 
     # ── Onglet À créer ─────────────────────────────────────────────
     ws_c = wb.create_sheet("À créer")
-    _header_row(ws_c, A_CREER_COLS, widths=[38, 38, 18, 32, 55, 22, 12, 12])
+    _header_row(ws_c, A_CREER_COLS, widths=[38, 38, 18, 32, 55, 22, 12, 12, 70])
     _add_dropdown(ws_c, "G", '"pending,done,error,unmapped,skip"', max_row=2000)
     _add_conditional_colors(ws_c, "A2:H2000", "G", A_CREER_COLORS)
     # Pas de lignes vides — append() ajoutera les lignes au fur et à mesure
@@ -675,7 +679,7 @@ def read_villes_pending(vfile: Path) -> list[dict]:
     return rows
 
 
-def read_a_creer_pending(vfile: Path) -> list[dict]:
+def read_a_creer_pending(vfile: Path, retry_errors: bool = False) -> list[dict]:
     wb = openpyxl.load_workbook(vfile)
     if "À créer" not in wb.sheetnames:
         return []
@@ -684,7 +688,8 @@ def read_a_creer_pending(vfile: Path) -> list[dict]:
     rows = []
     for row_idx, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         data = {headers[i]: str(v or "").strip() for i, v in enumerate(row) if i < len(headers)}
-        if data.get("statut", "").lower() in ("done", "error", "skip", "unmapped"):
+        status = data.get("statut", "").lower()
+        if status in ("done", "skip", "unmapped") or (status == "error" and not retry_errors):
             continue
         if not data.get("nom"):
             continue
@@ -793,7 +798,7 @@ def append_to_a_creer(vfile: Path, items: list[dict]):
     return added
 
 
-def update_a_creer_status(vfile: Path, row_idx: int, new_status: str):
+def update_a_creer_status(vfile: Path, row_idx: int, new_status: str, detail: str = ""):
     import time as _t
     for attempt in range(5):
         try:
@@ -805,6 +810,13 @@ def update_a_creer_status(vfile: Path, row_idx: int, new_status: str):
             except ValueError:
                 col = 7  # position fixe colonne STATUT
             ws.cell(row=row_idx, column=col).value = new_status
+            try:
+                detail_col = headers.index("erreur_detail") + 1
+            except ValueError:
+                detail_col = ws.max_column + 1
+                ws.cell(row=1, column=detail_col).value = "ERREUR_DETAIL"
+                ws.column_dimensions[ws.cell(row=1, column=detail_col).column_letter].width = 70
+            ws.cell(row=row_idx, column=detail_col).value = detail if new_status in ("error", "unmapped") else ""
             wb.save(vfile)
             return
         except PermissionError:
@@ -980,7 +992,8 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
 # PHASE 2 : INSERT
 # ─────────────────────────────────────────────
 
-def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
+def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool,
+                 retry_errors: bool = False):
     """
     Prend les lignes 'pending' de l'onglet 'À créer' et appelle
     postAgentFetchAndStoreOnePlace pour chacun.
@@ -990,7 +1003,12 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
         log(f"❌ izilife_villes.xlsx introuvable.")
         sys.exit(1)
 
-    rows = read_a_creer_pending(vfile)
+    # Nettoyer d'abord les lignes déjà traitées lors d'un lancement précédent.
+    # Ainsi une relance --insert-only sert aussi de purge, même sans pending.
+    if not dry_run:
+        purge_done_chasseur(zone)
+
+    rows = read_a_creer_pending(vfile, retry_errors=retry_errors)
     if city_filter:
         rows = [r for r in rows if r.get("ville_slug") == city_filter]
 
@@ -999,7 +1017,7 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
         return
 
     log(f"{len(rows)} lieu(x) à importer")
-    stats = {"done": 0, "unmapped": 0, "errors": 0}
+    stats = {"done": 0, "skipped": 0, "unmapped": 0, "errors": 0}
 
     for row in rows:
         nom       = row.get("nom", "")
@@ -1018,7 +1036,7 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
 
         if not resp:
             log(f"    ❌ Pas de réponse")
-            update_a_creer_status(vfile, row["row_idx"], "error")
+            update_a_creer_status(vfile, row["row_idx"], "error", "Pas de réponse du serveur")
             stats["errors"] += 1
             continue
 
@@ -1026,7 +1044,7 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
             result_type = resp.get("result_type", "")
             if result_type == "unmapped":
                 log(f"    ⚠️  Unmapped → ScrapingUnmappedPoi")
-                update_a_creer_status(vfile, row["row_idx"], "unmapped")
+                update_a_creer_status(vfile, row["row_idx"], "unmapped", "Catégorie ou type non résolu — traiter dans le BO")
                 stats["unmapped"] += 1
             else:
                 log(f"    ✅ {resp.get('name')} [{result_type}] id={resp.get('entity_id')}")
@@ -1034,11 +1052,12 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
                 stats["done"] += 1
         elif "déjà existant" in str(resp.get("error", "")).lower():
             log(f"    ℹ️  Déjà existant — skip")
-            update_a_creer_status(vfile, row["row_idx"], "done")
-            stats["done"] += 1
+            update_a_creer_status(vfile, row["row_idx"], "skip")
+            stats["skipped"] += 1
         else:
-            log(f"    ❌ {resp.get('error', '?')}")
-            update_a_creer_status(vfile, row["row_idx"], "error")
+            error_detail = str(resp.get("error", "Erreur serveur non précisée"))
+            log(f"    ❌ {error_detail}")
+            update_a_creer_status(vfile, row["row_idx"], "error", error_detail)
             stats["errors"] += 1
 
         sleep_random(2, 4)
@@ -1049,13 +1068,14 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool):
 
     log(f"\n=== INSERT TERMINÉ ===")
     log(f"  Créés    : {stats['done']}")
+    log(f"  Skippés  : {stats['skipped']}  (déjà présents)")
     log(f"  Unmapped : {stats['unmapped']}  (traiter dans le BO)")
     log(f"  Erreurs  : {stats['errors']}")
 
 
 
 # ─────────────────────────────────────────────
-# PURGE — déplacer les done vers logs/WXX/
+# PURGE — déplacer les done, skip et unmapped vers logs/WXX/
 # ─────────────────────────────────────────────
 
 def get_log_file_chasseur(zone: str, sheet_name: str) -> Path:
@@ -1089,7 +1109,7 @@ def purge_done_chasseur(zone: str):
                 for row in ws.iter_rows(min_row=2, values_only=True):
                     if any(v is not None for v in row):
                         status = str(row[stat_col-1] or "").strip().lower()
-                        if status == "done":
+                        if status in ("done", "skip", "unmapped"):
                             done_rows.append(list(row))
                         else:
                             keep_rows.append(list(row))
@@ -1099,7 +1119,7 @@ def purge_done_chasseur(zone: str):
                 lf = get_log_file_chasseur(zone, sheet_name.replace("À","A").replace(" ","_"))
                 lb = openpyxl.Workbook()
                 lws = lb.active
-                lws.title = "Done"
+                lws.title = "Traites"
                 for col, h in enumerate(headers, 1):
                     lws.cell(row=1, column=col, value=str(h).upper())
                 for r, row in enumerate(done_rows, 2):
@@ -1121,7 +1141,7 @@ def purge_done_chasseur(zone: str):
                 import time; time.sleep(3)
 
     if sheets_purged == 0:
-        log("Aucune ligne done trouvée.")
+        log("Aucune ligne done/skip/unmapped trouvée.")
 
 # ─────────────────────────────────────────────
 # MAIN
@@ -1140,6 +1160,8 @@ def main():
                         help="Phase 1 uniquement (collecte Maps → Sheet)")
     parser.add_argument("--insert-only",   action="store_true",
                         help="Phase 2 uniquement (Sheet → izilife)")
+    parser.add_argument("--retry-errors",  action="store_true",
+                        help="Avec l'insertion, retenter aussi les lignes au statut error")
     parser.add_argument("--max-duration",  type=int, default=0,
                         help="Durée max en minutes (ex: 90). Finit la catégorie "
                              "en cours puis s'arrête. Reprend là où on s'est arrêté "
@@ -1181,7 +1203,7 @@ def main():
 
     if do_insert:
         log("\n── PHASE 2 : INSERT ────────────────────────────────────")
-        phase_insert(zone, args.city, env, dry_run)
+        phase_insert(zone, args.city, env, dry_run, retry_errors=args.retry_errors)
 
 
 if __name__ == "__main__":

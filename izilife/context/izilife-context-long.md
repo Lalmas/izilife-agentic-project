@@ -863,3 +863,17 @@ Attention : vérifier le mapping `BenefitPolicyRule` utilisé dans `LocalSpecial
 # Correctif d'architecture — 9 août 2026
 
 Ne jamais interpréter `AdministrativeDivision.city_id` comme une ville-centre universelle. La hiérarchie administrative dépend du pays et peut se poursuivre sous la ville ; les intercommunalités disposent de leur liste propre de villes. Pour Place, Shop, Event et Experience, une vraie ligne `City` explicitement choisie reste obligatoire. Voir les documents Experience et Communautés pour le contrat complet.
+
+# Correctifs FO / BO / Partner — 16 août 2026
+
+- `Hourly.service_scope` et `HourlyContent.service_scope` séparent `GENERAL` et `KITCHEN`, y compris pour les exceptions.
+- Une exception remplace le jour de la semaine concerné ; `CelebrationDay`/`CalendarOccurrence` fournit l'alerte de jour férié.
+- Partner expose deux semaines distinctes, ouverture et cuisine.
+- La rémunération peut être portée par Event, EventSerie, AnnualCelebration, Experience ou Partner. Sur Partner, les types Event et Experience constituent deux règles indépendantes.
+- Le split PayHub reste un plan audité et n'est pas exécuté côté PSP tant que `PSP_SPLIT_ENABLED` est faux.
+- `LocalEvent.show_external_booking_link` impose une autorisation BO explicite ; le FO exige aussi un Event payant et l'absence de billetterie iziLife.
+- Les offres disposent d'un ciblage optionnel `shop_category_id`/`place_type_id` ; NULL signifie tout le lieu.
+- Les liens Menus sont regroupés sous Produits dans les fiches BO.
+- La navigation WTD distingue Théâtre, Humour & Comedy clubs et Expositions (sous Art).
+- Ne pas réintroduire de masquage temporisé du header : sur mobile, il reste compact (48 px), stable et sans logo.
+- Tout CSS ajouté à une navbar ou un composant partagé doit rester borné par l'identifiant exact de l'instance.
