@@ -1,76 +1,88 @@
 #!/usr/bin/env python3
-"""Classe uniquement le littoral et la montagne, à partir de sources géographiques."""
+"""Curation Excel contrôlée des City et AdministrativeDivision iziLife."""
 from __future__ import annotations
-import argparse, csv, io, json, os, time, zipfile
+import argparse, json, sys
 from pathlib import Path
-import requests
-from dotenv import load_dotenv
+import openpyxl
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.worksheet.datavalidation import DataValidation
 
-ROOT=Path(__file__).resolve().parents[1]
-for p in (ROOT/'.env', ROOT.parent/'.env', ROOT.parent/'.env.izilife'):
-    if p.exists(): load_dotenv(p, override=False)
-URLS={'local':os.getenv('IZILIFE_LOCAL_URL','https://localhost:4443/izilife-admin'),'staging':os.getenv('IZILIFE_STAGING_URL','https://www.staging.izilife.co/izilife-admin'),'prod':os.getenv('IZILIFE_PROD_URL','https://www.izilife.co/izilife-admin')}
-INSEE_DENSITY_URL='https://www.insee.fr/fr/statistiques/fichier/8571524/fichier_diffusion_2026.xlsx'
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "offers"))
+from offer_agent_common import drive_workspace_root, normalize_zone, post, scalar
 
-def api(env,path,payload=None):
-    token=os.getenv('AGENT_SECRET_TOKEN','')
-    if not token: raise RuntimeError('AGENT_SECRET_TOKEN manquant')
-    r=requests.post(URLS[env].rstrip('/')+path, data=payload or {}, headers={'X-Agent-Token':token}, timeout=90, verify=env!='local')
-    r.raise_for_status(); return r.json()
+FILE = "territories.xlsx"
+CITY_COLUMNS = ["country","scope_ref","name","importance_score","ai_proposed_description","is_country_capital","is_country_principal_city","is_region_principal_city","is_department_principal_city","is_border_city","is_mountain_city","is_litoral_city","overtourism_indicator","source","confidence","manual_validation","status","notes","last_result"]
+AD_COLUMNS = ["country","scope_ref","name","ai_proposed_description","is_mountain_division","is_litoral_division","source","confidence","manual_validation","status","notes","last_result"]
 
-def geonames(country,cache):
-    cache.mkdir(parents=True,exist_ok=True); z=cache/f'{country}.zip'
-    if not z.exists():
-        r=requests.get(f'https://download.geonames.org/export/dump/{country}.zip',timeout=180); r.raise_for_status(); z.write_bytes(r.content)
-    with zipfile.ZipFile(z) as f:
-        rows=[]
-        with f.open(f'{country}.txt') as raw:
-            for a in csv.reader(io.TextIOWrapper(raw,encoding='utf-8'),delimiter='\t'):
-                if len(a)>16 and a[6]=='P': rows.append({'name':a[1],'ascii':a[2],'lat':float(a[4]),'lng':float(a[5]),'code':a[7],'population':int(a[14] or 0),'elevation':int(a[15] or a[16] or 0)})
-        return rows
+def add_validation(ws, column, values):
+    idx=[c.value for c in ws[1]].index(column)+1; letter=openpyxl.utils.get_column_letter(idx)
+    dv=DataValidation(type="list",formula1='"'+",".join(values)+'"',allow_blank=True); ws.add_data_validation(dv); dv.add(f"{letter}2:{letter}500")
 
-def dist2(a,b): return (float(a['lat'])-float(b['lat']))**2+(float(a['lng'])-float(b['lng']))**2
-def match(city,rows):
-    if city.get('latitude') is None or city.get('longitude') is None:return None
-    near=sorted(rows,key=lambda r:dist2({'lat':city['latitude'],'lng':city['longitude']},r))[:8]
-    name=str(city.get('name','')).casefold()
-    named=[r for r in near if r['name'].casefold()==name or r['ascii'].casefold()==name]
-    return (named or near)[0] if near else None
+def add_sheet(wb,title,columns,example):
+    ws=wb.create_sheet(title); ws.append(columns); ws.append([example.get(c,"") for c in columns])
+    for cell in ws[1]:
+        cell.font=Font(bold=True,color="FFFFFF"); cell.fill=PatternFill("solid",fgColor="4472C4"); cell.alignment=Alignment(wrap_text=True)
+        ws.column_dimensions[cell.column_letter].width=max(14,min(38,len(str(cell.value))+3))
+    ws.freeze_panes="A2"; ws.auto_filter.ref=f"A1:{openpyxl.utils.get_column_letter(len(columns))}500"
+    for field in [c for c in columns if c.startswith("is_")]: add_validation(ws,field,["oui","non"])
+    add_validation(ws,"manual_validation",["oui","non"]); add_validation(ws,"status",["pending","done","skip","unmapped","error"])
 
-def coast(lat,lng,radius,session):
-    q=f'[out:json][timeout:20];way(around:{radius*1000},{lat},{lng})[natural=coastline];out ids 1;'
-    try:
-        r=session.post('https://overpass-api.de/api/interpreter',data=q,timeout=35); r.raise_for_status()
-        return bool(r.json().get('elements'))
-    except requests.RequestException:return None
+def init(path):
+    path.parent.mkdir(parents=True,exist_ok=True)
+    if path.exists(): print(f"Existe déjà : {path}"); return
+    wb=openpyxl.Workbook(); wb.remove(wb.active)
+    add_sheet(wb,"Cities",CITY_COLUMNS,{"country":"FR","scope_ref":"lille","name":"Lille","importance_score":650,"is_region_principal_city":"oui","source":"validation éditoriale","confidence":1,"manual_validation":"non","status":"skip","notes":"Exemple : valider manuellement avant pending"})
+    add_sheet(wb,"AdministrativeDivisions",AD_COLUMNS,{"country":"FR","scope_ref":"nord","name":"Nord","is_litoral_division":"oui","source":"validation éditoriale","confidence":1,"manual_validation":"non","status":"skip","notes":"Exemple : aucun héritage automatique vers les Cities"})
+    refs=wb.create_sheet("Références"); refs.append(["Règle","Valeur"]); refs.append(["importance_score","Score mondial absolu de 0 à 1000, validé manuellement"]); refs.append(["description","La description humaine reste prioritaire; l'IA n'est qu'un fallback"]); refs.append(["rural/village","Hors insertion automatique : aucune estimation LLM"])
+    wb.create_sheet("Unmapped").append(["sheet","row","scope_ref","reason"])
+    wb.save(path); print(f"Créé : {path}")
 
-def insee_rural(cache):
-    """Retourne {code_commune: 0|1} depuis la grille officielle INSEE 2026."""
-    try:
-        from openpyxl import load_workbook
-    except ImportError as exc:
-        raise RuntimeError('openpyxl requis pour lire la grille rurale INSEE (pip install openpyxl)') from exc
-    cache.mkdir(parents=True,exist_ok=True); xlsx=cache/'insee_grille_densite_2026.xlsx'
-    if not xlsx.exists():
-        r=requests.get(INSEE_DENSITY_URL,timeout=180); r.raise_for_status(); xlsx.write_bytes(r.content)
-    ws=load_workbook(xlsx,read_only=True,data_only=True)['Maille communale']
-    return {str(row[0]).zfill(5):int(row[2]==3) for row in ws.iter_rows(min_row=6,values_only=True) if row[0] and row[2] in (1,2,3)}
+def bool_or_blank(value):
+    v=str(value or "").strip().lower()
+    if not v:return None
+    if v in {"oui","yes","true","1","x"}:return 1
+    if v in {"non","no","false","0"}:return 0
+    raise ValueError(f"Booléen invalide: {value}")
+
+def payload(sheet,row):
+    if str(row.get("manual_validation") or "").strip().lower() not in {"oui","yes","1","true"}: raise ValueError("manual_validation=oui obligatoire")
+    result={"scope_type":"CITY" if sheet=="Cities" else "ADMINISTRATIVE_DIVISION","scope_ref":row.get("scope_ref")}
+    allowed=CITY_COLUMNS if sheet=="Cities" else AD_COLUMNS
+    for field in allowed:
+        if field.startswith("is_"):
+            value=bool_or_blank(row.get(field))
+            if value is not None:result[field]=value
+        elif field in {"importance_score","overtourism_indicator","ai_proposed_description","source","confidence"} and row.get(field) not in (None,""):result[field]=scalar(row[field])
+    return result
+
+def process(path,env,dry_run,maximum):
+    wb=openpyxl.load_workbook(path); handled=created=skipped=errors=unmapped_count=0; unmapped_ws=wb["Unmapped"]
+    for sheet_name in ("Cities","AdministrativeDivisions"):
+        ws=wb[sheet_name]; headers=[str(c.value or "").strip() for c in ws[1]]; status_col=headers.index("status")+1; result_col=headers.index("last_result")+1
+        for cells in ws.iter_rows(min_row=2):
+            row={headers[i]:scalar(cells[i].value) for i in range(len(headers)) if headers[i]}
+            if not any(v not in (None,"") for k,v in row.items() if k not in {"status","last_result"}):continue
+            if str(row.get("status") or "pending").lower() in {"done","skip"}:skipped+=1;continue
+            if handled>=maximum:break
+            try:
+                data=payload(sheet_name,row)
+                if dry_run:print("[DRY RUN]",json.dumps(data,ensure_ascii=False));handled+=1;continue
+                response=post(env,"/scraper/agentUpsertTerritory",data); ok=bool(response.get("success")); message=json.dumps(response,ensure_ascii=False)[:1000]
+                if ok:ws.cell(cells[0].row,status_col,"done");created+=int(bool(response.get("created")))
+                elif "introuvable" in str(response.get("error","")).lower():ws.cell(cells[0].row,status_col,"unmapped");unmapped_ws.append([sheet_name,cells[0].row,row.get("scope_ref"),response.get("error")]);unmapped_count+=1
+                else:ws.cell(cells[0].row,status_col,"error");errors+=1
+                ws.cell(cells[0].row,result_col,message);print("OK" if ok else "ERREUR",response)
+            except Exception as exc:
+                errors+=1;print("ERREUR",exc)
+                if not dry_run:ws.cell(cells[0].row,status_col,"error");ws.cell(cells[0].row,result_col,str(exc)[:1000])
+            handled+=1
+    if not dry_run:wb.save(path)
+    print(f"Traités: {handled}");print(f"Créés: {created}");print(f"Skippés: {skipped}");print(f"Unmapped: {unmapped_count}");print(f"Erreurs: {errors}")
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('--country',required=True,help='ISO alpha-2, ex: FR'); p.add_argument('--env',choices=URLS,default='staging'); p.add_argument('--dry-run',action='store_true'); p.add_argument('--force',action='store_true'); p.add_argument('--limit',type=int,default=0); p.add_argument('--coast-km',type=float,default=10); p.add_argument('--mountain-elevation',type=int,default=500); p.add_argument('--pause',type=float,default=.3); a=p.parse_args()
-    country=a.country.upper(); data=api(a.env,'/scraper/agentGetTerritories',{'country':country})
-    cities=data.get('cities',[]); cities=cities[:a.limit or None]; cache=Path(__file__).resolve().parent/'.cache'; rows=geonames(country,cache/'geonames'); rural_by_code=insee_rural(cache) if country=='FR' else {}; session=requests.Session(); out=[]
-    for i,c in enumerate(cities,1):
-        g=match(c,rows)
-        if not g: print(f'[{i}/{len(cities)}] {c["name"]}: non résolu'); continue
-        coastal=coast(c['latitude'],c['longitude'],a.coast_km,session)
-        confidence=.95 if g['name'].casefold()==str(c['name']).casefold() else .75
-        city_code=str(c.get('city_code') or '').zfill(5); rural=rural_by_code.get(city_code)
-        item={'scope_level':'CITY','scope_id':c['id'],'is_litoral':int(bool(coastal)) if coastal is not None else None,'is_mountain':int(g['elevation']>=a.mountain_elevation),'confidence':confidence,'source':'INSEE+GeoNames+OpenStreetMap','evidence':json.dumps({'geonames':g,'insee_city_code':city_code or None},ensure_ascii=False)}
-        if rural is not None:item['is_rural']=rural
-        out.append(item); print(f'[{i}/{len(cities)}] {c["name"]}: littoral={coastal} montagne={item["is_mountain"]} rural_INSEE={rural} village=inchangé')
-        time.sleep(a.pause)
-    if a.dry_run: print(json.dumps({'count':len(out),'sample':out[:5]},ensure_ascii=False,indent=2)); return
-    for start in range(0,len(out),100): api(a.env,'/scraper/agentUpdateTerritoryGeography',{'items':json.dumps(out[start:start+100],ensure_ascii=False),'force':int(a.force)})
-    print(f'{len(out)} ville(s) mises à jour. Les divisions administratives ont été propagées par le serveur.')
-if __name__=='__main__': main()
+    ap=argparse.ArgumentParser();ap.add_argument("--zone",required=True);ap.add_argument("--env",choices=["local","staging","prod"],default="local");ap.add_argument("--init",action="store_true");ap.add_argument("--dry-run",action="store_true");ap.add_argument("--max",type=int,default=100);a=ap.parse_args()
+    path=drive_workspace_root(a.env)/"izilife"/"geography"/normalize_zone(a.zone)/FILE
+    init(path) if a.init else process(path,a.env,a.dry_run,a.max)
+
+if __name__=="__main__":
+    sys.path.insert(0,str(Path(__file__).resolve().parents[1]));from agent_excel_logger import run_logged;run_logged("territories","geography",main)

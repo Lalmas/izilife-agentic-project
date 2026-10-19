@@ -53,10 +53,12 @@ def hunt(playwright, city, category, label, args, env, vfile):
             errors += 1
             base.log(f"Erreur : {place['nom']} — {response}")
 
-    if not args.dry_run and errors == 0:
+    if not args.dry_run and errors == 0 and found:
         base.mark_category_traitee(
             vfile, city, category, label, "manuel", len(found), created
         )
+    elif not args.dry_run and not found:
+        base.log("Recherche vide : catégorie non marquée comme traitée")
 
     base.log(
         f"Résultats {city} / {category} : {len(found)} | créés : {created} | "

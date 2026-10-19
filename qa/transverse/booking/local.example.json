@@ -1,0 +1,21 @@
+{
+  "environment": "local",
+  "database": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "name": "izilife2",
+    "user": "root",
+    "password_env": "IZILIFE_QA_DB_PASSWORD"
+  },
+  "aliases": {
+    "partners.soultrain": {"lookup":"name", "value":"Soultrain Café"},
+    "partners.disco_volante": {"lookup":"name", "value":"Disco Volante"},
+    "partners.la_luck": {"lookup":"name", "value":"La Luck"},
+    "partners.hun": {"lookup":"name", "value":"HUN"},
+    "partners.follow_park": {"lookup":"name", "value":"Follow Park"},
+    "places.hun": {"lookup":"name", "value":"Hall U Need"},
+    "shops.disco_volante_lille": {"lookup":"name", "value":"Disco Volante Lille"},
+    "users.primary": {"lookup":"email", "value":"alphalalmas@yahoo.fr"},
+    "users.secondary": {"lookup":"email", "value":"lalmascamara@gmail.com"}
+  }
+}

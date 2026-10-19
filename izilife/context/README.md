@@ -42,8 +42,11 @@ izilife-context/
 │   └── clients/                   ← 1 fichier .md par client
 │       └── protect-solaire.md     ← (à créer)
 │
-└── infra/
-    └── orchestration.md           ← crons, Sheets hub, PC local, OVH
+├── infra/
+│   └── orchestration.md           ← crons, Sheets hub, PC local, OVH
+│
+└── Docs/
+    └── navigation-taxonomie-2026-09-10.md ← synthèse de 01_navigation.sql
 ```
 
 ## Quel fichier charger selon le chantier ?
@@ -57,6 +60,7 @@ izilife-context/
 | Events & animation | `izilife-global.md` + `events/animateur.md` + `events/generateur-contenu.md` |
 | Site WordPress client | `izilife-global.md` + `wordpress/clients.md` + `wordpress/clients/[client].md` |
 | Infra / orchestration | `izilife-global.md` + `infra/orchestration.md` |
+| Navigation / taxonomie / moteurs | `izilife-global.md` + `Docs/navigation-taxonomie-2026-09-10.md` |
 
 ## À compléter
 - [ ] Ajouter les vrais noms de tables depuis tables.sql

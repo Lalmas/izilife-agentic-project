@@ -1,0 +1,65 @@
+SHELL=/bin/zsh
+MAILTO=""
+
+# ============================================================
+# ÉVÉNEMENTS
+# ============================================================
+30 21 * * 4 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START shotgun $(date) =====" && .venv/bin/python events/shotgun_scraper.py --env=prod --city=lille && echo "===== END shotgun $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+30 21 * * 0 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START shotgun $(date) =====" && .venv/bin/python events/shotgun_scraper.py --env=prod --city=lille && echo "===== END shotgun $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+0 23 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START curate-events $(date) =====" && .venv/bin/python events/ingest_manual_curate.py --zone=lille --env=prod && echo "===== END curate-events $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Création/mise à jour des EventSeries, AnnualCelebrations et parents d'événements récurrents.
+10 23 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START event-structures $(date) ====="; .venv/bin/python events/event_structures.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END event-structures rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+20 23 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START event-calendar $(date) ====="; .venv/bin/python events/event_calendar.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END event-calendar rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+
+# ============================================================
+# CONTENUS, PAGES ET OFFRES
+# ============================================================
+50 23 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START external-media $(date) =====" && .venv/bin/python agent_external_media.py --zone=lille --env=prod && echo "===== END external-media $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+10 0 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START pages $(date) =====" && .venv/bin/python agent_pages.py --zone=lille --env=prod && echo "===== END pages $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+35 0 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START benefits $(date) =====" && .venv/bin/python offers/izilife_subscription_benefit.py --zone=lille --env=prod && echo "===== END benefits $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+55 0 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START offers $(date) =====" && .venv/bin/python offers/special_offer.py --zone=lille --env=prod && echo "===== END offers $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+15 1 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START brunch $(date) =====" && .venv/bin/python brunch/brunch.py --zone=lille --env=prod && echo "===== END brunch $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+10 2 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START media-downloader $(date) =====" && .venv/bin/python media_downloader.py --env=prod && echo "===== END media-downloader $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+
+# ============================================================
+# NOUVEAUX RÉFÉRENTIELS — QUOTIDIEN
+# ============================================================
+# Configuration des villes/divisions existantes (littoral, montagne, frontière, etc.).
+35 2 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START territorial $(date) ====="; .venv/bin/python geography/classificateur_territoires.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END territorial rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+5 3 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START equipments $(date) ====="; .venv/bin/python equipments/equipment.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END equipments rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+30 3 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START escapade-proposals $(date) ====="; .venv/bin/python escapades/escapade_proposal.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END escapade-proposals rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+50 3 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START links $(date) ====="; .venv/bin/python links/link.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END links rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Création/mise à jour des quartiers d'une ville existante : agent distinct du territorial.
+10 4 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START city-subdivisions $(date) ====="; .venv/bin/python geography/city_subdivisions.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END city-subdivisions rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+25 4 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START streets $(date) ====="; .venv/bin/python geography/streets.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END streets rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+
+# ============================================================
+# LIEUX — SEMAINE (planning existant conservé)
+# ============================================================
+# Collecte : 03:00 à 04:00
+#0 3 * * 1-5 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START chasseur-collecte $(date) ====="; .venv/bin/python places/chasseur_lieux.py --zone=lille --city=lille --env=prod --max-duration=60 --collect-only; rc=$?; echo "===== END chasseur-collecte rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Insertion : 04:10
+#10 4 * * 1-5 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START chasseur-insertion $(date) ====="; .venv/bin/python places/chasseur_lieux.py --zone=lille --city=lille --env=prod --insert-only; rc=$?; echo "===== END chasseur-insertion rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Enrichissement : 05:00
+0 5 * * 1-5 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START enrichisseur $(date) ====="; .venv/bin/python places/enrichisseur.py --zone=lille --city=lille --env=prod --max=40; rc=$?; echo "===== END enrichisseur rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Curation : création manuelle de lieux découverts et absents d'iziLife
+35 1 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START curate-places $(date) =====" && .venv/bin/python places/createur_lieux.py --zone=lille --city=lille --env=prod && echo "===== END curate-places $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+
+# ============================================================
+# LIEUX — WEEK-END (planning existant conservé)
+# ============================================================
+# Collecte : 02:30 à 04:00
+#30 2 * * 0,6 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START chasseur-collecte-weekend $(date) ====="; .venv/bin/python places/chasseur_lieux.py --zone=lille --city=lille --env=prod --max-duration=90 --collect-only; rc=$?; echo "===== END chasseur-collecte-weekend rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Insertion : 04:10
+#10 4 * * 0,6 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START chasseur-insertion-weekend $(date) ====="; .venv/bin/python places/chasseur_lieux.py --zone=lille --city=lille --env=prod --insert-only; rc=$?; echo "===== END chasseur-insertion-weekend rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+# Enrichissement : 05:10
+10 5 * * 0,6 /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START enrichisseur-weekend $(date) ====="; .venv/bin/python places/enrichisseur.py --zone=lille --city=lille --env=prod --max=40; rc=$?; echo "===== END enrichisseur-weekend rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+
+# ============================================================
+# APRÈS LES AMÉLIORATEURS — QUOTIDIEN
+# ============================================================
+# Améliorateur ++ : produits, services, tarifs/EAP et équipements issus des sources web.
+30 6 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START enrichisseur-contenus $(date) ====="; .venv/bin/python places/enrichisseur_contenus.py --zone=lille --env=prod --max=40; rc=$?; echo "===== END enrichisseur-contenus rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+10 7 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START spotlights $(date) ====="; .venv/bin/python spotlights/spotlight.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END spotlights rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+30 7 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START tags $(date) ====="; .venv/bin/python tags/tags.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END tags rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+50 7 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START activity-proposals $(date) ====="; .venv/bin/python activity_proposals/activity_proposal.py --zone=lille --env=prod --max=100; rc=$?; echo "===== END activity-proposals rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1

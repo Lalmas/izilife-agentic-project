@@ -1,0 +1,34 @@
+{
+  "domain": "booking",
+  "version": 2,
+  "browser_manifest": "browser-scenarios.json",
+  "decisions": "decisions-notifications-chat.md",
+  "forbidden_environments": ["production", "prod"],
+  "default_mode": "dry-run",
+  "required_aliases": [
+    "partners.soultrain",
+    "partners.disco_volante",
+    "partners.la_luck",
+    "partners.hun",
+    "partners.follow_park",
+    "places.hun",
+    "shops.disco_volante_lille",
+    "users.primary"
+  ],
+  "optional_aliases": ["users.secondary"],
+  "scenarios": [
+    {"id":"schema","project":"transverse","mutates":false,"description":"Schéma, migrations, tables et colonnes Booking"},
+    {"id":"fixture-inventory","project":"transverse","mutates":false,"description":"Résolution et état initial des aliases QA"},
+    {"id":"table-global","project":"izilife","mutates":true,"description":"TABLE globale mono-catégorie"},
+    {"id":"table-multicategory","project":"izilife","mutates":true,"description":"TABLE Bar, Restaurant et Bar+Restaurant"},
+    {"id":"bcc-composition","project":"izilife","mutates":true,"description":"BCC simple et composable : cadence, heures fixes et service"},
+    {"id":"capacity","project":"izilife","mutates":true,"description":"Capacité souple, plafond dur et concurrence dernière place"},
+    {"id":"standard","project":"izilife","mutates":true,"description":"STANDARD arrivée glissante et créneau fixe"},
+    {"id":"equipment-service","project":"izilife","mutates":true,"description":"EQUIPMENT et SERVICE à jauge par départ"},
+    {"id":"privatization","project":"transverse","mutates":true,"description":"Demande puis acceptation, blocage lieu/espace"},
+    {"id":"guest-otp","project":"izilife","mutates":true,"description":"OTP invité SMS, fallback mail, expiration et unicité client"},
+    {"id":"ajax-login","project":"izilife","mutates":false,"description":"Connexion AJAX et rattachement au user"},
+    {"id":"authorization","project":"transverse","mutates":true,"description":"Isolation User, Partner et établissement"},
+    {"id":"booking-payment","project":"izilife","mutates":true,"description":"PSP/crédits uniquement si Booking est réellement raccordé au PayHub"}
+  ]
+}

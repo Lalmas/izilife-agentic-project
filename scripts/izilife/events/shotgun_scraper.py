@@ -199,6 +199,7 @@ def main():
     parser.add_argument("--env",     choices=ENVS.keys(), default="local")
     parser.add_argument("--city",    type=str, required=True)
     parser.add_argument("--pages",   type=int, default=5)
+    parser.add_argument("--max-events", type=int, default=0, help="Nombre maximal d'événements à traiter. 0 = illimité.")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
     set_current_env(args.env)
@@ -257,6 +258,7 @@ def main():
 
         # Dédupliquer
         all_event_urls = list(dict.fromkeys(all_event_urls))
+        if args.max_events > 0: all_event_urls = all_event_urls[:args.max_events]
         stats["found"] = len(all_event_urls)
         log(f"\n📋 Total URLs uniques : {len(all_event_urls)}")
 

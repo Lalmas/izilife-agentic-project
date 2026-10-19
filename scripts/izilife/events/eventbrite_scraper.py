@@ -135,6 +135,7 @@ def main():
     ap.add_argument("--city",    type=str, required=True)
     ap.add_argument("--zone",    choices=ZONES.keys(), default="lille")
     ap.add_argument("--pages",   type=int, default=3)
+    ap.add_argument("--max-events", type=int, default=0, help="Nombre maximal d'événements à traiter. 0 = illimité.")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
     set_current_env(args.env)
@@ -192,6 +193,7 @@ def main():
                 log(f"  ❌ {e}")
 
         all_event_urls = list(dict.fromkeys(all_event_urls))
+        if args.max_events > 0: all_event_urls = all_event_urls[:args.max_events]
         stats["found"] = len(all_event_urls)
         log(f"\n📋 {len(all_event_urls)} URLs uniques")
 

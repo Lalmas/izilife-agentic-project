@@ -15,6 +15,21 @@ Les notions sont orthogonales :
 7. **Booking** représente une réservation réelle de capacité. Une simple information de séance n'en crée pas.
 8. **CommunityRSVP** représente `présent / peut-être / absent` par occurrence, sans billet ni QR. Un sondage de groupe reste une autre notion.
 
+## Projection commune du parcours
+
+Ces notions orthogonales sont résolues dans un ordre de responsabilité, pas dans une hiérarchie où l'une remplacerait les autres :
+
+1. la cible `from_type/from_id` et son scope/ownership ;
+2. `AccessType` et l'existence d'un droit d'accès ;
+3. l'exécution ou non de la billetterie/paiement par iziLife ;
+4. `AccessBookingNeeded` comme information de besoin/conseil ;
+5. `BookingMethod` et `ElementAccessAndBookingConf` pour le parcours temporel ;
+6. BCC ou SCC/Session pour disponibilité et capacité ;
+7. EAP/ElementService pour l'offre et la tarification ;
+8. Booking uniquement lorsqu'une capacité ou ressource est réellement réservée.
+
+Le même contrat doit couvrir les Places et Shops multi-activités : accès global à un parc, accès partiel par EAP, carte de crédits, abonnement, venue libre et réservation séparée d'un Equipment. La présence de plusieurs activités ne doit pas forcer plusieurs moteurs ni faire de la catégorie le décideur du parcours.
+
 ## Experience : modes de participation
 
 `Experience.participation_mode` désambiguïse `minimal_number_of_people` et `maximal_number_of_people` :

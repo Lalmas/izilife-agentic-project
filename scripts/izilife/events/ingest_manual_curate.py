@@ -26,6 +26,7 @@ import sys
 
 import re
 import json
+import hashlib
 import time
 import random
 import argparse
@@ -678,33 +679,50 @@ def download_from_igram_world(
 
     log("  ⏳ URL envoyée à igram.world, attente du résultat...")
 
-    # Le résultat réel contient un lien .button__download.
-    result_link = page.locator(
+    # Le résultat réel contient un ou plusieurs liens .button__download.
+    # Une publication simple en expose un ; un carrousel en expose plusieurs.
+    result_links = page.locator(
         ".output-list a.button__download[href], "
         ".output-component a.button__download[href], "
-        ".search-result a.button__download[href]"
-    ).last
+        ".search-result a.button__download[href], "
+        "a.button__download[href]"
+    )
 
-    href = None
+    hrefs = []
     for _ in range(20):
         close_igram_ad_popup(page)
         try:
-            if result_link.is_visible(timeout=250):
-                href = result_link.get_attribute("href")
+            if result_links.count() and result_links.first.is_visible(timeout=250):
                 break
         except Exception:
             pass
         page.wait_for_timeout(1000)
 
-    if not href:
+    # Attendre que le nombre de diapositives soit stable avant de les lire.
+    previous_count = -1
+    stable_rounds = 0
+    for _ in range(12):
+        count = result_links.count()
+        stable_rounds = stable_rounds + 1 if count == previous_count and count > 0 else 0
+        previous_count = count
+        if stable_rounds >= 2:
+            break
+        page.wait_for_timeout(500)
+
+    for index in range(result_links.count()):
+        href = result_links.nth(index).get_attribute("href")
+        if href and href.startswith("http") and href not in hrefs:
+            hrefs.append(href)
+
+    if not hrefs:
         log("  ⚠️ Le bouton de téléchargement du résultat n'est pas apparu")
         close_igram_ad_popup(page)
-        candidates = page.locator("img").evaluate_all("""
-            images => images.map(img => ({
-                src: img.currentSrc || img.src || '',
-                width: img.naturalWidth || 0,
-                height: img.naturalHeight || 0,
-                context: `${img.alt || ''} ${img.className || ''} ${img.closest('a,article,section,div')?.className || ''}`.toLowerCase()
+        candidates = page.locator("img, video").evaluate_all("""
+            elements => elements.map(el => ({
+                src: el.currentSrc || el.src || '',
+                width: el.naturalWidth || el.videoWidth || 0,
+                height: el.naturalHeight || el.videoHeight || 0,
+                context: `${el.alt || ''} ${el.className || ''} ${el.closest('a,article,section,div')?.className || ''}`.toLowerCase()
             })).filter(item =>
                 /^https?:\/\//i.test(item.src)
                 && item.width >= 300
@@ -715,57 +733,37 @@ def download_from_igram_world(
         if not candidates:
             log("  ⚠️ Aucune grande image de résultat exploitable")
             return []
-        href = candidates[0]["src"]
+        hrefs = list(dict.fromkeys(item["src"] for item in candidates))
         log(
-            f"  ✅ Image de résultat détectée directement "
-            f"({candidates[0]['width']}x{candidates[0]['height']})"
+            f"  ✅ {len(hrefs)} média(s) de résultat détecté(s) directement"
         )
 
-    if not href or not href.startswith("http"):
-        log("  ⚠️ Le lien de téléchargement igram est absent ou invalide")
-        return []
-
-    log("  ✅ Résultat igram.world prêt")
-
-    response = page.request.get(
-        href,
-        headers={"Referer": page.url},
-        timeout=90000
-    )
-
-    if not response.ok:
-        log(f"  ⚠️ Téléchargement HTTP échoué : {response.status}")
-        return []
-
-    content_type = (
-        response.headers.get("content-type") or ""
-    ).lower()
-
-    if "png" in content_type:
-        suffix = ".png"
-    elif "webp" in content_type:
-        suffix = ".webp"
-    else:
-        suffix = ".jpg"
-
-    image_dir.mkdir(parents=True, exist_ok=True)
-    local_path = image_dir / f"ig_{pid}_0{suffix}"
-    local_path.write_bytes(response.body())
-
-    if local_path.stat().st_size < 10_000:
-        log(
-            f"  ⚠️ Fichier suspect, seulement "
-            f"{local_path.stat().st_size} octets"
-        )
-        local_path.unlink(missing_ok=True)
-        return []
-
-    log(
-        f"  📥 Image enregistrée : {local_path.name} "
-        f"({local_path.stat().st_size // 1024} Ko)"
-    )
-
-    return [local_path]
+    log(f"  ✅ Résultat igram.world prêt : {len(hrefs)} média(s)")
+    output_dir = image_dir / f"carousel_{pid}" if len(hrefs) > 1 else image_dir
+    output_dir.mkdir(parents=True, exist_ok=True)
+    saved = []
+    hashes = set()
+    for index, href in enumerate(hrefs):
+        response = page.request.get(href, headers={"Referer": page.url}, timeout=90000)
+        if not response.ok:
+            log(f"  ⚠️ Diapo #{index + 1} : HTTP {response.status}")
+            continue
+        body = response.body()
+        digest = hashlib.sha256(body).hexdigest()
+        if not body or digest in hashes:
+            continue
+        hashes.add(digest)
+        content_type = (response.headers.get("content-type") or "").lower()
+        suffix = ".png" if "png" in content_type else ".webp" if "webp" in content_type else ".jpg"
+        local_path = output_dir / f"ig_{pid}_{index}{suffix}"
+        local_path.write_bytes(body)
+        if local_path.stat().st_size < 10_000:
+            local_path.unlink(missing_ok=True)
+            log(f"  ⚠️ Diapo #{index + 1} suspecte, ignorée")
+            continue
+        saved.append(local_path)
+        log(f"  📥 Diapo #{index + 1} : {local_path} ({local_path.stat().st_size // 1024} Ko)")
+    return saved
 
 
 def handle_instagram(page, row: dict, base_url: str, city_id: int,

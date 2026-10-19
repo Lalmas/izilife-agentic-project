@@ -4,8 +4,8 @@ import json, os, re, time, random
 from pathlib import Path
 from typing import Any
 import requests
+import time
 import openpyxl
-from dotenv import load_dotenv
 
 
 def _ensure_core_import_path():
@@ -48,6 +48,12 @@ except Exception:
 
 
 def load_env():
+    try:
+        from dotenv import load_dotenv
+    except ModuleNotFoundError as exc:
+        if os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN"):
+            return
+        raise RuntimeError("python-dotenv est requis uniquement pour charger un jeton absent du processus.") from exc
     if ENV_GLOBAL.exists(): load_dotenv(ENV_GLOBAL, override=False)
     if ENV_IZILIFE.exists(): load_dotenv(ENV_IZILIFE, override=False)
 
@@ -114,7 +120,7 @@ def init_sheet(path: Path, headers: list[str], sample_rows: list[list[Any]] | No
     log(f"✅ Créé : {path}")
 
 
-def izilife_post(path: str, payload: dict[str, Any], env_name: str, timeout=120) -> dict[str, Any]:
+def izilife_post(path: str, payload: dict[str, Any], env_name: str, timeout=120, files=None) -> dict[str, Any]:
     load_env()
     env_name = normalize_env(env_name)
     env = IZILIFE_ENVS[env_name]
@@ -122,7 +128,20 @@ def izilife_post(path: str, payload: dict[str, Any], env_name: str, timeout=120)
     if not token:
         raise RuntimeError("IZILIFE_AGENT_TOKEN manquant")
     url = env["base_url"].rstrip("/") + path
-    r = requests.post(url, data=payload, headers={"X-Agent-Token": token}, verify=env.get("verify_ssl", True), timeout=timeout)
+    r = None
+    last_error = None
+    for attempt in range(4):
+        try:
+            r = requests.post(url, data=payload, files=files, headers={"X-Agent-Token": token}, verify=env.get("verify_ssl", True), timeout=timeout)
+            if r.status_code not in {500, 502, 503, 504}:
+                break
+            last_error = f"HTTP {r.status_code}"
+        except (requests.ConnectionError, requests.Timeout) as exc:
+            last_error = str(exc)
+        if attempt < 3:
+            time.sleep(2 ** attempt)
+    if r is None:
+        return {"success": False, "error": last_error or "API iziLife indisponible"}
     try:
         data = r.json()
     except Exception:

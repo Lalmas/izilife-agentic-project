@@ -549,8 +549,13 @@ def download_one_url(
         raise RuntimeError("Aucun média de résultat iGram exploitable")
     log(f"  ✅ {len(hrefs)} média(s) trouvé(s)")
 
-    folder = reel_output if media_type == "reel" else image_output
     identifier = source_identifier(instagram_url)
+    folder = reel_output if media_type == "reel" else image_output
+    # Un carrousel reste un lot : son sous-dossier permet la sélection puis
+    # l'ajout manuel sans mélanger ses images aux autres publications.
+    if media_type == "carousel":
+        folder = folder / f"carousel_{identifier}"
+        folder.mkdir(parents=True, exist_ok=True)
     saved: list[Path] = []
     hashes: set[str] = set()
 

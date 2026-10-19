@@ -467,6 +467,35 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                 }
             """)
 
+            # Pour une requête jugée suffisamment précise, Google Maps ouvre
+            # directement une fiche au lieu d'afficher le panneau de résultats.
+            # Cette fiche ne contient aucun a[href*="/maps/place/"] exploitable.
+            direct_place = page.evaluate("""
+                () => {
+                    const title = document.querySelector(
+                        'h1.DUwDvf, h1.fontHeadlineLarge, main h1'
+                    );
+                    const nom = title ? (title.textContent || '').trim() : '';
+                    if (!nom) return null;
+
+                    const addressNode = document.querySelector(
+                        '[data-item-id="address"], button[aria-label^="Adresse:" i], button[aria-label^="Address:" i]'
+                    );
+                    let adresse = '';
+                    if (addressNode) {
+                        const aria = addressNode.getAttribute('aria-label') || '';
+                        adresse = aria.replace(/^(Adresse|Address)\\s*:\\s*/i, '').trim();
+                        if (!adresse) {
+                            const value = addressNode.querySelector(
+                                '.Io6YTe, .fontBodyMedium'
+                            );
+                            adresse = value ? (value.textContent || '').trim() : '';
+                        }
+                    }
+                    return {nom, adresse, url: location.href};
+                }
+            """)
+
             # Ajouter les nouveaux
             existing_names = {r["nom"] for r in results}
             for item in (raw or []):
@@ -479,6 +508,24 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                         "google_place_id": "",  # sera résolu si besoin
                     })
                     existing_names.add(item["nom"])
+
+            if direct_place and direct_place.get("nom"):
+                direct_name = direct_place["nom"]
+                if direct_name not in existing_names:
+                    direct_url = direct_place.get("url", "")
+                    cid_match = re.search(r"0x[0-9a-fA-F]+:0x[0-9a-fA-F]+", direct_url)
+                    results.append({
+                        "nom": direct_name,
+                        "adresse": direct_place.get("adresse", ""),
+                        "maps_url": direct_url,
+                        "place_key": cid_match.group(0) if cid_match else "",
+                        "google_place_id": "",
+                    })
+                    log(f"    Fiche Maps directe détectée : {direct_name}")
+                # Une fiche directe représente le résultat exact de la requête :
+                # il n'existe pas de panneau de liste à faire défiler.
+                if not raw:
+                    break
 
             try:
                 end_marker = page.get_by_text(re.compile(

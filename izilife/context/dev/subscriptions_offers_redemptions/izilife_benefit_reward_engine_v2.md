@@ -587,3 +587,17 @@ External Booking
 - Aucune logique métier dans les contrôleurs.
 - Réutiliser les helpers et composants existants.
 - Ne jamais casser le fonctionnement actuel.
+
+## Effects tarifaires d'une BPR
+
+La mécanique canonique est portée par `BenefitPolicyRuleEffect`, y compris dans le cas courant à une seule mécanique. Une BPR est l'enveloppe d'éligibilité, de validité, de quota et de consommation ; ses targets référencent chacune un Effect.
+
+- zéro Effect : BPR incomplète ;
+- un Effect : fonctionnement simple, affectation automatique des nouvelles targets ;
+- plusieurs Effects : choix obligatoire à l'ajout d'une target ;
+- le multi-Effect est autorisé uniquement pour une Offer non opérationnelle ;
+- Plans, Grants, missions, fidélité et opérations restent mono-Effect ;
+- `apply_all` est interdit en multi-Effect ;
+- les chevauchements doivent être contrôlés après expansion des catégories afin qu'un Product, EAP, Service, Equipment ou Animation ne reçoive jamais deux Effects.
+
+Les anciennes colonnes de mécanique de `BenefitPolicyRule` restent temporairement le miroir du premier Effect pour la compatibilité, mais ne sont plus la source prioritaire des nouveaux calculs.

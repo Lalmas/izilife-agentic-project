@@ -209,3 +209,15 @@ Apres validation manuelle du socle Place/Shop/Event/Experience :
 - abonnement Partner et activation progressive des fonctions ;
 - applications separees kiosk et scanner/caisse Event ;
 - integration operationnelle future des MeetZ et Selections au kiosk.
+
+## 16. Ajustements Partner du 21 aout 2026
+
+- Le champ historique `Shop.history` n'est pas utilise dans le Partner Space : il n'est ni affiche, ni accepte, ni selectionne par le modele Partner.
+- Les sections Offres et Liens ne doivent jamais recreer une carte et un titre identiques a l'interieur de la carte de section.
+- Les horaires hebdomadaires restent en sauvegarde unique, mais les sept jours ne sont plus affiches en permanence : resume compact inspire du BO, puis formulaire complet dans une modale de modification.
+- Un Event autonome accepte une seule image.
+- Une edition enfant d'un recurrent, d'une Event Serie ou d'une Annual Celebration accepte deux images et permet de choisir sa couverture.
+- Une Event Serie rattachee en BO apparait dans la liste Partner des Events comme un objet Event, avec l'action de creer une nouvelle edition et de gerer ses News.
+- Une Annual Celebration n'apparait pas comme une simple serie : elle est exposee dans l'ecran specialise `Grandes fetes`, visible seulement aux Partners auxquels une AC est rattachee.
+- Les ES et AC ne sont jamais creees dans le Partner Space. Leur creation et leur rattachement initial restent en BO.
+- Les editions creees par le Partner sont des Events inactifs en attente de validation BO.

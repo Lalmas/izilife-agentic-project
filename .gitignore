@@ -2,6 +2,8 @@
 
 */.env*
 scripts/izilife/.env.izilife
+**/.venv/
+**/__pycache__/
 
 scripts/izilife/events/profiles/
 wordpress/*
@@ -10,3 +12,8 @@ izilife/izilife-agent-workspace*
 'izilife/izilife-agent-workspace-staging
 'izilife/izilife-agent-workspace
 izilife/templates
+qa/**/local.json
+qa/**/results/*.json
+qa/**/results/*.log
+
+/phoenix-v1.22.0/

@@ -1,0 +1,41 @@
+{
+  "domain": "booking-browser",
+  "version": 1,
+  "base_urls": {
+    "fo": "https://localhost:4443/izilife",
+    "ps": "https://localhost:4443/izilife-partner-admin",
+    "bo": "https://localhost:4443/izilife-admin"
+  },
+  "rules": {
+    "production_forbidden": true,
+    "isolated_fixture_prefix": "qa_booking_",
+    "screenshot_directory": "reports/browser/<run-id>",
+    "proof_required": ["before", "result", "database_assertion"],
+    "cleanup_required": true
+  },
+  "scenarios": [
+    {"id":"PS-BC-TABLE-GLOBAL","surface":"ps","fixture":"shops.disco_volante_lille","goal":"Créer et activer une BC TABLE portée par le lieu avec une BCC simple","proof":["bc-form.png","bcc-simple.png","bc-active.png"]},
+    {"id":"PS-BC-TABLE-MULTI","surface":"ps","fixture":"places.hun","goal":"Créer une BC TABLE commune à Bar + Restaurant et vérifier la sélection multiple","proof":["category-targets.png","table-multi-active.png"]},
+    {"id":"PS-BCC-COMPOSABLE","surface":"ps","fixture":"shops.disco_volante_lille","goal":"Composer une BCC avec intervalle, heures fixes et service sans modifier une BCC simple","proof":["composition-editor.png","composition-list.png"]},
+    {"id":"PS-CAPACITY-POLICY","surface":"ps","fixture":"shops.disco_volante_lille","goal":"Configurer durée, capacité en ligne, plafond dur et seuil d'acceptation","proof":["capacity-policy.png"]},
+    {"id":"PS-STANDARD-ACCESS","surface":"ps","fixture":"places.hun","goal":"Configurer STANDARD en arrivée glissante puis en départ fixe","proof":["standard-rolling.png","standard-fixed.png"]},
+    {"id":"PS-EQUIPMENT-CAPACITY","surface":"ps","fixture":"places.hun","goal":"Configurer EQUIPMENT avec max_people_per_slot","proof":["equipment-slot-capacity.png"]},
+    {"id":"PS-PRIVATIZATION","surface":"ps","fixture":"shops.disco_volante_lille","goal":"Configurer privatisation du lieu, min/max et minimum de consommation","proof":["privatization-config.png"]},
+    {"id":"FO-TABLE-GUEST","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Réserver TABLE sans compte, valider l'OTP et rester sur la page avec toast","proof":["table-guest-form.png","guest-otp.png","booking-toast.png"]},
+    {"id":"FO-TABLE-ACCOUNT","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Connexion AJAX, conservation du choix et réservation avec user_id sans OTP invité","proof":["ajax-login.png","connected-summary.png","booking-toast.png"]},
+    {"id":"FO-TABLE-MULTI","surface":"fo","fixture":"places.hun","goal":"Afficher un seul parcours Réserver une table pour la BC Bar + Restaurant","proof":["table-multi-card.png","table-multi-slots.png"]},
+    {"id":"FO-UNIQUE-DIRECT","surface":"fo","fixture":"partners.soultrain","goal":"Avec un seul parcours et aucune privatisation/équipement, afficher directement le formulaire sans carte intermédiaire","proof":["unique-direct.png"]},
+    {"id":"FO-BCC-COMPOSITION","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Afficher dans la même journée les créneaux intervalle, fixes et service","proof":["composed-slots.png"]},
+    {"id":"FO-CAPACITY-SOFT","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Au-dessus de la capacité normale et sous le plafond, créer une demande en validation manuelle","proof":["soft-capacity-slot.png","pending-toast.png","partner-pending.png"]},
+    {"id":"FO-CAPACITY-HARD","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Au plafond dur, laisser le créneau visible grisé et empêcher la soumission serveur","proof":["hard-capacity-disabled.png","hard-capacity-response.json"]},
+    {"id":"FO-STANDARD-GUEST-ACCOUNT","surface":"fo","fixture":"places.hun","goal":"Tester STANDARD glissant/fixe sans compte puis avec compte","proof":["standard-guest.png","standard-account.png"]},
+    {"id":"FO-EQUIPMENT-GUEST-ACCOUNT","surface":"fo","fixture":"places.hun","goal":"Tester EQUIPMENT à jauge par départ sans compte puis avec compte","proof":["equipment-guest.png","equipment-account.png","equipment-full.png"]},
+    {"id":"FO-PRIVATIZATION","surface":"fo","fixture":"shops.disco_volante_lille","goal":"Vérifier date, participants et heure sur une ligne, demande en attente puis blocage après acceptation","proof":["privatization-modal.png","privatization-pending.png","privatization-blocked-day.png"]},
+    {"id":"FO-CONFLICT-OVERLAP","surface":"fo","fixture":"users.primary","goal":"Refuser un chevauchement réel de deux réservations du même user","proof":["first-booking.png","overlap-refused.png"]},
+    {"id":"FO-CONFLICT-DISTANCE","surface":"fo","fixture":"users.primary","goal":"Refuser deux lieux distants de plus de 100 km avec moins de deux heures de marge","proof":["origin-booking.png","distance-refused.png"]},
+    {"id":"FO-GUEST-OTP-FALLBACK","surface":"fo","fixture":"shops.disco_volante_lille","goal":"SMS d'abord, repli e-mail seulement sur échec fournisseur, canal réel indiqué à l'écran","proof":["otp-sms.png","otp-email-fallback.png","otp-expired.png"]},
+    {"id":"FO-USER-BOOKINGS","surface":"fo","fixture":"users.primary","goal":"La réservation authentifiée apparaît dans l'espace User avec son statut","proof":["user-bookings.png"]},
+    {"id":"PS-BOOKING-DECISION","surface":"ps","fixture":"shops.disco_volante_lille","goal":"Accepter puis refuser des demandes et vérifier statut, confidentialité et notifications","proof":["pending-list.png","accepted.png","refused.png"]},
+    {"id":"BO-BOOKING-CONFIG","surface":"bo","fixture":"shops.disco_volante_lille","goal":"Configurer pour le partenaire les mêmes BC/BCC sans restructurer le BO","proof":["bo-bc.png","bo-bcc.png"]}
+  ]
+}

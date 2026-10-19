@@ -5,8 +5,6 @@ from datetime import date, datetime, time as datetime_time
 from pathlib import Path
 
 import openpyxl
-import requests
-from dotenv import load_dotenv
 from openpyxl.styles import Alignment, Font, PatternFill
 from openpyxl.worksheet.datavalidation import DataValidation
 
@@ -43,6 +41,9 @@ DAY = {"lun":1,"mar":2,"mer":3,"jeu":4,"ven":5,"sam":6,"dim":7}
 
 
 def load_env():
+    if os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN"):
+        return
+    from dotenv import load_dotenv
     if ENV_GLOBAL.exists(): load_dotenv(ENV_GLOBAL, override=False)
     if ENV_IZILIFE.exists(): load_dotenv(ENV_IZILIFE, override=False)
 
@@ -148,12 +149,12 @@ def create_workbook(path: Path, sheet_name: str, columns: list[tuple[str,str]], 
     path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists(): print(f"Existe déjà : {path}"); return
     wb=openpyxl.Workbook(); ws=wb.active; ws.title=sheet_name
-    colors={"scope":"4472C4","offer":"70AD47","access":"FFC000","bpr":"A64D79","result":"7F8C8D"}
+    colors={"scope":"4472C4","offer":"70AD47","access":"FFC000","bpr":"A64D79","effect":"5B9BD5","legacy":"A5A5A5","result":"7F8C8D"}
     for idx,(name,group) in enumerate(columns,1):
         cell=ws.cell(1,idx,name); cell.font=Font(bold=True,color="FFFFFF"); cell.fill=PatternFill("solid",fgColor=colors[group]); cell.alignment=Alignment(wrap_text=True)
         ws.column_dimensions[openpyxl.utils.get_column_letter(idx)].width=max(14,min(36,len(name)+3))
         if name in validations:
-            dv=DataValidation(type="list",formula1='"'+','.join(validations[name])+'"',allow_blank=True); ws.add_data_validation(dv); dv.add(f"{cell.column_letter}2:{cell.column_letter}500")
+            dv=DataValidation(type="list",formula1='"'+','.join(map(str, validations[name]))+'"',allow_blank=True); ws.add_data_validation(dv); dv.add(f"{cell.column_letter}2:{cell.column_letter}500")
     ws.freeze_panes="A2"; ws.auto_filter.ref=f"A1:{openpyxl.utils.get_column_letter(len(columns))}500"
     ws.append([example.get(name,"") for name,_ in columns])
     ws.row_dimensions[2].height=44
@@ -164,21 +165,40 @@ def post(env_name: str, endpoint: str, payload: dict) -> dict:
     load_env(); token=os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN") or ""
     if not token: raise RuntimeError("IZILIFE_AGENT_TOKEN manquant.")
     env=IZILIFE_ENVS[normalize_env(env_name)]
-    response=requests.post(env["base_url"].rstrip("/")+endpoint,data={"payload":json.dumps(payload,ensure_ascii=False)},headers={"X-Agent-Token":token},verify=env.get("verify_ssl",True),timeout=120)
-    try: result=response.json()
-    except Exception: result={"success":False,"error":f"HTTP {response.status_code}: {response.text[:500]}"}
-    if response.status_code >= 400: result.setdefault("success",False)
-    return result
+    url=env["base_url"].rstrip("/")+endpoint
+    try:
+        import requests
+        response=requests.post(url,data={"payload":json.dumps(payload,ensure_ascii=False)},headers={"X-Agent-Token":token},verify=env.get("verify_ssl",True),timeout=120)
+        try: result=response.json()
+        except Exception: result={"success":False,"error":f"HTTP {response.status_code}: {response.text[:500]}"}
+        if response.status_code >= 400: result.setdefault("success",False)
+        return result
+    except ModuleNotFoundError:
+        import ssl, urllib.error, urllib.parse, urllib.request
+        body=urllib.parse.urlencode({"payload":json.dumps(payload,ensure_ascii=False)}).encode("utf-8")
+        request=urllib.request.Request(url,data=body,headers={"X-Agent-Token":token,"Content-Type":"application/x-www-form-urlencoded"},method="POST")
+        context=None if env.get("verify_ssl",True) else ssl._create_unverified_context()
+        try:
+            with urllib.request.urlopen(request,timeout=120,context=context) as response:
+                status=response.status; text=response.read().decode("utf-8","replace")
+        except urllib.error.HTTPError as exc:
+            status=exc.code; text=exc.read().decode("utf-8","replace")
+        try: result=json.loads(text)
+        except Exception: result={"success":False,"error":f"HTTP {status}: {text[:500]}"}
+        if status >= 400: result.setdefault("success",False)
+        return result
 
 
 def process(path: Path, sheet_name: str, env_name: str, endpoint: str, payload_builder, dry_run: bool, max_rows: int):
     if not path.exists(): raise FileNotFoundError(f"Fichier absent, lance --init : {path}")
     wb,ws,data=rows(path,sheet_name); headers=[str(c.value or "").strip() for c in ws[1]]
     status_col=headers.index("status")+1; result_col=headers.index("last_result")+1
-    handled=0
+    handled=created=skipped=errors=0
     for row in data:
         if handled >= max_rows: break
-        if str(row.get("status") or "pending").lower() in {"done","skip"}: continue
+        if str(row.get("status") or "pending").lower() in {"done","skip"}:
+            skipped+=1
+            continue
         try:
             payload=payload_builder(row)
             if dry_run: print("[DRY RUN]",json.dumps(payload,ensure_ascii=False)); handled+=1; continue
@@ -186,9 +206,16 @@ def process(path: Path, sheet_name: str, env_name: str, endpoint: str, payload_b
             ws.cell(row["__row"],status_col,"done" if res.get("success") else "error")
             ws.cell(row["__row"],result_col,json.dumps(res,ensure_ascii=False)[:1000])
             print(("OK" if res.get("success") else "ERREUR"),res)
+            if res.get("success") and res.get("created"): created+=1
+            elif not res.get("success"): errors+=1
         except Exception as exc:
             if not dry_run:
                 ws.cell(row["__row"],status_col,"error"); ws.cell(row["__row"],result_col,str(exc)[:1000])
             print("ERREUR",exc)
+            errors+=1
         handled+=1
     if not dry_run: wb.save(path)
+    print(f"Traités: {handled}")
+    print(f"Créés: {created}")
+    print(f"Skippés: {skipped}")
+    print(f"Erreurs: {errors}")
