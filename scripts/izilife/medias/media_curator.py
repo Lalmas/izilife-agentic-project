@@ -3,11 +3,13 @@
 from __future__ import annotations
 
 import argparse
+from copy import copy
 import hashlib
 import json
 import os
 import re
 import sys
+import tempfile
 from pathlib import Path
 
 import openpyxl
@@ -33,7 +35,7 @@ HEADERS = [
     'SCOPE_TYPE','SCOPE_REF','MEDIA_GROUP','SOURCE_TYPE','SOURCE_URLS',
     *[f'URL_{i}' for i in range(1, 11)],
     'DIRECTORY_NAME','TITLE','DESCRIPTION','PRINCIPAL','RIGHTS_CONFIRMED',
-    'BELONGS_TO_SCOPE','STATUS','LAST_RESULT',
+    'BELONGS_TO_SCOPE','STATUS','LAST_RESULT','OWNER_PAGE_STRING_ID','TAG_REFS',
 ]
 
 
@@ -55,7 +57,46 @@ def init_sheet(zone: str, env: str) -> None:
     (root / 'downloads').mkdir(parents=True, exist_ok=True)
     path = default_file(zone, env)
     if path.exists():
-        print(f'Existe déjà : {path}')
+        wb = openpyxl.load_workbook(path)
+        ws = wb['Medias'] if 'Medias' in wb.sheetnames else wb.active
+        current = {str(cell.value or '').strip().upper() for cell in ws[1]}
+        last_header_column = max((cell.column for cell in ws[1] if cell.value is not None), default=0)
+        added = []
+        for header in ('OWNER_PAGE_STRING_ID', 'TAG_REFS'):
+            if header in current:
+                continue
+            column = last_header_column + 1
+            source = ws.cell(1, max(1, column - 1))
+            target = ws.cell(1, column, header)
+            if source.has_style:
+                target._style = copy(source._style)
+            target.alignment = copy(source.alignment)
+            ws.column_dimensions[target.column_letter].width = 32
+            added.append(header)
+            last_header_column = column
+        guide_changed = False
+        if 'Guide' in wb.sheetnames:
+            guide = wb['Guide']
+            existing_rules = {str(guide.cell(r, 1).value or '') for r in range(1, guide.max_row + 1)}
+            for row_index in range(1, guide.max_row + 1):
+                if str(guide.cell(row_index, 1).value or '').strip() == 'Droits':
+                    new_rule = 'RIGHTS_CONFIRMED=OUI est obligatoire. BELONGS_TO_SCOPE=OUI rattache au scope ; NON exige OWNER_PAGE_STRING_ID.'
+                    if guide.cell(row_index, 2).value != new_rule:
+                        guide.cell(row_index, 2).value = new_rule
+                        guide_changed = True
+            for rule, value in [
+                ('Propriétaire Page', 'Si BELONGS_TO_SCOPE=NON, OWNER_PAGE_STRING_ID est obligatoire (string_id de la Page).'),
+                ('Tags', 'TAG_REFS accepte des références TYPE:string_id séparées par ;, par exemple CITY:lille;PLACE:soultraincafe.'),
+            ]:
+                if rule not in existing_rules:
+                    guide.append([rule, value])
+                    guide_changed = True
+        if added or guide_changed:
+            ws.auto_filter.ref = f'A1:{ws.cell(1, last_header_column).column_letter}500'
+            wb.save(path)
+            print(f'Classeur existant complété ({", ".join(added)}) : {path}')
+        else:
+            print(f'Classeur déjà à jour : {path}')
         return
     wb = openpyxl.Workbook()
     ws = wb.active
@@ -80,7 +121,9 @@ def init_sheet(zone: str, env: str) -> None:
     guide.append(['Plusieurs liens','SOURCE_URLS accepte un lien par ligne ou séparé par ;. URL_1 à URL_10 peuvent être utilisés en complément.'])
     guide.append(['Répertoire','SOURCE_TYPE=DIRECTORY et DIRECTORY_NAME relatif au dossier sources.'])
     guide.append(['Même cible','Répéter SCOPE_TYPE + SCOPE_REF sur autant de lignes que nécessaire.'])
-    guide.append(['Droits','RIGHTS_CONFIRMED et BELONGS_TO_SCOPE doivent être OUI.'])
+    guide.append(['Droits','RIGHTS_CONFIRMED=OUI est obligatoire. BELONGS_TO_SCOPE=OUI rattache le média au scope ; NON exige OWNER_PAGE_STRING_ID.'])
+    guide.append(['Propriétaire Page','Si BELONGS_TO_SCOPE=NON, OWNER_PAGE_STRING_ID est obligatoire (string_id de la Page).'])
+    guide.append(['Tags','TAG_REFS accepte des références TYPE:string_id séparées par ;, par exemple CITY:lille;PLACE:soultraincafe.'])
     guide.append(['Principal','PRINCIPAL=OUI affecte seulement le premier fichier du lot.'])
     wb.save(path)
     print(f'Créé : {path}')
@@ -122,19 +165,46 @@ def dedupe_files(files: list[Path]) -> list[Path]:
     return result
 
 
+def prepare_upload(path: Path, temporary_directory: Path) -> Path:
+    """Resize oversized still images for the API without altering source files."""
+    if path.suffix.lower() not in {'.jpg', '.jpeg', '.png', '.webp'}:
+        return path
+    try:
+        from PIL import Image, ImageOps
+    except ImportError as exc:
+        raise RuntimeError('Pillow est requis pour adapter les dimensions avant upload.') from exc
+
+    with Image.open(path) as source:
+        image = ImageOps.exif_transpose(source)
+        if image.width <= 2000 and image.height <= 2000 and path.stat().st_size <= 5 * 1024 * 1024:
+            return path
+        image.thumbnail((2000, 2000), Image.Resampling.LANCZOS)
+        has_alpha = image.mode in {'RGBA', 'LA'} or 'transparency' in image.info
+        destination = temporary_directory / (path.stem + ('_upload.png' if has_alpha else '_upload.jpg'))
+        if has_alpha:
+            image.convert('RGBA').save(destination, format='PNG', optimize=True)
+        else:
+            image.convert('RGB').save(destination, format='JPEG', quality=88, optimize=True)
+    if destination.stat().st_size > 5 * 1024 * 1024:
+        raise RuntimeError(f'Image trop lourde après redimensionnement : {path.name}')
+    return destination
+
+
 def upload(path: Path, values: dict, principal: bool, env: str) -> dict:
     cfg = IZILIFE_ENVS[env]
     token = os.getenv('IZILIFE_AGENT_TOKEN','').strip()
     if not token:
         raise RuntimeError('IZILIFE_AGENT_TOKEN manquant')
     data = {
-        'scope_type': str(values['SCOPE_TYPE']).strip().upper(),
-        'scope_ref': str(values['SCOPE_REF']).strip(),
+        'scope_type': str(values.get('SCOPE_TYPE') or '').strip().upper(),
+        'scope_ref': str(values.get('SCOPE_REF') or '').strip(),
         'title': str(values.get('TITLE') or path.stem).strip(),
         'description': str(values.get('DESCRIPTION') or '').strip(),
         'is_principal': 'oui' if principal else 'non',
-        'rights_confirmed': 'oui',
-        'belongs_to_scope': 'oui',
+        'rights_confirmed': 'oui' if truthy(values.get('RIGHTS_CONFIRMED')) else 'non',
+        'belongs_to_scope': 'oui' if truthy(values.get('BELONGS_TO_SCOPE')) else 'non',
+        'owner_page_string_id': str(values.get('OWNER_PAGE_STRING_ID') or '').strip(),
+        'tag_refs': json.dumps([item.strip() for item in re.split(r'[;\n\r|]+', str(values.get('TAG_REFS') or '')) if item.strip()], ensure_ascii=False),
     }
     with path.open('rb') as handle:
         response = requests.post(
@@ -167,7 +237,9 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
     for row in ws.iter_rows(min_row=2):
         values = row_values(ws, row)
         status = str(values.get('STATUS') or '').strip().lower()
-        if not str(values.get('SCOPE_REF') or '').strip() or status in {'done','skip','skipped'}:
+        if status in {'done','skip','skipped'}:
+            continue
+        if not (str(values.get('SCOPE_REF') or '').strip() or str(values.get('OWNER_PAGE_STRING_ID') or '').strip()):
             continue
         pending.append((row[0].row, values))
         if maximum > 0 and len(pending) >= maximum:
@@ -176,11 +248,17 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
         print('Aucune ligne à traiter.')
         return
     for _, values in pending:
-        if not truthy(values.get('RIGHTS_CONFIRMED')) or not truthy(values.get('BELONGS_TO_SCOPE')):
-            raise SystemExit('Chaque ligne doit confirmer RIGHTS_CONFIRMED=OUI et BELONGS_TO_SCOPE=OUI avant lancement.')
+        if not truthy(values.get('RIGHTS_CONFIRMED')):
+            raise SystemExit('Chaque ligne doit confirmer RIGHTS_CONFIRMED=OUI avant lancement.')
+        if str(values.get('BELONGS_TO_SCOPE') or '').strip().lower() not in {'oui','non','1','0','true','false','yes','no','o','n','y'}:
+            raise SystemExit('BELONGS_TO_SCOPE doit être renseigné explicitement à OUI ou NON.')
+        if truthy(values.get('BELONGS_TO_SCOPE')) and (not str(values.get('SCOPE_TYPE') or '').strip() or not str(values.get('SCOPE_REF') or '').strip()):
+            raise SystemExit('BELONGS_TO_SCOPE=OUI exige SCOPE_TYPE et SCOPE_REF.')
+        if not truthy(values.get('BELONGS_TO_SCOPE')) and not str(values.get('OWNER_PAGE_STRING_ID') or '').strip():
+            raise SystemExit('BELONGS_TO_SCOPE=NON exige OWNER_PAGE_STRING_ID.')
     if dry_run:
         for row_number, values in pending:
-            print('[DRY RUN]', row_number, values.get('SCOPE_TYPE'), values.get('SCOPE_REF'), values.get('MEDIA_GROUP'), values.get('SOURCE_TYPE'), row_urls(values) or values.get('DIRECTORY_NAME'))
+            print('[DRY RUN]', row_number, values.get('SCOPE_TYPE'), values.get('SCOPE_REF'), 'owner_page=', values.get('OWNER_PAGE_STRING_ID'), 'tags=', values.get('TAG_REFS'), values.get('MEDIA_GROUP'), values.get('SOURCE_TYPE'), row_urls(values) or values.get('DIRECTORY_NAME'))
         return
 
     instagram_rows = [(n,v) for n,v in pending if str(v.get('SOURCE_TYPE') or '').strip().upper() == 'INSTAGRAM']
@@ -206,8 +284,10 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                 scope_ref = str(values.get('SCOPE_REF') or '').strip()
                 group = str(values.get('MEDIA_GROUP') or 'SIMPLE').strip().upper()
                 source_type = str(values.get('SOURCE_TYPE') or '').strip().upper()
-                if scope_type not in SCOPE_TYPES or group not in GROUP_TYPES or source_type not in SOURCE_TYPES:
+                if (scope_ref and scope_type not in SCOPE_TYPES) or group not in GROUP_TYPES or source_type not in SOURCE_TYPES:
                     raise RuntimeError('SCOPE_TYPE, MEDIA_GROUP ou SOURCE_TYPE invalide.')
+                if truthy(values.get('BELONGS_TO_SCOPE')) and (scope_type not in SCOPE_TYPES or not scope_ref):
+                    raise RuntimeError('Un scope valide est obligatoire quand BELONGS_TO_SCOPE=OUI.')
                 if source_type == 'DIRECTORY':
                     directory_name = str(values.get('DIRECTORY_NAME') or '').strip()
                     directory = (root_dir(zone, env) / 'sources' / directory_name).resolve()
@@ -220,7 +300,9 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                     urls = row_urls(values)
                     if not urls:
                         raise RuntimeError('Aucune URL Instagram.')
-                    lot = root_dir(zone, env) / 'downloads' / scope_type.lower() / slugify(scope_ref) / f'{row_number:04d}_{group.lower()}'
+                    download_type = scope_type or 'page'
+                    download_ref = scope_ref or str(values.get('OWNER_PAGE_STRING_ID') or '')
+                    lot = root_dir(zone, env) / 'downloads' / download_type.lower() / slugify(download_ref) / f'{row_number:04d}_{group.lower()}'
                     lot.mkdir(parents=True, exist_ok=True)
                     files = []
                     media_type = 'carousel' if group == 'CAROUSEL' else 'photo'
@@ -229,13 +311,16 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                 files = dedupe_files(files)
                 created = skipped = 0
                 errors = []
-                for index, media in enumerate(files):
-                    result = upload(media, values, truthy(values.get('PRINCIPAL')) and index == 0, env)
-                    if result.get('success'):
-                        if result.get('created'): created += 1
-                        else: skipped += 1
-                    else:
-                        errors.append(f'{media.name}: {result.get("error", result)}')
+                with tempfile.TemporaryDirectory(prefix='izilife_media_upload_') as temporary_directory:
+                    temporary_path = Path(temporary_directory)
+                    for index, media in enumerate(files):
+                        upload_path = prepare_upload(media, temporary_path)
+                        result = upload(upload_path, values, truthy(values.get('PRINCIPAL')) and index == 0, env)
+                        if result.get('success'):
+                            if result.get('created'): created += 1
+                            else: skipped += 1
+                        else:
+                            errors.append(f'{media.name}: {result.get("error", result)}')
                 if errors:
                     raise RuntimeError(' | '.join(errors))
                 message = json.dumps({'files':len(files),'created':created,'skipped':skipped}, ensure_ascii=False)

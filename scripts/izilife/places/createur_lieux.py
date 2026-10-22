@@ -66,16 +66,7 @@ def set_current_env(env_name: str):
     CURRENT_ENV = str(env_name or "prod").strip().lower()
 
 
-try:
-    from dotenv import load_dotenv
-    if HAS_CORE_PATHS:
-        for _env_file in (ENV_GLOBAL, ENV_IZILIFE, Path(__file__).parent / ".env"):
-            if _env_file and _env_file.exists():
-                load_dotenv(_env_file, override=False)
-    else:
-        load_dotenv(Path(__file__).parent / ".env")
-except ImportError:
-    pass
+# Agent credentials are supplied by the shell/process environment; never load local .env files.
 
 try:
     import openpyxl
@@ -142,10 +133,16 @@ def izilife_post(endpoint: str, data: dict, env: dict) -> dict | None:
             headers={"X-Agent-Token": AGENT_TOKEN},
             verify=env["verify_ssl"], timeout=30,
         )
-        if r.status_code == 200:
-            return r.json()
-        log(f"  ❌ HTTP {r.status_code} : {r.text[:200]}")
-        return None
+        try:
+            payload = r.json()
+        except ValueError:
+            payload = {"success": False, "error": r.text[:1000] or "Réponse HTTP non JSON"}
+        if not isinstance(payload, dict):
+            payload = {"success": False, "error": str(payload)[:1000]}
+        payload.setdefault("http_status", r.status_code)
+        if not r.ok:
+            log(f"  ❌ HTTP {r.status_code} : {payload}")
+        return payload
     except Exception as e:
         log(f"  ❌ POST {endpoint} : {e}")
         return None
@@ -220,6 +217,12 @@ def process_one(row: dict, default_city_slug: str, env: dict, dry_run: bool) -> 
         return "done"
     else:
         err = resp.get("error", "Erreur inconnue")
+        google_status = resp.get("google_status")
+        google_error = resp.get("google_error")
+        if google_status and google_status != "UNKNOWN":
+            err = f"Google Places status={google_status}: {err}"
+        if google_error and google_error not in err:
+            err = f"{err} — {google_error}"
         if resp.get("already_exists"):
             log(f"    ℹ️  Déjà existant — skip")
             return "done"

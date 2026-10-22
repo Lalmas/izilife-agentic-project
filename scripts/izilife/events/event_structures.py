@@ -43,12 +43,16 @@ COLUMNS = [
 
 
 def payload(row: dict) -> dict:
-    return {
+    data = {
         key: row.get(key)
         for key, _ in COLUMNS
         if key not in {"status", "notes", "last_result"}
         and row.get(key) not in (None, "")
     }
+    unique_id = str(data.get("unique_id") or "").strip()
+    if str(data.get("object_type") or "").strip().upper() == "RECURRENT_EVENT" and len(unique_id) > 32:
+        raise ValueError("unique_id RECURRENT_EVENT dépasse 32 caractères; la base le tronquerait.")
+    return data
 
 
 def add_guide(path: Path) -> None:

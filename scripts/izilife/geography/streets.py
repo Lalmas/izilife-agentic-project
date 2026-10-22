@@ -10,14 +10,21 @@ FILE,SHEET="streets.xlsx","Streets"
 COLUMNS=[("name","scope"),("street_ref","scope"),("city_ref","scope"),("place_type_ref","scope"),("address","access"),("zip_code","access"),("longitude","access"),("latitude","access"),("osm_refs","access"),("geometry_geojson","access"),("description","offer"),("members","offer"),("place_of_life","bpr"),("is_active","bpr"),("status","result"),("notes","result"),("last_result","result")]
 
 def payload(r):
-    return enrich({k:r.get(k) for k,_ in COLUMNS if k not in {"status","notes","last_result"} and r.get(k) not in (None,"")})
+    data={k:r.get(k) for k,_ in COLUMNS if k not in {"status","notes","last_result"} and r.get(k) not in (None,"")}
+    try:
+        return enrich(data)
+    except Exception as exc:
+        data.pop("geometry_geojson",None)
+        data.pop("geometry_source_provider",None)
+        print(f"AVERTISSEMENT: rue créée sans géométrie OSM ({exc})")
+        return data
 
 def main():
     ap=argparse.ArgumentParser(description="Création idempotente de rues connues et rattachement de commerces/lieux.")
     ap.add_argument("--zone",required=True);ap.add_argument("--env",choices=["local","staging","prod"],default="local");ap.add_argument("--init",action="store_true");ap.add_argument("--dry-run",action="store_true");ap.add_argument("--max",type=int,default=100);a=ap.parse_args()
     path=drive_workspace_root(a.env)/"izilife"/"geography"/normalize_zone(a.zone)/FILE
     if a.init:
-        ex={"name":"Rue exemple","street_ref":"rue-exemple-lille","city_ref":"lille","place_type_ref":"rue","address":"Rue exemple","zip_code":"59000","longitude":3.0,"latitude":50.0,"osm_refs":"way:123456, way:789012","members":"SHOP:soultraincafe, PLACE:lieu-exemple","place_of_life":"oui","is_active":"oui","status":"skip","notes":"Les références OSM sont fusionnées en LINESTRING/MULTILINESTRING. Rattachement additif via in_on_place."}
+        ex={"name":"Rue exemple","street_ref":"rue-exemple-lille","city_ref":"lille","place_type_ref":"rue","address":"Rue exemple","zip_code":"59000","longitude":3.0,"latitude":50.0,"osm_refs":"way:123456, way:789012","members":"SHOP:soultraincafe, PLACE:lieu-exemple","place_of_life":"oui","is_active":"oui","status":"skip","notes":"Géométrie OSM LINESTRING/MULTILINESTRING facultative. En cas d'indisponibilité OSM, la rue et ses rattachements sont créés sans géométrie."}
         create_workbook(path,SHEET,COLUMNS,ex,{"place_of_life":["oui","non"],"is_active":["oui","non"],"status":["pending","done","error","skip","unmapped"]});return
     process(path,SHEET,a.env,"/scraper/agentUpsertStreet",payload,a.dry_run,a.max)
 

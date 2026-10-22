@@ -78,16 +78,8 @@ def set_current_env(env_name: str):
     CURRENT_ENV = str(env_name or "prod").strip().lower()
 
 
-try:
-    from dotenv import load_dotenv
-    if HAS_CORE_PATHS:
-        for _env_file in (ENV_GLOBAL, ENV_IZILIFE, Path(__file__).parent / ".env"):
-            if _env_file and _env_file.exists():
-                load_dotenv(_env_file, override=False)
-    else:
-        load_dotenv(Path(__file__).parent / ".env")
-except ImportError:
-    pass
+# Credentials and configuration must be injected by the caller's process.
+# Never read developer-local .env files while running an agent.
 
 try:
     import openpyxl
@@ -499,6 +491,8 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
             # Ajouter les nouveaux
             existing_names = {r["nom"] for r in results}
             for item in (raw or []):
+                if max_results > 0 and len(results) >= max_results:
+                    break
                 if item["nom"] and item["nom"] not in existing_names:
                     results.append({
                         "nom":             item["nom"],
@@ -509,7 +503,9 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                     })
                     existing_names.add(item["nom"])
 
-            if direct_place and direct_place.get("nom"):
+            if direct_place and direct_place.get("nom") and (
+                max_results <= 0 or len(results) < max_results
+            ):
                 direct_name = direct_place["nom"]
                 if direct_name not in existing_names:
                     direct_url = direct_place.get("url", "")
@@ -526,6 +522,10 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                 # il n'existe pas de panneau de liste à faire défiler.
                 if not raw:
                     break
+
+            if max_results > 0 and len(results) >= max_results:
+                log(f"    Limite de résultats atteinte : {max_results}")
+                break
 
             try:
                 end_marker = page.get_by_text(re.compile(
@@ -1040,7 +1040,8 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
 # ─────────────────────────────────────────────
 
 def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool,
-                 retry_errors: bool = False):
+                 retry_errors: bool = False, max_duration_min: int = 0,
+                 max_places: int = 0):
     """
     Prend les lignes 'pending' de l'onglet 'À créer' et appelle
     postAgentFetchAndStoreOnePlace pour chacun.
@@ -1063,10 +1064,26 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool,
         log("✅ Aucun lieu pending dans 'À créer'.")
         return
 
+    deadline = (time.monotonic() + max_duration_min * 60) if max_duration_min > 0 else None
     log(f"{len(rows)} lieu(x) à importer")
+    if deadline:
+        log(f"⏱️  Timer insertion : {max_duration_min} min — arrêt entre deux lieux")
+    if max_places > 0:
+        log(f"🔢 Limite insertion : {max_places} lieu(x)")
     stats = {"done": 0, "skipped": 0, "unmapped": 0, "errors": 0}
+    processed = 0
 
     for row in rows:
+        # Ne jamais couper une requête API en cours : le délai est vérifié
+        # entre deux lieux, chaque appel étant déjà borné par son timeout HTTP.
+        if deadline and time.monotonic() >= deadline:
+            log("⏱️  Durée maximale d'insertion atteinte — les lignes restantes restent pending.")
+            break
+        if max_places > 0 and processed >= max_places:
+            log("🔢 Limite d'insertion atteinte — les lignes restantes restent pending.")
+            break
+        processed += 1
+
         nom       = row.get("nom", "")
         slug      = row.get("ville_slug", "")
         maps_url  = row.get("maps_url", "")
@@ -1213,6 +1230,12 @@ def main():
                         help="Durée max en minutes (ex: 90). Finit la catégorie "
                              "en cours puis s'arrête. Reprend là où on s'est arrêté "
                              "le lendemain. 0 = pas de limite.")
+    parser.add_argument("--max-insert-duration", type=int, default=0,
+                        help="Durée max de la phase d'insertion en minutes. Le script "
+                             "s'arrête entre deux lieux ; les lignes restantes restent "
+                             "pending. 0 = pas de limite.")
+    parser.add_argument("--max-insert", type=int, default=0,
+                        help="Nombre maximal de lieux à insérer ; 0 = pas de limite.")
     parser.add_argument("--dry-run",       action="store_true")
     parser.add_argument("--init",          action="store_true",
                         help="Créer izilife_villes.xlsx + categories_lieux.json")
@@ -1250,7 +1273,10 @@ def main():
 
     if do_insert:
         log("\n── PHASE 2 : INSERT ────────────────────────────────────")
-        phase_insert(zone, args.city, env, dry_run, retry_errors=args.retry_errors)
+        phase_insert(zone, args.city, env, dry_run,
+                     retry_errors=args.retry_errors,
+                     max_duration_min=args.max_insert_duration,
+                     max_places=args.max_insert)
 
 
 if __name__ == "__main__":

@@ -21,7 +21,7 @@ def hunt(playwright, city, category, label, args, env, vfile):
     try:
         page = browser.new_page(locale="fr-FR")
         base.apply_stealth(page)
-        found = base.search_google_maps(page, query, max_results=10000) or []
+        found = base.search_google_maps(page, query, max_results=args.max_results) or []
     finally:
         browser.close()
 
@@ -74,6 +74,8 @@ def main():
     parser.add_argument("--category", required=True, help="Une ou plusieurs catégories séparées par des virgules")
     parser.add_argument("--label", help="Libellé facultatif, avec une seule catégorie uniquement")
     parser.add_argument("--env", choices=["local", "staging", "prod"], default="prod")
+    parser.add_argument("--max-results", type=int, default=10000,
+                        help="Nombre maximal de résultats Google Maps à traiter (défaut: 10000).")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 

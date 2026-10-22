@@ -62,16 +62,8 @@ def set_current_env(env_name: str):
     CURRENT_ENV = str(env_name or "prod").strip().lower()
 
 
-try:
-    from dotenv import load_dotenv
-    if HAS_CORE_PATHS:
-        for _env_file in (ENV_GLOBAL, ENV_IZILIFE, Path(__file__).parent / ".env"):
-            if _env_file and _env_file.exists():
-                load_dotenv(_env_file, override=False)
-    else:
-        load_dotenv(Path(__file__).parent / ".env")
-except ImportError:
-    pass
+# Les secrets et chemins doivent être fournis par l'environnement du processus.
+# Cet agent ne lit jamais de fichier .env.
 
 try:
     from playwright.sync_api import sync_playwright
@@ -624,6 +616,7 @@ def enrich_one(lieu: dict, page, env: dict, dry_run: bool, stats: dict):
         "entity_type": etype,
         "entity_id":   eid,
         "content":     full_content,
+        "provider":    "openai",
     }, env)
 
     if not resp or not resp.get("success"):

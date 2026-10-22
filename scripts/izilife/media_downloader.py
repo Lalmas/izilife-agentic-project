@@ -47,7 +47,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urljoin, urlparse, urlsplit, urlunsplit
 
 try:
     import openpyxl
@@ -232,6 +232,44 @@ def move_to_logs(workbook, queue_sheet, row: dict, files: list[Path]) -> None:
     queue_sheet.delete_rows(row["row_index"], 1)
 
 
+def make_upload_ready_images(files: list[Path]) -> list[Path]:
+    """Create upload-sized copies of still images, preserving the downloads."""
+    try:
+        from PIL import Image, ImageOps
+    except ImportError:
+        log("Pillow absent : les images originales sont conservees sans copie redimensionnee")
+        return files
+
+    ready_files: list[Path] = []
+    for path in files:
+        if path.suffix.lower() not in {".jpg", ".jpeg", ".png", ".webp"}:
+            ready_files.append(path)
+            continue
+        try:
+            with Image.open(path) as source:
+                image = ImageOps.exif_transpose(source)
+                if image.width <= 2000 and image.height <= 2000 and path.stat().st_size <= 5 * 1024 * 1024:
+                    ready_files.append(path)
+                    continue
+                image.thumbnail((2000, 2000), Image.Resampling.LANCZOS)
+                has_alpha = image.mode in {"RGBA", "LA"} or "transparency" in image.info
+                output_dir = path.parent / "ready_for_upload"
+                output_dir.mkdir(parents=True, exist_ok=True)
+                output = output_dir / (path.stem + ("_upload.png" if has_alpha else "_upload.jpg"))
+                if has_alpha:
+                    image.convert("RGBA").save(output, format="PNG", optimize=True)
+                else:
+                    image.convert("RGB").save(output, format="JPEG", quality=88, optimize=True)
+            if output.stat().st_size > 5 * 1024 * 1024:
+                raise RuntimeError(f"Image trop lourde après redimensionnement : {path.name}")
+            ready_files.append(output)
+            log(f"  Copie prete a l'upload : {output}")
+        except Exception as exc:
+            log(f"  Redimensionnement impossible pour {path.name} : {exc}")
+            ready_files.append(path)
+    return ready_files
+
+
 # ─────────────────────────────────────────────
 # TYPES ET NOMS DE FICHIERS
 # ─────────────────────────────────────────────
@@ -239,6 +277,11 @@ def move_to_logs(workbook, queue_sheet, row: dict, files: list[Path]) -> None:
 def normalize_media_type(raw_type, url: str) -> str:
     value = str(raw_type or "").strip().lower()
     value = TYPE_ALIASES.get(value, value)
+
+    # img_index désigne une diapositive de post multi-image : le champ Type
+    # vide ou resté à "photo" ne doit pas réduire le téléchargement à une image.
+    if parse_qs(urlparse(url).query).get("img_index") and value in {"", "photo"}:
+        return "carousel"
 
     if value in VALID_TYPES:
         return value
@@ -271,6 +314,15 @@ def source_identifier(url: str) -> str:
         return re.sub(r"[^A-Za-z0-9_-]", "_", candidate)[:80]
 
     return hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+
+
+def canonical_instagram_url(url: str, media_type: str) -> str:
+    """Retire l'index de slide d'un post pour demander le carrousel complet."""
+    parsed = urlsplit(url.strip())
+    post_path = parsed.path.rstrip("/")
+    if media_type == "carousel" and re.search(r"/(?:p|reel)/[^/]+$", post_path, re.I):
+        return urlunsplit((parsed.scheme, parsed.netloc, post_path + "/", "", ""))
+    return url
 
 
 def suffix_from_content_type(content_type: str, media_type: str) -> str:
@@ -465,8 +517,12 @@ def close_igram_ad_popup(page) -> bool:
 
 
 def direct_result_urls(page) -> list[str]:
-    """Récupère les grands médias du résultat quand le bouton final est absent."""
-    candidates = page.locator("img, video").evaluate_all("""
+    """Récupère les médias du résultat, sans aspirer les images de tutoriels."""
+    candidates = page.locator(
+        ".output-list img, .output-list video, "
+        ".output-component img, .output-component video, "
+        ".search-result img, .search-result video"
+    ).evaluate_all("""
         elements => elements.map(el => ({
             src: el.currentSrc || el.src || '',
             width: el.naturalWidth || el.videoWidth || 0,
@@ -496,7 +552,7 @@ def download_one_url(
         "input[type='text']"
     ).first
     input_box.wait_for(state="visible", timeout=15000)
-    input_box.fill(instagram_url)
+    input_box.fill(canonical_instagram_url(instagram_url, media_type))
 
     sleep_random(0.7, 1.3)
 
@@ -505,7 +561,18 @@ def download_one_url(
         "form.search-form button[type='submit']"
     ).first
     submit_button.wait_for(state="visible", timeout=15000)
-    submit_button.click()
+    try:
+        submit_button.click(timeout=8000)
+    except Exception as click_error:
+        # Les interstitiels publicitaires iGram/Google peuvent recouvrir le
+        # bouton sans le masquer. Après tentative de fermeture, forcer le clic
+        # Playwright sur le bouton du formulaire plutôt que d'abandonner l'URL.
+        closed = close_igram_ad_popup(page)
+        try:
+            submit_button.click(force=True, timeout=5000)
+            log("  ✅ Soumission iGram via clic de secours" + (" après fermeture de la publicité" if closed else " malgré le recouvrement publicitaire"))
+        except Exception:
+            raise click_error
 
     log("  ⏳ URL envoyée, attente des résultats...")
 
@@ -519,27 +586,34 @@ def download_one_url(
             pass
         page.wait_for_timeout(1000)
 
-    # Un carrousel expose plusieurs boutons. On attend brièvement que la liste
-    # complète se stabilise avant de la parcourir.
+    # iGram construit la liste des diapositives de façon asynchrone. Deux
+    # mesures espacées de 500 ms peuvent prendre une liste encore partielle
+    # pour la liste complète, surtout sur un carrousel.
     previous_count = -1
     stable_rounds = 0
+    stable_interval_ms = 1000
+    stable_rounds_required = 4 if media_type == "carousel" else 2
+    max_wait_rounds = 30 if media_type == "carousel" else 12
 
-    for _ in range(12):
+    for _ in range(max_wait_rounds):
+        close_igram_ad_popup(page)
         count = links.count()
         if count == previous_count and count > 0:
             stable_rounds += 1
         else:
             stable_rounds = 0
-        if stable_rounds >= 2:
+        if stable_rounds >= stable_rounds_required:
             break
         previous_count = count
-        page.wait_for_timeout(500)
+        page.wait_for_timeout(stable_interval_ms)
 
     hrefs = []
     for index in range(links.count()):
         href = links.nth(index).get_attribute("href")
-        if href and href.startswith("http"):
-            hrefs.append(href)
+        if href:
+            resolved = urljoin(page.url, href.strip())
+            if urlparse(resolved).scheme in {"http", "https"} and resolved not in hrefs:
+                hrefs.append(resolved)
     if not hrefs:
         log("  ⚠️ Bouton final absent : détection directe des médias")
         close_igram_ad_popup(page)
@@ -559,6 +633,7 @@ def download_one_url(
     saved: list[Path] = []
     hashes: set[str] = set()
 
+    failed_downloads = []
     for index, href in enumerate(hrefs):
         response = page.request.get(
             href,
@@ -568,10 +643,12 @@ def download_one_url(
 
         if not response.ok:
             log(f"  ⚠️ Résultat #{index + 1} : HTTP {response.status}")
+            failed_downloads.append(index + 1)
             continue
 
         body = response.body()
         if not body:
+            failed_downloads.append(index + 1)
             continue
 
         digest = hashlib.sha256(body).hexdigest()
@@ -592,6 +669,7 @@ def download_one_url(
                 f"({local_path.stat().st_size} octets)"
             )
             local_path.unlink(missing_ok=True)
+            failed_downloads.append(index + 1)
             continue
 
         saved.append(local_path)
@@ -602,6 +680,21 @@ def download_one_url(
 
     if not saved:
         raise RuntimeError("Aucun fichier valide n'a été enregistré")
+
+    # Un résultat partiel ne doit pas être marqué done comme si toutes les
+    # diapositives avaient été récupérées. Pour un carrousel, une seule image
+    # n'est jamais considérée comme un succès complet.
+    if media_type == "carousel":
+        if failed_downloads:
+            raise RuntimeError(
+                "Carrousel incomplet : téléchargement échoué pour la/les "
+                f"diapositive(s) {failed_downloads} (sur {len(hrefs)} détectée(s))"
+            )
+        if len(saved) < 2:
+            raise RuntimeError(
+                f"Carrousel incomplet : seulement {len(saved)} diapositive(s) "
+                "valide(s) enregistrée(s)"
+            )
 
     return saved
 
@@ -707,6 +800,7 @@ def main() -> None:
                     image_output=image_output,
                     reel_output=reel_output,
                 )
+                files = make_upload_ready_images(files)
 
                 move_to_logs(
                     workbook,

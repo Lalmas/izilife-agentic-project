@@ -9,7 +9,13 @@ from openpyxl.worksheet.datavalidation import DataValidation
 from objects.object_agent_common import drive_workspace_root, izilife_post, load_env, normalize_env, normalize_zone, slugify, IZILIFE_ENVS
 
 HEADERS=["NOM","CATEGORIE","EMAIL","TELEPHONE","DESCRIPTION","LIEN_1","LIEN_2","LIEN_3","LIEN_4","LIEN_5","LIEN_6","LIEN_7","LIEN_8","MEDIA_DIRECTORY_NAME"]
-CATEGORIES=["Influenceur/Media","Artiste/DJ","Assos/Collectif","Communautés","Coach/Prof Danse","Création digitale","Média"]
+# Le contrôleur Page résout PageCategory.string_id, jamais les libellés BO.
+# Garder aussi les spécialisations déjà employées par les classeurs staging.
+CATEGORIES=[
+    "association", "club", "artiste-groupe", "dj", "photographe", "coach",
+    "createur-digital", "media-local", "organisateur-d-evenements",
+    "association-musicale", "coach-sportif", "professeur-de-danse",
+]
 MEDIA_EXT={".jpg",".jpeg",".png",".webp",".gif",".mp4",".mov",".webm"}
 
 def zone_dir(zone,env): return drive_workspace_root(env)/"izilife"/"pages"/normalize_zone(zone)

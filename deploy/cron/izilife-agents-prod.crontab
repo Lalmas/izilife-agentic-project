@@ -20,6 +20,7 @@ MAILTO=""
 55 0 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START offers $(date) =====" && .venv/bin/python offers/special_offer.py --zone=lille --env=prod && echo "===== END offers $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
 15 1 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START brunch $(date) =====" && .venv/bin/python brunch/brunch.py --zone=lille --env=prod && echo "===== END brunch $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
 10 2 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife && echo "\n===== START media-downloader $(date) =====" && .venv/bin/python media_downloader.py --env=prod && echo "===== END media-downloader $(date) ====="' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
+20 2 * * * /bin/zsh -lic 'cd /Users/lal/izilife-agentic-project/scripts/izilife || exit 1; echo "\n===== START media-curator $(date) ====="; .venv/bin/python medias/media_curator.py --zone=lille --env=prod --max=500; rc=$?; echo "===== END media-curator rc=$rc $(date) ====="; exit $rc' >> /Users/lal/Library/Logs/izilife-cron.log 2>&1
 
 # ============================================================
 # NOUVEAUX RÉFÉRENTIELS — QUOTIDIEN

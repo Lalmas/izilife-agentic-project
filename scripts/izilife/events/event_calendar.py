@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from datetime import date, datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "offers"))
@@ -20,8 +21,15 @@ COLUMNS = [
 
 
 def payload(row):
-    return {key: row.get(key) for key, _ in COLUMNS
+    data = {key: row.get(key) for key, _ in COLUMNS
             if key not in {"status", "notes", "last_result"} and row.get(key) not in (None, "")}
+    for key in ("start_date", "end_date", "date_from", "date_to"):
+        value = data.get(key)
+        if isinstance(value, (date, datetime)):
+            data[key] = value.strftime("%Y-%m-%d")
+        elif isinstance(value, str):
+            data[key] = value.strip()[:10]
+    return data
 
 
 def main():

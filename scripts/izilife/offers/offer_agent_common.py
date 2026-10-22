@@ -43,9 +43,9 @@ DAY = {"lun":1,"mar":2,"mer":3,"jeu":4,"ven":5,"sam":6,"dim":7}
 def load_env():
     if os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN"):
         return
-    from dotenv import load_dotenv
-    if ENV_GLOBAL.exists(): load_dotenv(ENV_GLOBAL, override=False)
-    if ENV_IZILIFE.exists(): load_dotenv(ENV_IZILIFE, override=False)
+    raise RuntimeError(
+        "IZILIFE_AGENT_TOKEN absent du processus. Définis-le dans l'environnement avant de lancer l'agent; aucun fichier .env n'est lu."
+    )
 
 
 def workbook_path(env_name: str, zone: str, filename: str) -> Path:

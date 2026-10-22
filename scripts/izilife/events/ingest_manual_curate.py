@@ -34,11 +34,8 @@ import requests
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlparse
-try:
-    from dotenv import load_dotenv
-    load_dotenv(Path(__file__).parent / ".env")
-except ImportError:
-    pass
+# Credentials must be provided by the shell/process environment. Do not load
+# local .env files here: manual curation is also used in staging/prod runs.
 
 try:
     import openpyxl
@@ -675,7 +672,17 @@ def download_from_igram_world(
     ).first
 
     submit_button.wait_for(state="visible", timeout=15000)
-    submit_button.click()
+    try:
+        submit_button.click(timeout=8000)
+    except Exception as click_error:
+        # iGram/Google interstitial ads can intercept the normal click while
+        # leaving the form button visible. Close the ad and submit the form.
+        closed = close_igram_ad_popup(page)
+        try:
+            submit_button.click(force=True, timeout=5000)
+            log("  ✅ Soumission iGram via clic de secours" + (" après fermeture de la publicité" if closed else " malgré le recouvrement publicitaire"))
+        except Exception:
+            raise click_error
 
     log("  ⏳ URL envoyée à igram.world, attente du résultat...")
 
@@ -717,7 +724,11 @@ def download_from_igram_world(
     if not hrefs:
         log("  ⚠️ Le bouton de téléchargement du résultat n'est pas apparu")
         close_igram_ad_popup(page)
-        candidates = page.locator("img, video").evaluate_all("""
+        candidates = page.locator(
+            ".output-list img, .output-list video, "
+            ".output-component img, .output-component video, "
+            ".search-result img, .search-result video"
+        ).evaluate_all("""
             elements => elements.map(el => ({
                 src: el.currentSrc || el.src || '',
                 width: el.naturalWidth || el.videoWidth || 0,

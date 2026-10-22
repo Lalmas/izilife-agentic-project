@@ -48,14 +48,11 @@ except Exception:
 
 
 def load_env():
-    try:
-        from dotenv import load_dotenv
-    except ModuleNotFoundError as exc:
-        if os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN"):
-            return
-        raise RuntimeError("python-dotenv est requis uniquement pour charger un jeton absent du processus.") from exc
-    if ENV_GLOBAL.exists(): load_dotenv(ENV_GLOBAL, override=False)
-    if ENV_IZILIFE.exists(): load_dotenv(ENV_IZILIFE, override=False)
+    if os.getenv("IZILIFE_AGENT_TOKEN") or os.getenv("AGENT_SECRET_TOKEN"):
+        return
+    raise RuntimeError(
+        "IZILIFE_AGENT_TOKEN absent du processus. Définis-le dans l'environnement avant de lancer l'agent; aucun fichier .env n'est lu."
+    )
 
 
 def object_zone_dir(object_name: str, zone: str, env_name: str = "prod") -> Path:
