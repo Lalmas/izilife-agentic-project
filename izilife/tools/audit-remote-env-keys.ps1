@@ -13,6 +13,7 @@ param(
     [string] $RemoteFoRoot = '/var/www/html/izilife',
     [string] $RemoteBoRoot = '/var/www/html/izilife-admin',
     [string] $RemotePsRoot = '/var/www/html/izilife-partner-admin',
+    [string] $LocalHtdocsRoot = '',
     [string] $PlinkPath = ''
 )
 
@@ -62,7 +63,23 @@ function Quote-Sh {
 
 $tool = Find-Plink -RequestedPath $PlinkPath
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$htdocsRoot = Split-Path -Parent $repoRoot
+$workspaceRoot = Split-Path -Parent $repoRoot
+
+if ($LocalHtdocsRoot) {
+    $htdocsRoot = (Resolve-Path -LiteralPath $LocalHtdocsRoot).Path
+} else {
+    $htdocsRoot = @($workspaceRoot, 'C:\xampp\htdocs') | Where-Object {
+        (Test-Path -LiteralPath (Join-Path $_ 'izilife\.env')) -and
+        (Test-Path -LiteralPath (Join-Path $_ 'izilife-admin\.env')) -and
+        (Test-Path -LiteralPath (Join-Path $_ 'izilife-partner-admin\.env'))
+    } | Select-Object -First 1
+
+    if (-not $htdocsRoot) {
+        throw 'Impossible de trouver les trois projets locaux. Passez -LocalHtdocsRoot "C:\xampp\htdocs".'
+    }
+}
+
+Write-Host "Référence locale : $htdocsRoot" -ForegroundColor DarkGray
 
 $apps = @(
     [pscustomobject]@{ Name = 'FO'; Local = Join-Path $htdocsRoot 'izilife\.env'; Remote = ($RemoteFoRoot.TrimEnd('/') + '/.env') },

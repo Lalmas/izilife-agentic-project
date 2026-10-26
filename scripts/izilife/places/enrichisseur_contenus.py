@@ -565,17 +565,32 @@ def run(zone,env,file,dry_run,maximum,analyze_only=False,scope_refs=None,fixture
                 if source_urls: urls=[url for url in urls if url in source_urls]
                 if scope not in {'PLACE','SHOP'}: raise RuntimeError('SCOPE_TYPE doit être PLACE ou SHOP.')
                 if not urls and not images: raise RuntimeError('Au moins une URL ou une image de menu est obligatoire.')
-                row_items=row_skipped=0; details=[]; row_review=False; row_warnings=[]
+                # Validate the target before opening source pages, invoking OCR/LLM,
+                # or attempting any upsert. This endpoint is a read-only lookup.
+                target=izilife_post('/scraper/agentGetPlaceByStringId',{
+                    'string_id':ref,'entity_type':scope
+                },env,timeout=60)
+                if not target.get('success'):
+                    raise RuntimeError(f"Scope introuvable: {scope}/{ref} ({target.get('error',target)})")
+                target_item=target.get('item') if isinstance(target.get('item'),dict) else {}
+                print(f"Ligne {row_number} — scope vérifié : {scope}/{ref} — {target_item.get('name','')}",flush=True)
+                row_items=row_skipped=0; details=[]; row_review=False; row_warnings=[]; row_image_errors=[]
                 for image_path in images:
                     if analyze_only:
                         details.append({'image':image_path.name,'mode':'image_ocr','skipped':'analyse seule indisponible pour les images'})
                         continue
                     print(f'Ligne {row_number} — OCR image : {image_path.name}',flush=True)
-                    result=ingest_menu_image(image_path,scope,ref,env)
-                    if not result.get('success'): raise RuntimeError(f'{image_path.name}: {result.get("error",result)}')
-                    row_items+=int(result.get('inserted',0))+int(result.get('updated',0))
-                    row_skipped+=int(result.get('skipped',0))
-                    details.append({'image':image_path.name,'detected':int(result.get('products',0)),'mode':'image_ocr'})
+                    try:
+                        result=ingest_menu_image(image_path,scope,ref,env)
+                        if not result.get('success'): raise RuntimeError(str(result.get('error',result)))
+                        row_items+=int(result.get('inserted',0))+int(result.get('updated',0))
+                        row_skipped+=int(result.get('skipped',0))
+                        details.append({'image':image_path.name,'detected':int(result.get('products',0)),'mode':'image_ocr'})
+                    except Exception as exc:
+                        message=f'{image_path.name}: {exc}'
+                        row_image_errors.append(message)
+                        details.append({'image':image_path.name,'mode':'image_ocr','error':str(exc)})
+                        print(f'AVERTISSEMENT OCR ligne {row_number} — {message}; poursuite avec les autres images.',flush=True)
                 for url in urls:
                     if 'dokaa.fr' in (urlparse(url).hostname or '').lower():
                         products=scrape_dokaa_products(page,url)
@@ -673,12 +688,14 @@ def run(zone,env,file,dry_run,maximum,analyze_only=False,scope_refs=None,fixture
                 if analyze_only:
                     stats['rows']+=1;stats['items']+=sum(int(d.get('detected',0)) for d in details);print(f'OK analyse seule ligne {row_number}')
                     continue
-                final_status='review' if row_review else 'done'
-                result_payload={'items':row_items,'skipped':row_skipped,'review_required':row_review,'warnings':row_warnings,'sources':details}
+                final_status='review' if row_review else ('retry' if row_image_errors else 'done')
+                result_payload={'items':row_items,'skipped':row_skipped,'review_required':row_review,'warnings':row_warnings,'image_errors':row_image_errors,'sources':details}
                 result_text=json.dumps(result_payload,ensure_ascii=False)
                 if len(result_text)>32000: result_text=json.dumps({'items':row_items,'skipped':row_skipped,'review_required':row_review,'warnings':row_warnings,'message':'Résultat détaillé tronqué; utiliser --analyze-only pour le rapport complet.'},ensure_ascii=False)
                 ws.cell(row_number,status_col,final_status); ws.cell(row_number,result_col,result_text); wb.save(path)
-                stats['rows']+=1;stats['items']+=row_items;stats['skipped']+=row_skipped;print(f'OK ligne {row_number}: {row_items} objet(s)')
+                stats['rows']+=1;stats['items']+=row_items;stats['skipped']+=row_skipped;stats['errors']+=len(row_image_errors)
+                if row_image_errors: print(f'RETRY ligne {row_number}: {row_items} objet(s), {len(row_image_errors)} image(s) en échec.')
+                else: print(f'OK ligne {row_number}: {row_items} objet(s)')
             except Exception as exc:
                 if not analyze_only:
                     ws.cell(row_number,status_col,'error');ws.cell(row_number,result_col,str(exc)[:32000]);wb.save(path)
