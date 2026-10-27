@@ -1,0 +1,1227 @@
+{
+  "format": "izilife-curation-apply-v1",
+  "plan": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\synchronisation_curation\\plan-staging-pilotes.json",
+  "plan_sha256": "5d79bc2e648a6f47bac5e5d29b3b7c3f8212f9f424d85ee8f288c420390143a7",
+  "applied_at": "2026-10-26T19:36:32.041141",
+  "destination_env": "staging",
+  "targets": {
+    "soultrain": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 1,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": {
+              "14": 14,
+              "15": 15,
+              "16": 16,
+              "17": 17,
+              "18": 18,
+              "19": 19,
+              "20": 20,
+              "21": 21,
+              "22": 22,
+              "23": 23,
+              "24": 24,
+              "25": 25
+            },
+            "products": {
+              "1": 1,
+              "2": 2,
+              "3": 3,
+              "4": 4,
+              "69": 69,
+              "70": 70,
+              "71": 71,
+              "72": 72,
+              "73": 73,
+              "74": 74,
+              "75": 75,
+              "76": 76,
+              "77": 77,
+              "78": 78,
+              "79": 79,
+              "80": 80,
+              "81": 81,
+              "82": 82,
+              "83": 83,
+              "84": 84,
+              "85": 85,
+              "86": 86,
+              "87": 87,
+              "88": 88,
+              "89": 89,
+              "90": 90,
+              "91": 91,
+              "92": 92,
+              "93": 93,
+              "94": 94,
+              "95": 95,
+              "96": 96,
+              "97": 97,
+              "98": 98,
+              "99": 99,
+              "100": 100,
+              "101": 101,
+              "102": 102,
+              "103": 103,
+              "104": 104,
+              "105": 105,
+              "106": 106,
+              "107": 107,
+              "108": 108,
+              "109": 109,
+              "110": 110,
+              "111": 111,
+              "112": 112,
+              "113": 113,
+              "114": 114,
+              "115": 115,
+              "116": 116,
+              "117": 117,
+              "118": 118,
+              "119": 119,
+              "120": 120,
+              "121": 121,
+              "122": 122,
+              "123": 123,
+              "124": 124,
+              "125": 125,
+              "126": 126,
+              "127": 127,
+              "128": 128,
+              "129": 129,
+              "130": 130,
+              "131": 131,
+              "132": 132,
+              "133": 133,
+              "134": 134,
+              "135": 135,
+              "136": 136,
+              "137": 137,
+              "138": 138
+            },
+            "equipment": {
+              "2": 2
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "19",
+          "sha1": "4a615f9aa131ac54529f50cc4947da17f15b023c",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1094
+          }
+        },
+        {
+          "source_id": "20",
+          "sha1": "07a29bd0593a7945e7daaebeb8ee2b3eaa31b5d9",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1095
+          }
+        },
+        {
+          "source_id": "21",
+          "sha1": "e7a83f830b25ea278a8de90ec6860033289aa53a",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1096
+          }
+        },
+        {
+          "source_id": "22",
+          "sha1": "83efdf0d35d981b9096860eef0aa34f9a7258728",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1097
+          }
+        },
+        {
+          "source_id": "23",
+          "sha1": "47289711381a7bec98cade12622643a35549bf99",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1098
+          }
+        },
+        {
+          "source_id": "24",
+          "sha1": "1b3b6db0c59b19b0353ec8cce5cac3e27e8da32b",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1099
+          }
+        },
+        {
+          "source_id": "25",
+          "sha1": "a2e62367df0ad0654bc7abf738cf7042ae07413f",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1100
+          }
+        },
+        {
+          "source_id": "26",
+          "sha1": "9bbf6090cff8947e3f865a78d6541d3c657f7b96",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1101
+          }
+        },
+        {
+          "source_id": "27",
+          "sha1": "b7238e409c505202cfa67d8b76f2ca5d56ec6f2e",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1102
+          }
+        },
+        {
+          "source_id": "28",
+          "sha1": "25e9e20c29934fc9f992498bc8bbbd950b27d4d4",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1103
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1044",
+          "destination_id": 2,
+          "sha1": "e9a032bc71e009f51aeb00b92a6bc77c3ea93092",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1044
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1043",
+          "destination_id": 69,
+          "sha1": "2946d90035207292e6a359e081c04eace409c814",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1043
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1045",
+          "destination_id": 71,
+          "sha1": "232cbac89d145ee02bd018a5dec9e438121f0ec8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1045
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1046",
+          "destination_id": 72,
+          "sha1": "fc7752eeeba3a9f889e304131b55bf1dd4351381",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1046
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1047",
+          "destination_id": 73,
+          "sha1": "e9def64c73180e13ca2c8799c5ce8261d37ea5b3",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1047
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1048",
+          "destination_id": 74,
+          "sha1": "71897ddf496bf61d8c370de76fba95ea874bbe09",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1048
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1049",
+          "destination_id": 75,
+          "sha1": "7b663fc6794d89505e9eae9b1706fe2fb8c80ef9",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1049
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1050",
+          "destination_id": 76,
+          "sha1": "2004026cda6cd6bdea9979fd5cbfce2ce1272547",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1050
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1051",
+          "destination_id": 83,
+          "sha1": "2a495ec36868560c6fbb9036edb7258abce73712",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1051
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1052",
+          "destination_id": 84,
+          "sha1": "f8dde44c7ba8e0762e0a1e16e45c558f4aa99fde",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1052
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1053",
+          "destination_id": 85,
+          "sha1": "e6baf374176544d5d849e41035f09fd1305d96cb",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1053
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1054",
+          "destination_id": 86,
+          "sha1": "e3d5bd2d164636c49f26addc626ebcd1720d1da8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1054
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1055",
+          "destination_id": 87,
+          "sha1": "1da2b7df89a47c210938d4d3f19a2538d42453b2",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1055
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1056",
+          "destination_id": 88,
+          "sha1": "49c2fa56fed2062bd2154c1db30db8c061f151ee",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1056
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1057",
+          "destination_id": 89,
+          "sha1": "ba74654f929a8da0472f6e0a5d93f7809b6d0e7c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1057
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1058",
+          "destination_id": 99,
+          "sha1": "5a08159f9728e4b2b10b1ca86419f2a72d86f7b3",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1058
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1059",
+          "destination_id": 100,
+          "sha1": "cedbe79a085749640c01f8639c49145768cde633",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1059
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1060",
+          "destination_id": 101,
+          "sha1": "d3e2e2f38d67296b5d70013c960981b764b11633",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1060
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1061",
+          "destination_id": 102,
+          "sha1": "73e96b3b692b52006267dfbe60018b0d1b14d377",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1061
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1062",
+          "destination_id": 103,
+          "sha1": "83f33401ca4a31469705b96a2fc86a2e250e9870",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1062
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1063",
+          "destination_id": 104,
+          "sha1": "f1f003af575ed7f3f1be57d5d7ec20325053663c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1063
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1064",
+          "destination_id": 106,
+          "sha1": "b6923cd0bb9f3c540e6dcfac65e44ed347120e03",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1064
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1065",
+          "destination_id": 108,
+          "sha1": "e95f42a580a9b2966fcbbae0720518968f91f2cb",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1065
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1066",
+          "destination_id": 109,
+          "sha1": "b7af0e30ae643e701db87d6e890abd2847e164d8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1066
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1067",
+          "destination_id": 111,
+          "sha1": "16f5678712f7c234c395a9b1af1b613946555c2d",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1067
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1068",
+          "destination_id": 112,
+          "sha1": "6d3bfe9af399fabeebb5483d8352a748f59a1b33",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1068
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1069",
+          "destination_id": 113,
+          "sha1": "dd8827bfe49b6eac3c3ecace33e6b9180a5a66a6",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1069
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1070",
+          "destination_id": 114,
+          "sha1": "4be9e74f62f15452fe3418b61b6e7ac8fddf1939",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1070
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1071",
+          "destination_id": 115,
+          "sha1": "5407828f335929f3a17752805a3b4fe73336f4f7",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1071
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1072",
+          "destination_id": 116,
+          "sha1": "550a198f5c5d90f7c9ccd7fc05a2523995382148",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1072
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1073",
+          "destination_id": 117,
+          "sha1": "ef526cd401580edf36ce11345df2b18b5401038c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1073
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1074",
+          "destination_id": 118,
+          "sha1": "215df843952e8de3f9d815e9457cbdf289219246",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1074
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1075",
+          "destination_id": 119,
+          "sha1": "82acaadb8d44aca3133b6da04a564fa093c504ab",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1075
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1076",
+          "destination_id": 120,
+          "sha1": "10debbbee4731f5c3e732afcbac94f5b3f9b10da",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1076
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1077",
+          "destination_id": 121,
+          "sha1": "020ffab33ff95a4bc9d64b72570d319b0de55446",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1077
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1078",
+          "destination_id": 122,
+          "sha1": "c031a275a97d2cadecc904781f4f78a7ac99a41b",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1078
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1079",
+          "destination_id": 123,
+          "sha1": "a2ce74a2d83d60d5e71efebe85756e0cca71d07b",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1079
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1080",
+          "destination_id": 124,
+          "sha1": "a9afdab31feda269fb3cd066ac697460a2f2fd94",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1080
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1081",
+          "destination_id": 125,
+          "sha1": "a22966ac1fd528b5c76b7a0a44a84c339f02c08e",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1081
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1082",
+          "destination_id": 130,
+          "sha1": "d2baf3e20a1ab132dd99185ff5584881c8ef2a4f",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1082
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1083",
+          "destination_id": 131,
+          "sha1": "7c1275dcaf02f28cd5087766dee0f5fd9b8730b6",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1083
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1084",
+          "destination_id": 134,
+          "sha1": "e6014955973a6cef9c95ba81501cd48e36549c17",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1084
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1085",
+          "destination_id": 135,
+          "sha1": "8eaf20df213754893d8c9189f1811288b702adab",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1085
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1086",
+          "destination_id": 136,
+          "sha1": "212f0b64e4c634ee630fa1df1d06a9e4bf6fe60a",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1086
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1087",
+          "destination_id": 137,
+          "sha1": "ebf974afed283ea40fb24670999ed3cb62629d87",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1087
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "1088",
+          "destination_id": 138,
+          "sha1": "e347d265c5498d56c68de1d2381840dd0c77e6d8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1088
+          }
+        }
+      ]
+    },
+    "disco-volante": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 2,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 3,
+            "characteristics": 0,
+            "links": 3,
+            "external_media": 1,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 2,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": {
+              "8": 8,
+              "9": 9,
+              "10": 10,
+              "11": 11,
+              "12": 12,
+              "13": 13,
+              "5": 5,
+              "6": 6,
+              "7": 7
+            },
+            "products": {
+              "43": 43,
+              "44": 44,
+              "45": 45,
+              "46": 46,
+              "47": 46,
+              "48": 46,
+              "49": 46,
+              "50": 46,
+              "51": 46,
+              "52": 46,
+              "53": 46,
+              "54": 46,
+              "55": 46,
+              "56": 46,
+              "57": 46,
+              "58": 46,
+              "59": 46,
+              "60": 46,
+              "61": 46,
+              "62": 46,
+              "63": 46,
+              "64": 46,
+              "65": 46,
+              "66": 46,
+              "67": 46,
+              "68": 46,
+              "139": 43,
+              "140": 44,
+              "141": 45
+            },
+            "equipment": {
+              "51": 12,
+              "52": 13
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "29",
+          "sha1": "0c1b91a022ed82e0e51ccf0383567b9d0d4821c7",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1104
+          }
+        },
+        {
+          "source_id": "30",
+          "sha1": "3e9b0efb9fd78ce05d65e72f0172bac45f981420",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1105
+          }
+        },
+        {
+          "source_id": "31",
+          "sha1": "699c69dad6bc1d862c235991017aa49eb3323371",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1106
+          }
+        },
+        {
+          "source_id": "32",
+          "sha1": "b873e9e421122a93577949763c89216204a46123",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1107
+          }
+        },
+        {
+          "source_id": "33",
+          "sha1": "c48157ef22b65f53c3ba46f4981424f669f14cbc",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1108
+          }
+        },
+        {
+          "source_id": "34",
+          "sha1": "b9024bb22cf97e928124f1813c7096616c981eab",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1109
+          }
+        },
+        {
+          "source_id": "35",
+          "sha1": "1fda45909bea175103c4ee4e4f54a242e946a123",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1110
+          }
+        },
+        {
+          "source_id": "36",
+          "sha1": "bb78b464769824dff13852db03f8fd467e261df7",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1111
+          }
+        },
+        {
+          "source_id": "37",
+          "sha1": "57e3d30c0af57ab6f6eb66f35133431a3bf5f02f",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1112
+          }
+        },
+        {
+          "source_id": "38",
+          "sha1": "948c1af3770716140f2c323ea6a100b695c99e62",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1113
+          }
+        }
+      ]
+    },
+    "don-vito": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 3,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": {
+              "1": 1,
+              "2": 2,
+              "3": 3,
+              "4": 4
+            },
+            "products": {
+              "5": 5,
+              "6": 5,
+              "7": 5,
+              "8": 5,
+              "9": 5,
+              "10": 5,
+              "11": 5,
+              "12": 5,
+              "13": 5,
+              "14": 5,
+              "15": 5,
+              "16": 5,
+              "17": 5,
+              "18": 5,
+              "19": 5,
+              "20": 5,
+              "21": 5,
+              "22": 5,
+              "23": 5,
+              "24": 5,
+              "25": 5,
+              "26": 5,
+              "27": 5,
+              "28": 5,
+              "29": 5,
+              "30": 5,
+              "31": 5,
+              "32": 5,
+              "33": 5,
+              "34": 5,
+              "35": 5,
+              "36": 5,
+              "37": 5,
+              "38": 5,
+              "39": 5,
+              "40": 5,
+              "41": 5,
+              "42": 5,
+              "142": 5,
+              "143": 5,
+              "144": 5,
+              "145": 5,
+              "146": 5
+            },
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "962",
+          "sha1": "27ddf2711aebb50df539a40180ac0ccfbb4f4e28",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1114
+          }
+        }
+      ]
+    },
+    "hall-u-need": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 4,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 1,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": {
+              "5": 5,
+              "6": 6,
+              "7": 7,
+              "8": 8,
+              "9": 9,
+              "10": 10,
+              "11": 11
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": []
+    },
+    "follow-park": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 5,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 16,
+            "services": 0,
+            "eap": 14,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [
+            "EAP importés inactifs avec confirmation manuelle obligatoire."
+          ],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": {
+              "26": 14,
+              "27": 15,
+              "28": 16,
+              "31": 17,
+              "32": 18,
+              "33": 19,
+              "34": 20,
+              "35": 21,
+              "36": 22,
+              "37": 23,
+              "38": 24,
+              "39": 25,
+              "40": 26,
+              "41": 27,
+              "42": 28,
+              "43": 29
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "966",
+          "sha1": "b03cd37d535e4f6ffba7c30d26beb4aa66e19faa",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1115
+          }
+        }
+      ]
+    },
+    "les-essentielles": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 6,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "964",
+          "sha1": "4395de81b478d26f8ea2cf96419e782ac49bf5df",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1116
+          }
+        }
+      ]
+    }
+  }
+}

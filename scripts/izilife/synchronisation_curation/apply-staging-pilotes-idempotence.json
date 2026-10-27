@@ -1,0 +1,1202 @@
+{
+  "format": "izilife-curation-apply-v1",
+  "plan": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\synchronisation_curation\\plan-staging-pilotes-v2.json",
+  "plan_sha256": "0a6c610ec0dda15c2f78a4b1c73b0b0749f296848b8cf97e6312f1eb599d888f",
+  "applied_at": "2026-10-26T20:14:54.855574",
+  "destination_env": "staging",
+  "targets": {
+    "soultrain": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 10,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 1,
+            "product_categories": 3,
+            "products": 6,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 2,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 3,
+            "hour_rows": 21
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: CARBONADE FLAMANDE MAISON (normalisé vers Vente classique).",
+            "Produit historique sans ProductOrderType: BURGER MAROILLES (normalisé vers Vente classique).",
+            "Produit historique sans ProductOrderType: CROQUETTES DE LA MER MAISON (normalisé vers Vente classique).",
+            "Produit historique sans ProductOrderType: VIRGIN FLORALE SPRTIZ (normalisé vers Vente classique).",
+            "Produit historique sans ProductOrderType: VIRGIN AGRUMES SPTRITZ (normalisé vers Vente classique).",
+            "Produit historique sans ProductOrderType: Produit test brunch (normalisé vers Vente classique)."
+          ],
+          "_maps": {
+            "categories": {
+              "45": 14,
+              "48": 37,
+              "51": 20,
+              "65": 38,
+              "53": 22,
+              "47": 16,
+              "50": 19,
+              "54": 23,
+              "49": 39,
+              "56": 25,
+              "46": 15,
+              "52": 21,
+              "55": 24
+            },
+            "products": {
+              "360": 168,
+              "361": 169,
+              "362": 70,
+              "363": 170,
+              "364": 72,
+              "365": 73,
+              "366": 71,
+              "367": 74,
+              "368": 76,
+              "369": 77,
+              "370": 75,
+              "371": 78,
+              "372": 79,
+              "373": 80,
+              "374": 81,
+              "375": 82,
+              "376": 83,
+              "377": 84,
+              "378": 85,
+              "379": 86,
+              "380": 87,
+              "381": 88,
+              "382": 89,
+              "383": 90,
+              "384": 91,
+              "385": 92,
+              "386": 93,
+              "387": 94,
+              "388": 95,
+              "389": 96,
+              "390": 97,
+              "391": 98,
+              "392": 99,
+              "393": 100,
+              "394": 101,
+              "395": 102,
+              "396": 103,
+              "397": 104,
+              "398": 105,
+              "399": 106,
+              "400": 107,
+              "401": 171,
+              "402": 172,
+              "403": 108,
+              "404": 109,
+              "405": 110,
+              "406": 111,
+              "407": 112,
+              "408": 113,
+              "409": 114,
+              "410": 115,
+              "411": 116,
+              "412": 117,
+              "413": 118,
+              "414": 119,
+              "415": 120,
+              "416": 121,
+              "417": 122,
+              "418": 123,
+              "419": 124,
+              "420": 125,
+              "421": 126,
+              "422": 127,
+              "423": 128,
+              "424": 129,
+              "425": 130,
+              "426": 131,
+              "427": 132,
+              "428": 133,
+              "429": 134,
+              "430": 135,
+              "431": 136,
+              "432": 137,
+              "433": 138,
+              "513": 173
+            },
+            "equipment": {
+              "29": 43,
+              "30": 44
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "347",
+          "sha1": "cdd9a9ce5d4e6c1ee3726bdb0f56ddc1c0c4a08d",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1118
+          }
+        },
+        {
+          "source_id": "338",
+          "sha1": "4a615f9aa131ac54529f50cc4947da17f15b023c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 19
+          }
+        },
+        {
+          "source_id": "339",
+          "sha1": "07a29bd0593a7945e7daaebeb8ee2b3eaa31b5d9",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 20
+          }
+        },
+        {
+          "source_id": "340",
+          "sha1": "e7a83f830b25ea278a8de90ec6860033289aa53a",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 21
+          }
+        },
+        {
+          "source_id": "341",
+          "sha1": "677d91ee3bbfdeac3ee56e86cf5c4fb3beea307a",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1119
+          }
+        },
+        {
+          "source_id": "342",
+          "sha1": "5c5f1ddbef7fe98613b8a7aae786dd16b550e644",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1120
+          }
+        },
+        {
+          "source_id": "343",
+          "sha1": "6db627b2a06e1f2fe1dca614a2ef53528bb33440",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1121
+          }
+        },
+        {
+          "source_id": "344",
+          "sha1": "a2e62367df0ad0654bc7abf738cf7042ae07413f",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 25
+          }
+        },
+        {
+          "source_id": "345",
+          "sha1": "bd9021a6e5400cbd753dbf63ced42c8faed3a3d8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1122
+          }
+        },
+        {
+          "source_id": "346",
+          "sha1": "5413a63ed31b8ca004e5c42d30494ee9c8898918",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1123
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2542",
+          "destination_id": 168,
+          "sha1": "ae1f5fbecdea3737f579cb398c7897781fb1ffcc",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1124
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2543",
+          "destination_id": 170,
+          "sha1": "e9a032bc71e009f51aeb00b92a6bc77c3ea93092",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1125
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2544",
+          "destination_id": 72,
+          "sha1": "fc7752eeeba3a9f889e304131b55bf1dd4351381",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1046
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2545",
+          "destination_id": 73,
+          "sha1": "e9def64c73180e13ca2c8799c5ce8261d37ea5b3",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1047
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2546",
+          "destination_id": 71,
+          "sha1": "232cbac89d145ee02bd018a5dec9e438121f0ec8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1045
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2547",
+          "destination_id": 74,
+          "sha1": "71897ddf496bf61d8c370de76fba95ea874bbe09",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1048
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2548",
+          "destination_id": 76,
+          "sha1": "2004026cda6cd6bdea9979fd5cbfce2ce1272547",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1050
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2549",
+          "destination_id": 75,
+          "sha1": "7b663fc6794d89505e9eae9b1706fe2fb8c80ef9",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1049
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2550",
+          "destination_id": 83,
+          "sha1": "2a495ec36868560c6fbb9036edb7258abce73712",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1051
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2551",
+          "destination_id": 84,
+          "sha1": "f8dde44c7ba8e0762e0a1e16e45c558f4aa99fde",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1052
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2552",
+          "destination_id": 85,
+          "sha1": "e6baf374176544d5d849e41035f09fd1305d96cb",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1053
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2553",
+          "destination_id": 86,
+          "sha1": "e3d5bd2d164636c49f26addc626ebcd1720d1da8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1054
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2554",
+          "destination_id": 87,
+          "sha1": "1da2b7df89a47c210938d4d3f19a2538d42453b2",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1055
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2555",
+          "destination_id": 88,
+          "sha1": "49c2fa56fed2062bd2154c1db30db8c061f151ee",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1056
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2556",
+          "destination_id": 89,
+          "sha1": "ba74654f929a8da0472f6e0a5d93f7809b6d0e7c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1057
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2557",
+          "destination_id": 99,
+          "sha1": "5a08159f9728e4b2b10b1ca86419f2a72d86f7b3",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1058
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2558",
+          "destination_id": 100,
+          "sha1": "cedbe79a085749640c01f8639c49145768cde633",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1059
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2559",
+          "destination_id": 101,
+          "sha1": "d3e2e2f38d67296b5d70013c960981b764b11633",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1060
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2560",
+          "destination_id": 102,
+          "sha1": "73e96b3b692b52006267dfbe60018b0d1b14d377",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1061
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2561",
+          "destination_id": 103,
+          "sha1": "83f33401ca4a31469705b96a2fc86a2e250e9870",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1062
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2562",
+          "destination_id": 104,
+          "sha1": "f1f003af575ed7f3f1be57d5d7ec20325053663c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1063
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2563",
+          "destination_id": 106,
+          "sha1": "b6923cd0bb9f3c540e6dcfac65e44ed347120e03",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1064
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2564",
+          "destination_id": 108,
+          "sha1": "e95f42a580a9b2966fcbbae0720518968f91f2cb",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1065
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2565",
+          "destination_id": 109,
+          "sha1": "b7af0e30ae643e701db87d6e890abd2847e164d8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1066
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2566",
+          "destination_id": 111,
+          "sha1": "16f5678712f7c234c395a9b1af1b613946555c2d",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1067
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2567",
+          "destination_id": 112,
+          "sha1": "6d3bfe9af399fabeebb5483d8352a748f59a1b33",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1068
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2568",
+          "destination_id": 113,
+          "sha1": "dd8827bfe49b6eac3c3ecace33e6b9180a5a66a6",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1069
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2569",
+          "destination_id": 114,
+          "sha1": "4be9e74f62f15452fe3418b61b6e7ac8fddf1939",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1070
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2570",
+          "destination_id": 115,
+          "sha1": "5407828f335929f3a17752805a3b4fe73336f4f7",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1071
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2571",
+          "destination_id": 116,
+          "sha1": "550a198f5c5d90f7c9ccd7fc05a2523995382148",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1072
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2572",
+          "destination_id": 117,
+          "sha1": "ef526cd401580edf36ce11345df2b18b5401038c",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1073
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2573",
+          "destination_id": 118,
+          "sha1": "215df843952e8de3f9d815e9457cbdf289219246",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1074
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2574",
+          "destination_id": 119,
+          "sha1": "82acaadb8d44aca3133b6da04a564fa093c504ab",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1075
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2575",
+          "destination_id": 120,
+          "sha1": "10debbbee4731f5c3e732afcbac94f5b3f9b10da",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1076
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2576",
+          "destination_id": 121,
+          "sha1": "020ffab33ff95a4bc9d64b72570d319b0de55446",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1077
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2577",
+          "destination_id": 122,
+          "sha1": "c031a275a97d2cadecc904781f4f78a7ac99a41b",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1078
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2578",
+          "destination_id": 123,
+          "sha1": "a2ce74a2d83d60d5e71efebe85756e0cca71d07b",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1079
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2579",
+          "destination_id": 124,
+          "sha1": "a9afdab31feda269fb3cd066ac697460a2f2fd94",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1080
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2580",
+          "destination_id": 125,
+          "sha1": "a22966ac1fd528b5c76b7a0a44a84c339f02c08e",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1081
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2581",
+          "destination_id": 130,
+          "sha1": "d2baf3e20a1ab132dd99185ff5584881c8ef2a4f",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1082
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2582",
+          "destination_id": 131,
+          "sha1": "7c1275dcaf02f28cd5087766dee0f5fd9b8730b6",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1083
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2583",
+          "destination_id": 134,
+          "sha1": "e6014955973a6cef9c95ba81501cd48e36549c17",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1084
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2584",
+          "destination_id": 135,
+          "sha1": "8eaf20df213754893d8c9189f1811288b702adab",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1085
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2585",
+          "destination_id": 136,
+          "sha1": "212f0b64e4c634ee630fa1df1d06a9e4bf6fe60a",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1086
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2586",
+          "destination_id": 137,
+          "sha1": "ebf974afed283ea40fb24670999ed3cb62629d87",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1087
+          }
+        },
+        {
+          "object_type": "PRODUCT",
+          "source_id": "2587",
+          "destination_id": 138,
+          "sha1": "e347d265c5498d56c68de1d2381840dd0c77e6d8",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1088
+          }
+        }
+      ]
+    },
+    "disco-volante": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 7,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "identity_fields": [
+              "short_description"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 1,
+            "products": 1,
+            "option_groups": 1,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: Test Prouit (sentinelle 0 conservée)."
+          ],
+          "_maps": {
+            "categories": {
+              "23": 8,
+              "24": 9,
+              "25": 10,
+              "26": 11,
+              "27": 12,
+              "28": 13,
+              "66": 9,
+              "67": 10,
+              "68": 11,
+              "69": 29
+            },
+            "products": {
+              "104": 46,
+              "105": 46,
+              "106": 46,
+              "107": 46,
+              "108": 46,
+              "109": 46,
+              "110": 46,
+              "111": 46,
+              "112": 46,
+              "113": 46,
+              "114": 46,
+              "115": 46,
+              "116": 46,
+              "117": 46,
+              "118": 46,
+              "119": 46,
+              "120": 46,
+              "121": 46,
+              "122": 46,
+              "123": 46,
+              "124": 46,
+              "125": 46,
+              "126": 46,
+              "680": 153
+            },
+            "equipment": {
+              "51": 12,
+              "52": 13
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2491",
+          "sha1": "81362e8b2a07777cd256c8f28c787946d006526f",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 1117
+          }
+        }
+      ]
+    },
+    "don-vito": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 11,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 1,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: Margherita (normalisé vers Vente classique)."
+          ],
+          "_maps": {
+            "categories": {
+              "57": 1,
+              "58": 2,
+              "59": 3,
+              "60": 4
+            },
+            "products": {
+              "434": 5,
+              "435": 5,
+              "436": 5,
+              "437": 5,
+              "438": 5,
+              "439": 5,
+              "440": 5,
+              "441": 5,
+              "442": 5,
+              "443": 5,
+              "457": 5,
+              "458": 5,
+              "459": 5,
+              "460": 5,
+              "461": 5,
+              "462": 5,
+              "463": 5,
+              "464": 5,
+              "465": 5,
+              "466": 5,
+              "467": 5,
+              "468": 5,
+              "469": 5,
+              "470": 5,
+              "471": 5,
+              "472": 174,
+              "473": 174,
+              "474": 174,
+              "475": 174,
+              "476": 174,
+              "477": 174,
+              "478": 174,
+              "479": 174,
+              "480": 174,
+              "481": 174,
+              "482": 174,
+              "483": 174,
+              "484": 5,
+              "485": 5,
+              "486": 5,
+              "487": 5,
+              "488": 5,
+              "489": 5,
+              "490": 5,
+              "491": 5,
+              "492": 5,
+              "493": 5,
+              "494": 5,
+              "495": 5,
+              "496": 5,
+              "497": 5,
+              "498": 5,
+              "499": 5,
+              "500": 5,
+              "501": 5,
+              "502": 5,
+              "503": 5,
+              "504": 5,
+              "505": 5,
+              "506": 5
+            },
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2588",
+          "sha1": "27ddf2711aebb50df539a40180ac0ccfbb4f4e28",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 962
+          }
+        }
+      ]
+    },
+    "hall-u-need": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 8,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 4,
+            "products": 6,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 9,
+            "services": 0,
+            "eap": 5,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: Produit test catalogue HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Cocktail test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Boisson test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Plat test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Dessert test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Produit Restaurant gÚnÚral HUN (sentinelle 0 conservée).",
+            "EAP importés inactifs avec confirmation manuelle obligatoire."
+          ],
+          "_maps": {
+            "categories": {
+              "61": 30,
+              "62": 31,
+              "63": 32,
+              "64": 33
+            },
+            "products": {
+              "507": 155,
+              "508": 156,
+              "509": 157,
+              "510": 158,
+              "511": 159,
+              "512": 160
+            },
+            "equipment": {
+              "12": 5,
+              "13": 6,
+              "14": 7,
+              "15": 8,
+              "16": 9,
+              "17": 32,
+              "18": 33,
+              "19": 34,
+              "20": 35,
+              "21": 36,
+              "22": 37,
+              "23": 38,
+              "24": 39,
+              "25": 40
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": []
+    },
+    "follow-park": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 9,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "identity_fields": [
+              "mail"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": {
+              "26": 14,
+              "27": 15,
+              "28": 16,
+              "31": 17,
+              "32": 18,
+              "33": 19,
+              "34": 20,
+              "35": 21,
+              "36": 22,
+              "37": 23,
+              "38": 24,
+              "39": 25,
+              "40": 26,
+              "41": 27,
+              "42": 28,
+              "43": 29
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2538",
+          "sha1": "b03cd37d535e4f6ffba7c30d26beb4aa66e19faa",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 966
+          }
+        }
+      ]
+    },
+    "les-essentielles": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": true,
+        "journal_id": 12,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 14,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [
+            "Service historique sans prix: Épilation sourcils (normalisé à 0).",
+            "Service historique sans prix: Épilation lèvres (normalisé à 0).",
+            "Service historique sans prix: SH + Couleur + Coupe et/ou Brushing (normalisé à 0).",
+            "Service historique sans prix: La Patine / Le Gloss (normalisé à 0).",
+            "Service historique sans prix: La Coloration avec Flash (normalisé à 0).",
+            "Service historique sans prix: Mariage jour J (normalisé à 0)."
+          ],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2589",
+          "sha1": "4395de81b478d26f8ea2cf96419e782ac49bf5df",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 964
+          }
+        }
+      ]
+    }
+  }
+}

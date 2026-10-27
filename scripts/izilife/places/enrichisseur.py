@@ -23,13 +23,13 @@ Prérequis :
     Variable : IZILIFE_AGENT_TOKEN
 
 Fichiers Drive (zone) :
-    ameliorateur.xlsx   → Onglet Prioritaires : string_id | type | notes | statut
+    ameliorateur.xlsx   → Onglet Prioritaires : enrichissement et maintenance manuelle
     logs/WXX/enrichisseur_YYYY-MM-DD.xlsx  → lignes done déplacées par --purge
 """
 
 from __future__ import annotations
 
-import os, sys, re, time, json, random, argparse, requests
+import os, sys, re, time, json, random, argparse, requests, shutil
 from datetime import datetime, date
 from pathlib import Path
 
@@ -223,7 +223,12 @@ def _add_cf(ws, rng, col, colors):
             fill=PatternFill("solid", fgColor=color)
         ))
 
-PRIO_COLS = ["string_id", "type", "ferme_definitivement", "notes", "statut"]
+PRIO_COLS = [
+    "string_id", "type", "ferme_definitivement", "is_active", "listable",
+    "closed_state_ref", "is_new_in_city", "opening_date", "primary_category_ref",
+    "category_refs", "other_category_refs", "other_categories_mode", "notes", "statut", "last_result",
+]
+PRIO_WIDTHS = [42, 12, 22, 12, 12, 25, 18, 16, 30, 48, 42, 25, 50, 14, 60]
 
 
 def create_ameliorateur(zone: str):
@@ -249,16 +254,55 @@ def create_ameliorateur(zone: str):
     wb = openpyxl.Workbook()
     ws = wb.active
     ws.title = "Prioritaires"
-    _make_header(ws, PRIO_COLS, [42, 12, 22, 50, 14])
+    _make_header(ws, PRIO_COLS, PRIO_WIDTHS)
 
     # Validations sans écrire de lignes fantômes.
     _add_dv(ws, "B", '"SHOP,PLACE"', max_row=500)
-    _add_dv(ws, "C", '"NON,OUI"', max_row=500)
-    _add_dv(ws, "E", '"pending,done,error,skip"', max_row=500)
-    _add_cf(ws, "A2:E500", "E", {"done":"C6EFCE","error":"FFC7CE","skip":"D9D9D9"})
+    for col in ("C", "D", "E", "G"):
+        _add_dv(ws, col, '"NON,OUI"', max_row=500)
+    _add_dv(ws, "F", '"ouvert,ferme-temporairement,ferme-definitivement"', max_row=500)
+    _add_dv(ws, "L", '"ADD,REPLACE,REMOVE"', max_row=500)
+    _add_dv(ws, "N", '"pending,done,error,skip"', max_row=500)
+    _add_cf(ws, "A2:O500", "N", {"done":"C6EFCE","error":"FFC7CE","skip":"D9D9D9"})
 
     wb.save(f)
     log(f"✅ ameliorateur.xlsx créé : {f}")
+
+def upgrade_ameliorateur(zone: str):
+    """Ajoute les colonnes manquantes sans modifier les lignes existantes."""
+    f = ameliorateur_file(zone)
+    if not f.exists():
+        create_ameliorateur(zone)
+        return
+    backup = f.with_name(f"{f.stem}.backup-{datetime.now():%Y%m%d-%H%M%S}{f.suffix}")
+    shutil.copy2(f, backup)
+    wb = openpyxl.load_workbook(f)
+    ws = wb["Prioritaires"] if "Prioritaires" in wb.sheetnames else wb.active
+    headers = [str(c.value or "").strip().lower() for c in ws[1]]
+    added = []
+    for name in PRIO_COLS:
+        if name in headers:
+            continue
+        ws.cell(1, ws.max_column + 1, name.upper())
+        headers.append(name)
+        added.append(name)
+    widths = [PRIO_WIDTHS[PRIO_COLS.index(h)] if h in PRIO_COLS else 20 for h in headers]
+    _make_header(ws, [str(c.value or "") for c in ws[1]], widths)
+    for name in ("ferme_definitivement", "is_active", "listable", "is_new_in_city"):
+        _add_dv(ws, ws.cell(1, headers.index(name) + 1).column_letter, '"NON,OUI"', max_row=2000)
+    _add_dv(ws, ws.cell(1, headers.index("closed_state_ref") + 1).column_letter,
+            '"ouvert,ferme-temporairement,ferme-definitivement"', max_row=2000)
+    _add_dv(ws, ws.cell(1, headers.index("other_categories_mode") + 1).column_letter,
+            '"ADD,REPLACE,REMOVE"', max_row=2000)
+    status_letter = ws.cell(1, headers.index("statut") + 1).column_letter
+    _add_dv(ws, status_letter, '"pending,done,error,skip"', max_row=2000)
+    _add_cf(ws, f"A2:{ws.cell(1, ws.max_column).column_letter}2000", status_letter,
+            {"done":"C6EFCE", "error":"FFC7CE", "skip":"D9D9D9"})
+    ws.auto_filter.ref = f"A1:{ws.cell(1, ws.max_column).column_letter}{max(2, ws.max_row)}"
+    wb.save(f)
+    log(f"✅ Classeur migré : {f}")
+    log(f"   Sauvegarde : {backup}")
+    log(f"   Colonnes ajoutées : {', '.join(added) if added else 'aucune'}")
 
 def read_prioritaires(zone: str, env: dict) -> list[dict]:
     """Lit les lignes manuelles prioritaires de ameliorateur.xlsx.
@@ -273,18 +317,10 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
     wb = openpyxl.load_workbook(f)
     ws = wb["Prioritaires"] if "Prioritaires" in wb.sheetnames else wb.active
     headers = [str(c.value or "").strip().lower() for c in ws[1]]
-    if "ferme_definitivement" not in headers:
-        insert_at = headers.index("notes") + 1 if "notes" in headers else len(headers) + 1
-        ws.insert_cols(insert_at)
-        ws.cell(1, insert_at, "FERME_DEFINITIVEMENT")
-        _make_header(ws, [str(c.value or "") for c in ws[1]], [42, 12, 22, 50, 14])
-        _add_dv(ws, ws.cell(1, insert_at).column_letter, '"NON,OUI"', max_row=500)
-        wb.save(f)
-        headers = [str(c.value or "").strip().lower() for c in ws[1]]
     rows = []
 
     for r_idx, row in enumerate(ws.iter_rows(min_row=2, values_only=True), 2):
-        data = {headers[i]: str(v or "").strip() for i, v in enumerate(row) if i < len(headers)}
+        data = {headers[i]: str(v if v is not None else "").strip() for i, v in enumerate(row) if i < len(headers)}
         status = data.get("statut", "").lower() or "pending"
         if status in ("done", "error", "skip"):
             continue
@@ -319,6 +355,30 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
         item["_close_permanently"] = str(closed_value).strip().lower() in {
             "1", "oui", "true", "yes", "ferme", "fermé", "ferme-definitivement", "closed"
         }
+        payload = {"scope_type": entity_type, "scope_ref": string_id}
+        manual_fields = (
+            "is_active", "listable", "closed_state_ref", "is_new_in_city", "opening_date",
+            "primary_category_ref", "category_refs", "other_category_refs", "other_categories_mode",
+        )
+        for field in manual_fields:
+            value = data.get(field, "")
+            if value != "":
+                if field == "opening_date" and " " in value:
+                    value = value.split(" ", 1)[0]
+                payload[field] = value
+        if item["_close_permanently"] and not payload.get("closed_state_ref"):
+            payload["closed_state_ref"] = "ferme-definitivement"
+        # Règle métier catégories :
+        # - une seule valeur = remplacement de la catégorie principale, sans secondaire ;
+        # - plusieurs valeurs = première principale, suivantes dans LocationOtherCategory.
+        if payload.get("category_refs") or payload.get("primary_category_ref"):
+            if "other_categories_mode" not in payload:
+                payload["other_categories_mode"] = "REPLACE"
+            if "other_category_refs" not in payload and not payload.get("category_refs"):
+                payload["other_category_refs"] = ""
+        if "other_categories_mode" in payload and "other_category_refs" not in payload:
+            payload["other_category_refs"] = ""
+        item["_maintenance_payload"] = payload if len(payload) > 2 else None
         item["_row_idx"] = r_idx
         item["_file"]    = f
         rows.append(item)
@@ -326,7 +386,7 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
     log(f"📋 {len(rows)} lieux prioritaires")
     return rows
 
-def mark_prioritaire_done(lieu: dict, status="done"):
+def mark_prioritaire_done(lieu: dict, status="done", result=None):
     f   = lieu.get("_file")
     idx = lieu.get("_row_idx")
     if not f or not idx: return
@@ -337,6 +397,9 @@ def mark_prioritaire_done(lieu: dict, status="done"):
             headers = [str(c.value or "").strip().lower() for c in ws[1]]
             col = (headers.index("statut")+1) if "statut" in headers else 3
             ws.cell(row=idx, column=col).value = status
+            if "last_result" in headers and result is not None:
+                value = result if isinstance(result, str) else json.dumps(result, ensure_ascii=False)
+                ws.cell(row=idx, column=headers.index("last_result")+1).value = value[:32000]
             wb.save(f)
             return
         except PermissionError:
@@ -359,6 +422,27 @@ def close_permanently(lieu: dict, env: dict, dry_run: bool, stats: dict):
     log(f"  ❌ Fermeture impossible : {label} — {resp}")
     stats["errors"] += 1
     return False
+
+def apply_manual_maintenance(lieu: dict, env: dict, dry_run: bool, stats: dict):
+    payload = lieu.get("_maintenance_payload") or {}
+    label = f"{lieu['type']}#{lieu['id']} {lieu['name']}"
+    if dry_run:
+        log(f"  [DRY RUN] modification manuelle : {label}")
+        log("  " + json.dumps(payload, ensure_ascii=False))
+        stats["modified"] += 1
+        return {"success": True, "dry_run": True, "payload": payload}
+    response = izilife_post("/scraper/agentMaintainLocation", {
+        "payload": json.dumps(payload, ensure_ascii=False)
+    }, env)
+    if response and response.get("success"):
+        log(f"  ✅ Modification manuelle appliquée : {label}")
+        stats["modified"] += 1
+        if payload.get("closed_state_ref") == "ferme-definitivement":
+            stats["closed"] += 1
+        return response
+    log(f"  ❌ Modification manuelle impossible : {label} — {response}")
+    stats["errors"] += 1
+    return response or {"success": False, "error": "Aucune réponse exploitable."}
 
 # ─────────────────────────────────────────────
 # PURGE — déplacer les done vers logs/WXX/
@@ -652,19 +736,23 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--zone",         type=str, required=True)
     ap.add_argument("--env",          choices=ENVS.keys(), default="local")
-    ap.add_argument("--city",         type=str, required=True)
+    ap.add_argument("--city",         type=str, default="lille")
     ap.add_argument("--max",          type=int, default=20)
     ap.add_argument("--score-max",    type=int, default=60)
     ap.add_argument("--type",         choices=["PLACE","SHOP",""], default="")
     ap.add_argument("--dry-run",      action="store_true")
     ap.add_argument("--priority-only",action="store_true")
     ap.add_argument("--init",         action="store_true", help="Créer ameliorateur.xlsx")
+    ap.add_argument("--upgrade-workbook", action="store_true", help="Sauvegarder puis ajouter les colonnes manquantes")
     ap.add_argument("--purge",        action="store_true", help="Déplacer les done vers logs/WXX/")
     args = ap.parse_args()
     set_current_env(args.env)
 
     if args.init:
         create_ameliorateur(args.zone); return
+
+    if args.upgrade_workbook:
+        upgrade_ameliorateur(args.zone); return
 
     if args.purge:
         purge_done(args.zone, "enrichisseur"); return
@@ -682,6 +770,8 @@ def main():
 
     # Prioritaires
     priority = read_prioritaires(args.zone, env)
+    if args.max > 0:
+        priority = priority[:args.max]
 
     # Queue normale : appel lecture côté app, même en dry-run.
     # Le dry-run interdit seulement les écritures/mutations.
@@ -703,15 +793,15 @@ def main():
     if not lieux:
         log("✅ Aucun lieu à enrichir."); return
 
-    stats = {"found": len(lieux), "sent": 0, "closed": 0, "skipped": 0, "errors": 0}
+    stats = {"found": len(lieux), "sent": 0, "closed": 0, "modified": 0, "skipped": 0, "errors": 0}
 
-    to_close = [l for l in priority if l.get("_close_permanently")]
-    for lieu in to_close:
+    to_maintain = [l for l in priority if l.get("_maintenance_payload")]
+    for lieu in to_maintain:
         err_before = stats["errors"]
-        close_permanently(lieu, env, dry_run, stats)
+        result = apply_manual_maintenance(lieu, env, dry_run, stats)
         if not dry_run:
-            mark_prioritaire_done(lieu, "done" if stats["errors"] == err_before else "error")
-    lieux = [l for l in lieux if not l.get("_close_permanently")]
+            mark_prioritaire_done(lieu, "done" if stats["errors"] == err_before else "error", result)
+    lieux = [l for l in lieux if not l.get("_maintenance_payload")]
 
     if not lieux:
         pass
@@ -744,6 +834,7 @@ def main():
     log(f"  Trouvés  : {stats['found']}")
     log(f"  Envoyés  : {stats['sent']}")
     log(f"  Fermés    : {stats['closed']}")
+    log(f"  Modifiés  : {stats['modified']}")
     log(f"  Skippés  : {stats['skipped']}")
     log(f"  Erreurs  : {stats['errors']}")
 

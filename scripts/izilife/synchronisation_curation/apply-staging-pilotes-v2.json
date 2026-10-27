@@ -1,0 +1,268 @@
+{
+  "format": "izilife-curation-apply-v1",
+  "plan": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\synchronisation_curation\\plan-staging-pilotes-v2.json",
+  "plan_sha256": "0a6c610ec0dda15c2f78a4b1c73b0b0749f296848b8cf97e6312f1eb599d888f",
+  "applied_at": "2026-10-26T19:57:04.092674",
+  "destination_env": "staging",
+  "targets": {
+    "soultrain": {
+      "status": "ERROR",
+      "backend": {
+        "success": false,
+        "error": "Transaction SQL invalide.",
+        "http_status": 422
+      },
+      "media": []
+    },
+    "disco-volante": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 7,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "identity_fields": [
+              "short_description"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 1,
+            "products": 1,
+            "option_groups": 1,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: Test Prouit (sentinelle 0 conservée)."
+          ],
+          "_maps": {
+            "categories": {
+              "23": 8,
+              "24": 9,
+              "25": 10,
+              "26": 11,
+              "27": 12,
+              "28": 13,
+              "66": 9,
+              "67": 10,
+              "68": 11,
+              "69": 29
+            },
+            "products": {
+              "104": 46,
+              "105": 46,
+              "106": 46,
+              "107": 46,
+              "108": 46,
+              "109": 46,
+              "110": 46,
+              "111": 46,
+              "112": 46,
+              "113": 46,
+              "114": 46,
+              "115": 46,
+              "116": 46,
+              "117": 46,
+              "118": 46,
+              "119": 46,
+              "120": 46,
+              "121": 46,
+              "122": 46,
+              "123": 46,
+              "124": 46,
+              "125": 46,
+              "126": 46,
+              "680": 153
+            },
+            "equipment": {
+              "51": 12,
+              "52": 13
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2491",
+          "sha1": "81362e8b2a07777cd256c8f28c787946d006526f",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 1117
+          }
+        }
+      ]
+    },
+    "don-vito": {
+      "status": "ERROR",
+      "backend": {
+        "success": false,
+        "error": "Transaction SQL invalide.",
+        "http_status": 422
+      },
+      "media": []
+    },
+    "hall-u-need": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 8,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 4,
+            "products": 6,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 9,
+            "services": 0,
+            "eap": 5,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [
+            "Produit historique sans ProductOrderType: Produit test catalogue HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Cocktail test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Boisson test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Plat test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Dessert test HUN (sentinelle 0 conservée).",
+            "Produit historique sans ProductOrderType: Produit Restaurant gÚnÚral HUN (sentinelle 0 conservée).",
+            "EAP importés inactifs avec confirmation manuelle obligatoire."
+          ],
+          "_maps": {
+            "categories": {
+              "61": 30,
+              "62": 31,
+              "63": 32,
+              "64": 33
+            },
+            "products": {
+              "507": 155,
+              "508": 156,
+              "509": 157,
+              "510": 158,
+              "511": 159,
+              "512": 160
+            },
+            "equipment": {
+              "12": 5,
+              "13": 6,
+              "14": 7,
+              "15": 8,
+              "16": 9,
+              "17": 32,
+              "18": 33,
+              "19": 34,
+              "20": 35,
+              "21": 36,
+              "22": 37,
+              "23": 38,
+              "24": 39,
+              "25": 40
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": []
+    },
+    "follow-park": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 9,
+        "result": {
+          "scope_created": false,
+          "created": {
+            "identity_fields": [
+              "mail"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": {
+              "26": 14,
+              "27": 15,
+              "28": 16,
+              "31": 17,
+              "32": 18,
+              "33": 19,
+              "34": 20,
+              "35": 21,
+              "36": 22,
+              "37": 23,
+              "38": 24,
+              "39": 25,
+              "40": 26,
+              "41": 27,
+              "42": 28,
+              "43": 29
+            }
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2538",
+          "sha1": "b03cd37d535e4f6ffba7c30d26beb4aa66e19faa",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 966
+          }
+        }
+      ]
+    },
+    "les-essentielles": {
+      "status": "ERROR",
+      "backend": {
+        "success": false,
+        "error": "Transaction SQL invalide.",
+        "http_status": 422
+      },
+      "media": []
+    }
+  }
+}
