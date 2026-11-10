@@ -1,0 +1,22 @@
+{
+  "audited_at": "2026-11-10",
+  "environment": "prod",
+  "evidence": {
+    "initial_apply_glob": "prod_apply_tmp_*_20261108.json",
+    "final_apply_directory": "lilletourism_apply_20261109",
+    "post_import_audit": "lilletourism_post_import_audit_20261109.json"
+  },
+  "counts": {
+    "initial_apply_files": 10,
+    "initial_lilletourism_detailed_pages": 9,
+    "initial_non_lilletourism_funbooker": 1,
+    "final_unique_tmp_validated": 83,
+    "final_created": 80,
+    "final_reused_or_updated": 3,
+    "lilletourism_detailed_pages_validated_total": 92,
+    "whole_job_validations_including_funbooker": 93,
+    "post_import_candidates_remaining": 0,
+    "wrong_object_type_conversions_pending_deployment": 4
+  },
+  "conclusion": "Les 93 validations mémorisées incluent une fiche Funbooker. Le périmètre Lille Tourisme détaillé contient 92 fiches toutes validées. Quatre restent à convertir vers EventSerie ou Equipment après déploiement de la route transactionnelle; elles ne nécessitent pas un nouvel appel LLM."
+}
