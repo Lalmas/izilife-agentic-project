@@ -64,18 +64,21 @@ permanent. Il parcourt les `LocalEvent` actifs dont la fin est future et cible :
 4. les ateliers/workshops/visites/cours ayant un intervalle de plusieurs jours ;
 5. les catégories génériques `fête-et-musique`.
 
-Le traitement ponctuel existe dans `backfill_active_event_taxonomy.py`. Il doit
-être étendu en un audit consolidé des événements futurs actifs, sans devenir un
-daemon permanent. En plus de la taxonomie ci-dessus, il doit couvrir :
+Le traitement ponctuel existe dans `backfill_active_event_taxonomy.py`. Il
+réalise un audit consolidé des événements futurs actifs, sans devenir un daemon
+permanent. En plus de la taxonomie ci-dessus, il couvre :
 
 6. les doublons sémantiques (même jour et même lieu, titre normalisé/fuzzy,
    même si les horaires ou le suffixe du titre divergent) ;
-7. les événements payants sans `access_link`, conservés en EventTmp avec le
-   blocage `lien_billetterie_payant_manquant` ;
+7. les événements payants sans `access_link` : le validateur recherche d'abord
+   un lien commercial dans les faits structurés et le snapshot EventTmp ; si la
+   source ne fournit réellement aucun lien, l'événement reste payant et
+   importable sans lien, sans blocage ;
 8. les événements déclarés gratuits sans preuve textuelle explicite, et les
    contradictions entre prix/fourchette/lien de réservation et gratuité ;
-9. les liens d'accès sans tarif ni preuve de gratuité, conservés en EventTmp
-   avec `tarification_a_verifier` ;
+9. les liens d'accès sans tarif ni preuve de gratuité : ils restent non gratuits
+   avec une critique d'enrichissement non bloquante, jamais transformés en
+   gratuité par défaut ;
 10. les `Representation` sans média : réutiliser d'abord l'image et les faits
     déjà conservés dans EventTmp/`raw_json`, sans nouvel appel LLM. Le script
     historique `transfer_representation_media.py` ne couvre que le transfert
@@ -112,8 +115,10 @@ Les liens et prix ne dépendent jamais d'une liste de billetteries en dur. Une
 preuve monétaire rend l'événement payant quel que soit le domaine. Un
 `access_link` sans prix n'autorise pas à conclure « gratuit » ; inversement, la
 gratuité exige une preuve source explicite (`gratuit`, `entrée libre`, etc.).
-Toutes les preuves doivent rester dans EventTmp afin de pouvoir créer plus tard
-les offres/prix sans rappeler le LLM.
+Le validateur corrige directement les contradictions prouvées et n'empêche pas
+la matérialisation d'un payant dont la source ne publie aucun lien. Toutes les
+preuves restent dans EventTmp afin de pouvoir créer plus tard les offres/prix
+sans rappeler le LLM.
 
 Ordre de résolution : réutiliser d'abord le `scrapping_json`/snapshot EventTmp,
 puis le texte source déjà conservé, et ne rappeler le LLM que si ces données ne
