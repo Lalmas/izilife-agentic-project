@@ -1,4 +1,6 @@
+import argparse
 import unittest
+from unittest.mock import patch
 
 from backfill_active_event_taxonomy import build_duplicate_pairs, filter_quality_events, has_occurrence_doubt
 
@@ -54,6 +56,33 @@ class ActiveEventTaxonomyBackfillTests(unittest.TestCase):
         self.assertEqual([row["id"] for row in filter_quality_events(rows, "false-free")], [4, 5])
         self.assertEqual([row["id"] for row in filter_quality_events(rows, "pricing")], [3, 4, 5])
         self.assertEqual(filter_quality_events(rows, "all"), rows)
+
+    def test_pricing_candidates_are_repaired_not_only_reported(self):
+        class Client:
+            calls = []
+
+            def __init__(self, *args):
+                pass
+
+            def quality_candidates(self, limit, event_id=None):
+                return [{"id": 41, "quality_reasons": ["false_free_with_commercial_evidence"]}]
+
+            def repair_event_pricing(self, event_id, dry_run):
+                self.calls.append((event_id, dry_run))
+                return {"event_id": event_id, "status": "ready" if dry_run else "repaired"}
+
+        args = argparse.Namespace(
+            env="local", mode="review", event_id=None, limit=10, allow_ai=False,
+            taxonomy_only=False, quality_only=True, quality_focus="false-free",
+            apply_duplicates=False, min_confidence=.9,
+        )
+        with patch("backfill_active_event_taxonomy.TaxonomyClient", Client), \
+             patch.dict("backfill_active_event_taxonomy.IZILIFE_ENVS", {
+                 "local": {"base_url": "http://example.test", "verify_ssl": True}
+             }), patch.dict("backfill_active_event_taxonomy.os.environ", {"IZILIFE_AGENT_TOKEN": "test"}):
+            report = __import__("backfill_active_event_taxonomy").run(args)
+        self.assertEqual(Client.calls, [(41, True)])
+        self.assertEqual(report["pricing_recovery"][0]["status"], "ready")
 
 
 if __name__ == "__main__":

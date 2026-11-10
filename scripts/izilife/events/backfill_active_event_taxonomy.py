@@ -8,14 +8,52 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 from datetime import datetime
+from html import unescape
 from pathlib import Path
 from typing import Any
 
+import requests
 import urllib3
 
-from validate_event_tmp import EventValidatorClient, fetch_source_text
 from core.paths import IZILIFE_ENVS, local_agent_workspace_root
+
+
+def fetch_source_text(url: str, verify_ssl: bool) -> str:
+    if not re.match(r"^https?://", str(url), re.I):
+        return ""
+    try:
+        response = requests.get(
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; iziLifeEventBackfill/1.0)"},
+            timeout=20, verify=verify_ssl,
+        )
+        if response.status_code >= 400:
+            return ""
+        text = re.sub(r"(?is)<(script|style|noscript).*?>.*?</\1>", " ", response.text)
+        return re.sub(r"\s+", " ", unescape(re.sub(r"(?s)<[^>]+>", " ", text))).strip()[:24000]
+    except requests.RequestException:
+        return ""
+
+
+class EventValidatorClient:
+    def __init__(self, base_url: str, token: str, verify_ssl: bool):
+        self.base_url = base_url.rstrip("/")
+        self.verify_ssl = verify_ssl
+        self.headers = {"X-Agent-Token": token, "Content-Type": "application/json"}
+
+    def post(self, path: str, payload: dict[str, Any]) -> dict[str, Any]:
+        response = requests.post(
+            self.base_url + path, headers=self.headers, json=payload,
+            verify=self.verify_ssl, timeout=180,
+        )
+        try:
+            body = response.json()
+        except ValueError as exc:
+            raise RuntimeError(f"HTTP {response.status_code}: réponse non JSON") from exc
+        if response.status_code >= 400 or not body.get("success"):
+            raise RuntimeError(body.get("error") or f"HTTP {response.status_code}")
+        return body
 
 
 class TaxonomyClient(EventValidatorClient):
@@ -45,6 +83,11 @@ class TaxonomyClient(EventValidatorClient):
         return self.post("/scraper/agentRecoverRepresentationMedia", {
             "representation_id": representation_id, "dry_run": dry_run,
         })
+
+    def repair_event_pricing(self, event_id: int, dry_run: bool) -> dict[str, Any]:
+        return self.post("/scraper/agentRepairActiveEventPricing", {
+            "event_id": event_id, "dry_run": dry_run,
+        })["result"]
 
     def archive_duplicate(self, duplicate_event_id: int, keeper_event_id: int, dry_run: bool) -> dict[str, Any]:
         return self.post("/scraper/agentArchiveDuplicateEvent", {
@@ -146,7 +189,7 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
         "generated_at": datetime.now().astimezone().isoformat(),
         "environment": args.env, "mode": args.mode, "events": [],
         "quality_events": [], "duplicate_pairs": [], "duplicate_actions": [],
-        "media_recovery": [], "ai_calls": 0,
+        "media_recovery": [], "pricing_recovery": [], "ai_calls": 0,
         "one_shot_agents": {
             "future_active_event_taxonomy": not args.quality_only,
             "local_event_duplicates": args.quality_focus in ("all", "duplicates"),
@@ -190,6 +233,25 @@ def run(args: argparse.Namespace) -> dict[str, Any]:
             except Exception as exc:
                 report["media_recovery"].append({
                     "success": False, "representation_id": representation_id, "error": str(exc),
+                })
+        pricing_reasons = {
+            "false_free_with_commercial_evidence", "free_without_explicit_evidence",
+            "paid_without_access_link", "paid_or_unknown_without_price_and_link",
+        }
+        seen_pricing_events: set[int] = set()
+        for event in report["quality_events"]:
+            event_id = int(event.get("id") or 0)
+            reasons = set(event.get("quality_reasons") or [])
+            if event_id < 1 or event_id in seen_pricing_events or not pricing_reasons.intersection(reasons):
+                continue
+            seen_pricing_events.add(event_id)
+            try:
+                report["pricing_recovery"].append(client.repair_event_pricing(
+                    event_id, args.mode != "apply"
+                ))
+            except Exception as exc:
+                report["pricing_recovery"].append({
+                    "status": "error", "event_id": event_id, "error": str(exc),
                 })
     if args.quality_only:
         return report
@@ -261,6 +323,7 @@ def main() -> int:
                       "duplicate_pairs": len(report["duplicate_pairs"]),
                       "duplicate_actions": len(report["duplicate_actions"]),
                       "media_recovery": len(report["media_recovery"]),
+                      "pricing_recovery": len(report["pricing_recovery"]),
                       "one_shot_agents": report["one_shot_agents"]}, ensure_ascii=False))
     return 1 if counts.get("error") else 0
 
