@@ -1,0 +1,66 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "ANNUAL_CELEBRATION",
+    "data": {
+      "name": "Village de Noël de Lille",
+      "string_id": "village-de-noel-de-lille",
+      "description": "Marché de Noël annuel installé place Rihour, avec chalets, artisans, commerçants et spécialités gourmandes.",
+      "event_category_ref": "marche-de-noel",
+      "default_event_category_ref": "marche-de-noel",
+      "scope_ref": "CITY:lille",
+      "default_location_ref": "PLACE:place-rihour",
+      "is_internal": false,
+      "can_be_linked_by_others": true,
+      "news_visibility_days_before": 30,
+      "is_active": false
+    },
+    "sources": [{"url": "https://noel-a-lille.com/", "kind": "OFFICIAL"}],
+    "media": [
+      {"image_url": "https://noel-a-lille.com/wp-content/uploads/2026/07/cropped-DSC5202_v3.png", "title": "Village de Noël de Lille", "is_principal": true},
+      {"image_url": "https://noel-a-lille.com/wp-content/uploads/2026/07/logo-vdn-couleur-sans-attache.png", "title": "Logo du Village de Noël de Lille", "is_principal": false}
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "village-de-noel-lille-2026",
+      "relation": "ROOT_EDITION",
+      "update_mode": "OVERWRITE",
+      "data": {
+        "title": "Village de Noël de Lille 2026",
+        "event_string_id": "village-de-noel-de-lille-2026",
+        "description": "Le Village de Noël revient place Rihour du 18 novembre au 30 décembre 2026. Le 25 décembre est fermé et la fermeture est avancée à 18 h le 24 décembre.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-11-18",
+        "start_hour": "11:00",
+        "end_date": "2026-12-30",
+        "end_hour": "20:30",
+        "city_ref": "lille",
+        "location_ref": "PLACE:place-rihour",
+        "address": "Place Rihour",
+        "zip_code": "59000",
+        "access_text": "Accès libre",
+        "source_url": "https://noel-a-lille.com/village-de-noel-de-lille-2026-la-magie-de-noel-revient-place-rihour/",
+        "is_active": false
+      },
+      "hourlies": [
+        {"day_id": 1, "opening_hour": "11:00", "closing_hour": "20:30"},
+        {"day_id": 2, "opening_hour": "11:00", "closing_hour": "20:30"},
+        {"day_id": 3, "opening_hour": "11:00", "closing_hour": "20:30"},
+        {"day_id": 4, "opening_hour": "11:00", "closing_hour": "20:30"},
+        {"day_id": 5, "opening_hour": "11:00", "closing_hour": "22:00"},
+        {"day_id": 6, "opening_hour": "11:00", "closing_hour": "22:00"},
+        {"day_id": 7, "opening_hour": "11:00", "closing_hour": "20:30"},
+        {"date": "2026-12-24", "override": true, "opening_hour": "11:00", "closing_hour": "18:00"},
+        {"date": "2026-12-25", "override": true, "closed": true}
+      ],
+      "sources": [{"url": "https://noel-a-lille.com/village-de-noel-de-lille-2026-la-magie-de-noel-revient-place-rihour/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [
+        {"image_url": "https://noel-a-lille.com/wp-content/uploads/2026/07/cropped-DSC5202_v3.png", "title": "Village de Noël de Lille", "is_principal": true},
+        {"image_url": "https://noel-a-lille.com/wp-content/uploads/2026/07/logo-vdn-couleur-sans-attache.png", "title": "Logo du Village de Noël de Lille", "is_principal": false}
+      ]
+    }
+  ]
+}

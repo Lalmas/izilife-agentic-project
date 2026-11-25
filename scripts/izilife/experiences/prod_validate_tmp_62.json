@@ -1,0 +1,88 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:23.926448",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 62,
+      "title": "Pratique libre danse au FLOW",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://flow.lille.fr/training-de-danse",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "danse",
+          "dance_string_id": "breakdance",
+          "minimal_age": "5",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "danser"
+          ],
+          "object_string_ids": [
+            "studio-de-danse"
+          ],
+          "occasion_string_ids": [],
+          "age_category_ids": [
+            {
+              "id": "5"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-pour-danser",
+                "confidence": 0.9,
+                "evidence": "Espaces de pratique libre pour les danses urbaines"
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.8,
+                "evidence": "Ces créneaux permettent à tout un chacun de se rencontrer sans enjeux et en toute convivialité."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "s'adresse prioritairement aux artistes et aux amateurs désireux de se professionnaliser"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "s'adresse prioritairement aux artistes et aux amateurs désireux de se professionnaliser"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 62,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 104,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:29.681056"
+}

@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:51:45.542194",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 133,
+      "title": "Lille en 1913, entre bourse, textiles et charbon",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-en-1913-entre-bourse-textiles-et-charbon.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 133,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 134,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:51:45.868079"
+}

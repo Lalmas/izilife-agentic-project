@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 22:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucun menu, service sur place ou à emporter, équipement, accessibilité, moyen de paiement ou mode de commande n’est documenté."
+    ],
+    "summary": "Restaurant à Bouvines, ouvert sur des créneaux de déjeuner et de dîner selon les jours."
+  },
+  "meta": {
+    "cache_key": "80270f788b8f808643ffd37f1df5994685fdf19744947561a815c2c91011b786",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

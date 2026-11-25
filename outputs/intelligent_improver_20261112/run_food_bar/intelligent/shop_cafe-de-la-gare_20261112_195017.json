@@ -1,0 +1,522 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:50:17",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-de-la-gare",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "cafe-de-la-gare",
+    "status": "found",
+    "data": {
+      "id": "5663",
+      "name": "Café de la Gare",
+      "shop_string_id": "cafe-de-la-gare",
+      "unique_id": "3188291da944060a6867313f3ce3bff9",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54922",
+      "principal_cover": "54922",
+      "qr_code": null,
+      "phone_number": "+33320862155",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "110 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1172679",
+      "latitude": "50.5908",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:33:11",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:33:11",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJH9BykIzWwkcRZOywaeoYhNo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJH9BykIzWwkcRZOywaeoYhNo\",\"rating\":4.4,\"user_rating_count\":27,\"google_maps_uri\":\"https://maps.google.com/?cid=15745737592268713060\",\"fetched_at\":\"2026-11-12T19:50:05+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-05-05T09:46:33+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"léna lapeire\",\"uri\":\"https://www.google.com/maps/contrib/105771332892712818542/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIzwfQFquxFeTtALt_x1b6W3ckPram0Cy74lSrIA7C-vEm4nQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-06-13T08:34:15+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Lucie Delepaul\",\"uri\":\"https://www.google.com/maps/contrib/116818895452231744605/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWzAVezJqERPVlSkI5z4_CiW5RUaOMTwC3AiHVpcVbhqQIvpKAH=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très sympathique\\nJ'y retournerai\",\"language_code\":\"\",\"publish_time\":\"2025-05-06T10:44:07+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Philippe PAWLACZYK\",\"uri\":\"https://www.google.com/maps/contrib/103726365539936821307/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWMyYsIFcIuGMz0cFKB_a3rs3j0-a2WJO7xY2aj9e7jlTdCiHaK=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Bistrot super cool !Marcelle la patronne super gentille et sa soeur Georgette Toujours le sourire  le café maison et le chocolat nous manquent.\\nA bientôt Marcelle\\nLe maire d' encchemont\",\"language_code\":\"\",\"publish_time\":\"2021-12-30T16:00:10+00:00\",\"relative_publish_time\":\"il y a 4 ans\",\"author\":{\"display_name\":\"Ghyselen “TYR” Serge\",\"uri\":\"https://www.google.com/maps/contrib/115196246317663428877/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUpIUfUo5_Tp7dc5yQ_4ktLHbUMmu2ZA63FOx-gI8_QadNKQa_5=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Chaleureux, allez voir cette mamie super sympa 😉\",\"language_code\":\"\",\"publish_time\":\"2020-02-14T12:14:44+00:00\",\"relative_publish_time\":\"il y a 6 ans\",\"author\":{\"display_name\":\"Joel Sigwo\",\"uri\":\"https://www.google.com/maps/contrib/105253708524758325929/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJjgkOYSXgCRlvYtwYUgGYj524PuM4gXsNPYia0UtSXIohtBNU=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:50:05",
+      "google_reviews_place_id": "ChIJH9BykIzWwkcRZOywaeoYhNo",
+      "source_id": 5663,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-gare",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "cafe-de-la-gare"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54922",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5663_6af39ba7d19dc.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4724",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32803",
+            "source_hourly_id": "4724",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32804",
+            "source_hourly_id": "4724",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32805",
+            "source_hourly_id": "4724",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32806",
+            "source_hourly_id": "4724",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32807",
+            "source_hourly_id": "4724",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32808",
+            "source_hourly_id": "4724",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32809",
+            "source_hourly_id": "4724",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "12:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-gare",
+      "google_place_id": "ChIJH9BykIzWwkcRZOywaeoYhNo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:00 – 19:00",
+          "mardi: 09:00 – 19:00",
+          "mercredi: 09:00 – 19:00",
+          "jeudi: 09:00 – 19:00",
+          "vendredi: 09:00 – 19:00",
+          "samedi: 09:00 – 19:00",
+          "dimanche: 10:30 – 12:00"
+        ],
+        "photos": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLfAsKF6E55bALlq6XoYx5SeZhAkQ028l5iAv0gnDAU3gowRgDTrJ3blzsOiPQ4S0jAGbedzNqCPB9ynDNOb2DzhXg_QoMBCugKuLv0mD5InzXoKct6ycCRGGedsG20RkAFbXbdz3HO6SMVLy2NAMtSTWOpeae6gaU89zAY-VUkSmess9MDXZC5hj8TyMWwdVy6uz-qWgqRJzCOJF5lIvdKBomQTOczHdIZ77XywMHiqJHQz_pchavMzbduZHocgdxHk_3AVsqSVQKl7nudMdKdje8A2wLjlbXJ6vokj7MAN7W6a_KEtjBMD1UhO_7HeUwPV1FT_t146B4DE37AF48bdDJhuuzg7mWw6KoHXk2K_BlCpwqajYYA1sajJ7gwfBd5NKuDELtwargEQjLmGTVu-MuRmxTA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107985578051575618832\">Zoom</a>"
+            ]
+          },
+          {
+            "width": 1944,
+            "height": 2592,
+            "photo_reference": "AV-0GLdIpez6UgrQWtxRjkZrvSa5aDTuhKf_x4XbIFKMoHn7bUlTWBEvISipv5PN9FfmQ0Em9bLS531bq9ZKSXUzOkntmTXtbbKm9m4ZVXkEjz1Nzwmfr3RVV7hDkaP7nun8ktRPAs-Qwiq5B_oWQVUnVAbKKArAtAGh6K6n1cnEqS8z2MOnXcNO4lkbryPsbOaIYnzqDy42Ys8cKytzUTrKA3s0u3CZGWVxwj01jrd1LYD-rFlD28kFOUxmx55iSm7uT96khgtfrD3vhk0qL5voMPd0nJIqWWGdxpMLLp9vBuwpY-pewXqnFuQCIKMrQbsa7c4l_8k4KXG6HX62wtKzCsl2HaYyk8f-VwixKFo-JU1uxafe4bQGbtj7TkKlnr_Id3b_WdWLxNSEaHGWi3Ls7YscLdcC5NU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100371700883543037348\">Robin Joseph</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5663
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-05-05T09:46:33+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "léna lapeire",
+              "uri": "https://www.google.com/maps/contrib/105771332892712818542/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIzwfQFquxFeTtALt_x1b6W3ckPram0Cy74lSrIA7C-vEm4nQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-06-13T08:34:15+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Lucie Delepaul",
+              "uri": "https://www.google.com/maps/contrib/116818895452231744605/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWzAVezJqERPVlSkI5z4_CiW5RUaOMTwC3AiHVpcVbhqQIvpKAH=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très sympathique\nJ'y retournerai",
+            "language_code": "",
+            "publish_time": "2025-05-06T10:44:07+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Philippe PAWLACZYK",
+              "uri": "https://www.google.com/maps/contrib/103726365539936821307/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWMyYsIFcIuGMz0cFKB_a3rs3j0-a2WJO7xY2aj9e7jlTdCiHaK=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Bistrot super cool !Marcelle la patronne super gentille et sa soeur Georgette Toujours le sourire  le café maison et le chocolat nous manquent.\nA bientôt Marcelle\nLe maire d' encchemont",
+            "language_code": "",
+            "publish_time": "2021-12-30T16:00:10+00:00",
+            "relative_publish_time": "il y a 4 ans",
+            "author": {
+              "display_name": "Ghyselen “TYR” Serge",
+              "uri": "https://www.google.com/maps/contrib/115196246317663428877/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUpIUfUo5_Tp7dc5yQ_4ktLHbUMmu2ZA63FOx-gI8_QadNKQa_5=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Chaleureux, allez voir cette mamie super sympa 😉",
+            "language_code": "",
+            "publish_time": "2020-02-14T12:14:44+00:00",
+            "relative_publish_time": "il y a 6 ans",
+            "author": {
+              "display_name": "Joel Sigwo",
+              "uri": "https://www.google.com/maps/contrib/105253708524758325929/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJjgkOYSXgCRlvYtwYUgGYj524PuM4gXsNPYia0UtSXIohtBNU=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 27
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1148,
+        "bo": 110,
+        "front": 1038,
+        "estimated_cost_eur": 3.7
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« le café maison »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Chaleureux »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« le café maison »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas les repas, la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de paiement ni les autres services. Leur absence de mention n’est pas une preuve négative."
+    ],
+    "rejected": [],
+    "summary": "Café de la Gare est décrit dans les avis comme un bistrot sympathique et chaleureux, apprécié pour son café maison."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-de-la-gare",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_drink_coffee": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "KnowedDrink": [
+        "cafe"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5663,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopKnowedDrink:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0b54ad515565f8faad334114eb3af16323154b1b37a175646e6712d4342b2c70",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

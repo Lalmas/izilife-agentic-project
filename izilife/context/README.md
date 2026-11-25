@@ -54,8 +54,17 @@ izilife-context/
 | Chantier | Fichiers à charger |
 |----------|--------------------|
 | Dev PHP / BDD / API | `izilife-global.md` + `dev/architecture.md` |
+| Curation réutilisable / API interne V0 | `izilife-global.md` + `dev/curation-et-api-interne-v0.md` |
+| Extraction ponctuelle d'un site complexe | `dev/BRIEF_EXTRACTION_SITES_COMPLEXES.md` + `scripts/izilife/places/README_site_content_package.md` |
+| Catalogue Services et EAP | `CATALOGUE_SERVICES_EAP.md` + `CATALOGUE_PRODUCT_HANDOFF.md` |
 | Scrapping / hubs | `izilife-global.md` + `dev/scrapping.md` |
 | Construire un agent | `izilife-global.md` + `dev/agents-socle.md` + `agents/[nom].md` |
+| Agrégateurs territoriaux d'événements | `agents/AGREGATEURS_EVENTS_JDS_INFOLOCALE.md` |
+| Extraction intelligente d'un événement, festival, PDF ou agenda/carrousel | `agents/EVENT_GRAPH_PACKAGE.md` + `agents/event-package-v1.schema.json` |
+| Amélioration sémantique d'une fiche | `agents/AMELIORATEUR_INTELLIGENT.md` |
+| Conversion contrôlée Shop vers Place | `agents/TRANSFERT_SHOP_VERS_PLACE.md` |
+| Conversions BO Event / XP / EventSerie | `agents/CONVERSIONS_EVENT_XP_SERIE.md` |
+| État opérationnel Agents 5 | `agents/POST_LIVRAISON_AGENTS_5.md` |
 | Réseaux sociaux | `izilife-global.md` + `social/izilife-style.md` + `agents/community-manager.md` |
 | Events & animation | `izilife-global.md` + `events/animateur.md` + `events/generateur-contenu.md` |
 | Site WordPress client | `izilife-global.md` + `wordpress/clients.md` + `wordpress/clients/[client].md` |

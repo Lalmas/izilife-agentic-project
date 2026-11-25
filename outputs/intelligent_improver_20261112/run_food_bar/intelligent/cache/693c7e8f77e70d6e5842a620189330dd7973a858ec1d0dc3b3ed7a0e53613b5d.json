@@ -1,0 +1,103 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "grand-choix-de-vins",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« beaucoup de choix » ; « Des vins qu'on ne trouve pas ailleurs »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Des vins qu'on ne trouve pas ailleurs, des whisky et des rhums de qualité »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« accueil très sympathique » ; « vous serez bien accueilli »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "vin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Des vins qu'on ne trouve pas ailleurs »"
+        },
+        {
+          "string_id": "whisky",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« des whisky [...] de qualité »"
+        },
+        {
+          "string_id": "rhum",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« des rhums de qualité »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "boutique",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Boutique sympa »"
+        },
+        {
+          "string_id": "point-relais",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Petit plus point relais colis »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "site-commerce",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons pu commander sur leur site »"
+        },
+        {
+          "string_id": "telephone",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« n'hésitez pas à téléphoner »"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« votre commande sera rapidement livrée »"
+        },
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« chargée sur place dans votre coffre »"
+        }
+      ]
+    },
+    "warnings": [
+      "La fiche iziLife indique que le commerce est inactif et non listable."
+    ],
+    "summary": "Boutique proposant vins, whiskys et rhums, avec conseils appréciés et point relais colis. Les commandes peuvent être passées sur le site ou par téléphone, puis livrées ou chargées dans le coffre sur place."
+  },
+  "meta": {
+    "cache_key": "693c7e8f77e70d6e5842a620189330dd7973a858ec1d0dc3b3ed7a0e53613b5d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

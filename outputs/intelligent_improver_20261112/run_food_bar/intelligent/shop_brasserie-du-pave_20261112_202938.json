@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:29:38",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-du-pave",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-du-pave",
+    "status": "found",
+    "data": {
+      "id": "5838",
+      "name": "Brasserie du Pavé",
+      "shop_string_id": "brasserie-du-pave",
+      "unique_id": "0c52da5f05554975ccabe072567d7928",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55093",
+      "principal_cover": "55093",
+      "qr_code": null,
+      "phone_number": "+33320413504",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "26 bis Rue Nicéphore Niépce",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1303247",
+      "latitude": "50.5196921",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:58:00",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:58:00",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJneo5yE7RwkcRsAvlECRlwdU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5838,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-pave",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "brasserie-du-pave"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55093",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5838_6af3a178d046f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4894",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33993",
+            "source_hourly_id": "4894",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33994",
+            "source_hourly_id": "4894",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33995",
+            "source_hourly_id": "4894",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33996",
+            "source_hourly_id": "4894",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33997",
+            "source_hourly_id": "4894",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33998",
+            "source_hourly_id": "4894",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33999",
+            "source_hourly_id": "4894",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-pave",
+      "google_place_id": "ChIJneo5yE7RwkcRsAvlECRlwdU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 10:00 – 18:00",
+          "jeudi: 10:00 – 18:00",
+          "vendredi: 10:00 – 18:00",
+          "samedi: 10:00 – 13:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3199,
+            "photo_reference": "AV-0GLehWcVxp-XzrI4zCJ3eSVIbTDNkFKOxzYJYvTtM8xvIry3u_f9xLaojyvGu0rj3SksiJBZvLBZRQQ1lsRhfC2zawAfjXx0qwnxeNEAx8Izcqa4qZIDF1fqxjMioOyBd2rErU8mEWwuvQ4-MWw_JHN_vhPpzqtYUPVTMZt_q9qGnW17Ibn8_nNZyAE3R-ROxtdE9HjSE1DlEgDntmq0dSEIyxYS9Atd_dOPhiahQrTHRJfcf8YhLmeUjEq6SOIGoiVqduWJlxYea6KSrT47Yz-2oaf1nvL9B45AL1iFN_w-T_q5sw6tcAoUniLIFsS3whQCoyyFMdGupfzz07Ez-IbqfKPkP9RQZfcl99MhRtqpfNxJ1DlyeP7LOFhbo7VHpOvBqei4J3mOwkIleWYFPwagQ1v4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLenLh8UMF4ItUj2oWlpMmF2EB-hq1QRM14ACXKZ-OJYeMkvR2sl-_G9aYs48HK4of5-ee1Siqp2NNy8YoXrIcoQ9w2rNHJlchssdf7CHUYNKn3__7LmzmqT1XpcN3pZfLXrYcTV95rhfXIPHLYry7KLoFliiXec7V5bFtZa_4X9-3Ufh-YCeJA_qDDEiJYWbscVtGcJA8Ybfofx1l8u_vDCSLM-JAvF1CuLXR71Gv8RrIDWI8X7WTIICr5bdM-4A80J1QelaVQi8TAcadedOlPwMGE-goIzipyl4-oVxm21GLgXXC5pkoaf4Bb9ARXFkWLHP0KRz0gWDo7Va7ZsU_AO-JXmE3Q7QhJRWxkTObKCqMC-LTZJ3tplYuOWHcy3-xmlLevsmDAcKfLUpiUQAmciH9Y6P3pSa57QcbLebO6HJA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109906346670524497781\">Alexis Marié</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3199,
+            "photo_reference": "AV-0GLey9-TxzZkgD5pjEWbYkQ9UeVHaAcFAhaju7ItlkE4PVbfIwN8QcONPAqdYDhrZFYmi0DyIl_-AEb1-QbtQJiXEC3Ya9bC9LPjUhlsuf00KpDo47Iln3LbnRinq9YqPObmCOP304MjeSJ6fOX1Ilu8VjZGb8-wP_0uMcsV0lSuNvPVDWmcRGT0nfsecX84Pvdaa1cid5nZqgY0626Z1zt1cx84lcDik6Ed9z06Zlc1eqjQbOD8no_79uTekZcTiKu-VU6cPMzFWXvoD8lNse5UDSEmX55d-es9rJ6Cg92ETpMwpMs2gkChVGdseinGQlQ0mdvh4yiO4kvpoWK6fByi1qZ9TTrLCB14Bt8ciZpEzsdDPTOJlSHK5BCKCOSmeiun7NpPiDeEprIKP0x7F2ciUqIU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfUUJctDJQz3WW7M_j4lJEUI3JKGCdHCgW1DtoaP-zLdTERBYVeEZi823BUL_brJIG6SiEVSl7XWIeZg6aAeB4KH3bSgFODoqgN9LsBtmcI0elPZ89kieYpwVmusFfAGKb9iNyVEIFBgDzeRkMsEmMDLnn7YxkN5yHouhSv4Ch0wgQc1CcnnrgFZNfS7_S0lfGaIwCZlOecKI_l7xzThuFZDGL1QfaUzp_lCgUIDi2eP6ei6YYECavLDr3vHFiuEwQvFTQP2fRTla6rEaLbxVK9wKfzNecdR7610M-akQRLSrYSAux8I4XAknxZ-HUTiPSONOBnhaPTT_31b4S_CnkFs6a87wVrMD9Kcjy0GSDc1plCiiWTRvEyEQmwG5r4Ls_N8GWZRCCqasTeIf9-SqDBidm0cPE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfOmyTleDTpcwdl7uHwxeEbjKYgtTi5e9GQE3ZUvVALCOjUF9qBr5kuHvzyjJKBtKhvuEtbagPKhdSwe9Q50xafhTYwz9csgL_mDb8_qMUBlnJl4jpW4UaYcdGx9boqDtE9F-bvwKHWO7wLCgH41NEzAmBA40_uW8cHt74k1rI4i6d8XyABRlpGUNMnSPhcCfhGly7887Gv2RgKWcGpkDPbl-lU6vrV_Kaze2JjC9HhwuH5GesoUVjrevg5byCs6uEEc6lv45q7Y9WwSQIcROWZ8RoPRPtw7wIO79yqOHA72qJ-pi7jAREoFvtdVv98IlPZN-qnaMm8qys0AAEVJ1zv32ln5vn2ZZUs2tdAcZiqwJDP1i79iwQrIZlQ6MvVZWTUZrqqPQeIBPkkNztNif89Dg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106671816021404968405\">jimmy d</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1440,
+            "photo_reference": "AV-0GLczvO_NjTehTEB8NW112x75xrSJ6z5m97iZAwjCBwEnKA72Vo1iAWgrIKmj5ZIlmi4u76eqYUNiwS_v6ZLM38Se7wR1zf5qo73SXnQCt264OSweu9mZ3HYY9tGvf7lR25D5-GmOdhI99Oz7Cvn-JLtTVkZnT1gwZpgQPyu6IzVfZPivXwNvLVi2LwPYk01HkeOqsAKE8K6C9fejJp1wNHNP9ioiPk25YUMfkw6Hif20cF4FN-hapCq7bpXMWz5nVBhcRpPBRi3qzesA1WMQcZlYPSL3ntUeAPvGWgaXzyEfP5qoj65cLbErRClJJV8R5WoiL-13Rq5bhOFdhzh1uZbK1SJ5NijUcN9NjK622WTrVziBHm0Izty7Jz-w9jxWrLrl3Q2FnnH9RBcDRbQcc8-9w8I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfDR8I24_UeWZmB6KGkjTzKBAbhYNhADl3-to49ddghH57t913bBmw6i_Zvy3PS4sY4UuIh4J2ELRCC12FNkLqKeRusRQJL5-G78uTPFvLGbTGnezY8e085l56FZbqPicCcpaYyperzRwz42PAumhQ5LWqes2jrnzbU3SGhkcxnOjQQPkh1ngYYOoIeirQazXeh9vYy9QUsTcX6kyt5CSHd5-DNukbSMVrX4P-dzL6AiL4E_nhQ9VX-1oOBzLIHMpjr4nW2ooeE9tKOf2WiW1YC6ZeC4CG-kwjEbEMdJmNEgMglAPNXipE1HPZnKWrk9T2fEk-YhwaF9IaI6W3EA5EVTLmzz_wmy6vUZhMmx07WpqN0oEcX2p3XzFgmF-6DYcBWuJjQyqqHPTCjju9-Q7dYzlYl7MaCcKilEacePsjaUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109638646827597782836\">Clement Luigi</a>"
+            ]
+          },
+          {
+            "width": 480,
+            "height": 640,
+            "photo_reference": "AV-0GLeV0cIoiUdX6S9WcfWhYgYaDtVdvqGz6b7pBy8q1tKL-9ObHE9HPzaSGeexfjh6crSKpRCFWG9qdkTza1yoBN1zPMydNinZACmTUIQhWdX32PP5htOJ7o2oQfqOmqscHIWBPstIEY02XbH7Oja3pyZuRQGSn0DUIqmN2ZoUsgiCrw-20V89AZZe3pQYuO5xZEhq0-JwurCo6XIiWtp_J92KN_ZOpXiQXQlCVM1ml42opz6km2Bi8xpIAuVjIcoR_p7V7SzhGUcr3Qu12CJu1B7_lXJfzH0WvWcpr3bjUz762JgzZ1AuzPbDFQuqSrVPvoQfFdmllewozsZGLp3XWhCTWjemuROMBGwUAp3RfqVxrtMg3Pk4_OW40vNWbWy2XFAd11_xMNGJTMvQzgkLFJ_lgi-y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLf8HdddV1OKDM99YpShOSHajJNW6ekHaBIsgcgBByE84CB02bwOwFcYqz9fRKzHkJLHqWlByWrlECtWI2DQikeskecteerj4sdWfib5tudOcFFVb-9rph3dPEh45Co8RLqrIidGEuxCq7tK1t02kwyNgGwuHw4tTXBUsY8lWBdrcUvUjvlNipf1KELLAITIUpvvOMl_X-llV_NfSzZOoKpfK1LusSDNuAdpq8IDfU5PAxkhxCP8c0g7mX2aBPnn9spV_eid7BWXYeKsZ-7_bkJ0hyOG0Qoj7RGjyLG9XwZow1FuuMdHEMxI0ljkltRuMGw9LIYuC7yWPGHEI4Td-r5GJlEBMyIEehQJKOKpcFA_spPw6Fz448v9eYl8pPrM7_Dffch7VnhvuMA1m3OtPLGywl4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102662369630657657537\">Brasserie du Pavé</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLcIoZPdiX4Mo1u1er5HEC1FmNyBTMl2la5vdgPSB296I4pm6-koqjl7EHsDbZH5sgXA7maZkNF6bmEmMa3ZLWpKqJXNfWCKn4JhHpzgxI91Z5kvfJRhQ30PVB-HmhDscHqiJ05DqoOkGuJzP8XFjBRLM5KmEg6CnlpAaCdNnYCik3mapNQrRFg7YmHSh0kKGZAjTS6Zb6vH4COvg67Jsn1QtVHUqxylpGPQ5MP8mAQTvl_DGYtpgH9aXcqbJpROrVJFHWawRw6-nVmGYnkYMjO6GCWajSZX_0xKrhDZxYjU_aKFsJbq5vmCha_eOpaS2py9GPbc5W-F0ArariQVGCvx-PwfIB0iD60ckvCbyQpHGUJj2I6GcFzJct8DGYo2vMlzRbZmWo7XbDfan5izswgK0oCEsMJC-dDjMFpB_mcm",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101536568270333183781\">Fabien Emo</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5838
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les informations fournies ne permettent pas d’établir d’autres caractéristiques sans supposition."
+    ],
+    "rejected": [],
+    "summary": "Brasserie du Pavé, classée « brasserie », située au 26 bis Rue Nicéphore Niépce à Ennevelin. Horaires indiqués : mercredi à vendredi, 10 h–18 h ; samedi, 10 h–13 h. Preuve : « primary_category_ref: brasserie » et horaires Google fournis. Source : izilife://current."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-du-pave",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5838,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "95ea628ac172a504ea0f2fd2611efba4387a8dba5e4cf5b42aa2f4c875dba9d5",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

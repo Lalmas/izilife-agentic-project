@@ -1,0 +1,45 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant; avis : « On mange assez bien ici »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "La fiche indique is_active=\"0\" et listable=\"0\" ; vérifier son statut avant publication.",
+      "Les données ne précisent ni les plats, ni la vente à emporter, ni les modes de commande ou de paiement, ni l’accessibilité et les équipements."
+    ],
+    "summary": "Restaurant à Wattignies, ouvert en semaine de 11 h 30 à 14 h ; un avis indique qu’on y mange assez bien et que le personnel est accueillant."
+  },
+  "meta": {
+    "cache_key": "76fb5b128f014b2ed2de8ff27a3c829f4e54ce3bc74584fa99ebf63203c34511",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 07:00 – 19:00"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 07:00 – 19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Des avis récents signalent des écarts d’horaires et mettent en cause le poids de certains pains ; ces témoignages sont des allégations de clients, non des faits vérifiés."
+    ],
+    "summary": "Boulangerie située au 29 Rue Victor Hugo à Noyelles-Godault. Les horaires Google fournis indiquent une ouverture du mardi au dimanche de 7 h à 19 h et une fermeture le lundi ; des avis signalent toutefois des écarts d’horaires."
+  },
+  "meta": {
+    "cache_key": "258c45696d817b9b9e103396ec23fc85de4e0184e1de2af755cf5929067483e6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

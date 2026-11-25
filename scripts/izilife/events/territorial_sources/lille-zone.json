@@ -1,0 +1,68 @@
+{
+  "zone": "lille-zone",
+  "city_string_id": "lille",
+  "window_days": 120,
+  "sources": [
+    {
+      "name": "jds-lille",
+      "url": "https://www.jds.fr/lille/agenda/",
+      "enabled": true,
+      "trust_default_city": true,
+      "browser_retry_empty": true,
+      "link_patterns": ["/lille/"],
+      "detail_regex": "-\\d+_[A-Z](?:$|\\?)",
+      "browser_actions": {
+        "load_more_texts": ["Afficher plus de sorties à Lille"],
+        "max_rounds": 12,
+        "wait_ms": 900
+      }
+    },
+    {
+      "name": "infolocale",
+      "url": "https://www.infolocale.fr/evenements/lille-59000/sortir-ce-weekend",
+      "enabled": true,
+      "trust_default_city": false,
+      "require_city": true,
+      "allowed_cities": [
+        "Lille", "Villeneuve-d'Ascq", "Roubaix", "Tourcoing", "Marcq-en-Baroeul",
+        "La Madeleine", "Lambersart", "Loos", "Wasquehal", "Seclin", "Englos"
+      ],
+      "link_patterns": ["/evenement-"],
+      "detail_regex": "/evenement-[^/?]+-\\d+(?:$|\\?)"
+    },
+    {
+      "name": "ma-vie-lilloise",
+      "url": "https://www.mavielilloise.fr/evenements-lille/c/0",
+      "enabled": true,
+      "trust_default_city": true,
+      "browser_retry_empty": true,
+      "link_patterns": ["/evenements-lille/c/0/i/", "/evenements-lille/i/"],
+      "detail_regex": "/evenements-lille/(?:c/0/)?i/[^/?#]+(?:/[^/?#]+)?/?(?:$|\\?)",
+      "notes": "Ancien endpoint EVENT du Hub, désormais collecté hors Hub pour dédupliquer avant tout LLM."
+    },
+    {
+      "name": "meetup-lille",
+      "url": "https://www.meetup.com/fr-FR/find/fr--lille/",
+      "enabled": true,
+      "trust_default_city": false,
+      "require_city": true,
+      "allowed_cities": ["Lille", "Villeneuve-d'Ascq", "Roubaix", "Tourcoing", "Marcq-en-Baroeul", "La Madeleine", "Lambersart", "Loos", "Wasquehal"],
+      "browser_retry_empty": true,
+      "link_patterns": ["/events/"],
+      "detail_regex": "meetup\\.com/(?:fr-FR/)?[^/]+/events/\\d+(?:/|$|\\?)",
+      "notes": "URL de recherche territoriale Lille ; filtrage ville obligatoire avant rapprochement."
+    },
+    {
+      "name": "helloasso-lille",
+      "url": "https://www.helloasso.com/e/reg/hauts-de-france/dep/nord/ville/lille",
+      "enabled": true,
+      "trust_default_city": false,
+      "require_city": true,
+      "allowed_cities": ["Lille", "Villeneuve-d'Ascq", "Roubaix", "Tourcoing", "Marcq-en-Baroeul", "La Madeleine", "Lambersart", "Loos", "Wasquehal"],
+      "browser_retry_empty": true,
+      "link_patterns": ["/associations/", "/evenements/"],
+      "detail_regex": "/associations/[^/?]+/evenements/[^/?]+(?:$|\\?)",
+      "notes": "Annuaire HelloAsso filtré région/département/ville ; seules les fiches événement sont retenues."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "format": "izilife-curation-apply-v1",
+  "plan": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\synchronisation_curation\\coastal-prod-collisions-plan-20261027-174007.json",
+  "plan_sha256": "58a468fba4051c7a7a119f252e847e955abd65b4d9266b96e626ae8c5f896120",
+  "applied_at": "2026-10-27T17:45:22.975312",
+  "destination_env": "prod",
+  "targets": {
+    "l-authentique-dunkerque": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "l-authentique-dunkerque",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "l-entracte-calais": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "l-entracte-calais",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "la-terrasse-dunkerque": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "la-terrasse-dunkerque",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "le-petit-prince-calais": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "le-petit-prince-calais",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "le-relax-dunkerque": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "le-relax-dunkerque",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "pitaya-thai-street-food-dunkerque": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "pitaya-thai-street-food-dunkerque",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    },
+    "restaurant-crocodile-calais": {
+      "status": "SKIPPED",
+      "reason": [
+        {
+          "family": "identity",
+          "action": "BLOCK",
+          "key": "restaurant-crocodile-calais",
+          "reason": "La fiche destination est désactivée ou dépubliée."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,715 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:47:49",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "bucket-s-burger-loos",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "bucket-s-burger-loos",
+    "status": "found",
+    "data": {
+      "id": "5652",
+      "name": "Bucket's Burger Loos",
+      "shop_string_id": "bucket-s-burger-loos",
+      "unique_id": "20affb1948c6cd5cd7f23a30d553c358",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54912",
+      "principal_cover": "54912",
+      "qr_code": null,
+      "phone_number": "+33986394766",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "174 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0116168",
+      "latitude": "50.6144286",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:31:57",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:31:57",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJFeeZ_j3VwkcRMrCXmw_F0zM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJFeeZ_j3VwkcRMrCXmw_F0zM\",\"rating\":4.7,\"user_rating_count\":342,\"google_maps_uri\":\"https://maps.google.com/?cid=3734545186845863986\",\"fetched_at\":\"2026-11-12T19:47:32+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"C’est propre et bon de fou\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T12:13:26+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Angelo Barata\",\"uri\":\"https://www.google.com/maps/contrib/105228748008946363506/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKHOrXZ1F_JGJv5ScmnZr7y3Fvu4GaKdC_-b8a1q7FP0m48RA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"L'employé nommé Mohamed est d'une rare gentillesse, et d'un rare professionnalisme. Je recommande, et vous avez gagné un client fidèle.\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T18:11:18+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Imed Djellali\",\"uri\":\"https://www.google.com/maps/contrib/114960166340003095944/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXDi-uQ70jYCELC0QwPQNH22iDSwgES3GN-J50CEJCvr2zHtAs=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"C'était trop bon je me suis régalé sur le chicken burger et les frites très accueillant il a été gentil et en plus bah c'est très bien payé\",\"language_code\":\"\",\"publish_time\":\"2026-10-29T22:08:59+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Sasha Idk\",\"uri\":\"https://www.google.com/maps/contrib/105467852025388391481/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI5MxS7lsiw956eWdg0FaGHfXva__m1KtoEiC1XBHx5lAefWQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"A fuir\",\"language_code\":\"\",\"publish_time\":\"2026-10-18T19:58:31+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Ashley Parker\",\"uri\":\"https://www.google.com/maps/contrib/112681210765995078661/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ7ekp6TwjuDTfBLlQlNEU_h7HbDweyM7LrJ_26XaTeDBDnHg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-14T19:57:51+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"Yaya Daniel\",\"uri\":\"https://www.google.com/maps/contrib/104154781995548692585/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW6gxOh-g81jzZ8V6mnsHd5GGsUyT-OHhq4xRucsFXt18QigTUR=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:47:32",
+      "google_reviews_place_id": "ChIJFeeZ_j3VwkcRMrCXmw_F0zM",
+      "source_id": 5652,
+      "scope_type": "SHOP",
+      "scope_ref": "bucket-s-burger-loos",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "bucket-s-burger-loos"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54912",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5652_6af39b5d3d8cb.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4714",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32733",
+            "source_hourly_id": "4714",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32734",
+            "source_hourly_id": "4714",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32735",
+            "source_hourly_id": "4714",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32736",
+            "source_hourly_id": "4714",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32737",
+            "source_hourly_id": "4714",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "32738",
+            "source_hourly_id": "4714",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "32739",
+            "source_hourly_id": "4714",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "bucket-s-burger-loos",
+      "google_place_id": "ChIJFeeZ_j3VwkcRMrCXmw_F0zM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00, 18:30 – 00:00",
+          "mardi: 12:00 – 14:00, 18:30 – 00:00",
+          "mercredi: 12:00 – 14:00, 18:30 – 00:00",
+          "jeudi: 12:00 – 14:00, 18:30 – 00:00",
+          "vendredi: 18:30 – 00:00",
+          "samedi: 18:30 – 00:00",
+          "dimanche: 18:30 – 00:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfFvWKO_hHMEczVSrUOD-vAy1fB-sEDyusEPluqbnMcpMFMbjwnolTGXU5xh_i04De2-sgRGz924PRBhSt5UUrcLGj7czSCYPe5N3z8pJrW1VWR1Afky0HGVqTGamJAOxwslZgIjQi_lEjJlBy7Tq5VlvlTiqB2wOz9jBWtoKiW2l-xSYhJE5FhSHGkegMyLAwaDC4QHjjuThb5kUEkjpxz9H_DvKXv6xEZLMT8u4G4EtmpHXvnFR96MAmtU8K4qT0bnEu67uJzNMS4magADJfafU3FrrmpRUFBFPGDvJOYuWyl92mamYu1c_5EtZg1lTsOcQ2h8ZTamfNPKGyrlj7zfFG7o6GFdel9XvbrvMxHynatzC0uIkMBWDcWkQ_qzNxiEJVJp1MsxvM77Pd4QtHgT40H-PhRpZNQGPPcJo7Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 1242,
+            "height": 2208,
+            "photo_reference": "AV-0GLdHewAb2vv1AoSTuQmmlbY4mYtOhbSaLkcvRElHqauYrnLbfXXMSG2QdTVNTmJONdcyYre5JPMoFSFEilns8Xl3Lt8XLj0ox5X0TCOXgsxah5E3Up4uN_nbBpZYPoRrwszGYkyOBkmoVGETGdPUwTmcq__8C1AAZI0gM-HJhdi_VXnOnIxEAsMFJ9mQ3cxIOAKzQP-987aGzsm8pGR178H1cpziXLPcrZW6GQNIMSTKnjr5H5jdTC84ueaN6YQzLnVB_H66r6M5PsRsEYjiZGuJIQuqWQD8VCQ2F9Y8n6d2qdf0nWRrZqoCelWOR9mtwV6r7mOKq_guIxJcSih91hGOUFZ9CUtFEblywaNCj9dvYRjqHTXirR1OeTJYIVvkOOb_d7zXdJHlFcMKaX7wsTHNejbSmqTn19HU0bRIXGTCag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLeZTK957sxdOMTD-o861Fq6cavK-oUMXfoYzuezNlmjCm9-oHZZJOmfgCbbCZ-JXmUx2UW08Om2E_QeAAiZCVWIFlVB0cLplRFAjPnjqNCoh1jj2KKgP_25XXAV6L753yCC1kCaSDOT45FaUWciF8UkGcBgCYjF1OI-N-CAyfSX85__sCgIysX0g34y7hKQ_A37CX10jQ5mTR18fagjEg13huYxTQzPaU-w4GzKocOLFyuMv-1F_vkvZbnhc4J28iS6uqec50D78llGCBEQSDatxWqdFMFRtl5Vc_NbZbD7Oyw4-p3QF4h1JS-dpJwtL-YY3vNocXCXTVsJgPJpLt0PY_-k13q35TlCo2-nHAjFZZHEdz_YiVt-5_Ali3Vz0ZpXOR8tY5J6Hsfg9Oq0SvzyFd9srEFlJD-iuWr6sYlYBg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcjfztU9VEPYblXkB4SYXEOfZtlb0oDZyQ9viuAC4LUUwBWlliC0Tzb64MXvRbuHFIZ8oLyToQgOwYJf_d6bJVfdAwGbU7b5apaAkNPR4oAHOsA-X3VcFhbDj-v2B_mg5nStKISczAnU_as-z_sVXmwS20h82dqo5P1StQIJoluS_q3nPhtxn0VjTN1fugaUFlkHS28dX0g3pvdAnBM4tyO06xTxkPW6IQ1oOKRHBV-q1LPYLGiFMkq2pWW3CLBOxEd7ancbIB_FsXfQF0TTweFJ5DbucQZ1rv014Q321d3LCJFY-wtfoOFzMwwCf8tShtm5VTvJDgdtZS3kz-XGtLxDz8OiLMH5xXAUYnMIJCJUb5sNTo1pDEbDRChwNsJ5IdOJlblUFdnqIidTGUbFxJm0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105552566127123041341\">Grisnardo Grisnardo</a>"
+            ]
+          },
+          {
+            "width": 1672,
+            "height": 940,
+            "photo_reference": "AV-0GLdFUEU0w4IWJBjBAwVlEHTyeHPyDBMsCsQ27mF4iuXisK-STu3nvd2vNKi4KYrXZRkcI1TQdPFdEDyf5WmYoiF84plvkdBMsmPWsNmsUNc9qRC6OS49ZLj6mOf_7lzzbfmy9FXuWBCmIX1T43ySOUDeEYmxhigDA68fEWvi79YanvD2WwK2P_84ZXhiPmmL7qnBSu0BNyu7bFz8cENlLwDbLGazBpggVB6bpu6P4aeYcMMlC4s8EHdh2ER5bcC6oaLxS1amoibXAKA_AGGc02VsF5ymtRWugRaD0DakzKLTh75PTOffqK9wicYdjsiU9o-RbL-PvOVfsRxjJATz9__uk2pD9AZdUYyAOCMBQy5uyI2_j8sjq92E3hy0gJsyRQfD8-bW9J3H6xlWgf2gTlpQ3Ks4jinLHcXQvxpqrBJl",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 1724,
+            "height": 2768,
+            "photo_reference": "AV-0GLfQoo3zNrQ-wZo_jetrH10HdCSi_mfofp79e1tu1vrylz7RaCSIoCVBog5HuIfDp7pQcJoXt_NI6ztxOOS72dsVBb7fqXIb7iwZCTb6JeVET4dmP30PLUtjGTClBgUxA8cyQO_lzWt1KaKEtPWRdnZHAyMlX8bWvTxXugGaAaAo9eF8CZWUmkKzorKGT-WutkU-wmaEf0nMl08I3ke6UyVAJcY3zgi7Qqs1-otSYHVo6cjFxL3JOB2slmU4mX_sDQbul1v740Yc10C54FItq-gJg8CS9JeWN1YUz_TxkmNIzF0SBRxyM70T7Lhog_WircWPVN4Z-On26b5TcF8ECSCosHSqveo_qoJpXyKbF2KDOyElms_HtqNCtEa3j-_0dEl2GTak-6o-WQCIsgEe4ce9WYEKNOLxjWBXkJlUbtqQpw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 1242,
+            "height": 2208,
+            "photo_reference": "AV-0GLfEP9C2Wvu7JkxgMXz0dE6FgmvJ8ElyuEbPpO7bq04InXjv_h3-uoC1oIaJpIkCiga6MsyeANmx9Dy-Pa-Mseq3vAN8WKDPRmXI-LiD6PsD-X3D-wbsn6bCJEehV74s2f24yET6It1Of-gXPe38EXBQOc8yrNdpi8dGCI9aYtbNVX8g6_R-fix5abef7TEUSVfTg-UypfVJHXfaPU2wpmrUlp3wXZJYItly5sDEFBmtMN9tUbMbc7Dw0PqdBGq_4f3M7RwvOobrfyUUhY9H2dtxCi5IrCVaYEJS7_QdXxeNOrGnbldW8r1UvgI8UtSh1k-ngiNGtvrXEoXQTKssxVSMPU_Ff77g4sz0dYeSjDYf5NxseO05GJL6Sy_Q9Exnyj5bcUjZ3v_j16GVYOaNnLD-Lg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110850016576354819820\">Léa Lepez</a>"
+            ]
+          },
+          {
+            "width": 2700,
+            "height": 4800,
+            "photo_reference": "AV-0GLdv6ELhpQI2CBsy3u3MoB_mk8wH2s8AyNlxnjb8vcqjBllOslPQxDpjANsH1MRT8TgP_N0J2nktfW6RVunZDSn9vLesJmskeS6G5qvdniHbfFMUw7_SS3BeLVreTZrdaM1Dg9yuWDnYlS0CK6HH-QlCk8pDUh7OzP8eKrRbIMqa1_SUfux1_34LXH0LFZhX21lCGZpwTa9zVBTZfK6yQmYHN0XFiCC8q7B-sl3RZYnqorzbd8F8zQKw2Nzfhs7RfbPGfG201OdjNpTXEKopXMDy7-fOSPkp4ePu4YYh1ZGv7ksWLS8quz-ybfOuWM6mBXyTn7EYCh9HDGurwSpF6jJTsOheYMQVmD1-RxgbHZ3rX_MlEhQ_vMsstLpqJkwJScPSJe4DVgSqakNoTn7Nn6uzSSkBQnFRC_cQgtBTZX5sOA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114884385672258860844\">Florent Ionescu Martin</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 1024,
+            "photo_reference": "AV-0GLeqI5dh7LXAZIPZIdrC_Toi3xNFFEGFLbLpk0cHvmSsc6bpId5eWXgVTrMVpAO6wvsDhK0TgcIjFBRr6rr9fxeJ9RVZkqPukvdCSK22xitiQeJ5XApmLT4pWLBUYO0Vr2BzmQa8Z-wrp2ls8oCC0N0G_lekHoQrD3TxebJ97u8dRlSHWKO1aQER5CeQLfn3Bq1l0hUIC67U5GukwmNPIOs8r22EnzrsZuHQamd7OP9inq3JORvhUIpGkWxnRWnbcmtDe6AItNvYFLlyQBRRDtGGhqi3seF-075b-JgCYsWHBgnJ7iklFtbZPE4XIkDvBzWtwH-KU3DxoH_ZZPwpcS8hpCO_q8GbAyMeA-sjG47-CTnr2WVTc85kmZwaZtG6UJoYqKqGA7uVniUgkeC5A1yfPiP8FcfWs9mnvMEtEeh4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLcN_yLkWWYWdrxIxhN_pmYgDTLw6XUJm9cpn9POFlV__WqWHQCqO9ehPzoXdRtjd8Ekkj5m01e1QQtM_KPr1Bi2D8YJnPMBqVLS-loF-GUoxAkTsRnNyMPG_Ld3CcXHbDv5w9C7nVxQ5DnurmPQUYMrW0tTGI1okzUSnWdnAbRzPbVYM78_OzTdfvvoUCfyckppy_2TwZeenreQcskKuoQ_YdemSY4XiBksY7xhnzX6ajVYJdS2mCRHUK_u0-Revp2gARgMRSw16zcOKF6CjfQbzjIJ1QemPIN7W4kGaUqdnENcXCxi7CPP4PpZoVEhApmkLOurvFLeL4Ja46SPqAeb-89udrAQbaTXNXK3-ZQB2Fg6icjHv1YruccBr3V1B2ioWVbmp9zv__xVxjh9kzWAcf26egZBN97sg5z7J-Qq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114353722944850272655\">Bucket&#39;s Burger Loos</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5652
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "C’est propre et bon de fou",
+            "language_code": "",
+            "publish_time": "2026-11-02T12:13:26+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Angelo Barata",
+              "uri": "https://www.google.com/maps/contrib/105228748008946363506/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKHOrXZ1F_JGJv5ScmnZr7y3Fvu4GaKdC_-b8a1q7FP0m48RA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "L'employé nommé Mohamed est d'une rare gentillesse, et d'un rare professionnalisme. Je recommande, et vous avez gagné un client fidèle.",
+            "language_code": "",
+            "publish_time": "2026-11-01T18:11:18+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Imed Djellali",
+              "uri": "https://www.google.com/maps/contrib/114960166340003095944/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXDi-uQ70jYCELC0QwPQNH22iDSwgES3GN-J50CEJCvr2zHtAs=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "C'était trop bon je me suis régalé sur le chicken burger et les frites très accueillant il a été gentil et en plus bah c'est très bien payé",
+            "language_code": "",
+            "publish_time": "2026-10-29T22:08:59+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Sasha Idk",
+              "uri": "https://www.google.com/maps/contrib/105467852025388391481/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI5MxS7lsiw956eWdg0FaGHfXva__m1KtoEiC1XBHx5lAefWQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "A fuir",
+            "language_code": "",
+            "publish_time": "2026-10-18T19:58:31+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Ashley Parker",
+              "uri": "https://www.google.com/maps/contrib/112681210765995078661/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ7ekp6TwjuDTfBLlQlNEU_h7HbDweyM7LrJ_26XaTeDBDnHg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-14T19:57:51+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "Yaya Daniel",
+              "uri": "https://www.google.com/maps/contrib/104154781995548692585/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW6gxOh-g81jzZ8V6mnsHd5GGsUyT-OHhq4xRucsFXt18QigTUR=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 342
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1142,
+        "bo": 104,
+        "front": 1038,
+        "estimated_cost_eur": 3.55
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "chicken burger et les frites"
+        }
+      ]
+    },
+    "warnings": [
+      "Une source d’informations sur les entreprises indique que la société a cessé son activité le 30 septembre 2023, tandis que la fiche actuelle contient des avis datés de novembre 2026. Statut d’ouverture à vérifier. Source : https://www.societe.com/societe/bucket-s-burger-848134474.html"
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Restauration rapide"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.91,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Restauration rapide; ouvert le midi lundi à jeudi"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Lundi 11:45 – 14:00"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Lundi 18:30 – 23:00"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.ubereats.com/fr-en/store/buckets-burger/NNK1-ZLDSYeLk2DfeA6ccQ",
+          "evidence": "Menus beef burgers"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "sandwichs",
+          "confidence": 0.82,
+          "source_url": "https://www.ubereats.com/fr-en/store/buckets-burger/NNK1-ZLDSYeLk2DfeA6ccQ",
+          "evidence": "Menus chicken burgers"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "À emporter"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "sur-place",
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "livraison",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Livraison le soir uniquement"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "PaiementMethod",
+        "item": {
+          "string_id": "especes",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Espèces"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "PaiementMethod",
+        "item": {
+          "string_id": "cb",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "CB"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "PaiementMethod",
+        "item": {
+          "string_id": "carte-ticket-restaurant",
+          "confidence": 0.96,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Tickets resto"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Friterie et restauration rapide proposant notamment des burgers, dont un chicken burger, et des frites. Repas sur place, à emporter et livraison le soir ; horaires indiqués pour le déjeuner et le dîner."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "bucket-s-burger-loos",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "frites"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5652,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "4950875d00b01648b7cfab7a67dff1e400357926cdd24dd1d20e64af163af12b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

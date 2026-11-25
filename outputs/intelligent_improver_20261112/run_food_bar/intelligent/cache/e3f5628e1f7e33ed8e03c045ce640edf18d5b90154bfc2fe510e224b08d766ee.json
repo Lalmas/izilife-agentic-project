@@ -1,0 +1,134 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-afterwork",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Nom : « Restaurant, Brasserie et After work »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon restaurant au service impeccable »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon restaurant au service impeccable »"
+      },
+      {
+        "string_id": "lieu-de-rdv",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "« Excellent lieu de rencontre »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Bon cocktail et plats délicieux. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Cuisine simple mais bonne. »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.67,
+        "source_url": "izilife://current",
+        "evidence": "« Bon cocktail »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 12:00 – 23:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « vendredi: 12:00 – 23:30 »"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« Bon cocktail et plats délicieux. »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Le Burger welsh vaut le détour!!! »"
+        },
+        {
+          "string_id": "wesh",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Le Burger welsh vaut le détour!!! »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Les frites sont bonnes »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 12:00 – 23:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « jeudi: 12:00 – 23:30 »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "afterwork",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Nom : « Restaurant, Brasserie et After work »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "apero",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« Bon cocktail et plats délicieux. »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant-brasserie à Lesquin, adapté à un repas à table le midi ou le soir et à un afterwork. Les avis citent notamment un burger welsh, des frites et des cocktails."
+  },
+  "meta": {
+    "cache_key": "e3f5628e1f7e33ed8e03c045ce640edf18d5b90154bfc2fe510e224b08d766ee",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

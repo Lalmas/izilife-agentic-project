@@ -1,0 +1,145 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-wifi",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "chambres claires avec Wi-Fi gratuit"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Nous y sommes allés ... chaque plats étaient un délice"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Les assiettes sont joliment présentées"
+      },
+      {
+        "string_id": "parfait-couple",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Nous avons passé un merveilleux moment en couple"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "gérer une trentaine de personnes"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "tout comme le cocktail"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant haut de gamme et brasserie conviviale."
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "La coupe de champagne était généreusement servie et excellente"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "tout comme le cocktail"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Hôtel chic offrant chambres claires"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Wi-Fi gratuit"
+      },
+      {
+        "field": "adapted_to_couple",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "un merveilleux moment en couple"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "gérer une trentaine de personnes"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "haut-de-gamme",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant haut de gamme"
+        },
+        {
+          "string_id": "chic",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Hôtel chic"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "un repas le soir"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "un repas le soir"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "moment-en-couple",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "un merveilleux moment en couple"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis sont contrastés : certains saluent l’accueil et les plats, tandis que d’autres rapportent une expérience décevante concernant l’accueil ou la cuisine. Les informations disponibles ne permettent pas de confirmer l’accessibilité, les services pour enfants, la terrasse, les moyens de paiement ou les modalités de commande."
+    ],
+    "summary": "Hôtel de charme avec Wi-Fi gratuit, restaurant gastronomique et brasserie conviviale. La consommation à table et les repas du soir sont attestés ; des avis mentionnent aussi des boissons alcoolisées, un moment en couple et un groupe d’une trentaine de personnes. Les retours récents sur l’accueil et la cuisine sont mitigés."
+  },
+  "meta": {
+    "cache_key": "89765ab2b2090dda873f8d3ca50f0a5e835147006566295e6a3b89c2af59dae2",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

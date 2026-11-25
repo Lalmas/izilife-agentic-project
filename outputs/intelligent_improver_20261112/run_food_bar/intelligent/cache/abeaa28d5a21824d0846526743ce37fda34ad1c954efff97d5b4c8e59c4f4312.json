@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "Horaires en semaine : 11:45–14:00 ; avis : « Service rapide »."
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Service rapide et sympathique. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « brasserie »."
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert du lundi au vendredi de 11:45 à 14:00."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert du lundi au vendredi de 11:45 à 14:00."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie à Lesquin ouverte en semaine sur le créneau du déjeuner. Un avis souligne le service rapide et sympathique ainsi qu’un bon rapport qualité-prix."
+  },
+  "meta": {
+    "cache_key": "abeaa28d5a21824d0846526743ce37fda34ad1c954efff97d5b4c8e59c4f4312",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

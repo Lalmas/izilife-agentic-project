@@ -1,0 +1,531 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-grill",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-grill",
+    "status": "found",
+    "data": {
+      "id": "5877",
+      "name": "Le Grill",
+      "shop_string_id": "le-grill",
+      "unique_id": "8532a90711b1e9e0029092a255fb6885",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55133",
+      "principal_cover": "55133",
+      "qr_code": null,
+      "phone_number": "+33320345557",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "86 Hameau du Roseau",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "102",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0866321",
+      "latitude": "50.5120708",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:17",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:17",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJv6qAb4DRwkcR0XGqMRzRFxc",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5877,
+      "scope_type": "SHOP",
+      "scope_ref": "le-grill",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "avelin",
+      "string_id": "le-grill"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55133",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5877_6af3a2f195203.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4934",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34273",
+            "source_hourly_id": "4934",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34274",
+            "source_hourly_id": "4934",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34275",
+            "source_hourly_id": "4934",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34276",
+            "source_hourly_id": "4934",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34277",
+            "source_hourly_id": "4934",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34278",
+            "source_hourly_id": "4934",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34279",
+            "source_hourly_id": "4934",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-grill",
+      "google_place_id": "ChIJv6qAb4DRwkcR0XGqMRzRFxc",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:30",
+          "mardi: 12:00 – 14:30",
+          "mercredi: 12:00 – 14:30",
+          "jeudi: 12:00 – 14:30, 19:30 – 21:30",
+          "vendredi: 12:00 – 14:30, 19:30 – 21:30",
+          "samedi: 19:30 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLezJMz3nYMqxtvNAI6ykPzZHDplQEEKGKcJoKsppShelYEIO6cCqgQUuMkNy147tJZbJbYO6av5X8CniAnydwv8jRkCA0bc8x6sW9uReSzeKiiLEkfSxmNtMgoO_szPhEqa9X33upS7LINZ9eQsQmHMH8kHBhaEXH84sn4WOKlHzDgNZjum_AZ5UUBggaP8jjeG3cHHulXEx091JeBuMGP_caXoJb3Izyefr1TDbVyM0MQ-fc1dbiXTZ5-g_WRBQCcBh1oKgQvef2uLDTgA7CJvSE44JwZ048FXLAlwZ3dt7wrnWoxAO7_gIoyW8klfunornDulj1JRJRBaoBmn2MYAcuXa74Ge6Gu8ouO2lt5AJiW8B1cN208j0GT3E_OR8TVKVqqWcBdOUj2boL0S59GHFdiN-BANiCTV-QEEJCK1Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111456963014659571877\">Nilan</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeB-SaNSPUoCzGWly_uHuctwdugp3SBxg2xW5DgMRQQFIX9VsU0oOB32nd7Ltd4Fze6U0nvmByijR1jvejUhAN9G9XVwgeeoJOdvcrhqH1Sr0HHCPpmpN_BwJISiPax180RLBrNin0od_Y94qP8seEAHVjqu5hLTVKZhokJNhrqMe_cvAaXJQaG7VicUXjQcxNbkIHL4JHWJg7aBEhk80PD5KBtP-aOVqtJEUVNFMtkJjEuR76QpcQlplSVXcqx7mbsFYrNJ4JsVFzLc-qgigQkiiUcA5B049GbOCovVqrvuqUoi9scrQXmkZxH90PGqiX55x0d2DDK8BWgETX4dDVhOttMHzRH1ep98aBG82ec-Iw0ha7d7a3Bhyb1ZsNOMB-LRk1r721WwndeoZc8ykqr1ry93LUbiP5cF_lvX6m3gA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111456963014659571877\">Nilan</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLftP5R8VEOkXBOmPj6izMRwFd9-WJEqxfYZMPIO_z5-T6obi5L5xwjL4L4ilY-9trkkcRUEFRJdNc97jK1-QZd2BvgPITjN-DXwGi8vJ4iMapNP0lXybUzLCOVXOfG5ocBKPZiNMmsLD_bB9_hSlTS4U4vUZdHDvYeMGa3KpCJMgkehILOEc7b6sobPREJdCsPiFa8D7OsnXPsULHSlClX9JtHFpLB58HpjWXHyllGWNhLTr2cVSJRcq3T5TFFjPlKAht-elpgEdbDK_tnozlsKZpDB-w44shNJkjDfRoB7wW28ZAV93CcJYAcWrM4FQe0wRePlSBA35u1Ny3Jc55wAeNVM4jy8vDeag1HPqhZrf-20TfsiCEEgLlk95Mr0LMozfERGm25wxtpPj674oloRCvCSBV15POKF_zXEiUu_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108264337384936954137\">Le Grill</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLexpPfza0nT7ZC-5Cz2xzJQkGnsy-OdMZriQ5I9X2SZh0XSZQ3JhIzjvVvbb41w9qntK0EFzDXg-ipuFXS4fQ14NYVQpag1y6azOMuPctqwwe6iMtpQ6hSfjK8ABrREH45cy8B43ME4NPsfMcgJCIDpvrU9Lm8WlbBClFISZes1BlQJImNUqFAyR5mms0RYDTTE7t1mAGQ9gSCTjkOK-dauK07gHRa9G5w4CwvUJ-FBikkSnFSHqdPseGMQdhlpK-Ces9xEQIE8TCvUlF-NxetFvy60v8IpnBXsS039Oh1qcyaBYHSv4KMYy3bPfBNT2EofG6QPikbFysnx5EqPIJsexxYoGP9YQ2Di2epnOu_aurBRrmxFSAX6pftk2SUpPIG8M4b67-0Ffk1BlaCrzI-aTKhpNSauANec7Y5rFVxldg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111456963014659571877\">Nilan</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcvbwan5PdMPfCXxIJNyq98Yv292rCRPlUAXS7G_Lams2QJIib5kqeG2h5aCk6Hn8MSr2Nzbrw8eK6rup3e0UWVE4xkDHFG0ogFmakLKXr782yUuAsETMUmyyWMA8ZT_xI_yQviMAAtkGqfZrOSvmQWZu9CbmI7H6Ndb0m7WasmPc6vLDCy4ppsfuznMC3fysy6hCxsUZZvtXNYvLhcppq-vqsnVJNxvRj0pxAOD-0_5XrtNXCSM0XRUHxjUrsTq3mXXheJnTzKB4djSGlWzO5o-vgG37caBCN97CzQs3HmFBSCxWk1Ix640ZhQqbiFj7p265tHP5pJdlxrpHFAYsLVWLPj5KwmTVmdj-yv_-rFfegpi7T8b6aQTRfdttJSTZcK4UZTkvtHnaFr8vQBmtkcO-ZNkam1l6-BsZAFxs6N",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106038407022726477926\">ERIC BARBOT</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLfSfuKfAgalY64m-NRBhU2z11kCKtOrCyJfHhll9MGRQjbaRO8WXZCp0hVHDWEPgP-ZNrwvqsxoZ0pvaz9_1_xc9mU66EAcXWL0y2Fz13zA_chHeC6KGAR5Lixz97Y8M5VUXLJLCC4lYmJd-XxV8cbyzY35N3VHZ1pgomuf-OP1c36Hu0yYBPQ9OVCL-LC8a73wo5hrqbFS-X72KMkVfCvpI-z7AeDsRKyhuSTHM0LI10mb7BhzZQqQDI3GverwFvcaKKmzdibrHskdeDmO_x14G6H9XE7WARYpST0mjuKHBlBfsP4WraGb7kzdlXliysmdbf-aeYW51pAzO-SMOEwseN0mkjBaOBpwm056nXwP-4UfPHg1Uh6PMcBzeDVN6hOSpQfOvLTrurwpKYfNz1J8QGElWXU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109407776576181219075\">Didier Cuvelier</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfhz28VDPLTU6yZ9pCmJ853lmj0kpJZ9h_oyrlf8Z3GkgkqJPNSWzeIFkBDU_vmuBK0BuzBMKvSTfIjfCNCClwFwDyjVGtExaQ2fZd5jGxKnMonP_WjXkL8QHX0VZKQ29e38rRZMpGvwtIXv_ADg-AedaaDVd9F6NpHgNGArzIOfFb5d6Wpp-iXyy9X_fvCn8MTjDEgAA7Vh0UC8r42BGfMXz9intsYX9RHCtlRekpQtUuQd1x29C3VWjwP0GwwRTbHN0MaNsI1m3-HGRhZZoHlYI6w5YbQnn1hOP0za5Ga-gTNmGqGB2LIub8CPC4j7nsUxQ4JEl-3quYHDGJDWyL-Uur6VKTgh6kenpozI7bZjPU5dCoVwxiIozCIX0O9D0ZhEMOZPWpNnDZHRSiXMV2xWVyFXXFda0Zsj9L57Cl4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100139675762541233871\">Fanny Delabroy</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeYj_eR3KbYybLGkmwQBB_9prDTctDlNDAUxH_C1-70nvIrAF0X3LUvk3VgrjGiFD2PNd08pjyRWY8LGQRV2QZfZ9RzDTJQ9hC0FWrfWF_mbZyW6aI-AxhvvNaiXYqO1Fg5jgxtep2dYFze33AHgA-fZPOi6MANDn28t6uGMHd-craGcyyI956uECGeNTysomm5tp0TmC1vBSPm12gFpqwz7rdJk2jtx6KoESzkO3vlg9pyeyLrkv04aNtn1fk1ZureSCHrXBEmMMqC1VuGbviUcnO46xQ_stNdkwI-2xy3TH-zugtm7tbnsZdFK3hDyPBLRHJCG4kRjaXcbSn3nFVWoom-QwmJIfLSBejZM3nQUH8YGbTjBSrUcdhOARnKXqjLtCQqpbZhJDsluHSJEtURSQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116470451261747924977\">Greg Ory</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLf1hC_GY13B2WxlGejkJIr3YkJIl3tBz1pmjSAN_iwEL0XFQoQwl4QAERbOML21A0_2wJw0Sue30cz_213Ghosv-waNOIPSL-drTduLH29sikx07FJpe69wkDkNF-j9PQR9kCkhuGYPApa7hF7ZYWGGwUMBmvnLuAFaf8uq76AZc1e1Egmj77fOMQOff0AogH656Ao6T3PyJvL8bS4jyloNJPmONQ-rs6Y--j_OeQ9GUL9hd8G3SEqcMGHz_8zrLSGxAxYXx0OmVNzSobJtFnGce4YbLlJVVqlEKFfxI5jdgtIASO-tOHUbyBAetZuxX3m4ZkaI7-sKlljFH_tRAyW7RWPqFCb2eRRSvYhgIXLqk6mtgg1GUnXGdf0DPQRS57P-7hnY6ChL_VhfYVtosEkpMzo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108264337384936954137\">Le Grill</a>"
+            ]
+          },
+          {
+            "width": 1414,
+            "height": 2000,
+            "photo_reference": "AV-0GLeWOHvv-Mmi_iw308BTWvrw7fV7cKQR2caBajvwHeM8smreqsQcrIGa3nO2rob5pwj429DsPBVjWTlpikj7DkPhdmPtxmS30qo3-urs5XQD56X-4aiXum882Ah9xtmqgFntrtVH1X1p_SS6Hh8OIuDhKdoKJMR20JZoonMhGu5tNrwXuV2MIBrReTIsa-We4tCkYD2g3DNQTztosnoodEVeMnaqlDk9oI_tkp8ZsFLWUYZoFw8ngNG077-kS4MxMnpzaSVhCag2hxgCtl1gzr8T_TdtQKHGMC-nMh5XTM7dvoUo6UMh8kLAaDi9ZwR25T7hXqPTRHa1P2kYfQtlclFya2BHYAMWF97zrx1ObmCh3MWSPVjFXoGN5zoH5jUJ2-2vqq3zOKALcJn6pD-XA_hfwiA4AS_qk0xbvvQQ97EoAQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108264337384936954137\">Le Grill</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5877
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Aucune source fournie ne précise le menu, les régimes alimentaires, les services sur place ou à emporter, les publics, l’accessibilité, les équipements, l’ambiance, les loisirs, les paiements ou les modalités de commande. Ces éléments restent non renseignés, sans conclusion négative."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi à mercredi, 12:00–14:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : jeudi à samedi, service jusqu’à 21:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de déjeuner : 12:00–14:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Service en soirée : jeudi à samedi, 19:30–21:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant Le Grill à Avelin, avec des horaires de déjeuner du lundi au mercredi et des services en soirée du jeudi au samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-grill",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5877,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6d5c5eb4f9f7964d720a123d3be89a71869f94348c28e6f7cbd9b4eb925bf1a0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

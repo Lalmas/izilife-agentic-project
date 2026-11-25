@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1156,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.68,
+    "evidence": [
+      "Le titre annonce un spectacle de Sandra Colombo intitulé « Que Faire des Cons ? ».",
+      "Aucun élément fourni ne prouve explicitement qu’il s’agit d’un spectacle solo écrit et mis en scène, ni d’un plateau de comedy club."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme précise du spectacle n’est pas établie par les éléments fournis ; conservation de la catégorie existante."
+      }
+    ]
+  }
+}

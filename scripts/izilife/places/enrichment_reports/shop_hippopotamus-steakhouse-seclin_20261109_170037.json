@@ -1,0 +1,337 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-09T17:00:37",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "hippopotamus-steakhouse-seclin",
+    "env": "prod"
+  },
+  "sources": [
+    {
+      "url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+      "title": "Steakhouse à Seclin - Hippopotamus Seclin",
+      "sha256": "5b991a1889d09f2cc158132d67dcd0537bc5fa873b21de0580dcfea9932c3ac7"
+    }
+  ],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "hippopotamus-steakhouse-seclin",
+    "status": "found",
+    "data": {
+      "id": "5155",
+      "name": "Hippopotamus Steakhouse Seclin",
+      "shop_string_id": "hippopotamus-steakhouse-seclin",
+      "unique_id": "82be31b6fa8844cfc633c03871710022",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "1",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Contemporary steakhouse restaurant in a casual setting serving beef specialties, plus a kids' menu.",
+      "ai_description": null,
+      "principal_picture": "51167",
+      "principal_cover": "51167",
+      "qr_code": null,
+      "phone_number": "+33366192858",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Rue des Pavés",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0496759",
+      "latitude": "50.5498123",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-10-27 12:51:18",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-10-27 12:51:18",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ13WVcm_TwkcRyzwnub0v-0g",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "source_id": 5155,
+      "scope_type": "SHOP",
+      "scope_ref": "hippopotamus-steakhouse-seclin",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "hippopotamus-steakhouse-seclin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "51167",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5155_1793101879_b40a9bb81f0773eaac80.jpg",
+            "sha1_hash": "7d122bfb8131dbb0e93ef8dafa0ad45ff580c5f3",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3955",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": []
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Accueil enfants"
+      },
+      {
+        "string_id": "bon-wifi",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Wifi"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Accueil enfants"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Wifi"
+      }
+    ],
+    "editorial": {
+      "DietType": [
+        {
+          "string_id": "vegetarien",
+          "confidence": 0.99,
+          "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+          "evidence": "Offre végétarienne"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "grillades",
+          "confidence": 0.99,
+          "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+          "evidence": "viande grillée"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+          "evidence": "vente à emporter"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.99,
+          "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+          "evidence": "livraison"
+        },
+        {
+          "string_id": "click-and-collect",
+          "confidence": 0.99,
+          "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+          "evidence": "Click & Collect"
+        }
+      ]
+    },
+    "warnings": [
+      "Proposition déterministe reconstruite depuis la page officielle après deux réponses JSON invalides du modèle."
+    ],
+    "rejected": [],
+    "summary": "Steakhouse familial avec accueil enfants, wifi, offre végétarienne, vente à emporter, livraison et Click & Collect."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "hippopotamus-steakhouse-seclin",
+    "operation": "ADD",
+    "tags": [
+      "kids-friendly",
+      "bon-wifi"
+    ],
+    "principal_characteristics": {
+      "adapted_to_family_with_children": 1,
+      "wifi": 1
+    },
+    "editorial": {
+      "DietType": [
+        "vegetarien"
+      ],
+      "KnowedMeal": [
+        "grillades"
+      ],
+      "OrderMethod": [
+        "a-emporter",
+        "livraison",
+        "click-and-collect"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5155,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopDietType:+",
+      "ShopKnowedMeal:+",
+      "ShopOrderMethod:+",
+      "ShopOrderMethod:+",
+      "ShopOrderMethod:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "cc5752ad662417bb04d44a55c4e8ea3604e5ba20f1e50e83685d9a7b00c9d54d",
+    "references_env": "local",
+    "analysis_only": false,
+    "source": "proposal_json"
+  }
+}

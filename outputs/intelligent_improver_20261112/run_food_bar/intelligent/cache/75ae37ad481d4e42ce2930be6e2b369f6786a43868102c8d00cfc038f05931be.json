@@ -1,0 +1,33 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« les pâtisseries […] tout est excellent »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« que ça soit les sandwichs, les pâtisseries, le pain »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie proposant du pain, des pâtisseries et des sandwichs ; un avis souligne leur fraîcheur et leur qualité."
+  },
+  "meta": {
+    "cache_key": "75ae37ad481d4e42ce2930be6e2b369f6786a43868102c8d00cfc038f05931be",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

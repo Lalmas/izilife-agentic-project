@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:51:52.684276",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 137,
+      "title": "Entre 2 beffrois en vélo-taxi",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/entre-2-beffrois-en-velo-taxi.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 137,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 164,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:51:53.379160"
+}

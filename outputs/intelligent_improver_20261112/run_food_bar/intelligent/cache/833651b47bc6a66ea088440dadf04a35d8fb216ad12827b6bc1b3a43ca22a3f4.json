@@ -1,0 +1,59 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Brunch magnifique le lendemain."
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Brunch magnifique le lendemain."
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Nos convives se sont régalés !"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Brunch magnifique le lendemain."
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "grandes-occasions",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Excellente prestation pour le mariage"
+        },
+        {
+          "string_id": "cocktail-pro",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Excellente prestation également en entreprise"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Les avis décrivent une activité de traiteur pour mariages, événements d’entreprise et familiaux, avec brunchs, pièces de cocktail et repas. Rien ne confirme la consommation sur place, l’accessibilité, les moyens de paiement ou les modalités de commande."
+  },
+  "meta": {
+    "cache_key": "833651b47bc6a66ea088440dadf04a35d8fb216ad12827b6bc1b3a43ca22a3f4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

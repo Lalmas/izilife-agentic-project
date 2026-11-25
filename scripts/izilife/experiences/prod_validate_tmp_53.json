@@ -1,0 +1,86 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:22.330750",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 53,
+      "title": "Atelier découverte & cuisine de la spiruline à Lille",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://www.funbooker.com/fr/annonce/atelier-decouverte-cuisine-de-la-spiruline-a-lille-59/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "cuisine",
+          "minimal_age": "5",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "atelier-cuisine.png"
+          ],
+          "age_category_ids": [
+            "5"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "préparez-vous à une expérience enrichissante et immersive"
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.8,
+                "evidence": "Jusqu'à 10 personnes"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 12 ans"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "activité avec visite de l'exploitation et dégustation"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "champetre",
+                "confidence": 0.7,
+                "evidence": "ferme urbaine au cœur de la Métropole Lilloise"
+              }
+            ]
+          },
+          "primary_image_url": "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/xjfn1tasyubxanxa5fva",
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 53,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 94,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:27.227132"
+}

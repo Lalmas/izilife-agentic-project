@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-en-solo",
+        "confidence": 0.25,
+        "source_url": "izilife://current",
+        "evidence": "Aucune information ne confirme un usage en solo."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 07:00 – 19:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données disponibles ne précisent ni l’offre de restauration, ni les services, l’accessibilité, les équipements, les moyens de paiement ou les modalités de commande. Les avis et les photos sont absents."
+    ],
+    "summary": "Café-tabac classé comme bar à Wattignies, ouvert dès 7 h du lundi au vendredi ; les horaires du week-end sont également indiqués."
+  },
+  "meta": {
+    "cache_key": "379659d32c9c5dda0aadd88fb0b6fa5593a3445b40d9f8a280228fe0b43d0fc0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 19:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie située place du Marché à Annœullin. Horaires indiqués : du mardi au samedi, de 06:30 à 19:00 ; fermée le lundi et le dimanche."
+  },
+  "meta": {
+    "cache_key": "f32cc48ef3d86ad758530121cc0221189788fd50978d808a29aba904e3b77720",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

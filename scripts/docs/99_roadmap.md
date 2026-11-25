@@ -1,5 +1,9 @@
 # 99 — Roadmap
 
+> La feuille de route de mise en production des agents est désormais
+> `100_road_to_production_agents.md`. Ce fichier conserve uniquement les sujets
+> généraux hors chantier de production immédiat.
+
 ## Court terme
 
 1. Finaliser CM Izilife.

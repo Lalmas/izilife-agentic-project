@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Aucune information fournie ne permet d’établir les types de cuisine, les options de repas, les publics, l’accessibilité, l’ambiance, les équipements, les moyens de paiement ou les modalités de commande."
+    ],
+    "summary": "Restaurant « Au Lion Des Flandres », situé au 23 Rue Voltaire à Lesquin. Les horaires fournis indiquent une ouverture du mardi au jeudi de 11 h à 22 h et le vendredi de 11 h à 15 h puis de 19 h à 22 h."
+  },
+  "meta": {
+    "cache_key": "0af78dad3ee88a27449ebad65145134779a37e3ac337c625a7cff08159c9449e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

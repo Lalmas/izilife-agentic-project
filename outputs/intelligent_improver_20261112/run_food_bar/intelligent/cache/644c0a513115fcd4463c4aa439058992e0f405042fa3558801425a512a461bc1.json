@@ -1,0 +1,69 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons très bien mangé »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« nos plats »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« un midi entre collègues »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« De bons plats régionaux »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« un midi entre collègues »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« un midi entre collègues »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons passé une super soirée »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale que le restaurant est « très bruyant ».",
+      "Un avis rapporte plus d’une heure d’attente pour les plats à midi. Un autre juge la note élevée."
+    ],
+    "summary": "Estaminet proposant de bons plats régionaux, apprécié pour son accueil, son repas et son cadre. Les avis évoquent des repas sur place le midi et en soirée, notamment entre collègues ; certains signalent du bruit et une attente prolongée."
+  },
+  "meta": {
+    "cache_key": "644c0a513115fcd4463c4aa439058992e0f405042fa3558801425a512a461bc1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

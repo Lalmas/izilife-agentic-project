@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2018,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "La description indique un spectacle d’humour solo porté par Julie Conti.",
+      "La source ne mentionne pas explicitement un comedy club, un spectacle écrit et mis en scène, ni une autre forme justifiant la recatégorisation."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme stand-up n’est pas explicitement annoncée, mais la source ne prouve pas non plus une autre forme humoristique permettant de réparer le classement existant."
+      }
+    ]
+  }
+}

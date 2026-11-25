@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les données fournies ne permettent pas d'établir les plats, les régimes, les modalités de commande ou de paiement, l'accessibilité, l'ambiance, les équipements ni les publics adaptés. Les photos référencées ne sont pas décrites."
+    ],
+    "summary": "Buff'land est référencé comme restaurant avenue de la Boutillerie à Sequedin. Les horaires fournis indiquent une ouverture quotidienne de 11 h 45 à 14 h 30 et de 18 h 45 à 22 h 30."
+  },
+  "meta": {
+    "cache_key": "c03e81411e2007d90e8068bab8fefce5a68c988087329519edd2abed19a45bcc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

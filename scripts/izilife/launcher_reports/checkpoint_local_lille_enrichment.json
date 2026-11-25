@@ -1,0 +1,14 @@
+{
+  "completed": [
+    "enrichment"
+  ],
+  "runs": [
+    {
+      "stage": "enrichment",
+      "at": "2026-11-05T22:30:23.825117",
+      "returncode": 0,
+      "stdout": "START maintenance_content\nSTART google_hours\nSTART media_curation\nSTART intelligent_1_palais-des-beaux-arts\nSTART structured_content\nSTART promote_existing_covers\n{\"success\": true, \"completed\": [\"maintenance_content\", \"google_hours\", \"media_curation\", \"intelligent_1_palais-des-beaux-arts\", \"structured_content\", \"promote_existing_covers\"], \"checkpoint\": \"C:\\\\Users\\\\alcamara\\\\Documents\\\\agentic_Workspace\\\\scripts\\\\izilife\\\\places\\\\orchestrator_reports\\\\checkpoint_local_lille.json\"}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,851 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "EVENT_SERIE",
+    "data": {
+      "name": "Bière à Lille (BAL)",
+      "string_id": "biere-a-lille",
+      "description": "Festival de la bière et de la culture brassicole dans la métropole lilloise.",
+      "event_category_ref": "festival-culinaire",
+      "is_active": false
+    },
+    "sources": [
+      {
+        "url": "https://www.bierealille.com/",
+        "kind": "OFFICIAL"
+      }
+    ],
+    "media": [
+      {
+        "image_url": "https://static.wixstatic.com/media/d50600_29af4b5fa9c14442bc86e8d48944b16f~mv2.jpg/v1/fill/w_1029,h_1286,al_c/d50600_29af4b5fa9c14442bc86e8d48944b16f~mv2.jpg",
+        "title": "Bière à Lille 2026",
+        "is_principal": true
+      }
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "biere-a-lille-2026",
+      "relation": "ROOT_EDITION",
+      "data": {
+        "title": "Bière à Lille — édition 2026",
+        "event_string_id": "biere-a-lille-2026",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-02",
+        "start_hour": "00:00",
+        "end_date": "2026-11-08",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "source_url": "https://www.bierealille.com/le-programme",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://www.bierealille.com/le-programme",
+          "kind": "OFFICIAL_PROGRAM"
+        }
+      ],
+      "media": [
+        {
+          "image_url": "https://static.wixstatic.com/media/d50600_29af4b5fa9c14442bc86e8d48944b16f~mv2.jpg/v1/fill/w_1029,h_1286,al_c/d50600_29af4b5fa9c14442bc86e8d48944b16f~mv2.jpg",
+          "title": "Bière à Lille 2026",
+          "is_principal": true
+        }
+      ]
+    },
+    {
+      "client_ref": "02-geoguessr",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Soirée GéoGuessr des brasseries du BAL",
+        "event_string_id": "biere-a-lille-2026-02-geoguessr",
+        "short_description": "Soirée GéoGuessr sur le thème des brasseries du BAL.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-02",
+        "start_hour": "00:00",
+        "end_date": "2026-11-02",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Bar du Singe Savant",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-big-luck",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Quiz bière, dégustation et visite de brasserie",
+        "event_string_id": "biere-a-lille-2026-03-big-luck",
+        "short_description": "Quiz animé par un sommelier du jeu, dégustation de quatre galopins et visite de la brasserie.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "00:00",
+        "end_date": "2026-11-03",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Big Luck",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-musical",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Daddy Brew vs Brussel Beer Project",
+        "event_string_id": "biere-a-lille-2026-03-musical",
+        "short_description": "TTO, jeux d'échecs et rétro-gaming.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "00:00",
+        "end_date": "2026-11-03",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Musical",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-napoleon",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Escape Apéro avec Locked Box et Kasteel",
+        "event_string_id": "biere-a-lille-2026-03-napoleon",
+        "short_description": "Escape Apéro avec Locked Box et Kasteel.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "19:00",
+        "end_date": "2026-11-03",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Napoléon",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-capsule",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Lancement de la collaboration La Capsule × HOP[I]",
+        "event_string_id": "biere-a-lille-2026-03-capsule",
+        "short_description": "Lancement de la collaboration brassée pour le BAL.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "00:00",
+        "end_date": "2026-11-03",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Capsule",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-mousse-touch",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO filant Singe Savant et Fives Cail",
+        "event_string_id": "biere-a-lille-2026-03-mousse-touch",
+        "short_description": "Lancement d'un TTO proposé toute la semaine.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "19:00",
+        "end_date": "2026-11-03",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Mousse Touch'",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "03-enfants-terribles",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Portes ouvertes et dégustation Porridge Club",
+        "event_string_id": "biere-a-lille-2026-03-enfants-terribles",
+        "short_description": "Portes ouvertes de la brasserie avec visites et dégustation.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-03",
+        "start_hour": "12:00",
+        "end_date": "2026-11-03",
+        "end_hour": "21:00",
+        "city_ref": "lille",
+        "address": "Aux Enfants Terribles",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "04-sales-momes",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO avec la Brasserie Brewbaix",
+        "event_string_id": "biere-a-lille-2026-04-sales-momes",
+        "short_description": "Soirée TTO avec la Brasserie Brewbaix.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-04",
+        "start_hour": "18:00",
+        "end_date": "2026-11-04",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Les Sales Mômes",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "04-vandb",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Black Beer Night",
+        "event_string_id": "biere-a-lille-2026-04-vandb",
+        "short_description": "Découverte de bières noires avec forfait dégustation.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-04",
+        "start_hour": "00:00",
+        "end_date": "2026-11-04",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "V and B Villeneuve-d'Ascq",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "04-binouze-bikers",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Binouze Bikers spécial Art",
+        "event_string_id": "biere-a-lille-2026-04-binouze-bikers",
+        "short_description": "Balade à vélo sur inscription.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-04",
+        "start_hour": "19:00",
+        "end_date": "2026-11-04",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Place de la République",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "04-musical",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO 3:6:9 vs Spontanerie",
+        "event_string_id": "biere-a-lille-2026-04-musical",
+        "short_description": "TTO et DJ set hip-hop.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-04",
+        "start_hour": "00:00",
+        "end_date": "2026-11-04",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Musical",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "04-enfants-terribles",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Portes ouvertes et dégustation Porridge Club",
+        "event_string_id": "biere-a-lille-2026-04-enfants-terribles",
+        "short_description": "Portes ouvertes de la brasserie avec visites et dégustation.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-04",
+        "start_hour": "12:00",
+        "end_date": "2026-11-04",
+        "end_hour": "21:00",
+        "city_ref": "lille",
+        "address": "Aux Enfants Terribles",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-balade-gourmande",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "La BAL'ade gourmande",
+        "event_string_id": "biere-a-lille-2026-05-balade-gourmande",
+        "short_description": "Visite guidée avec un biérologue et plusieurs arrêts gourmands.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "00:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Métropole lilloise",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-hopi",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Cloudwater Brew Co et Beak Brewing",
+        "event_string_id": "biere-a-lille-2026-05-hopi",
+        "short_description": "TTO spécial Angleterre.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "19:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "HOP[I]",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-hoppiness",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO avec Messorem",
+        "event_string_id": "biere-a-lille-2026-05-hoppiness",
+        "short_description": "TTO avec la brasserie canadienne Messorem.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "19:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Hoppiness Craft Beer",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-bierbuik",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO avec la Brasserie Bellenaert",
+        "event_string_id": "biere-a-lille-2026-05-bierbuik",
+        "short_description": "TTO avec la Brasserie Bellenaert.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "18:30",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Bierbuik",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-vandb",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Juicy Battle",
+        "event_string_id": "biere-a-lille-2026-05-vandb",
+        "short_description": "Soirée consacrée aux bières houblonnées.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "00:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "V and B Villeneuve-d'Ascq",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-musical",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Fauve vs Outer Range",
+        "event_string_id": "biere-a-lille-2026-05-musical",
+        "short_description": "TTO et DJ set.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "00:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Musical",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-beerchope",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO avec Vault City",
+        "event_string_id": "biere-a-lille-2026-05-beerchope",
+        "short_description": "TTO avec Vault City.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "18:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Beerchope",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-capsule",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Triple TTO Levain, Art Is An Ale et 90 BPM",
+        "event_string_id": "biere-a-lille-2026-05-capsule",
+        "short_description": "Triple TTO.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "19:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Capsule",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-lovibond",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Esprit Libre et Monsieur Paon",
+        "event_string_id": "biere-a-lille-2026-05-lovibond",
+        "short_description": "TTO avec deux brasseries régionales.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "19:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Lovibond",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "05-palais-biere",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Bingo XXL avec 3 Monts",
+        "event_string_id": "biere-a-lille-2026-05-palais-biere",
+        "short_description": "Bingo XXL animé par Yeah Pa.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-05",
+        "start_hour": "00:00",
+        "end_date": "2026-11-05",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Palais de la Bière",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-sales-momes",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Accords mets-bières avec Jukebox",
+        "event_string_id": "biere-a-lille-2026-06-sales-momes",
+        "short_description": "Soirée d'accords mets-bières.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Les Sales Mômes",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-singe-savant",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO et cuisine vegan coréenne",
+        "event_string_id": "biere-a-lille-2026-06-singe-savant",
+        "short_description": "TTO avec Seoul Brewery et cuisine vegan d'inspiration coréenne.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Bar du Singe Savant",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-dame-jeanne",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO 90 BPM et Art Is An Ale",
+        "event_string_id": "biere-a-lille-2026-06-dame-jeanne",
+        "short_description": "TTO avec 90 BPM et Art Is An Ale.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Dame Jeanne",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-hopi",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Messorem, Popihn et Noctem",
+        "event_string_id": "biere-a-lille-2026-06-hopi",
+        "short_description": "TTO international.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "HOP[I]",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-vandb-madeleine",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Mont Hardi et Hoppy Road",
+        "event_string_id": "biere-a-lille-2026-06-vandb-madeleine",
+        "short_description": "TTO avec Mont Hardi et Hoppy Road.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "V and B La Madeleine",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-taverne-flamande",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Menu éphémère accords mets et bières",
+        "event_string_id": "biere-a-lille-2026-06-taverne-flamande",
+        "short_description": "Menu éphémère et Défi du Brasseur.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Taverne Flamande - La Table du Brasseur",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-distrot",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Brasserie Fusion et DJ set",
+        "event_string_id": "biere-a-lille-2026-06-distrot",
+        "short_description": "TTO avec la Brasserie Fusion et DJ set.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Distrot",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-grand-angle",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Au Baron et Brasserie Ardennaise de Haybes",
+        "event_string_id": "biere-a-lille-2026-06-grand-angle",
+        "short_description": "TTO et DJ set.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Grand Angle",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-vandb-vda",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "The Exclusives",
+        "event_string_id": "biere-a-lille-2026-06-vandb-vda",
+        "short_description": "Bières exclusives et présence des brasseurs.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "V and B Villeneuve-d'Ascq",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-3-brasseurs",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Lancement Harder Bitter Faster Stronger",
+        "event_string_id": "biere-a-lille-2026-06-3-brasseurs",
+        "short_description": "Lancement de la collaboration 3 Brasseurs × Échappée Bière.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "18:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "3 Brasseurs Lille Gare",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-fontenoy",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Brasserie Cambier",
+        "event_string_id": "biere-a-lille-2026-06-fontenoy",
+        "short_description": "TTO avec la Brasserie Cambier.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Fontenoy",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-beersquare",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Brasserie Octa",
+        "event_string_id": "biere-a-lille-2026-06-beersquare",
+        "short_description": "Dix bières à la pression.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "18:00",
+        "end_date": "2026-11-06",
+        "end_hour": "21:00",
+        "city_ref": "lille",
+        "address": "Le Beersquare",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-musical",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Fusion vs Prizm",
+        "event_string_id": "biere-a-lille-2026-06-musical",
+        "short_description": "TTO et DJ set Cover Me.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Musical",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-capsule",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Pohjala et Arpus",
+        "event_string_id": "biere-a-lille-2026-06-capsule",
+        "short_description": "TTO avec Pohjala et Arpus.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Capsule",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-paix-dieu",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Ouverture de la boutique éphémère Paix Dieu",
+        "event_string_id": "biere-a-lille-2026-06-paix-dieu",
+        "short_description": "Ouverture de la boutique éphémère et du bar Paix Dieu.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "11:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "30 place Louise Bettignies",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-sikaru",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "TTO Brasserie Sparkle",
+        "event_string_id": "biere-a-lille-2026-06-sikaru",
+        "short_description": "TTO et mise en perce de la collaboration Sparkle × Cambier.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "19:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Sikaru",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "06-la-barre",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Accords mets-bières Outer Range Alps",
+        "event_string_id": "biere-a-lille-2026-06-la-barre",
+        "short_description": "Soirée accords mets-bières.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-06",
+        "start_hour": "00:00",
+        "end_date": "2026-11-06",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Barre",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "07-mousse-touch",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Gros Burger Beer et quiz bière",
+        "event_string_id": "biere-a-lille-2026-07-mousse-touch",
+        "short_description": "Burger, quiz bière et lots.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-07",
+        "start_hour": "21:00",
+        "end_date": "2026-11-07",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Mousse Touch'",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "07-grand-bal",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Grand BAL — samedi",
+        "event_string_id": "biere-a-lille-2026-07-grand-bal",
+        "short_description": "Dégustations, rencontres avec plus de 70 brasseries, foodtrucks et animations.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-07",
+        "start_hour": "13:00",
+        "end_date": "2026-11-07",
+        "end_hour": "21:00",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "08-grand-bal",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Grand BAL — dimanche",
+        "event_string_id": "biere-a-lille-2026-08-grand-bal",
+        "short_description": "Dégustations, rencontres avec plus de 70 brasseries, foodtrucks et animations.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-08",
+        "start_hour": "11:00",
+        "end_date": "2026-11-08",
+        "end_hour": "19:00",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "08-after",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "After du Grand BAL",
+        "event_string_id": "biere-a-lille-2026-08-after",
+        "short_description": "Soirée after du Grand Final.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-08",
+        "start_hour": "00:00",
+        "end_date": "2026-11-08",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Bar du Singe Savant",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "08-open-mic",
+      "relation": "CHILD",
+      "parent_ref": "biere-a-lille-2026",
+      "data": {
+        "title": "Open mic de clôture du BAL",
+        "event_string_id": "biere-a-lille-2026-08-open-mic",
+        "short_description": "Open mic tous styles et tous niveaux.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-08",
+        "start_hour": "17:00",
+        "end_date": "2026-11-08",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "La Mousse Touch'",
+        "is_active": false
+      }
+    }
+  ]
+}

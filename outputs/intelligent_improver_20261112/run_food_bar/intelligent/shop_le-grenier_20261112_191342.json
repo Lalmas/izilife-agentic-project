@@ -1,0 +1,606 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:13:42",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-grenier",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-grenier",
+    "status": "found",
+    "data": {
+      "id": "5906",
+      "name": "LE GRENIER",
+      "shop_string_id": "le-grenier",
+      "unique_id": "d8a853652d01b60a2a5e46266a504328",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55278",
+      "principal_cover": "55278",
+      "qr_code": null,
+      "phone_number": "+33673157969",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "52 Rue de l'Industrie",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0515073",
+      "latitude": "50.5502142",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-12 18:45:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-12 18:45:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ6QHDknvTwkcRxYoFjwX1C-k",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ6QHDknvTwkcRxYoFjwX1C-k\",\"rating\":4.7,\"user_rating_count\":3242,\"google_maps_uri\":\"https://maps.google.com/?cid=16792785039804172997\",\"fetched_at\":\"2026-11-12T18:46:48+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T17:11:08+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Angélique Roger\",\"uri\":\"https://www.google.com/maps/contrib/108214974675246790172/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKX4E7h1QljTSQppRghyZpATGwW78O8i1tOzI6zzVSBcW4lEg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:43:57+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Anais CARRON\",\"uri\":\"https://www.google.com/maps/contrib/117373443111867793341/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL2eTM-qMSaKO1pQJnaC4PSBKNOZG7r48I0GUPZvlXwFYO8pw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T21:25:13+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Christophe Merlen\",\"uri\":\"https://www.google.com/maps/contrib/108053936327047487062/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUWvRdeZDwB_6X9wzuX2_fG-uPMJV68CQeCAQAY0_KhfPT1ZDOtiw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T20:02:31+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Mathieu Colbet\",\"uri\":\"https://www.google.com/maps/contrib/114136740160846991154/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKKbj2I0e0QN93ZoeVPYkGfBQoWClE6xteOQb706CP6MOvuvA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Excellent moment passé au Grenier.\\nServeurs très agréables, merci à l'équipe !\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T20:02:27+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Aurélie Dprt\",\"uri\":\"https://www.google.com/maps/contrib/110800948369870399219/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK31jrPUVgJzKkcIrkjQCAIDs2_KYR0KPZhWWfgfRZo3dUCUg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 18:46:48",
+      "google_reviews_place_id": "ChIJ6QHDknvTwkcRxYoFjwX1C-k",
+      "source_id": 5906,
+      "scope_type": "SHOP",
+      "scope_ref": "le-grenier",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "le-grenier"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55278",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5906_6af5fb22541e9.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4968",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34511",
+            "source_hourly_id": "4968",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34512",
+            "source_hourly_id": "4968",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34513",
+            "source_hourly_id": "4968",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34514",
+            "source_hourly_id": "4968",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34515",
+            "source_hourly_id": "4968",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "01:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34516",
+            "source_hourly_id": "4968",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "01:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "34517",
+            "source_hourly_id": "4968",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-grenier",
+      "google_place_id": "ChIJ6QHDknvTwkcRxYoFjwX1C-k",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 15:00, 18:30 – 00:00",
+          "mardi: 11:30 – 15:00, 18:30 – 00:00",
+          "mercredi: 11:30 – 15:00, 18:30 – 00:00",
+          "jeudi: 11:30 – 15:00, 17:00 – 00:00",
+          "vendredi: 11:30 – 15:00, 17:00 – 01:00",
+          "samedi: 11:30 – 01:00",
+          "dimanche: 11:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 1059,
+            "height": 1600,
+            "photo_reference": "AV-0GLfVHErwtF2nVpKz5oY3MbTaG1JGzzK_0vjrc3YOF2mvEWBzRCg5BTEG-V-JccXRA2Mvrbgaffb02XX_BlEd8mydNRfO2iaJMe24rpMvLaBPpmsXVho0IDLvc9Wf0aPGOFRV0W3zp8Fa3IN90ySqiGI0fSJk9Drx5uRk_0_KSXA3nnixgsAjZ0lcHYaq-qRPTBKb6cHtwhpqG83wk6jOadeT0yg5gerWITir-YeCvKC8z09HppbHvk_dDRNbv3Ycbn408HDHqUrvjuCWEDH1Z6-13hJtmDxIDRJ70zuwLcxizM5UMrVqOj7y9w-NcyJQ1POP69dv3LPNl7KByhjSKFaJE9DXHD0ypStKOh83dj0oVBL46i9SDP7Z74MOIHSvYttRjNlGZf2t4i6kTDvWz8ipxooopqwjepldOGqd7o3F",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102299332125043297337\">LE GRENIER</a>"
+            ]
+          },
+          {
+            "width": 1402,
+            "height": 1122,
+            "photo_reference": "AV-0GLdR7QWEPJIRp4O7PkBvrLdUe7vi7iuT6qAF0ojPqAMy-D0iL67MWg24cL4Qed373yqVWduAF_cxQpY6zg-Qc6bURLBSXKVsQt7zIKxPIvxS9qtWWchGaoiT54hsbCcAJYcYNvOIbgcIXtYIBWykMycgkLA-gwlP4IKy7Dz9r73o_8kW25HFBowVK6TwhGTAaEU3JDg0zWwHjYxFD_uDvSjB8meqy5lPE4CYhiQvnO4gAXoAOnKN36pYjsGkFk8NZWXKktSfryitX8r5OHsqylBZLm77puSMCLPV38K4_DujCurGT1rqFhdAxYaIFJ8EBIRIf9iuW9n5G_iWgnoIN-4RbY5rdsaAtKeo85OfbIWOKehm6yrWuylla3vEj5V61KRAnfkU-o8J1AA6N1ko6HlJiaIUiZa1saMrWRuWN1qBdw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102299332125043297337\">LE GRENIER</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1059,
+            "photo_reference": "AV-0GLe4mx0--kTgF_agLt37cvYqLqd21iqFz3lHqgfJoGnRG3tSaQDPRdmXQ7A9ctvSs1hlbg04MbgoG3cF5CQ8r28D6RJRlLG4Whq6iKIBS-NIJTvt3o0wQaQbTKgluMSmmqLmItyXJNXQKQ2-tKO-PPjxz4JJX19-pYXN9_gtYwquQASNVDoDV4dFG-q3FSDnu7nEEqrndx8b2yAVemiMZ-FWAS-PuE1CDhP11eIKignti2Px3acQLx1Ih44-FLo06jGzwZCZVV_eXBCQzX6Zr6GSkEKJGP_u50HT3HwtQW7VCCkKqq_WoNdIaST3Ntci4b6xK44A42X7sx4qf2J6kQqjbaOocGXmekilpwDSueWQUggWjS5asy1U21ZdGH-V6UQ5mmW6s6ZuJvqah083K5AhhyJbup0a00ARKWjC-c4g1w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102299332125043297337\">LE GRENIER</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLf_TedxDSsBZK3-R_bHUzAwmHEEaIfCJeeEjrUZ4qfb1GJW0J4ALA84tmtBu9Ds2z4IRIVAOz_n0eALnVvyFTgRdetGUy0vt24lR9tyUBTWhDLWtyWGd_pjCM_YJP1qJpla2KbuLOtG4hKNd0F8sNg51fTxfVNp0S0-1SQmvT2Gh1TBkMKOVjJtt3qX5vmKAdk7qdnZzCclsQmhFc3e8q-Z9G8a43_ABB2SRdeyiyb_dQRaZ0qXJuPXOsEs_SdfBNqEHx6TjnXXYF_k_hXH63WWG_zK16eLzVWQvWqrpgLnRe2O83rOWvwLHblmoKxygT7UN4KlsnWxUzBd-9pkGJZn9kfTCDXLtqtZYjWdLrpZ3_s1dffzNr471ER3YI8_HDm2ltenCcnN34B6RY1UlZvQjzhKBhj6q1Fp5tF9UXC0rA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113119653333611433765\">Pierre Michiels</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdmP1Ni_5BEG7Fa2jRgipzgTsHA5vhtVt6NS8xpO0skXqc3HwGc7DU0MPL7HbNFJZl0SkVCECabmxy8Q-s-qw53M-8OZDE73mwfsOT-qMK0tGO74HuAsu7BJGyjJ7zOgxhPS7EqZEa1e2QAnBIqYiKXQYaIqu37O3RNovOxXYYTAVeyx_iN0851YbQCbODDllZpgYBS_l1tvOMF7sayFqAGifuB1qhe60tRk0Pg1Cxtf4ZM6zmH-JJWZBwqbmr693emCUhl6JGZ_dLoXeltD_lACw2eFVZNAR8uXlG92jMM-UdGSyA162-ZGaAvQT-yDzbc3M2uWJcQdeWtFgv3eLJSTGX_2e8tzdoiO1nJSyO0u8JEyl42tMo62O6fiThlpO85ch1lLraJx-tQyXjCSaw_2kd3bBxRZlyCiwegI9HY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108538313293496424247\">Mickaël Lanzinger</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLemTH39cN47tKEuHEKkzd0ncF209O3YiwY7hFIBESOF9UsQHnPxtUP_pF1Dtyp1FxmBZL6To5Huj8G0OLhtjT2ss-UG1Lw_k4EvZjrCf_7MXYJekmixbFrqMTz1-cAWEijR8pu-c8Hz3gYAsm4xCTtpEzMXTviqK6xg02bzxzKeoGAsdmAcRf_chfxkhOFJmxH8I-yAB4EUs54kFihLhvOQ8e91b9fwYb1aDEQinF7GEWKpHgsPFIbXX7mnx3xjj043WFOM01b6rcIT-8APfOZoPdMMjHT9o4idn8pwXgFFhmCVK-i3LDBfd3SBnN5w2h_3TQC1NpUdpmkA6U8ZyJsC6JD39jALCXVL8cR3qyrK7A3wRpTAeN_m1ftSnXAQZ2ZWSL11vPSdryp1NOHAT02sEnki7HsiPitObq_RzQweOQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101570218029382421055\">Aurelie</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLdTvSOnEfpoNJTOVPqwizxGhVZTRhaxsRP0LNm8qb4SyNU1oE1oe6g13sdzzTwSb93a5PhWk5-V33DzRxPzTXLTesuVncSE29URynUM3FdvruG9_HZy0MG7UEVeacBa8JZ9WBrp98EpZ4w0pRQWymJPu4xnHDVFOgHSt19xExauXi-NXXwrMpKij1r7eLrp4iuzu2b7VdCmwfKFgaC7jLq1P-WHITRd1yXc85IJnOLEgVf816DQRKqE4uuAIj-miHuIu46CZzYFSZszoMNnw1S7UMgzfVMy-cyySoi4hCmyZ5SWihWtVUA5l9-wtAjOj9HKNL2xNq5KjjDD9y1ipTt6g0fJFl3iRBwj31BD3ejj7C9JxOYemgWEemEMX8P3CPqg41hJ6cVOmB4r-ccDUTFuoirj517JP4gd2sYTtyC4JQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105660879443572870036\">Anthony Coulier</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLfm843vCDjVoaebIguvbWyUaPd5kHieejf-5FsXD7GpzwZ5SLNjQJ7Nkr3wZRGg5QjPXaGqIVPtbVznklweHyvhu_ox00ZbH0QQfzsHCrc_b5HTYEFoMvdPbYL6b8x9pwXTnhNW1zlJwaErrP0sGXriasDHKUmQUU72U5ryRKbZ49SL1zsqT-B5uRlS4HtpuL3ji_kDaEWedNAO5n7yl0guQvO-yHRs7jSZI8rCg4xSaqSKBks7pN23ZZwkTJ3nEvjaTcZH2qYWygnp1u3paOwuRleBI-QG4gCMa_DXgWYYUAM49ZPEr9QWc5ysM5fH9dIoM3lsEKHuoVq-OKVr2qdTCRSu_c4r5RVvtzSjARTISpcvxBZ1Bi0Vwr00U0lyDkVQnCVIyOyLFOz-tV7zlOlnR1DUQN5SeyKsDzThluHeZw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101364250589463591608\">Coralie GHESQUIER</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1059,
+            "photo_reference": "AV-0GLcf2f6bx1UaTEflb9vSgBq1Ua8xpPVYAoj-bm96robwRvxTB5oo0g6iVDOTW97gy8_zZ2Cv9DUfEcrJOW1uRrd1gKJtr5krO9E7jSkXwxLvcwizwXOj2nvoRkwJBdWnCekYFk-R6Ry1PzFGjHWmuDv7SO43uJ56bLaO6xCrdKvotaRPwpLHVMfP_QeTJehGWJqs4agv0eTM7RwwS2JUQmoI4uwxzcv6MMifJGnHz0DM88B8tDZukUuCndbMPlJZbEzusi-YIIKgv8Gk6F3KfxtiyHWjZjaiGaeXZ-uBkstVC5-le0Djsl8dtNSWAhtGSyYqLyYGi4dO6n92T3xPG01ZsqJyIsnRPy_-IUWVuEuplx1Sd7ytFF0LxS5R0srk8Pebj3KSRx7sNN7LzMvogPPYmW4PoO2oMlFwTGQVVvd2AA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102299332125043297337\">LE GRENIER</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLddXAdNrqjN6p2lVS6W1I-BQItutl_-GZB1llWhpuqpmwRqXdwCgZ818TdhI1k6zMHnEW1Jvja_IOaJJvMbaSuCeBH8Dcx5AYcCkU2sjTb-HdQSBKhujGtAVDRHjWjRbIFVphVDDwhUyAtvhS4Y96MzPYTSC6yBfzhYAZBJ7Fx2HgNXLb385MxbinYwzkCIemp3g_hYTyiXsY9qb0MGb11oDtzan9MVmM0nsQt5aV74RKYylbSjpQ89SgPX4Ms5QF42ep72w9JXGTx4jagrWHdecUHnNQDHkmfbjC8UDD8DVU9bVuMCBGy-Qpag1wvXwWYozYx2_fjrAQnoeQ6Lz4FbXfGfLwDZvgWCWblR1mqIAYZyZxhKlm1kbKvclDCJAENgG3mrnfks4sFM7MoGf8ltsjjjHQ90m_KDuM7SLw_j0Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110818431534435814849\">Stéphane Garcia</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5906
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-12T17:11:08+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Angélique Roger",
+              "uri": "https://www.google.com/maps/contrib/108214974675246790172/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKX4E7h1QljTSQppRghyZpATGwW78O8i1tOzI6zzVSBcW4lEg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:43:57+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Anais CARRON",
+              "uri": "https://www.google.com/maps/contrib/117373443111867793341/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL2eTM-qMSaKO1pQJnaC4PSBKNOZG7r48I0GUPZvlXwFYO8pw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-11T21:25:13+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Christophe Merlen",
+              "uri": "https://www.google.com/maps/contrib/108053936327047487062/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUWvRdeZDwB_6X9wzuX2_fG-uPMJV68CQeCAQAY0_KhfPT1ZDOtiw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-11T20:02:31+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Mathieu Colbet",
+              "uri": "https://www.google.com/maps/contrib/114136740160846991154/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKKbj2I0e0QN93ZoeVPYkGfBQoWClE6xteOQb706CP6MOvuvA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellent moment passé au Grenier.\nServeurs très agréables, merci à l'équipe !",
+            "language_code": "",
+            "publish_time": "2026-11-11T20:02:27+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Aurélie Dprt",
+              "uri": "https://www.google.com/maps/contrib/110800948369870399219/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK31jrPUVgJzKkcIrkjQCAIDs2_KYR0KPZhWWfgfRZo3dUCUg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 18:46:48"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1040,
+        "bo": 2,
+        "front": 1038,
+        "estimated_cost_eur": 1
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 15:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 15:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas la cuisine, les plats, les options de vente à emporter, l’accessibilité, les équipements, les moyens de paiement ni les publics accueillis."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 00:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 00:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant LE GRENIER à Seclin, ouvert pour le déjeuner et le dîner selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-grenier",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5906,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "521590871d8a9b301f80431a4ffbce869971fc610ecc36615d644381b06c058c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

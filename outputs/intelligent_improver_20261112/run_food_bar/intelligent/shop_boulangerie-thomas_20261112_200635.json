@@ -1,0 +1,529 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:06:35",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-thomas",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-thomas",
+    "status": "found",
+    "data": {
+      "id": "5729",
+      "name": "Boulangerie Thomas",
+      "shop_string_id": "boulangerie-thomas",
+      "unique_id": "1f7d96528d2ce0d4e1cbaac778179860",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54987",
+      "principal_cover": "54987",
+      "qr_code": null,
+      "phone_number": "+33320902198",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "23 Rue Jean Baptiste Collette",
+      "additional_address": null,
+      "zip_code": "59551",
+      "city_id": "101",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0597398",
+      "latitude": "50.5216574",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:40:59",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:40:59",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJTVG9WLbTwkcRuzz-VrzmWeE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJTVG9WLbTwkcRuzz-VrzmWeE\",\"rating\":4.5,\"user_rating_count\":104,\"google_maps_uri\":\"https://maps.google.com/?cid=16238263628048776379\",\"fetched_at\":\"2026-11-12T20:06:05+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-29T10:17:53+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Bernard Destailleur\",\"uri\":\"https://www.google.com/maps/contrib/109840280125303568064/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLX8l6mLaU6PSCPxJ-Vct-XlNeuovAVphKPCb1oqlXA-NQiFQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-03T18:19:08+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Vicky Van\",\"uri\":\"https://www.google.com/maps/contrib/104167811844970400067/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ2a_pFCOyBoKbk5RsVZfanJlD45-iskvktRR5n1Li5sbRdTw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon produit et très bon accueil. Je recommande vivement\",\"language_code\":\"\",\"publish_time\":\"2026-09-10T08:58:37+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Stephane Lefebvre\",\"uri\":\"https://www.google.com/maps/contrib/109003794939718061776/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIYHwsD-pVoW9eSeAceSMQAFp6_1QKhQSjxwPq1Gerx875Meg=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-07-31T11:02:59+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Arkhêon\",\"uri\":\"https://www.google.com/maps/contrib/103160415695829636193/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXUV_SIvYb4kpISIoLaRCWMo0xZGRZ-N3Fycy_RIW4StChzaz8r=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-02-03T11:10:00+00:00\",\"relative_publish_time\":\"il y a 9 mois\",\"author\":{\"display_name\":\"Freddy Vanderomme\",\"uri\":\"https://www.google.com/maps/contrib/107212851479303588637/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK1bE6C2mTx2gGUTOahwoU33ahFxXTvsq1n5fWVu9XiO1ZOsQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:06:05",
+      "google_reviews_place_id": "ChIJTVG9WLbTwkcRuzz-VrzmWeE",
+      "source_id": 5729,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-thomas",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "attiches",
+      "string_id": "boulangerie-thomas"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54987",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5729_6af39d7be67b6.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4788",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33251",
+            "source_hourly_id": "4788",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33252",
+            "source_hourly_id": "4788",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33253",
+            "source_hourly_id": "4788",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33254",
+            "source_hourly_id": "4788",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33255",
+            "source_hourly_id": "4788",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33256",
+            "source_hourly_id": "4788",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33257",
+            "source_hourly_id": "4788",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-thomas",
+      "google_place_id": "ChIJTVG9WLbTwkcRuzz-VrzmWeE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:30 – 13:00, 15:00 – 19:00",
+          "mercredi: 06:30 – 13:00, 15:00 – 19:00",
+          "jeudi: 06:30 – 13:00, 15:00 – 19:00",
+          "vendredi: 06:30 – 13:00, 15:00 – 19:00",
+          "samedi: 07:00 – 13:00, 15:00 – 19:00",
+          "dimanche: 07:00 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLfOnYiSwlkn6siP-sX1GWlQgVB3ox9eRsECYOoI0SFpz8EM5nOjZyeO-tUhTTyAyxxZG7MrEn3FH3FQdtvtRSaV1NgmyORZjN68TU8zvLcz9AFVo0kMB3ws4Ne0UZt_R4-vE5B5sXzlq-5x1nrNLTdClKDCrwJMUd5N5JyLxj6UxbyjiIUWGRY2Onep3GyXUHokpMupx5FO1jkNENRI6XdL0WeNrlVATY_D9NwdR8pdZzB4tqpAbNw8LnUnK5UbpLCih-K1epREGyHvAOT8f0OMDNkUiz5NMs3i-2CmG1Z2IB4BDMEt_FeNHPQDDnfHTLJ6vFZ46-mCgMHtgF4nZmIbylAtTEWFK7PxG9MNPxuVu8qDeX0tmgpDLwAO7hQ5AT2OnQypz6_QpOjFpmmjh3CQjc0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101423442299423913393\">Isabelle LEVEQUE MARCHANT</a>"
+            ]
+          },
+          {
+            "width": 3968,
+            "height": 2976,
+            "photo_reference": "AV-0GLe83dUtDEg402KdYmu54NYRbZacLVf2YHssOrJaPD3Xl81j0wTJN6qxTnSFCWpPI8i_46E19x1UT9fXnvPMTZdvgX1xe5mDlRX4Q2ABlEuxfQ2rh-ILe6LiU9IaUBRr0XW64_ToRw3ZHlMDObn2HfYIGN-ERdv5oUoQAkWX6NCtrZJmzsiHNzA98k37foJ9qYWLINk4fgZsOTSWpgAJQd5zZUDbi01mk8qWx30TGy1IDHJ6nkE18JqsbrcLF-ubMAchnORfqmK9yYUTZKECPwmClKNRUd_b0Qsaev35GTOcSyblUf6qhSnoXx99RzQI5fSJiw8tFe8NmumvBKmIi1YdLoNmryW1aesNGPCDx5shLsri4ZZJsVPletpQej_2DGXOMx5KKTuZ3FaafZ21yq3h7Pk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106216811162733562546\">T X</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5729
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-29T10:17:53+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Bernard Destailleur",
+              "uri": "https://www.google.com/maps/contrib/109840280125303568064/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLX8l6mLaU6PSCPxJ-Vct-XlNeuovAVphKPCb1oqlXA-NQiFQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-03T18:19:08+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Vicky Van",
+              "uri": "https://www.google.com/maps/contrib/104167811844970400067/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ2a_pFCOyBoKbk5RsVZfanJlD45-iskvktRR5n1Li5sbRdTw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon produit et très bon accueil. Je recommande vivement",
+            "language_code": "",
+            "publish_time": "2026-09-10T08:58:37+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Stephane Lefebvre",
+              "uri": "https://www.google.com/maps/contrib/109003794939718061776/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIYHwsD-pVoW9eSeAceSMQAFp6_1QKhQSjxwPq1Gerx875Meg=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-07-31T11:02:59+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Arkhêon",
+              "uri": "https://www.google.com/maps/contrib/103160415695829636193/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXUV_SIvYb4kpISIoLaRCWMo0xZGRZ-N3Fycy_RIW4StChzaz8r=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-02-03T11:10:00+00:00",
+            "relative_publish_time": "il y a 9 mois",
+            "author": {
+              "display_name": "Freddy Vanderomme",
+              "uri": "https://www.google.com/maps/contrib/107212851479303588637/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK1bE6C2mTx2gGUTOahwoU33ahFxXTvsq1n5fWVu9XiO1ZOsQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 104
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1197,
+        "bo": 159,
+        "front": 1038,
+        "estimated_cost_eur": 4.925
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 13:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 07:00 – 12:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "apres-midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 15:00 – 19:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie Thomas, située au 23 Rue Jean Baptiste Collette à Attiches. Les horaires indiquent une ouverture le matin, à midi et l’après-midi du mardi au dimanche. Un avis mentionne de « très bons produits » et un « très bon accueil »."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-thomas",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ],
+      "VisitMoment": [
+        "matin",
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5729,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "06726177eb272674b84b19847a4c01f4938b4b950d257fc734119dce3e5b4624",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

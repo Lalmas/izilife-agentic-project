@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3285,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.84,
+    "evidence": [
+      "La description annonce une revue humoristique centrée sur l’actualité et la presse.",
+      "La représentation est portée par un artiste nommé seul, mais aucun plateau ou format de comedy club n’est indiqué.",
+      "Le titre et la description ne précisent pas explicitement un spectacle écrit et mis en scène, ni la forme du stand-up."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le caractère solo est clair, mais les informations fournies ne suffisent pas à établir explicitement la forme du one-man-show."
+      }
+    ]
+  }
+}

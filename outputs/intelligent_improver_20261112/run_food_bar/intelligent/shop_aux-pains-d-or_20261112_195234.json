@@ -1,0 +1,533 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:52:34",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "aux-pains-d-or",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "aux-pains-d-or",
+    "status": "found",
+    "data": {
+      "id": "5674",
+      "name": "Aux Pains D'or",
+      "shop_string_id": "aux-pains-d-or",
+      "unique_id": "e58f8fb9e04400cbd7390f08fc5e9386",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54933",
+      "principal_cover": "54933",
+      "qr_code": null,
+      "phone_number": "+33374467863",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "4 Place du Gén de Gaulle",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.008378",
+      "latitude": "50.6065106",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:34:34",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:34:34",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJJYlZcevVwkcRpuUmPp4_NPE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJJYlZcevVwkcRpuUmPp4_NPE\",\"rating\":4.5,\"user_rating_count\":28,\"google_maps_uri\":\"https://maps.google.com/?cid=17380586810809705894\",\"fetched_at\":\"2026-11-12T19:52:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Superbe boulangerie. Je recommande.\",\"language_code\":\"\",\"publish_time\":\"2026-10-06T17:13:03+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"tonneau virginie\",\"uri\":\"https://www.google.com/maps/contrib/116287184535062564800/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJKUFAlIm5wE1MmZ_tJ7hNFgrxNRCiVdajRdbLS2gg3thJSmw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-11T16:17:46+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Magali Morland\",\"uri\":\"https://www.google.com/maps/contrib/106350239175137115663/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLmkbjm-kfwk_ZZGCiL9VIZQ0h81mGVLsTZxYritCwTUufcEpJY=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-30T07:52:00+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Fouad Houamria\",\"uri\":\"https://www.google.com/maps/contrib/110289296757387002003/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWBjw_l7HAVatlIQsEuVcdB_Oa6zGfEKf5I2WRDZ8vhhI0QPQU_=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J'aime trop sète boulangerie le pain excellent  est ils y a beaucoup de bonbons et de pâtisserie excellent\",\"language_code\":\"\",\"publish_time\":\"2026-06-23T16:20:07+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Amel Rg\",\"uri\":\"https://www.google.com/maps/contrib/110751145432682199645/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUH-Hvs-HXdbc2sLrO3tI9ADOwsDHCDjUuHh_HopK2E_AIWbUc=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-06-29T13:20:55+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"أ 76\",\"uri\":\"https://www.google.com/maps/contrib/116469450002278831470/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWqDDQWNzGY0CBYoy1bLtjIRz4dCZr98xnnCikAD_Sg30HjqChQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:52:25",
+      "google_reviews_place_id": "ChIJJYlZcevVwkcRpuUmPp4_NPE",
+      "source_id": 5674,
+      "scope_type": "SHOP",
+      "scope_ref": "aux-pains-d-or",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "aux-pains-d-or"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54933",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5674_6af39bfa795d1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4734",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32873",
+            "source_hourly_id": "4734",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32874",
+            "source_hourly_id": "4734",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32875",
+            "source_hourly_id": "4734",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32876",
+            "source_hourly_id": "4734",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32877",
+            "source_hourly_id": "4734",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32878",
+            "source_hourly_id": "4734",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32879",
+            "source_hourly_id": "4734",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "aux-pains-d-or",
+      "google_place_id": "ChIJJYlZcevVwkcRpuUmPp4_NPE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 18:30",
+          "mardi: 06:30 – 18:30",
+          "mercredi: 06:30 – 18:30",
+          "jeudi: 06:30 – 18:30",
+          "vendredi: 06:30 – 18:30",
+          "samedi: 07:30 – 14:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdpHRc5W0c8q5XbuvYERydDzY9Q5Y0SEIv4Dy9AtySSSmshTdxYuPZW61t2GcvyXq29cdBI7lynsPBYUM4XnLsf62gnvfPX5ffJi3ytZHbvJFEmO3BE4iFjMUTA17024nrI1OMXA2Xw7rst8YsCHcFNFDmLhLNzIZQ8z6L2yJF7aYiru3H49u0Gu-FzQxodscwFCGAMoxTj1rN0jbSHgiu_NNW07P6mk_Lt1hBPOFchfluLVFEq_gfjbhJGF0rLrvL1WfmrZ2McOvd17r1pXGZmZ9NNqopyeB-CEzpsLe3-d2TpH4L2kjtD3G5GHtBnJSh_8SOT_lfXrrgCVyEOcjQGpbuLCdOIPzlikwqAoJsD-M81NKW-2HZW-4-2USXF5uOzl42i-0M7vnqS-moxBHmnm4E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113266840469654015257\">Kam Dulourd</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfUc8eVgqH5Wp0bGrAXgtapXM119uzIUXP3nY4qWs1dnVD0BF81xC1FLqRYs2OQNfZGAUeU5WwsPms_ENkycEaaPwiyyo04twiWnhizItILdJGOki9mow4wR3Q9XW0mfVtH5gs9UJhiWLknS5S_V5NNDSLpW9-Bgq-t-H_dCc9rO_MxrvWWDoUU_K-K9ZvEvTMT7y39cL1E2nwf2rQdHgfe0j7_bpMJIsI5QiYjgTAhS0e05QhFBjbEpMDBbl-hRAOSp0pkciEUinPD3KyoU2ANWnbn7d1l70rchVoWVc2XIdvmYv9_pXJdReBNf2BFRbIkza74DTEFTfAQgRJM35RCBjxReIx07IKRr1PPUta5XaEJkJKOmzrylSqUCzUaZNJDzPk0BwTOGU6QrFsQETFhISIs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113266840469654015257\">Kam Dulourd</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdsr5rtK3WXSAyCiJPkHmMzU2QwlqkyeWsL1QoFKip7Mp7UcsMBPSbuGxlNNV8t9bWP5sXPOSppJLdG1fxF0AeGuETn2ezZ6YTylM7N0hknoxhLm2SsMc6tJDd1tRyIZEPd8tfCVu6o60h-i_P4UaD90A5nLOJwdmeEaqLchWqY2_eeRK02YNtDqGw1f8B3OwBmZ0yN4r64Edjg5y_HYXXEuHg_vBEcaqD_zVJ4IddD3UbA24BMRg0LJd7Jcd-iwNDfYkCJDmY9PXDNyNuTE6mSNiDduug5T7QolkLSbielNB_ydi1ksQuOAiVYodsYyO1z9t8QNiYa-TSYyCWUpZrz5QbA6mTnTdGebmdrchFgd3L1YAKecTvGxwogSTWakVnl_gE9-tUFkU9ZUvq3v2d_EwHbAgM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113266840469654015257\">Kam Dulourd</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLeZe9rJxbiLCdgZWWNEvprMLiLzFc0rmf489FW7xOFOx_4E-KqunhJIIiK4j8r3RNeTs1Y9XG5aPTtl5JMkhY7_o34DNNcTwXAqk7CGAg6xqfhB0Kv6TO8LCgZ61Z_Us9lVeUAVNljX_Nrs2UZP6tDTOA03NyRZnAUfC5z-aaasseb8k3fHrZ56qUbln3fTUMNYba4ySY4X8Qs2aNDngX3SAlE8l9XjQe_xpefM7n6Je1E7fH0R9_fSmoeicbt34vgP-ptuV0hErpr1AuXlbIE57C_DqitccmYFFOlXmsJgosO51R7RQKjy4UoGIlvQd3E6fc4-xkkJYoYPYVxVhOV8DX24WcJz3rTlFi6a6l9MdRvw100ZVrMC9ijLOo9myM-5gRd2SRezLSa77zOSAOtcpVQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100497142262371065449\">anand utsav Kapoor</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdEeO75vfNvLLDj28v0qy4EdM7q8pb42lXiV9AdgjbnHG6o-TEQENs26EOvA0X7D9v7qLy2KLHuwDnA6ETGRoN2x1MlztZ6RBaD5gzTveFw0YpQj4_ir0HnX0b5PD2P_zKsISYnbfb3-araoQhq8MXVdYRUwfzVLFWes64UEiIV7GE2enATeaU00qqocQAInIVb2xW-loRyGg1G0T7i_Ny6HIAvRmIFtI-0Ic73b1B2qeekYcTOJaF75n1t44wHDiCegDV4WH-Vd_hMWT6uAJcVt8LlQY5GxGDPAQcR6c-kbseT-UFsY329P1BjM9nn9CdvBwCIMGQZRn373Y0rslyOAgJlA8ZbN1Ls33wvsI0uj-uNMf53jkCPuyoAPUce9Kyv5Ib_KltEuQelg6UCv8gefAk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113266840469654015257\">Kam Dulourd</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5674
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Superbe boulangerie. Je recommande.",
+            "language_code": "",
+            "publish_time": "2026-10-06T17:13:03+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "tonneau virginie",
+              "uri": "https://www.google.com/maps/contrib/116287184535062564800/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJKUFAlIm5wE1MmZ_tJ7hNFgrxNRCiVdajRdbLS2gg3thJSmw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-11T16:17:46+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Magali Morland",
+              "uri": "https://www.google.com/maps/contrib/106350239175137115663/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLmkbjm-kfwk_ZZGCiL9VIZQ0h81mGVLsTZxYritCwTUufcEpJY=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-30T07:52:00+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Fouad Houamria",
+              "uri": "https://www.google.com/maps/contrib/110289296757387002003/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWBjw_l7HAVatlIQsEuVcdB_Oa6zGfEKf5I2WRDZ8vhhI0QPQU_=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'aime trop sète boulangerie le pain excellent  est ils y a beaucoup de bonbons et de pâtisserie excellent",
+            "language_code": "",
+            "publish_time": "2026-06-23T16:20:07+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Amel Rg",
+              "uri": "https://www.google.com/maps/contrib/110751145432682199645/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUH-Hvs-HXdbc2sLrO3tI9ADOwsDHCDjUuHh_HopK2E_AIWbUc=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-06-29T13:20:55+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "أ 76",
+              "uri": "https://www.google.com/maps/contrib/116469450002278831470/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWqDDQWNzGY0CBYoy1bLtjIRz4dCZr98xnnCikAD_Sg30HjqChQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 28
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1157,
+        "bo": 119,
+        "front": 1038,
+        "estimated_cost_eur": 3.925
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« beaucoup de bonbons et de pâtisserie excellent »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas la consommation sur place, les options à emporter, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie à Loos proposant du pain et des pâtisseries, salués dans un avis client. Les autres services et caractéristiques ne sont pas documentés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "aux-pains-d-or",
+    "operation": "ADD",
+    "tags": [
+      "excellents-patisseries"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5674,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "46ca8fd944291f2df0ae24d682c15bce0224bb31b0b328b53d497d1c1249e7ae",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

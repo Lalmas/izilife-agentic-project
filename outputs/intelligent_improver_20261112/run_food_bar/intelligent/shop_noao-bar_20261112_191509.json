@@ -1,0 +1,939 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:15:09",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "noao-bar",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "noao-bar",
+    "status": "found",
+    "data": {
+      "id": "98",
+      "name": "Noao Bar",
+      "shop_string_id": "noao-bar",
+      "unique_id": "05f5bc66082885794df79b20c5c5fbe1",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "3",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": "7",
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Le Noao Bar propose une large gamme de cocktails classiques ou revisités : Old Fashioned, Bloody Mary, Pina Colada, Expresso Martini, Basil Smash, Manhattan… Et nous déclinons une offre variée et originale de Spritz, de Negroni et de Gin Tonic.\r\n\r\n<b>2 Salles</b>\r\n- Le bar du haut est un bar d’envoi, à l’atmosphère propice aux afterworks.\r\n- Le Basement Bar au sous-sol est un endroit unique à Lille pour des les soirées à thèmes, idéal pour les privatisations d’entreprises, les particuliers ou les thèses de médecine.\r\n\r\n<b>Tapas Faits maison</b>\r\nLe Noao vous propose une gamme de Tapas maison, à partager entre amis.\r\nNotre carte privilégie les produits frais et varie au fil des saisons.\r\nElle propose systématiquement des produits végé, du poisson, de la viande, du fromage…\r\n\r\n<b>Une terrasse unique à Lille</b>\r\nDès les premiers beaux jours, profitez de notre terrasse, en réservant votre table.\r\nEn plein cœur du vieux Lille, c’est l’endroit idéal pour passer un super moment entre amis ou entre collègues.\r\n",
+      "ai_description": null,
+      "principal_picture": "12283",
+      "principal_cover": "398",
+      "qr_code": null,
+      "phone_number": "+33669901973",
+      "url_website": "http://noao-bar.fr/",
+      "url_facebook": "https://www.facebook.com/Noaobar",
+      "url_instagram": "https://www.instagram.com/noaobarlille",
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": "contact@noao-bar.fr",
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "1",
+      "toilets_accessibility": "2",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": "2",
+      "basic_price": "0",
+      "basic_price_currency": "2",
+      "shop_access_type": "1",
+      "shop_booking_needed_for_access": "4",
+      "access_text": "",
+      "access_link": null,
+      "address": "30 Rue de Weppes",
+      "additional_address": null,
+      "zip_code": null,
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0592949",
+      "latitude": "50.6389788",
+      "shop_location_frame": "1",
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2024-10-08 13:46:19",
+      "updated": "2025-03-24 14:29:48",
+      "history": null,
+      "shop_hourly_text": "",
+      "shop_building_type": "1",
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2024-10-08 13:46:19",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": null,
+      "google_place_id": "ChIJm2TodJDVwkcR6H-Ob4ibtLM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJm2TodJDVwkcR6H-Ob4ibtLM\",\"rating\":4.5,\"user_rating_count\":631,\"google_maps_uri\":\"https://maps.google.com/?cid=12949145838886485992\",\"fetched_at\":\"2026-11-11T22:11:46+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"J'ai organisé mon anniversaire au Noao, en privatisant la cave, nous étions une petite quarantaine. Je suis très heureuse de ma soirée !\\nLa cave est très belle et cozy avec trois \\\"espaces\\\" possibles, le Noao est super bien situé dans le vieux Lille dans un petit passage tranquille et joli.\\nMathias m'a aidé à organiser ma soirée en étant à la fois à l'écoute et en m'aidant à prendre des décisions de par son expérience.\\nJ'ai commandé un dîner buffatoire sur place, j'ai pu passer ma propre musique, ajouté ma déco, nous avions un bar et barman dédié... Tout le personnel à qui nous avons eu affaire était aux petits soins et très sympa... Par-fait ! :)\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T07:12:19+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Félicie LEURENT\",\"uri\":\"https://www.google.com/maps/contrib/102863981156349872167/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUU7q4Jmp6X-aGGNUEkcHEw_DALDJLru5sWuJKS2_Vd8ExeiCQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J'ai passé mon pot de thèse au Noao et je recommande vraiment cet endroit !\\nLa nourriture est très bonne, les équipes sont au top et l'ambiance est incroyable, j'ai passé un moment inoubliable. Foncez, vous n'allez pas le regretter !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T11:18:44+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Laurine C.\",\"uri\":\"https://www.google.com/maps/contrib/102297012047667512514/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJAHSlACg1zVavvQZBUYZeB5Ldwvr95H1k7ASzbiiCtwS3vTg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Bar réservé pour un pot de thèse : Organisation au top en amont, Mathias a été très arrangeant et flexible.\\nL'équipe a été géniale tout au long de la soirée.\\nUn grand merci à tous, je recommande !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T10:21:43+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Nelly SOR\",\"uri\":\"https://www.google.com/maps/contrib/108836140690944174940/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ7edkkeht4YmCuZMxbwfN6ekygzriY_s_h_2h1kLJdMyIA6w=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Pour une soirée organisée sans pression, ce bar est parfait. Un grand merci à Mathias et à toute l’équipe pour la prestation, les sourires et l’ambiance. Pour sûr, nous y reviendrons et confierons de nouveau l’orga de nos soirées !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T09:20:05+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Max\",\"uri\":\"https://www.google.com/maps/contrib/110942442683263991532/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ3nHN2dC1PbfFqyBRRno0Ic6Nl2Wgdys_ah34Zc4WHURHigA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Nous sommes venus pour un pot de thèse. Les échanges pour organiser la soirée en amont étaient très fluides, et la soirée sur place s'est très bien déroulée ! Je recommande :)\",\"language_code\":\"\",\"publish_time\":\"2026-11-04T15:51:02+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"July Adams Mayhew\",\"uri\":\"https://www.google.com/maps/contrib/115196167413166593990/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU_Sd5ml-LrvFdQBEsvvF-rTlnWambbtbzHDyb3-5mpjdSxC9mJ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 22:11:46",
+      "google_reviews_place_id": "ChIJm2TodJDVwkcR6H-Ob4ibtLM",
+      "source_id": 98,
+      "scope_type": "SHOP",
+      "scope_ref": "noao-bar",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "noao-bar"
+    },
+    "counts": {
+      "media": 11,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 2,
+      "characteristics": 5,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "398",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_67330d1de4d9f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12281",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511d946083.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12282",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511d9bc021.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12283",
+            "title": "Couverture",
+            "description": "",
+            "integration_path": "sh_m_98_673511da4b782.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12284",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511dae9da2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12285",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511db673bf.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12286",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511dbe427c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12287",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511dc6862f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12288",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511dcd2919.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "12289",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_98_673511de5848c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 11,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [
+        {
+          "reference": "chaleureux"
+        },
+        {
+          "reference": "decontracte"
+        }
+      ],
+      "characteristics": [
+        {
+          "reference": "coin-cache"
+        },
+        {
+          "reference": "excellents-cocktails"
+        },
+        {
+          "reference": "exterieur-agreable"
+        },
+        {
+          "reference": "grand-choix-de-vins"
+        },
+        {
+          "reference": "terasse-agreable"
+        }
+      ],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "852",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "5958",
+            "source_hourly_id": "852",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5959",
+            "source_hourly_id": "852",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "5960",
+            "source_hourly_id": "852",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "5961",
+            "source_hourly_id": "852",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "02:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "5962",
+            "source_hourly_id": "852",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "02:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "5963",
+            "source_hourly_id": "852",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "02:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "5964",
+            "source_hourly_id": "852",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": null,
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "noao-bar",
+      "google_place_id": "ChIJm2TodJDVwkcR6H-Ob4ibtLM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [],
+        "has_google_json": false
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "cache_missing"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": true
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'ai organisé mon anniversaire au Noao, en privatisant la cave, nous étions une petite quarantaine. Je suis très heureuse de ma soirée !\nLa cave est très belle et cozy avec trois \"espaces\" possibles, le Noao est super bien situé dans le vieux Lille dans un petit passage tranquille et joli.\nMathias m'a aidé à organiser ma soirée en étant à la fois à l'écoute et en m'aidant à prendre des décisions de par son expérience.\nJ'ai commandé un dîner buffatoire sur place, j'ai pu passer ma propre musique, ajouté ma déco, nous avions un bar et barman dédié... Tout le personnel à qui nous avons eu affaire était aux petits soins et très sympa... Par-fait ! :)",
+            "language_code": "",
+            "publish_time": "2026-11-11T07:12:19+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Félicie LEURENT",
+              "uri": "https://www.google.com/maps/contrib/102863981156349872167/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUU7q4Jmp6X-aGGNUEkcHEw_DALDJLru5sWuJKS2_Vd8ExeiCQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'ai passé mon pot de thèse au Noao et je recommande vraiment cet endroit !\nLa nourriture est très bonne, les équipes sont au top et l'ambiance est incroyable, j'ai passé un moment inoubliable. Foncez, vous n'allez pas le regretter !",
+            "language_code": "",
+            "publish_time": "2026-11-06T11:18:44+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Laurine C.",
+              "uri": "https://www.google.com/maps/contrib/102297012047667512514/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJAHSlACg1zVavvQZBUYZeB5Ldwvr95H1k7ASzbiiCtwS3vTg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Bar réservé pour un pot de thèse : Organisation au top en amont, Mathias a été très arrangeant et flexible.\nL'équipe a été géniale tout au long de la soirée.\nUn grand merci à tous, je recommande !",
+            "language_code": "",
+            "publish_time": "2026-11-06T10:21:43+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Nelly SOR",
+              "uri": "https://www.google.com/maps/contrib/108836140690944174940/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ7edkkeht4YmCuZMxbwfN6ekygzriY_s_h_2h1kLJdMyIA6w=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Pour une soirée organisée sans pression, ce bar est parfait. Un grand merci à Mathias et à toute l’équipe pour la prestation, les sourires et l’ambiance. Pour sûr, nous y reviendrons et confierons de nouveau l’orga de nos soirées !",
+            "language_code": "",
+            "publish_time": "2026-11-06T09:20:05+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Max",
+              "uri": "https://www.google.com/maps/contrib/110942442683263991532/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ3nHN2dC1PbfFqyBRRno0Ic6Nl2Wgdys_ah34Zc4WHURHigA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Nous sommes venus pour un pot de thèse. Les échanges pour organiser la soirée en amont étaient très fluides, et la soirée sur place s'est très bien déroulée ! Je recommande :)",
+            "language_code": "",
+            "publish_time": "2026-11-04T15:51:02+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "July Adams Mayhew",
+              "uri": "https://www.google.com/maps/contrib/115196167413166593990/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU_Sd5ml-LrvFdQBEsvvF-rTlnWambbtbzHDyb3-5mpjdSxC9mJ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 22:11:46"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1041,
+        "bo": 3,
+        "front": 1038,
+        "estimated_cost_eur": 1.025
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "large gamme de cocktails classiques ou revisités"
+      },
+      {
+        "string_id": "bien-pour-afterwork",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "atmosphère propice aux afterworks"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "nous étions une petite quarantaine"
+      },
+      {
+        "string_id": "bien-par-beau-temps",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Dès les premiers beaux jours, profitez de notre terrasse"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Tapas maison, à partager entre amis"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "privatisant la cave, nous étions une petite quarantaine"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "dîner buffatoire sur place"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Old Fashioned, Bloody Mary, Pina Colada"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "offre variée et originale de Spritz, de Negroni et de Gin Tonic"
+      },
+      {
+        "field": "sell_tapas",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Le Noao vous propose une gamme de Tapas maison"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Une terrasse unique à Lille"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "j'ai pu passer ma propre musique"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "La cave est très belle et cozy"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Tapas maison, à partager entre amis"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "J'ai commandé un dîner buffatoire sur place"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "tapas",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "une gamme de Tapas maison"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "old-fashioned",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Old Fashioned"
+        },
+        {
+          "string_id": "bloody-mary",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Bloody Mary"
+        },
+        {
+          "string_id": "pina-colada",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Pina Colada"
+        },
+        {
+          "string_id": "espresso-martini",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Expresso Martini"
+        },
+        {
+          "string_id": "basil-smash",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Basil Smash"
+        },
+        {
+          "string_id": "manhattan",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Manhattan"
+        },
+        {
+          "string_id": "negroni",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Negroni"
+        },
+        {
+          "string_id": "spritz",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "offre variée et originale de Spritz"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "apero",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Tapas maison, à partager entre amis"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "large gamme de cocktails classiques ou revisités"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "atmosphère propice aux afterworks"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "soirées à thèmes"
+        }
+      ],
+      "VisitWeather": [
+        {
+          "string_id": "ensoleille",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Dès les premiers beaux jours, profitez de notre terrasse"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "afterwork",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "atmosphère propice aux afterworks"
+        },
+        {
+          "string_id": "verre-entre-amis",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "l’endroit idéal pour passer un super moment entre amis"
+        },
+        {
+          "string_id": "team-building-seminaire",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "idéal pour les privatisations d’entreprises"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "coin-cache",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "characteristic: coin-cache"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "exterieur-agreable",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "characteristic: exterieur-agreable"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "terasse-agreable",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "characteristic: terasse-agreable"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "dîner buffatoire sur place"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambience: chaleureux"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "decontracte",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambience: decontracte"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bar à cocktails avec tapas maison à partager, terrasse agréable et espaces privatisables, adapté aux afterworks et aux soirées de groupe."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "noao-bar",
+    "operation": "ADD",
+    "tags": [
+      "excellents-cocktails",
+      "bien-pour-afterwork",
+      "bien-pour-groupe",
+      "bien-par-beau-temps",
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {
+      "adapted_to_groups": 1,
+      "can_eat_here": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "sell_tapas": 1,
+      "have_terrace": 1,
+      "play_music": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "cosy"
+      ],
+      "MealType": [
+        "aperitif",
+        "diner"
+      ],
+      "KnowedMeal": [
+        "tapas"
+      ],
+      "KnowedDrink": [
+        "old-fashioned",
+        "bloody-mary",
+        "pina-colada",
+        "espresso-martini",
+        "basil-smash",
+        "manhattan",
+        "negroni",
+        "spritz"
+      ],
+      "Hobby": [
+        "apero",
+        "boire"
+      ],
+      "VisitMoment": [
+        "debut-de-soiree",
+        "soiree"
+      ],
+      "VisitWeather": [
+        "ensoleille"
+      ],
+      "Occasion": [
+        "afterwork",
+        "verre-entre-amis",
+        "team-building-seminaire"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 98,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopKnowedDrink:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopVisitWeather:+",
+      "ShopOccasions:+",
+      "ShopOccasions:+",
+      "ShopOccasions:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "3d1bc8d0c614b2eab627ac696b3ba811fe23b7fb5f9afc8aadc6cefe92abdd35",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

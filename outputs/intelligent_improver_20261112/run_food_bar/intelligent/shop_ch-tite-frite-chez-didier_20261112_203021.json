@@ -1,0 +1,529 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:21",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "ch-tite-frite-chez-didier",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "ch-tite-frite-chez-didier",
+    "status": "found",
+    "data": {
+      "id": "5842",
+      "name": "Ch'tite Frite chez Didier",
+      "shop_string_id": "ch-tite-frite-chez-didier",
+      "unique_id": "c55d11ede1bc86bec36f30445c00887a",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55097",
+      "principal_cover": "55097",
+      "qr_code": null,
+      "phone_number": "+33607044148",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Rue du Général Koenig",
+      "additional_address": null,
+      "zip_code": "59136",
+      "city_id": "94",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9212543",
+      "latitude": "50.5538118",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:59:08",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:59:08",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJo_Z8AYot3UcRbVxdWbwt7Ss",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5842,
+      "scope_type": "SHOP",
+      "scope_ref": "ch-tite-frite-chez-didier",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wavrin",
+      "string_id": "ch-tite-frite-chez-didier"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55097",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5842_6af3a1bcd08b0.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4898",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34021",
+            "source_hourly_id": "4898",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34022",
+            "source_hourly_id": "4898",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34023",
+            "source_hourly_id": "4898",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34024",
+            "source_hourly_id": "4898",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34025",
+            "source_hourly_id": "4898",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34026",
+            "source_hourly_id": "4898",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34027",
+            "source_hourly_id": "4898",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:45",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "ch-tite-frite-chez-didier",
+      "google_place_id": "ChIJo_Z8AYot3UcRbVxdWbwt7Ss",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00",
+          "vendredi: 11:45 – 14:00, 18:45 – 22:00",
+          "samedi: 11:45 – 14:00, 18:45 – 22:00",
+          "dimanche: 18:45 – 22:00"
+        ],
+        "photos": [
+          {
+            "width": 3902,
+            "height": 1610,
+            "photo_reference": "AV-0GLdKQtIJ4V7XNUVOpfDh1yMgabdilkkLZUjMY5Z3KTDws9lWjIiHUTb-89pRM_ibgWG85McUU-zHKhn-JRVIIwf2eTZNGbfx8t9t9ziI3X7w0gdb8YiON8wtVXjIxOfrQXgoNou6zFR__kciwXKJ5r9cVjLG0qPRrdpcBpZy6OplCJTDOEXXZ8Avup85KpRN8aKouNruVFEtO-TkcgH3_GSyAfCl6ZO5A3SiKNSDUHIi3uvOHfpa7Yt3iznO55Xg7JwxYtEJPwU7jfWaKr2d1oB1AOSOw-NOf9KMgpmxnyoWYeAhPCgVWT4ZMQB4GSUptXH6cFCdAr2zZgDD-jsnGrA-R5BHFphfpxxXSpZAluSfaQz_2CcowuTH0abawllFPXgGBTCZtPDBNgnd7dg7s4H39A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 799,
+            "height": 599,
+            "photo_reference": "AV-0GLcJThp6Uquyd_th54NjmPZoNLT6T_aQnhhbI4gieW_WYQKqvbkfnabM--ZZTN6fXkoolk1ejKrSYpt8UwvYpBPvoQ41hnDDUevKIVUm-9suINklUq-bQFzn-aWwwTAG3XCgvGdioZauwwI-jVv4ceoAZvdxAN7UjQ4IsaR6Q2qsqHP-A3vJxOVe4SdqbrQwP4cIEh6TKhY0fVmMtNyVHKNd2ZSOWCWs-L35J2YVCtBwmJ5sbJ3SkoBSXPN28A1IdEkFpUMxJGYuGSaNvXWWfl0Niz7p_xgqSzwaFsHGs0QsSKcn3L1sWzamIWmb89tSIOIHFNZXUv8TXUrSseapNVoKIRIWuZfk5kmA2bsJCmK8fT6cXTr_lOn8uLZrJUSK-wrq0o_cuimTIqtTtqfM4pUkEA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeOFF41CXFfSsOtV1N6pjFzM8OYyZ2hoX16zzepnDMCbF7LgzHhVTtQitgvlplIWWTGU3aZKFV5Wn9ubki2dCyQYrkrZNjW5FEVLmMzOZMJYhIbiDDka0NYfXQWuXKOh9sWkrJwsHwqmFNmmvbDrx0zPIedbT9qG8tFhs6V2Tlklqdbrc7OWOC-YgiG5tBQbna1IaDxnvRJkCxvjl6pmZqgl0uvPWYsOYjPJ3tBzvYWwGU9DTZ7rrSwuZa5OYenz0KMKj1Xe6BAm4bvOrjArv7hq9Am0cEAQxCHqH3q4T3sEx3MewXZHx14VNp6ctVvou2RJwBbRXEDIErYZKEKSiSZYVm3W2gZPAfmcbs-u9ievdpBrFd_BQomxMW5dfdvuVfA24BqfYSYk28qMUQyeC9JK7CNlnZiodxYWtdecgfeYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114149107245223081340\">Nahomy Gs</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLfxmJvRqUzb_8TQ4XkMlyhoSc8W1LomyzfVzQc7iE5fnwzXsbk5m6qr745q_eshHUsWzE3hsKXvFcL7UbpXREQgnpdWV2cmRVI2vjJaaecTiTNBGonHOTowhqsVgARch7sIJgJx87Wdi9FrZKkoattdoh6HZQrUMKVXB09Qs0VA2h7Ic1ysbl8BYuba8e9TUGsTW2QYUnBfT1wjjVShXTbJL-yZQ1a5MpDLLWzSc7m9ShvoPyQsgmBDKDT37jN5wTOs4kgMFfPE6Se8afSJ1Alb1RyGFn13z0-AMDovF8VWpOHXicpSvoqJvQYCcjcDi4acpUjJHl7s2-Tdbw9mU-XjugM5VjAq22kaTyqKVp_bvKxcPXxcsbGlTfnDH_j7DHMXsK7qIdX7Xyfm1XaJa_65_zwdZzQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLdTzb2gTbELo1l6aBfwBRJUpcHhmJhrLjf8axSMpHO2plm4XZ562Ml-wnjlxjeY8sfX7T8N8Ah9npbtzXe_JMfeGi-xalBVMY3eyqxu6BiD4YiZOt6fX_aJ8SEOBkS_2GCZRaTn4Aq1qgnvkicVCKiL8zVcz0HZ_8WsCl1Rhwh_EV8T9_ttAdCqJU1c3KX7qlhylm_gyK8DUdCSMrp6UKsz19xtaWH82T78f9YgwfnAM9waQN2ms-3pbiPhO_lp2hmRdLiv5ayoEmP3SKJiNQtA7iUGzIRplqf7kiZ-nyeLFyk7_LhnFJRFHKwAJU2o4C5LvbM7Ky-5AZir97Jv0_-S5DiEwJOQpxh1jQIoVBPDaFB7EgAHCR81czv9slRasZSD91EEq4KAhE5k7aQyI5-9Dq19Tnk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 799,
+            "height": 599,
+            "photo_reference": "AV-0GLf1Gjt_ewKsQmwmxtd7wnNnBOzuOUtl_pdxwY2nw2Scq7s9ofYR2e6R7vH9ClFTmSnO1ZcVo1GEJu8n20kYOKlI8_rM7iqy60IfRZIfOcPlhoEuw6NLM9oY825j0TTO2Rzia8XP-han8n-fiKWzcpoSZp8qWZBAKvItDTYPd9mIqriAxMZUB36RzHSC2X4nk0FYhEh1T1fB-FyzVRks6WB4PhkMG3emkqRl1TbnfswrNrNDN3n1XK09UEukkZu96GPjJqK4lXiK5FTRLMPS_yx7L9tFx8yNU9fogxSeb4UCe2JxWfeAmaZPMarwgxPU5WqWCi5qz5FZi4swo1eegBbEL1WjuIAhPG7Jm60T7IcSFbo8RtGdsXYixjETQujdPp_8tRKvUKKLFVA1mccTr-2o4jDtQpw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfs6QRTEeXE2_83OyyDwkvKD8vsKGrtI6Oj6fUZNCGHiriPINqLJu5fZhprh6rhMuJYg-M0Wr9cflQv7ZM9E72XoqbhIyVlAReW4mTGvBtPF0Pe0luiNqzYAGIe6BdkcMhldOfi4ZHC0j5RW6Svx1torsfiD6Ho2PlBMmgyesTyJ9kP_GJITLvB4RlLnwbA3FxQeS511gPjM4uNQW43M11qgKOt83oY1FVtZUNDI47IEI3BlhaTyHwgQINo2gqbgyPWb0vyzu2yqEgHfmxVXjBYpcnxo246x1nprhZx0-Lm9ijfFwjZP7TGv3QoRc9JLjJQnJ6UO5ZkfFHkureoeJ3AB7x0gIEnFu1jrPQZEFOCWKA5SWVDsGguAfRKUF8kwd0O6Dm3uzSorh0oQav26DDdhdF80749Cw9EWTwOl1rXLw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100618937666865527284\">Antoine Hayart</a>"
+            ]
+          },
+          {
+            "width": 867,
+            "height": 465,
+            "photo_reference": "AV-0GLeevTT6pKOf6C45kWYCk-Zn36BtZIQRrjO7JCg-PT70qGXtZ9zgKg8CzOiOKVxsDUs-ryvMTiTgA5w08jUMDn2GGIJOlqlR3TexXUjTNH68Uud0TJZTGwYoztgTurzvDEx-I7ma7_7qm4EXI1BvPILp_HkrkybivmSye7D6wFrSKz6ykeSu1SopjOv0DNyMKCB36kyt_9puLEyRYNZaUyxIIsnW-B_CBTcUrvGZOMYK-mz0nuDT4fI7yOJyax0UmnXaFub_gtyOXpoGBANbK40HCijvvZxpmfYxcoXBWwntOJ4tpyxumdNc_HDegMX-6GqUaZhFP6BagJ92sJYJ9fJI7HG-ZPpFAcFcEkVCS5qfnIK0tTbKKqAdtq5bgG6F7pN0sEGHUmOA7jIF9KV3NmYQaHf2N0U",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 402,
+            "height": 279,
+            "photo_reference": "AV-0GLdpvlvjcP9TWmZXHEMQ8OOlvt2b4BiSlXtGdK3kergav_aPB7z2UB4A86RWWrQA5QZEnQLCEupuZO5Ko-Wj0lCbC5Z9DezvzI9AD8ZRo2nK80WZgQOAhf_gL3dFFbVbZopMG5JiV_KbJywyIySVxwA8vlzY48yz5BYtovtZHhB356l8wVW9KzvJ1VpHrWdMyvEN2vs3syCrD4o9WB33xe2KMtQB0w8Kbj38bM1nHUr6ehpKWKUgu78Gv4t4nAPC-CVahO9cBxoztMQi8P80cD1iH03QkQq9IuXE94AJJzwNN28-WPJnNNUjRfhJdAWs7yieETHl0j66eebf1fmqmhSGZp-K4aH8Ae12gVQHI9HfjxDTq7Xf9wrYWKTP2xyCI_dRzC8Y9jyuM9K1dQqp_Gw7s7Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          },
+          {
+            "width": 1702,
+            "height": 2428,
+            "photo_reference": "AV-0GLcv1Q9gumbcM-ChnxrTNgHMaIaMrFNb3Dc5EnBwnt08z7iagp4vujRvUjc8txXNICRgSLu0ta1xt75vl8UIMhiC3qNOqvqH-w4fxLubr7qTt3rAoIcojpfg-y9YQ1571ooc66HH32Dw8SMXZdv5J71Vv1rAMbkiPDz-nbZId0CbIJgxwQSeSAB8979bjUoN2JaREzi0uXdZ_CZvJ0N1m9SkGqtwAsH2geEwXlyswp2Ki66HcvoTIQ1Ynvbv-9mg00kPEFnAUtlFqFtJpRIgOlUks99rzgtM6TrgYueh6fzZHiS4mkrxdA6Q_TNTPazqRn2vGzdfenAfzwqovyf3bp2hsGdtoXCtybnPpSMsjDts73Col1tuzynonHCwzWYXf8oekMoOsBO3ihxoiama574_9Vw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100804495520035029888\">Ch&#39;tite Frite chez Didier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5842
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie : « friterie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:45–14:00 le mercredi et le jeudi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:45–22:00 le vendredi et le samedi, 18:45–22:00 le dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de service : 11:45–14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de service : 18:45–22:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Wavrin, avec des horaires de service le midi certains jours et en soirée du vendredi au dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "ch-tite-frite-chez-didier",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5842,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "b46bb0b7afb59a63c7151756dde669f91128f89b0f63bd7f4b9610495cfd7623",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Table de 6 personnes c’était super!"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "Table de 6 personnes c’était super!"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Table de 6 personnes c’était super!"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Table de 6 personnes c’était super!"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Burgers, cuisine bistro et spécialités locales"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "décor anglo-saxon rétro"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "très bien accueilli"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Burgers"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie-pub au décor anglo-saxon rétro, proposant burgers, cuisine bistro et spécialités locales. Un avis mentionne un repas à une table de six personnes et un accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "b3d3820dd26533a1c17b6ac23ffc7131f7d62dbb877d9de308d658659a1e8995",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

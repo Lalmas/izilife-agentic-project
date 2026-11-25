@@ -1,0 +1,130 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.93,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "salon de thé ... vous invite à savourer"
+      },
+      {
+        "string_id": "bien-en-solo",
+        "confidence": 0.97,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "la détente en solo"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "sélection de plats marocains traditionnels"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "Café Noir"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "large sélection de thés ... et des pâtisseries fraîches"
+      },
+      {
+        "field": "adapted_for_alone",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "https://www.atlaslille.com/",
+        "evidence": "la détente en solo"
+      }
+    ],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "maroccaine",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Cuisine Marocaine Traditionnelle"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Petit déjeuner Ftour"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 0.96,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Tajine, Couscous"
+        },
+        {
+          "string_id": "brochettes",
+          "confidence": 0.98,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "assiette 2 brochettes kefta"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Sandwichs"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Frite"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Hamburger"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Café Noir"
+        },
+        {
+          "string_id": "the",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Thé Marocain"
+        },
+        {
+          "string_id": "the-menthe",
+          "confidence": 0.95,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "la menthe"
+        }
+      ]
+    },
+    "warnings": [
+      "Vérifier l'adresse avant publication : le site officiel indique 50 Rue de Lannoy, tandis que l'Annuaire des Entreprises signale l'établissement à cette adresse comme fermé le 20/04/2023 et indique un établissement en activité au 22 rue de l'Hôpital Militaire. Source : https://annuaire-entreprises.data.gouv.fr/entreprise/884518267"
+    ],
+    "summary": "Salon de thé proposant une cuisine marocaine, un petit-déjeuner Ftour, des plats et sandwichs, ainsi que du thé, du café et des pâtisseries. Le site mentionne une visite en solo. L'adresse affichée est à vérifier au vu du transfert signalé dans les données d'entreprise."
+  },
+  "meta": {
+    "cache_key": "10cc7c48110dfc4cea8e957597f6750f1d8c92ba50436238ab561ac05e2a087e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

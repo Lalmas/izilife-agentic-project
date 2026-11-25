@@ -1,0 +1,499 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:26:34",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-de-la-serre-mosaic",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "restaurant-de-la-serre-mosaic",
+    "status": "found",
+    "data": {
+      "id": "5814",
+      "name": "Restaurant de la Serre Mosaïc",
+      "shop_string_id": "restaurant-de-la-serre-mosaic",
+      "unique_id": "3541cb46d2cbc84ec13d3c29dcada790",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55070",
+      "principal_cover": "55070",
+      "qr_code": null,
+      "phone_number": "+33320588192",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "103 Rue Guy Môquet",
+      "additional_address": null,
+      "zip_code": "59263",
+      "city_id": "45",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9772129",
+      "latitude": "50.5752455",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:53:42",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:53:42",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJjadGXwMr3UcRaIVc1mTQIWI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5814,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-de-la-serre-mosaic",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "houplin-ancoisne",
+      "string_id": "restaurant-de-la-serre-mosaic"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55070",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5814_6af3a0765337d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4872",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33839",
+            "source_hourly_id": "4872",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33840",
+            "source_hourly_id": "4872",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33841",
+            "source_hourly_id": "4872",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33842",
+            "source_hourly_id": "4872",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33843",
+            "source_hourly_id": "4872",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33844",
+            "source_hourly_id": "4872",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33845",
+            "source_hourly_id": "4872",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-de-la-serre-mosaic",
+      "google_place_id": "ChIJjadGXwMr3UcRaIVc1mTQIWI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 18:30",
+          "mardi: 11:30 – 18:30",
+          "mercredi: 11:30 – 18:30",
+          "jeudi: 11:30 – 18:30",
+          "vendredi: 11:30 – 18:30",
+          "samedi: 11:30 – 18:30",
+          "dimanche: 11:30 – 18:30"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLewvONDJdYh-BAzbeoQnaE-Yk4Ej_ijnIqFO4ktRma0Ila2fWRpAj7NWd_jdBFyVdKOetQLOpoaHyhwrUAxA1C4nRFAdxVetCkXdd4MG09uEtDyfBLnKTFr51NR5aYhHdgk-ovs03af4jXp4n6cv5WbXvzgNKD1DEpMuC4CO3wFJUynColLDfeAhsRsB2DjzX8TZxciaegaRnk3cmYvr09K75pO94gQIc1Hf13et_ESSmCOLCh7DxZl4U0kl96ZrabFWi1YxmjJPjA75W8knW9b_SfSrMZi9kyOdao_UgXjUwnhmYBXC5j30xfP2hNr_NR2ST6-6ZBggRGhH-kq1iswr7pQeBxSKek6jx3EHTG4oH_WMGgOlh6eEQn51I2VRiPbmpX6JqT4pY6VKvmQgqlbDjOwPec",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103261934586813632404\">Elisabeth Humbert</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdhvfAzpTXKPJvxtBOJsMSJ5lVjaVmnHTUhIh_9XipkJ-6c_-I6ZeESYoHlf9um4Y1OE02R5fUqHjhAT4gd39oMQjMixCy-Y0T-Wjbzg52VozGUR3y1544kEr3_jqk27ISPkhkjAfdROKYk0nRUDyhIm4qY1r1MPzj0hhu5efyEeuHTPz0MJzGwfhK6DveA44TGbXdkedTMF0pU8DBnFfiz7XtHSBd7XA3Ujso-A2wrvticQHX6dCpmxXdx7ovTVII82CpNX0S7LepujiSNXE1a0upc7Ap5rLmrwHLinuH9cgw1JSIYCcap9xpHRfN4-Q_zvIYJohx5sLn1ihhaiIXDjDWiQqm5o6bXdP0HTzq7dIL8kwE4SOu7CLS0Eg6FGSazLyJ2QFxvFzr2KCHHASFs4t47wV17IfdHzxJNbkPc2A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108915187779498407211\">Maxime Pfender</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeLZe-Kuc4mzLx3uAjC6iuFGu4ek8hBwqVgkmQ3WUPsVA-16iuyPgBJS8TbOZWQOCgha4kNxb_XU5GWDqp7YTZ0MYkKSK8uBy6Iiwup1EckeeEanGMI1brNgsYXA-sh2GkzSt78Rvuw89BT3896F6Hu76jbF_WBOLI0ocCccVSVT-qqps_PBXZrnqYHPBG_3oheSqkinesEcXffXEb2wcgy-KIWdEPMy9lLqZp2p3eOlK2qO2dTaLf06h8CFoSVcX1vG6jlHgPN7bRc6NcZBjb2MwFYtK0Ea2mE3JAFGxgr-fWo7hdli0Idy5GxTIuHGa_7LvRsbo7hMG_7T9-XlMaFAv3KKG5dWDrG0xa4aVo4frRXaraysHgrcEedreOyZHsyQ8F79xsZtGQdZRjja6BEMG9bVg51iA-Cn0rAD3adAw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104369244950510464311\">Wendy Leung</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcPjZAdQD6SvCukRBiuqukD2FAyRTZEtBfx7TrZJt-Aeo_8RRu5L6GTfjQ5tTa_ariTDEoKexO_Adm6sLUoRjD-00R82kCUxhGt_sKWMfZ8dP8EJ-I7evdhxhekmBDPnDx4pz9WpVENATIZJEnMYrtCbgcsxSK0Nv6LSKYPrrueHHr1n9rM8nRNpRTKjb71DgZtjhBssBWEInei1bYshhovIByHHpf8x_E9knq9J0Ak9RHRoZbA5eF4eEA6eFOZDR3u5PzLnRsiaLxlG5WrCCIBGtYQPsuivdPGostxUpw9KcoddQmZSTkBIjaFrVJcoGTRk594hwCUhs_GolWPbOVHZeuYHkrTLH-KqpOTwm-h9RkVyfIymlEG5lWvD0ZkbO9DxD38CpVdPTKTfKhRv19Pab73JUVOnDU6Qu1DVNRL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114604505412644727742\">Guillaume Busin</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLeAy1pLIaYRdSbMMmZYHI7S1uFVBDqHUPm5ctKVT-VSwnBmAZj6lQy9FokykybRwe6CsA8-WAbmKZThiV2lfJ0Wis_cS3z_RIcIwacwyBRQZgrY1H-t7C145dcFmAerYWz1KcVIJvi3V0G7RL91TPnhedvkwCv-zERb80KwEHjqtk93IbR9si2RABPnoKhVOvSvgQrDchW5dYSzxze6DXTvumqoRiwwuwC4mvMMvpFPXui1hHCVT35qgnjk-z97xdET1jFqtb5TzKsjRQQQK_bC3K3S2cCFAITqE9GSsaodAB_2U6aiDPFjSyXwWmW6eyPmF9N7kPu6P5_W0pKwHZGpFl-6UY3AoXe3U-dd78m7A6ZrjcMsS5enQYWc32TUjBIOrSblXC7BOWXCuIOWjes5rEfKMHcuYkghyosxUFkQRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103591831725098214465\">estelle legrand</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc2k292j2eVe9XgT30PASC7UB8VWuWtcYAz-hOeZaO-O55j5uUzDnimEmObesJdwXZ8CozvM8pnGUyeZCl8vjWprhQMZlkaksHlQI6mDFjvEuklmX4nHyyu1reBoOb94ahRaaQbHQPr8PhwexsN9AQecEadf402oh14VnW_9hWZE9vjkQqJxtOxqcYnv8Aw8V4cnsTX_WJ403ZlaOGqhmyvEzvwdvVHOHyQC1vijSkIvD9ZMMHihNPV8wA1HNhqKTx-QO58cAor_YzO0NllJuBd8-Pler7LnHFAE9rmy6Un_sAxLA_xdMa2fnC-GQLbFX6eLWiygFSlsFWIOI5wjFNIv8NBcO-osE_rI8m1BP6Gjtbb6gj7YWCFzD2PHpOu0Qsd8audI6ZNz4Zmun1ePx0chQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118283671228931149433\">MICHAEL HUGE</a>"
+            ]
+          },
+          {
+            "width": 1802,
+            "height": 2316,
+            "photo_reference": "AV-0GLfH9rcHhCkVO_lA76KpOLSU1p7gwj12EA_e67EqO2bnrLyG1OdckBnMTuRpvrgBIlQ3Y82TIv6qOukvUdAafsqtbZvzCmLb2w1hoVIzBo9RAk6c0SCH9S2DvxvBJDpKIemI95FTCPzKwcVy5wNcGttnuGMV9ZusNh1d02pQwbP4OHAdvBCVALa69HSJ0i6DXWQKFOIsYXDTyvYfMr084HO5dNjYfYeUPjKJBYIyWalbO-una0rkYS8tuywpyA_IAzvAA1rb4MzdKyZ2absitHrcZt2ZFyM-sacRnGHwcm589Lap1PUbb-n1wMENbCF4q3c-IaS5zPvBmJE6DcWpZxMPumAYelmEazJle927xJ6PqGtf17zlUzxjKj0WmWyYDekWM5cAEfne6HSFWxX1t8FDT8k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113559195860041046165\">Philippe Palamin</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfrz4dJYCwG44xNvKAjx247u-SX1pZ-H37VaHYwLoBTv-pa7awFQx6u4-O8binuaho0n7uz2_HiFZGX_EYJHpKUBCfYq4Rofy_wswU_ZMoDIoLa8mwzWONzkHduhX741P99xGp7ZJYfkiaXGQaaKlvx1zM3dzHehMwVoF-fVB4t6v2BGoPY0g8LBRrCqELkvR_bs0hbzIFD3pRsyiCPiiQFxjgtQtjZ4mbTpET0U3uZFymo1jCpnUCkNbjASO3iswWkvZLOUaNq_fr3UgYg66lVcPHwAdN8Noo-mlRM9in3ONXy_X_DT3E1rK1Jb-jnIxNID_ynEcl3J3VMcoSuYVHLpkiW1ObBsyJ8df4bd1_izNq_qo5pcHc6OU2ZjdVw2tR-D1mo_kNhI0JzhdvTc591lWwfTOY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110770143164461423689\">Claire Jeanneau</a>"
+            ]
+          },
+          {
+            "width": 1500,
+            "height": 1875,
+            "photo_reference": "AV-0GLc09JdmJpRM8ZBhu1EW5UdnrAvpY5WOE5lZBzkTnuaR6aQFCJIgXw6Fixndzlednw-jklgURHGu-RGWIyCHzm8YQ33EQn59AXkrC8gxuwKBp8wGVViH-DkuS8VBitQcZCIOEjj0HFws3s1muYoACGHUBNqY-Ig_P7md77kWUsTQzpesVPmZvWaeq3dyQaQSoNKrkQBroo3be4MrnLzfMIAUHKQUoN1wokr7P2qA1caGO-XxJXIs4T2756qDLIOCvzIJYa9i6sM2nP-mTq8xDrmD3RxpCDkme0Xgh6oUHKqUMd8AouZ_Gprn-HilqPY0d0CYi6_SshVWRfpjnLxK-FihqHnWtpJPu4GThYG1urQJ33oAaxh0_cuRHsBHX_aFfcNHwGBeLgMf7XR56_FbkHudjus",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103261934586813632404\">Elisabeth Humbert</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdfJlOAFNnYiul4ZPldmglrzzXaSP62vdmBvOo2zA8OA3iWi_q4eXEgsi-RmWL0v6CjsE4B3Qjp5_P1CCxstNK6Hl0nQkadNJZCNtVAqRTfLBMIQBQZk2WrdZxVGXzU17-eaL6ANYLfSy_oLAuLFIvBwoQ0NS-OMikDzcbxjITOSRGj5cxod3imwWIxy6WfQrDgkdloM33DUd7e4S-3gPoIf-I0tG5PCTH9wZI6mwb5bhbEEpzvsUK76hTOO9qf3iNpn4C3k4fEJ5ygfKKXd2ZB8IF7bmzeRIoKz0-TcWIN0dRQqfliJd-WJbMkJVEUc89E0ifa17SJ6BocFKDWl8_ziZYHKKfCwfdLEICBq3bb6E9F8lWZ8sB-kuoeskm1WVTTHeh5d77zdP5IVTvGkQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102356907854490448528\">Christopher</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5814
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 18:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 18:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les options sur place ou à emporter, ni l’accessibilité, les moyens de paiement ou les équipements."
+    ],
+    "rejected": [],
+    "summary": "Friterie située au 103 Rue Guy Môquet à Houplin-Ancoisne. Les horaires fournis indiquent une ouverture tous les jours de 11:30 à 18:30."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-de-la-serre-mosaic",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "midi",
+        "apres-midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5814,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8e9fc0d9ca1e978432c26ef2344a77e8b085ebd4594fb1399cacde87a712ec0a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:29:50",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-noyelloise",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-noyelloise",
+    "status": "found",
+    "data": {
+      "id": "5839",
+      "name": "La Noyelloise",
+      "shop_string_id": "la-noyelloise",
+      "unique_id": "ce9e78ce204b59ab1552bb75b5cc939f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55094",
+      "principal_cover": "55094",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "79 Avenue de la Paix",
+      "additional_address": null,
+      "zip_code": "62980",
+      "city_id": "1268",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.723627",
+      "latitude": "50.4845968",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:58:16",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:58:16",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJnwCmZ8ok3UcRTELpBE0ttvk",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5839,
+      "scope_type": "SHOP",
+      "scope_ref": "la-noyelloise",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "noyelles-les-vermelles",
+      "string_id": "la-noyelloise"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55094",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5839_6af3a188941dc.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4895",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34000",
+            "source_hourly_id": "4895",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34001",
+            "source_hourly_id": "4895",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34002",
+            "source_hourly_id": "4895",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34003",
+            "source_hourly_id": "4895",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34004",
+            "source_hourly_id": "4895",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34005",
+            "source_hourly_id": "4895",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34006",
+            "source_hourly_id": "4895",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:45",
+            "closure_hour": "21:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-noyelloise",
+      "google_place_id": "ChIJnwCmZ8ok3UcRTELpBE0ttvk",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:00, 18:45 – 21:45",
+          "mardi: 11:45 – 14:00, 18:45 – 21:45",
+          "mercredi: 11:45 – 14:00, 18:45 – 21:45",
+          "jeudi: 11:45 – 14:00, 18:45 – 21:45",
+          "vendredi: 11:45 – 14:00, 18:45 – 22:45",
+          "samedi: 11:45 – 14:00, 18:45 – 22:45",
+          "dimanche: 18:45 – 21:45"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLf6jTgjdmD3SX1QfWlSp1d2oSXLjvabQUcHLfYEwx0xheHqI2iHcUvh36RXvaMmaBNJz4SrchCjTe6TWNBA_umegwggRJ0g6RAy3ivq_rzQDdAo0U-QU4V-GjuOwVy0t2P8Bce-l4zkRwaQJnMscGjMDOm-I9P9PLR9R9Fxu98Pgp6If9qa5dOcR6qWf0I-KGJntRrvwiPqD-6xSmOHM7eoViKRYvlBhXHNNVD-gy2bUs6H9Angki1WjjHWYupm43Gi9DJcYbS9VWlaYbGkEojDvVS_KILMJ4gzvRwRDyZA8cH2Fk534YK7iid5TwhA__ryFwZEUX0nvG5l_incc8ozdUsw0qQJrDw-cwXo7UAbs9R-FqtdjPHCq0GTNr-0iLUSdrIucEjayCUtRyWc1dLGimc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109693296729739696747\">Blanc Gilles</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLdDQzXNkPulqSsOJHGKdGqXrax1K4AyQybyCVhHlzFDlMkZESiT30xoV8fKlSk6hmOXzNkiJSfJlM6ip7Lom16A50XXb3qtQeQOQBrzPaa6m4jYgEj9nI7cg3UYtMFsvM8CtG8FDhCRY_EcuGzzDtNDXqIiSpgsuW6bHY6pVbW6t3IeuQac2Iwa_knhs0HXWiluEkEosFUwmHtg1iAZRr4zBqHVGa9K2a7Y43USF_pco80bbqiUzYbBSaU0yRePGPbvxbQMub3moqCLIp6ivYvoh_7_kJdUOrCrazl59efKxfq4mWUflAH0gNFxiXw56AaY0Lw49Ck0JtV0mrypsd2ErG0-J6QSlwb38ZMq2uE-8yMHtO7FAORj8niCb9LtiWUKItFfopQEnmwQyyXhBOuZEymZD_AJgGHtA6jd2v7j",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114087504985850952486\">Aurelie C</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLfVmTt5CC7XR6PAa19Aa8XS-qQyO4kCYVZfNasXpvkn2JVcQa6XfwxWQx4aC4im0oEAPtgtV07_g5F2xn2raWnTFrEqAW0aPWhYR8I8gMKgmEHGkpfIlx6IhtV9SRzUO3by4pStGH57z6sl3PMIExCFkLspdj1nVGM3CUlmkmeSg09KlUOMYv9cBebsVWlM8mheVKxdUYUtkytnLbghvdJQ9vvTRc6p7r-la9kRKZHZwUw065Y_rN266n0n5yg5kIOgRvXAvCBVwYQvYjjPrRbIsDLOoCt9iD27EjfXT3A2g8Kmor_tbdObogk9izj7tyHqKcRmgrc76BewTHcQUpK8IQjEF1M-u3Y4Tv0V9JCfjWsdJBABu1en9CPuGoIVPCAIXpq2hOrvWENja1BP6ncPRhlCB2I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109693296729739696747\">Blanc Gilles</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLe4xaKRN9qWU06thKS6XzJoAR6s19LHtJAoEbkumm1C_Du71Wkui4LZ5lP31OxaqV43SwBFcxWQc4XuZXUGD9u75BJdUtauvYxQAdNSfYehOQeUbymY682X0YTeNsD1MhJ35FG8DD30tJ72loaV72uKZB7yR1VA5rIob3bm3ysT9UXGKd1_LprnNANkI7zO4sxyu_j5cII_II452DysM-ODnTfUfrfMfgsamyn6hoPfxNYT-LD3Sq2fb5MFL8aS_OlmazD-NLEypvAFyuZbuImpbcj2NGIe25LBhMnOIl8jTxNNKYn5svxXtYP1xyGgvhudfU9VauEvAkDCjCV-wgPT5nGSAYkYaHdGxfa0NUaIo2Sd5iVD2Xud2L0iRX97qG9NmFLHjKRoeNZC42Su0HOLqX51",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108550805926252396098\">Franck 62</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLcHDuXygvzi2idHDdeCeDizIY1HIJ37HFB4-duSxqh7yMmxyYuQIFTMj8djufnuEEZKgtKtXmq_ex1Qb74Nq3qsQEdK3IAQhZld6_GpM_5RFOMkF6LrkG0dHKqJ5e6LuVldDWQfNIsN_LBhUiCqiHajjgwv9U_qQKy0drwAAuyvYViUHlqWNqJFI-0s0y8U_UXLOh_xJP_Fo-8T00dt1H3WkWGwrVWI7nToFbOYm0Kcbjxk950qDr-M2JvEU8dEeI_I9T18L2YPxyCRPl1t2uNjgho4m-Nna2fugCVNU9lwtqVCXvQxHlmtH3dCXM_2Bev30xp7nexXbcVZQIb97SrivOluwpjPsL3TH8JmeoIT2IjT4ML97bt29-Pb2BdxlslSDQUIt3XQtlS7dR-gc8tqbw8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109221862382011197708\">Cedric “Ced076” Pailleux</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeS9lMwQ_Cq5Yjv6HR8skkENtA2XalxL-e1BoYFsBsL8FXESBFVL7hb1hRTgiNAUcURM8IlS6k4ArHFTV3cTX01CY_oZd17KUd4X5pl4znqtpVibojxTqW0UWcI5lE6_l8YKDkq91ovYSoystw68ZyYFzWJq1kPxSPjivPWPswG1FJkWPNKy78Cwg-ipmw38263V6ny8cPeOh8mQed6uWb751FJFkBZOxAtfODuYJsLS1qkyoZuLzlHGvk2HLdag-5lk83sDspzILAwqM_BU9J9Ot84zlhaM0-RqUw7CDOqrjfeNjIL2-SuJ34vE9o_Tiev6idSalr35eDp0Hgq3MUDKhbavn9ncEbRS_PeIbhYR_EmSOx3batETYAloVr3B4mo2fc9iLjF8RqlMWxqfQpyfKP1",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118317847401097140714\">florence lemaire</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 2288,
+            "photo_reference": "AV-0GLfDxhC6Wqk2RkZFo5eLQKODRSi7F60shsEdlHEo7HqBIi-Wqf3QlLsVjXWt4giA1JSv6W1RsF5SXSWhxCJTtAViqOEuImaLFk8eRc9QPuX8miptXJe7iBrN0Z88A-MCI_iV_DxeBJKNlDuu8OoZFnCoqeL7YZ_IISpM3weYMZXDfRecEaSVwnNtVeNNWx2h04ZDuM1BFU7CYdAR7FNiRYWNmA5Fz0nz4sapMvBKFXHSOxF2PEX_F7xOuxf3iWcxXduTw5x02XfJX_yoV_sHNCJHwTGeWB6BsCQTrdfz7N8doR_NXefA8jsJgnFO9chAJ7-R76ZPGTZwtoPuhwW928I_pLpQJkPbqSv5z9D9DbF3KBEEgoCwlp5Oh232AwXMb9CAI7tpE29Muc9CxzUE3-hJaxYzlooi-1TCrW_OtweBbA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109693296729739696747\">Blanc Gilles</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 2340,
+            "photo_reference": "AV-0GLeNcrfnsWX_vtSotmmxpLUIcTkizetk-gA9Su867GjS_cE5YIFqDFLltcl8Sxg_53yeJBeXnm0akj9iebKmr9YcVWlPptFcbO15Mrmi9Q2jbLU_rxYJCn3s9mkEGxFCYueh579Hq5f5KKyYD_18BY0qxv6TdDdERvDUSEcNQDNw1__py58EsQpNJQ35AgDsPsmrNcfFXY99VlPSg4MfvE5hwlwXUDHarhEjrM7L3B15Vbq4TqoGFRNfG3DiDOTj_JROoM1TM5GPVD3aRF5MO6JoCWfH7xpwAv_lFijTCjxwSQj63DAC4YilmvDYFLw-hzytT3w3By5k84nmas_R8TLoCqduT-9Y6IZ0DOy8aGrIGdAkFYd0fONi7GX-V0lXwCmZ4dbhnf80ciP2cP--hFPprkBdZLk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114603524379143052153\">Marc Lemaire</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc-VWLir_iu37LbpXTbZfhjzfiIxuMcDfbglePic_YPZsGXYoRmCaCACiDgpv25xAndcG5gikNbqCInYKUHo22oObgi8xyijBcOvSiZ-ielyK_DyR-kxjzwXSP1e6iVTjGPZmoWWPVHuSseW2ewDY9HBBBTyQj4NWqI8ecRQGNrIi2_hJrCHeq7uqv4T8PhZKJpANSOzfhiAat_1ASkUxwVOGABJSvXz5nt-4u5fqOeWD4hDqI4fA2l2SPgSvVQF1nLQHWZkAL1hXVpBai2pqcnE0kgVF2pGVgD9wtHFFN0HcjF1583liSZ2l3hzU2qJIFiecccGNJnrNNbvTdkJSTkrmwCejwoE91DxUqly5C5HYby2TeOVhp3Z3Zo8oYvbwOl-qaAHcLjPCHt6fadKPzZNus",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118317847401097140714\">florence lemaire</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcPg2zxKhhvkRfvEGXjNDcq5CSKxjxjlPUavhkxhpQoM4JLTlLveRKkAxHVyjxFrBGmtApCbqUrlN6OYoccotDBRuKF4K31ZdIm5KozP2K7LQCsG3DN3kz4Id3ZEEB1eHn1-NjOEdyBkZkqCn__15f84_MKlwbTVHjAqNjs-mDySDCcPy4KpmnizDc1WC17YZP9RtoAhXqwSAQTricH-L9uoTxXGX7jYQWYxEbQtW5DLyoHRiCQDYj630HB8hRK4-4D8MRg0fvc9rBoL84eMBJkO7APQDjxRUcUwtTl9Bv1NENC00PXYGDCkP4vHiBSeZiSVrQ0t3Ud-1v-sox6UH2AXrtIaXEYH8aepkfuv6aX8kYFg10yR0y_OZDiuPSX4bh9lM4QtKcQCxPHX4l3ADmS7Nk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118317847401097140714\">florence lemaire</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5839
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place ou à emporter, les menus, l’accessibilité, les équipements, les moyens de paiement ou les modes de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « friterie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi à samedi, 11:45–14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir indiqués chaque jour, 18:45–21:45 ou 22:45."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "La Noyelloise est une friterie ouverte le midi et le soir selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-noyelloise",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5839,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "62bd7d480d0174dc434ceb15bd06b13bb2b4ddea5a2f2bf7e4641e151891d6ad",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

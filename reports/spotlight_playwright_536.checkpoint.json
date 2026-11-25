@@ -1,0 +1,119 @@
+{
+  "generated_at": "2026-11-06T06:19:41.383490+01:00",
+  "environment": "prod",
+  "mode": "validate",
+  "location_reconciliation": {
+    "checked": 11,
+    "resolved": 0,
+    "missing": 0,
+    "exported": 0,
+    "curate_places": "G:\\Mon Drive\\agentic_workspace\\izilife\\places\\global-zone\\curate_places.xlsm"
+  },
+  "feedback_corrections": [],
+  "events": [
+    {
+      "tmp_id": 536,
+      "title": "Open Spot",
+      "source_url": "https://billetterie-spotlight.mapado.com/event/850876-open-spot?eventDate=3284139",
+      "status": "needs_review",
+      "for_place_id": null,
+      "for_shop_id": "788",
+      "place_string_id": "le-spotlight-comedy-club",
+      "location_resolution": {
+        "resolved": true,
+        "method": "already_resolved",
+        "event": {
+          "id": "536",
+          "title": "Open Spot",
+          "description": "L’Open Spot est une scène ouverte de stand-up où une dizaine d’humoristes débutants se succèdent pendant cinq minutes chacun. À la fin de la soirée, le public vote pour son coup de cœur via une application. La soirée est animée par un MC.",
+          "start_date": "2026-11-05",
+          "start_hour": null,
+          "end_date": "2026-12-03",
+          "end_hour": null,
+          "basic_price": "0",
+          "is_free_event": "1",
+          "is_for_kids": "0",
+          "accessible_for_kids": "0",
+          "student_event": "0",
+          "event_in_all_city": "0",
+          "access_link": "https://share.hsforms.com/1-p0FMquLQbGeHQqZQLEesQ44n61",
+          "source": "SCRAPPING_FROM_WEBSI",
+          "source_url": "https://billetterie-spotlight.mapado.com/event/850876-open-spot?eventDate=3284139",
+          "raw_json": "{\"place\": \"Le Spotlight\", \"title\": \"Open Spot\", \"doubts\": [{\"field\": \"start_hour\", \"reason\": \"Aucune heure de début n’est fournie ; {startHour} est un emplacement non renseigné.\"}, {\"field\": \"end_hour\", \"reason\": \"La durée est annoncée entre 1 h 10 et 1 h 20, mais sans heure de début, l’heure de fin ne peut pas être calculée.\"}], \"address\": null, \"end_date\": \"2026-12-03\", \"end_hour\": null, \"evidence\": {\"title\": \"Titre indiqué comme « OPEN SPOT ».\", \"end_date\": \"Date déjà renseignée : 2026-12-03.\", \"end_hour\": \"La source affiche un emplacement {endHour}, sans heure réelle. La durée annoncée est comprise entre 1 h 10 et 1 h 20, mais l’heure de début manque.\", \"start_date\": \"Date déjà renseignée : 2026-11-05.\", \"start_hour\": \"La source affiche un emplacement {startHour}, sans heure réelle.\", \"access_link\": \"Lien déjà renseigné dans l’événement.\", \"basic_price\": \"Champ déjà renseigné : 0.\", \"description\": \"La source décrit une dizaine d’humoristes débutants, cinq minutes chacun, le vote du public et l’animation par un MC.\", \"is_free_event\": \"Champ déjà renseigné : 1.\", \"event_category_ref\": \"La scène de stand-up et les humoristes qui se succèdent correspondent à la catégorie Stand Up.\", \"access_type_string_id\": \"Champ déjà renseigné : libre-et-gratuit.\"}, \"confidence\": 0.82, \"start_date\": \"2026-11-05\", \"start_hour\": null, \"access_link\": \"https://share.hsforms.com/1-p0FMquLQbGeHQqZQLEesQ44n61\", \"basic_price\": \"0\", \"description\": \"L’Open Spot est une scène ouverte de stand-up où une dizaine d’humoristes débutants se succèdent pendant cinq minutes chacun. À la fin de la soirée, le public vote pour son coup de cœur via une application. La soirée est animée par un MC.\", \"is_for_kids\": 0, \"_fingerprint\": \"604e111f4bb206feab46cf9506ed32a56b92136f\", \"_fp_location\": \"ADDR:le spotlight - la salle principale (lille)\", \"content_kind\": \"REPRESENTATION\", \"is_free_event\": \"1\", \"location_text\": \"Le Spotlight - La salle principale (Lille)\", \"student_event\": 0, \"city_string_id\": null, \"raw_source_url\": \"https://billetterie-spotlight.mapado.com/event/850876-open-spot?eventDate=3284139\", \"place_string_id\": null, \"event_in_all_city\": 0, \"primary_image_url\": \"//img.mapado.net/2026/9/22/6ab286c8b2618-affiches-spot-carre-44.jpeg_thumbs/500-500.jpeg\", \"discovered_item_id\": 186, \"event_category_ref\": \"stand-up\", \"representation_key\": \"open-spot\", \"accessible_for_kids\": 0, \"representation_title\": \"Open Spot\", \"access_type_string_id\": \"libre-et-gratuit\", \"classification_reason\": \"Événement récurrent avec plusieurs séances de stand-up au même endroit.\", \"access_booking_string_id\": null, \"classification_confidence\": 0.9}",
+          "status": "pending",
+          "content_kind": "REPRESENTATION",
+          "classification_confidence": "0.9000",
+          "representation_key": "open-spot",
+          "representation_title": "Open Spot",
+          "representation_id": null,
+          "classification_reason": "Événement récurrent avec plusieurs séances de stand-up au même endroit.",
+          "location_text": "Le Spotlight - La salle principale (Lille)",
+          "place": "Le Spotlight",
+          "place_string_id": "le-spotlight-comedy-club",
+          "city_id": "1",
+          "city_string_id": null,
+          "address": null,
+          "employee_id": null,
+          "local_image_path": null,
+          "primary_image_url": "//img.mapado.net/2026/9/22/6ab286c8b2618-affiches-spot-carre-44.jpeg_thumbs/500-500.jpeg",
+          "access_type_string_id": "libre-et-gratuit",
+          "access_booking_string_id": null,
+          "scraping_type": "URL_MULTI",
+          "auto_detected_category_id": "68",
+          "auto_validated_at": null,
+          "file_fingerprint": null,
+          "for_place_id": null,
+          "for_shop_id": "788",
+          "partner_id": null,
+          "partner_employee_id": null,
+          "created_at": "2026-10-27 15:58:26",
+          "updated_at": "2026-11-05 20:22:57",
+          "hub_id": null,
+          "endpoint_id": null,
+          "discovered_item_id": null,
+          "fingerprint": null
+        }
+      },
+      "current_blockers": [
+        "heure_debut",
+        "heure_fin"
+      ],
+      "provider": "openai",
+      "model": "gpt-6-luna",
+      "source_mode": "playwright",
+      "proposal": {
+        "title": "Open Spot",
+        "description": "L’Open Spot est une scène ouverte de stand-up où une dizaine d’humoristes débutants se succèdent pendant cinq minutes chacun. À la fin de la soirée, le public vote pour son coup de cœur via une application. La soirée est animée par un MC.",
+        "start_date": "2026-11-05",
+        "start_hour": "21:00",
+        "end_date": "2026-12-03",
+        "end_hour": "22:30",
+        "event_category_ref": "stand-up",
+        "location_ref": null,
+        "organizer": null,
+        "access_type_string_id": "libre-et-gratuit",
+        "access_booking_string_id": null,
+        "basic_price": "0",
+        "is_free_event": "1",
+        "access_link": "https://share.hsforms.com/1-p0FMquLQbGeHQqZQLEesQ44n61",
+        "confidence": 0.72,
+        "evidence": {
+          "start_hour": "La source indique plusieurs séances à 21:00, notamment les 22 octobre, 12 novembre et 3 décembre. 21:00 est retenu pour la séance du 5 novembre.",
+          "end_hour": "La durée annoncée est de 1 h 10 à 1 h 20. À partir de 21:00, la fin calculée se situe entre 22:10 et 22:20 ; arrondie à la prochaine demi-heure, elle donne 22:30."
+        },
+        "doubts": []
+      },
+      "blocking_doubts": [],
+      "not_applied_reason": "confidence_or_doubts"
+    }
+  ],
+  "feedback_workbook": "G:\\Mon Drive\\agentic_workspace\\izilife\\events_validator\\global-zone\\evtn_liste.xlsx",
+  "progress": {
+    "processed": 1,
+    "total": 1,
+    "complete": true,
+    "counts": {
+      "needs_review": 1
+    }
+  }
+}

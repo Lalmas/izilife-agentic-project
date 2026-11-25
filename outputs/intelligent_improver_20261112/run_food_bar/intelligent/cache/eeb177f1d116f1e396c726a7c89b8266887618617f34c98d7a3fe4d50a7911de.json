@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« la pâtisserie est tout simplement excellente »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture dès 07:00 du mardi au samedi."
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture jusqu’à 13:30 du mardi au samedi."
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture de 15:30 à 19:00 du mardi au samedi."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "quiche",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« je prends 2 petites quiches »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis contrastés : un client signale des étagères vides et un autre des baguettes sèches ; un avis loue la qualité des pâtisseries."
+    ],
+    "summary": "Boulangerie-pâtisserie à Faches-Thumesnil, avec baguettes, quiches et pâtisseries, notamment au chocolat. Les horaires indiqués couvrent le matin, le midi et l’après-midi du mardi au samedi ; le dimanche, ouverture le matin."
+  },
+  "meta": {
+    "cache_key": "eeb177f1d116f1e396c726a7c89b8266887618617f34c98d7a3fe4d50a7911de",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

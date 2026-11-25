@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 23:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "pizza excellente"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant de pizzas à Wattignies, ouvert pour le déjeuner et le dîner selon les horaires fournis. Un avis mentionne des pizzas excellentes et un service apprécié."
+  },
+  "meta": {
+    "cache_key": "28845bb41ca1a457b2bafbdca037fe97ed6ffc0943659927459f8ede071c2b5b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

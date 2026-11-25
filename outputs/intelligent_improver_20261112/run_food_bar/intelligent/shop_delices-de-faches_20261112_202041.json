@@ -1,0 +1,489 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:20:41",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "delices-de-faches",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "delices-de-faches",
+    "status": "found",
+    "data": {
+      "id": "5770",
+      "name": "Délices de Fâches",
+      "shop_string_id": "delices-de-faches",
+      "unique_id": "5fb296dc08321389f2f9b0b3249da698",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55025",
+      "principal_cover": "55025",
+      "qr_code": null,
+      "phone_number": "+33766682757",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "29 Rue Ferrer",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0652768",
+      "latitude": "50.6091281",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:48:34",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:48:34",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJawUHF6fVwkcRpyccK5ZAvcY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5770,
+      "scope_type": "SHOP",
+      "scope_ref": "delices-de-faches",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "delices-de-faches"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55025",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5770_6af39f426ffab.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4829",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33538",
+            "source_hourly_id": "4829",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33539",
+            "source_hourly_id": "4829",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33540",
+            "source_hourly_id": "4829",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33541",
+            "source_hourly_id": "4829",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33542",
+            "source_hourly_id": "4829",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33543",
+            "source_hourly_id": "4829",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33544",
+            "source_hourly_id": "4829",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "delices-de-faches",
+      "google_place_id": "ChIJawUHF6fVwkcRpyccK5ZAvcY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 20:30",
+          "mardi: 06:30 – 20:30",
+          "mercredi: 06:30 – 20:30",
+          "jeudi: 06:30 – 20:30",
+          "vendredi: 06:30 – 20:30",
+          "samedi: 06:30 – 20:30",
+          "dimanche: 06:30 – 20:30"
+        ],
+        "photos": [
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLdbIlMGr94eXC5QCNOj9ph2W54Jwl35SuRTjyABPGBDbztEKnS9P3SJJNSPiXIad3sPDNoIDxN2w8X7woJUnWxrp9LdUcsmbGJOhjkdSlPCoCIHqSJNxR-X72-ehd0eNBP5twcijjuzA-7kDXbhME5O4ng6uVGPhdYt0YAjQ9pthVfE0fmZjmiVVgVkBp78Ee-rCLEifJj6ybt0q5z23s4vgYnB2GQgGFsVwSvsB-R0K8-F5cjeoO8luva9gM8CapLqdfHKIJUet05E8kM_zK1T5WRmX39ZA49eGUi9G_VTqhlXBqrR7MpR0W6SDGKk773jw-0tlxWEHFmE5vYBLq1v5WidjSxLPFiIKrgvFK-MNKWRegR7lw_N5A7I9yQj2YM8hYMU4FMAGU_dOLsDaLV-6CsmSmo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1512,
+            "height": 2016,
+            "photo_reference": "AV-0GLdv12Xas2oxwgXRkFPHHxM4KXoZj-llMHFpvfUbEGx0PLLwVxCY-AnlJG_13w2MwxHHGZ6kwANpVrTmqIKyHbCTjTdsYj-9TulTFaShv0qt_VLxqyJ_Kspnps-mSECA7jRIaKhVnfA5k8akwSstaOKnxjY6ZRoZvNeXw9g4RE3Q26IzjQTCIkWCwn3BVXZZUQl7OZNgnP20lszQGxJlzN_B37JSDOLIGQafooLK_SikeMo7M-hTEI7h9RSvqCPqeEohtWUzFHzxaal8-Bhf4N_GjyCZcN0_3-iuI0xup7nN-pzjeXV4M57hEZqHxLkgXrCEPOTgz1TsXKh4DiFTugHwe_s1ZObvr3Mb4bsfnyQjj47U7P7VBCSjTY7IACbCcxw8ybiZk45SpuZ6teIttjaQOw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1054,
+            "height": 1492,
+            "photo_reference": "AV-0GLcwxZ2NhmzVSpUGmr_LlwDfH0rk7iY9Tgvf3pkiMYYwrEf8CN6zmg2j4CR8XuPzE3Ef0sTOTyTk6ceKEAIrBYKGtdIRy51whYhCRCB6vgxhxBqP9yPEq2PyCh_ZURA1PWTC6J5ExNSqr7twprrPOtpaeFK4LM1qhRQ-SSI-ibwXOkMwuWkI0AvMNVnUoihjXMn5bSMN83O4FeYLmRUja75UWVFvO-cYMCUyPHXO5H5wDnVCslr3sguzH1yeDY7k84ieWQR08Fe5-WVLszFhD4Vrrnk-j0KgcwVfpMA7f752WphGM48BdX8Jw5SEEgMKCzn7Q9-2VC98D6gMFAGaXQFHJZKWT9iFJuELXoj1dSM6no4LKLkNb_W6kUiU7xwxb5nnPHkvu0zRsi_kd02wiXN5dWlK0F0hWb0cmK6gVcpvhQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLdTfBVDENy4hTdLKl6MvkvI8FQuiqqP4O2jwaBv4tO8G3n0Te-yaCsJ-UrXb5K5wuuqTjYyQOVmWtDJRSRK32w9ioNUY1oFZySnb4IgebEJEehPoBb1mv5EZp4YpXmvYttK1IuFKWHhoQ7BdxDRZHR7G2cnw2hsvRDZaSqySo11UtvuQGloAu0c6xBjfUn2hAM6cVmzMM26TV9csajYMR-93da-YJ2dXrLyFvzZUjuw5iYrtpEPMGjczn92IF8Mxx1UHMLLlfALSi6Yi2qTsIQSfW-FqCBdKsImtVHAfxoXZB8DxNLcBeUAYV4H5wxeH4UQn2q4l-IU6RCJK5qBBnWgswJJT3Q_QAZl056QXjYQHEi0weGYC1tEqiSJQaGx4gsNJdF5JWC3_I8gQxdz5JNMOxk2lzQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1530,
+            "height": 2040,
+            "photo_reference": "AV-0GLdFCWYuxsnCiPSHRgHAzsS1kJVJKCoktn9cFccU-eA3Qsoc9BJ6pAKk8oKliF_Ws1lkf0SfTYecLv-YiRZPa_3MiZxOWlab26a6cTyD1tfgp8XpP9lL0uJVuVNJoz2Tzuy3X9tsGaIH6Np6QysmsbUb5ncWHt3gcNVAD_lrmzwYaL0BYXvKlmCsQAEVOuR0sxMReka7KqxN0Mm20GO2K8hDuDy7jY-fGhOgueaTRh9TdG30V3O3RK0-c-5gwK2Al2O_gCTOd_UnxmDZ00P4w7F36lcVlLRUaBthegHi9qQVWopJWh3B1GjbMioLDB6Op_qf1-o3iUbSQ8yvrPqBanANRQIBAtiq1vAHhUyjx8yg9Xjg72KJH6PqvHYX6uRpZ6TF15kjxxRbkvKWfp4W8vxEaP2708rhuuGsCBX5cjeY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLfhCb7itTCClqybdHfLpuodvxsClGtkk4ZzIdpSdHSHtPJ4tkPh9EUZb8FJjwwSRspM7EfcQbT734CcJwp-pjmomiGFN-ePewh3YYq48HOTSMj6rnJA_S028HFnPZGSsdqIRQXRvK9Cdejzw3Ro9vbONubo7K4oqEWKdDZSFOElilQE27EyKhq89VF-OCrithNL8940Kzzbf5xQkMNuns1OTdq3BRRe3VBMXtU2A9eNcUjm_QEp5riXrljyHxJUCrcuTm2VzQyGZnrtZS78TVtPicT06MWHaUBMQdsb_2qHHot4ZaCW7ClkGqV1D7YoACtL9flN8i9h6jQbsWqqeFysfvOpirJY9BW8X6l4YrjAJPiDLw4twlj4piButY_5avkOb5w_VCGNWu3NWE-3KQE2X4DWPEI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLfukJo2CXTo38iv6oX4Jz_25uyxZ5JYJOLx4nm-WLTCw5RJh04OSYmwdGVTn-FRAJnHsRQBM4wXuzpT9Py2XxYHUpwTjVUhslNZz58EQZTRuBdkrc-60AkYwRkHIfSYW8xTa-a6FUA_5rVWCpJJlmekEA3_QQydvDM4ERkX18j4h5grL_dEpwlwEtxtUdjQoMRuRUBDtUXMou_imXinAKy9vdGCN6V_0882laeH8LjKvQZZtv42E-QjPACVbJThlfqVKVTHgrTmy54wmhpTUbBcI_Tp_lrA7eoDXJw95_W5y04mz4D1dZ5uzqPgR5qMiwMIWkcSvhS8_B4yoO2bR0MjBkKx8lYEP2BocMEN9SPnmqQDSM3tNtNWWn-b-0dlhGnLQg8qodLpeNKmvOFKLcx3pDY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLch-0Lcv0LIWnvkRpLuoJMamZ75HYyOiPHfqGJkRfrwU78cXranFU54W2JG9k_bp_2muXrxXnKvjgv3ZNOXOyQ8nC8YaG1jkyP8fHyuBscXIUuAXiauHJaYk9YAtJ2zTe2yHaCV1EgE_iSvgX4_Yyw-QHQjOh64ml96_ukE1MH9jeNBn-4KuGmaQoTQ_21Z0WXn0gBvYYlsDUzxttuyE1sm0a-3bSZd_ZsDhtJVIwjtPW8dAORMWwmxb3ifFmKu1DCaKTrsVSyltjVCyd5KfSdKgNR9T-WojsiI058j4JivYdRdUlFtSPTzilRVSQWuLKqOrqviZVBM-7QSQ_rSqJksWryQBaAAec-hruscAffO0-ltZubEZUC48YPr0ZYB8-EVQZsasBbBwwXxMb8G4esuIk1MLeU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcMpsPmPcbjUP-0hjVWQhnqKrT5Y3EQOIcH7Vb6BWbO9R0HaE8d9st29w4PyZm023VUTigmSL6jwlroXo0Rasp7UTDKDC9Do898tbJU7Vtl2b691vEawST9uKMZfQ6PyweQQsUbqq41aH30V3VXSDrvc_8hAlwxxMh7y897BWAlA0mqAPeJKsSNNuK0DxCrwUbVfpkHyHDSueO0m3ejRNNt4p58JKScgnKMp--v-DJOzdU6n6eA1qz6d8UV7i6dBcxXYBVzlO1o7ggM41SBrO7G98xCIMq6zZ5Vsu-HKBY_UaN02CKnr9w-_lW8S9ZSpmyPQNAO567EDVAehXOB4RnvrzstSDums33D7uoaxClVakC421a0PsNIfss2pr5i_yNh088LKfbi6OHpPS7cq5BCqoxTUvsbAWYkUkcTH6V5lg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114057701983169265215\">Adrien Novel</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLezdpphFHtlTIkEz14jwBD76R944JH5GG6YxucM99_Er4kGctfHZSnaD8MhhyZr5Q0ZkYSvtyu4PQs7qdBFvZHWnizWIfiCAVwBRzVb5WdvKIWw3kPYhxg-isBNmr__0xeiOPovfXxMvO3cNmh1koEiPNLpHmX5lMaT6fdVFmN6t9M1yGMuKPbO6w-h4hphqQE9-pBbC1x-_YOoIrGQCsyTj8q2wYwn0hXlk78_gfv_6kKYhCX_Hx4BmxyMDQlzBaHUrjs1jslKfeImRjrV6fuJkkxYFKfefg2-s71iKegb2lcXKbYeGZ2a4FZPS1Cz-joiwoCO0Nk1RivluGRKeabsopBBVHwi15u-1ST5sXGUSMw7bymzIDNDgMBpwNOTd9OrgtOc5lJ3oq2XC2jmA0wdDJM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116372776673605191954\">Délices de Fâches</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5770
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Délices de Fâches est une boulangerie située au 29 Rue Ferrer, 59155 Faches-Thumesnil."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "delices-de-faches",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5770,
+    "changed": [
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "ad611d5d725ec2d531e3d158af8c761e1d4e76e3328793063eb293b29247bc2d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

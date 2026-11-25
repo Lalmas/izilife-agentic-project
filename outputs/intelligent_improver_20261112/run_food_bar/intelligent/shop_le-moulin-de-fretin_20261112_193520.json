@@ -1,0 +1,611 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:35:20",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-moulin-de-fretin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-moulin-de-fretin",
+    "status": "found",
+    "data": {
+      "id": "5599",
+      "name": "Le Moulin de Fretin",
+      "shop_string_id": "le-moulin-de-fretin",
+      "unique_id": "66f2a3871adf5802f5aeddd58d8d8ffb",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54859",
+      "principal_cover": "54859",
+      "qr_code": null,
+      "phone_number": "+33320717890",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "33 Rue Pasteur",
+      "additional_address": null,
+      "zip_code": "59273",
+      "city_id": "36",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.133568",
+      "latitude": "50.5576459",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:25:01",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:25:01",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ65VgcNTWwkcRwuLnkk4Szjs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ65VgcNTWwkcRwuLnkk4Szjs\",\"rating\":4.6,\"user_rating_count\":692,\"google_maps_uri\":\"https://maps.google.com/?cid=4309402022121562818\",\"fetched_at\":\"2026-11-12T19:35:09+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T16:24:07+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Hervé Beauvisage\",\"uri\":\"https://www.google.com/maps/contrib/111470011746353072677/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIS8Nv4W8c4LOWKWg2UOBtr1R_moCx04MIVrcCAXz8lkVJk8g=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Pour la seconde fois, bon accueil et bons plats.\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T12:35:48+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Jean-Claude perreux\",\"uri\":\"https://www.google.com/maps/contrib/107731532797567357944/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVxgqkHvNtfq3hiZqXVrIp3cfpbTk1C6M3-iM1QFXt0yj8MHlVzYg=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Specialités du nord delicieuses, un accueil chaleureux . Staff et patron au top !\",\"language_code\":\"\",\"publish_time\":\"2026-10-17T20:11:25+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"L. S.\",\"uri\":\"https://www.google.com/maps/contrib/106471111109867318874/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIxxbu8Vv5X2YhVC0t-CvJXmebLhCqR_KrVhPyevuzKCeeNyA=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je vous recommande la carbonade flamande qui est juste succulente ! Ça faisait longtemps que nous n’avions pas mangé une carbonade aussi bonne !\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T19:26:06+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Cathy FRIZZARIN\",\"uri\":\"https://www.google.com/maps/contrib/110671819133767585257/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX1Bn2jcYM3oRDWupNIj_y-EJxJYlB8je1rSROAqfiESTN-8qk=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne adresse, ça faisait longtemps que je n'avais pas aussi bien mangé. La carbonnade, c'est une tuerie ! Service impeccable et très souriant. Je recommande.\",\"language_code\":\"\",\"publish_time\":\"2026-09-25T21:06:28+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Jeremy Debusschere\",\"uri\":\"https://www.google.com/maps/contrib/100902438742408620906/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKuNmyg854ZA76D0g607553XDmPU9q0DS9jFEa6OZ6hGdz_SEQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:35:09",
+      "google_reviews_place_id": "ChIJ65VgcNTWwkcRwuLnkk4Szjs",
+      "source_id": 5599,
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-fretin",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fretin",
+      "string_id": "le-moulin-de-fretin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54859",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5599_6af399bdefd0e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4660",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32355",
+            "source_hourly_id": "4660",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32356",
+            "source_hourly_id": "4660",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32357",
+            "source_hourly_id": "4660",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32358",
+            "source_hourly_id": "4660",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32359",
+            "source_hourly_id": "4660",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32360",
+            "source_hourly_id": "4660",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32361",
+            "source_hourly_id": "4660",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-fretin",
+      "google_place_id": "ChIJ65VgcNTWwkcRwuLnkk4Szjs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 14:00",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 19:00 – 21:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLctBZMzC3F9iUHSmjNzeHLEFVyNfokwIUjKaVF6psZJT-JcBG5SUzrAaH8kmM7W-tesi9dZheeq6Z-OSxKtRx6Snr3KxBKE4mNOvOPU-AcIQvOdz-LVcnmg-OUDkvHpo_FR6kpcOP5ex-qfV-LJ7tCJ8XLRp94dVtMpUR_aEfIlpzz5R5J5L_zLwUzpIah5XDLLpIlFhJNOICc7-ln8_DF1JSdxNEqX8_Tg29DMpch6BNwWJUQ_6ooVWjtag1_yrPxNAKHQVAz0YXKWdDITz3FtcG82R6mFSBTPYxqQ5Bm1Vus4bSYTtVMfe9RMRR9OeUcUmypVytSKr6r6qGJTCY0oKEymb1t_arDB0UBkC85I4FjN_o5UMu_c4GS5tCGFTKFMqXcMzW9qKOYJxsS9JGvDnEBg2vDQqOkMMUS6V6u8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102997654663130210503\">Le Moulin de Fretin</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 2592,
+            "photo_reference": "AV-0GLdFZY9jWugedE3y8lwnffqKDTzxHD_tPW55JDJ4GMQxBC_5XsMIZd6H71ApVo2Xh0_U7QXXvH9jgXI_FmAJJjZjxoYO8oKx5Ul3bxDd7mocZ5TgdHuiF7b23FC-hFjz2c2JaddJ_ihUNeulm6wCLZ23kJcICguQyjDYCm5h6MxotT7Mk144zE4qGCVNclCCGMMV81wwsTVMvIH-I1q0QeI2qjfEQ8ZnMvlhgaKOUn7txhSTcxsjxrT2zk6qL3bMuPzPbMWcvemLTXGi8PtQT8NxiMD6CFuxQ5sdn925uHRr9iCwx2StS10ZO2NP1qJ_9XknfWPVrDjMPihtz5rSyloIDEThuiPw-0JEyxjGJux6uIyADXPzW95vaaw8XLa58amVzm9ntV8Vk1Vsu3NXwgvcgzrDWzg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102997654663130210503\">Le Moulin de Fretin</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLcYiURQWVs_5cC5XrtoAMJvhRP3Aj6mK8Gn_ARF8xgk48ZpaR-JZJDTa0XME5buE6wGfScWy3TzO1GRKs29pslo3X5mJgzRVQae4bEajSfNZarK-gtFxy2TmF2U50WOXU-rDwVgYkAheIYr5YW-ALJHTi1wmmh0b-2J6O8yO69kKheZYQGq4k2OYBXjEWd8Ap5kN6AGK84lAPMttOL5bUzQK5wXCSgi0XptEPV2GvXEReZvGgNJqdSegxsARtOghPF0U3uMRnkeRbx09fj2EtwImm22ptfCG3TXiUPf-y40Ky6pr1RBcWSTau9JfEklPW0xHab0uqr5eKE1oY4s8ut6idV6Qu6PJT7gfMRlDPWrIkcK91eTWBlsDV--0ExLviFQCnH3uP8mJk3ZJNmdbCflY6sbZyAW1o8nUsCKb73kxQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107692597457373471470\">simon pemblington</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfft-jaLQkuS8qRCSyEqF1SZ7Cz6ezbn0AcYpEerCFcOifB4ng1w8QrtKGb5c_PZufvZ_F4ibVh0S1_qMJrlfjnBA-tit55dizeEZyGz0PF7Avk08DpQ5WplcQSSPeaPQc9P0QAZhBHvm1pqe5kVAhgcAJy8l7abBuLcuroK9DlTmqX-GIBSlaRXhBZ9uExq44-jqe5FytEopLm6Sr1jukISxHNwigHuhazOBelnCATI8-uXcaUTdRxibKNpvsHCSSMi65mIiedL0DeT51MMnkf0wJuo2T72upZp8PLe9mE04_LLdsg_W_61ulp9SGyL4M-YOaQxolFiNzNNXp99ZdeAj-eKhVpmDFn9TmJdui1o1VM-5VTka55d8AA-r3706-y1gOn274U2tG4sNonhMWpisVWW5yQCbIYlcxAV0ZkGA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115278025483568322392\">Cyprien Van</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLfyHLOeKYIP0J46ss8K4_ECHUVICMJjcdUtgVPlHcerI9fPUk7cj8_t1dr9VXtTGPBiLBQW4ULlo0gMk2K-Ij9lA-_W06eVg43MsD0204dVcDDrOZ9O5fEIzOmyO05O8bvEWjP4lm57OC0NO7XWbBkI106QsQ0-UP0RStXU2b66WJoD2r5R4mFwGpHne-sjBNuQwsLRAO1YBDUyNZAeIpZZwDxVLSnrintpHd_IBfvkOeByD4Wk4mFI-CmyyLVPAX4jFlb8s5B2I6VgxhsNI3r0RgrSlydG8qk2FeIYH4j1KVejDTIb_vmxi4NxF_fN5tK_Gec5I50zC6sm6MOWJbBd_Jp_WTyXyydMBZ3ARQYwNq_N9_KObzvKshIxDxFQ_1HQbq-UypUSoQWKCTZ7MKa1iIs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100145778081888643955\">Mélanie Caspar</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfVw8myfb9LWNEbHbeUwPYLlv_tvj2xd7qyVsIpbvpEzTi-s3fuYjYnFDLc87FdKcyD95uc1ZawaaauekW8XHXNHGfPB7MqAHZugzDZVzRc9YUVH4cX9XyRkBaaMNVELTT0XT1mhjJiJ4uvP7FityPcrmnKop9hpM_c3hYVGf7b9y_T4fpprNpB8s0sQ1cTX9Cns1MmeUcEP7a6ibcwj4frHDEGco34PsFm4sCNMm3kK3NvO5SMLJMhZSo-77reIqUPqjJyRryQHT9nB0eSSqsMTrede9ls-HsWxq-87Lzr2_H3kj6ZVWToSKAJyREkkPnZ3Di9lNqsN_e_2r0YN-_4EAqd2afSb_H36_YNmSncZ4UGwbmxWc-qKS4dD6xEeikI8H1CAwVyYJCSwVAZBvXuuxI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103042037089791561872\">Thierry Dujardin</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLf1_zjyqPTctmDPjw_ZP1Utf8dTRqMs1q8natjbhAsetMpJT1C3KdM11Mswg07auqOjSGWlKn6j9QHWp6tuDclrrRxorcoW5jXz8TFoZs-iS5GuzHlooVJBUrfUP5BimtenkWFgbjrB2sBmdro_Ak5T9p9O3vcwtVTe9u7KSOu3POnP1LFKHEBZsig2m2pcIftrYuNmxFlmIIqHtunZbZNKLgD9fmYONaCTRUw9AUx62Ke1Wti7rU5DpiexgA1jIgtVxoQK5PA_Q9eB4D2IartHSGAW7iuoDvdV5EJeyEfh-f3VRebWVfRcBY56jcV9h4lQzCbsdB655TNKgTgYVba9AtKkE0cGIjXNuNv1KSa3jAdrfO0gMgw-t_SXXhYU_472HMZURAF8E0oVGm6BGCGaaGE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102115710478384263142\">mazeos mazeos</a>"
+            ]
+          },
+          {
+            "width": 1816,
+            "height": 4032,
+            "photo_reference": "AV-0GLcahpasu9vj3R-bOCF46o0DPOc9CLtSOig5DG7LSE3cZZ-5PMwl0Df3EITpyh457ml6XKDRdbVVGsSucg6nwgTqp_aP_i2TlVWbVacAccT5b1rjpWOV7CNJwb8hoeQXE-5eUaJsmkVzY7h-1phJ2FNYnIrMNJ1mWZbSFPLRZBwy4AfpvTTIXb6l4qONCtjX8hYYdXE6REeyY-E5nE_0bfQUNFbeuajGK13o77XU3x_vNgWoa39Wog9_z2Ss3Uf1PCNlDO8IohqtU2ev9HYCOC2eKnCb9RmICUQLI1lJ8QUSid5VJpJ3xHeQMQHECl2-41knyBA6Stfx1i1yGylzLc1QvW7RJ-KemNPB7aIypcYAYKITFqwx66yjHB8SRYumJsTtJwBXTYfgDAAX8TpQhedRhl3_Adc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108424868367844116523\">Satish CATINAT</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfHji982dkATBbJrAqfTiNNq07Of36qjICARaDRn8m4l05KVl5e0ZVNxy0Lwt2YE27VmEvmKZUg5fEk84s7_ROXl8eArAIbTOBaudKkxXHJeFkSFrN1I4oaw28IqCl0Q7_sV9lnz8Z0c7V9WnbswJomoACsp23v29YM2Gv2lJ_PYZ81kDoAHd2IFhjdwtcYAhRkUP96fzo7BAqC4SPUIH1Jt5W-biJ_KNvY2SuTiS_RrRnvihMY3cQUta3qboT5VBQxtUPC_Z8mHRDNwmqjOficrTz06Y7Ez34b50dBlPOO6R58LMaYupy4JgHH9l-Bz_gxxJdHjZccWWDBdpKZklNJgZCHzsNz8nhPLS8F1kUj5mBOB3GHp1EJHKrf4EzjYdgti5lKs1QjqSTlGPBLlaS75z5zVrM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112348064640096534551\">Marianne Delcambre</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLfs97ScAMc7UaLli7YLIfwDiJMeG0VLkHdiyoB7DnzrQqkBzwl3Kos8XYcQSGfVZggUYoEGKGp3OkJTUiE5j6Tyf81xNpbfL3FANSVJseqDrGy-RX9Q2HyxBwgQBrW-s92xNI-u4d2YDSLVBmQ2bZj3B9fllaDR3fY3jYKFRSMNfQ-5RmNqvXrbQj9_FrbIxqGo3_MHySHru7NooE5hqrJw45bidhB0RNtR7dOFn-DV4iSLb-_aJaLFQIc36NAYkehP5kQSEQN62TuBVBG7p9isK8gnqzZs7glwftPR-cH3SosO920hYtzVRS2uRAXCzog1HrgO5HNy1Pyo_TDPx5kKOmo584Kk1RXGhdvIcq68TyE5qz5by7oapE0RiB7vkKTKSQK1Yj4GvHtw46Pm067ESEfemsLf_cKh3984QYib1A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107692597457373471470\">simon pemblington</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5599
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-07T16:24:07+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Hervé Beauvisage",
+              "uri": "https://www.google.com/maps/contrib/111470011746353072677/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIS8Nv4W8c4LOWKWg2UOBtr1R_moCx04MIVrcCAXz8lkVJk8g=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Pour la seconde fois, bon accueil et bons plats.",
+            "language_code": "",
+            "publish_time": "2026-10-30T12:35:48+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Jean-Claude perreux",
+              "uri": "https://www.google.com/maps/contrib/107731532797567357944/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVxgqkHvNtfq3hiZqXVrIp3cfpbTk1C6M3-iM1QFXt0yj8MHlVzYg=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Specialités du nord delicieuses, un accueil chaleureux . Staff et patron au top !",
+            "language_code": "",
+            "publish_time": "2026-10-17T20:11:25+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "L. S.",
+              "uri": "https://www.google.com/maps/contrib/106471111109867318874/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIxxbu8Vv5X2YhVC0t-CvJXmebLhCqR_KrVhPyevuzKCeeNyA=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je vous recommande la carbonade flamande qui est juste succulente ! Ça faisait longtemps que nous n’avions pas mangé une carbonade aussi bonne !",
+            "language_code": "",
+            "publish_time": "2026-10-16T19:26:06+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Cathy FRIZZARIN",
+              "uri": "https://www.google.com/maps/contrib/110671819133767585257/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX1Bn2jcYM3oRDWupNIj_y-EJxJYlB8je1rSROAqfiESTN-8qk=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne adresse, ça faisait longtemps que je n'avais pas aussi bien mangé. La carbonnade, c'est une tuerie ! Service impeccable et très souriant. Je recommande.",
+            "language_code": "",
+            "publish_time": "2026-09-25T21:06:28+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Jeremy Debusschere",
+              "uri": "https://www.google.com/maps/contrib/100902438742408620906/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKuNmyg854ZA76D0g607553XDmPU9q0DS9jFEa6OZ6hGdz_SEQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 692
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1100,
+        "bo": 62,
+        "front": 1038,
+        "estimated_cost_eur": 2.5
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "populaire",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "user_rating_count: 692"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "un accueil chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.73,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: restaurant"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:00 – 21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Fretin proposant des spécialités du Nord, avec notamment une carbonade flamande recommandée par des clients. Ouvert le midi en semaine et le vendredi soir ; l’accueil est décrit comme chaleureux."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-moulin-de-fretin",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5599,
+    "changed": [
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "705bfe8f4248f4bf13aaa0ba5447f1b05a196d99fd4d8962efc36ac31eddfdad",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

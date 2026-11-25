@@ -1,0 +1,85 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-posee",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristic existante : ambiance-posee"
+      },
+      {
+        "string_id": "parfait-couple",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristic existante : parfait-couple"
+      },
+      {
+        "string_id": "parfait-pour-un-date",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristic existante : parfait-pour-un-date"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_couple",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristic existante : parfait-couple"
+      },
+      {
+        "field": "is_adapted_for_date",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristic existante : parfait-pour-un-date"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Un excellent restaurant. Les plats sont très bons »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiance existante : chaleureux"
+        },
+        {
+          "string_id": "chic",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiance existante : chic"
+        },
+        {
+          "string_id": "chill",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiance existante : chill"
+        },
+        {
+          "string_id": "cosy",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiance existante : cosy"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à l’ambiance posée, chaleureux, chic, chill et cosy, déjà référencé comme adapté aux couples et aux dates. Les avis récents saluent l’accueil, les plats soignés et le repas de l’entrée au dessert."
+  },
+  "meta": {
+    "cache_key": "6ffd10ef6428d85580c7180740efb5a6e7ef8f8afeb14c438fdd588e118750cd",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

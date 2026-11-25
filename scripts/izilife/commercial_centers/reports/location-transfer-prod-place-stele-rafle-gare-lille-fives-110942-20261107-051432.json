@@ -1,0 +1,103 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "5a850cb98529e48be1fb8f796bd976ab0adf258f01895fb89c2f9da72031a499",
+    "source": {
+      "id": 677,
+      "type": "PLACE",
+      "ref": "stele-rafle-gare-lille-fives-110942",
+      "name": "Stèle Rafle Gare Lille Fives 11.09.42",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "EQUIPMENT",
+      "ref": "stele-rafle-gare-lille-fives-110942",
+      "name": "Stèle Rafle Gare Lille Fives 11.09.42",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_EQUIPMENT",
+        "target": "stele-rafle-gare-lille-fives-110942",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "PlaceMedias",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlacePaiementMethod",
+        "column": "place_id",
+        "count": 1,
+        "excluded": false,
+        "reason": "Référence non déclarée : stratégie métier requise."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 25,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+      }
+    ],
+    "can_apply": false,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "stele-rafle-gare-lille-fives-110942",
+      "source_id": 677,
+      "source_updated_at": null,
+      "source_fingerprint": "819949e7c8019fad4ff71e5f738c3fcc3f8d8a2099726452e6e52499ee87ebc6",
+      "destination_type": "EQUIPMENT",
+      "destination_ref": "stele-rafle-gare-lille-fives-110942",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Stèle Rafle Gare Lille Fives 11.09.42",
+      "destination_category_ref": "oeuvre-de-street-art",
+      "destination_category_id": 74,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_EQUIPMENT",
+          "target": "stele-rafle-gare-lille-fives-110942",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "PlaceMedias",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlacePaiementMethod",
+          "column": "place_id",
+          "count": 1,
+          "excluded": false,
+          "reason": "Référence non déclarée : stratégie métier requise."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 25,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

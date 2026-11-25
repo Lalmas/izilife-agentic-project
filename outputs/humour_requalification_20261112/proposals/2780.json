@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2780,
+  "proposal": {
+    "event_category_ref": "one-man-show",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.79,
+    "evidence": [
+      "Le titre annonce le nouveau spectacle de Sacha Ferra.",
+      "La description présente un spectacle humoristique et personnel porté par un seul artiste."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La source ne précise pas explicitement que le spectacle est écrit et mis en scène par l’artiste."
+      }
+    ]
+  }
+}

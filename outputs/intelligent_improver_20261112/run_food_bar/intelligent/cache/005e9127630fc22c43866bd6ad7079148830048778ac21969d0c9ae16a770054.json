@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 17:00 – 00:00"
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 20:00 – 03:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur les prestations, l’ambiance, l’accessibilité ou les moyens de paiement.",
+      "Aucun avis disponible dans les données fournies."
+    ],
+    "summary": "Spot Factory est un bar situé au 11 Place Jean Jaurès à Carvin. Les horaires indiqués comprennent des ouvertures en soirée, jusqu’à 3 h le samedi."
+  },
+  "meta": {
+    "cache_key": "005e9127630fc22c43866bd6ad7079148830048778ac21969d0c9ae16a770054",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

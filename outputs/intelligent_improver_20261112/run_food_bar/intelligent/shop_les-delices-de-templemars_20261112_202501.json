@@ -1,0 +1,487 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:25:01",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-delices-de-templemars",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "les-delices-de-templemars",
+    "status": "found",
+    "data": {
+      "id": "5802",
+      "name": "Les délices de Templemars",
+      "shop_string_id": "les-delices-de-templemars",
+      "unique_id": "df8080db5e40e1dfadce05cd4bcea105",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55056",
+      "principal_cover": "55056",
+      "qr_code": null,
+      "phone_number": "+33983016433",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "38 Place Gustave Delecroix",
+      "additional_address": null,
+      "zip_code": "59175",
+      "city_id": "83",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0545847",
+      "latitude": "50.5700971",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:52:01",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:52:01",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJh_vVINDVwkcRz3mYUX_i2wE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5802,
+      "scope_type": "SHOP",
+      "scope_ref": "les-delices-de-templemars",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templemars",
+      "string_id": "les-delices-de-templemars"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55056",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5802_6af3a01157857.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4860",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33755",
+            "source_hourly_id": "4860",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33756",
+            "source_hourly_id": "4860",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33757",
+            "source_hourly_id": "4860",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33758",
+            "source_hourly_id": "4860",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33759",
+            "source_hourly_id": "4860",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33760",
+            "source_hourly_id": "4860",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33761",
+            "source_hourly_id": "4860",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "les-delices-de-templemars",
+      "google_place_id": "ChIJh_vVINDVwkcRz3mYUX_i2wE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 19:00",
+          "mardi: 07:00 – 19:00",
+          "mercredi: 07:00 – 19:00",
+          "jeudi: 07:00 – 19:00",
+          "vendredi: 07:00 – 19:00",
+          "samedi: 07:00 – 18:00",
+          "dimanche: 07:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdAoNjfGM9SGD362-TSpVja19onpcdE3qJiubFwdTxuNakL9qeeYlfmsZnRGBHu7ltguSEleeHykfLroBj8yyv2hsGeBtCnyW2pgnj08Qw2WsyIl2OpBE7_Vh7Q4wkXtcryNIzeXM5HZTa26ZQtiKORegiHDRFxmdjIGJmUzsZeZ51LIhdv05P3cOqyzzxgazcLZpsoRy9_U20ZlxlFKizhcXGR8rNjbMIOCj6-fl6zEcq71ctCn_u6OqJ4u1KTOzVxyQ2qPhdL6tdAUbHoHKvhskyePCOyofKDNBmJiqsJcF_yV4ABgD-Z9j6OWufokj3TCh_A5ACyTCIdfQC5Ccqvcv8Qq-Yb6aySIrnj3eJAJC9Mzx0WtgvDYPwtPwyvyr1gLvnujR0AW98qFSmCiTlk_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeK7QsKucopwN4hlhOY5JND66tgOHOtsvF3DtvdExWnre0pbftQa_ZC9i4v0yhPD9Ho6Uwtlp-1DLZ1YaJ8O4wc4tZKBKri6Xo_MBKlmF_FKoceyFMuCpQQaFhp85OQ_UJdLVTryP3qrUMB_ON5g5Tnhc4LLDjV59K1nAEjCyxN2gsUYPF_ap3I0iwvejok-H5SbgDqt97d88neiTuL7bgdBx_2unha5gzHFnT-MEt8AAET2jP2I3PkRf27fTAUhYKPdP1c7b_dlGJuvceUO3dJB1-4MRQaIXmvVWIaF2GVK11MLnOi1ZGar6yMgmzhpS7VAoW0kvKI1fo-KvfJUMcj6H-B7otqD_Qr7I_dkDljk6k9gXHYYrAHYx0M_hsuzMImgN49WKfinksxJBhayDeH0Mw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103306379603625395931\">Kimo</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfBJeFbTdEO8XB2xo4gG9bk7dzJjrmVp9J0mzoGlcBj4ddbnTSJAdvA8CIjQy3fK1Stv9Cn_2ihqQ77ZnF_W4Us5PpDp4xz2qb13rsxz6JNTy3tPEcbezyn1mKlSyW5R_rAIO1xA9cJ1Fq32kg4Cx6udD90K9M3Wwwl_Alf_qFkbkMOH8UfCJGmkz18HQDZqbDPotbX4XFH5pisjkXsECmJRPLkO8F6UZ-lBDSyzzPIdRmjxc4wl9GTiqBs1TBiD9VLQvVnkxEQ9jOA01grwkG1hvHcoc9qMzVaTSG2vxewpwJCqKXlJECzILc95noujH8VJvEJxxTM4WyOrxOtK1---KBNqWdXyePWeK8imW6Ok_7di0vWDGSbzA8E-XO_DHvkxX7dx2JVjYUvCoF83Ngu66Ac5a0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcm90-JMROMwJYcZaQdwDJ4u6Pnxp2L4tqwyLTKmaneMdKx1bhEaygSmWPLkOcUetqAc8LMYX8jszsEMaidGTDZKPic7EE5kDdUa9Vix4jtq_fpASCq5OEBBRmTxes5i4V9ryg76YyfmQQFF5QjgzQndGUCkgXNS6onqDM3fAumF6la6DYoDgnbPjdPRhTDh4Zznjl6OKN2_B4uo3kxWVkDiiergHsVIxEl4taEzNaaMWJxPsQ2im1natm7hUk8J5dDeYCaBmJPn5KH3d8uVp5h_OFixEEbQ2zhB9P_Yl16_l25cph8_3xklfBTDLT3daNt66i2rz-3k3bQdFzJH8-kw8aoaslI3TK5Uw4ZgwBoS5N0qTtkTI67Xe_E1LG4k4QTb6Rnjtb3QDPLOKG9cTjIQU1R",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdXPaFFYcLBOpC6qxE58v3SdzUfZQkGSDosm42VrcWFDyv9iePlFuM64QGpdl4MbijROoQlQKYFY0U0DHVENs_p5OcHlaZThfG2y0prA9kElYX3fA_4s1wYsaWTt53PPPORup-HeinVRxKMkZ9qMlQZJqPhKIGk9CLT0c2uO401I7kP26jIpJhuzlNgVhDRMWlzgeBu6BwyXs5lxJVE5KOJbdNBho3mQr7froIYRgOjIXHttaRSQmSziYpfGOHJ-mfH4AtxvTSYmtj2XnJf1aT5jr0trnXkGJbZFmy2X80iJkoTWMOc9dpnCy1QA-rV7xrMx3tRI8kb6WDdMdwbFXJa2mgtuLz9Xo9i_xR_ncg7TRsF9U0SKQMgeolUt4BF9pwu4ZPFTBcJ3e0xeymh256B-rU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcgdGplOjXgcmN-BVGv1keVvMp2-kP8aEO_WvSx_ioEnLoX9RYiUaUWzSvW2lfnW4pReeZxcxgamswlVjF0wlpxb3c_GRHtfpah-sj3K9KW1iKjQotiWxrgdF4mVrtPnEEGJJnNcSA-5FvhYW__egabwNZxVdZVOFGZkSaVhQWmzEIjr_TsJ2r7DdNtUa0SYeBqPW-YuXMf5P_Csio_iMuKhg6t_-iikGuMqXdO5E41yCvXyCO7NLRJCEUQSIL6pzqQl7XXoGtsJcS4bW_e41-3ECC7ZScL1F331JhdRwvHWUwWsu-Ou00Jtz41XvFIapYV3grxnOVDktFTg-aKSQBs-QCLMBYrdDnZRWt2MOjGKcaWt-TZTNxSyaw07a2p_NIPm746CiibqgCMey6-sUIVYy0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104252767240224179663\">Julien Desintobin</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe4VRp5hmKYLV6qJp0DYsbUne_dy0UdlDTyxGdDa87uMMre-KPyUib9G0r3jxuP6f6geP6CwB6fpcA_TxwAPasgAbrKlWvnRSbduR_eas-DNRTyXFz0UlgLz6zYlWfOsSpcPiX7NlQZQbnaNJoJ_UPvl5NLxh0aJxoZqIdLjs0GR16cHNFj_d3Nx-oZed755SWMUCtcRQuUkAiqyPh8Zb7T3E_HTeKH-C654dOPHa10ZUbvfjIWketnwfmhZJU87SovSsTa9jXEACXpf4xefY4XjWJdUBBtBQ2uauLveLKF4rCV9IN_owQBay68hgEdRI2nAxm2gNMK4Vjp1TIbVdBIWxav_ny0jPIOj3vZkWQroI0eCiDH7eUAKdNchXD1q8nIT3HSTYrYBvxJSypI9b1Mh6s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdwC2nkdzfC39rEG79aQMw0XHEibkZEjiWXFoqkXI5BY3tsboZRXNhbDBWU2q_wN8AtnvxQD0ikTx1po9-ckt5CqmTKHKmpiZZv4NND2b133VwVs1Mn6SnOu7NyOVWB4og6kO1dJrs62LWlVVP9TCacspKXHcdvcfTRwinVzkHgWu97aECf_x-mV7kHBPbVUw2cIQkZ3cns1cLDoyLu-6_PvMjDv2IAx3AbOEeMVNeWEkPKwNoaaZlUzOUCn_H_9lBEfVIAI3uuKaMrXaOVYC1GozAeSxtXQW-wd83KRjWi6FrapkJ1YXYr1XSZ0rGGSaVWVHadS3Q8HXkuMeLFjAirPCBmTzgiIpOHPVepc7uqTdn24NDeT30GZ_Kj2S9-jrnm0qgJLAxykUiDbyVGJHpAWYNkIZA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104252767240224179663\">Julien Desintobin</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcs9dpxe9I-kLiD9KX71Ws7tDCoJVOQciq7OqnSk1_7fx-bLMTaMwq4fci-xPsL43oipzdsnXxTjhfSWrjc5Ud7TgnOiOO1ulvmsdo0iqTRvgOKlVV6yztvjfr8frH02CBy51Nf1vCnf_b5KgqRg4Jh4VIA8SBxcaIuurzXpqW8g5VurJOi_kPbFPr-tFOwTCn-bbFHO66lNYqzuGW0hALAm59DWzGLHbvndiVqgRfZ5qzd-4NKLIACoo6OvXzzOEaKSseYI5N2YYVSdxvLVjQfHVHmpgNuhcHyVbfNaBuF4GfnoofaMm4AJvJiLxGR45gHrCQhGg-qczEaw6wue-byLpdvPBmzZTcU5wKJn_HeTnmjHMXy4LVGnGm4_L8kkQSQ5deEWg8oa5iL5hiKd6gumg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108136799640752781420\">Ingrid Kharraz</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLduv9lB2uEzFM9SG9UJo596ZdExFiObCj_stHewCAPmwDec3jBNIrcrF7YcUHuGkoEagWbTd1yMI6ZhwH4URUe5fQXPiuTHQuOh6-V8xuqpvQdDVY3jCvHZst_VE4O_FjMiZ36eCOSni893o8kl2bgBC3WCMj22-dk4Dus97SFqgmYmDZYI6a1jB3xs4RtPRTu4h9DPQnlCdDQp52hXmig9Xo_WSneJJNSl_4WehAGF87rlwx4vGQ7Sv4OAjuGLCCXgCQfXrTaDMDHVkmdJrIyyIQOSQ_N4P6oBwNF_WtiFMsa6MuKvBqfxbhu8wh38ITzKwlyA4Vyu_2ixYlpbeX4OO90Sizm5huDgbahFcQ-90SY7vHyINVVBgmMLu50LBXsMpCtCkhdtawOw9AG9VrJshmjJa_A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104252767240224179663\">Julien Desintobin</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5802
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les produits vendus, la consommation sur place, les options de commande, les paiements, l’accessibilité ni les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie située au 38 Place Gustave Delecroix, à Templemars. Horaires indiqués : du lundi au vendredi de 07:00 à 19:00, le samedi jusqu’à 18:00 et le dimanche jusqu’à 13:00."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-delices-de-templemars",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5802,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "27470abd8b10d7e33332e2974fc546e6f7de3f899a6eed4ce4bfbbb13b725481",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:36:19",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "spot-factory",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "spot-factory",
+    "status": "found",
+    "data": {
+      "id": "5879",
+      "name": "Spot Factory",
+      "shop_string_id": "spot-factory",
+      "unique_id": "78d730bb8c4c237096a31d44583ce58f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55135",
+      "principal_cover": "55135",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "11 Place Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "62220",
+      "city_id": "867",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9583307",
+      "latitude": "50.4933473",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:29",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:29",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJv7kBce8t3UcR1CZKJlT7H9k",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5879,
+      "scope_type": "SHOP",
+      "scope_ref": "spot-factory",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carvin",
+      "string_id": "spot-factory"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55135",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5879_6af3a2fd074cf.png",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4936",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34287",
+            "source_hourly_id": "4936",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34288",
+            "source_hourly_id": "4936",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "34289",
+            "source_hourly_id": "4936",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "34290",
+            "source_hourly_id": "4936",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "34291",
+            "source_hourly_id": "4936",
+            "day_id": "5",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34292",
+            "source_hourly_id": "4936",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "20:00",
+            "closure_hour": "03:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "34293",
+            "source_hourly_id": "4936",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "spot-factory",
+      "google_place_id": "ChIJv7kBce8t3UcR1CZKJlT7H9k",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 17:00 – 00:00",
+          "mercredi: 17:00 – 00:00",
+          "jeudi: 17:00 – 00:00",
+          "vendredi: Fermé",
+          "samedi: 20:00 – 03:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 2269,
+            "photo_reference": "AV-0GLdmH7dLonD7xeT7e1vPg-ymQnkK16Rus9nojGd_zMToMWsPkVzZ3LDTPJlvUz-Tx6iz6x3hRpt5LOjothoFOBklKGR79o4rpE64G_eIWhF0RAWF4IVlse9QNs73Mx2nxNHv3MPAfEcQlaQsV4M7n_7JUpYwG5Uoo3eftMLjftetpY6Yc9nO-8bKzhAfXAMorHNnUpd70wL3SbYFRw663630qztITs32QyqsBrkAEl5kBA1txnezB3npbVhzvqnZkAVhLcB7zPU0JfVh4op5SmhNHDKqff--SpXiRuxhDok0ZUTu503_AyoMt7ETCKTlOI-5jw6BgSDOV9cyPSs-sNyapnbFyNglevNp9fxhZa_HqV6t8tJFDWUC7ykzXTyqaxtTX_kA6OEwRhW4lY5P3IJTAeByvq4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115372204761253746196\">Spot Factory</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLeRb4v1MCoorcKcx9pbhfPNGVclqkNC4PdI2_EjqrzzXck31v3bMneq0xUdV3srLieqdWTy0sQ6RU2HlmHyRUPPPn-co03TUTH2BzUk5hwKXHGgeLPfttPubGooTTFiccahU22F5MHL4jJK0IJZYcI2mcex2QQPWF5lKsl8Ysyi4vOllXWfojPuzqTRjr2IJRWU566ardZRawieMqeMFGTG88Xbk8TfiQqkzu4yc8ByA3prY46DTPlMoYgP0MmwtH4yCN_qBu8DvPLHTmwQ9JHs9FrwcN-I4UKh7FYXHzLNcJg0CPzjw08UujrkTnlZ0EfDkLmmr95eDH_qa1XgmRCuG_ZPzoFAe2skCqLsTPqcsAY9Joy7TdMi7QJietfxOP1183tKT1jw4bm9uMjSLU_Vqo5u-Rp-CsDDsCpbsrDrgQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108274668005085786643\">Melanie Pisana</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfNjuD28h4yfXAbuHPRO81QRhGxVlGlRLjSV9LUJcJyf-EZC70G2N5XkGmNhq9q9lYmCGKl7if4sbq1s1Jo_Z6omeyKMNG-HSoS2PutEut8xYOq1poZst2f0ah8UY0iA5EpI15KyhiaZswHNfzfLfEORv_9Glb8G62sTZypV6H-dwveKVX45rAeUt_5OC0K2REnvcetP3AtHiToESSrwCFhMmt-8RATnhqKPfd41-F61O3TK95Lv3lkrOdxZy6JlP4z_9pLERmS_Fvd4eq4ArcCI_QciWvtCg5YQVPOlrA5K5Sp5JMYgn5BOx3qzODkWKP7gw1YMP81lavEXKS45aq8ZgupbQ0egjPORtQDDV0H02KhAkBey99A_qzMvCVl-8j4s7Pfj-vkn0vaK59VFu_-I34",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115372204761253746196\">Spot Factory</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLdaS1nBQTpupnQRBGJkOmPYDecpc9mjvzuq4orhSCuB8WC3c3RPBmktdvCaTnjFQa_LHLcpIwbERfXUS4BsWYva1suoC8T5fKeW4DglB-Y3nkGojduadsBT992-oieMNAewm_gv5yagX7WL0wd36ISjuFbE5BXUQZfysyZKfhUU74ufZeCoH5rZsW4v6RTSlH4fBV1ISJw0RfrVm6Lu_kB2TT40aWzjbVSph0A8CQT3h05ydI3HAZSeRafClC0j5XoHLT_z_xGPqcKdzNY0YfMYDv9Ux66f4Yo8exB7EifY8w_1IRthr7_dTZi6utmSBEnCxXRuvCV0Ah5Jy04klTZimNs_hwehzJt6aascop725GV7tb4O03wGacWr665CI1iGN4Xfm6gUOX_vUJV6a5JVjK51aMi1cA73VEOOzjnU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109734014871170829839\">Cathy Duriez</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdoYlybEBsJtulItAncpTUBg9AL_sydDudfiQXjJhv-NRWIuzKBSN-0S43zfzXbizivN0yfDBbmEzrL_hwq4yXTZo_CVVSsAQLfsu4-PhBO9L521F_s-4Za8gbDUQnGCJx-vJXgVZLjl3KAJChvynStVS5xEMOomyPludr3BXd0U9qoWlH373rXmDnplvGxzzN3-08rb_F_x5oIJQNQDhBgUmiN5FCbeIB50NcQi32qkruU6mmFcurxXW5Nt5L8_-LA6TW0g2m-D3Cug36VAWKxuYCt9keZGCnoBBq3o6LwoJPhIuSODY8rJaWQ7OBeOcK-f6dILUrK9a5C21vjw05pCspFwPp6_tCRqCDI-1XGiEx0FMge32rg7SOCtphte6FYJxmyQ0H-mogbEm4Xvx6-Tozq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116430324874565936667\">Antoine Desreumaux</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLcq2-exmCtty50_CnhTVVRf79-ix48o4z5-_5bW_vWgoNGmCh7Yt5h5LJ2Yp_XN_CU1kXVKAIN3Vj5lrCz-7rNSwNoC7zJQi8PbfR8cVsfv_gt2Lzpz76lVvMsvOoqprVQE4k4HIz1XbPWWQnqTsK4Spo5jYK_aluNTG4EuaiB8sbCEUQdmUAlNzKlm348lvENIM2glv1bk4jx73-QlafIQe6HnGBEnC4NWWeIoCaB-anPBjYwcA2Z2shhG2n8NKfNKtQqGZMjLP-ZYRc03wYdl8ez55ha0yaRYffT5T2D-aGxGjexl5CcSUSsfzcvIv3G-FWlCekvu1x60MF9nlFtdEMWOVP_n1hceID-shHITvBQwvwnK5eHieAT556dZOFVerqz5tany_1WIaWSuzdSoUQ7YrMJYP3l-4J2SkEq3TQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109734014871170829839\">Cathy Duriez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeBHqrZesAhso-5QCQ3bIO3EOsAvuos-Fxgjz5GXVZCtitMB0Qe1Un-7TyN_aG0ZIYBgmgWZPtNFe8ui9_DBTJsMTg9WLPXqL_scer0RQmU93WgFJDWkBJy8l3pkhCsUMnAPQfYgY8dI1Iiklrr-UWnD1dB5CUxLsu0fSccg9Ub_zYkyzsf0WkwA-oZrwGcmANQWxpAT5MXajUaDRpddXwnlmEei96bDm0OvETrYme6qpu-G6Wz3x-tdYLlghJM6_6lTUoBxQ-UqIxOAraAiuMklnLXyZCSoGS2RtwrvGKhjdp9JESc91Iydh5CcyY7ONbA09fA_VUCUI9H_hIfzOJKnQ9QU6Aatat0kmjSFUidqShP6RvJqoPwzLkKnr_10wPNbsFKhlPx2rwLuto1tPSclG8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109767764208297411250\">Dc Benji</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLfbzVz0zGayjSXdHXfw4Aruqk2BOtgdKmdxb9j9PPcXg4OQhEbaB2ETyL3a_yMfK3fyKYcuk_16ePaxJlBQ0aqPDMpMr2QV2Mc26-hQ29KF6odOpqfF5WUKE1V-JWibmaKxy4WEsn5DoG3SjI9BF3jMYFf93TCTcYW7c7XMlDCIe7TqBegVJgd4fppKmYZQARg6S40TAHKP0jl5y5Tm2QYCBFiev2-C1OYFi77laI1IEwlzSSTGH9GUwAy1ZCo0w6_3Av_4rkom0g8V_d4cXumqK71v5by-BrD9bUWNoDqUy34PVYCkp2w--LZf_q4L2cBGLTloDhKl6Qn1YjpjH1oDlg0QOKayzCBnMeEm5NIgivUT_qy7MMEwKcKQhNlryTeSV9RpTdJxLFGFMhxe9IOs2XtMqd6jktkWNJZ_tvZarw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109734014871170829839\">Cathy Duriez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdgDwkHcF2bKlA0kTQyWje5R8YzB_8vviQrnkO0hZl14HoHrk1EFDrJgrFhYwGYnwpJsW0vQKME32GgVdft_5OLk_7gFklTJZB6ESHU7Th4j-raPy6HtTtf6K4D98fOEm0FeZDCplEBnQGITNYJUYazFr5jKqXW3gew2Gc5QRwVdSE_8gV-7MMbPxO2ZNBxJDGLSGZqNMMZm3X7uBImJnit-k9m2xzrmgWji-be2SGJTRgZ4q1PuP3PpTuKEs7vyUriu09UXfazQqb5rsvSbSSQbQaSaatYRBKGBOIwkNZ1K-gIBmnXvKSDINdCdDazwkFECZBItSSED7Tq9rhm0RAHQPASNJfWNBDHVP7MhXTZUHUrofCRECsRwUqVjJbCwLU6G0r6iwxefb5ib63gH2nSc-hPCUI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109767764208297411250\">Dc Benji</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLf6IaQKwdtEzGqBXyy0OIFjjaiOGpR8_9ZN8PyZAzlqej_rNpsQAphn6v24AIoVeEyE0NUOAOyvzQkACxTDXnSAy96llnWi5MPOqTtIFQYyNK8d1m-3gcVrOdLJExxF7DvSPID-GLNRfUejdTS35xVahoepzqorq1NOw7cfO922CkF8R3cL_mlZmGLOd112uT8vZbWTV8U_ISBh85KPk2SUKh-ijlAwTWAmDTvzJPr1g6Owj3LWUJeteqSO2kv07wUktsiNpRba5D1CI6mM9ur969NKdhM2o8tPuJJhAk3yiAypXNnE0xXerT_HNg-BkSfL4oQCgP7pjqpIU5ObV6fxUZtf55Lo2VjyCKHjMeHqTtt9xw6cZEH7Ev-xr1fbwmMoX3Pk_uc-y9TLQ4MRRyBLKj6m5v6EioBTJ9vD4NKb-g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109734014871170829839\">Cathy Duriez</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5879
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 17:00 – 00:00"
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 20:00 – 03:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur les prestations, l’ambiance, l’accessibilité ou les moyens de paiement.",
+      "Aucun avis disponible dans les données fournies."
+    ],
+    "rejected": [],
+    "summary": "Spot Factory est un bar situé au 11 Place Jean Jaurès à Carvin. Les horaires indiqués comprennent des ouvertures en soirée, jusqu’à 3 h le samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "spot-factory",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "soiree",
+        "tard-en-soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5879,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "005e9127630fc22c43866bd6ad7079148830048778ac21969d0c9ae16a770054",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

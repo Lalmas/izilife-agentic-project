@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00–21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00–21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les modalités de consommation, l’accessibilité, les moyens de paiement ni les modes de commande."
+    ],
+    "summary": "La Ch'ti Friterie est référencée comme friterie. Les horaires fournis indiquent un service le midi et le soir du mardi au samedi, ainsi que le dimanche soir."
+  },
+  "meta": {
+    "cache_key": "f5a2e0062ab63c4f81ffe8027f3b6af66a86fc24bf686f50719adb6378cd0828",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

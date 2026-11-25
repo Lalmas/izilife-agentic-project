@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:23",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-renard-et-la-belette",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-renard-et-la-belette",
+    "status": "found",
+    "data": {
+      "id": "5787",
+      "name": "Le Renard et la Belette",
+      "shop_string_id": "le-renard-et-la-belette",
+      "unique_id": "09ffd0bac0014867d1cea14f07bd94df",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55041",
+      "principal_cover": "55041",
+      "qr_code": null,
+      "phone_number": "+33646537970",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "165 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0136961",
+      "latitude": "50.6145676",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:28",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:28",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJe8RaYIrVwkcR5d-O21Ssxs4",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5787,
+      "scope_type": "SHOP",
+      "scope_ref": "le-renard-et-la-belette",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "le-renard-et-la-belette"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55041",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5787_6af39fb4234e7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4846",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33657",
+            "source_hourly_id": "4846",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33658",
+            "source_hourly_id": "4846",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33659",
+            "source_hourly_id": "4846",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33660",
+            "source_hourly_id": "4846",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33661",
+            "source_hourly_id": "4846",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33662",
+            "source_hourly_id": "4846",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33663",
+            "source_hourly_id": "4846",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-renard-et-la-belette",
+      "google_place_id": "ChIJe8RaYIrVwkcR5d-O21Ssxs4",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00",
+          "vendredi: 12:00 – 14:00, 19:30 – 21:30",
+          "samedi: 12:00 – 14:00, 19:30 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLf61BOh7_ipwx4kocK8Ez5qgd-2B81LWNNS24odrNEX9IWmljeBwTJMVXFc12gAZBTiJtJm8HmOZD7pFgDw2b3UO_LnyfVOJETgMWsl26b4qljFjIovGVsdemN7M4dFdmI5jlaCzI5A63q_AIpi8pv0dOUNvG1ItXiRxfLySoSQDv1crUkD-Ygs-3s51qS8Z1Ii1mpFgZXLQclyqnqlFhHE9fFNcvDEPnJ8oK2Ci-iMFSqV8_7TuDFNORn55Hdeoq-ntuzcLJzo6bqbPevY6fhbdWXCECB_1TmlaFEgc2umWhEEk8MomTzqAZPXgVlZusTuGu-TD7uBDV73EPKNkKQVtfM44taE3_SRM514onfB77UB6fl4nSJ3rIwwvVxi5QrninlkBLnKwL9i4EGGTBrYNEU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102599616343424573849\">Le Renard et la Belette</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLf74Agrt4obQL067-W1Z0Ff_lCuK5u3FupxCuPgvnD-eISZaaGl8qSOkdpoUj9LvbAWfC0ZA6IpZ7aiLaZBGCCGkVv08BpayoTIaRJWqJkosMR_iLPN10CgbkyQGRuGCv3XgzLMNZm2HWR-maGXxGFHak6e22G-c70QaBQUGvAI6qfN2dbsTarDsb8KzOsOU6gzIrVW4R78EBDYZn7mJGMAOCc9wwpDfGjZBpqIGL0pIC1weBBBMlBmJxYJQyHGRHmtne6p8z6QaIWyFcFihJnt8ru6ptjUkF0UQn_yhufT-4f1g4lcjI1QzoZXTR_HeUNrDraGN5LuBfaJcmlzIXW1fxFphEVTdqxg4eSSx5YevpX8uualtVpWm1-dk2iOhVh8-4G-MILeZSlgb2RkY1XZfUDX2v0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102599616343424573849\">Le Renard et la Belette</a>"
+            ]
+          },
+          {
+            "width": 498,
+            "height": 524,
+            "photo_reference": "AV-0GLcv-OCGiaCwotmwWGYAittgkZqiAKNEbNAFwbwYsSFzaCs380U4jD4ORTjritdybYtBDHl9G-vXPV6u6fjkwHHLjGr3uNngI_TWH_ScwpJwoTy0EfD2n-G_GGwb5RQ7BbNtyRhcfDlbw3RZuD2ndsSrlQnOCJGmnlmeTtnDr6O74z_gBcN8Rb5S6L__72HH7RFUriyhyJ7QS1ezDOxGrpMZgrXoGMbUD8-ZfkSW0s89EGcDmiR2HlJLTktglDMWItOV2YhVTE56WTiDH5X2sXTwgti9VWdcbspFLwtf_i1_KrRRWuMQ0U_F0tVHZGLKuzhpydYAQ3rlEFp5vFugXkOzbuBaTCFgsmohb53KMKwdNIEHjFlzA3pywiOHSCTAZB93Vkh1AGVM_Jm2F6LBmB86BCc3KRnKizqIfHBhhrt7cQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111134320570995803531\">Donovan Hoyois</a>"
+            ]
+          },
+          {
+            "width": 1564,
+            "height": 1564,
+            "photo_reference": "AV-0GLexrkb-T1SrbdDlc2F1goKOAQchJmHtt64RM_zULc4OENkML_b3JWFALhiFUrBYmUTN10qg79_z5qi-pMcLbNlZk4mObQhIb6ab2T7L2p-ICMtgqszElTtH20N8ZDsDH3YTYSOe02epmFXVOk6T3h2prInLQ6KpoBW-CsmiSPD3_Ai3ujY0gDzBNad-Zjablbltdt0tUle5ZcH15GzmT3p96te2y87sVP0m_ohb4RhLgzu2BXL54riQ1YokBj_4BKqfCSkwcJQQ10RF9JzAlmMg9ydc_uHnA0zIc0e_6AEkORki0ZvJcyk8IxlmHPu9GasP_qLk-WAJPeDO5VCLU5bBkdAt_3xYE9gVLeZQWFpdU-n8TBk3Jt8M8632z7NVknigFOjJwl3W8V1PM5dnxGfQkqg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102599616343424573849\">Le Renard et la Belette</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLdktN4Hd8Bfh_7oiQE0Mm_tgtnPzJ6pwN2zfx_oIOyRHrO4y_y3eaFA76UBCvJA6rBkmjIlp3fPyW04Fjhlqm6ABoxRv6e31qhvrrKEuF2h6gkSWXNLppeDEcT4Nc5r_q3TsPWWjvgM8FKqAtrS6DBu2LU9aBi386lZBBBOJzlDZBCVLcEP8eAVFUZ5OY18TQ07QNrHPrvkoUVwD-BHFiDUJjXjnr3Rq9Z1sHunXr_ZE_Cia00FWkUIXrQbcUef3AzA9EEqFPXsQzP0TVA1N3AQcgqoYFYt1iiXltIpeI75gE46zTB80iVmYHYMI35BPqj7xTc4jBIA0qDVY3NG71Yokl_ZXqKNjSoyecHzjTuO8lA3IB6rEVK2Ef2W0BwayTPUvKyzeTk8JoumqKEru2Mz6OgoctJvLEWJScMjsElehg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113102590720780673369\">Caro Del</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfOKQUXUUOU6VgVkzmZCmYlr-aaCNWAQpxCWyMh8QAU8huDSvZINeJnMRd4mjIE7xjjXylrm-4zSMmP3zpYGH7R9aYXX5IisjGNHcQSAvzep0s8Cj7C-6BvMbNmggafWfzYsUBLLsyJoYubIRDOeKsF_kKnjLf_-8jIYxfRt-O848pa-RKurkO-qsHvlzsadO5d929dLpCfpq8TJ8kR-_l_mkvzm2SgjFAxljkJoj18qUSWiJ20J_tf47NuRhZENH73_aHwzPC0sytZrg2QxPFn32kIrppwYhxnVqALUn1aeoia-unmk0D69R3NGE8dniR-TiVQCeJuDJshVBiUP4dR51f0gXfqRxbmwGyt-_dH4RfWodNlMxduUa51RegN2r0lRWRllSIZ0-633D3XSeszxWy2",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102599616343424573849\">Le Renard et la Belette</a>"
+            ]
+          },
+          {
+            "width": 1992,
+            "height": 2184,
+            "photo_reference": "AV-0GLfLrxAzgwwb3PUsE_1dkmCvTr5iJ-VN_nXkzcZdFkjwLlI4WQiJWZIPRmx1RMklBh2ouzGPfVqtD8BLQC97e1efSKkaG4BXumToxkDKyJmi11Fg_qyTj8BwGzTanXZPsqq482fFlgZph05TgMjxvonbLsOCjEh187ADozNYQacCd633VyWeJGmCKLExci_YwjJlfq70If4eY12m297bzzh2DtwTeSsmIzhfAR2YpmzCphVwY_nC9C8EdYpHNYKLLY-m1_SFUjohjzUuxsEeyLgW9K7jpSJ2FLcitNnIEELElbNgUHiCHPZ3SMZDfZq4KBVA8WQekDMagWJWE7elqm3J8XpRM7dYI-8Qng7VVMg9sOBNmv5qjTxigA6-MqPx8m-icKGhRLNynllLPpPIIf5HKHH_ZuF5zfNY7BU2wrvE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111134320570995803531\">Donovan Hoyois</a>"
+            ]
+          },
+          {
+            "width": 1846,
+            "height": 1846,
+            "photo_reference": "AV-0GLdXN2Ur-fM4XkmWFjdOTQA0s82kY1umvykwRhuGhRgOesFRXmppwNgY-tNfxJnCSuFPeMo8t46vSeLey_26WgHqVF8QCWVGKFM9PEhEjdq1kEKV_fqw7WKJQDxaui-fvG5AgRqblC_2cw1RhAcNRUDGOAOH0HMVILwmeKZi9ZR6PE8Dly3VKjgvCBOfzmvZ7qtkl1NtRhcc5nKRipWyXe3tM0IQv6md8trUVyKbqiFy2QGIoFEBVr-spO38SOhGoncnNJDGzOkumF5XDJGdnKP3C5qnXjJ3shrEm1z4kO58rbD-CSAe2Eeh7za89OxY7L2RTxIsoMxfrmEFDi2pNpqTuQMAsODtZZNGrxqd3Tv_LCis1D9XjnXu_OliAw6uhlpuWRe9duDCp7vlPoBdxJhUpwUx5VE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113022947522303472575\">Dil “S” S</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcWMzqLjMel2PrcSbTtarukWqZlfQnxNO3_KhCR3oTDTGMcCbE7Ind2khGPVpV_mKGQwy9VkcbHWl_DjyqXm7F86qu-85KUe3YVAt2Vu3n195Y1yNAgQHdDtX3Ugoi_qxp58HYYOkCAr7vatgE9-osd4pVY3xVNwuvc4Q6XOkm2qVLvhTY6UbkyiD1F3bVZwa9F6-Qpiq8weCNwgpHdEh0StviIZKY26OBcPEyRAi-OGvd1P2FUTF_Zz4EzuvZGm-DJNSNqhZMUnP3iFMvholw_lyj7YZ3qxORIkQEXaXvjw2SMav32qLwR507p52f6-xt2v69PJpsLmWiMADdG8tW-eCvIYA3K8-MfTHQvFwum_KpeRMlzPc53J6GjNOhpcWVeCzyt4zdhhAljWOyl2hgQHYw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104647158285690584764\">jean louis decaux</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLfeH8oAxI9GLDlLkigQmIF66pci_hkDtciP-jFS7jafhzlUmJqTPWIUPwSxhJwujdVX6TbukptRz5ayRZuXyfvU6TrO75M2SQ5cT6plzFW5FHj3PvGkBZlbVyjL5XNfd-uCCcW2OSmWF2Eq9c0HWobCDAG1RwOJ0Km7KH9Yvswux0L4H1e6X-S7FquKW6pNwe2vHGfSNrA5KFWzNPFHanOP5Nauss63dGehQtS-kLdU7PcOCVXq8sx_FkHFmZE80_uqMDTdnT5e_UnIroXK_2Dy6owWLiMQhPK2OLV-vpQJw2iatHNjf-vs2lTWBgUwklTqMATg7yeIlBeus0nY8FLgM4VwYSxPU0NqkaPVHUpp08VpGF_q4ikcHzrgFE4CIgg7uv5mOlUQIxF-sqwo78dj7k5z03KW9JfbQ_YUWbQZIQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117925415124440963295\">jessie wispelaere</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5787
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données disponibles ne précisent pas la cuisine, les plats, les options à emporter, l’accessibilité, les équipements, les moyens de paiement ni les publics accueillis."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Loos, ouvert le midi du mardi au samedi et le vendredi et samedi soir selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-renard-et-la-belette",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5787,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c9fb085121473ebdede17c73127d40a4adb923e8fffab9ea41cebe835083c602",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

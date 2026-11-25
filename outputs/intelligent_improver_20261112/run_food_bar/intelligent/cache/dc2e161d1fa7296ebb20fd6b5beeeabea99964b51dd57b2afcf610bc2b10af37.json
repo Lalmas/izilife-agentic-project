@@ -1,0 +1,32 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : restaurant-rapide"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant rapide proposant des buckets, des formules et des accompagnements."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": [],
+    "warnings": [
+      "Les avis fournis signalent des expériences contrastées concernant l’accueil, le service et les commandes."
+    ],
+    "summary": "Restaurant rapide KFC spécialisé dans le poulet frit, avec buckets, formules et accompagnements."
+  },
+  "meta": {
+    "cache_key": "dc2e161d1fa7296ebb20fd6b5beeeabea99964b51dd57b2afcf610bc2b10af37",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

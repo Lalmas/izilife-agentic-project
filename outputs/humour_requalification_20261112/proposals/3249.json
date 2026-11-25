@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3249,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.86,
+    "evidence": [
+      "La description annonce un spectacle humoristique de Florence Mendez.",
+      "Le classement existant est stand-up ; aucun élément ne prouve clairement un plateau de comedy club ni un spectacle solo écrit et mis en scène."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme précise du spectacle n’est pas explicitement détaillée dans le titre ou la description."
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "PAE PAE coffee shop - brunch"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les options à emporter, l'accessibilité, les équipements, les moyens de paiement ni les ambiances."
+    ],
+    "summary": "Coffee shop et restaurant à brunch, ouvert en semaine le matin et l'après-midi, ainsi que le samedi."
+  },
+  "meta": {
+    "cache_key": "d099121075ae01488cc369110e83087d4dcb6dad9be1a38d01ad73ee0462514c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.68,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie friterie; horaires du midi indiqués"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–13:30; mercredi: 11:30–13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30; samedi: 18:30–21:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.77,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place, les options à emporter, l’accessibilité, les équipements, les moyens de paiement ou les publics adaptés."
+    ],
+    "summary": "Friterie Big Ben à Carvin, ouverte certains jours le midi et en soirée. Les informations disponibles ne précisent pas les services ni les équipements."
+  },
+  "meta": {
+    "cache_key": "cc188238f306c8f4882873919a74e76c04a08ecc0cd621351da273d283922886",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

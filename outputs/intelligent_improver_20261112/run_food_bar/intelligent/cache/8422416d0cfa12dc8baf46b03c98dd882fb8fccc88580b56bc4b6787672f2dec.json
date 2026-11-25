@@ -1,0 +1,44 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: brasserie"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas d'établir les autres caractéristiques, services ou modes de commande."
+    ],
+    "summary": "Café-brasserie à Thumeries, avec des horaires indiqués principalement autour du déjeuner."
+  },
+  "meta": {
+    "cache_key": "8422416d0cfa12dc8baf46b03c98dd882fb8fccc88580b56bc4b6787672f2dec",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

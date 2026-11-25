@@ -1,0 +1,98 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-12T08:15:19.354365",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 226,
+      "title": "6:am Run Club Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.meetup.com/6amrunclublille/",
+      "validation_blockers": [
+        "activite_collective_validation_manuelle"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "needs_review",
+      "proposal": {
+        "experience": {
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "hobby_string_ids": [
+            "running"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "session_configuration": {
+            "name": "Runs du lundi au vendredi à 6 h",
+            "description": "Séances de course faciles en groupe, organisées du lundi au vendredi à 6 h."
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "hour_list": [
+                "06:00"
+              ]
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "petit-budget",
+                "confidence": 1,
+                "evidence": "La source indique que l'accès au club est gratuit."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.99,
+                "evidence": "La description annonce un run avec le groupe et indique que courir à plusieurs aide à garder la motivation."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La description invite à effectuer le run avec le groupe et indique que courir à plusieurs aide à garder la motivation."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "VisitMoment",
+                "string_id": "matin",
+                "confidence": 1,
+                "evidence": "Les séances sont annoncées à 6 h du matin."
+              }
+            ]
+          },
+          "primary_image_url": "https://secure.meetupstatic.com/photos/event/6/c/7/6/600_524487766.jpeg",
+          "experience_type_string_id": "activite-collective"
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 226,
+        "blockers": [
+          "activite_collective_validation_manuelle"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "activite_collective_validation_manuelle"
+          ]
+        }
+      }
+    }
+  ],
+  "ai_calls": 1,
+  "completed_at": "2026-11-12T08:15:32.901457"
+}

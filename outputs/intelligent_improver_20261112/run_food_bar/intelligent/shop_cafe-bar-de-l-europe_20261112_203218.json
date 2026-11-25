@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:18",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-bar-de-l-europe",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "cafe-bar-de-l-europe",
+    "status": "found",
+    "data": {
+      "id": "5854",
+      "name": "Café bar de L'europe",
+      "shop_string_id": "cafe-bar-de-l-europe",
+      "unique_id": "96f2124ef0215ef151045d62d85c8977",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55108",
+      "principal_cover": "55108",
+      "qr_code": null,
+      "phone_number": "+33767413120",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "45 Rue du Faubourg d'Arras",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0612446",
+      "latitude": "50.6108901",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:00:39",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:00:39",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJq3YgJ7vVwkcRs57oagjcWeM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5854,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-bar-de-l-europe",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "cafe-bar-de-l-europe"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55108",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5854_6af3a21776c7c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4909",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34098",
+            "source_hourly_id": "4909",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34099",
+            "source_hourly_id": "4909",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34100",
+            "source_hourly_id": "4909",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34101",
+            "source_hourly_id": "4909",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34102",
+            "source_hourly_id": "4909",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34103",
+            "source_hourly_id": "4909",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "13:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34104",
+            "source_hourly_id": "4909",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-bar-de-l-europe",
+      "google_place_id": "ChIJq3YgJ7vVwkcRs57oagjcWeM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 21:00",
+          "mardi: 11:00 – 21:00",
+          "mercredi: 11:00 – 21:00",
+          "jeudi: 11:00 – 21:00",
+          "vendredi: 11:00 – 21:00",
+          "samedi: 13:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfar6_K-vdeGcnzUEk2gFwWFaCZYZRmoBTCNiVCr3u_Imm-Bw1Yf89E-lypsq84nr2KpVKAOVmCSGn3wjPdAw3hplrlwOXjVSKrw5C9fnotnvoiLoLXiEN0pFgF44JL1lQUBVZ0NHw0obiTVKEeuvQdSYP-jAgbqUzMcDL0yP2jAY0d2tfmDXz0ioD6wdB8Kk-hflxvKAS9ilAu1TTHslfOC2m7PDSdyTEJ-OJ_IAT76kHJdttErYDq8wfvW3PWByp_M5LfwUScIpFZi005lEzXSZxQDzbzas127Y_6aTXbAROCumsQA19YLYmkPCQyCBY0lIZ1JFx1BqHwln-YH7TSA4oBP_UJfXaCi0XMAeZ7Gj2ss5ODrNilhkjmMMNhcrgMy03zEJIUR9eGr-f8KoqEz8eDdJjYFnY5zcp1tGleKw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1858,
+            "photo_reference": "AV-0GLdGsyuJEMe86FaInyvNcAU8_mWBqyT-QSASrb8gMr26TU-DyBkNcS-iQJg536vIAoZDbMjMhEG3ZNoGad_3KxVOzNyvXcQdPyMnrjfGomWnhDCslYFpU3ltcyDXu1T9Aj5wT1-w0Qo8x3X3gpCmv5FNqx27l1ANXW0BClgOFfm_-xtOdZ5I1Qq9T2pUeDpCG5_IgeEi9Aylx0gsdaXrc_r_GFoCVm6nRk1Lxv2YmdFRoQsN09E0NOuyD4lrK2YdCVPMy3_B6S_TXwzws_bxV60TkpgNzb2TBSCiCvYpMFDY46MzSqrKdrQYtdrt3nJ-qHsF-AM3CCcyOJtkr5hH4qTRbJsDCWegpor6kYkNqwG7zpegYBwgrpGpy9aVXStPd-MGV3WDEoA2PSkyrB1C6teILhZGb9Q-fPZGsrj8_UwK",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1024,
+            "height": 1536,
+            "photo_reference": "AV-0GLdWyQPVSwr_iO5Kaf1sNSWfiUaS92s5IKiypKw35943Atn0r4k7OCWmwCNI8UiEXRojWHHdIeURyvtGpGstCY4xePhhPOTzFxx1scFo_y79ZSuPiQfZnRkoBuVTi22Vpp7YGzFCTlKUAYkxCCUczJRw5dC6RcMK-HD2IqK00UKqYxQFpkwRfvE5cm58--tzsPGYlCjgvbEZjPeg36IdkFGnOKw1ZMasGrQrZzs0G5g5Yxyx7yyBkjRa4cDKFZX63iePLRtwF5jhCh9_vnk_cPIPLPlXYXpw0Qn0uneXAsb8sCmp7JtD7uFoNwX-sUPgb4RIskIGLEjBATSWqln6ROsRHULKxI8v-oBDC6BJAlS4uifJ6R9iFDvsGUvHbkqpHjNA91OwjMUvhxslt7q6YKreZpTDglhBP0YsgrwhQr4T",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfmzvAWonmykNXrZzmbHWe4KDegW_RoNaa5RXagGurfze_seeFq1LaSXqlp3M_hoKVahTgUKAwdfOHtL7nt4qVhvFV7MSj6ZABanK6qSO8qlxZ3xzihbOe1n4MuMA3CtuLyit5jhopvrSlCLuG5CdIVduD2HSeYw_S42puk-dAG2mNuoS-J8O7zlb-frRwYHhHEwlmQ97m3OOWJqa_c8xKzzdOHXwF1JOsxnW4tXNum1XO3yrHwcGoqIBf701SnEj8MDz40n6RHR2Ux0UuZ_1neBrnQ7kW0Yy7-RX1rCRl__K--0SvLxCRPF7B5q2S_KSTs7yDJgfSYcqNlbxGOW75WweunqCbD5-9X2GysFkVx2KtYe2eJkPPIeZgGa_1t-SJq_ZdMyx4tr7g4iH4ZI5yhF1kRoGPU6wnMHXkmmBjoUw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1770,
+            "photo_reference": "AV-0GLeZdF-pR6XFeCZRofmYCx9ErVnRqUFSyJ5ARqOqtkY9TyBKNgZqkmxMrpoPSpITQMrCr5Q0r1Ry1RbpFwFUnQLfV2l3zRhMznf4qn_L1s2RsRfeJKWWZRcvyQVKT2LHR_Xi3aIKtOzfrWzaATphwVB4S019Wj-LWS0BSU41xK7p9HewhGnT1XKUU1VCON6Pjsic5OzrcuUySIqZP8Lght6T70TqO3Tcm5FWqjVFP93RU6QQjN0AwexvkFsIGcYWTQj-u-apuNUs1hm8a7KB1f4h5NF7_xmLM2136FQ3CRsE2cS0V5xjrh6gxhf1PT31kPrd8cXI7I5kb7SGH9ZG5Yk0j4daUWxC4o80F4oTnkoFkjcNgMhGttxlKs854SU6DleLx3yL54MLqwAnfmqZJT6HuoFUiW1gGCB0wyoKL4TFrw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1735,
+            "photo_reference": "AV-0GLefmmpDUt23QPEmHykUSU1wuWVNWgjPr21lJMft8QJQ-rz465IGjoY4D-KTPFW71n0leNF5E0EoIsBxiWVCdZY1vOiN0JhWpGgdTfklAgS6OyQhzbI_Fo8HKDvhs__my8VO6ujMHw_V_Wsfyph9iDAi97eL2Cf8T9gocSPyyb2PmzquJFLTJRBa7WvgF9-m27D3a1HDS8OSw6lhwsXtOcJheojogPzperB17nvJc7MhbNXdLC7hm6PsAnnaXzuqkX2jpMUH_cIqjsAKxXgq8fy7WGmfg-36uWcXkkK5pPM-ZKWNChXI1r77RU4TcBpbmdRMU9Xur0CKyqUvYoLybGNPVHvCI7361bol4FNiDOG4lfu4VyfKh2cAGBzeP1MlWg7Yq74Nf1ncJ6BllDPFcF_cr6K8ieQSPz-hM6a2dUE3FA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 2048,
+            "photo_reference": "AV-0GLfpe6WP7AVVKVwciBETWYd8uAiqckdAM8-p_NwSF5UbCazXDFbWzAC6K7l3MxHmRRgiFh4YVPh46kzVpONJ35HRHBQhiY2yv1GRJdiP7Xhx2ldEn_c7YF11auqt4OUeHWkmBfD8xIMYewlZe4BPYNyw_M85-xdPoplegTFsO-SRQITVOgDajz8opNAhAaZ21AMEGiEwHy0kjxo_sZLn4vO4OmRP_KLe9iwIAvAtQvGlJjXjEZoz4GqK48BhHznQaxEk6bKwrMX5EA6GYBqhvRGl4UPI2CEYplafmygSH52OixmCo7_1kMaXSi3PcyF0XaB4f00ol4jl80MyobxLm0hPIc_zy3uMtzvLg2mFiF200rVPs_162fPjFCBEXcKgj4rAAWvsJsg02B5SkfbOxaN8vQ0Q7CI1gCgP7-HARUkUyA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1735,
+            "photo_reference": "AV-0GLebXGXy60gyR1iCvrsJ1Ie1NpnEJE46PHpeeRYatI9k7Jzjd_QwMXH2GTqF1LF1cMRUmT00xHMeXUQZXydgHwGJpm-toGUqBh-XzAXcPHqxirbyuUEbiiaU5AxryRQ0JHm6bCgvUWbjsIeQuatRuq7aHEjEygjELKpGJCOTbLg_iLSKsrTz3FGDUPcTQWl1y4bC1q8Stpw0tnUKjfEvtfdLqzIPuKWNGR0O4c1K6pzKWgmRnnoyNfm_O8YBWptK7AsAo_lN1RVk-diaqfb7HzaRgKhc4Ru2BwdEgDGCztOvbZ-FwLPSuplePsVmBcNiFg-tymLFajKqz21gcNx38O78bEGde72sX-6WNfk3VFDctB6HAW3HJF5wZW4mnkewlKYs0i_PgdZfpgFXUsXm-4p46MzOf8r5PK6TeYJf0G9cOg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1202,
+            "photo_reference": "AV-0GLdchi3T8-TLK7HF2jUO_oPLri2qF9_WJ7jXcrqoM4qVNBLpQB12cx5TZkFKBTyIHD7FK8_R5BCFBnohF42_aOba48YohG2avD7pKJkeVOCOoZ3Jh5z-XURi3UdKn84ORZCbONnrvPWh4NKdpp5Yh4hKy7-ynSre2NUOwUD8ka-467Mqn8iM6o5mHULMbkZQJw65Ud10KHDoftaYd-qtFMfGt6e4K6DKBGr2MCsX9mZJPSeQo6Zl9IGGwPJVLyLpfMVJ2OnMbSJb_l7xTL_V9QSzKeA2wqzlRXmDXgWMThaJlHlwuwGHgSzpjRsyAgzjtlM1slsUccZfI9d0UUkiX7Bg-gBShIhkXe5-rED9OpUhHHng9Is-TC8rYjzgK-LPDonyMWKo7p43SoPSGytOhrvGO0o5z23lsNrzUV9uYXIBpw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLevZjR2UdPN8npOZIKSQdp0EVml_wemyl8RvMA9aTdn9kt9dK1DjsMo5hL5lyCuhJTAMiRGK0YwNHRJLN1GpGvHU3EASeZdUdub-W-CIkXpdSUHXYgV24QdDQJVA82AXw-pmZbT_sH3TkiQcBvF0r3RqEDvjyC04HJJcjjSFKKpScF27RFhaRo7TF4SFCZSVr5dRqSOuzBvp80qNzufrFWCqb6N5IFdFkbOD6FaxskhDVaIjphtop75k87gT5ttBk3y82krufXgjBHTY2ZrlezzNF9Q5Nu7Ms768TwX2s1c1hzNCgbUMbyw8RVsaXmAuO8O3QWR8z8Cp8NbFqP6L886sWAOEyc1fasWas7iaau8ngVJjSp1oGBISpbcFTtdlmfStkyzT97k4s2KpqL1jZ9448EwDBpHKezs8xHeElYhcQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100099100562342806362\">Café bar de L&#39;europe</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5854
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne décrivent ni l’offre, ni les équipements, ni les publics ou services ; aucune caractéristique correspondante n’est affirmée."
+    ],
+    "rejected": [],
+    "summary": "Le Café bar de L'Europe est référencé comme bar au 45 Rue du Faubourg d'Arras, à Faches-Thumesnil. Les horaires indiqués sont du lundi au vendredi de 11 h à 21 h, le samedi de 13 h à 22 h et le dimanche fermé."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-bar-de-l-europe",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5854,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8917dae271b80ef73b7421032d81816218c96dd96ab3dda11d5ccd6723da2b98",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

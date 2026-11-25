@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3030,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.94,
+    "evidence": [
+      "La description annonce explicitement un spectacle mêlant stand-up, danse et show à l'américaine.",
+      "Un seul humoriste est nommé ; aucune programmation de plateau ou de plusieurs humoristes n'est indiquée.",
+      "Aucune forme de danse précise n'est donnée."
+    ],
+    "doubts": [
+      {
+        "field": "dance_string_id",
+        "reason": "La danse est mentionnée, mais aucun style de danse du catalogue n'est précisé."
+      }
+    ]
+  }
+}

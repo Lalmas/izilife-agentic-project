@@ -1,0 +1,2021 @@
+{
+  "environment": "prod",
+  "mode": "review",
+  "started_at": "2026-11-08T20:18:17.105704",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 33,
+      "title": "Lille en 2CV décapotable en 1h",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-en-2cv-decapotable-en-1h.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "visiter",
+            "ville"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "visite guidée",
+                "confidence": 0.99,
+                "evidence": "La page décrit une visite guidée en 2CV."
+              },
+              {
+                "value": "2CV",
+                "confidence": 0.99,
+                "evidence": "Le titre et la description indiquent un trajet en 2CV décapotable."
+              },
+              {
+                "value": "Vieux-Lille",
+                "confidence": 0.99,
+                "evidence": "La description mentionne les ruelles du Vieux-Lille et un arrêt photo."
+              },
+              {
+                "value": "expérience insolite",
+                "confidence": 0.95,
+                "evidence": "La visite est décrite comme une expérience inoubliable et conviviale."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La 2CV peut emmener 3 personnes au maximum, sans mention spécifique pour enfants."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La 2CV peut emmener 3 personnes au maximum, sans mention spécifique pour enfants."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La 2CV peut emmener 3 personnes au maximum."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "La visite est adaptée pour un maximum de 3 personnes, idéale pour une petite famille."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La 2CV peut emmener 3 personnes au maximum, sans mention spécifique pour enfants."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "La visite peut être appréciée seul ou en petit groupe."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "La visite est idéale pour un couple, avec un maximum de 3 personnes."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les personnes handicapées."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les poussettes."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La visite se déroule à l'extérieur, en 2CV."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de restauration pendant la visite."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de boissons pendant la visite."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de boissons pendant la visite."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de nourriture pendant la visite."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La visite est une activité de loisir, pas un espace de travail."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de boissons alcoolisées pendant la visite."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de boissons alcoolisées pendant la visite."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La visite dure une heure, sans hébergement."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de musique pendant la visite."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de danse pendant la visite."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "La visite se déroule en 2CV, pas de terrasse."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de télévision pendant la visite."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Aucune mention de WiFi pendant la visite."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "La visite est idéale pour un couple, avec un maximum de 3 personnes."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 0.95,
+                "evidence": "La visite est décrite comme une expérience inoubliable et conviviale."
+              }
+            ]
+          },
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/2cv-jaune-753648.jpg"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 52,
+      "title": "Atelier initiation bijou en terrazzo à Orchies (59)",
+      "experience_type_string_id": null,
+      "source_url": "https://www.funbooker.com/fr/annonce/atelier-initiation-bijou-en-terrazzo-a-orchies-59/voir",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "artisanat",
+          "artisan_technique_string_id": "assemblage-bijouterie",
+          "additional_image_urls": [
+            "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/e8eewkaixqsr70ooodys"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "activite-manuelle",
+            "diy"
+          ],
+          "age_category_ids": [
+            "6"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "création de bijoux",
+                "confidence": 1,
+                "evidence": "Atelier de création de boucles d’oreilles, bague ou pin’s en résine terrazzo."
+              },
+              {
+                "value": "DIY",
+                "confidence": 1,
+                "evidence": "Le texte indique que le bijou est 100% DIY et fait main."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "À partir de 15 ans"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "À partir de 15 ans"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Jusqu'à 4 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Un superbe moment partagé avec ma maman lors de cet atelier."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Bien en solo"
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Atelier en intérieur"
+              },
+              {
+                "name": "can_work",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Floriane accompagne les participants dans les étapes de création et leur apprend à utiliser la résine."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.9,
+                "evidence": "Ambiance chaleureuse avec Floriane, aussi jolie qu'efficace !"
+              }
+            ]
+          },
+          "element_access_prices": [
+            {
+              "name": "Atelier initiation - 2h",
+              "price": 85,
+              "currency": "EUR",
+              "public_or_condition": "Prix par personne",
+              "duration": 2,
+              "duration_unit": "h"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "merge_into_experience_string_id": "atelier-initiation-bijou-en-terrazzo-a-orchies-59-orchies",
+          "duplicate_confidence": 0.99,
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 85,
+      "title": "Balade en Bateau Promenade",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/balade-en-bateau-promenade.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "60.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "croisiere-en-bateau",
+          "principal_activity_category_string_id": "bateau",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau"
+          ],
+          "age_category_ids": [
+            "1"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-avec-enfants",
+                "confidence": 0.9,
+                "evidence": "Gratuit pour les enfants de moins de 3 ans, sur réservation."
+              },
+              {
+                "string_id": "parfait-pour-une-balade",
+                "confidence": 0.9,
+                "evidence": "Embarquez pour une heure de croisière en bateau promenade sur la Deûle."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Gratuit pour les enfants de moins de 3 ans, sur réservation."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Nous sommes venus avec un groupe de famille afin de leur faire passer un moment hors de la maison."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "VisitWeather",
+                "string_id": "ensoleille",
+                "confidence": 0.8,
+                "evidence": "Bien par beau temps"
+              },
+              {
+                "type": "VisitMoment",
+                "string_id": "apres-midi",
+                "confidence": 0.8,
+                "evidence": "du mercredi au dimanche à 14h, 15h30, départ supplémentaire le samedi à 17h."
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 97,
+      "title": "Lille et sa campagne à vélo : séjour auto-guidé",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-et-sa-campagne-a-velo-sejour-auto-guide.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "d",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "stage",
+          "principal_activity_category_string_id": "cyclisme",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "velo",
+            "campagne"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/porte-de-paris-866985-866987-867578.jpg"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "string_id": "bien-par-beau-temps",
+                "confidence": 0.8,
+                "evidence": "Le séjour est réalisable du 1er avril au 31 octobre 2026."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Plusieurs formules sont proposées, avec vélo de location ou vélo personnel."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le circuit et ses points d’intérêt sont accessibles dans une application de guidage."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Séjour auto-guidé de deux jours et une nuit à vélo autour de Lille."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le séjour comprend une nuit en chambre d’hôtes et les petits-déjeuners selon la formule."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "VisitWeather",
+                "string_id": "ensoleille",
+                "confidence": 0.8,
+                "evidence": "Le séjour est réalisable du 1er avril au 31 octobre 2026."
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 99,
+      "title": "Lille côté marais à vélo",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-cote-marais-a-velo.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "d",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "balade-urbaine",
+          "principal_activity_category_string_id": "cyclisme",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "velo",
+            "pique-nique"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-par-beau-temps",
+                "confidence": 0.9,
+                "evidence": "Cette journée à vélo est réalisable du 1er avril au 31 octobre 2026."
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Partez pour une journée à vélo au cœur de la nature et de la culture."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Peut se faire avec votre propre vélo."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Parfait pour une journée en famille."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Groupes et privatisations / partenaires et fournisseurs."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "champetre",
+                "confidence": 0.8,
+                "evidence": "Vous traversez d'abord le marais de Fretin, espace naturel paisible."
+              }
+            ]
+          },
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_20230721-081819-866386.jpg",
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_20230615-171619-0-866387.jpg"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "ignored_expired_schedule": {
+            "session_configuration": {
+              "name": "Journée à vélo",
+              "description": "Départ à 10h devant la gare de Fretin, retour estimé à 17h.",
+              "dates": [
+                "2026-04-01",
+                "2026-10-31"
+              ]
+            },
+            "session_contents": [
+              {
+                "day_list": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ],
+                "hour_list": [
+                  "10:00-17:00"
+                ]
+              }
+            ],
+            "session_warnings": [],
+            "reason": "all_explicit_dates_expired"
+          },
+          "session_warnings": []
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 108,
+      "title": "Les croisières gastronomiques de Lille Tables & Toques",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/les-croisieres-gastronomiques-de-lille-tables-toques.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "4.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "croisiere-en-bateau",
+          "principal_activity_category_string_id": "cuisine",
+          "minimal_age": "7",
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_tables-toques-croisi-re-895076.jpg"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau",
+            "degustation-vin"
+          ],
+          "occasion_string_ids": [
+            "grandes-occasions",
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": {
+            "name": "Croisières gastronomiques",
+            "description": "Les croisières sont proposées les 13 septembre et 15 novembre de 12h à 16h30.",
+            "dates": [
+              "2026-09-13",
+              "2026-11-15"
+            ]
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                7
+              ],
+              "hour_list": [
+                "12:00-16:30"
+              ]
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "croisière gastronomique",
+                "confidence": 0.99,
+                "evidence": "La fiche décrit un voyage gastronomique à bord d’une péniche."
+              },
+              {
+                "value": "cuisine régionale",
+                "confidence": 0.98,
+                "evidence": "Le menu met en valeur des produits locaux et le terroir des Hauts-de-France."
+              },
+              {
+                "value": "accords mets et vins",
+                "confidence": 0.99,
+                "evidence": "La fiche indique des accords mets et vins sur chaque service."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "L'activité n'est pas accessible aux enfants."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "L'activité est adaptée pour des groupes."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "Accords mets et vins sont proposés."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "MealType",
+                "string_id": "dejeuner",
+                "confidence": 0.9,
+                "evidence": "Le repas est servi pendant la croisière."
+              },
+              {
+                "type": "MealType",
+                "string_id": "diner",
+                "confidence": 0.9,
+                "evidence": "Le repas est servi pendant la croisière."
+              }
+            ]
+          }
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 109,
+      "title": "Les Taproom de Toqués – Une brasserie, 2 chefs et un menu beer-stronomique",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/les-taproom-de-toques-une-brasserie-2-chefs-et-un-menu-beer-stronomique.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "3.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "degustation",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_taproom-tables-toques-895078.png"
+          ],
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "biere",
+            "degustation-vin"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Les Taproom de Toqués",
+              "price": 59,
+              "currency": "EUR",
+              "public": "participant",
+              "condition": null,
+              "duration": "3 h"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "visite de brasserie",
+                "confidence": 0.99,
+                "evidence": "La soirée comprend une visite guidée du site de production d’un brasseur local."
+              },
+              {
+                "value": "dégustation de bière",
+                "confidence": 0.99,
+                "evidence": "La fiche annonce une sélection de bières artisanales à déguster."
+              },
+              {
+                "value": "accords mets et bières",
+                "confidence": 0.99,
+                "evidence": "Le menu des deux chefs est pensé en accords mets et bières."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La fiche indique que l'activité n'est pas accessible aux enfants."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La fiche indique que l'activité n'est pas accessible aux enfants."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La fiche annonce une sélection de bières artisanales à déguster."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La fiche annonce une sélection de bières artisanales à déguster."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "MealType",
+                "string_id": "diner",
+                "confidence": 0.99,
+                "evidence": "Le menu des deux chefs est pensé en accords mets et bières."
+              },
+              {
+                "type": "experience-immersive",
+                "string_id": "experience-immersive",
+                "confidence": 0.99,
+                "evidence": "Les Taproom de Toqués invitent à explorer la richesse de la culture brassicole de notre territoire à travers des expériences immersives et conviviales."
+              }
+            ]
+          },
+          "ignored_expired_schedule": {
+            "session_configuration": {
+              "name": "Les Taproom de Toqués",
+              "description": "Les Taproom de Toqués sont proposées les mercredis 20 mai à la Brasserie Moulin d’Ascq, 7 octobre à la Brasserie Cambier et le 4 novembre de 18h30 à 22h.",
+              "dates": [
+                "2026-05-20",
+                "2026-10-07",
+                "2026-11-04"
+              ]
+            },
+            "session_contents": [
+              {
+                "day_list": [
+                  3
+                ],
+                "hour_list": [
+                  "18:30-22:00"
+                ]
+              }
+            ],
+            "session_warnings": [],
+            "reason": "all_explicit_dates_expired"
+          },
+          "session_warnings": []
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 110,
+      "title": "Lille : une visite culinaire pour découvrir les spécialités sucrées de la ville",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-une-visite-culinaire-pour-decouvrir-les-specialites-sucrees-de-la-ville.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "balade-gourmande",
+          "principal_activity_category_string_id": "patisserie",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "atelier-patisserie",
+            "visiter"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Visite culinaire des spécialités sucrées",
+              "price": 35,
+              "currency": "EUR",
+              "public_condition": "À partir de",
+              "duration": null
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Visite culinaire guidée à pied dans le Vieux-Lille pour découvrir et déguster cinq gourmandises."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.8,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Cette visite culinaire est particulièrement axée sur la découverte culinaire plutôt que sur l'exploration de la ville elle-même."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Cette visite culinaire est particulièrement axée sur la découverte culinaire plutôt que sur l'exploration de la ville elle-même."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Cette visite culinaire est particulièrement axée sur la découverte culinaire plutôt que sur l'exploration de la ville elle-même."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Accessibilité numérique : non-conforme."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Accessibilité numérique : non-conforme."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Visite culinaire guidée à pied dans le Vieux-Lille."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Visite culinaire guidée à pied dans le Vieux-Lille pour découvrir et déguster cinq gourmandises."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Le guide fournit du café chaud et de l'eau fraîche."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Cette expérience est idéale si vous recherchez un moment gourmand en peu de temps !"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 111,
+      "title": "Visite de la micro-brasserie Célestin",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/visite-de-la-micro-brasserie-celestin.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "biere",
+            "visiter"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Visite de la micro-brasserie Célestin",
+              "price": 8,
+              "currency": "EUR",
+              "public_condition": "À partir de",
+              "duration": null
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Visite de la micro-brasserie artisanale Célestin, dans le Vieux-Lille, pour découvrir les installations et le processus de fabrication de la bière."
+              },
+              {
+                "string_id": "experience-forte",
+                "confidence": 0.8,
+                "evidence": "La visite se termine par une dégustation de trois bières brassées sur place."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Une alternative au jus de pomme est proposée aux personnes ne consommant pas d’alcool."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Une alternative au jus de pomme est proposée aux personnes ne consommant pas d’alcool."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Groupes et privatisations / partenaires et fournisseurs."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Une alternative au jus de pomme est proposée aux personnes ne consommant pas d’alcool."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Une alternative au jus de pomme est proposée aux personnes ne consommant pas d’alcool."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "La visite est proposée tous les vendredis et samedis."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "La visite est proposée tous les vendredis et samedis."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Accessibilité numérique : non-conforme."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Accessibilité numérique : non-conforme."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Visite de la micro-brasserie artisanale Célestin."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La visite se termine par une dégustation de trois bières brassées sur place."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La visite se termine par une dégustation de trois bières brassées sur place."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas d'indication spécifique."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "La visite est proposée tous les vendredis et samedis."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 112,
+      "title": "Foodeez Food Tour",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/foodeez-food-tour-1.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "3.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "balade-gourmande",
+          "principal_activity_category_string_id": "cuisine",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "atelier-cuisine.png",
+            "visiter"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "food tour",
+                "confidence": 0.99,
+                "evidence": "Le titre et le descriptif désignent un circuit culinaire guidé."
+              },
+              {
+                "value": "cuisine locale",
+                "confidence": 0.98,
+                "evidence": "Les partenaires valorisent les produits locaux."
+              },
+              {
+                "value": "visite à pied",
+                "confidence": 0.99,
+                "evidence": "Le circuit est explicitement décrit comme piéton."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "L'activité n'est pas spécifiquement pour enfants."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Convient aux familles, mention de convivialité."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Convient aux groupes, mention de convivialité."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "MealType",
+                "string_id": "dejeuner",
+                "confidence": 0.9,
+                "evidence": "Le tour inclut des dégustations et repas."
+              }
+            ]
+          },
+          "element_access_prices": [
+            {
+              "name": "Foodeez Food Tour",
+              "price": 52,
+              "currency": "EUR",
+              "public": "participant",
+              "condition": "Prix à partir de",
+              "duration": "3 h"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 113,
+      "title": "Lille côté Bière",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-cote-biere.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_eb2-48606.jpg",
+            "https://reservation.lilletourism.com/medias/images/prestations/multitailles/1920x1440_eb-48607.jpg"
+          ],
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "biere",
+            "visiter"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Lille côté Bière",
+              "price": 34,
+              "currency": "EUR",
+              "public": "participant",
+              "condition": "Tarif réduit en ligne, tarif affiché précédemment 35 €",
+              "duration": "2 h"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "value": "visite guidée",
+                "confidence": 0.99,
+                "evidence": "La fiche décrit une visite guidée du Vieux-Lille."
+              },
+              {
+                "value": "bière artisanale",
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "value": "dégustation",
+                "confidence": 0.99,
+                "evidence": "Trois arrêts dégustation sont indiqués."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite est réalisable pour des groupes."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite est réalisable pour des participants seuls."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite est réalisable pour des couples."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les personnes handicapées."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les poussettes."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "La visite se déroule principalement à l'extérieur."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "Des accords mets-bières salés et sucrés sont proposés."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de café."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de thé."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de tapas."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de possibilité de travailler."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite inclut des dégustations de bières artisanales."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'hébergement."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de musique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de danse."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de terrasse."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de télévision."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de Wi-Fi."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "La visite est réalisable pour des couples."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai"
+    },
+    {
+      "tmp_id": 114,
+      "title": "Rallye Bière Vieux-Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/rallye-biere-vieux-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 115,
+      "title": "Rallye Bière Vieux-Lille en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/rallye-biere-vieux-lille-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "180.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 116,
+      "title": "Visite de la micro-brasserie Célestin en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/visite-de-la-micro-brasserie-celestin-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "60.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 117,
+      "title": "Jeu de piste pédestre et gourmand – Lille aux Secrets",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/jeu-de-piste-pedestre-et-gourmand-lille-aux-secrets.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 118,
+      "title": "Jeu de piste pédestre et gourmand – Lille aux Secrets en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/jeu-de-piste-pedestre-et-gourmand-lille-aux-secrets-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "120.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 119,
+      "title": "Impérial City Tour",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/imperial-city-tour.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "75.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 120,
+      "title": "Le Vieux-Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/le-vieux-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "120.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 121,
+      "title": "Le Vieux-Lille en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/le-vieux-lille-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "120.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 122,
+      "title": "Beffroi de l'hôtel de ville de Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/beffroi-de-l-hotel-de-ville-de-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "45.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 123,
+      "title": "Pass essentiel – City Tour + Beffroi de l'hôtel de ville de Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/pass-essentiel-city-tour-beffroi-de-l-hotel-de-ville-de-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": null,
+      "duration_measurement_unity_string_id": null,
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 124,
+      "title": "Pass essentiel – City Tour + visite guidée du Vieux-Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/pass-essentiel-city-tour-vieux-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": null,
+      "duration_measurement_unity_string_id": null,
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 125,
+      "title": "Pass essentiel – Vieux-Lille + beffroi de l’Hôtel de Ville de Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/pass-essentiel-vieux-lille-beffroi-de-l-hotel-de-ville-de-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": null,
+      "duration_measurement_unity_string_id": null,
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 126,
+      "title": "Journée « Noël à Lille »",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/journee-noel-a-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": null,
+      "duration_measurement_unity_string_id": null,
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 127,
+      "title": "My Explore Bag - Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/my-explore-bag-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "150.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 128,
+      "title": "My Explore Bag - Roubaix",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/my-explore-bag-roubaix.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "150.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 129,
+      "title": "My Explore Bag - Armentières",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/my-explore-bag-armentieres.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "150.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Ce restaurant […] propose […] un buffet à volonté. »"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Très pratique, pas d attente »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Je recommande pour vos déjeuners du midi. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Ce restaurant […] propose […] un buffet à volonté. »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "moderne",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Ce restaurant moderne et simple »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vos déjeuners du midi »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 22:30 »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« recettes françaises régionales »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« vos déjeuners du midi »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 22:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant moderne proposant un buffet à volonté de recettes françaises régionales, avec service jugé pratique et sans attente."
+  },
+  "meta": {
+    "cache_key": "45f092cf7487c41dd0b57274f909964ab6f3ad175114b34f1cf4c5eed1da8e8b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

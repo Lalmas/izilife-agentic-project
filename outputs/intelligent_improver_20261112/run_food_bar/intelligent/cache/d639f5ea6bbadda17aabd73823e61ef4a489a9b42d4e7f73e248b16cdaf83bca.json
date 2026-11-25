@@ -1,0 +1,138 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.98,
+        "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+        "evidence": "Restauration rapide"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.92,
+        "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+        "evidence": "Friterie à Don"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.78,
+        "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+        "evidence": "nos menus enfants"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+        "evidence": "Places assises accessibles en fauteuil roulant"
+      },
+      {
+        "field": "adapted_to_handicap",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+        "evidence": "Entrée accessible en fauteuil roulant"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+        "evidence": "nos menus enfants"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+        "evidence": "nos menus enfants"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "Déjeuner"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "Dinner"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos frites fraîches"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos sandwichs"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.98,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos hamburgers"
+        }
+      ],
+      "DietType": [
+        {
+          "string_id": "vegetarien",
+          "confidence": 0.72,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "options végétariennes"
+        }
+      ],
+      "PaiementMethod": [
+        {
+          "string_id": "carte-ticket-restaurant",
+          "confidence": 0.9,
+          "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+          "evidence": "Ticket Restaurant"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.94,
+          "source_url": "https://menuweb.menu/restaurants/don/loh-a-la-bouche-4",
+          "evidence": "Take Out"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Mardi : 11:30 - 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Mercredi : 18:30 - 21:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie et restauration rapide proposant frites fraîches, sandwichs, hamburgers et menus enfants. La fiche indique des horaires de midi et de soirée, des places assises accessibles et l’acceptation des Tickets Restaurant."
+  },
+  "meta": {
+    "cache_key": "d639f5ea6bbadda17aabd73823e61ef4a489a9b42d4e7f73e248b16cdaf83bca",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

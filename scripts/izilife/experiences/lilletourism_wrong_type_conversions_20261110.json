@@ -1,0 +1,44 @@
+{
+  "environment": "prod",
+  "source": "Lille Tourisme detailed pages",
+  "rules": {
+    "purge_source_only_after_dependency_transfer": true,
+    "hardcoded_taxonomy_ids_forbidden": true,
+    "category_resolution": "string_id"
+  },
+  "items": [
+    {
+      "experience_tmp_id": 179,
+      "experience_id": 206,
+      "title": "Soirée Découverte au Casino Barrière Lille",
+      "target_type": "EVENT_SERIE",
+      "target_category_ref": "soiree-jeux",
+      "status": "to_convert"
+    },
+    {
+      "experience_tmp_id": 180,
+      "experience_id": 207,
+      "title": "Dîner-spectacle au Casino Barrière Lille",
+      "target_type": "EVENT_SERIE",
+      "target_category_ref": "diner-spectacle",
+      "status": "to_convert"
+    },
+    {
+      "experience_tmp_id": 181,
+      "experience_id": 208,
+      "title": "Cocktail-spectacle au Casino Barrière de Lille",
+      "target_type": "EVENT_SERIE",
+      "target_category_ref": "spectacle",
+      "status": "to_convert"
+    },
+    {
+      "experience_tmp_id": 182,
+      "experience_id": 209,
+      "title": "ECLIPSO - Titanic, le rêve englouti",
+      "target_type": "EQUIPMENT",
+      "equipment_category_ref": "mission-vr",
+      "equipment_parent_resolution": "source.meet_place puis source.meet_shop; sinon validation manuelle",
+      "status": "to_convert"
+    }
+  ]
+}

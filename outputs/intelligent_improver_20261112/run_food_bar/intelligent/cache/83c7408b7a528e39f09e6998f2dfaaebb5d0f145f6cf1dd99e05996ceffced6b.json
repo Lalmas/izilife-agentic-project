@@ -1,0 +1,99 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bar-ambiance",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Bar sympathique » ; « beaucoup de soirées et événements »"
+      },
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« beaucoup de soirées et événements proposé »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« pour un simple verre, une partie de fléchette ou de billard »"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« une partie de fléchette ou de billard »"
+      },
+      {
+        "string_id": "incontournable",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« Un incontournable pour passer un bon moment »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« On est directement bien accueilli » ; « la convivialité »"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Un bar convivial, sans chichi ! »"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« beaucoup de soirées et événements proposé »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "billard",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« une partie de fléchette ou de billard »"
+        },
+        {
+          "string_id": "flechettes",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« une partie de fléchette »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« pour un simple verre »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués jusqu’à 23:00 ou 00:00 plusieurs jours"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar convivial et décontracté, avec soirées et événements à thème, fléchettes et billard ; les avis soulignent l’accueil et l’ambiance bon enfant."
+  },
+  "meta": {
+    "cache_key": "83c7408b7a528e39f09e6998f2dfaaebb5d0f145f6cf1dd99e05996ceffced6b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

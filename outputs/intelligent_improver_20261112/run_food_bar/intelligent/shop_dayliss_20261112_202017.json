@@ -1,0 +1,584 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:20:17",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "dayliss",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "dayliss",
+    "status": "found",
+    "data": {
+      "id": "5764",
+      "name": "DAYLISS",
+      "shop_string_id": "dayliss",
+      "unique_id": "90ddf97303aa1314caf40757685e3932",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55019",
+      "principal_cover": "55019",
+      "qr_code": null,
+      "phone_number": "+33320621501",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 route de vendeville",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0807668",
+      "latitude": "50.5813485",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:47:50",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:47:50",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ_aZbowfVwkcRmpXCI5QqBA8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5764,
+      "scope_type": "SHOP",
+      "scope_ref": "dayliss",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "dayliss"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55019",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5764_6af39f16b34ea.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4823",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33496",
+            "source_hourly_id": "4823",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33497",
+            "source_hourly_id": "4823",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33498",
+            "source_hourly_id": "4823",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33499",
+            "source_hourly_id": "4823",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33500",
+            "source_hourly_id": "4823",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33501",
+            "source_hourly_id": "4823",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33502",
+            "source_hourly_id": "4823",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "dayliss",
+      "google_place_id": "ChIJ_aZbowfVwkcRmpXCI5QqBA8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 20:45",
+          "mardi: 10:00 – 20:45",
+          "mercredi: 10:00 – 20:45",
+          "jeudi: 10:00 – 20:45",
+          "vendredi: 10:00 – 20:45",
+          "samedi: 10:00 – 20:45",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLeOFQsnYJFbvKer27pc4X3zNRYMRtI5Mu0FFfRzKagpyn6aRlrD2DuUupNtVE3dCZ5xncdM_sHeWEbMRjp8FqQyK_ri4o6d6r7sycqdleEhatDz26OORDtkchaxbOg5aIS42SwB_3EKfP94lht3JWDqlUWv0eOJ2SoC_nxXHZElhIZjcoYRY6x9wDMBPXE6j6tks_yW4AD7_iEw6XFaHBlxasXrs2Yt_K8JWga2ln9jK247i_SaZxgDihbCoDEJHKBiYRxR4pAFM9ol6X8yZ8lVGzKh3PjzmMowdtt5CXfQHXHPQf6cg-RQFDwmbvPs2zGVM0irTj0im7IPbzg-B5wE5ImkdaPWu6mwjZtYE_VMEFN9BbMAbdpwIx__7ecQZZIFrRbvRLamJUNJ3KNi0Mvpgl0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116417825593780723732\">Lei Zhang</a>"
+            ]
+          },
+          {
+            "width": 4640,
+            "height": 3472,
+            "photo_reference": "AV-0GLf5U_ZOLeDvzVv4kOhavsEQaXWEWrm-NfgrHzfcUy1BgTILiFn2NF1d_Spzn1oB1s2m9PdmH5Y-u4-Dlsn1eleMydKpV6zX3yRSdoq8r6nS20BAc1HtGwzs64m00hzHxcKdbnGWuwlDhJAewHMXrmOG_p69fR8cRu8WVTtk5cXw2rGACQDfoX2OMhhg93S1J1s-qb5SyA5k3FhFiSWEGHKsxJPL9CtaSGHbgNlmvJsV-C5liL6i65--CUwpaLTQSA9jvp5_UuWzBRZEJPp9sdhHj3XVUb7IEK2BSTfXuIVUukx0IswHzJei6x3SZNdS4eDK8sb1qMxKGyOrcQ4nUo4eskm3Pl-Mr8Cz-bDJJJtQ55uJpmVuBdV5uaShq0dJbXGvuXbj0qSOb9VI1Ic6dVAVvzY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110255993546645658409\">Yunaiko Okami</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLerAfZfv1OlI_8nIDZ3DwpXMwjZDKn0yqntbqEGO8-8BhtGMH74jBNDCWswOSPdZQ8aJ6N_lpLkLKIm1AQ9n2t07-TnbOtzmgPICBlN4rxuoKGMcXaoSygT51zHgfIW60Za7dEBH1ug80GmiHe3IOiGZ29j_C5eXM3vr-ZFnnxsJ5SM0E_TWuaY7RCAOITTccEW4iZ6qWILEwo8f_-tpBA_X8mrN9VyAahxSV4kmnYzyo3u5idYBvNXQYavkdXyQubatchRjxAZWzjMBjJtqTeibNwrEI_501-hpB5jiLyXVeWlZdmo4sSSGwmxFPryF5j6SVJrYAcv_gy6fTWIDJekAG7hTwMi-Ah1JaLjthDWK1t6on8AywqnuHpGltcA9OtpTZQcbZGZzsfO7kbEOoHttMuSa-0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110248443153957887507\">Sylive Delangue</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeMfwu_XAiN_WMhLDs_GB6-xYwC-Ds16p7zwC8ZdcdeIRYXzT9w2cH_BlOsXYRhoRcTe1X-pZPWaljAkPKV1DV8hdxywzJC-AjV50PYZyzjBpj8wIXLyay6rYQsNeEuIm1cQd6uAReR91nFkO9EcBqLfn3obxWmNCmO11FdN1v4VZJfMFZhdZqI4daWUqGDSPROgy7h5CaLNKIKRimcdwDDQ-H9BgSVHA4woloK4MnubpVIFOKUbXURz6SrWtcbV_SCwaHaLpzpwqaEnI7jSo7_cNFQ6f1Hd1YeTwFbkOOfQHfqLF4MJGyJijFf4Gx15-KJC7X6U60W8ToH5Yp-1Dqg83c-yqC2MCkvIqjcfQvHy8-m0IvajkySA7NQs9gxsxAgzO-SU-3CjydH-RrE1wvWGw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108998711353990605699\">Viviane</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLcG1OmqWrKD4qshvsAf2kvt-zuFDXr_ZM8Ux2kyFf4aXep5zOLq28cwhUCMr8wvdYzXfyvZ-XyKjRQ2L1-nXr4LJXIe0HQmuLmojOwZfS836jWoVqjmr7u7VKkWTc0KTp79kQBCkV2h04VL8hnNqGHdbXkVi9VzePsvc77cDVOQi3qLLj7tI5RgVZ_-37Wm9Z1g9PR9oHx5xKJK0fYei6rnJP8Tt8MNsjFhz_tDJCHOeLP0WsDiQ-uaQ6rE2TCxMwn5eRQiT8pGYQI6Zn1g52BtCWxtOX1ax4CKHNtdQnd34OLej3LhEY808vIh7CuaNRa34DcoSqUp76XsJymUsLw71F6obVKz9n0pRQm37a9Df8Qzp7HMuPhyryZ-uoxAHi3SXFpeAKcelGJRfk6N4upI2b95AuD2FuMygpWmicFB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110239428369261273011\">Bertus241</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfp7HYb6Gjw3WJOA8hiDIuMot7AUnPsI0WAiBUS8Mkc3XtqJIEna0X_eLfcD2lGrGFKRtlrD5v-Er52Tu5f7RrO3csUNeQNKa_ZWj0ldKm5g0YxdrO7mcdAW_QvgRpnW9qkIpUcxN20DXmJzjBjmKBK_kWX3ca0TYITgEzy71JsirglEevQyonM8fMQCMzjYjITybjqL1rOgzd-uU5H7lLgX__LQsXuWqQH4JHwT_E1kwIZcTFFTbpPDlbSCus6k7yYOtvf_mkcxV4AZOxTfiyIVd9SFi8F2aeBhewm-RMDJ2kJZ-E_1v2i230DyOk9A-u8yD_5wFbq9kHjvgr4OKSkl5VrgDiuF7Tm-lSj1juBQ8CmLvWvT1hMH7oP90BAg5TofY7o3EoIupfcQHz_vAx8_Iz8n8axOLPMh1Oistm3gQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110239428369261273011\">Bertus241</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdHd-l63exqGXiAwn-fbW1VdF5_ItYuvgnuwjZ8bK_-Ae3bkGwi5CiP9CzXHlLq2-B8f2OeAnwvtg8ifCnrfkdMYXUbex-rTf0bKh73z23K_5Uz3XG11xoKucesrMjWFLvPAV1qAiTRFlXyQkMEip9rsLGnooHW_fp1RBATS6854pX2ti6sm4TBNYHG7T5c8n3KgCa1agVj_A6rtJRDzFkdzXTbtr0PpIhpnF7YcKC5FkezwH1VGFnpmCv2Z8hCe3yJvltc7buvwM6BnMgjIASAlmpzTfqYsPJCIXpplXOVk0WzNPbT3Wi7Yu7SKw0GgZAiw6UgZ09SuHJSyqlSDCDlTlXf7_OaN0CA-dJtkVFxpnN4oBVAzgx32_0ZpGRyu0rD9xAnzLuzkjxAWMwZ3gVahQdmsF4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105976532321506459192\">Julie Lin</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdTn_JCR62nZlvdPk4QoFlw6KsGUURBDrXKQFV3VUPjJwoWeTTrpQ9tu7A2cOP_iMhcS8Ex_Qu0ynd3oBB_yzCaDd56HIksgZVCUtTwzIpiP8vqQZOzHXILl64CiGU7Fv0MwBj6JzaLoUvDefp8Nt3rjZsHctZ4irBh369k_RvRUsb5KT05juI-Hs7Qcf4Khuhhl8kDF0QaOB0fqdC6jCUuYoiQQ1iBM4neakrtQ555cJjC2hQnmOqG6Bzl1TEXUihT5RVcqQYGchK8rlzcCIxpJbHYLKmqHvMjvS_DCTpBRec3v7P9JmR9eGn9DJXzb3t5nYxiKxB1mdvUEuWh_tjTqU6F9OuPEUGCa9OuCvC5mDF61WXeuBAhF0bj7OxQMMnRnEQnZCmQHNEBBn17CYd4cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112000176750245946127\">Axel Franquart</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdWJA12zSBvRjgec7FRvLey9ADxd9M-StWqCY88kMXeVBwZrh5rP47jViRJcnPC9O_WfiYJJDHD5mtlHDsIjbmOtpkvH-dCFlg0zfl-Z2usXSBq9gt9Ktw1TzgPNBgLKh0CA8Ru8gW8BOV00NPT0b0dfaaoNV5DNNWuvnXM4JC07gMcMM5jxf9SNRhsNpDvyipJuP_DgrHDFDf5tP4h7JUR1_bRByOJESce2YclVS8Wd_INQPU-ZQSrLfTFB0P3ML-UwTZzDhyodv8CpPZrNNhIrVQbcgGXcXw-xZKUTHhTDOQdC4nRQ4SfV6B3YBXdRuyMwI1uGgfR8BX96lkIL2Zw1fBAaTPehbiJOSiYoA6OOLyzMhIhn_qL-vrqmUqfVYrl9h3WoCKxbJ5unA7MktbKuNJy6kY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102090245151292480392\">Anna Chauvet</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfrc-NkzAj5v3s3n--as886EpS-3qVuIIgph31RHD5AOh14gR5jbuWrlq3_Nm_DJns8VPd1gamzspVhmQHT5qbr4AvYOUn8iPYCxQlPMT4cx9wDnZnmQ-ZNfMh28NtjnHdHvcfwuUI8YxmlDdFksWjeTAQMkckBB_Ba0sDMpPsfjgS7llTwsFXIcTLW8I7iCCKNBxaERy18rGoIHLHZ8xYqS_Of78kBuqtkFLvtuUpCpslByuYckmqTNIbWV9kK8IlFoC9HsptTHNHThXH1n4FbH4En1oamhRBTyDorvvpVw2u1tGEyM57dz53m7S3scEOP4jAuvbPo4_nXTJfOQWALiy2iwI7Sf_h9Nf1JaiZam0zvudN-ElJEIih-1XdUTnjM-sF7aX83A4Ydt7yqJDJipxwHnK0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104684368090757344067\">熹李</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5764
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les sources consultées ne précisent pas le menu, les moyens de paiement, l’accessibilité, les équipements ni les horaires de repas."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.97,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« passer un bon moment ensemble et déguster des plats authentiques »"
+        },
+        "reason": "preuve absente ou déductive"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "adapte-aux-familles",
+          "confidence": 0.91,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« passer un moment heureux avec votre famille »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.83,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« avec votre famille et vos amis »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.97,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« restaurant Dayliss » et « déguster des plats authentiques »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.91,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« un moment heureux avec votre famille »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_groups",
+          "value": 1,
+          "confidence": 0.83,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« avec votre famille et vos amis »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« notre atmosphère chaleureuse »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": {
+          "string_id": "japonnaise",
+          "confidence": 0.95,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« Restaurant Japonais »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« À emporter »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "sur-place",
+          "confidence": 0.88,
+          "source_url": "https://faches-thumesnil.dayliss.com/fr/",
+          "evidence": "« passer un bon moment ensemble et déguster des plats authentiques »"
+        },
+        "reason": "preuve absente ou déductive"
+      }
+    ],
+    "summary": "Restaurant japonais à Faches-Thumesnil, avec consommation sur place et plats à emporter. Le site officiel décrit une atmosphère chaleureuse et mentionne les visites en famille ou entre amis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "dayliss",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5764,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c06b3480bd3d143b4afad25c3185e5fbeafbbfbe4399a65916772b2f6b9bf112",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "En route pour le brunch du dimanche !"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "En route pour le brunch du dimanche !"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Petit gouter au Jelima"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Petit gouter au Jelima"
+      },
+      {
+        "string_id": "vaut-le-deplacement",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "une adresse qui vaut le détour"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "En route pour le brunch du dimanche !"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Accueil chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "brunch du dimanche"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Petit gouter au Jelima"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "senegalaise",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "retrouver les saveurs de mes voyages au Sénégal"
+        }
+      ]
+    },
+    "warnings": [
+      "Réservation conseillée : un avis signale qu'il y a peu de places."
+    ],
+    "summary": "Adresse appréciée pour son brunch dominical et son goûter, avec des saveurs évoquant le Sénégal, des beignets généreux et un accueil chaleureux. Un avis recommande de réserver car il y a peu de places."
+  },
+  "meta": {
+    "cache_key": "c8091fd0a6a89895e2c9c5897f4cd51589caada0d7e5084ddb1a9d321b2a24da",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

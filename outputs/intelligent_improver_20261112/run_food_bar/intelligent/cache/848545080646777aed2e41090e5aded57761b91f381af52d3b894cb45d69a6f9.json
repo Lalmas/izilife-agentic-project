@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Le repas était délicieux du début à la fin."
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: bar"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Café-bar à Ennevelin ; un avis mentionne un repas délicieux et bien servi."
+  },
+  "meta": {
+    "cache_key": "848545080646777aed2e41090e5aded57761b91f381af52d3b894cb45d69a6f9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

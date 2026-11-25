@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "replayed": false,
+  "journal_id": 480,
+  "result": {
+    "created": true,
+    "copied": {
+      "identity_fields": [],
+      "media": 1
+    },
+    "repointed": {
+      "PrincipalCharacteristics": 0,
+      "Hourly": 0,
+      "HourlyContent": 0,
+      "SpecialMealTypeHourly": 0,
+      "Link": 0,
+      "LocationOtherCategory": 0,
+      "LocationEAPUseForCategory": 0,
+      "LocationEAPUseForEquipment": 0,
+      "LocationEAPUseForEvent": 0,
+      "PlaceMealType": 0,
+      "children": 0,
+      "ElementExternalMedia": 0,
+      "ElementNewsPost": 0,
+      "ExternalPromo": 0
+    },
+    "excluded": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 16,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "source_archived": true,
+    "destination_id": 1283,
+    "destination_ref": "iberica",
+    "destination_unique_id": "9d487e98c644fda37ab238adc3b26f6e",
+    "destination_activated": true
+  }
+}

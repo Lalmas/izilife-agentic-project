@@ -1,0 +1,116 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons passé un super moment avec mes amis » ; « à la fin du repas »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« un super moment avec mes amis »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« leur tiramisu maison (raffaelo) très bon »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« à la fin du repas »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« un super moment avec mes amis »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« une ambiance chaleureuse au sein de l'établissement »"
+        },
+        {
+          "string_id": "moderne",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« propre, aménagement neuf »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 03:00 »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« J'ai fais une commande hier à emporter »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "salades",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« une salade émincé royal »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« portion de frites »"
+        },
+        {
+          "string_id": "tagliatelles",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« tagliatelle poulet sauce champignons »"
+        },
+        {
+          "string_id": "tiramisu",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« tiramisu maison (raffaelo) »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "the",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« offert un thé marocain à la fin du repas »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant proposant notamment salade, frites, tagliatelles au poulet et tiramisu maison. Les avis mentionnent une commande à emporter ainsi qu’un repas entre amis dans une ambiance chaleureuse. Ouvert le soir jusqu’à tard, fermé le mardi selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "03bd90a96b125b0e0eb6cac896ef03ca64e20936e5a0459890221c114c7c89bf",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

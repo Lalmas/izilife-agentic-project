@@ -1,0 +1,128 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "chouette moment en famille"
+      },
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Atelier enfant fait ce jour avec notre enfant"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "le dessert était délicieux"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "les gâteaux et boissons sont délicieuses"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "endroit chaleureux et les gâteaux et boissons sont délicieuses"
+      },
+      {
+        "string_id": "bien-par-beau-temps",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "pause pendant une balade à vélo près du canal"
+      },
+      {
+        "string_id": "a-l-ombre",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Champs de preuve insuffisants pour établir ce tag"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Atelier enfant fait ce jour avec notre enfant"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "chouette moment en famille"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "chouette moment en famille"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "avec notre enfant"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "les gâteaux et boissons sont délicieuses"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "the coffe 10 out of 10"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "endroit chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "les gâteaux et boissons sont délicieuses"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 11:00 – 18:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Salon de gourmandises chaleureux, apprécié pour ses desserts et ses boissons, avec des ateliers pour enfants et des visites en famille."
+  },
+  "meta": {
+    "cache_key": "52c25cb9f8fa2565cf406e6a0d7a5878b50fda1ccfae8eed11af1f6a7a7639fe",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

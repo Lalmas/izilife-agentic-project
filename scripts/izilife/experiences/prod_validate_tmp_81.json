@@ -1,0 +1,81 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:54:04.114037",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 81,
+      "title": "Tarot, écriture et création de son oracle",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.getyourguide.com/fr-fr/lille-l643/lille-tarot-ecriture-et-creation-de-ton-oracle-t1479887",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "art",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "lecture-tarot",
+            "ecriture-a-la-plume"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Atelier collectif mêlant tarot, écriture et création d’un oracle personnel."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Atelier collectif mêlant tarot, écriture et création d’un oracle personnel."
+              }
+            ]
+          },
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "additional_image_urls": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 81,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 124,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:54:11.400381"
+}

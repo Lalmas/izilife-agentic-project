@@ -1,0 +1,69 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie »."
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « friterie » ; nom : « On A La Frite »."
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au samedi : « 11:30 – 13:30 »."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au dimanche : « 18:30 – 21:00 » ou « 18:30 – 21:30 »."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au samedi : « 11:30 – 13:30 »."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au dimanche : « 18:30 – 21:00 » ou « 18:30 – 21:30 »."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement, ni les équipements et services."
+    ],
+    "summary": "Friterie à Annœullin, ouverte sur les créneaux du déjeuner et du dîner selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "32d54f26fd32c9e2a1da46642fa0753ad2a0a02a04f9951948033d4fd4b177f9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

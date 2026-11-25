@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons passé un très agréable moment » et « un excellent repas »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« lieu convivial » et « cuisine du terroir »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« un excellent repas »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« un endroit chaleureux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant convivial à l’accueil chaleureux, proposant une cuisine maison simple, copieuse et généreuse. Réservation conseillée selon un avis."
+  },
+  "meta": {
+    "cache_key": "0d0b82842a42117c5510d6e63657457c8a07b514b026f7e6af10443f79dc2358",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

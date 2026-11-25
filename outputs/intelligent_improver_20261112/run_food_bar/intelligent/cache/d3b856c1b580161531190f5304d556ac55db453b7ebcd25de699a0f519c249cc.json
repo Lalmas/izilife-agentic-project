@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : restaurant."
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:15"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:30 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:15"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:30 – 21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne renseignent pas les plats, régimes alimentaires, modes de commande ou de paiement, l’accessibilité, l’ambiance et les équipements. Les horaires indiquent des plages d’ouverture, pas les services proposés."
+    ],
+    "summary": "Restaurant à Attiches, ouvert le mardi au samedi le midi et le soir selon les horaires fournis. Les autres caractéristiques ne sont pas documentées."
+  },
+  "meta": {
+    "cache_key": "d3b856c1b580161531190f5304d556ac55db453b7ebcd25de699a0f519c249cc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

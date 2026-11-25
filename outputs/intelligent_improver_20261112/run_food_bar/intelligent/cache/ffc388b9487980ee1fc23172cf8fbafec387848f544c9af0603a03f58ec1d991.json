@@ -1,0 +1,63 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne documentent pas les modalités de consommation, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "summary": "Friterie à Wattignies, ouverte le midi et en soirée plusieurs jours par semaine."
+  },
+  "meta": {
+    "cache_key": "ffc388b9487980ee1fc23172cf8fbafec387848f544c9af0603a03f58ec1d991",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -420,8 +420,12 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
             raw = page.evaluate("""
                 () => {
                     const items = [];
-                    // Les liens de fiches dans le panneau de résultats
-                    document.querySelectorAll('a[href*="/maps/place/"]').forEach(a => {
+                    // Uniquement les fiches du panneau de résultats. La page
+                    // contient aussi des liens Maps dans les suggestions et
+                    // blocs voisins, sans rapport avec la recherche courante.
+                    const feed = document.querySelector('[role="feed"]');
+                    if (!feed) return [];
+                    feed.querySelectorAll('a[href*="/maps/place/"]').forEach(a => {
                         const href = a.href || '';
                         // Extraire le place_id depuis l'URL si disponible
                         const placeMatch = href.match(/place\\/[^/]+\\/@[\\d.,]+\\/[^/]+\\/([^/?]+)/);
@@ -431,6 +435,8 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                         const h3 = a.querySelector('h3');
                         const nom = h3 ? h3.textContent.trim()
                                        : (a.getAttribute('aria-label') || '').trim();
+                        const card = a.closest('.Nv2PK, [role="article"]') || a.parentElement;
+                        const details = card ? (card.innerText || '').trim() : '';
 
                         // Adresse : span juste après le nom
                         const spans = a.querySelectorAll('span');
@@ -444,6 +450,7 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                             items.push({
                                 nom:       nom,
                                 adresse:   adresse,
+                                details:   details,
                                 url:       href,
                                 place_key: cidMatch ? cidMatch[0] : (placeMatch ? placeMatch[1] : ''),
                             });
@@ -497,6 +504,7 @@ def search_google_maps(page, query: str, max_results: int = 40) -> list[dict] | 
                     results.append({
                         "nom":             item["nom"],
                         "adresse":         item.get("adresse", ""),
+                        "details":         item.get("details", ""),
                         "maps_url":        item.get("url", ""),
                         "place_key":       item.get("place_key", ""),
                         "google_place_id": "",  # sera résolu si besoin
@@ -942,7 +950,9 @@ def phase_collect(zone: str, city_filter: str | None, env: dict,
         for ville in villes:
             slug       = ville.get("ville_slug", "")
             nom_v      = ville.get("nom_affichage", slug)
-            city_id    = resolve_city_id(slug, env) if not dry_run else 0
+            # Même en dry-run, vérifier que la référence est un City.string_id
+            # valide avant de présenter le plan de collecte.
+            city_id    = resolve_city_id(slug, env)
             # Reprendre à la catégorie suivante si offset stocké
             cat_offset = to_int(ville.get("chasseur_cat_offset"), 0)
 
@@ -1063,6 +1073,11 @@ def phase_insert(zone: str, city_filter: str | None, env: dict, dry_run: bool,
     if not rows:
         log("✅ Aucun lieu pending dans 'À créer'.")
         return
+
+    # Un lot ne doit jamais commencer avec une ville saisie comme libellé ou
+    # avec un identifiant provenant d'un autre environnement.
+    for city_slug in sorted({str(r.get("ville_slug", "")).strip() for r in rows}):
+        resolve_city_id(city_slug, env)
 
     deadline = (time.monotonic() + max_duration_min * 60) if max_duration_min > 0 else None
     log(f"{len(rows)} lieu(x) à importer")

@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-cocottes-de-jean-lou",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "les-cocottes-de-jean-lou",
+    "status": "found",
+    "data": {
+      "id": "5843",
+      "name": "Les Cocottes de Jean-Lou",
+      "shop_string_id": "les-cocottes-de-jean-lou",
+      "unique_id": "2e63ede5dda9db102d57219a899c6dfe",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55098",
+      "principal_cover": "55098",
+      "qr_code": null,
+      "phone_number": "+33320960159",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "25 Rue de Seclin",
+      "additional_address": null,
+      "zip_code": "59175",
+      "city_id": "87",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0806551",
+      "latitude": "50.5757924",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:59:18",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:59:18",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJobO4r5DVwkcR6bRgyJ1Cl5Y",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5843,
+      "scope_type": "SHOP",
+      "scope_ref": "les-cocottes-de-jean-lou",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "vendeville",
+      "string_id": "les-cocottes-de-jean-lou"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55098",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5843_6af3a1c66f7b4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4899",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34028",
+            "source_hourly_id": "4899",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34029",
+            "source_hourly_id": "4899",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34030",
+            "source_hourly_id": "4899",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34031",
+            "source_hourly_id": "4899",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34032",
+            "source_hourly_id": "4899",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34033",
+            "source_hourly_id": "4899",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34034",
+            "source_hourly_id": "4899",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "les-cocottes-de-jean-lou",
+      "google_place_id": "ChIJobO4r5DVwkcR6bRgyJ1Cl5Y",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00, 19:00 – 21:30",
+          "mercredi: 12:00 – 14:00, 19:00 – 21:30",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:30",
+          "samedi: 19:00 – 21:30",
+          "dimanche: 12:00 – 15:00"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLenLlTN220cuJRZnu4AMFZX19HoiCXG7tFG7RINgmWTFO-NIH1u0be7-lJ_Xlx0veo9mAdHIrSGspk5P-LL91F7Gs7c1RvIvXlr9pF7hLTJWuQyRSbGDasvXUbjtoS6QQG3RejbjsD1cuFQHsEs5Cea2vW4EH--eHvqgDvV-O_iYKpheE-aAPqrbFQGjCXYbaujYI1xfqaW6kVyaQMdlWUFAMZyzGDZzo8ckJuej_D-zNvQV7JDxLDwvEDOw8bWpaPJYAKw4q7loJFkQDZH8BG78VVNwRmDrfnsXQoFLInRLGa6NVvrlLH1P7VxQGmc7IvByq6og28utb96qmM7SUwGqm9GYACHFoIm4IAWxk_3Q5bl6JGkzUs--4X7hUiCGCyrif0czlT2epaejqjTDLTpAulqt3WNKu5Hrid4QB2alg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfPXDy_fGhP0LjuD_tDxdKH0ZJb3FuMGPE0i8p9DazT9lm7Uwx9KoLhXOFvAsziXdDO-AJc_NVrCvPCVkG06a01bJIYp53-0j5aG6DFdh2pBknMwzdDrPdbXppX_hBWZi9NII_-cyr0Pd5seHtilxtnOheDs50alzegiegBoNzwlRXeZqyVUmVTdSSwwsiJUoxmnbKeDcEChTl3zTgYTjYmN3NKgQWY4qsS9JO2eFTnyHxFg105BTjvEGTjKlCeWsU9OUlazxNAtm5iIRPZbPIrS8O0qxXquwqpVQx0Vx9nsJdNhjlTTje4lXdWAs8GOLVv6DbFe6zp8LgZtPqYeO5gVbrTQjXL0vPn5MYq5zdXsC0PfsmpOaz_x-Mq1bqzEFgsRGOlFW9Zo1LFcGAVwHUVcHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLfF__Kuq9dpIWh8LDtl35RbIy3nHHyukqLVKvXtMGKrwJtTmzr9fa4i91bQyBvw-9TuKqGQ7idRoc3lxuwONLNJD3wKPJ64NbUU423QLGB-6-2aXrKvQ7191sr7SIqKxxBXWE6SIG_bzmSfsBr3VnjFwFxwh0Z2W3l-H1cy6ySl9ccZMKP1xoaf_4AH0sFsz8eOsIWLPa6r3inN_qtNY_ddTZrnuFZRgqwi6ZfCowbS6xj5C2S4iE5JrQzzcSn4UoLY2jx0U2V7kAe5VD0_ply8v3pfEj7qS4HpEb3st4M2jRP0gPNPAVy8wuJmeJoyq8vR--82cVHzGBN_X3siaTXfrtStTlKPM0JbSdyIOa0h1TZokAB6yQuEckWmbdmRQUIVOiefPA_2W1fnpD_oOJpgRg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101175225112350301434\">Lyvia VOET</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdt6a0KkMrT6HDbXgoMpWIDiwxb8ZhLfyUwJcavrvnKdVzfk5L6HsZ6BZtMP6qzFgN2sFpO82XnDJT7KKnvm0kbgo4xRZaueL6qXdKXq7luPBGZv8ad2glQAqnuXyk9j7maB_1A5Z5EFM5poKxL8RgxTgDBkW06e8-GXOwbL3K4RZheh2w217kWCqNJOrix4zGuAbCe96sWryT8FFy6SvYaxGsm_ueRahYcK-IhPcmyWFAAuo4bOYwsW2I1fwGW93-LPl5dQRnwp141K70V-5eF4L0pDGouBd6OF_6Otq3bh03tJHaAGTukzXbKtjvRVAMhkJ8Qgm20x_QkbDRvw3JGlIzCT1gY7yR48IObGurtH2jjLOiiM6VHNtj7Xg7LPTIo-EbfLqVtTR2JEXR-fpIUNL-MJTU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 2717,
+            "photo_reference": "AV-0GLdeufVK6QNmfOeha9lox6WAb-bPIy4uvKroUuhGTyV7kutX-rTILMFrH_H1PLAZiQpsWNwsSuLea201Bb1itShmBm16dcyWkYKbF_kmlmWJmzBRdGs9KtxuaO1VHcA-op6Jp0Tl6GOfvxSbnetQeK6zkD4kP-t0A878m4mT73bqjJd9CyBUiALK2FuqX8fwqyw3DyTSKdcaEEDi8cSYeF6rrKEs1L7Xyu5da0Uft0tuAOrDbaljJfwx1rs2A9XfJ03NzoAH1_uSaT6H-YT6SVO6E1t8gmXhu8a_NN0RDClgZTKrHjEtelbVQCzgK4W9QjSvuFDnPU6whocZW1QdLcvqmrNTzsxDs1ACoynuf8P1_lZgleRb8QldkXVkVqrCRVxaT2-bAVE6gDoI8NK_f8fvbpo2KDvIQsfFOpg1dc6P8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106670805515524882181\">Gaëlle Dejonghe</a>"
+            ]
+          },
+          {
+            "width": 2863,
+            "height": 3543,
+            "photo_reference": "AV-0GLdvUQH96_KnQISJEEivCTV5Vzmh6uits3SEnQhcQ1AAai7w7O5tG_rn2ku6Qh67AH-4Hxge5n1s2M5SYMlyVp_8aFYAtvtJICkkHbVr0XscsID62qUoCmMb5VDSsiWD5zpEOvRVP9xe9-8m2YluPDX6PB1FAH2U8VEhWm8OkwNG4J2_ZPhh6cDCH8gbcH6wwbBB7LwxF2yByQVjW-Q8Kx1MVWdWxMMaiL_MzlQ1hjEdW4ME9d8EPwCS3n9gXMNubPIIT2FURwHGiHK5j70wCYQbu2M2Kcq4zIHE7p6QNayGW4CGGyzF-SyYGf6z2s76k-nbJAAlUxjTZj4kvkQ3oSZ-udkCIgE_kFjyYtJ2DA7lu74FsP6dvG0MA6sYXvmM5KTcWlHIJcJ9oCraso52Mhfl5Xq6UkvEjyFBJ15N29jC7Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100681626241834886789\">Antoine D.</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLdJohOEXnwP2_GAw7cKM04vVv_Gz7FRy8s4MCXVsfZWOrAq7nXB_KCnYhvK3amkJbQza6RRV9O5ZXKqbsvFiQmwSdPAHSfG8cey9iZBLwD_Y7vDHsKN2SWYBhd1SoLrb1rUHJMuNm1VQ3SMI3vzHcolHLdga0Bfagf3p388cFTAMeOchBIf53pNLV32dplgsiY0KfKWIAtkPKnEUAnf9WCQKvLUSDWV21KnvKiFHhyhKm4xY3UNurJZKucLajB23fANbCVOu_RNRvigoK9SGn9ErzF9GQQ0sKU3W9M6pk4x2O1EvksIhJKN56lGzYocyz31U4gA0Ws8i-d5GkANoUStqOcwmOonCoB5Dw6PuuT9yxJ6bA3EBaTydFnlKiKyTdYvpB_VORpAcWlw8i6heHYBiAPh0Hmk7yAoGKIoQXHVyw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdzSVPstQwn52wnLGQ41XbfaqLOGaNuhEjUUu8QoBJWLk8ZdusKZZZJigldLxsn9BLU4caytcXqaXQ9k9pGrSEfcPGMPpKZoyyDRYh-maed7UrwG6fA2dnOF2TOsyf8FyJTqKymb7L1zRvD3x9fZv-vXuafBs3Ok3Bdejykir9eBWblSdz3q7o96DuAzBV8IsR5LjkaC3vVnZB_xZxRNiZ1vrp672vEUw5EMzYL3O5mRITEoDzTcPibWrttaf-lLzrqSul79FDLmxFwYokfYFzBulzjJynQ6CGuD1kup6uOChy6PrvnwcRJN_ze8oedG3S1ke1ZMruhjDApyUR4i_hrjMzKP8ugO99smg-41AgLezK3OaakutZvGFU_YIziWSWB3TmUDrp_-jYoWjNJkQwlcw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeqIYDd34Gw2uf5iy5CQwiyZ5XDFOzT8P6JpaGBsW0GxkWkaaqdtq4THCfySHHcKUm_u6HD1YUTJvANCdSOICYJ5P_IByAQJow7uL2He3MzO_SEGx04sxMj8sodmmIxeOUFq1XO46JSZV2UJq__241t5x2nY08oVV3Urr93YwMPTj0NbqVZpCes4jbtiffTagaOHzK4BxgQ4QfjYnTVzLQraw1ZyxvfUEJOUYAY6jzL_Q6KeFohZF7p9-Nf3kd4lszXsnblBIcvcFlvj036QomxNpBq6RvpjNbZmf1Stug1JSYVLYlgU0fs62cy8zFSJav08Yivyy7bBXz4zT9lC7VO-SuWATGmBBPIgogaqFoLLKbOywyn14PVT-OYZ9_4F-sD-5CZERnq1zoycww4C7ieqjoHNao",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLe74SPSMCFC8MyKknXTGbgJJF9lv3RNwb43JC-OkO2GUY6KkBeFfM_naS6e_V1iuDE1eM57cVFyxtOKfdCjooo7WuHMPBQAGw8ZoYNGm2L6c6RVyQ9gUoJqbH-1agfwKcl3P_u-T8eP08OT8gq6v8ur9mUX-CraJzZNOYkZFGBx5EPfcMDbnh5RVQ1E-xOEUyaRiz1RICpcQaAER2TqnwE3zYE_f2tY8TBMhdIM8tCUyAZhe-fhM3yUzpQ5jL2Tpd4uyUInF6S0PTcrqYPpskglWY-cHFY1CLx-vAmokB2RqP5eK2Abw4TgxgB2HWj5QFUvWvMhutlrD5cfyWaBL5bN9vit_aCHAcGzG1OG5lvEnak_iaxnfmBFcZKFN9P8r3p1QLmT8Ed8w2FZB0_VBMCmDFbmiVQHfu1vVLUuB4XFhQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114665735994638881371\">les cocottes de jean lou</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5843
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la cuisine, les plats, les régimes alimentaires, les services, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Vendeville, avec des horaires indiquant un service le midi et le soir certains jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-cocottes-de-jean-lou",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5843,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c120bda5063058a38353dcacb36d4eef547b5dbcb8e5ff5df74dd1a780f4fa8f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

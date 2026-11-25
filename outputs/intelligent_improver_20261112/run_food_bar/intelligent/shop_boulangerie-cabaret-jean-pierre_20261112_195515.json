@@ -1,0 +1,604 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:55:15",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-cabaret-jean-pierre",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-cabaret-jean-pierre",
+    "status": "found",
+    "data": {
+      "id": "5685",
+      "name": "Boulangerie Cabaret Jean-Pierre",
+      "shop_string_id": "boulangerie-cabaret-jean-pierre",
+      "unique_id": "215b81d3f20ccb7c3d67c855626feab6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54944",
+      "principal_cover": "54944",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue Albert Vanderhaeghen",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "42",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9778717",
+      "latitude": "50.6115764",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:35:45",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:35:45",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJM2Fr3cIq3UcRGLRE61eSiT8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJM2Fr3cIq3UcRGLRE61eSiT8\",\"rating\":4.4,\"user_rating_count\":325,\"google_maps_uri\":\"https://maps.google.com/?cid=4578351402505778200\",\"fetched_at\":\"2026-11-12T19:55:07+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Personnel très sympathique bonne ambiance\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T11:39:43+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"christophe degroote\",\"uri\":\"https://www.google.com/maps/contrib/103357496687129954440/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXxXu8RXgPAz9TU52W_knNo5aZymV0PKusSOTIUMvRgTnkbNx_7=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Petits pains et croissant infectes ils sont immangeable. Aucune saveur, c'est sec. Même ceux de lidl sont meilleurs.\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T08:36:26+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"LUXACE\",\"uri\":\"https://www.google.com/maps/contrib/112963091021766221907/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVQIq3gQlaeaWAWoNQ0c9C7AACDnNR3YXJEoZyolXT2hKUOg9U=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-18T07:21:24+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"stephy591808\",\"uri\":\"https://www.google.com/maps/contrib/114416018517655924125/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWZIA6QM49fIMfba_unNqzf1xojxlnDTkklyiIrwzdS1e1imWoU=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-10T05:40:24+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Malo Grauwin\",\"uri\":\"https://www.google.com/maps/contrib/103255645519123223487/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUUvKBsAh50_3ENSt7jK3dJ4M2U75CMfLvWWK-Nl45C0WGDiHV3=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Emménagé récemment dans le secteur, je suis venu un dimanche matin avec l’envie de faire plaisir à ma famille, en espérant trouver de bons produits puisque cet établissement est parmi les mieux notés du coin.\\nMalheureusement, grosse déception : viennoiseries sèches et de taille vraiment ridicule, et une baguette dont la fraîcheur laissait fortement à désirer, avec une impression de produit presque décongelé.\\nDommage, je m’attendais vraiment à mieux au vu des avis et de la réputation de l’établissement.\",\"language_code\":\"\",\"publish_time\":\"2026-09-27T08:42:20+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Louis Boc\",\"uri\":\"https://www.google.com/maps/contrib/104785095863760600037/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLynLHmsA-B_Si2L2yDxZl7Cltm9__UEBazJ_PENZZ4G7XnZw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:55:07",
+      "google_reviews_place_id": "ChIJM2Fr3cIq3UcRGLRE61eSiT8",
+      "source_id": 5685,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cabaret-jean-pierre",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "haubourdin",
+      "string_id": "boulangerie-cabaret-jean-pierre"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54944",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5685_6af39c417c831.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4744",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32943",
+            "source_hourly_id": "4744",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32944",
+            "source_hourly_id": "4744",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32945",
+            "source_hourly_id": "4744",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32946",
+            "source_hourly_id": "4744",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32947",
+            "source_hourly_id": "4744",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32948",
+            "source_hourly_id": "4744",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32949",
+            "source_hourly_id": "4744",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cabaret-jean-pierre",
+      "google_place_id": "ChIJM2Fr3cIq3UcRGLRE61eSiT8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:00 – 19:30",
+          "mercredi: 07:00 – 19:30",
+          "jeudi: 07:00 – 19:30",
+          "vendredi: 07:00 – 19:30",
+          "samedi: 07:30 – 19:30",
+          "dimanche: 07:30 – 13:30"
+        ],
+        "photos": [
+          {
+            "width": 960,
+            "height": 960,
+            "photo_reference": "AV-0GLcfd5Dct4mTuifXl6RIJ4HPCz-XbV7zaG7pNJbcmOU-As7AbgrGDSoCHEwYzBomxgpFp55AUKM-iCyCyu9BBu1GcqhYlSh63BESJFJPAs6WrQq6U80mf9rveezzHmo_9E3ZM_vvEqKN9hd29LBi-yVhORo00ADI-DpGY_Ck8LVvEZsT1-d-iEUOuc1fe5EUf5TEpt18KZ8frMn_RPZkJRbYGvWL9xJQCx0LT72SL_bt8lrsf7CFpXbhB-cegz6EQVXFBEvYuQHrJVyYRthplAZysjCU_J890DAR5ec6RFVb4RtunCDh8KpN9yBGxhaFZGdF8t7teBrSqiQp3_Cvzr4-RNSCQHMCawmfP6YKrDkJu6BY68fyqeM2Ff6xZ89_kWuj_L8aPkwTx_9O-4trY-LTVmo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111250856601522708873\">Boulangerie Cabaret Jean-Pierre</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLfK3zhvO4grlFEUBlCr3iCMki-mqdhoh7FG0l7qmrJ6FZBkzFpp9B92WLtuaLnyWDfjCEQwM2RJAk61_nzi8KacbBC47mUdv2AdJu0PoXT0xDpeDPgXuEHcdInzC4Ugs39JPzpHg777xMgwNGjGDKghRio8eNF4_m0HEl_-gINGD1-MWtI2Vs4qY-LsWbOkS66Gk7WpzzqvUbVPafvuNUyiS9_ZugFbNGcex1uzYJ2UuWQs5rR56di3Ca93ns2qjZzqcZIyPKILVwUc93b2KLtxXbXsLgYWiEg9pBv3fz5-dFSqqoHrHZsN88rpHBv7hNWIFgXO57ebxCX4cl6pLjOtZ6wUYefI2BMSO1wuhK8kHrQ3O2MJdk8fU2CGA2NYfwCmq3WGJ4SFYhYfrX4ABCnW9NQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111250856601522708873\">Boulangerie Cabaret Jean-Pierre</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLf-phpRtBG6FWg_AQoh89eey6pV8MtX_0Z7IpUJVYhEgQuZRYiwfO3AGIRSsmmgM-A673M_CmsuvOXmAFv3dtyoiXRDTRzkKgBxIGsSeOv8GCxmAXUCtHMJ8-12AlS7JBEFfEeYikUqWkJEqyVzLRwkdz2OOMslXwr1pC5u489C7OqYOb6AyfkTDFCg80KWs4WiFZFIYVevvaYokny8VB8vOJ8uV5jbTM1l4UDrYtFTXYG7puvM3zIRcz2Jpi3aN6ZP-IRbir9L4U1aSQZnKnmaOzLOqIwcIiU9rHUW_QdPdUaSds0g97DCKDI5l1aoTDo64bwzU-OlUjLdq09ctXlSkrrIsL3m7nv3q7_3fYF4KjD8BrALCQnZq-Fr7zPy28WNS6R87ILMyowdcpGLmbczEPU4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117766071789305819698\">Philippe Gyselman</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfsbL2oa8xw80QjWMJxrboGJzB1MF5_-p9knRpAQUnbHeelbgLOR8CGKgCi7buwY-Dc9uxhu1AQYvewHBGP_9JAmUqzJbWqw61n6iowdTpCekZcD4NNKXl1yeyNSldYo2cxqlJ902mA_Yl-KScAIRlLOwB2zVrbE1hS82cq9l8_zqwQmWfI3CeoR7I15ZRn6teLnlJOkIAQj7yRgY7TONlMD0rxP-lb8vAzY6eFLYgOCChoT0HBghqpTSgfWc3AjUNEjgV-kf0ROsgX9Wd4P4BJRzxOdYnOXmVdz6k90fYUrNsO1VBerSYZWbJyctzMLhI9rXot5W2-2sUvJpH7DeQHT-KdKQAKGd5Q_oN660u8HLxsZX1y8ff2eqrDgw65xvgZkVoPA58o0v1Bzbzt7czil6EzTpI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111250856601522708873\">Boulangerie Cabaret Jean-Pierre</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLeI5Q1ZUlbVSgjZ_e84lyHjASIQWuuFtNM0NUjs1xuc_GVK3gn8XJQA9uM0YVwOkIYvDvkQIcfFhmRcGH1j6WSt0VUBpBl-R25ZQJs4QXdzLBmy7fWcLUP3OuPT0RvAzBZfz41RnxU2N40aN4fn8Ib5xptNy9DxOSvaz0UmbwN89PQiXMcZrKAVa44mzgnWxH6x4k3wczilcRrVps_Z1jSpJcysQRplBSpKpBLyB1xuJI8EhWd4QIZFYICUEhiKDBBRaP7muz0hNJTdAcSHj3LHLMYgsLauQ3SSaEqTYrzc--S0xF8ziFl2BYpaV8U56wVF7atFt1grLfAY8Ca03vKo5LeQDeDHfrGTAajuHm9c6f_muauNsARKliYYh4bqdYUUggV4pkNnLC24nRX7mddLf270lAY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107175161512773569091\">Pascal</a>"
+            ]
+          },
+          {
+            "width": 1598,
+            "height": 1600,
+            "photo_reference": "AV-0GLcfin2fKY9nzAvuWzVTQexhcXuu240CdBmQq5k3CU8rCSvMn1cxCiGu0SUN46CJpmJrtIXyZUosM9Yo5GkSTc3AXLIpWiydg3WkvuYpw2gfxyUVw9W1zvSMGqAaVQ8Svm4DiGAOMiMRslpCkOlyXJh0pMOpSeH1OlzB3uYc1LhdAL6upl6LzuHbZO1NPNdVISe5bZJagSdXn1i50bWCo5Pgm0Ci4rgxlVW9EzFKYGO4-wCJaX3rV92OEnzHwpuNNj0oDrtItVx-9vslJXpkKwqpYx_pOinfAETytCXMozC6ocySCNZLem24vdMzMeys6yNc14hGszSPgJJmGYNm3KNpnUmBnh7XY85CN_2mwfvauBU4u1-G3RPdL9eo6LU8vj85ZQvN_v7z9ZEVbvID6WcUYdA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111250856601522708873\">Boulangerie Cabaret Jean-Pierre</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLekT5kd3l9viKqnEDFLkBv6MEGQRi6lViPt1RT6BgvdzCepY4dzV2yP0SN_fGaJsFwEz-sv_7EVs9jns4p5COjmhftlKGoKgqHxQwIBHvhlowRAJiyxPAbzBRl6cYQEkRDlVYvVvT4ThRhjiyfWtP-Kf51CYYLyJCfraUNWpJNZ-lRmVSmkSsCD46K6MBDgDDq17eXuINyrfrigcjEg2Faiiwors5ttK2jMZVkv19k5QEic4OI_50nYmEfpb2gjrS5om99WGJelkTG4Sp5MiuGmE7nSP2rM4xrS-CvNDNUYygead6R6ZDnaMhEpXg17QK1IXhwTdgWmjePvbFJvHcvvdRIOpGwiO5cEqN7oFoDvV-VkUlZVwz0qqi5Sa1WZqazVbv7C58PHkaUwXqdBdLn3BCm--Fw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107175161512773569091\">Pascal</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdM2stIy9SkVHeuAX2siARrHcrhz2A1RVOV2RAlTJvro-zDwLOzuS1rZo02oqJbG5gqA7GYw4ORFWrYwMvf3Tnzf5DIcqPgpdQBcQUeYAKQ6OE4_KYYlknuFtnbNQEJsR6R_LNMdw20A4MxQJp7KpgigWtTgnvBws8iqTEIod8R8vSSMcOw5GRXOSgvJAEBVkbC2iE_LMrhnasdRkj6SZNHdHmFurHZWTF7HR8_F2r5RAlA4Mrou8M5MbibGq-chBGOKhmsom8w8X4yDxTxrDWEBCZOTZhuDtB0pTI_LZ7-AOA3opgK5j0BzmXrpTXlD41H6c-PpYl8VzyqCNhcX3VP8K0MmQyW-qsTHuEZbVBTYAIvU7aYuiEvVNa5lZyKI8rcZeMtabR-i2zsNxCD6hj73XJ3hb8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111250856601522708873\">Boulangerie Cabaret Jean-Pierre</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfpON1TQjI8S720LQxmaPWaUADPON_Jt4Mhxtfgt-oKNPKTFyhr0fc1_CK1i24Wkopn3j_DzxQoeHSY5OSWR3_MCWef4VqgD3SJ_WJk3Fi1rGe_x8iqglh4e5mTfB7-mRHY5RBRnAtw5t9-JRS-xp1h2qd1vedgGYKziWVVnG_av_v47SZcvMB12n_Pr-OnYa-s0pDQVZAYkbmzlgra_bY2miDwFsQxti2emWI9C11Cg2ofpxOZsy2SrABjn88GZKuSIWxHuVMBijM4xk1ksVhegh0d0UB579Kk9nRS3GFYBO2qKCkcldti9bhzUZfF5VS7lhRPnWIY89DvjlPI5nuc1fOg5MBuapCD7zbfU_kyXdu3APD-zcc8hRYMqmAAnhvPcrPeElz1-1aggi1kEB8_AmYK6rhqxDJ38JWCQdPm",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108361086308980398592\">Vkpt Alicia</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLf-nnHEgwtxr6Nnp4CV3_JSFUUVf7GMyJtp2hHW5oG5v3X6fGDWCpFxBF60GaVCo7oVOnKrim53YmfhDEJm_qD1rb9a4tMf0dmz-wtYvIdwk6N5nEBaKCkzUeY5f7TT8s9HxVUMKxg9SDKUAL2FG2fDGsh9lYGq6HLgqKboqhE-0uMIQ615iM2RjIV7aAEp-cARnyrgqmuQr40hn22UNmEraxV1BiTIRlQmohY9NmrpBScBQVb3o_ajY8UQJaDgfRnU0BPrfkuLYy70guD3Vmyojqld2tK-tnscvjcfSIlq_M-RgWeP2Sf5hM5H8fwnKS77R8C7fx7wM-t2jA4ZpQJs-vIr-4Cc0AWsMZLwfNgYdrmeiaZWhgmBC4QvC5HPNfOH05MUMLIEzepDpMXllCSi7Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100682700092805890513\">Chris Lovely</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5685
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel très sympathique bonne ambiance",
+            "language_code": "",
+            "publish_time": "2026-11-01T11:39:43+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "christophe degroote",
+              "uri": "https://www.google.com/maps/contrib/103357496687129954440/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXxXu8RXgPAz9TU52W_knNo5aZymV0PKusSOTIUMvRgTnkbNx_7=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Petits pains et croissant infectes ils sont immangeable. Aucune saveur, c'est sec. Même ceux de lidl sont meilleurs.",
+            "language_code": "",
+            "publish_time": "2026-10-30T08:36:26+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "LUXACE",
+              "uri": "https://www.google.com/maps/contrib/112963091021766221907/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVQIq3gQlaeaWAWoNQ0c9C7AACDnNR3YXJEoZyolXT2hKUOg9U=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-18T07:21:24+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "stephy591808",
+              "uri": "https://www.google.com/maps/contrib/114416018517655924125/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWZIA6QM49fIMfba_unNqzf1xojxlnDTkklyiIrwzdS1e1imWoU=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-10T05:40:24+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Malo Grauwin",
+              "uri": "https://www.google.com/maps/contrib/103255645519123223487/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUUvKBsAh50_3ENSt7jK3dJ4M2U75CMfLvWWK-Nl45C0WGDiHV3=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Emménagé récemment dans le secteur, je suis venu un dimanche matin avec l’envie de faire plaisir à ma famille, en espérant trouver de bons produits puisque cet établissement est parmi les mieux notés du coin.\nMalheureusement, grosse déception : viennoiseries sèches et de taille vraiment ridicule, et une baguette dont la fraîcheur laissait fortement à désirer, avec une impression de produit presque décongelé.\nDommage, je m’attendais vraiment à mieux au vu des avis et de la réputation de l’établissement.",
+            "language_code": "",
+            "publish_time": "2026-09-27T08:42:20+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Louis Boc",
+              "uri": "https://www.google.com/maps/contrib/104785095863760600037/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLynLHmsA-B_Si2L2yDxZl7Cltm9__UEBazJ_PENZZ4G7XnZw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 325
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1165,
+        "bo": 127,
+        "front": 1038,
+        "estimated_cost_eur": 4.125
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« Personnel très sympathique bonne ambiance »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Petits pains et croissant »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref : boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis récents sont partagés : un avis souligne l’accueil et la bonne ambiance, tandis que d’autres critiquent la fraîcheur ou la qualité des viennoiseries et du pain."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref : boulangerie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "croissant",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Petits pains et croissant »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie à Haubourdin, ouverte du mardi au dimanche selon les horaires fournis. Les avis récents sont contrastés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-cabaret-jean-pierre",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "croissant"
+      ],
+      "Hobby": [
+        "boulangerie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5685,
+    "changed": [
+      "ShopKnowedMeal:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "20f67dc3956445e9a104e0cb74f1e90c583317bb431b9d30c242ae3de9139855",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

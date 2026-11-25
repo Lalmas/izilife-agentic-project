@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:27:53",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-derby",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-derby",
+    "status": "found",
+    "data": {
+      "id": "5826",
+      "name": "Au Derby",
+      "shop_string_id": "au-derby",
+      "unique_id": "3d02f29b0e73b0c89253cc47328542fc",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55081",
+      "principal_cover": "55081",
+      "qr_code": null,
+      "phone_number": "+33320865530",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "19 Place Jean Baptiste Lebas",
+      "additional_address": null,
+      "zip_code": "59261",
+      "city_id": "629",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0361868",
+      "latitude": "50.4865275",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:55:05",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:55:05",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJlTzk8mLSwkcR697vt6tN4Nc",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5826,
+      "scope_type": "SHOP",
+      "scope_ref": "au-derby",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wahagnies",
+      "string_id": "au-derby"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55081",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5826_6af3a0c9b2d60.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4882",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33909",
+            "source_hourly_id": "4882",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33910",
+            "source_hourly_id": "4882",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33911",
+            "source_hourly_id": "4882",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33912",
+            "source_hourly_id": "4882",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33913",
+            "source_hourly_id": "4882",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33914",
+            "source_hourly_id": "4882",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33915",
+            "source_hourly_id": "4882",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-derby",
+      "google_place_id": "ChIJlTzk8mLSwkcR697vt6tN4Nc",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 09:00 – 13:30, 16:30 – 19:00",
+          "mercredi: 16:00 – 19:00",
+          "jeudi: 09:00 – 13:30, 16:30 – 19:00",
+          "vendredi: 09:00 – 20:00",
+          "samedi: 09:00 – 20:00",
+          "dimanche: 08:30 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLf62G6oHzLZkrsLncC54jya5REUC12zJa5D2LCKey3jezfS9Ji5lrj-li75C0ZKybmeM6JF1VeL-x-jh9FOSg7Q8NPfJZK8-m9W8ggEuX7jNog0n56_Nd7NkhXI5ycbPJj94FRbll_5GxsAQJgw9mHGLNb6n87iXRYdz_tqxIuh3b6uzfCBqwfJzaDPMxLWa8wOqiJrEqEzChWDnJ5zgGDYGYOpWNI9lFYv2Ii_cOwFO-DiCYvBX9pKF2-7D1gQadGksE7yKkAzepqc6uj_nbxZmkk1idx-pGyO-D4zHFTu1ktbqIQEkTCvhFnHUxpiybRkSlaI6MsZRw6J202kEzFwXRVDARc5a9IGPvbj6ER1sjnrW6NTaJj6MfbFRy47F9roqE8btomFxj20C9-ZGEk7Snw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112322440429413520268\">Cécile Diévart</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 2304,
+            "photo_reference": "AV-0GLfmdvs2o42jH2nMiid8dDIlsChSbeKiQTYbZkbBcsh_vNntHIWRKl46cjHOELpb5QT3zb3m7dlUEfmIlqe-79ugbmU0PbB1JOUKAnapEgsycS2-GGURGHyTa6q-Dds6xzq4aqpzDvdqW8Eyx8R-a4yRPQV6mIUJZKe_V7cFjB4KuJ10V3oEWQhS8jxPIJpps5QCxVqjB1Zi4dr0SdXN5kZK3op28EOuZQ8RI856wbNcS7tiVWiOL0YWxf3RN44UEIBSsXvLV1VvUVt0CagNy3-Id5ZdmyduxIzU5DNJSkWeLdf5ZqTPIhmlGRLOBjxSXbdlChEx025Yn42PUYB88KtQzj8kF3OTpVqwyzy-HZL4YOW2OGcXcthjAyvkZ86iFaVWrcTZvhW_HVtDQuqhkpZfbIc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109177131543987339844\">jean.pierre Storez</a>"
+            ]
+          },
+          {
+            "width": 2464,
+            "height": 3280,
+            "photo_reference": "AV-0GLeGWvvowNXTNXRy8ClzWh-ZpkJMfzPpGMnxIEyMxqUdJqwd32eBF41pQhhg15vkNuYhG-26CRoZFQBSV-489CwzvWZo88g8svAuR0veVtcxBQ8e7PB9JshKve4obfYpgpUY7fuD66xLbdUPgmv9qca5t283BZOzpS0cNN8xt1aXz4XkCy7YnAN6Trt_xWVRirVZhRxjyJUIaDUh5lBJ60j2v26RXZ8uSZElZNZ24TwJTdn_kb9z67zEdGf0BjBPDNwxZ_dGa58UT3jegiSBQxTRhGFCdEljdMsbZVs6418w8qHx2lj-SXfeMTCmIDc3xNDWC2WjOMQtv-jr4LoksTsGZ7zQl7fP862Lv2LOaRmwbqsE9ICRNWIc25tKRDcS726jDnKO0HoyqTjPpv7NIx9FALmp",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112322440429413520268\">Cécile Diévart</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcCtUxXd_vvUztO-2jOyvOdzZfMm5yawoGrj9RDyfwOeOXosgTG0EHQAFSjMqT9th9R5-EtPN2ODfV9E1AJUNLkxCVMhavCZ3-fk0538WQFvgcLd8rn_snOHOJCPXm-VkNnof7Frbg0svM_DgEnV1C7B-xJ0YSIZ88n3y4nCaz61pUqkTEqKWVy5VvlJ4zu8u0Nwt-pRzuc3h8CE_mkOmYw1vry0d4vryP8TSWjWG5TgXNgR5YlenVkVU-7rSENACvUXUSY0NCIKO1oSXSaRI5y3ZxbR0a6TJxpZ1JCDTJc6wo9tI5CBzVRE6i958pCx0sOomkutStXkq34QWEppkGxzrnYgUN5jHJ76kcUtV2kYlMvH7irRUUE3GG7ingG21Vg4siwUt17N4joSSEwHPyyRoY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112322440429413520268\">Cécile Diévart</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLdMBHe2KqWdEYVExSj-ceOKyKYcoDFjDbODHwEF1dzq6GRQj7OYDOTjIvgoFSEkTQkGR3QrFQ9vgOkwT-AZ6syVb7zp_e8zO55TrJo3A8RNTOfeS1D87T-8lyxeESRkGhRS4E8ZELtFO7Ru6FG2XcQ-GtluRLgfbD1YrUtTjW8eixZ5mV79oJutMns153G8xTXFo5eGoieQVYSOk0ImgepreTI9pYKIXWMvY06bD_PUIH1cjbPAjIv6Y9i02jHM8bgkr2ctFVoRvHKWx3ERPXDVeRInuUFQcsgrjEzl26R-lpJQDdaOWtqhGjfDXyqEN1yK788fznDX0x9z8d7m_rIjt7gaAvEUesZRuo9JJqS3Wxg8NTqnhagDdXcpZcSBLp6gYMzjEvbntgsocdvgJLlBZxvf1lg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112145785593204629997\">Dav Ca</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 2304,
+            "photo_reference": "AV-0GLeZULn1bMALP1XFDO-CcbJ1pEiRXfWvubAU56rcM3jsdxNt64X_12-3vHqoaAH63EsQJMvIjL7AXOLhptc0BlSYPrrvgZXwQvJCCNtTNAuMi4ZBPNhbmvZBvkafQqiy5ftclVrEIwIbyu85X7L1HiYbpQ_rboHv7FnSbvjAwhwwi16aQHYthkcixCPowT1BKhi82tys48-2KQGeh7K3CPZg4juEDmkGX99RAsI7vgo-CCYQl1OMMRTL_gS9QdZXwMyz4esQbC9BjwFVQEvKy2-9XAfqe_qmjpNbho-cdgp3tl2-EtACJh84nLp2Nlqofl-ooLbSs-pOFuVFg0men0BZJ4t7Ow8H-6BTeEt2QN_GowuYhhQrgYOk5uH0YiML7UE6CAeVSAvi0b5D46p1O-Y09KrZvKw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109177131543987339844\">jean.pierre Storez</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLdeI7JZTF2bTwiNK4KdTu1KaiTxNpyd8JliT-ULZdc3liAInM9tm1FfWiJfbqRpfTq98DlE7FcEW5Xw711c2WAD20kMPZylo8SykwgyvT8eVg_bil1zDDXXTUStDw4DfF4b_3fP92_pNxkh-nD7qoq638_KzwkBGo0Hzyn3lzzgGEbUCrC1NWPtRQGr2-oy5LabdfeQ2Fhj61PTFLeKgk8f_hYr7V8uBaVq4709e0CtVDOJM6qpnBu-7tNk52GVq0EaJz11AxmPay0ND50Ldvv1fMtB_6hCGu7L1EmI9MPFg1GO2hNpRc6dXG5gjaeeS0Ehzv6oClpcMSBydBWflCGeFyq-vabseF1DyBVFm07nbMCfGYCSniaeImu3VqGLAFYr9Glx93w6s7S1W0wlE-lGPcOQrS4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109177131543987339844\">jean.pierre Storez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdIDCdseDJz0g-po870QrlxVyGVNcvQl00JOe0kiUbptC1GrqGAmbphy1pjXQXpVORhtDbCfCYbJHNc55-KZhC4-mB9pgvdHIL6C0dLIOwJSHjX6Z4OLD7VtPagI7t8PwxNq78uCLQs1TQVBDlrWJnHgpoX2FqH5x9vnlp0g_7BFWYl8rVcmluCwkoDI0EBGL6D7jfdwPtkd6opIRp4r8K5nqeXqdOyd4vgB6cnZgtt76fWC2P_nwSzT0duAe5eUz0g9qUMqaTN3TDTokjv_CwwjZf8H9bmppQGJNe3da9gDcrh1x6oxqKIqIKlcvksZIsu9sKKPwss_s0Q74bWPpvjWKQ_HuQvT1Z0C-6nQP4Z6ACIu_bYHSLC7bASgG9UIWFmjkhgCK9z63uUORM7Di30KAUoESA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109470048745085668585\">Noe Gueret</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLdSU03JxHvR-N6MZ4J5XN5vnMiq1qm974C1g-zkVnxoirUluJZNSrh571woLiqGuB-918H6nCbqH7q5EUGAYGZX8S0_ZX1JXUje1rht8wIVL8PORr9oN4wlp-Lx-OBf7X9FFhfZ_R9hfPhpDohcadbjFzk0bsZL0d_8XHST9SyaKnbN3NeCxWYEzpC-A0-FFPVs3yG5A64OTsKitZJ-GS9ScRlW3MDFmEScVWryvwQLg5FZz3l3sUEb8MNcilczn27CEgpwZIFQEnRc-L4t-08d70nUc4FZyijSilzPMz1MlDt8mgicl1tUXs4wjPaWem9Cb5Jt2ixnRNuhzc7nttfXRpfEH5KGMBldOlElqdIfVwotmGbpM4CSC2lOPAoJAuacXS3ti4HsWZSx31g0ju_lFcDVyDE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109177131543987339844\">jean.pierre Storez</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLcDXsdcqe6RFYx09v7Pj5UFilS9MEgGv6nkipz13lsHOYogR2WMh1JtQfoyL9ekkbFOjXP7ohA8iTmzDXdRlFnGUd2WDnr956w-PZEeWJ2NEk-5C_LkId9bHHpOvOx2Vkbr_YNgvxT762h__PzpNqkks8wo8dZk5U2fLZ45-1lqyrdOOuzrFlMzx5XNXAyXqSV7ZxnJ6XtiPtZb2RW0V9qhuUb7qsMon57YwTVcEDxFWCS1ElS8RkkkgFmzX3t-4DeJyfYM0oSw0Pu2xGidMwq7rtUp0xWNMqkXumkOABotF1zRRZo-rCWpWixcgxXqTZ2KbuNDN_r4qS7rS-9kHOAa-AjV1_kXqMvqeFg91D3brx0GtbfZvXfDSb3k4E9PK4aMQp8sBJ1pwlGP-VWbPdPN6Eg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109177131543987339844\">jean.pierre Storez</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5826
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les références fournies ne décrivent pas l’offre, les services, l’ambiance ni les équipements du lieu. Les horaires seuls ne permettent pas de confirmer les types de repas ou moments de visite."
+    ],
+    "rejected": [],
+    "summary": "Au Derby est référencé comme brasserie à Wahagnies. Aucun autre signal exploitable n’est fourni pour enrichir la fiche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-derby",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5826,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "254b370204bd1150e020eb1ac2dc56f279fc7831ee10849d6fff865c35127855",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

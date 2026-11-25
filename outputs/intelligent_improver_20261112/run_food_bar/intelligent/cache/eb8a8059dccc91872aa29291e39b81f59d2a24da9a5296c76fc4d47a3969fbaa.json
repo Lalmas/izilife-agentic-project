@@ -1,0 +1,131 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+        "evidence": "Sur place"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "https://le-semaphore-loos.fr/en",
+        "evidence": "repas de groupe"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.95,
+        "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+        "evidence": "Service à table"
+      },
+      {
+        "string_id": "midi",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "lundi: 11:30 – 15:00"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+        "evidence": "Sur place"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://le-semaphore-loos.fr/en",
+        "evidence": "repas de groupe"
+      },
+      {
+        "field": "adapted_to_handicap",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+        "evidence": "Accessible en fauteuil roulant"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+        "evidence": "Sert de l'alcool"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.89,
+        "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+        "evidence": "Terrasse"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Types de repas : Déjeuner"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.95,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Cuisines : Française"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "salades",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "salade composée"
+        },
+        {
+          "string_id": "grillades",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "grillade"
+        },
+        {
+          "string_id": "wesh",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "welsh"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "burger"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.96,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "service traiteur et à emporter"
+        }
+      ]
+    },
+    "warnings": [
+      "Écart d’adresse à vérifier : current_izilife indique Place Albert Tacquet, tandis que le site officiel indique 235 Avenue de la Recherche. "
+    ],
+    "summary": "Restaurant-brasserie de cuisine traditionnelle française, proposant notamment salades, grillades, welsh et burgers. Déjeuner, repas sur place ou à emporter, repas de groupe et terrasse ; accessible en fauteuil roulant et sert de l’alcool."
+  },
+  "meta": {
+    "cache_key": "eb8a8059dccc91872aa29291e39b81f59d2a24da9a5296c76fc4d47a3969fbaa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

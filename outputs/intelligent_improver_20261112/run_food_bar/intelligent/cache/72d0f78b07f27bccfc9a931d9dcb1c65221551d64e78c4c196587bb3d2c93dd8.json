@@ -1,0 +1,53 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-danser",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: bien-pour-danser"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: excellents-cocktails"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_danse",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: bien-pour-danser"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: chaleureux"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "La Cantina est un bar à Lille, indiqué comme chaleureux et décontracté, avec des cocktails et une caractéristique « bien pour danser »."
+  },
+  "meta": {
+    "cache_key": "72d0f78b07f27bccfc9a931d9dcb1c65221551d64e78c4c196587bb3d2c93dd8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1150,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "Le titre présente Nadia Richard avec un spectacle intitulé « Pourquoi j'attire les connards ».",
+      "Aucune description ne précise une forme plus spécifique que le stand-up déjà attribué."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre seul ne confirme pas explicitement s'il s'agit d'un spectacle solo écrit et mis en scène relevant de one-man-show."
+      }
+    ]
+  }
+}

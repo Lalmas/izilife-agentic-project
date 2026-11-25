@@ -1,0 +1,649 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:31:57",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-semaphore",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-semaphore",
+    "status": "found",
+    "data": {
+      "id": "5852",
+      "name": "Le Sémaphore",
+      "shop_string_id": "le-semaphore",
+      "unique_id": "a562f8889299a26eb35312eaf3ca5afc",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55106",
+      "principal_cover": "55106",
+      "qr_code": null,
+      "phone_number": "+33320328608",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Place Albert Tacquet",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0388526",
+      "latitude": "50.6020251",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:00:23",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:00:23",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJpwWfdgPVwkcRXs6wQ6_59yA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5852,
+      "scope_type": "SHOP",
+      "scope_ref": "le-semaphore",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "le-semaphore"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55106",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5852_6af3a2079f0cf.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4907",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34084",
+            "source_hourly_id": "4907",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34085",
+            "source_hourly_id": "4907",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34086",
+            "source_hourly_id": "4907",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34087",
+            "source_hourly_id": "4907",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34088",
+            "source_hourly_id": "4907",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34089",
+            "source_hourly_id": "4907",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34090",
+            "source_hourly_id": "4907",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-semaphore",
+      "google_place_id": "ChIJpwWfdgPVwkcRXs6wQ6_59yA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 15:00",
+          "mardi: 11:30 – 15:00",
+          "mercredi: 11:30 – 15:00",
+          "jeudi: 11:30 – 15:00",
+          "vendredi: 11:30 – 15:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLd2mY3wftpL4PCty7MhJlrsCFal2EhbsPGf9PKFJHcNoW88h690pZ_NlYe_7SQqCVBMc36WD2PhjwabitWUX0P6JeQxio9WLoYXfqp4AmlDIBH0HYWNaZaMIhH1cUJzs-yK0b3O0kHkaxhvJDHDkiGOdOyhd8lNh41SzLY1jdWDLAb1hnQZI0yZndw8M2xwFuwNd4trfjBgHScd2FfLzi-oCsbvaXU90Xi8H9XzsStZt6u3Bt2a4m4zA-vP0hpM_Vm9tONGPoayoatF0DupA2H-YtikxgzIn2VeTfD3aE--txHDDAivs8eupKTqRddw3sb6I6pCQS1CM2eWctIusWy6jdXfpAQFT2nbkGD9avZfwKbZ2fEbAVIDv5DCYpTi9J_hwtJiNe2IQ3Sdt8grAl-HS1mhQac",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110592563469668646912\">Inaya Msh</a>"
+            ]
+          },
+          {
+            "width": 3984,
+            "height": 1840,
+            "photo_reference": "AV-0GLcYVlVO0dkPy0iqivXAZs7RpSJPYH2Uq2xbjVXVmsVjmlvMKY5fzpONmsZsTP2wxEx_LwVhjDmqFFDiU2efiW7zypLTK0fzjIZ34esvk-qqGebCjFqZ1OawxzBZYK2bR4fu5ACnFRykMSKslHvvznfxKZzc1NQNbnrqgQoZ8wX4Fr76RJgFeD8B3X-EfCGY84PjkXjXBywVaYJbojgUBjgdSXVr9p4I9Cbyq7Hh-cakvCXcPuUtawcDRMOhPZlBEAYwEtRv31vLCKGgdkfRkBVhj6muvFPh1QF2m_z8J1H3ndfoxSO0tYu9egq0R3vYNeJqZ5JUUv4pAYplIepmi3Ogan_VXxFueEOl73Jm-LVdXQNtgt40KaAJ07Jj6V8shz2LV_bxy9vxImANtZ6urW2tRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfFlNZK_l4GkC7GIug0GuNHW6FB6uShQ0hImN7bjF_2Z1IRd3CB7vJUZqQuYF-wdFbNsis7N1g_JO-DXVfTmG2QV7hcktdF3Wq_0_rBdZVWq41Kp_dUOMGA3JWBQScCYlxmFo1zLYpE7HNe0dppZ8Tw6ECwS1xoKackyhIc5l69foNJhBvNvKM1Z4pqmeXRA0DzAIMvj73cCKHsI5_PUTP-KlfEA8n4jhGdg-36WLh7kVz_bI441bCTvpwlsssLjZ3EWdKxflIqXByLjeCara2tW4EdV9sHU0Fng4a_uqQli-3wR1nvdLV5HEtqT7udIrFYQA4JtgqKSERysbwaRFlhIdmCGkjjfv7NfyoNkdwBLgKFPFOLZbciVCXTvm8QNwXyn8h6L0Sfxw_1DtBjvOHRVTVKDJQAXP64YcSksXfW",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLf9GQ_E8AxdNDe1km2AACX1SKJhVlhI0iZr0F2iprzDU9hlAiErVE5TbAKCY-LhoMeWd34PK9vnZLMN9JxRPVBQbFNMYtP0sOrKmFpZaclpb-ooJvwKFBrtxygQXixxohrclUJvRrVkLOYy4Xis8rmJZpCgnSpaBVSY4SCzI5FEjZxqoVaY8g6eeDDP93Jsx19FmCSmP23KF_rMjlZEydRmobBwI2JeW0O2jKnMzvMV6LsWzpGw6YrNFMW2Rs0-Hbdu1SZ8vju9QV1eCE6NVhFdDQNCsz3n7P1KilOnkQL8EgoKsZHSS9aFNDRMtSAaIXT6Hstkfi9-UgTkY6_9fMyXZ-iCNNPDjIRqoK5DLTJc_F9RuUJ2uL90LfIwzJ5w87jiQ_JEGtWyickbMQpOy0QhHnCX7d-iHBOqPanXT26p",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1860,
+            "photo_reference": "AV-0GLeKvXzy9qqKZHgDsdwbAiEkcEd1l4Y2yfNKjssxf5mabxvC54yZk0X2CmWSOkaC3QOdKI-MkwhjFMPs9-8rlTRVyZbmEFBS93qPaKkO8otA5Ltxabepdwus0bMPqQ11TzGlOSuC-B6WaRytlE-1RDAIydx6VmssULvoSsuDm5OAOrxqrTqW-P-xR5IPuz0yWdMN-dwmYhOTCi427IpgmQlSD2vYrAEiRYYWRSpxIFiL7JVZuNT5i0wvftvFgXHuqJqapqkOCe0PtPcbNpd_9NE_XE6_ZNY1n8qS0EHpBKn-8ygBHNukpTdlPY-dVQmzTE66JXl10mpWLi7WoYcOI13R5s_rQtHTZT1VZlY7XUvYnTMzHIR9FI9zTvYm37vPeztymty6OSufjcG_etzGMew4p86AUus",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109419033596971857787\">Maunir l&#39;Itinérant</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLcQmoaadPkh_Ka9gI3N9xEtG2mr-y60RZg9efIwHyaWGp_7mxrlapAINm1UGcd78qx3s1teInQPiWriQIL9xXxdBulL0gUEPMT9x5JY926eiPECAZxeHDw3wvFAbrR4yueNjlECLvfvq6aB1E0pqX2gH0hHopdDgO7YhjjssfU0ruqUvr6DQSEHUTrQREwEry0DZOvOtcrPDx70KEMO2coeB_Ls2UO_UCRjCXc0PZMXsER_3oc_8koAULJBigk5keCArEj504OR4JcdIKKDvb1S3VyBU7UfDStKsU58BpNBYHZqkPr79cdZGIM76gRp3tYkhkjTJAdZhxKtAmiI4r7gaQMaP4LTVin9kwluCDLN8I6xO9lQZFtquZclv2s0Dm23Q17m8f5eryDv7vEU_lTnfpI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112808898554744798600\">Nath Duf</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLd-KP1QQK9uX7gHprCBzUc1Jz0-x8bgYf9MZy-dyIf4XUlNTJqg6x_CPkz9xkyjz6r7eeXZj9KSeOznXdeqfvxkx6fo9nUEALmbTD_hwM8CWJ-PQm68PpFb1IR34L9EQgjdAg04J_cjZV8_-0HOb9PHnJi9fNUWy6b0VGEIAcBpWadZoDGh6tzrTN2KcA21J7XBRjwFTW470g6g0Xj103xmHU8Gwd4AzCnLKQv77PqLpwZyZV5D4pytX6Rh1gxWGtRBwOKCiKCt0syJ_qdSTwaQBIrTMwEmeZZgvSjL8yObpqFrhsZ5G2V4ExF6N21Uardf0ojftRFnyR9qI_lYaqIcNdMVpWvPH6SDe1oArf2pgcs-VZIrJkCbKxPA9-cUmVmdYaN1RnBICQ3gAJs1fqPQt-CR",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107176075768440444594\">remy van laecke</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 1504,
+            "photo_reference": "AV-0GLeQCg0Bka_pOWSDdQvJZltUWDwSppxhsIUqdnDA_KT5FzPZHGaFH3nqGcgPmIkyPbMN9lALi53olHBkxYJu06M2-VCVzQpzMDNPzjkashalxJp6kaFs-WQj857Z3-pGAWEzVEj6iR_HV52a2i2DlW9JLVG-BL0I42b4gd8ftoLu7bhRfPpqGCkgtj-h5PMT9gxsdoStPx8WAvOqQWPq5_R-F4m8k0EgFplxdD9QtEfEhvyO-m-VmIUB3w__3DPLAWJD8ahYYiZ7MES62P-MlBJcqQ9Bi2Rcq3UDd-H_II8gavKIyegn2OsYBZacoDGeu3z0c6aSyDOeCXe1r5VPRARNQo6js0OR5cK922pE-qse53h2bolmG-hZtz5QOLmmfK0rvhvz3Im2PhwylGGGiY-6BJUWJUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109419033596971857787\">Maunir l&#39;Itinérant</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLcQrv2z0DJ0xauJJ8xumzezKUqRBk-NnSMz2p8CGOE28rcXlLYsHQhxe3LbeamnXGPxN-W37GremAnwh1VqDS1eK_G4n-t63V003KJScnXLpyxgFJ_owvTdYa2aLTpgZxuqYaLJNGEC6T4jiRlk0TkQOqBRE5vXNu1M_NqoxnMhhzf6ZGfAOB31aOPzhxv9Bzbj9Jhkyp6bnY-G2NvjK0V6zhy8po-0NvtWiBYhjuDHMFqPMp_-cwaYFaw_mocF67XzoMap04lU1nTR45Qgxo0vvYmImHZW9nzZ736LBD37H7EBWw5o3cW2Nqj2_glXLWZS1gcUzQZho7Hpo3DnyCf6hRTe75QZaIMYZ4xtQJzpTLCmFQaOO0ct4L5XZJtXeGD2AJNCjdg0jUCXd9tDuh2_vKU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106434081043669537246\">Michel Joyez</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLf-WHkm-RdVpU1drQRYWGtBZoQ65qVaQed8AbeEv7YWTj2IxBvPgHWPAwwjaR2T48RIE0uucKjISya8RZdxF4qcbXaGOrAhc7q3QKOQdp1cenbi6FIoHTmBVRfWiFLKWu9RgfP2yWEIeQin_aGPYxw4JXh8jeGbUmWMCKwq4yIZU15sXx3lAiSFfp7If_8PzLiz8dmvDQITaH_jUG97wNstji9cqmdXQw5x_0Tx3dtuet3uCcSqRyT8utoF53MAvPnnLVl7YMMo-_nOogWY6cGs8g2U4Z9PDsyR9dhqSu9Tz6AYdVjw55PkjwwasXNVYsJwnOVEi_q9jY2FzG54cqfXxffCn_TmPenV6ud5WBC3L-4gy73Uh0bCeQutoJ16K3mK5KzYiP1zk0GksCFMmCKbWyjCk0c",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110633069863536570300\">Joseph Wéhé</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5852
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Écart d’adresse à vérifier : current_izilife indique Place Albert Tacquet, tandis que le site officiel indique 235 Avenue de la Recherche. "
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+          "evidence": "Sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.96,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "repas de groupe"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.95,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Service à table"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 15:00"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+          "evidence": "Sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_groups",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "repas de groupe"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_handicap",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Accessible en fauteuil roulant"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Sert de l'alcool"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "have_terrace",
+          "value": 1,
+          "confidence": 0.89,
+          "source_url": "https://www.sluurpy.fr/loos/restaurant/2075615/le-s%C3%A9maphore",
+          "evidence": "Terrasse"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Types de repas : Déjeuner"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": {
+          "string_id": "francaise",
+          "confidence": 0.95,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g968384-d8360133-Reviews-Le_Semaphore-Loos_Nord_Hauts_de_France.html",
+          "evidence": "Cuisines : Française"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "salades",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "salade composée"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "grillades",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "grillade"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "wesh",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "welsh"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.93,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "burger"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.96,
+          "source_url": "https://le-semaphore-loos.fr/en",
+          "evidence": "service traiteur et à emporter"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Restaurant-brasserie de cuisine traditionnelle française, proposant notamment salades, grillades, welsh et burgers. Déjeuner, repas sur place ou à emporter, repas de groupe et terrasse ; accessible en fauteuil roulant et sert de l’alcool."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-semaphore",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5852,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "eb8a8059dccc91872aa29291e39b81f59d2a24da9a5296c76fc4d47a3969fbaa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

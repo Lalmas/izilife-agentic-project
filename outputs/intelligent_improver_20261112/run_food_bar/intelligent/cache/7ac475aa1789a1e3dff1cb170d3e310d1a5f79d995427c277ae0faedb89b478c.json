@@ -1,0 +1,133 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« brunch maghrébin »"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Formule brunch + poulet mariné »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« une grande salle intérieure et une terrasse extérieure »"
+      },
+      {
+        "string_id": "terasse-agreable",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« une terrasse extérieure très agréable »"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« la formule café + viennoiserie à 2,50 € »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Coup de coeur pendant le marché de wazemmes »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« une grande salle intérieure »"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« une terrasse extérieure »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« une grande salle intérieure et une terrasse extérieure »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« formule café + viennoiserie »"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Thé à la menthe »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« L'accueil y est formidable, toujours avec le sourire »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Côté prix, c'est imbattable »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« brunch maghrébin »"
+        },
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« formule café + viennoiserie à 2,50 € »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "the-menthe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Thé à la menthe »"
+        },
+        {
+          "string_id": "cafe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« formule café + viennoiserie »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Salon de thé et boulangerie avec brunch maghrébin, thé à la menthe, grande salle intérieure et terrasse. La formule café-viennoiserie à 2,50 € est signalée comme un bon plan."
+  },
+  "meta": {
+    "cache_key": "7ac475aa1789a1e3dff1cb170d3e310d1a5f79d995427c277ae0faedb89b478c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

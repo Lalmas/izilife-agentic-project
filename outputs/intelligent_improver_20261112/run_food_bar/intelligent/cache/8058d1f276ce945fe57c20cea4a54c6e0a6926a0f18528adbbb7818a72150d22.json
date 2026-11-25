@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne renseignent pas la cuisine, les plats, l’accessibilité, l’ambiance, les services, les moyens de paiement ou les modalités de commande."
+    ],
+    "summary": "Le Visconti est référencé comme restaurant au 98 Rue Clemenceau, à Wattignies. Les horaires indiqués prévoient un service le midi et le soir du lundi au jeudi, le vendredi soir à partir de 19 h, le samedi midi et soir ; le dimanche est indiqué fermé."
+  },
+  "meta": {
+    "cache_key": "8058d1f276ce945fe57c20cea4a54c6e0a6926a0f18528adbbb7818a72150d22",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

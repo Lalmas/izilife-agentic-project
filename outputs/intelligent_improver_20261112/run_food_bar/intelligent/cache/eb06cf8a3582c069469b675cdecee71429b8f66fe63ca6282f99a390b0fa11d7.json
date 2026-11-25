@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Très bonne pâtisserie polonaise »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "polonaise",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Très bonne pâtisserie polonaise »."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "agneau",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « je prends l'agneau pascal »."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie-pâtisserie appréciée pour ses pâtisseries polonaises ; un avis mentionne aussi l’agneau pascal."
+  },
+  "meta": {
+    "cache_key": "eb06cf8a3582c069469b675cdecee71429b8f66fe63ca6282f99a390b0fa11d7",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

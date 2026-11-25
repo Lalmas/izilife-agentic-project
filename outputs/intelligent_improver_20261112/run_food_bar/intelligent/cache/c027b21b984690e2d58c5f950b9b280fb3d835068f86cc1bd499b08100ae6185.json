@@ -1,0 +1,97 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "on a savouré un welsh"
+      },
+      {
+        "string_id": "bien-pour-concerts",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "super ambiance de la soirée concert"
+      },
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "super ambiance de la soirée concert"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "on a savouré un welsh"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Un lieu très convivial"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "arrivés pour boire un verre"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Régalade sur le burger"
+        },
+        {
+          "string_id": "wesh",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "on a savouré un welsh extraordinaire"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "moto",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "un endroit motard sympa"
+        },
+        {
+          "string_id": "concert",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "soirée concert"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "arrivés pour boire un verre"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas l’accessibilité, les équipements, les moyens de paiement, les modalités de commande ou les options à emporter."
+    ],
+    "summary": "Bar-brasserie convivial où l’on peut boire un verre et manger sur place, notamment un burger ou un welsh. Des soirées concert sont signalées, ainsi qu’une ambiance appréciée des motards."
+  },
+  "meta": {
+    "cache_key": "c027b21b984690e2d58c5f950b9b280fb3d835068f86cc1bd499b08100ae6185",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Le Patio - Bar lounge & Terrasse"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 00:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 00:00"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 00:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 00:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne décrivent pas l’offre, les équipements, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Bar lounge avec terrasse, ouvert tous les jours de 06:00 à 00:00 selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "1315965b76f95553fec1326f10f4b61d4a953e86d56c59cb8b66bb5e6c2d223a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

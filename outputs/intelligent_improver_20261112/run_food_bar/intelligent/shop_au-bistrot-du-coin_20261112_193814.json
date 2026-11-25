@@ -1,0 +1,609 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:38:14",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-bistrot-du-coin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-bistrot-du-coin",
+    "status": "found",
+    "data": {
+      "id": "5611",
+      "name": "Au Bistrot Du Coin",
+      "shop_string_id": "au-bistrot-du-coin",
+      "unique_id": "259b48e258dd163b689d7464b4576d30",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54871",
+      "principal_cover": "54871",
+      "qr_code": null,
+      "phone_number": "+33622658480",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue de l'Église",
+      "additional_address": null,
+      "zip_code": "59551",
+      "city_id": "101",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0614848",
+      "latitude": "50.5204086",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:26:57",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:26:57",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ8YnMSijSwkcRcXnqQR2gPYw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ8YnMSijSwkcRcXnqQR2gPYw\",\"rating\":4.5,\"user_rating_count\":66,\"google_maps_uri\":\"https://maps.google.com/?cid=10105409186409642353\",\"fetched_at\":\"2026-11-12T19:37:55+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Ce n’est pas une simple adresse, C’EST L’ADRESSE !!! Convivialité Formidable, Ambiance !!! Patron déjanté ♥️♥️♥️🤪😜🥰😍🤩 Patronne Huuuuuummmmmm\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T15:08:42+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Fabrice Fred\",\"uri\":\"https://www.google.com/maps/contrib/115654720855155700826/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ3PhHYM2BhzP1-TdDUPaCdIkL91qktUeVJ9nDjOBjqrOZ3IQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"endroit convivial\\npatron super sympa\\nambiance garantie\",\"language_code\":\"\",\"publish_time\":\"2026-09-06T10:35:12+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Valérie Vandewalle\",\"uri\":\"https://www.google.com/maps/contrib/117724015856021460019/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXScCc_RLb_QKFYNwmVJTh5QJpys0vBWvbmmF6eQ0J_IDPkbcY8wQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Les gérants sont géniaux !\\nAllez y les yeux fermés\",\"language_code\":\"\",\"publish_time\":\"2026-09-05T20:14:57+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Clément Byrtus\",\"uri\":\"https://www.google.com/maps/contrib/114685742577135201515/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLmLVMmO96OSD_qYDyDCZG2rTyT6CTC0-yEhLUvCeV4LnJAPA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je me suis arrêté en vitesse pour faire un loto, mais plus de FDJ !\\n\\nAprès 2 minutes de discussion avec le patron, nous avons pris quelques bières, quelques whiskys et refait le monde jusqu’à 2 h du matin.\\n\\nRésultat des courses, suis rentré à la maison avec deux pneus explosés et sans mon ticket de loto…\\n\\nMoralité : Ne vous arrêtez surtout pas, sauf si vous ne buvez que de l’eau !\\n\\nMerci à toi, Rémy 😄🍻\",\"language_code\":\"\",\"publish_time\":\"2026-06-16T20:18:48+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Marc Leleu\",\"uri\":\"https://www.google.com/maps/contrib/107814353603904800534/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLw84qcQPCNEJNgIWdXbJbqqSqWlAVLnII8liPlcb0Q41hQQA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J y aller quand j étais enfant,ont aller a l église et ont aller chez decorte,trés beau souvenir,l école en face,le boucher dans le virage,dans les années 1977,de temps en temps je reviens voir la maison de mes parents❤️\",\"language_code\":\"\",\"publish_time\":\"2026-03-16T18:37:48+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"veve drl\",\"uri\":\"https://www.google.com/maps/contrib/105795297062070859974/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocItV1TfEuXdEZYFUDVpJTEwVh6xwWNDs6PimPGIgiPcOr89XQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:37:55",
+      "google_reviews_place_id": "ChIJ8YnMSijSwkcRcXnqQR2gPYw",
+      "source_id": 5611,
+      "scope_type": "SHOP",
+      "scope_ref": "au-bistrot-du-coin",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "attiches",
+      "string_id": "au-bistrot-du-coin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54871",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5611_6af39a319f79e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4672",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32439",
+            "source_hourly_id": "4672",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32440",
+            "source_hourly_id": "4672",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32441",
+            "source_hourly_id": "4672",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32442",
+            "source_hourly_id": "4672",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32443",
+            "source_hourly_id": "4672",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32444",
+            "source_hourly_id": "4672",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32445",
+            "source_hourly_id": "4672",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-bistrot-du-coin",
+      "google_place_id": "ChIJ8YnMSijSwkcRcXnqQR2gPYw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:30 – 14:00, 17:30 – 20:30",
+          "mercredi: 10:30 – 14:00, 17:30 – 20:30",
+          "jeudi: 10:30 – 14:00, 17:30 – 20:30",
+          "vendredi: 10:30 – 14:00, 17:30 – 23:30",
+          "samedi: 10:30 – 14:00, 17:30 – 23:30",
+          "dimanche: 10:30 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdtjHI205ZceLA7uxyl3WMic9jD-9P_VfQyyxBYPe1hk01jEjGc5AegdUTWLEGDDfPsGODYT2D_7BEEh-mrQ0ZAhD2I-yAe4F0s0D1NRVQsCaH810VlQsaVxFhKu2p7wbNy0jZsYG8EoSXgTyBYEgdohZe6Yxos9w8FHUhnR6A1rcB580wvSy0-LzHtGq4PjOwEAO18hCUDSxzB2lFQPc9pnTKkAsY2pWcL41AGqXXk_0fAsTUyDUKsc75ZM0yjr_WjrgwQghk28Rja9-3YojQkQaRpTxg--AVN9ZQdkiQq10Se_Zca48ClpyxxAQutxiOc_Gdz2bE0lqijfL_qrc2--Fssce7cAbLDuRQvCPeg3e0o3lXG9G4FNRmi4Jn7fkCXvS0etqwfco08PwexvgyEUxzmkAKN-3E_KZUtF2XM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101419786935841316990\">Au Bistrot Du Coin</a>"
+            ]
+          },
+          {
+            "width": 1124,
+            "height": 1500,
+            "photo_reference": "AV-0GLcgczXDI0Id5AXfNMHXztuTCqOizzYrlDKTQV3rUIKHWNJM1rtLnplAmi1WauUUH7Pe-9WY63te5uezoQwJyM4HhvCDUbwu9t2hvmq1F_0idAS3wXkfuNhHrpL4x8FI73t9hfnZBxGp_6k5MHPwGBNzmL-rqEgUgbMxpjCibNJ5iImB4GcrlMk0tcgSu2a7PJvgB5ddpsbKc8_Vd6sBwu6rSpr8bxZJ4XKhiGght6UzIS9CQ1pFriihdK2Fq_GonP8U2jyBXjNfJ0tL3UiKxJkqa4zlM5vrZLQQ7ULtvFMQxuFOB6XD6vPycnXKPfI_RYqvc-q3Fq5ow6CcZeLfZMinIMxcQXFby8Xawh7H3VWE6pOaA4jbSIPV0Pufh_fqRk8RdecxcMcKnC3VwMI6eA8T5wTzrV1SQEoTH_BxPc9y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101419786935841316990\">Au Bistrot Du Coin</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5611
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Ce n’est pas une simple adresse, C’EST L’ADRESSE !!! Convivialité Formidable, Ambiance !!! Patron déjanté ♥️♥️♥️🤪😜🥰😍🤩 Patronne Huuuuuummmmmm",
+            "language_code": "",
+            "publish_time": "2026-11-11T15:08:42+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Fabrice Fred",
+              "uri": "https://www.google.com/maps/contrib/115654720855155700826/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ3PhHYM2BhzP1-TdDUPaCdIkL91qktUeVJ9nDjOBjqrOZ3IQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "endroit convivial\npatron super sympa\nambiance garantie",
+            "language_code": "",
+            "publish_time": "2026-09-06T10:35:12+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Valérie Vandewalle",
+              "uri": "https://www.google.com/maps/contrib/117724015856021460019/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXScCc_RLb_QKFYNwmVJTh5QJpys0vBWvbmmF6eQ0J_IDPkbcY8wQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Les gérants sont géniaux !\nAllez y les yeux fermés",
+            "language_code": "",
+            "publish_time": "2026-09-05T20:14:57+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Clément Byrtus",
+              "uri": "https://www.google.com/maps/contrib/114685742577135201515/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLmLVMmO96OSD_qYDyDCZG2rTyT6CTC0-yEhLUvCeV4LnJAPA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je me suis arrêté en vitesse pour faire un loto, mais plus de FDJ !\n\nAprès 2 minutes de discussion avec le patron, nous avons pris quelques bières, quelques whiskys et refait le monde jusqu’à 2 h du matin.\n\nRésultat des courses, suis rentré à la maison avec deux pneus explosés et sans mon ticket de loto…\n\nMoralité : Ne vous arrêtez surtout pas, sauf si vous ne buvez que de l’eau !\n\nMerci à toi, Rémy 😄🍻",
+            "language_code": "",
+            "publish_time": "2026-06-16T20:18:48+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Marc Leleu",
+              "uri": "https://www.google.com/maps/contrib/107814353603904800534/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLw84qcQPCNEJNgIWdXbJbqqSqWlAVLnII8liPlcb0Q41hQQA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J y aller quand j étais enfant,ont aller a l église et ont aller chez decorte,trés beau souvenir,l école en face,le boucher dans le virage,dans les années 1977,de temps en temps je reviens voir la maison de mes parents❤️",
+            "language_code": "",
+            "publish_time": "2026-03-16T18:37:48+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "veve drl",
+              "uri": "https://www.google.com/maps/contrib/105795297062070859974/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocItV1TfEuXdEZYFUDVpJTEwVh6xwWNDs6PimPGIgiPcOr89XQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 66
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1111,
+        "bo": 73,
+        "front": 1038,
+        "estimated_cost_eur": 2.775
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« quelques bières, quelques whiskys »"
+      },
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Convivialité Formidable, Ambiance !!! Patron déjanté »"
+      },
+      {
+        "string_id": "incontournable",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« C’EST L’ADRESSE !!! »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« quelques bières, quelques whiskys »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons pris quelques bières, quelques whiskys »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"brasserie\""
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« endroit convivial »"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« Patron déjanté »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« quelques bières, quelques whiskys »"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance garantie »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 10:30 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 10:30 – 14:00, 17:30 – 23:30 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas l'offre de plats, les modalités de commande ou de paiement, ni l'accessibilité."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons pris quelques bières, quelques whiskys et refait le monde »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Brasserie appréciée pour sa convivialité et son ambiance animée, où des clients rapportent avoir partagé bières et whiskys sur place. Les horaires indiquent une ouverture le midi et en soirée certains jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-bistrot-du-coin",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-apero",
+      "incontournable"
+    ],
+    "principal_characteristics": {
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "decontracte"
+      ],
+      "MealType": [
+        "aperitif"
+      ],
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5611,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "321ca2b13efd84b49c335937dddad07a3421ecd9c4d08d4242b56c8d84864038",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

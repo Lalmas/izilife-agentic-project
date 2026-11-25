@@ -1,0 +1,175 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "restaurant gastronomique à Seclin"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.96,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "grand salon récemment entièrement redécoré"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+        "evidence": "Groups"
+      },
+      {
+        "string_id": "bon-wifi",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "Wi-Fi gratuit"
+      },
+      {
+        "string_id": "produits-locaux",
+        "confidence": 0.98,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "meilleurs produits bio locaux"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "restaurant gastronomique à Seclin"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+        "evidence": "Groups"
+      },
+      {
+        "field": "adapted_to_handicap",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+        "evidence": "entièrement accessible aux personnes à mobilité réduite"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "un grand salon"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/brasserie-estaminet-seclin",
+        "evidence": "vins BIO ... bières pressions locales"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/brasserie-estaminet-seclin",
+        "evidence": "sélection de vin au verre"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+        "evidence": "un hôtel de charme 3 étoiles de 14 chambres"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+        "evidence": "une charmante terrasse"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "Wi-Fi gratuit"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chic",
+          "confidence": 0.97,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "restaurant gastronomique ... hôtel de charme"
+        },
+        {
+          "string_id": "haut-de-gamme",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant haut de gamme"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "a warm and friendly atmosphere"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "Midi : Ouvert de 12h00 à 14h00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "Soir : Ouvert de 19h00 à 21h00"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "dormir",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "un hôtel de charme 3 étoiles de 14 chambres"
+        },
+        {
+          "string_id": "apero",
+          "confidence": 0.94,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "The Wine bar"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "grandes-occasions",
+          "confidence": 0.95,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "celebrate great occasions"
+        },
+        {
+          "string_id": "team-building-seminaire",
+          "confidence": 0.94,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "Corporate seminars and events"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Auberge de charme à Seclin réunissant restaurant gastronomique et bistro convivial, avec repas sur place, terrasse, vins et bières, produits bio locaux et chambres d’hôtel. L’établissement est accessible aux personnes à mobilité réduite."
+  },
+  "meta": {
+    "cache_key": "31ff34ebd6075a89ab9d9b4d6654b04e62748e4097dfa6e8d44716af6123e396",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

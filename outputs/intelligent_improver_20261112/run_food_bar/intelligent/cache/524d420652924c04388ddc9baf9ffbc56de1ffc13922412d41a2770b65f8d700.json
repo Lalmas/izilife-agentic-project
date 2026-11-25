@@ -1,0 +1,54 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:55 – 14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:55 – 22:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:55 – 14:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:55 – 22:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant situé au 26 Route de Béthune à Loos-en-Gohelle. Les horaires fournis indiquent un service le midi et le soir."
+  },
+  "meta": {
+    "cache_key": "524d420652924c04388ddc9baf9ffbc56de1ffc13922412d41a2770b65f8d700",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

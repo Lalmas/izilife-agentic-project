@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2364,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.73,
+    "evidence": [
+      "La source classe l’événement dans la rubrique Humour.",
+      "Le spectacle est présenté comme un spectacle solo de Rosa Bursztein."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description ne nomme pas explicitement la forme stand-up et ne prouve pas qu’il s’agit d’un spectacle solo écrit et mis en scène ; aucune recatégorisation précise n’est établie."
+      }
+    ]
+  }
+}

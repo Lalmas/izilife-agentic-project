@@ -1,0 +1,648 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:31:27",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "becot",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "becot",
+    "status": "found",
+    "data": {
+      "id": "5850",
+      "name": "Bécot",
+      "shop_string_id": "becot",
+      "unique_id": "31f9a37a77a31d7366c7bdcadbca457c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55104",
+      "principal_cover": "55104",
+      "qr_code": null,
+      "phone_number": "+33320620127",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "62 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0456331",
+      "latitude": "50.5823817",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:00:03",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:00:03",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJpU1COqHVwkcRTSJswHqbhuU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5850,
+      "scope_type": "SHOP",
+      "scope_ref": "becot",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "becot"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55104",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5850_6af3a1f382dde.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4905",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34070",
+            "source_hourly_id": "4905",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34071",
+            "source_hourly_id": "4905",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34072",
+            "source_hourly_id": "4905",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34073",
+            "source_hourly_id": "4905",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34074",
+            "source_hourly_id": "4905",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34075",
+            "source_hourly_id": "4905",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34076",
+            "source_hourly_id": "4905",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "becot",
+      "google_place_id": "ChIJpU1COqHVwkcRTSJswHqbhuU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 18:00",
+          "mercredi: 12:00 – 18:00",
+          "jeudi: 12:00 – 18:00",
+          "vendredi: 12:00 – 21:00",
+          "samedi: 12:00 – 21:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfSXr_7QMTnsJG6247nJ283fBI7Df0l0idMZnbtfpuxMetB83DBRa736pOdBimfP0E0_JSP_8hH4fqZ1tn8OLsbG2TXYzoA3TnlPUHSMaPO33Jfzu4GTlAJrEnlFUvUH5z3ry8C54-GWg7P3JHhq09jOEhUiyI6E-iYuy5ns2JCAs4kQXHrsBtxQ2PN2q06YzR9qs7BvJKfFPH_-WXR0seWaUuDPESnI1hIwAEgck2GjKrct1jYw_-c-S-HLQ4C8qM3Q0Yv_MB0M5Vh5OyB1F5z9XgMhLKPzFpBVGT_7KdCZynXGM6MktF3H8VvZFw26VL1xou5j7qC-15ZwgWmtZnO8xbdJAuKUPDY_DVMLVQoBEMlosmBa67UorMx2S0B9YLa36unDncRvVe2VQd0pvhH73KafOreQlOZGsxKP-Ek8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdb7-NYD4FtLB9yT-cYvqbhgb08a5wbFTeA_2dtS7I55WAodeLRi1KfRWmygBjHLSONoKtq3uhIEByAnO6n5-erWrwu4iMw_9UgeMvUA1-ZQCleGHr4uzOSR87-Fd2VJF_y1mzis7Q790vM74sMahpkfTVH842OmlexqTJEEakTlBoME5W0Ur8XY6opqv0plgZYDVIidHTL_HvlII0BI07tzr4lJLbDerGq2EpqfEri6I9NIyf0N8XQ8TGgLL1kpjbHyYuILbKHDW8f0vzdN1OFaPiYDDMTCCXI2XjzQpuUh9FCGKeF04DIK6m_QW1gkaxeS-q6xQBj_UwFWTUXapnCsVyIJOjV--AuF8T5XNEjGUqHgGNaGqhCYqTXNu_BWgBoIB9RnuTz3apHEtEi8OpUic0IaYdJRUVOWmp1xLUj4A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLdIUZPJKxO0h0Wb59E8zEKfh551O71l7DW3ElVpveRLefAwmd6peTigxUGtR6pQOHetMYq1LtcXrE3-4DICHkN_4W5OoVtHoeIG8gAGk2BeID1K0RadYCSUo1k0UDJ-oYxYyLRPkXeL5GeghJAwN8SZsrZ7CVtUCg67A7XZ-EnYYkceyGwHJ8vY6npwTtfnIxJLkd6fTeomDUf_AAIUb336rmRBf2YUICXlSbQIuzWQmElXyOmU6t-3i1abFmG3ZKYL91dpRZcSwrkrS8yu6VWzPn-Ew_kHE69fcugOQbrqEch1Apndx24czJoOiMVcjYs1Jn-zAPAs_az-_c-sZiqvJReqWd6bu0Hnh7b6KHws9TC4bWCxJmkaOx2ICYJ6gFl0hYMnllOtKzpQGNIK55ruQbSmOrt8kgaBlvrtg-PUfA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106512812570299260181\">juliette cp</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 2796,
+            "photo_reference": "AV-0GLefIkDS4GPqSMP_rRVLOA6Mz9U8tnPkOyhPRIM1lhNOuohqbtNljhRxcBZm2T0P6i3ORoU5Zadtq6F7icfaNi8C5-iNu_uwEofHal1vqurT_jDznn93HxNu2VD471qE5vlqDASOVjoOYBsONQuvguJqdQLG9oBsBEyGQUi6J3hVD_3xaS2euRGxQm8-6jEjXke8Tm8MHivMe_iHLmDIFIw0CSnZGqreO8RWqini6LGdZ7FpVnaEXZpB5zS16af0C_ddf5PEIDa0yneBy_SH4gz-iiX9blcyb3TcU7G6b9xTrg8J-_Tta9aFbvX27-eWtFY446FWxt-DGWgZLPtVTeF6TJfAjw5yY6z0Rl-box2yTPpdBCnhl7VWXpn96R1gv3SZ17qUsjWAMVT7QmrrZ4osTWV51cUa6uXXiOvdNwMPXA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108104585553025198472\">Bécot</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdW54fHrj1azJKgeOEbaBqnLEgKTrMoLGIkNV_zgeBeSm5SOBNt-Z2d_akfe2nkFfqsoFqjeVaAavrzKrM0I-3K_wThsFCq2nhqjWEWSpiqlkOqoz-dMYcGKKvoFC0GWLTwSPTqW69IKEa0tQJ5T_NRwAEBvWyPe0nMzl8OHFIp8YGvnrlXP8h1cM7sKSjAK-R2juUQtRan08PXLB2MmjtKZkcleTVXeF3TV7BWn2s_lGBAIY-z0fGy2I2yje1z-hpsdWenDdjs8YrM3E5XdWxoBxUoIBWqszXzlD4KYbL287IFqkkwzZ_yjcdFGUBF4zFhhdTT6o3oyL6ouMiEUtj3diTNGl6b5q1yh6elKyeVBWz8qLEmv5xH6eTXMCaUj7aC41rpRDZvdBJo7Okv95z4iBAYUYL9vZXJPcelxcEHdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102255802813376357733\">harry kine</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLdQVBgX_Hp29vYA-7-EHjr6iEImd6KVPeHN-_q6BQroJsiMjGuTw_iAoTB1W2aULf_UIcXDG_dvA5YtVQMjBogOsthrLqy1ZO-nesd0SdbuMQWxzDcZ324iQ8k9XeUv63keRATazMV_RAXAFthF1TNj6O3czgdlExvzO27FHP3gpukuWgNfD9nfIvm_UrERL-KmozGeLk6FDqWE-W7ywqDoVSANLkXsa4Kgr5wppJZBlqexkxaN6RfUYR0G5Go5hZKaxaz2re3e7f0GrZSPCETdvIUdbnOrg1OIoBU9d7JCJER4S4Vu4WRkjfSyuBn6STuHw3rRkZ-UK_sqv0cOBrrnRout7HfioKcaZ99MTpdfk74lhXZPM6HRNjq8m_V-l77_0aBlXCOnxG9Kzz73je6trCWETB63so9rGmL9POP7Ew",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdamlwQtDWMdJjI5eohAVBIwgZlXcFjAizU8Ssjtk7T5-wKUQaCNDa5AjItOJBbdvYn-iyxCSyXE0bBsQqD1gvZTH9wAPSXRITBeHmsFREoCct68Yw_tyKesQ0fC0L31_zQMRlF7U6WyQnKO3gbPyxmIz-WizpTcNLAgy77WYXWweGloH6-dW3d2ltia8NSmN2VdebHew72yH9xl6NWn7EQvyH8kgY4-ExKGR83lxD__b5Qfb_FkwfysFld4Y8ir2IYkO7sRFyIH3SEuTol6rIQkZbYhaAD2z9QpL6mGXLQLTeD9u0MfMiuWGfOD8bDydDIWYaxO-mzJ4sxIy-eRaBQC3YzobkItdsUFYoPQuISbgucnWbSKqXiASuFEkTRkwO2kj01gAtv7NdxNXDkYKKPEUrJxGDpyDGd6452Xw9cdA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLcOYYCoTVfIo2ASaIb18Tkg2qnEIKcanjEOHsSqW1_AQmJPxLSBGk6OPR95kdOKYXayE0S2TYkTXILboRP49rIglNpL3MY0H3y4Kixul1P6TAI4U12JdboTjri2CzUTOWsuZuR31MRTV-mBAGSNFAp175MFCsmubMkwaCdHGhx8LCdsUbZ7PcftSCIUjTfxqmEUyj8isswjMFUXbPm4sPjNoJctHYhFWZlLRJRCAdxiaVHObdJUxf78vQupylXiaywGXOVODRnLs4L7tiUERzBF43rg7zyY_eI1MgwAr3Y6X4D1WAMoEh_vFkNT_LufibVysdVHJ7_xA1y7-idfikyHWHdvlm-hrkQHnCulbQu6s3A4ZLXbrviubIpCFgp8Jv2H6ACK7z40XElnmo42O3Ps6j9DzLeIq-MjHYxO3jvLrA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103733130215215977408\">Emily T.</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeHDDYTiSMzI4ei99WNPEhZpZZ6X5I_tzHc-nbeG8Nw9HlxoYhJGVVcR_y9geL1lcAZEcEwDxUvVb89Q-RqXp0TrQTZPgBkwMWSWNq62GWQKD8e6NQHKZEwHD3hYmf6uZna7kh-rlE4gM-nh1Nmr2urX1SsITSSUXwzqvXKaYgluMSxYWWK07y7BB8cLh1dNGNha3yXWu3Oh1AJlKEOa-nCa2PgJ9i0DkuPIgs9nRI6Df8Tx40I-1AjYxgkrreJVuvN-I9PHB47Wd2tei7Scca0tZlsoIaVErOh8ffD9VUvnRwL3jKJIBfPmPuqqBiJILLKhjQhxqtYsQGsArJv9Jq4FaiNeGcDQoLDeyITCJeuArt51VRMNNgwM2dKOXiQS9Ftqxicz6c6RLej4wN43r5FU7gUswwRkMQtZ--WN9vSjg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc-V5pATxRo3yqyLUae_bdHF8eab4u7nMjkPOvbFBc6NDN6-I-eWKm7Pz_CYDk6nMlt8BTO4Oae5xt2s0F92OOIwtJvOZONkDKUEi8RF21KObN1ufBlu7tMXZZJHe28Bmlz28nbw64ntg695nxj5H_jqI2vTTtC8OPXD9vM9aDmLRqivLpFScW2EkEQCthxB-PXzPrpmYShDtKLk7Bv0HuGMFmfAxT12daLiWU8p52NN6Z7JaCCJIOKvYvk-fF7WKyCh5QhfSM9k1T8ElzWP-kMGCmK6LrbKP-2S9B1m9Hd2GD2I0aS4rw-jr8xlB3rJ1wksOghXJpk8Al9U0UTGeamwS-sAeFEWugeph4rdmN0qKkYc5QRv8RBJjsCEL91KwZkFisrbrwbfUy3xN7MTR4hENM4mr52aqueOC9u1BkigA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101825859689529194964\">ROCK HUNTER</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5850
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.93,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« Premier dîner ce soir à Bécot. Nous étions une tablée de 6. »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-gouter",
+          "confidence": 0.87,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+          "evidence": "« J’ai pris le goûter : un café latte »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.78,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« Nous étions une tablée de 6. »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.societe.com/societe/koach-101474260.html",
+          "evidence": "« L'exploitation d'un fonds de commerce de restaurant »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_coffee",
+          "value": 1,
+          "confidence": 0.85,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+          "evidence": "« un café latte au lait végétal »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "sell_alcool",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.societe.com/societe/koach-101474260.html",
+          "evidence": "« vente de boissons non alcoolisées ou alcoolisées »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« déjeuner dîner endroit idéal »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« déjeuner dîner endroit idéal »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "gouter",
+          "confidence": 0.87,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+          "evidence": "« J’ai pris le goûter »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« burgers »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "quiche",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« quiche »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "sandwichs",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« sandwichs »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "salades",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« salades »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "gateau",
+          "confidence": 0.83,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« gâteaux »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "moderne",
+          "confidence": 0.81,
+          "source_url": "https://restaurant.ouvert.tel/59/wattignies/",
+          "evidence": "« Déco moderne et cosy. »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "cosy",
+          "confidence": 0.81,
+          "source_url": "https://restaurant.ouvert.tel/59/wattignies/",
+          "evidence": "« Déco moderne et cosy. »"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Restaurant traditionnel à Wattignies, également déclaré comme bar à vin et salon de thé. Les sources mentionnent déjeuners, dîners, goûters, cafés latte, burgers, quiches, sandwichs et salades ; des clients y ont dîné en groupe."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "becot",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5850,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "9085afb533a9ab1a6063a5dfa4052262f1611f707733bdf30704a0ed62b47bb3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

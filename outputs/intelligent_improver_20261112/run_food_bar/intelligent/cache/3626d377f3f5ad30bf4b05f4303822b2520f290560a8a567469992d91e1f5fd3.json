@@ -1,0 +1,64 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie « friterie » et avis mentionnant « Les frites »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : mercredi à samedi, 11:30–13:30."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir : 18:30–22:00."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture à 11:30 le mercredi, jeudi, vendredi et samedi."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture à 18:30 du mercredi au dimanche."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Les frites ne sont pas cuite »."
+        }
+      ]
+    },
+    "warnings": [
+      "Avis contrastés sur l’accueil : un avis décrit la personne comme « très agréables », un autre la juge « pas du tout commerçant et vraiment pas souriant ».",
+      "Un avis signale des frites insuffisamment cuites."
+    ],
+    "summary": "Friterie à Meurchin, ouverte le midi et le soir du mercredi au samedi, et le soir le dimanche. Les avis fournis mentionnent les frites et présentent des appréciations contrastées sur l’accueil."
+  },
+  "meta": {
+    "cache_key": "3626d377f3f5ad30bf4b05f4303822b2520f290560a8a567469992d91e1f5fd3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

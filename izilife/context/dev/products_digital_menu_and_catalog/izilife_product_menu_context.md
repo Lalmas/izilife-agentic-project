@@ -502,6 +502,36 @@ Objectif :
 
 ## 12. Règles d’affichage du menu digital
 
+### 12.1 Menu implicite générique du lieu
+
+Tout Place ou Shop disposant de produits possède une présentation implicite, sans ligne `ElementMenu` dédiée :
+
+- elle regroupe les catégories racines actives rattachées au lieu ;
+- elle n'affiche que les catégories non vides et les produits actifs et disponibles ;
+- `Product.is_active = 0` masque le produit partout au public sans le supprimer du BO ni de l'historique ;
+- ce menu implicite ne compte dans aucun quota de menus personnalisés.
+
+Un `ElementMenu` reste une présentation explicite supplémentaire. Il sélectionne des catégories du lieu ; il ne possède pas une copie autonome des produits et ne crée pas une activation hebdomadaire propre à chaque produit.
+
+Règles FO génériques :
+
+- sans `ElementMenu` public et exploitable, ouvrir directement le menu implicite ;
+- ignorer un `ElementMenu` vide : il ne masque jamais le menu implicite ;
+- si un unique `ElementMenu` expose exactement les mêmes produits que le menu implicite, ne pas afficher deux contenus identiques ;
+- si un `ElementMenu` expose un contenu différent, présenter le choix entre le menu implicite et ce menu ;
+- un menu hors de sa période de disponibilité n'est pas proposé.
+
+Il n'existe aucune exception métier pour les cartes hebdomadaires : l'établissement gère l'état global de ses produits et se sert d'`ElementMenu` uniquement lorsqu'il souhaite une présentation réellement distincte.
+
+Pour faire varier une famille de produits sans ajouter de statut spécifique au menu, l'établissement utilise les mécanismes génériques existants :
+
+- créer une catégorie distincte, par exemple `Plats 2` ou `Plats — menu de la semaine` ;
+- déplacer les produits vers cette catégorie lorsque leur organisation change ;
+- activer la catégorie qui doit être publique et désactiver l'ancienne ;
+- conserver les produits et catégories désactivés dans le BO pour pouvoir les réutiliser.
+
+Un produit appartient à une catégorie de produits à la fois et peut changer de catégorie. Ne pas dupliquer un produit uniquement pour le faire apparaître dans une autre organisation éditoriale.
+
 Le menu digital doit afficher :
 
 1. les menus actifs ;

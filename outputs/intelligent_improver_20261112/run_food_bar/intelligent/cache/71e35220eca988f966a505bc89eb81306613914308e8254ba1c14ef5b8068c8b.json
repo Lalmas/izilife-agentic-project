@@ -1,0 +1,89 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons fêté notre Pacs »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« l’ensemble des convives »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« cocktail dînatoire »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« l’ensemble des convives »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« le cocktail dînatoire est délicieux »"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Salon de réception »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« Accueil, organisation, équipe efficace et très agréable »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« cocktail dînatoire »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« anniversaire surprise de mon époux »"
+        },
+        {
+          "string_id": "grandes-occasions",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons fêté notre Pacs »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Salon de réception adapté aux événements en groupe, avec cocktail dînatoire et accueil chaleureux. Des clients y ont célébré un anniversaire surprise et un Pacs."
+  },
+  "meta": {
+    "cache_key": "71e35220eca988f966a505bc89eb81306613914308e8254ba1c14ef5b8068c8b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:45:31",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "de-bouche-a-oreille",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "de-bouche-a-oreille",
+    "status": "found",
+    "data": {
+      "id": "5640",
+      "name": "De Bouche à Oreille",
+      "shop_string_id": "de-bouche-a-oreille",
+      "unique_id": "b98fee16e45c814c4cdfe6f075e872f4",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54900",
+      "principal_cover": "54900",
+      "qr_code": null,
+      "phone_number": "+33374094116",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "18 Rue Clemenceau",
+      "additional_address": null,
+      "zip_code": "59211",
+      "city_id": "81",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9538784",
+      "latitude": "50.5971222",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:30:41",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:30:41",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJDS3AEAEr3UcRn20B7YGR5jE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJDS3AEAEr3UcRn20B7YGR5jE\",\"rating\":4.5,\"user_rating_count\":809,\"google_maps_uri\":\"https://maps.google.com/?cid=3595721339715022239\",\"fetched_at\":\"2026-11-12T19:45:16+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":1,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T15:19:28+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Alain Vanhoecke\",\"uri\":\"https://www.google.com/maps/contrib/100700188197810122165/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLzvON_Z7hq1wkhJCyEdn_TXV-fBNPv945bs5EfMShcxRZHxA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très sympa, ambiance familiale. Typique du coin, nous avons apprécié la bière et le welsh avant de repartir par chez nous!\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T23:22:14+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"La Buse\",\"uri\":\"https://www.google.com/maps/contrib/104884927837804542583/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVgjop5YfCWRMaXdgtLV6IvGKBcez8mS-AQHGLj9IDHuPhYssI=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Cuisine excellente et personnel très accueillant et professionnel. Je recommande les yeux fermés\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T18:02:16+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Francine Dewasmes\",\"uri\":\"https://www.google.com/maps/contrib/114952220525527539046/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVGR8ATTcp1P5eOm-q1l5ZbxTdkdnFbxWge8Stxbqrx2ZB4sdqTDA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Sommes venus pour mon anniversaire franchement je ne regrette pas j’ai apprécié la cuisine il y avait une bonne ambiance le patron a l’écoute et un très bon service champagne offert par la maison franchement Nikel je conseille vivement à refaire 👋\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T19:09:13+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"alain martel\",\"uri\":\"https://www.google.com/maps/contrib/109706306751718489497/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIoGqgSAS67hBhoVgvg-JnCm1QKoa70a6QbuBaqysu4c3p70A=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Superbe restaurant typique repas au top service au top  ambiance conviviale et chaleureux mention spéciale au serveur Quentin   Les sudistes\",\"language_code\":\"\",\"publish_time\":\"2026-10-24T18:52:33+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"christophe guignard\",\"uri\":\"https://www.google.com/maps/contrib/104757627996414141727/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJzot3JE-KF6YdjGn9Rquwhtl1cwzKLzGPMLXLwD4RwvvR1Kg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:45:16",
+      "google_reviews_place_id": "ChIJDS3AEAEr3UcRn20B7YGR5jE",
+      "source_id": 5640,
+      "scope_type": "SHOP",
+      "scope_ref": "de-bouche-a-oreille",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "santes",
+      "string_id": "de-bouche-a-oreille"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54900",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5640_6af39b11d68fe.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4702",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32649",
+            "source_hourly_id": "4702",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32650",
+            "source_hourly_id": "4702",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32651",
+            "source_hourly_id": "4702",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32652",
+            "source_hourly_id": "4702",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32653",
+            "source_hourly_id": "4702",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32654",
+            "source_hourly_id": "4702",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32655",
+            "source_hourly_id": "4702",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "de-bouche-a-oreille",
+      "google_place_id": "ChIJDS3AEAEr3UcRn20B7YGR5jE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:30",
+          "samedi: 12:00 – 21:30",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLduRLFedj1TAyobS31j9L9CkUGPzwAFDw--brt6rnmn4fKNPY7bIv2KRjWQPTSunGIBcMPANZf9cXN6chG0riRnpwZqK2xmT_Y28d8IuFfwQGBzlD4j6UabUPwAiWp8UDMSAJWSKC-43dh6x-1J5y6KgKDEp6mxr1ACEjuuc49iMQs1zTe9KYywwFVPjYPSXCxM_scwEnqA-biRFlGQgclmhevUsPrIRBozkidwadkmvABg4cMGDh_aPPFndT_Sd_2GBwWhODnxU6rO5CHPJZRMzdaghvU4St3BnFstDD6KIiSj06zpTfpI2lHYuWAIQ4aIIGguY9ILE01-G-fEeSmG0taOjdlWPVlZe4Hv8572dEUcwPIsTwehs3XVTlgzoGJnj4UXqde5Y7MIzMuljTbWKyGOGXQJh7Jq6HUJKNRTyQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104083462621688956567\">jeremie Menard</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3599,
+            "photo_reference": "AV-0GLdQWhneQWjPLaDpJAQUs0ppD_IEVUBjRdhzCYAKFlr8bt1CRhQuad_ugUmT146yEDKrykX6oTjzZ8y7dCUpwHLjnA81vGwZcrmk2oJ8FJ-0VHmz7efqF2PuMh25iI9qKY2KEutcOxfp3PRG133I_ekGWdSG8Kn-3MESVJ5ndTTV7Zc8Szj-Q-0OUNXf7zo-FmvR6SZu7-2E47g5_CzMMgPObYIJEAKN2RbV1nozfInge4LpSroQz-ycy9hmKQn_roeZUxHocqcPyIBQA963lQvEsF8gMJMNFxK7vxDTuCMbW8ivFTT0gWPXoq1LJgcVHnG_PmFb8_9patQfv3sUhRxwVH3-ZH3-VCZVvVo090ehFheEN-p3xDlNVU3BDvpOE3TPa3sELmyb75e_WKiNZR_zsHE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108214322677874300775\">De Bouche à Oreille</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 1848,
+            "photo_reference": "AV-0GLcYe8XR5ZvxjmxXUfwTdLU0MvtKak61p21mOpvmDD4c3MKTl6w4CJK3bUskRoCKyL1bJolqeWbaB-4idq0O6Dv1uV3wskRMFVvdaV_dRo8eVZBYoOKfP0OFFUoOdIeM9X36tucE7tbdCuCmE_5_BicD354uDatfCvhJf_O8nPXwA0eIDT75Eh4hDAcS6az3yn9XGNQWao2ncB2xIy4W_684jqoJJJqYE8SyLOu6bdYVWC9q2TsMMtWXNert9frbvIZKeOlsQDAakqMx40UK3Qx64kAczAvWi4H-Drya8wmhNmcQjgqFZiSSgKWeZu-BurtqF0HENRhZugXgS5GHQSIcnsIIUEvukJYduq11loh9R6_CaVLnj-fAM_XBrDFvnTsak1ZaXD8U_ou4Nn2JwJ_0ScrNbQLbxBzSA7RFfkeBWQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101908542440816159708\">Bruno BACQUET</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLceTSojcLb-76QEEoPT9LhQs44O2H2H_R1e_YpY63CbpaOUlt01yVcWpowhfsPyvxb4ctLgJLxdakRzJuC7lMIfe-yTbMTZQZv_9KI4_PVOoopkZf1f3JPyD1NBNfGfxaa4ncZrUuI63YzbvFKJ3h52C2_0Cf1hOmLOIEYUSIfNK6MhgJVh5FBeYI7RdhrFGuCvflnfvgTY9g6-PhLtLveu9RfMi3J85q7Uz1LbfHT3IMtV8nKenVjm0ruuhXWuiMitJGP_vJyW3UkPj2JIqf9AVyq7eDdgpn7bRkRX-ARErNKhz_-W_YXevosqHAb1rjgcM0LE5s2nKXdH8YxbuoxlGt-cJVr_TOqGlOhlMr3FL7ARzgzgfWwrpNlpIM9H5kCVTxsCYBIu2S41u0e6IdbA5PR2HhQtAgCkWfLAzSpD",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102743792238170651128\">Justine</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLcNwloIqRViTiR3kWS4NpqWwXNDMpC8NW1TnbIjpsVjsoWetv5pAWffXtyYbE85epNom9TUqXBhRBwogQEfNJNzdUfmIVCQyjQJ-xckzaoL7UaqRcoT7FDuOKKsSpHhiyWs_x424zHAgVhSxE-JHia-4ZnIt7Gt3uR5TYP-oFtD8M5Wk-3P6eMsDIBMDl-Wbgte-V_sAqnVwicN1RXWEClUbgpkjCszfql82KJQHn9zylrfSgJxjNed9jO-VM3SlisPSw4K25sn0I_8oeH6dwSjCFOTiRbHbj-9vr0nAOuaePY3BC2t1b84iJGlkzZzAweE-XPMcEty4_S5fBfBPt1mLazzRhMgeA4iyfxok0YEveF3KHjKrAcwHbgeBW0w4xn6Uq0wYrLSk2LhBrMVHk9mJhXl507gGEcDShqtawD0Tw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115192231587274995696\">Lies</a>"
+            ]
+          },
+          {
+            "width": 1848,
+            "height": 4000,
+            "photo_reference": "AV-0GLdxyFDelWRZ5kbLw8-_KCkpITiIWCFV_D2fhzAMEVOCntsCRIBZP_B4698ESxyxf7js8nkjJsn-RdzTbBnolZ1XArzi8IwYGbOS462Ppf7J4hIltGCEpmiMAParhGVkwm30Senukh1S3VV6jyWKLMg5AToGMW1NM5x8IV1CeDUqOY2BnXVo5829BccMGpjDmZkGzWS_qqNQHK-AzH3_EmMKufYunLEIgg_Obh_OL2hUjfErnYYGi2b3StxbR-12O8SC6puBuTNH8cFGB77P8GggezDAMiJqJcGh0S4HYTmYSI3MXbZNwnJ6-O1PxDQJ70jmQSKpJQIzBxxzfRS4rGNBnmF5jGA_9Sc0aotbh5znPMSy5-agIqGt2Sgia396OaxxQvbgD83yzWuvLgX2hdxB4REuXIoOnXpWBbzmFV5t3w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114246797573051352520\">Axel W</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLe-XqQUmLTEXJaV89Zb9NPsI12mFzf8XmtQ_kI-qj3Ad5xE7M7WH6BIE6o_ZKn2JsioilIa82R9WioWQ2QhNg4hWNc90O_vAuCfSGnQOz-kH1R12DPEBk5LOQegKgprNCkLLkidwv-CpYQ78-e3scvrT2E8XnwAckPCscoKJY31ypg8eHh-GwXh25pFUTF_A8D3wKXtQkhCXCcl_iKYyeuqK6iHlqIr5tuRC3sqeR_64kuNi9wS1PvB3ZZQCf4jtR6NAPPt8djU2yrtMsOosJBjCKjFukR_tbSHZ7bvekgKIclCDTgmiZKmHZUVMDQX8wwWZVAnj37cq1wDY8IgJ6oFewCrA0nXx213G0CmpzeOM_ZtDfJ9HWnOoq9-LGH_NetjC1vNpRtGxs61npMm9N6clHs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106990654993263385998\">Nicolas Renier</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe_EjIljdtgV-8rcGxZYVsw8-Mbdec9NdiYYQ9M5wjtnXKH4DB8f6sawoS_sYolx29X__VKYpWEq8KRGlayczeCABWYgrx5xPWnLNnr8q9-XKdQpd8vjW37H7GZrJaB5_8HQXAsrelFTx8csXkdnimaZAfGCbspojwzS6-DuEbOqxzRtI2wZnV2NM7cMM-jW7fLZrJElpH7CET6r9EAgDhpf_8wpPv5kaeZeJqhPBLhrq9JuuMFlJVosWj33gmSX0TC0vHwuAPG4FK-Eq1HG-QRCLZ3INGLrlF4BFRXWiMkE0xIbhAQGbPRK8OhLcxGd8eeZN7qy1MNp1phAj3ZpUYjpjXtKP894m4dIuyE1evq21lpFZcmASaVBv9LIz37B3ROYUQ32yfpxPLub1Ya8_Cgs8GQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112265475975929699834\">Noémie Abraham</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcz_j1FQfR8pM2aMGW8iznclEBoHHPhgVc9rzJeeypd-VUAcn8BFUrwlChHV_wd0hpJevkOwWN2DhcdSbMI1Z0qoqRDYd7mSokeV8c12cuwP598p1DeKqwj5ca7AtrFnHMDdL591vg4xfbJs-SIJ0hlSfHkfhD6XhJtKnu1SgmoZ1ueRS6iNOxubnfLZSO0kTBzI9R0ks7fN2NiLXS1bn-Fc5_1kvcZm00gmYYuLMBlq_RNSR389E1GTjuWmBpcImUeK5uEqioZxTIMGZTUZ-_AMGuxs85FGplYRRNxKzNp2glV7zPXkS5zvn5PIb5qc4SykXQCWM54HS4u1RMyl_kMGVt4DCUFqjLXCa2gL5jEDCQRkMwifKsAdVfWCj79aBV7Fs3HlBdnPGWKsFJ314cysg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108811263293346471223\">christine Genre</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLc8LtiSM3tp1zu_UN3ekmPBv4v94GWi1yf-JOeJaCeUIRWlUNlChnHPmZidoJAVwoGJbcUtn5rgktIGmAp_67eUD66TyaBqAOuvZ_cTofoxAT8HVa8XqfH84MbkkUufSCXoE00BE7rFYyjvQczZMQj63Px6V-787_tmSocg7phRvJtbnZcUxH7rDso1ZDgH_xyJ7QJtjQG0o2J0xlwfNpwCh0cy50GHY-Fpj_Yy4Yj6AwcOUy1cXpxgmMVyXWbkhTcHnQPVnKwv3LxuTkyCUtGNxZGBZ8RgNC9qXRg2kqvkwbPlbijDT5T5b1CikfspbImZvk-ZoVPss8X0yiD176J3YMNb3m2XVtBB6UV_tT7PniOFiBgLOW4atNdrPzSHqLjs5IptVQtjML53w6CRHKKLQB0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108056788172734531803\">Nico</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5640
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 1,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-08T15:19:28+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Alain Vanhoecke",
+              "uri": "https://www.google.com/maps/contrib/100700188197810122165/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLzvON_Z7hq1wkhJCyEdn_TXV-fBNPv945bs5EfMShcxRZHxA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très sympa, ambiance familiale. Typique du coin, nous avons apprécié la bière et le welsh avant de repartir par chez nous!",
+            "language_code": "",
+            "publish_time": "2026-11-07T23:22:14+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "La Buse",
+              "uri": "https://www.google.com/maps/contrib/104884927837804542583/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVgjop5YfCWRMaXdgtLV6IvGKBcez8mS-AQHGLj9IDHuPhYssI=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Cuisine excellente et personnel très accueillant et professionnel. Je recommande les yeux fermés",
+            "language_code": "",
+            "publish_time": "2026-11-02T18:02:16+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Francine Dewasmes",
+              "uri": "https://www.google.com/maps/contrib/114952220525527539046/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVGR8ATTcp1P5eOm-q1l5ZbxTdkdnFbxWge8Stxbqrx2ZB4sdqTDA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Sommes venus pour mon anniversaire franchement je ne regrette pas j’ai apprécié la cuisine il y avait une bonne ambiance le patron a l’écoute et un très bon service champagne offert par la maison franchement Nikel je conseille vivement à refaire 👋",
+            "language_code": "",
+            "publish_time": "2026-11-01T19:09:13+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "alain martel",
+              "uri": "https://www.google.com/maps/contrib/109706306751718489497/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIoGqgSAS67hBhoVgvg-JnCm1QKoa70a6QbuBaqysu4c3p70A=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Superbe restaurant typique repas au top service au top  ambiance conviviale et chaleureux mention spéciale au serveur Quentin   Les sudistes",
+            "language_code": "",
+            "publish_time": "2026-10-24T18:52:33+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "christophe guignard",
+              "uri": "https://www.google.com/maps/contrib/104757627996414141727/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJzot3JE-KF6YdjGn9Rquwhtl1cwzKLzGPMLXLwD4RwvvR1Kg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 809
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1135,
+        "bo": 97,
+        "front": 1038,
+        "estimated_cost_eur": 3.375
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« ambiance familiale »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons apprécié la bière »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons apprécié la bière »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« ambiance familiale »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance conviviale et chaleureux »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "wesh",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« le welsh »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons apprécié la bière »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons apprécié la bière et le welsh »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "populaire",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "809 avis Google"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie : restaurant ; avis mentionnant « le welsh »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 12:00 – 14:00 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 21:30 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 12:00 – 14:00 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 21:30 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant apprécié pour son welsh et sa bière, avec une ambiance décrite comme familiale, conviviale et chaleureuse. Les horaires indiquent un service le midi et certains soirs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "de-bouche-a-oreille",
+    "operation": "ADD",
+    "tags": [
+      "adapte-aux-familles"
+    ],
+    "principal_characteristics": {
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "adapted_to_family": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "KnowedMeal": [
+        "wesh"
+      ],
+      "Hobby": [
+        "biere"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5640,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopKnowedMeal:+",
+      "ShopHobby:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c047831fb763411fa59525dcf7dfd975d529fddd70903da579f384402671e4f9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

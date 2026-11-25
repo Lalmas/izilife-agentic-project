@@ -1,0 +1,124 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:47:28.700739",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 75,
+      "title": "Escape game outdoor avec GoPro à Lille",
+      "experience_type_string_id": "jeu-de-piste",
+      "source_url": "https://www.babasport.fr/activites/2423-escape-game-outdoor-avec-gopro-a-lille",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "escape-game-urbain",
+          "principal_activity_category_string_id": "escape-game",
+          "minimal_age": "5",
+          "minimal_number_of_people": 5,
+          "maximal_number_of_people": 200,
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "escape-game",
+            "enigmes"
+          ],
+          "occasion_string_ids": [
+            "evjf",
+            "evjg"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Particuliers et EVC",
+              "price": "18.00"
+            },
+            {
+              "name": "Team Building",
+              "price": "204.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Explorez Lille d'une manière originale avec cet Escape Game en extérieur."
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "Munis d'une carte, d'un téléphone et d'une caméra, parcourez le Vieux-Lille et résolvez des énigmes."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Les énigmes sont compréhensibles à partir de 12 ans si accompagné par un adulte."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Minimum 5 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Les plus jeunes peuvent très bien prendre part à l’aventure."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.7,
+                "evidence": "Minimum 5 personnes"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.7,
+                "evidence": "Idéal pour la cohésion et un moment fun et challengeant."
+              }
+            ]
+          },
+          "primary_image_url": "https://www.babasport.fr/images/uploads/activity_attachment/path/23115/1_copy.jpg?fit=scale-down&format=auto&metadata=none&quality=80&width=750",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 75,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 118,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:47:35.679769"
+}

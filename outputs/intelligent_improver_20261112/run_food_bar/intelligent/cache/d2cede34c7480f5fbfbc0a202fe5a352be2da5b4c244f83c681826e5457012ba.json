@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "boulangerie",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: boulangerie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "accueil toujours chaleureux"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas la consommation sur place, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Boulangerie à Wahagnies, appréciée dans les avis pour ses produits délicieux et son accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "d2cede34c7480f5fbfbc0a202fe5a352be2da5b4c244f83c681826e5457012ba",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

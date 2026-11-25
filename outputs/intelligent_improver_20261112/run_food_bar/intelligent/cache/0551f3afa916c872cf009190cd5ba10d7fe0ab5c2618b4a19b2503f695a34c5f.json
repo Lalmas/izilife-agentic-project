@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:15 – 21:15"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:15 – 21:15"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations fournies ne permettent pas de confirmer les autres caractéristiques, services ou modalités."
+    ],
+    "summary": "Restaurant ouvert le midi en semaine et le soir les jeudis et vendredis."
+  },
+  "meta": {
+    "cache_key": "0551f3afa916c872cf009190cd5ba10d7fe0ab5c2618b4a19b2503f695a34c5f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

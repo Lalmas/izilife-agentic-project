@@ -1,0 +1,527 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:19:46",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-essentiel",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-essentiel",
+    "status": "found",
+    "data": {
+      "id": "5760",
+      "name": "L'Essentiel",
+      "shop_string_id": "l-essentiel",
+      "unique_id": "f3edaf7b1a71b9fe9a2a14f1f60954c4",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55017",
+      "principal_cover": "55017",
+      "qr_code": null,
+      "phone_number": "+33320900697",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "19 Rue de la Neuville",
+      "additional_address": null,
+      "zip_code": "59551",
+      "city_id": "101",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0619012",
+      "latitude": "50.5139894",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:46:35",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:46:35",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ_8usWTXSwkcRFypkCbNGtJA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5760,
+      "scope_type": "SHOP",
+      "scope_ref": "l-essentiel",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "attiches",
+      "string_id": "l-essentiel"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55017",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5760_6af39ecb1397d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4819",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33468",
+            "source_hourly_id": "4819",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33469",
+            "source_hourly_id": "4819",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:15",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33470",
+            "source_hourly_id": "4819",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:15",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33471",
+            "source_hourly_id": "4819",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:15",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33472",
+            "source_hourly_id": "4819",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:15",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33473",
+            "source_hourly_id": "4819",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:15",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33474",
+            "source_hourly_id": "4819",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-essentiel",
+      "google_place_id": "ChIJ_8usWTXSwkcRFypkCbNGtJA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 13:15, 19:30 – 21:00",
+          "mercredi: 12:00 – 13:15, 19:30 – 21:00",
+          "jeudi: 12:00 – 13:15, 19:30 – 21:00",
+          "vendredi: 12:00 – 13:15, 19:30 – 21:00",
+          "samedi: 12:00 – 13:15, 19:30 – 21:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 2048,
+            "photo_reference": "AV-0GLeGRu7GLboEi9_L3YSlQJPTCAqw-VN4Lmrys_VZRLXKIlcSZYEmUrlNfMQIXlosawRnrSDV-n9AmmDbbd0_9Xaz1WV87FN-_WH3gHSt40cp4Xlao9r4FJwBJ2uVLUYVLQJajwXw9LXTOpR4_AW-P7LxYd76SygZ5f0bc3iDETNVs9c819__X9JbwqmOa_BgYA5khD_0twCt4MFR1bn4rfpmxPSbpFIT41KoM0fCJwDr67hZ6hpWrAK2J4cjolEvDWkmN8cnRK2F9YkGnqi-dRENyB0XfInzLfCCbh4lTUoL03qqw5xanArbyghfc4F_oAVdFc7nCOEmK4AvPb6kPa_Uf7G1MByxLWwg_cPlb2TJ18V2ou2rt2xi6zIrbrbgQqE9HfZroWcR4PCvK7IbSKymebOoI67eJr1M-YNmgWui",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114447266625247268520\">L&#39;Essentiel</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 3024,
+            "photo_reference": "AV-0GLcvqUDOoV6mjFFroZnYDmHT89WeinPP646-aSibIArPwL12J_Kf7aC8CU5wE2yQFXE3VkwtZlfiRv4aMtANihbIkENqbvjlb7kewmQCUlqL1_FiDSe-lI1ioOQRsZxpXyWIwLcm4c9tvOW4uoyYi-CybLP1yOD3x8mz_Rs4qFjU8yf42EYSJTCKR5GNHqIgLK1B9HvYreK5USd0AGBrGTmxWGAta_1rkkxHMHTMq6abeHysygHQmq83OpP1JxIbiJHJrPvWdLrwfrwD2Nx8D8h-hbUTtAmUHNwv3QKhIId4pJwVAhiNmrYwPf2T_ElkIk1YJM4yIuGm-9e68CkslqmHU32Q8QxgtvbE5ZbC8TnJqIeryu7FclqEi-wxPDDqDVc2J03z4l3PsIHqcWehq95x_CijCRxozVeFHgRuNemFXQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114447266625247268520\">L&#39;Essentiel</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdXwBckFda2aPqMMnwuiufeYbSSzvmyfBAuSIsGg-GxqGFv6cD2M04yW5AY541dSoqeuLLQKEXqbv8vF15VqqjNSlOrmmGA6_V9XCuajku5ljl8EHznHPji3a0BgxGjK_cWZaoQmNjbpml2JuhgZBUSEs4IPjWRt91592wT75VluAg7ff0nrD7PHi_1gm5EydJEFbReDPAb7vWF3HusN0yvDUrRgl1gI7tIvXAsVb8q0insjYZkjI427cEM1KrjEhCbzlJDbwZd9ixxwDBVnkaFZXnDtNZcZ_X5IlT_wW64TsU1OXjfDD0TeVX9aQOsejl_RnvyZ4CzjHGnkwSoiwoXbE4sds0MTJa2d1rbFlTA0WtI0cl-ddopUM_BOCIgABQHPDhbK83DnLRim0BeZAVAJgQzmjtsBUQkrgg1wlCX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117914743114933288178\">Rafaël “Rafael”</a>"
+            ]
+          },
+          {
+            "width": 1500,
+            "height": 1002,
+            "photo_reference": "AV-0GLf0O6K0WSSGQzUh0lktbIKxPpyIMBugmiOGtzIRDsX6JBrw_xdbKqP5QsIwHEW2JSrtnBkye43BkEswP7lPcLFkTXmFEvd46brstOyfVq_c9h3CndMZofErBWdBTyJyPjgDWpfItB4LwG5lvA4WWaErM81wAhyf0-6mXZJQOM0TyB1NaXYPonyPh-DxqdpQ5N-0G5l_5GrYa3JgS4SkTiNJCtTBghFj4tQYTOKu1Uzsw2q6dLV0HEtu5ECiWrmOuV_7DaV29VrUwARLvEsPbGAtJiQfN_c_ykaxytZ6gn9BqiCSwMsCHx39Gcn8leZpPZURbradAXNPZWvdinXC0oFJ87W89QNOL0nE3jjhFwIXPXM9a4RIL8Z46f4ZkGCASWWiaX7v4yiEZ1rXVHCHya_SepT1QVHjq0KcQ3ADrM57",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114447266625247268520\">L&#39;Essentiel</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3008,
+            "photo_reference": "AV-0GLfVZr1UpwkO4SYScdhDKGb1d-Lns8ICcvct9z29LCi_MhH4B4pCBshtWE-f1h03yxUrnwcZpAQ2z-XFR0E9OP1hLYGzLMR3JnIhP5sz_7jki6gOporynfUDcPOOUJ7DA3ds-yuLXirnWc7HnYStlc5pdUEsSwRHuGY50ydvq2eaNWSyJcocXjwagQaElLbeAZv3r36LEJevn9XHeu1NaITTA4v4SUzL_Jit2D0Cq6BFZWDTbX4hqs8wyd-QdO_fPNL72AX9S-u8ZqL7pkQdO-JWfSkdp9Rx_bihyeJzm6XqmT_0-Hzz1hptEzYjyzDiQFswDsv91vXaFHiymz1IAY_5PmJD1jfIYEj6QxCM_zGgeBFHozrPw8QxwTofGThRpsKsoNF4Raqb-FWOtiC5SlOXRN_k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116105784941934834202\">Quentin Marcotte</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLf5RZU4L5IxbSPVZIoDML4PzAb_B0zzudi2aWALacU6EGhwJpq7Jils09-Sad2H7dRYDfoRDVCmoFKtgu-Bl6h0nDNxMRMdcWFNFRH0w2_eWtlGyaBnZXPiTR_F3V4yauM_50YisEsDMzDjgd_ud7gxBdS5DO0geRMms-UrvUoMsO5B0IGssYhD4rA0P2FBVduxZMm8zUvxt49wL3aGgARtStgx912mcPxBds9Tv9MtKRAa9vUHJ0Gj4E_7q49k5GIQoQhEG-6tP3bKCFVFTzMmB3jaKCNorZuzdzvf-WUUFcQUxY7r2NRRDI7eX5sFuHgxhxX7cJ4-P6-r0UyImmKdxOg4GvM27uMn1oT9-Wdh4EMYpDRQLdAE1UNARmwIMysA-fIzRx_b_eX02Z6kRTrYgAuPrCMg_AA6p8zB8cUCwg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117914743114933288178\">Rafaël “Rafael”</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcDn2DrgeQYPzAZOYjXSHBOSPe2XAAuotCB2o0hQlbSZsZiIExssm7ivG6WAh8ftjzPARd-ERSeNndrqBTJpt7fFDIBQviycwlKZlf71C0CZ9-iYjdbPfYBgerWLJOR8u5PUG-51Nj3fRd62PFAa1hQ_OrOlK46ffhjUNKQVKjB1qX8-hzUwYTj3JKT9YZkcDd50hzbrbDA4oD5_mQBzAroUjgiSHYp5ecwM77gRBStab8etkxU9ZsOkrIalEAwQc92YGnwqfFnapWs7tADc7Sk_Z1848Lk9vJW01WnQJuXSUt3WCNzD929GEDmH2szDww6qUHVhlsecWdC2Lk9Uz6wIagyjkjORVXE5znNB3gnL6q6l7IXx4Nx5nIhfEn9LUwyJo_LOAiVmPxcb_ng3dQCPgCDNeLASDVQpeUZxKAq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117914743114933288178\">Rafaël “Rafael”</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdnj43-FNTkL_WAj9MBNEXOVeZTkGrcp9R5jz5VmpOnR4evfDGkpDSIvV85WKOjB-Y5d0-dygjpYVrkdxF1JvSVTf3sf3G9E2hzZoYfAmzFDS59uN7ccSdO9JGLVMM55XvuWKPlHoqR84ev4MbSORJwt4GM2iagwHll7kVBPHkf5YUmi8ySS_dqV0hOGPf4iMPhX5R0Ye0yOmZTIX2ET2r1AR5LmpHP_LiRsdftLHpIsM1cyqEDLaWZCiNUe2-Brd7aSW75WJ47eE4J51z3RsrM2S2z14CHMrBUsUfy1rnNssu_Q56K64JoC1LgOQ4d3WRrQywXgvEt5PzP8RCLoHE2GrwPkKHvz3aGwNsEeedNwUKKfCLdYQe10tVPJR6IBFKLY8g4vXn0wg5e81BdQ9IyfK52RD6RSGQS0fql37Fgug",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108046095223721966117\">Jean-Rėgis Masure</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfT6wB7lAHwNJGXNrkLoR3KzmnHxF_J5sCQSysGf9NZvPB9FcHQzPj_FHtV9ZJ8miAu6wmdeN4COwhH1PPRXKge2QIwjoGNwGdiPEIIZ68dEcyhW7_cj6gv9sgzb9HUfGj-o0_Gv-tgkxjBSANPsY3I0Z8AkHbvY78wxq7xpfxcRsdhnDJE2ARfnrZby_szY5hKIRiaqEweTF_1DIVWnCVxATT0jSrxmWY49YspISEAMBgRAWbuhu2jgiYxzBcc-kE47k9YeUIFgqikxrePM1z9stAxacw1N_XH80xMdLWW0agT3KgnnhEQMfnJUkK_wUuQpcG2BXVoSkjy07LvNCt32yp6o03FCpHk0sbac5lD9EDW1EAAvobp9c8qS7IdipGl9j0QRS-ZJX5LUqcmAquxBSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116333857561829237889\">Olivier Wavreille</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLdUM0TmYJ8VP5Hu8hla17tSgjRoIOQW1aOvNb23rT7Ge8j9yr1ujfu_A4fFSdAuvIE6KXdArxTl4ucIRPGvXBJ9pt4rKySTVtQx9lc36hqsWwV657Fp70kIaWckJ45v9pm-i-n5wWxBP2bOoTAIPJ6wyltvxNkjrxv6RUbKjaxEgPSg5T-GOUUqHlz4lcymGqw_5JIf6vP3RCRCVjSS42bQCbRjM-plk4VGKM6RfDbMUbCvIMPhIkA1rxcVDvnkaOTFFQDLFmFxGoY0m2_UFqeyffzjawG_UXUMLqhFzTZppnusTAWNMN3MxoruS5zEZ60cy1SKq8Fnv8WIjEbBOK_qbf0VUiJPQs0OZ65g-Y7TjzrNvtfIMbl_y_8WzvAvs-J-_LTp8O1eRmztzA7r5BPimAI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105676854880092783958\">Remy vancamp</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5760
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:15"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:15"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne renseignent pas les plats, régimes alimentaires, modes de commande ou de paiement, l’accessibilité, l’ambiance et les équipements. Les horaires indiquent des plages d’ouverture, pas les services proposés."
+    ],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : restaurant."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:30 – 21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:30 – 21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Attiches, ouvert le mardi au samedi le midi et le soir selon les horaires fournis. Les autres caractéristiques ne sont pas documentées."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-essentiel",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5760,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d3b856c1b580161531190f5304d556ac55db453b7ebcd25de699a0f519c249cc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

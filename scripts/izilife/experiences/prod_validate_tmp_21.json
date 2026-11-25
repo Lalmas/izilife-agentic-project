@@ -1,0 +1,95 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:04:07.541988",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 21,
+      "title": "Monter au sommet d’un terril",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.pas-de-calais-tourisme.com/vivre-une-experience/montez-au-sommet-dun-terril/",
+      "validation_blockers": [],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "minimal_age": "3",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "randonee",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "randonnee",
+            "vue-panoramique"
+          ],
+          "age_category_ids": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "additional_image_urls": [
+            "https://www.pas-de-calais-tourisme.com/images/terril.jpg",
+            "https://www.pas-de-calais-tourisme.com/images/panorama.jpg"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Inscrit au patrimoine mondial de l’UNESCO, le Bassin minier est devenu un paysage vivant."
+              },
+              {
+                "string_id": "vue-panoramique",
+                "confidence": 1,
+                "evidence": "Au sommet, le panorama file à 360° sur les cités, les chevalements et la plaine."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible dans le Pas-de-Calais Vélo & rando"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Sortie en famille Informations pratiques"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Inscrit au patrimoine mondial de l’UNESCO, le Bassin minier est devenu un paysage vivant."
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 21,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 62,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:04:17.530699"
+}

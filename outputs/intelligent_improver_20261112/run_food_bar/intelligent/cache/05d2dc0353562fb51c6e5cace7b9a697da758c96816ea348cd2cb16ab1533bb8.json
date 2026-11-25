@@ -1,0 +1,49 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "populaire",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "user_rating_count: 3780"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 23:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 00:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les options à emporter, l’accessibilité, les équipements ni les moyens de paiement."
+    ],
+    "summary": "BARREL est un restaurant situé au 1030 rue Maurice Herzog à Lesquin. La fiche indique une note de 4,8 sur 3 780 avis et des horaires d’ouverture allant généralement de la fin de matinée au soir."
+  },
+  "meta": {
+    "cache_key": "05d2dc0353562fb51c6e5cace7b9a697da758c96816ea348cd2cb16ab1533bb8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

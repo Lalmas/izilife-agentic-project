@@ -1,0 +1,83 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« un tiramisu aux fraises très bon »"
+      },
+      {
+        "string_id": "midi",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Horaires indiqués à 12:00–14:30"
+      },
+      {
+        "string_id": "soiree",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Horaires indiqués à 19:00–22:30"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon restaurant »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« un accueil très chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du midi : 12:00–14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir : 19:00–22:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Pizza très bonne »"
+        },
+        {
+          "string_id": "tiramisu",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« un tiramisu aux fraises très bon »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis récent signale un possible écart entre la contenance annoncée et servie pour les boissons : Coca-Cola commandé en 33 cl, servi en 25 cl selon l’avis."
+    ],
+    "summary": "Restaurant proposant notamment des pizzas et un tiramisu aux fraises, ouvert au déjeuner et au dîner. Des avis mentionnent un accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "a1e8f1137c01339b276a3e7dfbf42efd3520a97e4c899f84a68049fc128b6ff0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

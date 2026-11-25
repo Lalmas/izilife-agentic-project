@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:33:16",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-engrenage-brasserie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-engrenage-brasserie",
+    "status": "found",
+    "data": {
+      "id": "5860",
+      "name": "L'engrenage Brasserie",
+      "shop_string_id": "l-engrenage-brasserie",
+      "unique_id": "0515aa607f5f7158200ccdc8cc36d15b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55116",
+      "principal_cover": "55116",
+      "qr_code": null,
+      "phone_number": "+33757913616",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1245 Avenue du Golf",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "432",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1411783",
+      "latitude": "50.5115366",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:40",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:40",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJr8iXvsTRwkcRvfBhm_YROGc",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5860,
+      "scope_type": "SHOP",
+      "scope_ref": "l-engrenage-brasserie",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "merignies",
+      "string_id": "l-engrenage-brasserie"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55116",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5860_6af3a2542a9d1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4916",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34147",
+            "source_hourly_id": "4916",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34148",
+            "source_hourly_id": "4916",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34149",
+            "source_hourly_id": "4916",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34150",
+            "source_hourly_id": "4916",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34151",
+            "source_hourly_id": "4916",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34152",
+            "source_hourly_id": "4916",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34153",
+            "source_hourly_id": "4916",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-engrenage-brasserie",
+      "google_place_id": "ChIJr8iXvsTRwkcRvfBhm_YROGc",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 08:30 – 18:00",
+          "mardi: 08:30 – 18:00",
+          "mercredi: 08:30 – 18:00",
+          "jeudi: 08:30 – 18:00",
+          "vendredi: 08:30 – 18:00",
+          "samedi: 08:30 – 18:00",
+          "dimanche: 08:30 – 18:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLcru_zxjpUTdi0Zw2PortB21B7mosVReIiMcReZZemlKhkUDbHkNvVYTOEq5yRhE7MSj4uqlSVAFyK_5dTRmFlARs2wQ38vcLu9Tx4JUUkwkiZEDjIRR3Plbx-gwtKPlUWzDL5t2aII0dsWqKQjatRLrDurVWENyXTIJWIDctHlIltV5V52bwmzv83hKjVe7mi5_WNJfrKaXUUkqB4S7_uuBbbfcaMyMhgQ5pP3ZEd_hIBH2Ipug4y8ZGrm6Io8tfJYiXgXlOeVr3PohH4ptcxcId8jL1-l8jqmEz_x5Enxolvx17K7jp2GqlV5-C_JZAdbSxxgs2d8KOeajPZItYUPdMMKDIthU4MwYoviZEW_9L34fos4K2N0ZV7OtuTytLtvhy5CxUutT2i247Kh_wMiK3c",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1280,
+            "photo_reference": "AV-0GLdSm135K9GfvWDj2SIJC0tqfuNQqivC81o6OJLiuySHq9gncc_7BhNLELpQhgwPp-in6jmNNJTcoX2YMzYDIMAZAvuTFQLFh1xKvCZgOIqtab8b5_tbH6sh2zfo9m6JXAAaZD3Ie4ve1VvphG5a1JDj1DPxjvwGgBj1IIxN0JWoRNL6V11SNoN-db273G4KsSiVKhepXIpV5GcbfWpTGixfgUuttZMwl7R4yEHiU5ESvTJFgL1ncy8B74P_kWYErgME6CRYpSQGQ-gkH8pvSzMSSsk5STrEzjxu-eKrvXnUVSykF8iwQMEifYFcnMCMy9uLl4QJkBeDasBHboXhVX36vcdj3xwQQ7R4pT4qdszzpLAfxPP2tN0K_WPi5aPT-TtDrNYWKSCHhjwOyemoUHFt7BAFlf4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 700,
+            "height": 394,
+            "photo_reference": "AV-0GLcvCjR10s3VWXReeYyVHbSlxjZKFXJJ9lCJ-jR5fkFN-DrgiVeHbQLgN24DUUSP526x7DQmP-5v-fNog04oi9D7ChrlXSMg-ffhdHJgO25WnCPZ7jMRfiqdWwpISi_GUG2L9uvJUA8PyTNqLj60OskC9PRc6dZZG_TlVkUNjI5InN3oacnE1hn97ouSQ1rFmt7drS9aSwU6yqrMTP-1c3lzQ6FG-TusIPLvDDaDdaIIqkzTtRXjrfac55FHFqLnfN3YACeQrc0EOXnYvIrgdoD_-w0yrTOtXrXI8-_znIDVpgAiW-NuQOu7h9lOkYm7_esZlrbZRltWAaOLnJ3wQ-l8ABruprA8omaYr7D50yWj6Y3pAQHTTs0Wh4Z7-czqeqtZeMGw54ty0V9Tb1kFr2pkiAV_Uv5D31alerLrXF3NkQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1280,
+            "photo_reference": "AV-0GLdNj0zE1_3K_mYVe8FBNIOrigrVZK5u-5KXeXoJKZs25FwnFo8YnGrepifVohu-O2tb_xrNCRa5ogzQUKWOFpdxIEiBD9n6rdLHSjCSp5IBXcla-8q442XtP24SC_qfazkqLBPncsBMjTh44NHpIjxSThP1ZV0fxlVEL-medYA9Q9MH31s-BZWeA2jtHc_spZyuJ1PH1h82VajWKFFYK4xMO-52I9Kqtqoak4Df72z9PE3dPpRk04De6VTDMsdIGdy537hrIkoekfTkl0RvMf-OUxM3OvBZA86EIQnf30kGKuzkeRMHgvxxpfcWrjkfkRzKaGiZSNgNV8SgOZrRrGJz1edSzKaznHbBblSdzwYQzzeeo02M4UHvN0ajiqpIflQiJo6E08TsxIDpEV8da0IcPMU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1280,
+            "photo_reference": "AV-0GLfg35M8aZaFF5kHw6GtCFSAucriJHLEKxQmG9XMnCv4SdZNsjo6XIGEJc4Icj2Ito6-eNUJM_1bex1QFaeoF_jqyn2gYIdImfwwJFApcKQYSWoTUTp54YqBGnle11BLQux31t5s8atkWUml1eXdYPXbsGQlkJrfH8P4oC3rMwc9AQc_zte6ZmCpfbckNZAqmZ62pF8bE2-r7EOpGkqBYifvLydfzI4WGRDD_47wGVQPR5XZmYV7nCVdVYHO0KpFk62KPY3qDC_w7RnijJkp45dKMk9I28pBwVe1Olgu9chjoF4I4HpvGZ2ep_pZtRetampdolmzGdr_6YfUt1iUAhJWDYmC1SvFfUzoAPOvfRGJ_I2hvzH88Z912hUGVsDgXJV_CRF8qraLrBfFZIxwogzcWTw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1809,
+            "height": 1253,
+            "photo_reference": "AV-0GLdIil54EVsybDMC_oeOh9q-_J-0kcXyQql92PIER7YgnB1IPoqMR4P7gUfSRjv0mS9H4juoHmwr-dZ0xXZ7RUfqeZG-oytq_EMXL-bhLy_v4GViJMxZUy9a7YfXcx-05dYoCyO8qbINf9uguYa5ieeWTtq6A_RRC4RjK_n8uhRH5FOTO2kRcsCKdam7U41QexACBZbCX6oh9T7RfmrUhiBMQS1R3isUG_QBKSz-lWuDl2u-NzZYpL0Vdpszl-JnF41Sg-wLZ4p00KvO2X2sbu78xP-7It-UCT5YsyArX64N6QUmwroj9vzNigtPeZNl6_weSTl0GWyw6e5_qdNlF1S5cL-0zGN0j2wF_8sxdRpdEyYr41o8a342cs4olOhh-_7QHb63qu0bU-GlH2HnIORwjuoGBBjH1MF0crsxJWLJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1686,
+            "height": 1130,
+            "photo_reference": "AV-0GLfUFPKGQpcZI7bmCJcE2LW0kF4yJthr5VisiRYS7_RYvN4yDP57XrGtDz0EItDWbFhUsy-HaCYZMwsoat5MLzeGzw6Xs4Qr3JuCph3b6VUa6UzziWC6tcFkKpXhGrBecSSOnktj7RgJBxqWIceUJ2rjjbiP8wegRM9juwQJkfbdnF31NTQgNrcAiP5_zgyTwX4HgYa0w0ghMRlC-oDnYxTdRC6AE73FVq2xCWwPpz8j6rlQEjC1dIzHdgNFR_AqP2ozgQMGjmNv8mDB3R_QD7jTM_dIC4za83_ko85ZgAGX5Bvvy4suebVsx8jnwflvE1OXxGb0FeS-aNwsT8jF6uVXSRvA13ZhBX2DDirZScUyMKreaq90ULlKzOalLIXWT41AZP1wgimtwtEZwjhL9nMcNLaoByLevR_I53oOFT3k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLcC_k1Ffg-mOi64GpCIOEKLanICw5AtJGvs1cUbrYX0pRCR8cLK7dPg4MixgR9Ap6mvkBeqT31CUwnDeWbL9i4EtL7xK8hYngt5hcg1iTpFlVUA04vE16GCWpcLA8T6N33dt0rB1_-vLbStP3LoK1_xRxBZLZXeepUGtyGotzUvnvHvJFq6T5MmLOqWYeUeoJ7en2ZhDatuCCuaPvyA46oZ7bugpsflJ6CC7mTGYay2dr7nnVaw7QpMebh7Q2nmnsdIU9j-OYcxF4QiOnjw0GiFad2IAPSElLIAa57ufoV5ayGhJ3uO-4k8UaKsGWK-v7TzktkiJybs1BTVRiQ8gzZ8mzPOUmAAI8KTJ_6qK5hpGeXRyI5FPG2d_DOuNw0bklg9mgZAFHbhBitiLdMIeS29gaD3oJg1wje-pPw1I8-iBA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108332180630046907860\">litana H</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLfQdNL90Pn8nV-ZCihsA7nfrPH0KlBxeH_774GJnK64fRzOnE-2_GdHRsOqNn9SAWgnqQGK7Qvh9A-OSN7pzxN_L6GnzNpP3-LgIixGm4rEBXaivYeYvITRYvjo8vsyrsH5ozejGfUhUecMYli4Kckp8DGG3oIxw-EB5eZqYgxYokmJXPXhUFJzLeUiBMb7ANf1Z9Df2uzRbP6BHuJ69cuEfn0HtF3jhFlsZojS4XzepmJoWq64hLE9Rz9Y3FyDzBbD07GtSxlmlcUpe_dchF-bR0mZUa635TK4i8tFLQ8dYNxJxqUGdm66wlnYKXnvGJIvuN1hlzqsrvxZh5Bn4QK7XsEv_KzfkMQLKvcahFpaKzU1RKSx79vXGaqlN4nxeBYBAJCcmw45pXTkWxKdXSN6qwI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          },
+          {
+            "width": 576,
+            "height": 384,
+            "photo_reference": "AV-0GLfLfyUwuDiARV5IBayM_Fjt__88R900ZvwW_ssaz7CrhAJsE3g6ya1OM58zJm5DP3i0MA-_Iu4s49vSo9NhC0LVNrcSi9Nz3IvVaR4wP4wK-djFCQ2-XNQLFbcDvEqrmEgX0SIwZStL3OuWMWcwDJHIuetwDRvSO0qJR3wSt2uk6SqyTiiHRPUH0CPL-Ka0vmQR56vqzmNdwONLPWnx07P2DbtnNip6R2FRiZsHmjvggI9tCl4ycodREPGsnS1imtLefH-LBhlzj7FDM4kRTY5bYBOx6dSGeUyuE1IcWkBrpmBVg_ai3UVdIKvq7pT9qR3ImhE8CxfdU-p98dAAsCvgkTzZeLc-LyzjHK5ZzJUpwALa96qlQOk3iKWwcP5uQLKKKKYOQwAGD53fpbPX9TGdBh__YTiBXct8hl0M34ziaQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114559465024375150582\">L&#39;engrenage Brasserie</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5860
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne permettent pas d’établir des caractéristiques, services ou usages précis au-delà de la catégorie et des horaires."
+    ],
+    "rejected": [],
+    "summary": "L’engrenage Brasserie est répertoriée comme brasserie au 1245 Avenue du Golf, 59710 Merignies. Les horaires indiqués sont de 08:30 à 18:00 tous les jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-engrenage-brasserie",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5860,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8634a3ea8c4815295e5a4b1935454fdfca23209c700d7b919d9445a6b7ac1bbe",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

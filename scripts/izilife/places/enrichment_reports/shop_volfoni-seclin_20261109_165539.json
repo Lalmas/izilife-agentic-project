@@ -1,0 +1,521 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-09T16:55:39",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "volfoni-seclin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "volfoni-seclin",
+    "status": "found",
+    "data": {
+      "id": "3733",
+      "name": "Volfoni Seclin",
+      "shop_string_id": "volfoni-seclin",
+      "unique_id": "2029f7b71e61e4a701712d613d3ec5d1",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "1",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": "8",
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Benvenuto chez Volfoni où la dolce vita commence par un aperitivo de cocktails création et d’antipasti maison et se prolonge avec des recettes traditionnelles de la cuisine italienne, dans un cadre convivial et authentique. A presto!",
+      "ai_description": null,
+      "principal_picture": "38163",
+      "principal_cover": "38163",
+      "qr_code": null,
+      "phone_number": "+33320977895",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": "contact@volfoni.fr",
+      "haveTab": "0",
+      "receive_peoples": "1",
+      "have_toilets": "1",
+      "toilets_accessibility": "2",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": "1",
+      "shop_booking_needed_for_access": "3",
+      "access_text": "",
+      "access_link": null,
+      "address": "90 Rue du Commerce",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": "79",
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0519093",
+      "latitude": "50.5473202",
+      "shop_location_frame": "1",
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-08-11 19:20:54",
+      "updated": "2026-11-09 14:09:35",
+      "history": null,
+      "shop_hourly_text": "",
+      "shop_building_type": "1",
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-08-11 19:20:54",
+      "is_speciality_business": null,
+      "shop_origin_id": null,
+      "use_seperated_menu": null,
+      "google_place_id": "ChIJJzbHjvjTwkcR8HikIy58260",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "65",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "source_id": 3733,
+      "scope_type": "SHOP",
+      "scope_ref": "volfoni-seclin",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "volfoni-seclin"
+    },
+    "counts": {
+      "media": 12,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "38163",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f703d17.jpg",
+            "sha1_hash": "c65723accf64b87f6d54cf38ccd613b261da66dc",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38164",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f7634bb.jpg",
+            "sha1_hash": "b57741291ee80dfa22b6437789dcb4febe502b42",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38165",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f7edbf4.jpg",
+            "sha1_hash": "bc3db06a71f6b87de63684f7b277fc44267871b5",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38166",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f83b389.jpg",
+            "sha1_hash": "85ef4e4423dc64c62be667eb387ee8d62e2af80d",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38167",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f8861ae.jpg",
+            "sha1_hash": "0b9b1b034cf03faf79c926c9ecede2ecf93a65f5",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38168",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f8c5647.jpg",
+            "sha1_hash": "cfa558c527ee5b6f51b65e04f919f8596bd23790",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38169",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f921096.jpg",
+            "sha1_hash": "0a4daf37930bfcd11223c925f7cbbae893c8f468",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38170",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f97c703.jpg",
+            "sha1_hash": "45e90498e0ccddbd0c111f34a42b471c111bf7fe",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38171",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59f9c5cf7.jpg",
+            "sha1_hash": "501cf158e4f84e5a1d52efd767ff89e6872ce7f6",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38172",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3733_6a7b59fa2f858.jpg",
+            "sha1_hash": "ab1fb33e739e079397390e998c2151d1bb8cab9e",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 12,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "2644",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "18495",
+            "source_hourly_id": "2644",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18496",
+            "source_hourly_id": "2644",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18497",
+            "source_hourly_id": "2644",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18498",
+            "source_hourly_id": "2644",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18499",
+            "source_hourly_id": "2644",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18500",
+            "source_hourly_id": "2644",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18501",
+            "source_hourly_id": "2644",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« aperitivo de cocktails création et d’antipasti maison »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« recettes traditionnelles de la cuisine italienne »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails création »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails création »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« cadre convivial et authentique »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un aperitivo »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« cuisine italienne »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Restaurant italien au cadre convivial et authentique, proposant des cocktails création et des antipasti maison pour l’aperitivo, ainsi que des recettes traditionnelles italiennes."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "volfoni-seclin",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "aperitif"
+      ],
+      "DishOrigin": [
+        "italienne"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 3733,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopDishOrigin:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "ae2779450d51e20ed2fe5d6f2dfd9ae93302d3d9a61f26cc82f7e26841971d8e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

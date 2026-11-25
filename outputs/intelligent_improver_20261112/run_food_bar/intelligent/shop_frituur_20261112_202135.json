@@ -1,0 +1,501 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:21:35",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "frituur",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "frituur",
+    "status": "found",
+    "data": {
+      "id": "5774",
+      "name": "Frituur",
+      "shop_string_id": "frituur",
+      "unique_id": "e63f25c03d4f004be48e1642af46b6f2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55028",
+      "principal_cover": "55028",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1945 Rue de Lille",
+      "additional_address": null,
+      "zip_code": "59262",
+      "city_id": "77",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1608398",
+      "latitude": "50.5876837",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:48:59",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:48:59",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJb9hvbSPXwkcRJOSNA9coOS8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5774,
+      "scope_type": "SHOP",
+      "scope_ref": "frituur",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sainghin-en-melantois",
+      "string_id": "frituur"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55028",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5774_6af39f5b9a9df.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4832",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33559",
+            "source_hourly_id": "4832",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33560",
+            "source_hourly_id": "4832",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33561",
+            "source_hourly_id": "4832",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33562",
+            "source_hourly_id": "4832",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33563",
+            "source_hourly_id": "4832",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33564",
+            "source_hourly_id": "4832",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33565",
+            "source_hourly_id": "4832",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "frituur",
+      "google_place_id": "ChIJb9hvbSPXwkcRJOSNA9coOS8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00, 18:30 – 21:30",
+          "mercredi: 11:30 – 14:00, 18:30 – 21:30",
+          "jeudi: 11:30 – 14:00, 18:30 – 21:30",
+          "vendredi: 11:30 – 14:00, 18:30 – 21:30",
+          "samedi: 11:30 – 14:00, 18:30 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe-ZNpIxrsLhD1W3gn-JpxfW3Ela9dUBTH8mjRRV18rwuK_phUOQn-HUrWB6Eh5m0beK4CQnsoxmOR2n8HS-uI9ruoTNJmf6Dl6zo7okNnzvcJnrl5y-65tAC1_NoVoKfcpjb6fUKvpFqzmT-AyWPLHhuPuRFjDvCCZbagQS_0Pww1Xfi2TJ_d53rsLklPp0y6BRvPG7Hzv0NKzU5Y4S5ZoQ1VUXAgt_ac02dwcm8-tjkqRBD2WH-GfFFOR0pirzt4Lc3hDDKr6XtVXYNBZweqCns2WL8WIRRXm-Ns9SU5HWyRfcf8viDuOO_1TTdqd6rgn7HDAPmuRXKLOx6JtrBoCqxNUXkQGC4awX1O_cDVOxXi4eoXLvs-0CTATARBU0k3SEtslXEo_Qy7zwy2sXcSzEi5lpxzZY8-6ZkKdiTU4dg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102781392071083033331\">Sébastien Lefebvre</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLdJCyV6plNuM9Efmqr-TnBsLHFLVVvvE89eeSz9XFrnDl3bu_vzzU03VImycZkRXxHwOcDxobqI6ctP6emj2OwreU92nB3cUpeLvgIMsbXSbX7MdqS7LkKaqVpfscd90ZmR7X5D58p4CWK5x4rgLj8ow7U3ycjolGhuqPCpP5LgEFFBPXa1wQ7iZhs9t1zsMrbyzwjBmqw3mb9yhqW8O8jSkIfXFxx9UW49J6k7KxAAW_OEfeagINgbjI8QJz4hFPEjCDuMysmtU0tsadBanJ208HbhX3j3NHKrSBRBpIXPVxHsWow6f-5F5A2Rnnqlb_k9mi88ebFtVRhhjnEu9u152U9PLsiYr9KcSk6WXAuQDZWqIkQkxX6LL42PyPXOyLq2Wx8aMrFlcOWVP-MGc0pYq_IG245cLBihPY6gFJMH",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104870374492795246566\">Flo Lav</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcOa4pPSLd7i9gEokgI7BnzBx2bcs5RY-ooaH5mIeG_UafUfUlsDiSrKpULZWAUPHa8ORH4Ydb5jwKKCZFSKkuBxq44hEbt12syieI_eFYEwYRLdHd09kdHq6RBjWI5uQffFzGNDBnIan0oMHXqZOngaLY3QUoIutyy96MhKcosjPRzADvOzt5EK_7zr_XXmwWdAexgQqTMN2xlGopoiLGquv2CymDHv_1FSDKE14DTsT1fz_P1VCMGowe44d4ghQmiuIzQACQb_e7P6N7848-3nDp2WEZYFzNWl3c5TU06QS4yVe14AOB6ho9zQVSRduEz-qvCS82S86wCFFG7iOFxeAV3CuWxGgXVI5As7EaUw8c4MiI5hamPyKdgtvyIuhtDtSXFGC4D-E0qBWI1Ds_ga0ivi9-FSLNt_SReCEjrag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110347840144975597029\">Frituur</a>"
+            ]
+          },
+          {
+            "width": 1242,
+            "height": 2208,
+            "photo_reference": "AV-0GLcXB7POV6JYv2Y3ylrsSf6ZyEkKIVeE5KaA8acAIk5T7zEsuwHN6ARyfcF93PKnLMyp8J_tEX1PsxymmYNk9LQnjdTbP9hjXpwBQsw0bhKqOmpKj0WBySvW5TjVKMwbkDxuJP_6EEHrSc-BwGgogG9ZwgPRMn5ONiHEd7PP8f1SpOmA4KZlsZW56Y2BK8dg4ENcn6dKw9LvUF1gj-dbCLayc3xvuJinItlulg0Z6YjRohCtCt_bh139Me92ZtNfVVO06Fkjui_dntHQ_SloxA4dywOj0eGtU83Qjv12BK_5Rm8rj3eqBFjy3z8SrlpEUMSiafvPxs9clS-QrbwTI0QoUyuqO8Awq9x0RA8WoM14lBYA7VCiZ75DZnWKvU3eUgNNjw2hVRdAef1fAVojCtHmveXcRroFgudStGHYRPXr7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116435776344153334826\">Capucine Bouilliez</a>"
+            ]
+          },
+          {
+            "width": 1656,
+            "height": 1318,
+            "photo_reference": "AV-0GLe-J1-qf4h7lymvyWCcmmUte7yEp6Slr3YQrknWMuBrF7JW9tB9T2o1jPJMSR2TUW3zAZ1toJnJoUMCYJ_XJn3ksF12Xyedmg5KOQIhdlU-De0fDz-gJz-plm5gR5G8b1Ymr5ANA-16udAhei-SDeMuIj5by7RNgbKGyN_-wLXQFdMxZc4UgvWb8BDeMoXKxVNfVQodPgsQfQYwBVZqkp7po9zVRIrZThdQk18Zm0jsA-YH4HSE1TK1VCRbmAK0tRA4fplBE7DFAuG8BtsBIFCV8x1yIJcbFQd5wBnLKFGNKgU8A7PmsvVQdEmC7-g6ROVKdUb-M_QTSsLvSC1aeqJArVICcgQNDPiMHsptnrG5o6LwL67_CCJcCtlh_o10nkc3JXo0P3UOGJSz0w0FbPXrct8jgF3H0SwlnVhenOa08g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110347840144975597029\">Frituur</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdlQgKaffU0tbh7jkTrtgfZP87qSQxm73FdFfuxyWUtaHq_UyrnyzDZqpUECqYykirsdC-97FwHT2hY_8JoLJfme24tBVYIkngZwBMw3b87zuUR6WXQbKXXFyDALVJaKESxW7391xd22WsLoFBNIcIfD7y6gAaJCkBkvhU3VwcnvsHaAeI4oocmtJ-ro1SADT53hYSl3I9T91fQfxqcdWY5FLT5rR6UGJ5hfHK3mxTsgCIU9Dl8y0t2eolHgzlUHP87LT75cQdDeG3xzsoZzOWGgKzm9_lfioLfDK7MSFlypb5wGKfLqeD9yQrhL8wpR55UcWPqbyvuQHmgvjF-fnxcfJMUrJRcjF59lm6P_iQwnGtYHjvkpBofbAU0P-XvcuybQjAa1dpobxdFfL8H6XHaMusBiyxnjR3fEWviS3AJiQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116435776344153334826\">Capucine Bouilliez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf5b2sfKmdtyhZ9P37SFp_p0mLvi5Tz3IzpC2KhI1P5XB4mE-r9_rq2hSjDGB_HM3oLZPv4CcgPLkVyrCjOL-_M0seTsNDqoiTLPGPPQE58hD8e_Qybrg8wnW4-QUE403q0D5PfdEJP5JrS-7oWTTTXpIZI_C5SsR_Oh-LmVQiBYgK1graws2RM1S1Uh94ltp_YhOxfX4GeaLn6ysLGMk4wpRP6ttnaSVb9BRgGzeK2hiPS9ZgH-3YrAEzTu72zLUQfTt0BMarhZjHKauzHiSh5SVBiZSffCD6KNq4SF8WQEkjeGrP4EzetWVGpe32eAx4J5gHovPEc1Ek2v7ChpCXV7BdBiBDvtD7e3PVdCZ1YkQsueYOGrZZOaNo9V8uWjwmmw_eQyqqZEM-9yqYxpVIwbHUxBPxIfFI--z7ODjXwSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102781392071083033331\">Sébastien Lefebvre</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5774
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–14:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.7,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni les services, ni la consommation sur place ou à emporter, ni les équipements, l’accessibilité ou les moyens de paiement.",
+      "Aucun avis exploitable n’est fourni."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie ouverte du mardi au samedi, avec des horaires de déjeuner et de dîner. Les informations disponibles ne permettent pas de confirmer les services ou les équipements."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "frituur",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5774,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6b292c4a6a1360b655618ce04137b7a1ff7715f84f52998aac0c0b775c5600e0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

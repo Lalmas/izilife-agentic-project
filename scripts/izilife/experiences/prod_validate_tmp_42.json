@@ -1,0 +1,239 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:40:53.343838",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 42,
+      "title": "Atelier de dégustation de bières",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://reservation.lilletourism.com/atelier-dinitiation-a-la-degustation-de-biere.html",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "biere",
+            "degustation-vin"
+          ],
+          "object_string_ids": [
+            "bar"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "afterwork"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "un biérologue vous initie à la dégustation de bières autour d’une thématique spéciale"
+              },
+              {
+                "string_id": "ambiance-festive",
+                "confidence": 0.8,
+                "evidence": "dégustez quatre verres de 15 cl accompagnés d’une planche de charcuteries et de fromages à partager"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "planche de charcuteries et de fromages à partager"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "dégustation de bières"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "planche de charcuteries et de fromages à partager"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "brasserie du mois"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "planche de charcuteries et de fromages à partager"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "planche de charcuteries et de fromages à partager"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "dégustation de bières"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "dégustation de bières"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "no explicit evidence"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "planche de charcuteries et de fromages à partager"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 42,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 83,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:41:03.817484"
+}

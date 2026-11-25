@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.74,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : pâtisserie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi : 07:00–12:45"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi : 14:30–19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune preuve fournie sur les produits précis, la consommation sur place, l’accessibilité, les équipements, les modes de paiement ou les méthodes de commande."
+    ],
+    "summary": "Boulangerie-pâtisserie à Wavrin, au 1 Rue du Maréchal Foch. Les horaires fournis indiquent une ouverture le matin et l’après-midi la plupart des jours, ainsi que le dimanche matin."
+  },
+  "meta": {
+    "cache_key": "0aa6fdc2165e45e6cef2f97aa2f6c23bd93e799aec440c4d1f74f90f10861199",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

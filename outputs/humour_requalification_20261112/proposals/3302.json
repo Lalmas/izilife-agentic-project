@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3302,
+  "proposal": {
+    "event_category_ref": "one-man-show",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.79,
+    "evidence": [
+      "La description présente le spectacle comme le premier spectacle de Nadia Richard, qui y raconte son histoire personnelle avec humour.",
+      "La programmation porte le nom d'une seule artiste et ne mentionne ni plateau, ni open mic, ni programmation de plusieurs humoristes."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le caractère solo est suggéré, mais la description ne précise pas explicitement que le spectacle est écrit et mis en scène par l'artiste."
+      }
+    ]
+  }
+}

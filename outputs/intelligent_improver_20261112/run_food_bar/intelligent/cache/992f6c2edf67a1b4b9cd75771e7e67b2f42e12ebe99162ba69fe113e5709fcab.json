@@ -1,0 +1,46 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie située au 135 rue générale des Gaules à Noyelles-sous-Lens, ouverte tous les jours de 06:30 à 20:30. Les données fournies ne précisent pas les produits, la consommation sur place, les services ni les moyens de paiement."
+  },
+  "meta": {
+    "cache_key": "992f6c2edf67a1b4b9cd75771e7e67b2f42e12ebe99162ba69fe113e5709fcab",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

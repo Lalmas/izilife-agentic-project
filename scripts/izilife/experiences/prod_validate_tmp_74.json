@@ -1,0 +1,289 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:47:17.859514",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 74,
+      "title": "Bootcamp urbain à Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.babasport.fr/activites/1853-bootcamp-team-training-en-milieu-urbain-a-lille",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "minimal_age": "7",
+          "duration": "1.50",
+          "duration_measurement_unity_string_id": "h",
+          "minimal_number_of_people": 10,
+          "maximal_number_of_people": 100,
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "running"
+          ],
+          "object_string_ids": [
+            "banc"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "evjf"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": {
+            "name": "Bootcamp urbain à Lille",
+            "description": "Entraînement collectif de type militaire en milieu urbain.",
+            "dates": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "hour_list": [
+                "09:00",
+                "18:00"
+              ]
+            }
+          ],
+          "element_access_prices": [
+            {
+              "name": "Séance 1h30",
+              "price": "15.00"
+            },
+            {
+              "name": "Séance 2h",
+              "price": "20.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-forte",
+                "confidence": 0.9,
+                "evidence": "Entraînement militaire intense et fun"
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Bootcamp urbain intense et fun"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 16 ans"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 16 ans"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Parfait pour les groupes d'amis, d'entreprises ou les futurs mariés"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 16 ans"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 16 ans"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Parfait pour les groupes d'amis, d'entreprises ou les futurs mariés"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Parfait pour les groupes d'amis, d'entreprises ou les futurs mariés"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité"
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Activité en extérieur"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de restauration"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de restauration"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de travail"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'hébergement"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de musique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de danse"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de terrasse"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de télévision"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de wifi"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de rendez-vous amoureux"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Ambiance survoltée et fun"
+              }
+            ]
+          },
+          "primary_image_url": "https://www.babasport.fr/images/uploads/activity_attachment/path/7423/bootcamp_evg_Pre_paration_Physique_Coaching_Sportif_Paris_-_Bootcamp_Jardin_du_Luxembourg_3.jpg?fit=scale-down&format=auto&metadata=none&quality=80&width=750"
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 74,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 117,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:47:28.114649"
+}

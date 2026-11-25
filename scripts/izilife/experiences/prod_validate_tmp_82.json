@@ -1,0 +1,120 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:54:13.955807",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 82,
+      "title": "Food tour du midi — découverte de Lille",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://www.getyourguide.com/fr-fr/lille-l643/food-tour-du-midi-decouverte-de-lille-t1397865",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "balade-gourmande",
+          "principal_activity_category_string_id": "a-manger",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "apero",
+            "degustation-vin"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Food tour du midi",
+              "price": "57.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "a-faire-absolument",
+                "confidence": 0.9,
+                "evidence": "Découverte de Lille par un parcours gourmand organisé le midi."
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Découverte de Lille par un parcours gourmand organisé le midi."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "parcours gourmand organisé le midi."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "parcours gourmand organisé le midi."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "parcours gourmand organisé le midi."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "parcours gourmand organisé le midi."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 82,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 125,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:54:21.549366"
+}

@@ -1,0 +1,73 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons manger sur place »"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Le service est rapide »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Super friterie » ; « Le service est rapide »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.81,
+        "source_url": "izilife://current",
+        "evidence": "« Le service est rapide » ; horaires du mardi au samedi dès 11:30"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons manger sur place »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au samedi dès 11:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au dimanche en soirée"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous n'avons pas de frites aussi bonnes »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie avec consommation sur place signalée, frites appréciées et service décrit comme rapide. Horaires indiquant des services le midi et le soir."
+  },
+  "meta": {
+    "cache_key": "bd4fbc94af6aef710cd7c0b68f3f434bde1faf5a370c11e3c81a7f30745f9ad5",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

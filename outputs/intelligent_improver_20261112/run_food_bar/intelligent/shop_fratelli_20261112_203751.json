@@ -1,0 +1,509 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:37:51",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "fratelli",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "fratelli",
+    "status": "found",
+    "data": {
+      "id": "5889",
+      "name": "Fratelli",
+      "shop_string_id": "fratelli",
+      "unique_id": "e744abbfafef1089d7a67ac5903264bf",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55144",
+      "principal_cover": "55144",
+      "qr_code": null,
+      "phone_number": "+33320971755",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "19 Rue de Seclin",
+      "additional_address": null,
+      "zip_code": "59175",
+      "city_id": "87",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0809557",
+      "latitude": "50.5758852",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:05:47",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:05:47",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJxTtNroTVwkcRUuOWoIk0bUs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5889,
+      "scope_type": "SHOP",
+      "scope_ref": "fratelli",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "vendeville",
+      "string_id": "fratelli"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55144",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5889_6af3a34b72ce4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4948",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34371",
+            "source_hourly_id": "4948",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34372",
+            "source_hourly_id": "4948",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34373",
+            "source_hourly_id": "4948",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34374",
+            "source_hourly_id": "4948",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34375",
+            "source_hourly_id": "4948",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34376",
+            "source_hourly_id": "4948",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34377",
+            "source_hourly_id": "4948",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "fratelli",
+      "google_place_id": "ChIJxTtNroTVwkcRUuOWoIk0bUs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00, 19:00 – 21:30",
+          "mercredi: 12:00 – 14:00, 19:00 – 21:30",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfeki7GU6JJSE2LLmpGAEJNjSsQOaFn3tZaaXI7oJOV3zFl7JRF7jWpVyrkjP6_4m5QPtR011ftkN9lhuxfELYwK_yEaiII0HOs5h4ItrG3m0xnncBFbpFi-t8FwaZ-dqy0tE6jipXITqTcgpot7PsQoC-rSCqGS0ekXe_stapEdzuDJu3l7-xpLl1IiniKQekyKp605-hEv2xIGvG4_HHvyCbkd47TEm10KYW9tAFQTlA8sg1akwW0fdFJxf7Zf-de3XqW969hvGwMhi-VDrEkYBE60YaFqVhXiaCmcSNs3jXO12BihkA0B3M202Gzf3-7uiOHzHS_fEAwBfndxu9ow6y7cej-9GpaEb6wFNBCGab4ohf04jalbjstuXc9qp7BE16dbaM0JEli2o4SRV9dHS1WwkM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100419558423204371004\">Fratelli</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdIsq3m89q3EoQkV63oRPdO4aUbLUJSJ2c2-TrEDL2D8PVdMJaEl0YJoUzMFREM0LCH_3Y0_kjjWY7ksIUvzzkY7NMs_2JVe49hVgaW1UpbCbutn_KPlvCuSqtM7Bzp5lmmMeqLDMsAxqhcLFqtObpSlj2PBOsRSGs6JJ5jPAv4DIG4lPwkHxjz1W0J9VNWzvK5Z57OZYNm-32yqzIqo8E14-rmLSQSKwZ91L1u8aUkXTMO2Bv4mF9d7i7yq51508BNkjUBbMacz-bsqI-TnzjLOpfa0F2KaiYr9Eukk31o5CqxkdFBK4ISHCGEsBUtL6we6x-5LwFBoih5R2_PYGvokfYNOJ5I-Olg59zHMy3J_FY8DC2ZxKVGOdjn9A73gp72v4naiZZOeifX-eDjyT8qxac",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100419558423204371004\">Fratelli</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 3200,
+            "photo_reference": "AV-0GLckfLkZdaFsS5UZ8d0_o7rM2yqmJCCDq56SIb1eTfUwmav-FJrTqIjbijVlZpdgIYfOQlM3V1ncSEzWvFvQotE9u8soWrFTVaYd2ALemb3NAjeaQO2_jX13LWNj8vhtIEr7A4mX7Ti_6uaICJZsHRqQj5UQDhvQpCsnwBNjXW9aHNzDnAol4k8lrICA5JKmYPeuXHZWYsC5i-_Zi_z0rA_Sir6lm08hzJ74jr3R_SC9R4SZOR9GoBBXoaPp1E8c5TqiBlz8HWAJMnhA_Sfv1f1Kvj225W9x9hbqHPud8VwL2zOVkUSnUWRQ1pWiWyDOw67VlQkudThC2LxNGVsLXET0awiYhtlvJq1S9J4Pxlg6KIRZsrkJMJ598kytO_NiTQsdF70qspwGyMt1E1IggmYZ0oAGXG4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100419558423204371004\">Fratelli</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLcaatvPYthFD6f_TTWVTXahF4Aei_TRvg-VnQfQkzeoFqaJCdiKDU-3V0I4dDMecFuTPyPfm_niiUSfJPjwPFUb3OW_GTuMvjqGNwuy9X5xqAxPVniuTs8Mpt7Bvz-eNADhCCN1O5fZ-c1PmZOm2NZ8oNapr1_soktfFLnrhsYuFl9ljl7GDinYyUL9OnhZ5zrutYIVKsfUZIe_I2nTnFcNY6UdLGZqMEMIsANb7OYLPRPLs6l9noHjlyurs7pkTcO-Vc4s6ASUEh7XPayP-F_vmaLU7lpDv_0nEijkeD9WiJLK_iIt-u2kxK82qKb_8Fttal2iOMtRw52wj149fone8DkqG2hSWx07j12RNZIhc4biaXA4CtdD6eSp1zbTx7KKm-K5jk9TFwKNjuys7jQRidaLv-sZcBbOzIOKyGbf_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100727716694919564212\">Julie Soudant</a>"
+            ]
+          },
+          {
+            "width": 1816,
+            "height": 4032,
+            "photo_reference": "AV-0GLe7doaC0sd9rSfAfn4f_morJIBSLxNISxmFHNghn1GGecTM4j7L54QI9Bbz8s98x6j0e-pI3EeOOGSo-buOApi3F--zhkNDfz71RtZFQ0ljQzNbXLE4-uE3pGzgI_jB24gpSH993X8CVI_u0iKqQ81j8R27kvtZVF1trOqhIGyxKG211QgILQxsWfqkQ8eubk1gO_sjL0Z19QzLJoKgAwBUFxiZTKpnH5ptjkycQ75epMHeJjry8DKBqzqrilh1ASN3zQdqlaFxt4p8ccvW3k6Cgo5s5qg6Hs_y95jV_7Gwc7I6cgiYMhBuDVSNQ-kNNoJnt0PAVRyP8xY37hSd6mV8TnUhClhGINyyIwWV3CsdbcIPqCMwypV86y1MlitWv3RBLJ8H1Nb4C1hiuHH6-0GdE5gO08QyLvWV5hsq976l",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102791650275605932436\">Nico</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf5u6OEsHye3h1E1W2vyAQqaFSWNJcsFBLUUSWvR37PPEbC_8jiT1auNz6eveg9JjnDl1egmEo7kAOW_62SGBVcr5-B4_0Ct7fqsnrNiW5h9ltdx8St6JHvEXGeEPl1zpYBcZZ_pOY6yUmLjfcuhXvITY2ggco01NvQiUAUam8uBO1huUMoPmah4E6UQwlchrKQCLSUHR76FATZ2eTYm1pCERC3tp3ZQyLGfMJ60ykOEx3GsPxtjPMBQ8pwVe8lxwhUGYoJPYFQ8xsSvTMrI1CCDu0TDxJwrswK3dg7wCV5dCCB66gPFG59LTTydUXGAzq2VplJsQ9JeCRMswi2fciqNXFvYCXlPjEIjgM_EJ2ww8ZDWqNOkzMC640kU-t2KJQJLCJCora2IKzpM4amTL5cMq3e",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103324272366836630774\">kelly bras</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLdUsCpA1D_4yIU2IxY11oKTx4TC0ZWYzMVtX9MTfkZR49BfWLjku5WpxMtB3VtEQJ0HNDUqATh0-Is773wSKdFT32RZLCRQ-ipH_o8u59t5lImHriTU7w3Rb5-ZReQNDvKi_yKiFejOGj600Jneey0teiQBn2BvzLTBlzb8HMJdDHrWZUDC_-ti845LU4Kk1hBqqvPELMfwCfG0mzfs7myDUeXbW34LwcqmPESw03FRilh3Tf6mFA45tXgJ33d0GnSTo3INER_INNGbq4MDEsvew7CmBNmSQvhdwmahJLCWGwHka5ac4Bl-HbnU_yPMupObSAlHNkiYsRAMjectDnrjm3_5v3my_ty4ODOOWvSHt1iv9XB-5bUUlfFcqxvNiBXbPNoYEvFDBBhbzwDOtGaVze71nAI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100419558423204371004\">Fratelli</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeeoALnkmxVdW4oVr-UOQeuP2Fue9p8WJ5IlnHVASI1ZaSDgpMKzZFmXxEn81x1xconzhoyKn_5l3flEmkfQhlO8Drux0-wv_8o8y341YA5KswpiblvIi8ZlQkO1yKl82UW40yE92QXTEyq0ic9l6PB6sWX08PopZxfp40ln0LP_Mk2K9yS9EZ_foqDGFLQiqDcAGEUJNMLJs2-jBUKy8WWnI8SVAzeMLAAf9g5vkBHCkJQyd3lXOQ1das3IcQBz8twpbXB-FcdA8oHk5Bcr8LdexcgNyQpX_FuKx-9LVQSKUzaa98lBdt3_UFQtt9PtpqB1XdDHUWFUPHPrY7RniNKYaup36G7wSBSbtcB61tmOPJ3-NwP48kBbnz9Yhh4C5OkztqyzbTHJUQqWyXzFUNg_nE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107548493116787925332\">stephanie virecoulon</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfD4JwBBhdAZP5vUzTROgzjMotBKynfh1QcIX44MA0lXuhtdBAMnI7_7aP2VdjITIQAQiFPDKVh3IyCanOXVH1RafnwvVWmMrRgDSI7qgTudqkTYnfPjJy3RYXG_LVFfpDkEqbBESRGVHaI9ekFHoC-NBOCOc417iBNA8EJzI7FbtwODbopkH9CBl4i-zGqLgOAWS7ulhF6AdzVDHZDDuKYibZ-zDyaHOxN9eXudy0F7GluDj01u4682eVgsnlHDVXXzR_Fb9L7wyur7kp1f1JbxCpKh2yD9OBObVmIigjoXBpy80vaAaDig7dlpnoZWKRZOHWyd6AYp1l1Zh7dZv-gob5B2nOyPNMz23XULosKeG3CWNmlCb-FS6eI6BfeUqfpWttyVhAy2zgY22Ju3sBIlJUqXws",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100772016672653637254\">christiane jorion</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLdDD_aio4guNiRErjVsqHVV3Rew3LJp16kQ0FwrhnnJe-jeSvZ51AM--RTKLoTPe6WyQh87aTchW6U8xqULGmoLqcJ97gMFGANWOfTsdi3CNoVr4PHAhJVF3bCBjLEMNufB421NXss4CQToYTXRXz_rd831IMY0bZebOCVLglWKTOLU2H-DTeb61_CPZvsos755bYeMA_lBVMTCiLTnUdH57NZrJmY1RclaPkzg-gD31VxM6XyI1PsCFE07Xze2ouGmWDU27QE_Ot-W6q1dKnm7et4MxbnblYDm_BP6aTYe4abVs3Ts68Lp1jJtGB0dduEsxSNRYQr-wIAmRv69LtqFG9Eu0stlL-fNaqHdR5HfJvznV0hY2JAir8HRR-InXABYNBUhA7JItNJWclOQroIwBG5B1WzKPdMg26oK086XjQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114955101920280358965\">Jonathan Kos</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5889
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas la cuisine, les plats, les options sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modes de commande. Les avis sont indisponibles."
+    ],
+    "rejected": [],
+    "summary": "Restaurant Fratelli à Vendeville. Horaires indiqués : déjeuner certains jours de 12 h à 14 h et dîner certains soirs de 19 h à 22 h."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "fratelli",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5889,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6a2b94cd9b7eedf980604b7c8cd884678a27c07d93fcafe82570ba97de67b77c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

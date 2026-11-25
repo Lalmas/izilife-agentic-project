@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:52:35.780618",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 150,
+      "title": "Crimes et Sorcellerie à Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/crimes-et-sorcellerie-a-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 150,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 177,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:52:37.096279"
+}

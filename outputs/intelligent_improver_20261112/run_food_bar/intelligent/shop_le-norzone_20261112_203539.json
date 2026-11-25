@@ -1,0 +1,491 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:39",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-norzone",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-norzone",
+    "status": "found",
+    "data": {
+      "id": "5875",
+      "name": "Le Norzone",
+      "shop_string_id": "le-norzone",
+      "unique_id": "85d10a75596a25dcaa359d95b708f7ab",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55131",
+      "principal_cover": "55131",
+      "qr_code": null,
+      "phone_number": "+33320875108",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "10 Rue des Famards",
+      "additional_address": null,
+      "zip_code": "59273",
+      "city_id": "36",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1324758",
+      "latitude": "50.5837426",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:03:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:03:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJudAgGOXWwkcRMxg6lBHHwkY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5875,
+      "scope_type": "SHOP",
+      "scope_ref": "le-norzone",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fretin",
+      "string_id": "le-norzone"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55131",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5875_6af3a2d9b013a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4931",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34252",
+            "source_hourly_id": "4931",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34253",
+            "source_hourly_id": "4931",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34254",
+            "source_hourly_id": "4931",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34255",
+            "source_hourly_id": "4931",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34256",
+            "source_hourly_id": "4931",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34257",
+            "source_hourly_id": "4931",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34258",
+            "source_hourly_id": "4931",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-norzone",
+      "google_place_id": "ChIJudAgGOXWwkcRMxg6lBHHwkY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:00 – 23:00",
+          "mardi: 06:00 – 23:30",
+          "mercredi: 06:00 – 23:30",
+          "jeudi: 06:00 – 23:30",
+          "vendredi: 06:00 – 20:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 1360,
+            "photo_reference": "AV-0GLe_Jr9W1clBOp69VCQ9wbNHlOn_KUQ79otw9ub95DEbRscK_VIYs5z-Afb6blOOQ_JkQKnJPwUu6y8ISiM59tbjSMErfbAk3peYLjsNvwniewuPiMSBzg48hBCOrQjHg4S9sDkO4LTijc2kzs_pRqxvRNFJAXyOYT1n9BkAqOtngQMhgxsyJCFPB8mPwb7hS9xQddfRY0YTM-vdukuiMMndFxhlq9fTq8fUmI0fXvTiHc2Nb-d1qeQ4ail2nyhq2dsAvUXMhWqghwbuZdeqBpUBtTvxKQWePdme6O6ZST19PKC2MHsBHKfwGMtaLJEUldDWisGCFyu_-P-vPoFaYoHI7HVmwFB8xJ10dEhe0pyj2gwYh6SAPuJKkyhheK0JOhWYjkKsFXq_n7WrO_tyYkrwXGAlJcc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114546439978819049217\">Le Norzone</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLdXn0aFoYy1yIOqswNnOEf7qZ1XWEFVaV7yjZDKptwVoLoW20udCKHMbygvZJyybhqrOZC1j5uCphNSBpqoqu9v0VRZjJHgoNPESxVFHxux1ERwKndOyAcDMHgtjfQY0gkQAEOUZpc7oxCRWOoMmdw-B6GcXf9DBhCP7QdzVtrftfVKqtvrdTypAzcftyXC26imnr8guqO2dJjdxcp9h4neoC8n-PkYUlsfc2XzQRQEpdk4IdZh_KnxuS-cg_Y4VF5O9TbHBSmAywzuQMUcnfCxTCXM7MdPFjOzMaOMv_915710yvhsWGkysy38lZvntSgHuuyC6g-89ksOGwRroHufm9KrCYoLBOeWm4yFK5zh8_ykk1NXr02fLcajqrzkcGafDIZ0Dktld1wua6apLIH50KS8LwrhQtBaLa4h-RF48A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103648517462357832250\">loic daudon</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfNdyyZKGsehLGeUU8_mhwhJ1c6L079e1iRp2ZIMQbDO3bBfFKEJTklEpAjg4SrNXTqX6Gw-ZkpP87fy_glVWSb_8Z2JZSqsukTk5ToipkGlu7S03RfhZTqC3e0e7S4pEpFUXxHO7aQQre9UtyLH2pO7lsQmK9ti2CP1326f0ZlIrhrjkYjeefw6V4gxsHBOvCHg5XljDpVcanfkkWb-4fsokyVEIemqjlR0VZvrIq5xAHZ3yPGKpdOrzOO-aunJ3q5oiBMLNtRej9sQbKCP4VdszqxnNubhVGHTwO7wnhii6Tay6mr4ZGzbqycH98kcEotPa4KhQw4f0v3h8fyHtDO2WZfYuiwpfRXyxbn4MpccGOrMa5LSDFu_NuqUBmN4R4Shp_NRl-YA_Ue_EEYbd3SRQE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109094191820790382640\">ruud vd wielen</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLffy12B3RPeKLmZ4O3O_WURciRRWlT7Mqz146E1F7BOxIXyDBujwRUNU8QFr6dJ0_nNLw-nqNQSOK0isbWEL2_alwV_HnCeZAxrxkY55XMqIDu28TrdRTvtr-OLRxzX5sijNWKUkUDu17gyVdHUCtaoVDcZXqDs8h9cDsxvWEUoIbTvSkKvSF_aao6Oz6NjQQa0bU4H7cbJGyBgCjEDd4BhRpsx0cU3oPU0iIYCj54v-vPXSg6TMAf0qoFd0MO8L16RRE_B14xYMoNZ6JMTe8dHIDD5nFTwqiLtgNJGoCtJNgBbW6ZOMVrVLJ9hoMcNOsZ3f78mUqy1ijdBMu46vNmimFxRYWImJig9cT43UXR5oXPLM6ktuAq09HvMdYMwafUTR-X3IsZtLGeEer3GGgwJozb1fbyYvGvylJxbxtQJvQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111995488100628184304\">Antonio Marella</a>"
+            ]
+          },
+          {
+            "width": 2992,
+            "height": 2992,
+            "photo_reference": "AV-0GLdtQ8s73jw16Icegpuco41Guimcx5tbbDzc7YXQl7yEkcZzBAquPiDg5ccheA7PUDccEpLcfNsHjngj0ftoFJ7uK_plW2_icaNfFYC9FK1kcmo4wNxetRTmkXu2t0HMCmzbltUATUFM1QMXHaJyoMf3US7ebfPcS7gbgN_hruWQAPoWWWuX93fMTwLyUuJTfXAhS7xvmsTqrw8T77cptumiW3bSPg45l_t1T5MK7hkSgHvmWRqLYKTpvTB44e0CcCD7kX1F3cfWK0v1ELtQv7ZB7hPEApiRy3DcohKm7EZ81u2Wp-zn33fsmZkjCXzyOo3KmG4tHQKQiNLfN7Qbcjd2k81mgiBIlR5XACxK-i8OoUwETWRwONt9t_Bq0B-7ruD37cdQOcImOGiyjACrQTBidjk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115177655774191632238\">Vivian garrett</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeb36PgZE5ax_5fDLe-cfBdHh99JVtC-6TFsMrizMu_-tgWWrvgpLXbr0YtThlx78gxWrzXMKXFc-fdxFXb5gc4aLsZw1V4ko7qsn3DQQMDR-pN-z1Qei9eFTCWKwE2PgzEKNrryTbaMjomOTcA0gXA8j9yHHk9jA4Q6SqlV3UdZzfcAWNdX_eaRN4ZnK0fc4J-jVt4jDg0vhP2cs8cXyILzsqZTm6dBpTA27kk-EwPBTvACiknDm6l3cNNcZ-SROWZVi7i5QRfmTmiQn3UpL4yfv2IY2GRooqHLTcs-1ErsL6xMYDxMz7FR_1O_EKoRgQnFXhapb87g7Uo6k_bbbtR859X4naC3c0JSUhqc0_oHTge5jfYm7HmZNtQfHVuHJZGxH-e98IVhNUWe_17BzR1fZK82bw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114378606793801651711\">Mark Colston</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcXjgQEF4OthAgBMVXT1eZ7T-cER9rzCbJzG4YTOMuUi6GhGuz9f3rmJK28Y_RoXXoZA5j89kEHyckIaU8D2VWpOj4Ux9aGbcGQXtgF8KJwIdBM91k7wcKYV87R1hGhUtB8CucluuZjm17Vk1kPPAA7L3RjxWGVi76en8--yyTXkYFrcsK1I_PrCWH6miuWxdoaT0y0_AGRliHFKJAIoZd6TE7eV2moBFi55Nz2YcFoOJIcS56YLS12E9Xjahg0xl4MJLXNDJuSK2dCUtNGlyhTWrXNqI1VOjN4fLyq_PqzZ9iM1vZXEBgM-16MdRmQK81zft8Y3zbiZw7eniR7wyJQffbHymZUpseqovxTxd7pHUbW8btSWkTqo5uh3nNblHejOoTQkVX7vMBX8jBY92GYRvs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114378606793801651711\">Mark Colston</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLezBiTZbXQKnVm2sTRtHKF-LkSHD7xJwVX_ggfqxaQrvwFooRi4ktertHLbcdTAnhctjs3LzNu6QUw5Y4bmjlCKVD4-x-Rv5PUknZtWkvPY5uqOq0eWbMro6FcI7iVxQvS1sy8MS9TN1N6heYyOh_qcauySue0Gbi_1tllh7Qj__7eENNk9f5WNBaf3l6Nb1N9J9CylEOiM8XOEibrydFSF-Ykl-wWLQSsyIXa9lUuqTB4iYYG_u4MNoEFF1MwTEK0TpBQ44QBAEOe0a2fbh4689MPIx2BG6Ab_B1H_5V0DWu4wNNjLMOKRiPq3wiktOImbyIQaCg8-QxDp_9d2TACNVF4jE8TV54kuGYYf-AKnulKGcH9DY-BVpmycuy0Yh1LTP2lrcuAgRPo_0ovAzmLnlO5pM5khpO7-VgVutkeP0A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109082885154777712839\">Bernard Neufcourt</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLe4BicA0Y_gumqhH5E1eFCWaD5Y45o54zD47b0NGqqEYi-eXYm9RB_mijl09JRxG7SSX4W9E6TpcLII1wsGTEmE7g0J1WLlx2yFcN8hH51H2GK0X-kAyglv6F0w48meM84rIOR7SGGrTHDc_ThzKmYbVO5nFmqzryE0ZVnBRQKl8WuvHOQEIxkCgNZXHgpUhmRYIoVADC050b8JFhzT-HxPonhHtiT2vDp5p8vWMM-YdRhhq8Q8jGPxmbQS8773Rz63mXM4oravwbKqpZXshnZtBEEhTMEFhujPiC5oIB43m9cbYeWAJwM_VHQKRihe1yL90bOK0ZmDvms63JEKBL0vovbMDOwk06qcPPOy46Cu1Q4hsAgycndpTMpHWwVvN5MnOXM7oR7fYkIUrDS6JirC3Q-r6vc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108843544518679309597\">henk vd kloot</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLedvsvBVdBnXYZxzyH1aq66k-iWd38qiparlCd8SM_rDdh4sw0OFq5RAB2WLgaaruYx6rkvRhTB3h3rip3g1V5m8cPmw552Pliy45wkJc6JkmuhEG3uVUSN3doYsNKwvrcLF_WKSvsX4KRT0hERWO9SXovFA38ui-0DVzK1cLDhbn7DBZCFDqEBUcC-PNmCgnl1ogbdWDEqOz7zgmu3QAibUjIFs7aN0qbXrPtmviIzcpyF8O3LaLHUJ-7J4W-s7NJAYNKoMWYQ3pRJQWQyOJBbQ7mCkWyD2QBRXQYep3c8U6xd2xYR2Ekgy3MnU0-JL9dIWylvRJgwP-8dYJbzV7T4bfeSEohBjraqQwXYR3HITEupA0Qh34f0VWBQ_5jaoTnjP-PURtMTm1ZqfHNfC8_SkqZm9CA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110558376158835548082\">chris schenian</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5875
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune référence ne précise les options sur place ou à emporter, les horaires de commande, les équipements, l’accessibilité, les paiements ou les publics adaptés."
+    ],
+    "rejected": [],
+    "summary": "Le Norzone est référencé comme une friterie à Fretin. Les informations disponibles ne permettent pas de confirmer d’autres caractéristiques."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-norzone",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "frites"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5875,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "26e5bdcddac689f3bd8fcf9ce8643b6071993e6282c424430ca558e047baec8a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

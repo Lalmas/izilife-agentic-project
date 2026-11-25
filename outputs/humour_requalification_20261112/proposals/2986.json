@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2986,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.9,
+    "evidence": [
+      "Le classement existant est « stand-up ».",
+      "La description présente le spectacle humoristique solo de Mélanie Akkari, et les éléments de classement indiquent explicitement qu'il est présenté comme du stand-up."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Aucun élément ne prouve qu'il s'agit d'un one-man-show écrit et mis en scène plutôt que de stand-up."
+      }
+    ]
+  }
+}

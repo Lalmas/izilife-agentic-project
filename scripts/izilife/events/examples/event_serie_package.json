@@ -1,0 +1,29 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "root": {
+    "type": "EVENT_SERIE",
+    "client_ref": "agent2-serie-test",
+    "data": {
+      "name": "Série de test Agent 2",
+      "string_id": "agent2-serie-test-2027",
+      "event_category_ref": "spectacle"
+    }
+  },
+  "publication": {"activate": false},
+  "events": [
+    {
+      "client_ref": "agent2-serie-edition-1",
+      "relation": "ROOT_EDITION",
+      "update_mode": "ENRICH",
+      "data": {
+        "title": "Série de test Agent 2 — édition 1",
+        "description": "Première édition transactionnelle de contrôle.",
+        "event_category_ref": "spectacle",
+        "start_date": "2027-10-02",
+        "end_date": "2027-10-02",
+        "city_ref": "lille"
+      }
+    }
+  ]
+}

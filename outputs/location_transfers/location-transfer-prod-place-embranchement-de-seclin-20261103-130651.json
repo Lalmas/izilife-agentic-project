@@ -1,0 +1,64 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "63c2c026ef358eadb81364a30a688bef7359efffe7bd497136374d6d5b3e97fc",
+    "source": {
+      "id": 587,
+      "type": "PLACE",
+      "ref": "embranchement-de-seclin",
+      "name": "Fiche purgée vers PLACE canal-de-seclin : Embranchement de Seclin",
+      "is_active": 0,
+      "listable": 0
+    },
+    "destination": {
+      "id": 41,
+      "type": "PLACE",
+      "ref": "canal-de-seclin",
+      "name": "Canal de Seclin",
+      "is_active": 1,
+      "listable": 1
+    },
+    "actions": [],
+    "blockers": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 4,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "embranchement-de-seclin",
+      "source_id": 587,
+      "source_updated_at": null,
+      "source_fingerprint": "2b9a685a319a9c1cc99d421067bc2985c298b32a2b97ffc44cbec83a7ec55dee",
+      "destination_type": "PLACE",
+      "destination_ref": "canal-de-seclin",
+      "destination_mode": "EXISTING",
+      "destination_id": 41,
+      "destination_updated_at": null,
+      "destination_fingerprint": "ba1b8b11b904751bb03f13a37cf1773a08ef175ce945e240cdb4ac4477ac2b35",
+      "destination_name": "",
+      "destination_category_ref": "canal",
+      "destination_category_id": 45,
+      "activate_destination": false,
+      "actions": [],
+      "blockers": [
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 4,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

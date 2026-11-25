@@ -1,0 +1,195 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« L’ambiance est festive »"
+      },
+      {
+        "string_id": "bien-en-solo",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« je me sens super tranquille d’y aller seule »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« tout le monde peut participer au billard fléchettes et babyfoot »"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« billard, fléchettes et babyfoot »"
+      },
+      {
+        "string_id": "diffusion-sport",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« regarder un match du RC Lens »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« simplement pour boire un verre »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« au Skål Bar […] pour boire un verre et papoter »"
+      },
+      {
+        "string_id": "parfait-week-end",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« vendredi […] 16:00 – 01:00 » et « samedi […] 10:00 – 01:00 »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« avec les autres clients, de passage ou habitués »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« tout le monde peut participer au billard fléchettes et babyfoot »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« L’ambiance est festive, familiale et bienveillante »"
+      },
+      {
+        "field": "adapted_for_alone",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« je me sens super tranquille d’y aller seule »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons été très bien accueillis »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« simplement pour boire un verre »"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« L’ambiance est festive »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "billard",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« faire une partie de billard »"
+        },
+        {
+          "string_id": "flechettes",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« de fléchettes »"
+        },
+        {
+          "string_id": "karaoke",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« se lancer dans un karaoké »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« simplement pour boire un verre »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "baby-foot",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« babyfoot »"
+        },
+        {
+          "string_id": "billard",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« billard »"
+        },
+        {
+          "string_id": "flechettes",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« fléchettes »"
+        },
+        {
+          "string_id": "diffusion-sportives",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« regarder un match du RC Lens »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« on passe la soirée »"
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi […] 16:00 – 01:00 » et « samedi […] 10:00 – 01:00 »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "verre-entre-amis",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« boire un verre et papoter […] avec les autres gens »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas l’offre alimentaire, les modalités d’emporter, l’accessibilité, les moyens de paiement ni les méthodes de commande."
+    ],
+    "summary": "Bar convivial et festif, apprécié pour les soirées, les jeux (billard, fléchettes, baby-foot), le karaoké et la retransmission de matchs. Les avis le décrivent comme familial et accueillant aussi pour une visite en solo."
+  },
+  "meta": {
+    "cache_key": "f5fa35cb2701a13e88059d6896b952c58a7357e54482a6b18365caf3041d16c8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

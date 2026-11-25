@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3251,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "La description présente un spectacle humoristique de Florence Mendez.",
+      "Le spectacle est annoncé comme solo, mais le stand-up n'est pas explicitement mentionné."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La source ne précise pas si le spectacle relève du stand-up ou d'une autre forme d'humour."
+      }
+    ]
+  }
+}

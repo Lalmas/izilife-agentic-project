@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3242,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.83,
+    "evidence": [
+      "La description présente explicitement un spectacle raconté avec humour et autodérision.",
+      "Aucun plateau ni programmation réunissant plusieurs humoristes n'est indiqué."
+    ],
+    "doubts": [
+      {
+        "field": "event_category",
+        "reason": "La forme stand-up n'est pas explicitement annoncée et le texte ne précise pas que le spectacle est écrit et mis en scène comme un one-man-show."
+      }
+    ]
+  }
+}

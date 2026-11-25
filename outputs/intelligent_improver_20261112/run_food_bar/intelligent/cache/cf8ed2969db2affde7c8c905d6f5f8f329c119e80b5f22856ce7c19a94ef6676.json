@@ -1,0 +1,54 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« prendre des croissants »"
+        },
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pains au chocolat »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« ce magnifique et délicieux gâteau »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Je suis passé ce matin »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie à Phalempin proposant notamment croissants, pains au chocolat et gâteaux. Un avis mentionne de bonnes viennoiseries et un bon accueil."
+  },
+  "meta": {
+    "cache_key": "cf8ed2969db2affde7c8c905d6f5f8f329c119e80b5f22856ce7c19a94ef6676",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

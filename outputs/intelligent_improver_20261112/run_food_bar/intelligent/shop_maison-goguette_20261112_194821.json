@@ -1,0 +1,611 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:48:21",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "maison-goguette",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "maison-goguette",
+    "status": "found",
+    "data": {
+      "id": "5655",
+      "name": "Maison Goguette",
+      "shop_string_id": "maison-goguette",
+      "unique_id": "8741154a5a63aa9d78b96c3e09b1f600",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54915",
+      "principal_cover": "54915",
+      "qr_code": null,
+      "phone_number": "+33613376650",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "17 Rue de la Reine",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1260977",
+      "latitude": "50.5376615",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:32:17",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:32:17",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJGWYWSVHRwkcR5kwpNxOxsOA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJGWYWSVHRwkcR5kwpNxOxsOA\",\"rating\":4.6,\"user_rating_count\":81,\"google_maps_uri\":\"https://maps.google.com/?cid=16190635356484881638\",\"fetched_at\":\"2026-11-12T19:48:10+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Une adresse qui mérite à être connue. La patrone Vanessa ainsi que son équipe sont des amours ultra pro et serviable (attention à Nico).\\nBref vous pouvez vous y rendre les yeux fermés !!\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T21:25:22+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Antoine Bulte\",\"uri\":\"https://www.google.com/maps/contrib/100747029226904522794/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVg___l159K6VwRU0Dng0Lnc2UX9jR1vsmtex5NBmV9oa5JKpSI=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le QG que l’on attendait dans le PEVELE ! Équipe au top ! Je recommande !\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T21:22:23+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Lucas Ansart\",\"uri\":\"https://www.google.com/maps/contrib/101171449578523829971/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIwaPYC_0Nr04oTOi41nAW_gEq4oUBj3wwTJNcVK01vEsxVhg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Encore un bon moment chez maison goguette\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T22:05:14+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Rémi Maniez\",\"uri\":\"https://www.google.com/maps/contrib/100727253663978679334/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIgpzveKu_fS6dmRHfMMVmKHe0J0rAY69dtrLSkDJw-QeIKcQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Notre nouveau spot...the place to be\",\"language_code\":\"\",\"publish_time\":\"2026-10-25T19:31:25+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Jeremy\",\"uri\":\"https://www.google.com/maps/contrib/114013214053056003673/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKerDTv8cS_zHjPKG0DK07LsReC18CP6uKNhbuoQTDSH88KPA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon resto, je recommande fortement.\\nAccueil très chaleureux.\\nPaul et Camille.\",\"language_code\":\"\",\"publish_time\":\"2026-10-11T19:45:11+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Paul Watteel\",\"uri\":\"https://www.google.com/maps/contrib/108350391221584472174/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKY-g6MV58EqdyHQjd9LF7RALoOvW4vscDVeDgtMEsDlvg_O0E=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:48:10",
+      "google_reviews_place_id": "ChIJGWYWSVHRwkcR5kwpNxOxsOA",
+      "source_id": 5655,
+      "scope_type": "SHOP",
+      "scope_ref": "maison-goguette",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "maison-goguette"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54915",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5655_6af39b71dfc81.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4717",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32754",
+            "source_hourly_id": "4717",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32755",
+            "source_hourly_id": "4717",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32756",
+            "source_hourly_id": "4717",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32757",
+            "source_hourly_id": "4717",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32758",
+            "source_hourly_id": "4717",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32759",
+            "source_hourly_id": "4717",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32760",
+            "source_hourly_id": "4717",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "maison-goguette",
+      "google_place_id": "ChIJGWYWSVHRwkcR5kwpNxOxsOA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00, 19:00 – 23:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 23:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 00:00",
+          "vendredi: 12:00 – 14:30, 18:30 – 00:00",
+          "samedi: 12:00 – 14:30, 18:30 – 00:00",
+          "dimanche: 12:00 – 14:00, 16:30 – 22:30"
+        ],
+        "photos": [
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLdTsTjc-oAdLiRb2oos-Il7ObX3EZiU-4JJH2SKSXHroGJIbEG07q1MbTqnit7eVz3grtTx5UDR2B47Bc7BHr3w_jvPtjuW-Myk6YwZ0--8a4N_n8dreU3KFbBoBAECf15_4d8q7emyYMUbbxrtfTYrAxpYp8AdEhb6S9e5adEXV1Kbn4pxbpI0bEOPEU2bct0akh6MvfaOkkZxF9XJBL_70AaS3En2b0EsEyvwD0S-Cg4unIfncFyokw8OCdOIU_M-95vVDvl3XzCYVbmPYu0cYIwu72drklW8-kVM-qyx_q-xGVFeon7fAhunhhoj3cWP95dRWc3XGj0RBBRGcFIl9Ui50R_8PuOQL9gIYvmt1jPyXUQeSGd-ocYNKB4XIcjCDz3s0JJsoo3KTX08-CISX-JotPBWE_5PeqZW54fE2g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfQt2pf88QjEXnnSO82D3DaHQnlOeOOsiXZpTwz6_jA_-e-4UjD-8FHxA1s_4XzNnEO7o30YemollvBmBdfb4MvWFZHMACbac0t38oXF3Fh-yZPjByPXTCN_sGeGMeK6oBSh2MZnMGJFhE22Y8XgXYOKn5jEWJInBjKudUsP6lj3-Rn-Q-FoQpEjtNP2W5wfY0E_aRJvYSiEruv96PpwFe86zv5W9JldvEOoXYvuX1qJREq_N5PX7gCu97Gv_ca4gGnqnc0bjhKi1-6WxhZDpVViw-yZwMoJQK5d9u5X-7lG7RUFejmAxDvO5Gl36rwxXRABSrRcRKypc4yK1NNq7iW5vFyv2kJA6kkehTo-OtD-82Kl3N9RdhC-bOcjNDxOre-33XRee1D5bm8fEAe6R15Wy8lEVjzTglqMm_SYbZwxw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLcpkxxExdgUOIeM_gSW336T3qHKjkYFHryidQTZ2xZNoHfM_2HxlWdPG4NY4oeDx1lrnQQ1cJiEM5vIKHprL3bNWWGgbktCMQBFMCMP8x1ImcO1ZCVF1Z2P6y6lXLBEhUXbOYNLM70cJNPhMHrvt70VCPMdYHe-OtmFkCfkvKNjga76Abvg3cBvCblIB5W452sh7GEiLvelI5dTH5jUQzpCPdrvQ9vBwheGaXOLiDZhLCxFdMgHcrsIFnw8mMTQeVELtoJw5nk0NcwBJXwCA0pVInlJzjiAlKnJlJpMdY-fTIKJoni-VOu3mX0CSuo6jcF1iMdhD1ScDdBYgbUgrfXjZw0INHJLGoSmjdumm5-3J-lXwUa4dJc7Ltc-Rmx-a2x30Li8rnj_wk-e6lAA_5MLEk57al-tb65VzMmrbdHhqg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109241805138800351508\">Julie Maksymowicz</a>"
+            ]
+          },
+          {
+            "width": 1058,
+            "height": 806,
+            "photo_reference": "AV-0GLc_DBBmHagh1IUaFXqFAV_1sCYac_5yCpvP19Dw19tCHiK4cjIX-MSRE4vxR3s0QMnx_H0hsZabNdAIeUrZquLVOugfpo5AQUuSPfEI77rg_hXWx4Nccc2Z5jgMnPwW5Fg9lIw9PZ--rQOU_Zb6O4HreiNssn2_8Hnt-FDQMeSnjuPnzLWDFd7LZAES-ByDsRNRxLE6qSGJXMBRDlUZ9POjjbnGjOkU-rycns-ipwJ19AOcQv3kyDICjo8wt_8IntFJ8Ok8Id_yCSyTJ10v35DWnIL06Fp26GCYa2SVI0aepiqtUEFXEDjiKakAtgkA3eWAOroWgcwdSIQ7u8CdgCfadi93XJqjtOTROWuQef4kBQCSm2MCpEV27uaUkfziF-IyLP7posg3QcJvOZOs9ZhWhZTOT8_bjkrc_4Tz43SS",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLfcLwm_v5LSk2our4LjpLN5jyCQ6O-yoFRcubZipK87GuLxeHcnk6mhWUrJAmffvGsP9V4Nd5MZ0QdoQ9-ShT1ZA4EddMu6o_hcrXgpXqeX83xUcr9HPqld5VbKftHbv0Tj72Xl7-kZhOYle5qE42NCMvRLk7qeTwjans0tOeVTXc7mFfZW34i5vCq_1JXCuhIIDubKQrTrOgF_KgZaPQERidGJBkn3U2GtmMXAlsux4_xqRV-ZJwmGlS-rf_3OdNKTtVbtDFqv4Xv__VX1NNnwrtzwIOPhXPBSD20HilesQ3CcHXu9oofzXy7WaSkC_XermxVDmenvr7bXKYII6KBdgaZmp_CVfKDVl09PrtNzHih0fqjVsop1d3zEC5lmh1tpIAeyYNhuwcdW9TLdy_VC1hT9sulsqsM9NDrXEE2C",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 1073,
+            "height": 789,
+            "photo_reference": "AV-0GLfAw7yIafrc6cGAY-xXqI7pC7pREVAlytGy12aCLKIzZ5N1hA3hD1RZCrOruoYAAJyZqk4ySY2jZ-UcdUB1mGDDiPvl7YJjytIXkOVaK6JUE9Pmvl__qTo7kx07dToK3QYZPBbqJC46imml2FNn3-HGVNbmhzmV_0WBdwfuuV4oBHIZp7zPiM1oNQ8o9b1EhKF-MFi6nsx8GGq2HgSHuVsyY37QnEbhHqppP4RgpowSqXfMSF0_8RGafvZnoqJ8n-wHuEtk4-sgIrQe2SyBVr9uV2mwyhIYOvwdJ3rydGxq2FYXDqiHxIL90A0FrFig-vTpNsuPRm86dN6bTsKApqnS-lHpZljyRcN3uKwcutr36C9jc9Ouk0cBgnpe3zI3eDxIZv77aW_vuFsnsgT3HRyKY8u7ETXO4wCfryry4TxxJg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdc6OuppO4w1Ss5o_oSC5v02qB7I1ZK3fC9_aufY2BtzC0BFBfRdfCqKVyNfNAVv7uO6F3Z-RsCkNQY2DD5nv1TNe8qz3W1TkPPb1Rrti7mOchCd4CKU9L3NClsmMuCER2vRUXffVqemXrJkO1RlhCln3wTylRP0tvGwHCzSAb05DHZqFa4K33Yh52DHxwuZ0qqq05ApP8ALQXwrEw1CJzoiSfPwaqGSAuIIn-CdvuRyj79GuZuxQ2i7SmcUN95_r51BZAopliXprZNZeKTGyrFcGyWI7BPEmG111BvQkxkrrUCHjE2PeOsxJf2iYZ28jYrDICdwYVqnEJtZ8d2av7tiY7aNaYYF07ua3z5h3TTDbtVHIKp4LVArIeHeqEWjEuhgeqh1praGQ_EG0gLlf9iImMF9XEnio8ECH9zxy3F",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd3eIfm0C40zrMdmsWvuaQ_ZB25cMEqBM6RajT4zCiF9DBFnUDvE10Nz4rnXOsa0sYKCDcIRjEo1y33spT0pMJU7VfwqoKjdVa6VC9K9X9Eb9AO81YReHWfA9fLVb0w5JMvEKaXOJINVdPg9-aBum4Zzsw-6yJxcJfx_kqAw1R_4KiZrWlV_R1eQ85VOFH3vPON--5eOJBUE5YhsFLiFLnE_3vj7T1_gKJxU5sbl9zvTc9vvgAv8_xV__w1iUTP-7gQZXHbxtJ7bBwgGLYj7MI5PjmMscvFksR2uJVva9PaCpOAT_WVgkY1W76jWI9LpEJpmhAG7ANI6-v_68FxC0pVonnqoxp_kdZusy9bLoIjosSEVb-4W3Jo5ITC5jELqg7HEyinbiZoKSeGX46CkH-xbz8JvCSvR8c3TRfgE-3CYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfjKEIi-QMdFvVjJw97gbxy2VS0ecp-l5EwPgevJpPM9Q90voQi5z1zCuIiqYz7HCZx7cC5UYYo-ULG6aKpCW43WQaedtRnbonU4yb5o377Oqr-veYiEbziW0JcaTIwn_GGH8DR4_pl-EoAlf1_6rsXzYhaIg8TozcOsiUbm-ph0g8wiYnLvYOaS-6XsEsyUHcl43UEUZSjtszWK4YAsQKOR7WLVGZuPBw80erchZsr8HMeT2o03C2cIxUDCl1aDuXEGlobyAT-GiN6cBFMBWv4cSLByp2DUPX1DFrMBRTmlPR5ajZh9NWvjRJgDyUAK8AtA__SprvKV0VkWXLzmHan-yo8_E-KVYKU3F6NN4737cF9T0Lfw153YDizDVR1BdpQvCWcUTMCnUd8gS6MvU_aPsRQdMkyV0OkPivb5cHGhA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114565915131030273181\">Johann Bausiere</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd3hHgturvASoR9LHOHk1WCyCPTYkODV5UndEBZybsrK4dXcNkf7WzHVWoVHRr1JnpSe0lDGx5Rlj5jkwu039Q4zcmeAWMNe41LNj9yikPpa1Ak3kaxlDt3K7yC8PpzgQeSq9Nf1c-tT9M4ISq7sQE7tt07WMjiXSJmS1iRqF5uZ4A_ZAunmh-cKl7avsb4HSjW8WXl12ZVJb3VgLxhxAiGeWsyJ5bCl9W8dd5kGn08wShUDT0g8-i1snb642Qvm4AQVz-RxG6yy1JYP5ioH3-xlG0KovpljnnpCfGhf6tFsIUYr1Ypm76BbwAkDFO2b_wbElkxpgye7ssPZXUmMa_sFkPcw9Nq_TVGdn7zl5ZcDMA1ai87cA50kkfOWbbu5XR4Ilnz0x31Z5YeTuffL4caCo2AKOYqR8f8cQzAz_SMIg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104078407231623654811\">Maison Goguette</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5655
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une adresse qui mérite à être connue. La patrone Vanessa ainsi que son équipe sont des amours ultra pro et serviable (attention à Nico).\nBref vous pouvez vous y rendre les yeux fermés !!",
+            "language_code": "",
+            "publish_time": "2026-11-08T21:25:22+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Antoine Bulte",
+              "uri": "https://www.google.com/maps/contrib/100747029226904522794/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVg___l159K6VwRU0Dng0Lnc2UX9jR1vsmtex5NBmV9oa5JKpSI=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le QG que l’on attendait dans le PEVELE ! Équipe au top ! Je recommande !",
+            "language_code": "",
+            "publish_time": "2026-11-08T21:22:23+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Lucas Ansart",
+              "uri": "https://www.google.com/maps/contrib/101171449578523829971/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIwaPYC_0Nr04oTOi41nAW_gEq4oUBj3wwTJNcVK01vEsxVhg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Encore un bon moment chez maison goguette",
+            "language_code": "",
+            "publish_time": "2026-11-05T22:05:14+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Rémi Maniez",
+              "uri": "https://www.google.com/maps/contrib/100727253663978679334/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIgpzveKu_fS6dmRHfMMVmKHe0J0rAY69dtrLSkDJw-QeIKcQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Notre nouveau spot...the place to be",
+            "language_code": "",
+            "publish_time": "2026-10-25T19:31:25+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Jeremy",
+              "uri": "https://www.google.com/maps/contrib/114013214053056003673/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKerDTv8cS_zHjPKG0DK07LsReC18CP6uKNhbuoQTDSH88KPA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon resto, je recommande fortement.\nAccueil très chaleureux.\nPaul et Camille.",
+            "language_code": "",
+            "publish_time": "2026-10-11T19:45:11+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Paul Watteel",
+              "uri": "https://www.google.com/maps/contrib/108350391221584472174/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKY-g6MV58EqdyHQjd9LF7RALoOvW4vscDVeDgtMEsDlvg_O0E=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 81
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1144,
+        "bo": 106,
+        "front": 1038,
+        "estimated_cost_eur": 3.5999999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Très bon resto » ; « chez maison goguette »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Très bon resto » ; horaires proposés le midi et le soir."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Très bon resto »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Accueil très chaleureux. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Avis de restaurant ; horaires du mardi au dimanche dès 12:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Avis de restaurant ; horaires du mardi au samedi en soirée."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Maison Goguette est référencée comme bar et décrite comme un restaurant par un avis. Les horaires comprennent des services le midi et le soir, et les avis soulignent l’accueil chaleureux."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "maison-goguette",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5655,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "38e4c33fc5b1653c62a5d2ab9dcbabfa3fac97665f73dac0a338a585cc670afe",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

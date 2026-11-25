@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place, l’emporter, les menus, l’accessibilité, les équipements ou les moyens de paiement.",
+      "Aucun avis disponible dans les données fournies."
+    ],
+    "summary": "Friterie à Loos-en-Gohelle, au 4 Place de la République. Les horaires indiquent des ouvertures le midi et en soirée du mardi au samedi, ainsi que le dimanche soir."
+  },
+  "meta": {
+    "cache_key": "8f0f91eda819f2e6dddb589c211198c5c7841c54c9379cf94536c5fb3d632a35",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

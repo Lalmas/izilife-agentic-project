@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« beaucoup de bonbons et de pâtisserie excellent »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas la consommation sur place, les options à emporter, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Boulangerie à Loos proposant du pain et des pâtisseries, salués dans un avis client. Les autres services et caractéristiques ne sont pas documentés."
+  },
+  "meta": {
+    "cache_key": "46ca8fd944291f2df0ae24d682c15bce0224bb31b0b328b53d497d1c1249e7ae",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

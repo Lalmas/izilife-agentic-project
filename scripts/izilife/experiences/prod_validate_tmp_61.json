@@ -1,0 +1,85 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:17.113804",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 61,
+      "title": "Running Together — Expats in Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.facebook.com/groups/1257473872756460/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "en",
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "running",
+            "rencontrer"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "cosmopolite",
+                "confidence": 0.9,
+                "evidence": "communauté internationale lilloise"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Sorties de course décontractées de la communauté internationale lilloise."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Sorties de course décontractées de la communauté internationale lilloise."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://scontent-cdg6-1.xx.fbcdn.net/v/t39.30808-6/564123469_10235563168112782_2325166221975389564_n.jpg?stp=dst-jpg_tt6&cstp=mx640x960&ctp=p600x600&_nc_cat=106&ccb=1-7&_nc_sid=0b1479&_nc_ohc=KgKpYuQwkaQQ7kNvwE14L9I&_nc_oc=AdrE-iP879_lAzJJZmuVe0qF9brhBGF3BSSIlXwkexw5vMyw78EQnXK_YSvImPgOg6U&_nc_zt=23&_nc_ht=scontent-cdg6-1.xx&_nc_gid=2ernuvXmtVI2sacphVpq1w&_nc_ss=7b20f&oh=00_AQSIwl_lemza4VgkkMzru3j6ETM5qk5cJr22L3FPJHisdg&oe=6AF64DC0",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 61,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 103,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:22.339274"
+}

@@ -1,0 +1,72 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:04.332447",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 59,
+      "title": "Lille Running Bootcamp",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.facebook.com/groups/813428795501315/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "session_configuration": null,
+          "session_contents": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Rendez-vous collectif course et renforcement annoncé le mardi vers 19 h 50 près du Petit Paradis à la Citadelle."
+              },
+              {
+                "string_id": "petit-budget",
+                "confidence": 0.9,
+                "evidence": "Libre & Gratuit"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "is_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://scontent-cdg4-3.xx.fbcdn.net/v/t39.30808-6/884830204_122328886184025136_6731437192212130047_n.avif?stp=dst-jpg_tt6&cstp=mx750x419&ctp=s750x419&_nc_cat=111&ccb=1-7&_nc_sid=0b1479&_nc_ohc=IffsRQEMCQcQ7kNvwFYU1kj&_nc_oc=AdrCW7sYZlh77g0HBGnFxxair6ckLyzpHA7JpPB0mrpUI7TAyoV_yZpKuwaXgo2-V7Y&_nc_zt=23&_nc_ht=scontent-cdg4-3.xx&_nc_gid=bvMG1kBDfWoTG4GRBX01bQ&_nc_ss=7b20f&oh=00_AQRGZnSiX2nx6TTfJaKAMHXBnMHdjJLbECY1Ekb9IDmMdQ&oe=6AF66107",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 59,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 101,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:09.980713"
+}

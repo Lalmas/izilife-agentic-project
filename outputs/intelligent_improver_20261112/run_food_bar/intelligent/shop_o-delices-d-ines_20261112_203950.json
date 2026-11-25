@@ -1,0 +1,506 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:39:50",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-delices-d-ines",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "o-delices-d-ines",
+    "status": "found",
+    "data": {
+      "id": "5902",
+      "name": "O délices d'Ines",
+      "shop_string_id": "o-delices-d-ines",
+      "unique_id": "aa43a8558c5098f49bd46c6d95160a83",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55157",
+      "principal_cover": "55157",
+      "qr_code": null,
+      "phone_number": "+33321371809",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "18 Place Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "62220",
+      "city_id": "867",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9568768",
+      "latitude": "50.4934123",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:07:32",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:07:32",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJzZbscLgt3UcR0xUBqyawd1s",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5902,
+      "scope_type": "SHOP",
+      "scope_ref": "o-delices-d-ines",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carvin",
+      "string_id": "o-delices-d-ines"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55157",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5902_6af3a3b458462.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4961",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34462",
+            "source_hourly_id": "4961",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34463",
+            "source_hourly_id": "4961",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34464",
+            "source_hourly_id": "4961",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34465",
+            "source_hourly_id": "4961",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34466",
+            "source_hourly_id": "4961",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34467",
+            "source_hourly_id": "4961",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34468",
+            "source_hourly_id": "4961",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "o-delices-d-ines",
+      "google_place_id": "ChIJzZbscLgt3UcR0xUBqyawd1s",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:00",
+          "mardi: 11:45 – 14:00",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00",
+          "vendredi: 11:45 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 1535,
+            "photo_reference": "AV-0GLcDEx3y0nwWPTFA_K2wROGYeI3sbY2CtCdCg6W9AafxhdWiHNPfcU6FZEMDVaeEkr37TJS5UcroaCPVYZOdcHiTZSWkrJMV722vMw6MOUUaqmymxF1Z86U1dis3Vhkm4ukO1P56weZdlTxHxdSgvUGAXkDZFfmanzpG_sEd2Msmjpx-eKiNBTxw5IMUi6bM1MhDO29yLDhmct9CqUT_KhaJYGN9H-kASQB_2PhHnpHE74dkrDUvJoZ9AQouyuIJmubZ-k2ueFTh4Z8tylxJmZtJLi8vlrCPl8WhPlCcMIVUxgfNallEmiXBu59pavsVP-yx1MBO9pxMGnsTHbrAnyO6ixHe7PfkqSp222_KnzrULrQo46qN-xoR2eXOwLePAxu3SXaii4JgV4ZuaVyld-xoKeLTCi0HhKfqhUG8GLuBYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103312288036224977882\">O délices d&#39;Ines</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfZtrJFIszXHS2d3kzGug5kvNjbOum0yCH4Nc8i2pK7U3Aq_BG99j4jOAuHMzLgMOk0qZ-Uiy4Bp-XN8Yl0BcdL4s5wZpxdZEpMkxIEBIieKH6syHyFqHpBkx_MfMLF5xgecyhHCmQMEEIaoV_5SBZJBQJ54zC3MI0XaxNX4xEY2UbNYmWacv85Ge0B8NWyLsl6aSBWILtYnDHFTC18C2JYJEWWgPHU9pUtSfo4AoRlt28vXlJdXCZKSDyfumB6taDA1qjycKMy5NjGsuOx21yPObLAdhOBnaew0KzamFD9B4aoQFY_nq_6JLf9fNN3OQ3ie5WbvqT-mwkmcL8Vz_4hf8GHbVjs4AXUZlQKrFZ-8-IEc_EKPtYFIFpWlK_zQfECfyKA2tx8vadwc52tydMTO6Wc7H75mEDya8dQM10mBQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103312288036224977882\">O délices d&#39;Ines</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeGjPt1-XO3-2RFZ2E5uHwa6rEzja7_5Cb5RgeORhYKsxZzJ33mpejh-NBEf2e6fbWu4cUP9MXsYcRTPbkar5JZyedMXQynVFV3az5aOFvOgWiW4QMUYqM66t_jUtFiA0aWHCNs_MxoaN0I9CFMpzdKs5UbDOCkKr5H_4-R9cUJlhbZ91HRKbiaCHDBV69K7hWa986dK--9BqO5FMKN2OYlwcesskd8eJgQgPhUuW2G4RxxqDGfskXKD2HSj6yKNqPYZRjKvEMKoW9_tTSknwZt9pEDbYHAktNXrjGy1-vd0q7fHt9g3NPOkvuBhNzqZf7ZgdcuNZhnDFj_TSmcqDTbWEbWWbylE1aRvU6C1VIvkHoye3YoVXffh3ToU8dVFTF0BrtNgsIgbg-F4KAdFHJ2mDZ2Ds7OsxsLbkTW2z5lzA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103312288036224977882\">O délices d&#39;Ines</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcB5ZGq1xT75qNa2HYJ40SItwMjDt4lQC-W3_Qe31wQgcEZ3V3lPJppD4vyZ2l_kdae60iyMGeA09x3WvI2-s--i_LDC7hHxZIcYxI9SA6usgIaFPA5F9zuCCb8hcQ-4hnET46jmPUVCwcE2yY1TOevxmc1wOK7spGwglmbLZFGWL_NyGN5Lnb1A5FfIMDXb9-S50MWGBD5x7SgxtEignzeTka1b2OOxCeZlxr-t2_TOvwqsxESwk91B5IluM-FZbLLRPPlIflyGM-3Nf6RYn8Sjw5bMKUPnhGCVAuBTN7SLHMq9UkAW0yGf-At7pZYjTZHtoZuUuchILyx4HU-J4zI5XEio1Aho6uzghSYq-8vVbL-mWT-vn3rvowuj7bnN31K2Ors_cIlcpKXMXmVVFJPaMbEyOEfTTuOnENgoQRdFw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103312288036224977882\">O délices d&#39;Ines</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 440,
+            "photo_reference": "AV-0GLfeh5DorG0xaCGny_Wi56oeAgDITPcdnORVHzG4HrWBi0Do9w3LTWiBEoHgpNWbSlCKn8L9h70TdN7pj6kUu6-yua5FtpA6J39Jxj4LurLeXnWa81E1SPauxJ2_b-V3TYp9K9qCXz93ePHO57GVuxHjVg7oDW3G5YIVhKxLK0gf8LiMa93mt9ixlMvc6UIr3CjchF4dAxRXfaHigT9DUT6irS06Sx-MbevGp9p2H47tFDDX9gWi4A5zOf94feFa8SLioU4qweg31lMKODLfXhT2SfOJypZXW3icY2lBxkMtHk6uMBXi01WXpdonPH4ESkPHP0ooijs5_GF3NB2RstVj_yvOBGE1GqdLOKsF-cjoxusecbfS13J8rgXiO1aaPbKxaAfqAOgLm0DU7YFcEfjFEWo6jke9uW7M25XgiR0d",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 1021,
+            "photo_reference": "AV-0GLfMMBR1_uuK7ZbCMBWW0lMQlvEbvOUbCDrRrn9ZaSzTbsSZMM1EjXUx4fzo-pVSTKQ6cmXCbz_YYe2malAmZ34shpXbgj1xoNH_zu5oaOQku2EuQURIn6LPq2WoFZX0WsWOb71HQH7Nj8S4wZNYvjLv1x7h8oVnb1Qe3u1bnMTaOBq7nIw2yQJJh1y4xkhrb3U_UYLSw7-CyHZHIfFSPQhNswzWfnLt8u1NfSuxS8dGbdsC0dCr7fc6vRNg1i7U7Y5KdCuWPi9VkIlUBM9yPUr0LUSKUbGqu9zD--1JDOcDO1_eV5oj4lNZ8rO7jqlHnV6CSfA7CoMs_bxz4xVlx5Wxhfc5gNtpkH-L1D5qsuGuVuBZkc81qyhsgwoQBYH2scAltgxOB4oWIYWvDUZZAPj9bHgqYTsSX6W2Zh28bULY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 554,
+            "photo_reference": "AV-0GLesegNal7YRghkkWcq1A8GhOJE0TOQ_nSMrktAcfPurdcqNVmdQBVGjQR6s0k7wEPNCEXkhx4KuQkFdPCGc24qzjiGQv5r3VT-ycmgrHEaJTt7XVBpAOVKBUwVHB6tw0peSdYJ9vvQmWBY54Yoh24k0hvTLBsLahkmZV608VrlOMImTlwfYqmJA8Vwq2rYn7DfqEWT9By8u0F3YRXi3b5_sIJWKQ36pz263zYMgCsOD-YMHM707ptjrJRttDafo13LRIIzFd_XQ0ol_MaQhDORijy-0AsfZdFLui598KuB0mV9d-TKfNZxnSbhGhXqpxvHKnCSBepp1cMxn-mM9EprqaS85zBBERqyXE5BwAHxgrF-27DtLl5k1Cyb_EuTeEVrZ5_m06_QJfJ7jQWHxPsrVroUj6q0rUgM8MhIAU1m15g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 813,
+            "photo_reference": "AV-0GLfJUvgq2acxi0NktWwDCrk8PtOo8l9oRifJNjQUHWdGSUhXmMAy0vJ0Po2GFDDogBld3ObsGOEFFkJfGV_pb6fBciDWkhiX-JR-2xAVZqReVCgAOg-Pe1sxLITfR7eWaI8tkj1g-ZtKJ7jYHqbAFtnOi7BHYmvz1W6dbtlrtrQZyZSBMJWd8u-5a9njhJt67o_UqVVnWnks-KX7v2QLRLfguAFDiwjMi-ArFHqebYFuTHEAtLjRjhHGP8dYcsmN13jpZl5pO5HaDCVLz_culIIAhw9jk_1gyGXxKh6UG6vdmxeszJuZI4xUe55jNEKoWn5sQ3fei0im4451BHExIAdsAptHlUyxJji0NORXihFK-4tuYFXu6PUHm6YMAYB0G9vaGAv8LusDn7QioS5LZw8VcZ281yPSk5iirksfM7mbcg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 836,
+            "photo_reference": "AV-0GLfOiWa44GZsvSb1l7XxHWsI1T2hzwSyKDQgsabuwwz3njGJT3Ie6BZ2KGEeWxE6eIwRNYw3QTKtPhGuKqzjkZJyIk995zCWe8BcM6sqv0aH29oQDu414ayL4WS1Gpd7RRTmg7wrxAipKo2dCogqMtaHfYJDF4Q9hikO5QgoNx3qu2tud8PGeBCc0zIf27ONXtUDFi5BcWsf86B2KAtEJj4wEQK_o5m0KydFeur3pZgPkHbxEGO8Diwjy79zhws10oMoahH2uRk4FXF9EmVTInWUbnihGrZQtpusqLurAgMmmMZPpSriTlvTVGsb29gr5K1bLjtKwRkkmqKfhu0-K6GFI37cpdlqa9lIMPPl4gdqW0rPm89DOoM7yuGsixC2OJk9qIm_hplJ0BKQeaGmgYa9c3JMWmUB11_7CnowIOWI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          },
+          {
+            "width": 704,
+            "height": 834,
+            "photo_reference": "AV-0GLc9xDRoQpBqVRIh0GDwh75VwZwPnmtlA7Q0-XzoCDnXcbKRvfGX3xW5FqM5tTSjq0LEY4ozDOCagIka0OT2FL04zzEvbELX5nxm4mwkAlGaZLmlT3zexalNMjplPqm56FJXLj2fOAKhAMaTi4BP5fRl19idGLH3vLV72K61_nhMZyilLB3b_e4a-xXKng_2gPZEo-zuuobnUEXFThiK89P_NgsOFGSejaJWBsQtNZ3bKOkm1-G3z60YbVDtvtmo-JLUgf5sYNChkIq0WPcwYOcru9DnsG3FRDNio36OCFRcusxLpaVHa0Zj0sciOAZpAoPFjRy6XGbKiCAV1mf53uS55iDXjHKlxdDv_K-Uyuq0N6wL0Pa3qyTrLWh1SDkfoDng8zNK2RgJmxycW-AWXNc2orRi7r3uTYF4FWJHKF77_w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101250894073778033695\">Chloé Fernandes Fernandes</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5902
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 14:00, 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas le menu, les services, l’accessibilité, les équipements, les moyens de paiement ni les publics accueillis."
+    ],
+    "rejected": [],
+    "summary": "Restaurant à Carvin, ouvert sur des créneaux de déjeuner en semaine et de dîner le vendredi et le samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-delices-d-ines",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5902,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "18fb1fc711cfc0aa646d44d3351039010e68019b5056e355b7015e45e492f295",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

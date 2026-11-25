@@ -1,0 +1,89 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant à la carte italienne classique avec terrasse privée."
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant à la carte italienne classique."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant à la carte italienne classique."
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "terrasse privée"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Murs lambrissés rouges et jaunes"
+      }
+    ],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "à la carte italienne classique"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à la carte italienne classique, avec intérieur aux murs lambrissés rouges et jaunes et terrasse privée. Ouvert à midi tous les jours et également en soirée du mardi au samedi."
+  },
+  "meta": {
+    "cache_key": "c74abac665d0b04b39d1250c765bc0e7262e0022d3aa940a55c9fc7f60fbeffa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

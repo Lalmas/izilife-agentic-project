@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:55",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-seven",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-seven",
+    "status": "found",
+    "data": {
+      "id": "5848",
+      "name": "Le Seven",
+      "shop_string_id": "le-seven",
+      "unique_id": "597de7964dc2859db18ff7638da9fa44",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55102",
+      "principal_cover": "55102",
+      "qr_code": null,
+      "phone_number": "+33320521171",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "10 Place de la République",
+      "additional_address": null,
+      "zip_code": "59790",
+      "city_id": "73",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0992791",
+      "latitude": "50.5990043",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:59:49",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:59:49",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJp4PYW37WwkcR1E1iYIGK5B8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5848,
+      "scope_type": "SHOP",
+      "scope_ref": "le-seven",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ronchin",
+      "string_id": "le-seven"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55102",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5848_6af3a1e5ebb6e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4903",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34056",
+            "source_hourly_id": "4903",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34057",
+            "source_hourly_id": "4903",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34058",
+            "source_hourly_id": "4903",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34059",
+            "source_hourly_id": "4903",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34060",
+            "source_hourly_id": "4903",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34061",
+            "source_hourly_id": "4903",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34062",
+            "source_hourly_id": "4903",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-seven",
+      "google_place_id": "ChIJp4PYW37WwkcR1E1iYIGK5B8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 08:00 – 20:00",
+          "mardi: 08:00 – 20:00",
+          "mercredi: 08:00 – 20:00",
+          "jeudi: 08:00 – 20:00",
+          "vendredi: 08:00 – 20:00",
+          "samedi: 08:30 – 19:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfJNcn_z_GWBtSvIR0TFtnjYW7giffbzfhBKkEgoqKAaAOCALV1mxJ5RbmAQuDMuOMjWyOMVBLQRoCmU5dcQPeFLXPMdKCRG35YpDyX5lEyKl3I_R5IhWCGD4UIiheWJ_wc7nd-Pcq8SIw-_dSwLadqenxt3WsT0BgUBMnI9bHDiBZRiUYpPLRM0wjJ8vDVGZVUvfI378ahXE_QWcv1rt1DhQO_QDwe1A5hPRzw6NWeiLzorNGW6cw4mb2qDj9C9ZDvrqHvB5CbZNsETskMk6GDGtxkVi4lneJbBhtPWBoRGMyzQih3-AxXVedcnBzt8s4lFwwFa8uDJegNEQHJoB3vh6gU69OtyGxihUn8MJV4va119Q4jTxiWPkLCLMJzh_9aBH8Y0-D0duMnjd1R6s-jqmEdm3I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100634599011497260316\">Le Seven</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLc9SRca5plYJ_zy4RZ4-pEQ58_QVKi9Fx3IM3zSpbqFQY-Hr7AySUxp7i-5iLfalkRY3e5NA9-xWyqSt1ZFgnn0RlXCIlgJ2qMEZ7w6kVYRiZczva9j8D6waFPaC6Q6XXhC9ED67OLHKVbE0laF3qqSPZioKpycqnLiOfdIAOIoui_23Y_RYXhxNm8JrIVV-eGPSYtffiKb8l9X-Qjwy4iMmxnPDm7pmqgA8uItWMOs66kf8FURJGydamykU4-STdmHRrhEVYna4XavnxmwOiNTHFlA5BZXjr4KaW0RV-GnE27l89k0GbAW98qPl49aoyE73GPrYtv4JXNUwg6dkzMKtifS5_kSLTckaFmi60qNDWt5A1XIrIg40H5bf6niRPXZ-k-QTeb-0qpIPZC7KdWywsM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107615034171554996759\">Tiercin Olivier</a>"
+            ]
+          },
+          {
+            "width": 1179,
+            "height": 2556,
+            "photo_reference": "AV-0GLfaCQb379o3ufAjoZunDZNTz1kuerifZW-EEbnc8XghL2pmMp9e1adoDiwUVal60G7YSHyj5c1Apa0SgjfURx8418vtiYFEy93c8Zl99inpOIyx3t4MIsHwn3-Re84MAL2JWFx3srQbuaV0f4d-7MU-E_pcHuMA3yHeMHeDGWmfrgrqFXJb9oOTndrEpbW9eu3kolSjUc4wWW5updXEer1RH9WH4HAhRF7leIdECM9PPQwKnlbP2U0MKdIhGXzJ5dmuqvwIstWTDo3xTCXREB6iUWz4zwS6IKL4emLhRNlTw7Euk7Sebaa1yGGj8PYkarz3ygmF8sfOAw9cNPF_91BLRsSssWRNNnjG94ZRi0oAKAznondDrYAvZAmmQHDLgy6zLy-uO1rAONEb5F-dgHwD1v9t104nicxcpHFgIrOCcQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100634599011497260316\">Le Seven</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLe9rlfCSNSJQUzjmdvJO2OIH2k7j5-4LhEMqtA2nPc0p56yDYDodHEni7T-941qgy07ePNWDnpD6tu339KaHoUEbvnO9y25sVViYbUuH-xxv6cvfvyl7diU5qwbnKyuXb1PosCa5p0u-u3zfvDpwDCCEke-CKF_SKP8fogHNwNXPJjBcfOCEQq0KXbqx9Fqhi8mSeKcT0oAusTynKIcP82ztlGQVMhrvTBUkVAAC8W39ixCYhVfm6Vi_usLjJaybERiM3ZE_9KmRvBx0aupKQ5wneQpBayAgFDN9MWvVbvIvc8Mh1vCw8QkBJGiyoJkbyZvw5UteOUGJ0PXTaynFW7igbMtjClnapBGlCPdnWohflVE02G4uV6H_DD9GbdeDHM7TGFTKtoeqRfvqR-RCAzQnEb5INxFdv1GeWqlmK78Sg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110347730090583560899\">Denis Goubiou</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfmURtDa2N04fvhh8YgaAyZCBaaHaTUF72NnR7KmcC_P58XLUw0dNfAbSeMwgz8sXUN1nrD1EVBKa-xXzw4UZwVJXsPeHV6m0uQXbq-MO5rpWeVUfbfr1W-whYB0j8K7iOhFTUesTnUc8b05IAbtr55Vf0BO50y9MNCXr0CQGRiOCyimhVMqdj9HE5TtKx2iwbFa-OJIw0SlfnCMnEjaXfH-x1iyr5wm2PocHh0opb8y5bfL_-uk1j4lROVjZ_DwW3vcJA9tKUkiGQnupoLjVjQLXyIydCZkTvXMovct_aPodsuWJWNofcqftpd3DXibZfWaRq9L3rZF0jHid4ZAbjDNC5GEvPoa4qiLjmu8JMvBPZRVupepLPFjl3IEa72RFflSkbGTfyPh-7YKHmJtFq3EegDzzNlObmJ7bOgPmShQw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113634130427614509697\">V “Vfd” L C</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLf81ZRrJ77tNYplbGio1FfA5v9k0EqTegxjbwfrJ3sY5jSBR7wOlQlmrTHdWFC6pjUMAk8An9AwTpkoCSoKLHES9J1X_pk9hRMof235xXdmOxRRTtbJojU-p7DzdARCbXMuk3esaXGkwkS7haNGrvGcFbApXcTkc1CFF8huFy6ml-6fTtLdcDPfLGGvi7EEJJ3cmKU6x1xeerQHNdBFQZguJK2TdJ0VzdRjpdUZEpi6L4YkVH-4iD0KZVQxoJujufns3ZJwTMlPIzojN0XNTabExPaloPFZGpPFnvjOR17F-_qRconbSQf5yFyqNRFYfSZ-QVg8udHnkzubtKqR4CM0Yfk35id653Tu1VZvt3ODY-F9jZ0W_yLbcw_E_CAG6oLIOJKGo4q8Ki-fZhPjU26YuQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100634599011497260316\">Le Seven</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLerKyh0KGQLVW5yvzPOOVRD2Gkld7F-Yz9TF0ZUJArS55BRsqEYlNFQ-wDE_9jiDjBJjuLkkeP3pQRNZKe8HoBc6kETCcl14APjK7sEoVQRtH2sKETUvJQsdxiZfmOx9r3cCOEgBsYoY0oS0NwAs1hybrXLAJtMaYn379NMCWQqwDWvnj5V5jB6xqeUNzH_Nor8J-kFEA4ZGbA_V79eX85vm7fuhicgLFNWIZOrDSH1XVdTT0LefsbgG9jL15Gv7e9UrACHroAlhvzeqOQedd9OhQ9_auApPogPc0UYXrFLTSTUqqVyTA9uDsYzgi-ikIc9RgGXdpgxhMH1HZ88NLelHpULALyERvwtRMqnXa-y73ulrmUnGwhsq7r-RK8tLkKaGQIxXyv0K6gLWyDPjMEdoZmdDumDHBoRZwj0XuL3xQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116291443515694818524\">ELODIE MACQUET</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLc1bztz6KNWmM4u2exgbgIq_k474ovDgJeSasBqJsnexLz9NIZ81BEex48wbWlYMgYjbcuYEIaACw0qboP-WLtq-Vpz-A8ohwb0fzxSouJUhyT9mb4jg6mNTdCmlaFUbetfNJ1EVISD4BL5H7NhsCLgt_tZVwEfEyr99RP_7uOYEQ5xToM-E12XVeBHavTJPOeZ2ymfEJkqmsmcbvVH9FM33vJQx7l_Jx4Y8QDP2DxxCuyF4MLXIpxz8iBe-RgA_iAfOI0R57tlWMINPLP0c7ZkNdNxzns90rRBaiO7yGzF_DFHaO-cgS9l9rToQ75DzfJoN9VI0Awy43OJi_ey3TepnJ8oxS7AfdPIOKEWHjZoYA_7nipHBocX7FljXURdA4zSTeExKazppAD3pYrJgc3d5qsrusk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107615034171554996759\">Tiercin Olivier</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLd9GM1xC9AHj234meZuLtouegGxp1ICdw1snNHKgI-5btw0NI84JaLUkcrgYrJ9Jek8OZyBKdZRJaAVGfii61CRT9pawRI6qzIopfeGtZwslmGU0HfMWNs8P0NQ09eo8tEdsfFxX9Lik25H1mC5VTKdfhosQ3-r17bpElum75ZyicC6XtW_0V368-_FWY3BcCJjkCTdc97kLcrWNQoJBqCbJF9902FN5i5VxVfxVJ361g3YaCNJz0U3vBPxHo3eAabdvPJ33o8pyFRnstcgzr8Yci8Mtg7nAg0Fh9KS2RJQl8vvO0LBlR4mzioiiLml7RtGZxGTdUxIWrlnAwJGJ5-5aYdIhhDJnmBxulsYdymKXrnyvYN_mzNY0xxf_n-qt4UbSzZc4GOdgnWB53dxyYQuYztem1wgYa7UggtbLODKCg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116291443515694818524\">ELODIE MACQUET</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLfRtkWlttB4kp8nH4NOFjQweS6f5p7GQxqg8-r7w2DbV_PogvGXRxPPAQpJDm0ZEOrmkkzrjOqNodzQstcDkHZQv8jaNrY6z62skvmoDdkphaRYypgLManQqBNNeNkEdUyhhydKukAIat8ghIgR8qav4b_yYkp9VIolaYWExOI5xHA43KzJcSQs9n_e4leeKn-ZMLpeuQBMao86rzRN_L7aYEGCQN37fNHDfO37P66yY2YA6j9PMt4Nqf6hfRzdZAxWZY8u9o9w1RVUuXVQMIpM8KzO80dWtm6EPyEdjc9BFjoyef1c_2KTXRxDo7de2Uun1GFgddoHgKrXtdttwuEhRU0zyuerDhk91hmYlPdzFCvCzkKhvvaqx7NMROYOlio8d9tlIzCfInEawjmtPvGOig",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107615034171554996759\">Tiercin Olivier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5848
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Aucune information fournie sur l’offre, les services, l’ambiance, l’accessibilité, les moyens de paiement ou les modalités de commande ; les horaires seuls ne permettent pas de les déduire."
+    ],
+    "rejected": [],
+    "summary": "Le Seven est référencé comme bar au 10 Place de la République, à Ronchin. Des horaires d’ouverture sont renseignés du lundi au samedi ; le dimanche est indiqué fermé."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-seven",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5848,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5a4316e5e6e7164bf422cc28f26093f1ef4a12f33ec24694ce9625b2dbfc9a0b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

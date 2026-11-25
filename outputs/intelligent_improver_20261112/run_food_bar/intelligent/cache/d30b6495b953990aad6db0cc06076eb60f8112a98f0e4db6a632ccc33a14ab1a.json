@@ -1,0 +1,78 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Un avis mentionne un sandwich préparé sur demande dès le matin."
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Un avis qualifie de « meilleur gâteau » un gâteau aux fruits acheté pour un anniversaire."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : boulangerie."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Les avis mentionnent des sandwichs, dont un sandwich au thon."
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Un avis mentionne un gâteau aux fruits."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Un avis décrit une demande de sandwich avant 7 h du matin."
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Un avis indique l'achat de deux sandwichs à 12 h 20."
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Un avis indique l'achat de sandwichs à 12 h 20."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas si la consommation sur place est possible, ni les moyens de paiement ou de commande.",
+      "Aucune information fournie ne permet de confirmer l’accessibilité, les équipements, les ambiances ou les activités du lieu."
+    ],
+    "summary": "Boulangerie proposant notamment des sandwichs et des gâteaux aux fruits ; les avis signalent des achats le matin et à midi."
+  },
+  "meta": {
+    "cache_key": "d30b6495b953990aad6db0cc06076eb60f8112a98f0e4db6a632ccc33a14ab1a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

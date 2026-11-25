@@ -18,7 +18,12 @@ Le résultat doit fonctionner dans le FO et être administrable depuis le Partne
 - Place et Shop restent deux objets legacy distincts, mais partagent les composants métier Catalogue lorsque leur comportement est identique.
 - Le Catalogue est dynamique et multi-catégorie.
 - Les sections vides ne sont pas affichées.
-- S'il n'existe qu'un seul menu et rien d'autre, le lien peut ouvrir directement le menu digital.
+- Les catégories racines actives et leurs produits actifs forment le menu implicite du lieu ; aucun `ElementMenu` ne doit être créé pour le dupliquer.
+- Sans `ElementMenu` public exploitable, le lien ouvre directement ce menu implicite.
+- Un `ElementMenu` vide est ignoré et ne masque jamais le menu implicite.
+- Si un `ElementMenu` unique est identique au menu implicite, le FO ne duplique pas le contenu ; s'il est différent, le FO propose les deux présentations.
+- `Product.is_active` est global : un produit inactif reste enregistré mais disparaît de tous les affichages publics. Ne pas introduire d'exception hebdomadaire propre à un établissement.
+- Les rotations de carte utilisent les catégories existantes : créer une catégorie distincte, déplacer les produits concernés, puis activer la catégorie publique et désactiver l'ancienne. Un produit peut changer de catégorie ; ne pas le dupliquer pour cette seule raison.
 - S'il n'existe que des services ou que des accès, ne pas imposer une page intermédiaire artificielle.
 - `ElementMenu` est le conteneur officiel ; ne pas créer ProductMenu, ShopMenu ou PlaceMenu.
 - `ProductCategory.parent_id` gère catégories et sous-catégories ; ne pas créer ProductSubCategory.

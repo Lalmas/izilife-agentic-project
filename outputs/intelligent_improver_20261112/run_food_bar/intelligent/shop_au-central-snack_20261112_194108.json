@@ -1,0 +1,598 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:41:08",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-central-snack",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-central-snack",
+    "status": "found",
+    "data": {
+      "id": "5623",
+      "name": "Au Central Snack",
+      "shop_string_id": "au-central-snack",
+      "unique_id": "8e3903feb7ffa2bcfc45c808dedbdd37",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54882",
+      "principal_cover": "54882",
+      "qr_code": null,
+      "phone_number": "+33772054516",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Rue du Général Dame",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "42",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9887165",
+      "latitude": "50.6059643",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:28:31",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:28:31",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJA1Lite4q3UcRTvVpoIov0FM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJA1Lite4q3UcRTvVpoIov0FM\",\"rating\":4.7,\"user_rating_count\":170,\"google_maps_uri\":\"https://maps.google.com/?cid=6039379372747126094\",\"fetched_at\":\"2026-11-12T01:28:30+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Meilleure friterie que j'ai visité à ce jour. La baguette est délicieuse !\",\"language_code\":\"\",\"publish_time\":\"2026-09-20T17:48:49+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"cléo\",\"uri\":\"https://www.google.com/maps/contrib/115227150678408111648/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWgFFfFZ7LnGjl9d6CxbRUrEs7NREtmQEqbMFGlA6C2rJzKknQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-16T15:27:23+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Christine Buzescu\",\"uri\":\"https://www.google.com/maps/contrib/100080128644659114479/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI2Lg1CQ16iT8PNdyIps3cuSgJU2MjZuEwWN2S_I1nd1sKdJw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Oh bah Central Snack, c'est devenu un culte, que dis je, une religion\\n\\nRichard est un amour, sa cuisine est vraiment bonne, et en plus il n’a pas la main légère sur les frites\\n\\nAllez y, ou je vous retrouve, et je vous force a prendre un Burger du mois\",\"language_code\":\"\",\"publish_time\":\"2026-08-08T16:08:56+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Zazyoxx\",\"uri\":\"https://www.google.com/maps/contrib/109683659367351100065/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVw1vrnnvoFGHeqJUu4gPwOOT0hyEwxkc4lF-t-JYren0mzBXAbqQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un rapport qualité prix inégalable Top 👍\\nAllez les yeux fermés vous régaler pour un bon hamburger ou meme simplement des frites bon appétit\",\"language_code\":\"\",\"publish_time\":\"2026-07-14T09:58:40+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Nicolas CUISINIER\",\"uri\":\"https://www.google.com/maps/contrib/102876905324792444551/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJNy2azALcwdWvvMVfr_DOdwuhcj3DjzTs5Gv9uUlzn84RZag=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-16T15:25:24+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Freddy Wispelaere\",\"uri\":\"https://www.google.com/maps/contrib/102159536133139268486/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWRA89gFCGrmJxuERp94NHAPlJW30DJcISvEMcdRzz10Yge30Xt=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 01:28:30",
+      "google_reviews_place_id": "ChIJA1Lite4q3UcRTvVpoIov0FM",
+      "source_id": 5623,
+      "scope_type": "SHOP",
+      "scope_ref": "au-central-snack",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "haubourdin",
+      "string_id": "au-central-snack"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54882",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5623_6af39a8f0a269.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4683",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32516",
+            "source_hourly_id": "4683",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32517",
+            "source_hourly_id": "4683",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32518",
+            "source_hourly_id": "4683",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32519",
+            "source_hourly_id": "4683",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32520",
+            "source_hourly_id": "4683",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32521",
+            "source_hourly_id": "4683",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32522",
+            "source_hourly_id": "4683",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-central-snack",
+      "google_place_id": "ChIJA1Lite4q3UcRTvVpoIov0FM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 18:30 – 21:30",
+          "samedi: 11:30 – 14:00, 18:30 – 21:30",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfK_iLQQNBTNTc8FTX9L7SAZqa9E77nC8KqOBcGj8h57ebZNTkhwupqJiLjYpXpfexgQ9k_zZJxBMg6MyA6F2oz8g8Z8Rhndxp4HqwL17dEPmX_eHbs7O6nG8k80_hcSvXxDY7xox0CQ0p-6GXUApyre3po9kbfCY9euZkEdEYy8yoGL2DAZnbBBihQGnm3lfCDsUjQxVScd3RRCbSmGVfCRni5ewWHboT7dNgY7HuaItxE-p06ZAuarF5kTFYbQglZD8YjmrOOP5Wbz1kSuVO5mzdqJlkkys4Wi1TMu_28Z85pPZKXGn2ogM4iBegC2Xjp5KKm-l3iw8ynzsJURWEJ9IoDTLKCpTxXmlG0l1sMkx2Y78TnIKQh42xXyUCgNRFZbbWT8-oQ_mHMdd6H5KU7BSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118325217027044943545\">Au Central Snack</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLeV1aol5oRonkxd_Y3CqFuPn1LMWcF4QQiPcnUYvoRLCvaICnm4dEt-dZEqj_yPm8ID6Qy_-kTDbeWe1LIX1lu9sii2MNnlY1zdiOGWf7sy-WpMTunYKIes_T8Okdt3mWjf1yF4Kv8t5PP7SmPamtfAdjRivdFBTyYYuI-rlA3w75lbYO5HvQDE39WsXiy7RyYm7t05N4KK5ev752NblNr5Wih9YoXft6gURpKFPv6FXW9rkLW7KFrh_SAQSvD6shAcNvotv2xWetIUiZmiXDb2lBNPU15WkZqhCMRIXieboGPGvPQ9vChbZNDDAIhzOaHE39vU0zDkF957U0itFuJqxBFRdzwTPkaUOO_qYBwc1olNZS9KbQr1HXjBDrG7JLyfCnT9zrCN-FzndrEfcFQem1yX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109701047134422028221\">Remi Carre</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeqQNHiWKf7nQf4dUsAMztgFl49usehmzr4O4-QbpU3xtd32c-oYBdXFzRoKlUVqieQGcdZeRZMj8JyfUbWUtUh9VG-lvvZQjADuJp8nVfHA6oLZ8xC_uSqIil70IsKSo2lI2ZAiJ9da5qhg76R1TskdQQG5vfxg0K0UpvGOrQpQe9pOTcIbPW5acx3YvMCs4ugP5FYUNMDTRnalaQJ__ioGnUOYo8WoerIriZCqNCwy9f55Gr8_xzjilW6xtslldHW-2GOPIvyfpL3caksjp1xMCtsLhf5W8qcAoF7bp0snxEYVMBi2POeJwGCARRHkYIw6jE4B91vqjVwFPcRipFsMxT12iSsaMtD7y9KlmKaIXUOFc6-i53M3m50jxEY3ZBB7NnAwXx0A4Voyfe4boMWNCtZ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101949176655162219036\">Olivier Hilaire</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfEFU-T-CkYfOh4LnuI_npMWaVxFLDMez993-Cn0FvXE5Dpiv0ZWFLv_NkSHVte2DrtWRV03Jn7dH_VKEyT_snZo573gXN7w8ZevZbfXNNuzNLQPnkN35RANrcGdX6pktoz8ccRtz_ztj1N0KDU7yscghOzZIKBh2tapfIu2UOkXz6RXCqhKwRecLzg78uk-VqX6OWY4LAfQVixwnoMdCAI57gzKyAcKfQqPCuomXvRfhQvJUau9Hfyb3QB1Wo9LMZr4mFiB1eMe_XkR7v37fa4sbtPLo2zvisdxf7FahKSGvPwBSwOK6uD1VHDu2kuUOQ7fmhv-42Ywp_iQCuVX43S-goT6mSbumlGw5_P9BP7646IeIy47DN0PTQeX02l4imadrhN36Yq-kVmz7HKSyAOFeFAO8E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118325217027044943545\">Au Central Snack</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe8E6ZpzqhBFm6P7xbK0GA-hwP0Lsvh9PS_Qi6o1Q6t5x1JB1IBwO6o-NnFSMIpwwVetWlaK5c8o7S3c_BI1AKqAyMQrMPe9EqMOlCb4QzNVykNt2GxJ7zwTIjC5SBirX-z4nDVkdhyMjaMp1x4FeTbZLwRGn6ODyjesrEAjg_h5RTYfqZvhtSmiL-X9mGL38bmpY_JD72rSvna9NUpxOKoYyl7h7DJRzBUw6AuPlK_8wa3LdlqVe5itByhP6fqrW3Bx5MqTa9lPtIMaExjivNKmKXe-8Q_8jCc-Fl0EIa2YdPNY2FxF2c9cCanAg9I50dHP8eMm1b4UuzwMjPyc7W0rYQCFuBhtL10LmTeFlf07h2k5OK4qnUy2xAsTFbzTgj8gadHHlS783zLgIC9Lm9zac366rM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117925415124440963295\">jessie wispelaere</a>"
+            ]
+          },
+          {
+            "width": 1754,
+            "height": 1240,
+            "photo_reference": "AV-0GLelWv5FhYS0Crd56k73bK4CHKWBPm1FOeDNkJEnheg1gLeg7muO2Ad0Z6HayX1ZFpgTc3fJ_2lotfuNAWlQl5MzVubQ76UgI55dMmn4PyZGn3bAILWwllStwEyUmU5uqiToLnmynDteuuFo0zxOtxjW208dkDlGMjQr7ZHuWw9MkaYkAVBHb9k2iEIgx_TT5_wcOFHsL-188P_Oyl1Gmu4Bdk2pyjs6qnwQ0DYzjt9y_XR7ZoZRaZ0BTxCxFeSj-8xAll79Ohw-AtTzs7GScl1s-FdQW93k2pG8blwgQR6NbPDX6VbiIpiEFeEin8sa_t8ds0RiTU33rhZmXaod9-qhfuVdlezAWgoRAfGwSRC5rv0w8wM7UihU8jt1CHNnWXEkjznVhMlC1FFsfjl7GNASmltoJRtZTyrMY5_CV69HbA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118325217027044943545\">Au Central Snack</a>"
+            ]
+          },
+          {
+            "width": 1800,
+            "height": 4000,
+            "photo_reference": "AV-0GLdvGJHOE7z-t_z6QW0qyST4FborbFDfAxODeWZ_QhtHdUseMAie6CP_67WAztw13qE0ThgA1y12ed5-R4sb91-Kn-yD61lucrAoQ-FCW13-Nv9FN9iq5oi9EUOdyi9TjDwNLHNTYGziKc_intSGJ8t4q9qUoCDpHy_pfPVXynoH_KOXSkmqa3LSqHuPfIXwTmqtt6_HFvXKnSHi3oDQPNe-ge8YdvQ-_9gQ4eSNi-PvZrDvjo1yqqaKjYVB44DCikHGTMdGk94mcgqmUytofoP8rso3pZeWnX-TpbKQBzEqUlYA6eoZNrPdBuzm5JxBkIz97tE152OAnSVW6wdwxpE7-k4sIFAbrLTQGn6USqWqqY_o91d0Rszu_3FAG56bj6FJuuNcDAuWwAl-wibC_CcDJc0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103101939908103927810\">Vince Techno</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5623
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Meilleure friterie que j'ai visité à ce jour. La baguette est délicieuse !",
+            "language_code": "",
+            "publish_time": "2026-09-20T17:48:49+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "cléo",
+              "uri": "https://www.google.com/maps/contrib/115227150678408111648/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWgFFfFZ7LnGjl9d6CxbRUrEs7NREtmQEqbMFGlA6C2rJzKknQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-16T15:27:23+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Christine Buzescu",
+              "uri": "https://www.google.com/maps/contrib/100080128644659114479/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI2Lg1CQ16iT8PNdyIps3cuSgJU2MjZuEwWN2S_I1nd1sKdJw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Oh bah Central Snack, c'est devenu un culte, que dis je, une religion\n\nRichard est un amour, sa cuisine est vraiment bonne, et en plus il n’a pas la main légère sur les frites\n\nAllez y, ou je vous retrouve, et je vous force a prendre un Burger du mois",
+            "language_code": "",
+            "publish_time": "2026-08-08T16:08:56+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Zazyoxx",
+              "uri": "https://www.google.com/maps/contrib/109683659367351100065/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVw1vrnnvoFGHeqJUu4gPwOOT0hyEwxkc4lF-t-JYren0mzBXAbqQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un rapport qualité prix inégalable Top 👍\nAllez les yeux fermés vous régaler pour un bon hamburger ou meme simplement des frites bon appétit",
+            "language_code": "",
+            "publish_time": "2026-07-14T09:58:40+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Nicolas CUISINIER",
+              "uri": "https://www.google.com/maps/contrib/102876905324792444551/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJNy2azALcwdWvvMVfr_DOdwuhcj3DjzTs5Gv9uUlzn84RZag=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-16T15:25:24+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Freddy Wispelaere",
+              "uri": "https://www.google.com/maps/contrib/102159536133139268486/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWRA89gFCGrmJxuERp94NHAPlJW30DJcISvEMcdRzz10Yge30Xt=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 01:28:30"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1121,
+        "bo": 83,
+        "front": 1038,
+        "estimated_cost_eur": 3.0250000000000004
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie « friterie » ; avis : « un bon hamburger » et « des frites »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : mardi à jeudi, 11:30–14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : vendredi et samedi jusqu’à 21:30 ; dimanche 18:30–21:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « un bon hamburger » et « Burger du mois »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « il n’a pas la main légère sur les frites »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : mardi à jeudi, 11:30–14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir le vendredi, le samedi et le dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Haubourdin, appréciée pour ses burgers, ses frites et sa baguette. Ouverte le midi certains jours et en soirée du vendredi au dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-central-snack",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5623,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5fe366b53aea3a751f8a64387e1cf0eea9f7aae06f604672a7a12bbf3ea21deb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

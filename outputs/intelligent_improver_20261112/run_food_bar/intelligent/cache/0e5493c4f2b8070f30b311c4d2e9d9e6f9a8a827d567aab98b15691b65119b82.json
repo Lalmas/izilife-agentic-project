@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "« j'adorais y aller » ; « les plats étaient froids »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « brasserie » ; avis mentionnant « les plats » et « les poissons en sauce »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.66,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture indiquée de 11:00 à 20:00 ; avis mentionnant des plats et des poissons en sauce"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis Google daté du 26 février 2025 signale des plats froids et des poissons en sauce secs ; il s'agit d'un retour isolé et ancien."
+    ],
+    "summary": "Brasserie à Houplin-Ancoisne, ouverte du mardi au dimanche de 11 h à 20 h selon les horaires fournis. Un avis évoque des plats et des poissons en sauce servis sur place."
+  },
+  "meta": {
+    "cache_key": "0e5493c4f2b8070f30b311c4d2e9d9e6f9a8a827d567aab98b15691b65119b82",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-concerts",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« A refaire un soir de concert » ; « Super repas concert »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« Les plats comme les desserts: sans faute »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie « restaurant » ; avis mentionnant « les plats »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": {
+        "string_id": "chaleureux",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Accueil : extrêmement chaleureux! »"
+      },
+      "MealType": {
+        "string_id": "dejeuner",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Première fois un midi »"
+      },
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Première fois un midi »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« A refaire un soir de concert »"
+        }
+      ],
+      "Hobby": {
+        "string_id": "concert",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Super repas concert »"
+      }
+    },
+    "warnings": [],
+    "summary": "Restaurant et bar à Seclin, apprécié pour ses plats, ses desserts et son accueil chaleureux. Des avis évoquent des repas à midi et des concerts en soirée."
+  },
+  "meta": {
+    "cache_key": "ccb08f0635812664ac123b16967f6251aeabc43d0df219023d68969070aba100",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

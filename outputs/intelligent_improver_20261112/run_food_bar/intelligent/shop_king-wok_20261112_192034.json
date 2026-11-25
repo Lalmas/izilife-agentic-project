@@ -1,0 +1,642 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:20:34",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "king-wok",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "king-wok",
+    "status": "found",
+    "data": {
+      "id": "1830",
+      "name": "King Wok",
+      "shop_string_id": "king-wok",
+      "unique_id": "ed5dbda5aaef03e091f74b920a2704a7",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "3",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "212",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "1415",
+      "principal_cover": "1415",
+      "qr_code": null,
+      "phone_number": "+33320979474",
+      "url_website": "http://www.kingwok.fr/",
+      "url_facebook": "https://www.facebook.com/King-Wok-108986010869921/photos/",
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": "contactkingwok@gmail.com",
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "1",
+      "toilets_accessibility": "2",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": "2",
+      "basic_price": "0",
+      "basic_price_currency": "2",
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "161 Rue Clemenceau",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0517213",
+      "latitude": "50.5935096",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2024-11-07 12:24:41",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2024-11-07 12:24:41",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ2ZQm9cPVwkcRZA6Ew6I85TI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ2ZQm9cPVwkcRZA6Ew6I85TI\",\"rating\":4.5,\"user_rating_count\":3382,\"google_maps_uri\":\"https://maps.google.com/?cid=3667404141325717092\",\"fetched_at\":\"2026-11-12T19:20:20+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Parfait\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:56:33+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Sara Benabdallah\",\"uri\":\"https://www.google.com/maps/contrib/102965885622339168161/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocILFtbQhKtw6V9eMWAM8Ag-Si3ciS-1cQtcV5abt2OQ2cUafQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:56:16+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Yanis Touré\",\"uri\":\"https://www.google.com/maps/contrib/104194634051404437197/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXc7Q6agAs5s-yzkdfM_ciEcjsqtK5LlB-SYMc93GE2JfqplLc=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super expérience chez King Wok à Wattignies ! 😊\\n\\nUn très bon accueil, une équipe agréable et souriante. Le buffet propose beaucoup de choix, avec des plats variés et délicieux. Les produits sont bons, le restaurant est propre et l’ambiance est conviviale. On passe toujours un agréable moment ! Je recommande sans hésiter, une très bonne adresse ! 😍\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:47:30+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"louane evrard\",\"uri\":\"https://www.google.com/maps/contrib/116374219501828213531/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIKr2KAfpzTX2BEVj3pj8qMRs-emcwWdMlEMIOWm0wwd--ZJA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:46:40+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Paméla\",\"uri\":\"https://www.google.com/maps/contrib/102719552246393291284/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJJvEDQzyjBObWgSGD0owFyZuBPcMGz6XjIokG8Fw9ueQ0o-Q=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T11:45:19+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"jonathan evrard\",\"uri\":\"https://www.google.com/maps/contrib/104263350991748993158/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLSi088dFu3FahXuf5Ial2dT6M_rud2cMbVFopY7cohjdk7Ew=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:20:20",
+      "google_reviews_place_id": "ChIJ2ZQm9cPVwkcRZA6Ew6I85TI",
+      "source_id": 1830,
+      "scope_type": "SHOP",
+      "scope_ref": "king-wok",
+      "primary_category_ref": "restaurant-a-buffet",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "king-wok"
+    },
+    "counts": {
+      "media": 11,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 2,
+      "characteristics": 1,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "1415",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_673317adcaad4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10980",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f80531adb.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10981",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f8057657f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10982",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f80604a9d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10983",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f80682a09.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10984",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f806d9881.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10985",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f80736cae.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10986",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f80864af1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10987",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f808d280f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "10988",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_1830_6734f8092b6e1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 11,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [
+        {
+          "reference": "chaleureux"
+        },
+        {
+          "reference": "decontracte"
+        }
+      ],
+      "characteristics": [
+        {
+          "reference": "kids-friendly"
+        }
+      ],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "731",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "5111",
+            "source_hourly_id": "731",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5112",
+            "source_hourly_id": "731",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5113",
+            "source_hourly_id": "731",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5114",
+            "source_hourly_id": "731",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5115",
+            "source_hourly_id": "731",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5116",
+            "source_hourly_id": "731",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "5117",
+            "source_hourly_id": "731",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": "19:00",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "king-wok",
+      "google_place_id": "ChIJ2ZQm9cPVwkcRZA6Ew6I85TI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [],
+        "has_google_json": false
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "cache_missing"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": true
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Parfait",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:56:33+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Sara Benabdallah",
+              "uri": "https://www.google.com/maps/contrib/102965885622339168161/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocILFtbQhKtw6V9eMWAM8Ag-Si3ciS-1cQtcV5abt2OQ2cUafQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:56:16+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Yanis Touré",
+              "uri": "https://www.google.com/maps/contrib/104194634051404437197/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXc7Q6agAs5s-yzkdfM_ciEcjsqtK5LlB-SYMc93GE2JfqplLc=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super expérience chez King Wok à Wattignies ! 😊\n\nUn très bon accueil, une équipe agréable et souriante. Le buffet propose beaucoup de choix, avec des plats variés et délicieux. Les produits sont bons, le restaurant est propre et l’ambiance est conviviale. On passe toujours un agréable moment ! Je recommande sans hésiter, une très bonne adresse ! 😍",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:47:30+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "louane evrard",
+              "uri": "https://www.google.com/maps/contrib/116374219501828213531/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIKr2KAfpzTX2BEVj3pj8qMRs-emcwWdMlEMIOWm0wwd--ZJA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:46:40+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Paméla",
+              "uri": "https://www.google.com/maps/contrib/102719552246393291284/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJJvEDQzyjBObWgSGD0owFyZuBPcMGz6XjIokG8Fw9ueQ0o-Q=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super",
+            "language_code": "",
+            "publish_time": "2026-11-12T11:45:19+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "jonathan evrard",
+              "uri": "https://www.google.com/maps/contrib/104263350991748993158/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLSi088dFu3FahXuf5Ial2dT6M_rud2cMbVFopY7cohjdk7Ew=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 3382
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1054,
+        "bo": 16,
+        "front": 1038,
+        "estimated_cost_eur": 1.35
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-a-buffet"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas l’accessibilité, les options à emporter, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "kids-friendly",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "characteristics: kids-friendly"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: restaurant-a-buffet"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_children",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "characteristics: kids-friendly"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: chaleureux"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "decontracte",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "King Wok est un restaurant buffet à Wattignies, décrit comme chaleureux et décontracté, avec une caractéristique kids-friendly."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "king-wok",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 1830,
+    "changed": [
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8caf22d87480b3e762548c36fd50f714dcfeda21ce180d7fdb3009559d3cdb6c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

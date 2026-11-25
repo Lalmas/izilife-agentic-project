@@ -1,0 +1,166 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« les prix encore abordables »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« pendant les cafés pris dans cette cafétéria »"
+      },
+      {
+        "string_id": "spot-calme",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« lieux de socialisation calme »"
+      },
+      {
+        "string_id": "habitude-locale",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« des habitués qui tiennent à cet endroit »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« nous y sommes attachés »"
+      },
+      {
+        "string_id": "lieu-de-passage",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« des gens de passage »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« le confort des grands espaces de cette cafétéria »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« on pouvait prendre un repas »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« cafés pris dans cette cafétéria »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Les bières sont à la hauteur »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "calme",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« lieux de socialisation calme »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« accueil chaleureux »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« les prix encore abordables »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« on pouvait prendre un repas »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Les pizzas valent largement celles de la concurrence »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« cafés pris dans cette cafétéria »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 08:30 – 15:00 »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« pendant les cafés pris dans cette cafétéria »"
+        },
+        {
+          "string_id": "pause-dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« m’accorder une pause »"
+        },
+        {
+          "string_id": "se-poser",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« prendre le temps »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "sur-place",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« cafés pris dans cette cafétéria »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis publié le 24 octobre 2026 annonce une fermeture définitive « le mois prochain », soit novembre 2026. Les données fournies indiquent toutefois le lieu comme actif et listable, avec des horaires enregistrés ; la fermeture effective est à vérifier."
+    ],
+    "summary": "Cafétéria conviviale et abordable, appréciée des habitués pour les repas, les pizzas, les cafés et les bières. Les avis décrivent un espace intérieur vaste et une atmosphère calme. Une fermeture annoncée pour novembre 2026 reste à confirmer."
+  },
+  "meta": {
+    "cache_key": "1378b05603d1aa2b7e623928e359060910622fee88f6a09d454897909ae608c3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

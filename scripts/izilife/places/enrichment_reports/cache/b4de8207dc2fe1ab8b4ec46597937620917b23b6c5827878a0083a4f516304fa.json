@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-rapide"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "asiatique",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant asiatique"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "à emporter"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant asiatique à emporter, classé en restauration rapide."
+  },
+  "meta": {
+    "cache_key": "b4de8207dc2fe1ab8b4ec46597937620917b23b6c5827878a0083a4f516304fa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

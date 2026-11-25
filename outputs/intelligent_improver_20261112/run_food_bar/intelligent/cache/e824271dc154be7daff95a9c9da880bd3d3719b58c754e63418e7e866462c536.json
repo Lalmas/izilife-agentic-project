@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les profils de clientèle."
+    ],
+    "summary": "Friterie Marcel, au 26 Rue du Général de Gaulle à Noyelles-sous-Lens. Les horaires indiquent des ouvertures à midi certains jours et en soirée du mardi au dimanche."
+  },
+  "meta": {
+    "cache_key": "e824271dc154be7daff95a9c9da880bd3d3719b58c754e63418e7e866462c536",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

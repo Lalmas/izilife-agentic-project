@@ -1,0 +1,104 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:39:33.439949",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 33,
+      "title": "Visite en 2CV dans le Vieux-Lille",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://reservation.lilletourism.com/lille-en-2cv-decapotable-en-1h.html",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "balade"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "anniversaire-adulte"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Visite en 2CV",
+              "price": "76.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Une activité à faire en couple ou en famille, pour un maximum de 3 personnes."
+              },
+              {
+                "string_id": "parfait-couple",
+                "confidence": 0.8,
+                "evidence": "Une activité à faire en couple ou en famille."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Une activité à faire en couple ou en famille."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Une activité à faire en couple ou en famille."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Une ambiance conviviale et chaleureuse."
+              }
+            ]
+          },
+          "primary_image_url": "https://reservation.lilletourism.com/medias/images/prestations/2cv-jaune-753648.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 33,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 74,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:39:41.069889"
+}

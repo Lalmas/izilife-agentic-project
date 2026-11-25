@@ -1,0 +1,135 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:46:25.344170",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 69,
+      "title": "Parcours des 5 sens type Fort Boyard",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.babasport.fr/activites/2499-sensas-lille-parcours-insolite-fort-boyard-a-lille-evg-evjf",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "action-game",
+          "minimal_age": "3",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "enigmes",
+            "escape-game"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "evjf",
+            "evjg"
+          ],
+          "age_category_ids": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Adulte",
+              "price": "25.00"
+            },
+            {
+              "name": "Enfant (7-11 ans)",
+              "price": "21.00"
+            },
+            {
+              "name": "Ado (12-17 ans)",
+              "price": "22.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Une activité insolite, ludique et solidaire."
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 1,
+                "evidence": "Explorez l’univers du goût, du toucher, de l’odorat, de la vue et de l’ouïe, souvent dans une obscurité complète."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Enfant (7-11 ans) À partir de 21 € par personne."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Enfant (7-11 ans) À partir de 21 € par personne."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "En équipe de 4 à 15 participants."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Un super moment en famille !"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Le parcours insolite est accessible pour deux équipes de 15 joueurs simultanément."
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Activité en Intérieur."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://www.babasport.fr/images/uploads/activity_attachment/path/10152/Parcours_insolite_Fort-Boyard_a__Montpellier_-_EVG_-_EVJF_.jpg?fit=scale-down&format=auto&metadata=none&quality=80&width=750",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 69,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 112,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:46:33.097957"
+}

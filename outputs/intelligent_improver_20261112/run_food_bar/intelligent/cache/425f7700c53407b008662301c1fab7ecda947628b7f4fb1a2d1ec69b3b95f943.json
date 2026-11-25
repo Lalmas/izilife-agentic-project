@@ -1,0 +1,103 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Une table de réservée pour l’anniversaire de ma fille"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Une table de réservée"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "Une table de réservée pour l’anniversaire de ma fille"
+      },
+      {
+        "string_id": "lieu-valide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Note Google : 4.7/5 sur 1024 avis"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Nos plats étaient très bons"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "une ambiance chaleureuse et conviviale"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Les frites fraîches et la mayonnaise maison"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-enfant",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "pour l’anniversaire de ma fille"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 12:00 – 15:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:00 – 21:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Wavrin proposant des repas à table le midi et le soir. Les avis soulignent l’accueil chaleureux, les plats et les frites fraîches avec mayonnaise maison. Une réservation pour un anniversaire d’enfant est mentionnée."
+  },
+  "meta": {
+    "cache_key": "425f7700c53407b008662301c1fab7ecda947628b7f4fb1a2d1ec69b3b95f943",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

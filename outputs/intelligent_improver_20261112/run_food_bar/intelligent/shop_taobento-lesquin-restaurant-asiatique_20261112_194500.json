@@ -1,0 +1,583 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:45:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "taobento-lesquin-restaurant-asiatique",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "taobento-lesquin-restaurant-asiatique",
+    "status": "found",
+    "data": {
+      "id": "5638",
+      "name": "taobento Lesquin - Restaurant asiatique",
+      "shop_string_id": "taobento-lesquin-restaurant-asiatique",
+      "unique_id": "b7b87aa5387d4422a4bd8ee9b05eefe8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54897",
+      "principal_cover": "54897",
+      "qr_code": null,
+      "phone_number": "+33320771505",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "970 rue Maurice Herzog",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0943941",
+      "latitude": "50.5821617",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:30:19",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:30:19",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJCz78WbbXwkcRAmkwLd4xJiE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJCz78WbbXwkcRAmkwLd4xJiE\",\"rating\":4.5,\"user_rating_count\":1374,\"google_maps_uri\":\"https://maps.google.com/?cid=2388651482677274882\",\"fetched_at\":\"2026-11-12T19:44:52+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Jamais déçu de taobento\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T11:52:02+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"HUGO SZYMANIAK\",\"uri\":\"https://www.google.com/maps/contrib/103237896359105100753/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWFhXYaH9DTyU40_ToX1nUdEpmcCMxcP40fhWIhXtCjFo0Ro201=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T11:50:40+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Bgt Bertille\",\"uri\":\"https://www.google.com/maps/contrib/101038365402560199365/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocITtMibBClT6JrkIDMrimnoGAWIrtEnD-3e3_t-2maJlxptbw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T11:34:18+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Laurent Duriez\",\"uri\":\"https://www.google.com/maps/contrib/102975626927799975849/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXZTZY7dJxj2QDyR8MC8IAMkasbCngIrFYFchGYxaIpAV_35PtE=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T18:31:47+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Louis Lemahieu\",\"uri\":\"https://www.google.com/maps/contrib/116060612373305381917/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLfgGljBn-_Ph4LPpdZWk24enpb_6takHD-NzYFBPozW4ydVA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Excellent :)\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T17:54:58+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"corentin aoudache\",\"uri\":\"https://www.google.com/maps/contrib/105404560631990583091/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKMNe91wCSZl3eRHnBmpcPnP0d5M8YhrtKAwe7zk8_Kx-EjpQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:44:52",
+      "google_reviews_place_id": "ChIJCz78WbbXwkcRAmkwLd4xJiE",
+      "source_id": 5638,
+      "scope_type": "SHOP",
+      "scope_ref": "taobento-lesquin-restaurant-asiatique",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "taobento-lesquin-restaurant-asiatique"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54897",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5638_6af39afbe1628.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4700",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32635",
+            "source_hourly_id": "4700",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32636",
+            "source_hourly_id": "4700",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32637",
+            "source_hourly_id": "4700",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32638",
+            "source_hourly_id": "4700",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32639",
+            "source_hourly_id": "4700",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32640",
+            "source_hourly_id": "4700",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32641",
+            "source_hourly_id": "4700",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "taobento-lesquin-restaurant-asiatique",
+      "google_place_id": "ChIJCz78WbbXwkcRAmkwLd4xJiE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 21:30",
+          "mardi: 10:00 – 21:30",
+          "mercredi: 10:00 – 21:30",
+          "jeudi: 10:00 – 21:30",
+          "vendredi: 10:00 – 21:30",
+          "samedi: 10:00 – 21:30",
+          "dimanche: 10:00 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLerPhLe4tAQxnYnbdPEj85e7LELvOg-s7y4jZBOwI4qJdxZm8-D8VtTo_U_YVLUWoIANxHg-uRC8Vl9Mef41SBuZftXjQ0-smEcxOqEGafGKFSBbN48TKqZoYYPSfj4_gHwYD0D04HMrHfw_er-Lb98aVZiXsz-QIsFqbieAEpEDiVIWeb66el2ffkMbsu6mmUZkemYnywmgLEb4sgf7nTEJiK8wJEDmnciRtk8j6tSc_yMnLQ6Wn_403cypzKe0DMfRwLDSfO2T_BHFqZ3NDbRIKPT7FCSEo3DT0dHRePuCGJPsNWkXQV2vAHtHZBULP0jKdo-d7AyIJ_F1OMi3lJRV2uODEg1sL4DV8QBrx4KWBVHLpH-Rcn0iK_ZZoO_w6pyPhvVNXmce7QR3RP5pueIVZgo5z_s-615GT4QqJ8h",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106400027179145916448\">brigitte alonge</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1080,
+            "photo_reference": "AV-0GLdP28PjoT50jcPTIIW7WKfPQ_xOdW6VXDrRhAH7vL8MUiUVicDadHleVOOo16yJ_ojtjEcMsnhgeWPMyo_EprSe9WrvSPXpg6yLmUYTd00QJ2YY1PsG-6HdQFRXR6T2EMZP6-YE7EFEgt7U0WXaHdNjDwbhBrzgDjqdrsrJd6HG6o6KFF54recMkFF9vihf-RoyI-xL4pIzjHSD8C2o3wfAUIP_Miniw7Ys3zh3Jtx51FWGbagbTGWB42DAOg761Agcq9V51z7LnNP5ALVHUIIv5Tgeb4AZMOVufa8OvrKpAWhwkxDZCmPbYSBxgnxuIAY232EocGxkRRYJNuai7OvV2uEqF-CMOPBXVCqxjQkLjtJfH0sMc7bziqQYAiz_bGBKCpvBCTvG8WIlwLqgHQD97_qFheFbArNIJ35OcmJG0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107224511633881817812\">taobento Lesquin - Restaurant asiatique</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcPSyAg6ryiWFu840B5cOVbRTYKi515Q0dmk7e1VmuT1SR3DKl1Pc97LMhS4XD94lFEezlxFMrfcgc5TZPDWAm-rbvx-XThj8Z392zZvzsyNTJjsJndfpOhx6-JeYgQAizZDyZKchD25STFArikJdfuQ7Ij61qaIgVNEA4BJBUhxAY6y06BQy6Js2so604H_lJoLGnBFSRce51n12VgXSNhpeeIpqssnNxL_L0EE3rATSsqcb-W_46D_sQdfRrQZJloKpfnLy9oAG_IVncN4On5ZebQOBRCqRfe3DMKbzMQT-OAywqqYKbxxvYoGHltDBDjL7cnTMIGLD8ZrUiwIHdt_-6d-P7RpResXaXveZDhr8qsk2q8e3Fz3afF5L9NHXKa83N93FqhOdOqOEzADFab2-Cw_Cz68xI7QUsuOjRW",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104650838699339253052\">Cédric LEFEBVRE</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfO9pEQ0wMwXoW4ND59b9x_2Gh3iiUEsJI4di7Kvb_k_RObOzg_uJ88OufLcM_k2JzIntZSe633McSY1nRUybMBFkTxDiYeii5QFpvuR3B33BiYyAYxVfrbgXQ-8jsr1605d5FHJZfP9W8ApyG1OsMtAeCj-xkIzfa6aJIeKupzk-E2NL_b_oE4NHqPBiGkDeGprx1rLpwiJsBMKH_set7CG7XrMFzqMj0A5zA0NFoh_GFBYImZzywCnR1VwoHh_Gz_lnydPnh4-wXKJ298NQ_QCtFdEY7SZ4TbOejZbAntC3OjmxDECuMt76mwSI6bvQF2DeBvDeWPcD8-P4cs4e7op1tylh3px5oYEKLMGPVftxi_JHDfJAKL-eFawLFsvr_tWYfPme0o5YNCr3T40dF-Viq6lgSa2t9SGed5e8k7gA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108323005174084320699\">Meï-Ly Muszynski</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLdwhPLRISMHX8xGu75g0TOJXxJeOxMahbaYkT8quntgLn4SuGqeNMXTC5WufUAL0YHJOJ57HHpwDmoeH0kGqJfuQXSaV476WK9BGi-7MY_bQKPtQCf7eaJeChGV1IvTdrd8XwraR8qfAmZcZYTPMxK24bA2vXbW0kCdZt6MAx504A-uAHPidxb5gBt7hxBTB1hCcyFdrtQK1lyri-_suucCSYiVCaS2kThj--Zxqtg9kSbe9FNlaEu7b2Q5pBuYjODho7KZjKoizp6W2bttCzAB_r9ghudcDTVz4GkkzklMucOrSl_nefAj1rj49KspBJMNXhx-rbuOsnqHoif3DiPKsP-_v5IbJujCZQy6jwKIN_B0HpIrZ7i2gLbnyJAr6QNGPB11O3ytaC0C2Cr_g1d7RWxeMxDVuIteR0poNtueCQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104650838699339253052\">Cédric LEFEBVRE</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3193,
+            "photo_reference": "AV-0GLf5cJWL_ljnOlqDTe8yxbbVfmFQV-pg0AuQZZQkHuaNJHhO-AZzgKLV18uG22yLMPwqBnfDI63429pp8Af4whxOE7Ej1CxTxLYsjoN4r-czSjXoGL1coSxiY--w4ZF8mRa3IGghHWIUEcVGuXV4uGYm4oY7Bpdrft08EFdU-0NNWRCAa3TwiyaUMHNJrVQ78uw4SFe1i7Ew0wrHdjBKhiH8TZjAjknXK4im5Z4S3zv0x5Y3YFAqEKUgat6OVRDJWZsMzGlX3T4aX7rY0IfE0bkCsw5Fc26-ynyzD2GGDVlaOVYwH32w7rji9GwZGkskhGHE_QHynND10cJkUndEGdc2eA4BiQrnUaHP2266EBTHcVujW6zZBBzc-V7E4P1Knj40Jc21B4btM3V_oiwaOaksTg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107224511633881817812\">taobento Lesquin - Restaurant asiatique</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLenG9aZdODI726gQ7en5LMZ4LAlGXARVIa58rMFC9YxaoegIGaNkYv0ErM-nPYm8jQXjmYbH8ch6eA_CT8cTYouQEyRS2noR_lTrvj-vpWFo_gh-7RQIteZeYFw4TLYLHL_nhs5hY2hh_gSKhMiFy8EUIvRJryIaQ_4MDTBZifnEAS0oZmh5NdZNCuPFEpLLSRrmkzOqQf2Px-SkPowPxadkEv4bQUQhZ9P3o01_OJu2IzZ1ulDllNadv7P6OwyBjYd7scQ1MhUAo-QBa28h0yBSY-NuUqWGfxFKNsFlhSR0o6Rk8_zdL9GY-3pz69myKX8wODdOsKRpA24GPL7j56hn32wXzKuyAFTe0Y79RFr-QaSieDrVM-unkJxvDDEqd3W_iq6-h6YhTPd7UJvEblpFV72jkSy0KMg3Fh1gNIVWw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110435036545213133168\">Gwenaëlle Schmutz (Gwen)</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf5zvgHXeBRqUOIkM2KbRxYVP3IYicSUMyxK78mXn_WuksZNBMX869bNoSpCogQltcR9VLdQnwitHrE5-eP61ONI0i870OW4wN2OU2FVQAT4lvI4GTevQox_YVqvR8_IjmzAp5g8_7nu2UcXzeLzIK3NCjzxCeuJdqD9chOpFqHMIBjANg2Qe6VpFTOrICNxlTw1iLqyumCpdPN3axvwGcf0WH1HPYO-xVznVTSZhvbFXYVVBXfJZuEEVFq7wZZ7wKZrpyJDYjXCqVPh5R1OQCHcifQvgRH1-HQjs0TLnIurSKVuWVrTh72OqFsnppbCWPhbCIOBOw1Esxf10L9GQ7dTOWibxnuXPmK8LqU0biJ4tv23pz0fQjdZlUGkONp8cF_6S9n39_5JeYPQlPf1ceqcb2_TPYCwQV1RDvkuR1m",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111069224806225978310\">sandrine ds</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdZGvt2xRVXavYF-qSdIkqXKK0bjG2DUj5ol7dlYgVlJOUjriRcEoFKA8zBNcXI1CppVp3Q2D61FVfoLniVyFDmnZf2Vsbyh2pdd4-CccR8HiBuGWx_VSMthOiPgidKNzwzX5i80YXUlvwc73lKTfOrAOr4QzX332h25nLrsfKzZasiMx1gpa8nZy9K4AtBeulpjlOW4AVJ4122C2iNxPPaBduZJZY5107J0it-VUAqGb_FaPYN45zdzw84VoOziGtux-cYpwBh3ef0r1OSm9EfHfjmcPnXCfn-CoODbffsk5kb6gqwRCkmoQRd8qcsilx01c6pJCfNsuMVz-5NSE-MW6Y5vii7Boh8qn9aBx41m-PGPrkCv7WSSI9a0RSNrvWTlqjWrX4SMJ3-za9H9gI6pCtiwaWGaSNxNcg_OwF0UQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110565638784687771904\">fatma setti</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3193,
+            "photo_reference": "AV-0GLeSi4lNi5CtzQ9Siit-sAQNjuYHkycn5IAn48U1DUNT1nwX4B_oqv3f_UDDxnxIajiH-nM8xWAo9BvsSTDS_TQrx3AlUBlfgmTtW3YKQ7ltEpyXpcW5pl-EEpfQH4uWZoUtPt1kAw2cElO1c8jwNHVbNoeYwZ1xKpg4ICw6l1cg8S2fR7ZH_7PAgt9GhXAVSWlGOyS7FBJfcSa3-LtVOGm-INmP44vfaFHQFRib5HhmUvg8FQ7yUYok8czJ6TlWokLy-Yy2SbHuMnlK2mQ0ULB6v7uIzGi6uQuLgYCcYTPeta7Rd0t_ykkmxvyxZ3aUIWw9C6_G2Hc8BQnkkYcR7XEeGmru4r84tJbVICVXd3bMnsOplTEXVC0IRDziKbxGLQoafu40Kb_ghG8RHY_LXoCYpekDMxU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107224511633881817812\">taobento Lesquin - Restaurant asiatique</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5638
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Jamais déçu de taobento",
+            "language_code": "",
+            "publish_time": "2026-11-11T11:52:02+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "HUGO SZYMANIAK",
+              "uri": "https://www.google.com/maps/contrib/103237896359105100753/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWFhXYaH9DTyU40_ToX1nUdEpmcCMxcP40fhWIhXtCjFo0Ro201=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-11T11:50:40+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Bgt Bertille",
+              "uri": "https://www.google.com/maps/contrib/101038365402560199365/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocITtMibBClT6JrkIDMrimnoGAWIrtEnD-3e3_t-2maJlxptbw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-09T11:34:18+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Laurent Duriez",
+              "uri": "https://www.google.com/maps/contrib/102975626927799975849/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXZTZY7dJxj2QDyR8MC8IAMkasbCngIrFYFchGYxaIpAV_35PtE=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-08T18:31:47+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Louis Lemahieu",
+              "uri": "https://www.google.com/maps/contrib/116060612373305381917/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLfgGljBn-_Ph4LPpdZWk24enpb_6takHD-NzYFBPozW4ydVA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Excellent :)",
+            "language_code": "",
+            "publish_time": "2026-11-08T17:54:58+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "corentin aoudache",
+              "uri": "https://www.google.com/maps/contrib/105404560631990583091/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKMNe91wCSZl3eRHnBmpcPnP0d5M8YhrtKAwe7zk8_Kx-EjpQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 1374
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1133,
+        "bo": 95,
+        "front": 1038,
+        "estimated_cost_eur": 3.325
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les informations fournies ne précisent pas le menu, les options de consommation ou de commande, l’accessibilité, les équipements ni les publics adaptés ; ces éléments ne sont pas renseignés."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": "string_id",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": "confidence",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": "source_url",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": "evidence",
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Restaurant asiatique Taobento à Lesquin, au 970 rue Maurice Herzog. Les horaires fournis indiquent une ouverture tous les jours de 10 h à 21 h 30."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "taobento-lesquin-restaurant-asiatique",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5638,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "7f09145d4cd90901f9a1b8bd7e20bc3a259c2f6355a2cc40487f08beb06ea505",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

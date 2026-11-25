@@ -1,0 +1,28 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune référence ne précise les options sur place ou à emporter, les horaires de commande, les équipements, l’accessibilité, les paiements ou les publics adaptés."
+    ],
+    "summary": "Le Norzone est référencé comme une friterie à Fretin. Les informations disponibles ne permettent pas de confirmer d’autres caractéristiques."
+  },
+  "meta": {
+    "cache_key": "26e5bdcddac689f3bd8fcf9ce8643b6071993e6282c424430ca558e047baec8a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« deux sandwichs vers 13h »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« plus jamais leur snacking »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« deux sandwichs vers 13h »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« pain polaire au thon » et « pain bagnat au poulet tandoori »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« primary_category_ref\":\"boulangerie\""
+        },
+        {
+          "string_id": "snack",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« plus jamais leur snacking »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Ouvre tôt le matin »"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« deux sandwichs vers 13h »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "application-externe",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« On commande sur une plateforme à 8h »"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« Une fois que le livreur a réceptionné la commande »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis récent du 3 novembre 2026 signalant un sandwich au thon jugé impropre à la consommation; il s'agit du témoignage d'un client, pas d'une vérification indépendante.",
+      "Avis du 13 septembre 2026 signalant des articles indisponibles après une commande sur plateforme."
+    ],
+    "summary": "Boulangerie ouverte tôt, proposant notamment pain, viennoiseries et sandwichs. Des avis clients récents rapportent un problème de fraîcheur sur un sandwich et des indisponibilités lors d'une commande sur plateforme."
+  },
+  "meta": {
+    "cache_key": "c521e4a8bb823bddafc539402f4dee9e10182a6227a91a7af2d86d77ce258664",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

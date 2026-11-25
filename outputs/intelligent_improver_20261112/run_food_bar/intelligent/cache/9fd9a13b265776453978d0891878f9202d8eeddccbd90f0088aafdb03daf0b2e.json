@@ -1,0 +1,45 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "restaurant-rapide; avis : « rapide bon excellent »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : « restaurant-rapide »; avis : « rapide »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : « restaurant-rapide »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Un couscous absolument extraordinaire ! »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant rapide apprécié pour son service et son couscous généreux et savoureux."
+  },
+  "meta": {
+    "cache_key": "9fd9a13b265776453978d0891878f9202d8eeddccbd90f0088aafdb03daf0b2e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

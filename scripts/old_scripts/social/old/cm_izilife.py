@@ -257,7 +257,7 @@ def call_llm(system: str, user: str) -> str:
     if provider == "openai":
         from openai import OpenAI
         client=OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        r=client.chat.completions.create(model=os.getenv("OPENAI_MODEL","gpt-4o"), messages=[{"role":"system","content":system},{"role":"user","content":user}], max_tokens=1500)
+        r=client.chat.completions.create(model=os.getenv("OPENAI_MODEL","gpt-6-luna"), messages=[{"role":"system","content":system},{"role":"user","content":user}], max_tokens=1500)
         return r.choices[0].message.content
     client=anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
     msg=client.messages.create(model=os.getenv("CLAUDE_MODEL","claude-sonnet-4-6"), max_tokens=1500, system=system, messages=[{"role":"user","content":user}])

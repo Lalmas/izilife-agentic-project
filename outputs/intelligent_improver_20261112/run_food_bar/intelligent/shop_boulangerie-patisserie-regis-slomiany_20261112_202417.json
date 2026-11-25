@@ -1,0 +1,509 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:17",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-regis-slomiany",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-patisserie-regis-slomiany",
+    "status": "found",
+    "data": {
+      "id": "5794",
+      "name": "Boulangerie Pâtisserie Régis Slomiany",
+      "shop_string_id": "boulangerie-patisserie-regis-slomiany",
+      "unique_id": "816b33839ce4dd9f9a617101de232c3d",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "4",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55048",
+      "principal_cover": "55048",
+      "qr_code": null,
+      "phone_number": "+33327425845",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "9 Place Roger Salengro",
+      "additional_address": null,
+      "zip_code": "59195",
+      "city_id": "360",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.4525872",
+      "latitude": "50.357569",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:11",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:11",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJfzIplYrrwkcRSFOBrPJTDsI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5794,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-regis-slomiany",
+      "primary_category_ref": "patisserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "herin",
+      "string_id": "boulangerie-patisserie-regis-slomiany"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55048",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5794_6af39fdf0dba5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4852",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33699",
+            "source_hourly_id": "4852",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33700",
+            "source_hourly_id": "4852",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33701",
+            "source_hourly_id": "4852",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33702",
+            "source_hourly_id": "4852",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33703",
+            "source_hourly_id": "4852",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33704",
+            "source_hourly_id": "4852",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "18:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33705",
+            "source_hourly_id": "4852",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-regis-slomiany",
+      "google_place_id": "ChIJfzIplYrrwkcRSFOBrPJTDsI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:00 – 12:30, 16:00 – 18:30",
+          "mercredi: 07:00 – 12:30",
+          "jeudi: 07:00 – 12:30, 16:00 – 18:30",
+          "vendredi: 07:00 – 12:30, 16:00 – 18:30",
+          "samedi: 07:00 – 12:30, 16:00 – 18:00",
+          "dimanche: 07:30 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfGdWsMfyWbGiQ1z6wBQ7cMXiVEhAk4Nb5C16zU1TrBXdmZKFvC2YCnFg-RIfp-KVyOkE1ZeyFpJRlZX0rv4lWeU_HoHbkNCIo8d8FIXhbDqE8NwV_GjsagItubQnllMQmBeyJmqrqeygK4N7Az42bruBCFd8c_SNg1ZfYoYlvpoP7OXtXOX3g1xlAH-CJ4yQduJjAzWCES-lSgvdBOApSfYDcUOrfNFptz46v5iJhnNGAU6jOW-B6Cqdg2L_eUgywTPnKLq91k-5NI9Y61QMbLTcK5IDFZOZdv-71KR09Dr0V9_fYb2xfGI9P4HXTXHSfV-DmcObHIipTIM_bYyWl8JqB23YO7Nm_8BN_yntIeoZ0tVxjwNv8wkXY8U2UvzlTy0zSuDkQ-Lbl9SMJsu6-3Aahw68gOAuCIlrplJ-GM-g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 1837,
+            "photo_reference": "AV-0GLc9Wd9RgpMpLJbaVs38ApBvalusDnrvHg33pHr5KgcT-IPHD_GlwUeh3HM8J65-2jFLayOg8WuCpf6cfCZrwTJG5AEtNKhSu4uYpqRo6vUu0Ns1HMe7bMjMo-IlWWxxPn_7LHvjg1Za7F_-xfqp-gd3n1y9RWeWFt5qYhpU9caLVej9RotzxTC7XBzJGoEFRoue6-sxTCxXUN7fkNmgmCZaNuBDdFODrckwH41aqH-grZu0z05FPr63X_R9L1WeiLKTe3yI1IQINNdEPetaNIf90Cwy3W_cvGw32EgIZHfHGXEERTcUHOQIu7BLTU0brM3o4-o9JEyhlDJIJoiQXXUXphblJETZ0Zj5fCOywo8geBkzlExfAUZMSxNOnewDqAhGtodSuTA8zP2LtuAbGOkDrfi7FPJQr86-MO2heX8l",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc00qORASNuHbEyNdIhS1xSmpftdRcJsQw21D8lMJHIFB6kSdjtXN0JGncLlmTPFeySyLD1s7SBD8Ie4q7LzohnEGsuR4UXZtxawNNChGmMQQncT42E1EzloV4mZhsE5v-Si3_-7xhzqYfcAn8wg27dpDKOpyI6TOuf2pMhYstMJPhwMTMrwZzggVzfs02sg_JgLgc8mKctNoORt2A4q3OBk0SlP-c_3gaSpr2ZW67cR2HJY7OOEPjGQ9WnVwFHa6OJHOUirlIX3bx40sqB6d5HlostFEWwK-p6zMQoAX043wNbDk-d7Jt_POguRl11MPdE5EP9nfMsX3JrI_MlqtEovshUF-sayucnari_qM9gEXVWfEci_uVoZq5mKLdmHBC_ifqfDYCIqjEcwRkUd7THgd4_jj8tP3T0QTIJnqMz4g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf50FeMUJqAKcbg3YWJFWXjFxpMKofB-s93a7vLxXzoGC42KdkSsut5UMfTLYLwcPY0U04ndTAoRfOH5uEq1zOfDx7gGRo8rfh0PV52vd4dpq9bmCillFYYU0zqzW_xdK0HVCYDfQTHiHMytRCeBxe0ADtpULGjJwridJxip1cq67MxkONMLhaD8qVSXhPW5Q0M7cC29B5MKidVNr2e3DnQRKj6nasCfwdSrhzJn_YQLa23wIEFjdaCVzqnnRGJNzhAuDFy7FsMJtcGgDjBcvfocapa2sXzOdWyOYQf2fJcq7P1g890ANDORDbTf8Zvvqh0yNPKu-g-iP4tHsJiZ327kXEHMOnPCTk6XWFWZyOMoS9Nl9ggKkToG_xgzOwhIK7OCO7rXxPeCSVDJbON_cCAI_-zn7W7sJyOU5Rs8dHUTw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdAb8ftUp9kCMjVvf4ysZ4SDCUYeFfEVlbHRTrbownEvZq8StM4E-it2E4u-i5uTdYCm4I6SYz1uvQOX7iG6E_xxuNqJl9j5oVA53rIUAIja8BMh_E2uCQcsR7zSOS4k8ZCw2SSAbKfrfd-lBdRTYcdoJyh5s-pNesFbd-OnDI27DyE0HDWHrY3bPYQXrmLOfwLx2qjA1AQ8wxbXm7EdusVpTXI6uFmazQIpCpOq2-rcmgqZ91nV2GEh5AHyVTt8R2EGoxEXxlIDJGOx0-UHhiBaB9dKyRMLbiyQSfIC6UzCIa71TxGGqE5RI0Z99ns3SQq1hYnKQO2BiIRTvJOWBktODeAQg04yO0wHQk3876uV3KR2UGp9RPr6A46-6w58AkGSGS0JIutAofkRqqTm_NcBtxggxswFXrJxVF37PjdfA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeVjOrFYBwhqMTDZJQEW_JV0FVe-NaZC5MF9RYw-E_bxOPb5dCVcEE66qcbLq7Szr4uDXDDckd-eLZeN0xsAuMw3A7dUrcJTbQvU36tCUkJtJDazDz5H-S_Z9Nmsz6POhHMCHalQ5i3JxbBjfbtnML9pmjAfTj7PA_Q-JM9pg3wdaRQoZItM8zCpS-Fo0mU3hkpvc6FJn5BQBiXqaAA9-RyWCyRIk_vMhKeEp84BeQIa0YA3P1sCVgXijJ_EnqDpkh7Gfk73cWyx_nVbXdxLbjtuY3HgACL69b1DWHl_uwRHBnZ5AKrClaL2Ba_a_qC7Qdf_8EkDOJkx3PlbWG9EjjP6fC9ci_CTHOWo6PAXUvrTViauOgNtQdmgGIAWAVNu5CgHzv-z-5BjOGIzUZt_u28CT8YvNKMBfNu6C3D11cu_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc7GITJwrgbXGt873huogTSKQgKNjqPWivULYl0zRP6s6XWJcZgIzb5xa9-rWtZbg_aQ68plOycLcddzAdsTGYyD72qo9YcJb_G6rt5OLlZ1kU2ySx6B-O0c73kxz2UX-KRTYT8vpXdvhY2iZpZtGRM3oX9bBeVe-gUydb2LLmaqX2WDATNKGgv-vNwxqm8PAZsFGmax_zUljV1yw_lUG_LnWh_0RGqBzy-Pbw39wp65p63HFc2CXQKGRrRSG8lVHFzeDwV4nIfHFN236GdWoTCoTlXt4VceoII_0Y7sy9wEgtNTyBCknfFCgVH2GOWh8bcyHxgGu9OMOCxOV2Nie2A-URnVl3WJ_FVqWEvEiC8vyqczVqXLSL6-I6cOqeIXzea3NuK-x5-BJVndlDniAnSRTEEh9KUd7VFbvSHlsnITQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcy6LcLVD3XT02oMOn89QJS5gkV574OPv8_cWhiUSI5L043FDHdnBksvM6jTRBYXYv7EqRsgEto4Bs6jwbo45j0IfhIhhwoVYkmhALON8WXG2Mls2VclUIu6NPEprNS4wmuP-NdKs34ijdR8wBFV4DuHF5-lNWgFOB3UBnzgB_wUKjH7U8w8X8qxpXJ4VUmPsf_NtXSdK6GpM5JgVjsZvNDn_3SaKlN_SDyCLv4QGN_EjGoBhwy3LrjG_-g5Qc2Z8Itndp1iCp9dIFCGH2NqFCvOZA3UYAv1xuhZMClhodyqt0ExhCbXEnQDSRSY90acRh0Zopd9FxMkuwUxTsaFsJxKuEERQpJq8Vj0ST-Nb7HtOl-y6gyAH8R5V7ALp8eJvoSdvuXsjiL6perkxeiTNn-FsTpfnPyJtcrg107GsQcXw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfmWO0etvImJ0ALg30PKlgLEVJpq1yrN0NF6xruaBrR65roqHMn_C6FWjGoi5Qxrtt34_zKz7kIwVw_OuVkbIBaD2sKrRqFbLYvZkyBn-waQFTH74hGA0zVIhNIeMVfRcyxYJKh9s_3KAWRlepORy-qU37AX5HdIwHzH3GzQbrsgzwWqdiF8SZkj4_mc2LkpsJDGWPbMAtEpOc_9xLwHi40PnuUxk7MhY0kQ2DjwM-vevyZoAUbsBuE9GhewenzQ7UO1mk6fwIcKejW77x4qyZ5sj_i1IDGZkY5_UM3Wb2odc_YcRDWZpbzUmevTdyFQ0mp-8lIpGflp_uAQzO0LpdD5GQsfqoHrBb65iLdZSqbv7AHf9taNmw1ay9KHi5ePdVDKHbpB0Zu0p0v71Bzy3CG-DEil5ESX9lVvdIPdJ8D",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112528474295700015238\">Boulangerie Pâtisserie Régis Slomiany</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLe_wPCv6dPmuvdRzPJR0RYJ5Jm36VZuHAPqOPs4VbI9Q6oB0D72yqLJRJ5twqbzV40bB0eJbioSSe7RP7Hd6u9GnXI2lLO6z0p9QwEe6wZPZZfvbXduqhTVOKHk8HAsDBx1itwyIKzx57bhi7oN529KzXr5tHTIwU89BYigXAvrth9dgDQwmjV6vRrdHZ0sbeMUfDUBYqtaINGLFb8ipMrBaXLrCrWSsO8m-UGsVHSg_3OrfkaVXMfZPeHBeTLIJVGl8Ggkjc2topeAUn1PiJZY9POVXXhfR-4jPwnbIT95qL0iCncGFb-ooFuPmQXhnCnq0isuGA2HcWOg2QgoByGyRxgPCgBKUHN2ex-IMcjewGjHuwf1HJdfoNVmp1MzYg89-wB-1dT5OEq7fRu7Xyoo3ZfG",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102279418870559781931\">régis slomiany</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5794
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Boulangerie Pâtisserie Régis Slomiany"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: patisserie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 07:00 – 12:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Boulangerie-pâtisserie située au 9 Place Roger Salengro à Hérin. Les horaires indiquent une ouverture en matinée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-regis-slomiany",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie",
+        "patisserie"
+      ],
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5794,
+    "changed": [
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "3ed7c23a70979923c72b190868f392099594319adc5db741df2edc48f249bf2b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

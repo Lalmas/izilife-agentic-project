@@ -1,0 +1,536 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:17:53",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-3-toques",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "les-3-toques",
+    "status": "found",
+    "data": {
+      "id": "5751",
+      "name": "Les 3 Toqués",
+      "shop_string_id": "les-3-toques",
+      "unique_id": "698da4c6a8919f4964e8d94e778f97b4",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55008",
+      "principal_cover": "55008",
+      "qr_code": null,
+      "phone_number": "+33320963446",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "43 Rue du Capitaine Lheureux",
+      "additional_address": null,
+      "zip_code": "59184",
+      "city_id": "78",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9014824",
+      "latitude": "50.5610015",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:45:20",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:45:20",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJYTCGef8r3UcRHL2bQuYjY6c",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5751,
+      "scope_type": "SHOP",
+      "scope_ref": "les-3-toques",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sainghin-en-weppes",
+      "string_id": "les-3-toques"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55008",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5751_6af39e807297f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4810",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33405",
+            "source_hourly_id": "4810",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33406",
+            "source_hourly_id": "4810",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33407",
+            "source_hourly_id": "4810",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33408",
+            "source_hourly_id": "4810",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:1",
+            "reclosure_hour": "21:15",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33409",
+            "source_hourly_id": "4810",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:1",
+            "reclosure_hour": "21:15",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33410",
+            "source_hourly_id": "4810",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33411",
+            "source_hourly_id": "4810",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "les-3-toques",
+      "google_place_id": "ChIJYTCGef8r3UcRHL2bQuYjY6c",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 13:30",
+          "mardi: 12:00 – 13:30",
+          "mercredi: 12:00 – 13:30",
+          "jeudi: 12:00 – 13:30, 19:15 – 21:15",
+          "vendredi: 12:00 – 13:30, 19:15 – 21:15",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLe_TI4nuDaP8F3PKLoToBOPhEmSXSk0sR-weTxAYWUhr5k-EAdTsBIXpGHW2GBwer2MhfRnxuJVXVHjwOzmTQtyW0jQWYU09fXEK8PCcTrjEMClHJusAyB-rvTIT4tujlg_-Hm8nKzye-f1wA_CzRbahK6HnjrQBlWXmfRuFOuk-GNysg0pFck0LOcNA7neEHXADXLqY3mkQ4VIhN-_o2hh_t7VvE--n0LhxRPT127WzLx4F16SC349EOow5jvqzvoboNax7PVjZycYPSVCTh4zj4WYUu7d9WpGBsQIiAbIUSSTxn7qgZWYyZHwVLdoBNqLa7pk7dhzwUfDoj7jt9VEvwR-b2hzVJyEmvYwt3RDURaZWBKbm4meKYA5lvZRQzS4X0XTWAPlE0qAcJlCfth6QuQ9dTz0akKH767Rzgwvcg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105840564922452498823\">Les 3 Toqués</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1066,
+            "photo_reference": "AV-0GLfDC4AAv9jjxp67ix4T9Z685Fzeid-b7XWrC21vTe35uZuPW49-1gl64Oc8Oe5D40ZqcqjW77OWPtepXLwWgUe37-reDfp-2g8PAYyGaWhFrUVQSLKbb6PeLh27dw1983--QRUs1qGcy4_G_dcYmSzM1OzDpGnAMOECijd3gMNpBMGQXyY0iD4AAZc-Vlg_Lhy_dWHYZpbHPm4B9MMHTgdQ--rG9Pr9wQP3TcTTeUTpq2DdALHmBnwI4BY3jZfD46j9V7pV4Op-DSaFyDhh4dqGBXPB1OM3pZNt7vKhlkZeDa6PoJNIGzXAa-zR-Z3bGBNYBKKsOGhgFHezh8eFfjw5gU3vLp5xnAIjs92_WCaCNhMAGgUSh_ST64A2EJAP3fSN-lensXQkiRtZihAPKdGsP7Wb_vO_GV5mVGNP3lvQrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105840564922452498823\">Les 3 Toqués</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdJAyWYQg1xlFWwH41YrVMpbOb7Fsd6SYFHfiS1gQseTkBsYEnRynbqW4o9eLiat5PLZl_2YUia0GAm-rrPOgUD5yGV4eqzFfLYfTfpJtKsEqPfIP3RjkxfrpcHeF4OQOna9IMzpNn0RNY307I7a46jV-FPKAvkgavc_0-YenjfLu3nNbKRFLywEGSNAjoewxlSb9-ePcR05ayT3_CHm293P6ZUUiLS_pnXqYa3ebPdAtHwGuZ4baEPE2PWfbdA8be1YN0gK6bkAQgLtCpDyFFm3hmOqc6LEZRf9gEZYQ5WEF1O1oKujLICyZJ0cOq_qKbTD_wXJn9XIalW6QqY2GuXv0XbDsj49OKswZt44HfdNVdVrotdwk2-WJedGTS4Y6IePaV4LoAA9Oul5yGosS81odLs_Ka5MaJJ_qe1Gc8vqw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108068393412408350884\">Cathy Noun</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfXSaJ9h2p1-nyZLABlvJzLBp7BjiwMoIC02OTXYWQi5-RHKVPY8IEFLc2dKk5Yh27WTZXhVoMi8K4fvqKUEyVfZmPJR3F9r7s88WcdvlbtOcimgCPLOSF9VYknFS2vMOOI21Cx6C5-Y8mkAKDH9WjhEmkfGQ6b0ZgpaKjwlUC3dqPAKbxD3n2bzZewQrw37AqzZQeTWtcNO3OXgpYAI0KRmNDvudkLFBUv1FDKTrVOha9IlA3YufMozzpsUlA2RL3Ji0vUI5IW0GyzFsb20QxsIu4ebTjQMDwaWGbidb1HfHrqx9ypsIJ8mhRnVDAUvF0Uu_ZqIyeRjBv3bJzPYn41C4vC7gNUEpC232r2VF8XTGu4CqUBmVgMPxjhBub1v4krk4r60q6gJuGfF3CgHSlOfk-lnj5GiPIgRwdRsd9Rvg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117404407489208826351\">Richard Bastien</a>"
+            ]
+          },
+          {
+            "width": 800,
+            "height": 637,
+            "photo_reference": "AV-0GLfLmRzGEalncEHF8MyBg-dO-VjT20SvT7kkCdDk4PGB29UUKkg-NoFF5rxNZMXC50kVxzRCynG8QQwsT5qus8pbFdfXkINx3CxHmSfymhgsO2THCUS0x4_LE1zBOAHmo5gocJVGwcmnU6qFZMCkryR_DY_CwwG96QpsGr2b8iez4CCmw31lgMBpamEamaNwNtQ2eI39XH5jZChYUHePhvT2OaJNpFf1Eb2SCOjLtZW4cmff8WZ8rMJdkZivUlAUVjAtC7i6uKcpPAk5vMXQDsDp5qzZvRRyMunX5ZDofAR0vbH3C-LbD3IQJjLliVHGu8Rdgnx9d6lYzVd6rKTPSvxJ9iE3LatVhNeYzKC3CRtrmvKw0g-DGLAMhGuNKvSucR6yGUJmUfozO3AVH-Z5oKeW3c2FtpCrEmVdYv8AImIn",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115247792314997970486\">delfosse patrick</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1066,
+            "photo_reference": "AV-0GLe102niJxi4ulYa_7dQ6lY-IPxaJgjInKzPEBIPL0jKauE37f-J_lG-iC1IgBaPrxjVFU7mtVX40FJow-ElznweE7YlboC3pfUjdVO0HfMNYCIX5BBb99lUcgkTeZ_kWD5dxi747jkoeMgM4ZqJW5TOU6Hxq2Ah_GLRppxeOpKEBCPxAY8uBZbMIbGW9U7akMfZ6LFh9UDSDHtC-IkXxXHri1wIqlWlUtBi2ZxtnaxPOF9WxbwJtm_MT59zK1R88VkDSRuR7Wzpjhm7e7MwNvklM-4aMsVH5ndjXCGwUcBxRhwnNH7aWE8ySBEoe2Ay_1eXekPYjYgULtD_lgF-R7-7fa5HcmzxRMFxKOXwWIiHYed5JhVJ11-DhcrbDhqxXTqnLAlUKkjDjQhJLVpGOHvvSpFv7cKFUax2BnlABag7gA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105840564922452498823\">Les 3 Toqués</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc7v_DYtL_S9iWAeEgI5srzxfWKn-ClzA-q6n0HZ1BGVWcNprl252YmZWzAFrqg3FfWJ_VAfnttRgRzjdk5w3z-vJdr56cGPPYRGwroAYTqUEOhVenRa9ARR-mvVpz59_s55gpw252rkIZSDlT2xU2U-fHGgSqiuG7oPQsYBfXMY7t_Lb85nWREOyXO6j0qHxbeNK07Vyj66tdCERYWJ2fOJAzyFTMjYvlanLB0PbkjypQnFvTteMEM1E5vFNJFdepbBGpXuS45ZWKusxN6wqIlI-DvSeaFVDK4s1NOGBOR0ltjAREXUeVxczzz5LwhHfReR5K79oybgQVRa0Oqtm6I1v3oDRxe7EyrrS7lcJlIWdNvZo8VBe92UP_yUJ-hXyQ4YuwaXgT6Xc5D4XHt7YtRW6t3_6Qg05UWsquCsh56UA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105112666646481936468\">Céline A.</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfAhmJMABH3IcFQUD51SAOPDuMXdRAtLAORdPrMly3ZHoS2ZASonvnbxAwtOtUBvCsCR-A6xVVHOFUIzVjC2tRob-RID4vjYVj47riLessEtYBPS7uAXqDqCdAuzJg2S7maBV36vXJ202X47QhceIRlWJbA3ZnVb6gaTd2J6KOClosnn8Mp7hjNPjOm3NRwuwM5csjFw2xYmvV_yMNjl1ZmLOjl6UFZwm628G9HWPCFxH1vjCALObzPR938UTGSAZJDyk6bz1FfViTn2vmylQnBKGsHM5x2480O3WfLDF2T-ywcFJR_jb2YDm0lyBrnwMgpLHnUMMLTRz_dfDzSBSxpQsxaYffhG7eHGMyOXVsfC4lMXYYyLx6ziF2KrryVtxhzNESNAgtFO8wn5guqaPzA7uma3S9VohR6mnGAbX3U5w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108068393412408350884\">Cathy Noun</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeNDtOvl8yvZV-Tr9VKiaZUFZIo3RiSrUktGuXG-B7ChWgG31HlgTacrmyhR1NTgTaX-Z-pkr-hDc311_EiI7iQWvMOP-RoolmeP57rznhdwtTLdRDbzuBCNknzVFYm7Hilh2kVVmmzn0uTPuL5kh0_WMjsb1pzdOdwnJop47cU8MpIYtGyFC877Qpzse80w5yHTHKh_F8ykY_HYZq_xEf8bzgfUUGJF_TDtycaW8kMQzpHzluLsfhUrRpaqB6bxp76lKIO2ZAoon51RtSifwwKxl7AIFusn3aOy8bjdycLR6DBt73RRdMA3XTfPvznDoKl33JzVAUpkzvW2_XUQneD2MajzXdFCctx1k_VV2qsXHWwpOgd2510EBDLok9o0zBS5sbu3c7rXf3NX-NSjbTn6DM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101387148526141870714\">SidUzl</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe2jXHOvQnaAM0Bg3stKrSIJ5ir3SDOgYVLldcEHk3_l-c9mRX3zZxWstYpnVB0ntd8xyDy6OeZnbcdyRisAed2F_-kWoHm3uScY8nLUb2kXYn11B9rBAkCKZfIUKfCHT77Tspr4FmmUfam_LXxLfdB3NiNIpqMseOv0tvzp3GjHScUPKD83PkfnryP-TsLL3k4EJ0ZKrB6we9rTu69YV1xDNtVg5NCY-o25AJ1dZhHlpEjLqxA864-HALektWkzdtWdrNhFgdQmjvuylMEkpifKbspNMi1bRTKj_Jq6VeHPs6XA3Sp6dV1hVcxrHvr971lqFzR3Z-RJAkmEIs3KhOYpqJ6MlKGZNWXiktQPC3fpgl2v0L6WzmvF0tu8Ft-yvbCC2yUx6Bkz_7bq52_lZ13bTtNNW4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115433311186843008564\">DUVAL KEVIN</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5751
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations fournies ne permettent pas de confirmer les autres caractéristiques, services ou modalités."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:15 – 21:15"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:15 – 21:15"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant ouvert le midi en semaine et le soir les jeudis et vendredis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "les-3-toques",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5751,
+    "changed": [
+      "ShopMealType:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0551f3afa916c872cf009190cd5ba10d7fe0ab5c2618b4a19b2503f695a34c5f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

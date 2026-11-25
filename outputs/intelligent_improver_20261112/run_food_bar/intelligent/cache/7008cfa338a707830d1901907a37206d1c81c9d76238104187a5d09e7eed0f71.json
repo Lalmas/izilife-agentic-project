@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« au restaurant »"
+      },
+      {
+        "string_id": "restauration-mixte",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« au restaurant ou alors au food truck sur le parking pour emporter »"
+      },
+      {
+        "string_id": "a-emporter",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« pour emporter »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« On mange super bien »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« de bonnes bières pressions »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« de bonnes bières pressions »"
+      }
+    ],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "wesh",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Excellent Welsch »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant avec food truck permettant la vente à emporter ; les avis mentionnent un Welsh et des bières pression."
+  },
+  "meta": {
+    "cache_key": "7008cfa338a707830d1901907a37206d1c81c9d76238104187a5d09e7eed0f71",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

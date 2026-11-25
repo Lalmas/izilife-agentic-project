@@ -1,0 +1,100 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons plaisir à nous retrouver »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« à plusieurs »"
+      },
+      {
+        "string_id": "parfait-couple",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« ou en amoureux »"
+      },
+      {
+        "string_id": "parfait-pour-un-date",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« ou en amoureux »"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« les cocktails sont de vrais cocktails »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« fait vivre la place du village »"
+      },
+      {
+        "string_id": "a-ne-pas-manquer",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Une adresse à ne pas manquer »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« les plats faits maison »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« à plusieurs »"
+      },
+      {
+        "field": "adapted_to_couple",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« ou en amoureux »"
+      },
+      {
+        "field": "is_adapted_for_date",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« ou en amoureux »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Accueil chaleureux »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis sont contrastés : un avis critique le rapport qualité-prix du repas et le prix du ticket de tombola."
+    ],
+    "summary": "Restaurant apprécié pour son accueil chaleureux, ses plats faits maison et généreux, ses cocktails et ses repas à partager en groupe ou en couple. Un avis fourni exprime toutefois une critique du rapport qualité-prix."
+  },
+  "meta": {
+    "cache_key": "b1e1ede621fc12cecbbe8666bee96e624f4bccee8f7b086ca9a087fdaa2537ff",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

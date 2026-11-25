@@ -1,0 +1,594 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:57:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-grill",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "pizza-grill",
+    "status": "found",
+    "data": {
+      "id": "5693",
+      "name": "Pizza Grill",
+      "shop_string_id": "pizza-grill",
+      "unique_id": "5d2668c816b5801d7a71a5473337e12e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54951",
+      "principal_cover": "54951",
+      "qr_code": null,
+      "phone_number": "+33320163000",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "158 Rue Clemenceau",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0509994",
+      "latitude": "50.5963172",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:36:34",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:36:34",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJNbDX7FTUwkcRtiidYidIVHs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJNbDX7FTUwkcRtiidYidIVHs\",\"rating\":4.4,\"user_rating_count\":224,\"google_maps_uri\":\"https://maps.google.com/?cid=8886807298704222390\",\"fetched_at\":\"2026-11-12T19:56:52+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Personnel top 👍 bien servis pizza excellente et patte pareil :)\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T16:46:54+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Mohamed Bbz\",\"uri\":\"https://www.google.com/maps/contrib/116881509784624675472/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUtm2ZRqFPFEXGlnE1bwZ5Z3tzIiN8GvFlal3IlKJt7VznNnBSt=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Rien à dire mise à part que tous est impeccable de la cuisine qui est savoureuse au service parfait 👍 merci encore\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T12:47:40+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"mina hamou\",\"uri\":\"https://www.google.com/maps/contrib/100328395278140224457/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIPg5qar9iyEo7JKyyJpw69v3tV2qSKH6XsLWkLfFSWno1ylQ=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Well come every body\",\"language_code\":\"\",\"publish_time\":\"2026-10-10T19:00:11+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"kamawal seraj\",\"uri\":\"https://www.google.com/maps/contrib/106379165364749381358/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUiKkW2LhDAC1HVZViJn6HjYQBYepi4XkYHwAyX9NinUUsCmf8=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-30T19:29:39+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Yacine Alay\",\"uri\":\"https://www.google.com/maps/contrib/104054031100581862386/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ6xdW7ICT6V07eNVimm7HBdfrHfONmQ_LIsffVTwVuUNEzww=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-15T18:27:06+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Zeliha Celik\",\"uri\":\"https://www.google.com/maps/contrib/102774281348446547943/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVpzAd6Q96ZVGnfSMPNL6OTD5DbJEQsuxWVyLj1ttc4kvav7jOJig=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:56:52",
+      "google_reviews_place_id": "ChIJNbDX7FTUwkcRtiidYidIVHs",
+      "source_id": 5693,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-grill",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "pizza-grill"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54951",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5693_6af39c7253ed2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4751",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32992",
+            "source_hourly_id": "4751",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32993",
+            "source_hourly_id": "4751",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32994",
+            "source_hourly_id": "4751",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32995",
+            "source_hourly_id": "4751",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32996",
+            "source_hourly_id": "4751",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32997",
+            "source_hourly_id": "4751",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32998",
+            "source_hourly_id": "4751",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-grill",
+      "google_place_id": "ChIJNbDX7FTUwkcRtiidYidIVHs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:30, 18:30 – 23:00",
+          "mercredi: 11:30 – 14:30, 18:30 – 23:00",
+          "jeudi: 11:30 – 14:30, 18:30 – 23:00",
+          "vendredi: 11:30 – 14:30, 18:30 – 23:30",
+          "samedi: 18:30 – 23:30",
+          "dimanche: 18:30 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcCn-orBEKniDlPA9F7rpeWdwPylbkYuk3Gxx3GzgkXt7yLD0uIuPQIIvRz1SIM2USeXZ1vCx4FmWGG4PutEchjTWTCyFifcVJEVZKN6rKrtfWUIGROnvYVZYha_Pq_olOfBpKZDZSLVnEVfIzuBu8f-GU9EgTq83X9CCFMOKJMcBL6X5cSs9y_a5fRG0UZXL1c9UOWcE1mw7FDSpFM1C4uQsl_4nt5WYICvTmiXxKAK6hLFY_TNzmUB4HK8XJzRwDsSIpqC9GXR0eq7By1uRCVqnjNpVsg9JwiIaRTILrXoJnJk-t9C9z-xYPa7G3O0pXFBBE9H1YzX8NGg4oFc-Xp0R2thWpekiGAd7YWWKNT6HeLP5IOw7n1TGKwE8DFeHBj2tObRfnBSmeUX6d6l-BtZpglro4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105789802863583954960\">Pizza Grill</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdsaHB7iSPN2tMxDd94BhDQqgapG7kRXOrZirYR1FElShOAfayb3cAEp1-Q2kZej08g9pG_wmfa0CbjRPJkS86JYiXOXAKjvY-cQik8zIv0Q81NtD-lAE5vMTWCXKYR7ITxu-PHUXTULs2m_kJVnNkEsq2n6T8Rf2SeX0Qh4UxXGbNuaPm33ENgqamxdbGezm6uXedWG-a6jXkWHQbV6C8xDY6vO-HpdM2Q0xQ8DQ5CBU51BmswHvbT9WpBOvVHu2POy_1KqaN3OyGbZxnmEnla-PBBx4pNJGg2XF0gHR5cWQ9UQXEKSDPqhE70cJwEvLfdrGmcYG0vGSdaasXM1dY6CsfIJLZ8z_3homGptNgUEU0hcM14bb8g3KfDlpBL3LGi5lXbNcxhoSgEQiul8z-KEGc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110279205676427299402\">Pates Pizza</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLdNVG8OMdB_C-mixlWVVbdPrdINptVHbhQp4Nq9DEzucjWZCrdNKG4dhKvSIKNpGSwbuTFlDzys8Dj5WAxomOjK1g2TLjIXSje7gFe6zzEB3ZXTnEPMxAJgS4n2JJ0E2F_V4mRgfUsPdycFmUytL5ditCmRXAukIz4IGX1848GkXpuJTAbQXN9FYvzrdQ1k_ZHYJsLf3vgKLfHxsOb3VgClpQXlVTPTc1rXn1Se8VjK01RFoB7dkGTxSkvjeJg2kTMTPpYbasdVoSzkCUC5AaA_E2efo7aeyCrpAlPoKpGr-lwFNXCURmCe6TyWYNFPT0H13PwhM3_G3Z7OBOGnMdjLlU1L3PTKUjR4ZLRbh9GKSzpAQuiqZUBj4fvR8QL-ppKpHjtLqLdQD7iwwJKzpACv7MQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110652447903639896956\">Iqbal Hotak</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1153,
+            "photo_reference": "AV-0GLfsfsw9bzc6W2q8ayvNe439OuIe8p-MWzMs06gBnGt0t6eAFFWx1CtHCBrobPOdHX2ohbbBzt6S2SPMet3Asha443jzNCiSD3-jMXNdqb_adm0Ql9idnzENT2EA4gMJsM_sMF22nCQJKA0dp98MoAoY7ludTTMy9_g-t6govM5JoGaW5uW7iSN7HbRli2apQVdlMHl6_SHcN6vtXK2wE5tkng_ThdnUxrAww3B9A_cdMHiY0UUPturKnFg9hKq0cxCnhddgqt8O_2mMr5fWCBYd4VVQfNDpSKzDwSwjPgxs21YQ8q3Zq69Qcm7ZtaCRyG3Zdyl7ixIChqTod0Ee6NIhY_ItvQU1xPDaI0NnoSgJda_DDDl_4GZZHGKjSCMClADHlSBV-VzyE27dFdVKSThvQRDzmmo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111172429307012910177\">Pizza Grill</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLdrhDrzoSGkQwguY3aVF1C2aIsPhf82yf-FKOKIelD-LKJR3hGvN7-ifQDNHGoggkGsgkQg78GVQdoDUomT32gZUGj0J1k-6_Suz6ZjT4uIC5BzqyIwJr9rP4a1WbDnR1WwxqrekYE1kMGTIpUzlcRFoBc4rIn0rqnH0gkzoxQl726pnsjZ1CInqsl4uU_9CmIjYGZCOcwLXp7uBhoeJZw92ojcIeAGXtEu39lkosQHTJTve1JEaB5i7mce4W7WaXXHlYntfscz-VHSYGsK08t5RoAYimtG0MyspGPUy0WSAzxJqko76e0Iqg2Fa_NSv-ec0nRlvlpeaKTQl0rVgPnmsn4y_Xq9FIKQLP6OOfaJylyCFC9bxWqV_EV0uyEsRZEWBJ6Me4__12Ju95vPDT3goyo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109706359114789073677\">Guillaume</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLenuI0R_-4AaWFR6-IbrywC-RKnRJoZnSyHMYTfvMmZHSOIHxAp0HuQatIfZaZgfAarS5GGbhc9CRxuAS8d_FE4Uq2IorDpnoitgHhCgO8OQd0q1ApDIx1MypbwObsWSvFWg2QXwtt2_krrqnJPPjKNKHlPjYeAY64Uzfy8ff2rb62M7Pkw8vfINK4_jYWF7WlSVzu_5yJHIdBhq6_G7cjEzfGRZ2cABq5sA_BDYwkQLMS-UfmKlwBMpn5uCcziml9OofunMial_KEMJx1XmCnwtQ2lrtv2vDelMjyxlA29yUrUwcfP8hkdlOxsKDJhUrVPqEcvJXob86zVuev_BSMB1RbfBRmex9KCbwAreCURkzvjW5VDXXlT1x6Db7d-dr7iB9RHv7WBcM6zyl1nYE9Elag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109706359114789073677\">Guillaume</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 3456,
+            "photo_reference": "AV-0GLdt1tlAa3DkUoBPYilHz1OIDbBXoQHzRQIJN_XmDYHRCjxckdwRnOkYWcnJqjbTg0x6c-puv4Q1eCb_KzoiwpHEcW8GQ7SFeCD0wZl_pVwoAnmVDJLklyzuxWE-ViypLMnlIfLaqywmhrDXR1bIG-H8jus20mxm03sTt7vCIQQbWHqLHwF2-4f65RBnypSCDI2ts7dcNF9x3gJRayE6l7POO_-xsIFqdcBKc662E906vtYa-mwuHneXnFjxCsKufVjvfgZiTiJ3WL-AVm2EsNYuod2MkCNjJllUV4DNLJSijmlNhM-7RyId4hmBUayZs38JUCEBSDu7iQq2dnsQKvIrkEPYaY3WIPW0IbYF9F88ee0GSTuoabdYPtDzbEQPhEqhD3WNkvLxiEhbYcrteZ8VO1p3DRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108656750563481967349\">Khamphon INTHAVONG</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLfi_axkAXU70uBk0r7X07QbjOVm1H4Y3TOQV67KAwLb_cZ7EcvESBIYBpvsJ1qxTJ4hen-lrUJbGPReHn99To2rDbBAALf2x1qN7OriHmRt0ncbupA3rmluudH6bS8dMFaryeXuaKysgfCxz-jwtZRpIFyM02gLPYzfASFZBt0-XFwVZuLPr76ALOqVg30d6M1nboDRbn45fa351fo7Ww3_mmoT4NWjoCuKxV351ikDsnuwf6fEBjcMS3b9_yjjF0iMu3Q5hR9QbxkBGlgRJnCEY2aMuhq0wbbFORpmDzFtROkFSvDEntnsI4f6uMjJ8xu8czVWIJCwSYNmCHK0myxkdhGwNr3CSSNJFkzpoMtbTe_M8nRNo_sdGObYWhSnk61g2dgdC9I8_iph3_PoByDY2Vc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109706359114789073677\">Guillaume</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLemSMJP28XDhG6FTLdcLruAyVqdaxygf073DHjsjZNf9NE-8mYUTWHOl76n6Je3VYdNvw4JJegBANJexZaHL1BUjdBVeFXuL4jlcX6hsSFkhKf8yHpBuNCIyMfyGB9JWjwRAUQmTQxKl4tbgDhEAFVS1-jwRWmK9AuI_BczGwEZDrENjf4E2Yt2n22ZG38p1wt8qyEqkjRHoeNDAd_1tqgZxllKTMkxa59o6H48pIUrVcAACz2gmV_xnSDgKpFCnoVjBYAG6OUJZLEDCZ8jKCfWHqvZI-_ahDmN9kSUcyLOXPAtlothyNZja7MIdW_MfnjB-MKSUsyVMawbaBfd3VRsiJsNTWcILONux77wj1LRPXD28ciXcTRfxzxqnYGVM-0pIgIqgqOH3zeQT-JdlPqkOZL5",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109706359114789073677\">Guillaume</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLdg4GfjFeZ4by8i-Mks2qlwOtv59lswosPZbLv-__i17hBxPtItso0Do-1elGpmsDFeVOmvcQKVewp-bmAeYTfo5LbpOPoCais8Tb0E3zPuIZ8hUs7OUECmX2XfQkfPBPLSdDnS_x60ZO5uXGftdp3rJ95nO_jPRa4yYHj4SP-QX0v1xmLO8no3IJz_RnMWPlH1mnc38FK9Gr-mI2CVLgpUNAC4bSMQ9jACVpLqE19M2g59zNiF1tZPLDMcJk5wnXlLnw33zDuJtCZSBAdOadYnb653wo5cnpsXS9eS7YbGCXkJ93j3PRWDp-hC0b3ywiys-QKc_6kRw33h7SbrHex5lLNNUtOPoLUOW5x7VzERy3RtvdiALiwscyBsw_OwfccvmQ1gAKznL-kNjyA4zLw6R6E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106843251381532114072\">Maper</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5693
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel top 👍 bien servis pizza excellente et patte pareil :)",
+            "language_code": "",
+            "publish_time": "2026-11-09T16:46:54+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Mohamed Bbz",
+              "uri": "https://www.google.com/maps/contrib/116881509784624675472/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUtm2ZRqFPFEXGlnE1bwZ5Z3tzIiN8GvFlal3IlKJt7VznNnBSt=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Rien à dire mise à part que tous est impeccable de la cuisine qui est savoureuse au service parfait 👍 merci encore",
+            "language_code": "",
+            "publish_time": "2026-10-15T12:47:40+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "mina hamou",
+              "uri": "https://www.google.com/maps/contrib/100328395278140224457/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIPg5qar9iyEo7JKyyJpw69v3tV2qSKH6XsLWkLfFSWno1ylQ=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Well come every body",
+            "language_code": "",
+            "publish_time": "2026-10-10T19:00:11+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "kamawal seraj",
+              "uri": "https://www.google.com/maps/contrib/106379165364749381358/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUiKkW2LhDAC1HVZViJn6HjYQBYepi4XkYHwAyX9NinUUsCmf8=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-30T19:29:39+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Yacine Alay",
+              "uri": "https://www.google.com/maps/contrib/104054031100581862386/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ6xdW7ICT6V07eNVimm7HBdfrHfONmQ_LIsffVTwVuUNEzww=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-15T18:27:06+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Zeliha Celik",
+              "uri": "https://www.google.com/maps/contrib/102774281348446547943/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVpzAd6Q96ZVGnfSMPNL6OTD5DbJEQsuxWVyLj1ttc4kvav7jOJig=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 224
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1172,
+        "bo": 134,
+        "front": 1038,
+        "estimated_cost_eur": 4.3
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 14:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "pizza excellente"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 23:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant de pizzas à Wattignies, ouvert pour le déjeuner et le dîner selon les horaires fournis. Un avis mentionne des pizzas excellentes et un service apprécié."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-grill",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "KnowedMeal": [
+        "pizza"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5693,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "28845bb41ca1a457b2bafbdca037fe97ed6ffc0943659927459f8ede071c2b5b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

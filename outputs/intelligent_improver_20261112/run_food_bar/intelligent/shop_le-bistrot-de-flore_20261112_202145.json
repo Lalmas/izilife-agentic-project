@@ -1,0 +1,502 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:21:45",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-de-flore",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-bistrot-de-flore",
+    "status": "found",
+    "data": {
+      "id": "5776",
+      "name": "Le Bistrot de Flore",
+      "shop_string_id": "le-bistrot-de-flore",
+      "unique_id": "442cbe78a6de295ec75c22764127f482",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55030",
+      "principal_cover": "55030",
+      "qr_code": null,
+      "phone_number": "+33310455070",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "26 Rue Pierre Ogée",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "7",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9331095",
+      "latitude": "50.5281181",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:49:13",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:49:13",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJbyx2elAs3UcRrlxs9piyQhA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5776,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-de-flore",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "annœullin",
+      "string_id": "le-bistrot-de-flore"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55030",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5776_6af39f699ac6d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4834",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33573",
+            "source_hourly_id": "4834",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33574",
+            "source_hourly_id": "4834",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33575",
+            "source_hourly_id": "4834",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33576",
+            "source_hourly_id": "4834",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33577",
+            "source_hourly_id": "4834",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33578",
+            "source_hourly_id": "4834",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33579",
+            "source_hourly_id": "4834",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-de-flore",
+      "google_place_id": "ChIJbyx2elAs3UcRrlxs9piyQhA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 14:00",
+          "mardi: 10:00 – 14:00, 17:00 – 21:00",
+          "mercredi: 17:00 – 23:00",
+          "jeudi: 10:00 – 14:00, 17:00 – 23:00",
+          "vendredi: 10:00 – 14:00, 17:00 – 23:00",
+          "samedi: 10:00 – 14:00, 17:00 – 23:00",
+          "dimanche: 10:00 – 14:00, 17:00 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd52fuPGbFVvO7N67fwyPUiznWGg5y6seQ4aFvKuxDadYA_BiHGNVCJNwnkDOudcDo1lVZcjXAPHXK_AO8WtAgM7Yn2k6ILt7uMs01c2-BU4Rjpwzk6-8pyrd6l4HWESFUAMNbqWi-LrUq9V7aglJORlTsSo3Od7O19U51Rzfcy9wnWTMTGiJhwunFHbLjsHaQqpez06mqJ3fZq9grHKTyfJf2_tJOCXwBdH1uL4n9o4e89_7nosSmqbzZO0Ji7eQpV7ia4l5IRwRlNHUYwvE5p9l7_7SKTMQZ8rjPRh56Mv04QE38a09SQWZDh3AcWVh-h5DC8iWylYSrWlOvbZpuEPuL4BBhrQOl9y1mYMTxWccSMRB98HbmWZhdKupl0W5AbW2dH9rVnlcLztf9Bptmk-yb6L0jrk26MK1J-blwjtA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 2571,
+            "height": 3808,
+            "photo_reference": "AV-0GLdQMRv-Dn_Bxa2olZvLfCY02sM1so3V61DbmYEY46QntHgdyp2TN4w-UHdTnTbh_FcII8ZRfQvvWPm0_cI9wrc6lyy4fmC_lQqMfiUnSnew5AiMfbLFZ9wLNV8mSL8pFK4gSbuNzrnHrUEhEuN_AF6sUJAFBZAH6JRmSgfREzuUFpi1gUL945jGhQZvPmqxgVrYNMAyUlkGcnpqbkw4HaMRMkMrX0jkwV1ZqwZXJQ1cTOjirop1UHKDq1gZj5H6lEjYlSb0ciJ290BxqvsuGYNMHR0foUN8QSVznA0M9Gg3Xr_0AQHcfO8lq4MdUaIKaX9Lnk4x-6uxwHfAB6DVLxR6ddfYlKawAVY7TR-CJf3dPUJKS2Bj-yQlgIqGcAouQ1esAYw971oLNDN8c7ZBAq-NC59O_sdKMX6txGQFM3cZ0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe0lzc3XkJA03rA7yzUjTXojZzhyweSFVe5i2efn7sl6ceJ5-OzIe_P4PJhcma0-Cd6U4nAAveOQoPNl3jPeNl1l2SSohV_Oi1qxhJzKwekGBqZRsjB4yLJsF34OYFDIYH1u0QNLKzfbHhuF1K8zL4QWUi0vXANLx4A9Ohm87tNDcB5r3ZipA5FPsp_UEWNjllfcUNZoDLIXC54CdYABcKAOTLXjvzMzzCcEbFPRrlApTcreDOPssSqCsBq_XqL07r3XmUHK5jcW_uJa7vvIgLJT_AdEOvdhzgrjFrvavJ8m__kMxYAdC4WDUlSXDurJ2KGUNYiodgImcKF0ztpTeqouAiYedCzFX08jMlDxZX9i6KbW684wWL_q6S4Ld_DgZP5pw92siRbwSfJCDNhuqdnH7E2SOce6WFuv6bPVKegnw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeY3fS9_MsgabFJm_KnC75BD_bjizgN2ud6j_FQxeSKmjf32ml9TBmJXDoJy1mp27eiJ2Jh5V6N-a_gT8Hsm4IAEomZt27aCceWSA8OPfaaD8msLHuqhTce8rBgqRVlCerIMaOD3BTEPUVVsmEF8UFEzhO-laW9ZeDGw3A2YhMM3A6D0ZKbqbbu3Wp8pDNEtX8EvmbjDBl8xM8zIjNWUa6x-Tc8dtF0MljkOTtuneHwoaZrgAxIVKwOEsEjQWBAwo34dWZxoroxYMnk6z9hmUJ07RZ013jcGpx-xQXDtYJDfw1dZOiDPtfqCpNYnycwPRXdkETOl6yvx9xAUn_QklgzoBkNW7ELoGwQFcyCLapfuXdc7VvaHDUK8O2gFBDiM16cst5hbr6v6o2updsWeAdnVMJQY6gBC08b6ijdcGnx",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc5pAPvO6p6M4w1ghm23Snwr_fs_ZftG-5QlGEgV22dZxvdiYFEZ0fw90tZDj8Hb2uJUsApcX8x4g3NxaaARvuorSNDfHdrFyJN8ZJrxjJB5nYOt7xn9eluILleUCUrmAKTnoDWbuHdDs8f1_bEP3BCOkElTEslJANoLC1vSs_-inU7GKyhYbqpZjlYDPYwhRfelnq8b9wccwvT3qkfUfFF5h4JFSv0yPBvYKiWyzugEe8ZA-HPCnTbq3R76NIvBK0AFipNVDDqVNAX1Z27yZA7Q-c0_dJrNDaQqzcAVIekcF2FJwLiMSUcML8a7c2RmeUMmt7MQQR3Ar1QvS-uozrK58YMVMiYciypGNlQd2PxdjQh63aNszRKubI43PzI6wKbfevQr_1y0JTh24tPQHMNfSlPMCo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105704090416648851176\">Sophie Goethals</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLeRuqJD0ad_49BrzW-0DdpnFLEIwnqJ2QTvnqZBJ_ajsTuFjbbc5gBviAhfMFs4XNjEgotwO9LXA5-yf3m0GnBEeaD6bvVqNPkaN77DUNISyaQ5--b9FO-_oB4x4ogOHvSwgM3DNUmb8dDP_UYCawjw-iO0DcuIhK4GjvdH2xOXOCtdKz4t4dKNfwS5YwY0LBluC-cE_KL5RWbiFlxFPP5DPsA7wUrWUp06vZ18sGZCzlZYiPNmJ79MfsGot4j91aqt1goUYPGEVp_YToqGyQcL2ZtCxO-IahMKkA5mmvsHmWVzhH3jF34l5kw1NgF5fq5PTGhlXLTwS_O7YdM3DCuk5XYETWu5QPnmoFgim2WCklJ1AV5doQiT2yvps7Lpcp0zpNMj6y7RqjjsZoXYDAUTOT5OgxQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116849268420995322760\">Fred Losc</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLclTC7yGi-ROFp5Oao4E2k9mC2bMh_xbnDxRatqD5ZBaLzWnTHwDxyvs40MBBPBIXxm6Py-pocfN78x_qDqwJ-t1Ux1hmCmzhbGBXpdZPgepxJBCmFYWSMsynUG-qUgxMS8-BXR2VB2pcvZDFgtvrrL5FIRd3GA1ov8Ji0TorvJObJfZH4SOJQLfusNdO1QBTW2CQvsUor-pUUbT--f3VWZNsJy0N5hOcxhKaBHn4Gpi2bhsbvqxRN7w8XtVLmmQLikEpv7OvF2i-9RJYFE_wF_RA9OA8OCC09JBZuRfDykzJXF2bRjdI_AWRLukQWdXpD-dr7_FwlZfZraPbbnJ_jz4-0njkmgLuT2MOf7OnT9Jsrp0dJaMzz6E0SymF31aruIkJfTFAgvW9LiuRj75Wjgeg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101389059463194967158\">Julie Vauban</a>"
+            ]
+          },
+          {
+            "width": 2698,
+            "height": 2372,
+            "photo_reference": "AV-0GLcbieYhYIwqaXSdh6RhR9qdSJkC0-LgR5nBUaaMSMMpHJs0HiWeiGmcLfXp5alcqj1ocUugr6g2TujvkE0W0dS2B6uIjUQwHd7zFyNhG_wauKH5EkDQxI2dRZPV2_I58D4jFrVDr_QTr3FX7eaII-5gs5Qykmg9ZSeA0RqSISFkNOlvvnsshbGvwcv-wEjBCiocVgqg9tS1zZXDYI97AqRFyWtiJdRRFEjVQ6SBrpvne751trsEQu1DqRpiVGygBg08H-cfjefRwfWbGBru-BaKYG4THt5iPcg_G2CoQfqtsOR-oXbDHcaGoO6XhaBj7PAP8QNQKRLPe_NvnCElUXr1cp_pPnkdB5_Ms1GN1ACPunQ0stiMHrrCqeR7guOkCU8XaKzVBb7VkqQyvj-TuGeaMdB2hRNPH4ZewG_8rLtb",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 2228,
+            "height": 2970,
+            "photo_reference": "AV-0GLejUzxHw3n_O52PJdPkc2aDEL33Z3o32hGhPJsip3eMdt0QJ3UceqIo7uxafIF9HM2c8qWIWK1a19mQ8KaqdG7lfxAPPn1w4IZBmz2CoH3O680FDziBIxpOAXEe1sOa8cnh9nzKqSl-ntTwnExhTmPuOgmUmCD4ZcVuiC14XRhHHXnV_RasYi2lI7xF-JvO9F4pYgRVh2n1c3Ov5DoZTY9x6_RcP0JvLvGGS5-wkUpJNF5hR5UJUi68x6t3yoiO9yKOlR4XDgwisyQ1IU5gwshP_qHp7VqQNKDUVubBloQmF1qEu6H44U4Ry-dC3wW-VLYCi_EYuJTpT4iHcXOGsE_Eq6ecK9BhI8i3Ab5MLwIpJidciqNbDNECj0s4FMTyUhKmnGveQTKYjyD5SCSW3jqFCB5l_8Bu2Q_Ktt6EDbxA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106277906660345633265\">Le Bistrot de Flore</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLe9lstxM2ce7ylr24kLFCNYk4kGKqafR9PqLwZIJW5N9lGEklSvnkZOfgvVT2oyAmbdDXmU4tcVS3Dc4mZxB_8SslEniWH_1Sdyu_Iyf6p2Z6LpNLh96-l3TH2j6foNBD0JNgmIw_mQtgAAzgJknZ7Xm9qJjE56tuZZNIYWW8a8d6yRX3SIko25ibY3FmYSoorzF-TqyJ1Lcj--7nAS29h_AlZPYWpgkz0JkclCG7nm9n0IQGGnWunnleBJF--uSzFMz88jV98rxlJ6NNp050N8MKv8-KBlvjTq0xqlEoN2vSMvo3UX9plBmiuFKuJaTKJblp7qJf1EAx5SQXaAuSIXCAzxY8vvJeciSg0amctDThurOznfa3tExElqd9TSiOJr8v9XalvLYZEZtq7NjycjKIluSdLXNiTjY4BKUQ8sNg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116849268420995322760\">Fred Losc</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5776
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 10:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 10:00 – 14:00, 17:00 – 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur les menus, les régimes alimentaires, les options à emporter, l’accessibilité, les équipements, les moyens de paiement ou les publics accueillis.",
+      "Les avis Google n’ont pas été récupérés (budget_exhausted)."
+    ],
+    "rejected": [],
+    "summary": "Restaurant ouvert sur des créneaux de journée et de soirée. Les données fournies ne permettent pas de préciser les plats, l’ambiance ou les services."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-de-flore",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5776,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "34c2a10919bad645d10535614446d3371371881e2b48a563d4081bae6abcb52b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://izilife.co/schemas/event-package-v1.schema.json",
+  "title": "iziLife event package v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "package_kind", "events"],
+  "properties": {
+    "schema_version": {"const": "izi.event.package.v1"},
+    "package_kind": {"enum": ["EVENT_GRAPH", "EDITORIAL_AGENDA"]},
+    "publication": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {"activate": {"type": "boolean"}}
+    },
+    "dry_run": {"type": "boolean"},
+    "notes": {"type": "array", "items": {"type": "string"}},
+    "root": {"$ref": "#/$defs/root"},
+    "events": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/event"}}
+  },
+  "$defs": {
+    "source": {
+      "type": "object", "additionalProperties": false, "required": ["url"],
+      "properties": {"url": {"type": "string", "format": "uri"}, "kind": {"type": "string"}}
+    },
+    "media": {
+      "type": "object", "additionalProperties": false,
+      "properties": {"media_id": {"type": "integer", "minimum": 1}, "image_url": {"type": "string", "format": "uri-reference"}, "title": {"type": "string"}, "is_principal": {"type": "boolean"}},
+      "anyOf": [{"required": ["media_id"]}, {"required": ["image_url"]}]
+    },
+    "price": {
+      "type": "object", "additionalProperties": true, "required": ["name", "price"],
+      "properties": {"name": {"type": "string", "minLength": 1}, "price": {"type": "number", "minimum": 0}, "currency_ref": {"type": "string"}, "access_type_ref": {"type": "string"}, "price_model_ref": {"type": "string"}, "is_active": {"type": "boolean"}, "need_confirmation": {"type": "boolean"}}
+    },
+    "root": {
+      "type": "object", "additionalProperties": false, "required": ["type", "data"],
+      "properties": {
+        "type": {"enum": ["EVENT_SERIE", "ANNUAL_CELEBRATION"]},
+        "existing_ref": {"type": "string"}, "data": {"type": "object"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+        "media": {"type": "array", "items": {"$ref": "#/$defs/media"}},
+        "access_prices": {"type": "array", "items": {"$ref": "#/$defs/price"}}
+        ,"characteristics": {"$ref": "#/$defs/characteristics"}
+      }
+    },
+    "hourly": {
+      "type": "object", "additionalProperties": true, "required": ["opening_hour", "closing_hour"],
+      "properties": {"date": {"type": "string", "format": "date"}, "day_id": {"type": "integer", "minimum": 1, "maximum": 7}, "opening_hour": {"type": "string", "pattern": "^[0-2][0-9]:[0-5][0-9]$"}, "closing_hour": {"type": "string", "pattern": "^[0-2][0-9]:[0-5][0-9]$"}},
+      "oneOf": [{"required": ["date"]}, {"required": ["day_id"]}]
+    },
+    "characteristics": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "principal_characteristics": {"type": "object", "additionalProperties": {"enum": [0, 1, false, true]}},
+        "editorial": {"type": "object", "additionalProperties": {"type": "array", "items": {"type": "string"}}}
+      }
+    },
+    "programming": {
+      "type": "object", "additionalProperties": true, "required": ["title", "start_date", "start_hour", "end_date", "end_hour"],
+      "properties": {"title": {"type": "string", "minLength": 1}, "start_date": {"type": "string", "format": "date"}, "start_hour": {"type": "string"}, "end_date": {"type": "string", "format": "date"}, "end_hour": {"type": "string"}, "access_prices": {"type": "array", "items": {"$ref": "#/$defs/price"}}}
+    },
+    "event": {
+      "type": "object", "additionalProperties": false, "required": ["client_ref", "relation", "data"],
+      "properties": {
+        "client_ref": {"type": "string", "minLength": 1},
+        "relation": {"enum": ["ROOT_EDITION", "CHILD", "OCCURRENCE", "RELATED", "STANDALONE"]},
+        "existing_ref": {"type": "string"}, "parent_ref": {"type": "string"}, "related_to_ref": {"type": "string"},
+        "update_mode": {"enum": ["ENRICH", "OVERWRITE"]},
+        "data": {"type": "object", "required": ["title", "event_category_ref", "start_date", "end_date"]},
+        "hourlies": {"type": "array", "items": {"$ref": "#/$defs/hourly"}},
+        "recurrence": {"type": "object", "additionalProperties": false, "required": ["rrule"], "properties": {"rrule": {"type": "string", "minLength": 1}, "until_date": {"type": ["string", "null"], "format": "date"}, "count_limit": {"type": ["integer", "null"], "minimum": 1}, "horizon_days": {"type": "integer", "minimum": 1}}},
+        "programming": {"type": "array", "items": {"$ref": "#/$defs/programming"}},
+        "access_prices": {"type": "array", "items": {"$ref": "#/$defs/price"}},
+        "organizers": {"type": "array", "items": {"type": "object", "required": ["type", "ref"]}},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/source"}},
+        "media": {"type": "array", "items": {"$ref": "#/$defs/media"}}
+        ,"characteristics": {"$ref": "#/$defs/characteristics"}
+      }
+    }
+  }
+}

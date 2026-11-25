@@ -1,0 +1,53 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "frites",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert à partir de 11:00 du lundi au vendredi."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 18:30 à 21:00 du lundi au jeudi."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires en journée : 11:00–14:30."
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir : 18:30–21:00 du lundi au jeudi."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Studio 3 est référencé comme friterie à Lesquin. Les horaires indiquent un service en journée du lundi au vendredi et en soirée du lundi au jeudi."
+  },
+  "meta": {
+    "cache_key": "3ae0e7eb36b1dc343a0d3dffec2fc6f45ed66ac556f98bdf3cdd50931a46a555",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

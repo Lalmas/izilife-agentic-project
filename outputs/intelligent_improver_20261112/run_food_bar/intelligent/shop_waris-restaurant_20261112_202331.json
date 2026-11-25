@@ -1,0 +1,526 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:31",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "waris-restaurant",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "waris-restaurant",
+    "status": "found",
+    "data": {
+      "id": "5788",
+      "name": "Waris Restaurant",
+      "shop_string_id": "waris-restaurant",
+      "unique_id": "eee5ec4d1d3ab1f9be900c63a9a6b067",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55042",
+      "principal_cover": "55042",
+      "qr_code": null,
+      "phone_number": "+33320866217",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "168 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0117672",
+      "latitude": "50.614493",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:33",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:33",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJeQY6dsPVwkcRaCBmUrPCg9g",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5788,
+      "scope_type": "SHOP",
+      "scope_ref": "waris-restaurant",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "waris-restaurant"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55042",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5788_6af39fb9ed756.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4847",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33664",
+            "source_hourly_id": "4847",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33665",
+            "source_hourly_id": "4847",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33666",
+            "source_hourly_id": "4847",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33667",
+            "source_hourly_id": "4847",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33668",
+            "source_hourly_id": "4847",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33669",
+            "source_hourly_id": "4847",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33670",
+            "source_hourly_id": "4847",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "waris-restaurant",
+      "google_place_id": "ChIJeQY6dsPVwkcRaCBmUrPCg9g",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 15:00, 19:00 – 22:30",
+          "mercredi: 12:00 – 15:00, 19:00 – 22:30",
+          "jeudi: 12:00 – 15:00, 19:00 – 22:30",
+          "vendredi: 12:00 – 15:00, 19:00 – 22:30",
+          "samedi: 12:00 – 15:00, 19:00 – 23:00",
+          "dimanche: 12:00 – 15:00, 19:00 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdfiRHeoU604yOBrOLXKmOt-kyl0hfy6-SFFR4tsPkPQMnan4ygh_GV6vcB5WtuohI6dFUD3oqsut41xcOt7zXc4rHKrc9IWVP3eJz9q_dBg6gH3-masRNevJR0kpgist3ZW0RZpqYuvvT9n-hst8Y8UqcBcJWEDAw-N_pmyKY4PFCV54OV48tWiKznuy3Tm5jANK8xwsQ5l9M4hPC5xAL2DQUaTnPi2M_J1F_jGdBMF0Q6idLS6R9XiUxXiJqMxiKmGUUGkwaI56UQ8B_4E07oJnrKwS0vHOYbyPJpMPvhk4Hq5WvHukdEWZ1ccVRKum8vYww6VZjt5AZK_SFSiDsfoPliGnlslotqLpjcZaf91VIXvzSyLVWynY1gwcgEcjYDqVg2l5bhSX7mYUTZegws-r0PG1FAne-sB96ftJDkiQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103411983895942777276\">VIVIANE</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1365,
+            "photo_reference": "AV-0GLedorkrkF0gzVgpXCZDar4WBzDQKTpc51puQ8Xg-XViAq3TH2IaXo54W5Jgk2-JxkPzJiHxguUMb2uFIBDUJbfHWnJAtGyAVrdnkOTDH0RR1kQl0ZbST1MRjAFRTFAxNCfJgh1t48JXTW1d7MRBn7HhVsCoyaxXPUzgCOX7ImDiOjrYJj7yT4iod9wFDsILjWlTJ2VJ6SBjmEkyjIvTx3quo_bjBTGCOb45pXfddkTChqbqBYJ8fNWUB-5fY1bIpAPIWzSEAyXHgxF5i6upgihULyWQafkMu-1tInBlPJ-kahdAz4RCzN0rxxOkEaIOc83i_iX7jCwgKHbKDhPFXQcKFR15J_Mwze0rdEKOCPvW8M6UfpskQ_Nj_byCMFVw8QscNrT3Q5wBgESACz2akRez5IdprhqK4kCQ9wiertj7rQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116788993202943304973\">Waris Restaurant</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfhn9PsjxXdxaCR4Ow0s-eWQjpm9gBhdYJL8f4Aw-s-0-JYyL0cjBx8mWb9MJOCseRJ67SM8CkAQRpxTpbla2x-RY-mLRLbZU47SE1_gBHglZqaz21QKz5e5RvHFbOH7wJJd0MVixXZMPRfO6T3ds9DPydzdnGtoQm0FPjZXskoTevD5ZalUXIOo-EwFSOJx5ZumnoeCoCYdlX7zU6shkoc6K5Qf8vYZ-f6liHNoJ83URuVTVvvVGnAGAGvVxAY-7OyUm43C1nKDr6q1Ii2_HoN2imZDHYCdET5f1HG3jCnl64_4F2ScBoo6B8n5xzaO7IONGUbv4ZAw9ZXWAX-RtCueYaUG7VNLjHIngSeQNYy4Kpr2UsdYj9UnLTODnAvChSSFRzwONx96PYOzjDKJyvmBA9h1p8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116788993202943304973\">Waris Restaurant</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLdePREm_UKRQdyi0Bxsn23i2SwnQyPx4Zt5pD3AdLAdbBZ2C8YePjZ_WfDumBkjkIcNmbhcJZXX9EVEoVgPC-bNvv63VFrOZpSCI3yERgwrKc1yKtn8ZOH9DwHtGv6I9QmaHU0IeTlVUDAIUI82REHVbIO-lzE8hBKZzQsecNOb6uiJl7pEcSOZrvC4vVdZWwX9zLpHM7e3qC-a5WDo4FzoGJV61Dw-qbheJBqwDusGA4cZ8qgUluObrwHkt0JvSJbykrNozVNm-AXoQfKXv5OAuH47-i5iApIMOlfdX_VE7U3k1hmp-YElJfsVXn00m_baCtAruJUoLJ62Rl8wf3atLeqL1MjmJd05Q96O_eZtEnoJxHMJmzZnPdJVVemH-JNnPXphdPF0YwLKF5UztDNyBZDKk_RWzBJTCxBbs6ZMZg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116788993202943304973\">Waris Restaurant</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd0NQRjTMP1oVOO0AtQMSP5OPEtWeKY65W5uRogVfZD20eHXGGYlamM5SkfWoj2r-IDTkrW9qsrgl8gUr8zivTnGlbLKQ_tuGGetfLdhJJ0-NN593AKoFqIvTu0alnwdOIM-Y-U1ZXj3f4RywYjntTwQdJ4fJsHUgDgtkgS_gVDJopMiYljC8WFwn_964SegUx_i1wElnPYMx0z-VAgjFtcym8tQoNz9A3RN2jsz3EAo4NdfkwKrwb62VH4j5oohEM0PrXONgEc0F9tiJwWibupHHVBJBk8lFWP_iPep2HZakYesuo3e-XLcx8ylCeCL8vvf8kvI-R96_bYX0qlS6_2nM2eWAr8p_Dj5jiIcX6g6-ZoMBaMj-JevBFmUldk1p-OLNEjQUJqlzI157bGgWi2Qk7ApP7bB3D6cKaaPC7FjQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108542266986417913251\">Kevin</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcg_N-lbbYvRO8_R0oMcD2JK3bHE7j9MXxtUTGKhpnizdBQvtO4lic9fTyeNXPAjWBsTw1-39-wi4OZZB7iyzqUCgVnARXiocD3DtkeBoMmTFoLXOiJBu5u92Hx9u2FhQIWpLOsRzw12D3nZfc-4ssJ3ihJS5wYJ9vBwnA8dvX5__873W5xdRBkB5YR9xKTYWmJQ246V92Mjc12oZI9xUlkAl-vLKwqm35KIXSCC2FIiR6d62713oFymKTDvnkjfYJLbeh2VhryOuCqOCAGscD9wRp5oypqfDWEiKcAdAts1LRqIPcO8twgotp_LUOdwhX2y6OnUvXRfFvt3mlUVXqKyWEIgoNZ__T40H88rbi-G4N7NXa_5Pm9p6ZCe2VNeao_Fai3u3q2vNO2xaHOs5ZxT1FIvrvRJWTXtGWC2qeOYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114334162495663990875\">Paula Illán Santacruz</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLdNyld_Rfl18DqxMN48FXrNWihnNz65sKSlMy4UnWmGtiqg5dXGotQqS2iU1KBT54FLTQyvovNzSy3GNbS--A49bxD8dH2tZvlSvTxAMG3qoDbLRs8O7ZO0Quttc6JlbnpxWHj4FYT3x4XPYHnClza3vUYQUAmjBDVKUbE2SuhE360mrncLOM88GtnCDzXWJV0MMhTAKBYlEKe0qXiQIDhKqZoCXehq01MyR9rTy_c7qz7Tbnm24tW-VTIHHSyd_71KwVRj_tjnkOHxMbO3Jt4d9QUu9L-zKX0Pzd7bHHDcVHteGhZp4iolB-nyv9kt2J63Ib5XSfCXQdYNqjHP3VIIgaRzbf9xZZ9flpXJ6f_QK4HeOxNYBdMviDtWWRQjV_ypgO6_bWHtsOXYt33b5YaQaxA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116788993202943304973\">Waris Restaurant</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeO-9LhfxEwVnLBbbh6gqY_EIz5dojYC2SKeVct8M8mdAdBGEEqm3tGe0yyv_slqg7VXOuP52mygjrDK3yTXJUI-a0_oEVNoh7MMPSxBmvTs6ZWCKmP-xBn8g1ZzL27RsYum1jr0OG2qe_hgPJJs_kBhiLmGATtjIHcFDXR897htvpzrOLWFE-7a5AOEEYr16-biKBFUJ4Qd6Zvze-C5JtylrsIP2hY7kR5CiFEBQdogXiOOQw3iozPvEnk0C5Vh5PLYm2vVFV5w8LcXI_fJUUGps_I6aI3SxoTgTHTXTnXZtBjHsZzqJxmIBwmQS7M6klQx55aK6samIWPfgf_Bf5mBH_wHaetFdd3NYQ32-JEDDgxPx3iXARUIz09f_2a2E0RniYxz6HcoZZ4MNEk3V8VFLQfGJHzOi-__ct2Pg8qpw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116016204521012910526\">Enza Collette</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1938,
+            "photo_reference": "AV-0GLeFBD-jBE8-SAM6REcSY2b3K_kUg0n3X0JjOkghqjS8Bx7RQM8emH0Sif1WZV3l0sE-2Tkt9_kx-K8hiapwFkOBKrjcpkoilEgJL6s_Lo7ZcZTENowrZ-Tpa0sHlH7c02RTBsQQpVcpKt9PunRPoaN2yZUI8V3PEOAfIMzfasMKyvCGebs9Acn4xjJgCM6670CA1-YqOy2FnRBT6uGbTHzUC0o7vQLgquvqk7qL7weiRuy6FS5CaylP_9tgsA8BF1zLrIrhWmeIMxcntZ9izRv4u_VvZ-g6dfYf9G4S_eI_MTies9vDEQmJG_xmdUWnhsqNiLOiek7B1u2lUtGgYKA9nV7ZyPm7jwSv-w9eL644yBEBf-FShdevzX-nBRU827IvH0piDffhEW7zootPLK3gWtZ7ACTTxgw48sIIqUTZ_A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111468131294325015620\">Johan Lucq</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeN8nD5FHIKBNPa7to6Q2I_RwX2dFFENplrx1y8WQzOaVuJTxaR8dsJ1Av_C1kN7v1G6vkQw15UaA7zs6r1Zh3fFgiYIbcERnGoQZ3onssSByuxBv7OgbEe0pv_aiwR5KAeYb0uWxX6QJtrISLzgGyAZ9EBvZ1NvgahaxCZArdmVygEqJKtglHTeJIqMh6HOo5C1Lewqk7NkVCy2JRUFHJnD_4k8NrdvKJ50KLWgkXZDXWIQbN3hXSdk-js2m9kLXZKOvjKjKg6j0y4auqTe_JLQBTTK52WNX2WNImO42hFMqc5cdVM2xeg3EfpMsvlL7VW18j_WVjcN-ZSqoBgOQGKMkpzdj2kUqeP0yC6AuYf1ZExaHxAHdYH-6S4Hw4N83Gs6p2neRmQoLSbXyOLIlIopl74nJe7OOyiGjfZtmc-jQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103718945477536525892\">Mehlina Arrindell</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5788
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 15:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 15:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les services, les équipements, l’accessibilité, les moyens de paiement ou de commande.",
+      "Aucun avis n’est disponible dans les données fournies."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Waris Restaurant est répertorié comme restaurant au 168 Rue du Maréchal Foch à Loos. Les horaires indiqués comprennent des créneaux le midi et le soir, du mardi au dimanche ; le lundi est indiqué fermé."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "waris-restaurant",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5788,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f8ec11a619e7eb14269ce2f4e31acb8598823ba1448042ddb2445da73af61606",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

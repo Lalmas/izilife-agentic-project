@@ -1,0 +1,111 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:04:33.842488",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 24,
+      "title": "Découverte du marais Audomarois avec Ô Marais by ISNOR",
+      "experience_type_string_id": "croisiere-en-bateau",
+      "source_url": "https://www.isnor.fr/",
+      "validation_blockers": [],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "bateau",
+          "minimal_age": "2",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau",
+            "canoe"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "anniversaire-enfant",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Visite guidée en bateau",
+              "price": "9.50"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "vivez une expérience immersive et inoubliable au fil de l’eau"
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "activité ludique entreprise, réunion insolite"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"1\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"1\""
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "En famille ou entre amis partez découvrir le marais audomarois"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "champetre",
+                "confidence": 0.8,
+                "evidence": "entre nature, patrimoine et gastronomie"
+              }
+            ]
+          },
+          "primary_image_url": "https://static.wixstatic.com/media/85cd5d_641e052bec1448238e57861113bc14f6%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/85cd5d_641e052bec1448238e57861113bc14f6%7Emv2.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 24,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 65,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:04:40.371687"
+}

@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-rapide"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-rapide"
+      },
+      {
+        "string_id": "kids-friendly",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: kids-friendly"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: kids-friendly"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "decontracte",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les modes de commande, les moyens de paiement, l’accessibilité ni les autres équipements."
+    ],
+    "summary": "Tout Chaud est référencé comme restaurant rapide au 5 Pl. de Béthune, à Lille. Le lieu est indiqué comme kids-friendly et décontracté."
+  },
+  "meta": {
+    "cache_key": "739b5a7895e7f033b6bedd5f7f111dcdb4f0b972657cbdd5907d68a26715a4af",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

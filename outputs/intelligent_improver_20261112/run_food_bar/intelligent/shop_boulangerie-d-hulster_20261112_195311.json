@@ -1,0 +1,546 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:53:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-d-hulster",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-d-hulster",
+    "status": "found",
+    "data": {
+      "id": "5676",
+      "name": "Boulangerie D'hulster",
+      "shop_string_id": "boulangerie-d-hulster",
+      "unique_id": "97b1e2c4a2b180e2841610d3821226e9",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54935",
+      "principal_cover": "54935",
+      "qr_code": null,
+      "phone_number": "+33320323016",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "65 Rue Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "59263",
+      "city_id": "45",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9910121",
+      "latitude": "50.5736135",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:34:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:34:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJKRgeFlYr3UcRBOm1xp6cdA8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJKRgeFlYr3UcRBOm1xp6cdA8\",\"rating\":4.9,\"user_rating_count\":122,\"google_maps_uri\":\"https://maps.google.com/?cid=1113687213619931396\",\"fetched_at\":\"2026-11-12T19:52:57+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"De passage dans le coin. Vraiment de très bon produits\",\"language_code\":\"\",\"publish_time\":\"2026-10-23T09:59:04+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Sébastien Hauw\",\"uri\":\"https://www.google.com/maps/contrib/103753934687019282126/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVJCNXzUuu62ZIX5_Wyy_sw-nYKmnNyJwvTOFtAf3iRZ-49BI8f=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours un très bon accueil avec le sourire.\\nNos habitudes : viennoiseries, pains, flan ! Toujours un régal\",\"language_code\":\"\",\"publish_time\":\"2026-10-17T05:49:57+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Mart Mrt\",\"uri\":\"https://www.google.com/maps/contrib/115373425903841031906/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUtiXqoDNZyYAg77_PzGor9V322z1mamqogt8dpYp-1p1xZmpID=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-28T10:24:28+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Noémie SALEMBIER\",\"uri\":\"https://www.google.com/maps/contrib/114316044017789431098/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW_6lEVLdNa1ibMcdrtJBHtDG6sR10CptuPgpMaO3e7Cnep65_E=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-21T15:59:21+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Ratajczak Vincent\",\"uri\":\"https://www.google.com/maps/contrib/100154602977242597090/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLEmVNC2TmssDSSY9ramJGbbm3hvpjRmElB7AIOOS-6kpVJdA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-19T08:38:21+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Benjamin DUBOIS\",\"uri\":\"https://www.google.com/maps/contrib/110533488416138333014/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJMoh3vmA1Y8qvRemuQZBeZ5mJSWeAh1OiN3zplmC8zGZHZhxo=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:52:57",
+      "google_reviews_place_id": "ChIJKRgeFlYr3UcRBOm1xp6cdA8",
+      "source_id": 5676,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-d-hulster",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "houplin-ancoisne",
+      "string_id": "boulangerie-d-hulster"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54935",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5676_6af39c062ac9f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4735",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32880",
+            "source_hourly_id": "4735",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32881",
+            "source_hourly_id": "4735",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32882",
+            "source_hourly_id": "4735",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32883",
+            "source_hourly_id": "4735",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32884",
+            "source_hourly_id": "4735",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32885",
+            "source_hourly_id": "4735",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "18:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32886",
+            "source_hourly_id": "4735",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-d-hulster",
+      "google_place_id": "ChIJKRgeFlYr3UcRBOm1xp6cdA8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:45 – 13:30, 15:30 – 19:00",
+          "mercredi: 06:45 – 13:30, 15:30 – 19:00",
+          "jeudi: 06:45 – 13:30, 15:30 – 19:00",
+          "vendredi: 06:45 – 13:30, 15:30 – 19:00",
+          "samedi: 06:45 – 13:30, 15:30 – 18:00",
+          "dimanche: 06:30 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 1538,
+            "photo_reference": "AV-0GLdE6ZrJa-Z7riCdnllAfDMn8_q6cn-dDta6cFSL45PhgGgEUgHYCdvDnAqlZtQlPM9JqgjWiPTgfP2trVUl5UzWEBKss6EghmbNSkjuOQ7xfk3P5YnktdgcF_aZ77D-6CvGtTewTaD44f7NqWCsUGKyBdSZGxGn1b6cD9PPd520CzHj0IXXumGYCqFDe5s-hph5HAFQvq4a0_GonTavJryyx32KNIDzuXTasMdktPJa0bB4b2pvaL129GMmxFw2hY8uvrfwHyXTvtMOaHdLaUZbq1f__UZ8S0-FCkPCZkexa7dyatV10ObZgBvXHKvosXrgR8Ptgfa7DV2XA57iJUXE8E0CZdY7ugIwtgLEaBOjBUabgPlsasXrYs49MOAwbHv-Pitnrt9oE-0j4Tn541_lfTgnIRUUaLHRcDDAADl1VA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLexsJIIdVcUjcE_CPZXi5ldIJkT_NjwgKezYsZI9o5-FVzpxHSb3o30HiiELcYwWRIUOelT9_NH21RTGa9sl0ISukSVRQzjSCXVZV5zi2HaIiAw2gHXJ8Ij13gUvaBmI-lv23thiDc5fPlZG46EXK1qc2BAhM54_bBBHRrLhvh46IoQdpMrOs2wV9da-kLxz7hINpv6SWciOUnIUt9Xp0CSC5rOE6D_FNEX5aDYI2u0hR4-DNbOXIWJJIaltpYPsnBj-1tF8p5uhIkRtr9RahFqOOTtkjVTOZ0wDnL3dJY0BdDrjiW3cOicHgxDY5s1qGL6wDsKHmoQBZzmXExqSfX4-q5hVEPGbjtjR4NgdChRz11qqgzajUEsxLnbHHuabr2jmsqRnRqycZC4NZIbIIL0wInQ9Tw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114718508213093558937\">Steph 500</a>"
+            ]
+          },
+          {
+            "width": 2865,
+            "height": 3368,
+            "photo_reference": "AV-0GLeKSW9K9NMxLpyAl4UBg1qEuAXvDm_FdU3TArG_x4ecMKDKe0R9Zcq9YNvTSnNzxcpdb-3RT42rFHx42SWs0QNBEXXM6MbGAQiRRLgDtOP95yu-bASup4t1LOdjxqklL4QT6YleSJxKMpWXNW67wSUKRjsSi6UE1GxuC5TVIm6GbRu1CJ2M4wTP4ZHFX3JvpZTB9m7zwgKynTu1CJ7B00tZq8z3cPrNqNP0f89DEdJB6SVIJ10ys56vxSIcgQpueDmdyRNX0K543lOJrnhZpHGIcAIycjWrrA9GcxZbICkUkcDkMeJWtuztmkfP97IN87akORX-_shlhRVqtzc6QyfGCDoL9nPL9IUY0oczz_sIVBVfBCLUvZWkl_KMDj7e_gpKQsjZ4PTyXKqInKeoxb5uxLU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1462,
+            "photo_reference": "AV-0GLeyAvIeDLc9C2s7dgpFaa4VZCh6ESSXwA9O1T4-PUv49RjZzdoyLs78v07MOj0SSFDHuSgcWJVZZCLjZMjIHVKYx-xH7iCPzHgL8_E-etbZjFjY9QhfbNkxj3Smwbq9R6GgJtOXN6bDaUywO3EiGfXJEZ07z3WiKIbXaqPzYsG1gQCYVhJrFBg4P238pe8v4PjWrDXJvn75VbrdD3VpjEu8JnRjL913qjPokVL0-nRCFA5_fz88oGtO5qB5cIMVRj5dJ6wmOeMoBnUFtom3rh1-TP30mrsQ67dy_TfaggH6NYw19zJCYMLRKk5yEGCvly6NCr7Mq4pc7Co40kGo4rUN9v7DRFqtzoKt5XvCDmGK0XAiOEURxXz4FArRsXFRHir9u5gAzP3biy62VDJhAZ8IMzIP3FCNar95R3rRdWbf9g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLesszDqakeb7tAwLxDrXYmd7TAnPAwwWG7zt62O7PWKtnNwFA0sxBcrr4_RuJXP9V5Ry_E1j23-xo2QuwDKmqbRBNpymiCUQ6777VI63zBE21aFsDTiYv_1pfV8zoSndv46ag25ZbZ2aSJX4M8ArsJaMIopw6O887J960xGZpnQRSX2MdAU0NC9TbkomzL4_97nkCwk_NKrGWwshkcm_Kqxa7MrD7zVAL3I7la0RkV5fzBvLZMoYXHkAAouwqQlaWsvraBsTLi7Te8Yb5vTPtJ8UYnofkDDya8aUwFIWSjVUXPhmnw68PBWGzL0AWqYasQ23TeoYBHgzOgenE9jCccEiO-ZPCESjq6yMDMv0IRH7PAUgaEDE1XmiCK9Sbx3yvY5MYf_r2aUmtSj2BLNRb5wKqKQoFOilHrm1jSTSTug",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1570,
+            "photo_reference": "AV-0GLeweKXRTDZRIvwEFNiGbYSM3hvu9-p_tbfZfFseghkKh3i5iRN12PCrlSLYXUsBInmbv4lBH5enxMc4zWfVKGLfXFG-nylMJ1a2v4XyHk0pCX44F95qOoq9_HMgQiZTMtgxSMrpD_nFnSqxCGERp0Ul2UTwFZgfpp9Tp87kadSlPFohCEUwGhT0g4RxNwiNWBsaJx1q-5p8Y6nsRwKl67Dm-9MIFjjvFg6YxkwwRuuPeDjO2vzrepLIQJQ3ddHu9JlBVGUJvinwTfvcgTZ89Hh6Hi4uKrVA1x-Ja4IBxjjt2ijGy9PTUYyhntO7juprU07yjbaE3-JrCZ37pZlLayMdx1kix7SZr9Fl8TVwrYp6CLo02Bw9fFlektq_neMBBq0-VZEkGPhUhsoW1n3jGjFcdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110157124042566513799\">Christophe Leborgne</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeOuZjQkFotFzYBYp5qnlfsn_YLsQnNK4qBtsjepXbtISu-3Tgpk6ky_e8lnkyxaK5A7mHPW750t0TZ4sm2dEfp_sUvQbCjpAAsud7u-yfkNJyD-sDcCw0sLId8o7EAdkZ6HOrNJZBszJIizk7QxH211MqH31s3dFjnCT9J3_VbWXhwgy7r69lrAIXSo0Urip3iYqL39DC6DyGZW0STSVSLvppi1-n3l7iCrR70DgjI9QU2nz_m2szcQPBuVC1de0j-oB-mTHt6e5EJkbufDpRyP0QWCXp1BFiOLkojR-pcdWaj5F2EXOgXXNbFu_bQPnCs1zLBihm-PSRLkCdTpkLud5ZaWekJPRHtPDCt4lNCiZCvZ3yvd9TzfFbGDotJZK5JDE_ij0L4S5WWYsdIobU0zKZ62nY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114718508213093558937\">Steph 500</a>"
+            ]
+          },
+          {
+            "width": 1589,
+            "height": 1086,
+            "photo_reference": "AV-0GLfz3z1RCNYVS5i6acqmWormfdzqgOYZHcgmL3-L_Bc0zeH_Ysi6p5HPSjzwp1LyDoQWRIFksEMmq0OdsAeK6tO7YSeXXJzvMPBuZnN7GPZsmOFNXDygnWhscQhohA_lgNqSP73EzhTrCxQiffqfscCF74N0fZkqfcKnAamLZHF73-geMaw-IDBvKsqfkqMM1OmZbgyAi1nnEh6Ktfct_2Jt4vOhPX2pY6qgsK9Jqc0132DfvCTk97mcHckMD4eDWu7qhrCrimbbj9ZwO2yqG05eUJA24EHhNs_dsy5xYwfxLKr0aQiW6CINwegwPj16tEfpBAEC5rraeC7oVxzCE-PEQNDq-zs3tBgjsZQyO3E0MyqWaFx3zNZ4zJfpFJzsD34H2gJyKZc4Reo_WN5n_p9m-KzYBcM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105003096468812355324\">stephane neirynck</a>"
+            ]
+          },
+          {
+            "width": 3334,
+            "height": 3334,
+            "photo_reference": "AV-0GLcV2ZQJHrg_ukoflauP0KJLFaG-6wovTwG27Xxix_LR1ORmFEH4GGZAx1HuTbHmTdI9amezQ44Gw9LptYv9O7V3PZVpvy90pF0OcgdVW0ubNRuwg2HYMjJipPYdk9e6jLTfiUII2AzZEz91VqLMMyNbKAyxsYMZCgEbM1XqBTFP5-oC597HLpqyXVEKC9A1zLG5OrOQuXYmwOjMdb63qkuRX-nzFUltHGLnXrW7y8ef2SoPBKTEcU8XJpfBEqLWe9EIz9qgW0X0IcWNX89siv2Di0T_XiFY_VpBaygbpWkZEo2Dy2P8CEglahAGzkCDJR8ES9YfurIELhwxYLTcyZdFQKbf1V8DyyMOddK47q2i9nsAf8hHW-HQFIpy1-D4onKRW9o2GNgXKgSUg9KXUlR8j_cvYXU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1538,
+            "photo_reference": "AV-0GLejax6VPZwfuyUCDf8pfS7ffdG7Vi00HO73EbttAkiGsfq4v1bMdeRh6Y72DZOsO7Nq2K5nw5m5pUk1zKNU-qGHOYHQl-8csNoTTY951EXVbfc_2a0BRj16AspesxQW4Y3Oa0JHrcVswfi6MVTX3A-JFGhsgqP3E0p28CnWFv49zOygVOOoNs1dW4XiwfzbIm9lZ0EaLzIOgkUxh1XH0jNocuHiPsFDx6bbMGXvqz68UnRfgUolqROLj2Ksuwi8mkHNHNZuCH4kDr9U1chEa73OBJCUjTND_jGPUdiKPlyTYnUL3IMXsDHbbpEGaA1MlIgyb0Nbw2-9se5k2rOsHXzmHnpA2uLiQfKCe11azCM410ZYZrcTDY3ojZXvzltEXcmBWk79LG7qdk_8uttQmHDUn6vl6ZI7jd6h6Q_mClZarw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111870547631643217646\">Boulangerie D&#39;hulster</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5676
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "De passage dans le coin. Vraiment de très bon produits",
+            "language_code": "",
+            "publish_time": "2026-10-23T09:59:04+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Sébastien Hauw",
+              "uri": "https://www.google.com/maps/contrib/103753934687019282126/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVJCNXzUuu62ZIX5_Wyy_sw-nYKmnNyJwvTOFtAf3iRZ-49BI8f=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours un très bon accueil avec le sourire.\nNos habitudes : viennoiseries, pains, flan ! Toujours un régal",
+            "language_code": "",
+            "publish_time": "2026-10-17T05:49:57+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Mart Mrt",
+              "uri": "https://www.google.com/maps/contrib/115373425903841031906/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUtiXqoDNZyYAg77_PzGor9V322z1mamqogt8dpYp-1p1xZmpID=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-28T10:24:28+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Noémie SALEMBIER",
+              "uri": "https://www.google.com/maps/contrib/114316044017789431098/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW_6lEVLdNa1ibMcdrtJBHtDG6sR10CptuPgpMaO3e7Cnep65_E=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-21T15:59:21+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Ratajczak Vincent",
+              "uri": "https://www.google.com/maps/contrib/100154602977242597090/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLEmVNC2TmssDSSY9ramJGbbm3hvpjRmElB7AIOOS-6kpVJdA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-19T08:38:21+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Benjamin DUBOIS",
+              "uri": "https://www.google.com/maps/contrib/110533488416138333014/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJMoh3vmA1Y8qvRemuQZBeZ5mJSWeAh1OiN3zplmC8zGZHZhxo=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.9,
+        "user_rating_count": 122
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1159,
+        "bo": 121,
+        "front": 1038,
+        "estimated_cost_eur": 3.9749999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [],
+    "summary": "Boulangerie située au 65 Rue Jean Jaurès à Houplin-Ancoisne."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-d-hulster",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5676,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8368303513e72a06497f342b97b784d32f8630390221d20a3bffd9780a6120f3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

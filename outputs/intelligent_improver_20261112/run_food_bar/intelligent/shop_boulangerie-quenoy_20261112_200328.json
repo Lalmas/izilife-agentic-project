@@ -1,0 +1,593 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:03:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-quenoy",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-quenoy",
+    "status": "found",
+    "data": {
+      "id": "5717",
+      "name": "Boulangerie Quenoy",
+      "shop_string_id": "boulangerie-quenoy",
+      "unique_id": "e9da1a0dccde6449b2fb832a8bf0f790",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54977",
+      "principal_cover": "54977",
+      "qr_code": null,
+      "phone_number": "+33320979429",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "38 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0165012",
+      "latitude": "50.5150791",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:39:26",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:39:26",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJS045zeHSwkcRU4UeoithNmw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJS045zeHSwkcRU4UeoithNmw\",\"rating\":4.1,\"user_rating_count\":130,\"google_maps_uri\":\"https://maps.google.com/?cid=7797526644869989715\",\"fetched_at\":\"2026-11-12T20:03:18+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T06:49:59+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Bruno Gilleron\",\"uri\":\"https://www.google.com/maps/contrib/117886042418341290552/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKmfuW0h90zh_ENGt_Kjoy1TpOTSB-6agzWicyWZA80MqmpJA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je suis passé ce matin pour prendre des croissants et pains au chocolat, cela faisait longtemps que je ne m'étais pas régalé avec de bonnes viennoiseries, le pain au chocolat et le croissant sont bien consistant, ont du gouts et remplissent vraiment bien l'estomac. Bon accueil également 😉\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T18:28:34+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Romain Declerck\",\"uri\":\"https://www.google.com/maps/contrib/104327313010577619061/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJh7bRFzjLxJjRopQLyHy19KwCu45eWt2EI8V72jh-pHEomuQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-19T04:04:23+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Elisabeth Eljasz\",\"uri\":\"https://www.google.com/maps/contrib/109458879443462201034/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIydCmgwhV5w4c1b6eM9SnZhhx7sSr7XS1OvFdmgTPHt8WqpZU=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Fermé le jour oû j 'y suis allé\",\"language_code\":\"\",\"publish_time\":\"2026-09-05T19:57:21+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Cathy Saint Ghislain\",\"uri\":\"https://www.google.com/maps/contrib/105445129218875630909/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJVKEEr27CVg9bfIZbj3pIDmspF4uliSJC9yqw4qffViVBd9A=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Merci pour ce magnifique et délicieux gâteau 🎂\\n\\nMonique Poncelet\",\"language_code\":\"\",\"publish_time\":\"2026-08-17T13:09:47+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Monique Poncelet\",\"uri\":\"https://www.google.com/maps/contrib/106583468227474032472/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIRlBZn5-5VPTtiPFMViIK9AaQ2SP-JESbIJ9ewcWii8_3spw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:03:18",
+      "google_reviews_place_id": "ChIJS045zeHSwkcRU4UeoithNmw",
+      "source_id": 5717,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-quenoy",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "boulangerie-quenoy"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54977",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5717_6af39d1ed1f23.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4776",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33167",
+            "source_hourly_id": "4776",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33168",
+            "source_hourly_id": "4776",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33169",
+            "source_hourly_id": "4776",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33170",
+            "source_hourly_id": "4776",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33171",
+            "source_hourly_id": "4776",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33172",
+            "source_hourly_id": "4776",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33173",
+            "source_hourly_id": "4776",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-quenoy",
+      "google_place_id": "ChIJS045zeHSwkcRU4UeoithNmw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 13:00, 15:00 – 19:00",
+          "mardi: 07:00 – 13:00, 15:00 – 19:00",
+          "mercredi: Fermé",
+          "jeudi: 07:00 – 13:00, 15:00 – 19:00",
+          "vendredi: 07:00 – 13:00, 15:00 – 19:00",
+          "samedi: 07:00 – 12:30",
+          "dimanche: 07:00 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLfrrFUitf-JsUwc1d3eeq7-7NMvrUa-FUeQbqA787lpnNg0aCNGB3qr1cmdWgnyXw1m072NbHSbtKXqtx4VLRB4T2cxYm29cMB6MU-Rb0wsI2HUiBho41x_gUP7ibirCgr3OOZiLABrwiFI-w4jpRIImpUrpncnFxRp6PWJJPUuy2fw9EG-2SM6J5jH8KYbeJZi5HFU9nGv-NS2No5abP1AEN652O6weHO5IpqJYvOJ13vKbKQ3DKFX6KrQrhM-xYWM4KRD01z1sK_YHOi9OIDaw3o9TtAYu8HF4EDSBJl8h-JSq4yjCfpetyFSkONLNCfULCHv7aKQvaD6t_NxUCBpAfHz2iIIOXcT8W4fjqxwiXhO7SKqxxrj0ofPg73ZdpmONncoDhD4umvUxwg5Ln_BUx4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020711637577637620\">Boulangerie Quenoy</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 575,
+            "photo_reference": "AV-0GLev-gqoFvg4fi-p8WBRQ6ikvE5Zy3FqADD5UEGcZvql2g7eE2xYEdUzby-S3WEHqakh-1ZHJ5LP6x2wYQljjiY7ZrDhMSZOCft17F8L3P2A7JfIzXfzA0L-toZKIX054y_USoBZEV2DVuBFBNSIDxPqeiqw39oAkUm1WGXtGMOJdHB769iPqnWb5cWug-r7VQDC6L3EVbG8ikBiKKgRbPWqPNfp1BwXBcn4c4M6sRZ8stjxvtn4CdtB9SthrO3xqzQPiwg2HgJpiwBIo4B7HoGqAlaW9Hop2gwZzlOl2_2iHUaNUTBJz_PS2B9qHFsp0M4B8COmSdXr7DvP1YJ9MyJ2gI-BQQV3H2-2D-E9vZ5nCfO45dNIAtpoQNziLUn0Mu-sq2I8bcCiiZ3TE3CS6xJ-dYdp1cOtUH9ICe3aHxwTMA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020711637577637620\">Boulangerie Quenoy</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLe53VQK0Up6CER3Jv7yNsGl2nA4HjweIB5nB7IKpuk99kR_fvNdN1djRhqnW8y9jK6WMHhUSrUFh1LdBaGwfrfPcIe_FnLhElH3_CbB5frlh6WWMmujer5s_zlE2dkESB-DoVYRfxwGpXZM4sVBIFoKIMg8ny3XrlfQERLm8sxt5y1W-SVwLQSMkiK1gmmq72znPvn87t2-ZMPsYZG6YD-qwtt-siVuf26RoGg92O-tEI7gGVw40WQFg-s_Q3m6QS-EbVr6AlIYYzTMkXDKzaaEQ6W0teUkspHPkv2XV0Ec5O93lUq6opAuZCyGo41zyr58lIwv39rfsj4x0GgI3FF2uEIO2d9jDg3KQlkEEiZ4_xNvkxI_DrNNnzBmAuKNJxDgDEhF1-XkXNOajEc7jQQpEejNtxw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020711637577637620\">Boulangerie Quenoy</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 575,
+            "photo_reference": "AV-0GLd3Mjmem2KKs-pZ9dqORW4YTgEl1W-wcpwbpJhYOmvQYpOaZLAVJJzssu4Ba7p3_UeL1awkGcTIu5Vuzm8NyGoWaa3E5CH-b5rayenF1RiQqNLy-crTifUgg1WYdyblMN3Np5rWIL99kuyABJodPM_jMjXYwUFZFUxyMg4_fc0X2cxbAXuUA5QyJ83_IFWV7_XYxJcFHVY8YjF4g7F0PempCuWP0R8m6pxAN7CDz0JIXUOztyXKjFTlIy0OWyVWGH_PW8R0Wi9EqJ8UvrwznkR-cPToEvXhGTTck4reEjynkweQ_TWfbBKskvjElbfWDLw9uxOq6f-JpQiNQYHWsocLveJRcpP7GmR0y_dlsKKvZG7s_44y0jV0dskpIK8lqkleKEK1iFpDjNTKWWyFZWCyxZL30aY0PF6EuFDLNFVs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020711637577637620\">Boulangerie Quenoy</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLcTf61DvbaZi_8BW_NA5p-ncLDmR0pWUfaAhpCWRqdtZfZDNeN9Ck9BD5nS3ydawo-CweYZKdTnnYw8CL43ot9UzS-LMz7vfXna3RoSLAj_BfDO7RQmbpbQwMu1M9Gf540Xn49mvCWxXDxlsKHfja4LtzCvfur1Re6-dgkOtv_KSTDSfaWi9cqTqTi3sXrWP7X5qZZsnT_IKVODoTnl_GwinmibnE6Ts1flBcc6s82zJAD6kTmuhn2k67L9JIWLzHBhzNisBoZ7Ro4-JKzc4T0Q0jveFC2tlH3NCkKe3xGcXzA7oRvfyhsHNzvOI9aVPK_oX0R7fC5b0c7Vsx6QtR_jIWALodwDfT7-A7p3GgT0KufFCGIDyzbjVx2baqT69vS1FzjRNJp0M8Cp-iH4ggP8-OGfCd8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107815805335554915955\">Thomas F</a>"
+            ]
+          },
+          {
+            "width": 1222,
+            "height": 1389,
+            "photo_reference": "AV-0GLdjV9EF9YOolCvN7GEbS6jqLxiOoZrAqi_h_NwIhDCdVExJpuB9yzHKBPxc1PYWDWzvco5308Hr66p7Zys1Agt3kCzaR8VvrOF3jQZbuy419fL7snadQkvR9Z1L72ZyuKMrykjYuy_9jFiDwtpqdXYm4kLs5BZXpHO1vjZ1Ld8FU2_GVPVe3eesbdD31-N8VLcKGIIrPZOkbUkxEnBBs8D2iIxXNlfaRutnc1tQ1BgGC_A2rCDwl62rruMTIGOi97lh00iBWDMT48i1hITMn-LPGDTeK0I6r5Lj5UKwN8LFJO5H817Ez2-JGnYp88shHUAwz_mPCBr6N3WUI2LKqOR92XjdQITAOWn0u56Y361db25O3Oic0f5e2xNMp2aaDhZ5BJb6J8MfCzpP4K4n51ZFA6Nt7SogbIRZ1aUlh2HIBg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118117522760257151579\">Stephanie Cottenie</a>"
+            ]
+          },
+          {
+            "width": 3480,
+            "height": 4640,
+            "photo_reference": "AV-0GLcnVEJBqBe-A08jq49ne01MROo6UpR4He7wf2LnWE6pLzOh7kDy2kgcE8lQr5kaHAdZn-J3B8YjlqyIEXZiABF_S8u2xXjDk0gzUNly0PoMR-Dt584Q9NTTziJLVPs_2oa-JwmCJSvTq5VKlndBaBpBW_K6NBof3vSjI9vw_FA4QEej31RNpBoQJ69UL_NyOePJvrdNG0ry8-eqF2S-8MUOWYWTHIAPfLKEdEAziy3WnwmI6f23qO6zV6ulMiVAiaZ-AnW3pNjQvQCnAbsUhyc-INn_gvFBmfLgjExVEo5KXi2gkLa598pS6RN01MhtyIHkUKoFyHUWzKA5EkSLO_esXXty0QFpjcsSj77JU29h3nMWlbq-lZAWhHXxFYmWW2Cuy-pCvmdu3LEndwjGFkZsA_I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113279094060558577166\">Julie JOUAULT</a>"
+            ]
+          },
+          {
+            "width": 2336,
+            "height": 4160,
+            "photo_reference": "AV-0GLcjHNDZoI2XfdBBHM6iq2Z6KhzAZNfGAOA2BNEg4F_Lxe51cu4Ufcr2wqtJk5M9Y5LTt34wi6L14AjEvyIwMyziy2bPWR7KWS2CH1jzBku42LWPYXHaC0FkQdxfGSMkwVMgdiHeV_FwvEqFbVhDZY952zFNQ1yICkF0JEQDGtH6Rw1UmjjdFUDjnBkbvOO8wznrFGLH7tUgsgA_0aIUe20qNBaZ-RLvu2MxZ1xJWRprEY6QNh3krvpCKnhF53yryTTuRY3eksJ1b_QANEizK-cH9PlJwxbrZjeIHfMCheFlRw-AutYhn8laOBkZw4dYJCP8w2DWYmK1StOnQWFG7R4P1QFqnMpPyPSmTPOuMC_ZjA_toJZfPhbX8BcBcGS1ueeUMDuJwtNvs2ACwkQbmDFc5UcaiuI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117682640288149453445\">Philippe Verhaeghe</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLdzYIvTeH75pMBaTW2pasK8a-7E6kKYQkMIJwBTykIX1hzlvyQItQ1zOWiMvraGe4GWUFfr4YYfxPAZTro8noxAwowgK6s8nQO6WarHYbvEspJEiaWdsZeuxFJ1oykwQJ6Glf5EZ1jjY5sfsj0fddr9j8d5ofMbewkThMlR9HiDAQEAlUPq6Vt-fzbq99px2XpIrNqCLN_SWfb9Ng98GCu2NS_ANvxpEpkOEGB_CWeVKhyuVugig4zdtopZ2hLO_OGjGuXbjU5KZabJ1YSLzN-R2vedHJEJTkGg1zwqrH-c4wcUFNZ9zXTE0m9mH3sP01ypBdh9XEdGqNIP3AXeNuWrZ1n9uBEdi_FAZ20pS6V6L2iDVqSUdCZKukys0uT5XBk5RbLn1wJyGcwRH9bqpXkT8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020711637577637620\">Boulangerie Quenoy</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5717
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-01T06:49:59+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Bruno Gilleron",
+              "uri": "https://www.google.com/maps/contrib/117886042418341290552/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKmfuW0h90zh_ENGt_Kjoy1TpOTSB-6agzWicyWZA80MqmpJA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je suis passé ce matin pour prendre des croissants et pains au chocolat, cela faisait longtemps que je ne m'étais pas régalé avec de bonnes viennoiseries, le pain au chocolat et le croissant sont bien consistant, ont du gouts et remplissent vraiment bien l'estomac. Bon accueil également 😉",
+            "language_code": "",
+            "publish_time": "2026-10-16T18:28:34+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Romain Declerck",
+              "uri": "https://www.google.com/maps/contrib/104327313010577619061/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJh7bRFzjLxJjRopQLyHy19KwCu45eWt2EI8V72jh-pHEomuQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-19T04:04:23+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Elisabeth Eljasz",
+              "uri": "https://www.google.com/maps/contrib/109458879443462201034/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIydCmgwhV5w4c1b6eM9SnZhhx7sSr7XS1OvFdmgTPHt8WqpZU=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Fermé le jour oû j 'y suis allé",
+            "language_code": "",
+            "publish_time": "2026-09-05T19:57:21+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Cathy Saint Ghislain",
+              "uri": "https://www.google.com/maps/contrib/105445129218875630909/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJVKEEr27CVg9bfIZbj3pIDmspF4uliSJC9yqw4qffViVBd9A=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Merci pour ce magnifique et délicieux gâteau 🎂\n\nMonique Poncelet",
+            "language_code": "",
+            "publish_time": "2026-08-17T13:09:47+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Monique Poncelet",
+              "uri": "https://www.google.com/maps/contrib/106583468227474032472/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIRlBZn5-5VPTtiPFMViIK9AaQ2SP-JESbIJ9ewcWii8_3spw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.1,
+        "user_rating_count": 130
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1190,
+        "bo": 152,
+        "front": 1038,
+        "estimated_cost_eur": 4.75
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« prendre des croissants »"
+        },
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pains au chocolat »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« ce magnifique et délicieux gâteau »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Je suis passé ce matin »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : boulangerie"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie à Phalempin proposant notamment croissants, pains au chocolat et gâteaux. Un avis mentionne de bonnes viennoiseries et un bon accueil."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-quenoy",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "croissant",
+        "pain-au-chocolat",
+        "gateau"
+      ],
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5717,
+    "changed": [
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "cf8ed2969db2affde7c8c905d6f5f8f329c119e80b5f22856ce7c19a94ef6676",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

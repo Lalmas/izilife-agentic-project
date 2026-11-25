@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T20:22:32.175722",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 112,
+      "title": "Foodeez Food Tour",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/foodeez-food-tour-1.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "3.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 112,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 141,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T20:22:32.673515"
+}

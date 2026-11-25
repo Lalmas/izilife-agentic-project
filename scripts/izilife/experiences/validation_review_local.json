@@ -1,0 +1,86 @@
+{
+  "environment": "local",
+  "mode": "review",
+  "started_at": "2026-11-08T10:08:04.903367",
+  "experiences": [
+    {
+      "tmp_id": 4,
+      "title": "Filez vos perles au chalumeau avec Claudia, MOF",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "artisanat",
+          "artisan_technique_string_id": "filage-de-verre",
+          "additional_image_urls": [
+            "https://cmsphoto.ww-cdn.com/superstatic/4411393/art/default/98282374-68507969.jpg?v=1791279078"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "activite-manuelle"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "9",
+            "10",
+            "11"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "a-faire-absolument",
+                "confidence": 0.9,
+                "evidence": "Atelier réservable avec plusieurs sessions."
+              },
+              {
+                "string_id": "a-ne-pas-manquer",
+                "confidence": 0.9,
+                "evidence": "Atelier réservable avec plusieurs sessions."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 0"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 0"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Atelier de filage de verre avec Claudia, Meilleur Ouvrier de France."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Atelier réservable avec plusieurs sessions."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Atelier de filage de verre avec Claudia, Meilleur Ouvrier de France."
+              }
+            ]
+          }
+        }
+      },
+      "provider": "openai"
+    }
+  ],
+  "completed_at": "2026-11-08T10:08:11.799007"
+}

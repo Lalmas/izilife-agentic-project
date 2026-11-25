@@ -1,0 +1,390 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:16",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "ver-o-cafe",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "ver-o-cafe",
+    "status": "found",
+    "data": {
+      "id": "5873",
+      "name": "Ver'Ô Café",
+      "shop_string_id": "ver-o-cafe",
+      "unique_id": "27870500fee1b7d49d24bcf174df391e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "6",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55129",
+      "principal_cover": "55129",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue Jules Guesde",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0178091",
+      "latitude": "50.6135083",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:03:35",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:03:35",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJuT2i9jvVwkcR5iQ97qSGPkU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJuT2i9jvVwkcR5iQ97qSGPkU\",\"rating\":4.5,\"user_rating_count\":24,\"google_maps_uri\":\"https://maps.google.com/?cid=4989573480102831334\",\"fetched_at\":\"2026-11-12T01:29:48+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":1,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-04-06T19:36:56+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"david planchon\",\"uri\":\"https://www.google.com/maps/contrib/112299114318860046937/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ5ht_4u4ESw-gsx1gRFsPr4Awi1LD5TvaDgXAsFnjYTYtpqg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Agreable\",\"language_code\":\"\",\"publish_time\":\"2026-03-18T11:33:25+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"Isabelle Levecq\",\"uri\":\"https://www.google.com/maps/contrib/103598374011734028808/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVNyp7pgjBNKd9MHo4mReqaupwvkO-FV5ecJJ_--fBjUmf4yXY=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-10-27T01:23:40+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Magalie Waret\",\"uri\":\"https://www.google.com/maps/contrib/100593116592006767632/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWloyV-fNVWLhpbKDfOX5C5KieJ2IWjR35JKog1GSYXhfjzwx5a=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-10-21T06:03:51+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Antoine Fruleux\",\"uri\":\"https://www.google.com/maps/contrib/100695447155432136245/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLZXQMqx8hQ38ilmb4DEUZdoFiWbMzUnUSfkvYCHGQLyTzmew=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Ambiance familiale je n'ai pas mangé sur place.\",\"language_code\":\"\",\"publish_time\":\"2025-03-27T06:57:15+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Corinne Blomme\",\"uri\":\"https://www.google.com/maps/contrib/102531730789010551623/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLkMLpWfHSUvKrauodWrAknl3XnwVw1cJiN4gz5lhUz3qs5jQ=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 01:29:48",
+      "google_reviews_place_id": "ChIJuT2i9jvVwkcR5iQ97qSGPkU",
+      "source_id": 5873,
+      "scope_type": "SHOP",
+      "scope_ref": "ver-o-cafe",
+      "primary_category_ref": "cafe",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "ver-o-cafe"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 0
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55129",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5873_6af3a2c76dcb2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [],
+        "content": []
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "ver-o-cafe",
+      "google_place_id": "ChIJuT2i9jvVwkcR5iQ97qSGPkU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe276dcSFMzuqJg1jpAyE2G8GlrB8w3e0-kP8klHX040e7fi7q9svUJsA3IfmWfFVRwG_iVRXWFqMd1UQppjxrVcjMKIreQmZo0Gkaclo92BTmlAJV1qEu1j1GaTcYk6S0dBRrgocIi9pNW8cj8VFLTqIuIrTtv0ahjwA3nF-MJFZFTb3QVXsEiBtxq0S6tINl2sxhKDLkInUygHgW58GPl7NtQ8OgM-QXgW86m_fkgCxeVn1aqSUNuvjMpE0C89IhquKMhPlzRYEeIt6sfdGVDpTqaeG6CD57At3U1YMKLgBdgihuAArBJvb2J1Upun0Biu27gekaqIttpXuVO_qsOnyAUzQ2a-ZVP3UpfIhFlaxLKZwvx2R0UUvtzmQeYkEyBZ5gO-WNzWcmBg3PkngsrQg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101293806295244334940\">Ed Abelman</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd3q4YINrYa1RjOlbLShXaoO0ZpQjHYvAO4iBD3430jT69JuFn0wFi1-qqw7sJPywqnBa3_WwjT4lEJbOtC6Z9j4hywRD7gmaDuCDfIZe-pJ9XyVq07ebc2SJTq_2dqTj3pa2QkWLZVpPJH1S8_V-cAUN9Zv4JEkKorOT7vAfXRWYnYLOSn5rkhI-pTfy-lHvpDjUr2sYaDS5cR6mv11KMrkaLJYKXTG0yRizZ93xkwfVw77hMTp5KXD3oblyQpR-SmfgtHfWaFbFVjlwV9DLQ5IZ-ZowJNDJ9xus95U2vvQWUUAIAyicxvHElwRoF-58Gd4VLc2C40xEAveZWFpeL0MRpXo0K_qLcHjR6VnKTQXleLucT4cCza8YQjrfW4fPSsVKQg5C468ySHJsfB_LL_E2gX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101293806295244334940\">Ed Abelman</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeXKdyKVqrUn_PuatIeu7Wl8gMWocFSFEEjRop4XI0hrNMEwkrGTkXmulDKSdQ4aHI2BfX-quHoNflLopSbkraM2tP8jR5bMIMyJ_hsOWR0iOt3Ao9Ip-Cove3MqVTw7sLeqhwEc3LJpdYx70MwgFYvEflr7nPxT8S4l0ruRT-UwmECdKyu6qbcpLfZ2FNYOML9uOkMqvM2DzCtE5WHgfglsJs8OWd6UcX4eDdhjiuo-cFpNTGtxRhkWxxa9vByybtNOcs2roRr6455t1_Q-tuDb1nUk08l3IIoob8finPkmMDMyw_y55c8isMoJrFMkTsr6R2q8djy3JssTGPKAD5T16AV6yuW0nbnLVy610_dpLNY9YMU_f44oc4R_ZDt1MW3Y-cfT09KUfSLojB8B6DcPVQX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101293806295244334940\">Ed Abelman</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 1,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-04-06T19:36:56+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "david planchon",
+              "uri": "https://www.google.com/maps/contrib/112299114318860046937/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ5ht_4u4ESw-gsx1gRFsPr4Awi1LD5TvaDgXAsFnjYTYtpqg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Agreable",
+            "language_code": "",
+            "publish_time": "2026-03-18T11:33:25+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "Isabelle Levecq",
+              "uri": "https://www.google.com/maps/contrib/103598374011734028808/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVNyp7pgjBNKd9MHo4mReqaupwvkO-FV5ecJJ_--fBjUmf4yXY=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-10-27T01:23:40+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Magalie Waret",
+              "uri": "https://www.google.com/maps/contrib/100593116592006767632/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWloyV-fNVWLhpbKDfOX5C5KieJ2IWjR35JKog1GSYXhfjzwx5a=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-10-21T06:03:51+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Antoine Fruleux",
+              "uri": "https://www.google.com/maps/contrib/100695447155432136245/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLZXQMqx8hQ38ilmb4DEUZdoFiWbMzUnUSfkvYCHGQLyTzmew=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Ambiance familiale je n'ai pas mangé sur place.",
+            "language_code": "",
+            "publish_time": "2025-03-27T06:57:15+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Corinne Blomme",
+              "uri": "https://www.google.com/maps/contrib/102531730789010551623/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLkMLpWfHSUvKrauodWrAknl3XnwVw1cJiN4gz5lhUz3qs5jQ=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 01:29:48"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les informations fournies ne précisent pas l’offre de repas, les modalités de consommation ou de commande, l’accessibilité, les équipements ni les moyens de paiement."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "adapte-aux-familles",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Ambiance familiale »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Ambiance familiale »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Café à Loos. Un avis évoque une ambiance familiale ; les autres services et caractéristiques ne sont pas documentés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "ver-o-cafe",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5873,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "57b605a461a2e5dbcf37f0fafd38fb8501106b0fb168b51f61fe54b9afdb6529",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

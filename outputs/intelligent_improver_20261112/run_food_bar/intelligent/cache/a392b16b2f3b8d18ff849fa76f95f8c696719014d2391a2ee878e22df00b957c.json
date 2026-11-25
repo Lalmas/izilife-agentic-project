@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "Nom : « La boulangerie pâtisserie la Licorne » ; catégorie principale : « patisserie »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "Nom : « La boulangerie pâtisserie la Licorne » ; catégorie principale : « patisserie »."
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis ne sont pas disponibles ; les produits, services et caractéristiques ne sont pas renseignés."
+    ],
+    "summary": "Boulangerie-pâtisserie située au 88 Rue Albert Vanderhaeghen, à Haubourdin. Horaires indiqués : lundi, mardi et jeudi à samedi de 6 h à 19 h ; dimanche de 6 h à 13 h ; fermé le mercredi."
+  },
+  "meta": {
+    "cache_key": "a392b16b2f3b8d18ff849fa76f95f8c696719014d2391a2ee878e22df00b957c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

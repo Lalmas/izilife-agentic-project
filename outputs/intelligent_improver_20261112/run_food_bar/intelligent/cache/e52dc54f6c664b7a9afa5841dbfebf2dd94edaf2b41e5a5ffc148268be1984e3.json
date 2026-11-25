@@ -1,0 +1,104 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Nous avons passez un excellent moment"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "les plats sont succulents"
+      },
+      {
+        "string_id": "spot-calme",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "l'atmosphère est calme et sereine"
+      },
+      {
+        "string_id": "experience-originale",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "La platine vinyle pour choisir la musique est une touche originale"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "restaurant"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "La platine vinyle pour choisir la musique"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "calme",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "l'atmosphère est calme et sereine"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 23:00"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "ecouter-musique",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "La platine vinyle pour choisir la musique"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "reservation-en-ligne",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Vous pouvez réserver directement sur internet"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis du 7 novembre 2026 signale des problèmes de propreté des toilettes : « toilette à fuir absolument »."
+    ],
+    "summary": "Restaurant proposant des plats faits maison, avec une ambiance décrite comme calme et chaleureuse. Une platine vinyle permet aux clients de choisir la musique, et la réservation en ligne est recommandée."
+  },
+  "meta": {
+    "cache_key": "e52dc54f6c664b7a9afa5841dbfebf2dd94edaf2b41e5a5ffc148268be1984e3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

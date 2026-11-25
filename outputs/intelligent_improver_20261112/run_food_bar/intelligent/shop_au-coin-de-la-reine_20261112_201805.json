@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:18:05",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-coin-de-la-reine",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-coin-de-la-reine",
+    "status": "found",
+    "data": {
+      "id": "5752",
+      "name": "Au Coin De La Reine",
+      "shop_string_id": "au-coin-de-la-reine",
+      "unique_id": "b70a96fb49510eed513588a4f81e9d10",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55009",
+      "principal_cover": "55009",
+      "qr_code": null,
+      "phone_number": "+33320591223",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "22 Rue de la Reine",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1264158",
+      "latitude": "50.5332925",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:45:28",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:45:28",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJYadMhCLRwkcRHnjI8WrvIz0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5752,
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-la-reine",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "au-coin-de-la-reine"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55009",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5752_6af39e88a30aa.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4811",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33412",
+            "source_hourly_id": "4811",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33413",
+            "source_hourly_id": "4811",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33414",
+            "source_hourly_id": "4811",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33415",
+            "source_hourly_id": "4811",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33416",
+            "source_hourly_id": "4811",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33417",
+            "source_hourly_id": "4811",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33418",
+            "source_hourly_id": "4811",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-la-reine",
+      "google_place_id": "ChIJYadMhCLRwkcRHnjI8WrvIz0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 12:00 – 15:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3088,
+            "height": 2320,
+            "photo_reference": "AV-0GLfiYzBSq_ts7EOf6xaizDTMUt1mSpSy8JPtOoWKBk6hs0iaSzNZY3Epo8Uhmz38P5crhFyUb9tZBAS-nlexOWlSQEQ5q-_-q71dAWcP6R0txlovpwq55yfF9IRSYwyM6ZRodSJxp84ohaTHyXHbDZzgeYW-GB3ko-nSa8ViFlYrp7hIGA6FALoA00HrF-0qjdCIukpeyxckRVNuUA0tlMI5gGGKVtrcrU1t0DIPBzESR2R43bcjSOc2CyEc9qUOAPTHqZlCTYQ0tAlX5KFYOd24rePdcTGhaMPSgun9P9b734AD40hFNmCy-dg9gctGnquCfK27lwkOBTwWmCCXJkfPFOzbkihJyQJL5rMyNAm8T9Ynx8yJRk-KwwxrjOOBnONb5K7qBPPBPewm7aXOmBFry2bcCuqImZSB7ws_myoRkA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109885160093204780835\">Ceugniet Arnaud</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfCwa6u2sbyKC2bDNoPAaEqasonr-amsMN0_J__F73BlJS-KplkRJ4ySogKknQhodgyoZbL_KKX85UrdI4M4t4d_3AiAO0g21U8neHKvN61poIuMXsOJ-XK1zxCXAUiXzkvKVswxmMmRYhZNGhE-H3EaDeaawCY1XQCBvfRgCTLSRDPmKHmYxpZ9YMTCdStsnETL5vXlJ2ioGzNqjI0rsv1mNcJN1YN5poJ07Q2SDSfbXdVXs3Hqn1Z8uAwXXXhGGkL7nVXZK9pbteIGy_yQFcEuB47UxvMFyDeZ7KUPKwUiIvmYTeuYBTuedRQHvGW2SLMJM41OFNkL3TeQc_xLkSok5Jhy0qT_NklTDDcVT4_PZVKGJKo6oThphCOhqC0mizj9G1_hyBiOhfu7L5-5ZNv-6ymnwVo_ZP_irVdlbL-",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116233411169142315032\">Nath Bog</a>"
+            ]
+          },
+          {
+            "width": 2433,
+            "height": 1836,
+            "photo_reference": "AV-0GLddNiNoyHXGGaM95QxsHx_qG6-arTVibpEvW1YOVcaQoWcAOZBSrmDfFzNvuE4nN550omWKBAtCMQYC5jtPGz1itS5ty_NCXu3gxxv6vsz5YnKWGylNS6TKPLJQuxcA_hiu83siYWHpay06fj0J5XkZ-VzCUjI11aYjcbnhCobKGb_GtotY-pB4fDob7nZOVx0buHC6DwxsRbe5T5N9QztMAuqWmZVO0OR4WeIjQmiAZezgt-YpIM9Wul4FEL2Ty4DAPeSpyagvGBwHGgFLqlN2f7eEcxd4YmZI3ZQEgb_xXc4mM0bNWpYfQEA0nZvoRtyHdyilQTdk1GCvczHNPVhB2Byq2zvBb6TzyjD0cIG36V7MmVcGV8f-ouPXZBV7T6I_0dGPyH2ag8AEh8Ph4zW_uAoe",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110558376158835548082\">chris schenian</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfhNPDvo_pxsXeEOTU03sdejB7KJIt_b2oOvOeel6F3faV-C5VI1aZCgkt105rfxvAlnGEct1XQJy0QWyHQ-q8cX9iZcMy-oXDuEe-49c1n-R_YWSgOMY0HFVczs_xQJ17wQo3GiXk1ytksbnddhXW_jTNiXE__fbRsiWjAy3p63Mu7f1NI8StHUnqmb_UDg976quxz-u83sMIX_miBpxIA57lRmgeMsBkkx0qxaB1WE5Jdo3D4mXWtW1ugmB9UqQvNctCIsUJ3_pPMW6YPmfzNaJvCIfkKcTTmsb7tGHL3mztOVB_jnnpy3vNRe8DiUqd4bVk-6csffuo6VAO_GeAxSSqW30bjVPqIDFE9Fp_7mbKLHChW3VC6WQhs3bVDkLnTbx0FrVXkz_4wEaiwgIQ_CINd0pOagUkAuF8Dvq9qSw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116233411169142315032\">Nath Bog</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfAzfruRrNhOZEwl7BqBLyKVbisNAINY_kHDIVSj2JjTLPtQS_uPsVAmfFBTCjuCF_OoEfOYIDuvFVCXuEThzFhB03ByRTmqKwIuAB_hAWgr4KFaUgJuqRIw5tjDr0OVH9r6OEkUnvZFOY0_ZxAaAmWo5ixeObm73JzDAaeyixtBAihTxJIqswdJsIFK4OwttpMXz4YhBHD7YG3TWsoZ5ye69r8RMvHLFgSvlajDptOAhiyXXb-bzB4G5Q3LCHeDIzRO7WivvT6EyDrmUOmJEWMkS_Qx1yYY215TIUuBVFIEjnCUP8JpX40z7wiCLXAMEMh7k3p1XiF3KLfUf7S3mTO-myeP5HvPubKJWLv6CJMkestJ7ZUlmQcAZR5-qBCRXx2hEnhmuNlG5Py-66I6TvTNzXwOnc5S0hVo_mSph2NzQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116233411169142315032\">Nath Bog</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLeKlWWFzSCRYojyTZQtV-poo4Cy3rRnugN3PEbyDxZrPRVTph9vS-yMAkj7bSiQ0KM72ePZWfFIm4p-sRqoq-rTK3cw089S9AE8awcIRBjFYBqTgIKw8TQoES0bcQwxicJnwPKOtlAfoiWfhNQIIlxBjY625UG8QTUWaTlKcGuFZ4pJHniNIJKUBsa0CrcBCOcMPv0gx90ZSlmml4ojj7f1psekwtSjIvAEtFdPOuTzmDVGSuGksDU_3PLcIcvSBD3dGiVbvwTJ4OTMe5NJ4OOP29fpAGs9omcoYnP7bukcAu4oW9iCsO7m0S8f2A7vgTM5nN-ivm0LL873Dp2tFrs2tX2b81kgMTZCXMXKyqosl-G9CIIsL9h-5VSNx3218qujfKoRZQ7l5Th2ThEA6dFrrjpCnms",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112023927797919968750\">Rajaonarison Hélène</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLdvRXhGxO6ABxxxzg-g5Xjb92MkOFmQJVsPdk14Wnt-VbJICmPgNz2b_nCWYOGeGRaG9xlgDSnHt9FQzot1rRDSL9N_Q_ESiWUYVtik3E-D8vfQYKQXGKc_fjd4pMeo8OGpnXgkV9YpzJyh9lc3eQmfrT9ERMjlTJIKfrKU7xQCY9MgiW64n2K7dTLJ8Itxm9t7UqxOacsnA6QExnQF8Rd3cSgu52bLcGSjI9dyb954BWE65pDAGEnShrgp8k8feIGX5Iuhz8F5B5_gGgvkAPlnUw23yUPtBcPjSVKObSbonxbenNf4m0suzk1Z8ZyGVD2vl4yK74mGBXlK5X3AL1llDBE0fO84dD4OWLMGfqDbmwaVthUywjikIhKCFzPbD5LzoRUBfFLBzSk0nuLmV5q2dVsSb4EZVv_NK2sg0xYe",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100952863801522940703\">Gwen</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLd2F81QRAcQmghDF8DfazvTM5cs71I-hZ32M8FodiUMD0fU8rIalybzwZI4s6sZHa8OGBZa3INLmAccuVOA6k_ciCHjLp5uyhD0A70jWHWEJInSqZwtgIlzFd6ph6QwpBQ-FWvjlxwOcJHTgOKMKkSW4qUnGdE3QpuXjNExaw9ZtOlIJeOPLZ9Iaxs-1H7_FMHY5DffPAdZo19zzZVfqFiMh3KoI_hbV3r_GzQ4w7i1bIozqM6C269elVNW_KNA-crTwZfieCvhvLBiRyjQC0-S-cCxMW1U6Gs94KKlVkj3IkBDa-5rkBs36LwArBbtsj84e64CXKrjYJeLffUJVYIT1UbaAqfecQj1zpoY1M5r9g5ta9sNrvUY3uWe7BGh3wXshF8quevLbkI35uyE2sEN3LM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103733130215215977408\">Emily T.</a>"
+            ]
+          },
+          {
+            "width": 2131,
+            "height": 1598,
+            "photo_reference": "AV-0GLeBmB8lhaKpcefZs0kKYoDmQKfmqLNB9J0njlbXfL6vlx-C-YhxsLc_XT6bgEk5lbk-FRte4AucLQh10hL4nIEyvuOSnVv0RpgVjS3-baDEjP_7gOw43XqVC5GtWYGnJ6F-nZKXeuf_PBtyAExTnJ2xvcn1yJw53VWN74lPe9DvCy5kRwirejWRedxvpVvipFJWTVJ9PZHFe0ApxrNZDwsXnKyX9Au-4JjRhRKcvIvbOvqYNnIx78hEpPoo2Kd5Z26CIeTgrg3qnsPggMiJgpZ9qjbUCMQi_7bOW1Cw32lB-fsC1Nl8SCjqKpC8HLM43S_ICw4Ss67XoPI7iJTfgkQyAPjhlhLonfifEFg2bbUm-1KmtPr5TnqrjeTSNhf-jfqjOPVvkhDdAvQGSmzd6oSQNZ4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110558376158835548082\">chris schenian</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfSPOEQAZeraLLiTNcS-hu4zPxQB8yDQZoKIqJFCIfDzh68VoiIVIpehattyYCIlgvzQmRA5_Xxle-MoUFw8G43Ekjz_0MYw45uTrpd0SW85RkIpJIlLq6730nLSOw7RFnBLZHx7n5XYyzPcml8ltHNw6ErxIhfgxMB-FW076EDymjKO5pdPhMzHvruCy8Fy62rNzyjnZcduhfqnXpBdlJn3hJC1zAaWYvmIfIGB0vXjfsnvUD_Pa1wE_nk1oe5VzPtrr0MXhQ7tZ_EVdpywO3wzj_h9K3p__vcb-noRasWZWew_hyVX-xq5fQ087CeuYLLOPbbutEdL3i--xSaNCRyhs6g47DEGjcXLZ9ZWb3Q48bR5naDGbpSyFAZqG87qlael3FNZnX4OdNrDRyvcKvlTs6t",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110558376158835548082\">chris schenian</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5752
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucun menu, avis exploitable ni détail sur les services ou équipements n’est fourni ; les autres caractéristiques ne sont pas renseignées."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Ennevelin, ouvert certains midis et le vendredi soir selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-coin-de-la-reine",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5752,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e470c508d6a4f26dee98eda08c7b41293ef181ad0d90ffb55c77f1148062af81",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

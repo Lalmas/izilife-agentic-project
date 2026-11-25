@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1145,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.72,
+    "evidence": [
+      "Le titre nomme Delphine Bougard et un spectacle, sans mention explicite d'un plateau, d'un comedy club ou d'une forme solo écrite et mise en scène.",
+      "La catégorie existante stand-up est conservée faute de preuve suffisante pour la recatégoriser."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre peut désigner un spectacle solo, mais les éléments fournis ne confirment pas explicitement cette forme."
+      }
+    ]
+  }
+}

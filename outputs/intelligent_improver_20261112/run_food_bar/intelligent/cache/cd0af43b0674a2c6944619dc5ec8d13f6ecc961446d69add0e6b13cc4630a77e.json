@@ -1,0 +1,65 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« la galette frangipane […] la meilleure que j'ai pu manger » ; « La bûchette au café un vrai délice »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« bel accueil, sympa et chaleureux »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « boulangerie »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "gateau",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« La bûchette au café un vrai délice »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : ouverture à 07:00 en semaine et à 07:00 le week-end."
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués jusqu’à 13:00 du lundi au dimanche."
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis récent attribue 1 étoile et mentionne « 5.50€, l’image par d’elle même… » ; le reproche précis reste ambigu."
+    ],
+    "summary": "Boulangerie à Gondecourt, appréciée dans plusieurs avis pour sa baguette tradition, sa galette frangipane et sa bûchette au café, ainsi que pour son accueil chaleureux. Ouverte le matin jusqu’à 13:00 ; horaires d’après-midi du lundi, mardi, jeudi et vendredi."
+  },
+  "meta": {
+    "cache_key": "cd0af43b0674a2c6944619dc5ec8d13f6ecc961446d69add0e6b13cc4630a77e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:14:32",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "originale-pepizz-loos",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "originale-pepizz-loos",
+    "status": "found",
+    "data": {
+      "id": "5743",
+      "name": "ORIGINALE PEPIZZ LOOS",
+      "shop_string_id": "originale-pepizz-loos",
+      "unique_id": "1fff89d4a79dfe83fd8c043e9a0b327b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54999",
+      "principal_cover": "54999",
+      "qr_code": null,
+      "phone_number": "+33983863306",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "92 Rue Georges Potié",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0018103",
+      "latitude": "50.6134548",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:44:19",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:44:19",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJX11BQgDVwkcRpvk1YSPfvWU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5743,
+      "scope_type": "SHOP",
+      "scope_ref": "originale-pepizz-loos",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "originale-pepizz-loos"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54999",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5743_6af39e433d799.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4801",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33342",
+            "source_hourly_id": "4801",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33343",
+            "source_hourly_id": "4801",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33344",
+            "source_hourly_id": "4801",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33345",
+            "source_hourly_id": "4801",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33346",
+            "source_hourly_id": "4801",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33347",
+            "source_hourly_id": "4801",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33348",
+            "source_hourly_id": "4801",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "originale-pepizz-loos",
+      "google_place_id": "ChIJX11BQgDVwkcRpvk1YSPfvWU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00, 19:00 – 23:00",
+          "mardi: 12:00 – 14:00, 19:00 – 23:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 23:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 23:00",
+          "vendredi: 19:00 – 23:00",
+          "samedi: 12:00 – 14:00, 19:00 – 23:00",
+          "dimanche: 19:00 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdKtHj-uED6FGWQB9ugDh0j1soWiI0llK2dKXfbxYZSiiOPCNhnIOwLZgMDK_v0JM1hQH3gAevL-hQnTL0xhYecORAssfYlOjvh7NNckNEH0TlCqw7Wt6VXkoLK_s6_thaHdS6S7sH6Yvqld-4n21uWrRw5vx4LhftG99E33v9tGR7G9ksWSbOmcx4EG59n_iYGV8jNxD2mgYXSFKNXsBZnjBw_4zXyG0bPJOqSk-DXv-vYytQ8k86ZF6F7bON00u5u42DkC5B-_M6MYkXKmTDeJ67WUikTbZDHAiHuw_-l2dcPSFX3AGSfzXckfJm9odrZwLvv2K108DrlRb8CnKc3rbGUlJZOwWIOYaQ9K8tfPikbdOEN43NILZaJlDH2yzAtIDek4uCECLcWkQS6pBf_g5Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 2880,
+            "height": 1620,
+            "photo_reference": "AV-0GLfj1Z4hB2i_gceQx39O5BD2GicUX97O4O7ine6moaaG08ECRz43Od9vm251Al94qdEjRTWrOz0h4EBcEvcla6sKrZsVuXMxTQFC9bUzOdqJM0OhHrwFBfGZfkHtCnQ_TWRlFXOh_hP6tdOTMJbBAX3ICGmyzDRZ5UcD-6v_5ATKlp-cylHbPMQmteZDA5Hi0JjIGe-7NL5U09h8qeL4LFY1c75mp3J-dvtVJFke40lwETS4KtSXeGcciYa_amAWrkL-HnQRxVvqBAW9cv5edGEE2wKyYU7nwXmw3hh88Dpqq-91IcFpI_zOScNkTszXHWXSwKtyAGK0BPUvdETQs39pXaqQuHvbhKIJEeVSLioqUqfeEpGb4VXt1dyDGm8bq20cUW6nOcjJM2AC4k_4vD1RVxyE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfedUVXUK8ybUkSdeTSFeXuOiG04ItniGyaWdtGw9kBdmztXXDogq7GjMdBItiDaCqzuk1Ydnb0TraNvQALLZbwWC2CvZxnf-oMu2o1I2TPppGXSSXFmiphtmdblcnkexYbNv5HC_-Y7AYcUsni5l1W9uL0qVzkGlvP4qKkShTVrtrUoppEucLNlS6CbfyDg4pcntLhQsdu7OpUWhik1u6f9YhukWRBIQxr0c28GX79x45F371TJmc8TPmdAki07xpuk6aPw7qHyd_Zj_bhV5qeg1gXRd6p7K7Lr6AeqHdp2KfC6jFh3C6sGF0Aj_p1r6E9dYIoXK1IJEoGr-5Bf2P6Q1n5OnOcpRA34bvadwK-75yOUNzs8kaq7Ve13OBQGnIebQtv2d3YxeaMhhlKzRU0TVqhJfa0GaR6NCftUniR",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdcPE4TAo5b7ZPyQf3IQpN6GpArkcAakALTIUrin9cBVN0PujZvYq5gwYa8Nn7o14Qwk2n_gRTGehUIIlSsCzBwrWHqRnkPH4QJZMH4EFer9bcOEITloQ3AD2ToCj5DJA5VIHTUKrDvvMit1wAdcjpEEw_BHDOnoMvNiwPSkyAzn8WVFWxx1odAN-aylO74S0TRDj3-bxSkaRbgXAhWYrOfVtHXLYGC0HbP3WJhF6MPjqnreFn52XgF2SNbaQ8vYScDiIasMcW8twiGO4wFc0cQ9-OV1BGEZOgBtzR0Ug3IoLEClr90aKrwlmI_MLwT0ph87B3-mClJggL0Av1o8yci5kSuc28MTjCHqthq1Hqw0fqnOdyWv2ZcC1JDPZ8ZKF2snJt_O57MaLAQ0CLWhaZkTI9D",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 2880,
+            "height": 1620,
+            "photo_reference": "AV-0GLc9EDxis6IwKEWoGcYvO4mo9UcYEZdJkA7oa9Gjurkrrsud67S3HBDxPMT5svocJ0yl-QA5_Jc1S8W21T3qb2YnQXb5pa377pGVxbMibpGpLLfZC5ExZA1NHoU6Df09ZsfW33YO-KcTgtSypYddsC5t6tA2IIhoblJMET9xek6pDGIMrE6hotvv8JBvr6goWEhDdp3OifLaEEsEDsQZJ7DpcDf-9wWmWRa_JyhveO0j_ApxIhTUyPx4lnaMuQetlTmPmej4mRDbxVO8MBTRHsdCwx9-jvd3YJcSofvTgkgTRAuhSOaaAuO0bwbB9KUQJG9lIfF2Rom9U0RBaAegf83TQAE_i9DJMXTVyeXTnU1t09XvtreTBzOcMUeVO0k7ueibq33lTm0wm0JN-38A9Al1Sw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfK7yi8qNSUWTU5J-FP4CL85w-MF6ub0uDHenM0WYIRnyMeoUu1GI5iLXKKvuCuhBaiR5ybFCXKwos3X6BZVmHJQiI1XOrUxe53QneLbUy73Tyfo73ml2g4cH8K73HZ1YqTCro9E333IUAuu445StwbJo79zI-mfpdcwAEutn9kPP3aDPTseSyHPB5MCEpk-nskcsdXIPVBETQziAqRWy71RdXJh1AGXla0lihWvdWJs0dChzdGrbSDbLmfculfcGsqXUC7B_oynHtgy93EwLl5fEgT3SSTHRhgAh1J5ag5GBBhS2_pDQqX_yHOxBe5KHyFIcotLMkKilWwqi5R-IDpdRKK7QZCN8Jgy3Crrvb4d_KHscmPeJ2oePnNtaBACNjCnN6tFubUIOFI3r9e0u59kgR3Hnk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 2880,
+            "height": 1620,
+            "photo_reference": "AV-0GLc70qahUB6s8AnsY_O1RVl1cbn20w8KM4s-4cSd3_u8IhpM65j0T2fPxOY2bL0f3xmC4t_erDcWSPfZm4Rj-4XkJQl1T6vJW_LUmwP49T-BYgAhLdfVw7Bbx_-UyQjgdsvJ0_x0ApwxMBTs5vvWRZKfCZCt6pj7C7cqT-WcOuJog3227AhgonEG8V8BfPH1RQzwaQPeWi5zu2pPcUaRQxmu8-AZf3yLjXSw3LQvHoL3fvSEM9J6B8css89jXiwft5QfMSG5Eu-DfZn-k-cXy3ZkA_qVNRjkBT9PdXFEg0EYlT7GIcrT1b3WG-QhdxwOlEmQB6emBEMv2Qxhp1yMZ73eH3NnKMsC_ylriNaW3YHAj1JNKuRs1a_8l2JlKoVZ4ak83zArdbq8aw96D2ruJ2ZmVexakek",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 2880,
+            "height": 1620,
+            "photo_reference": "AV-0GLeXVQ1fxxS1UZCLoYezC7NhIury4RODwgn2TRcKGBg0Ag37mzzx1vnW4_U795CR68g_pGWaWTHckGCNQWbum91L4wHVfnfomFc1o1sJhhupUb0iuj2u5qB8H1pvcuftZncFl3LDF9HBN230jEj7HTHGUJazAuWUpkIjROZhS1_T_qV3yM8yhFUyrG3D--dXPLXvxyQy20Vxjp69ja3ELknA2vodI9LwYoDHf_68gEPjiiqVPmz2jDwuma84m16FTvfSM2mmaVw2h0N4X_1fzGvfRtwq1tNEHaYNVDdHsKb-UNRNvkSQAJFN-15xFCEpVNyk_D10cAWseN8tVi7_D3Z9vrm4RCzKU30VAsK6FdAnrM6rqx563Uf3GYXspu5co_ZMkDZqamh19cRDrUSjPPXwhr8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 1179,
+            "height": 2026,
+            "photo_reference": "AV-0GLfFbqu2mOgS6btMz4q71PG8FWwxT3Z5FbKd5STuseYVfq-BpSDpnU7-T_acEO_LWF23xtiPFAZPGU-P32TvJyUKJlhKCKaAckOGDC7Ht59feb7sctrhXvzgzQ9Crtj4yuaQbAWS_TTAglmPkZAteTmmXtpGYSXRQdZ3AWO2eZk1aSBl9vJuBT2IoD23RUfip4xGSBUv0B-JoGEsH_Y-dgmws87zVV5Ms3NlAP17iuhVtvXbLLFKw1hM3_-QZP1U5DwMpa1-GlfmD5EUGS13B-ZiPPAmPx8AWDWRGD3BhyQkI68nFT-_idcLy4wSnKnm0HFjnKlBOXeZWGSIDqjkfJlT5OaWgDOxc0ofadrBPlHVvVh8K4S-zoixf2ulL8Ygqu9If7VufXmDXXvqZzyjq5Vyg3XabrKohohEimIIlHiRUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeiLaPraUI8vgrjL9e0V-E4IfW1-ROofiign_YFR1BERr2N1cJXn1ZL759kbRLtXDeoLq3M3b0BXopujSEBySCq-SelqiiRdmR97YvNzTbsJy2LKkUCyYpUCJ4hnntLgeEhh06ae6_FyfpXNXUb36OnzdSdBPs8vOAI9eacawRv_XxxtqDSXWPtpjq6k84nPwrs2xGJiZtbPhd044KAlUuTlsQqehHWzgmYQrevqixMB_NIMmRd46pT6s_YHV_LJZRMKt3-CtXL6JAHRm4StuCEUu5d0StukCas2wc6q2WbHCwf8gK3vHbze8c26rYdSdRITPfCJdKjLV_9-irJnj8dIZ6yj0Btgv8ac7J9Y0ezauzSmj1rUqebsdUTZEVvcZFPgaaZqttLlUuciOIiSEKA468",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101287363956021826892\">ORIGINALE PEPIZZ LOOS</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5743
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"restaurant\""
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les options sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modalités de commande.",
+      "Aucun avis n’est disponible dans les données fournies : reviews.status indique \"budget_exhausted\". Les horaires sont fournis, mais ne suffisent pas à confirmer les types de repas servis."
+    ],
+    "rejected": [],
+    "summary": "ORIGINALE PEPIZZ LOOS est identifié comme restaurant au 92 Rue Georges Potié, à Loos. Les horaires en cache indiquent des ouvertures à midi certains jours et en soirée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "originale-pepizz-loos",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5743,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "4e1751ff8423fd070ac496d87b32933934cb16e409d784e29e384b9890083d3a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

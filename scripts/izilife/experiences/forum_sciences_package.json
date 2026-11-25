@@ -1,0 +1,582 @@
+{
+  "schema_version": "izilife.experience_site.v1",
+  "source_url": "https://forumdepartementaldessciences.fr/informations-pratiques/ouverture-et-tarifs/",
+  "target": {
+    "scope_type": "PLACE",
+    "scope_ref": "forum-des-sciences"
+  },
+  "equipment": {
+    "name": "Planétarium",
+    "internal_id": "planetarium",
+    "category_ref": "planetarium",
+    "capacity": 114,
+    "description": "Dôme de projection du Forum départemental des sciences ; 114 sièges et 4 emplacements PMR.",
+    "media": [
+      {
+        "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2560x1446-planetarium-2400x0-c-default.jpg",
+        "local_file": "forum_sciences_media/planetarium-1.jpg",
+        "role": "cover"
+      },
+      {
+        "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/istock-500667910-1600x1200-c-default.jpg",
+        "local_file": "forum_sciences_media/planetarium-2.jpg",
+        "role": "gallery"
+      },
+      {
+        "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/istock-151586226-1-1600x1200-c-default.jpg",
+        "local_file": "forum_sciences_media/planetarium-3.jpg",
+        "role": "gallery"
+      }
+    ]
+  },
+  "object_on_public_place_ref": "planetarium",
+  "venue_eaps": [
+    {
+      "name": "Planétarium — adulte",
+      "price": 9,
+      "currency": "EUR",
+      "access_type_ref": "equipement",
+      "price_model_ref": "ticket-unitaire",
+      "equipment_refs": [
+        "planetarium"
+      ],
+      "conditions_description": "Tarif adulte du planétarium."
+    },
+    {
+      "name": "Planétarium — 13 à 18 ans",
+      "price": 8,
+      "currency": "EUR",
+      "access_type_ref": "equipement",
+      "price_model_ref": "ticket-unitaire",
+      "equipment_refs": [
+        "planetarium"
+      ],
+      "conditions_description": "Justificatif d'âge requis."
+    },
+    {
+      "name": "Planétarium — enfant jusqu'à 12 ans",
+      "price": 4,
+      "currency": "EUR",
+      "access_type_ref": "equipement",
+      "price_model_ref": "ticket-unitaire",
+      "equipment_refs": [
+        "planetarium"
+      ],
+      "conditions_description": "Jusqu'à 12 ans."
+    },
+    {
+      "name": "Planétarium — tarif réduit",
+      "price": 8,
+      "currency": "EUR",
+      "access_type_ref": "equipement",
+      "price_model_ref": "ticket-unitaire",
+      "equipment_refs": [
+        "planetarium"
+      ],
+      "conditions_description": "Sur présentation d'un justificatif éligible."
+    },
+    {
+      "name": "Forum des Sciences — Pass tribu, 1 activité",
+      "price": 25,
+      "currency": "EUR",
+      "access_type_ref": "lieu",
+      "price_model_ref": "ticket-unitaire",
+      "conditions_description": "4 personnes ; une activité au choix. À confirmer avant vente."
+    },
+    {
+      "name": "Forum des Sciences — Pass tribu, 2 activités",
+      "price": 35,
+      "currency": "EUR",
+      "access_type_ref": "lieu",
+      "price_model_ref": "ticket-unitaire",
+      "conditions_description": "4 personnes ; deux activités. À confirmer avant vente."
+    }
+  ],
+  "experiences": [
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Le petit ciel étoilé",
+        "experience_string_id": "forum-sciences-le-petit-ciel-etoile",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Découverte du ciel nocturne, de la Lune et des constellations avec les jeunes enfants.",
+        "short_description": "Découverte du ciel nocturne, de la Lune et des constellations avec les jeunes enfants.",
+        "duration": 45,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 3,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-petit-ciel-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-le-petit-ciel-etoile.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "À la belle étoile",
+        "experience_string_id": "forum-sciences-a-la-belle-etoile",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Observer les constellations visibles selon la saison et repérer la Lune ou les planètes.",
+        "short_description": "Observer les constellations visibles selon la saison et repérer la Lune ou les planètes.",
+        "duration": 60,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 6,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-belle-etoile-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-a-la-belle-etoile.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Légendes étoilées",
+        "experience_string_id": "forum-sciences-legendes-etoilees",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Voyage parmi les mythes et légendes associés aux étoiles et aux constellations.",
+        "short_description": "Voyage parmi les mythes et légendes associés aux étoiles et aux constellations.",
+        "duration": 60,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 6,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-legendes-etoilees-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-legendes-etoilees.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Le ciel ce soir",
+        "experience_string_id": "forum-sciences-le-ciel-ce-soir",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Repérer les astres du ciel nocturne : planètes, Lune, étoiles et Voie lactée.",
+        "short_description": "Repérer les astres du ciel nocturne : planètes, Lune, étoiles et Voie lactée.",
+        "duration": 60,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 9,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-ciel-ce-soir-paysange-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-le-ciel-ce-soir.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Le temps vous est conté",
+        "experience_string_id": "forum-sciences-le-temps-vous-est-conte",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Découvrir le temps et ses repères astronomiques sous le dôme.",
+        "short_description": "Découvrir le temps et ses repères astronomiques sous le dôme.",
+        "duration": 60,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 9,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-temps-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-le-temps-vous-est-conte.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Un penchant pour les saisons",
+        "experience_string_id": "forum-sciences-un-penchant-pour-les-saisons",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Comprendre l'origine astronomique des saisons et les changements du ciel.",
+        "short_description": "Comprendre l'origine astronomique des saisons et les changements du ciel.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 9,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-saisons-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-un-penchant-pour-les-saisons.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "L’odyssée solaire",
+        "experience_string_id": "forum-sciences-l-odyssee-solaire",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Explorer l'histoire du Soleil et la formation du Système solaire.",
+        "short_description": "Explorer l'histoire du Soleil et la formation du Système solaire.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 9,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-odyssee-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-l-odyssee-solaire.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Biosignature, signal détecté",
+        "experience_string_id": "forum-sciences-biosignature-signal-detecte",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Enquête cosmique sur la recherche de traces de vie dans le Système solaire et au-delà.",
+        "short_description": "Enquête cosmique sur la recherche de traces de vie dans le Système solaire et au-delà.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 12,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-biosignature-paysage-ssbandeau-sstitre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-biosignature-signal-detecte.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+      "item": {
+        "title": "Big Bang, l’appel des origines",
+        "experience_string_id": "forum-sciences-big-bang-l-appel-des-origines",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Remonter aux origines de l'Univers et parcourir plus de treize milliards d'années d'histoire cosmique.",
+        "short_description": "Remonter aux origines de l'Univers et parcourir plus de treize milliards d'années d'histoire cosmique.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 12,
+        "experience_type_ref": "seance-planetarium",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "astronomie",
+        "basic_price": 4,
+        "price_text": "Accès par les tarifs Planétarium du Forum ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1,
+        "equipment_ref": "planetarium"
+      },
+      "eaps": [],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-big-bang-paysage-sans-bandeau-sans-titre-800x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-big-bang-l-appel-des-origines.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/tous-a-plumes/",
+      "item": {
+        "title": "Tous à plumes!",
+        "experience_string_id": "forum-sciences-tous-a-plumes",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Exposition sensorielle sur la diversité des oiseaux, leurs milieux et les menaces qui pèsent sur eux.",
+        "short_description": "Exposition sensorielle sur la diversité des oiseaux, leurs milieux et les menaces qui pèsent sur eux.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": null,
+        "experience_type_ref": "exposition",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "science",
+        "basic_price": 8,
+        "price_text": "Tarifs selon âge et conditions ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1
+      },
+      "eaps": [
+        {
+          "name": "Tous à plumes! — adulte",
+          "price": 8,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Tarif adulte de l'activité."
+        },
+        {
+          "name": "Tous à plumes! — enfant",
+          "price": 0,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Enfant jusqu'à 12 ans ; gratuit uniquement si le prix indiqué est 0 €."
+        }
+      ],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2026/08/22-forumdsciences-gabarit-sitewebpresentation-2560x1446px-1-scaled-2400x0-c-default.jpg",
+          "local_file": "forum_sciences_media/forum-sciences-tous-a-plumes.jpg",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/enigma/",
+      "item": {
+        "title": "Enigma",
+        "experience_string_id": "forum-sciences-enigma",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Enquête scientifique interactive dans une ville fictive ; trois scénarios alternent sans calendrier publié.",
+        "short_description": "Enquête scientifique interactive dans une ville fictive ; trois scénarios alternent sans calendrier publié.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 7,
+        "experience_type_ref": "jeu-de-piste",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "science",
+        "basic_price": 8,
+        "price_text": "Tarifs selon âge et conditions ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1
+      },
+      "eaps": [
+        {
+          "name": "Enigma — adulte",
+          "price": 8,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Tarif adulte de l'activité."
+        },
+        {
+          "name": "Enigma — enfant",
+          "price": 0,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Enfant jusqu'à 12 ans ; gratuit uniquement si le prix indiqué est 0 €."
+        }
+      ],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/page-presentation-2560x1446-1-scaled-2400x0-c-default.jpg",
+          "local_file": "forum_sciences_media/forum-sciences-enigma.jpg",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/croque-couleurs/",
+      "item": {
+        "title": "Croque Couleurs",
+        "experience_string_id": "forum-sciences-croque-couleurs",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Parcours interactif et sensoriel pour explorer la perception et les symboliques des couleurs.",
+        "short_description": "Parcours interactif et sensoriel pour explorer la perception et les symboliques des couleurs.",
+        "duration": 75,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 3,
+        "experience_type_ref": "exposition",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "science",
+        "basic_price": 8,
+        "price_text": "Tarifs selon âge et conditions ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1
+      },
+      "eaps": [
+        {
+          "name": "Croque Couleurs — adulte",
+          "price": 8,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Tarif adulte de l'activité."
+        },
+        {
+          "name": "Croque Couleurs — enfant",
+          "price": 0,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Enfant jusqu'à 12 ans ; gratuit uniquement si le prix indiqué est 0 €."
+        }
+      ],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2026/01/forumdsciences-gabarit-sitewebpresentation-2560x1446px-scaled-2400x0-c-default.jpg",
+          "local_file": "forum_sciences_media/forum-sciences-croque-couleurs.jpg",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    },
+    {
+      "source_url": "https://forumdepartementaldessciences.fr/activites/espace-datom/",
+      "item": {
+        "title": "Espace d’Atom",
+        "experience_string_id": "forum-sciences-espace-d-atom",
+        "city_ref": "villeneuve-d-ascq",
+        "place_ref": "forum-des-sciences",
+        "description": "Mini-ateliers accompagnés pour découvrir les couleurs et expérimenter au rythme des enfants de 2 à 4 ans.",
+        "short_description": "Mini-ateliers accompagnés pour découvrir les couleurs et expérimenter au rythme des enfants de 2 à 4 ans.",
+        "duration": 60,
+        "duration_measurement_unity_id": 2,
+        "minimal_age": 2,
+        "experience_type_ref": "atelier",
+        "access_type_ref": "acces-payant",
+        "principal_activity_category_ref": "science",
+        "basic_price": 5,
+        "price_text": "Tarifs selon âge et conditions ; réservation par téléphone conseillée.",
+        "phone_number": "03 59 73 96 00",
+        "place_visit": 1,
+        "accessible_for_kids": 1
+      },
+      "eaps": [
+        {
+          "name": "Espace d’Atom — adulte",
+          "price": 5,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Tarif adulte de l'activité."
+        },
+        {
+          "name": "Espace d’Atom — enfant",
+          "price": 5,
+          "currency": "EUR",
+          "access_type_ref": "experience",
+          "price_model_ref": "ticket-unitaire",
+          "conditions_description": "Enfant jusqu'à 12 ans ; gratuit uniquement si le prix indiqué est 0 €."
+        }
+      ],
+      "media": [
+        {
+          "source_url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2024/07/atom-2560x1446-1-2400x0-c-default.png",
+          "local_file": "forum_sciences_media/forum-sciences-espace-d-atom.png",
+          "role": "cover"
+        }
+      ],
+      "sessions": []
+    }
+  ],
+  "notes": [
+    "Séances non importées : grille scolaire et vacances avec exceptions non modélisées de façon sûre.",
+    "Billetterie en ligne indiquée indisponible ; EAP inactifs et à confirmer.",
+    "Tarifs scolaires et groupes exclus à la demande de l'utilisateur."
+  ]
+}

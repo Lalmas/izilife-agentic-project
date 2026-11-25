@@ -1,0 +1,536 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:10",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-l-ecaille",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "restaurant-l-ecaille",
+    "status": "found",
+    "data": {
+      "id": "5841",
+      "name": "Restaurant L'écaille",
+      "shop_string_id": "restaurant-l-ecaille",
+      "unique_id": "e3a29940223d48a5c5a492a6705d4f69",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55096",
+      "principal_cover": "55096",
+      "qr_code": null,
+      "phone_number": "+33320466093",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "668 Boulevard Victor Hugo",
+      "additional_address": null,
+      "zip_code": "59134",
+      "city_id": "34",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8973795",
+      "latitude": "50.5928221",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:58:55",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:58:55",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJoYHK6Xwp3UcRNhlwhmPurYo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5841,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-l-ecaille",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fournes-en-weppes",
+      "string_id": "restaurant-l-ecaille"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55096",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5841_6af3a1afd5b0b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4897",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34014",
+            "source_hourly_id": "4897",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34015",
+            "source_hourly_id": "4897",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34016",
+            "source_hourly_id": "4897",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34017",
+            "source_hourly_id": "4897",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34018",
+            "source_hourly_id": "4897",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34019",
+            "source_hourly_id": "4897",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:30",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34020",
+            "source_hourly_id": "4897",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-l-ecaille",
+      "google_place_id": "ChIJoYHK6Xwp3UcRNhlwhmPurYo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:30 – 21:00",
+          "vendredi: 12:00 – 14:00, 19:30 – 21:00",
+          "samedi: 19:30 – 21:00",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe7vZqNxxs7hd71OJBQBN99-GSbb843QBnRQSgO5DDK2AKbmlTQh4dnR-2pFvNVEm1XZQvKxZyNx66T_yngKzEpeeLBN1kjvKq6HY86cCUVTZPz9yJw3z1h-hFliFgUHAN2griHzIBX3O7z_Jvg22knyzin6DeO1fH-382BOu-m7vmTPgg4a0tIwWr6550YocRgyOQAM27dUzoUEc6_Sw-4eN5FcwCezBfJC7xCqvmMR_u5XjHySEKj08RYEqnyJT3kg0CT8wc_r7yB2_Ra9VL1aI0qGYRHlCOoua3Gm-nS3KrEdOEB2O-r7n6r9Mf3ZVlnnXPxX1PXhLm6K7MI9iYeDzpa9hXwWP8_dZ-ISP_Gbr40d76hDmeM7jfx1tBuSwH3WEpdTSetB0YNmR_vLwHL3Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101390925335394601058\">Restaurant L&#39;écaille</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdvGgsMwl81T4uG7IEuoLnebUjjLXNkDTgtzNZ-xwhX4bZayiBiXaVrXtTKmFc3WJoy1x0T0rnd6ZvK2H_chUaEnnVupiGc2knytPzVu1MVIMVTLQRXdAftq02sFoNffzRhETODcBwhkH8RjIigrGxjG5HELq5Akp0tTq6R7ThQ6N_cYl-90hwCwDpev61aLgOFNAwzyiQTCS1lUrl385J9zxatg5tDnCEcibnRmVT8PZImQZ9gdgpzz9Fy74wNXPc2HQdhDXcPRPvk23bPQnTF7_A2bbnaHtrm9r2-Io8M1gX277n_VWsKG6AG-cWoydAow_YBtDC8Uv1xIJJrBhNl5TlFdFWnBPefdW3Vu5_VNiJ89uz7oGllIluvd-2f0ywNLQXQcyAvnLrjcQulBhYnc_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101390925335394601058\">Restaurant L&#39;écaille</a>"
+            ]
+          },
+          {
+            "width": 640,
+            "height": 1136,
+            "photo_reference": "AV-0GLdAgRcGh_nJULsOnCv3XySMs1JX85iAfZt9xc57D5lj6Qo1HF2DhEjQ8IoLZH-C8Im8LGKw1Hv2eEEb_6zXfwFuXBtLTNk7THuiknKGdO-nUjvd_-nhHuVffbufshpGY-bR5fl1Sz1TaiqWN_W1__5jocqhf7iwXHLJ1YH5sBylZqTNXDgHgQU9Tra6LZjSrH5DNK3iolPOVyFp1pp-6XnVu4DJDohg9TyPLsUxRSa3A99RoXKAiI0geqXWJbWyKVK95RN1XkaTNL5aLADyNrj2tI_YXBBIV_8pK-NpuIIjMKzPovkFRQSORuzDTOPxN0-qZrq5ZcGisSojs5hsifXPLad-KkPhyZ97JEtPJSVD2M8mPVY7P-d2Wb2M0LOMZ1jYWySQVRUziYEvY6aimapaLws",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101390925335394601058\">Restaurant L&#39;écaille</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdms8_3MnS3ICkCg7mzu75ksGQkyFk1zJmELPUxSjMWNLFDQ3eMvt2op91y7TJmvKu_sZmVAQ8EPqx2ojNPynWSVsYQV7Lz0wSJzC63bV3_tL5PJCMjQbgN-KfcXi15BUGgVM33JUqIGEJr_qGyYxVntAZInwBTINctub6bx5KLg568BmEDsEjauF3x-CkRY8yecdJ_J85dOq6sIRyemDmAeL76DO1HgFqjzPZjyCdRCOrUQcfHtjPbF61mib-vD5nJgbd6jt_Zi8YLG9LCY_eXFEEgJRO5FcCw0G2LLqNgumxz-O5MEl1Zv755MPCsdXQ_kfrQkM00klCizQrWrpxfwodSfTXC3X5T7QO0_XieCT9XST9IVXj5HbpgPF2dESvISgUthjFACbApo-F_Nl2CHpy4A360r2aEszZPsQ0lUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102733458339019628470\">Fred Dus</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdC-pQQ3AYNUt27E_sPCeXuyRYAPh2whNyNM-j_7KNaQXVgOTX1kWAR66jmjkmV4_PQ2c959Zr_YcusiKcIEwDANxZFSSpw1cs96zkpbbadrgrDR1sDB8u5hbYwXMfm3scjppNXko5KSQMYdEf2P_Z48chQyD05_jnq7BChar0JKYKDo7bmJ5qkiYT64xPJtzDynjMYdQue_E3My7Er88IJOU82fH0LpuArP1cvuBuHnXOf3uavF55KL2mknOn-yV5NXCBKpXTmpdLkGcUA-FX0gaY_IieiInsQ6isGH02FBBWXzESaQsf8p5fHSTHY-CRgzE6rob0JS8Qtnzp1vGoLFBC3HTgUW_3QrJrIOg3jDYTUE-i_afTUY68-spYrY7FE1Hpg9I_g8CXgy49SeQwWWpxJU_HaGWtN4_MfOBF0Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106950372430499822306\">poddingue at work</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcX5uuS0utTTQ0Y65ITNxcKRnb8YxRqepCnhxcIEJS98QH98P6LW5oHSPV1YEa_Qg_HzziR06Ywt6I7ZqRuur-7kgTRm33scNtXnHEBvEkk2C4zBA0amZ34KH3g3f0PhcW8FNYKOqn9SiGsOXOkmKnNRLuQFJBlY23XPkf1VO53zKBcm9FzS6mpuAlzZIih4e7zIGWitInUBTSNUlbBjOq2Yncxh0nFPGax3rTEK32f94Nrz6RX8lf0SCfjMgde6v6AAuo8vdJJ6LoqkLgXofiyWXFuL1PlURDZG4ef3E00WMNyBDfu0M1M3pCizzcwL5tg6QT5uHoBrtc3xQSx3sOypfI-_js-o3kCirraSdei5XE6aHiHz4dI-pFNKi9CWum73ms7lkajYIxvDDor_aBWpXw5RdDybGPRQCD2m6JgaQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106950372430499822306\">poddingue at work</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfYSEpt8b2zd5DbkdUeemdBWxHwGulZZaNbaR4tOIk9_4IiT_KotrRBUji8YVJPE6hqWsB2fL8LW54gjaMeoEd6vCxMRK6FcEQBvDRgS57FrVk3IoVNoYmLRwOybwNNNO9tOaiZ1naYboFsK7RgY5awNAFTSiMVWYgngb6OkTbP2-p1enz9D-CUUl-4D-7YzzFE-O5dT8oNPFFKZ5pUrScKVbO06qQoBgTJQd6wlap22CVdNifIZ074tmtiE0G8OlApKwPHRqsNFbCfAVCfCmU77u4moeZVi1s9Nta2IC1dqRtk1rQMmowkSQunMKMOPwiI5cQ0e_xni8kJonHctkzOqnxn6kKpUa0rBV7Me5I-u4gyPTVYmA_myV5NEEVUfrSFEoRm0CjVqv1XRXOooiRlwFpTFnv6-58Jga3FEt5T",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106912183741552480338\">Veronique Ghettem</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLfc_N68sl0ZaZwLEqUMAADjSRF_j4iSwPw8tj5LS0Q_FLEb83E-ts_MozxPVcY4VPBsOq2BBuadYTYIIX78-zNMqtTrzsp0ET7j8ajAvBaB3YROaUy2F03NdF8s4GAXPi0iQ9MuntS9EgAjRN5gcY1Sd3mr_8R93v7OIFu0_hBR60vNukoQk9wWX1__hv63qO5Q-D-eG1Jx-gluSNh4ri4of3ihTgm03vUFaDzT5FayGiJX3qvmT4hR-tOpd2LhHdZwruz2EIICARl5cf-Gc71CvHk5FIAddKcs8YcH-lIVFPmHXpD7ezWc47Fe8B7bjc1V0YTowFkbC5q5Oq6Rhd7SqN0kMO4CnJRXIYyrcmcLV8Xth850DOhV0CyDjLX6VlPjSkDk7sx3KgrdUq0zSyFQyFCNHz0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114042400143292840071\">Estelle</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1066,
+            "photo_reference": "AV-0GLcbgtouCdtf1RmqydSm1cBLgpxoPdWgZKgO6hM3T27HnQ1RA6V6E50HS8RYTP53dsGajBSw33ciRwwa-A3-frb6r6DipYrIOLXNLhUfBWmaDDzxjPGdH_ZSNXUCCKcA5spjSP2Eaz0yhLFoCMWqYVt3UGcl5RkRUn4pFs5awVTvL39oOf-8XgFNcv3dpWDQ50KemX5qozylpkpRntKqPg16UpVFofrSSrN3_U0A_H3PdFoqhWb06rzwlXUV5jvhMTeHFlt-A4yD_4cSfqafGuBp85KSYb-H9ixKVXoJe-tpXiw8RaKUtzvBbvGRc_9NkqiGd8UCfPVhenE39_WhRcZqIKiIU9J1gi0q7gfHhRwvKEi3ANj1JJ_YNWxE4cZwhiTSNksSNPqqBYkW2GOLabvGqraDEY5XPD5-ftTAZDymVA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103791002791224750092\">sabine populaire</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeUTEa_3Ox0Gm-uBseTaNGkibUviMRWyUeb1_sxCxYaBARNZhe1KuqDwIsqDbA3d60Hl2zsPoTZnzynZHMtRgQ77e2J9S6eGtQMTF8C4GJP-2LKFYt4VfPt_pakBE2QClG_gRyos2VgNdrP3RPB34H2q3E212oE9lKaEXqWYrO2qhxxekQlvjCGQzuRItTVDreisZYtCSjZonqcmN-18xDKiaQrdfwOLQDSZMyTwHEpQ-H2zpIRdhczy_VjbT2M-N8W-yFfZ_WB39iRCAT9QGhbqCV7WeazcehssMTvhuVdtMYP3xGAmV2PSHsqGGMO0cjqsaebCYHXLOo6YT_1mfQ4Lkwwn86YgwmjOc-xPFfVmHItyUqbPcnLe6uAstLv7kx55qSub_WZmsi9cBE0rhB5XhpNuHIJCkgCOCUZONwJUw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116452504604884266714\">valerie</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5841
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni menu, ni modalités de commande ou de paiement, ni équipements et accessibilité.",
+      "Les horaires indiquent des plages de déjeuner et de dîner, mais le restaurant est indiqué fermé lundi et mardi."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant L'écaille, situé au 668 Boulevard Victor Hugo à Fournes-en-Weppes. Les horaires fournis indiquent un service le midi certains jours et le soir du jeudi au samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-l-ecaille",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5841,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "244a0b14b330991ff0bfe3933a33a8d93a3b8879fbf3324bff6deb362a60905c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

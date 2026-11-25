@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:39:07",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-moulin-de-lesquin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-moulin-de-lesquin",
+    "status": "found",
+    "data": {
+      "id": "5898",
+      "name": "Le Moulin de Lesquin",
+      "shop_string_id": "le-moulin-de-lesquin",
+      "unique_id": "8cfc4d6a94ab524e89b00cc0c799b676",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55153",
+      "principal_cover": "55153",
+      "qr_code": null,
+      "phone_number": "+33320960404",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "29 Route de Douai",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0873548",
+      "latitude": "50.5875051",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:06:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:06:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJz3l6Ty_UwkcRtViiD9kzcKc",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5898,
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-lesquin",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "le-moulin-de-lesquin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55153",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5898_6af3a38db73b6.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4957",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34434",
+            "source_hourly_id": "4957",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34435",
+            "source_hourly_id": "4957",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34436",
+            "source_hourly_id": "4957",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34437",
+            "source_hourly_id": "4957",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34438",
+            "source_hourly_id": "4957",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34439",
+            "source_hourly_id": "4957",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34440",
+            "source_hourly_id": "4957",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-lesquin",
+      "google_place_id": "ChIJz3l6Ty_UwkcRtViiD9kzcKc",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 14:30, 18:00 – 23:00",
+          "mardi: 11:00 – 14:30, 18:00 – 23:00",
+          "mercredi: 11:00 – 14:30, 18:00 – 23:00",
+          "jeudi: 11:00 – 14:30, 18:00 – 23:00",
+          "vendredi: 11:00 – 14:30, 18:00 – 23:00",
+          "samedi: 11:00 – 14:30, 18:00 – 23:00",
+          "dimanche: 18:00 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 1320,
+            "height": 977,
+            "photo_reference": "AV-0GLdnqs2cc7iVSo2yrvHts35XnIyyUsQv2v-ccvVAL1s6qhQlxFmOc5j9M9pqI6OjU9Hq7Fq-ee0cS_o55SooYv_e8o0ut5n0JeImULSp0thl35vF2VEldbSfi8wxmRX79h90HeLDMjI--Vv6QBnwSCZJE1Mzro0xqFBmPBbFIB8OZ0ZLeIr6zEAn2a41vgUmngZ-qn1MFJRFi45yyZx4-Uzbh2j-08-0ztR76RM9DfNVXTncnGdve2SV6F_zBAMIEgK54Y5kQY3epxWGJyubi58ufMVIyDbWmSTzRsvetQaKF22oljEk2BTVJZhT0fKfugpXF-gEVK2tc1WqlvawRILgNyEpjMldC5ZvHPdZq7ecfxtYYL6omV7tsHeFrm7rre8pajghNWEACtvq49XHNM3JOIGOTl7fCcQfPBHoDk2K",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114935505503334108206\">Nilda Contay</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdjLU7aBIEGouFYV_ugSdwrVi8WhwT1zaOU29avBX7OL9lxophW08-tWAzXL3aPE_Ju3xRZf085OxHsNOUJL2p24MFJCDf2K7vn2Mqyy7u_IOGCbzbeyWESpWqxOdTxcWlRYEIL3OmGIeTVNOFD0JScKBgdMcOTQMdOTi67VmaYx_Fw9X_QrQYMIxmjzvzxKHxH479cFUITo2gdGamN9qPgN9JI6dmcQ3wmqlO_tbBraQoXjHxCZ66DXfKj0kd_r7ZKKl0SUrmvoJUesMvoab4SjhDIR2Ygai2GBC5MS0j6DurOuPnbj7CQYb_KGiTRM85V44Xx9xk0sukklY-1UhJ8TC6flYYpF41JWuoqcAOv8TO07qV7YlxZ7ar-kkeFW1xnL0G38mAxHjU9sXqyc-O9P2ZNQrJg67954ymCjDoGCA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101592834964529165612\">Pascal Breyne</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcboCHDABhs8Vbl7nXaxIuXdLPYTUGRVBf5QQgCznBEi07Sls8QXEhb729lv0SMpE17KjU8zTn-tHbE5lGUlZyoLSZpGAYJDvKWUc2U8UzsK406DwXY8nZT9qvGNZoEKoPBQZcUTLQI7GnCBfJB1DrA_iAlh2K-qthIfB25ubcGtouG6m9QFi6ybkGFLUPMAHlwcFSFhkvHkPX0CyMCEbUFARrI0cBv3l9FjOVrcg8t1l4zfkOTpCZ0M9ZpxNNrAvFXTq1-ljOeJYfh2lQdZd9VO1Zpaq2O8EIrF8ySQO0SZwpy43Meclgh6fJuco-1aReREAcJrPUnZ0IMMp1ddZbiP0sDb8eCtBjsGayFDWlIzbv1xlXYh_fFE1osOL4xORdphCfK88uzKj6MCxU24cpB4wo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115213874114919251675\">Okkes Contay</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLcmpbOn4mxQ35JLTL_P8Ha1MCOe7m7wz23B_fx-3Du-MrEuVtQGo_C48dW6OzcBkHmcoci-TVOWR8u-rcf-z9Nt_PKBYz5j5Qiz53y6QoP5PDVZnaMLRR9qYEu9q7Xw0hI3e1mDf8tfus_jtKBRSKSRKdYtu4pIqlIcoTMSyf88uHuCRho94dSaGMCjBOd_CKoAVg70lsMZiI1Rl9OMP-UPCR-mFx38JBltSh3-YPk6v7eHYXtavm0JPkcV-1cl-EFQFON5C3WqtkbZYak8bJD-iAlXADP-xaufEodmNucKK9ZMVUVcgawdyGKiTDTK3SBJh0wz5ETqrvmD1lTlng_cg9m20b43Ng3v9_LaH0K-YGCIbE6sTU_oHKtFkiu5_jrPdDA5z2z6AUtb5bcwvOhbLcpAYi-NVIf-4lQXlCyddg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106715335984864924451\">Sylvie Verschueren</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLfLSijBPi1I2648ibD0YlmOjbwCmDkMeeQ2-W8O14NsMcPgcC7nvCytQHd1Klh3iXlSrm9BBGAjhk4MbIPi7KPuzY57HCepiQQMxLjVg3vXcUYxxmMM-YP4Z5tkrGsWYGLo93Fe2dBwvj4nQDfzzOObdDx4OSzPOATYnj5byq4CaUdPx9obQSiILcUyqN1xPq9LbMOP1pWc3j3tcRhR5Rc6wktocEappPExa3Xir2HZeG_Qpx48pH-Ie9_cLpg1s6w3-b6RWE4TwgSmnh5mQY_AtItYpVDseXB3_qoZ0INUbBoQqA7X_qrawn3B1s76jnOZmyML7nql0mKq98et3JEDIIdmgAozx5XLyZ9LcC8xPTkzHU-ECkif8bRk3smkx0EUs5LmNFXL3FrxNbgHKkzLs9nIhTedObBDVaL_lfioVg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106715335984864924451\">Sylvie Verschueren</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdGV8gGSXsoYS72QR6TcQx81Ef6SDoL_f87Aq_jBZ7EC4cZ-_y7B0kV5MkCO7lZhe7RC1VJqyQOTqQqMCKWqZmXnodBo-VXJhrYOkybZxXJsVkeWbM2y8HicmMRFrixRHQjILWUplcacH_ib0yABAl6HODzpEDWddKbgqIWGU-LBClhZy3pqd7Aa9SsrXLwNSA25rwsuQBl9IqmvtVKkfM-Q3j8Y1XagCpZkhyZBk9G0JsQT5rIDSXmKj57YNZwpD9Raqi7JzwcotIQa4zeRi3aXDLpg032XlyH7lLHgwb7YdFEZEvOwlD4cHZ4AJC_s2aDHoaRR6WB8O6zW1RJ0YnuuecLADiNJirREyI5q8qUNSwE4Y0J69KGrQAd5N4m6Z28zj8Tne1dIBa8-4_Lrvq08SbteiY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100704730391967784746\">sarah menguy</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLc0Is0hlwOxBGpUJxk4YfWZO1sFDxqbdHZ3Q4XNZk7XTUs5kz4_fQBCElUmmzxD41cN-GG3tsFmosD6O5KTcJ8mjHKGTSFJW4JhmfH4HpbDdalrZAv0Hh30VTETE4f8yDRN_pA_9jQQMea9yjqgeRnfQWWYysrLUU9thpq3FRhMYsN3jsC6NNKmTDxxiwPyiDhhemocL3qYn_b3M7SxArDT6Q2Q5dIHz-kke62p8Hx-dt2MDnL6a3IUTEDeYCq25h1FBVkBGaSbxSmbsDA8-dCR1pSrd9jkxL9aAnIuE36kCEiXrTiS_hdimydjqYJwnJqI9cbCuKBxpYTx7oYQwJoecALXoH6o58AZoSHTZNu62TPFQxN3GnbieWtDbDjEyH3Nxjq8xjXzBDv2K2GEXhiPVQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114922009168077736407\">Lades Chti59</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 2028,
+            "photo_reference": "AV-0GLedEBXVyhHLOffj4Z1BdWw9CwrE3Z6qYs8IqASuOLiKLza-EYZI2IGsUQcTjM2-H_J0zZ8kyo0dNMcLwRDOJqBFatphK6UoRpNgENj9SXsO79L5WKMdeVxavwgcjEdU4qBU0qOuA8AyzF1s_00iMLHK8IQGIn1ADXiTyDg8aI-tysCC0_GbhZc2WP72e5T8wJXXWZeJnttkefididyEHLOIOwU_ZoWiOs4MddCYeayzvNMlGqlZwTQvtrFSdeGaho0HoYe1A_JMwfl8B6N7sXQb8P8HGm9FvfwOim3pKKMLNRU_tjNNNjIu1PwjYaHVpzCSqg7T7_gw-RokSDiN69RxcsvxX4JblAkrIfsLu4SQigZKIw0kLC-cSXaKzLiYu8724v3tW1bKFE8rm8zNsliXmDzEsdc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117651959388074937321\">Théo</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLe2dNNdAjcDmpDr07fbZeILoPq7gJQm8vzsAPRENE_WZTq_erxp4YpfTeKdwm_VSX_bQKJB8wXPlHsGxkbzX_IN8mM0xGvfGzka4-4p55nLIfq6dSUTzWti9vAIL84vvG5ijIv5ZrXIIiQKW5jUP48A-Q-EN7XA8EjwO6kDZHcCK36xAjRVMp9aB3bU7UHkXNrmKD5s01xM0VJIYMDnZEq7DJH9quxciP5uEghoC9z5wLeESrMSFjuRQdcko2kjnIP-yq_BF6AcnTZd-GR_3vpSDWK80OaVz8OEKSnxpCjnUHGdj9e8CL2vSobTKpECLc3FIabVbgswk-5riuDX8phvoWI30J0vjVG-cB-Nk3jms5yrQHEL0nGW0fGanIOxkSW3HZ7AS7hiBK3bsg1vBpdj0T8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111716754434694897508\">Denis SCHOELENS</a>"
+            ]
+          },
+          {
+            "width": 1320,
+            "height": 985,
+            "photo_reference": "AV-0GLfOHm-s6lhMyJTFJ8WJektg9_CT3PEpfLZNNPT9ebZfY3g-LJg_Na4JAepfq9ziEDTJIzS9soF31gNH1wV1uR3kiWdMrWmR2_AE_QpPFKjxz4sOcPIiI1ZFKPMa0Nw8qcWklaQqgpSSVzRInWAWcVeyhvlNc7UgFIqiAin5qYU7TYIcFyf260qJyifH6gX985anKBMO0zJ3mncDhguDwLsyyUGODSsaNyKKWV49BR15dpxzNyfyg9jfdLd4mdWP9Q5We9soteOLpMlN1pHk7grp16nywR9svRQhtQAH4YHOQiwiJSUrhN9lMgTGHciYhQyTg4aha2KQKXlhGIsU2WTc3Tp-hB-P9yYw5LlpAfdgAmDu17FRXwP1-hdjuay8KpS71NhVtrGBsYJjhy3E6vI6Ges99-dJVWMT-hrQZeD_mg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114935505503334108206\">Nilda Contay</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5898
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les plats proposés, les modes de consommation, l’accessibilité, les équipements, les publics, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [],
+    "summary": "Friterie à Lesquin, au 29 Route de Douai. Horaires indiqués : du lundi au samedi, de 11 h à 14 h 30 et de 18 h à 23 h ; le dimanche, de 18 h à 23 h."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-moulin-de-lesquin",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5898,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "88245dea20cc8f84282f113daf7d513d71f012237567368a66736d4fe5beba91",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

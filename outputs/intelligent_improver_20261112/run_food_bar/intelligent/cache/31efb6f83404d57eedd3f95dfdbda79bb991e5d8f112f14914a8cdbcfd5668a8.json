@@ -1,0 +1,50 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "maroccaine",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "HABIBI cantine marocaine"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "nous avons mangé un excellent couscous"
+        },
+        {
+          "string_id": "couscous",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "Je suis venu chercher un couscous à emporter"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "un couscous à emporter"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne confirment pas la consommation sur place, l’accessibilité, les moyens de paiement ni les équipements."
+    ],
+    "summary": "Cantine marocaine proposant du couscous, apprécié pour ses portions généreuses. Le retrait à emporter est mentionné, avec un distributeur annoncé accessible 24 h/24."
+  },
+  "meta": {
+    "cache_key": "31efb6f83404d57eedd3f95dfdbda79bb991e5d8f112f14914a8cdbcfd5668a8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

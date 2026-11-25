@@ -1,0 +1,640 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:00:26",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-pep-s",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-pep-s",
+    "status": "found",
+    "data": {
+      "id": "5706",
+      "name": "Le Pep's",
+      "shop_string_id": "le-pep-s",
+      "unique_id": "99f05508fc62173bde7591ccf95b9ba4",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54964",
+      "principal_cover": "54964",
+      "qr_code": null,
+      "phone_number": "+33974972587",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "118 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0135957",
+      "latitude": "50.6148106",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:58",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:58",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJPb-9F3DVwkcRQidVr0akYoA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJPb-9F3DVwkcRQidVr0akYoA\",\"rating\":4.8,\"user_rating_count\":121,\"google_maps_uri\":\"https://maps.google.com/?cid=9251137208068679490\",\"fetched_at\":\"2026-11-12T01:29:26+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Belle surprise pour ce restaurant brasserie avec une petite devanture, l'intéressant est dans le fond et l'assiette. Patron et patronne super sympa ! A découvrir, vraiment...\",\"language_code\":\"\",\"publish_time\":\"2026-10-27T15:38:25+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"André LOCOGE\",\"uri\":\"https://www.google.com/maps/contrib/102975732157189946269/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJl2cDgoyOu2xfXnd2uoUQfJ4gr1ddzPGGoAHUoDyRNR-KIEw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon accueil,  très bon et copieux.  J avais oublié de préciser que je n aimais pas les concombres avec la salade Merci au cuisinier qui a de suite dit ne vous inquiétez pas je vous refais l assiette.\\nJe conseil cette brasserie et reviendrai.\\nCordialement\\nCoco\",\"language_code\":\"\",\"publish_time\":\"2026-10-04T15:05:06+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"corinne bouton\",\"uri\":\"https://www.google.com/maps/contrib/102835707624261880288/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKiVwEnNfd5gZXbFGLpQXJ19boPU3MOYyC9IP9ji82dMq-81w=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon restaurant\\nToujours un régal quand j y vais - très bonne cuisine et menu varié\\nTrès bien accueilli par Vincent et Sandrine,et endroit très agréable pour passer un bon moment en famille ou entre amis\",\"language_code\":\"\",\"publish_time\":\"2026-09-22T05:32:10+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Anne Gaelle Tiel\",\"uri\":\"https://www.google.com/maps/contrib/105132303123203657765/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIME5v7xnykAjPwW8kBc2t6OIQ6GMQsW430r1bqhqhT72QdtA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je suis d'accord avec John 🤣🤣\",\"language_code\":\"\",\"publish_time\":\"2026-09-19T12:45:04+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"David Vanlerberghe\",\"uri\":\"https://www.google.com/maps/contrib/116231265409910983120/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUSFmdiY6H88iymcX9RC10QRUG-8Hx4isN2N6CDr7vDiBxcvGQc=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"super restaurant le service est super très agréable et souriants et les plats sont très bon on reviendra ! ☺️ merci à vous !\",\"language_code\":\"\",\"publish_time\":\"2026-09-18T16:19:10+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Sarah Degez\",\"uri\":\"https://www.google.com/maps/contrib/104522081027168285680/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU-4c1shpP0SfcXZ4VrQshFYRySjKLcNBO0Gx_6La3HZCeRp_vG=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 01:29:26",
+      "google_reviews_place_id": "ChIJPb-9F3DVwkcRQidVr0akYoA",
+      "source_id": 5706,
+      "scope_type": "SHOP",
+      "scope_ref": "le-pep-s",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "le-pep-s"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54964",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5706_6af39cc69ebc4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4764",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33083",
+            "source_hourly_id": "4764",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33084",
+            "source_hourly_id": "4764",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33085",
+            "source_hourly_id": "4764",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33086",
+            "source_hourly_id": "4764",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33087",
+            "source_hourly_id": "4764",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33088",
+            "source_hourly_id": "4764",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33089",
+            "source_hourly_id": "4764",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-pep-s",
+      "google_place_id": "ChIJPb-9F3DVwkcRQidVr0akYoA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 15:30",
+          "mardi: 11:30 – 15:30",
+          "mercredi: 11:30 – 15:30",
+          "jeudi: 11:30 – 15:30",
+          "vendredi: 11:30 – 15:30",
+          "samedi: 11:30 – 16:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfUhT2OxbrcSL7pDo7enxzvAgrdjB9P-IKdm0sTOJKNMVEK4iavpvplwlZMBUrC9XuMSmVPf9m_EudUXyFVsFzvhM4affHuZK3HVMdkYhzE0Rwigs42Ni6ukBsPbT6K4EQROb0WDsMLsMTrxZ8Krs76ZJpI--InHIDY5agQEpevfDOWJIO9YqsHapUFHu4k1he9tyKRsuKieTFGNexIOOru1Z7MijG8UTM2NQc_tTAr1wiL70PkKa-AfJ4eCZrOQ7Fb1SaajuvuUdV9DUUoxn-48qFKOHwk58aBQ54N_W82whEYmWp_h2N32mAMoyiF1auFIXIOO5rhvfi5usVgXtHgLQ2KLP03c-xwNLrrkbdmx_RpIRTd9ypG0UxQkA4PyrdPKdCzWmRsA603fKj5z4Cm0gJI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdK3Urg6Dju45wptVsLc23jmbLP2sXuoRVJmMaFdKOQccUgxo1RV5reVkn_K7Fa4Qbx9S93YEyFyGW7B9sJV_N1aJBnoUAikxeIU9wSgf9Rbh2f1JAKWA0fscgmjVGBKb8A-dVYBWBNSfW3tzYBo49xzeFOTmD_HgX4KVzl4z2tDFc9i43GA6_Hv8GcWtN0dv7Z4W6radt6sOa4g-kj-ibXBEKQOuJZmlknMao4brK-lbWOs61wY9PSkZAyUR6HgzKpxhX0OdQRE7xBeYJnexRNIK_pBrT8i6_pvurB_mbgSbH2PHP-BuW5VJl15qiKXUBhdtPeVdhpW_iuako1PYvygbgI8FhjlYix7RpF3DXgkzwcTTtcXQhfImd_cby2BHngkaYwBpbq8jxfVo-gCslKdk5fA8GynsiY1YgFv-XA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLc0WgxPS8iZSzpYgBaYVwoWywif-sojDG-Dx2xCx-gDI_W9RvIAOJYRh1AAcve45G3Wcx-L4RqDR4SneGbRevkEcBbd56GsMeb3ckAxbKxQOqlKmhmTLXPSncOEH7jPEw566euHjZrl_drKc_S2VnPP5kX44V3ybXNY1ZCM_LcWeLYBnZfCm1yKKEVA5I06VSIRZhBsMXPfSF3Q_TJlTtO5xycOX_YdeqZCE_1DQAhgfe-9YZmoFSb7RySZMUbvdymzYypksNvURrD-RBjt55W4oehP_9KlwMJS5rjZ7yi4yP7K9jTyJmJNBSdpYlsL0dnzW-hVuiyqA7y2njtoEoBAA7mpb6o1Qey_FYED7-hxttyFIcqbZ7pNZsNb_Tfjgu8Iaq0NhG4O1REROeT2M8wajRhKTkgkTlHsi748EbMpzw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108031956639876654923\">Axelle Mroz</a>"
+            ]
+          },
+          {
+            "width": 1442,
+            "height": 1344,
+            "photo_reference": "AV-0GLcwI5mnHY42ea6UtdGiAs6g-fFPwHwvOdhKxL3Gj87uF3zF3GL4GDsn_QCL_10H45Pu84kYMVkiXLcJen5nl8W_TKY4Oi5eKJ5Gn8SgaYDKi3_wToqPkWQ9dqrtKpxuWV_pwEXhn9SNK4BiLmn7tzLrqjbS7P2_lanLCX5H6aDYdCPF3nYDNl_A6I5isktGMKp6NmhQComQMDcB9T9WzcDqFjgW96Aznk_VeEFZOGhmxPMwMF8xc3Rcifvk1D7Jzemardn3Uqg59hzJkAirFjgR9isjixJeFDtne2a63CZDzzUSwn22CSou16_mcmpZtfjuG6mCoq6O-Z7HNXxiDXSEFDSpqxmDYrgp_YLdOBnzr84rhbL0dzfvMQGh0m_tQ65HQzCmRIlAa0FhJimdICv5xVmRkKJu7hRdyeWQrndfzA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 3472,
+            "height": 4624,
+            "photo_reference": "AV-0GLeo6Qi6zL6npERnXzY8lYdSXkvPUzThP0RYVEfr9g2WVHVyNnrN6za1JCwtFobJrdZULSbOccSykfCBbJTEWyog7_rntlHCqZ8NPCjkf4pC9oO1YEY1cmYiFaMS0scb2L83uaaOLoXQj_7YMpocMdvqDyxXuTmW23kjeW0Gh1oIfESSJeNzukf2hguXCGQgvO-UfJ3E3cBA7k56Ht8AbdBl4QeoAtKRil2xv5EwpkhUfEA08fSMF0CyXWNFJSYJrxrQ46l9e1gz1FH7fXhLNgmlUEXSfARBB0QBvj0rmJ02aZURGjO0_VO-qNaWK-Rut_UuaD4I8MNziMbFRuNJAkD-W_0SWtz9WCg6VDK85-tgH2ZgvUNYCjsDB8Bc8ZA0G_ev4ZiwQEXxxt3z9wIeriF_qfJPHTk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118258307413542826192\">Kevin Dourgaparsad</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLewDtgzqV27cR_ZQNQwFRu0Qps9HASnW363Cxk2xu5jG65u_EMW-TIo9VTEh0pQ27Y4bmyE7ThCkj6sJZYz9hknbLQuE72_X2rJ7sRdOfARIrMLfYOvTjuIA012qgHMs6G5HTWxr9o_-zIb8bj9vOv5iIw34kA81GILI8VR2Ba3J2zW-EzhLIt64G795uVJfFgBWkntleWB_YVpLySQErA06IRgb-AcLrX7gbF0qJ7o9EZ__xi48foHdFxMvDAYkRDvmhl4hEkkFD0V1uQqkfgjQnYSf3nxj9RlnE0IobhRgobX3AF4TL-5pO-fCg8EOBNGcbv7NY78u0Tf-E1EmT8IC1g0YFrq90Btdsnz_wErOc0_rXCbLNatYAjE2AVvLcWIQTDO4--3YQChFDYJlk05Ey8l5BZtFId_AEMNcP_aNg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe9Geqi7CG-p_Vrn0u2tdr39syTHw5G4AdS5xf8Cfo4-ygXulbzEoV0JpB5b0fD3RxUWacJDx73st9Wy62ZoJZY0KFKfy98FdRjRwJBCxcMYeiX-_NPCKIKBoQGWzxbZchmvlLdvIM7HK9VORc86tfcMSjyGeoA8eghJ3mMcee34VxVdPiaT5U-IXio5MZmnyqXpD1B26Np00eMBNOSTyAfJwv098b14IiirFE9i7LKM05no_MxenfBnfnro8oYvy3rOmlpAYBIBA6LYGyuBJH_PN8ZMEEEPa-uXEVAyPjEc91hgj-loX6Obiws9wt3U8wmZ3mlED6Y79yM9yDHHjujot3vPXoO0OCEjPWgVkTT9MBAjur87uSNfVKldSIWf28vj_Fs315K0lpUslEnIxhT2X8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106425709947069837659\">Sandrine BRESTE</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcz0X5R3qpeKcMLOryXBC4UsVJuexPttpB2VYfmL-R-lDwMuq55En77Sse9Ojyxol0lHDJRb-_JA3VzWlc6nVziMXTdkFa4dcmFpiYSQJziMngx3iXA_ChfdQoZwyhQYC_AlNBmAgVExq7D9uNafyAUaps3VjbElYwvc3BJjWL9_kiObOBYxd1IViZD1NHIjXDLPcoHq91Y5NAbGkYD8NEV_NPw_69WpyoX3GQK5flV8BvLuRi98kEqkGUxUTxRnFENNikxd2fREx2ElBnZS6SDZeXg7Klb808ydCnpjRGNyTvMbOIz7YVrL7c5RMos0tphgsLZ1ci0FhSkQuHfcp17aqR3mB0_MmQ1RVVMXC3wlXbnAj9n0K5UC6yFb0xR1yZLhQPAsOqvhjEAic5n4oqEAv5kIwRrliIycH5b2l0o7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcJZXJLtDN642FwhVvAXLYnuNVHncm_75iqursm1ojpGrj8XyKV5RrT5CvK6VqS4_BIbQjPSIQvZaitHeis8a7DmdKRMM2SQ6xMW1bh3Eu34ELIgKtOhxSouimGBZFpnMcdh5lo0BGm2J18F3AQyHHMiYfi4cKVIcppV2TirvmyMj_n7Fzpsxu6FvyaY6KS3VOIgCAEDI22ULl2UBN2Jdd8fn1qNAy-rqZ5Te6KT5_fMtSx_cGLdVQZ9Tt5qyxmEnEFwxlos5EJvB_YnCTG52t6PD824FEkimeBMA27PNEG-X66-QidxYEirowQMWPTSJFttjWh8IPYNvVkYzHmbxS805-fundaWY0LCLs_rsPb2ma0nRnpmFCZ1-x8QMz4gAZCQfTpICSR_OmUYNCswn1cm4VohnfUp_73bBIyn4Jp",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeIUxrJhXU-mux8bsomgU9olgoTE1pqaGOT-gTDYoM8DUg0gUehJX5FdjKuVIubUqPDBDsWQRZRCIBUdH6RLbSk7zezERRpHdf6zNR7g067B68f8bEs06-Q2NgiSxyicfOvNe52tzyoTwhxgFg5Q5Mrqfue6LzzfVUGzAun2ojuz_bxDCKQrj3xKN_ZzngCXbxDHS3a3_tjKRucwdwtWY1PbE6tKxmlzPwYUqpywu5vvMdCk_H1SSmeqkLPHorFLpnXHI4GiLMdsrCGJk49ixvXPh6Bl7HIiKgyp-EctM_7rG_ec52ig_lnBXHfKZFz-Xb7vGZgetJvQPGaQTWGnGi1GgYroTHkSS-uJCBAMispfn8xF714JzxDmHj-Qtwa9kk5TdsD7WNZLNQ0kxICVl-uwV5Nj-1w_s2ofrc8vLcr4w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117198868190978840417\">Le Pep&#39;s</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5706
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Belle surprise pour ce restaurant brasserie avec une petite devanture, l'intéressant est dans le fond et l'assiette. Patron et patronne super sympa ! A découvrir, vraiment...",
+            "language_code": "",
+            "publish_time": "2026-10-27T15:38:25+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "André LOCOGE",
+              "uri": "https://www.google.com/maps/contrib/102975732157189946269/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJl2cDgoyOu2xfXnd2uoUQfJ4gr1ddzPGGoAHUoDyRNR-KIEw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon accueil,  très bon et copieux.  J avais oublié de préciser que je n aimais pas les concombres avec la salade Merci au cuisinier qui a de suite dit ne vous inquiétez pas je vous refais l assiette.\nJe conseil cette brasserie et reviendrai.\nCordialement\nCoco",
+            "language_code": "",
+            "publish_time": "2026-10-04T15:05:06+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "corinne bouton",
+              "uri": "https://www.google.com/maps/contrib/102835707624261880288/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKiVwEnNfd5gZXbFGLpQXJ19boPU3MOYyC9IP9ji82dMq-81w=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon restaurant\nToujours un régal quand j y vais - très bonne cuisine et menu varié\nTrès bien accueilli par Vincent et Sandrine,et endroit très agréable pour passer un bon moment en famille ou entre amis",
+            "language_code": "",
+            "publish_time": "2026-09-22T05:32:10+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Anne Gaelle Tiel",
+              "uri": "https://www.google.com/maps/contrib/105132303123203657765/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIME5v7xnykAjPwW8kBc2t6OIQ6GMQsW430r1bqhqhT72QdtA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je suis d'accord avec John 🤣🤣",
+            "language_code": "",
+            "publish_time": "2026-09-19T12:45:04+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "David Vanlerberghe",
+              "uri": "https://www.google.com/maps/contrib/116231265409910983120/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUSFmdiY6H88iymcX9RC10QRUG-8Hx4isN2N6CDr7vDiBxcvGQc=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "super restaurant le service est super très agréable et souriants et les plats sont très bon on reviendra ! ☺️ merci à vous !",
+            "language_code": "",
+            "publish_time": "2026-09-18T16:19:10+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Sarah Degez",
+              "uri": "https://www.google.com/maps/contrib/104522081027168285680/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU-4c1shpP0SfcXZ4VrQshFYRySjKLcNBO0Gx_6La3HZCeRp_vG=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 01:29:26"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1182,
+        "bo": 144,
+        "front": 1038,
+        "estimated_cost_eur": 4.55
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« passer un bon moment en famille »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« en famille ou entre amis »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« passer un bon moment en famille »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« en famille ou entre amis »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 11:30 – 15:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« endroit très agréable pour passer un bon moment en famille ou entre amis »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« restaurant brasserie » ; « les plats sont très bon »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "« Patron et patronne super sympa » ; « Très bon accueil »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 11:30 – 15:30 »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Brasserie-restaurant appréciée pour sa cuisine copieuse et variée, son accueil chaleureux et les repas en famille ou entre amis. Ouverte principalement le midi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-pep-s",
+    "operation": "ADD",
+    "tags": [
+      "adapte-aux-familles",
+      "bien-pour-groupe"
+    ],
+    "principal_characteristics": {
+      "adapted_to_family": 1,
+      "adapted_to_groups": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5706,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8aec27506588fcea87f93f31c453c9d57ccb05c0352833257a6495ebbd4bfefb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

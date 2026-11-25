@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 22:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune référence fournie ne précise la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ou les modalités de commande.",
+      "Aucun menu ni avis n’est disponible dans les références fournies."
+    ],
+    "summary": "Friterie à Attiches, ouverte le midi et en soirée selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "729fc20700bb85dc7a9e740f9c82fc6a77ea42ccb99bac24c8c71c9b10c80731",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

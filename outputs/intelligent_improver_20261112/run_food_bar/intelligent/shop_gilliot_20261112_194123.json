@@ -1,0 +1,572 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:41:23",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "gilliot",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "gilliot",
+    "status": "found",
+    "data": {
+      "id": "5624",
+      "name": "Gilliot",
+      "shop_string_id": "gilliot",
+      "unique_id": "8d314d329451839553f3d4402387d661",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54884",
+      "principal_cover": "54884",
+      "qr_code": null,
+      "phone_number": "+33321786091",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "9 Rue Roger Salengro",
+      "additional_address": null,
+      "zip_code": "62750",
+      "city_id": "1171",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.7933015",
+      "latitude": "50.456777",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:28:42",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:28:42",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJAQBMp3Uw3UcRhuPhccozz7E",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJAQBMp3Uw3UcRhuPhccozz7E\",\"rating\":4.5,\"user_rating_count\":152,\"google_maps_uri\":\"https://maps.google.com/?cid=12812516409479390086\",\"fetched_at\":\"2026-11-12T19:41:13+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-15T08:08:12+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Margaux Margaux\",\"uri\":\"https://www.google.com/maps/contrib/102492559342348931159/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocImaWOG3By0CcOZFtmF5yV6SRNgv1CNNsstWaGEwBJDdhrTsw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-13T10:29:03+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Stéphane caucheteur\",\"uri\":\"https://www.google.com/maps/contrib/112914058494434396394/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUIr27dBu8O9LDjMljtdJPbBKJumUndPPsNwjfU94X9_x0xEYI2=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bien accueilli\",\"language_code\":\"\",\"publish_time\":\"2026-08-23T20:46:51+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Sebastien Loison\",\"uri\":\"https://www.google.com/maps/contrib/109737167595046114919/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVdMU1l739CqYAIjOd38t5xO9LS1bFsujdglINgvhnUqrm6qvO9lg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Du frais, un bon accueil, une nourriture excellente et bien servi ! Que ça soit les sandwichs, les pâtisseries, le pain , tout est excellent !\",\"language_code\":\"\",\"publish_time\":\"2026-07-28T10:38:23+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"giovanni cucheval\",\"uri\":\"https://www.google.com/maps/contrib/106768308484133326726/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWfmktXVR4wN3Gh6GQcScrMxAHm-f5bhfxcdmtp6NbMfpodYDPM_g=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-07-21T20:10:34+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Isabelle Gael\",\"uri\":\"https://www.google.com/maps/contrib/113623040743178167145/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI4nfUywH4_4JKqMouFQwv-EVFphxR04xAPQytFDs_XOyDM0w=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:41:13",
+      "google_reviews_place_id": "ChIJAQBMp3Uw3UcRhuPhccozz7E",
+      "source_id": 5624,
+      "scope_type": "SHOP",
+      "scope_ref": "gilliot",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos-en-gohelle",
+      "string_id": "gilliot"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54884",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5624_6af39a9ac1141.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4685",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32530",
+            "source_hourly_id": "4685",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32531",
+            "source_hourly_id": "4685",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32532",
+            "source_hourly_id": "4685",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32533",
+            "source_hourly_id": "4685",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32534",
+            "source_hourly_id": "4685",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32535",
+            "source_hourly_id": "4685",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32536",
+            "source_hourly_id": "4685",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "gilliot",
+      "google_place_id": "ChIJAQBMp3Uw3UcRhuPhccozz7E",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:00 – 19:00",
+          "mercredi: 07:00 – 19:00",
+          "jeudi: 07:00 – 19:00",
+          "vendredi: 07:00 – 19:00",
+          "samedi: 07:00 – 19:00",
+          "dimanche: 07:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLfmEyTdZkatUCeT_5TA2sQ8p-oNnXOVZiicThYjH8G-F29uI5-zpoggYHh7YEP9U0q1T608fw5ZsEGiFsX9n6ddZi7eI63tfMZJSBg7Nd3rYzlc75n6Hth_0wSHHl_DHW2hR6yTF5k6GRiUF5IhBgyt0Pij_NmvOCU1Wp_F9ULJEYEpRX8vnD27_SUDYNn8FiHIpDvigQvLMkzC_x3krussmizAjWGBtDgtF9SXvMdexv1OcglH2DwbJws-cFX9kRFpUDAFIAryIUVLghu3wBgJ4aqUI1oYWSFFENba7rtGSoo_MqVbmoEb8Hn469CxQllY15-tcGYtFiO6feF0dBDAgBYugn9lq-FDM5LMXgv8cPOlK6otCHKNA61wVkTuHWotmrvmoT7ghIJn0NNKe07GnriPqUs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117449706884174444380\">Gregory Verschelden</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1439,
+            "photo_reference": "AV-0GLeDJQ-RExmw8W1z4r8obIlsh_YbkOeNizL_0zCMoEwXmQ0OJwf9Oxx1WTjf3-D_w6PQsp1smjTMhOlzoQHuykoLIPk87KTmEM23bx1iEY_pS6hprf71YJDjsCvap2gm3V7mCz5Zq8td8pGU1pLnIfpq8qEuvLpCSTTxa2qvL_8zkf5q16FRbN6zLx73xg86TrTZXVnJxacnN-uz5mPWXGDdWWeEzTlzYJXWrr4ztuDvTH_g1P-C47tCFuUlew7TH5KmOc5zdMU24b9HSPRFS8SbfBSRAo8GnMII394MN96UvgHx9nBl5niaQUqQaScJzdcpqlzYOZaPsBzgjJ5Fb_JAHKjU6uYBFE3TUuEAdVBjRbJf8NurfLBMzEWcGdDV1wlODLTcOhyhWcwxZiT3aVlvqg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101629322617137514428\">Lise LEFRANC</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 960,
+            "photo_reference": "AV-0GLf7VCWQ_fgp5GuWp4-70Wm1AjQvNNXLNlxHrXRu9lX1jzpELSAto1XJraIftsrSjbo1xJt1AC5Gf3OZnRwehkO3s0Yc3T5_7as36evTVt9-HID2kTvawiJV0EYOPX42ejXNz33MqLnQb61RzkyOXppJkdfD9c6mBbFRPrEz0t2rZYh0GJNA1fReKxQL1eRAxIQAbg6yEPRXXX3ybQb5Vpj5eBNcN1xFGACuCr150FT3za8u-JmpuZdM_o8ZXQMtYhDi_y1Xe7f8wFRBvpeavtTx8VAh_iJ1r_qWHVNKNFiMVWcf9nY3ld5XJhbz53vs2n--dmWCIZ2KJAbFYSypbxNfDNY2b2_2_v6lo6W3OUvnUYDk1THqAxZUyuIiuPnZjohD9Y12D6yiJ74Z5sIfHCAXkCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104211658397173999075\">Félix Maerten</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 960,
+            "photo_reference": "AV-0GLctjbEFPuyas9zTNX1Zi5cTu6t3Wx-UqjjwRnVa_sskd3LQHJkN9cJtN2j5Ito8NNxoHsYp5e6r3shZkjSql5VYBOHsUbGKFf2_fozaRTJiVYzZKr9raDT6E04fT5dF3wvBGbtWKe3EDKlM3iC78CzCXsCFspgYWgV_HvRCUGxVpU7WACnffJPRDm0vXcl1CQtBeduWqmJEWHMHauPXiKlZMz-gpo8yHD_hD2EA6ef0KUFU_P6oarpJ3OHmu1B9sNC9h-pd8iCAF5xK7SglA_zzUsmtH_BQczTN9zJxb77y7OgvthiPlbyggRrKkiJJHCdxU-J2qEInfGete4xY4E3KXG-q9HgpFBIS7aOsyGwZ5WUSZPHG8RVpSntZf6Hi3VB9z3zUtN_HkkUGSAV9JoSuWXs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104211658397173999075\">Félix Maerten</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfoSMRilYnhJ3fdj9lo01k8Zr2sJULPFmtTDKWNI9pUZCwvhwdH2cLbBzfHXdXzbBjjp_ILMIONESNfskr5H8AizAdrc5u-iHNgIWUyIEOxmDCk87UcpJJoKBctfnETA4wUfu741rlyjVzjKPkoZ_oRcmM_DoMxfs4A1VyM9H5WFggMocfUlnKcSe-LUz1UzE9d7l7Eo_bEphi7YfzFKLfENXt6eimQ992henwYxTm0hPPGOUgcs5yYXgqiCnTUlfm-GZC4nDXX2wQ29APK5ojgEk8l2-x_MIT8ZC8SLBmfe5KchPpDlaDC8BGYhjTrR9hg76dmL_zmKoQeogu8-XjP6G7ZoSaItNseMAFMJvJa9HfHjn5FjMKPIh9LnqNvKM679laG89PH6Sm3Lfn2JFAIDu4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114562255306254146841\">Aurore Lagardère</a>"
+            ]
+          },
+          {
+            "width": 528,
+            "height": 720,
+            "photo_reference": "AV-0GLdfbXgGVbsEI7--17CTVttYiG08z6n6CCOa4CDS3TN1sxJ_ZOa_lWjIRVGsjR4oEO2V6594cS17QJcUAk0B6T3ZY0Rf2XkWKrUMG1zro7RT9nbOLRmBmQm0iK7FNSqtv8YKZkHXXq8GnOFkKmOaJs4DAVkHFs9OBfkU9VbrdfbBZSIPcB6tr_ExxsWAIPx4FO9BTWh4W1yOksA7G0RstAQG6BHZiBVFPPc7K0D87Sg0Voyu7pr1RWmY1sFdTT7Krv2meZMxKRthLkJGT-isESCruW476qre979yZpwdeQKXaNR6hoXA_6KbCGQJaCdRymHPHItjtprON1VQ_ugnBRJKfazu_XxWuih0r3T4a7huELKlXoI167fcHcx9mPCzYLmm4Og2sbH98AVIJy4i4gdDfw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104211658397173999075\">Félix Maerten</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLfxflPTMYL_nFPz8rVlqql9vhOHLVKIgg42cKhXwKMoSwItD7rHzvr3GxAzdDbnovANZiJqjx-9XsszErzyExenipZOR0YvMVI2K5FxQ660K3FgiQqf27zHFS84HvF-3-01QoDCDeoPeUNnhZaK-FYlGx0bCw32vWnQUQMYzJKCGiDiMXNdbGz6JHQbRAcb6-jvefFudqR7njz5HMXE9nWSoEYVwnC39QXyD_wvMnnt1sF066SJ21Eet57A-2raz3dsVXEYVADue6vObY6e1fOGa19UOEUbP4fHKGg5sNlphzdBogdiBCzQEDhs7TpgQwqTrWakIvL-jUrrsqYd5HtO1u88VESTqwk91aTZwc5RQfBG6zRvYYp2s5QMcZxTmL58v6dslbXbelklWAuca1BPc32D",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117449706884174444380\">Gregory Verschelden</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 960,
+            "photo_reference": "AV-0GLfhBNe4-K61WJyXhwpaqPpFSe50kRITWbNSncx9YZqQKOm7JhaMB-Pbp6n9Pc8_vL_2a4at2VMATt2IvGj_1s4F4q9-ZT2S2RpZjpzK_MTA8ZFs3-IumwDEJZJJ0Zr-anxwAj8wLiaBLOHkRa31KyGxB5I_S9mXoLdXmZHqa1M8UZBqBm0COCXOnECuH8ZYsofWSwEADmrWIO_kMo0DDMlq2N5xtLkCsAOavxDteUyRhqmaGPujB5g99wJ-njHaF8g-rXhLQ9gpXnfXoF_91YKuFzKVHBfOB25KmYoVkArFRTtURRtaqbUoawd_54EWNEM40c6EPmXnEGz25rRhe1hwjEd8FyTsLkyRXTAxcZtR7j0j6MmnzjygqlEInNtZZ7NQKvP3mvSiyCAswwY8oer-iuQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104211658397173999075\">Félix Maerten</a>"
+            ]
+          },
+          {
+            "width": 716,
+            "height": 960,
+            "photo_reference": "AV-0GLdrAstaHAzEnFZA6HJFs26wAY8aLdW7__inqsbKM5tEvxFHzcbhA0mvjG5ID18Yn7Pgom1bxh8cFloG-NIKFarJXMQE1AoALjph7KRbKPBrwXldLt_hicqoDlF65ILo6BkKQEH0vlhCiURXPTo7_7rbdHorRGjaQVo5vzNA4V8uucyuMGyXU9AbbufcRL-NrB8FNtmU97KvUJFBCFCXUbR9VCUfQEfJ6p5XeoUf4u9fXx6xfA75tGBWbTIWNqRKgqb407XiKk9TzDBVHyYxtlWt3d_fdwOslCgsjPFnq-kycFPbLl3aYVv1XjxQocUJkeRf9Rp89RoF4MWvEAzzD-C1Pkz88UIFsBzWYf_EQcDDvynwaTY-yIp69g5mOqmvIWT1nl7RNUjs4Tk7Ke8gA5jSrlU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104211658397173999075\">Félix Maerten</a>"
+            ]
+          },
+          {
+            "width": 4480,
+            "height": 2016,
+            "photo_reference": "AV-0GLfGBWI5o2b41xd9igzC7J3pBkxIKTAnMmsOh1qjkpecNBbkI-mNd4HddtbXjqBRwFKq2UD0stQIre6XBDY7XXr36g65PSC7LZfJEYOWCB4ETSDBDNEhJooctsf1Fz6e7PSL5_kmiiZxr-vuf9wRMKVSJXzHvM01xw9MKJrb6Ntnf1UoCMgCVe5rvr454zfkd4CNTvqYXZH7QSJH-X86DwLxpZ8IHgQ02c_QFjrjw88A1CLSWA-ZLJ6hmtWZqwUmOzvOZGvEPIgw5_PQl5tc8J9JdCdqMgpHmSYmaNhHuc5jgei4MlsljT5-kk17lTp_RZ7l-Y6xBYwSWrgp6hQGVWpqxgSAFwA3MswH0LVhEFj0_XmIAoAnNuMCAAwNw_DoyqdoKDeHQsVTC6uVv1T-neVcvAtzi54",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106712318908052788009\">loran95sar h</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5624
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-15T08:08:12+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Margaux Margaux",
+              "uri": "https://www.google.com/maps/contrib/102492559342348931159/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocImaWOG3By0CcOZFtmF5yV6SRNgv1CNNsstWaGEwBJDdhrTsw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-13T10:29:03+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Stéphane caucheteur",
+              "uri": "https://www.google.com/maps/contrib/112914058494434396394/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUIr27dBu8O9LDjMljtdJPbBKJumUndPPsNwjfU94X9_x0xEYI2=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bien accueilli",
+            "language_code": "",
+            "publish_time": "2026-08-23T20:46:51+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Sebastien Loison",
+              "uri": "https://www.google.com/maps/contrib/109737167595046114919/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVdMU1l739CqYAIjOd38t5xO9LS1bFsujdglINgvhnUqrm6qvO9lg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Du frais, un bon accueil, une nourriture excellente et bien servi ! Que ça soit les sandwichs, les pâtisseries, le pain , tout est excellent !",
+            "language_code": "",
+            "publish_time": "2026-07-28T10:38:23+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "giovanni cucheval",
+              "uri": "https://www.google.com/maps/contrib/106768308484133326726/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWfmktXVR4wN3Gh6GQcScrMxAHm-f5bhfxcdmtp6NbMfpodYDPM_g=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-07-21T20:10:34+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Isabelle Gael",
+              "uri": "https://www.google.com/maps/contrib/113623040743178167145/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI4nfUywH4_4JKqMouFQwv-EVFphxR04xAPQytFDs_XOyDM0w=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 152
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1122,
+        "bo": 84,
+        "front": 1038,
+        "estimated_cost_eur": 3.05
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« que ça soit les sandwichs, les pâtisseries, le pain »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "excellents-patisseries",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« les pâtisseries […] tout est excellent »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie proposant du pain, des pâtisseries et des sandwichs ; un avis souligne leur fraîcheur et leur qualité."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "gilliot",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "sandwichs"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5624,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "75ae37ad481d4e42ce2930be6e2b369f6786a43868102c8d00cfc038f05931be",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

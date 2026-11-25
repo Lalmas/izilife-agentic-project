@@ -1,0 +1,695 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:09:45",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "yemma-mia",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "yemma-mia",
+    "status": "found",
+    "data": {
+      "id": "5735",
+      "name": "Yemma' Mia",
+      "shop_string_id": "yemma-mia",
+      "unique_id": "ec2aa4447a0c185c32c8657310dae463",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54993",
+      "principal_cover": "54993",
+      "qr_code": null,
+      "phone_number": "+33320520156",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "139 Rue du Faubourg d'Arras",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0592904",
+      "latitude": "50.6071572",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:42:05",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:42:05",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJUYmaOgDVwkcRRrN2ujpLHUE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJUYmaOgDVwkcRRrN2ujpLHUE\",\"rating\":4.9,\"user_rating_count\":320,\"google_maps_uri\":\"https://maps.google.com/?cid=4691989102398452550\",\"fetched_at\":\"2026-11-12T03:40:00+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Première expérience dans ce restaurant et c’est une véritable pépite !\\n\\nTout était absolument excellent ! La cuisine est faite maison, les plats sont généreux et délicieux, le rapport qualité prix est top !\\nLe cadre est très agréable et le personnel est d’une gentillesse et d’une serviabilité remarquable.\\n\\nCe restaurant m’a littéralement réconcilié avec les restaurants ! Ça faisait longtemps que je n’avais pas passé un aussi bon moment ni aussi bien mangé dans un restaurant !\\nExactement le genre d’établissement qu’on aimerait voir plus souvent ! Je recommande les yeux fermés et reviendrais avec grand plaisir\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T12:04:59+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Mou Lns\",\"uri\":\"https://www.google.com/maps/contrib/112947420791347439444/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKgmI7BL_P3_bXG4Xdj99P-s2LhWniX3fvVH6SkgW0GlRyMtQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Excellente adresse, la qualité des plats nous fait revenir à notre plus belle époque, notre enfance. L’accueil est irréprochable avec un très bon service, rapide et aux petits soins. Vivement conseillé\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T20:15:52+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"yellow Stone\",\"uri\":\"https://www.google.com/maps/contrib/107679903215206418750/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVGAXrFYisHRPQvMXW9uof7s8YEoKwspSLV8ZZPjrSnpop46FPQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une excellente adresse que je recommande les yeux fermés ! La cuisine est délicieuse, tout est fait maison et ça se ressent vraiment dans l’assiette. L’accueil est chaleureux, le personnel est adorable et le service au top. On a passé un très bon moment du début à la fin. Une belle découverte, nous reviendrons avec grand plaisir ! 10/10, je recommande sans hésiter !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T20:14:23+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Célia Lounes\",\"uri\":\"https://www.google.com/maps/contrib/108144338724787660596/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWYbM2kytnLznci1Rm-VYd2Ut8cUJbNiJ21RdzntktcYgJ3G0O9=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Tout est délicieux, les portions sont généreuses et surtout, tout est fait maison, jusqu’à la mayonnaise ! On sent qu’il y a un vrai souci de qualité et l’envie de bien faire.\\n\\nLa carte change chaque semaine, ce qui montre une réelle volonté de se renouveler et de satisfaire les clients. Sans oublier la gentillesse du personnel, qui rend l’expérience encore plus agréable.\\n\\nUn restaurant qui mérite vraiment d’être connu et dans lequel on a envie de revenir. Bravo à toute l’équipe !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T20:06:04+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Yasmina Lounes\",\"uri\":\"https://www.google.com/maps/contrib/112309189308732434985/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLGA-fHKvT79nDiUooPMlO5BqwItLKe1zlkyBo26Xqh6jbWmA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Nous avons été en famille et avons pu réservé une grande table : cuisine délicieuse, service impeccable, l'ensemble du personnel au petit soin et très gentil! La salle est décorée avec goût. Merci pour ce bon moment. Je vous recommande d'y aller 🤗\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T08:19:21+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Ludivine Awth\",\"uri\":\"https://www.google.com/maps/contrib/109659075427704628564/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV-x88VFkLKYdG8BrHOS7Bsmlvxo5JuQL4piq5HbPLGJA8h3e6Y0A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 03:40:00",
+      "google_reviews_place_id": "ChIJUYmaOgDVwkcRRrN2ujpLHUE",
+      "source_id": 5735,
+      "scope_type": "SHOP",
+      "scope_ref": "yemma-mia",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "yemma-mia"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54993",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5735_6af39dbd14747.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4794",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33293",
+            "source_hourly_id": "4794",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33294",
+            "source_hourly_id": "4794",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33295",
+            "source_hourly_id": "4794",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33296",
+            "source_hourly_id": "4794",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33297",
+            "source_hourly_id": "4794",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33298",
+            "source_hourly_id": "4794",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "22:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33299",
+            "source_hourly_id": "4794",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "yemma-mia",
+      "google_place_id": "ChIJUYmaOgDVwkcRRrN2ujpLHUE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:30, 18:30 – 22:30",
+          "mercredi: 11:30 – 14:30, 18:30 – 22:30",
+          "jeudi: 11:30 – 14:30, 18:30 – 22:30",
+          "vendredi: 11:30 – 14:30, 18:30 – 22:30",
+          "samedi: 18:30 – 22:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 1440,
+            "photo_reference": "AV-0GLdtJHf2AsYt64GDbI-sKOLaCH4CdrQ_L-1KeFZwi-OyiBLjtJ2d5w_ee4TNeAlagmobGFb6R5JQDfk7m328qwNSQRwfQnrV27YusZt2YMGRQZqeTv_r4ZK2NJpVPhff7Jm3f92vx_FPmGiWCTjWvdk103bMT3yuT5f0xiZ5qNc4_1nQsi3t3azIR2XvdQt_wTf734OI0zlzXNob4fSEcKaCcmoC9FzvResQCbN33YU0Wz9zFkFSXH1eNhyJoJpIoZOYrJSjdoRDiaL4FClKc4k706MyLlIiO3ZpvakOsglZ9PTW92-1iAZxceKnjAanL1gy33Hmbo7X21YRqy3R9wF4bKhi11INgF6pYbyZrNaqYtNqiRL-IzpBAORG8CU3h7ba-tE_ApjQM8jnV0A9O7nVj9HlfW4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112357952849182145120\">Yemma&#39; Mia</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeds8tOiQundCHvCWIxom6VA79UcdCNpiiK3Q8PrQq2L1JN8yRBb00i7gQQG_2baN2flFMrMuLEgdkJmMrQJAtLMX9Z6G8Bz41rlYHa3dE_zyTfjGqyU_9dGP6IyidCjy5w52ydMIZYUNOJ-e5299oh23HOioyTR1dBFVwrCMS_iwwx0yHi7Dah8aNrmZotIdlZpx86BeapqMc8xvnjbhOofhCtzJtf1DboQBnaxxgqjwKPKtiAtm5csooWGkbaEENUdC1cXmdMr38hjYZoR6CUWJzFZ_Zv511X4EDNt7d8SV5oGR7n7oBPfdpt_HoqbOaSx-fe2uy00EZxLRFvAG51wkqkBU2zyWpgSJWEHN_9XvEz55IWh7ji5tL3mnAS-Tzm-p61udwJE5rjUvXwu4_dU2CtzFevTI50-xJnQ0GF",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103718945477536525892\">Mehlina Arrindell</a>"
+            ]
+          },
+          {
+            "width": 550,
+            "height": 440,
+            "photo_reference": "AV-0GLcS5nCU_osjwDmRb8miZMQT1LXOKyfCEaBBSgbR8eofqTHztOIy6mUgBqtaCrEe-2DcbBAZ3yfeS0zqFDOKupXZerkrN8dvRBggD5SufwBndjiVW5b6x_g564hLnlZlRET1OdwI5ViqvHwQF1uXt-x5DylGvqghAxtrmbNh-BLAUZ8I3fVL4KGfn3eemNcUGn2RZVCK_JRGX4dl283EdnOvZ9movQVgox6HlyQh7HeYSN-aB7wFH61mzbdqZvE2rK-hitm6QoCJR45yfagiGkY3Pl2IbwjkU0DEAjM2KRP9Hg4-N8NWHEqQOB_br5INo4J1gw3DcP7YsPPMKSt4uxIoUFNtPg3iBd5KSVyWgRv4dOfgwHU9Y6oiNwVtzj8fX_YSlXYTBubA8nm83Ep6Eo_qJusRlB3ntQYop-PfZZhOYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112357952849182145120\">Yemma&#39; Mia</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdCklyxoFO73NfYg1WcN1ivHaurN6MGxPCI-wJeGM3TvaVA7jm1_KQZ3CdjuQjZWqbPDAG9uW3Y7TD2LnWMZq-F8zE6-5sG_nmLJbs_xFz1w63A5PKKUR6XiK9zmcoqeLFPaacK3LDmjFomK1hch8STDnceghqjNeVgv68txx4FE_gQUdXoeYXeeYdlQLpettDWG9LkO_AHyWvS9uRy1ImQ3ICHQE3B01gyjZpr2v3DBybgLrOkl2MWC8BszFaM2GW6jLE5o38vb1zhBXTBXGAEr9I2W_zzmKYuDUjCjvSzh71SwbGmI_jVHBZzLgUpI5ki8Mvhx1Tj7YC1vA6b6bXOnkktwA09_W3AQN-7AGCMRT2az4QE_x5fRDAnalc_hHZmftQ1dKCG3OT1g6LdcWHcduJjuBypwGEB4E-4ueE7rQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103718945477536525892\">Mehlina Arrindell</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdmdswlxNPN8Zx700EDQFAmKyGBsV9XQkiWZB9TSrlmUwv09XVXd80UjR32pSIVOi0L55t02dAJoGjrBaqQdn2-M85yzKx7thlkvaLYCUaRdoXFMtXWgMWwcA0TE9IbAS0_lP2GHGzM_ee0mPHSWSZZVTU0N50v-OFAN_wXoi5MwEVyxiFJzUMNVQ0OhTGu8x0i-PNBFRNZ-v3Wibc1p2d0OYv1Cc1mxqdnKnmQkio6XOIB26bxi1w-alhuxKQ8AyRZLbw0qI8c1WYj3rgEeziFQt4YWrO1Tj3_qFHmjH7NYEjPsHplALnHv305BNT3sC-262biPV0hiTEpGicfQ7Roc5gS5cc_IJn7f2unJX_NiRcwwx_wgT_eGV1aCvqLo39xi_FQkpxx20YekjXQnXwI38It_uOKUIAWapA9JTcB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117638500719839618046\">Joker</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLflMKuVcu7iKeR8gwd2a-jrOaofpTywFfx1OWk12HfN0vt-DhSjFWN15sQv56yqEvnJD6Z5o1fSFNwSMNA-vF9FQmcKSbYxlYXEcnl0wBnaQDTsmy_U_aQkpUbnLgp43u208eqh7dy3Wlmr3vQ2UG919RwYP2OE9ykySx-QrzmmoBD6FYkUnrn223Nwg-iNPswY8mai1FumSQgwQp_tsObhfwCK4kZH2-lfjEpvXdyRxXQp3sZxRFU0q_Hu16ise9vhNcfMiPgJCkvF7lQmrYC65HSPhaqNG4Rvvs0I7gkwW7nVrg3lHk3d6BP3rUKrq1YT68QDqf-h9VgSaJpnodfOlOhV-0og0Wowk_UWvBI3y2wFY0iYPA4abYnCn_Dya522UjSf-I4msH520VcfqS5f-0CJWc83-zfrmHlHkBzvsA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104352930359330086241\">Billy Gk</a>"
+            ]
+          },
+          {
+            "width": 1179,
+            "height": 2096,
+            "photo_reference": "AV-0GLcyBeX0Sv6UjqV4qF_PMczQOR4frLinBSUPbYJf9DBr8uv6zNloten_SMP7u_gLU5QLtZTpdLq1ZBMw-mHpW-97xZTuJSTH1i8N4fOOWG-eNGDxiYjX4MKzVV5p4FMiHNbtioREcaHtzzvgWyRJxJpuRad6Ii_pMYuW86MD5ikCFEZPNZqFWtb0DLxr9GMTPPYcQlQftsNO0lIyqVnGH5U60Mc6dyrJOfTr73y2vy-5uryt35Uch8MDPLhlKIQO3JH79kpXqi-4n1a89XASe6qDVutNO713S_NqQCa_QSV-7SSm0ROWlgws9X8vK1WWD-_OtHa3BRbHw0-0QMDVjw4780SgvJ-s3NhqtwvmCcoOWzaCDluHLCBdcPTB-FYLhdopB7uczinZ1_RGWiKA960FB-mUuE5rTO5TqNu_fNrm",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109743248446687663512\">Ml Bk</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 1069,
+            "photo_reference": "AV-0GLf7jhwre4TGgvrPFIlZAoseZXwTEFtBIqPqxg2igPoL1UmjAALLkPJKG-ARP7EmvCzsGdrYUbcnKDYzg1-Pd8RjRejuohOiu79GonzjIf2sCGjobdVIqgSjb074ADUWUxCsu5eewDrmru5MF-5Jc9pxlJG0_R-P2SrmEIAvcd6a70nboI-245-kCg13RT8ZHuzMZj6_AKCNm1Fme68k0D4_y0sTshhHQM6_Wx55oq37dOse9BlZ8LQVr12-o61ZTVZiSlm4vS9yb98Oeqcy0o-BUqio8-FDzMXAuf4thp_uu1a1NM5mxWwUWKKYcwTDGq5q5qGIaUnfarVoVSP32EapbD8hnp5_LS-DlKL0fNkTs15Xt4PKlUsZVWX9cbxe_CfxgWIHa89rgXvPwsKi_MD3EcaBIG_lYtpghSZKJalA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103689678779272399277\">O Y</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdQI5p5S7EV9abyJrBap5sEPU2q82EBigHcmdfVpMlggH9UwJdpyEnHbeqRZHkMqDt_37WyJ8rEyhbHlCfaJZe13GfXKyyAvMh5uu7OWUfOotcFVKdJJVLSvBKCUM1l-bMwxcsgRezGXLCxLQTtpkI07zK1edrEciN5o9iC_4o9jACrGrH-0WZ0J0vW6rMijUe4iE_9aheMZSya53juW3LKyf-vY-eoFJJLlxXSx_jh6v9sK8P5481XOLlNI-83XSSIeYtPtuOJhpeZvBncnh68iGkT8TW62lmgRbVsXTcoQEuM6QrbMdpmRsKxIg0nbPPkfxOVAQIchF5qc-W1AGt1QpLWTTJYdjJhhv21HxnS8uXw2Welm64nRZrf8hek4MfrhvBp9PZay53-gOVnkpOc3mM2xg1pRTnuyoS8Chez",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100815124454119330203\">Solange Mlapa</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdDDA8IvRHoN40E-bekhxM1rT2bOxEmUcdWXqyff1SM3LjxK4EmaCwf7D7tHLfU9FGlHtkEIGU7-IxkhiM9msSXOBgiFK_DGM7TAFlKRZD5W4wlL4_KIO9D2NEiS9TI45WA_lGPCILOCQjM0p3xCKhAha8HbE_OQg2YPyNujBz9GPvnKbGl6TXceBtO2oth6014SNYjgpKWn0NWUGd8lLyg8wz3mr2eCVo8EwPCZXAg_D9o3YRuCfw5GFkOCW_gVv89gbWrmYr_nvtK1AAGECw5XNkTRm9E7LtbVbTeR-2VPwYZTeyVDfIf1DO7gE8ShBFiS01Mx9rJmVBhje0OwMrwwi5Vn0bLlVLw8SPGDydMPRSLEBRj7OlErBHTkkWeW0Ps_51A0Qs1HQu4H_cEPf1W250",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110885801891679951880\">Boma</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5735
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Première expérience dans ce restaurant et c’est une véritable pépite !\n\nTout était absolument excellent ! La cuisine est faite maison, les plats sont généreux et délicieux, le rapport qualité prix est top !\nLe cadre est très agréable et le personnel est d’une gentillesse et d’une serviabilité remarquable.\n\nCe restaurant m’a littéralement réconcilié avec les restaurants ! Ça faisait longtemps que je n’avais pas passé un aussi bon moment ni aussi bien mangé dans un restaurant !\nExactement le genre d’établissement qu’on aimerait voir plus souvent ! Je recommande les yeux fermés et reviendrais avec grand plaisir",
+            "language_code": "",
+            "publish_time": "2026-11-07T12:04:59+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Mou Lns",
+              "uri": "https://www.google.com/maps/contrib/112947420791347439444/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKgmI7BL_P3_bXG4Xdj99P-s2LhWniX3fvVH6SkgW0GlRyMtQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellente adresse, la qualité des plats nous fait revenir à notre plus belle époque, notre enfance. L’accueil est irréprochable avec un très bon service, rapide et aux petits soins. Vivement conseillé",
+            "language_code": "",
+            "publish_time": "2026-11-06T20:15:52+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "yellow Stone",
+              "uri": "https://www.google.com/maps/contrib/107679903215206418750/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVGAXrFYisHRPQvMXW9uof7s8YEoKwspSLV8ZZPjrSnpop46FPQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une excellente adresse que je recommande les yeux fermés ! La cuisine est délicieuse, tout est fait maison et ça se ressent vraiment dans l’assiette. L’accueil est chaleureux, le personnel est adorable et le service au top. On a passé un très bon moment du début à la fin. Une belle découverte, nous reviendrons avec grand plaisir ! 10/10, je recommande sans hésiter !",
+            "language_code": "",
+            "publish_time": "2026-11-06T20:14:23+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Célia Lounes",
+              "uri": "https://www.google.com/maps/contrib/108144338724787660596/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWYbM2kytnLznci1Rm-VYd2Ut8cUJbNiJ21RdzntktcYgJ3G0O9=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Tout est délicieux, les portions sont généreuses et surtout, tout est fait maison, jusqu’à la mayonnaise ! On sent qu’il y a un vrai souci de qualité et l’envie de bien faire.\n\nLa carte change chaque semaine, ce qui montre une réelle volonté de se renouveler et de satisfaire les clients. Sans oublier la gentillesse du personnel, qui rend l’expérience encore plus agréable.\n\nUn restaurant qui mérite vraiment d’être connu et dans lequel on a envie de revenir. Bravo à toute l’équipe !",
+            "language_code": "",
+            "publish_time": "2026-11-06T20:06:04+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Yasmina Lounes",
+              "uri": "https://www.google.com/maps/contrib/112309189308732434985/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLGA-fHKvT79nDiUooPMlO5BqwItLKe1zlkyBo26Xqh6jbWmA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Nous avons été en famille et avons pu réservé une grande table : cuisine délicieuse, service impeccable, l'ensemble du personnel au petit soin et très gentil! La salle est décorée avec goût. Merci pour ce bon moment. Je vous recommande d'y aller 🤗",
+            "language_code": "",
+            "publish_time": "2026-11-01T08:19:21+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Ludivine Awth",
+              "uri": "https://www.google.com/maps/contrib/109659075427704628564/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV-x88VFkLKYdG8BrHOS7Bsmlvxo5JuQL4piq5HbPLGJA8h3e6Y0A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 03:40:00"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« réservé une grande table »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons été en famille »"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« un très bon service, rapide »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« une véritable pépite »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« dans ce restaurant »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« réservé une grande table »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons été en famille »"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« La salle est décorée avec goût »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« L’accueil est chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:30 »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons été en famille » et « réservé une grande table »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« réservé une grande table »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 18:30 – 22:30 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 18:30 – 22:30 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à l’accueil chaleureux, apprécié pour sa cuisine faite maison et ses portions généreuses. Adapté aux repas en famille et en groupe, avec service rapide. Ouvert pour le déjeuner et le dîner selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "yemma-mia",
+    "operation": "ADD",
+    "tags": [
+      "bien-pour-groupe",
+      "adapte-aux-familles",
+      "service-rapide",
+      "coups-de-coeur"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "adapted_to_groups": 1,
+      "adapted_to_family": 1,
+      "interior": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5735,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "b4d6178df26a2c7e6f8b656a27dfdca29ed1d095a30275af0556aee7d6bb2d11",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

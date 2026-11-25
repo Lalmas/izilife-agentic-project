@@ -1,0 +1,507 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:09",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-leu-pindu",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-leu-pindu",
+    "status": "found",
+    "data": {
+      "id": "5872",
+      "name": "Le Leu Pindu",
+      "shop_string_id": "le-leu-pindu",
+      "unique_id": "ffa024d3a9686bb05952f3925db1c36f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55128",
+      "principal_cover": "55128",
+      "qr_code": null,
+      "phone_number": "+33608814920",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59239",
+      "city_id": "100",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0501009",
+      "latitude": "50.5011805",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:03:29",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:03:29",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJu2_160TSwkcRm-UgWbAO1BE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5872,
+      "scope_type": "SHOP",
+      "scope_ref": "le-leu-pindu",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "la-neuville",
+      "string_id": "le-leu-pindu"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55128",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5872_6af3a2c15a889.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4929",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34238",
+            "source_hourly_id": "4929",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34239",
+            "source_hourly_id": "4929",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34240",
+            "source_hourly_id": "4929",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34241",
+            "source_hourly_id": "4929",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34242",
+            "source_hourly_id": "4929",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34243",
+            "source_hourly_id": "4929",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34244",
+            "source_hourly_id": "4929",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-leu-pindu",
+      "google_place_id": "ChIJu2_160TSwkcRm-UgWbAO1BE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 11:00 – 15:00, 17:30 – 23:30",
+          "jeudi: 11:00 – 15:00, 17:30 – 23:30",
+          "vendredi: 11:00 – 15:00, 17:30 – 23:30",
+          "samedi: 11:00 – 23:30",
+          "dimanche: 11:00 – 19:00"
+        ],
+        "photos": [
+          {
+            "width": 2040,
+            "height": 1530,
+            "photo_reference": "AV-0GLebOg2E-9Y_txXQ_VTaxPHjMvrW1NwelLLOzqxrVEnRssdBmNgS_wgWl-2zZByazToM_ZNCtHsI9liXNQDMf2wCz3QTjV02Omw5rMsCnGDe8jFaej9NiqekivZic8YLS_9ZJ4ER4-qoVHZ6pdjwJDDtDCo6Ihlo9865a9dbISaJpaXzO03FQDTSv4NkvRdsUtujo6mLQEbkmBy7BRPIsC0t5wLH8sP8inXJgogdTP9vtuPHJAby9r3vHgAR96ShzwBpxiVc3nIYWZS__qNxwqobdPjAnQ1lP0tTUwWQeN1ajglgEjrGRjK-CFyzY9e2itHxQXSm5HSPZC6XEMjW2DmmmBtsZRzNfqSrb9r4FbnnPk2lmrZmLadjDtKU4C4P37fJTgb5hB1qj4VC4vENfcDi9W8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109407776576181219075\">Didier Cuvelier</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfg0nkc87RbPDajpchuOTGq2ViPw7b0c6YfGJSdKgU2_ZNgmWrBKnbgwNiLIslbWm12oJYwtvGVjpIbkC2xOZ2tZtmKc2fyMCL-dQ7zTRe0nEeYRwpTmZE82JIYQuRcWLPpHbWQQgIA2ZkTj76-TSOOicsO0SAlNsTWHse-LiZMj3XajUJgzBQkutGSQLWtwYoajV8PoVw8gBGhYb-T6M4Mx7wAbezhc79ytbHIAIXZp8jlxy4YYRkgeQvgfuR5KySDOOdL6nO8xmWI8kgg4j6R9Jm1qesVuXFPh1NCQGfmtHFnyDCanvANOs8a2MV3en-yy8aom3rPCkUPG8MVThQlBljvGkxqlDmqLls4BMGAwStct0VdZZJr7BjnW7Y107RSM5ZgHCsNoDxTlAZHgKur2n-sFeyXfXiqtxZIAgkz7g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116168546725979133812\">Le Leu Pindu</a>"
+            ]
+          },
+          {
+            "width": 2040,
+            "height": 1530,
+            "photo_reference": "AV-0GLch8W5xHWBaMMtNXZLznCDYu4zIXxXKmrkJ7Un7_1HhbjeotbC_TffpPJktdW-8O8Cr2ogg4t9SQkLDCsdBVVC_LsmSc2YjYbrTW6uoWjWw229W_8suWvMUhV7RRIReMbXqZ65yvHKz8Nq77GCPWL0ynkZF3zhULTr1NVpHoP-6zTebmFY8QTILiPF4qTDF-3G2LcYLMnlet3JNSQ16R3_Avskk-ykvLOKvyC_Dn2HZmnByR9E3QHClPBRSGrzy3pPwwTE85dfM6dgh0WWXfeG1mcCijfUIL6JHr7hlfrxSzwNFOyS8Ri2WVMfTVnehVv9KBPioBOC4t9X-KdLOahCLogXR6iJS-tcfq5Zx2fE1arbP6k7Rj3OHid4Lz5xf8rQZYSXk3v-Qth-Nz6g7G3AmC6VGWg4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109407776576181219075\">Didier Cuvelier</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfrIM5sHqO--y4d7-mPoDboi6DU6XwWyfERGtuvGHy42ve63livPhHuwwuJ4S-uW5JWPzDN87yOwqpiJmLsfxEudkuRLR_oMx9lusyijU6i8aexEtxZpUQndwKavVQxDkHKgJvaSeoC3gEBsKw3O7N602JnNCQvHvKVNdwhaiXsSmf7oq8cIVOxtXFOGm8-Ex9HhGJbdOUg5mBIwzJblfUyp2wfr8_MguSsn9ZW-80usZevkBqHkU4cv_7YyTcb9OSqtTigTzbYLUB-RvUtxlw-W9FdaTedyyFLdmElm-EziQxBQ7mXgHQGfQV0BgHwqBdh-ebl2TEwzzlZTf9UxbXmTc1-Cz_q5iBas7Nazcd8fQ4W86fl6fOmDqp_rvEU6sT-Rg4w9QIQkMnN3-3uKI3lguk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104401113124371411782\">laurent M</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLdK_MwmD9gEUhRQdw0RPQeKQRS5YeQRGtTTuvK9Xrdm_56_Esuei-lrscews6szso6mEnZsUNe0aLDDXpdmm2K8ZJ79ziwqnbh8p6P4emKidvqU6r2plHPaS7du0mIBBW7z_4ZrJJHKyBFDw-iV3_G5OPyepj9uvi59rWFYaNOaQktsVfUQfosG8RQ8bkT_cxS8m3bWVEk-sINpZygTvIcQ419Wef9xzEsvMZrTjtY8yCR4EZoKaDCWGbskL45BdszofKaGyXIAmOQ-NpKXIc-m-VZZH4P2ZSHqj_jKmDJ59i1lyPxSweMYklGleHe7gC6FBd4Ppgo2gaKB6f-iH55QlrZsfXI_aoQ5nN00d2fm7DeYETKsBmAuvGnkVeFCM4dbguaxpZcTxg1hBjgs1X6V8E6ODETmlIti7a8vgqdGwA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107900358212101903896\">VAEA SCHWARTZ</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdc1p0sCq-MHgHbBSL8UEGtia1gr82OytXabg5OJKIM4fTm-99BxwFAhuychivoN3M8lcjdv5mZGuShE37ASdQG1ePQiaZe-DzUQyNLVDAlPivDTHtsrph8WMpkEMyZf4F5ULNFSANuyrUfha6hUlxXmz-2WoDnniPQlAgqARg6HFCotchQ4Vn9UxFhbiraPrzLsYaUovq4-5A7Thtyq1OdF8p6Tu03Fbv64Zcs-dEqVw5hibzDJkO1nl46iVO9RbKKOCVgBUJ8Y5eVHfBCzqCdmjM9gjZji1R0TRxnXhHW3iBoHLsEWmmH-NCbPVAOP47XSx-ch1D-BkCLe4kbWAxABM-voYU7lyUbYGAOJLXfzrGp3TltKWMtsnaqPi7S7w6ujEYhhSQFw9oZnjubjEFuiVJEq4k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104693002628462677616\">Florence Patou-Cazier</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLerhbySPQujrwzbeyIWSdCuaqxWmk9QJpTNzF-rd61oIMKCpJKCSIHHxxZEdcpNSfdbFEBlVN3xjd4bmeYdN_9wDEtpt9MJSfsw5qwTf4NFe3hpANKw_EpQwEw3wlOfEBU24cEyKWaWAu0zEnH3s9UOwCa9ECp6oeP_vqX0i0_LiEhRKSl4Zq7D8zzrIRHNMZdZItUfG4G0llT-gxk4dN_AOClk8DGMMqJYDO5LJNg6um3aFIinN2ZuL50qgzfxyUZqwq2NWDZVgcTiRur42Df2sOSniqCFXBz17xJ7GtVpkRB5hONw-vkD2iGRTTz60s4m9J7NEEwENkqR3Ai7aCnIA8c5BYXhYMnRAOEfVL5TsaG2zbc-vOKZRNKXDatlQvgYSZo1oORR-AohCXEAnepkP8fvrjHh44bqelFshO0rrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107900358212101903896\">VAEA SCHWARTZ</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc31mEOVtgj9OOi63qfUywzunZaiIL5AOWdymhy-79uxpNwvtrwO9YmiWerQ11Wc6u_x3RjQ9vHRfpceF630pjfHbA9DwhhWeyMP-kaIfFrvFvi34x62uTBK2Y6OmxJ4dqradDVUnhngjWy8IEQmM_C2X3-8nIKK6rcKfRSsODRs2PVu4aKBxkV0ysR280-ITrCLrQnSOAsxZrYrXoPpc92CZszTSskp04dXwgEoEuXBtZr_B9gbRkRrjnKPndNuZN7tWdEEtS52BHGuDluhCH4eAXNo4rNF_SYnvsPddrZnQali4C6KcGlvAiJvMNWeUDfPczwyBtftICxPStPPrTyeiKEmCO9KzdQSJoMTw-2LF5Orbn7h9e6dMG1_hJ7fkJ1zDVWaAiaIEg8WVHdEaBGpqs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111927443451999914634\">Emmanuelle GRAUX</a>"
+            ]
+          },
+          {
+            "width": 3056,
+            "height": 4064,
+            "photo_reference": "AV-0GLceT-ETapu-QB5MbvU-MrIXwxJOuZ3An62dmh_qs8a8soAR26g7JKfEeZHuW5yWFu_f-KoWp5LrHAIB2FzoTDPUad0v_-92w0oB8_Z1oM8BPzkA5T6Pqij5G1UK_l1S9ijj2XNTtvBlZhxrZlF0uduNlS9RSnu2LB4i0sm_Jq5mUDrNh2qAMLNggDioM5M9s3XCtBd6NsJJTAtYBuFVFgdOcQ0UCbkzvqNsG9P_Af3fRvrxErt58FLViy4kFY1l9R4uqoNkLaex86VfhtgobzXzFTXtgVRVpylAOewRAVRgCJbM9WN5C-JPTQnHQ5bUy-kL9EafD_9sr0UIrvtFzTXXGoVEKAOxHqWm2Z1sx9TeYDWa6qGs28dHetPMJVaDTLfGTW_uM1O1mS8kUBGEPcAVI0h7jt-BkSwWfFUnft5cCg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115777912413554274029\">Aymeric Mouflard</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeKobJjTwejda82OpNjs80Est1IzB0zjh7qU5NjR3TVODVsin8g6XdfOXSuGZZK8qpX7HdEVnELQSQKxm8bdByATVoEi3k0GAAvBpRJKnvY5PvZUpC8zKRS7dJHaHfKuylqczTIJOIwYwnpeOUjxLHBsPjwrU-WN9krdm0t5_1vCBLkc3wPaJFMTQfqyQPMX8yskM2VdNwjg2KZJbDYLQYxT728CfIHo7dlNoizsWk2LXXol3ca5eos_FOir32x19u6yCIGxmWoIId7b5Se24Cl071W3j20J1kWgvUHT_JylGFxY5uL6MynxrJCbvOJH3H_4cvZP-nJnWJDv613D2McYpNH9t2hDpUaIZC6IONJI0nNZShLz4gk7PQyW96tCuCZJQpZ2MEJl5M1g6HeMoQ9hhw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112164802986973291783\">Théo Z</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5872
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les services sur place ou à emporter, ni l’accessibilité, l’ambiance ou les moyens de paiement."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 11:00–15:00; jeudi: 11:00–15:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 17:30–23:30; jeudi: 17:30–23:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant Le Leu Pindu, au 1 Rue du Général de Gaulle à La Neuville. Les horaires indiqués comprennent des créneaux le midi et en soirée du mercredi au vendredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-leu-pindu",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5872,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "eb5b3f294abb12496f0fb2c76d88a46156efa72c12e236789a39b97d143f004e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

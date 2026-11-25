@@ -1,0 +1,83 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:40:11.852409",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 37,
+      "title": "Entre 2 beffrois en vélo-taxi",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/visites-insolites/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "minimal_age": null,
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "velo",
+            "ville"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [],
+          "age_category_ids": [],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Visites insolites Office de Tourisme de Lille"
+              },
+              {
+                "string_id": "bien-par-beau-temps",
+                "confidence": 0.8,
+                "evidence": "profiter du grand air et profiter du paysage sous un nouvel angle"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/11/thumbs/photo-FLAMENT-Anne-Sophie-Comite-Regional-du-Tourisme-Hauts-de-France-0421-min-1920x960-crop-1700056591.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 37,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 78,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:40:17.871459"
+}

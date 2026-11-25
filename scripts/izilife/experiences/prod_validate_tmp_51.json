@@ -1,0 +1,234 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:04.059672",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 51,
+      "title": "Visite guidée de Lille avec dégustations de bières",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://www.funbooker.com/fr/annonce/visite-guidee-de-lille-avec-degustations-de-biere/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "biere",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "biere",
+            "visiter"
+          ],
+          "occasion_string_ids": [
+            "evjf",
+            "evjg"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Cette visite insolite en compagnie d’un guide-biérologue passionné vous conduira dans les meilleurs spots du Vieux Lille."
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Une balade zythologique qui vous conduira de bars spécialisés en micro-brasseries."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "minimal_age\":\"18\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Jusqu'à 15 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "minimal_age\":\"18\""
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Superbe activité dans cette si belle ville ! Je recommande !"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Superbe activité dans cette si belle ville ! Je recommande !"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique d'accessibilité handicap."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "En extérieur & intérieur"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "planche à partager incluse"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "dégustations de bières"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "dégustations de bières"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Superbe activité dans cette si belle ville ! Je recommande !"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Les deux premiers établissements étaient très intéressants et chaleureux."
+              }
+            ]
+          },
+          "primary_image_url": "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/agzgq7a1nyt8zdakfe04",
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 51,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 92,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:13.499492"
+}

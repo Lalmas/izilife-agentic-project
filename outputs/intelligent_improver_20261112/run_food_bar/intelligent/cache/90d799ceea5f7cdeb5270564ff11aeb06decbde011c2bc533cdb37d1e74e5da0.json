@@ -1,0 +1,79 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« bistrot flamand chaleureux »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Cuisine traditionnelle, régionale et à la bière »"
+      },
+      {
+        "string_id": "midi",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Horaires indiqués de 12:00 à 14:00 plusieurs jours."
+      },
+      {
+        "string_id": "soiree",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Horaires indiqués de 19:00 à 22:00 plusieurs jours."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Cuisine traditionnelle, régionale et à la bière »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« bistrot flamand chaleureux »"
+        },
+        {
+          "string_id": "rustique",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« décor rustique »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 plusieurs jours."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 19:00 à 22:00 plusieurs jours."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bistrot flamand chaleureux au décor rustique, proposant une cuisine traditionnelle et régionale à la bière. Horaires renseignés pour le déjeuner et certains soirs."
+  },
+  "meta": {
+    "cache_key": "90d799ceea5f7cdeb5270564ff11aeb06decbde011c2bc533cdb37d1e74e5da0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

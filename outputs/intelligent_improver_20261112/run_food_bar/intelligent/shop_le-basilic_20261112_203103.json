@@ -1,0 +1,594 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:31:03",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-basilic",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-basilic",
+    "status": "found",
+    "data": {
+      "id": "4315",
+      "name": "Le Basilic",
+      "shop_string_id": "le-basilic",
+      "unique_id": "1cb6fb898d8e94f75a0d467207fc7c20",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "43360",
+      "principal_cover": "43360",
+      "qr_code": null,
+      "phone_number": "+33986276691",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "229 Rue des Postes",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.051796",
+      "latitude": "50.6202504",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-08-16 19:17:59",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-08-16 19:17:59",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJl7d6oZ_VwkcR8Cl49HQhRB8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 4315,
+      "scope_type": "SHOP",
+      "scope_ref": "le-basilic",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "le-basilic"
+    },
+    "counts": {
+      "media": 11,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "43360",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0c7f14c8.jpg",
+            "sha1_hash": "37e530dad5df7b1e509117fcbd25d7f4e87d8ff4",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43361",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0c8c6bbb.jpg",
+            "sha1_hash": "baed743e7234c7dc3c36fc825924c34b61b885d2",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43362",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0c93d074.jpg",
+            "sha1_hash": "01f10f0410046f92c7fdd98fa1a10b51c9fd9dbf",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43363",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0c9afb63.jpg",
+            "sha1_hash": "fae6c331ff7dca718df77fedbc2e1159308b5126",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43364",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0ca2dbeb.jpg",
+            "sha1_hash": "b874a035f1d85a01de84c4e9d0d016f38d2d39c4",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43365",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0caac93e.jpg",
+            "sha1_hash": "28bf4dfb410e6d9ffdb942db619664dc57dba6c5",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43366",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0cb16c77.jpg",
+            "sha1_hash": "3d0408c7a5ded63c048395892bf8e746448c9e3a",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43367",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0cb88c87.jpg",
+            "sha1_hash": "3423e59dd48c711380e60123d4cbd0760d9fda1a",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43368",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0cca58ce.jpg",
+            "sha1_hash": "f73149a75a441302ce14fcb1440d381cf808b467",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "43369",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4315_6a81f0cd1ef43.jpg",
+            "sha1_hash": "c6d864fb9fc64fdb9d54f6d0c6848dc0645d62aa",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 11,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3164",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "22135",
+            "source_hourly_id": "3164",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22136",
+            "source_hourly_id": "3164",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22137",
+            "source_hourly_id": "3164",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22138",
+            "source_hourly_id": "3164",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22139",
+            "source_hourly_id": "3164",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22140",
+            "source_hourly_id": "3164",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "22141",
+            "source_hourly_id": "3164",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-basilic",
+      "google_place_id": "ChIJl7d6oZ_VwkcR8Cl49HQhRB8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 23:00",
+          "mardi: 12:00 – 23:00",
+          "mercredi: 12:00 – 23:00",
+          "jeudi: 12:00 – 23:00",
+          "vendredi: 12:00 – 23:00",
+          "samedi: 12:00 – 23:00",
+          "dimanche: 11:30 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AWCwydgs9WFezSIy-71SEALe-N0eaTXIhNhVWxgRWuOQG5IWR597M9cVD1zOTrv7mRfKVjU8Vc7vpZQzSVVaEW3fZ1OzZpyghejKVA-gDfVMZv40dGIG59QlzthNhTrYJZXNiDaOjseicRnGazx6nsy6ZaquGTSEtabezxGSh2NmWzScXOmpJjQBBsu0Np3o4arIR0lJ6dmJaBFSv6Icz4UjV4Zbl-V5NxBWdS-EiylksUvSgRUlCIXr01ET8yMoKN5y26XngN-0tMsbP22jQT6rq_zzSrCAkHawx3dhUw5UiJ2OMrdyqIOdNjyhuUIbiHY8_RqbI_ZRVoC_qhFNRGTprB89I9IRUjFMpnvovQIgQA4MI90xSKg5fU-FLd_9mB73E-JUC_-AjmXbBqcudCemBEy42Py-JRtBXQAQPB_8ckUberBp",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118333836910598953232\">1j Oualhadi</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 646,
+            "photo_reference": "AWCwydgEg3Wiag68k6xLrfxKna2tMyyA144uMXJGbci8Un_QXcduzdQ1IArh95nwTC_7PyHPOiALdrL-nlZDIYGc4LBenbwme-6X-S_ZQWg9E9PjQNaKxyUTX23NDV7IHD_S5CIC-6XOfbZ4hX56D33x8nu188u4kK2GseMdTzI4bXxmYJbeVJZXdvVCxDu_YyehyWi5KkL3ruggK2LPNPDOKx1jHmfLTv0Dya8aekZxlqzep9J0sOzJPB_DuBv3Sgxc6I3MZBgZAwilgw3oJQN81TEjM32LWVT3-2QZYJug5gI7GzDvoX-Pxamk8_5DG6wXkNtTsfEs6hoe5k7gYPHXI9kPwdC_-u2Pdgi_3c7AQUPd4_eBamS5ljyPXxwWK6hsDHl01CNLAIfspuouLkd0qaDTv92ZUoLClDjSIwNBoE82OvyE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AWCwydimwrKjuLJyuAZ2FrwILh8WdR9ZeN_r1VskkGKJaV2mirth87VAIWEliCQr83Oyu9m6bKygZtElykqBCIvFGPO47f0EuIb8HTPDaZjC4tFqO6BeWpw2II-pAX5iywvKJ4LgS70vBztlf1_Yli5ZI3LbbJJ4gM5VedrpzrPu7q3rQUEGCAwCEnmErbG911RQHFMaqQBr2vglnTIBhSGe6CLqQxLMsbMDeaUw36hdfzgMAHI1ZKy6v8eBysMU5dEaGFS5jF1jtJgPQxL7A80_lh86TXPvzDyjbSd8HIyh1pjn6jqwTJKuJ_DnGoD3YPaKNmb0ioftY121i44mxZnURdt7GAxRG6as0Gzy9VOhco9tdiy05BEmF9_NI4RVY2ra0sxdfYPCI41PB1mcLNpIKIrjmNwC75kmNCYCUtraMYggDFul",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118293061218387312612\">Laurent LEMOS</a>"
+            ]
+          },
+          {
+            "width": 746,
+            "height": 557,
+            "photo_reference": "AWCwydic59soiw_4dCGBZgYWXf_8sp5iiiVShHDA91hsKQ3nNWRqq2Lm1yIBIxdxnfWZy_sRs0isqrz553iSJdQwnGOYe4l-YdT25wYhfIGSG5NN3-Fcx5I8700bKAgkTk5-7-Nar3X6nNtuREL-DOYhZIP9VYaO71ucB6BlQQ-83mh5pbLxwpgegZL71Nx_LE-ceEU1InipcZt7_2czgzf6HndKXDyVVklOBjoaTKz7DxI3ZFieGvIedur-fG7ITums4PozpGRybfZ32iBIetnvXUG2AAEX5NIQWA5HmszAjcY7bw7Ox75WXN-YjdQlcS3mLcI-ztssqdytF4Dg275S2A8VJJRUzmY57GtVDNd6cBOWwH_rSQIzcACBXQ6HPC81OWZCwK0ktRY1X47JHHwjV4GAqHeA7_D0RKK0seWjr7KaGXQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 1848,
+            "height": 4000,
+            "photo_reference": "AWCwydigyCTMSbFGq_rSSqbWi4R9V7aMiSR2WG5Bob2k-ETrpQCRqcO6qBeTkrmkuxaYU4K8gt-npDEt4AXp75HphBM_jxYUsCpEfnvr3nZWfAwQIa6LW-SSl7g-7etNYc0JaFEAVgSmw0Twg74HPdr0LGwbtiIcjs5-ilUgRl7grsFG5MKEwTDdM-EoovfYc65_0h7hE7RcAXD572Gdxwxm0kDF-zB0focZRf6yIHhHaiRNm-tnkkkerJLO9j-8f-Zy2CNmRoI1UQV9KOLtDRIZi94jNY_MSlYrB-MQ99AdkjLqysoEszw3cCG1fLZQsyT7T3wZi1kEJbK1f2a5IytNoGEvU7lR415UsAktjSCdralQaHzSxfnU_OnPP3oVRqWMvzgp6kAhjE9b8rYng0NnlZx1zwKQRq5LfqBkidbYmngvZr2A9LA5k8IfvWt6cYhB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102139541431490885960\">Perso Personne</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AWCwydhx7SyKDwYMMwQHP7zD_gYW8qiv5VzQWNdIFF8OTxpeM-G4Q16tqcHEtO3RsXEBhwfm1WL36v-Ch0pHJI-MnMLxsAKB4BpFEfijRRpsF-J8ZdhAreOCenHHDaCsIJ-8kMh2L8w7nZNgocPZnzk_wWpp6DBHXTXwk6vrXYzDcLS5F5su4TBAyVRgV77xfyr3GjEc6X_uPurNmiokniWUO0IMjtgCihr2syZgdxRZCymOvfRjXe7IYjdPIEOB2cFbVoYrcOu0P2bmQr9nyHzsDrSiCYVdgM_cp1AI-SYA6hAf9LDX_QdG_xISTcKY0sbO_bl9sNVdCqeylRUXIMzF8OxT15jtVLwsYqrip0HeWy4fbhx0AZ64NOndWtxxwZxvotDcNuna5yE5eUEjnfxKsA9BekiQz6nKZN2MY78J3BLXIvI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AWCwydjVq-E_QaWIgi9klG8nnLyxnKOaBlcd2x0fizcdukxDq1uQK7RGEHe_Dajsq7CDF9Ct0ibnb3juIgj9CUHTcCT6tCpvVIdlKmLKDsz_KVmHdM9XK1q3a2b79PQtFol6IUmMENlEqbZwxOCS42qhuPBmdhOy0avmokWwD8VI1w5d56EE2IgXaJlOakziwnpKs6s5Tq2sj64UNnp3UC3tq4z-eEB9Xp3cT7hKAP9QnxndfWM4Hru5imY4T8OAXfh6QuGn7m22j7rpV8_cKkEV_6UxepgzY1XCd1oyUfZERReVE0FBaWsWplMslcdwiUhcZMiqKXaS_IyqSUWHx5fJBgqVfqM1Yff7qwGyOg56QqdVesnPJG3yHGO_puUmp_Ly1-i__Kc3YaI2vL_dKbAZEUNUul5XHGVIGHbyskBz4AlFD70",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 749,
+            "height": 551,
+            "photo_reference": "AWCwydjXQTSct94Akkf5A70EOWgqOuhWZfackzWlOWH1JfsrSYaZ5rDshpWzDmv28pZHlME_ynRPTxQHtGUE8V4J983sjDv5WBYTVVYRb-peASytqS2hugMEVN_GP6lRNcWqecOE6YU8sZhfFvwp7MpEjTrFY96Sqc37atKN_QZ7ollu_ab6teekk6ZDJKUHyUWVFhmQ1h_VcZqjDfjzXyHvd7n6gslTkP6KHa3jT9sYPoFeL6Waw6Of7TGXvDlxaSFuakcVWpeVrfjqhZmXA1xg7EeGkfXFfWubuNqyUUSTqGc4SOIdR3U9N0pmtV3I0Rh4kLCDrZdmVHmPU0x319NRsXKHlhBd67SrM6Fo9_7ZShxXqyoJD2DyQhbxR2-CxQqEDFAgveogBvQAFcwPVKSORwJh7pUXOqvzjoYjxGsIarKf2w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 960,
+            "photo_reference": "AWCwydiO_f5f0I14Yqq32bGA57WI1VueqYTz3-kUPEU4x3EDIiYo15l_Ww__VAKsqVd1V-V5BYvie-zivL7U1v2oO3i5pMZCJ-MPVVjRaVIBDpUFKDxb8XtrVLS-M9wcnCeVM3yPnzgudh6ytpPi0MYn5wzmy323uwsWs7BhXSF5TJ4QAKLlWRQ2nnvlftyLgAu-IaPTypI95onRirGGSpbe7Rz98v_EA-tt2KVnZuH9TszTgh1NkzFxRFOA0AokQ9BzhwQau0_nR9HuZygiHj4MpfnUnk9FVFHNU-KS_UwYvHX0jlxjOWygNFHShpdwrMSOrFwdCnmBR0KyEGr-fMLHCZjiOcpzDHGt17Eg5JKBvM-6PQU7-KPcfxAStWj2PZYlqs0cvFShlt9e4PHv9sRBoIejBvoNT9g29qn2HJfxXHYtZns",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113879069979801554435\">Karim Taubira</a>"
+            ]
+          },
+          {
+            "width": 1848,
+            "height": 4000,
+            "photo_reference": "AWCwydhNRuIe8a9IAXanW657GRSD2GnJdml7goRdECzrYn7tQkFqD1bRDNwtFjJ2MevKNq-P0T2Z-W57pj8B1kdnl6KOPlD4UOnqtfJ13MUlxBlilw4lttLMNFsvLogD-DPxIDbUB_7XLg7AVFoP-7Fgwe4RQlMBomSOFNDzJNC0noD6WKeZdexQAU97i-9qhGvOVNgPWqDU4oFMPpRJZHYL8dHuF0NN_g70gzxkZMYl5GoQ4BrEaK4kH09beYSA_ZsrVSOMJSZ8ctUl9QVpWQGhqpewFRgYob1d4-S2Dl7hajENvToEhhQ1iy7cbvAfncB3hu3X9aeR62vepmlo0dzTCAp_pENPRxL-y5VsP5ExXWIFhv87hydpkf4r9-vvTQsg96kEDViEqfG_G6F3kGgc9hq4ERkbtumypZZs2006efYEwfRBXApw3eQWe13mfGvo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102139541431490885960\">Perso Personne</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 4315
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas la cuisine, les services, les équipements ni l’accessibilité."
+    ],
+    "rejected": [],
+    "summary": "Le Basilic est référencé comme restaurant au 229 Rue des Postes, à Lille. Les horaires fournis indiquent une ouverture tous les jours, de midi à 23 h, sauf le dimanche à partir de 11 h 30."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-basilic",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 4315,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "b005c161c5df77013da07756950d8f85df98e54f14f779f1a818ea08fe07cf61",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

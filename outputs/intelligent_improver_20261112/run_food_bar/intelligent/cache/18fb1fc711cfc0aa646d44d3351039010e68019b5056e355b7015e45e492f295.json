@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 14:00, 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas le menu, les services, l’accessibilité, les équipements, les moyens de paiement ni les publics accueillis."
+    ],
+    "summary": "Restaurant à Carvin, ouvert sur des créneaux de déjeuner en semaine et de dîner le vendredi et le samedi."
+  },
+  "meta": {
+    "cache_key": "18fb1fc711cfc0aa646d44d3351039010e68019b5056e355b7015e45e492f295",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

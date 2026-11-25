@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2619,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "La catégorie existante stand-up est conservée : la description annonce un spectacle humoristique solo, sans preuve suffisante pour le reclasser en one-man-show ou comedy-club.",
+      "La catégorie stand-up est associée à l’APC stand-up-et-one-man-show dans le catalogue."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre et la description ne nomment pas explicitement la forme stand-up ; la classification existante la décrit ainsi."
+      }
+    ]
+  }
+}

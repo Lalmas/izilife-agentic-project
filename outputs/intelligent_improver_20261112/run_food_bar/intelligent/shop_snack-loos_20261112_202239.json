@@ -1,0 +1,531 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:22:39",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "snack-loos",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "snack-loos",
+    "status": "found",
+    "data": {
+      "id": "5781",
+      "name": "Snack Loos",
+      "shop_string_id": "snack-loos",
+      "unique_id": "f9b36775f071d3af6addc8ee1292bcb8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55035",
+      "principal_cover": "55035",
+      "qr_code": null,
+      "phone_number": "+33952671463",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Place du Gén de Gaulle",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0083856",
+      "latitude": "50.6063623",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:49:43",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:49:43",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJd3F1xZ3VwkcRNJr7BHeoD9M",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5781,
+      "scope_type": "SHOP",
+      "scope_ref": "snack-loos",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "snack-loos"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55035",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5781_6af39f87569d2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4839",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33608",
+            "source_hourly_id": "4839",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33609",
+            "source_hourly_id": "4839",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33610",
+            "source_hourly_id": "4839",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33611",
+            "source_hourly_id": "4839",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33612",
+            "source_hourly_id": "4839",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33613",
+            "source_hourly_id": "4839",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33614",
+            "source_hourly_id": "4839",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "snack-loos",
+      "google_place_id": "ChIJd3F1xZ3VwkcRNJr7BHeoD9M",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 14:00, 18:00 – 21:30",
+          "mardi: 11:00 – 14:00, 18:00 – 21:30",
+          "mercredi: 11:00 – 14:00, 18:00 – 21:30",
+          "jeudi: 11:00 – 14:00, 18:00 – 21:30",
+          "vendredi: 11:00 – 13:45, 18:00 – 21:30",
+          "samedi: 11:00 – 14:00, 18:00 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1588,
+            "height": 900,
+            "photo_reference": "AV-0GLdgcyJwBfgV5BXeZeafZh1HVQvrjfVe0J072nrmu5o2MJB4PSwKtmGGbK_jqWEc0JUHO6wM_64cgx8aJ53624Fwrxet5nYTdcdDisoigaaKY8Q9Onlq2VVaSFI__blDglVtk3lVfacra22xUbiIF87D_tAULj3x6WBhlxu5-c6qYgN4P3g0bWPxcmNf2grqBjLUBcuBPVspH-6V251VQ1ZRWMOiUAEnlLCOXdkGr2aa_gHba4xTxuj2Tx8inpo2OaokgODg8qItZ3b4AtvJgaCevSM8KgR3YhomMDk8ukLo6_Jd2k-JdXq5fBPpEFFq_AO-xA4AMBzspH0P-wJ_fPhe3ypdRDCwEFEtKl_8cQcQIDi2GvQXhRL-QMFRU-p03Nm1EOfIkX1lrsJ-tBRQzbEl-Aqm6QY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 895,
+            "height": 609,
+            "photo_reference": "AV-0GLdn70qm91m3CVoqV7-Fw43pKa6TXNUx1YzZtDlqJrG0ieHfBfoAN5DD6lAxOu_5l4Aar9JqeddRXIdR2zAAtquQvi-CUNgzkDxdH5e_rwH_V_TUSdjbQkBikJV8eo5OSEMp_THd-DaBeLrZIpQ0nJv6WpBn5fXcyGCtT33qjQMh0zKGZ0NcDCjReaegGeOsb1o3EF2thfadNgT3oKd1Bu299ClVD0b7Fj0nO11aD9TABmrRFA39SbpaZEWidX0AvK_5Yy1MaSvXwy2TaqzPnM80PdziISmiqazskpOlJ_ECO5JLWvCNEYRAScgJvXy7zRM-JvCpQ_Pk2Z0STNfCE9mX1a4L-FKhaGWYWNDs32zaHCT-Of2ZlktuASWLvklsmmv7MePQgpLBp3ueo6OQ288RMnFlTnI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLenoKPcj4FLPZzUDoyWZx1G6hkKjl-LUPep0r-iKcOb4JuAeOsukcJvynq8TT5mu1ElQAucPR6gGUKQTEunr3PQbbk6xmz9T7H7KzMI9kOqqQE6j0imtIpIyv_AgGRZnizj8EisXELSIZgP4tVZCwMQo0BBYoP2rGwQHj3MC2NkMRMIl4rHO0c6NiQjeRxfKjM86sxVDH47R_zPjbImsuc0I6ZdOxs5-ctsr8pUqORkL2cO0xfxHIJZb_ZzBk0kWFuuojJLm-O0_Fc5FNnYPUs0LC-xCwWf_JGJoVta_Scy4CWCzQStXutyIzfSEDxqhdYztjuIvBfQipZo4t2GBTSdgJ7tBuGi_pFKX5tYceJSVky3hburOOJGA1a5GIeOkPRS3U6VEPHwpsF1IiM6Lp_riyi5des",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1004,
+            "height": 1521,
+            "photo_reference": "AV-0GLeoFnYD0GNZopor6nnDQPgFHOn8H4xMM8PPijwpn0cP0PzXaak7LwqKnzJnYMVQ7YQynG9qKByIvn-XcKlyrGhCQbdcg-To9-Fn7gGs7x_rI5oZSOYyA37O7DE7g5mEmWuV57O9KjISOuBlGQoBQQWv_nrC6HQ8Zk49-zlnSMY9LjajfxrpGY8rEkXmzV-iMm7CZiFzqVZeb0Ap68FDCivW3Et9a75yJtCgY-NRcuhKhFRAknGo4QzpSEYFhuvw9XaK-Arfe9OIupVcCG00Vhr567c6-g4PGvWcnwkMntXe1W-Ce8BYdgzloDEg7IW5HCQrxktYm0WaNsGD8RZ3xEJAev5eXmGl8rjVyZcDIVrj8wGzbm6SGaAlx04ibq71vL-WFgYMsbXBsVsTSAjA3vX8BHc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1075,
+            "height": 1424,
+            "photo_reference": "AV-0GLcgSqcF-MEeBbJRjxiNr2RxpXJFFiI_44MaWxyC4U2pX2nF65iHYj-xPoRCJTuNGaOg3NaN36PutLgGL3oyfNsp699Ykij1eoUfnlyWKOawI1oByxzXB1_8Xz3XlnjsRYzR_OEonXZKv91gBBUTtM_w7I1xQX95fmGbuDfwhrQWGmyfQm7c7URSJ7laPRaSBoPKW37i8KUHA7F-9DkZ1U7IYD5wjI9tiQhXr6UZkusQqSzj2DY8mFshcy8aHlftngsoN2StgfXGWzf_0H2O7eHQj4ZbzV_Sibp_f_FJ3P2VXos-Hhs-EFcMOKbgX6lc9910UpZrbSTgOrVRFX-xNZ76W-I-HF9HNHD9V0fRt6TvAe0INt8yi_rgh7e55HvQFze_1QngaV2YHNqX-jyTf_PyCnB5",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 807,
+            "photo_reference": "AV-0GLfG6sz6IBS_TZOANO-3ly_Iurp7shHZaSdzcR56lyqIvXz_3w_ds8_uE4X1YvM2yZ1r08eBlOpuqebm-YMV0nAAbU4mTBp7rWleRBIPAwYMKVFbaP27LXKfTwM4-ok9eLtqcgDhOahm20RWYyQxaGiAnQwfGbcTBYL8hdpYkNafHtLvRREjX1WZh2I0-9tjX1IcHstTBaotnH53L3_VMVffGFccMJoF9GKQWoFAI-XSOlyoBNtj_i9bGq5QgW0T8uKC50AwGPxqHHLMoZ2206OdQ8q9_CzIitUlbzIRJyOYDrDjfJ3OmMJcJM4862QP5xJ0PKW0uW_SQjTRgPYn_Do5-I10hyiDxCKP6R4VeU9RgeZLhjlL-CPaZCAJcrht0-ANFyUy8BAi1RKjmxSV7v-V6sJC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 2055,
+            "photo_reference": "AV-0GLeHno6Co4mox8Ne9FAfI20zhBDd-Ybu3yyccWJX1QLnA361w6dzxwTRcLmJ3YhgR4458wUR2meiP7I0ZpPxSIBioU_bNuzJNLNJzWvY8-rZG2r9Sxv6KOQKb96qE39VDbFQ-SmLHn_FcmZDQjvl8yaK636x7cr-gSEE7iABOpAKELJSy_WBq8ZVSSTTLWTs5JO8VOfjwXsOV3iKB6EhGpxjCAjw6PDru6MIeUCDweBL08obZzBl4I64z8IyDOnUjwyLenH-jYoJxXnu7XJHPsEq7ocmZjO5xDZ0Za1B0GCrJTvkHfw1EujAXubuG0d3bDW79NmCMTUAecI_dCKtnV78btvYBNG-BFNivaLeUBdKC4Kf35pLkRSBMCU7bWcbPDr4FRikwpvCPuyDETHxURPweA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1009,
+            "height": 1920,
+            "photo_reference": "AV-0GLdi-MJ58E0-r3iAMGI6j6CZk2zk68-nlpAC2GDxu6aXLG4RWzSeTUwyOs-oSwTLlP9OA2Y11itD4oDPaNVSVS4iR0GJN_IiN2axCBbNcBwwqlQeIewQx2KtC1JfrF65SoE2b3X9vVpRcy-wTE-mRyXNyLS5vIVvHjziWlwI1_62xY-jwmWRH1TuBMOppyQMVxYbAo-zMHhfY1Kdj92g3aRgPHiH6Gp_NOwdqUcUev06ICbZr66An3k1T6ZBB4qtl2kk9FiRMKUYbGH8oYBJhTfuc1QPZQc0UdStwJM2KV69ZigTFkUaTbkg08WyZ5TnPUUOlRgkJisORLhufcILWRa6FjeHOrc19Ij5ZLKpqG1jAe4SM6YV4RnbHI0I4Hno5d1SsdB6LKw4AU2tjQNIEIKS1MT31P4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 1024,
+            "height": 1536,
+            "photo_reference": "AV-0GLdFqTLudBwGnvpQLGLztmLY4DhHn6ZlPcwUszoEugpqCEmoKycrLF8XeR9LNT89G4NwsAKZi5Qf2bKEH3Dh5tzKioDsCE7X0UHWDIOFKbBMpTKgzzNktHlpaXymtldnZUHc-uIyugtOLhbhri0XZDvFBjnpO5w2dxmgwZ_cYgFJsXYA1bBh38bRIkuJ00PUxWJvd4NwhtWchERFF-BB2bCEfd_1Jbm6zFSDswSuGaqpGxuH8K_CtXUQZCDymzjHQgBO7Ln3tHA8ISPx5dHbBvU7nWMn8VRwnJtGR1sbwL41TDqk4E4WSBgKj0NXNTQBc5k6QkwXjiv0exgxrnI1ZoTzKFolabqUvDu1U6ZLzV8JSJ_gEGGMMtW_gmLSn6dtuTWQ7m8RsSIEKxrjVburbDtmzt7f0PLbUmRhkKcJjVQr",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          },
+          {
+            "width": 878,
+            "height": 1560,
+            "photo_reference": "AV-0GLf7zuJbfX1T8aeFElIP9Meind4l8Kgb5M-0rLMS5VLCX7K6M_bAb3hCR0r_0R5YBcCgb0Bi9xilFzbgvL0CrtIeh-mHhWzt7TTIH2cTDqJQj6A8bvOg-shuSPz8vqfGzLreKKsVy8RyJDhhAEFbAP12buZLVNpv9zL-4gocqxyk4b4ZoSxj472xoVT9BSWQheYvAkg7FkMpZAiXkO-bo91liDxmXqSJ2oiLrsqmEGKoWJJ_AIER_tyi2ZP8D_37tnK3hNbwLdszSOinb6ubNSwdA_UNQURyoozVwo6BjELwfVeL8EwAYNnPTSiEEKwbUs1Zz3j-Rqc6UIJaO7FQZHWoUnEbFm7FB2R7tjGvwOpn1lt4d0P5L2Sl_KnMwhI6CXHKd_Wk6wy7p_itDED9b5_VOTDMn6x-L3H1aHkkAlLBcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106077565529294672268\">Snack Loos</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5781
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « friterie » ; nom : « Snack Loos »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 11:00 – 14:00 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 18:00 – 21:30 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 11:00 – 14:00 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 18:00 – 21:30 »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Loos, ouverte le midi et en soirée selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "snack-loos",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5781,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0635124e0117e1e08ce9c42b996af7d579525b0112ee7179e34e068e256dc064",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

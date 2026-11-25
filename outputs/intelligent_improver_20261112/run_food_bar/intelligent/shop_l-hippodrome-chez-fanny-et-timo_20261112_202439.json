@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:39",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-hippodrome-chez-fanny-et-timo",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-hippodrome-chez-fanny-et-timo",
+    "status": "found",
+    "data": {
+      "id": "5796",
+      "name": "L'Hippodrome chez fanny et timo",
+      "shop_string_id": "l-hippodrome-chez-fanny-et-timo",
+      "unique_id": "8fda3c183ea629d432acd80f167187eb",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55050",
+      "principal_cover": "55050",
+      "qr_code": null,
+      "phone_number": "+33321740432",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "107 Rue de Meurchin",
+      "additional_address": null,
+      "zip_code": "62410",
+      "city_id": "1534",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8693908",
+      "latitude": "50.4971111",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:22",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:22",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJgVbEERUu3UcR_yXWYnSPKMw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5796,
+      "scope_type": "SHOP",
+      "scope_ref": "l-hippodrome-chez-fanny-et-timo",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wingles",
+      "string_id": "l-hippodrome-chez-fanny-et-timo"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55050",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5796_6af39fead461d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4854",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33713",
+            "source_hourly_id": "4854",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33714",
+            "source_hourly_id": "4854",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33715",
+            "source_hourly_id": "4854",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33716",
+            "source_hourly_id": "4854",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33717",
+            "source_hourly_id": "4854",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33718",
+            "source_hourly_id": "4854",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33719",
+            "source_hourly_id": "4854",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-hippodrome-chez-fanny-et-timo",
+      "google_place_id": "ChIJgVbEERUu3UcR_yXWYnSPKMw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 08:30 – 20:00",
+          "mardi: 08:30 – 20:00",
+          "mercredi: Fermé",
+          "jeudi: 08:30 – 20:00",
+          "vendredi: 08:30 – 20:00",
+          "samedi: 08:30 – 20:00",
+          "dimanche: 08:30 – 20:00"
+        ],
+        "photos": [
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLdYiZaQyiogzDqYdW7QYE96eK-8ocMga3v0JumBlbmO8WlEpG7vLfJZbH1KM21IvPIfkrX2LXwcuL1oDVofKuoRAo3HzOmS-XbcGcVE1VjPnT7L7tIJ7Zm_0uoIEDMbxppGAODj_vDBo2YYxBDQXzuftJQhx5maKw2opYXIWs-kItBAKjGhf2csDCU38oM3_5o8XbmsFA7oD_SImxao8tX8pnhqUHatTHO0Fpi1vqQwCiMElR5u3ngkT3pic0N7jOz6WVjLoqZSoez2jIKHJDW0X9DXjOdTRKDkIsp8rwZWNvwo4elMYZHsgB9tHT5CBOs05NJ9q4DFZ1kn7otK9sZx2CA4uTuLRDWC-gRCiQUWs_KtCi8Fu3DqWYq7DF3GmuRdRfbMCAwDT9J4JwaFuU6SwHU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1071,
+            "height": 1418,
+            "photo_reference": "AV-0GLfFESGEi_xTMPNB2V_LEXIJ-iZGDESyCS89KyE5PXgIP6dgzWObRhPNY3ZLnPHmEL3C2nfEi0GZfRM6OlLbgOfjqfro2mazHjvJ7SyWAm3NQGTFxF08f7uZbHBTQTL1LHfTNjqX-Y4Qi1F2ErkK0T4YLtOGNxOYrlw-iZ8MFR1rcOUd9MIP19AwOcwb6-FqdxJR6DB5vOTAUb6Z8s7U8zVhJxd0z8MBRK91egif9VbIzRhZoIxN0C0SfmsXG_WBtyDfkCqcOc09WJu92-5Rs4q1SADGPzVUXfK20E2zP2PemwRiclJKoQeV3yvp_Be2gzDD7Wo6b-GvPAEgbS_YqESqZemu63bfO69SfyHxiXraUj0zKevKLGD4vI81QwkzilaX-5bFyhxk7mN-rYg70qRVWYGCF63HnYwZUUnRhGR75Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLckc9BuLIsGrT-C-w2iZMcOGB3y-dMHKTaetiLB3iKm-m_8D8SaAHD-4iDjmmHCBF2zVzMgbM7RsWEmR-f9zjQ5blANa0EZSWhnIQ4SQCkumo5uGIURQJw7mlgdqCZAhRbf1FMTi5pW_u0uiPouAUS_DdNlrCknRG97MVo4ypiKld7kuuwdPTWo2L7Wey6uXRSbi5mE6lz4Sr1U2KzOpq5vp6f-dzbQvGf22S569o8_xAAWUtqOkWUzRB8pXhftQKarJKnqZwGS7u3bxMhfZmi6DF3ro0KdFfkTFM1M8_38Qy1FiA-gklp2sXPo0FVkcEqYBBhU8c5FaxnsyY1w05rgBN-k9Z4AbDuEWr86k0Z56KQ_DOnpsTGW0HoIe4UaRZhj4LNdz76tNCgweGqr9CDeHjsB_Sq9syXHvFipbls09Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106052644468301616633\">Cath&#39;</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLdfY9MwWBbRjIR2ZJ6BDL_cXGtiSaMNXKxqkx9JoL9IbmXajpP3Kj0QoW-V_XAR5WsBbMTrk_zl8DmhoY0tXcBmhnhBiY0RKdC_ZheOECcMD25R9HFm7CxKVDNmUx644pXoi7a6BeqvNqyWTznrIOsRyJikHdAit2HsA4dL_0gzMEpubJSPiZwkhnLVV194ThoD37bKn_xDbA2UitFtD4tnmbNwSRpzzoQQpCQ64Jm_8Zq1S5_NSRwvxa1ANnOMVwTDuyGEHVktDgNyq5iVghjJkZiZRa0sE89juSMpdhHXdMrtXVRc9HGRkm7ChyaARSBO27uEhtMbqgjIYwzrHDwwJydqZ7YCpvLK8NREq6DWqtvYJtkDf-PpEQG-7TiqJa2ot3pc_HGenGljGthE0k8HzYOz",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfBrLrQOr-cERf-mhtpY24gjQJGAbSFci6_CUcAWaxE1FalnhEYMOAwUaNUbYKQqc4fCed6WMec6qvCG5gp7reeajNaBhvuaR4x15dZEYRNQ317nkCEiAP3AeNTVQgF2K183h7gNlxi1KOqQGjsRVugLf78i1eMjIQSKuEx7vohM694wn0BTKgzNH_9L09mSKtoV8Lgl8kuMnnqz_Jp_JyGYti1sOGjKsQfV09EUKZ3UMYh5HdEsYa2GDiq_GL2Fch9QGlm4ZnHcTz9ja-J_C2QbvvSXuAKb4lOSRzHVmIlJ-01rjKj8_YmOl1qw9wgOyCzeotU-di24YuWWGMkcJ5o0CcTVqoEHKKrj_i5nR3oaVObhVViRcatKliOhpaiW2HPQgeGmpVMZ67x94iMzOZDvfA4o2ijcBD42ZZz8EAoag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLeZVtyhnjIzpdwP8w_oGVhftL-CAWhLXhOKpj_TyVp9uxF2F9GP2Ll2ZzYVZi4vk0FucpRz8WyNvRVdiFeNXktGoKAlcKqB5Lecq2Pci3Olf_aRBzQ6fsSEPjdh4f0dweXRzXdDJVrkUIX9MUtetQ1BgDKeVH83lR710RgS9Ag3KeHvVexxx6t3_FSB0hrHJXctilez2awPkaJfh_JOsuGPz43xJtWM0Iypl7EjYYboCYmJsRTa5k4BmMWTbJzdd3biWeNk0bWtaM7UkWmlA-owByIIG-UGVCyUpfynVy2CP77BFO4G0ZotSzEdg5A8uaOjmR81BWnMv99XW2KIOVDNNC2w3XHC1XrBZJQ4JC3JKF91qHRq0SOhLo-qbw0a-oT5n6rP2FUGmnDOReV4hSn8yIeW6dlS949gRy5_tvLg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLfNIjOHyU6pqcoE_lTLPcRTrGTmXk2c9E3PxiuRPW8NuY0y-vaD1fAlcifvVTxA30CMqDWB2libEJFBO2kuyku_PA4DYysoLcNMf_UrJu3mrNf_GjChDU-CwmkGuVHuQe1FXlD4Yb5OJJteRJWgEvpCG0QRHWQFxkLW21HHwxvoyuu7q8oa7kiyEt56JZgS2eLmTQ4Z3hjPg8BFv-t2z_fFgYm334JKHURR7XXKMSmkR9sFU5-Np-lsGhmIUPYbIjxTbCI3jSY7b1oLRqxNW62OJxzsY47umMXN_5nwASP_oC9CdsIsqON75FqjEO7i-bg8F1e-fW6cur8Qs4pAVsyHE1LmMvm-IjoqixcW7_ZXEhFsscnzXR0BTf5fc6JXwPiY3MpH_EfPKkLXaQXJmqm8JybG",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLeEbDUouEmTa6ygFGPffP0jC8xFtiaF6AgtFZ32geB031Yf6n6DwHfia6qK2XSju4NMPrmqG8COklX_UMlJSd4MwSLvfvnUjvQFtwSipoGv9tejvDC-MpvTrdazXkj8OqIgWvSQYez6rSUYeUmfazAA69oOIkjLDztXFYmUC3jM3GoQC97WA3QP97I0RMX_cO0dxDOe_oi6-wQZsYAufCk7gfUYWh090xh-ugFAwN5nR1Ujkx_fP0iL0ZxhmN0t95x--zwCLhKRBgnY2CMoxEDYZ4SRpNfP6gP-UF1MbD4d_Q3yBBkYhLjJXtIiR9tTrQFWMHeV2UfETEbQnHxj7S7Dh5liTqyzwJ7p1TUqkqNFJakOf6cEVEqhBJfTy5wyqrZy1wDQRdyhV9PqkqytFB85aItLIYE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 598,
+            "photo_reference": "AV-0GLcVwBc_6t4t4vDrJ_hREFgWfPQ3WW-CUh3d0jOnfc0b3cpYkQve0tOSBuUUr0cRMq49ahH_kzKsQUxi09SkXK4Hyxr4pM-Migi-ed3g1jZfqqM20ZV8RMLg_dVRzETQArTINiWkSJSUVZHKnEpnzMPGe_toK_A-Ni-pluWEwNRrjisxd2PLtAY7_tdwMCCz4440-0BYJqvEjkA3LzpyVKxpfJkk99kJdZEcC-ruc4bxJK7EYdtbuYcRgEfcaOtzbJjfgFN5EJber59cTRW170lhTqQa1iaRyHCXitMWz3en5Rwpta5TNN0vEwJGqnFgFYpu3p2q7MZWqLoJNFqvyPOSYHTjmlFUYyRnFRHusQUDLZrPthLXFle-d9-6ngi_kdhH7SnaBRLPiQwY1I9oaoDveYQH",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105981843400593456955\">L&#39;Hippodrome</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLceshUrCLREYts6OKB-gfdPcGExSFvmMhXmnRyoIIjWIgu7iwWioeTIPfkeDTC0eHbS_JPKsEUs-_w_Gs0c3GF9TJVuDsu5uIZxT1MfBZMvwqWCntqXjEfOXuo15Nk8samBeQfK3E3tGm3wVgXsVn4MnnckeyUbJUsN8glNyUnZ5Xp1rmxbwfKqzPirX6NuFkG_BoUigRAVzfaxUsP6lziNN_cwD5wt8cnqbcsqyzcFW7i5dCT4xwNhtAgZWIgrZBsS6KoGKR1K_QYAOJTqFweIO_pOFtqbbMllXlOltRqaZxhVk93fJPFT5R5XIqRoiarDco1MxVl5i223mawiTCfizllt-Idgem03-YguKMh0E142DfB_ndQYPTWg0BPMilopljOAGFHHwL4BuY66y5irOAgZkVbXe6uz8b_ldGd1jA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106052644468301616633\">Cath&#39;</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5796
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Aucun avis disponible dans les données fournies : récupération interrompue pour cause de quota."
+    ],
+    "rejected": [],
+    "summary": "Bar situé au 107 Rue de Meurchin, à Wingles (preuve : « primary_category_ref=bar »). Horaires indiqués : lundi, mardi et jeudi à dimanche, 08:30–20:00 ; fermé le mercredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-hippodrome-chez-fanny-et-timo",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5796,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "caa454c4bb13ee60f972bfa02876067344f5d7ecf6554677183097ed794221b8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

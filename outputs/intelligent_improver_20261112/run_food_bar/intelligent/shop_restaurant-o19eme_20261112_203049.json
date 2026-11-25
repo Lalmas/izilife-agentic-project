@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:49",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-o19eme",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "restaurant-o19eme",
+    "status": "found",
+    "data": {
+      "id": "5846",
+      "name": "Restaurant O19ème",
+      "shop_string_id": "restaurant-o19eme",
+      "unique_id": "4b24da024353a1d18ba5277f225a24a7",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55101",
+      "principal_cover": "55101",
+      "qr_code": null,
+      "phone_number": "+33320926302",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "",
+      "additional_address": null,
+      "zip_code": "59239",
+      "city_id": "597",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0688448",
+      "latitude": "50.4650099",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:59:38",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:59:38",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJoxLue_rNwkcRJP80hyt8LGg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5846,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-o19eme",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "thumeries",
+      "string_id": "restaurant-o19eme"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55101",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5846_6af3a1da53571.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4902",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34049",
+            "source_hourly_id": "4902",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34050",
+            "source_hourly_id": "4902",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34051",
+            "source_hourly_id": "4902",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34052",
+            "source_hourly_id": "4902",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34053",
+            "source_hourly_id": "4902",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34054",
+            "source_hourly_id": "4902",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34055",
+            "source_hourly_id": "4902",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-o19eme",
+      "google_place_id": "ChIJoxLue_rNwkcRJP80hyt8LGg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:00 – 19:00",
+          "mercredi: 10:00 – 19:00",
+          "jeudi: 10:00 – 20:00",
+          "vendredi: 10:00 – 20:00",
+          "samedi: 10:00 – 19:30",
+          "dimanche: 10:00 – 19:30"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLddZTOtRXFR-ISeSycRaZb-CpjrP1Qd5DfOYdLQHo69diKxxl-X4_xyFQS7-cppIbqcea9ZJxVN9aSklNW5k9pdXlLmCEsc_LkDPTy_vIdd3BqCDmZAcThJbnH6TibXrqvOdiO798bXllTUSQTuWa49fKDhjVWE60oaHG2b-p2ZEl1l51VNqjOXQGGddu8sOlFZJejgsVCGfXeTzdA2K1Ed4tNcCgyqtFjnGIRhqUzyofiQIcNNsZjd2tyKaleRSROKqYRmbqwRg60QaFpMDSk6URgy_6xSdxQQsBqUVfcBm6HfQONjyhHWVlK27-SUaE3JRr3PsLMYcNawNTBe4CW12M-BwXnH2KNyO1aIeSRb9h81tL8t6zinruTyznv2_04YxnZ7MePWIqfrnr60QMj7wxc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109504230946454465979\">Cathy Chassany</a>"
+            ]
+          },
+          {
+            "width": 4496,
+            "height": 3000,
+            "photo_reference": "AV-0GLe1yfl8-YZ6_CAb9ajsv_Gn1m5rutyAxaCF8n3Ys_2yCsz3T9oyJZUkL7Rk9I-bAsDJA3mYQaQMaY4n7QArGki4E6ky3eTUzEJccifRcDE3Qwku41zvLq0FR7tEb3NXjR7THhCwYQJP6dZXgiXblejyXHwDQAqiGoJGuJxgzTcV5bRDCBIEGd3QBWl1_BehAD1TiqYI-hKWUjNTLCP12uLsokf4BV60pZl5I-geKD87QMNZgnEOKH2pXYrc626V1fJg1D3rQpD9juUl28KMnwLZgk-duSdNLctk4ih9Z7hnS5-k76VB_AK04r1q5PjNNJNX3uy1WgFvyz9qt5mXY5gX_GROItd7ACZ3hrfeZpkf_GugXXXmN7dsRQSGTyYxN-DRERx5CMJyixJq_-BRg7r1CUmB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117149088501377114089\">Restaurant O19ème</a>"
+            ]
+          },
+          {
+            "width": 2992,
+            "height": 2992,
+            "photo_reference": "AV-0GLe_fA-7vd30cWbM8oSmmi3l1VMZGZMCAuw6Bi_QtfIJ9Bxzgtt1hump-GMjrNLPO2xfhFhLGEuDtnyolRMpoZv7uq90zWPjOMWBd71C8LWr4vooMHziK8IGhYbwQ96w0a0NeQOZR87H3xGpWbo4NW40UrLHeuBmFyZ5l-kicHSkVhpS2McV3WJcFiyL-ITl0KS0cp2OvJhUTyr762ewlhvmTXHOrEmJKc_7_C95OjzKvOoPJKylh0rBKLfTEnT_qH3YdN8JpMGbXQp_jUO-TDkdHckdOW4Qa7QLu0ujq9D_1MhnSDEmEd4qbH9Sx0RylbKNn3TUsJOVfD_jOybXiFjkWUE7hPVq7lnq_lTJ4WfsfIb3sz9RN6bFMY4kMBOaFDZ3_MA0K76CzYqos6H1GAIB7wk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114330004446685178038\">Point Man</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeyRKgFVpYrqgpfSyVtOiLAxATiYQ7x-U2c6waBODOeUtwazo2W2K6tuXbAqYIhnOBG-cOQPoYGMLnDlBiE2t6a3AW0-0Q8mbi5y1q_kKkvGnfKrqDeWUuA7RLSujWUhCjDDjWCsNNS4hkpyCFjIuh3RqWHQQbiHFGjy-2ZflVLVpwm1JxVi64bQFlb5n-naRPyzYEtWNY3pyiWHMsSHuUxOdyjKycxx7nT-TOge_kHb6c7BiDwDJKUFzzmwcPRlj6SBuxFmWwrUmDNT3I1LdYkP8K3wHuBeSwPkOqpxDRnIVoel1A0Ezddg6daqWSc5UNkH0LW6UVoVxqLSRr5sfkRgVB3-J22v57219bGzkca44P929PALiBrOWabl0_7w1kyymzxbTmhKsMytKLDLDJ5Q-i2KS5iUPhlwnDhuj8yZw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115694871866319590144\">Emmie Dupire</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 3003,
+            "photo_reference": "AV-0GLf7TU9ditcYgI2LiMzoQpVwtBWJHy6-83tw_8sqoWp1TgPLsJIZmx_ZgRDchq_XsRKh3zaXjmms_tXj5gIDhzRjXCf00ioAYIvIOUU3GKlfOxLjNSfspHIjtbh3KSC3rY7Reo6ShtbGjjXkOlEnDZwFbLHc0Eyghx9jA7QYl8NRJ0vEstnEftqOPCO_lHxKDDSNJKDHtQZ4LfuJVOvZy--wKxhYdoZDnUV7vfbBUIpc6lPe1NU53b0Jt_5gFZt5U566Ho70NPEo1oRU8m7fxHd6Dswv1kbXVPXLPpL7ZFzgkNoT2OaaXEzxtLSLlikiGlMq0oRjO8uc4hyJGHbcs45II8Cl3m5R9ASdgFF8Z7bCzf3C4uuybGRBNNoDxtF38mI6zmvA3x8Jhaj6LTRLet4vPp-qPaz44TrqCfiGZ6IttA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115694871866319590144\">Emmie Dupire</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLeCw8SyRYp8mKyYh15Pto0wav6twWGDUz_AYUvr148QLvFgyqNqdaTwsoAAPX8LheNIGEs82a0Ufviw-fGsUvZ-vIewkQY3RCPdxKrPHV8R6lFwcxd5pRygRwunrVeRdvwVkwAIoo2llPsnuWw1yL0Q2hSfzFrS9tEPi472i3yMgvXmOSsLNc1fmn0t3KFYW4F92RY_1vPqD_9pR5o9LppiwP8p16h8p0TH_3crBEYAz3NtZnnnkBDneaRQZ8tyDW8W_N2bHyRtrXMBs5JHLYFJlP_PoHBxrnWvVMSO8wyia-y0e_vr1eawPoRmngPPytGm-UvcDEQ3Vt_CFSKHKD5niemXx9PTuJbNDoKVHtp9DBKZbkPlUJW-MLs-p9QUOoh9PPIxs869tPKAmvFWd9-YCuM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111625085767292001832\">jurek procki</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLf-u6vgrovJ2zoH3hgWNzsptUpBcz-sKyZCxICjAIETDYbh1Bvxrv1CB5AsXCNuLfwkJJAOeyGFijUFbhITXoGy8iqX-Fu1tOVXXzhQ0i02IyjnUMQ4NgxTB_9cEAKanD7XZXIUmiQ7bsFvx9zvd784WFa9oU9S0nRnRPp68H4ezmrskVgwXKLDnl66AdwU2thM96w0DFySdgPoeu6ENfi02EJLYaKBL5QA0uHzEBVXckVtmn6iaLWkBGATSduo9WCid6iC_gD6MuLs_wwe0nRKOHPk6pJ3syhVV_ST1T7fIVrxTnC6d-iXXr52r_cwsFsBOF0c8QMYxnOjTSRqTPcAhtdUriIEWPBgjRxHQu4qDjAEwR2O_Mdoz7cPxU8iCjp1Sg4Bz19MZJT2rHm24NwKi0c",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111625085767292001832\">jurek procki</a>"
+            ]
+          },
+          {
+            "width": 807,
+            "height": 1119,
+            "photo_reference": "AV-0GLc4W-CiKhla0tUINY7qdoX_danZZSUvVQkve9CiDs62hgT22sc88W3Ai2rCI5ywzKBBCXpjenel0uYU07NECGWkMQSy2lLuO1lIplSPO8kCCdz2hXvhUBtjSQqN6N9FM5e_18JDZilGVsk3yTmTEQ4_oFLX50nbuoGGGZ83oPRzB-loPNKEXCI90tNPpvPEefz-vh8a-xqwsm7hQ-cSeC2Lpergw_X6Nd3DWaNAAxFOOjKRJRiUJuJ-UDGSc52Zdn6dtU7SkcPP0XgpfOD937y5KG7olxTLKbs-vKwgmg2mEsT1vQLO5158a9LhdYcm7b0RUHHXrQPbtgXxnQI8-QKBgxu2Zi6EkTzZRnlSybPFwLSJtpLsHViJzkjYyBGaiNkJSzjEQ-kwUnOpfuZOnbf8m4sAYGk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117149088501377114089\">Restaurant O19ème</a>"
+            ]
+          },
+          {
+            "width": 1840,
+            "height": 4000,
+            "photo_reference": "AV-0GLc6MwLEFvkTOLxf2n_nkI5NUWLoQFlHr4qiOWYswt4GTNUmyyHt_e_24GZJOpRJRJXiETu9a3_0hoXKIYFb-3cFiRbM_t7tvVkTe0j50NC-Sf8930Y3CqjYtPQQBWfGh0pn6yAWr3M_v5XdWESF6UT5TwDthl0b1C6AuYjf-ofehlRuPgpP6iSZulHK83qAK8p83K_0-9tQCX1V5Jo-Nu2nRUf2au9ByAcoYpwHdkacxg8W8lLiKCuomqvVQghn-tQGFSH7QwajiinjwXFpAz8JlFz_1iP9qR-q7t5pIT_ZRtgpo6qsN3rpUY8q88TlMr6bgp3ZKQIfc-8BCwklHyv4BlLIqgXWE2P-c8tnNb2xwnRFeUiaTfP2fY2uE9ZiUBRS_bYUh9D46cL03nyplfNkEPE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117149088501377114089\">Restaurant O19ème</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1335,
+            "photo_reference": "AV-0GLc34HcscNcZB0oiAD-FbSkupe0dsTi6rBLRMEIhdPnJrJ9ZY40liESy6jqnTfRe3I9OCzpv696HOdluad-NZ0JBxqSa3Imqt_-5sutkAMOrSjUOvmfzMlAvV7NV6KRT1nJHBOS0W2cpwhegz_y5nEssDOWVRXnitUpmXeUpef66HotVEwgcZMyat52WL8EJmlG3ExSuIpcUdwClEhtRob5PrjPamrs35nheGTsd4A7lFe4sotCVupMlJT5cg4PmUlEfco3h2xY74fg4OlHJ-OdOX1fMQFDxxVgwxibkO2JR2bAcu2fGCf1nLIOV5SSFuFn11jo1J-rQmHCd2yef7arBpA3ABclcSlAEvzOKZ8tV8RNC8PJfgbKz200gHMkxAk5Xhr0NrvZPsdCO3_oktqDRLvXftz4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115984616866717164911\">Camille VANHOUTTE</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5846
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les modes de consommation, les équipements, l’accessibilité, les publics ou les moyens de paiement."
+    ],
+    "rejected": [],
+    "summary": "Restaurant O19ème est identifié comme un restaurant à Thumeries."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-o19eme",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5846,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "796c483865d6d26206ed4ca736b3635923c1cb46b7c908d37315bfdc86dbeb20",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

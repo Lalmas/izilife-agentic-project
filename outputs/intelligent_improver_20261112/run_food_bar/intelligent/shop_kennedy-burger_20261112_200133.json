@@ -1,0 +1,613 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:01:33",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "kennedy-burger",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "kennedy-burger",
+    "status": "found",
+    "data": {
+      "id": "5712",
+      "name": "Kennedy burger",
+      "shop_string_id": "kennedy-burger",
+      "unique_id": "9e18d1676455d5c078ace5ee86b6684e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54971",
+      "principal_cover": "54971",
+      "qr_code": null,
+      "phone_number": "+33986751058",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Rue Jean Perrin",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0078209",
+      "latitude": "50.6062014",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:38:45",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:38:45",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJR2xOFWvVwkcRuKXIrKc-MmA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJR2xOFWvVwkcRuKXIrKc-MmA\",\"rating\":4.9,\"user_rating_count\":13,\"google_maps_uri\":\"https://maps.google.com/?cid=6931671666355905976\",\"fetched_at\":\"2026-11-12T20:01:23+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Merci bonne service Omar\",\"language_code\":\"\",\"publish_time\":\"2026-01-12T23:56:58+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Khayreddine DZ\",\"uri\":\"https://www.google.com/maps/contrib/114752010434204494714/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLXFJcQJ3UaZT6fA5GrbdJ4qKWdunw6YCdF15JrijJ3VoaXhQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Franchement au top ! Les burgers sont super bons, bien garnis et les frites trop bonnes. Service rapide et sympa, je recommande sans hésiter 👌🍔\",\"language_code\":\"\",\"publish_time\":\"2025-10-17T23:12:34+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Assiya\",\"uri\":\"https://www.google.com/maps/contrib/100872013070463261700/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLFyWnt0qo6Pw89se5o-kV0NOTNfhWl71UCP0FZV3mfE-tsmA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours au top, livraison rapide\\nFast-food de qualité\\nJe recommande 🤙\",\"language_code\":\"\",\"publish_time\":\"2025-10-08T19:41:31+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Audrey Cabirou\",\"uri\":\"https://www.google.com/maps/contrib/104318546080015747477/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIY-B4xTLduExpfSoyLkr6FykG40DZnhhhxkk50ThESZJej2A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Personnel très accueillant et agréable. Les quantités sont généreuses et la qualité au rendez-vous. Je recommande fortement\",\"language_code\":\"\",\"publish_time\":\"2025-10-04T17:48:36+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Guuilhem\",\"uri\":\"https://www.google.com/maps/contrib/101745540433404485674/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKaoJDsrWztraB3s-_hRluuVdJPE6-eruFko8-mbYCGUmzUtdA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-10-04T17:10:02+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Wassim\",\"uri\":\"https://www.google.com/maps/contrib/117105480733896908283/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLnaEvHHGm1Zg783HqJL3okCL0iflNDFyhvcHaJz8vjNi8YiQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:01:23",
+      "google_reviews_place_id": "ChIJR2xOFWvVwkcRuKXIrKc-MmA",
+      "source_id": 5712,
+      "scope_type": "SHOP",
+      "scope_ref": "kennedy-burger",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "kennedy-burger"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54971",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5712_6af39cf5c585f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4770",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33125",
+            "source_hourly_id": "4770",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33126",
+            "source_hourly_id": "4770",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33127",
+            "source_hourly_id": "4770",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33128",
+            "source_hourly_id": "4770",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33129",
+            "source_hourly_id": "4770",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33130",
+            "source_hourly_id": "4770",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33131",
+            "source_hourly_id": "4770",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "04:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "kennedy-burger",
+      "google_place_id": "ChIJR2xOFWvVwkcRuKXIrKc-MmA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 15:00 – 04:00",
+          "mardi: 15:00 – 04:00",
+          "mercredi: 15:00 – 04:00",
+          "jeudi: 15:00 – 04:00",
+          "vendredi: 18:00 – 04:00",
+          "samedi: 15:00 – 04:00",
+          "dimanche: 15:00 – 04:00"
+        ],
+        "photos": [
+          {
+            "width": 1170,
+            "height": 1560,
+            "photo_reference": "AV-0GLcVdi-EZy_GMXe75jTJifrdoyq_XuieVPDsbuEGsb3Hc_eUChlvsmTfdDPr0SUxzUTqKIC21lQe36xcDgpp5_pAt77jCM451O7iAesxofIkByEG9ZoBrq8HGC5tE08R0c_g5mCpWvdXXTDxERVhwlZK7EsSwr5PJyFzsHWiRtzFig7ISwpY4eTHYtb5TnRyETb2D0-uY9B-vSjNHfED5ebT4wRgE0FZdktRRpdo-5lh8M3vA5zgkgGyhMk7EP8C1zlpNf5gANILgBKaL2zGRKS6Rlm-PPjz6oqzvsKwS8EprtPtEgAu-KM3TAAiJxWKXVcu0iSfy2rLLhByAIHtFyNThWnhBTSbwujlqolBlPh2r4_-dV_pjXoW7jgxh7QQGeLX7gF1J-I4OQwNbeGX2lE1g4q5wfE3rO9ozvYAD3RBjg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 781,
+            "height": 1104,
+            "photo_reference": "AV-0GLc8zY83ksbCNmjPWh7GnjwwzmzfXTt1B9_ElqRpv3vadcm7qx__vMqO9cdruQhLygd_KGtoNOac6etn3RHZlO4uMV4mCxvsThcfhOWgOEXQ2eW9MX2bgsUtai_JQ5VHmsblKd0GoeetRmQ5U239-xRKPnZfe0RXzkc9LTUvkvM6AFstYEZj7-J1vlZPnP6rpxSYjbgpn7Xu9uNpMOXTNsWHXlDBb5Q-iQ1bw8jXigy6EpFyvtgNOyovc7B3qMqxL73siCy6g9b7vHoHsdkKVeMGhZS3DRo9zWEJB6lsGFsjJL4za9Qh1iz1USsEisQYsJuX5i9CMinGYdOzz9th9Tx-8_mZP8QZseDp0Ga962Pej1S_IHoeDza2tBqAZ-3QQkMG0WqtJ7dDM3orrsyB0N_irGrN580fjZBy6aEcBmnIig",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 1414,
+            "height": 2000,
+            "photo_reference": "AV-0GLcoVQG9Twhc18IuC6FD4fEo8jLeJWaQ7WUEBbfRjsO0rzrYqH4TkC-_IQdhtcLlKE5c5_P10coPU9rNjPjPhS4XOed_R2vT6Ni9jOfnNb9-onjviZKbGt_w--7kHsA8dSiQmhcx2p7zJRYVnTQLE88ukSDzqOs0L5BFJXKcqzmHeJaRGcdXveQHGEG8JlZAS-vKfLNGTMJKpBGq7RYHy_QB0uLMUei6MUGsjxRMiQHX70bGFOgeRLRK1a2V96GQI8gaOm7mQC66YJF26MNYlLEc-A-FcW4ZwUrrlqKlmWl7bTojx55lWjD_L37ui7JBv-FY458WD1DoZ2HRrVB-nE46Hp-Rl7z7XbiRv4vtJlYbrF2sow8mXOZpd0b3SfzuwnjZt2wob2yU9ymTuV-d5Uy5_l7XihlOe33StmoUqgfrzw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 1525,
+            "height": 1358,
+            "photo_reference": "AV-0GLct-A09iNTodfbG_-XSQy-5neyno9FQZEYEogdkhLxk7Y4xJprewsrsenvxuhblgYAaXnuAeAcUGlAOUWXu4J7NkEHZhUOTDKuDQzXEzgkdYJK6tvXYuAVAsv7q-39ZvbT_quWMjmkVGYCPO3bIF7pxzPEgMNXBjbXr-c8Xcvm3eXExDbvefh3mNJFGNGdfymhnNQEtSJEbOD6ecAKvbj-F3_LZcfIXQrKuzjSVBI7iGHbhbhTQaHgnoPY8vrFtY6skfKfXM_-SzM58MsrMPdU15UNt3RARuevDbyEefX6iCYzGOogxVwHkJKNlUKCn4N9O9FVRLwVdGWXRul-T6duY5a6tTIkReeD-ZJLtVM4slxPd7ZoshZTWYHiwISDLY4XHV_DWrc8n9IDzbfE-fqV3PJTo6HmqBNGKtiprW44u",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdPAsUyYKUBwGCHRdNUaOZrpTdlcbhyVhNRocZDbN9g1FfE3FLqMvnDOmVspvxlzs4cm-IGi_vLU761DBg_1pEqnIACzA6Q9gH4_tz006EpUz6rq4295Obs9MqUZSat60SuDvZptIf4QglEJCM0a4Z7DZPP1Q6zetSphCs6c-mrvOqq_JcOPjYJtVDl-cqLFo4XiIUVxERRRpgvhfMoEG2ZyLzUURP_kbm_cM9vKQOZ4xmobdx-xczgPyq2Us0LXgKlI357YlxfwYzP-ENStg94DVyLkPteY5UwsK21-RgUwTu70QX9ztZFb5O6RqdOexeD2ejuI3JmtHI88CDV8l_xbwOziVKAM6h6YV9iJOQJXom_vo8jZZKSR0GFv1Vi7yCDKW2FucBXNX2fqHABpnmS5cp0dzj9ALJ20aimIUH05Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1144,
+            "photo_reference": "AV-0GLfC1f7ZSZNBBaruNXC1Ct2z1B4J1RKHh9-3UTx0xqfZYI4WY2jg_8f7iYD5AWK2ZBBjbVBs50U4hbfPC9kDCI5oHk79UVSg2daWzSI5Td3GzHmFmuSRTGSMhbD7dp3aadUhS-GkbzddM7JmVFDt9py5JbFRhzpQrvjzb9jqilphYcHhuBnNlJKlBA4il30wMX-2IBRV_ypdvASfTAi6FBpNYyMKv3c8ZG7yVm76vardVWc2nvGibfbRugXAEYmHtaHrEQy9aYpsGY-Vucfl5Ktyj4sfyjBLVclGwgsWUj6CcujqAK1OIFSJDR_N8MkMldG7iw6fEtTv15hDgCSp9pTIjb95I2E-M8RR_Q-xIcMt2E9tst5qteuwPkxlTZISBWhwrag9dFFs-vRIxz4Kx86IG6qA_1-9meYmGu_xRjiPcQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1144,
+            "photo_reference": "AV-0GLc9yJrge-Dh6E3xACN5YwyAyE-i6Ha9W2AImfRmTcu4IuGA0WhBqa7InLUzl06iHBhF6t7CVy4b7WIA-0Zz9LIqyx3O9vZODMJqOsgmA9ar4m8gP8UHmIIM9z0w01eYSfoLWXPla7JuSO9Gt_6yWrQsbNM7I_bZ7l4JQy2-3QNkQceBhvTJOscHXHayd_iT2b6T2bZ8hl5IGspR936SqSz9jr1s-KnDGiiq80yNsXlcETxq7XJ5GTIPt4DaAvJH2E08jr0xKW0BVrG-UYRvExYbsxCNu7NVMGWio3wHS8MRPfXexuDED_Cjh_8LSFsfqGSkFAkkMiehd0-7Uztwu-vwxFo9Y5Teg_odrbfaKXE7EQuYkKJe41j7TfmZ50OEGzvLOfLkRJig-hNOzkHyBFNW-Hxun_9Js5vaJTSK33nEZw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 2383,
+            "height": 3352,
+            "photo_reference": "AV-0GLe6v_b2C9LaFKkAXSC_nc1oS8nDZGOj7g25tCtlZBsjdDUy_vrcSerOoiCVjp7WeTxJN5dwMj9l9QkdRfbElsuVC48CcB_iYR97jWhDp67P4sRXH85Fk4G-tQiPrEsMHZRwu3Y7othy1pdTpiKgywTCOX-9d2-_a4HG5fEf-Iu_YEThYj3WWg2WT0YMccX9f3cOXZ9-bRWJiIII-HukfyxOi5MD9wwBmfXTLeQ0qpzUKUqaHSvFb9x9sbIQa1bGpZw3rEP6zgUccnnqV3AdAqmTm4uIVjnxljfMZnelgCtFihrBpsFnZuv6kV8kKXOlylGX2ng1j23THgtWXeb_jstY24MdNIEf37C2zOHd2-dOe6-yzudfCABHlrtaC25z4zu1IOL7l1NMM1yDqGzAo7ZwT3wUEbItUTkQbcBzBY3wfQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 1079,
+            "height": 1920,
+            "photo_reference": "AV-0GLdiQSqfdCo9g3F7nhliuFh-TaOy27I_5nZQxehlP86bnS3aLpcqfjljEaqNKkdCZ48MhirPACP1HjPw29eR-izm_sFHbNE4kDDUGAi-og7yAitKnN5BJR2GCmLDtW9tY75jgyH9O4rO7n0rjiJxbIu5gQCuczQ4gFk85HigFcqyxksryBsqL7BEGlzX81ko0Ri4oTMHevmaTVtbLW1ymxiEfVjz2uoqoYNHVWkmSFIIf02iXg3m7JCCaT555WqHRcum6VUuYHt8xHSmejKpdYUMr_PZhXyPJj7LTsM8ZsQToT15nPS0e7sZ3hVe_xHrsj7nn0quskV4AGwPcJmowB1t8PiD-ceLphwUrd0hgu8S1x4E4iT8KlTqo0_aZ8OHeNaplm9UflQRm3-HlM0Kld7aNTX-26tP7Y7XVSSAGe0z",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          },
+          {
+            "width": 1561,
+            "height": 2208,
+            "photo_reference": "AV-0GLetKu6UBRCjL_pT8J2M5l_EF5JIkrT5icmqdKZBBB46nvgJ8xS1puwF6k3V7pgJ_4xYyBxkpSz4HJ15U7Elf8d8YYVz7EeyD5fZRewDzFI8S_wgEWVwf6GCek8bXwMSP345i2OB9LqIdO9DwL_fi5wtyv23VsKr7d1HCXHzZ6DSeB4hmgwtQb-NvVWp1EpOyxcWp4Eztc1C3Gqyxr7n6w_cLLWRgUmX943AxCTz6iSTyVqPDXgUyV9vp_XepGuFmQLkQOeQKwEP-17cLrN-tgS5c1t0vpbsyYjEr-ZajWrZL8eEDavBTyMmhiPyq7pu4LCBRI_ZPgnDYKWbsojwHRwtGv6PfJsKhUEpMLi4lLviCaT2N0pL1YnO6OuxahPJuz2uLDxevW_mlwwqozgfI-ZccD38U_7liS3wRp1n70o7KA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109525410927973318686\">Kennedy burger</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5712
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Merci bonne service Omar",
+            "language_code": "",
+            "publish_time": "2026-01-12T23:56:58+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Khayreddine DZ",
+              "uri": "https://www.google.com/maps/contrib/114752010434204494714/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLXFJcQJ3UaZT6fA5GrbdJ4qKWdunw6YCdF15JrijJ3VoaXhQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Franchement au top ! Les burgers sont super bons, bien garnis et les frites trop bonnes. Service rapide et sympa, je recommande sans hésiter 👌🍔",
+            "language_code": "",
+            "publish_time": "2025-10-17T23:12:34+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Assiya",
+              "uri": "https://www.google.com/maps/contrib/100872013070463261700/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLFyWnt0qo6Pw89se5o-kV0NOTNfhWl71UCP0FZV3mfE-tsmA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours au top, livraison rapide\nFast-food de qualité\nJe recommande 🤙",
+            "language_code": "",
+            "publish_time": "2025-10-08T19:41:31+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Audrey Cabirou",
+              "uri": "https://www.google.com/maps/contrib/104318546080015747477/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIY-B4xTLduExpfSoyLkr6FykG40DZnhhhxkk50ThESZJej2A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel très accueillant et agréable. Les quantités sont généreuses et la qualité au rendez-vous. Je recommande fortement",
+            "language_code": "",
+            "publish_time": "2025-10-04T17:48:36+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Guuilhem",
+              "uri": "https://www.google.com/maps/contrib/101745540433404485674/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKaoJDsrWztraB3s-_hRluuVdJPE6-eruFko8-mbYCGUmzUtdA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-10-04T17:10:02+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Wassim",
+              "uri": "https://www.google.com/maps/contrib/117105480733896908283/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLnaEvHHGm1Zg783HqJL3okCL0iflNDFyhvcHaJz8vjNi8YiQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.9,
+        "user_rating_count": 13
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1185,
+        "bo": 147,
+        "front": 1038,
+        "estimated_cost_eur": 4.625
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Service rapide et sympa"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Les burgers sont super bons"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "les frites trop bonnes"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "livraison",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "livraison rapide"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Fast-food de qualité"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués jusqu'à 04:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Fast-food de burgers et frites, apprécié pour son service rapide et proposant la livraison. Les horaires fournis vont jusqu’à 04:00."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "kennedy-burger",
+    "operation": "ADD",
+    "tags": [
+      "service-rapide"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "burger",
+        "frites"
+      ],
+      "OrderMethod": [
+        "livraison"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5712,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopOrderMethod:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "47a3cbd3e90405236e966b17654e73a79179a2ef19dbc854e122b03c71acbf0f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:52:38.317918",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 151,
+      "title": "La Banque de France",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/la-banque-de-france-1.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 151,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 178,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:52:39.528112"
+}

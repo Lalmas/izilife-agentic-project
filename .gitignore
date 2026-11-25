@@ -5,6 +5,10 @@ scripts/izilife/.env.izilife
 **/.venv/
 **/__pycache__/
 
+.venv/
+.venv*
+tmp/
+
 scripts/izilife/events/profiles/
 wordpress/*
 izilife/izilife-agent-workspace*

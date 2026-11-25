@@ -1,0 +1,611 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:32:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+    "status": "found",
+    "data": {
+      "id": "5590",
+      "name": "Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations",
+      "shop_string_id": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+      "unique_id": "8f000ba1d7100e760d07e64585b243f8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54849",
+      "principal_cover": "54849",
+      "qr_code": null,
+      "phone_number": "+33320091240",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue des Peupliers",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1303484",
+      "latitude": "50.5959606",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:23:54",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:23:54",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ3_QdMP_XwkcR14H8td60WUQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ3_QdMP_XwkcR14H8td60WUQ\",\"rating\":4.7,\"user_rating_count\":662,\"google_maps_uri\":\"https://maps.google.com/?cid=4925166536135311831\",\"fetched_at\":\"2026-11-12T19:32:42+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T20:56:24+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Raph Coudray\",\"uri\":\"https://www.google.com/maps/contrib/112490595656728328104/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXyEljdXb76GfT9uzr63A8pM7-m89PbzlBPrXwcC2xTiZ3K4vRp=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours très bien, la carte varie souvent, c'est savoureux et les desserts bien gourmands ! Accueil très sympa !\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T14:50:55+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Alexane Evrard\",\"uri\":\"https://www.google.com/maps/contrib/105320159198038413383/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX8p7D-tyxMcGvoNMf0HNqGScSw_jFoC7VVd_NFwGO8ER09qLJC=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Lieu superbe, plats délicieux, ambiance sympa, je recommande les yeux fermés !\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T05:55:06+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Aline BARTKOWIAK\",\"uri\":\"https://www.google.com/maps/contrib/117813944081700354056/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLXrWRFtEtwoxqk5XlDrI0sgH-e6Wi5BHQt1K7n_BG2aRNR0A=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-04T14:17:33+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"ANGEL JIMENEZ\",\"uri\":\"https://www.google.com/maps/contrib/111033129506403067571/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU8Tr2tfAWxH2YMqIvqtlw24FTQq2VM2LWbt79ucq_Yz8bhAss=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"En déplacement dans la région, j'ai eu la chance de trouver cet établissement !\\nDe jolis plats délicieux et bien équilibrés.un excellent rapport qualité prix, c'est une très belle adresse. Un très bon service dans un cadre agréable. Merci pour ce moment\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T20:46:07+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Xavier BOULARD\",\"uri\":\"https://www.google.com/maps/contrib/108147888550845651009/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJa34zy_oIYuTExSH_c_38-4sxSAsxqqx_aJ5DY7MbuPGxcWA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:32:42",
+      "google_reviews_place_id": "ChIJ3_QdMP_XwkcR14H8td60WUQ",
+      "source_id": 5590,
+      "scope_type": "SHOP",
+      "scope_ref": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54849",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5590_6af3997ae2d57.png",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4650",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32285",
+            "source_hourly_id": "4650",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32286",
+            "source_hourly_id": "4650",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32287",
+            "source_hourly_id": "4650",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32288",
+            "source_hourly_id": "4650",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32289",
+            "source_hourly_id": "4650",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32290",
+            "source_hourly_id": "4650",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32291",
+            "source_hourly_id": "4650",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+      "google_place_id": "ChIJ3_QdMP_XwkcR14H8td60WUQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00, 19:00 – 22:30",
+          "mardi: 12:00 – 14:00, 19:00 – 22:30",
+          "mercredi: 12:00 – 14:00, 19:00 – 22:30",
+          "jeudi: 12:00 – 14:00, 19:00 – 22:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:30",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4192,
+            "height": 2521,
+            "photo_reference": "AV-0GLfF11ZCZXtnx_g666yozlL-4ElLugqa2DYxIf28bYa1QSzwAkxLgYYAUAkCWwsb3jJS44D4QP3unip1YNcmD3th6HlorSInLr-Ec0XAnWKFWWoEd4khq7lYKZaml_tR87EwwOmIIuLYq9CBne8FFLdQPgeD3KT4g8Yg6WB-5OO8fuVN3FY6-gCTRWN6jKVPNwwPYz6vPyOJvo0eIPq20AT2IFlqgSa2Nguj06Z3LhGz2pLHKZi6oxJtO7ElWAuywelAIMn33OJUv2wRKX2JuYyMlT_zSeacn3CbSSRprsfLixuQ0MnJOzONHm0VpEUxW8tbF_IMFWq2Lr4v-dl08Hb-zDDWfK60fdHx6WY7sKjKVvu5oAcm03FjjdUm2yQqPEjIrwT7c8ng65i2nWRGmzwv64Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLcsNtrwY-2inRlhYHZZIZ1kXn9R8P_cd3d7skj9oZeykazMO9R06ZgJnAnj8lQRhSg5QQyvKhQUI98m8euPyKUECoJHDrnkUI2lO03zRBoyR05JqFhImpSLkFnOwlu7mOGD9edCNskS9z60oFMbCUvvfvnHeFqDPi64ubPY9RiSxEI3_pSvHOo2qO4AMLt8NUw6_e2IW0GbUgRGIMHuaBxUbGPkOgNr3hxJZgEyPfOSDuJPfd4if-snBRufV-dO6O3WaoS6bAoPI0yZLDlYmRET-AURiaIkAmBknwyKfq2MOS2JpcxwjW9VnCJoNzzh4IcadC7fbruP35EGVJicejGINGru6Hw7tf22K6qw-SjJ4b5FA4_2jXzH0NdtvkdZvAuWAJyB5jlyAqeSWVEgJAD-o40sddUm7yZ37lTJTZoJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 889,
+            "photo_reference": "AV-0GLfvZdWN6-hCdMgHb6JHxWW8Va-7ODPAyLD6eeR6f6fyAmUlojFZ18jTVFg6mgnThYne50zyFcvFZG3a88tjbwrR3Jg1f7oTbGirL1lHd_OsRb78fVoX-I5-Q4TLlBTdOa8FQv3Tzmg7Tuvr3abhA8DUu52wljfP3NxXk-yD-0kVmD4ZdfFHh4sy94TR8Sz8vcR7MIn-mf6S_XR1ivQMq_-njhMOc2y5d3xEEmCJ7pMv3I868-dfZmjzLJpiRqz5IVVifpyO_v0WZj_Cse28_tPncn3ps33v3ZelDmb4siV4nxq7qpGfHe7tLvOcIEYIMbTb7lAnWFSz6zEUBnk-uGkrInxGso_Z6uPXKfTxgrdXuiJRl4ljXB6-vSUQNOK5pLaLfM_FiIrrABBfiNqkhFs9tnmiYwVAhX7tNZd7V1rt",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 2000,
+            "photo_reference": "AV-0GLdIfcITK6Q-A3QkuOQUDaecIO4HKn3lC2sDJJasMlZboe34RXhlxH1K2bku8V3kM7JsHklvowN1bTUG4lCJD5dZqVkugKOG1rMUhq5CqsdOdnJapn0rrVkmAXLTRHt7tHdIFmjKjxVyVN4pdtu5Z4ZzMpiwXgn3-XcNsbB-ZZLfDUWjFwz4Qhw-586W8tMgvA8vI-l_xg_l-zf0qfeYINwJFoYB7Lew2b90F-F7Iia16PJBdE7-rRDmjQBVXaySTQKmAZCLDn9UDDfX4PtRu2-NoPruE102_MZnrmLSdRAUAvTmUx7ds1fImsMDKcjoF7EuXOK1Ma-ihdqBwAN4sRuZGiJ-6jUxZg8AG-5mCErdMfLZPyhjT5zDiBamU8ipTYYP4wcx-eT9epYF-YsNlllRxyeB8wbx8tlwc9IwFtTA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLeO1eNiz28xM_kAQTOPvSfxX5yYAoK9TDCl6P7OBM_zAHfmz0zxDyQnxmrOZ4sibttBUWRT7C0cdtRGp4iZYw6rBfz27Wy_VsuWou3pgsMoX3zeOBBbRqtXC33WS69XWVz8Sw_k7qMCvCbwIl5ASXlzcYshzOclGmzH77blcBX7plZCFBkoGc4pDhoK9YONJA5A0TIDa3VfjEGNNQVAXT0PI2QAhMThNrNDbFP096C3zW-MnXa5jVEL0lWkQ0LWJ6C0T5WH5A87nyBgA9tbjKlcPbYqyjOqFJkiCqViyevr4gbFeOMact0taQWPMtSa_-WpzTK8rYjx2T7qnadxKrcb8tlWOX9Y_AogtfbO2-ZFE0G0gZTGJfY434wRmNtx0L-N3YkRZtxQfkB38ftu4hnRPpZ4yCtlM3ST_0IukRdu",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfJ9nhSblEzUyTd_F8yGvJPsOCYcFJGXDDL2t0uX8Q1PSu2lX2Mo52d-HWKN-taEW997mpiag3OsMdquhqxH9XiL4Ul0F-kJWKH96mnuORRP_Z3fWHUdjQKvDgXNp84mlmaj2Cuxf1zMq__VdqIXhgP1GDe3RY2nV6czX-8gDS8aNolMEQakZVJF9Bl38iijwd_waaHvFCNOZsTJ2w78uaNDmpeJLsagSomwJMVwuvq9FfQyZqj3q6-09DeQE6dOYPJLjlmEYDtGNWwtWmTUw11DC2ghl4psAQor1Progd_XgzjbQpx8TlyQ3zNA4UQ0wKuHrI3vxkxdUv0AeKrSmJrd9GfXq8y8KyQKwKDqoGQlKURT-PZhWfNn_pSXnkQivYk7aVI9JT1NBtVNiZOnwncrGjx81Z8q5X1YT3OFcvU9A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115613456584597212893\">christine “Firefox” Bb</a>"
+            ]
+          },
+          {
+            "width": 2910,
+            "height": 2507,
+            "photo_reference": "AV-0GLcNyf3zurIrqmusdKWwTNsChjRCmSLPBoZ4xPyDdoL0bEaR6712iZtXs5SDshtWoCGxLp3if_n-t8yotc103t4F-5mWxijmYZrYTrwjMrpQ0a-NYrjrbgfeBBODT8OR7djONul95DmKV68thBqWAuC1WMF0Hmy-7orYdMT5wlnu8hXPm9SK_R693vOifDEHQQQTYDvCqHgKwSqkLRRyVknQS0BrzKRY-sEsjVOsIF9fOgP3N37rHcJwvKl9xSuNlt-J27Ixt9uWq8_ugDSrLK9PtjFYweY_v2PKsWSRZwl2xPxTxTQU8JUrtYMT9IdpZgOC2zevG_1nURupf9KclgEcs8Ddpg44Pt6rx5s_58oP1WIL6PysrQ40tt2l9KmooM1oO7YdmsO4Hu7KY-eBGHNdUPoYMHIzl_uv1hLVa9rcEQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101880595698876946902\">Stéf</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 896,
+            "photo_reference": "AV-0GLcWK5482auKAfMuve6pgt5DIFkvA4QqhN5vlE0Yl6HZNRjpStL-4c-2pHJKBVRjrQH6OYRlkHRApgwlXn5ls7mm4yBXS4FjGJidmTCOxPnw4NrcsEfcoLCRe2HljTtLBot7kAXF0gi1jB_AmGUb8XBYjba6OTQWITzaWdxVDOseL_15GAWF2-q_BrWhT1Erg0y1gI0X4ULItXZQs7MqQQGkebQlor_4vBkYMTlwzG04DWWRhH8gRR3obV6l9i-H2_FJALv4uVKyU1jbgto_Gi8LCo_QH0yOin23vGkNwhW8ZCdSD-VtZ-LBB0m64hb7nrGyqhF-Tkg8aBz14V38ckJbQiS-4IVObOAZpfe6PtoPXPzSCfo8CFJ8FJY3nnkXM_H0xTmVNd8DOIoqWw0WxnNzZhHuaEvEZUE7ofjr0_Hsqw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 1079,
+            "height": 720,
+            "photo_reference": "AV-0GLdW1F3omAzUxdAGuMKz_8D3J4xYmtdLvcyXNfAj29vF_nBUmEGnlcESERYEy6UC8xjXsac2P03cZW77Hxc-NrJGvi6SJCIdL44DynIgar_QxB0_1mXBYnDem2jwMZBwHyFRXDEtqebKdsL7K0RCg2MY1MmN822gObpOr3IOORN31esuCd9ZnF1nTzX96FDqge3a7FI9bkaDsYytISaeMBi0_JpG5Lu-NaN1MVzmx3NBMrvSlP9mUEAbRaYuLwISAGyCr2koUVBIe9BHu7Tot0Kvv7f_5wn5fAytx8LPAeORRiK9L9q19nwJsDSRBis6wfSNoRmcUdAlxEQTA4n6ITFrBABXM_GtlQpjMhe3pxz1RfaLjipM5WQ8LkTjqAleFiPE3vuNcnlcg2DXDFOkPxWIrBZ9DDUJGCusLQnZbocdSw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 1999,
+            "photo_reference": "AV-0GLdwPDfxYQaTrmkQe5eHCucaLSxWnzPgmiGpfrgYcBHMkBt7aVcpV3q7nRArJ9WuCIiH-m3Hzda6q2Dap0VyeicXIdNejJ2ntrGTSyJyg5FBit4tEVrg1pvNM2K9DlJNCvE7CD0_HxKIwJkPzD5MWRt3fjECjwCQIBQCZ-sYj14v8WlaC-p7_AHfwrsg7sOzGVp20SdRGxkpXOPbkXGX6ovG-uwIoxaEJhcEDcaVr-vXHMGIokh25CQ-MMnhRZU_Xx6U7iT1zsE89XQpOrsdqsBDgtLFoH4SgDJatg67fbIbfMgc4CJ92dhNZ0koUFyLPap6Lferlz1WM5WZOPtNuG4RMfVPufAoobXMfA1MWTBsuKPuNZJ_7lSSLYtgpDbediWzmuGeMC--0zCZ4Gt--DBn0rsDQFguOWHaq2u9pA0c5g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110939775355645794417\">Opa – Restaurant Lesquin | Déjeuners d’affaires, groupes et privatisations</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5590
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-10T20:56:24+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Raph Coudray",
+              "uri": "https://www.google.com/maps/contrib/112490595656728328104/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXyEljdXb76GfT9uzr63A8pM7-m89PbzlBPrXwcC2xTiZ3K4vRp=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours très bien, la carte varie souvent, c'est savoureux et les desserts bien gourmands ! Accueil très sympa !",
+            "language_code": "",
+            "publish_time": "2026-11-06T14:50:55+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Alexane Evrard",
+              "uri": "https://www.google.com/maps/contrib/105320159198038413383/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX8p7D-tyxMcGvoNMf0HNqGScSw_jFoC7VVd_NFwGO8ER09qLJC=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Lieu superbe, plats délicieux, ambiance sympa, je recommande les yeux fermés !",
+            "language_code": "",
+            "publish_time": "2026-11-05T05:55:06+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Aline BARTKOWIAK",
+              "uri": "https://www.google.com/maps/contrib/117813944081700354056/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLXrWRFtEtwoxqk5XlDrI0sgH-e6Wi5BHQt1K7n_BG2aRNR0A=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-04T14:17:33+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "ANGEL JIMENEZ",
+              "uri": "https://www.google.com/maps/contrib/111033129506403067571/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU8Tr2tfAWxH2YMqIvqtlw24FTQq2VM2LWbt79ucq_Yz8bhAss=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "En déplacement dans la région, j'ai eu la chance de trouver cet établissement !\nDe jolis plats délicieux et bien équilibrés.un excellent rapport qualité prix, c'est une très belle adresse. Un très bon service dans un cadre agréable. Merci pour ce moment",
+            "language_code": "",
+            "publish_time": "2026-11-03T20:46:07+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Xavier BOULARD",
+              "uri": "https://www.google.com/maps/contrib/108147888550845651009/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJa34zy_oIYuTExSH_c_38-4sxSAsxqqx_aJ5DY7MbuPGxcWA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 662
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1091,
+        "bo": 53,
+        "front": 1038,
+        "estimated_cost_eur": 2.275
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« groupes et privatisations »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« les desserts bien gourmands »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« groupes et privatisations »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Déjeuners d’affaires »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« un très bon service dans un cadre agréable »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « restaurant »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Lesquin proposant des déjeuners d’affaires et l’accueil de groupes avec possibilité de privatisation. Les avis mentionnent une carte qui varie, des plats savoureux, des desserts gourmands et un accueil sympathique."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+    "operation": "ADD",
+    "tags": [
+      "bien-pour-groupe",
+      "excellents-desserts"
+    ],
+    "principal_characteristics": {
+      "adapted_to_groups": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5590,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e2b9f26568af2c97926c3a884cff1bc1163a3a5bea1a956599b79e1946b4e34b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.95,
+        "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+        "evidence": "« Terrasse ombragée de 80 couverts face au Parc »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.88,
+        "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+        "evidence": "Le restaurant propose une terrasse avec 80 couverts."
+      },
+      {
+        "string_id": "bon-wifi",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« Wi-Fi gratuit »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« restaurant sophistiqué »"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« chambres élégantes »"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« Wi-Fi gratuit »"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+        "evidence": "« Terrasse ombragée de 80 couverts »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chic",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Hôtel chic »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« ouvert le Midi »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« et le soir du Lundi au Vendredi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Hôtel avec restaurant sophistiqué, chambres élégantes et Wi-Fi gratuit. Le restaurant accueille les clients au déjeuner et au dîner en semaine, ainsi que le dimanche midi, et dispose d’une terrasse ombragée de 80 couverts."
+  },
+  "meta": {
+    "cache_key": "7b356cd73231dcbb6957fab608ead32eb2e8bad076b50f4642c96a1e33293c67",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

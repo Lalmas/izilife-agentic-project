@@ -1,0 +1,60 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« groupes et privatisations »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« les desserts bien gourmands »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« un très bon service dans un cadre agréable »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « restaurant »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« groupes et privatisations »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Déjeuners d’affaires »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Lesquin proposant des déjeuners d’affaires et l’accueil de groupes avec possibilité de privatisation. Les avis mentionnent une carte qui varie, des plats savoureux, des desserts gourmands et un accueil sympathique."
+  },
+  "meta": {
+    "cache_key": "e2b9f26568af2c97926c3a884cff1bc1163a3a5bea1a956599b79e1946b4e34b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

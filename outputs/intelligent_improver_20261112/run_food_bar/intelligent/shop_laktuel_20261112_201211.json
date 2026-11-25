@@ -1,0 +1,521 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:12:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "laktuel",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "laktuel",
+    "status": "found",
+    "data": {
+      "id": "5739",
+      "name": "L’aKtuel",
+      "shop_string_id": "laktuel",
+      "unique_id": "133a5952cb209a42be06a44f539693a7",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54996",
+      "principal_cover": "54996",
+      "qr_code": null,
+      "phone_number": "+33320076010",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "8 Rue de l'Égalité",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0850343",
+      "latitude": "50.5855836",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:43:08",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:43:08",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJVVXFniXUwkcRGY6e_DpT_u4",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5739,
+      "scope_type": "SHOP",
+      "scope_ref": "laktuel",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "laktuel"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54996",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5739_6af39dfc39243.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4797",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33314",
+            "source_hourly_id": "4797",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33315",
+            "source_hourly_id": "4797",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33316",
+            "source_hourly_id": "4797",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33317",
+            "source_hourly_id": "4797",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "00:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33318",
+            "source_hourly_id": "4797",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "01:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33319",
+            "source_hourly_id": "4797",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:00",
+            "closure_hour": "02:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33320",
+            "source_hourly_id": "4797",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "laktuel",
+      "google_place_id": "ChIJVVXFniXUwkcRGY6e_DpT_u4",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 15:00",
+          "mardi: 12:00 – 15:00",
+          "mercredi: 12:00 – 15:00",
+          "jeudi: 12:00 – 15:00, 18:00 – 00:00",
+          "vendredi: 12:00 – 15:00, 18:00 – 01:00",
+          "samedi: 18:00 – 02:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdAcGI7nD8yzbkYY69aDHlUGbgGoDWRSVPzfYHrCk1_EAGf5PsPqZy9dvhiJQPnrh_Tv2IqOYjgkpORdg60gd3PzsENO1Szjr4KUz49rI1-O8sNu03c-UT-D0x2xoJ5MsARPBCZBUgss9wefDK1QVP0R8uX1VvuR7JPQWIW25BpIyILqIQ2uxqaZ9sX4Ul7FEZNKT8BaNq_xsb1ffJN6vcUu1cN4s3KBHIu2h-iu4poYUAf2_S9fsZjMljkW2rIu91GNAxJh1xVP8eghTLLi6j207Ga6DgRv9gUxpsFnOwusRWEo8-pYVs72Nc9hjHxCAQB7cwjkw4tbb9AlZ5HiOi8iHyh2v0aHYDawOQ37ntJkUV-ac9ZZhwncSUCXjnWBHsJA8ebQvH7BJPn9RWSgDQbyg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100135094998608708848\">L’aKtuel</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 833,
+            "photo_reference": "AV-0GLdIgGYOVaTkFh29nU3mfoKh4QeejLucldat9P2cVC1F_n0xLpUsE1iNclhobScuqAo0csdfj8tnRJhO6TuLxF__nVDoOGoxICmdwiCrSVGzlk1i08eDWffwSUtA86hE3X6F79gPxRe0y9ituFfL7_0LlT71cq2AG4UNsJLqqCGTZM5p6uKOTBl-HO-LEnsEzi2veNioVAy31gquR9s08wEXlvHv1fkOSA4WU1JVXD1WTjKHwuzfYTBdgc-fFzcIwzFysTV89aOac5WvrXxe3RPIZFp7ko25b9B0Ifn9cQwk7k4gc-Vnxxff8F0EwxvxLNPcN4Iwkctn7EEK_M0tPU0s8br5GCXzR0Gc8lj04ETRh3X8r1c0sEBRArUCV0-KtKSbQ06ilhmgal0vRXibd9qyHqBwJ9Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100135094998608708848\">L’aKtuel</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 1800,
+            "photo_reference": "AV-0GLcrXSQTyJy86tHImSFxtFpSb8kn1eQEcrhstZNjwGpjjLgt8QJvDZmxeQ9dR4nl7VDTjsBTPDboLuVRkY3GZnjHoPt-Ok4yD5RaVCAUjmUcVmY_eS2l80O--FOD-FByoVW08pjdqtryu7boqestD8oYO7GtlL3uWTFvgVJSZVMD_rS21El9cq_Ku6t8FAuZxDhLRDou-0RPu7qjBbE9IMu9EnRxflTIa6gHaAgGEP3E6dF0ZrcgXWHTbiaekAUCHnhQfOsagJBg7A92c3C710RrrEUzIA--kJMTpQivRH4seRrmkBXX57EW6uwd5dhD-X3o2Wir02XJsV0AUcw_PTav8A4oHx8aE7rqLomMfF-ZUo4-RKuPmZ9KVUKWx2vM8r148uDXEs2QIoLQcOaPRotaLR4kRcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104533431580966262924\">Sébastien.</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdXH7-WB7cEW-Ch0v5wEcyzXXO03on2MuhpeTihbSTLVyOjobZmHIamK1PMMZTh2MeWvIoJywgmVLZvhOsX8LchSDCvy-4Y6LKAAeQbPdVKP7QHnKchsd-ABBQCWgcfgV3531Y6J8p1SAUTsdivG7XfDDemVRu5XzIKEP6endLscmn9LqPcAgTDruIdJMCFTIIKqZq6o-vXy4KYDfnLHFP7ZIX3v76OgjVE0Onx_5C9FMqBZSpMR4xF9PLuWIaEkr2SdBdDHsOqj5LX0kkyY8lHx6GNmTwPhnogR01aSJDeKcbRVuwnZ-9UfJ3Oh7GGFLrgI7ISEiF2s-a7KUkUkxsSi6pTvCZlLgZST6CiVN3mtbIR3dxYCzGwLB1gz3fIZN4VKrbA-2vbi4neq9VRpM0aMgxHkeJaUTXrjkClcgiEzA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100424811361283732429\">Cécile Thery</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 2296,
+            "photo_reference": "AV-0GLeiB7gYlnpLXiEbJ4ztQfFFs44bEgKB5d9Gdal2GNop2LLd1tFnSdBYeiEAyfi-6IypTdWvIWuS_HEUSaKABPKyzDVNu-UYQwUbKHRvkuHsdgBxL0J_eOJFsQy9sLnh8OnHyKlUKq0pt8ZrKXWUCKov7GR9N3lnLx6AutuS0JOqJOwS7s9sUkP_3dk-rHpPgTYzW_tJUOcJUV3Q9TiZ2KGzvqNfSm3DkF_5W0JsKJa70jB-8oF6KKgw_1UQQAUK-Tu7leHJGDXPZA7F7Cko5ZIajvzISq-YkRMgYZ8hzYG2VTyu9js1a3z7fg5sLD5ohSo2SVRtJxB5tEwS7ELOp9AFs6pzqq7NSiJvmkl-ptE9a32DDbS0e_L5ReaHyhFyNHOnrrSMt6nhNYc8DrOjjTSVtyBpbCLZZ2pEGpfAI21YWg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111274272765045086531\">Germione CP</a>"
+            ]
+          },
+          {
+            "width": 1731,
+            "height": 2602,
+            "photo_reference": "AV-0GLcujR7ZuhkCj8BbsLONei3TGlOheVqCVCDg5kjHm5-wWjbTcTd_5EEzRcbi0O3nrVKAGz-2aRj7n9MgdU90_WT9u2-rOgkLp3vtjvhJMKiJeLRiSBTFVzIF-dVF1dbZP39leF62kKncU9alDoi46-5Up7g3fxeotYp3Ov6BwwUYMc3x255LGG73G_6h2dHTya_nifQ7At7YeS-I7vpJW2P4pr2TtgOed16FC8H31oaVfX5KTTEXp9i6ME5CuRgIGlxPK_7_wAS_zUvcrsqm9WG7aBQB2txlXhg29yljJJy75ymlZSBmofqQgO8P0widxJlGIDjucZpA9XlvasD49NKN2oVa1BS8QlHbnzcIYL1GJdRJLuN-04fvP4e_YckZhvJfhcznl-5GEZiT7KgoWJstTRnT98g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100135094998608708848\">L’aKtuel</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3203,
+            "photo_reference": "AV-0GLeRT3DC1yEdJjdO84Q4KTQpQ-ZXhv4VcEG5pCIinzrhUvpBuiyUbmJsQ9K3PrEQ_QbiYXeGNn_bX_16lrDbQzHZNFJqTu0i5maFO-P8zuqNmcXgQIFWnURLBvPHsEEEseGFQjT_OFPXXgfNhh0YIqkYzxn7yeT4OiCH0TNjFkpKpfIYoSjIhPiMeIjBlH9ARgDgJdZFfVG47Ey82RWoY7wTJjcaGZPiEVmmFnvqBQI2OkcCWuy-3kXa38IfyEbSGknEu_c4lQ1iOLqWpe7w4Q5_l2rCx0zdcG9bZXUMEtVYbROjHCW9SqLKeay1A_sBYuhINBbNOboJWQ2up31b96vNXCYiqvTTYpAu8vb6ZNuaDrLFpVoJK0Sq_tpddbIgeoJKpUWKI-f6BpGgKi2Pv3BGH6k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100135094998608708848\">L’aKtuel</a>"
+            ]
+          },
+          {
+            "width": 3196,
+            "height": 2242,
+            "photo_reference": "AV-0GLciZiLjoUXVsG9TaM1ioSbtNdHvZRhmxEhuMPdvOwWLKvtFNLJNZ7nXyEZY3d7dSi-yWtTrNaJOff2jRiceWEx5eH21up6tD3wnZ1nB0y32oGrlVxadA3rnI-08oTxj30YWeSiBUKJT7jwSsj_7eBtvLGD7QUpE8lMjQITQL5PRALpGcilWLxuIv1oTFi2rrrwluu9S0dDH6AqGelisl0-65thf31k2tNyUZp9m_1GlJ2PB-f0VEE9i5MCHzBjpLQqljZr0EBY3Z6nykCl2UIWiZE90rFwtAlb60C_HrX9RUoeiuwpwybFR_WPaQOXZqhLqPEULIRrwCmBIytoFImrrGdNTMgOr8LrUKEN1z20f2V_OezCgrz3Rnj6kog489grURhDrz9r3AvQMX0Q9Kf3chqb5WjqhwL3nlk1RTROb0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111274272765045086531\">Germione CP</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLf7sdXdW81PLtC8E5PtpaU2_LtQlS3EGNgVP38tuFMQP7rVp1Od6ITvRiU_hHTKj6Xc-6_XENUa3ojiZQuXdRK3EXyVWHiHSbjwXrAFoYLM4GclPXHGLhxPSjuCaXvQ3ELpv13SeeGI1SDrTpMF-xjlasaFkqFwsBK_7TvNdA-5LpEGptjIcPlF91UsQp04FK5Fb9BHYDil5au2s8acklBHTix2dJCFWpOQtwJsJcx1rDtH5mcfTV-HZK4WDgs0i4uPdf5Oh0pGwals6v0pOC6aH5mP6NoSGqx-47MkGEQLj-fR3WLbZWsrvQiKr2gLq9U90paeLHKGLGwpFC0PvbiWis64AltAmdMOmf3A4-JorsJCXYTlkT-s6J8qCl7KT6y01WpmPRSjYZcGwxj1uWD7LVPgiHpC4NiXGanVA3dEGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113664363901330791527\">Sand Rine</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLerMoLZ1xLhTZsz_09oymaSH4KITpj6BJAgPMEmu_HJ9s_Mss1Axeun-GgqcbGSOqfXmyuHGN-rHT4XXkAWm1b5Mwxqx2-atmUGHew21L6D701pKPGP5u3VCIruzBw-tZlGv6scpE748F_-rLtf12guUDg0LRJddJ7TMW6wTsaEmvAVuYx1HNwwO8DszjV-qren9ypHsOLtnLboJ08UHVp31uaR1Fny3MA4K30Q_pcjx7Kf5qp75ONlUnCbst3xh2VLSaJnr-AaxUVajx4HM1nRIESM4f3an4p7WPGz-Yz9btx7fNwnr3NvXkEHPfrqfG1_BtV1YtvLdEJY9jtr1muBqKOLps6XK4a021-fn_w-ufxI2ReImTtOHrO-ad04CyOWUkn6PKRWqadQUYVAmiUABhgDP8w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100135094998608708848\">L’aKtuel</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5739
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 18:00 – 02:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les horaires sont indiqués, mais aucun menu, service de commande ou détail d’accessibilité n’est fourni."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 18:00 – 01:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant L’aKtuel à Faches-Thumesnil, ouvert à midi en semaine et en soirée certains jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "laktuel",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5739,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "78b06dfdf3c3270d0bf8dadf249df5780436d6b785be1251a11b94b32b592735",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

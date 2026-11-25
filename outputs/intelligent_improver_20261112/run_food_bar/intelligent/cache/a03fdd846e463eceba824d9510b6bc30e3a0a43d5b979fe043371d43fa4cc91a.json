@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-faire-absolument",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« Foncez! »"
+      },
+      {
+        "string_id": "lieu-de-passage",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« passage quotidien pour la famille »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« les pizzas »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie aux produits variés, appréciée pour ses pizzas et son accueil. Des avis mentionnent aussi du pain et des fricassés. Horaires indiqués : tous les jours de 7 h à 22 h."
+  },
+  "meta": {
+    "cache_key": "a03fdd846e463eceba824d9510b6bc30e3a0a43d5b979fe043371d43fa4cc91a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

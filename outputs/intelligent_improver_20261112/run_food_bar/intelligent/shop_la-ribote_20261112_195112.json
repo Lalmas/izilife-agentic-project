@@ -1,0 +1,631 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:51:12",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-ribote",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-ribote",
+    "status": "found",
+    "data": {
+      "id": "5667",
+      "name": "La Ribote",
+      "shop_string_id": "la-ribote",
+      "unique_id": "2f625a752115ef3e8c742ed00c33f179",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54925",
+      "principal_cover": "54925",
+      "qr_code": null,
+      "phone_number": "+33365670955",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue d'Haubourdin",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "28",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9573944",
+      "latitude": "50.6246299",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:33:36",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:33:36",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJHxoIe6Ur3UcRx5D1FdaUG4Y",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJHxoIe6Ur3UcRx5D1FdaUG4Y\",\"rating\":4.9,\"user_rating_count\":175,\"google_maps_uri\":\"https://maps.google.com/?cid=9663481072665858247\",\"fetched_at\":\"2026-11-12T19:51:02+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T19:57:50+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Christophe Deledicque\",\"uri\":\"https://www.google.com/maps/contrib/115280905986001827521/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLrVy_luct6CWHIUAu67gYoZqQyaSAT7cb-pM_iMrvn2ZELog=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Superbe découverte.\\nUne petite soirée entre amis un jeudi soir, c'etait très chouette et on a super bien mangé !\\nMerci\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T16:44:21+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Séverine LENOIR\",\"uri\":\"https://www.google.com/maps/contrib/112856143041301485884/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWFTVI8th1qCRioYjCdOyBHdGrKpGr6R5UMKQWtsNe_jOQ-STryCw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-28T11:16:15+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"vincent plateel\",\"uri\":\"https://www.google.com/maps/contrib/105014415815215462915/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJaNuXCf0FTyWVbKSd_MJIcSgL4UYlSAZ9vboYpB7bTRciHuQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Bel établissement, le personnel est agréable, prestation de qualité.\\nPour commander nous avons dû attendre unn peu...\",\"language_code\":\"\",\"publish_time\":\"2026-10-20T14:38:56+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Sabine Hasbrouck\",\"uri\":\"https://www.google.com/maps/contrib/116738855513743868038/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJw0fXmxzEytA4EnyPiTT7N-p2Z39gzK-x2DGihmN_OBbr_sA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Belle découverte, des présentations bien travaillées\",\"language_code\":\"\",\"publish_time\":\"2026-10-14T17:25:25+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"Karl LERUSTE\",\"uri\":\"https://www.google.com/maps/contrib/105022359150009905537/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLNbfdXVA89lwgaScQVBLwteh-OB42rEGC9_bQYWsRhH4gOew=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:51:02",
+      "google_reviews_place_id": "ChIJHxoIe6Ur3UcRx5D1FdaUG4Y",
+      "source_id": 5667,
+      "scope_type": "SHOP",
+      "scope_ref": "la-ribote",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "englos",
+      "string_id": "la-ribote"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54925",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5667_6af39bc0790c1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4727",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32824",
+            "source_hourly_id": "4727",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32825",
+            "source_hourly_id": "4727",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32826",
+            "source_hourly_id": "4727",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32827",
+            "source_hourly_id": "4727",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32828",
+            "source_hourly_id": "4727",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32829",
+            "source_hourly_id": "4727",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32830",
+            "source_hourly_id": "4727",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-ribote",
+      "google_place_id": "ChIJHxoIe6Ur3UcRx5D1FdaUG4Y",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 22:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 12:00 – 14:00, 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLduQlqOjJzmgX-IDWWp-Nrr0YaQDBxYIph63WcQpv37IJY_Zis7nMEgDhs7Ucr_2WDd7he2Ze4Hp46xlNYW1or1tksTIKI-h_8Cm-tUI4bhgHaqV0R_AJ6VzjATmMc4PHQkLkiy6vrUw3LBxC_6xG-lKpFJBi4QLQs5RqrxihLHIdRY2gHthhxlPkTTiNWs8aqdZDMIiTXmvDKG4kqoXf3UP_L1Xk8s4w6kylAoA--Tvcy9qsHVE3RC_R23OW5D0oJ5T25kxTqQjyoKiICmhLj8pqKRihj9Rcn1DbYkUb_07uWY63DdXOnOuwZF4tDZPAbwZ5VJkBKJreXGgyZwihD2l2n1sqFCKbq_rI2dnMzBaLu7y1bNsNImh6PMddlzYQTu30sCcGlhnjREWMcxqtTsxNa5WCGXtP4GaqjzpdSURw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109533968070226546778\">La Ribote</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdOm-MMdb9knP_qDYVJ7AoDlJlEVxyWfsfLnJRGbsaleYpa7Tjqg4HUVSwKjMNGi25S_OXcsP5UeighJIY39hiCi8-K2WlYSXYWtDtZ171l5kqhjOGIaDeN3cSEYuwkTRS2cjOa1yKsEJrFn0ZxnN_n-4mCwca21nqgXU_9twMpJph7pfvgxLDzYMNyOQ1MCL9AjT02BetqR45Clk9oh2PWTuKTOJdCsJyeK9pHimkFsHUoQ-0G16Z9KolEdkvOa4_R36mkrV76jW5OM4PD_9JnMGZnGS1mzRM1-G9KTbrltWO7bp1A-eNVJPCJez4bIdwFosHWqk-1pF-LYNrrGGvbyB_QdNd44XzUey_oBlWSNsLVOpr2P_LFoChLlPhARPNZer6FiCbqNUjc7auT3whKkDvLdxMX8rnEo5e-Fjor",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109533968070226546778\">La Ribote</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLcHqeom7UfIj0TNFYK0jQTXrbIhL1O56OX5VhTAzESP18gq0GrdHxQSibMnr0VQ8HZNFPzfZx6eTjTBUFpRlNq4W7YLm81P-A2Pe0zsWeCUEG2FtoFieQIgnAg31Zv69AeFKdqfKtYZMEOuStsHO4SdYBn8aL3YeRvYMm8MEPo4g9vSOkMuicqhpZBMhKrvPYr-pkV-2KyGZDuO0F9BUpU96XvXlCt1mVWX_S2hymBjxWu3v7vDe1WbyFI0zq5UxMlHa14q7xLVhXtlIspcApi0osP29uzR_E8tw5CWoJvQjTenkSSuQsLQxrhmPPztCe-NotkbKbgb-5Dd1WrYdB7zoIoOnWmszNsPXviiLqn0UpYkhjyyFxHmliZZQcdpwdnOVjgtHrUcmy8tLa3m9IfjAtlLDP4HprHPyMAjs78d0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103018035612794159299\">FRANCOIS GROUD</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcZbwWVYKLv2mefpjIJ6mbK23nJ9kOgHiegYPjlUZH_gkm50ccGAusNOLMGWu1paHuISlizvfSDoDsmRL1fdtwDWUm9PlIKIsdRT3C5OZZsdcfFRpnpa0HBpYo_ovpkpQXALT9sp0OLXzyjW1-nNHn7dO9rJeKJr64ER6VTmc-MGFsGjGdH2gSbDjCm7rMNHxhg-ddHHEFiIwS5hm3ozObi3sNLqs3010J34FW_DelTJj0QdWSu2LgLVuFSIBIpfm2jIEQUkEDt_J0ZUg--DrViXAZaKlRc1oZEgIL_zfNWTGcX4HTICvSDpdXeLjYVeqclMK4jKuT5MM4wTZZJWWvSnDti2IrHigYpIMFc24bgqbk_g9sXZvJkXmWJX75AdNmp-jwmQruDgty4UkqbwYohfSY1oZ2c_x57RktUIP3f",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109533968070226546778\">La Ribote</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeIK1rZsnhPQCuY7oujeJVU2tkZU3RjZI4gC5eF_VqdbYQb8r1ywn-rKlcBXEdxbXo2DA1x0uiURkp6xFZFwXXNnnaGYoBZ690GnLx83ePIuUpD53od1mgnztlc99XjZCMO-a6Ne_hEdWvmOuzOnXAvp11WphcqbtatcU2UEK_O2BxdDukinOQqbOTQg5bE7dkzCXGAHcjyo8bQFiafXX789bGNPeS6GNKmwa303UbwsZ8DyUCUregnVy6Nb9RUl4YllmURtPJZemQUuA7vNcVNny46PuJ5f2XqOVKvOsgiJpAKFjwVoZoyhQHWL6E0KdysRuA_Jetjd_FEFSijZfWWGT3zFtXv3P9uhKfa-mcPVMsGZHLjjtp8pnX498TR8D-hgERigwZ1McF9F7BQ0Zxh2LVVcQY2sk3hzzxBR8tr",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109533968070226546778\">La Ribote</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLcPqpWMvavNCRqJnqLQd-eqK3Fh9FydW-41YGwyA_rRtsCX3zifT-2Hm6jYrJZ8kCsgf2NxT2dPIpe6h_M7k0sKjFYbwOi6rzWxFyYrB98Mg1Jw5q7ThxlJlWpWDXACdNiQzAL-xMXmAtC4AKP3qy6SdC-elmeVx4QeCyB9jmpfbb_u95Na_cFfWDkAtHHFuquO86KkBNBKzy21FBkVXUjKMh94wD03qh8dbZDP_ft0qO37AkpvUNJYHh8MdMYi2C-kZcsCtIGlpfuNLo87iKlKCkD1tcoYNNdwJVlTKYIkHlqRZGVocYsXf8OpE3a5LA1GgLRFwRbxTowrGaC-fa6rP5wPTBOwvHAo2EESFbkTTMt_U-RXi2l9YAdjOQMH04a8_1Fs84WnG2hnaZyW3Vn8HsaR4DJ3K3Tuuy7_rSaXsg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105033614459197633779\">Aurelie Roudaut</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfNN2A3HfJGLnoiiQKgxGjRjPBOnctQFtDe0pY7hQp_FXPqqi59uIqaoj707CUrAVsYFlDN3q8_Dwj3vUTlRw-E8BRJ3SIIeUPT-OYt217bIEyiwqSo2xIZAVNWRaAXKEZX8-hZJQqKK3Wr9NaGu0Bncfz22xFupgTsdHBHPHricBZm5BnoIj0Y552xKSHrGLMb34p5ftvH741Lt5ZvBaFIcwZ1jwshA2owy5SQEG7LNMT29_rP1VEnTwfRu4mayP_YSBy3A2ne58eX8KvL5nVBxBYZriJwGD7ekxZussL29UvhY1bNXMN7lEc04Hqzi4M5KpQjH5Wl3gKc6agS3DaLTqnO9lHVz5g6Rp5t7r2avNmzMCYTyP0cAMg_rVbC4nBsd8Cx99QGoV2eDA5vYFOcrY2f3rmVH3L5iiN20WU0Hw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100082690420987591354\">Gracinda DEBEE</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd9Vw865ygW9noF8GpnVTkuQ_mcJ-DPfkafeXcZ1hh7uKQsrBFpMHg9Z3erz3ktnG7RJSr5gUbItEMF3CeWhzV3tn_oZYu3JIqVv9srCskfspIl0uTr-ZosdNrZIPla9zMiDV24_0kV1sh-0tGyeGJuQkLoX7KmbAsymBy03CpkOXMeRFxDDv917p9DWs-Ds73t5K9rmAzMBWhvfy0gkKCq26GCoLwOQBX8n4B7Axl1ePHfYcbOoXqASy0JX30q1HvBOYRMjPp1yugOslj0aD21Wvy_5JpPqn9kb6GDro2fpBFbILOwajUGXaJyQIu7GDOglcaqF7qO53JHZsz3YMiz3TgVZhNkgrdByJAtUIPQ0xcP16QiGCb2g5i3uHHxPRNzZ45S4nvvka8Z6qYQ1B10F_aeHxIgYjQfJDWDuX6XCg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116050182074931507685\">Cait Donnance</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfzzMmQT1IOhJySjqK0dUz4vGE5xSLldK4YDq0HS5qp53WOeyaJ5bEAy-tSvRBDNKYM6D7QrhY9gyT5gp84Nmc7jZM-d-qBionl483G7er9htNiGBhODsG6wxuoBn8d_oTXdzj7ZBvY7Vg_eWFT4jcBbPQICDj2KazawXMuh5dmjYL2vYrK7Vf3kZhIKzKlPv4oSYOt7q6vs3cZZploazTnJySuo8lcy5i6vc8Iw7YK8SlLk5bX3r3N7K-kg05MXnt4AhzyWgISlrDG_4rbHnApeK2_F33thtmPCsxRcJdaOTr4X2Tzsm96NwdazRWO1eKaerhwtk-MutNhT7EB7fRSV5nSzGdN7ZlbcB7cBcbAHL7rbB3ocwmt3bfmhJd55_OdQ62VqvGBpQEdIxQWqlFHeZ_XMdqnkFDYtDMYuiwJCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116050182074931507685\">Cait Donnance</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcVVCmrP0u5ty2Yji2077YQ8SfCE2TwfsLIOagZRRqmrer72orPyRkYwVuS-dHLbI-voF_8cY9fBo97rDw3Db-lTDSf9TZE2Neh7Y78C_yrQ_hTWtgR2udY3cyHvLKxIO5OerMYQpMaxEhbmeZwd7sH5hBRoDHAs0FzRG3fiVA2JZikWxfsJOs_GirLpKuelsqN9MrbTHCDS2b5vCb387VH2MqB1NX5y7_3UW8AXbxhMXLLuNzwU8hVZRwxw7fKQqoBI1i4CexrWxXMDZAcoJfYSnkD6piDTGfq3R6HTrHf-2B12Hdz4vQIp2EtWEcTpJe6GVRl4V6Dj4f7JUuSVMGz8unGPh8wzlo8GdMl8cvmlD5smS5nTFiMyI23ql8tN-T4HeA9mLmdAwr2IB5mZC1-fRuoVkjVWYmerNebk5whzA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113592375771724633809\">Sandra Dfe</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5667
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-03T19:57:50+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Christophe Deledicque",
+              "uri": "https://www.google.com/maps/contrib/115280905986001827521/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLrVy_luct6CWHIUAu67gYoZqQyaSAT7cb-pM_iMrvn2ZELog=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Superbe découverte.\nUne petite soirée entre amis un jeudi soir, c'etait très chouette et on a super bien mangé !\nMerci",
+            "language_code": "",
+            "publish_time": "2026-11-02T16:44:21+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Séverine LENOIR",
+              "uri": "https://www.google.com/maps/contrib/112856143041301485884/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWFTVI8th1qCRioYjCdOyBHdGrKpGr6R5UMKQWtsNe_jOQ-STryCw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-28T11:16:15+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "vincent plateel",
+              "uri": "https://www.google.com/maps/contrib/105014415815215462915/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJaNuXCf0FTyWVbKSd_MJIcSgL4UYlSAZ9vboYpB7bTRciHuQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Bel établissement, le personnel est agréable, prestation de qualité.\nPour commander nous avons dû attendre unn peu...",
+            "language_code": "",
+            "publish_time": "2026-10-20T14:38:56+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Sabine Hasbrouck",
+              "uri": "https://www.google.com/maps/contrib/116738855513743868038/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJw0fXmxzEytA4EnyPiTT7N-p2Z39gzK-x2DGihmN_OBbr_sA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Belle découverte, des présentations bien travaillées",
+            "language_code": "",
+            "publish_time": "2026-10-14T17:25:25+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "Karl LERUSTE",
+              "uri": "https://www.google.com/maps/contrib/105022359150009905537/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLNbfdXVA89lwgaScQVBLwteh-OB42rEGC9_bQYWsRhH4gOew=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.9,
+        "user_rating_count": 175
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1151,
+        "bo": 113,
+        "front": 1038,
+        "estimated_cost_eur": 3.7750000000000004
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Une petite soirée entre amis »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« on a super bien mangé »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Une petite soirée entre amis »"
+      }
+    ],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Une petite soirée entre amis un jeudi soir [...] on a super bien mangé »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 du lundi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 19:00 à 22:00 jeudi, vendredi et samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 du lundi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Avis mentionnant une soirée entre amis jeudi soir; horaires indiqués jusqu'à 22:00 jeudi, vendredi et samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant ouvert pour le déjeuner du lundi au samedi et le dîner du jeudi au samedi. Un avis récent évoque un repas réussi sur place entre amis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-ribote",
+    "operation": "ADD",
+    "tags": [
+      "bien-pour-groupe"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "adapted_to_groups": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5667,
+    "changed": [
+      "ShopCharactTag:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "487cda288b3ade43d31c32e030af7d0b272d29cf54a3797bd7b482c4ede10b5c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

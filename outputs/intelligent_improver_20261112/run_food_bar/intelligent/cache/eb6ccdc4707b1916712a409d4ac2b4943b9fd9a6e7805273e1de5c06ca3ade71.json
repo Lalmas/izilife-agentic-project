@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00–22:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00–22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne permettent pas d’établir les plats, régimes alimentaires, la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de paiement ou de commande, ni les publics et ambiances adaptés."
+    ],
+    "summary": "Restaurant situé au 16 Rue Jean Baptiste Lebas à Phalempin. Les horaires indiqués comprennent des créneaux de déjeuner et, certains jours, de dîner."
+  },
+  "meta": {
+    "cache_key": "eb6ccdc4707b1916712a409d4ac2b4943b9fd9a6e7805273e1de5c06ca3ade71",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:36:53",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "bouillon-pignol",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "bouillon-pignol",
+    "status": "found",
+    "data": {
+      "id": "5881",
+      "name": "Bouillon Pignol",
+      "shop_string_id": "bouillon-pignol",
+      "unique_id": "3216b0668fc49b53fd5bd63df3e8ba9c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55137",
+      "principal_cover": "55137",
+      "qr_code": null,
+      "phone_number": "+33320292643",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "25 Rue Paul Dubrule",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0969027",
+      "latitude": "50.5814579",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:41",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:41",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJvcZkYPDXwkcRBYvZ71hDnRU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5881,
+      "scope_type": "SHOP",
+      "scope_ref": "bouillon-pignol",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "bouillon-pignol"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55137",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5881_6af3a30940c54.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4938",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34301",
+            "source_hourly_id": "4938",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34302",
+            "source_hourly_id": "4938",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34303",
+            "source_hourly_id": "4938",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34304",
+            "source_hourly_id": "4938",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34305",
+            "source_hourly_id": "4938",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34306",
+            "source_hourly_id": "4938",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34307",
+            "source_hourly_id": "4938",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "bouillon-pignol",
+      "google_place_id": "ChIJvcZkYPDXwkcRBYvZ71hDnRU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:30, 18:45 – 22:00",
+          "mardi: 11:45 – 14:30, 18:45 – 22:00",
+          "mercredi: 11:45 – 14:30, 18:45 – 22:00",
+          "jeudi: 11:45 – 14:30, 18:45 – 22:00",
+          "vendredi: 11:45 – 14:30, 18:45 – 22:00",
+          "samedi: 11:45 – 14:30, 18:45 – 22:00",
+          "dimanche: 11:45 – 14:30, 18:45 – 22:00"
+        ],
+        "photos": [
+          {
+            "width": 1536,
+            "height": 1920,
+            "photo_reference": "AV-0GLdPGVf0_blXTdvLVJJaBG2qjWEf_to8zsO3LFe1hIvj1auL2DAPtHnNLphscWttQFFOkB67CxSyG62mD2VlZcHiUUUpx0eyZBsrq0QJKCwXXaBr1qmmoxp9od1ewOARExDOvHxkCM4FvP9_yIVxCFXS6MmAsOkyJkBR4WbYgnJoCa6R9DUL4lP7gKBjFKumDCry2SjKFtAVmG0_bejOStqZBQil33tgNhIZaORX1KbJf-_rN9kBXmqdx23PryoKeln4we2N4ieEI1BAbB18l0oXN5mP5Hp-IhOxjezVF1E1wSefKdWg4VIK9884G_p87oIs0ge_HbVp2Y5u0O2SyZEdE2Aw9Rc91gDdplE8ZPej7zm9ExgBXQej8285o5TCNu-_NGp3fgRxuWS_kkE4IZmpW2hFbFUHTs_t7qfZg1N44A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLely7B5Gi7NkoYACdLKK7b0XbUsK97CvBAwmFvES_GD9Mj6MNAJZ-IqRxChzIp6ZWP5KYglpuUkhdrcOTMHhbjW5pGnz4WsVJlUq0xZhCDzztrT6EwG56j5p51Y7HTzGFNbXRpewyC7hs0ud4k3xXK-BlZ3fINy1rSFbOzf65jYdx3_FpNt2QMPi4u00pyJDyRg6pzRJ7lwutcutObBIluBKmOrmTwHjNU8BXnCSt-6OU_cB69I7zVMwGBwdcPEp4QqDrictp67IKw7hV-SW_sn6H001q6MdnLoOCKyBGGo24vuJ5vmLYjRbc8OLeIn3RlzaLmh8pARmEfqjJxx5XrKengWe7Fscy5XWmFZGBB8_GE8b4QIFngRSHzfrgqtDVR6ZtgHtiGPGgdMR26f6QAImIih7FSwng2y6Ya8qhPUbg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 3617,
+            "height": 2922,
+            "photo_reference": "AV-0GLfLWyt_fLNemEVosqBV6ODUgEm9tkk5CmGq9PGiej5FDpRvCmZOGLXjvv9aP67rw-q_4VXl2cZe-xk7qWTAfO7Lrx0uK-xUTB9p5CgRWqjnGfd16WDJNdH8EMZTiwtwLQVuxp51K1IS4eAcWgSz2Eb1AKXaNA5IJBmremqrrtSJB3ywwGQlawCASCTo8RQdQ2UTuvKXMGkl81kQtWY5Y40wc_6BVSjM7psNLT-cLt5Hu2Ofa4T6UuU0m-9fntA6tb55XXfNyZSJLCzTI1KYsdAXZSSFen58lcV6Kj9BNGK09cE7PTuRH2Oh1UAi-792zPTK60bZ2Q_JaUvNeVsAKIS7HYfcg-5BceSbzVeTFpZfw7bnE8PiKXOIrEuJbpGizNK7rJOLwiGoSZmsyKoiFEBvm-xEUujEvw2kGxiR_GuiGQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106816283620957042339\">Michael B</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLcXF0VZVVaSILDWbZXKx344ICXR-CSnZycg2UoYaKw20S5HIdz5L-hglMMdjjRapl2d4L7hFaciRgPRFCBvraSQnkB-U5aafI55srtrO4lcn8jwwldZJrrPz9x_JtQUW-Y110gOnmg2qRgJmGfr2SDL6K7XoWT8H2yADL8iuSK_i3NMSZhm9fhW4Q54RJE-6qhxem0f8F4V2w3lFm1AaGihvpp_jUZrsxBodrfDkPWsT3VcTh9eZxwL5pACoGqNV2P4tnqPVIYwEAimOjwPbOX3MkO-5N2FILzFWcWORg9fp8QnMmx7txsdWBu2q6DFgwEIjwNkw9D4vjIA163jdKkaCiVc2BqIFeAVqkPiLuElb-9dLLtHl7q0rSP1OwZJewSUYy1t4P791_HZwhfI-aZAQcUbviT2bkkyo_DwDiCcdw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 1920,
+            "photo_reference": "AV-0GLctIQCgyvdDHU-pd4q7IZ-9i5IES5Tyc4i537Fvyzao2m_N-pCZzxHA4qN_U11yca09o-xkmU8EyXDJt-1yMdg4G1-d3SVEZgxNSJjNsaYR4l6Sy4U3Ut5t9LFYXdiIDjy7ucFb83CWVM2h_9YmVsyX3FP-d8PfnK0S0kCE9ztiNuN8Ll-Pvkd-5Ui4_8sULftaFZtScTJTg4GqwLwaiAU8lIf_n11DD47EVnrQtcn84rucCXWGg_C0bo2TKU_xYOH45qiAGFbLGePLx7djYYE-Dqbv-aMaDPdPqWOFLw1WYv2viG3jCQOthG8q6VcJxVwkruOl4xGiZ2bfODpxozr3ULdFq9gIQP4yMO5uHBWa2r0p2ekZxmOpCOznDjZRXphnakP47kiPb6O2vDLvxDUzFkz6PnmMoX_nNtJbOVP_hg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 2828,
+            "height": 4032,
+            "photo_reference": "AV-0GLdrxtzpXmEQj_VWEhRMy12aaa0A6z9SNGfj5Vd4_MiuRDhp8bIYgf4h_OPpDfWu8GSIjL32nIW99G4abPRVse2cuAh9ZHTmLpAmtWY9O2teDulWNnuAZnVt_jqfhEJl1YHzAohQLLAGtzQyqdhxAcQ6__0Uf_a4q5nELncfsAUraq6HNo8tiFg2RfstzArJ4yonu8g8QAoHxDAdqdynB6pYtnVs0BoNg74-GfQ7IrGsmvHGcOOiFnf1hIr7SiMh6NujFhldiXq0kWcSddj1EXP-qbI9VbjMoYM0wAMKNOONxyfE36CuEkF1Q3_T5kD4a6j_ZViohKSc-YBInYVuj3VcZgLZ8JE6E2Ss8R66eYBUb6_2gYSmpT_WJyxTba0obcobWygY8gKhH6Xe57Vj0065W-NkjCLL-f7f_XTQ9Fhayw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110412089178283791955\">Laurence Dcht</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLdL9G30Fnn4YHVs9R9GchJ7Z8mEmfE1nmMUEk0fC5AKyjL6XaWGJpUc-NGuQv3sy72KqlaID_nDO6kj541PJ58FcXEsBE9IY2Sg0qAM_GtD5-8KXW68baEe_rPtLoihbfu3_oCq5A9UU65ncehU-Pd-zAw8axNZGWNfAiQpVmXEFoq4SYC5TgaOErTNjAG-fpjhTDeJm-niHJoR3D1DlbOdcTFWNCk96dXnj4A1fCtb6IY4oOY-08ki7oPtkdtvJnZeUV_hrMhSKrMmQ-2WE987PMCEYf4w56-TVsF_dUSMrgaU_va7-LDFCWmNyQ7UPvCeDgQhUOihYYCZoJ5BcU7kI8mN7PqkrxY6RmgU_9ju2uDY5WcuGuk58HVoLaXZRisSauRxY3xYq2fRmp2op310yjveMfkEdYJRvaqPJuE3cg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLeN_gs2O59qmsy0HiyOhw7H2SszD4aOQdpazxd2RQJXECbfz0DvaheVf09sKIAKBAAau0Q8UTUUvZ-CRvIRFVkJ3m_C0dtiCybvTvYnQKNt0PnQRwKgpXtW1Hgv8xwMQIhMEYihM_1FII1wodJ2wRDwXVB7Y6RYONUpDJiRx_QMvwDcsp1wn4zWGEaFsINJ74RTq_ji4ERAZ0eZVRvxw0sJbfxMkqCDKDzU0i_djxFc-lCS1_aQuxIRDXu9RUvnZ-LyUwi_h6kgKWTGZYELo3gB5nE2UzTnVdG2xzY-LLdt7k8roieJe8-9-iDd2GVsRm3aQts7kjKH11cOju1w2ArKSfwNaQaMRyA9f76gH3yAg6I2YhzBPnCaXvx2Deo5WQTuReJcnidIzfG3GKjRF7Tv_DsEhSVZpa06YE579hIR",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLdsOuRkUTcEQ51WqdWea0QSWQiq7utMOoZsztCt0svHqLh6jqMvaUnFzQYpzbKqyR63414unyjJE1lmhC9COPrTrdSQQlpy8168nXTOMtDsMy06j42xajVNX-54wgTmGfEVkLzWZS5HlZtTnzqsT1UEz3EMxz18NisEEeWoFnT-g-M8TumMHjApEJlau9XpzjtZpRKpDqomSxMrDutNwKwIvtUNiY_yZ8rwYye4no0nIkOj_5P0-0UdUQ7cKi9gRg7kYwzE6f3isgP8FTED7VTJvUZseEn8dHn_DDShhDtIwxQm3Aj4ZSEsT7AtbPbi1yt1iKy-aexqtpTlQ5tMuIwRX6it1SQw64L-sVb7TLTcauOPBqzj3RMNJunJOi5qvIOZxCLkWCHg2Ey9n3tIFzg53ydSCQbducBtYRd-zPbr7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLe2zbOo2r-GgbR24rjDWAKgrRs-ngjPw6RlBu3OMgU_2_JtlcYPN3MQB89t9H8kJ7sORsTA-IIgeF-KFR2HUA60R3slpr3FgRAbBOHVVIy4ELe0epd6rob6NSFnbtC3xWuOEaPgAFcLqSyDhvbEF5bEFFxuxAlQRnZHHB38ZZOuqkOEq4e1KB49CPiUzAkwDPpgKUFzexcdADABOAZb7kMsznXUyIFVi9KFzVb-b8pP_lLAjfa6_5d8Pr-7vSPFL6Jz9bHkiWx3_MiJ2xTTct-lpIAkbvb02akeLfZT0tu9480kykbxqhagIBgzdzVdrWGjvYKqROztspCYTr7r0f8DDSc_4beYBBo-_CV_28n-fCFraVwN9q4Makgf7w2vDhsF9Lpfhv-m5FOYPGk3wH6KYtBf56jQX9YD_0Q4iXfnxg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113120594932838122645\">Bouillon Pignol</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5881
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: \"restaurant\""
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne documentent pas le menu, les régimes alimentaires, les modalités de commande ou de paiement, l’accessibilité, les équipements ni l’ambiance ; ces caractéristiques ne sont pas renseignées."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert tous les jours de 11:45 à 14:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert tous les jours de 18:45 à 22:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Horaires quotidiens : 11:45–14:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Horaires quotidiens : 18:45–22:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Lesquin, ouvert tous les jours pour le déjeuner et le dîner selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "bouillon-pignol",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5881,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "67bc4847a443c061cc5c08f8b7f32e1c696d5a98e47ac2c9b65e89875c78d98d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

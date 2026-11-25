@@ -1,0 +1,561 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:54:33",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "deplano",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "deplano",
+    "status": "found",
+    "data": {
+      "id": "5682",
+      "name": "DEPLANO",
+      "shop_string_id": "deplano",
+      "unique_id": "5c30f76eda3639576f8c24fc1628a1ec",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54941",
+      "principal_cover": "54941",
+      "qr_code": null,
+      "phone_number": "+33320071089",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "49 Avenue Albert Bernard",
+      "additional_address": null,
+      "zip_code": "59211",
+      "city_id": "81",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9653927",
+      "latitude": "50.5889058",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:35:25",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:35:25",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJLQMF1for3UcRq94AE_9jN0k",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJLQMF1for3UcRq94AE_9jN0k\",\"rating\":4.7,\"user_rating_count\":33,\"google_maps_uri\":\"https://maps.google.com/?cid=5275795435674459819\",\"fetched_at\":\"2026-11-12T19:54:23+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Alors la, cette boulangerie n'envoie pas du rêve en façade par contre question pain au chocolat, croissant et les différents pains il n'y a pas photos  !!!! très très bons !   j'ai essayé une autre boulangerie a Santes et franchement pas de comparaison sur la qualité des viennoiseries !\",\"language_code\":\"\",\"publish_time\":\"2026-09-22T12:46:23+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Nathalie “ZOENINA” ZOENINA\",\"uri\":\"https://www.google.com/maps/contrib/105764969495361493942/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUvgLV6PgxigwcIW5X6tPIpp_QeonOCawgyn4PlBQgJLhUvzDI=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne boulangerie 🥖 je recommande\",\"language_code\":\"\",\"publish_time\":\"2026-08-23T14:25:15+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Anne marie Plouvier\",\"uri\":\"https://www.google.com/maps/contrib/100997786051818510941/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI1o-H9EYchRLp0yRhwG2WD0fJQE4JRi8XqCrbFvwpp3Gltcw=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-04-19T19:34:11+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"Bernard\",\"uri\":\"https://www.google.com/maps/contrib/105127896539913847935/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX4T-cu0os5MVYgh_yBxNQVEbWbh8RTN8_VcQmRVNkZnr3SxgnmsA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Viennoiseries au top ( chaussons aux pommes et brioche suisse) très bon, j'ai déja pris des millefeuilles et des glands un régal et les prix sont très raisonnable. Je conseille cette boulangerie . Je rajoute a mon avis que je viens de fêter un anniversaire, j’ai commandé deux gâteaux un framboisier et un trois chocolats et c'était un vrai délice. FÉLICITATIONS À LA PÂTISSIÈRE.👍👍👍\",\"language_code\":\"\",\"publish_time\":\"2026-02-02T12:14:28+00:00\",\"relative_publish_time\":\"il y a 9 mois\",\"author\":{\"display_name\":\"Rodolphe Boidin\",\"uri\":\"https://www.google.com/maps/contrib/104166246333042909868/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLAKfks4V019jGPaodiyusZ0VP_lDruZ5B4OOPJPu6UVW7E=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne boulangerie et prix qui sont raisonnables\",\"language_code\":\"\",\"publish_time\":\"2026-01-09T19:29:46+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Virginie MARIEL\",\"uri\":\"https://www.google.com/maps/contrib/101393034659700091382/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK4k3zVxRZgQKgdihF0SY73two7wSrZR_khyVLB_r5H5MnbzQ=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:54:23",
+      "google_reviews_place_id": "ChIJLQMF1for3UcRq94AE_9jN0k",
+      "source_id": 5682,
+      "scope_type": "SHOP",
+      "scope_ref": "deplano",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "santes",
+      "string_id": "deplano"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54941",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5682_6af39c2d4ab14.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4741",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32922",
+            "source_hourly_id": "4741",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32923",
+            "source_hourly_id": "4741",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32924",
+            "source_hourly_id": "4741",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32925",
+            "source_hourly_id": "4741",
+            "day_id": "4",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32926",
+            "source_hourly_id": "4741",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32927",
+            "source_hourly_id": "4741",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32928",
+            "source_hourly_id": "4741",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "deplano",
+      "google_place_id": "ChIJLQMF1for3UcRq94AE_9jN0k",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 13:00, 15:00 – 19:00",
+          "mardi: 06:30 – 13:00, 15:00 – 19:00",
+          "mercredi: 06:30 – 13:00, 15:00 – 19:00",
+          "jeudi: Fermé",
+          "vendredi: 06:30 – 13:00, 15:00 – 19:00",
+          "samedi: 07:00 – 13:00, 16:00 – 19:00",
+          "dimanche: 07:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 2000,
+            "height": 1500,
+            "photo_reference": "AV-0GLfhZMsUNfX3S2gofqWY4C3kwpcq4zzMYeYHuIa1b_PYhKIwCbZrsSVHiJ25Axodb0zTofq_iqjL9VVGV6GC5AzcOuLegIPlDjB60SncChHqBF_saMFVvksiKeYxKHiEBk_6Aq_jG2VYDE90hfSOn-YD-kiLCzk3-U95q1bKQvKV8O-0R3EpOVFGQ29qbmTuaHA8Peh06p5VVOne1_-tH_tmjRu0cpiMd_j97zdATEFHDb7B2wjUDa69X_7eF9diJQ0DOkl326Fvz6S5DtPBWR167ZIDtzQU1T72djBFYdS52cC2fU_chXoLRv-uDWhgKHL8tMP4sX4q69A5Dei5u20S2b3O15wGvHOy4BzGOfrQYwdm9vagUolkkVXbz-4_JuYcss9Q7SbEwlTrmEgd9dDyACo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109116049476023795742\">Terrain d&#39;ententes</a>"
+            ]
+          },
+          {
+            "width": 948,
+            "height": 738,
+            "photo_reference": "AV-0GLfDN5_JDXRap0lVFWsOy63CQux1bScZ2rcvR5R4IgtDUN2APGMq8qgt_-ZS4DzjcwpkxYTx4g8K3AQL75LXFvBWwrIxJQZ9qd7gcB6DeEEJXaZogTBVHVdaBHWv9EtsVzOdVeRWlvqgc1hU1b4gweCxoShztRuACNOYirgB4F3uqI5dBYMoIQ7eMNRXB8TAOCauXYpd4DbxltNipaZviS4Hkr_exiga32xYJ-oRB2FNHaf8nqDOHiG5YQmaPvExxwTmxMEAlnNozk_D1GMZiZzhwAZlkmtCRwcaeFxpmnthdGDZWaYEzPhVVJDUgwt-ljg7eqkTCCezmSbWc9EhUBWZ2RTOwvRQ27IS5xr4vlnXibfu0fPhw-om6yGXdpZ-KpVllMcwQXykLcAZagaolBxtctYaCgY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105364375180725654369\">Christine Nowak</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1920,
+            "photo_reference": "AV-0GLcYCXfUIyFRTSWyLA9ygQ2JtNhRTnQ2Qc-vRd6_ht_pRFU7RiurJE0Lm1wTLRaQkocCeIO8eETkM0FR55ilnanz_kZdAwkLRtFTOTaneIjZ9Hyb-Cz4_It6zS5FJERIhOWiwfodFrehH4DjwpnUxuLn271WIIddNkHPCkQHhNFFQ5PKucFlGz3z-iiSyMUq9nbGJEvJ6afDn_QgZdTYZxdRl-AvWUXTdwV6nKC0Sjf-p_WvfyDA7mDRe4aNlOwehR5m9qal_Sv_5Trungi_nQXbvytM2Udqw_MhG6UtDH-HnT71aBQESaTMVqTq_mqKKWseg3aHu27BvnwgMwgf3kmsPaOUEX5WhPSARa_Qfnqikef0jvMq4RKiyK0W0wQVFcizrpjS1FRPlMInIlwMxJ_ZIlBJ1z2vt3j6ha0oCNVrrQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103048668212270926708\">Frederic Dartois</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5682
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Alors la, cette boulangerie n'envoie pas du rêve en façade par contre question pain au chocolat, croissant et les différents pains il n'y a pas photos  !!!! très très bons !   j'ai essayé une autre boulangerie a Santes et franchement pas de comparaison sur la qualité des viennoiseries !",
+            "language_code": "",
+            "publish_time": "2026-09-22T12:46:23+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Nathalie “ZOENINA” ZOENINA",
+              "uri": "https://www.google.com/maps/contrib/105764969495361493942/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUvgLV6PgxigwcIW5X6tPIpp_QeonOCawgyn4PlBQgJLhUvzDI=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne boulangerie 🥖 je recommande",
+            "language_code": "",
+            "publish_time": "2026-08-23T14:25:15+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Anne marie Plouvier",
+              "uri": "https://www.google.com/maps/contrib/100997786051818510941/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI1o-H9EYchRLp0yRhwG2WD0fJQE4JRi8XqCrbFvwpp3Gltcw=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-04-19T19:34:11+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "Bernard",
+              "uri": "https://www.google.com/maps/contrib/105127896539913847935/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX4T-cu0os5MVYgh_yBxNQVEbWbh8RTN8_VcQmRVNkZnr3SxgnmsA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Viennoiseries au top ( chaussons aux pommes et brioche suisse) très bon, j'ai déja pris des millefeuilles et des glands un régal et les prix sont très raisonnable. Je conseille cette boulangerie . Je rajoute a mon avis que je viens de fêter un anniversaire, j’ai commandé deux gâteaux un framboisier et un trois chocolats et c'était un vrai délice. FÉLICITATIONS À LA PÂTISSIÈRE.👍👍👍",
+            "language_code": "",
+            "publish_time": "2026-02-02T12:14:28+00:00",
+            "relative_publish_time": "il y a 9 mois",
+            "author": {
+              "display_name": "Rodolphe Boidin",
+              "uri": "https://www.google.com/maps/contrib/104166246333042909868/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLAKfks4V019jGPaodiyusZ0VP_lDruZ5B4OOPJPu6UVW7E=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne boulangerie et prix qui sont raisonnables",
+            "language_code": "",
+            "publish_time": "2026-01-09T19:29:46+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Virginie MARIEL",
+              "uri": "https://www.google.com/maps/contrib/101393034659700091382/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK4k3zVxRZgQKgdihF0SY73two7wSrZR_khyVLB_r5H5MnbzQ=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 33
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1162,
+        "bo": 124,
+        "front": 1038,
+        "estimated_cost_eur": 4.05
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pain au chocolat, croissant »"
+        },
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pain au chocolat »"
+        },
+        {
+          "string_id": "mille-feuille",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j'ai déja pris des millefeuilles »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j’ai commandé deux gâteaux un framboisier et un trois chocolats »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "excellents-patisseries",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Viennoiseries au top […] très bon »; « les différents pains […] très très bons »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« les prix sont très raisonnable »; « prix qui sont raisonnables »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "matin",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires d’ouverture dès 06:30 du lundi au vendredi et dès 07:00 le week-end."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie appréciée pour ses viennoiseries, pains et gâteaux, avec des prix jugés raisonnables. Ouverture matinale; les informations disponibles ne précisent pas la consommation sur place, l’accessibilité ni les moyens de paiement."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "deplano",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "croissant",
+        "pain-au-chocolat",
+        "mille-feuille",
+        "gateau"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5682,
+    "changed": [
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "153085a3bcb9da9f79150764724a65cef8c89a8101fe7685a2b0d675db0fb957",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie ne confirme les équipements, l'accessibilité, les modes de commande ou les caractéristiques d'accueil."
+    ],
+    "summary": "Friterie située au 1 bis Rue Danton, à Hérin."
+  },
+  "meta": {
+    "cache_key": "dacb07d73c354bc36f7f2f85fa3ad2a855238bf1de1813cd1573d6214f79f0ee",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

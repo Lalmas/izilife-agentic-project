@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 18:30 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement, les équipements ou les publics accueillis."
+    ],
+    "summary": "Friterie à Houplines, ouverte le mercredi au dimanche le midi et le soir selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "1e2b74256cde587e65d5a237787aee87649afe4710bfdf8c133628725d6a29f2",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

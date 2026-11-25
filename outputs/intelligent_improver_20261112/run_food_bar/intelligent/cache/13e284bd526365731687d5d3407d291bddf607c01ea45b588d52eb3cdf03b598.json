@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "experience-originale",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« repas à l'aveugle »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.75,
+        "source_url": "izilife://current",
+        "evidence": "« expérience du repas »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.68,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« expérience du repas »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« de très bonne bière »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« de très bonne bière »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles sont limitées aux avis fournis ; les autres caractéristiques ne sont pas renseignées."
+    ],
+    "summary": "Brasserie appréciée pour sa bière et proposant une expérience de repas à l’aveugle, décrite comme un bon mélange de saveurs."
+  },
+  "meta": {
+    "cache_key": "13e284bd526365731687d5d3407d291bddf607c01ea45b588d52eb3cdf03b598",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

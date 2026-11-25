@@ -1,0 +1,118 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« on s’arrête avec plaisir »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« un petit verre entre amis le soir »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« entre amis »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Une adresse de proximité »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Le café le matin »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« un petit verre entre amis »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« l’ambiance est chaleureuse »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Le café le matin »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« le soir »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "verre-entre-amis",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« un petit verre entre amis »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« un petit verre entre amis le soir »"
+        },
+        {
+          "string_id": "cafe",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Le café le matin »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Le café le matin »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "point-relais",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« un point de retrait et dépôt de colis »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie de proximité à l’ambiance chaleureuse, appréciée pour le café du matin et le verre entre amis le soir. Elle propose aussi un point de retrait et dépôt de colis."
+  },
+  "meta": {
+    "cache_key": "c6055e66dd072d86ca21a53e62bf3992ff1dd03547b40ac8f78fcc355bebe1a1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

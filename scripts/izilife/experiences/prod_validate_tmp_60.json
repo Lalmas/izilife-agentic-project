@@ -1,0 +1,84 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:10.462926",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 60,
+      "title": "Running Club des Copains Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://runningcrews.com/crews/running-club-des-copains-lille-lille",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "session_configuration": null,
+          "session_contents": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Runners of any experience level are welcome to join."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "The crew runs together at an easy pace."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Runners of any experience level are welcome to join."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Runners of any experience level are welcome to join."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "The crew runs together at an easy pace."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Runners of any experience level are welcome to join."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://t8kzx1ayyrhkfmqg.public.blob.vercel-storage.com/crews/runningclubdescopains/logo.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 60,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 102,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:16.572477"
+}

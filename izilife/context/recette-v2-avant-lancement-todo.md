@@ -118,6 +118,50 @@ Contrôles réalisés par Codex après création des abonnements :
 - [ ] Vérifier les éléments Agents déjà indiqués comme réalisés dans la checklist source sans les redévelopper.
 - [ ] Mettre à jour les documents de contexte après validation de chaque domaine.
 
+## Agents éditoriaux — référentiels à enrichir
+
+- [ ] Auditer les valeurs réellement rencontrées mais absentes de `MusicStyle`, `Dance` et `Sport`.
+- [ ] Dédoublonner ces propositions avec les noms, alias et `string_id` déjà présents.
+- [ ] Préparer les nouveaux `INSERT` à la fin des blocs correspondants, avec des IDs strictement séquentiels et identiques en local, staging et production.
+- [ ] Ne jamais faire échouer l'enrichissement complet pour une référence détaillée absente : appliquer les autres preuves et conserver la référence manquante pour validation.
+
+## Recette globale des agents avant activation du cron
+
+Le cron final ne doit être installé qu'après une exécution réelle et contrôlée de
+toute la chaîne de production. Cette recette couvre aussi les agents anciens déjà
+testés : une évolution du Hub, des contrats JSON, des routes PHP ou des
+référentiels peut les casser indirectement.
+
+- [ ] Terminer et contrôler les transferts en attente : cible active, source
+      archivée, `in_on_place`, médias, relations et deuxième passage idempotent.
+- [ ] Tester l'améliorateur Event manuel piloté par Excel avec une URL réelle.
+- [ ] Tester l'enrichisseur classique Place/Shop, le chasseur de lieux et
+      `curate_places` / `createur_lieux` sur un lot borné.
+- [ ] Tester les deux parcours de l'enrichisseur intelligent sans retraiter les
+      données déjà consolidées.
+- [ ] Tester ExternalOffer et News, puis leur surveillance minimale des sites
+      déclarés.
+- [ ] Tester le gros extracteur sur un Event et sur un lieu complexe comprenant
+      des équipements ou missions.
+- [ ] Tester Facebook et Shotgun sans modifier leurs données déterministes ni
+      provoquer un second appel LLM inutile.
+- [ ] Tester l'agrégateur territorial Event sur un lot borné : collecte,
+      rapprochement, refus des doublons puis envoi des seuls nouveaux candidats
+      vers le Scraper.
+- [ ] Tester le validateur EventTmp sur une petite file réelle, puis contrôler
+      Event, Representation, EventSerie, AnnualCelebration, récurrences et
+      `is_another_date_of` en base.
+- [ ] Tester le validateur ExperienceTmp sur un petit lot réel et contrôler la
+      fusion, les médias, SC/SCC, EAP inactifs et signaux éditoriaux.
+- [ ] Pour chaque agent : vérifier le code retour, le rapport, les erreurs HTTP
+      et PHP, les écritures BDD, l'absence de mutation partielle et une seconde
+      exécution sans doublon.
+- [ ] Contrôler après la chaîne complète que les files TMP, validations et
+      rapports ne contiennent aucune erreur silencieuse.
+- [ ] Installer le crontab seulement après validation de tous les points
+      précédents, puis surveiller un cycle nocturne complet avant de considérer
+      la reprise d'activité comme acquise.
+
 ## Sécurité CSRF
 
 État constaté le 10 septembre 2026 : plusieurs formulaires transmettent déjà un jeton CSRF, mais le filtre global est désactivé dans `izilife`, `izilife-admin` et `izilife-partner-admin`. La route front `payment/pay` n'est actuellement pas protégée par le filtre CSRF global.

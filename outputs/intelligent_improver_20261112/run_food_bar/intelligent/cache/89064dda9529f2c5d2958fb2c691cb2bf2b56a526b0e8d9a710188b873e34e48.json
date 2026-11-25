@@ -1,0 +1,103 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Ambiance très happy lors des évènements"
+      },
+      {
+        "string_id": "bien-pour-concerts",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "évènements (concerts ou djs les vendredis"
+      },
+      {
+        "string_id": "lieu-anime",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "concerts ou djs les vendredis et des fois Le samedi"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "concerts ou djs"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Equipe au top et proche des clients"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "bières brassées sur place"
+        },
+        {
+          "string_id": "concert",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "concerts"
+        },
+        {
+          "string_id": "dj-set",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "djs les vendredis et des fois Le samedi"
+        },
+        {
+          "string_id": "ecouter-musique",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "amateur de sons"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Ambiance très happy lors des évènements (concerts ou djs"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale un accueil absent en journée : « Pas d'accueil en journée. »"
+    ],
+    "summary": "Brasserie proposant des bières brassées sur place, dont une triple, une blonde et une IPA. Des concerts et des DJ sont organisés certains vendredis et parfois le samedi ; l’ambiance est décrite comme conviviale et festive."
+  },
+  "meta": {
+    "cache_key": "89064dda9529f2c5d2958fb2c691cb2bf2b56a526b0e8d9a710188b873e34e48",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

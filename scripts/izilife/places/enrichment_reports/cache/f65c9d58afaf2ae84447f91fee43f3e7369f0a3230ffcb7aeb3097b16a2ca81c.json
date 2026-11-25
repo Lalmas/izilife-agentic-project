@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « restaurant-rapide »."
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « restaurant-rapide »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Le nom du commerce est « La friterie de Seclin »."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, les horaires détaillés, les moyens de paiement, l’accessibilité ni les publics accueillis."
+    ],
+    "summary": "Friterie classée en restaurant rapide à Seclin ; les informations disponibles ne permettent pas de caractériser davantage les services ou le lieu."
+  },
+  "meta": {
+    "cache_key": "f65c9d58afaf2ae84447f91fee43f3e7369f0a3230ffcb7aeb3097b16a2ca81c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

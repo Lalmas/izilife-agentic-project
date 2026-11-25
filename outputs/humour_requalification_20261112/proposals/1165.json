@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1165,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.62,
+    "evidence": [
+      "La catégorie existante est « stand-up ».",
+      "Le titre « Sarah-Anna — Salé » et le lien source ne précisent pas une autre forme de spectacle."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme du spectacle n'est pas détaillée dans les informations fournies ; aucune recatégorisation vers comedy-club ou one-man-show n'est étayée."
+      }
+    ]
+  }
+}

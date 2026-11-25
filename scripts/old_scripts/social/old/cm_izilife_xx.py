@@ -473,7 +473,7 @@ def call_llm(system: str, user: str, cfg: dict) -> str:
         from openai import OpenAI
         client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
         r = client.chat.completions.create(
-            model=os.getenv("OPENAI_MODEL", "gpt-4o"),
+            model=os.getenv("OPENAI_MODEL", "gpt-6-luna"),
             messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
             max_tokens=1500,
         )

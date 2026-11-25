@@ -1,0 +1,84 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "restaurant"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "restaurant"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Chambres d'hôtes"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "champetre",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "corps de ferme rural"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "19:00 – 21:00"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "hebergement",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "logements sobres"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant avec chambres d’hôtes dans un corps de ferme rural du XVIIIe siècle. Déjeuner proposé en semaine et dîner le jeudi et le vendredi."
+  },
+  "meta": {
+    "cache_key": "c426917e06ac2a47640f7daab5a30ab1a997085caf64d436152fb935bc3cce61",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

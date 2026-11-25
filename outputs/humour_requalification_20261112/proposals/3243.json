@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3243,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.87,
+    "evidence": [
+      "La description présente un spectacle humoristique solo racontant la vie de Gaëtan Petit.",
+      "Le classement existant et les informations de représentation désignent explicitement un spectacle de stand-up."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description ne précise pas explicitement la forme scénique au-delà du spectacle humoristique solo ; elle ne prouve pas suffisamment un one-man-show écrit et mis en scène."
+      }
+    ]
+  }
+}

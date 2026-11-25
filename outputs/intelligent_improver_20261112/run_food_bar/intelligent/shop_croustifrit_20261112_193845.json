@@ -1,0 +1,634 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:38:45",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "croustifrit",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "croustifrit",
+    "status": "found",
+    "data": {
+      "id": "5614",
+      "name": "Croustifrit",
+      "shop_string_id": "croustifrit",
+      "unique_id": "8eed4988047f6ef742385a7b674cef35",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54874",
+      "principal_cover": "54874",
+      "qr_code": null,
+      "phone_number": "+33320325041",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "4 Rue Germain Delebecque",
+      "additional_address": null,
+      "zip_code": "59147",
+      "city_id": "5",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9836524",
+      "latitude": "50.543082",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:27:21",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:27:21",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ8wT3K7Es3UcRL8EUx3887Ok",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ8wT3K7Es3UcRL8EUx3887Ok\",\"rating\":4.7,\"user_rating_count\":281,\"google_maps_uri\":\"https://maps.google.com/?cid=16855914024839463215\",\"fetched_at\":\"2026-11-12T19:38:35+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Parfait nous y sommes allés 2 fois lors de notre séjour et franchement je n'ai vu aucun changement avec les anciens propriétaires toujours aussi bon nous n'avons pas de frites aussi bonnes dans notre region donc ça fait plaisir. De plus resto propre ce n'est pas partout (nous avons manger sur place) nous reviendrons merci à vous\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T23:08:46+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Karen Taine\",\"uri\":\"https://www.google.com/maps/contrib/107627870052409672552/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKtn4xE-XlT9J3EaZ6xFvKNrn4aK4GhfwYcQkzUnpG6XdYhfg=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Accueil souriant, rapport qualité prix au top. Ont a bien mangés. Nous reviendrons !\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T08:42:23+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Yolanda\",\"uri\":\"https://www.google.com/maps/contrib/111614558551570382773/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK53o0hK7_qBCJwZihII_9y00gB2ka79x11XtCZU2K7tJ_k_A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le personnel est très accueillant La propreté est irréprochable et le service rapide, je reviendrai sans hésiter\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T21:56:07+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Matéo Turpin\",\"uri\":\"https://www.google.com/maps/contrib/106993516801915869944/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLPoVChSXfiUm1GhLCjcKMyepGCZxhhs00uKDxZe9bL3y9EDw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super friterie ! Le personnel est toujours très souriant, accueillant et agréable. Le service est rapide, avec très peu d’attente, même quand il y a du monde. C’est vraiment appréciable ! Je recommande sans hésiter ! 😊\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T17:06:02+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Jueml\",\"uri\":\"https://www.google.com/maps/contrib/104778223657723162189/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI2qIJvVP_CeQrPreafwjRna8My-54pq_uiTU11-WBNmBTWkg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"R.A.S top !\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T17:04:52+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Constantin\",\"uri\":\"https://www.google.com/maps/contrib/100511349106266273242/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU2z9jfg0rr0wpQbVh8Z1maBMmTOZ6qJWh95MKrw8vKPF4Fj0Q=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:38:35",
+      "google_reviews_place_id": "ChIJ8wT3K7Es3UcRL8EUx3887Ok",
+      "source_id": 5614,
+      "scope_type": "SHOP",
+      "scope_ref": "croustifrit",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "gondecourt",
+      "string_id": "croustifrit"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54874",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5614_6af39a49a29fc.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4675",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32460",
+            "source_hourly_id": "4675",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32461",
+            "source_hourly_id": "4675",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:2",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32462",
+            "source_hourly_id": "4675",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:2",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32463",
+            "source_hourly_id": "4675",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:2",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32464",
+            "source_hourly_id": "4675",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32465",
+            "source_hourly_id": "4675",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32466",
+            "source_hourly_id": "4675",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:20",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "croustifrit",
+      "google_place_id": "ChIJ8wT3K7Es3UcRL8EUx3887Ok",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00, 18:20 – 21:00",
+          "mercredi: 11:30 – 14:00, 18:20 – 21:00",
+          "jeudi: 11:30 – 14:00, 18:20 – 21:00",
+          "vendredi: 11:30 – 14:00, 18:30 – 22:00",
+          "samedi: 11:30 – 14:00, 18:30 – 22:00",
+          "dimanche: 18:20 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcJDSCSAk8TMFA2w6khQUEu7-DQi4e24QhK0dTATfOg_qDLsj8FUE9mq8-LKcAb29lNTJ85D6i7qh1CiuxulqBazX_PNb_xh__XHgFS-4Bhm0fWWNs9_5Fm7C_fE2nU2sLp20CwbTeIhsADXXWQn-tHEjrAuRdioEPbc8H1U_WpVOD5ES0eYCqcVN0VgEFXq9oaGl11am19Ue6-373iVPOHQHflVvH9GbkU-6aA7gjBIIBOe3LbsOQZF3ogszIiPhHhLfMVJ9LJNE0BF2bhjhqtlSy4U7NwTNuWWvW1a-zIvLCokwd1ckk_a1-Z_G2Ur8qVbYHoiGAegj3PLOgsFCpGIFE_ygYrMC3euZmDGbwnnLUaLMpp07DcACnD7v9BbxHjM0hLHXONUSZA-lBwjNfDzy8qQhchOIzDPI7ckaQY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106753700524425577150\">Croustifrit</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLeg6WAflEZX74IrhRqmevyhKt1Ejb1i6fMVn9qgRBm6frTqcBqPjO0bPKrgm6O3uKXJfYViGu20mFoMgA1r57cvxScqi0t8FVWOdNV7ukAUtVjSqCd0ekGkCcV4HzyUPz5PBrxedvvPLPnnUhRn2qglWCAUVsPA7yozP7t3LaypNAwuGh8_rcTkk53B-rREp3HRi4VGlm6GM0NawcerT5b-xx16f4cOn-Tiu1TzIFa3nLlYxQ_2khjgKIx__7q_6dqT0K8QZZ8Jh5TgpFOqdp7lGsPwNyBSSwWMVObwrYTEmBLiw0AvEwUJPhw5JUJyrKBY2WkMgQOU4HhqAXgwhFfugkXHo_aaMnRQ2-x3Xxl1urIDrhC6lj9y7N4bYJlgQJs8OX-r0N0tocoEGP1kVM6Qf68",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116154513280050169314\">david delhaye</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdx_poZXuovyFMsMGkw-VZoIKc_eryXJ7A7KK5bdEfeDiSpT-dbr4vb4vxpIKfdW6j2tySrJ52Qne2DlY1f8hWjMI8YoGM106vftmprPu2USUa1dCIUImix9evT7T-msvFz_D_kSSff4zP35VEFhiQ6OIi8wYfy5jwUOYUYFodZfHETsLPAaaMuOU0_qsa0AAe0fu7WQXceEoEYafGSqltf3C6MM4gHdJ9YC332NxkO2_UO6nHRsjBkTTn1zbP-3jGo7NFxP6T9n410q-QepsXCbfPRDEOKlfp4arY38CF_WsyPSVg-BMzLYd3mr_nUgozL2EE3dfEGYlJFmq-BFj0KDHWBxG2_75BJQgxBvEgijBkMBmPQGkv2E3KZMK1C6T28LZgMJnYsORFLVoyh5B99ndjuSjWCkRbBWesv1sWQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106753700524425577150\">Croustifrit</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeibn6TBcuofu2dSPFJXLuOlXpDWJtS6XNh2ylrAU-5bQ1yct8UqIC-hM1fqdQpJhLI-uWP2kzv0Rqs91spWnn1W7OuOeElg3-CZfpdEf_NjTTXOj_izrD25HKQQ2JSL2kXn_7V4N5BcDHZJ7NNC_V1KZf2iyo_i49RGxuSSx2QfmCdzptwKd9o7xQYsOGTAqO3q8UwcGJU5LoVHITXIkKqpKxFNgBiI10eJxgVMyNl7QlwYTYgck4f5yCkOOD7a_UiEPmGpPDAOHR3wm33SgVsKoHHlNwAmb5kSNe4MCF5_Q4WKA7f0PcCX7b93xlZAfnrhEpOK2jKalf60onW1hC-bQ4NVaUU3dm41v6T4bqMxOA3_ujEWcCDZ_pCBmmc-2ZGD7SluebxRgTnZE_Gdffkv5VZreZgy_SpuSfRHgB2yg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106717341233799752887\">Camille Grard</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe1Ak17OfTBJKBCeGy1hYK8A8oB2aU6IS2czaU_ShQLSz_9gMd0_38hWR9KeybmFGpVUQoOzGdaJ6et7H6ZgC7_KvVNrpU5FpgxaueqjbhWzNrbuafkHDsxY4gfDBwljjPZAgmCQfZjdwjD5f6APV_MZCCziam6G4ef_8w8NdsofG7WRtkPH4oLE-eNSR6wQrstXN5ZRf-qUWFVwXpuH3mdWhtPrx9FJuqlf88NKyi6hdU7fCxUw8Rhk4uA6-1JctfegGaGMrlWy40bJ_G_BTXPx4mOCyzWNODQkyqGjF-4SHFvEMdh44VE_7pQQfBJrfkZ0RdHehBXa6LDv2dR1eDf5uZIxyMMXeje_yb4rjbSn_p41GxGe08D_fIPxmjF90tDdQbNgyMp6Ic2ds7_udLp2DpDHeIPKsdov8SLbUmsKQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115133635294774070495\">Elyo Cattoire</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLcv-STf9nwFwFN2wtJWQGYuc3VpH4RqtL5kazRS8ZYkYs-LRrNvRKX7AgICKTaobUfUmddlfTIVdBTj2FlamU0T9WKej54rwUiaTSoaWXTkz6be8mrCe04-IBJ7NkRwxGqWp3ky8bpznuPZ5dTU0Yt_wdGygOdb8ZRWVAWkq8WhYLXP2cdOUgIkOxV5u0TJ6d0LgJgdJzDeyKTNNOiHf6oXnpUvHbapXPofJflf-e8D207SPpFlJDMSD720uUWUe_IwS-vYe7D3ILUt_c_0SpLOeaNeLQ8V1a2M1r8pWf2JDjsCYdv0FOD3p1scPePt0s9bY7mNg6xAPTVoYscyfPN6EghU-DowAZ07N_fc96pJGppFH4Z2Zj99vZo9FRS3DD8XWXY2rRdbpomfR9JpA90kW4VesKnjiRysSpczFK5SOw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112855624154064584119\">geoffrey selingues</a>"
+            ]
+          },
+          {
+            "width": 1008,
+            "height": 1792,
+            "photo_reference": "AV-0GLeh7WTdlhVFpKMdOUvW9ezi6Shcm0w1ekXyQy2yeWlTQ0mj8mBDJZ19S-jiIZbj79SqVHwm678M3k3UXgvSQq77mnqbbmT5cTOzw8dE-413j-KKU6dZscIBbb7Hst25ySLuEq-LAnLb66v75Mnb1xAphfX2epuXIx68POTj5q_A0QFFxem8Zs2wFwhoi9Tx6JsqjF4AaXnkiqn8VtebYvTIjvAPD4G_ANfeglg-IvaKLpkrowLC4Vmj7I6ypdjA1OktbNMB-Ar4EYix__wYjd9Z0rrLWzNZO4MgEeGWMIScCPltn75QfyreS_b-spc4jsueEPMg6jxo0RcZKPjIwgAYHiWfNVUT4Ik-aCeKo5RDSoXpPRSgxRabfNRht_UIQuoj_zllAmpwnAzGRiM7l9pxohuFKd4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101532828607614866354\">Iliriana Mrn</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLf6RBnRYmJuqA0UPGCSmnz1S1SxwPo-X9QSjiKX6FgJb0BzcRmVhy4N2DJNlyCMArGizE3Esvz040x7QAYGSE0mJZjCdCtqAvlxLmbyruV0kYjzB4vZWhb3pqbASilQ80HnI32Ji1p-TtKpl42eeKbtJ6x_jx6i9w_z_haTi49LdSB_JnjX7UbRTEX7wAYPvug3p9fZodCHfJZMG4-Ip0wjuAvFeSrlaP0P1sGZVOE_qYgUBDRfxR7Q87I9uS45jrGU5UOlswIrK2sD7myzHTDqQo7HErr1AYERl0HpJhxBD7DWglZrqmHurKXm4_c_NygnwQGLsKI3o0RR10oLy6VgZETjNfwxtGWQVosohspOVklls9IoBHbpp8iSm0YxHXqe1G2baAt57sVj9hiVPQhFdU87",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104172356258675048164\">jean-baptiste paquier</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLclesy55dgwlRHgtyOIoCGY4jt8s1PKzg_QRnJmQ56kyV2xyVRfEKBcuJa1Ua9cD1rCCzdCuAw3lEq26_iFGO64XDsu-osOcIAyeDrN0HIs-DQxjU5aW8VZdYBoqDwVp7qBrBmxzFtgemFoi0YO6yi94NoN8V7vKsB1vVXTu0l23JTyMy3OKpwBGCLJJHEOIZvD6z9FzCJ6V2Li_q6She-pzN2J2v04BG55aLLu2JALFc2pqE49eBZH0atYtK3GcyVlxNdpLZ0AH5htS561unCJIh9InuW53GonjVfB077y_pZYoEJ5cgcyeXAWcgh1KiRvxwDpBJYLUYVQAfdIMP-VL4gBCL34dbrDtBpZeDCKjlP9SfXfzEtlXzynhJwchIuNHw3v2Hsg5Nfbh4Tce69XzpCKwKs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106057062874366509591\">Simon Weymiens</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLe-cpFzhIfyilq8kdrT-vhpUl3bdCZrYug66etXRBHG2TG1xYiFhi3eQOya2gqjujYXwz3RlMzZF3_Mp4pZTBaNHINv_84Gt9zTPRsrbsKHwZbutB1KWw1ZkIGe9zzbw9isJbG63TctOgPiFa-EKeMaD5I-5XGhMntXssrwMn45ozpWu-TktNrJu2Lj2fC0NzwcpHMjmdvJuMFZIk4D4mJ28FgjP4OFTozz7W4ogS3BMffB1mRfBbg5m8zT6ir9mJwP7VRUAUqraKnupjcOydTg-hPoUDCmUTxrFBa7grpNBnNsMcjSmN2vSghIr1eOcRaJsFolbYFkZ-mn4u3A8y_eEFbuOUmM36G1R3Sa9qQfOk_Wi-pn9d2zAhK5J1vuxAOIlVgZdw2qsyRxINJNxQ_nQWeqyWA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104172356258675048164\">jean-baptiste paquier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5614
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Parfait nous y sommes allés 2 fois lors de notre séjour et franchement je n'ai vu aucun changement avec les anciens propriétaires toujours aussi bon nous n'avons pas de frites aussi bonnes dans notre region donc ça fait plaisir. De plus resto propre ce n'est pas partout (nous avons manger sur place) nous reviendrons merci à vous",
+            "language_code": "",
+            "publish_time": "2026-11-10T23:08:46+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Karen Taine",
+              "uri": "https://www.google.com/maps/contrib/107627870052409672552/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKtn4xE-XlT9J3EaZ6xFvKNrn4aK4GhfwYcQkzUnpG6XdYhfg=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Accueil souriant, rapport qualité prix au top. Ont a bien mangés. Nous reviendrons !",
+            "language_code": "",
+            "publish_time": "2026-11-08T08:42:23+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Yolanda",
+              "uri": "https://www.google.com/maps/contrib/111614558551570382773/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK53o0hK7_qBCJwZihII_9y00gB2ka79x11XtCZU2K7tJ_k_A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le personnel est très accueillant La propreté est irréprochable et le service rapide, je reviendrai sans hésiter",
+            "language_code": "",
+            "publish_time": "2026-11-07T21:56:07+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Matéo Turpin",
+              "uri": "https://www.google.com/maps/contrib/106993516801915869944/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLPoVChSXfiUm1GhLCjcKMyepGCZxhhs00uKDxZe9bL3y9EDw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super friterie ! Le personnel est toujours très souriant, accueillant et agréable. Le service est rapide, avec très peu d’attente, même quand il y a du monde. C’est vraiment appréciable ! Je recommande sans hésiter ! 😊",
+            "language_code": "",
+            "publish_time": "2026-11-07T17:06:02+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Jueml",
+              "uri": "https://www.google.com/maps/contrib/104778223657723162189/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI2qIJvVP_CeQrPreafwjRna8My-54pq_uiTU11-WBNmBTWkg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "R.A.S top !",
+            "language_code": "",
+            "publish_time": "2026-11-07T17:04:52+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Constantin",
+              "uri": "https://www.google.com/maps/contrib/100511349106266273242/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU2z9jfg0rr0wpQbVh8Z1maBMmTOZ6qJWh95MKrw8vKPF4Fj0Q=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 281
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1114,
+        "bo": 76,
+        "front": 1038,
+        "estimated_cost_eur": 2.8499999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Le service est rapide »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons manger sur place »"
+      }
+    ],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous n'avons pas de frites aussi bonnes »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons manger sur place »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Super friterie » ; « Le service est rapide »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.81,
+          "source_url": "izilife://current",
+          "evidence": "« Le service est rapide » ; horaires du mardi au samedi dès 11:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au samedi dès 11:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du mardi au dimanche en soirée"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie avec consommation sur place signalée, frites appréciées et service décrit comme rapide. Horaires indiquant des services le midi et le soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "croustifrit",
+    "operation": "ADD",
+    "tags": [
+      "service-rapide"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "KnowedMeal": [
+        "frites"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5614,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "bd4fbc94af6aef710cd7c0b68f3f434bde1faf5a370c11e3c81a7f30745f9ad5",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

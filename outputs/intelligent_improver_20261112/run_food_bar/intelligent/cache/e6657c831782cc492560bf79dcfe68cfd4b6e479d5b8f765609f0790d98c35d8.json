@@ -1,0 +1,82 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Commande d'un couscous mixte pour 15 personnes"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "tout le monde s'est régalé, les petits comme les grands"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Commande d'un couscous mixte pour 15 personnes"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "les petits comme les grands"
+      }
+    ],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "Commande d'un couscous mixte"
+        },
+        {
+          "string_id": "agneau",
+          "confidence": 0.79,
+          "source_url": "izilife://current",
+          "evidence": "la viande tendre"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:00 – 20:00"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "tout est fait pour le transport"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Traiteur proposant notamment couscous et tajine, apprécié pour ses repas copieux et ses commandes de groupe. Les avis évoquent une expérience appréciée des petits comme des grands et des plats préparés pour le transport."
+  },
+  "meta": {
+    "cache_key": "e6657c831782cc492560bf79dcfe68cfd4b6e479d5b8f765609f0790d98c35d8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

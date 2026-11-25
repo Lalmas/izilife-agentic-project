@@ -1,0 +1,517 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:26:03",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "coeur-de-ville-noyelles-slens",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "coeur-de-ville-noyelles-slens",
+    "status": "found",
+    "data": {
+      "id": "5809",
+      "name": "Coeur de ville Noyelles S/LENS",
+      "shop_string_id": "coeur-de-ville-noyelles-slens",
+      "unique_id": "763ba0a5b4c856ec3cc35f1eafd91241",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55064",
+      "principal_cover": "55064",
+      "qr_code": null,
+      "phone_number": "+33973639406",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "135 rue générale des Gaules",
+      "additional_address": null,
+      "zip_code": "62221",
+      "city_id": "1270",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8865361",
+      "latitude": "50.4199796",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:53:04",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:53:04",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJj1vzkCUz3UcR1JEbJ4qlTiQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5809,
+      "scope_type": "SHOP",
+      "scope_ref": "coeur-de-ville-noyelles-slens",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "noyelles-sous-lens",
+      "string_id": "coeur-de-ville-noyelles-slens"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55064",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5809_6af3a050677f7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4868",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33811",
+            "source_hourly_id": "4868",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33812",
+            "source_hourly_id": "4868",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33813",
+            "source_hourly_id": "4868",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33814",
+            "source_hourly_id": "4868",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33815",
+            "source_hourly_id": "4868",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33816",
+            "source_hourly_id": "4868",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33817",
+            "source_hourly_id": "4868",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "coeur-de-ville-noyelles-slens",
+      "google_place_id": "ChIJj1vzkCUz3UcR1JEbJ4qlTiQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 20:30",
+          "mardi: 06:30 – 20:30",
+          "mercredi: 06:30 – 20:30",
+          "jeudi: 06:30 – 20:30",
+          "vendredi: 06:30 – 20:30",
+          "samedi: 06:30 – 20:30",
+          "dimanche: 06:30 – 20:30"
+        ],
+        "photos": [
+          {
+            "width": 1280,
+            "height": 719,
+            "photo_reference": "AV-0GLc67V3dFkc9r6lne7ydx0GjS7KKFkWCFsRf1QnjwQH6B52MZvr3qArUNvWzWlrtIhRS8FhtbAjTnCMWzlrw2nOXeh7wPFNF_a0PLH6qPjus296lKh-FZp6owL5MxXT_R4-DyPyONyuC8SWHnnEwBnn4dhUX_HEvKKo-z1BB-9G5Jrn6v9HXwAW4E3VhnZmWfz1r2AayHylgaTq_4fo5QI2JtkB_T6q5HnRf8MLMaOmcWUTfyqTr3WuLwDfmdTEt9RXKXvdmAbyl0p3RwMceRC5dLZ3YhxGCIPEycDV3F9k_WCiyOwdwbT8Vi_KzvcbUgrmxGAN4sa5_6UYXOmepDEU6MzCud3Eo7zEOJwQbpakdrpSp1H5XbR-yvi237O9CQepjcpgoX8q3eAh_QAJbFWkdw_k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105660187106242229414\">Coeur de ville Noyelles S/LENS</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdS902btrRcp58SoZ1ZE_6QtNmB-iN1xp3a3Nj57dK6jrMLOu-kWRImEMLPLcFFmkVSH72Lef2H0UTm4OV9Di1JJq6l06XcTYOEcUOKpevEn-wQGOvEH0gHMedSzGa8-kmtGVxz6-qixXOeqqwybmcCBTgAX87TrK7rmbo5VlrHAaS3Z3Cb4XIDSHFRBOQKAdTUYzYhpM0_SQdbWA90KQ92wk_I1ZqrMIDGUheN2Tv7srQkkNeCrDFZK-jwtBzo9yocBPdRvqwhxVT4O5nDMYkShuROjbxcVhn6-J8d3WyzkcHzOoobd4aDncdhx6O66B6Fd9Fo-gBoJaGbnKeIFaQreBg247TPlGNtBEm6BfUpOxAzRZF_DZ8muZ_yTu5ZXw_E1K71OR4QbgcoP8o_pyk3H06Mc-x_tOMGPnfP-zd7HA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109763534203565003447\">Abdellatif Elfari</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLdtR4J3_15gdUsn6hPbFoP_hy148PC-QNfgalfxyxSZn87bNupwBOb5jRJ7rmQRaN9fTktmW0yL9oYvq6QJx6ThMZPze_J4pgptoLFwAClNVki3sJ-CeluTRc7WPg2qYFSbg2UdvlZQ-mePGWs_C6-b70D_9CxGqHOwVRSSkKC7yKl8S5gUWorbZtvnzYSm6Sf_C-VgDLELrR5n9zUHeqfCKCBH2cRM_usJa725jA6VqlsqUagXF0HOtwXRHIKzznVDNnFpZYX2_MWAvLp3Q2ECYVskO-1rrqOwtWmZwMJItSgnYLY1JGZgtPdy4jU-hPR8s642ONbMBDQE6d3IC6BW0VjZqSptkVur3hR_ENDEnnoRMH_qI_Ni7sHsnVkkQ_Ct6xOxVdoH-4ANMGVfrMls6lNV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116031194199065096805\">KIngKong</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 810,
+            "photo_reference": "AV-0GLcH3lByCRbNHO86oqOqsp7Rn1U7wM139Wi-6gvm43qfcF67XtJ1z3HeR8ir2hUZk-w0uivu2VQ55LAJtz_0JvEKy4KiwozcamFx9ZLcQ-61vlHprxQemAtH9Elps_deIDHBL-ZbvZsg1NkCNUVIAvzpb6OGMa1sHyowxzfVvypoN4rCm1-V-NVXy_cbhxiVhqQMoM48UHMiYuJOvVdgdOU3Jsv2ClsOoelGzogvcNcnRZ05IC5tMfgoH1sDYJHwpKTJ-o14B61fSYRJphfYORNgyOSphZvDtHtgvB3Ie6m4pFmauOZxKMpmH9G4-YCjD08E0ve2m1QzG3K6DNYEhxrUtrsNaa4cJZ7vfhMoKJ4cpk3df4YojOR0qH3bgkWY250UBN-gWJzSKOn3G0rLZGMpGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116031194199065096805\">KIngKong</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLesAq0XP91UERZkjqXzCq1BXvnX-81QJ82lokqySAJVS_rbdB23V6biJzgi84DWx7VUmh0xuYbwgzZGxhvjD5dlWdqRn5fU0BVokXJEwWD4hVcDNvNnl7pBDVBxN3JgbJUgf9DNYi9bFTrHo0nOVfuGp0dwv1FPMp6IgfDpu89yLqCA6u3oWYIGWpNuKGy2obktZypphEs4qvpPGegWX9UjAAYsRxDJmI7dy2Apj-jUjgu7vBPhaltIdneW-h9-Oo1jvIpNMG5PMNn6zYUxHsZs80Y4Oe7HWjGcIlGCgSB-RL4rkaPeXGAr5ACtVn2XV2aK_6GIT_FPoG1HculiypFq8KB6e5UuiTZRNHk1UMT0Uc75R7XSauUYJ_sIRL1hnmQhh7pqKN9OMvPnj0VvGBBeW4Uc9BuJJhaxhHvXdC1ElA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109763534203565003447\">Abdellatif Elfari</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfsqcdocokjmAF3Bq1CIMKRNgVyXMYCzTo8IaAa_VMeg5b1WgxdY2gA4lfkydayJYoORx3qTobpHu-KfA2d1FW2kHgxdDnnOkSw_BZgHlNzI2llquCuw1xEFTW84iyEdKhFTGpDCtsqnOg3boJQ9Xv1wFBA0UB8VONvxSl1LdjdJI8r3Cy6pq-2yCwBB4ytsr0Fne6GkBxroDLCFwaAm_Ao_10VsBA5B5Yru0krsClWwCIwVWIY4PFTcAIPycpDPOUe5gLz1aW645rYY8GYMmP4cIlFnOrSb8F5UIOE6JRLbFb-05Hya4aV0bumkeiJ7wvrWZP6gowsFXApY7sIJfK1wIGrBLXBrTtC4Xx7ZtvifyYKZwWvwG3W_ojbxJpqXYyl_rUhIjPD7YIdmFwovgfP7ZsDh0hpomEhc18CKkDQ-A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109763534203565003447\">Abdellatif Elfari</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdm2SVNzNoXoTqBaoVAbQXGMsONpqo-iQmZfaqMV4qv0NWNrelwSLHf0-XNuEae_NQiixuREhjqVi4xCjbqA9H6WiwI-GXyYpY0L0Xtd1NyZEz_QYRRlhouuvh_CgABlQ6rBezBI4mHf-EB7nHZ-6hqk4Omf8zSP9KGvbi0zj16sME41-eJAM06TnE6ilOWZZ7sCokuTJyAULGBJ1-xzjvk0bNcJia9YeTnHlbTzYjhnZeuaJzj_Oi6a6Gfce7AontnE0DeRxe0eRL19E19_8LmqLoHNWAsA9V1YfubLztQPINUNxpqNeT9QrGfghAsss_h7CVH98z6shxFLhoP6MF8xMo-fACqSI-ovV7UYeXYFXt8v4m_UUYKXsP8Z8q1wMuycTthkXxxm6uCzjk28nVJd3KZtZ-9lh2XLO9wMIdmsA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109763534203565003447\">Abdellatif Elfari</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 960,
+            "photo_reference": "AV-0GLc5bBQDOOnT5fW-YMfA1L_RkhzMxW8gKI5ki4bxdQW2DUYk0j-gdDWv-q-j6MkjeGRdzpLI_CrsebyE94_5noAznklF7aw_ZMsCq54h_yejtEcCVI0EvOB5L2qiGUINWf8iBF7AQzSE0QSZAq1eElivoLxX-Ih8NA3QSihKBxnezr1Yod9TeeHs4iSXbqhkOK4pXURMcSwwaIy7SKyrRIgjVZAQt6ngdR_WWGgvXY9TqQNJ1fMXj28W-G4uzyBM4SPbcTt8w7coiGylhaPReees3Z90yaYuFxamJPMCrjwKjAmPE-ucSdU8E9jOqH2Ggd727_I3GNHt-TYv5KPvju_qGF7OHlLCR92TcAouCNYH3MFIm47IGC1HiW2X01J3wvK_k-ZbjRteJzlCJlJPQjt4WeY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116031194199065096805\">KIngKong</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdRkZrhsdZpqVjOorZ1DiYvgEXE4Iu_kqK9CWEply3ETcuINFJQEdbcC113rrx8rk28QBSjqXFcWwVyF7lnnqkQf-Aa07YSfMEPAHL3Yn4VVU6qTEUkt_BNIo5xz7G0J1iJyspXw_W-R4SzKIvSmsB67De-kqqvCygdr9avnbguFCdJ4B8tKFbm8aXpU16_CFPIjcyZVtDPEv4TtWJtkxTlCcpFhINaXzM3bWzWmaDomzBlyN4IJJ-vYkE2Jv-RBAucdPxTpHatHoS5AD4pgCS_Lttmm6vfBzftyYGYiCgZFbRcfbGkj8h6nYXhyUvOvWNzJtwA72e0A2Hv0yJaEUEMoAziSL8Dv2dpZ5_Wk2wyoU4pQVFN7qEIzXRLcGoHpaRcxo0FIRZ-n2IwL3twFg-ZUfe2yIiJ7IsHoOcmcw2a",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109763534203565003447\">Abdellatif Elfari</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeY8eBP4-KBInkBZSWTmUHmh-9kKqlLDFMAK6z9KPdBiA6VDMVIeal1boI0GJZiBcevvGFjZLVqCGGIYLdSGsOYH3Zme9AAk-jb1jCYlhxhopWJ1ou4DxYMBIlWhxa3QLm43SD9-QIjpdXnUj-9_nu02r_LN3XSE3ehp_z-tiNG5SYe_I81RdM1-6gFhx0r6IFwDPl6RpHwLUOv6shINP1CmDl8sOq_5AedYVW8f3EAqZrnoHPjEPdpxLoCNW0djZhOYh8h7uft26QvIi7MCLhpkfNLRFccJTDcizC1_1W0geSi5TjRy5lcZFYcZHKVjwKUMAvvWfL9HWBm3Fixfe6P2prBoZ9W4MTdAwoImBL_AvFHoItzZh7PxnOcHf0FXKLIjWYXehjm-2qo8lhrBPpybPw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103316296459105754967\">Blue Summer62</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5809
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 20:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Boulangerie située au 135 rue générale des Gaules à Noyelles-sous-Lens, ouverte tous les jours de 06:30 à 20:30. Les données fournies ne précisent pas les produits, la consommation sur place, les services ni les moyens de paiement."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "coeur-de-ville-noyelles-slens",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ],
+      "VisitMoment": [
+        "matin",
+        "apres-midi",
+        "debut-de-soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5809,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "992f6c2edf67a1b4b9cd75771e7e67b2f42e12ebe99162ba69fe113e5709fcab",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Parfait du plat, au dessert »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « restaurant »"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Un avis signale du bruit : « Seul hic le bruit ». Les informations fournies ne permettent pas d’établir les options d’accessibilité, de commande, de paiement, ni les équipements ou ambiances."
+    ],
+    "summary": "Restaurant à Lesquin, recommandé dans un avis qui apprécie les plats et les desserts. Un avis mentionne du bruit."
+  },
+  "meta": {
+    "cache_key": "8bb3a78158a713ab6499383ff91b44013641eef8242f131d2d7f89ec653506b0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

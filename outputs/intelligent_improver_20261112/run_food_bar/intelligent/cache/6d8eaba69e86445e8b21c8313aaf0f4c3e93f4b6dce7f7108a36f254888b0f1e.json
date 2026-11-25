@@ -1,0 +1,188 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« manger sur le pouce »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« petite restauration le midi » ; « pause dej’ relax »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable » et « manger sur le pouce »"
+      },
+      {
+        "string_id": "grand-choix-de-bieres",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières »"
+      },
+      {
+        "string_id": "terasse-agreable",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      },
+      {
+        "string_id": "exterieur-agreable",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Terrain de pétanque et flipper à disposition »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« bières, cocktails, tapas »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« flippers à l'intérieur »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« manger sur le pouce »"
+      },
+      {
+        "field": "sell_tapas",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails, tapas »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières, cocktails »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières, cocktails »"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Accueil super sympa de toute l’équipe »"
+        },
+        {
+          "string_id": "chill",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« pause dej’ relax »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« petite restauration le midi »"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« bières, cocktails, tapas »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "flipper",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« flipper à disposition »"
+        },
+        {
+          "string_id": "petanque",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne partie de fou rire avec la pétanque »"
+        },
+        {
+          "string_id": "pause-dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Top pour une pause dej’ relax »"
+        },
+        {
+          "string_id": "apero",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Large choix de bières, cocktails, tapas »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "flipper",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« flipper à disposition »"
+        },
+        {
+          "string_id": "terrasse",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« terrasse très agréable »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« petite restauration le midi »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas l’accessibilité, les moyens de paiement, les modalités de commande ou de vente à emporter."
+    ],
+    "summary": "Restaurant et bar-tabac à l’ambiance conviviale, proposant une carte brasserie variée, des tapas, des bières et des cocktails. Petite restauration le midi, terrasse agréable, pétanque et flipper à disposition."
+  },
+  "meta": {
+    "cache_key": "6d8eaba69e86445e8b21c8313aaf0f4c3e93f4b6dce7f7108a36f254888b0f1e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "pizza",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Très bonnes pizzas »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:30–13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:30–21:30"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« l’accueil chaleureux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Pizzeria à Santes, appréciée pour ses pizzas et son accueil chaleureux. Horaires indiqués le midi et le soir."
+  },
+  "meta": {
+    "cache_key": "a8eb43b31b456caeaa8d5b7065f8f334ce833a1ee497e6cebfb1190c31976e07",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1149,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.62,
+    "evidence": [
+      "La catégorie existante « stand-up » est conservée faute d'élément suffisant dans le titre pour prouver une autre forme.",
+      "Le titre « Céline Riou — C'est drôle la vie » évoque un spectacle humoristique."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre seul ne permet pas de déterminer s'il s'agit explicitement de stand-up ou d'un spectacle solo écrit et mis en scène."
+      }
+    ]
+  }
+}

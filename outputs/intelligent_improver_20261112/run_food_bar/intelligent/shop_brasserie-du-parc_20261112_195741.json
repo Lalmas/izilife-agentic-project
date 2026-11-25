@@ -1,0 +1,532 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:57:41",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-du-parc",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-du-parc",
+    "status": "found",
+    "data": {
+      "id": "5696",
+      "name": "BRASSERIE DU PARC",
+      "shop_string_id": "brasserie-du-parc",
+      "unique_id": "74b9e644e4f33aeece8f4ba79ffb3735",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54954",
+      "principal_cover": "54954",
+      "qr_code": null,
+      "phone_number": "+33320625353",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "55 Route de Douai",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0889794",
+      "latitude": "50.584076",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:36:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:36:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJO2kFxBvVwkcRMMmIwKeBeQw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJO2kFxBvVwkcRMMmIwKeBeQw\",\"rating\":null,\"user_rating_count\":null,\"google_maps_uri\":\"https://maps.google.com/?cid=898892158126836016\",\"fetched_at\":\"2026-11-12T19:57:31+01:00\",\"reviews\":[]}",
+      "google_reviews_updated_at": "2026-11-12 19:57:31",
+      "google_reviews_place_id": "ChIJO2kFxBvVwkcRMMmIwKeBeQw",
+      "source_id": 5696,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-parc",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "brasserie-du-parc"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54954",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5696_6af39c8569250.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4754",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33013",
+            "source_hourly_id": "4754",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33014",
+            "source_hourly_id": "4754",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33015",
+            "source_hourly_id": "4754",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33016",
+            "source_hourly_id": "4754",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33017",
+            "source_hourly_id": "4754",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33018",
+            "source_hourly_id": "4754",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33019",
+            "source_hourly_id": "4754",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-parc",
+      "google_place_id": "ChIJO2kFxBvVwkcRMMmIwKeBeQw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00, 19:00 – 22:00",
+          "mardi: 12:00 – 14:00, 19:00 – 22:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 22:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 22:00",
+          "vendredi: 12:00 – 14:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLd-hmrf-yvcapJsjiqKRR-1mmbLpgbD3jgxfdNkPh5qyuey3e-7g_rhf7Ad6a4LMF2EDaO9FFdCUNk7QLMsj4PfsNAwagVEhnNST9gLCrTPd4UsQzkBZaT3350L9q3jlmGlos0i86p9k_1aolHm7ZzCC88LbuT4QJwUakvLX3owkxFjWKoa8HNIwj7l4iKEp8omc4L57ShjVA3d-vrDHiDLe4RUxLYY-24Y4brYnA0cRkvLd57UvvSF6eS8-8EE_5hoD8_CThv65YvNCXuyerREOXRxaW23oFhmDKqg7zrkaaj3bP-pPbydLc5UAtJsKXAiVaz381Xkto6658Y5yP5jz3smn69SMPAS_5p1a_eGxjXIdvmF1FZ3eRfcm_DS45p0vwnDCyN-6JbDsQcyu4L2xCbSS_AcDCTbeT2FatdTDg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 4800,
+            "photo_reference": "AV-0GLca8XUsdQ6JiBdHQzYV-oX5iucQM53_nReYURaZBeSjwX6XgAQ4gotqlmWjoxQ5zVnI0VJKCTNbyvdU25lbXbEACzXl9FNJJXRA1IIhdpfYZI0LUhuIyorZOZOM9Ny6627HcQ7JY_UTaDhpriI8d3i94dtkdVKdLN7w3Cfn-RQX5VOfdYG4R-a659cr3F5-LRz30t7pgQ6uILFyKp6rWMj5fm98PX3CIUQv9FTodJoNkDahC-DAdXq-uKK5QxQV2YncZSUvFiLW1q4Ae6R9VpmNhBUAq2ahiCwTUWHWDZiP3GPCmCOxsoSeTgQxs_vereqiYoesyqr-ViiodMOfBpnGWvRmk2ZjY_JqFL2VnIg311skDtlL1uqZFvctugzCaiMzmlycijymLJ-1_1qR-sfzgaz9wuDtTHN2oIcIlhTrHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 1920,
+            "photo_reference": "AV-0GLdy5AXpXahz3htql4WKvIhs2wEqYE-roYyFf7A3OFfVB4UX1HgURT1aVg90beFNkQ_VZBGiC7usYy75IrDv1apnp00UQPm4fpg_TkADziVK3kGUwVSAF3SC4yc4C5o7-LpGRR3sRheCnB5skbpM3_gokumo_CSE-RMotAQyylERlyvMtJ9GteemHJG_E8aR-C0Ckum9nnT3GNv8vL0gCZ5GJPc-KOBVBC2FRHUwPLVGrkiY2FiUjIELysDXhu1QDIsqDON96uUfU3BRWTVC8qmEu-gxsveT5NUaK_xRWkQawGMvjxtxu7Wydqj6NQZ2L7jiho6g0vp35k8sxDGqAqKuKhUdsvgtxWjc-2X-TB_uXslrQnozau2BYJx_VwYJMAkjW1_PEjJByXwMVItj7_5yzXShwoAxkJlEhigDvdFwhA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLf6PcXomgF1ouykhUJTU6c45lpjrMTR6ofmZfzDZMHkbPu06claXsYtTYkVclzhsYC6d_lM0SslfK7oLOuUFlXmqemOxrkkWHZMDzuneX3b38XMjnM1M5Hjr8sp_o7760PZoXBshwEwlvrHeRg0yvBa4UtHMFIuNOmqxwPcbKGKMaUNO1F5TUtiC7_DVDPtcH5ZlCI0aZTmMX17LTfHjGoNXKqkfSWrcIDJ7FGu-WD6g4eO3F9kzoDNDtzi3Od25jJSea4c2NAZNG02edQPGBkpFeAQw9svkHrpkjvG7g7CQ-rlM5NUgw_XlK-irYJx5Xs_OKdCQ6-MON9-b3AuED1ZIf-wh6w1VaEzTDf8StPeWII0N3lZg0fqHSy3n77R9XCAo0DPehmhz38kVZGySBcsny4EFuG38Ct6uSRZILIztA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLfa-BunWMKgoh_Chq3GIkXn0z0zXGN7uaODc6G4K4AOcWLyZ0UWCt3sHkCNAGZ0nIL6QFL_B0J3JbbYWPQKNuytXza2ZAH4wps3NeDsuYKfpBV8_GgF2QFbJ2QEXrb1GepS_Wn-u25OIofz5xI8Tiiru_l7hEDBwV0nh2Sa8RTfdq9P4ExMjFdxit8sI1OaUQXIRuMFMyctDKfyVTKA7YlxGZL4f9ZbWMidC8339ZrUytpwYu-DHhN3jwh9JrOFrSUwPrFBT3Z5g36hlybmE6fKc1fZ0Ll6zGWeg4zrRkb4zw9Newx0cbmXcrRQ2mPh1ggFplnbVFNOKHMz153xTpsUv7RDTHNSjL7-YphXfK4XMNZu6j0Fy8LdYWDRSbPmpguVZUz0oQzV5-h-jPfJ7fq9uPhzhYQ8ymk57qDLMdK0Xg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 2250,
+            "photo_reference": "AV-0GLcfACN1mp_pSXMixDHCED5DnE307QyXejhzA4IatAtwP_68N3xKk6zq8wfKa18DuuwlDpRzxAIUuGH0YtmUJ8EuUpP_rfMXxDV-MQWahHSojvr9CG-Ltwng4fWg3vx4dR7OQorswBbutWuhm83LBp2Fvwr02bHGKHLYKC34UiDAw_tH6BWtqoPUf6wD_nIResiK1XH-oGm53iZKp8OcKuU4ngsszguoNOc-HYeBlDlGjT_tCDR6i_WEweEYDfJxgWwludQ6-MjhU1b_MGrzz0EFNyuq4osxbtI3f2S4s880TL4mIUYPp2bivFhL3_fqr5rKmtdqjbR6OOuxssIOxiE-BV3zcMDSVBH0mylSPCYzEALCRDHRAyUYrECx3Ls16KEcoo8CMjYGKbktawl9Ujn4fmX1GL3Bi-kquOnjCRae-g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLcY2_aO7jjMZsxI25gy779ewrQLKL0Sk4F39E7s3aTzOoYa6eURsoF4NwNGqam6LC_Tt0AJcOPw44PRRpnHxDtrBrj2bW19zrV0xP7Hkf8hjV-vmYiyX2xxDDE02U4IgyoMflpt3rWJiCKJSmK80UfmqvBZuYpwNR77hHonK0YLKNf6Mdxcwil0Y5f77xjMQOCQfpvJJeoxyM6z8FIwxq7e49RHlNUdiJppQYFBR6fnc-jnp_bfvkIHXm4iccOdQyeBeFcagaUksnviAAIxGLn4E1T75rCmD9MvCAHo02t6cCTEKDqj43cdOFudtks6a0GOvb0w_TyDvNcohYWb9A_MDfdjBIJPuiO_QtcazsOYfnQ45uwaLEn45H-v3g8pAIw-S3T7-PPHkjWm6HCbdQz88kYl5LE23e_pzMqXwiYI9g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLeCKLcIniamG2EeolTPnu0butW8CWc-Y8RfEUWUU4wydVBCgyk6X8B8jPNLr--FwQCVq4eKVY0WgsRJ3mCJztF_JFnqxkXFC2GZrAbuFvTrYvQlKyu29NDWUeYPHNn3-lRxwjwFEowpFkkf9AwzbFc6LJEnq5fyS0McCWSv5mIqOWYM9iB2qXBY3ljal3hLqs7h4IyhfulZIwNQnfAWPkG275QzAtuqrkFTzd07TPrQH0oJVZGosXaokaR_ZilMckfbmbQiupJ3cpvrLl1zzjaCiB84LjbD44eLk8Mbh-e8zOOZUuigfFZHgOM016Mr8kJRkZrtPnyJBa3ncns9zedn4Q9Kmpb-BbQQrIDimDROaMRuS4cKkqUpR0KZxMmGgCUilJgjr6u_gzN0k12-ebNhBBHWFRrZKE9yh9DCfbWTKA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLeEUB1BTK9xJ_aYrX_Df4Cw-9EKkEtDPggIzysNJobgOtvZmQbbeoNPZGoLRWURjhGXATR7FZHLcpsIrba_2uvoJt2GEDcFL9LOC6DSiBTMI2dmKzHnDiq_unIjW3ZInTb36uWkTALfOSD3TzL4RPN94gSeYUElcp7gCidQuCoa_IYwUsbVyjl31-kdUXPG5-gExa7jy8tfM7nStFv4F7BgkmsHjqtY1KFDQR7Mn_EAWz3XGfTReytrFIyoT2mR-M89posSar_Ctkr5l73Hruu8Dw6dH30a0QefabyhE6pl4I9-NAp0e8RPvDr1yd7V8bfJaJTVR4475QxnYzQI24uFutkRXzEH8cc8cGoxoDFnf18BSMP6zP6FTNA4ER4qSMvoQwqg8XUUBp76Scznw2_c1L2qV5t_6GdndxiCLv8p",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          },
+          {
+            "width": 1638,
+            "height": 2048,
+            "photo_reference": "AV-0GLfKfchSi94pamNS8DeECLpt5Zr6Oiti3OoBXAjkieLCdNAxuLJv4H8VzgZHb6aYZRXUMdl613szmfzswHgtwIKA18lsGZAJtnqPAjaBfO8q1Zf2lgtQ96BeQPWxZZmFwqDaTkqQYQmnnUE6H7vhQ3hE5rgFWUa6LS-BLAI_GfPHGNqMnAT2XmEThM0L3dsWbj51DtXGN12f_K0cnGfyJz6cPdarRarggqvZrQegK4Xus8Bvr1F26q5S0UtJpPO3ZtT_73s_0xF1I3XnLXVlbtkmixUN1XNoXMSTO1fX7FcotBewpA0bKmZf4-YDiR8_QvUv4hxrRVDeNTcYNPgEd0xVXYCf1fBS8OGqBe9dYenirVu8RvkohtsNJDnD43BAbZ46hnCZjmqrw57QyYAeyhxyvU-22K8kwdgrwWU5__VB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115558526954710724095\">BRASSERIE DU PARC</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5696
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [],
+        "rating": null,
+        "user_rating_count": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1175,
+        "bo": 137,
+        "front": 1038,
+        "estimated_cost_eur": 4.375
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 12:00 – 14:00 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« Un service en salle top ! »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Une cuisine délicieuse »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« être accueilli et accompagné avec autant de tact et de compétence »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 19:00 – 22:00 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie proposant déjeuner et dîner en semaine, avec service en salle. Les avis disponibles saluent la cuisine et l’accueil."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-du-parc",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5696,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "84454bdb757c239331d68d883e335e0c9eeaae6c2ba068159727095c50a4fc6f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

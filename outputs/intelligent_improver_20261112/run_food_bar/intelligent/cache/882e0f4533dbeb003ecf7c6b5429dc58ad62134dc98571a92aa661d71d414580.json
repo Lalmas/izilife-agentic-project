@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 07:30 – 12:00"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 15:30 – 17:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations fournies ne documentent pas les produits vendus, la consommation sur place, les modes de commande ou de paiement, ni l’accessibilité."
+    ],
+    "summary": "Boulangerie Delobelle, au 120 Rue Jules Ferry à Wahagnies. Les horaires indiqués comprennent des ouvertures le matin et l’après-midi en semaine."
+  },
+  "meta": {
+    "cache_key": "882e0f4533dbeb003ecf7c6b5429dc58ad62134dc98571a92aa661d71d414580",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

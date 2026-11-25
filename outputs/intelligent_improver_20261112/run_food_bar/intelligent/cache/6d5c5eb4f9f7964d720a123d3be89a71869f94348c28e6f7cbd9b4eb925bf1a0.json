@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi à mercredi, 12:00–14:30."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : jeudi à samedi, service jusqu’à 21:30."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de déjeuner : 12:00–14:30."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Service en soirée : jeudi à samedi, 19:30–21:30."
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune source fournie ne précise le menu, les régimes alimentaires, les services sur place ou à emporter, les publics, l’accessibilité, les équipements, l’ambiance, les loisirs, les paiements ou les modalités de commande. Ces éléments restent non renseignés, sans conclusion négative."
+    ],
+    "summary": "Restaurant Le Grill à Avelin, avec des horaires de déjeuner du lundi au mercredi et des services en soirée du jeudi au samedi."
+  },
+  "meta": {
+    "cache_key": "6d5c5eb4f9f7964d720a123d3be89a71869f94348c28e6f7cbd9b4eb925bf1a0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1168,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "Le titre annonce une comédie, mais ne prouve pas une forme distincte comme un one-man-show ou une comédie théâtrale.",
+      "La catégorie existante stand-up est conservée faute d’élément probant justifiant une recatégorisation."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre seul ne précise pas le format exact du spectacle."
+      }
+    ]
+  }
+}

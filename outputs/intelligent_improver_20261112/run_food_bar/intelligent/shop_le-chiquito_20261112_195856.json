@@ -1,0 +1,611 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:58:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-chiquito",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-chiquito",
+    "status": "found",
+    "data": {
+      "id": "5699",
+      "name": "Le Chiquito",
+      "shop_string_id": "le-chiquito",
+      "unique_id": "d67961da9f50c01c4d36e64a3d86b910",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54957",
+      "principal_cover": "54957",
+      "qr_code": null,
+      "phone_number": "+33320973128",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Place de la République",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0452783",
+      "latitude": "50.5818121",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:12",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:12",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJP-SYWV_UwkcRmluAD0iiOLU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJP-SYWV_UwkcRmluAD0iiOLU\",\"rating\":4,\"user_rating_count\":230,\"google_maps_uri\":\"https://maps.google.com/?cid=13058365549942168474\",\"fetched_at\":\"2026-11-12T19:58:44+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":4,\"text\":\"Soirées karaoké au top, prenez Jean Claude dans votre équipe par contre.\",\"language_code\":\"\",\"publish_time\":\"2026-09-04T13:58:16+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Maë Yakoubi\",\"uri\":\"https://www.google.com/maps/contrib/117490636197012204714/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLoG-x0_lhs8GphiO8MOO_xa7wjtQkNNC8BEgIpibcUUUzPvQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-06T07:21:20+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Christîan Caby\",\"uri\":\"https://www.google.com/maps/contrib/115829087835087028805/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLKbwNZbF3JsCXsM8xLCv63UQ4oEPt7yQyPeyJKqp0YcPitcA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très sympas! :)\",\"language_code\":\"\",\"publish_time\":\"2026-08-01T10:05:16+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Manon D\",\"uri\":\"https://www.google.com/maps/contrib/117555571893653992167/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX9P_a7p6My9jp1nmUMgcco38EUuNmNj3qETzogOVOkeYk5qq2v=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-07-14T10:27:19+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Frédérique\",\"uri\":\"https://www.google.com/maps/contrib/106824070097464527212/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjURTHA9MbbmZg8M7shmgqjgq9wDW-76EKy_xPRIS1hbxmzCM3oO=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"Changement de propriétaire\\nLa viande pas de goût \\\"pièce de boeuf\\\" la sauce maroilles tranché\\nSalade bof.je n'irai plus\",\"language_code\":\"\",\"publish_time\":\"2026-07-11T07:00:33+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Dalila Bensalma\",\"uri\":\"https://www.google.com/maps/contrib/105393929310770903726/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIP-9m519roNp1Ragd5uJbPWOXaPulPiJBGVBA287mlt6Patg=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:58:44",
+      "google_reviews_place_id": "ChIJP-SYWV_UwkcRmluAD0iiOLU",
+      "source_id": 5699,
+      "scope_type": "SHOP",
+      "scope_ref": "le-chiquito",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "le-chiquito"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54957",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5699_6af39c9873b05.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4757",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33034",
+            "source_hourly_id": "4757",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33035",
+            "source_hourly_id": "4757",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33036",
+            "source_hourly_id": "4757",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33037",
+            "source_hourly_id": "4757",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33038",
+            "source_hourly_id": "4757",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33039",
+            "source_hourly_id": "4757",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33040",
+            "source_hourly_id": "4757",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-chiquito",
+      "google_place_id": "ChIJP-SYWV_UwkcRmluAD0iiOLU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:30 – 20:00",
+          "mardi: 07:30 – 20:00",
+          "mercredi: 07:30 – 20:00",
+          "jeudi: 07:30 – 20:00",
+          "vendredi: 07:30 – 20:00",
+          "samedi: 07:30 – 20:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3648,
+            "height": 2736,
+            "photo_reference": "AV-0GLcFHV5U_vBFF6DRzx4q4YufR3rNEVaZqcvAXZj197Z56alLz064FamD1rzVr7P1GfkSsynAcQUwaTng_eHCPrQyI0MYR0CE6sYUqGQgnQN5xDSW_LRb7IbTI9bGJKKI6uINc86BONOYsI9DG5mXqqT_XVSUMgO_RBl2kFcKnmpt5V6zjVoqkFyu-okRPTGSjdSUgofseDwv7pl65l-3omem-kAaU3DcfMCMVxwNfIUR9vpGGhksksGxqbFHqWFxNIWJRPIT_wKZD7BudmDwXDctHDP5rLz-zeSwnji2cajWp3jpV240mJgjVkwvOSD_-q69nlScn7D_BpufSXtlop3eWQhIxchBvfsb77Rr469J5bm0ouiQd0KVPaK_c2RlrlepsaISGE1yNsTHGNS7UxCY6Orpe2Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102698778438389005297\">Ruben Ruiz G</a>"
+            ]
+          },
+          {
+            "width": 3510,
+            "height": 4680,
+            "photo_reference": "AV-0GLftBbqwOvu3GaedarLtQJsPy6htaLdVlCaweY25V51AbF-uofYKRIwqx1AF5OJwLTmqMZuAUicQk4oh6Qk9t0Cr4Xu9eLHhFopn3dMUQrdCiqhxZ7w_0Ntpfdhn4Ls03xp4d3_bT41gbZppqLUtUD-ppg3KtLUa8-hS4ASUX1KxSlEQqcvghCkZjNG9bxlcBX7F-B34-ZsQjU19v43il_KvXtO2p79w5scal9Xj-EikBzZqaP1u9zgoLqahW5kjh6hp3Gaw0WT1aKTIM-CTRe864R8SOApikHaPlUyxW4QiiqpLi-xVPWFtNUwjfkqZnLBb4JRsyI4BpMINITIcqF_doFijL1wAHbC5VYnF0rY3RD7e3T0L6hNS3U8zrOeR0j6t7tlUXYHF116915loopKKqsyrlHE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeVjfmfYn-8GOO7gX2_dfe0h0RT5drF1cx-I1jCylYXYHMFeoOWtFYubSWXmM5SFD9iwVgIpl2gBXXYUZA4Qyde9zIcy3-nuoYmO9m9RuCkgk7zz16tdbVeG6WCmqxwBKVyvxIb3YErCz7kAluv1xAwxAIh0aQssctG8y9oQ6PocTqe0iGQqRxvcOjz9dpa9MAeWDZWZPSCOadHO_5Q2YoWk2q71urSqCcwH48GmT5RUlfB6s0nETwHVQ-o_TvBmV86s0LZqLms4lAjrPVU9EPSx11ioAX4jq4QlrpTXJ2uplsfoK48xY3XVO1r8Up4NSnzO8HmKz0WU_ibvwYhyvuLQ5AUdSEX_haPGZvf97qmiml9tvBD9eI9B-0oo05TIAjUit1Z4RWwQdjHaPRCOLkbkAEJ3Ps",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112927642809630576217\">Sylvie Seg</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLdSf_P1US6k0dj-iV2I93riS8RHwNtQ4tqRz7vJ2CtfPeHguSsfozhHsLvB3s8wibNVZDSVi9WWpBujfjCLOx6PHk-x5dcFxahRWjDASSjizueUHXM-r0SrlKG8uiI4eBURNXwDzQrljuuNguonJmIdIArwOgpmo5c5kNEoDy810RkNh8s9EMaf27eI7-mO3oSTDbHs0PaJhFThmAjCkpdeCRQnjEYCmq7fwcEpfN1_1AXSdmNnSMXedELuDs_dB0dHJYQpFloLdw4U_qIljUjvefrj4dsc3XsmsheXshw4wfsVn-U23xZ1d3Gd31o8cdSZDep9sNHd__JBFDFUlcfB1sSNa5kUdDtBgE1Kmfwl1kGyZ2YXW03oPcKiqS1LsAjuFQz0lEvhfX5Zy5vU1_HiFmVJLEs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103463461347623767163\">Nanou Delannoy</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLdPXmeC0mTGfTgweUCzv5CB_einkN_XT0AI9YoJQP5fexVyybF1jRm2aVTZ9bxHpRh0jgZWZCktny7XtSi3RaJNUDjB5uBwTsUWWcaKO-FJxicqAe3aWTAxALVTHro7Idrb3grjpkv95qEkz6QkLotmFZ_iLQfs9eNfgtT6rgToUfPhzOXJN7mgI_Z6Gk7l2V-g0fi5fc3pQyJXnV0JYBNXAZ6B-m9oZ1QH1pk1PcXnr5N0Je_k9YJeDP1feoZms_VrVOlvzpfVyKZnifNDNQ6GYy2gtneI4OXhKDHkqHrqAuSB1SwFPEYqPflkTr_QxmoeSokGSvMWbo8rnhHWwEyzYFfohf3yWGPsWRfcovgU8EhCPo3xBlALLuio38Bq_LXMj06CA0uhOSWUmmdl5WBXTxAXCrRtSzHevkH_q4t3",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLfs5QxMxsWuG36IFhFHMvK2xh7gE4vOrreu4WD-Q9iS6k6Yq6haAUSU6XpYefwCO8hzLWtTtwz5Sgsm77MVFuWTEw5GRl3mYLAoiA-nIMaZOFGafa8udUafpPzc9xjy6az6JN7gg5adnzEkFzy6W2TN4-9XYBqZJxNugKOczxqQeaCfuMnPstEuQZc6tekzB_bU3c00vKMlfZ-8xm2zqsy4shUQzLbQRoJ0V_dUByrr95tlPqDJYU23ZOmJCVNkEGzb4XhqEQbyDmAtLqjd_sSnjVCMpaG-WQnI1Y1daw6qiTBYAtq6ONoWIkKkLciNHvjSVbZhPIW1T2oBO8Is-qiblNPw1xdjU8Hk2WELMoeivkrgDf73FVOeV739pSUx_RkesVlSUg8xf-Lo0LMRLyqRnJ9dwrY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103463461347623767163\">Nanou Delannoy</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLeumWkR2DF-51x3GapsmAv7scp4CNL_XjEtP7Sb97ZjycuyarnRi67t6lWdf1fdzc_UVaEF2T5w8hRugpRWoLwX3uBXTYMu9kxd8DlMuMldEhY1Jc2ZkwzMHEk85Q3qYho6UzMH3u4CyV35edkTmYZZ7GAfbw_-ON4H6f5Rw0NDBKOk-buSDoNEXE2wiEdre6JErZuY1Bnj3AEEGQjUbZKBbUDNcIqa89asTj8VtDDUOEsSIp8jHBanxnj6a_rV2IxO3lp8Lt2PxiiFaB7TBpnsz7Vr2ZGegp9dew1j1doHTcz7zOtWRUYEq9MHbfMsLhtO54h2voSwTmzoTtMwMaMHXe3VeCdhclfmDTF3Ot4HXtF-fGZA_4hALrUDB-9ceiuzL-apEfr6aP9LNiEFQwbHoo-8cQLBRt6VTX-ZVwTZSQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfge-Tt8GAb76YQBpEJ2KwlQMgiLr2bZOT60UZQZvCCRLg51Jz9pKGdY4V34KnRPWFdwSDISzx5C-l20Iy8ymMwozBbmd-2zvBra8N2yxtVIk7-LmxsLZ39XSXX51SBw3I6Ll0gVPFTgVxfZoGXsQ0Vr02YZzpOPyndt5U4ZVQJ-IzYgTeJeUamFhLacxMAHmXttnwzn0O2x5GI11yTU-_GS4edyMwqmP4RBdbW4k6dXL8kepseZWXT--YaMonIymByUfZF40sbLnVb00RhR6YF2XxoKFfBxVeNkQ2KSsWo7rXbnunRJfuGprMtMTSPr_EzNZBiJiDVxiQy55xfAjbfOJJOSoZdFXmV44Oh1g92kUkAKLQcainMQ6W-0Pxcb5artERAApqNfv5_Ff_YX7AOww",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112927642809630576217\">Sylvie Seg</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLcEXOmbsxDsww__aK7oEM2plCXn_oeRSdHw8ZnAGsI7jiZyhmXTatFak8ir7QfGONiNl8zt4q-wBOfsLvm9gqJlchHeYPNTZcTXBq7yEMnHJO_Cq_gnaoZ0NwtF16T-5rSLtK9THOwj40SBIk_RCnnNO0L2wWfhAAVgQ0wAddMwM2cy7hyzaENmreP_ZxLgYvyxt2dt_3X6Orly61f0DpYOi0ULtXp4wpYgAOwoS-jTdauLj1FdNrAQbluMYfh7qC68bDCBZ-oL0AnMagZ-wY45aq7wIkiavVLbG-dOCzvgbkw4pAC6D0ahh4NmC4VME1NUoct4UkeyOaI8VCCLZ8YnpFJZPnp9_166JnXrKpn3KX-oavEKhIDFnLu8QvbqxBKmwA2TWG5WLpCGwxGGtKtxfQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103463461347623767163\">Nanou Delannoy</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLeqKsGT0IuMVONTFZwrObteMAX5Sf3ZRbZ37wMKz2qg-6Cw7VObRo0sidwBJkW4dxhS4ZfLa9fWjlLeGBPvUJDZrIXt5TTPqwhfAkhtTtDHusYgnFGsyWtMoBLqkGi2bru2gmduPHBDz4HpGQ2Y1blda5QklUGfpsya9s_n7WqOiRGS04A-LqWMqC4yBg7ALXKo1TYXvAJsA3xjUPS79TdE96X3pYL9A7XNChARdNS4ODxZq0981lLmKPWJ8WFnIzpUb1Bm9XWGty21cw0VmM5QD2fhocu9ef7Gy-jTj_6BRpgmOaOGSy9hjM2JIH5fhiOt7SAFYILGwHld54JtfeSrjkRiNg8ii48wS-_8jiKyBqlGtxUyhp8c_73R6tgo8VW7qLl_6GlGz_JKWxYwCL5B_Wk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103463461347623767163\">Nanou Delannoy</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5699
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Soirées karaoké au top, prenez Jean Claude dans votre équipe par contre.",
+            "language_code": "",
+            "publish_time": "2026-09-04T13:58:16+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Maë Yakoubi",
+              "uri": "https://www.google.com/maps/contrib/117490636197012204714/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLoG-x0_lhs8GphiO8MOO_xa7wjtQkNNC8BEgIpibcUUUzPvQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-06T07:21:20+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Christîan Caby",
+              "uri": "https://www.google.com/maps/contrib/115829087835087028805/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLKbwNZbF3JsCXsM8xLCv63UQ4oEPt7yQyPeyJKqp0YcPitcA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très sympas! :)",
+            "language_code": "",
+            "publish_time": "2026-08-01T10:05:16+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Manon D",
+              "uri": "https://www.google.com/maps/contrib/117555571893653992167/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX9P_a7p6My9jp1nmUMgcco38EUuNmNj3qETzogOVOkeYk5qq2v=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-07-14T10:27:19+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Frédérique",
+              "uri": "https://www.google.com/maps/contrib/106824070097464527212/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjURTHA9MbbmZg8M7shmgqjgq9wDW-76EKy_xPRIS1hbxmzCM3oO=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "Changement de propriétaire\nLa viande pas de goût \"pièce de boeuf\" la sauce maroilles tranché\nSalade bof.je n'irai plus",
+            "language_code": "",
+            "publish_time": "2026-07-11T07:00:33+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Dalila Bensalma",
+              "uri": "https://www.google.com/maps/contrib/105393929310770903726/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIP-9m519roNp1Ragd5uJbPWOXaPulPiJBGVBA287mlt6Patg=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4,
+        "user_rating_count": 230
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1179,
+        "bo": 141,
+        "front": 1038,
+        "estimated_cost_eur": 4.475
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Soirées karaoké au top"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "prenez Jean Claude dans votre équipe"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "karaoke",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Soirées karaoké au top"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "boeuf",
+          "confidence": 0.7,
+          "source_url": "izilife://current",
+          "evidence": "pièce de boeuf"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Soirées karaoké"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis de juillet 2026 signale un changement de propriétaire et critique le plat consommé ; les informations sur la cuisine peuvent avoir évolué."
+    ],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : brasserie"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie proposant des soirées karaoké, avec un indice d’activité en équipe. Un avis mentionne une pièce de bœuf, mais signale également un changement de propriétaire."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-chiquito",
+    "operation": "ADD",
+    "tags": [
+      "ambiance-festive"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "karaoke"
+      ],
+      "VisitMoment": [
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5699,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopHobby:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "9cce484e3dcd7f13eb8c0b1194b3826ce220cfe124d3eda89bfc77040a20be08",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:25:51",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "ludi-delice",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "ludi-delice",
+    "status": "found",
+    "data": {
+      "id": "5808",
+      "name": "Ludi Délice",
+      "shop_string_id": "ludi-delice",
+      "unique_id": "f1577af6ccf079b96646e0a1467ae6c5",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55063",
+      "principal_cover": "55063",
+      "qr_code": null,
+      "phone_number": "+33624322354",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "31 Rue du Mont de Requillon",
+      "additional_address": null,
+      "zip_code": "59251",
+      "city_id": "6",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9544533",
+      "latitude": "50.5329441",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:52:51",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:52:51",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJi_w4HZot3UcRBjJNnsJoiTI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5808,
+      "scope_type": "SHOP",
+      "scope_ref": "ludi-delice",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "allennes-les-marais",
+      "string_id": "ludi-delice"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55063",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5808_6af3a04333524.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4867",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33804",
+            "source_hourly_id": "4867",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33805",
+            "source_hourly_id": "4867",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33806",
+            "source_hourly_id": "4867",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "14:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33807",
+            "source_hourly_id": "4867",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "14:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33808",
+            "source_hourly_id": "4867",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "14:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33809",
+            "source_hourly_id": "4867",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33810",
+            "source_hourly_id": "4867",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "11:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "ludi-delice",
+      "google_place_id": "ChIJi_w4HZot3UcRBjJNnsJoiTI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 14:00 – 17:00",
+          "jeudi: 14:00 – 17:00",
+          "vendredi: 14:00 – 17:00",
+          "samedi: 10:00 – 17:00",
+          "dimanche: 10:00 – 11:30"
+        ],
+        "photos": [
+          {
+            "width": 2208,
+            "height": 1206,
+            "photo_reference": "AV-0GLdUGD8bnKvm85M_oZr_NYLmYWMD23WibY-t0Y_2em6v8JWVEQoEDvbRYQ0gANSJ-PIwWwG-eL5C-k6H_DcubpQXs46IQeR28shKzv47ejEoUe8pNMc_8ue0iOb0DqAF_cfuQ2PKTK5t7_iof5B14hVvWGmMhcd2FD_WFjN0D-sokstohQXstFWIVr7VyEsUtzkdPI-oFAqSjFTjZZ7SiFrNF1Pux162ofMqTDnr4Zkq6x2Icgg3TPfAIbC3m2eb9uVyUbEiDAvC--y7ouyiEIGF_2zUcNiVkxeRNAfo9lxO-va89l4xSgA1xApuEeDVOrj78wr_xPWIEpwD1ommbS4pElevOqKSEVTeGp8Iqeexl8fkfOmiZgY_w4hDw7wTbGVcV5GdJ6qQhN3FO7z6jXDQML4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109280162821177830281\">Ludi Délice</a>"
+            ]
+          },
+          {
+            "width": 2873,
+            "height": 2155,
+            "photo_reference": "AV-0GLfZOZb5ktmjxeu6onl1nq_nXXlFZl_APnHMMWH6M6N8-7FF4ZMYmmWOz0-4gV_7Q8NXxQddPI65i0uHtQgL_6LcjiNweU3D3c__vJLAKNw4dm12iDJqMIFmR272t-CZOwvMaCqGlrV7iS-CcWn14p_1SB9Cna5VTLspnlyoVi45ytOvfyHTpYt10ZEDHmao914SNaBDNtA2HNfxfKg6bvNDYfXbU3936h4X7zqPOWl_muyeK6obaVJ0wckslaLjhd3kVSxM_5WVSXRJ2ZhepzVpH__9VjhLyOKq0Lg5S1I6bhPZubybP39rxVDc93DX_5H2WPbC-vKT5E6ip5NlmN-nIoQNv8hwG1-OtbidyN4Xo8Fn84elfXY6rF3jyjrSEM1eqHdlNajGiZ6yeln8RTm77xg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102433976906441327695\">Nathalie Cocq</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcA8NQ3lRhp_ELtsQuMpn5CgI3ttyv5a7jJWGFm8VY60-H0yEvhqJk-mQd-wOz3Kjg1x6txx2-1XuSdsXprxUUG_f8RX2zHQht194w6rU_o3qk0hRymtLOsY01r4TKAMRMpz8nQw-PXonWxtu40CHsILrLLsnPniO3tD9peH74TP0brd6HAHj5F_9Qsh6YaTkrrlMtZ4M--LeVQBiIBv9vpvV0vUf4U_FXtBCsXFEKNcRQ6tzDTLj9FdtpTTJrA61AP1ytN_dxhT9sSyFpi6e8fsAWwlR0bBpR_J-nT9zTXYYINes6tZI92eNTYw-K6NvM_i9Vj46I9U3Ak51G8rlCJRHYatWIbQsO0O_MoueMl9ZYUGbaZPsDTn6DS23JjSA25UUXLRxZc0nQWUlw4zM0JY4t-",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112832109845052048908\">Farah Foret</a>"
+            ]
+          },
+          {
+            "width": 1235,
+            "height": 1503,
+            "photo_reference": "AV-0GLeng2f5iblhn-XTakSPZHScPPBtUuXt31LCGXgif0Jtq1bAB6SnavR8hvGa6QCSQdo7hvfSuDaULxBVPDrajUHTJ8yQucYPl7hbJBOT17ZXwzfFPvJgCBOSSDdl1_EYLVs5fasw3TEgiMnGT2K3A6uY1NMnma2KRZcWxQI0ClDNdeBkHHgmhR5xTxd99MmXaxTo6y-ja_Fc7AV2o-SCX5MF1SKZHNQD-o5YoSTsp_oS-U1rIoVvgJk3vRIolp0OhPMmUiiGwehrRN9FH4jMGhm1sII0Rg8yn3DOgGE0wIRKiJJk1sghV8JJ7GjrQSzZMe9iAlA15fR8dCbpHFa42g2u-N5DxBxrPyVpGSaNarK7LAU_zVEcZSRq8pH1syNa5mRnef_CQ8blECgY0qbnhk-12w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109187979917037107906\">Marine</a>"
+            ]
+          },
+          {
+            "width": 750,
+            "height": 938,
+            "photo_reference": "AV-0GLePgPPXrSmuwHsAbaJd0F_r7dCFDYdiWKtN5k3KcKC4cZvbdFIRlnS5Bb6nt34aaPsjXfTf9O3CZt82vy51FtKyjtHeCD_r_AmImu9YfmvyAsJDNgnXI8HmXgMZBiYSYqe8NM2wXl0Hc-Rfain0JLXHtOn7kICVzc2BTWPd1n8Bc3Q2zGtMYcZN6xU-kUsrY2LTv6Fso7ITZ1BhqcFeVbkqOawoFdGFitv-v7r5FPE937gyZCAyrCIdATcseR_45ENJQP4w4Sj_H3q642MMuQiBZebtXjx2Y7nFQRG1F6bYu-xMXS7B270mvIGRWTNncYRB76ApAwhaohIYtye80fODJ1wrttsOe3L64n4vsosT7g9Ybaj9u5zpUcM2eWZ9X6ZMlxTTc7Hh64Hy0fNLpLCft7o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109280162821177830281\">Ludi Délice</a>"
+            ]
+          },
+          {
+            "width": 1206,
+            "height": 2208,
+            "photo_reference": "AV-0GLcHcG4UfL7FJBzhUngiywlQah3VrbetCsxo5LjIHhj1zta6PHRFRKW_m0kLtQ2OUfltw5vXJwWa4mHMPGmbEGkMFf-MXDCVHcbNf8ry3D7aNaszXCZ4gZ1BqeuOWp7qf6H8lfkOxESFZtj-XIiGRkkxMdy3GEkkzyfNFYg8B1_ZKXBnynW0RZVDKh8z160i2OpsbK8QkqS4YHvfPdHCn5h8dZttrYdAihT30JE8kG9nIWqhSN72HrOVOi3R_EHmj9TxJAKbDCMAowo5UaSrSSLC9emSyzd8_U2c-LFc-oxZP-6E8KuQ9-m-F60YkDPPk9SXvO8kuUaehjP98GhIGR995xrHUAVlSUEV4sfzjmW2f87xkCemaZaPOjn_49PDC7KHPr0z5Pnj1XotMDbPNwrFJcs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109280162821177830281\">Ludi Délice</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfRNu1VuApS5vs7LXj7ZeWX89K01-bVdEnWKS5lptz5JYOfkyvbcmlb3vpW5d9jGzwsfnolsb5skrNHDGdNxWuyww5Xfe6VBPq1KX1DRDqJ_eavpotn8uP6DK6USCUekfkSlYk-NNNkj632qnVEbPKjE6uj8A9fzjz-CWelLpq0-kbNJ4v0PrmqKicChN5FgqBvLp53p458yEV5mZ30ga29AU06EIdWvRvgNKx41XLmciB-byDXe8epz5rL9F8EUSIj7IMasBzOo_cXDUZKCV0bbTSf6utWdrzpw4Q2uiiBxwgXG8oYoAm2mc5Qh4P3rLf8B_rQKhqLCWW2s7Gi6w-gUOTnEc6sE60Oz7mRvqldm8eVMCiHvDGrrI4KmbdEodXELt57-jJXZ6v3btLPzNlhk44H",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109280162821177830281\">Ludi Délice</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1350,
+            "photo_reference": "AV-0GLcgHqcJZSZ5Z0qj0ciGKApZv82_82h5QLxCaJF-fcfVh-l7rTsyl2EgvRFgjniarr3J4RC5i41jvZ6Kn-e0i0XOYI5T5OA3DHnmU4LYTuo6Z4w-HytaEqiTqG31Vwwu8h-WB_NyFYTPUYGcE29j9YhXUV5n8kauPoa30Qq-2b3Eeagr9lte_BUKTIWZTvRBnpQ3ERpNgQTnj1HZEkF41i-57N6YCjYtenW8l7Wy-9WmUa3-t9jhgb_SpC1QckI3IPeij4bPDdWA4m3ZjFgP38RBRVdyWKCz7cFZ1TkhPvixnLikeFMq6gyeZlkuJA5h99xYjIbbZY9xoYzMeRn-iNs2Xvm6_QLhGQ7w1kV_17nFNY2_IIa-Lh-dwgGDCtKEExB-ZXSTZ3HY9upc9yzDECB6biehMtw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100768931420808095290\">Justine Facon</a>"
+            ]
+          },
+          {
+            "width": 2731,
+            "height": 2990,
+            "photo_reference": "AV-0GLcVrAX4ECyRWhsMRYd68FsHfEFSmXYPPGosfm_RSmT3cXscKCM4CbEqt3YwA5VCfAOpFToJLE8Iv3sMM0gbvaxkiCT2EKYd_XEjeF31aaZwmXqmPEdIEmKsHrdajw9_PLFDSaYsxsP4reuBiBpv8WN0qVfoltQMDbXHHELG3q3GROiOXSDIypoIgKDCR06i48jRF8Theznp1pE3picmJjYsVpcTdONpQuX4L4BpqV_mb_JiNR77cpjbH58N8yMjmb1etUN3ITmn4HyeoG-xLVrN6MbdrFjbwN2O9xR2XVAViAY6s_gOmg0MpALiTA3eW-ufZVhnIz4Cc60dnSOekoz-Dm6flg7R_g8sAxhxFbOI-z6yP-_4z6R5mwxMdmSA2FbS5HHF55tDwblrGCv1uHW3SDKM9FY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115647683945112168955\">Doriane Her-Selosse</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1358,
+            "photo_reference": "AV-0GLddsMYwEgeex2O63l085T0xXuCr-d2Ck94Q9dS6ccuo_OTVPySA0I57Y9SOX_b1PpRkF4tq7wWMhv5SAG4oKNXXC1h0xLwq2TYScZD1fo5N0YVrVE4hwZXa4gsIzJm3nj3U2m5p4-CZGzKLGNS0lc-IZWTrMeG4x0krTZXZSi_5idfbiW_sGQlJWC46r2w0IQV_U0KIxeIwrTo283d7jghnY1cyt6DorPg0FQWaE0M-Q272rDtVQKi_idA23LwLptZuafZ6s_H9D1rSUCyH1tl3h71v4FF-vzaKABC4RUTzt_7d_ZnGpYjSS8JYcd-EDB8ryIkG3swwft9dGFKMnWfa-83V4UwyLrrGpbYFiBrXnGyIPEidjGHABmeCtoOHpWrF2ZeVYo80CAY74P97kHn1SvY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104551386103428733826\">DELBARRE EMILIE</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5808
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 10:00 – 17:00; dimanche: 10:00 – 11:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 14:00 – 17:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne documentent pas les produits, la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les publics accueillis."
+    ],
+    "rejected": [],
+    "summary": "Ludi Délice est référencé comme boulangerie au 31 Rue du Mont de Requillon, à Allennes-les-Marais. Les horaires indiqués comprennent des ouvertures le matin et l’après-midi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "ludi-delice",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "matin",
+        "apres-midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5808,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "cbbfaf415dfb8e3b8489b121f9bc92b321ff7d3ef02cfd9e770b062c956f3f68",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:46:03.675568",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 67,
+      "title": "Initiation au pilotage en ULM autogire à Lille (59)",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.funbooker.com/fr/annonce/initiation-au-pilotage-en-ulm-autogire-a-lille-59/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "ulm",
+          "minimal_age": "3",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "vol-ulm"
+          ],
+          "age_category_ids": [
+            "3"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Initiation au pilotage d’un ULM autogire à Lille."
+              },
+              {
+                "string_id": "experience-forte",
+                "confidence": 0.9,
+                "evidence": "La sensation incroyable de « sentir » l'air est unique."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Une autorisation parentale est demandée pour tout enfant mineur."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Activité à vivre ou à offrir en cadeau à un proche."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.7,
+                "evidence": "Merci beaucoup à Jean François pour cette expérience inoubliable !"
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 67,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 109,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:46:15.649252"
+}

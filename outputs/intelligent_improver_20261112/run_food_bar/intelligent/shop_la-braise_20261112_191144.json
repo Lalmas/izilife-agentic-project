@@ -1,0 +1,603 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:11:44",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-braise",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-braise",
+    "status": "found",
+    "data": {
+      "id": "5164",
+      "name": "La Braise",
+      "shop_string_id": "la-braise",
+      "unique_id": "799afe223ce41a6ea1513d4636d34246",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "1",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": "6",
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "C’est au cœur d’un lieu chargé d’histoire que La Braise de Seclin a vu le jour en 2022. Installé dans l’ancien Domaine Napoléon, notre restaurant s’inscrit dans un patrimoine riche, façonné au fil des siècles par différentes vies et activités.\r\n\r\n​\r\n\r\nÀ l’origine, le domaine accueillait une ferme avant de devenir une distillerie reconnue pour la fabrication de la célèbre Mandarine Napoléon, une liqueur emblématique encore aujourd’hui proposée à La Braise. Le lieu a ensuite continué son évolution en devenant une salle de réception, avant d’écrire un nouveau chapitre de son histoire avec l’ouverture de notre restaurant.\r\n\r\n​\r\n\r\nLa Braise est née d’une envie simple : créer un lieu où l’on se retrouve autour d’une cuisine généreuse, authentique et conviviale, tout en profitant d’un cadre unique. Entre le charme de l’ancien et une atmosphère chaleureuse, nous avons imaginé un espace où chaque détail compte, de l’accueil au dressage des assiettes.",
+      "ai_description": null,
+      "principal_picture": "51237",
+      "principal_cover": "51237",
+      "qr_code": null,
+      "phone_number": "+33374469430",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": "labraise@gmail.com",
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "1",
+      "toilets_accessibility": "2",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": "1",
+      "shop_booking_needed_for_access": "4",
+      "access_text": "",
+      "access_link": null,
+      "address": "204 Rue de Burgault",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0441876",
+      "latitude": "50.5449752",
+      "shop_location_frame": "1",
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-10-27 12:53:54",
+      "updated": "2026-11-12 19:08:16",
+      "history": null,
+      "shop_hourly_text": "",
+      "shop_building_type": "1",
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-10-27 12:53:54",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": null,
+      "google_place_id": "ChIJg6DCOsfTwkcRYC97vbuChko",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "55",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJg6DCOsfTwkcRYC97vbuChko\",\"rating\":4.5,\"user_rating_count\":3417,\"google_maps_uri\":\"https://maps.google.com/?cid=5370123348535357280\",\"fetched_at\":\"2026-11-11T20:37:24+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Lieu exceptionnel, service impeccable, cocktails de ouf, les plats et desserts divins. Un grand Merci à toute cette équipe formidable pour l anniversaire de ma maman. Nous avons passés un agréable moment.\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T15:12:38+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Sabine\",\"uri\":\"https://www.google.com/maps/contrib/113080984750391524899/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLinDnauko-sxgoFh38ow0qYZOmb9ivOpl-48f-2Koe7fndUA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un immense merci à chaque membre de l’équipe, jusqu’au patron qui ont été adorables du début à la fin dans ce restaurant au cadre original et raffiné, offrant une cuisine de qualité !\\n\\nCe fut une très agréable découverte !\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T22:21:45+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Alexis Saudo\",\"uri\":\"https://www.google.com/maps/contrib/115363973131927849976/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLIg2vCkm7nYHL81oKQUyInPTIiKXkHPT9NmvOjP0mAos6Yeg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très beau lieu avec une cuisine de qualité et un personnel au top rien a reprocher on a passé un super moment et on sait régalé merci a vous.\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T20:15:46+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"steven My tee\",\"uri\":\"https://www.google.com/maps/contrib/106244901807449768261/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIyy6qfWQk-j1EovzjFU7xOFEUgQ8L-b5j3yAIozAijwXm5Jw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T19:13:46+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Christophe D\",\"uri\":\"https://www.google.com/maps/contrib/115358166010998227772/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIXP-Bghs3TetrAd_RyPmQoHDMX6mRfGbH_m10OwfRBZyOwOg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Restaurant exceptionnel ! Un rituel pour nous d’y aller au moins 1 fois par semaine .\\nPetit clin d’œil au sommelier Sébastien, une personne agréable, gentil et souriante !!\\nCoup de cœur !\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T18:49:18+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Lindsey Braure\",\"uri\":\"https://www.google.com/maps/contrib/100722015177304543708/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIsGAOr7RApA7BHzAHSMOmZ3kSI3o2dFBLHny6zzn0cVX5MN_U=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 20:37:24",
+      "google_reviews_place_id": "ChIJg6DCOsfTwkcRYC97vbuChko",
+      "source_id": 5164,
+      "scope_type": "SHOP",
+      "scope_ref": "la-braise",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "la-braise"
+    },
+    "counts": {
+      "media": 23,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 2,
+      "characteristics": 3,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "51237",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5164_1793102035_f27d05cadc7c7d13371e.jpg",
+            "sha1_hash": "b8b015dae3e53e603eea4e82beb04ac7433fc391",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55236",
+            "title": "ig_DfVGWkAjQhO_0",
+            "description": "Source: https://www.instagram.com/p/DfVGWkAjQhO/",
+            "integration_path": "sh_m_5164_1794495869_441b14637e9d0c009bf1.jpg",
+            "sha1_hash": "29f865161f8600691bb2b628e15f5546867a9337",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55237",
+            "title": "ig_DbYnC-4iEBt_0_upload",
+            "description": "Source: https://www.instagram.com/p/DbYnC-4iEBt",
+            "integration_path": "sh_m_5164_1794495898_4ce099ae2a9693ea2a1a.jpg",
+            "sha1_hash": "ab3016a87553e650b68b6f5b4818868bb9d74c5f",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55238",
+            "title": "ig_DbYnC-4iEBt_1_upload",
+            "description": "Source: https://www.instagram.com/p/DbYnC-4iEBt",
+            "integration_path": "sh_m_5164_1794495899_fd67ba006922e3d97d68.jpg",
+            "sha1_hash": "1ac09171c9b89ecaad1e5829c3430cb00bc0cb20",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55239",
+            "title": "ig_DbYnC-4iEBt_2_upload",
+            "description": "Source: https://www.instagram.com/p/DbYnC-4iEBt",
+            "integration_path": "sh_m_5164_1794495900_b76f83bbb52dcc8de7bb.jpg",
+            "sha1_hash": "382e250829bc88007b35b4cb98ed68a4cf4769d5",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55240",
+            "title": "ig_DfnGZHNgAVM_0",
+            "description": "Source: https://www.instagram.com/p/DfnGZHNgAVM",
+            "integration_path": "sh_m_5164_1794495923_7ad4a112b91f41db5573.jpg",
+            "sha1_hash": "97f930e75afa4e59f9edfcbfce59443a8688c5bf",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55241",
+            "title": "ig_DfnGZHNgAVM_1",
+            "description": "Source: https://www.instagram.com/p/DfnGZHNgAVM",
+            "integration_path": "sh_m_5164_1794495923_b10d0cfa0ada0c53643f.jpg",
+            "sha1_hash": "fe7dce9e70c612d5c43587c18d675db963d64c73",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55242",
+            "title": "ig_DfnGZHNgAVM_2",
+            "description": "Source: https://www.instagram.com/p/DfnGZHNgAVM",
+            "integration_path": "sh_m_5164_1794495924_8c7059310216a4a16e8c.jpg",
+            "sha1_hash": "7f026acd398be0025e2ef2c79b0fbc781f11250c",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55243",
+            "title": "ig_DfnGZHNgAVM_3",
+            "description": "Source: https://www.instagram.com/p/DfnGZHNgAVM",
+            "integration_path": "sh_m_5164_1794495925_590742139781b3e0ebc9.jpg",
+            "sha1_hash": "ab3ab173b009fa1a00b55ec569c19d818b09bf25",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "55244",
+            "title": "ig_DaIzDAHCKDo_0",
+            "description": "Source: https://www.instagram.com/p/DaIzDAHCKDo/?utm_source=ig_web_copy_link&cplk=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+            "integration_path": "sh_m_5164_1794496041_c3bd384a8759a0a0e9f3.jpg",
+            "sha1_hash": "cb7c9debe512fc528fab2d38817d9858c45decbe",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "0",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 23,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [
+        {
+          "reference": "chaleureux"
+        },
+        {
+          "reference": "chic"
+        }
+      ],
+      "characteristics": [
+        {
+          "reference": "coups-de-coeur"
+        },
+        {
+          "reference": "excellents-cocktails"
+        },
+        {
+          "reference": "excellents-desserts"
+        }
+      ],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3961",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": []
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-braise",
+      "google_place_id": "ChIJg6DCOsfTwkcRYC97vbuChko",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [
+          {
+            "width": 810,
+            "height": 540,
+            "photo_reference": "AV-0GLcAFECUJ4_4-KB5vcaV8mZP-YLeWxOG55zBcM5mYklxJ2WLtjkqry6FZy1awvZekccT7KuICZ_9w-JVJ47cwLjte9M0YUIht2msVRBoQQIkedP6VALo2iso_MFadTduEQKEDJWxmuZZ3nF7pK9U1hGDp8IUCSOxELR40KtVdUf2nEd_M7y2cbEyYSujYM6gupG3aVMGrv_SoO0krID3lkhW9-5KKSpZ0EKGVEroaSOp6Wz6fAlVffMU2mRF8pv36OT0GpNm9qPN9L5I8HNSLlmO9O3UVGGj88WcGAnNkcmgsNIeiCUOghZXW291Y_iuxqt00s4dmTjTuVrRet0YB4Vz0Yv-5VRNkC64FWdvUZ4l6qiGKybsJ7Ky6dF38-1cjz6N6Sy_dBbX8gMyMgbB9dis954",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101870817365260006908\">La Braise</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Lieu exceptionnel, service impeccable, cocktails de ouf, les plats et desserts divins. Un grand Merci à toute cette équipe formidable pour l anniversaire de ma maman. Nous avons passés un agréable moment.",
+            "language_code": "",
+            "publish_time": "2026-11-11T15:12:38+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Sabine",
+              "uri": "https://www.google.com/maps/contrib/113080984750391524899/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLinDnauko-sxgoFh38ow0qYZOmb9ivOpl-48f-2Koe7fndUA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un immense merci à chaque membre de l’équipe, jusqu’au patron qui ont été adorables du début à la fin dans ce restaurant au cadre original et raffiné, offrant une cuisine de qualité !\n\nCe fut une très agréable découverte !",
+            "language_code": "",
+            "publish_time": "2026-11-10T22:21:45+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Alexis Saudo",
+              "uri": "https://www.google.com/maps/contrib/115363973131927849976/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLIg2vCkm7nYHL81oKQUyInPTIiKXkHPT9NmvOjP0mAos6Yeg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très beau lieu avec une cuisine de qualité et un personnel au top rien a reprocher on a passé un super moment et on sait régalé merci a vous.",
+            "language_code": "",
+            "publish_time": "2026-11-10T20:15:46+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "steven My tee",
+              "uri": "https://www.google.com/maps/contrib/106244901807449768261/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIyy6qfWQk-j1EovzjFU7xOFEUgQ8L-b5j3yAIozAijwXm5Jw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-10T19:13:46+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Christophe D",
+              "uri": "https://www.google.com/maps/contrib/115358166010998227772/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIXP-Bghs3TetrAd_RyPmQoHDMX6mRfGbH_m10OwfRBZyOwOg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Restaurant exceptionnel ! Un rituel pour nous d’y aller au moins 1 fois par semaine .\nPetit clin d’œil au sommelier Sébastien, une personne agréable, gentil et souriante !!\nCoup de cœur !",
+            "language_code": "",
+            "publish_time": "2026-11-09T18:49:18+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Lindsey Braure",
+              "uri": "https://www.google.com/maps/contrib/100722015177304543708/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIsGAOr7RApA7BHzAHSMOmZ3kSI3o2dFBLHny6zzn0cVX5MN_U=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 20:37:24"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1039,
+        "bo": 1,
+        "front": 1038,
+        "estimated_cost_eur": 0.975
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "place-historique",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "lieu chargé d’histoire"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Coup de cœur !"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "cocktails de ouf"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "les plats et desserts divins"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "notre restaurant"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "la célèbre Mandarine Napoléon, une liqueur emblématique encore aujourd’hui proposée à La Braise"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "une liqueur emblématique encore aujourd’hui proposée à La Braise"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "une atmosphère chaleureuse"
+        },
+        {
+          "string_id": "chic",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "cadre original et raffiné"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "pour l anniversaire de ma maman"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "liqueur",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "une liqueur emblématique"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "notre restaurant"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Restaurant au cadre historique et raffiné, présenté comme chaleureux et convivial. Les avis soulignent les cocktails, les desserts et l’accueil, avec une célébration d’anniversaire rapportée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-braise",
+    "operation": "ADD",
+    "tags": [
+      "place-historique",
+      "coups-de-coeur",
+      "excellents-cocktails",
+      "excellents-desserts"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "chic"
+      ],
+      "Occasion": [
+        "anniversaire-adulte"
+      ],
+      "KnowedDrink": [
+        "liqueur"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5164,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopOccasions:+",
+      "ShopKnowedDrink:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f28cb4d00ac55a56ac6daec1f0b515d2e02c97e6755a9338fcaed4d0ccbfee76",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

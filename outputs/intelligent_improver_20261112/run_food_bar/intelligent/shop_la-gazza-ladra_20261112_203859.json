@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:59",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-gazza-ladra",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-gazza-ladra",
+    "status": "found",
+    "data": {
+      "id": "5897",
+      "name": "La Gazza Ladra",
+      "shop_string_id": "la-gazza-ladra",
+      "unique_id": "555e476d99566b0f8e53382728c2bede",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55152",
+      "principal_cover": "55152",
+      "qr_code": null,
+      "phone_number": "+33320100756",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "230 Rue des Bourreliers",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "39",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9577769",
+      "latitude": "50.6071814",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:06:40",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:06:40",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJyynesPsq3UcREKYdZzoWv6s",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5897,
+      "scope_type": "SHOP",
+      "scope_ref": "la-gazza-ladra",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "hallennes-lez-haubourdin",
+      "string_id": "la-gazza-ladra"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55152",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5897_6af3a380850f7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4956",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34427",
+            "source_hourly_id": "4956",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34428",
+            "source_hourly_id": "4956",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34429",
+            "source_hourly_id": "4956",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34430",
+            "source_hourly_id": "4956",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34431",
+            "source_hourly_id": "4956",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34432",
+            "source_hourly_id": "4956",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34433",
+            "source_hourly_id": "4956",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-gazza-ladra",
+      "google_place_id": "ChIJyynesPsq3UcREKYdZzoWv6s",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:30",
+          "samedi: 12:00 – 14:00, 19:00 – 21:30",
+          "dimanche: 18:30 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcboWqf-2Szp0RtEgc5a814KuPvyV3sYHhiuTv-R8L9v-8o5-2GpV_zypNursn2TVrpahlRsVXd5Ep4EXX7xi_5AtF43SmGoS2Zh_V0DLXaY6Bg_5jJyfJHb3O2CIqH-O7wMVUaW3KFW9n3Z347KRqxUv7pN40fEzY258t8yqYcagdD4sP3LkQmuPJi3tWLESKUBUhtGRUTRnb6fsx_Cwnhy9C2QQHlvDFyvCYc69eVgw41Ghhs04pLOHLWM8TdsLuY6fCcj_0X3TQaany_0CsTQI5Sbsf5gz1pi8BVkC-0lV6kB6sy7pdTK69RranrVK9UKWtjUeMPmlCc9cdziaib9gtupAtadk8jsOnSKrgSSYSPXVZCzhp42MOdDWkiYASp9Ij5F6AUBNf5_tjz66cqX4hO1y4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108989671996039030003\">Productions 233</a>"
+            ]
+          },
+          {
+            "width": 2992,
+            "height": 2992,
+            "photo_reference": "AV-0GLdr_2ZtlnRePYOvI1e4vGA81k2Xug8LXSYb1d1QBdton2-WS2PebbSO-QilJveElr6rz9GEibT2nhtGxu7wuCMBxDer7tZ0AaQW8F0dwdZNva0dJtlWOGwUn1K8UvuUyTPiNgvqe_48AIMWKXfeyyA0XgMRHZKqPsuC8wcF9qPEkWoupd8hRrH85oCSZtBPXuGM54d4VLWTJneH7Z5cMDTp5ir4cOjkZ_ubeyOzeKlGfZsSk6nG_owNZeR2-_GDTl6aBj-h8bvwb2HVAGVM3DAdUM-R0rQPPqQQSB-w3XTHnL83x0EKOYMK2XtGtROQ8q6EmHzV4OKci_85Iu5uMctSfsF4x9m_2_Adc6JiSCNmqzRUngQpZbgZ-eoFKezXGQkDb6vF59HcoQ1F2nTdu4386dWp9bv8JI7hmvdQ3EEfFQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113886846655723866132\">Aline HERVÉ</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 2080,
+            "photo_reference": "AV-0GLeq8Wf4KeZPsuBDy1jkq2y_rLJZIy3Qthvv3AuYsTOmloyxlt3ZFwAflQ1z7f9eoKz_EZnYeDDLVwUgzQ4X-pwwj5ZWyPHkLAkYfNt8uZXXgsYIL77o99i5r7OWFUZNhcQJc1lL93Cu7mgbAkUR-Ib2QUz0hXIW07NENT1cg941Nk1ay7e90e_NHnDIVo5xOAnUP-FtNP16Qt6j-kX188MkuCbz4eIogL_hGhj0em0xb8mYvL1zAMBXbXzhQNP3sJRV_qiuXDbcFXeaAWsBqZYLxCMIyJwaRbzghCdMdhXVFRaRdcQT882Wecn1Ub75NwwB_qq2fAmRiB2Oje8nEyXYSVidFVXq_zW1tO7h_G0l3vZzSeqfDy--iln-N8wyXK2LrpwfQAoDMVQ_VN1y3O8EW-VCZUE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101974722375764633341\">Charlène Calvi</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdN_uT5pBB0t9NhmxKvoJpNdSwiLG1nyZQpYRzTTdM8AscYWc7Yn8ZG8w2w1l39BlalFNbXvvniU_3K-oG7F4MoIQaB1j4hf4tLazO4CHKI4DnYxv5pgoUkyw-el8Otgj1mlnzxZnQvgeL6h2v28tjavB8UnLa4GOPHi5bFE7t4Tr5rneuSYt5qDNuIaBZaclVDIg82wcYS-JPWHgB2Il9Kp0rYvTYjci0Mq7HmXKuZhAV0HWQqE1khKgAa1QleiXtW-HgMx5FryXfDtBMYmGHHo4_veWdgYAa_Vsodqgi18ODr2Q45a0RcJo_YrpFk-8-tkQmlzzsfhyxvCWRu7P3Lew_3RCEOPznHqZ2OzL4y7_VGwFtgpbIFL3rsL6LYMB24lvi34rpu32XMZdMHSn5vTAJw1oU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100455386795325715272\">aspen matthews</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLet6_ywLm3Kjkt6j1AQBfehlqY7XfSseBId7_yMLuo8WpK39WXzkTykQK7RFWjPJ9Am6af3Q1hHtMt9_KYBLzg5GYrMZO21_nDQWtMVeo1kvlPS5qMqAuPjaWWvgR62xnGuX0zU8Das3qjS5xI5mnAX2N3-SQ8SiRdYH6MVmIWf2un1onMwEHKYpZ8zmPUDnCBOU8Ka_Rc4_osdNJM0nwl2O_v9mtF84_KslAZJyNH_7My_svyQY-4a6xeualmWcYWdn5zS7-8L6hsyADh8tOghEV0drmxNYmd5GBoTq2jfFUebuDTgNoN9y9b_VNbyy1tZVFVsXt_HEDauPktOdC_2ZZGFkr4Eu4jWvfwj9MP6PwSqnnrF3UDGU4BJn8f-L8gles0uB61v83jAiaxXaEQGVbX5c400tfEIHjmMFss7",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104757594868833708253\">Theo Motrani</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLev-JfOojcT4yugBYRycgyHh4RQSOE6ggumrML7uDih9_BTfVtob4KsHSDZAC_przbmHDg65_jSC8rY8dNK8q57V9FAZT9J3WdeaOgjSZQl7pDic9p17gizRd01AbLV8zPPq3qR7QfysuBcqfnlurk5aOajQhyp6rGNDRAMHEGcW72z3mYzJ_VJQIobDyZhsDVXtj2TjLwlCJz1h6QtPi_iIxJZRprDL7wwg7UOFUYH0BKgLeOcv6FvrmqzmaeEMDo2d2NPKEjC5kYqZFtG4hdDhDnPW82wEpmpC2Zq4DFWprjs3LPezb_Btevsb4E1PZGxiC3zcRezCM9_Mz3TcZUQFsmsiTPSb-OcqXPuNRfNGsC2FXrVY72I7pm8iV7WkmLBDQVJLxO7PLj8DJXZ8eNUjQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100455386795325715272\">aspen matthews</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdhKYXrK8b9n4AZjZ5GwqqNPz6ZqZbmf4pN2sD4n9Na-5aZBFScIHqxZw72CUHYL-d2gsGpKMGmXSYUXtaJf2_lXILHYyv-8Y2WrZN_gmB3XUNEunXe8Mk_0-ynwJ_c3Y4lg_T8AtNWtJZoKzgvrHUTrAr3W-D_ySRerXDfpOWVda3QhcVwKTOf39e0fLqa6Ct6kTijpOLrT9WFQ2zBWmzAqpfUW44BMJGcyq6QiE28RUWFKr-sbgXK7L6qIUL9uKVJ7ARrNFpEQlKWwPp9bmPAcehOxp227G7heG_qNwQHrJTQ7pe62v3FgQ5_HViMpNqwMWLZZK2kvl5Y1reBNfUErsOHnj6pcNiBsMN6oaaqTTyp0dngdtnRvAIcWQD1b0qhpIONforGhZW6XHUNzqFPhys",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110431667021080920608\">Florie</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLde6HKFJF1xXGLejm9rSZbnEli7WGKkbU58D3-eVHVaA14WWqQuwRFu00fsESaB510ytSgbYeiDV3fFeuaEWtUGYFzf-oqc4S8Hanytn6DyEnVelPJXIa-dZb2aqOF7JwktBb4LIi7s1VxsBg_nUuOjL3ex7-YubaEU6SjiBlBLcpMWiZNeJLQCkV9FMlfmgzlI9VvhYbJK9gdVOVDR6vKYysP4ZnAzNkvaV2rxi2lIPp_1l9M1_w3NpX1OUoeQmbnbjohqfrPqEWxM1GUVHCVqToDkrqvxzDkF1e6krlrpkw21IQVXeNC-zuQFzUiQXV8YK9mciHfwLd6h8QQdRSW3s4JGjjZXVSKLy52XyTDZTXwe20z1y0-ym75WhacWbZ1dQ8llSe6X26zrA7WUdz88TPT2NO0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103007090993969067540\">VINCENT HOT</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfg_be2mex9oDq9-CYyoLFJ_Be1WsaOiHZAAnoZ8v5RSEfH0SAdAoVFgMr_zr408WG7nzDXXs6Xhsbw2GkHFJYlfXc5gnT0pfPV94xPGkietuMxPhriZks-ffGf-fh3o-43wH2y9AbZWbN_yDIuCPWl_ydv4lyTM3gXpyLZ2lvIiV5pJ_RhX_Nylakdd4Brd2140L1l3KHhJWXINAzyHpyZHbqT0Tl0a4iLXXd8etOMW6QC3FF5Bzsbhua0U157wFns83H6Hcae9At3daMuwcFfRPhnJXXo9fA5DDeP1JITRBDsxjXOaLfy0ewi8KHi6UmxEvSrCcwpL9MglK_L0EP_nbQubzqwLFP-p9pb4UL6x69J0rqbM0MRFpSEqwrRAU40ymxjA5XOIsMtMsAWEqLOw1Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108989671996039030003\">Productions 233</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLery2axT_hTVPVrw4rGBnSOhow7T53Gk8D8-Q3NSB0Q2BRHm-UYL6sOmFXWZ7IjEHP7fk10FudN_PBbtEx8_tmLU9agjkV1zeZJB9lEIbbrT1sJ7oqmOMsu0T6QjGbYrC4XLbx6aV0B9u0fayGnYokUj1Y_f0YIVyh6r2PUPjHBRpBZqC4Ovys37VTBeVASPidSo9PepcHwvuwDnl9Rz8WR9OXs-HeyeRggPp7kRXrbC3JX853g6FDQUvW_yswf1zzIn9150A52YL5Kedc5tC4E9il-Z0chxNd5LC-jSefCC2hsrZaBpmUkAZ9KJTzqyk03DYDtiuStu6auu5rL5JcJVhjmdusL899BRDU5oyeiz3Ph8AGTX-gPSIKePOpZvB7R3N_fy5TaiY4IdU95oqFDZLc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112475984111405272943\">Robin H.</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5897
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne documentent pas le menu, l’ambiance, l’accessibilité, les équipements, les modes de commande ou de paiement."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Hallennes-lez-Haubourdin, ouvert pour le déjeuner et certains soirs selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-gazza-ladra",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5897,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "53d1504c4459da5706a5929a12056fb18e8f0626085aef36331636784040dcb6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

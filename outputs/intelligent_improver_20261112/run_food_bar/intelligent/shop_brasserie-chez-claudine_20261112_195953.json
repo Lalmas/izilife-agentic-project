@@ -1,0 +1,605 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:59:53",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-chez-claudine",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-chez-claudine",
+    "status": "found",
+    "data": {
+      "id": "5703",
+      "name": "Brasserie chez Claudine",
+      "shop_string_id": "brasserie-chez-claudine",
+      "unique_id": "3bd7510e3428676168d3ee1b9ece2787",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54961",
+      "principal_cover": "54961",
+      "qr_code": null,
+      "phone_number": "+33762345606",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "72 Avenue Butin",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0345287",
+      "latitude": "50.6372277",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:38",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:38",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJPY_TTmPVwkcRRhEdaw3suTU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJPY_TTmPVwkcRRhEdaw3suTU\",\"rating\":5,\"user_rating_count\":34,\"google_maps_uri\":\"https://maps.google.com/?cid=3871384897077449030\",\"fetched_at\":\"2026-11-12T19:59:42+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Nous venons de découvrir chez Claudine,  nous avons très bien mangé. Un accueil très chaleureux. Un excellent rapport qualité prix nous recommandons. Merci\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T15:14:30+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Ludovic DUBOIS\",\"uri\":\"https://www.google.com/maps/contrib/116700735818985888260/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLdJYvuzWkVX3xhT0nE8iXSguSdHGewvKIywo6UQT0MAKI5oA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Accueil sympathique et chaleureux , service parfait et les plats sont délicieux !\\nUne belle découverte !\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T20:36:31+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"ANNE LEFEBVRE\",\"uri\":\"https://www.google.com/maps/contrib/102902253825238126676/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUmZ4fdRB0EA-iz9jo9IROxJuMtNjaXpzBkr0x1oFhIiocGLDs=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je vous recommande cette adresse. Top!\\nLa cuisine fait maison, l'accueil, le service tout était parfait.\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T10:44:14+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Faustine Tournant\",\"uri\":\"https://www.google.com/maps/contrib/102676701394430998255/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJaN4BauRJhOqtbMbT2u-01JdWLflT3MZ07PzMg_7hiw5Sq_w=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Endroit où tu retrouve le  côté  familial  les repas juste excellent  . A VENIR DÉCOUVRIR  N HÉSITÉ PAS tous est fait maison moment convivial et chaleureux !!\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T21:35:34+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Caroline B\",\"uri\":\"https://www.google.com/maps/contrib/112089559932347096965/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL4LsDmMmKhVwGDfyr7tpAFh2asqU1LAm-j-xuE9JQ0XTqEvw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Venez partager un moment de convivialité. Délicieux, goûteux... je recommande à 100% merci à Keryan le chef! Délicieux 😋\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T21:33:05+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"isabelle flament\",\"uri\":\"https://www.google.com/maps/contrib/107123648991796144768/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUS6vYJBCAwgfQYZtssdTayzo50qN1Yco3SZIQp9cC7VFRO9-UK=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:59:42",
+      "google_reviews_place_id": "ChIJPY_TTmPVwkcRRhEdaw3suTU",
+      "source_id": 5703,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-chez-claudine",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "brasserie-chez-claudine"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54961",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5703_6af39cb2b8952.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4761",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33062",
+            "source_hourly_id": "4761",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33063",
+            "source_hourly_id": "4761",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33064",
+            "source_hourly_id": "4761",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33065",
+            "source_hourly_id": "4761",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33066",
+            "source_hourly_id": "4761",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33067",
+            "source_hourly_id": "4761",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33068",
+            "source_hourly_id": "4761",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-chez-claudine",
+      "google_place_id": "ChIJPY_TTmPVwkcRRhEdaw3suTU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:30",
+          "mardi: 12:00 – 14:30",
+          "mercredi: 12:00 – 14:30",
+          "jeudi: 12:00 – 14:30",
+          "vendredi: 12:00 – 14:30, 18:00 – 23:45",
+          "samedi: 12:00 – 14:30, 18:00 – 23:45",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLesOy7PRpx3JAib92uV-qIA1VRsoU_xrQ9r4CvTzAryONF_cl0y4ZGufWwY-blGrGq5XuYo7zomAuHSla6JCC8o9Gb-2ctsB9XuFkiS4_CQJui6rKFIkw_evlYR3YL3yaCaSyoUBlYrjUMM9lOWYIhn9XkeeSyML4PpcqRHWTgtCackuujmVGXm1uCg7Y-3cyVlRcQKRwAuHiJTMs4nVvjozzj-3MU-njUFhjHi-24-jthTxzMeT_NI5Cp9cHS2MMw6dV-_Ss7xJvTVJhrbgFsea9IpzgKavqHf4HWEFKw5lXAwiPYtpbUur-3rvXqSi32sISj9bLixFIJkzzkrI3wSfgo60mB7X5ATf2JItZ48mdoppLWhreHBqxU21Iiq_TBFXTnmE22OGWCz-Fu0eZMan1KLcBT55X45gxLBCDBYXA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfrf5UM4pWjL8PYEktg6BJTSfrYqHtnvnL2KTkkahZu19C9r_sCICtwbvjdPQiH_jLDm98CrflqIfGx6j-0Lr79g5ZmIg_ctu-N6ZW2hqGw_8MgsGLbB5rqR35MVPMZrRyc72W821G3rqhaeNzT90__zIubIbgFBJr8VGajQRdxr3uaCqF-uk0BWRoEu0cxfYpCHqWsXH7ctvyqsflmqUVZ6bbCrBI8ILPi0OdI7AnsZW8dzg5bwB47wAZFwZmjm94StuGwj2W2jI7LD95mRUtwofqGgk7qQq6gXXTanbbzilDr2pSvQwtaAvHgoWy2DFTt7pqKBw4otgUhosaKfZ_mP9TuNtx8O8_DZjeEie86ftNjPgvOqhAbwoqkjNBXOLkUOjM1_nNB6yraTXjH-iAa9fNRw0Gzv0N-5dwOmYmlLQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 423,
+            "height": 564,
+            "photo_reference": "AV-0GLfc_QlyPI4HBvqPA9aBQGWD9RbduWTD6tQzGPmZ5RfFvd6AYeE6wl9mXOyDMyD4nDCEnrgGkp35i0Wzz4IJAGRdnPvSIfMo6_hQQXuW9oG-6TOnQbs-84FKx-5nYLao-34JADJffLCK6irGlNPN9CdKiEZKHkYGCQIt5E5T2m7v1Az55KWSmH2fHXTvVOva02mKolUtZ-sQS2c6TW-7NWAxHeX3eEj2aaYg-SCE33vHRV-sDZ_E_nZ0REfruh5hi4dj-v7K0F37m1rb8I5BaXYSdK0MMu5ubA5yERvWbloo3YzGYiDTaAyOTU9Deqa6LmrgXRfFsWvPV43DcWPDVwK0tEUv-VFYCryXC1BBTKSpoYtVdn3sgUYkAJPOdQgiwJlG35n2rZlcx3eF6Cw5yv5KlZPCrl_B1K3IQGWlZvZ18A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112434058348578634831\">Amélie</a>"
+            ]
+          },
+          {
+            "width": 423,
+            "height": 564,
+            "photo_reference": "AV-0GLdix1qSWng4mBAzD65V6nTAzpdRC_66O6VmTdgcHwVEaiRuSmrD9RPlm1OArZrlnd5T5-vC1YwLWnSbc-BFLWSNCbeC5UOqAGL5O3nIS74ZHAIa267XGb6qKaExu8VuayayHfiB5_XXHLAPjT0NlOfvJLGGJaJ6PsppoqK7E5cfEBrAwFfvUXzk-E8-0niPn8VBY7_fNwl_1F28QKA0QtbiBvhGb3qG1EOFb2Db6Z03GgwxLZQ92lVMkQ3h_-pTvHb0d1U_y0Qd-cKXvYSnediskswG-I4FR5Ow-1NrsfQIW2BY0RZo7LicPey7TRSCV5nPUv6jneXVDtQb7imIYfAMjs0S2lpS8EOABg5rbzRtaIpqmlu3fDgByEjksEDMemFeZGOGjrI3BgoQ-offeu2fION6E5g3B434tvWnv5G6Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112434058348578634831\">Amélie</a>"
+            ]
+          },
+          {
+            "width": 2881,
+            "height": 2607,
+            "photo_reference": "AV-0GLezGdspKLAfZepBcQSS6KlX8jWhtddWH1HC5fD8OX8Yd7XxSAVMzYiuKbcrMJwk8j3M5IkvZipaMPGY76n6zLG40eUnsHCXDlh7-GCZwkbRkEvWvANLYtE_lxVBkA1bNQt3DEPpquPS6_5_8vz7PDBl1biEyIh8vpknH1I_-H3slq1ofuhrUBsNhyY7I54p-0Pb6PL2EUXdKqqTfjJ1px58i57oOK4TEfzBr6eFfduosOuiPh3Ul14ztSV9iBOlt7nb5YAwnpa5ZUNV74VAa9IAnLrw1qSTypy0ZSfeZCIPVZjzPr07THjGkVSyQVNU1hFBZ2kC64hKKxCaOCp396ysC5UxOr2UtK_G1mckhgBJTkFUudnFxSId4JjDPCgXSQVqcwUdG_s9sdtPz9ZkIwI5fBv7WPgueDMZO0hVCdgp",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLfkTPH_i7Erkuur3ZWjIenVmRFewl7Jyoq8Bk2PDGG9N10QKeAsGItStX2LujLJx0l0AAbIm0eQSk2ER7mZRVnXZG0eGTuYxlrV_gIcLs7olKQImgWPB4oj4_aHMtzexsJfNwLAc2NrzKakX7FZ-ieEnMFvXk7kvAFHrUj2ihBE0ftwsC7Wy6qbQE9vbg9o2HDPx9-3W_vL_XGIC6gNwzwqAzYU2TxOkm5-T7Y0CWEIqfccZfZsYCv5resGNMwj8nqEsxhmElpRyCUs9SQOeobBIthJhVRRQr_IpJhEJaGl0CwIMW1PNqUGJJ03ux8BNhnKZAiv98dnDeS3GLH7bqTGYbhjXZOo5dMWgk-h550ovVtHvpoyB3vjSr1SA2Qaaw1qYznvJhpROT1fYVkERXHAFDc_xvmzOjCR2vpvQ1ASqQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 2468,
+            "height": 3291,
+            "photo_reference": "AV-0GLdAWgddQfLU6FdEuaiRc4jIrxEgkJcVwXLcsopTU9MakAP9-cl3eMBE2U3bUWsEZ3NhleJ_rK249tJJgmCMcA6hLnUFv2GBbgOtKzI_9KOioRA7bRAbon8KwatSfXnA1lmEaAn9CjS4-4Z4NrFMySs-8DMjkPtXd2x3KDSC4ep6FrvtwRLap29FIJMVebEVLXMlVrypP9Lhu78_n39zlnuAGZDED2UMOiYadVmi9wom3R4r8cJmHW29K6w_Wb1Hq0De0w51JF51EomxLsPQWJTFCbdK_GqBzebxG8teCXlSvE7oWoIxbIBGzWxXsykQOJqsFz5NW_ohFhvatpWh11GshOwCJIERJUeidwWXDbpw7iC7KwBOhC-ExbXeEIIhWJvh9WAc30Hpu5aNYr4YMH3xmKL-j86qWBJ-A4Z7HUHC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfyx5hdYHQjdIL6WWZYfyCK-3v4n1Nmcpk8psqLy4wubbYdNqMZMVdt3eqxZWwM99U99UIIn_ohyKGB0eyIT5rcPn7BBhI5ejqkhXn-i-D0wly0VpYHkjTp2I_M-f7V3O6QTDHXfSC0BILajd2FYCgkAmuZULwEPS101UvxEAO6uCmfY8vH4R6vVQFkpUPq_UnwaKNVP0F0d2j1lOJ3RJlzZXF4qTJWdruiYG9Oc5VqP1I3PUl3z1Gugtb7xlf8ekwPgBWkM56LVcX2pveyQ2fqfY0m6x0wlhal4pFAtUVBCs2412_LHgeTVm99ls4DxPb0YoTLGciWAPOdJOEsMuwyMdL05y8nQ77EfYVufz-w_PDEsk0yFpwOD4Qmpfdnl_VVq9tc98RhNt5_aE-qD1ckEg-yG7-eaVBDOJcy0RtH-A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 3783,
+            "height": 4800,
+            "photo_reference": "AV-0GLdlRFEuzYQ70IntPwnZ97r8feNYrQOhuAqdqRwjl-n9rD3xcuv21rMZpizzdVjrHlte7GE6sSfB9h9fclAZ2BWW1jgy8SGCKvKnAh2av1S3X9v7XHET9U1nGSE9zsyEt5rqbm4bJWcWTmjTE2A9enk24_TAkIcabKXxb06jXxxZsyZSoMxf6KJei2KZaC8SAI39oWQTDhEMY8B18y2Gqa5_EKl74OhV2mE-5ZJCCJd0c8IAYMH5uSahq4F33wXZ6CY0qOXw7h383DEdtBrxWzCOs7fE-PPrzoGTyfJyTMSImWe80g3JmZjj-MpIzgpd55COvcpM2Aw3hLKkuQ-j1fiL9pPUYgUcWzALCMPY5YeIOg15kwGBt8Ud_t19O6rdFeNod-DCp1oie084e10MHX4AsC4QLmFBcskNPXgwXB4odg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106666022377146530392\">Brasserie chez Claudine</a>"
+            ]
+          },
+          {
+            "width": 900,
+            "height": 1600,
+            "photo_reference": "AV-0GLccywngcSizJ_EyIbnraS_pZK8sz97mNraVQbA1btYe3t4Bsmwkw2m1leksBW939VinpMYh5fXnVoM4gdGPaK6mL5GKk7BBDUWPmoGV077tCeJ_Zu2PzORrR2f5PN2j30md8D8-zzU7VFPtqGRj7NSOMMUkjl57l6xwk11SpLxO4Nf68f9rklJQ1rvosF7rqxcYVxmoxuIiKaifI9CNfn56D5YkTIRWA3_MJK1x6wOisyDtaagzl6rF5I8RA_fP2Dr8Ewxzb_zfkhp8JdeIn8rSCxGGnS5ShKht2rePUWglEwn0-cGQIkLg_15r5rmsTEN4fX8rAxIp4Y_2czZrholMbY6Iwp_pRKZoD2XUEpVv2csEAPBYsVa-Jg0LTDYE-0uOs5Mb3oc1dQPMW2l4OdK2pozh7h00v-kCvv7-VICmzQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113720518154155841063\">Mathias et Marie-Jo Devoldre</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5703
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Nous venons de découvrir chez Claudine,  nous avons très bien mangé. Un accueil très chaleureux. Un excellent rapport qualité prix nous recommandons. Merci",
+            "language_code": "",
+            "publish_time": "2026-11-09T15:14:30+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Ludovic DUBOIS",
+              "uri": "https://www.google.com/maps/contrib/116700735818985888260/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLdJYvuzWkVX3xhT0nE8iXSguSdHGewvKIywo6UQT0MAKI5oA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Accueil sympathique et chaleureux , service parfait et les plats sont délicieux !\nUne belle découverte !",
+            "language_code": "",
+            "publish_time": "2026-11-08T20:36:31+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "ANNE LEFEBVRE",
+              "uri": "https://www.google.com/maps/contrib/102902253825238126676/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUmZ4fdRB0EA-iz9jo9IROxJuMtNjaXpzBkr0x1oFhIiocGLDs=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je vous recommande cette adresse. Top!\nLa cuisine fait maison, l'accueil, le service tout était parfait.",
+            "language_code": "",
+            "publish_time": "2026-11-08T10:44:14+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Faustine Tournant",
+              "uri": "https://www.google.com/maps/contrib/102676701394430998255/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJaN4BauRJhOqtbMbT2u-01JdWLflT3MZ07PzMg_7hiw5Sq_w=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Endroit où tu retrouve le  côté  familial  les repas juste excellent  . A VENIR DÉCOUVRIR  N HÉSITÉ PAS tous est fait maison moment convivial et chaleureux !!",
+            "language_code": "",
+            "publish_time": "2026-10-30T21:35:34+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Caroline B",
+              "uri": "https://www.google.com/maps/contrib/112089559932347096965/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL4LsDmMmKhVwGDfyr7tpAFh2asqU1LAm-j-xuE9JQ0XTqEvw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Venez partager un moment de convivialité. Délicieux, goûteux... je recommande à 100% merci à Keryan le chef! Délicieux 😋",
+            "language_code": "",
+            "publish_time": "2026-10-30T21:33:05+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "isabelle flament",
+              "uri": "https://www.google.com/maps/contrib/107123648991796144768/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUS6vYJBCAwgfQYZtssdTayzo50qN1Yco3SZIQp9cC7VFRO9-UK=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 5,
+        "user_rating_count": 34
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1182,
+        "bo": 144,
+        "front": 1038,
+        "estimated_cost_eur": 4.55
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Les plats sont délicieux !"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Un accueil très chaleureux."
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Nous venons de découvrir chez Claudine, nous avons très bien mangé."
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 18:00 – 23:45"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie où manger sur place, avec un accueil chaleureux. Ouverte le midi en semaine et également le soir les vendredis et samedis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-chez-claudine",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5703,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopMealType:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6b23ba2ac2faf1635935d1d6da65a7276f6862182e2f0131ec260e77c8005fc4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

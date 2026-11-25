@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3245,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.88,
+    "evidence": [
+      "La description présente un spectacle humoristique porté par Gaëtan Petit.",
+      "La catégorie existante stand-up est précise et cohérente avec le classement fourni."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description ne nomme pas explicitement la forme stand-up et ne précise pas non plus que le spectacle est un one-man-show écrit et mis en scène."
+      }
+    ]
+  }
+}

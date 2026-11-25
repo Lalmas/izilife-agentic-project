@@ -1,0 +1,68 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "repas dans ce restaurant"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "attendu 1 heure avant de pouvoir déguster le plat"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "Lors d'un repas de collaborateurs"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "repas dans ce restaurant"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "repas de collaborateurs"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "12h30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:00 – 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale une attente d'une heure et un autre un délai avant la prise de commande ; un avis récent loue toutefois la fraîcheur des produits et la gentillesse du personnel."
+    ],
+    "summary": "Restaurant ouvert pour le déjeuner plusieurs jours par semaine et le vendredi soir. Les avis mentionnent des repas sur place, notamment en groupe, mais signalent des expériences de service contrastées."
+  },
+  "meta": {
+    "cache_key": "2db5591a9529832bd73f68d61cc4a2e40d8f0f3c3aae339cf987d372ba8d5feb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

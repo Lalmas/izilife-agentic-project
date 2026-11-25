@@ -1,0 +1,44 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« le café maison »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Chaleureux »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« le café maison »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas les repas, la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de paiement ni les autres services. Leur absence de mention n’est pas une preuve négative."
+    ],
+    "summary": "Café de la Gare est décrit dans les avis comme un bistrot sympathique et chaleureux, apprécié pour son café maison."
+  },
+  "meta": {
+    "cache_key": "0b54ad515565f8faad334114eb3af16323154b1b37a175646e6712d4342b2c70",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

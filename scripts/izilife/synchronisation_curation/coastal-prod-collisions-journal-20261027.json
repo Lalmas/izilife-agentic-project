@@ -1,0 +1,933 @@
+{
+  "format": "izilife-curation-apply-v1",
+  "plan": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\synchronisation_curation\\coastal-prod-collisions-plan-20261027-174007.json",
+  "plan_sha256": "58a468fba4051c7a7a119f252e847e955abd65b4d9266b96e626ae8c5f896120",
+  "applied_at": "2026-10-27T17:40:53.197293",
+  "destination_env": "prod",
+  "targets": {
+    "l-authentique-dunkerque": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 448,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "414",
+          "sha1": "21ca5ffa7890569fdbb864246ea2e668f95ee9a6",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51469
+          }
+        },
+        {
+          "source_id": "415",
+          "sha1": "ce85c0125f0defcddc79ec01ee2bff16281660f6",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51470
+          }
+        },
+        {
+          "source_id": "416",
+          "sha1": "5478d01b861664b015fc527b6ac9d656f433ca5a",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51471
+          }
+        },
+        {
+          "source_id": "417",
+          "sha1": "9bd19c7d3bf038e1b33fe1d4ff33199c3f2f9591",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51472
+          }
+        },
+        {
+          "source_id": "418",
+          "sha1": "030dc8b162af4d22ae7aefd4d855a0b8e07ab710",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51473
+          }
+        },
+        {
+          "source_id": "419",
+          "sha1": "55d14f533583f5c2dc301b3f3bba6dc97779a48b",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51474
+          }
+        },
+        {
+          "source_id": "420",
+          "sha1": "2a498a24d7eacd3cbf31cf5a175d7b323384b872",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51475
+          }
+        },
+        {
+          "source_id": "421",
+          "sha1": "127a55da8a918d77b010ed06550cafd54a4b2369",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51476
+          }
+        },
+        {
+          "source_id": "422",
+          "sha1": "bc2f6f8e964b3fa7b27144c26157798b37e758d1",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51477
+          }
+        },
+        {
+          "source_id": "423",
+          "sha1": "03579747c7664f4ca2c483da2211bf479e02e307",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51478
+          }
+        }
+      ]
+    },
+    "l-entracte-calais": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 449,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "1617",
+          "sha1": "010223f9dce7c825f3131ddadc1a218e79236746",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51479
+          }
+        },
+        {
+          "source_id": "1618",
+          "sha1": "56796e6594d6e3360742a109607da98f3229e835",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51480
+          }
+        },
+        {
+          "source_id": "1619",
+          "sha1": "52e975f285133a052a5b4b03b71653a5e771cf60",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51481
+          }
+        },
+        {
+          "source_id": "1620",
+          "sha1": "a74a57105e2dc514165624a3da457e942878550e",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51482
+          }
+        },
+        {
+          "source_id": "1621",
+          "sha1": "1b92f5c45db07b45a0c70eeffa380c6898342f43",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51483
+          }
+        },
+        {
+          "source_id": "1622",
+          "sha1": "da0c74160e808430ea5e4a99e522c835aa5435b8",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51484
+          }
+        },
+        {
+          "source_id": "1623",
+          "sha1": "d1c49dd5e566729c568e277d6021e8183507f376",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51485
+          }
+        },
+        {
+          "source_id": "1624",
+          "sha1": "44840dad6b0ec68ce926cc8ea69c13ad84bbcf03",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51486
+          }
+        },
+        {
+          "source_id": "1625",
+          "sha1": "8eab093c0685ea86cf71aa1bbcd01af75f10886a",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51487
+          }
+        },
+        {
+          "source_id": "1626",
+          "sha1": "c2114acd893e8824cb6669ca870ee7d3bd16ce40",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51488
+          }
+        }
+      ]
+    },
+    "la-terrasse-dunkerque": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 450,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "1377",
+          "sha1": "274efc288795ac527c3cfc79bc7c0ca1e763d7c1",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51489
+          }
+        },
+        {
+          "source_id": "1378",
+          "sha1": "92028216fed0c75edd9fb65bf96bb8bc0015fbaa",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51490
+          }
+        },
+        {
+          "source_id": "1379",
+          "sha1": "2947191a37ab10da494ae33c5ab7e26e26a07478",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51491
+          }
+        },
+        {
+          "source_id": "1380",
+          "sha1": "1ee8a1445645f42e0ab2a3434806a11d3e69f0f0",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51492
+          }
+        },
+        {
+          "source_id": "1381",
+          "sha1": "e2d3fc34fe852f4967c01d3393797457bb59da51",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51493
+          }
+        },
+        {
+          "source_id": "1382",
+          "sha1": "274efc288795ac527c3cfc79bc7c0ca1e763d7c1",
+          "result": {
+            "success": true,
+            "created": false,
+            "skipped": true,
+            "media_id": 51489
+          }
+        },
+        {
+          "source_id": "1383",
+          "sha1": "9ddc12397e3130278c465ecf0b8ca250a79cb9bd",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51494
+          }
+        },
+        {
+          "source_id": "1384",
+          "sha1": "12d1a6336eee9e2e9191a03c38a3c17acceb02ac",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51495
+          }
+        },
+        {
+          "source_id": "1385",
+          "sha1": "d585897c7315617f254cb30bc73d181811bde6c1",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51496
+          }
+        },
+        {
+          "source_id": "1386",
+          "sha1": "bfb59fe0b10600f0936833d31a61fada051b4b0d",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51497
+          }
+        }
+      ]
+    },
+    "le-petit-prince-calais": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 451,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2319",
+          "sha1": "247acae05b917bf8094bdfe53b43697df974d19e",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51498
+          }
+        },
+        {
+          "source_id": "2320",
+          "sha1": "d030717b97bc42ceac52dbffcbf1e29cd81f5941",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51499
+          }
+        },
+        {
+          "source_id": "2321",
+          "sha1": "3c6f67902d74b6c2c88a432a9a0f1b0af4a3d220",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51500
+          }
+        },
+        {
+          "source_id": "2322",
+          "sha1": "eb22ea23e3e4a7cd6f52b556f6fa7b55815f58ee",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51501
+          }
+        },
+        {
+          "source_id": "2323",
+          "sha1": "c686f4b7afbe613be7c96251d08ee6dc5b2f7ae9",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51502
+          }
+        },
+        {
+          "source_id": "2324",
+          "sha1": "07165b93c56b18b915e8b00673d16a0d8cd94aec",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51503
+          }
+        },
+        {
+          "source_id": "2325",
+          "sha1": "8e110592192ba11c456ea3ce7f53e9d069bd6de6",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51504
+          }
+        },
+        {
+          "source_id": "2326",
+          "sha1": "622796769c7700169754034c0c6b70f848b083d3",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51505
+          }
+        },
+        {
+          "source_id": "2327",
+          "sha1": "ed861f1b826538a7e047870d3b331d791f97a429",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51506
+          }
+        },
+        {
+          "source_id": "2328",
+          "sha1": "6b8ebb85ba9ad8ac337ec2b4e4f51bafca1785e1",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51507
+          }
+        }
+      ]
+    },
+    "le-relax-dunkerque": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 452,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 0,
+            "hour_rows": 0
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "1151",
+          "sha1": "8d0f5e6cc69a368b15a1332caa5558414b728f43",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51508
+          }
+        },
+        {
+          "source_id": "1152",
+          "sha1": "73b152c935d6b2ce9e7b9b40576690b2460ef17a",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51509
+          }
+        },
+        {
+          "source_id": "1153",
+          "sha1": "05c07a825844de29e0abeeb56a680dba957bea8d",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51510
+          }
+        },
+        {
+          "source_id": "1154",
+          "sha1": "5e36af0b36bbeb3d7317e78dc0f653337f918c44",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51511
+          }
+        }
+      ]
+    },
+    "pitaya-thai-street-food-dunkerque": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 453,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "1267",
+          "sha1": "72e2dd4f654c0ba8de0ac74f92795c65bf4a10b7",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51512
+          }
+        },
+        {
+          "source_id": "1268",
+          "sha1": "6f1e20043e6ea3987009a2d86d58f18eb297dcf7",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51513
+          }
+        },
+        {
+          "source_id": "1269",
+          "sha1": "7b5062e56f0f6cb54e670b232989d1d9c148fd4e",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51514
+          }
+        },
+        {
+          "source_id": "1270",
+          "sha1": "44d98553589fe275df40c55102ff202a64759305",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51515
+          }
+        },
+        {
+          "source_id": "1271",
+          "sha1": "939790cd9c2edb640fd7b926fa1964b55ab7f5f7",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51516
+          }
+        },
+        {
+          "source_id": "1272",
+          "sha1": "3e06531027dd61ee0e7e1379eba943060ad11375",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51517
+          }
+        },
+        {
+          "source_id": "1273",
+          "sha1": "b4a99e1178ef5ded0cfaba714f1541ceb679006d",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51518
+          }
+        },
+        {
+          "source_id": "1274",
+          "sha1": "4ca643ead5616bb1add0e2883dbeff745efcbf4e",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51519
+          }
+        },
+        {
+          "source_id": "1275",
+          "sha1": "fe9cec0b07da32b15d996ad4f6887a092a77f6e2",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51520
+          }
+        },
+        {
+          "source_id": "1276",
+          "sha1": "a796b9fb7e0b6da3dcdda4cc290ddc24f58e4c91",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51521
+          }
+        }
+      ]
+    },
+    "restaurant-crocodile-calais": {
+      "status": "APPLIED",
+      "backend": {
+        "success": true,
+        "replayed": false,
+        "journal_id": 454,
+        "result": {
+          "scope_created": true,
+          "created": {
+            "identity_fields": [
+              "phone_number"
+            ],
+            "other_categories": 0,
+            "ambiences": 0,
+            "characteristics": 0,
+            "links": 0,
+            "external_media": 0,
+            "product_categories": 0,
+            "products": 0,
+            "option_groups": 0,
+            "option_values": 0,
+            "option_assignments": 0,
+            "equipment": 0,
+            "services": 0,
+            "eap": 0,
+            "hour_sets": 1,
+            "hour_rows": 7
+          },
+          "skipped": [],
+          "warnings": [],
+          "_maps": {
+            "categories": [],
+            "products": [],
+            "equipment": []
+          }
+        },
+        "http_status": 200
+      },
+      "media": [
+        {
+          "source_id": "2389",
+          "sha1": "7477356cf10acf3a230acb035927178ef1112838",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51522
+          }
+        },
+        {
+          "source_id": "2390",
+          "sha1": "3e15589ab456f5648fa11c185ea0e7381547a06b",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51523
+          }
+        },
+        {
+          "source_id": "2391",
+          "sha1": "3e21817a2be77413ae7b0ad2c888836454b24a66",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51524
+          }
+        },
+        {
+          "source_id": "2392",
+          "sha1": "4d5f9bc247305bbe10a5dcd3c662a4f24cb7835c",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51525
+          }
+        },
+        {
+          "source_id": "2393",
+          "sha1": "b82b7b5d3efb462124d533f9b671f041aa42c284",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51526
+          }
+        },
+        {
+          "source_id": "2394",
+          "sha1": "f23a4d3122bef5724672501a41ab4381e51ade59",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51527
+          }
+        },
+        {
+          "source_id": "2395",
+          "sha1": "8a60943c2fe21ce7a2e46156acd6815e29ad9afb",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51528
+          }
+        },
+        {
+          "source_id": "2396",
+          "sha1": "781ec3de81775c3ad0cbacac4bdeb2b5427631af",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51529
+          }
+        },
+        {
+          "source_id": "2397",
+          "sha1": "5f19ddf1bf3e09a0dd50a29bfd1f60efaf59c87d",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51530
+          }
+        },
+        {
+          "source_id": "2398",
+          "sha1": "996092ec0c6a445176bcc50c498550cf20aba9fc",
+          "result": {
+            "success": true,
+            "created": true,
+            "skipped": false,
+            "media_id": 51531
+          }
+        }
+      ]
+    }
+  }
+}

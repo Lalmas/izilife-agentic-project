@@ -1,0 +1,69 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "Sandwicherie aussi pour les repas du midi"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "Très bon sandwich"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Sandwicherie aussi pour les repas du midi"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "pour les repas du midi"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Très bon sandwich"
+        },
+        {
+          "string_id": "croissant",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "1 croissant"
+        },
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "2 pains aux chocolats"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis divergents : certains clients apprécient l’accueil, les sandwichs et les pâtisseries ; d’autres signalent des viennoiseries trop cuites, des produits manquants ou un minimum de paiement par carte."
+    ],
+    "summary": "Boulangerie-pâtisserie de proximité proposant notamment des sandwichs pour le déjeuner. Les avis sur les produits et le service sont partagés."
+  },
+  "meta": {
+    "cache_key": "bbdfedaf6eb2921747cf1fa1bb1215a8c6de82e01c721f8030a77136d1f965f6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

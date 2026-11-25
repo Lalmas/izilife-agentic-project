@@ -1,0 +1,487 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:36",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-cassez",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-cassez",
+    "status": "found",
+    "data": {
+      "id": "5844",
+      "name": "Boulangerie Cassez",
+      "shop_string_id": "boulangerie-cassez",
+      "unique_id": "c0ff3ca65df50e2b49d0aac1b47873e8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55099",
+      "principal_cover": "55099",
+      "qr_code": null,
+      "phone_number": "+33320077236",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "31 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0209977",
+      "latitude": "50.6156832",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:59:25",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:59:25",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJofwP8z7VwkcRFpzY-5f5heA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5844,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cassez",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "boulangerie-cassez"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55099",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5844_6af3a1cd4152a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4900",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34035",
+            "source_hourly_id": "4900",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34036",
+            "source_hourly_id": "4900",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34037",
+            "source_hourly_id": "4900",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34038",
+            "source_hourly_id": "4900",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34039",
+            "source_hourly_id": "4900",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34040",
+            "source_hourly_id": "4900",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34041",
+            "source_hourly_id": "4900",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cassez",
+      "google_place_id": "ChIJofwP8z7VwkcRFpzY-5f5heA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 06:00 – 19:00",
+          "jeudi: 06:00 – 19:00",
+          "vendredi: 06:00 – 19:00",
+          "samedi: 06:00 – 14:00",
+          "dimanche: 06:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLcqV9U8KYz6DsmvTri6iwr3otgOgMH7hRzs0SGxhI9ZIJi8q5Hv8VwYKXdytGZCMd6U6Tdpa0_F9KY89dKA4BW-s4zleK1rNIz9oow-X5S3TtBWrgWhnCjvyXbrTFZvEbowTb3ngtbXiw0fn5DLceNhGE1UgLns3CK18aMYBqmzJtQaK_wJKECzre9MmDsndiNSts887knTnHO5-TR0gZe5olFnfKx0X285Op6y4pXw1YRYw8V5ByjGBTqk7efR2XuyawoTjrKmVkUqmEJ38yM0WowLUekfkN0sNzg91RVwY6XWllULgQvcVbRTEzvbkn7rTI4Pj5L-p63fw6mJAwglX6BI4MisxhMJhwV9MWXIyDAqdV7Mgsx3_xFxg2y4itT7trDsVT2E54NAHCKoQH3GjIg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101910533590751882003\">Phil Dumovet-Coton</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeoHq203uhYfFiv78--o7J5aUsyGPTYMHEp-SxPt0Exisn2HWTnPkTNVpW50zHTP6nPR3sZh_LbEwD38u7ILuXo-mwKo4i9n5im-Rjg8aJEfOtANUPjMSKMgVbbbrEdWsgNhO5G_L-Po5CKzR1R-qh2R8B1oj9sm8v3tF_gHOV9ghXrrpBFAT85M7-Zgajl__c7PhYyRuU7ZeV1Yvcuh9vh323RwNvRr8UsiujYWmoLqT5jvexMj0sUoKSm5X0nnVBtgRr1NrGhvePs1MeZQi-t-78nnnmFdWNbS955Wa3MSbd-plJdclDcCKc_MJaSUdSlQqcK0eQfsTGZZmZPTQdxv_aAtCQ_Qt86aJOqMsw5FSk5vZoy-6o2sA_tbL0Ml1SAiOi0kjFYA8oLuwmxQOF2iMU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118198596168709629352\">caroline delassus</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3199,
+            "photo_reference": "AV-0GLd8VyaCT_rUYtOQet5e7-bB_fsSS3JQaxrWKgQ6EgHF-anhFZxNw6IsklEVxhr6BFlSf-1tiWETeeQX58exb4mc3e9Jl-ZPr5lQNv6cIIXDz6qbb1NyFoJQEARqe6RQwAmKAn1zKxFwQaCgH9M0no27OghqJJZBpc8wkyeVm4RUz4Mbpz7DfhVCKWEvzKzEhwQwIUbUL5zoOESwrgB5sA1tKmJ1SM8-3nLcZUhl5me4la5aXegdbBLdgrxtvTz4nCTWsALsWL-Rxc1guS-ztZ8eSGOcHHjztVMGEkEyLLu7fC10h5CyankVFu-kIDyNq1-3t0nsUwwDll6snL5WxfAoOjGzvGmkby1W1RrBPjnxZN7t_M2X4K0dBIoliekwgt500be2SvtpnwZgq6V_s8kgkQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108048899203258162407\">Herve Cassez</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLeMqXNUkiUQ6HWn-6szA0SEEA9Zm4JXI3mgWhy5kBKkQ3MPLJ1MUds-y6gxAn8lXghgw0-4enLnW52mL-WqJxgtA5wG4JsOoNP6CyjB4QFpZbsIBy4TIwSuvnBnHM6VnKeCMn0zh6_CRfiCITTXAzg7R_DFMoDlh8jETqCm6u7fHtQb3i8LMOKSgDF5p2Zeeu1FQ0m_8EkU9Dqzvf68RTi0JpZ5SnZ4WWirxddfCa0zSt2inNbV2YtzgSn57tFtRehUyRhFWi6yysDAy2FCzqGvaaGDxmVaGbZ1wCGB7q4FPJeMpyJqQCcfG3U7u3WkJrhZfjodDcWfW0Pc-zoU-VI8Mz_uirWza1WojRWhM7KTNx_YUqvhleVhEzm3KmL8yAnSaecrdYp8Sb13pHJwENcQd3uHoAs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108048899203258162407\">Herve Cassez</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLetfmUq75-48l3H6GfVDShKBA0cu9Xt_pkRqNgvDMzmJl9Wgq9wX_okxOlWz43lrDXjyv4JKK9TzxKfTnEuUgXF0SbyY-PPp7Mg1uVUKaGxWISY1BFKquJ9J1I95B_dRRdHkWc3OKy5ByPLUfV7KRCEnO41wwSiYeYOmYzy7HQzio-rrLL3fdSKIw1UCsd7JnNoTVhrOrHhAIJWraeHibqhUQoSMo9ZBnGXLQCNPXyV7QYV2vparvzwxKaITTB3JuX3GbmeYSn3n1nhRR6AzpLSXuxt9CoIvaDed8pZoSjTBo72t9DKbSLgP0Oau_ucR0j9YhU7LE9NIbb3_QooM9UQtNuiBd8lG7cAJlrlPyGIWed867p0s3YLznWz6s386LloyDspmsQ-gzNk63NTGX_pk4sKOlM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106837615129278150979\">Acchan Inder</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1280,
+            "photo_reference": "AV-0GLchph3Rh-OoO2RxC9ampYY-eg4KJXEzQmceN1HJZxUC7QtfC5yCjh9UAM5gDAwaT-uuTwZkym39gdqEMWZtnRh77QDFiLrD0bQIU4mVMjZ_8rjjvAvAWUBjj68w9NK93AymS3Yle2EIYzgeTCAi8lRrOBcFjpuWhncaCq8ZB-EWSrFjwFzlfGOgllc2TXHBGPih7ubAFLfYsxonfvLu-WsQbI20trRiqaNdz-oDO8pn01thUkZOggXgcyMJ0r0f4WNIzTtMY75wkeKwnRw3_pMZuRLNrwNtrNF-nyTRQlFbsrRfD-7jWUUiVYMtsDtPUWl8fXoNEH5vKgKUogfZvXoQyTnCM7KE1gJjqu1QQYepG1Voy7c9Amjz1ZFevtcZHRHJO2NSZm2UpG3ixEeIEj5L_Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108048899203258162407\">Herve Cassez</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLcq1hIn7EY6t02-7Kb-a1HIlH61miwKD_JDwy-7v4p-Vgv1AR2sDedYZSQ-vGFZAJPwWTtbEdOmJ6ILcuP3BS6RiTyYTnnFSb7pPqGBTwrghkURrRXwVZ2X-3dPvWvHKbVIOzmGfB0CcYe5bBen1cOU7VRKo0g8uDTsKBd5g3Da8uljqF61RW_urNr3-00B1W0n5Skd_lGURXqSkEvKVyfRgiBP0L-FQ1kAwJh96N0seO1uR5eUVaVTA3zLZ2KxlrdaN_-v_5uEc0PTDg8trMTEQHYpk7yYg07W06BQgQ8U7QmYjNV6g68dFcbCR57DX9ZmX6AmHA9JJ3NB8l4Oo6nFBkw_kXmhcY5RWQ9zXRfG3t8gpBUTuxG9-h81IkxUr2f6YAL67CTFCOOTZcRYkV5pRV6xG_o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106748183972160637753\">sohal el</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfvK2WSKO8WpYRrIJ472rzZlSn2BCBmU3v-MW7e97OTIblfop1t6LB6OnrZ9pQlMfEMt88WV4BhcDa5otsCa2zSbVD_4aflpUhWA_IFOufRvXNHU9Pc7RZ2cDMo2V6rIw2kl0LKrYA6COacgM3-KkovZEc814fyYJGFphetO4dIuspS4AHSUAsMhH1hxwBS4UTEJShgfjpMKJP9R_cd4dfWjNzEuNpGpwUfyb8moPVACP0xzi0kCNDIObIe82w2e_Af4uoQJZKSONzo9f7w07UyCZQcTsCL4_57H0Yc4HZoiUMH627cQJaxHVZHDIESkzWqFWt4c-v9NAolW6_9uyJqoHr8K3NGjOVmD6catgoo7Ur3kc3j-U-4xCC8JVJO0Vh7Ohz_lzq0Sn4qOe8RhBW-AgJdzASRI99JVkT44U4O0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113483148226713472817\">Evelyne Sense</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdqoMDU0tDlUwPwzA8eOv58gK-nPOswtxTUrEhESOnA2sL7kYt3pOa5x44zSZqIGs25H17DCDGkkW55z1hHNEt0eNdZcFYzdht6mZKTB3gsU2P_xFwGyuGuvuhRsgNeuS_8wffdQuqEEOZFGNERu3mz9NlAbiu6vE8eiwZdOwtqUT9DbAKOVQHqn0DxJRwIdBvB5r9z7R7tWjGUPdIC0zd9QFhJgVrMrIBAePvfk13od7syXMaxwZoDyrn83Cb3hCkCWc0_z9WiZ6UoBullJ2d1N9182OTBFnGF547AFV1L7MP_D7hRUmpFKnzNUIBIImU3EcDzmqpCvu7iADZBLX8io0SINxjXXKV9WXx-fid9aE8IZgzrOYRpCsDcLYl2Q1TIe0ipvdr5UZRHxq0V25CASQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104823079836846387989\">Sarah Sasa</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdJZpN400y4s8ndc8o-AhHWVeDWMRQwmNCINe9Kp3KV_PanTFxMGrz6h-2l8CDKPxfSpckzqx4RwZnZsvnshgaIPpLwCYf6N_nlzn25g3ZOrVktzUoRC5S5l_W5DVVEaBXjEIFfVm9yVOdTTSV2kJz96f9YNUHvz6QXH3PrD3YWU7i3SDdX4oC6x4Yqve0gVDYsL4dSk_3PF9Cy32rHBlzuHA9gmA279r6m3ypSmqOLeFeGOSXFtOYg_0wA3shs-ttb5Ljf74E_yoH01wXVSQA2hrV-6GqYyjX3DjludLAx4C-WR7_aqvJAAjDcuvHAVXf3R4CWw7xqXgtWXTQVuoIGjbOpfMpKJJUj32V-P-rgL-R4v6O0tzRkZfi5IyDPJBqNNPxLVRaeXHEeyAy-GyMtHY5e",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117481362613922323192\">guemaz honore</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5844
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les informations fournies ne précisent ni les produits vendus, ni les options de consommation ou de commande, ni les équipements et services."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "\"primary_category_ref\":\"boulangerie\""
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie Cassez, au 31 Rue du Maréchal Foch à Loos. Horaires indiqués : mercredi à vendredi, 06:00–19:00 ; samedi et dimanche, 06:00–14:00 ; lundi et mardi, fermé."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-cassez",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5844,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6a3da277b023a7347a5789d06def53a758990cf60e6589a392a3f872de74ad68",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

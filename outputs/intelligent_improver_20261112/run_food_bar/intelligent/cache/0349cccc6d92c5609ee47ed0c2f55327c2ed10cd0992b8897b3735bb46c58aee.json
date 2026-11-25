@@ -1,0 +1,50 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: cafe"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: cafe"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 10:00 – 18:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 18:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les modalités de commande ou de paiement, l’accessibilité, les équipements ni les ambiances."
+    ],
+    "summary": "Destination café Douai, classé comme café, ouvert le samedi dès 10 h et du mardi au vendredi dès 11 h 30."
+  },
+  "meta": {
+    "cache_key": "0349cccc6d92c5609ee47ed0c2f55327c2ed10cd0992b8897b3735bb46c58aee",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

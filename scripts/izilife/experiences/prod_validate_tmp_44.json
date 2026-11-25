@@ -1,0 +1,224 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:41:14.663713",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 44,
+      "title": "Lille côté bière",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/decouvertes-gourmandes/",
+      "validation_blockers": [],
+      "status": "error",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "biere"
+          ],
+          "object_string_ids": [
+            "bar"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            {
+              "string_id": "7",
+              "name": "18 - 21 ans"
+            },
+            {
+              "string_id": "8",
+              "name": "21 - 25 ans"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Sillonnez la ville avec un guide-biérologue et arrêtez-vous dans plusieurs établissements pour déguster la bière locale."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "arrêtez-vous dans plusieurs établissements"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.95,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Sillonnez la ville avec un guide-biérologue"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Sillonnez la ville avec un guide-biérologue"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "déguster la bière locale"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "déguster la bière locale"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Sillonnez la ville avec un guide-biérologue"
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/12/thumbs/Degustation-de-gaufre-1920x960.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "error": "Array to string conversion"
+    }
+  ],
+  "completed_at": "2026-11-08T15:41:24.123295"
+}

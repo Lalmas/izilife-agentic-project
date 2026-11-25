@@ -1,0 +1,28 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"restaurant\""
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les options sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modalités de commande.",
+      "Aucun avis n’est disponible dans les données fournies : reviews.status indique \"budget_exhausted\". Les horaires sont fournis, mais ne suffisent pas à confirmer les types de repas servis."
+    ],
+    "summary": "ORIGINALE PEPIZZ LOOS est identifié comme restaurant au 92 Rue Georges Potié, à Loos. Les horaires en cache indiquent des ouvertures à midi certains jours et en soirée."
+  },
+  "meta": {
+    "cache_key": "4e1751ff8423fd070ac496d87b32933934cb16e409d784e29e384b9890083d3a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

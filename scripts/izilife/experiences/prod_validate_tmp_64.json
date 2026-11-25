@@ -1,0 +1,128 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:42.312431",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 64,
+      "title": "West in Lille — pratiques West Coast Swing",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://westinlille.odoo.com/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "cours",
+          "principal_activity_category_string_id": "danse",
+          "dance_string_id": "kizomba",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "danser"
+          ],
+          "session_configuration": {
+            "name": "Cours hebdomadaires",
+            "description": "Cours de West Coast Swing pour différents niveaux, organisés dans plusieurs lieux à Lille.",
+            "dates": [
+              "2026-2027"
+            ]
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                1
+              ],
+              "hour_list": [
+                "19:00-20:00"
+              ]
+            },
+            {
+              "day_list": [
+                4
+              ],
+              "hour_list": [
+                "19:30-20:30"
+              ]
+            },
+            {
+              "day_list": [
+                7
+              ],
+              "hour_list": [
+                "18:00-19:00"
+              ]
+            }
+          ],
+          "element_access_prices": [
+            {
+              "name": "Adhésion annuelle",
+              "price": "15.00"
+            },
+            {
+              "name": "Cours annuel + adhésion",
+              "price": "140.00"
+            },
+            {
+              "name": "Deuxième cours annuel",
+              "price": "85.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-pour-danser",
+                "confidence": 0.9,
+                "evidence": "Venez mettre en pratique ce que vous avez appris en cours, invitez vos partenaires de cours, tous les niveaux dansent ensemble."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible à toute personne qui débute le WCS"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "tous les niveaux dansent ensemble"
+              },
+              {
+                "name": "can_danse",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "pratiques de danse West Coast Swing"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Excellente ambiance garantie !"
+              }
+            ]
+          },
+          "primary_image_url": "https://westinlille.odoo.com/web/image/2283-7de6e1ec/Design%20sans%20titre.png"
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 64,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 106,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:49.927476"
+}

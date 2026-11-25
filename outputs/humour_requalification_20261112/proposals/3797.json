@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3797,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "Le titre annonce un nouveau spectacle de D’Jal en rodage.",
+      "La description présente un spectacle personnel humoristique, sans préciser qu’il s’agit d’un spectacle écrit et mis en scène ni d’une programmation de comedy club."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme stand-up n’est pas explicitement établie par le titre ou la description, mais aucune autre catégorie plus précise n’est suffisamment prouvée pour justifier une recatégorisation."
+      }
+    ]
+  }
+}

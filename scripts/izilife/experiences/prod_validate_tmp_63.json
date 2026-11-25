@@ -1,0 +1,232 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:30.231891",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 63,
+      "title": "Danc’Art au Quartier Libre",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.dancart.fr/decouvrez-quartier-libre-a-lille/cours-de-danse-a-lille/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "cours",
+          "principal_activity_category_string_id": "danse",
+          "dance_string_id": "salsa",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "danser"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            {
+              "id": "7"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-pour-danser",
+                "confidence": 1,
+                "evidence": "Le Quartier Libre est rapidement devenu le lieu incontournable pour ceux qui cherchent à se divertir, apprendre de nouvelles danses."
+              },
+              {
+                "string_id": "ambiance-festive",
+                "confidence": 1,
+                "evidence": "Chaque semaine, Le Quartier Libre vous propose un programme varié et dynamique, spécialement conçu pour vous permettre de vous initier à différentes danses, tout en profitant d’une ambiance festive et décontractée."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est pour les enfants."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est adaptée aux enfants."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Le Quartier Libre est rapidement devenu le lieu incontournable pour ceux qui cherchent à se divertir, apprendre de nouvelles danses."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est adaptée aux familles."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est adaptée aux familles avec enfants."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Que vous veniez seul(e), entre amis, ou avec un partenaire, le Quartier Libre est l’endroit parfait pour faire des rencontres."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Que vous veniez seul(e), entre amis, ou avec un partenaire, le Quartier Libre est l’endroit parfait pour faire des rencontres."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est adaptée aux personnes handicapées."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est adaptée aux poussettes."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est un lieu LGBTQ."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'activité est LGBTQ friendly."
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Le lieu, entièrement climatisé et sonorisé, dispose également d’un bar hyper tendance."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Dégustez des mojitos rafraîchissants, des cocktails savamment préparés, et des finger food délicieuses."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'on peut boire du café."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'on peut prendre le thé."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que des tapas sont vendus."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'on peut travailler ici."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Dégustez des mojitos rafraîchissants, des cocktails savamment préparés."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Dégustez des mojitos rafraîchissants, des cocktails savamment préparés."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que l'on peut dormir ici."
+              },
+              {
+                "name": "play_music",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Le lieu, entièrement climatisé et sonorisé."
+              },
+              {
+                "name": "can_danse",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Le Quartier Libre est rapidement devenu le lieu incontournable pour ceux qui cherchent à se divertir, apprendre de nouvelles danses."
+              },
+              {
+                "name": "have_terrace",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Profitez de la terrasse extérieure pour une pause bien méritée."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que des TV sont présentes."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Aucune preuve explicite que le wifi est disponible."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Que vous veniez seul(e), entre amis, ou avec un partenaire, le Quartier Libre est l’endroit parfait pour faire des rencontres."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://www.dancart.fr/wp-content/uploads/2024/08/image_123650291-13.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 63,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 105,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:45:40.771653"
+}

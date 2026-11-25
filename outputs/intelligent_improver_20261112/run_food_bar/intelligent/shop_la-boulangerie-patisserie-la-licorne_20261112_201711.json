@@ -1,0 +1,498 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:17:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-boulangerie-patisserie-la-licorne",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-boulangerie-patisserie-la-licorne",
+    "status": "found",
+    "data": {
+      "id": "5749",
+      "name": "La boulangerie pâtisserie la Licorne",
+      "shop_string_id": "la-boulangerie-patisserie-la-licorne",
+      "unique_id": "c6c5f299e5be31aef6a8149ee0f1d6ca",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "4",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55006",
+      "principal_cover": "55006",
+      "qr_code": null,
+      "phone_number": "+33985150013",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "88 Rue Albert Vanderhaeghen",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "42",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9755414",
+      "latitude": "50.6121793",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:45:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:45:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJY7ksJugq3UcRIFbT3hBfx_A",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5749,
+      "scope_type": "SHOP",
+      "scope_ref": "la-boulangerie-patisserie-la-licorne",
+      "primary_category_ref": "patisserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "haubourdin",
+      "string_id": "la-boulangerie-patisserie-la-licorne"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55006",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5749_6af39e72974d7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4808",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33391",
+            "source_hourly_id": "4808",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33392",
+            "source_hourly_id": "4808",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33393",
+            "source_hourly_id": "4808",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33394",
+            "source_hourly_id": "4808",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33395",
+            "source_hourly_id": "4808",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33396",
+            "source_hourly_id": "4808",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33397",
+            "source_hourly_id": "4808",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-boulangerie-patisserie-la-licorne",
+      "google_place_id": "ChIJY7ksJugq3UcRIFbT3hBfx_A",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:00 – 19:00",
+          "mardi: 06:00 – 19:00",
+          "mercredi: Fermé",
+          "jeudi: 06:00 – 19:00",
+          "vendredi: 06:00 – 19:00",
+          "samedi: 06:00 – 19:00",
+          "dimanche: 06:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 4624,
+            "height": 2604,
+            "photo_reference": "AV-0GLfWL2_5BXxuMvivoX2ogY0FJ3qVobEoKI2XmMFEjL1bvoPaPdKCAxUiKKWyO-4yKZb5MaLn4rtY546lcYUC1LMvI6hhR-tA2bE4gf94gudvCFTKV1N2E9vfCnsYV8vvT8NOAnKNNkOz4OOJ4WmGGhWX-d5eyhfaLG14oyCnQ4hXI8nTRxa05j7ux4v2W8UvzMCqYW9J9fhyUbCWvCE-SXElBFCV_3KMXUBi5KZG_JBFRzwM3xkv4ffpS181HfXmg0LpTmYDDQLC__tAvU6C3y_F05NPCJz8XuTKT2nhcoPcjNEuCn8jq-aUeDqdiAdJyYc-DoFcOr17wsWymBU3JWOBKCeOqu-ANKRrVH6IPjUaytz0yMFSexigeOdIUjvi68gQr9rxCyGdYA40hsrAIBv4ogQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 2604,
+            "height": 2586,
+            "photo_reference": "AV-0GLf__q5B2zsY9UwEXeom0xrdT-Zh0wUn_frVaXO090pq--8ba4pEsDq5vf7sm-74hBB-PBt52F2HBi2o9vBefKfCW7Wmv59vDeLcO7mu52N-_jCiESaw0zdZiGUh_iXnYp-q-0yEvfq608wQFL_numvozkHwniFtDZDJUZ3MGRvq2Jj721o_XJfbHtJIkfIsI5ubtwtuJZ9JpVLw6UBAZ2WWEGEelG7eBNnHH2PahNpbN-LV0fClYh0EOYxCBkHj3sAn3OvU38iZTA8hqNzXlJLPvdUxnyuIM9dWD6kmZjKKBZgw4_0frs_hsfX3K_BagjJr26TLnAJvxIsaiPoZUjt8qXyOwZw-2o-mJ08G7yqjA3Qhy8qqjAIQKOncGN6XBx3pzfDq4wvPTcs5Q7xsTfRnQt4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 3456,
+            "photo_reference": "AV-0GLem6u8sgcfW_GvHMXTmShkI6j7D_mqb74_ExL6ju2leZ6DBise9LfR1dC9N8zETNodOVrKF74duCeR2kDiP4swh9QGHMWqJmfRDuDc0A78D3uW4p7H49h1Molu6Xi0DWQBkvTWldeCg0D51aiUS2MODmJWPqAVzQrHx0RrY4Uw0j4sRP9THl6RyBSHMEBfS_gI5vK7VewwY962NhvhSlIWA6vaRDEtuktg8BT2uB68p8HYDeRPNzgs19e1UvZbyt7iHIuBbtnqKlnIzBq6B51RDnwcumvCBh7xnXwb__C70g342awjRm-5krKuStbrZkGxz5EvVcOIHw4YUzMjeDvts9WfiNSHcuP2eR6sjC97J35IKqQXAf9mjaR4VwFMaA5JeOEW-NWrbdBVXN8IEHgtccA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 2604,
+            "photo_reference": "AV-0GLe5SpLxrwbPmpFxvGT6YKiVUdwxOsfQj266osKUErjrXUUzTd52w3A2A3UbNTaFCoXlWqQqoQXTT6FOUxwKKiEyT9LOhrgPOp2atJevf0Wxnr3hpnuHXiWbNuAlBmjd9HdX-6s_t47PO96ujQ41lbd_SLq3421KhdHArsdms3LKqDy6maOYA4aQLWG0Tq2yinif-yFwEhSZ2KeP_cQrBcgi4CHSYNAD9WcO9-A69uPCpe1QKv8pPtRoacBPGV8pQdVcHbiAwXYBMNtHncfqabJvsjWVwhBEBrjEF_yxctLZFxzUacUBfexsM74IdsULclvvc0lKvzHq_RoHKotu3tjtCeCajSWs240Nd91puDAxYbhfnWdjG5eDnydXvZm8dFkujyH-TSsgKk1fo-eyOUVgCrw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 2604,
+            "photo_reference": "AV-0GLe56L4uWazLN_BtiIcaGVKNlnarc5I0iYf-9v8yLCheJY4nSLFhU7a1tNdplR-GFzi5jLd7UGiq2VgVDtQ10W20W7GkiEEtB3F-MuIvWTsW2bu31et11lZS7KCyiPP2yqmY6eCcPwA3RjS9bAur0ONNJYs-Mf6Uih8aTGZ7BoHjp9pURKka8l9IwhsyYQORt4_-K0e8YIp52uiwW814Q24dfyeitEPFeLw-NqLR5QRJryqE36DvR-R_BQpfjaB2WIH2w8cObi-LeSIFUuiH85c6AIEMyCp1fShMUP_lBoyyx0gZ5PpSv8O_I0EBWaN0JDBC3OK9PLK4YohJ9LYwZfdMvcnPcWYs18lrxomA9DP3H6ylHjkSQkDgmhQYvi7lnM0OiA7qgmD8vF3V9vHLgc_cf_hvHqA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 1578,
+            "height": 1363,
+            "photo_reference": "AV-0GLfkZUp8WU-w-OMP9Y6c3XI-Vn-QyoAyoDHYHiZaBCFxJLXsZ7zgcbev6Tkq3fCUpd7oexQVqagXIIxXIHrElo6ESE2AIOn44f2N6PsWqxu0KS4yEZOq7K_IcwBF1GkEqzh-ULNFjLCJGOA_ScoKaNDRisf8rmr-pEl6iVH0Cb6l3kBa38J0Hbuxg1kP8ONgJQNEv3yFPjzLKg-XuxppGdQAhEQ9io3wiDA3sVP_jYcz1ZJn_hTysX3DInkYYGBTuL4LsoftIcYepkymRZ0wMszxup9vmcuXIwNIsqkDotM1HrIsB_Pet0IFxk7pG0cnRlz4nyEk914MAXVPgrLPpCrCwjaQGQs_tGXhB2dVvuLY3V3bbKypG-efTLhF1W7leqyeZgbErSdx1vS9Jl0Tsu9JSu5NCR0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101910533590751882003\">Phil Dumovet-Coton</a>"
+            ]
+          },
+          {
+            "width": 3472,
+            "height": 4624,
+            "photo_reference": "AV-0GLca-xeCuroL1h_rQSZWQE-Nut2LTGMBYP6zirHDjm1gqf242BqFKWaHFqHuO_TH82Vq0UwREfRQVPB9VnIbjESatEGK0PoXxwuHBsSczoM_hrA923gRCoYkAl9P_p0FVYOrJGvJEtvHfqK5oDTJmbDf74wkeSjqNwulUpdBgB7XTXqcur_mqE0LBSYAFHyMP488ocb-P8Zi76zGmhwUTABZSdJYkEwjuJ3xI20lZqRyWe-tMKKsUgy60iiYDUhFXw0gSNVvkNs7xZcwzs9ywW5CKQf4LXtnqhwEIrQzahPio6qDt5UDhZbZ5QFHp780ASAfbYPiH8KSJ7lB3xQlOOPD6mXB5_k1uKxYfm8X16b5vUMtUL9BOtiQRa3kUM0Ks5FPu_-BtRSTyXQBRLuwXb52c4Es",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107774066633620027312\">Michel CALMICH</a>"
+            ]
+          },
+          {
+            "width": 3762,
+            "height": 2437,
+            "photo_reference": "AV-0GLdbmS27YNHfdFYt9IHeBj1_2M0PfQEj4QoY-udzeOGLEbgtCKMnVboxBnPytjYN2zETdWzOctGoAp2EI_uvg1L9MlyrV3L_v3_pMnt7kDBPqRQWzV75Hcg5173N6GLeYlRtvW4MQLByRHNxXQN2lFY3PY6JRsxZ6RQWXNLJcD5ClVHegjowh08PfIH0fsVnDTuu20k0qgz5UKjk9fi2OS8zfnyYxMAB2-hQgu0bMVj5q1RohCX-uVYGT6uIVJBbdK6XBHEWl31DlmO5b8Z96CrHQ_cu5naKlAddsVWH39AInXASgJKdyGUN67vGHxn1SG6NiK5CWiDMxYO0ZxPP4U2_iaxCwyz5LAHm8OPt45vMa6vqPehDQRGhNRxxdDMSQZO_q7eVG7Cf-eQ3ag5GfQAraNM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 2255,
+            "height": 2876,
+            "photo_reference": "AV-0GLfuvtxFORFwdYG9uvdOSqQN0I6F8jWqwjWs1x_1dOFM3uj6weKtX1GFLJXKppFSPav45iG3wTakEB1MSTaluz5k3HCZypb3S6Th5BoWapAhTsdW8E1Sy4DzEEKxdPrTuDop4Fh0BIuxJaSfvbPth1gkStTvKFyWXcgZXjl9_Eb-RJUc8awNCFtNY1hcvqK7FmH6hRK4fXb0ch1wczrPYEjillxKfh0x0avLEcuaLu0Lyi8NwPONsInr7SEZvZzmqcKCUevgeD8jOG-QVsiaJVwKZjFk_mCCCuqyP852G3RRIpNausOgiXTS_lqhv3AgEHQzWaYU8e1xCZpwKUvdeqIPkLXh3PigoXYV1RnaJvNRl5qRZshJWKne74Mjq-c_IdwOOQjHeZj5T9TomXRtkpxrqOM1wbQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105837723656598471406\">La boulangerie pâtisserie la Licorne</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdjL0d2LT-EBntTaTSwdBdLynMtm6pFJUxH6X4CAMCr_UjaTzTGKwSKqvZLAypof_28jgR1Frssc7_6qPm1fKkXuU3687F7_NB1gnLfneV9SMk_MhU981-DPFr7uiaKMNb2buRyhzJBGqt1TAq4w2N9F-TnhmCnJxojcD57zljQ0LRlnrVpFSlfFZVgWiCJ106Bfgj67_N-Wa8oUASe8XBAXhsDWn1jdSXG2_8xQucSOn0H4NHr_6MkGSGPaodkOvB7EXBC4VCQ0Dn0RMI4SFMSYTywoDJ5gWcBAuNd3WIkrCTDy7Tid_FArq3lVit2OrcMEeqXLXhvSlNUq3YbFLfyr6ltQdU5WStZybveusmy3cyOlP6sNc36pxmw4Xu4ZkJxy4TVZR4Phck1TBpkk9kAR8F9PtE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100332191277827328002\">Aïssata SY</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5749
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les avis ne sont pas disponibles ; les produits, services et caractéristiques ne sont pas renseignés."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-gouter",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "Nom : « La boulangerie pâtisserie la Licorne » ; catégorie principale : « patisserie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "gouter",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "Nom : « La boulangerie pâtisserie la Licorne » ; catégorie principale : « patisserie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie-pâtisserie située au 88 Rue Albert Vanderhaeghen, à Haubourdin. Horaires indiqués : lundi, mardi et jeudi à samedi de 6 h à 19 h ; dimanche de 6 h à 13 h ; fermé le mercredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-boulangerie-patisserie-la-licorne",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5749,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "a392b16b2f3b8d18ff849fa76f95f8c696719014d2391a2ee878e22df00b957c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

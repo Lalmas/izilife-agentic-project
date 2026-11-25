@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "cocktails de ouf"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "les plats et desserts divins"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "restaurant au cadre original et raffiné"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Coup de cœur !"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "restaurant ... offrant une cuisine de qualité"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chic",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "cadre original et raffiné"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "ont été adorables du début à la fin"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "pour l anniversaire de ma maman"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas les plats exacts, le style de cuisine, les régimes alimentaires, les modes de commande ou de paiement, l’accessibilité, ni les équipements."
+    ],
+    "summary": "Restaurant apprécié pour sa cuisine, ses cocktails et ses desserts, avec un cadre raffiné et une équipe décrite comme adorable. Un avis mentionne une célébration d’anniversaire."
+  },
+  "meta": {
+    "cache_key": "9b530f78a7a7aed247786811c361c5a88fcd2a53c4890452acc088ccfcc8cc83",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

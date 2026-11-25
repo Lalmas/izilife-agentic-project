@@ -1,0 +1,593 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:42:02",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-gruson",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-patisserie-gruson",
+    "status": "found",
+    "data": {
+      "id": "5627",
+      "name": "Boulangerie Pâtisserie Gruson",
+      "shop_string_id": "boulangerie-patisserie-gruson",
+      "unique_id": "5218a8176d1c7b02d2efb65430ee6a56",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "4",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54886",
+      "principal_cover": "54886",
+      "qr_code": null,
+      "phone_number": "+33320529328",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "8 Avenue de Bordeaux",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.078037",
+      "latitude": "50.5957641",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:29:01",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:29:01",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJm13JFTPUwkcRQDApyIh7Oy8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJm13JFTPUwkcRQDApyIh7Oy8\",\"rating\":4.4,\"user_rating_count\":151,\"google_maps_uri\":\"https://maps.google.com/?cid=3403449770812452928\",\"fetched_at\":\"2026-11-12T19:41:50+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Les éclairs café ou chocolat sont  délicieux\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T07:14:37+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"Marie Duquenoy\",\"uri\":\"https://www.google.com/maps/contrib/109133296226341883369/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLH4Tlkg-VhGKDDQsx-V7DMohrY5BiEQDTmJkQeePI9_XHemQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une vraie boulangerie pâtisserie avec d’excellents produits.\",\"language_code\":\"\",\"publish_time\":\"2026-09-26T17:27:01+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Hervé LOTTE\",\"uri\":\"https://www.google.com/maps/contrib/100160836204605682269/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUrCtn53LEPWa1gW7lbKWHwrDCrerKLVLGRL4qWrero025NRpAi=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Veritable boulangerie Artisanale, au moins pour les viennoiseries (je n'ai pas goûté les gâteaux) et le pain.. j'ai retrouvé des pains au chocolat \\\"gourmands\\\" croustillants et bien fournis en chocolat, comme dans mon enfance (années 80)..  On reconnait le \\\"fait main\\\" et les prix ne sont même pas exagérés. Cerise sur le gâteau : la Boulangerie est ouverte dès 7h30 du matin !!  j'ai trouvé la Boulangerie que je cherchais autour de chez moi 👍\",\"language_code\":\"\",\"publish_time\":\"2026-06-11T11:15:40+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Pe L\",\"uri\":\"https://www.google.com/maps/contrib/101495973453527205768/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWftPIcARuON6Ooep-A1803GgjNUEc_2ED5vsfmM3lrWCczi9fL=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-02T11:39:25+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Peggy Watterlot\",\"uri\":\"https://www.google.com/maps/contrib/102248744808636421899/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU-z5-bwRhALQkCNjeBMxxxPgQYoGRfSi7dnvjk5mLYN62N6k4=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Peut-être la meilleure galette frangipane que j'ai mangé !\\nDe très bonnes pâtisseries également.\\nJe recommande cette boulangerie\",\"language_code\":\"\",\"publish_time\":\"2026-01-11T14:42:32+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Olivier Tryhoen\",\"uri\":\"https://www.google.com/maps/contrib/118128618332923039010/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXQKZj0kr9FdIA6xnZiQ4vqtAO7upxMGg66yroYeMbJS4ccLIFB=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:41:50",
+      "google_reviews_place_id": "ChIJm13JFTPUwkcRQDApyIh7Oy8",
+      "source_id": 5627,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-gruson",
+      "primary_category_ref": "patisserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "boulangerie-patisserie-gruson"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54886",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5627_6af39aad05c92.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4688",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32551",
+            "source_hourly_id": "4688",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32552",
+            "source_hourly_id": "4688",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:15",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32553",
+            "source_hourly_id": "4688",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:15",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32554",
+            "source_hourly_id": "4688",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:15",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32555",
+            "source_hourly_id": "4688",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:15",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32556",
+            "source_hourly_id": "4688",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:15",
+            "closure_hour": "12:15",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32557",
+            "source_hourly_id": "4688",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-gruson",
+      "google_place_id": "ChIJm13JFTPUwkcRQDApyIh7Oy8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:15 – 13:00, 15:00 – 19:00",
+          "mercredi: 07:15 – 13:00, 15:00 – 19:00",
+          "jeudi: 07:15 – 13:00, 15:00 – 19:00",
+          "vendredi: 07:15 – 13:00, 15:00 – 19:00",
+          "samedi: 07:15 – 12:15, 15:00 – 18:00",
+          "dimanche: 07:30 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLd-8oEorWL7OHkr8wFVRJL2FPwpd442Xx7-4j9dvPE66jnYu9hQBv9ShWZxmr7YOIzE4DQuzYsE7lij573dxcDWlSDRp8CRWk8s6N3Si7eE7UwqFGAEu_1mEz5EAHXhq3esdN_9-Dlwgf1rfZ_4W3vZg_JsnGu7efSHI7Gh3hDxtdKs8iytLYayGnyV3OK298gA-lNqJc_2CEOQzc1i0zQ_51HHwMeEhHhE7H7Pcu_GWV89iik_VHtFtYl7ydoGz7YSyV75pJMUzqN7n3XPrb4u16022IW4_31seBaf6MFWmMeNdWEt7K5jYJL1JL59Sv2QcDCS3zlIG94nRjFI_Mx6nkbJ1yLo9Wa232VRp26flGQDqA0Fe-ljP1Q5pHF20RVSGl6Kmu5n2D03Ir97P4AhzA9kwEw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105582645254677738372\">La grotte A livres</a>"
+            ]
+          },
+          {
+            "width": 2329,
+            "height": 1809,
+            "photo_reference": "AV-0GLcSHNKbInU_SQnoTmyBhpFyGpjrcSVq1SMsi0Kcbjn2EewwoXdmvovp2BPDi8m5pXzeRc9ArbOsZxYzixublu1ZfRCiTY6GDdvuW9H12XMAdUr8Kz1E02g48fzgXRbYNSXgb5Y8FDg4adqg_LuYUzEqcALve64dX0QgtKhvMIdM01zPkvfGq50eWL3OajsOtxHwkWGinCN01n_mbwdaQhrdp7TwOEf8l0_7th4M60Nsn_bquC5YaBzI06ZVHr10o1AZyvtcAxvmPaihxMVLkki6A9Ftrtd4O6NXbW8NZiRY1nvaM_-k1hY1OKIywgwcUseYbqQkLmxbLzj-YlOBWYwdVLOixAx6-kMvt4mfWSv1tXFfCu4LjHC4XJsv2FU8B3Ve1IwgOI7rS1NhQJXD8tguDA0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          },
+          {
+            "width": 2364,
+            "height": 2364,
+            "photo_reference": "AV-0GLfzE0skucxLu3anSdotXFaYNoRT2H8EauF3961QCOhpz3VlJw9zCiI8eMPqhyaflgw7y1fpYDytq24C1IhjENRhXcBJJ5wI9Y20JgrzuPeqYtWSPK0N4isrKW_NrP_tBuiaXJK_s7yhOXOBehiSzZMpKuPOCRTZoJixQmqEwfGrO7otWWLvwy3EeJuPimmjXH-z-igkuP3fg9-X-vASsfN87yO6WGkpyPujp8XiNff0uL0S60QNre_7EIrrSl5a5TVglipwqQ6YgrEmhJooLF3vIi5MnpICmaHlYa99OYjY-mOidhhFw_839foSMAY28Tz-v8dObj3VZKdgU-xDRdd53IyZ-lHwpyR3dTQT9EKO8p5V7erNQpOAWaHkB27BFhQqqFSJfs9-2k2NY79p4gNHAYNGu20",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105255105875605182321\">Perrine</a>"
+            ]
+          },
+          {
+            "width": 1648,
+            "height": 2073,
+            "photo_reference": "AV-0GLf0Kcp05c-M3wshjbYq142pvARO3LB3nw7eJKjHdRnutqq7dbMRgDNu7lwzAM4kgkglFw4sxkM6x0HYLTXfuM1x4Qjk0Z3TDXVyXW_LI228okVvnj8Sk4O_KXYK4G9lvkEF5RFgbpFL7Liy1Z3sLBQW-boxSESrVVq3Pz5M_xJXEwYTVtyE7MwOhPBNZKGuuXkxYGdBeM-JpNCtJHABthymV3M16c9o0Dz5gloZe1pZnyszskmJoMJXV1p-EfllQosfJ2DXjFRFAxhx-EovWXannhNlhsrXC1_uiW0trUPa0gBZtmdFUQ20riN5NKxTHfKK8XBs02aClPSH5_9TTptXozuTem2mUSezcB7g_x9xn_4DeaOLqumxyQKgOXOl2kbX7e0DdDrXzgoADFh9NWrOwog",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 3024,
+            "photo_reference": "AV-0GLdCVfQckF0dYw-YIkuFBSHM1d6AMPrEHxh9D2RKzhqXrEubq2D1M4I5EbQ9ovhPxaETgLsWUCZqswLtum--ymweHTzrvYjBbmeXeyPPUOm5idSBVxsxMYStyt3pQSv5Gh7ktf54NjUWJB35YDU3Zfdn1uh7PM9-JSitOzCSDOswn4T_wUGfT-lQ0gP5zaB9lysi8yu_tL3BZyLDI6hpsmpRkm1Rz9wiDU1i9X7TpDmwYHVMY6vF78vHcu9iw9Png7Oh-aemALoaSnNjlV_9w_k4w_aFPjVim16j8i5ZQGoGk85KUjKEgt67w4z5d4nRn3xF_WflepFw6iTCcpTl-hOdH-PYFkSW6KH3l1IsSLlgSDcoRY18-KBZOas8QOw933HPsSc_gxtGs_wrp0zZs4oCwXg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          },
+          {
+            "width": 1816,
+            "height": 2126,
+            "photo_reference": "AV-0GLfikiqmwdGVzVWBQdN8vWvmxQ5BN5CiVvMsXcLWrXDNObZwKngJQ6vjkVvG3zjb8c_sZ_5BDu1AI5MrYkFLWvmEc20MzT17k3VwYsQllnhzMOyNhgv-kvtgC10NbrHyctQEizIAi_1Mi0TCBBtkVr-uhMXSbGvltQ9ck9rOvSbMv-_gOTbGgTwF5sHXy2NAb34WBEVwYYItkOoNlJnMDarcNkozTt0udFgwJ7FzLFeIaZSgRS9kOHAvZK9imr44CU3psz05sS5-xDlqYmN-NOrFpjmVDij2O0b4YEweMAwrU2SQp6QiTQBy5Af4N9_RSaCcR7fXZefzrI4u9Nd35C79qry-wl3oEQ_9zhwyuakyuZ_Ik9_qE82AVmtQE2blT4Gs04Ler6aR4r6h4GraEF-rYw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLef2855HZoiM_hsfWhP-DQRNdD1gNEaM8EIv1oBjKwbuGDKwXc6RZEsAlsRt29bmu9A9lGJchPqYoc6zC_jZtJ1lixesDiUWVy0Hp1lpbesyY8REsF-xxYb3iTyYZCQEkI8tmTDtRWSwChfiGKojzoi_R1f6zhh7nWC7qWZt0QJbJLh20602_ssyxzDIfVIQ1pCS6Q7AsfcdJlsAwe1fUU4lOaTKFnzarNy30nIYbTzHYznSrU3z78Ia2sTg34aRS3arGi5h8KB3LYoDWwLvEn-FcnKVujr9oNZleyHugJnGb4eArjtm-fyr5NuHpNKoR3s1MgV_gPN66aG06ZOEfgrPJaJicreaJDex8FfvEnkQFBUy_YDqAYyd0s3WdTjR-4o_zrkRnyP7VNCKdbwvp5JuQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLfCy3E3RXULnV1zsGXZ9gzW1Url_NX1d6c5kzwYxCM-4DMQA3WgbxBdnGEmX-_lT8WWU5ik-t2HBdiIrEf426Sw-2d1FYuBQEcwl3c3izvnX68wPTDVXhK0JeUHzTfyXO64BdFftcGeX3TzwdntPM_t71vmzL5d1At0W9AuMwKpP48b8kjt-nK_ZrcmTwYE0uzV0XcKldq9m3xHNCXSFWQn2tIftj5rKmpO7nHnrHpTSUgajZybYL4qbTt-zftLPf7GOwZnmsG8vf6s_bW03at1sLzg2A61pUdc4rlctom8mOfjuqY6CyRiMGVyWedGfGdijXEdsMXgEzyKuA6dp4U0suv6s6enysdwgxGOqpd6zlEwzTfXogNLITSZVO7O2O8b26i090ZsOY_inJtj8Rqyj8pccl4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102514119671989888120\">Thomas Gruson</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 1075,
+            "photo_reference": "AV-0GLcYJ2Pc3SNXZQYCkDtKGlMNoyynoJk5WBPCVifkG53LwosoLcih14Fo5-24TcxQ_lqvV9IHONue8EBLgHjnO2aEWe4SYBRUgYpjZUA5wMRrmUqzRroXRXr7Z4jNLtQbyREshOfF7XUm0quQQRNkdmnPNY44LMOLjvdRkujAXgAwv2OvFR-P67zJrLnr9Hg-LYmgHddnvQgCy1tlctPXZwIQWIKgVpuhMjbM_iYVOaAMhNjCztlgWX_p7eBWDn2UgL_O_qXxiRYLZLFt6nlSnRr6qFA6_nvlvP4yEja-VukGUTj0gi9gOImkKGVJETm4LfoKFFiE3uTBCU9_tKaE9JWbCrV9KSzN4zb35UcMLYTxMBezrscOPTaduhtdASHmWYWzo-rzMzU1WXARhy6PBmwPfvRwwyY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102514119671989888120\">Thomas Gruson</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 1536,
+            "photo_reference": "AV-0GLcbC33tOeSzlZB2CUqmxX5sr1VZfL94QRIVQjeW6vRFfXg7n8uGQPOd7nJFOI6j_ZeNRDlN8giC9_w0cR96O6WxcS1WX1G48-HR5YTbPvJLTl8ylvIBnoUq65zqCPwqHglhjywlKpk6Q_iMPKoHsWYbGLg0F1fBLuVFShRxUQNv00gYilQBPcSaWmPpLKxg6VRvRGjF4E9pz7Y5pbibYFKtj0NGgmCj0WAzw1Bp_qtxe87hESkTS8MW3F7VV7GOli8xFyu2X7rE3aGqHTV8n3WpsMGIKyME10x1uC0rvs_NXZpeccykfHKbKW4EQZeKxeVJFSwt_faftIk0zswIpqGW3OFnBfpfoqlZlS8K9CKn-TyKDqO0KRdURmsy4ac7kRUh6248xMErmrJ-s9fBU3I7DiMoNbg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109459146055727699758\">Boulangerie Pâtisserie Gruson</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5627
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Les éclairs café ou chocolat sont  délicieux",
+            "language_code": "",
+            "publish_time": "2026-10-15T07:14:37+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "Marie Duquenoy",
+              "uri": "https://www.google.com/maps/contrib/109133296226341883369/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLH4Tlkg-VhGKDDQsx-V7DMohrY5BiEQDTmJkQeePI9_XHemQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une vraie boulangerie pâtisserie avec d’excellents produits.",
+            "language_code": "",
+            "publish_time": "2026-09-26T17:27:01+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Hervé LOTTE",
+              "uri": "https://www.google.com/maps/contrib/100160836204605682269/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUrCtn53LEPWa1gW7lbKWHwrDCrerKLVLGRL4qWrero025NRpAi=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Veritable boulangerie Artisanale, au moins pour les viennoiseries (je n'ai pas goûté les gâteaux) et le pain.. j'ai retrouvé des pains au chocolat \"gourmands\" croustillants et bien fournis en chocolat, comme dans mon enfance (années 80)..  On reconnait le \"fait main\" et les prix ne sont même pas exagérés. Cerise sur le gâteau : la Boulangerie est ouverte dès 7h30 du matin !!  j'ai trouvé la Boulangerie que je cherchais autour de chez moi 👍",
+            "language_code": "",
+            "publish_time": "2026-06-11T11:15:40+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Pe L",
+              "uri": "https://www.google.com/maps/contrib/101495973453527205768/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWftPIcARuON6Ooep-A1803GgjNUEc_2ED5vsfmM3lrWCczi9fL=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-02T11:39:25+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Peggy Watterlot",
+              "uri": "https://www.google.com/maps/contrib/102248744808636421899/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU-z5-bwRhALQkCNjeBMxxxPgQYoGRfSi7dnvjk5mLYN62N6k4=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Peut-être la meilleure galette frangipane que j'ai mangé !\nDe très bonnes pâtisseries également.\nJe recommande cette boulangerie",
+            "language_code": "",
+            "publish_time": "2026-01-11T14:42:32+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Olivier Tryhoen",
+              "uri": "https://www.google.com/maps/contrib/118128618332923039010/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXQKZj0kr9FdIA6xnZiQ4vqtAO7upxMGg66yroYeMbJS4ccLIFB=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 151
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1124,
+        "bo": 86,
+        "front": 1038,
+        "estimated_cost_eur": 3.0999999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« De très bonnes pâtisseries également. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Véritable boulangerie Artisanale »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Une vraie boulangerie pâtisserie »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« des pains au chocolat “gourmands” croustillants »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie-pâtisserie artisanale proposant notamment du pain, des viennoiseries et des pâtisseries appréciées. Les avis citent les pains au chocolat, les éclairs et la galette frangipane."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-gruson",
+    "operation": "ADD",
+    "tags": [
+      "excellents-patisseries"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie",
+        "patisserie"
+      ],
+      "KnowedMeal": [
+        "pain-au-chocolat"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5627,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "16c4e2e27aa13c92ac97749f96bc5d76e971c34a30177a810baf99938fd6780b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

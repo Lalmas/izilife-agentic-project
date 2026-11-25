@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "shopping",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "achat ... en magasin"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "premier jour en magasin"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "un service ... alliant logistique et chaleur humaine"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis clients partagés : certains signalent des retards de livraison ou des problèmes de qualité, tandis que d’autres louent le service, les conseils et les canapés sur mesure."
+    ],
+    "summary": "Magasin de canapés et salons sur mesure, notamment sedari et modèles modernes. Des clients mentionnent l’accompagnement en magasin ainsi que la livraison et l’installation ; les avis rapportés sont toutefois contrastés."
+  },
+  "meta": {
+    "cache_key": "8974e96dd7c93c3a1fd67dda1856bcf59ce5515c70d9d55beac87c69561d0421",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

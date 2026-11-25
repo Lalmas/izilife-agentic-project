@@ -1,0 +1,404 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:27:29",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "collette-suzy",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "collette-suzy",
+    "status": "found",
+    "data": {
+      "id": "5821",
+      "name": "Collette Suzy",
+      "shop_string_id": "collette-suzy",
+      "unique_id": "2be9b5e3707527446a7e6336fa143c6c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55077",
+      "principal_cover": "55077",
+      "qr_code": null,
+      "phone_number": "+33964115951",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "78 Rue Jean Baptiste Collette",
+      "additional_address": null,
+      "zip_code": "59551",
+      "city_id": "101",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0570366",
+      "latitude": "50.5239732",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:54:29",
+      "updated": "2026-11-11 09:36:23",
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:54:29",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJkXjzNbfTwkcRaHlBoulAqUY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5821,
+      "scope_type": "SHOP",
+      "scope_ref": "collette-suzy",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "attiches",
+      "string_id": "collette-suzy"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55077",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5821_6af3a0a52825b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4878",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33881",
+            "source_hourly_id": "4878",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33882",
+            "source_hourly_id": "4878",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33883",
+            "source_hourly_id": "4878",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33884",
+            "source_hourly_id": "4878",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33885",
+            "source_hourly_id": "4878",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:30",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33886",
+            "source_hourly_id": "4878",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "15:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33887",
+            "source_hourly_id": "4878",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "collette-suzy",
+      "google_place_id": "ChIJkXjzNbfTwkcRaHlBoulAqUY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:30 – 19:30",
+          "mardi: 09:30 – 19:30",
+          "mercredi: 09:30 – 19:30",
+          "jeudi: 09:30 – 19:30",
+          "vendredi: 09:30 – 19:30",
+          "samedi: 15:00 – 19:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 612,
+            "height": 816,
+            "photo_reference": "AV-0GLdFpCvc4CLVR6X0hjCcxSKiOLbyxU4rOzSnaPSAKBtOwnLUfzYFAnYprlBr6eyYWLixcAMWBa0N5_tup--lfCEfboLFl37i2YZNt-qv_jqC3nx_mQ2HYexw9G1UmfpvuTuYCZhcPv5fHred3PpkjeuQ85Feej-Atj1JteLZ2NX9JZK2pFv5NTIQAE8lhMjE7xsIgkagmRMBAICI0GJBIWCxRa0cPvEUUi48YxNNlbnO5y6I1x-SMMIsKU9nTWCX0-MktlDK-06OyFctH4LrF5RNxuRLacqG2tSCxVzJCSGAwHzZ98G5QOmrYwC-HK3RUT9Oq6W_lv6UaM5QIz4Losk9BAe7KWapUDIb3Y_f0C-A-mFUQ0wiROmT3GFV49rzt70QYUgXwMRnBvuJZZYWP1pQkcE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114193379441606500463\">billy musiques Facebook</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5821
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne documentent pas les services, l’offre, l’ambiance, l’accessibilité, les équipements, les moyens de paiement ni les usages du lieu ; aucune caractéristique ne peut être confirmée."
+    ],
+    "rejected": [],
+    "summary": "Collette Suzy est référencé comme bar à Attiches, au 78 Rue Jean Baptiste Collette. Les horaires fournis indiquent une ouverture du lundi au vendredi de 09 h 30 à 19 h 30, le samedi de 15 h à 19 h 30, et une fermeture le dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "collette-suzy",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5821,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "db794e17b35d0692705ad669a1582cd43b4cbc3821c4dfe2fd93bb981d53ff2b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

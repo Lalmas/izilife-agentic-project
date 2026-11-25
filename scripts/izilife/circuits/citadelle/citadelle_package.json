@@ -1,0 +1,195 @@
+{
+  "schema_version": "izilife.circuit_site.v1",
+  "target": {
+    "scope_type": "PLACE",
+    "scope_ref": "parc-de-la-citadelle"
+  },
+  "circuit": {
+    "review_status": "needs_review",
+    "title": "Incontournables du patrimoine",
+    "circuit_string_id": "incontournables-du-patrimoine-citadelle-lille",
+    "circuit_type_string_id": "balade-touristique",
+    "circuit_theme_string_id": "histoire",
+    "city_string_id": "lille",
+    "description": "Ce parcours vous permet de découvrir les ouvrages patrimoniaux remarquables de la « Reine des Citadelles » Vauban. De la Porte Royale au nouveau lieu Quartier Libre, cette promenade dévoile les richesses ponctuant la seconde enceinte.",
+    "distance_km": 4.0,
+    "route_reported_length_km": 1.5878537847994407,
+    "duration_minutes": 35,
+    "is_loop": false,
+    "start_address": "Parc de la Citadelle, Lille",
+    "start_longitude": 3.047312763160213,
+    "start_latitude": 50.639670982015232,
+    "source_name": "Parc de la Citadelle — Ville de Lille",
+    "source_url": "https://parcdelacitadelle.lille.fr/parcours/incontournables-du-patrimoine",
+    "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/parcours_list/public/porteboufflersdr.jpg?itok=U7RilWYD",
+    "external_id": "658",
+    "steps": [
+      {
+        "object_type": "manual_point",
+        "title": "Première Enceinte",
+        "short_description": "Première enceinte défensive de la Citadelle, formée de cinq bastions et cinq courtines.",
+        "instruction": "Découvrir l'organisation défensive conçue par Vauban et les casernes placées derrière les remparts.",
+        "latitude": 50.639706,
+        "longitude": 3.047272,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/premiere-enceinte",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-01.premiere_enceintedeborah_truffaut.jpg?itok=XhvDy94h",
+        "external_id": "609"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Porte Royale",
+        "short_description": "Porte monumentale tournée vers la ville, conçue comme un hommage à Louis XIV.",
+        "instruction": "Observer la composition inspirée d'un arc de triomphe, les trophées militaires et les armes de France.",
+        "latitude": 50.640388,
+        "longitude": 3.04758,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/porte-royale",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-26.porte_royalejulien_sylveste.jpg?itok=cpNvioPB",
+        "external_id": "643"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Colonne Boufflers",
+        "short_description": "Monument commémorant le siège de Lille de 1708 et la défense menée par le maréchal de Boufflers.",
+        "instruction": "Repérer le lieu de l'attaque entre les bastions d'Anjou et du Roi et la Demi-Lune Royale.",
+        "latitude": 50.639761,
+        "longitude": 3.048409,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/colonne-boufflers",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-03.colonne_boufflersvah.jpg.jpg?itok=7g_FJbsu",
+        "external_id": "611"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Demi-Lune Royale",
+        "short_description": "Ouvrage triangulaire avancé qui protégeait la Porte Royale des tirs directs.",
+        "instruction": "Observer les fossés et le réduit en brique percé de meurtrières.",
+        "latitude": 50.640476409209,
+        "longitude": 3.048630097953,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/demi-lune-royale",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/demiluneroyale_colonneboufflersdr.jpg?itok=gkGzSGd-",
+        "external_id": "610"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Chemin couvert",
+        "short_description": "Troisième enceinte de la Citadelle, aménagée derrière la crête du glacis.",
+        "instruction": "Identifier les places d'armes, la banquette de tir et le parapet du chemin couvert.",
+        "latitude": 50.640885467575,
+        "longitude": 3.049420421339,
+        "source_url": "https://parcdelacitadelle.lille.fr/chemin-couvert",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-32.chemin_couvertgadeau_anais.jpg?itok=a_P5d8i-",
+        "external_id": "613"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Glacis",
+        "short_description": "Terrain découvert en pente douce qui empêchait l'installation des canons ennemis.",
+        "instruction": "Observer la faible pente et son articulation avec le chemin couvert.",
+        "latitude": 50.64087815328,
+        "longitude": 3.049612464782,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/glacis",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-06.glacisgadeau_anais.jpg?itok=R5w8rY9K",
+        "external_id": "614"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Contre-garde du Roy : point d'observation",
+        "short_description": "Seconde ligne de défense modernisée, achevée en 1750 face au Champ de Mars.",
+        "instruction": "Observer la rampe vers le chemin couvert et les retranchements qui contrôlaient la contre-garde.",
+        "latitude": 50.641260842886,
+        "longitude": 3.048093438282,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/contre-garde-du-roy-point-dobservation",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-10.contre-garde_du_roydaniel_rapaich.jpg?itok=WqCtC8jF",
+        "external_id": "612"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Front Sainte-Barbe",
+        "short_description": "Front orienté à la fois vers la ville et la campagne, renforcé par Vauban en 1693.",
+        "instruction": "Comprendre comment l'organisation de la place forte imposait deux sièges successifs à l'ennemi.",
+        "latitude": 50.643739,
+        "longitude": 3.047263,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/front-sainte-barbe",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-09.front_sainte_barbedaniel_rapaich_2.jpg?itok=dLsRPV4N",
+        "external_id": "633"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Mur de communication d'en bas : point d'observation",
+        "short_description": "Mur de briques et de grès reliant historiquement la Citadelle et la ville.",
+        "instruction": "Repérer les arcades, les créneaux de fusillade et le chemin de ronde protégé.",
+        "latitude": 50.643427408125,
+        "longitude": 3.046755698717,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/mur-de-communication-den-bas-point-dobservation",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-11.mur_de_communication_den_basdaniel_rapaich.jpg?itok=n7mSQmXE",
+        "external_id": "711"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Grand Carré : point d'observation",
+        "short_description": "Ouvrage de défense pentagonal construit en 1731 et 1732, détaché du cœur de la place forte.",
+        "instruction": "Observer le secteur appelé Grand Carré en raison de l'ancien réseau de canaux.",
+        "latitude": 50.644894656709,
+        "longitude": 3.045803839941,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/grand-carre-point-dobservation",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-10.grand_carredaniel_rapaich.jpg?itok=on38PgjK",
+        "external_id": "712"
+      },
+      {
+        "object_type": "manual_point",
+        "title": "Promenade plantée de l'Esplanade",
+        "short_description": "Promenade arborée imaginée par Vauban dès 1672 le long de la Moyenne Deûle.",
+        "instruction": "Suivre les alignements d'arbres et les berges entre le pont du Ramponneau et celui du Petit Paradis.",
+        "latitude": 50.645395929971,
+        "longitude": 3.049000495603,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/promenade-plantee-de-lesplanade",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/p-25.promenade_planteedaniel_rapaich.jpg?itok=uGzUofsw",
+        "external_id": "642"
+      },
+      {
+        "object_type": "shop",
+        "place_string_id": "lequartierlibre",
+        "title": "Quartier Libre",
+        "short_description": "Ancien bâtiment militaire devenu lieu de vie, d'accueil, de restauration et de services pour les visiteurs et sportifs.",
+        "instruction": "Terminer le parcours au Quartier Libre.",
+        "latitude": 50.643921,
+        "longitude": 3.050482,
+        "source_url": "https://parcdelacitadelle.lille.fr/carte-autour-de-moi/quartier-libre",
+        "source_image_url": "https://parcdelacitadelle.lille.fr/sites/default/files/styles/poi_list/public/thumbnails/image/2019_05_15_dr_quartierlibre_extsanstolechantier-15.jpg-1024px_0.jpg?itok=_AE3q3nn",
+        "external_id": "644"
+      }
+    ]
+  },
+  "route": {
+    "format": "geojson",
+    "source_url": "https://parcdelacitadelle.lille.fr/sites/default/files/patrimoine_les_incontournables_du_patrimoine_0.geojson",
+    "local_file": "incontournables_du_patrimoine.geojson"
+  },
+  "observed_animals": [
+    {"name": "Écureuil roux", "string_id": "ecureuil-roux", "group": "mammifere", "review_status": "pending"},
+    {"name": "Hérisson", "string_id": "herisson", "group": "mammifere", "review_status": "pending"},
+    {"name": "Lérot", "string_id": "lerot", "group": "mammifere", "review_status": "pending"},
+    {"name": "Chauve-souris", "string_id": "chauve-souris", "group": "mammifere", "review_status": "pending"},
+    {"name": "Martin-pêcheur", "string_id": "martin-pecheur", "group": "oiseau", "review_status": "pending"},
+    {"name": "Héron", "string_id": "heron", "group": "oiseau", "review_status": "pending"},
+    {"name": "Pic épeiche", "string_id": "pic-epeiche", "group": "oiseau", "review_status": "pending"},
+    {"name": "Chardonneret", "string_id": "chardonneret", "group": "oiseau", "review_status": "pending"},
+    {"name": "Foulque", "string_id": "foulque", "group": "oiseau", "review_status": "pending"},
+    {"name": "Grèbe huppé", "string_id": "grebe-huppe", "group": "oiseau", "review_status": "pending"},
+    {"name": "Triton", "string_id": "triton", "group": "amphibien", "review_status": "pending"},
+    {"name": "Crapaud commun", "string_id": "crapaud-commun", "group": "amphibien", "review_status": "pending"},
+    {"name": "Grenouille", "string_id": "grenouille", "group": "amphibien", "review_status": "pending"},
+    {"name": "Brochet", "string_id": "brochet", "group": "poisson", "review_status": "pending"},
+    {"name": "Carpe", "string_id": "carpe", "group": "poisson", "review_status": "pending"},
+    {"name": "Libellule", "string_id": "libellule", "group": "insecte", "review_status": "pending"},
+    {"name": "Papillon", "string_id": "papillon", "group": "insecte", "review_status": "pending"},
+    {"name": "Grande sauterelle verte", "string_id": "grande-sauterelle-verte", "group": "insecte", "review_status": "pending"},
+    {"name": "Abeille de la lysimaque", "string_id": "abeille-de-la-lysimaque", "group": "insecte", "review_status": "pending"}
+  ],
+  "animal_source_url": "https://parcdelacitadelle.lille.fr/la-faune-du-parc-de-la-citadelle",
+  "notes": [
+    "Les douze points patrimoniaux sont des CircuitStep, pas douze Equipment.",
+    "Quartier Libre est résolu vers le SHOP existant lequartierlibre lors de la soumission.",
+    "La page annonce 4 km, mais le GeoJSON porte Longueur_metres=1587,8538 : distance à confirmer avant passage à approved.",
+    "La faune reste une proposition de référentiel à valider ; elle n'est pas écrite par ce paquet."
+  ]
+}

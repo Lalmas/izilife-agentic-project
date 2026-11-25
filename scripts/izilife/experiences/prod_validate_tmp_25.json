@@ -1,0 +1,97 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:04:41.435615",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 25,
+      "title": "Balade en barque dans le marais Audomarois avec Au Bon Accueil",
+      "experience_type_string_id": "croisiere-en-bateau",
+      "source_url": "https://bonaccueil-marais.fr/",
+      "validation_blockers": [],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "croisiere-en-bateau",
+          "principal_activity_category_string_id": "bateau",
+          "minimal_age": "2",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [],
+          "age_category_ids": [
+            "2"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Visite guidée",
+              "price": "9.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "insolite",
+                "confidence": 1,
+                "evidence": "Une activité insolite pour tous : balades, randonnées, visites guidées et événements locaux."
+              },
+              {
+                "string_id": "kids-friendly",
+                "confidence": 1,
+                "evidence": "Une visite guidée du marais Audomarois immersive et authentique à partager en famille ou entre amis !"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"1\""
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Une visite guidée du marais Audomarois immersive et authentique à partager en famille ou entre amis !"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Une activité insolite pour tous : balades, randonnées, visites guidées et événements locaux."
+              }
+            ]
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 25,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 66,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:04:47.268341"
+}

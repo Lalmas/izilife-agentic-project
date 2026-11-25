@@ -1,0 +1,88 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Salle pour manger sur place."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Salle pour manger sur place."
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Salle pour manger sur place."
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 18:30 – 21:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "tant les burgers que les frites."
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "burgers cheese bacon et burgers poulet"
+        },
+        {
+          "string_id": "boeuf",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Steack bavette Aloyau, côte à l'os, viande Angus"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 18:30 – 21:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie traditionnelle à Gondecourt proposant notamment frites, burgers et assiettes de viande, avec une salle pour manger sur place."
+  },
+  "meta": {
+    "cache_key": "b221be2e9649859a3a59457dcf19c30ba09aa4ab01aa71b1d77ed5e61db09b73",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

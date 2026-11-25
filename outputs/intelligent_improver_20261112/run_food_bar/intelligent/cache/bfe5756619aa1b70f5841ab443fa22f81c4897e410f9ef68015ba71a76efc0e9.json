@@ -1,0 +1,125 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-l-ombre",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "des tables et chaises sont installées le long du trottoir à l'ombre"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "à ma pause de midi"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Commande rapide et peu d'attente"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Commande rapide et peu d'attente"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "le prix est vraiment très raisonnable"
+      },
+      {
+        "string_id": "stationnement-facile",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "des places pour se garer facilement dans la rue"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "des tables et chaises sont installées le long du trottoir"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "des tables et chaises sont installées le long du trottoir"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "calme",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Friterie tranquille"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "personnes aussi chaudes et chaleureuses que leurs frites"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "le prix est vraiment très raisonnable"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "à ma pause de midi"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Beaucoup de frites bien croustillantes et bien dorées"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "les burgers sont super bons et copieux"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "le sandwich fricadelle était savoureux"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "à ma pause de midi"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie appréciée pour ses frites, burgers et sandwichs, avec une commande rapide, des prix jugés raisonnables et des tables à l’ombre le long du trottoir."
+  },
+  "meta": {
+    "cache_key": "bfe5756619aa1b70f5841ab443fa22f81c4897e410f9ef68015ba71a76efc0e9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

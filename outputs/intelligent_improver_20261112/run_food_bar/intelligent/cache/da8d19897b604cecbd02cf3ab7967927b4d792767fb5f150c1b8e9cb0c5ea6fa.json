@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "diffusion-sport",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: diffusion-sport"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: chaleureux"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis Google fournis semblent concerner un hébergement nommé La Rosière, et non le bar Le Flandre ; ils ne sont pas utilisés."
+    ],
+    "summary": "Le Flandre est référencé comme un bar à l’ambiance chaleureuse et décontractée, avec diffusion de sport."
+  },
+  "meta": {
+    "cache_key": "da8d19897b604cecbd02cf3ab7967927b4d792767fb5f150c1b8e9cb0c5ea6fa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

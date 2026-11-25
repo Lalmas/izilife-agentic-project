@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: kids-friendly"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: chaleureux"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis Google fournis évoquent une chambre et un petit-déjeuner inclus dans un hébergement ; ils semblent sans rapport avec ce snack/salon de thé et n’ont pas été utilisés."
+    ],
+    "summary": "Snack / salon de thé à Lille, signalé comme kids-friendly, avec une ambiance chaleureuse et décontractée. Les données fournies ne confirment pas d’autres caractéristiques."
+  },
+  "meta": {
+    "cache_key": "f56d4dce1df98201ecbe2cdcb649c8c2d217764a70dd8f30f1ffc070c8262329",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

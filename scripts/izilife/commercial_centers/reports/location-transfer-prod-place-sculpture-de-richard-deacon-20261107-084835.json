@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "0ae2ec0f2cc75f246aa17cc92c21b7c16053d1614a1efea1008113002575c420",
+    "source": {
+      "id": 692,
+      "type": "PLACE",
+      "ref": "sculpture-de-richard-deacon",
+      "name": "Sculpture de Richard Deacon",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "EQUIPMENT",
+      "ref": "sculpture-de-richard-deacon",
+      "name": "Sculpture de Richard Deacon",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_EQUIPMENT",
+        "target": "sculpture-de-richard-deacon",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlacePaiementMethod",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 16,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "sculpture-de-richard-deacon",
+      "source_id": 692,
+      "source_updated_at": null,
+      "source_fingerprint": "270bd672c1625cebe0c7a066f31b9efcf54c88799bad93ad16469108dbeb7a1a",
+      "destination_type": "EQUIPMENT",
+      "destination_ref": "sculpture-de-richard-deacon",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Sculpture de Richard Deacon",
+      "destination_category_ref": "sculpture",
+      "destination_category_id": 996,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_EQUIPMENT",
+          "target": "sculpture-de-richard-deacon",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlacePaiementMethod",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 16,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

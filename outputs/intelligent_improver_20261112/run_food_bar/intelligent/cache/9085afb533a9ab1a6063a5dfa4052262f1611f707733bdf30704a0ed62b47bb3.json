@@ -1,0 +1,125 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.93,
+        "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+        "evidence": "« Premier dîner ce soir à Bécot. Nous étions une tablée de 6. »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.87,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+        "evidence": "« J’ai pris le goûter : un café latte »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+        "evidence": "« Nous étions une tablée de 6. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.societe.com/societe/koach-101474260.html",
+        "evidence": "« L'exploitation d'un fonds de commerce de restaurant »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+        "evidence": "« un café latte au lait végétal »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.societe.com/societe/koach-101474260.html",
+        "evidence": "« vente de boissons non alcoolisées ou alcoolisées »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« déjeuner dîner endroit idéal »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« déjeuner dîner endroit idéal »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.87,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/becot-12927206/",
+          "evidence": "« J’ai pris le goûter »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« burgers »"
+        },
+        {
+          "string_id": "quiche",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« quiche »"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« sandwichs »"
+        },
+        {
+          "string_id": "salades",
+          "confidence": 0.91,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« salades »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.83,
+          "source_url": "https://fr.restaurantguru.com/Becot-Wattignies",
+          "evidence": "« gâteaux »"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "moderne",
+          "confidence": 0.81,
+          "source_url": "https://restaurant.ouvert.tel/59/wattignies/",
+          "evidence": "« Déco moderne et cosy. »"
+        },
+        {
+          "string_id": "cosy",
+          "confidence": 0.81,
+          "source_url": "https://restaurant.ouvert.tel/59/wattignies/",
+          "evidence": "« Déco moderne et cosy. »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant traditionnel à Wattignies, également déclaré comme bar à vin et salon de thé. Les sources mentionnent déjeuners, dîners, goûters, cafés latte, burgers, quiches, sandwichs et salades ; des clients y ont dîné en groupe."
+  },
+  "meta": {
+    "cache_key": "9085afb533a9ab1a6063a5dfa4052262f1611f707733bdf30704a0ed62b47bb3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

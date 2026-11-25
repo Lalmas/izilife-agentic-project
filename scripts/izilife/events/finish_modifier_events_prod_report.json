@@ -1,0 +1,412 @@
+[
+  {
+    "operation": "temporal",
+    "ref": "f8f1209f95b3b396e8c82c7a9cbaf359",
+    "result": {
+      "success": true,
+      "event_id": 3381,
+      "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=SA,SU",
+      "until_date": "2036-02-17",
+      "future_occurrences_created": 1
+    }
+  },
+  {
+    "operation": "temporal",
+    "ref": "7d578ab0d8133a988186cd68ffe0614f",
+    "result": {
+      "success": true,
+      "event_id": 1485,
+      "rrule": "FREQ=MONTHLY;INTERVAL=1;BYDAY=1SA",
+      "until_date": null,
+      "future_occurrences_created": 3
+    }
+  },
+  {
+    "operation": "finite_occurrences",
+    "ref": "dbd49d3cdf1ed8611fcbd5ded7e20d1c",
+    "result": {
+      "success": true,
+      "event_id": 1349,
+      "occurrence_ids": [
+        1349,
+        3512,
+        3513
+      ],
+      "created_ids": [
+        3512,
+        3513
+      ],
+      "event_hourly_removed": true
+    }
+  },
+  {
+    "operation": "move",
+    "ref": "9fabb37d97235fb1bb59a4437879460c",
+    "result": {
+      "success": true,
+      "event_id": 1549,
+      "location_ref": "SHOP:labullecafe"
+    }
+  },
+  {
+    "operation": "move",
+    "ref": "f005833e152fa18e30f3c7d8ef2010e2",
+    "result": {
+      "success": true,
+      "event_id": 1580,
+      "location_ref": "SHOP:labullecafe"
+    }
+  },
+  {
+    "operation": "move",
+    "ref": "a4e4347690d3d7381a9878a324561603",
+    "result": {
+      "success": true,
+      "event_id": 1871,
+      "location_ref": "SHOP:labullecafe"
+    }
+  },
+  {
+    "operation": "move",
+    "ref": "344108184c54ab7739e5f29701c15de4",
+    "result": {
+      "success": true,
+      "event_id": 1901,
+      "location_ref": "SHOP:labullecafe"
+    }
+  },
+  {
+    "operation": "move",
+    "ref": "e29a380e1df630b91abee981199f9beb",
+    "result": {
+      "success": true,
+      "event_id": 2180,
+      "location_ref": "SHOP:labullecafe"
+    }
+  },
+  {
+    "operation": "event_to_experience",
+    "ref": "907a66348433fece981cd20b803c2e52",
+    "result": {
+      "success": true,
+      "source_event_id": 3128,
+      "experience_id": 133,
+      "experience_string_id": "cours-d-espagnol-iberica-seclin"
+    }
+  },
+  {
+    "operation": "event_to_experience",
+    "ref": "f4f2fb4d2a4a361706164b7303dc5184",
+    "result": {
+      "success": true,
+      "source_event_id": 1479,
+      "experience_id": 134,
+      "experience_string_id": "lille-en-1913-entre-bourse-textiles-et-charbon"
+    }
+  },
+  {
+    "operation": "audit",
+    "ref": "f8f1209f95b3b396e8c82c7a9cbaf359",
+    "result": {
+      "success": true,
+      "event": {
+        "id": "3381",
+        "title": "Le bar associatif Carré Rond",
+        "local_event_official_string_id": null,
+        "event_string_id": null,
+        "is_active": "1",
+        "event_start_date": "2026-01-24",
+        "event_start_hour": "15:00",
+        "event_end_date": "2026-01-24",
+        "event_end_hour": "19:00",
+        "is_recurrent_event": "1",
+        "recurrent_until": "2036-02-17",
+        "is_another_date_of": null,
+        "representation_id": null,
+        "parent_id": null,
+        "event_place": "629",
+        "event_shop": null,
+        "unique_id": "f8f1209f95b3b396e8c82c7a9cbaf359"
+      },
+      "recurrence_rules": [
+        {
+          "id": "24",
+          "scope_type": "EVENT",
+          "scope_id": "3381",
+          "timezone_id": "296",
+          "dtstart": "2026-01-24 15:00:00",
+          "dtend": "2026-01-24 19:00:00",
+          "rrule": "FREQ=WEEKLY;INTERVAL=1;BYDAY=SA,SU",
+          "until_date": "2036-02-17",
+          "count_limit": null,
+          "horizon_days": "90",
+          "is_enabled": "1",
+          "created_at": "2026-11-08 18:02:21",
+          "updated_at": "2026-11-08 18:02:21"
+        }
+      ],
+      "hourlies": [],
+      "representation_events": [],
+      "linked_occurrences": [
+        {
+          "id": "3508",
+          "title": "Le bar associatif Carré Rond - Dim 25/01",
+          "event_start_date": "2026-01-25",
+          "event_start_hour": "15:00",
+          "event_end_date": "2026-01-25",
+          "event_end_hour": "19:00",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "3381",
+          "parent_id": null,
+          "event_place": "629",
+          "event_shop": null,
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "eba59be2dd5dfd1ce40d07104c75e5e0"
+        }
+      ]
+    }
+  },
+  {
+    "operation": "audit",
+    "ref": "f7603ab47c248116349877be8e613074",
+    "result": {
+      "success": true,
+      "event": {
+        "id": "1364",
+        "title": "Nocturnes « 1000 Morceaux »",
+        "local_event_official_string_id": null,
+        "event_string_id": null,
+        "is_active": "1",
+        "event_start_date": "2026-11-04",
+        "event_start_hour": "19:00",
+        "event_end_date": "2026-11-04",
+        "event_end_hour": "23:00",
+        "is_recurrent_event": "1",
+        "recurrent_until": "2027-06-02",
+        "is_another_date_of": null,
+        "representation_id": null,
+        "parent_id": null,
+        "event_place": "54",
+        "event_shop": null,
+        "unique_id": "f7603ab47c248116349877be8e613074"
+      },
+      "recurrence_rules": [
+        {
+          "id": "23",
+          "scope_type": "EVENT",
+          "scope_id": "1364",
+          "timezone_id": "296",
+          "dtstart": "2026-11-04 19:00:00",
+          "dtend": "2026-11-04 23:00:00",
+          "rrule": "FREQ=MONTHLY;INTERVAL=1;BYDAY=1WE",
+          "until_date": "2027-06-02",
+          "count_limit": null,
+          "horizon_days": "240",
+          "is_enabled": "1",
+          "created_at": "2026-11-07 11:53:46",
+          "updated_at": "2026-11-07 11:53:46"
+        }
+      ],
+      "hourlies": [],
+      "representation_events": [],
+      "linked_occurrences": [
+        {
+          "id": "3507",
+          "title": "Nocturnes « 1000 Morceaux » - Mer 02/12",
+          "event_start_date": "2026-12-02",
+          "event_start_hour": "19:00",
+          "event_end_date": "2026-12-02",
+          "event_end_hour": "23:00",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1364",
+          "parent_id": null,
+          "event_place": "54",
+          "event_shop": null,
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "830f8b4fed26cbeaa3444005682eced9"
+        }
+      ]
+    }
+  },
+  {
+    "operation": "audit",
+    "ref": "dbd49d3cdf1ed8611fcbd5ded7e20d1c",
+    "result": {
+      "success": true,
+      "event": {
+        "id": "1349",
+        "title": "Battement d'ailes",
+        "local_event_official_string_id": null,
+        "event_string_id": null,
+        "is_active": "1",
+        "event_start_date": "2026-11-04",
+        "event_start_hour": "14:30",
+        "event_end_date": "2026-11-04",
+        "event_end_hour": "15:15",
+        "is_recurrent_event": "0",
+        "recurrent_until": null,
+        "is_another_date_of": null,
+        "representation_id": null,
+        "parent_id": null,
+        "event_place": null,
+        "event_shop": null,
+        "unique_id": "dbd49d3cdf1ed8611fcbd5ded7e20d1c"
+      },
+      "recurrence_rules": [],
+      "hourlies": [],
+      "representation_events": [],
+      "linked_occurrences": [
+        {
+          "id": "3512",
+          "title": "Battement d'ailes",
+          "event_start_date": "2026-11-06",
+          "event_start_hour": "14:30",
+          "event_end_date": "2026-11-06",
+          "event_end_hour": "15:15",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1349",
+          "parent_id": null,
+          "event_place": null,
+          "event_shop": null,
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "48520c6d857e8fb7f20ccd878ea24945"
+        },
+        {
+          "id": "3513",
+          "title": "Battement d'ailes",
+          "event_start_date": "2026-11-07",
+          "event_start_hour": "16:30",
+          "event_end_date": "2026-11-07",
+          "event_end_hour": "17:15",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1349",
+          "parent_id": null,
+          "event_place": null,
+          "event_shop": null,
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "1b48d7264b63b98bb6711157b25632e9"
+        }
+      ]
+    }
+  },
+  {
+    "operation": "audit",
+    "ref": "7d578ab0d8133a988186cd68ffe0614f",
+    "result": {
+      "success": true,
+      "event": {
+        "id": "1485",
+        "title": "UKULELE PARTY !",
+        "local_event_official_string_id": null,
+        "event_string_id": null,
+        "is_active": "1",
+        "event_start_date": "2026-11-07",
+        "event_start_hour": "15:00",
+        "event_end_date": "2026-11-07",
+        "event_end_hour": "23:59",
+        "is_recurrent_event": "1",
+        "recurrent_until": null,
+        "is_another_date_of": null,
+        "representation_id": null,
+        "parent_id": null,
+        "event_place": null,
+        "event_shop": "3693",
+        "unique_id": "7d578ab0d8133a988186cd68ffe0614f"
+      },
+      "recurrence_rules": [
+        {
+          "id": "25",
+          "scope_type": "EVENT",
+          "scope_id": "1485",
+          "timezone_id": "296",
+          "dtstart": "2026-11-07 15:00:00",
+          "dtend": "2026-11-07 23:59:00",
+          "rrule": "FREQ=MONTHLY;INTERVAL=1;BYDAY=1SA",
+          "until_date": null,
+          "count_limit": null,
+          "horizon_days": "400",
+          "is_enabled": "1",
+          "created_at": "2026-11-08 18:02:21",
+          "updated_at": "2026-11-08 18:02:21"
+        }
+      ],
+      "hourlies": [],
+      "representation_events": [],
+      "linked_occurrences": [
+        {
+          "id": "3509",
+          "title": "UKULELE PARTY ! - Sam 05/12",
+          "event_start_date": "2026-12-05",
+          "event_start_hour": "15:00",
+          "event_end_date": "2026-12-05",
+          "event_end_hour": "23:59",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1485",
+          "parent_id": null,
+          "event_place": null,
+          "event_shop": "3693",
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "32b99c88b32adb4943fa4305a1c6e7c0"
+        },
+        {
+          "id": "3510",
+          "title": "UKULELE PARTY ! - Sam 02/01",
+          "event_start_date": "2027-01-02",
+          "event_start_hour": "15:00",
+          "event_end_date": "2027-01-02",
+          "event_end_hour": "23:59",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1485",
+          "parent_id": null,
+          "event_place": null,
+          "event_shop": "3693",
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "a2f479e9c7ab3d7f03f8415421d0bb94"
+        },
+        {
+          "id": "3511",
+          "title": "UKULELE PARTY ! - Sam 06/02",
+          "event_start_date": "2027-02-06",
+          "event_start_hour": "15:00",
+          "event_end_date": "2027-02-06",
+          "event_end_hour": "23:59",
+          "is_active": "1",
+          "is_recurrent_event": "0",
+          "recurrent_until": null,
+          "is_another_date_of": "1485",
+          "parent_id": null,
+          "event_place": null,
+          "event_shop": "3693",
+          "representation_id": null,
+          "event_string_id": null,
+          "local_event_official_string_id": null,
+          "unique_id": "aa14bdcda9799f50dc0565d57a0b7c3a"
+        }
+      ]
+    }
+  }
+]

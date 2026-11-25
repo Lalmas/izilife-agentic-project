@@ -1,0 +1,708 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:30:38",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-planch-ti",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-planch-ti",
+    "status": "found",
+    "data": {
+      "id": "5581",
+      "name": "LA PLANCH'TI",
+      "shop_string_id": "la-planch-ti",
+      "unique_id": "90e72ac8131e685f4d857610b4640351",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54839",
+      "principal_cover": "54839",
+      "qr_code": null,
+      "phone_number": "+33374952470",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Rue du Vieux Château",
+      "additional_address": null,
+      "zip_code": "62220",
+      "city_id": "867",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9651939",
+      "latitude": "50.4811862",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:22:44",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:22:44",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ1c1QLiIt3UcRU2zykWRTnvE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ1c1QLiIt3UcRU2zykWRTnvE\",\"rating\":4.8,\"user_rating_count\":955,\"google_maps_uri\":\"https://maps.google.com/?cid=17410444900871334995\",\"fetched_at\":\"2026-11-12T19:30:21+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très beau cadre, accueil chaleureux et un service au rasoir. Plats du nord parfaitement réalisés et une mention spéciale pour le Welsh. Certainement l un des meilleurs à ce jour.\\nExcellente adresse dans le secteur.\\nVictime de son succès, pensez à réserver.\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T12:54:44+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Sandrine Roussel\",\"uri\":\"https://www.google.com/maps/contrib/111281006472660387247/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIUq7luq7oRq7gs_IyeQjSfqDJ5HoRIVDM4bI91sW5U5-D8CQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Waouh  Petit restaurant super belle découverte, des plats servis plus que généreux très bonne cuisine, service et accueil tout en sourire 👌\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T23:05:35+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Marion Visite\",\"uri\":\"https://www.google.com/maps/contrib/117381275037377901665/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLQq-Urjyh2RvCXNX99HEob2siKuq-umO3UpBiDG4lzKF2qYAM=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"On est arrivée sans réserver, coup de chance il restait une table disponible.\\nC était une première fois pour nous alors qu’on habite à 2 kms.\\nAccueil excellent, serveuse au top (discrète et serviable pas de tout va bien toute les 30sec) et cuisine excellente des produits de qualités\\nNos plats: pour ma fille poulet maroilles qui déchire ( comme elle dit)\\nNous carbonnade flamande ( meilleur que la mienne est pourtant la mienne est déjà au top)\\nPour les tarif, ils sont justifier (il y a plus cher ailleurs pour une qualité moindre)\\nNous sommes venu par hasard, mais nous reviendrons et nous conseillerons ce restaurant avec certitude\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T21:35:46+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Dufrasne Yannick\",\"uri\":\"https://www.google.com/maps/contrib/103123782761634256669/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL2kcwiSOQw_c_2CduBzezeIx1a0JuTLUt3f9HBdGkAiQW7UA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Après plusieurs repas , toujours aussi bien servi . Bonne ambiance .\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T20:45:25+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Laurent Gourmet\",\"uri\":\"https://www.google.com/maps/contrib/114822252088532669846/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUcu2Ct4lezU19vtJi-FH_ofrDFH3EH2H6mZbaFh8USGl1Phl5H=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-25T14:49:47+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"linda kruba\",\"uri\":\"https://www.google.com/maps/contrib/102564532145077837126/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXXSg0JcfBAe_F6FdAzMwJXDmWCXcP-gtS-6bChPnO_ZRJl7SH2=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:30:21",
+      "google_reviews_place_id": "ChIJ1c1QLiIt3UcRU2zykWRTnvE",
+      "source_id": 5581,
+      "scope_type": "SHOP",
+      "scope_ref": "la-planch-ti",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carvin",
+      "string_id": "la-planch-ti"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54839",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5581_6af3993490304.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4640",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32215",
+            "source_hourly_id": "4640",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32216",
+            "source_hourly_id": "4640",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32217",
+            "source_hourly_id": "4640",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32218",
+            "source_hourly_id": "4640",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32219",
+            "source_hourly_id": "4640",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32220",
+            "source_hourly_id": "4640",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32221",
+            "source_hourly_id": "4640",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-planch-ti",
+      "google_place_id": "ChIJ1c1QLiIt3UcRU2zykWRTnvE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 1076,
+            "height": 606,
+            "photo_reference": "AV-0GLfhmhBMDP7CVF1NjFZJZUVt7e91IPnCpfBQGK345uWYqTzws9GGuQEabW6vw-NjVWaGWaV5ee1vEoFDkkuO4l1Zrj4LHSMZiVV9le_gMH25WEUNgHRU6fufpA9yoy-sNajNMLgT3bHjjx6zYfIOM3oNmnvo03kLcwI3ztS6S2521hJ7xp2XQ2fpjlTUr2QtO8Jye-TlVMyjW0KHBZBbu2q6y5Xzn93gd-AVsX3_XOf6Tb5AlUVIKtiqvB1i2DuC0rJT1eweQxdoIQtoEm2ujz4SrgQKPVO7wUF5-il1P5AU6zFocFj0eoNJeziWNYbTgP7Fc0U-qP1EGby1e_Fa1VS0r7FaXKZ3ZGd3h_ggR5l00YogBjHQs3pn_swZBaLJxPktCuceT4ySnvaZ0JOud2P5zQPkdTU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114538558473425328976\">LA PLANCH&#39;TI</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 718,
+            "photo_reference": "AV-0GLcC_Br5xDQQwQ-32q6P3ydX1ZbF6v-Ck3HWhtQs3idro0fk_aoiVZsEGn9hgV1htXARp_3BnN-q_7shH1FdGK2u81BxjuZw7g93xfsFk1aKj7kN0lcr95SJe8ewnhbXRnAdchUcMjhJREUO5eykCmiw_dI5W8Gxlwodq1SR03K8-xzrMNYtbsJp3DTAb7aCD50OTMYfE2zycIcReyBDiAPTJQEN5uKmyVyGSwoGddunsOeiAy2s27-qafF6MO2lh89g4mU5EZlyuMBfDRpJpWKCv7gzYLHqkcRbVvTA1bjd3W9KYohzFjn1jJ4vP2vWJ7RNMlGwdb8kR7K2NHNVOOQK-xpBoQJyN8_J-CtGw9SyhMmswmHb60QPE8haA7G7dRyAA8tDr9BQ4odThJcSJaUOhB4tVuI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114538558473425328976\">LA PLANCH&#39;TI</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLduSTGMvWsspc-neQ-1Le69IjGtN364GPVHI_pEl_Y9kH1d5nStdA6Pf08g0LsNfU2h6SpJBt82eRtVuGBgofXd-MECtDzQhG1cwehwjdaQJ3aUurXThpGYqRQSAEzO7Cei08uwIWslxZDz6oIvFrn1CGYZDygfRz2ovP-vCsAdaE0WFezmo1GVjD3ActJiwRncS_FafwgqSprPDyFcbNjmNeTShZS8ckJYIestIPJwzy5Oh-q6cxz8rt4KoxMXBKEDAGTOe485Cf0yf5KTCjFRU6xre6LkYWi5XUhYm3hdgukyabPCL0OHQc57mSUx9aTo5LCaNo80jeAGIfhu6L5rUHP4EVZ7IqKA1THjes3RWcbk1zVlrw9a0Qp6NePvjQKEUf7K8ER71qlc5rIZ82pMTJjRVxrv_Z56tVbtwEBi",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109446770627057569239\">Christophe lcq</a>"
+            ]
+          },
+          {
+            "width": 1207,
+            "height": 1336,
+            "photo_reference": "AV-0GLf4Zg8tw6AYSOEnTh2KaOQaQJQutvcM6CTnLXDqRpMXlSVYE14Lj_8vwQkNBLrBQ1ru3VK6YSDk04kNmRYMmaWZ284y04V86xGn1_lKiTrGCPRRFJ-v8rjhLLeGLSJ7LH2QmYm5MDQexFplcOOdl5jb3x9c7UkGqDxgmN8rljpfh6nUmszLAP0giSzOiZIl95dyPN_1mYOstybBjSPGdPmz3DozmoeNb2ca8z77sLxda1O_PY4DD6_1oTlOpZhWg2HGijMSlj6BgVjgfzK1BAwpM0Xd8d1ROxi_BYNBaUEmeT7MEc-q7aff3n_fpulqt6YFxtwN5zrEGNmInxcmnjRouBhDsAcGCms0Tp1c4w5_9Dgr3jF9_6bYNEua3ekJ2ZfkesGyepOBD64A3Hxr3piTneQ9gorubqsmlQq7a9T65A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117209733833843831720\">Apolline Cstx</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLd_JI0S_YJlYQh-jm6TJ4yL5zdJ-7qO4lR9a_bHeBH9N-IqG2pQaUOQUMcavrXXX2pT03-8A9ZMPYaNmmevccEdZ3u-e25dHTwKEGFkW0ajl2uTz8gyTe4UpliBihEmb42IXZ2J5ycyoWvtf9Co3k99-5OLBhisMKAwh9ibFkdlwkwCdB3zyl4o_TPieZCE3dU5kBoRCKA9f7UWp0q-nVu0bBjwk2iVphIoCEQWNPedK9Sp5B7bzS-Mc6MT4siioNjVMVFvMseeDu8_2LbF0_Ql8paCIwjBd2uRvsSNoou-yKxF9ZZOOYRpjzZpM0GVJPVygyGgv4SRzM4AgtU8djs2zqnfBSd7TnQcbox9H8zMQR-zLRV_rKRcCmUayfqowV3psLmpsNJvECR0O9Uf_CaSyw1Vz3E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105230464315765883380\">Stéphanie LEBLOND</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLfjD0Ee5yHLrNqbUTA6lWd8kQHT5-24hAlKxGtq2jieELaLafZ-TzvXXM3qwtB5fXuLckJi-j9KE3QYQRpowGikPJn35SfitCMk2W46lQzqNQphB-6dHSJ4aZ9v4pHSdUbs0JnPbwnoqBdBEuJqacQcDRWUvaKaKc_HXBLOHy2gLx2f2jJhIR6LMT2LWePrTdT8SEd6vKUK_k-rcKUvmaPwYdSXd49wAPnu2uPj5Lgo5AfRELqLdWZMkLUW-oAoJoP5t3RypuOuKsQpg9WUUxggWBwInnrMj22a5C14-9_cphqaHo6lEaayenLn_H0D1MptGpCKR0toBsoftLtkiD_z-tZV7QH_oQF91THbnr9ZqOKemBXg1gtr9foBPByqKV-ek-_AXO7i3zrWau9IqgXPZBU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106740800098386304632\">Sylvie Gravelines</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLflDjI7vjg_yowVDwj8es6C2a-BFwRCqwSyXNh4DUc_w9kOemQMIUlDUGeowX3HCxoH4B7r0NjUlYlDksNzFliVE7PldqKNazoweBSAoiTYp7ywcMPT7jGdd8lxbLyiIhB2HzTdC-81pjzezQzaasvB4MjPIG4jscFcPFHQsPubHHI03DJBJaBvt21UMQYmzMcYnjxUbPSoIH7npFInTIXpms0Puu6de1ouNSFEF6BRsibEVP7REEZLELfpp4uU0zFpxrP0Ykv9IU_kgDbonFB8r817xsoAMxPNqpNApr9WX5-PIU0ytJm3u8YgWvfAT2Xrcu0dWbqg9ERFz5Jdg6LcyGM7OCHzayJ7myu0kpPlCkkN0fm7eTnyMFkmT-vV0a3fAHZKRQrA4BmcQpHYuMSOpe0IMCN5gGqU8qDmDgTF",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107415667058475175484\">Yves et Muriel Donghi</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 2296,
+            "photo_reference": "AV-0GLdbRcYevu0D1Srb8-sjsflm10rR3FwMhvnTcLo_Q9shI9NvGAnI3tQcCM7FuoSkarwQeBhPdBkwaNHarQw8L7AH0l9rxEjhpEI380HeLM1ZZPHqDIT-L0E0w-iGWNdTJnO12JTB2eb7awPWOCfmTJ1XXD7NMtEFC0HPpEboS_i84Z0nI9awxftJ2SzLJUFq4ghLkT7bvmoS1-G9zpO5B8E5RuoQzLD58rk9DcQfr2yOhrOzWyI5uLUBq3OjLx159j-vUTd8WzYl8bJ11Mnaw5cpJNAEVp6Lh3jDxva0GXtnqctIqsR6pS7kFY0SOY2H4Kesl0gMnNU70yN6ibbYgyTHGWr5aPeT-m_-eJkgJol1jAJ97oHYjXOG3qiJz7Hq6KqQZbzgvc5EjPXhrQiP9gCWlhI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105379262946788648859\">Amél Carpentier</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeygn4NsEt3KCIluxo06KpqxAa7QMKHAWf4Zoh994LApp15N_ykAIfZymqv4CPunn1UHsFOfME8VvXUl8CrO9a_8zu1PMiZnM4GfTfwIygdZNb7XnZfc3aLjJU6fi_xBXdzqT3L4S_VDgzn9hUOzhmloK1REuvw0Kn_2gX8JwJWuO1l5hSaZq-HZIIY8Z7ADguWyU9eJr_d4L9h4zOJtr5oWfYpsp_IctT17aYhmrQYR7UmzcJTwWK3sF_tOJGWMjmI2m4xHlcN-etootGgRzNi77pBjVbzPHxT3l86kVAc5T54DS_ktIn1FXPpaNV9hYKG9796OgcNAeepvNA0EkHxXAE6SjED9VtXitR0FcS61N9enlQnEKjvn17iFC_PLDQe9ZajEMZmaAfPvSJOssejRg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113192607911330332960\">Ludivine Bizoux</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLftuL0qIUGb3mFVTocjGaFRuD_-SR-FM87E-Ry47hq4_fGr_2XRAXUOFbhk915a0sL-PfO_h6rlS4iQHFJ1G4P-N3enIcBDS-R3ID-CHunWpqIM2bGgSS_MEOUnZMbe3_qcdUeO0aAEQJJ3-yH7xEm-Y6YGpIxnyWD2AJIRRXItR5utD6oW9a3TXIDjR8MQMdiKp8t8T9WXDY84SKg8So8Pw8tr_jzJdoXDf49Y-H_mJWc2q3_W5c_N7jDGpDWgl5_5L9qSExi3oWKCfv7xMOaWOxR03NpcqKGjMurkrtrQB3Nw3IA5NjYq9PPHXeigfrgOrufTyZ3_SS5J9MC7KgwbR7-moITTqiKbZJqenIiZZozHqdCaoDjNdlv1LbzWTAsyr-PUhdIlLyH0wYkkLDRyYqsm9NPKo_uWDpSYtnlnZA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102581137992989186887\">Emeline Leroy</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5581
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très beau cadre, accueil chaleureux et un service au rasoir. Plats du nord parfaitement réalisés et une mention spéciale pour le Welsh. Certainement l un des meilleurs à ce jour.\nExcellente adresse dans le secteur.\nVictime de son succès, pensez à réserver.",
+            "language_code": "",
+            "publish_time": "2026-11-08T12:54:44+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Sandrine Roussel",
+              "uri": "https://www.google.com/maps/contrib/111281006472660387247/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIUq7luq7oRq7gs_IyeQjSfqDJ5HoRIVDM4bI91sW5U5-D8CQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Waouh  Petit restaurant super belle découverte, des plats servis plus que généreux très bonne cuisine, service et accueil tout en sourire 👌",
+            "language_code": "",
+            "publish_time": "2026-11-07T23:05:35+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Marion Visite",
+              "uri": "https://www.google.com/maps/contrib/117381275037377901665/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLQq-Urjyh2RvCXNX99HEob2siKuq-umO3UpBiDG4lzKF2qYAM=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "On est arrivée sans réserver, coup de chance il restait une table disponible.\nC était une première fois pour nous alors qu’on habite à 2 kms.\nAccueil excellent, serveuse au top (discrète et serviable pas de tout va bien toute les 30sec) et cuisine excellente des produits de qualités\nNos plats: pour ma fille poulet maroilles qui déchire ( comme elle dit)\nNous carbonnade flamande ( meilleur que la mienne est pourtant la mienne est déjà au top)\nPour les tarif, ils sont justifier (il y a plus cher ailleurs pour une qualité moindre)\nNous sommes venu par hasard, mais nous reviendrons et nous conseillerons ce restaurant avec certitude",
+            "language_code": "",
+            "publish_time": "2026-11-07T21:35:46+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Dufrasne Yannick",
+              "uri": "https://www.google.com/maps/contrib/103123782761634256669/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL2kcwiSOQw_c_2CduBzezeIx1a0JuTLUt3f9HBdGkAiQW7UA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Après plusieurs repas , toujours aussi bien servi . Bonne ambiance .",
+            "language_code": "",
+            "publish_time": "2026-10-31T20:45:25+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Laurent Gourmet",
+              "uri": "https://www.google.com/maps/contrib/114822252088532669846/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUcu2Ct4lezU19vtJi-FH_ofrDFH3EH2H6mZbaFh8USGl1Phl5H=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-25T14:49:47+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "linda kruba",
+              "uri": "https://www.google.com/maps/contrib/102564532145077837126/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXXSg0JcfBAe_F6FdAzMwJXDmWCXcP-gtS-6bChPnO_ZRJl7SH2=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.8,
+        "user_rating_count": 955
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1083,
+        "bo": 45,
+        "front": 1038,
+        "estimated_cost_eur": 2.075
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      },
+      {
+        "string_id": "tres-populaire",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Victime de son succès, pensez à réserver. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Plats du nord parfaitement réalisés »"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« accueil chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 11:30 – 14:00, 19:00 – 22:00 »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« Plats du nord parfaitement réalisés »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "wesh",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« une mention spéciale pour le Welsh »"
+        },
+        {
+          "string_id": "boeuf",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« carbonnade flamande »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« samedi: 19:00 – 22:00 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« il restait une table disponible »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« il restait une table disponible »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« On est arrivée sans réserver »; « pour ma fille poulet maroilles »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Carvin proposant des plats du Nord, notamment le Welsh et la carbonnade flamande. Les avis signalent un accueil chaleureux, des portions généreuses et une visite en famille avec enfant. Horaires indiqués pour le déjeuner et le dîner certains jours ; réservation conseillée selon un avis. Les données fournies ne précisent pas les moyens de paiement, l’accessibilité, la musique ou les modalités de commande."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-planch-ti",
+    "operation": "ADD",
+    "tags": [
+      "adapte-aux-familles",
+      "bien-avec-enfants",
+      "tres-populaire"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "adapted_to_children": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ],
+      "DishOrigin": [
+        "francaise"
+      ],
+      "KnowedMeal": [
+        "wesh",
+        "boeuf"
+      ],
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5581,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopDishOrigin:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0b19ca002ecabf665a65c7d059393c245317ffb4507ac6051cb4257492cb0361",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

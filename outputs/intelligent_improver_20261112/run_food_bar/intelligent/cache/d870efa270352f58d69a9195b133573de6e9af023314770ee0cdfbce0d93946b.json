@@ -1,0 +1,53 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« réserver pour y manger »"
+      },
+      {
+        "string_id": "bar-ambiance",
+        "confidence": 0.89,
+        "source_url": "izilife://current",
+        "evidence": "« partie bar et partie restaurant »; « Très bonne ambiance »"
+      },
+      {
+        "string_id": "lieu-tres-frequente",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« il se remplit très vite »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« réserver pour y manger »"
+      }
+    ],
+    "editorial": {
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« partie bar et partie restaurant »; « Très bonne ambiance »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant avec espace bar, apprécié pour sa cuisine et son ambiance. Un avis recommande de réserver, car le lieu se remplit vite."
+  },
+  "meta": {
+    "cache_key": "d870efa270352f58d69a9195b133573de6e9af023314770ee0cdfbce0d93946b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

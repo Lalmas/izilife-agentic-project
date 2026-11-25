@@ -1,0 +1,398 @@
+{
+  "format": "izilife-curation-extras-plan-v1",
+  "created_at": "2026-10-27T14:30:25.841490",
+  "destination_env": "prod",
+  "sources": [
+    "local",
+    "staging"
+  ],
+  "families": {
+    "escapade_proposals": [
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "canal-de-seclin",
+          "proposal_types": "micro_escape,half_day_trip,day_trip",
+          "profiles": "seul,en-couple,en-famille",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": "sunny,hot",
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "0",
+          "reason_refs": [
+            "canal",
+            "nature",
+            "balade",
+            "randonnee",
+            "velo",
+            "pique-nique",
+            "se-poser"
+          ]
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "lés-près-du-hem",
+          "proposal_types": "micro_escape,half_day_trip,day_trip",
+          "profiles": "entre-amis,en-couple,en-famille,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": "sunny,hot",
+          "start_month": "4",
+          "end_month": "10",
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "lac",
+            "nature",
+            "balade",
+            "velo",
+            "pique-nique",
+            "se-poser"
+          ]
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "wissant",
+          "proposal_types": "micro_escape,half_day_trip,day_trip",
+          "profiles": "seul,en-couple,en-famille,touriste,avec-enfants",
+          "editorial_title": "Wissant, la perle authentique de la Côte d’Opale",
+          "editorial_description": "Niché entre les caps Blanc-Nez et Gris-Nez, Wissant est le village côtier idéal pour s'évader. Sa baie immense de sable fin et son charme de village de pêcheurs offrent un cadre naturel préservé, propice à la déconnexion, que vous voyagiez en couple, en famille ou en solo.\r\n\r\n<strong>Un terrain de jeu et de détente absolu</strong> : La plage de 12 kilomètres est une référence européenne pour les sports de glisse (kitesurf, planche à voile), mais aussi un espace idéal pour le char à voile, les châteaux de sable en famille ou de longues marches ressourçantes.\r\n\r\n<strong>Randonnées et panoramas grandioses</strong> : Situé au cœur du Grand Site des Deux-Caps, le village est le point de départ de nombreux sentiers balisés. Ils permettent de longer les dunes, de traverser les marais de Tardinghen et d'admirer les côtes anglaises par temps clair.\r\n\r\n<strong>Art de vivre et authenticité</strong> : Loin du tumulte des grandes stations balnéaires, Wissant séduit par ses maisons traditionnelles, ses flibustiers et son marché local. C'est l'adresse parfaite pour déguster des fruits de mer ultra-frais et savourer la convivialité des estaminets.",
+          "weather": "sunny,hot,rainy",
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "mer",
+            "plage",
+            "balade",
+            "visiter-la-ville"
+          ]
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "lille",
+          "proposal_types": "day_trip",
+          "profiles": "en-couple,touriste",
+          "editorial_title": "Une journée à Lille",
+          "editorial_description": "Découvrez les essentiels lillois dans une proposition éditoriale claire et réutilisable.",
+          "weather": "sunny,rainy",
+          "start_month": null,
+          "end_month": null,
+          "priority": "8",
+          "is_active": "1",
+          "reason_refs": [
+            "visiter-la-ville",
+            "patrimoine"
+          ]
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "lés-près-du-hem",
+          "proposal_types": "micro_escape,half_day_trip,day_trip",
+          "profiles": "seul,entre-amis,en-couple,en-famille,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": "sunny,hot",
+          "start_month": "3",
+          "end_month": "10",
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "lac",
+            "nature",
+            "balade",
+            "velo",
+            "pique-nique",
+            "se-poser"
+          ]
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "wissant",
+          "proposal_types": "micro_escape,half_day_trip,day_trip,weekend_trip",
+          "profiles": "seul,entre-amis,en-couple,en-famille,touriste,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": null,
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "mer",
+            "balade",
+            "randonnee",
+            "velo",
+            "pique-nique",
+            "visiter-la-ville"
+          ]
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "dunkerque",
+          "proposal_types": "micro_escape,half_day_trip,day_trip,weekend_trip",
+          "profiles": "seul,entre-amis,en-couple,etudiant,en-famille,touriste,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": "sunny,hot",
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "mer",
+            "balade",
+            "randonnee"
+          ]
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "calais",
+          "proposal_types": "micro_escape,half_day_trip,day_trip,weekend_trip",
+          "profiles": "seul,entre-amis,en-couple,en-famille,touriste,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": null,
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "mer",
+            "plage",
+            "balade",
+            "visiter-la-ville"
+          ]
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "aire-sur-la-lys",
+          "proposal_types": "micro_escape,half_day_trip,day_trip",
+          "profiles": "seul,en-couple,etudiant,en-famille,touriste,avec-enfants",
+          "editorial_title": null,
+          "editorial_description": null,
+          "weather": "sunny,hot",
+          "start_month": null,
+          "end_month": null,
+          "priority": "0",
+          "is_active": "1",
+          "reason_refs": [
+            "canal",
+            "balade",
+            "visiter-la-ville",
+            "patrimoine",
+            "village-de-charme"
+          ]
+        }
+      }
+    ],
+    "activity_proposals": [
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "canal-de-seclin",
+          "occasion_ref": "date",
+          "action_1": "se-balader",
+          "action_2": "apero-pique-nique",
+          "action_3": null,
+          "title_template": "Balade et apéro pique-nique au bord de l’eau",
+          "contextual_description": "Une balade tranquille le long du canal, suivie d’un apéro pique-nique au bord de l’eau.",
+          "context_json": null,
+          "special_activity_show": null,
+          "is_active": "1"
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "canal-de-seclin",
+          "occasion_ref": "date",
+          "action_1": "sortie-velo",
+          "action_2": "apero-pique-nique",
+          "action_3": null,
+          "title_template": "Vélo et apéro pique-nique au bord de l’eau",
+          "contextual_description": "Une sortie à vélo le long du canal, avec une pause apéro pique-nique au bord de l’eau.",
+          "context_json": null,
+          "special_activity_show": null,
+          "is_active": "1"
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "parc-de-la-dreve",
+          "occasion_ref": null,
+          "action_1": "se-poser",
+          "action_2": "pique-niquer",
+          "action_3": null,
+          "title_template": "Se poser et pique-niquer au Parc de la Drève",
+          "contextual_description": "Une pause au vert pour s'installer, souffler et partager un pique-nique.",
+          "context_json": null,
+          "special_activity_show": null,
+          "is_active": "1"
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "canal-de-seclin",
+          "occasion_ref": null,
+          "action_1": "se-balader",
+          "action_2": "pique-niquer",
+          "action_3": null,
+          "title_template": "Flâner et pique-niquer au bord du Canal de Seclin",
+          "contextual_description": "Une balade tranquille au bord de l'eau, avec une pause pique-nique.",
+          "context_json": null,
+          "special_activity_show": null,
+          "is_active": "1"
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "PLACE",
+          "scope_ref": "quai-du-wault",
+          "occasion_ref": "date",
+          "action_1": "se-poser",
+          "action_2": "pique-niquer",
+          "action_3": null,
+          "title_template": "Se poser au Quai du Wault",
+          "contextual_description": "Profitez du bord de l’eau pour une pause ou un pique-nique.",
+          "context_json": null,
+          "special_activity_show": null,
+          "is_active": "1"
+        }
+      }
+    ],
+    "territories": [
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "lille",
+          "string_id": "lille",
+          "is_country_capital": "0",
+          "is_country_principal_city": "1",
+          "is_region_principal_city": "1",
+          "is_department_principal_city": "1",
+          "is_border_city": "0",
+          "is_mountain_city": "0",
+          "is_litoral_city": "0",
+          "is_village": "0",
+          "is_rural_city": "0",
+          "overtourism_indicator": null,
+          "importance_score": null,
+          "ai_proposed_description": "Lille, située au cœur des Hauts-de-France, est une ville dynamique où l'histoire et la modernité se rencontrent harmonieusement. Flânez dans le Vieux-Lille avec ses ruelles pavées, ses maisons colorées et ses boutiques élégantes. La Grand'Place, animée et entourée de bâtiments historiques, est un lieu incontournable pour apprécier l'architecture flamande. Les amateurs d'art seront séduits par le Palais des Beaux-Arts, l'un des plus grands musées de France. Lille est également réputée pour sa gastronomie, avec ses estaminets chaleureux où déguster des spécialités locales comme la carbonnade flamande. En septembre, ne manquez pas la célèbre Braderie de Lille, un événement festif et convivial. Avec son ambiance accueillante et son riche patrimoine culturel, Lille est une destination qui séduit à coup sûr.",
+          "source": null,
+          "confidence": null
+        }
+      },
+      {
+        "source_env": "local",
+        "payload": {
+          "scope_type": "ADMINISTRATIVE_DIVISION",
+          "scope_ref": "nord",
+          "string_id": "nord",
+          "is_litoral_division": "0",
+          "is_mountain_division": "0",
+          "has_villages": "0",
+          "is_rural_division": "0",
+          "ai_proposed_description": null
+        }
+      },
+      {
+        "source_env": "staging",
+        "payload": {
+          "scope_type": "CITY",
+          "scope_ref": "dunkerque",
+          "string_id": "dunkerque",
+          "is_country_capital": "0",
+          "is_country_principal_city": "0",
+          "is_region_principal_city": "0",
+          "is_department_principal_city": "0",
+          "is_border_city": "0",
+          "is_mountain_city": "0",
+          "is_litoral_city": "1",
+          "is_village": "0",
+          "is_rural_city": "0",
+          "overtourism_indicator": null,
+          "importance_score": null,
+          "ai_proposed_description": "Dunkerque, située sur la côte de la mer du Nord, est une ville portuaire dynamique qui séduit par son riche patrimoine maritime et son ambiance conviviale. Connue pour son célèbre carnaval haut en couleur, elle invite les visiteurs à découvrir ses traditions festives uniques. Le musée portuaire raconte l'histoire fascinante de la ville, tandis que la plage de Malo-les-Bains offre un cadre idéal pour se détendre ou pratiquer des activités nautiques. Les amateurs d'architecture apprécieront les bâtiments historiques tels que l'église Saint-Éloi et le beffroi de l'hôtel de ville. Avec ses nombreux restaurants proposant des spécialités locales, Dunkerque est une destination idéale pour les gourmets et les curieux en quête d'authenticité.",
+          "source": "validation de test staging",
+          "confidence": "1.000"
+        }
+      }
+    ],
+    "campaigns": [
+      {
+        "source_env": "staging",
+        "payload": {
+          "name": "Musée gratuits les 1er Dimanches du mois",
+          "string_id": "musees-gratuits-les-1er-dimanches-du-mois",
+          "is_active": "1",
+          "status": "active",
+          "year": null,
+          "scope_level": "country",
+          "campain_date": null,
+          "campain_start_date": null,
+          "campain_end_date": null,
+          "commitment_start_date": null,
+          "commitment_end_date": null,
+          "description": "À Lille et dans sa métropole (Proche de Seclin)\r\n\r\n• Palais des Beaux-Arts de Lille : Accès gratuit aux collections permanentes le 1er dimanche du mois (ainsi que gratuité le dimanche pour les habitants de Lille, Hellemmes et Lommes).\r\n• Musée de l'Hospice Comtesse (Lille) : Gratuit pour les collections permanentes et les expositions temporaires le 1er dimanche du mois.\r\n• La Piscine (Roubaix) : Gratuit pour les collections permanentes le 1er dimanche du mois (tarif réduit pour les expositions).\r\n• La Manufacture (Roubaix) : Accès gratuit aux expositions permanentes et aux démonstrations le 1er dimanche du mois.\r\n• Musée du Terroir (Villeneuve-d'Ascq) : Ouvert gratuitement le dimanche après-midi.\r\n• Louvre-Lens : La Galerie du temps est gratuite toute l'année (tous les jours d'ouverture).\r\n\r\nDans le reste de la région (Hauts-de-France)\r\n\r\n• Musée des Beaux-Arts de Cambrai\r\n• Musée des Beaux-Arts d'Arras\r\n• Musée d'Opale Sud (Berck-sur-Mer)\r\n• Musée de Boulogne-sur-Mer\r\n• Musée du Touquet-Paris-Plage",
+          "external_url": null,
+          "type_ref": "bon-plan-public",
+          "celebration_ref": null,
+          "country_ref": null,
+          "scope_ref": "FR",
+          "recurrences": []
+        }
+      }
+    ]
+  },
+  "excluded": [
+    {
+      "env": "staging",
+      "family": "escapade_proposals",
+      "source_id": 6,
+      "reason": "mot test"
+    },
+    {
+      "env": "staging",
+      "family": "activity_proposals",
+      "source_id": 1,
+      "reason": "mot test"
+    }
+  ]
+}

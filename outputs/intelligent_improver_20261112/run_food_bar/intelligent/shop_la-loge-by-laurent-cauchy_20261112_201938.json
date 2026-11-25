@@ -1,0 +1,486 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:19:38",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-loge-by-laurent-cauchy",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-loge-by-laurent-cauchy",
+    "status": "found",
+    "data": {
+      "id": "5758",
+      "name": "La Loge by Laurent Cauchy",
+      "shop_string_id": "la-loge-by-laurent-cauchy",
+      "unique_id": "514946c12b68ff6fb63bbf508e1383e2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55015",
+      "principal_cover": "55015",
+      "qr_code": null,
+      "phone_number": "+33320491040",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "5 Rue du Haut Quesnoy",
+      "additional_address": null,
+      "zip_code": "59134",
+      "city_id": "58",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8849004",
+      "latitude": "50.6132508",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:46:20",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:46:20",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ_6HPBK4p3UcR7h9d0QItlhg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5758,
+      "scope_type": "SHOP",
+      "scope_ref": "la-loge-by-laurent-cauchy",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "le-maisnil",
+      "string_id": "la-loge-by-laurent-cauchy"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55015",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5758_6af39ebcaa66c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4818",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33461",
+            "source_hourly_id": "4818",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33462",
+            "source_hourly_id": "4818",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33463",
+            "source_hourly_id": "4818",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33464",
+            "source_hourly_id": "4818",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33465",
+            "source_hourly_id": "4818",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33466",
+            "source_hourly_id": "4818",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33467",
+            "source_hourly_id": "4818",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-loge-by-laurent-cauchy",
+      "google_place_id": "ChIJ_6HPBK4p3UcR7h9d0QItlhg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 19:00",
+          "mardi: 12:00 – 19:00",
+          "mercredi: Fermé",
+          "jeudi: 12:00 – 19:00",
+          "vendredi: 12:00 – 00:00",
+          "samedi: 12:00 – 16:00",
+          "dimanche: 12:00 – 16:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfZQYYv7T19sky5-AoBctR4CJJsF2U40YcGhdNWBEPvJsTVknQ4S9BQkrtJ8DfK-qn4cYrYZZCjuvkPmVtcqYeh8JnjuEHx8ji2_4eqUhTe6gjennt9e9dtsac400z8ZkGTTaAx0Y6UTXZK5uHYy2I1zXasTuk0sm1ZFqsivtmbxXusL_-0PsJxy-U1waxUmPFwA08-2omdnLoiA8gAD20hJ-3LVKh4mwEFqNndPD5ld8QmpvN31Lhd9b-hGEGJ4eXtjP8Baehu6cSWb8ClV2YxZ7aIRuK8GHIvo72cBRVEyWhG0qMi3Qd4RDQur0VtAccbQMEvv9IxnBWtRjRmc0utn4G2ockHYESkBkoCi19yEfcWz8KFomMe5kF3OS-nzQShE8Acl6EH98Oi9Kg3o008Ab8nMFeS4gMb9YiSEzRS_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLe4blzRNorcqbMs2-aM_-L3s9rnlVI_sK36e7Y6XbwINKU7tU4rqC6xlLZMkZnNsVqYQeQftESb7rdMze4SBhSJPITGqChWNE4-kKZBU07gXiR_fZOX-6-02pTVzaHrYEow6JcdVFEqxcb2vrDVhoKRfq8shqmUdm4vVZDQpoAFh2A2lm8BvfVzaB9T_SpM662RO3FTGMmwy4k0L-nezxgkWeHTNa4Jmt-8EnFh7lR75ymnNVv-vtE6zP9jBAslA3Veijg0Lre8q-mjaT7lhjAEwaemzZCFDTeTuuRak0bScrcJoNxkW5z81aBNDHhacpLBPJayuWIHayEw07H4WpYgkm0X2TacRXKpXXcxwvx7o1fyrY0q7U5w3jEJ5aiS_Cw8VwBiFJpiRlhnpeF9y4UiQDR0cTtYaLRenDW72JanYQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3199,
+            "photo_reference": "AV-0GLdZFm-Lx939fMIXnmeksGbH1MCwucfQztZ_xTos4GFXJC1ULz27v4hmc3T6DQqKs0kwCPt3mUWOjZkaxAQiLTnBrPsWvBAqchmxH9AWa9qI2wGqRuGFF4FEmD8lnVEbi8ccu2ROOvSAZDKuS1pb-Cfwrk0sgDVhahrZN6hHl-y33lmUxRrTKPbb9KGzwiGmk6RHisbyEcCyaAAaCS73m1pI7o1_AknBkTwSqEWLibJhscmQJhsKfdrDLQYP2Ly-PMRRJ_cVjUf7_l0SQdSatVdRQ_Ul1H_naXyRw2gwRI_BDFVtQ2dsbWpNSEpNcrAunKlzpqBQqH2TRHGQ-H9oebBo7xFw3bwpZWa59U526OnDF1zePvQGM-NMrY-t-BxtAt1nVD2zVT_oG-4bw4ilCjgsNiZrp5N0jOs5JIfbOpaV6A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe24BFVH_GkJ176e5irl7xXJqg1ifsaLTSoVs2mDKLrDhp-mV0b7XUFc5bZ0G8pzrzd04QygUnE4zqdTPx6U0iprB7Ofvgm1pdn5byIpHDjYEafg7kCLyA77_dkQhhttz5l7DwwwDNZ3jBQEK0ycHiujp0aKYoC-bDN1kSZLQtE53Jd5Wty6rDOlY843R4qLeEf964OVL06poscBRdNKMpg727Si8CRQbovcVPbSU4qlTn4dDJLWhTVdXXM597LIEvjulXFq1N_BWspBe33ydGaKfgxNGPRgC6aw6XNIVsNAANd74RDssD9nMmAAxuWgS8LbKDlt01-CxrFp6wZDnXktu1dwicuVt7jBzKvq_btNeSF4NE575aaM9_HxOaPp1xZvuJCJx4hvpIYLKOYntzWc-ur-WbSH-i8V7aVwMs_BA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104895014992092599587\">CAROLINE BILLAUT</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLek6pgXkDhPyW62DdPcNNSW8fEXLuQ6TstRqO0MIB-0HO49GSdiwcNlhKey7LsRSGTJb3zDKlxnm5hMNZulJ1OMqkSYB5eHiTYPv5XJH5Bcq2wLRS4LOnE9RcQc7eUlPwiFmLzCzR_oYM-DEWznu__v6RI6CidoJHWTUeifHon_4hY4s-ffQ_f5ZVr0d8RK-NpYTeYdmY1HwX6Eqh9T6ms_eSnznkYM9CaZsiudfgwtUXlV-jCINH51DDeEn003TqpZCA_MohvVc52Tn7svxYemu25nzyFw8RVE0k3aqglQeTCEP_0twt0UuHpAgqmz6eaRCju2neNdhieO06NC_j5ukOAwa3_XtobCE5iHDVh6FeapggC-lQHpBdFYEoaYoM7aZ1kwagrLA4EOBbyphMJbVb6WWVfdqtzdZn7St6ff",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLdXmpGHNintPP1gAgaH2aiaPsN0NPs_xGMd2rmqs8bH-4_Nc3y_d3hnXJ8ZnIgqSNkFX_SWyEpI6NTFJcvQWBUzIHMVsDxmjVnIR9HKYGSlEl9HmXCJjZvT4TQQEgdA37KguEO8nLm1IONiMgrnxPW1I_XkeMVCIoasQWgJ0bX65DccexIP7L2u_IqdfT3fzJPKrOMXsfWIPnUb9oJ6hRPSm1QMYORv-l8I3p9Awx3shET53fazxbk6XRRE_UKhKxe8aRHA2w5BO_tA_z8J9lMIWkYQDjwjqogaCT1nXuLNGNnHRLvR-AoKiVuRfPE3jZlVRdzrG8pp417No0Oem9t1_y0rk2GrkxTXn_s5PmDqakLduyLYfY7jeTMmzRYXDvhCTW24Ntg9-hTHSf51og-va6c5-7QzZVl0ATzQ1Mne",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLcCP4Tml5weOAEOYID_v48V9Q7Hrm6IDssNqy-xaEc8tBgjcdBSuUEht0hLb5-Peb5-6gerDHB66gCDykmU9sKUwXhkb5j2f6TeqGTf7iT7sgTmJhlqV5ucPR5XyZfxkzNYOfYszLIWAqlh2WunAB_ta_MAF9Pt7A4cqWUY_Nazg54cqKJKfPnN7znrswM2iYNgdtmyTZ_h6eirlxwbP3RVjhxzLyUWdcFnOeFJZ-fi2ygCWrWwGGyBGRMTUAU9u7bg3rYVHmMduv8nWDLeDw1RkzxeE_f08dBL8EpS1n3lKJPQ3zBmKmEh83I_1xOVmaIeEqQUxb_Fdbw3BY27Z27CbGkS_vlNi96zCF3BYm8WpgXDS8KRYGCf4sDj9ND6EY65UwPN92lAWgIyMKhU8q_wYkBRxHTtg9y4tFgHnuEW",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfU6zwlhCw88fzX52w7adXmbA1LxQfDp8HRnHroBEVUsklW_v0NV1Qn71gPjTv-wreAHvKx6SqQ793ZWI5HMLTVYHFfpXEVXUiDUEinKeHX-UWPmFDcyNqaYwE5W7--PT2rpzdBsxdoblyprjMTvdssyV77tQ1Sar7bCfLBhHmwkri4UdzZ7NkCfoRHoVt3a79m01KWCtjsiKrgzL3M3cBOoTDB8fNB9lKFNRHl6oFsq5XvMw2U4V0P_IX42xMKBoHepCCXEmWWpa35-wNPAupPBLtgCmGR5IwQvWqELtcQl6mog0JMX92SIv5p8cdSktM1QqSCxr5mOCuM2awqy-HaSyg14HexsAt27tVYigNkpz-do33nRAC9i5F3jCboRX35kKFNuLEt0_eGVIQMYRiJLuto_1Nrab0d0ELL9iEQag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 1013,
+            "height": 1553,
+            "photo_reference": "AV-0GLdaluPPMNMOmQEr-iJWXkIFrCdves4eMKxb9ireY59ujth2Rn1zPQDUHbBdBQzixWAj5qPb9eUHZF1Vt95ENvXQ06QLI4BTrkyIFtDkWQk2j_38lkX3ebSvny9OLcJhkbo6n2-215BVISgtfljynyJeCPY5qVk5B7klAihxHtGI0cz6NFGBwErPUZ3oAU4Sqn8MmqcxIe21AbXNwmgaC9OT-XfZNqn38XMQkEPiXaTJ1u4Db9fTEo-lW9w0BjU4kqJzL6d1630mXLViNTux0JrKlVjYRm08zrHhvf1hEhtJJCgxMV5IfxIcCvCXPz_mEwF8tCztjpNfnBNd0L_maSiKyTXor3SRbgSLFTphN0-oJV5QHVPpBszBJK7cTzEoGbOsuqyfKpjh5G31cpPfZ8Vs8fwF866Rgtl0oz1ZzcVguA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115020982435450374521\">La Loge by Laurent Cauchy</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfHWz1slLfVu8iczHkjBF9zvDui7cz9DnDBO7uHK3mEGDNdAh0XuU3ByS_6jLdnJId5ePpAaoxz7zoSaG8mcV71VtFD1-IPggThay_YiUNlA5jc2rd_-8cMlp_DaWvug_HkvXVE12dA4In3R_PCU4vzV8idxWyzuFGljmOPqTcJ0ScGUhblG446hK-JZBGk2ccyRP7EDrcBXehgJZTYlPy-gXLD7pnCHiScMAVRPP4GRK0r13iF9uZG1akqvl37dqBr-PIo5PtacZo38ypre-P0U7-jqyUXRBo7YN2Ks4T7T7e_iXYBrIenxmuaA4vGrsKJDhOY859Uxbujl5hZT-24BBe20eyyJ99oeEQWEoH8PsLpU15SBwEjhLSDdiZi4VOpbnPkBLGgOoGeXfX6-WngagjMebRIa89bLWIViTiCjg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104895014992092599587\">CAROLINE BILLAUT</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5758
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les modalités de commande et de paiement, ni l’accessibilité, l’ambiance ou les équipements."
+    ],
+    "rejected": [],
+    "summary": "La Loge by Laurent Cauchy est référencée comme restaurant au 5 Rue du Haut Quesnoy, à Le Maisnil. Les horaires indiqués prévoient une ouverture à partir de midi certains jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-loge-by-laurent-cauchy",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5758,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "a8dc35c2eb77fe131e80ebb9909fb700c107bd2f863d4e3081da9144796d7b26",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:47:14",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-campanella",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-campanella",
+    "status": "found",
+    "data": {
+      "id": "5649",
+      "name": "Le Campanella",
+      "shop_string_id": "le-campanella",
+      "unique_id": "b5c0f7125927bb75be6b8fc23bc17a53",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54909",
+      "principal_cover": "54909",
+      "qr_code": null,
+      "phone_number": "+33320327664",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Rue d'Emmerin",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "65",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.01765",
+      "latitude": "50.576374",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:31:39",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:31:39",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJF7HicL_UwkcRELnHSFgTYGg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJF7HicL_UwkcRELnHSFgTYGg\",\"rating\":4.6,\"user_rating_count\":71,\"google_maps_uri\":\"https://maps.google.com/?cid=7521032647607826704\",\"fetched_at\":\"2026-11-12T19:46:58+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Chez Isabelle.  Une pro . Amabilité , gentillesse , serviable . Comme auparavant à Wattignies.\",\"language_code\":\"\",\"publish_time\":\"2026-08-20T15:02:41+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"ALAIN\",\"uri\":\"https://www.google.com/maps/contrib/115856625561583053110/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUwj4aHspllGDKMoQX0Mu0QG4IOiZ_otM0jXFoPyVH9Yn9sAMsX=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Lieu très convivial nous nous y rendons tous les samedi après avoir fait nos courses\",\"language_code\":\"\",\"publish_time\":\"2026-05-20T09:56:51+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Thierry FRETIN\",\"uri\":\"https://www.google.com/maps/contrib/110249434692016675170/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLOetNjMMMWETrvqnKYnRvSgwz8kMLfCfVdfW5Qg3KDG9ftUA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super endroit pour se poser ! En plus la patronne est cool !\",\"language_code\":\"\",\"publish_time\":\"2026-02-24T16:12:06+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"YL\",\"uri\":\"https://www.google.com/maps/contrib/104206686040636906155/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWdo6aw52LB8MHl0r7I21gWR1rh-_fCekW2IPjk92Ouq4mec4lI=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"Pour moi nouveaux propriétaires agréable sans plus par contre je me suis retrouvé au toilette dans le noir carrément aucun interrupteur dans le toilette des dames a revoir car pour moi sens de l orientation mais il faudrait revoir ce problème ok les patrons merci je reviens bientôt pour constater\",\"language_code\":\"\",\"publish_time\":\"2025-09-28T14:18:12+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Brigitte 59120\",\"uri\":\"https://www.google.com/maps/contrib/117977056619806052573/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI78psF5XEOXomLvoN_A5K9h9HUu8EZb3NlqGOH9i4N5woW-g=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"bien\",\"language_code\":\"\",\"publish_time\":\"2025-05-10T18:42:19+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"N. A. G.\",\"uri\":\"https://www.google.com/maps/contrib/113981370951826847252/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKXqdWY4ZVXHF3m6gS6WAFIa9YvXijAlBtyHlJSow0MF43IO3wY=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:46:58",
+      "google_reviews_place_id": "ChIJF7HicL_UwkcRELnHSFgTYGg",
+      "source_id": 5649,
+      "scope_type": "SHOP",
+      "scope_ref": "le-campanella",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "noyelles-les-seclin",
+      "string_id": "le-campanella"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54909",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5649_6af39b4b73a5b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4711",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32712",
+            "source_hourly_id": "4711",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32713",
+            "source_hourly_id": "4711",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32714",
+            "source_hourly_id": "4711",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32715",
+            "source_hourly_id": "4711",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32716",
+            "source_hourly_id": "4711",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32717",
+            "source_hourly_id": "4711",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32718",
+            "source_hourly_id": "4711",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-campanella",
+      "google_place_id": "ChIJF7HicL_UwkcRELnHSFgTYGg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:45 – 14:00, 16:00 – 19:00",
+          "mercredi: 06:45 – 14:00, 16:00 – 19:00",
+          "jeudi: 06:45 – 14:00",
+          "vendredi: 06:45 – 14:00, 16:00 – 20:00",
+          "samedi: 08:30 – 14:00, 16:00 – 19:00",
+          "dimanche: 08:30 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 809,
+            "photo_reference": "AV-0GLe8ilPCUlH2z5uUbj9WSLUvrXs_WVP_INtiDi8w5WdMO3OiSIqT3RbOxAcBL-EDUvw9PI9UpSo19i5TM9rBzJAUDWzfPRKJ21pG3FwsfgnQhXW_HfWg8uEUzPX2i4J_KUyEiHkZj-V8qzD_TrNoztC73zwfNICCy9ufzwlCearFg4CZstmVzqcPKWRhujxuYgbrG4jS6JI5kvTS00yf5EsvOxU4ZsucxyTNycV8NsRWvhHQu7DoHJc4qr4uYRzMBk-e6tOESO6ITfh3X5gKZXkYbtMDbYhd1JJJ-kw4Dxr8yPEcxlPshwh5so4ba-yJwFVNH_KG7bMt-csBpZXCBmfqxXtdo9RObas9BLDjhVEa1CR7Tqcrlk3TLnB27W1rex90XgCt-1J8wfDxmHLNUXhe-VRtuMk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106038545003790595626\">Le Campanella</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcr1MSuWqgSMMvAhzcvQEahuTzaEATtPosjfr_56TkVB6X8pvcOtugVdBboE_Le9VVzAJQgXW67uYK3MxZzGXgP0pHW0zabguC-kI0cxwx1S3w6LTkSBOS38k46f60tvjfMl2Bh-Mp8vo-QWmSXMCN2sqgAUtmOnycPiwfjgaHkuoJyaZEqbX_MCaGfRn0gkw-I8K_Xm1uW5S7wNwJv1ML9bodvjjr53yNZ7LW5ieAFwitZ8pL0Q1_9ceDd6XtarjNnMX12ip22Sy8tLD6gLWYWRG2nocMrvX4ouX2gQ4JUheURl-2YbikRFhOTz1u8vMSLGRJwTpCaFnbGin8audVlS4IkkA3x0ZDlPosTHhrl7oQv12ffLqoSazTgnf6mvpaXrqOGuV89503vmyycGdeaQc-6JFI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103724443227827835807\">Eddy Lesage</a>"
+            ]
+          },
+          {
+            "width": 2016,
+            "height": 908,
+            "photo_reference": "AV-0GLdX8eX6QNbQgN3cA_KHMCsNETtAGLaopAZ-1o1p1L-TAj4e8ORt0mesS-OcHw0Pdq7kreGViWO9ECp2rKBwN8nfybIl150R2_wr4skVuWBHFeXd7q98mL7DyierHJmYoghJRyhfyZr-azO8xP0R8gVmSDBYlZmTp0Ty6Q_Afh03ARflPf8-n53b3HMiWZRisrYEjNDSeLySI11Z82z7SvVgTlvPr7AfDuGiTKH_MXXMhwloJb7uRpK6mFlyOqwmVrVDjrFZ8AgIWD8kuH3kM7ztKRryJfMFZbeKjX748Av8R_mS0zd-q41zfiz3dn-dEDdLlb1Mn-Gza-IKBEMKooupoOXfoVpEug7gAy6Ul9oGJqChVMH6AlcIt7vEsdROVMRQ5geKgNEVCXPazsU_OmIOjAE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106038545003790595626\">Le Campanella</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLerXb3q3-JaRA6Cn7w8hHQ8w81TzJGZUQrJZ6xjio8YN3n4TfYmfy31bGkDRQmlgoU3DJTucSvFJIYrY_lhPl-fLHIuMWNRpccws3lQQ54RYuroXbuuiw0T4-wo56fDA-BBcFWEZfdSD-th401mdefl6tdwE-d__ZtaSjvUzab9WFyEnBlxBnmRCi73gm_7AnmD9bPSuU4G0lNYQjm1pX0WHhDPdxp3E5yFceYU-YM2gLVlHpjPUYB43qU7_hUIL7KyM9824xqejXwwpmfQMKpa0rqWYZDPgDTxVQ5u5g_R6fLjEB9HF5VegXjWbPCHbRjTXYNGz7FbD8xKF-05mdvDBMJqlvFA29hWoc97aSLVApNUKE9X44ELydW2TN6GAsbT1QHCCNRLoqpiaujM7N21f3g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103724443227827835807\">Eddy Lesage</a>"
+            ]
+          },
+          {
+            "width": 908,
+            "height": 2016,
+            "photo_reference": "AV-0GLdI6thzkLEVM37rjf8Rz63CGnYVnOAccWMAar5QEnAnnyp-NPp4OLinfn5iqWq6mwQ3IbzfGntvHVmWa4g2IPnM8UO4pT07ODsHcL_J0Fd71w5LTwuE3LROT0F56y00u4UxEYPlT06cjTFvNAZfrrqqHLjm20OmnBMrjR5mgRuJ7X4-BNv5kS2M1IzVsCU1iOLtdYjnUtX4G_SEdkJnf6u-Tm7cQOuv9lLcK6Uf9b9BhH27Vz4l107BQ5NOxKrBAkzczC9_ZQJJKB0qapFFzwoGU7R8i0IkQgX1fiUG1mltCjJCVBlzzI3Yj0_pkYXNpybqjapRjLOSFftdvvkJ4saMW2U-kQ5FE4dP9eVLzmEfoJBCRBZbkEp4zP1tIR0pywZORw4O9cR5mpookdrZaic7XWmOmZ4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106038545003790595626\">Le Campanella</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLcuHbpXerRirE3yWf7r_tjwurIG1au3wFcGbf9VgylKvoEZ2fKJV0j-WX9nIAx69vft1TmyvMtBkQG5jhVzggnYvMa5gfp_v87qsGc66XsnwH1wsNXtqO7o4noT2RmyRp-KJ3btC9nAI-IqEMhkTagXT4H9AnuBoRIAYcFExYnS9EsVbWqI-hk3iB_RECCAtQprW9chnMoRptVBc1rNUeOmCW7Crymkw_5hubfkM3vyQHG02s8626vXzcG66ylKM4ZTmre-2w4ONVwOrx5_j0mCMnM0SfELMNWK7Jh7nIdPv2FMdSbRGfRuIpmP_UvfK977_Lel2RtWVnpGgFB_3lDi-pgIVN2EBpU019P-sBt3v4YlAMSRVeuZ8NGo6vyx40jaVl1hZ-FHda9cv2BEgggeR_xdiew",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103724443227827835807\">Eddy Lesage</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1920,
+            "photo_reference": "AV-0GLd9DJq0N5kzxkc1Krhrv4Xj4tlNfYGtzMexC6P4ST6j0RsxrEGd6YjhFP7-W7EerMm2oLQmJi8aTjI0iaeDMQborwep87L_mT3y4GOMCd6JSWzlWSooIOZbJu6sTXzWcuovOEi-nWCjxzSCk6tWJWyRBaWdKsGufSjFeli4W-h_G6CtV5GqFkH1a80gThpwWjQuJccogcfBE4efvUQquZ-iVDl5ifI3y7H_WstxLFcF0zTYRbJdjZuMDrPhvdeaup4JyABZ1vQbUuF-AIGWnIq21maZkuKTeLMInFB-8KN8X6v2Lpt6xG82ODzv6fUD3XAZPxkqv8pzTXsiXAbSaA-tdhEgpwoQ7G9ujvzoG_Frw2JPLwTHepkolG9iaa2XcEMx4vp8duGjACWiRY-Y2vM2jTphWuApkEszIjQI2_Nxcg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106754250631424782296\">Roberto Van Daele</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLfYYkWFZNmxpUlc-D-LSlqPyykpeSYcP5GfB-GMXxO1PMX22JS-ZPbDWVIEMIqscOp7jqLMsV9raErZUOi_zGJu7b7X6WUYgc8yFq7KiczPYBkYSWCfP8mfzpbPkvotxnAq1VRPxo2pNMQ0JZ97fxrQqjSy56-6UHpMdSx-zOXOenzyfQyVJEaX12kqf2i4odfpzj0RzlHdL1F0e73vnfs3RukOJU9rwV_MULofMyMVL6twFq4yKAY0lJc5YZPqSkl4WhYNeld7Ny7zIhZWs7bgh8JoJ7EnIkkXb3doaoWUGkf-Ly7_fIvrAIXenr1TCZvCstkuvjfd7w3nmgBxnswxJci1zkXVqJMOFNe1FntwIkFNXuzBulbgTs9N7KzdvgRRjZw1XJItzfn8HzrCgbZgfYI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110617288332647776043\">Sylvie Besson</a>"
+            ]
+          },
+          {
+            "width": 1520,
+            "height": 2688,
+            "photo_reference": "AV-0GLcYn4yyFLMjFWyUgHto86DAcohMvMhBU1ryZkbvQnVaTEDVLZE01WZOdRAZRWMrgpxEJe-bMvO0F4kbqF6rJzPJJgCABTtkZFdXMdZYCgr4COysGoKb8Hp3Ib7dcLl5otKgE3BkmDnga6N2sYxjHpEoBtEhdXfLQ_QDx0EFG6UeYABnKgN1jDaQ7scbC5pFy9pKnRbSaScXhQXqYWmX0wJA6yj8nzxn-p0LxN5oo4yXYTvWdBw6HoY1kwjmtcDYYa7LuhKpNuiZc6UzqT1w4jYT22D37gWwjchomRgL8ZgjPa32n-BmpdpfkdyFRfU_983MArrIrH7UKV7QjmvgcE0H48nHaHLL_Y9NvodAF0SJXJt4qp4OH5wH6LBgVn9v76dz2PHGKbPYoOzLw75XCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105208777679683899478\">Delphine Guest</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 1836,
+            "photo_reference": "AV-0GLeBk_t4p3_uERNUHWqSUa6Fd-8N4C5WHmRzz7jyYaquFgveEGMqN8ksbrgqsZHu4qf3ahXuUyCQoI1wXX5BdinZaWocXrzw3jQ8EFiTCQDuE7mhlNVEntyEZ8BGESumsEjPqVx6A0SmZQ5fYlD30EZXxyKnJ3DleoKpSe0h_5bH1wCJkGB5hHh-XFR6HxZTexOeE5NlUQ3wiqIu5H8Nz0jN34z2s4ITC6ZciOY9-XZmXfEkVt5udM6sx6UiOdU2WdPnX70s-mqYpG9BCmyvi1m1zMSnGIeT2_BYxXl0M0R3NcxiklfJooHLv4ngVVmuJcApQtXkMDgdik0U6DYLI67ry2hW4MndpDn9eCQUHtSNROJS8XsWzD_RcauY1TsffpbaWp0HHMsXN50inLy7E_R31Ps",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110563247985113891457\">Le Campanella</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5649
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Chez Isabelle.  Une pro . Amabilité , gentillesse , serviable . Comme auparavant à Wattignies.",
+            "language_code": "",
+            "publish_time": "2026-08-20T15:02:41+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "ALAIN",
+              "uri": "https://www.google.com/maps/contrib/115856625561583053110/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUwj4aHspllGDKMoQX0Mu0QG4IOiZ_otM0jXFoPyVH9Yn9sAMsX=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Lieu très convivial nous nous y rendons tous les samedi après avoir fait nos courses",
+            "language_code": "",
+            "publish_time": "2026-05-20T09:56:51+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Thierry FRETIN",
+              "uri": "https://www.google.com/maps/contrib/110249434692016675170/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLOetNjMMMWETrvqnKYnRvSgwz8kMLfCfVdfW5Qg3KDG9ftUA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super endroit pour se poser ! En plus la patronne est cool !",
+            "language_code": "",
+            "publish_time": "2026-02-24T16:12:06+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "YL",
+              "uri": "https://www.google.com/maps/contrib/104206686040636906155/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWdo6aw52LB8MHl0r7I21gWR1rh-_fCekW2IPjk92Ouq4mec4lI=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "Pour moi nouveaux propriétaires agréable sans plus par contre je me suis retrouvé au toilette dans le noir carrément aucun interrupteur dans le toilette des dames a revoir car pour moi sens de l orientation mais il faudrait revoir ce problème ok les patrons merci je reviens bientôt pour constater",
+            "language_code": "",
+            "publish_time": "2025-09-28T14:18:12+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Brigitte 59120",
+              "uri": "https://www.google.com/maps/contrib/117977056619806052573/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI78psF5XEOXomLvoN_A5K9h9HUu8EZb3NlqGOH9i4N5woW-g=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "bien",
+            "language_code": "",
+            "publish_time": "2025-05-10T18:42:19+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "N. A. G.",
+              "uri": "https://www.google.com/maps/contrib/113981370951826847252/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKXqdWY4ZVXHF3m6gS6WAFIa9YvXijAlBtyHlJSow0MF43IO3wY=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 71
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1141,
+        "bo": 103,
+        "front": 1038,
+        "estimated_cost_eur": 3.5250000000000004
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Super endroit pour se poser ! »"
+      },
+      {
+        "string_id": "habitude-locale",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« tous les samedi après avoir fait nos courses »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "La catégorie principale indiquée est « friterie », tandis que la page municipale décrit le lieu comme café et brasserie ; aucune carte ni offre détaillée de friterie n’est fournie.",
+      "Les moyens de paiement indiqués par l’Office de Tourisme sont la carte bancaire et les espèces ; les autres modalités de paiement ou de commande ne sont pas documentées."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« Super endroit pour se poser ! »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.86,
+          "source_url": "https://noyelles-les-seclin.fr/commerces-et-services",
+          "evidence": "« café, tabac, loto, presse locale, brasserie »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_coffee",
+          "value": 1,
+          "confidence": 0.95,
+          "source_url": "https://noyelles-les-seclin.fr/commerces-et-services",
+          "evidence": "« café, tabac, loto, presse locale, brasserie »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": "string_id",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": "confidence",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": "source_url",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": "evidence",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": "string_id",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": "confidence",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": "source_url",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": "evidence",
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Café-brasserie convivial où l’on peut se poser et consommer sur place. Des habitués mentionnent notamment une visite le samedi après les courses. La page de l’Office de Tourisme indique le paiement par carte bancaire et en espèces."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-campanella",
+    "operation": "ADD",
+    "tags": [
+      "spot-pour-se-poser",
+      "habitude-locale"
+    ],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5649,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c776bb1357eddf9658fa5ea77388c390825cdd6f654a909b1c9561e9deec14d0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

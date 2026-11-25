@@ -1,0 +1,94 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:38:58.025170",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 29,
+      "title": "La Reine des Citadelles",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "visiter",
+            "ville"
+          ],
+          "object_string_ids": [
+            "monument"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "a-ne-pas-manquer",
+                "confidence": 0.9,
+                "evidence": "C’est une visite à ne surtout pas manquer !"
+              },
+              {
+                "string_id": "incontournable",
+                "confidence": 0.8,
+                "evidence": "Des expériences incontournables"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/11/thumbs/Theatre-du-Nord-visite-groupe-guidee-Olivier-Duhamel-3-min-1920x960-crop-1699872929.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 29,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 70,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:39:02.870206"
+}

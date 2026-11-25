@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3260,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.84,
+    "evidence": [
+      "La description présente un spectacle humoristique de Kevin Razy.",
+      "Aucune forme explicitement annoncée de stand-up, plateau de comedy club ou one-man-show écrit et mis en scène n'est établie."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La représentation est solo, mais les éléments fournis ne prouvent pas qu'il s'agit d'un one-man-show écrit et mis en scène."
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Superbe planche apéro »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Les gauffres un délice »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« sa planche qui a fait le bonheur de mes invités »"
+      },
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Les gauffres un délice ! »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Superbe planche apéro »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Les gauffres un délice »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "crepes-et-gaufres",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Les gauffres un délice »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Les avis mentionnent des gaufres appréciées et des planches apéro préparées sur commande, notamment pour des invités. Les données fournies ne précisent pas les équipements, l’accessibilité, les modes de paiement ni la consommation sur place."
+  },
+  "meta": {
+    "cache_key": "91ceea2a5cd36ea9137a6a23390a8cf2fece597a4996d2a9ca73d2a048b61295",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

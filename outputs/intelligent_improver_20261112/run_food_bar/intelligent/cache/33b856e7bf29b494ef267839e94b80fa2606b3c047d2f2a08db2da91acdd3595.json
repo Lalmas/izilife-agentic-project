@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "frites",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: friterie; avis : « Super bonne frite !! »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:30 – 14:00 du mardi au dimanche."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:30 – 21:30 du mardi au dimanche."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:30 – 14:00 du mardi au dimanche."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:30 – 21:30 du mardi au dimanche."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Friterie à Fretin, appréciée pour ses frites. Ouverte du mardi au dimanche, le midi et le soir."
+  },
+  "meta": {
+    "cache_key": "33b856e7bf29b494ef267839e94b80fa2606b3c047d2f2a08db2da91acdd3595",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

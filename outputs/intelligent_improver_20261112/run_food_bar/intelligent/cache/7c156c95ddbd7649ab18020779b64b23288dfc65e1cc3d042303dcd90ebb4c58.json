@@ -1,0 +1,104 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Service au top pour les repas sur place. »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« Une bonne adresse pour de bonnes frites » et « Quant aux sandwichs »."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons mangé ce midi à La Bel Frite »"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« La porte extérieure sur la terrasse »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons mangé ce midi »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués le soir, notamment « 18:00 – 21:30 »."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Une bonne adresse pour de bonnes frites ! »"
+        },
+        {
+          "string_id": "salades",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j’aime beaucoup Les salades CÉSAR »"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Leurs sandwichs jambon beurre »"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« baguette cheese burger »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons mangé ce midi »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir indiqués : « 18:00 – 21:30 »."
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale qu’il est difficile de trouver une place de stationnement.",
+      "Les avis rapportent des expériences de service contrastées : certains le jugent impeccable et sympathique, un autre le décrit comme lent et peu agréable.",
+      "Un avis mentionne la porte de la terrasse laissée ouverte malgré le froid."
+    ],
+    "summary": "Friterie proposant des frites, salades César et sandwichs, avec repas sur place et terrasse. Les avis évoquent aussi un cheese burger en baguette, un personnel souvent apprécié et la prise en compte d’une allergie alimentaire d’un enfant."
+  },
+  "meta": {
+    "cache_key": "7c156c95ddbd7649ab18020779b64b23288dfc65e1cc3d042303dcd90ebb4c58",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

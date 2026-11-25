@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Un service en salle top ! »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Une cuisine délicieuse »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« être accueilli et accompagné avec autant de tact et de compétence »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 12:00 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 19:00 – 22:00 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie proposant déjeuner et dîner en semaine, avec service en salle. Les avis disponibles saluent la cuisine et l’accueil."
+  },
+  "meta": {
+    "cache_key": "84454bdb757c239331d68d883e335e0c9eeaae6c2ba068159727095c50a4fc6f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

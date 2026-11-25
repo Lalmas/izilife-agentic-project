@@ -1,0 +1,650 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:18:38",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "don-mario",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "don-mario",
+    "status": "found",
+    "data": {
+      "id": "5766",
+      "name": "Don Mario",
+      "shop_string_id": "don-mario",
+      "unique_id": "e43582a30cf63be3d72a06a4f6542223",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "41",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55021",
+      "principal_cover": "55021",
+      "qr_code": null,
+      "phone_number": "+33320955246",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "13 Place de la République",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0447799",
+      "latitude": "50.5815564",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:48:03",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:48:03",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJa1eU9fXUwkcR90LAXInwIhs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJa1eU9fXUwkcR90LAXInwIhs\",\"rating\":4.2,\"user_rating_count\":312,\"google_maps_uri\":\"https://maps.google.com/?cid=1955389660989506295\",\"fetched_at\":\"2026-11-12T19:18:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":3,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-07T22:39:06+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Minh Nguyen\",\"uri\":\"https://www.google.com/maps/contrib/106417799333002386783/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVv8s46IjV9JH77EWjvaJcL2lvBsY_PEmCHGP3V3pFR6oKTx4WE=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Nous avons très bien mangé, Alex et Victor étaient nos serveurs et nous ont fait passer un très bon moment\",\"language_code\":\"\",\"publish_time\":\"2026-08-31T02:09:22+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Guillaume DIEZ-SOTO\",\"uri\":\"https://www.google.com/maps/contrib/112667429860462720723/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIx4NIwmizMjZk98IBLcgSVDo_S6mF2vKGh3OBl8zeKvPXzlA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Bonne pizza.\\nPas assez cuite, glaire de l’œuf présent.\\nDeux pizzas pour mon appétit.\\nUne seule bière.\\nQue du rosé.\\nPas de dessert.\\nOn est dans le bled ?\",\"language_code\":\"\",\"publish_time\":\"2026-08-19T11:29:50+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"patrick vanaerde\",\"uri\":\"https://www.google.com/maps/contrib/102237557023312727695/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWgoF-SimEdM-cR60q3shEVF3_ECTuJOgGB1s9RftGV1PS9s3Mx=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Pizza de merde il n’y a que de l’huile c horrible ça coûte cher pour rien fuyez\",\"language_code\":\"\",\"publish_time\":\"2026-06-13T09:47:08+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Naruto Uzumaki\",\"uri\":\"https://www.google.com/maps/contrib/106570130898566997392/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXrQg_40E3e7IPn9jEVXFmZBs3n_TmKonJMrBXwP9vfgoaIhNs=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Très bon\",\"language_code\":\"\",\"publish_time\":\"2026-06-04T22:53:14+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Herné Sandrine\",\"uri\":\"https://www.google.com/maps/contrib/100966601123822302914/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJRpu6jZl4-sld-oaakuqxb-K3ae4jihRINqJFyEodmm12rVg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:18:25",
+      "google_reviews_place_id": "ChIJa1eU9fXUwkcR90LAXInwIhs",
+      "source_id": 5766,
+      "scope_type": "SHOP",
+      "scope_ref": "don-mario",
+      "primary_category_ref": "pizzeria",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "don-mario"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55021",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5766_6af39f23a7c45.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4825",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33510",
+            "source_hourly_id": "4825",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33511",
+            "source_hourly_id": "4825",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33512",
+            "source_hourly_id": "4825",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33513",
+            "source_hourly_id": "4825",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33514",
+            "source_hourly_id": "4825",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33515",
+            "source_hourly_id": "4825",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33516",
+            "source_hourly_id": "4825",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "don-mario",
+      "google_place_id": "ChIJa1eU9fXUwkcR90LAXInwIhs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 14:00, 18:00 – 21:30",
+          "mardi: 11:00 – 14:00, 18:00 – 21:30",
+          "mercredi: 11:00 – 14:00, 18:00 – 21:30",
+          "jeudi: 11:00 – 14:00, 18:00 – 21:30",
+          "vendredi: 11:00 – 14:00, 18:00 – 21:30",
+          "samedi: 11:00 – 14:00, 18:00 – 21:30",
+          "dimanche: 18:00 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 1255,
+            "height": 990,
+            "photo_reference": "AV-0GLcuk5fRqi94TRB8qWH1J6dPkLEh5UMd-8FmGbaZHsARRz-CbsCrLk2gM8E4HuEPenZ2ks6sjyjeMpARZ15DpgQUsbGfq14_Bz9NKDoFyw9k1T73l5HhdfL_Se0Sk_eIsFY2hKGA0ChIz74sw-FI2iB4WfW5_kZAp0lI1NT7iyKzn3NB10KRi3Y1xyIgtyH9lvb5-5vk1mB7Z86JQMRleYCcTuOJH8eGomo5tgjEGg4QzkuKyWlShqKqo6mhSEmyzGvv5gLPeYGpJiHcm1FWdnP5oPBQGNQS8YffWoYAzZBGIdeCOWzdIK1WgsjoTIjN3nmkppC0uR6F7xoFpZ8Y4G53OxC4IwiyxZw59MJjeGTCLeOy0Gf_bCwHavekVlU9kEk1fF9DwFYrr2TA00tHfIsaPMpjCLD50JRxj6daLh8XOg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106776323775507855856\">Don Mario</a>"
+            ]
+          },
+          {
+            "width": 827,
+            "height": 1114,
+            "photo_reference": "AV-0GLeSoiwYRCiwDJCatT1e418_tnjeYTr3E0P2ImGqnhQr-LTfp7fAtpNHtEDXgYb_7fv-W-NwD5fDMW61Kk3meZDwa89rerG6PklaMh7u01hKLCLK3EE3ivb2xuC5lXvTcgpy1tBWhpo0UFkAHzL9iSEOIEyYACXjKIpmO6r1FRtzMkCklWSECSdqi8Un0C9KrpPG_hToteK78p8i-jR8hyIPslVEXxsTv-OR2lRgVllcR3rGshnKwvGqHDYEvsGUN05JeLl5l3Hheazs9A1GOb_-EvGJS4xXHtKDVSyvDSjxPGVMqk23tSY-rbZ5MLAUYGck9LUJYjOzG0H71EHI71oQStNEUy_3rd2we6Qbp5LATF8M0WToPTTqJ7KUX3175ByiUw73OPZjM-leZrPkge58jFk4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106776323775507855856\">Don Mario</a>"
+            ]
+          },
+          {
+            "width": 1800,
+            "height": 4000,
+            "photo_reference": "AV-0GLdOhVc6ZWdOTmCjrmZsVI8VB2OEQIu0CACXl8Oi9xPI-kVil1oDi0iU6c3Jrae-75NSp72t2EB-otGQi_xo_hmSTJhlP8RawVU_NcvPZWF6OGdDVBlFMfQZZkRPU6zUQ9XWU9s1eFgpKu7UXGQe3eQDy7FxAfSdyoePPRUJlrQvJMHdyYnHH-9P17Ga9-SXUuLliYVy67eJsBEKudMmsZ8fi4DGivnabG5F_ZASLRA95UCVA6c1Nx5rEFJ292WKlPVgwtFnCsEqZmAIxDFLBYzxUzTACLkhtimd6nEQqYXvSOXpnDPJenhtSFLlBTj0zK3Y4L3oGoEfdZIx2fI3Dz_Ku0EcU53-3EhbEszX9mkhXp0pkWTUdU0YpWEgwQ1-eHsml7wD-NbE6OdhA50_Ksrc-tV-vC21V3eWrUAteejYEw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115856625561583053110\">ALAIN</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLfpNZADllUDw2YtXlCI_LVofFkIefypiIdJ40ce-r-M9vC9klMTEt9q0mjLuayWTyyt_zfFOxBRDCE7jxNBEkiHk3HbGDfBG5iQUyZGsQKXW8mv4W8dBRbKVPgRDDG1Y07v3XoubkVO6TW5omsFVIWe2RR8NWCE8rhi125Csb21heKEUv3jX1yoj-D1jd6qOjGKzbiAZI3pVZMj3psLa2ubK71Y7P9yHuvzmiArWfDlyC__eVwe4s3JxqlWM4HdhBGybDKBL4Levq8wYz8vqtqpQRHFpa91lsRwFokaxZTqmebjSz_0GXZX187JRdZbKedUQcwAuTR5riFfHSmgSkix17YpDUPHKNcLDIU6StDzHS0lL2m03YpInSIfLVourmgwkSz37lPf1FvlmG2VDPU6Iqd153CqXDYPW223HJVUCQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113719545394852881497\">Abdel Aghlal</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLcF62SRiOheN2wlUryBMkX6qcRo5YBg6LKBSqvfh34FmEo_QJkpPwVOXZ_XtkA3BBwTEHsyscbHKV5LyvrA9qOCppPzhBZGQ0hSYlK6Q4cnIChL08s9lNTcBxSojJH4EdrP6GzIlXSL04BytS2uzkAW4Wbg8vuP0WoBQkua52xWjf_sOC0RcFf2bozmI1G2zpfAVKruzNXK7x2TigOVidpi4j8H_hB588KYgWtJeL7sfJjQTgBogbvbmnr4fnRokrWXvUMY34a6lyEsMlWKZSacRo4AJfKpr9oE5b4s733dunw-F6aAd0A-enVPzSDozU_YJfatZeLRc3klqXNdWrdIt3D57ZiSH49PwpPlt2fwDjnssjHhLYUawFIRK9SGC_QbuWQwZK2aBl2pln1ahwFU8zw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108079039684998176702\">Michel Deprez</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfx2KrHqpVjySAY38DADbrRYxEK_Qe96X5JrWabcQqi1cfETH-Wt7dTZfbTxB0btuL70h_29oUZPbMj6rhNpugvTOcW99Y1DTa-2nJQ2kAKuSpUOUBk6WqaG2gxh-UrrQuhDtdzYi1Pg2el4kewuT6B4td0qkzHN1iZW6nanCFZ8A4o7gS75KVTrr1Kogi0qicALVSKEVf_Wpl66vNjG_3hSk_2BjBf55KTJ5OCqlRRrcaSGkvDhy2r0E92JFD6H7J_VLpD1F4mcDAdcGxLsX72UJ-aFz0ngd7UI8j0nEVYdSsmXq1til8S8qTjItt9NgZ8oyMSLC-crmo64PKsp0bRDPYiyF5ABYC6bMm24M7ifrZZiyz6xuOTd_DjSCg1UMfhaoerzbY8Fyto33x6E52kiWie",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117984047408156315242\">Stephane Werbrouck</a>"
+            ]
+          },
+          {
+            "width": 1060,
+            "height": 1715,
+            "photo_reference": "AV-0GLdMS-gVXIqh4kv3km2wdwZOBPB6OgH59qX1p0qSxvO-EQve2Pwm7ei8yLGsQeO3JUElUHbOjlMi4pvmVUu1T-wDf_8uog8V3dK0DzjB5SxG2-FRSqUpZNyTgH6Pt9vPIeafLfePRCJOJDcAukyYFfh-6yIYG9gPe0oQW-qN-N2k_4iLKSvsOxSdFQkFGPdLZR2b2C2SpjtwDO3LyPnmMs5NlMGUlORf28agiuveCMDTJw-kAv9IrNd2XZUgEORr3dXhkcmm7I8kReuoWnkJ3twMrqtQbUzNrT8Q4gO5CPuybVbpSTigyA0DC-RKzMU7-YjtZLqiDD6ti2iAGvdts4KQxfHp0ezPVoTY87lAP0w8eie28sF4WFlr42qj1LwtspN7mrmx4oFolNS9zAdpFOretrizHIaCs_TE6Jb9O_oxWw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106776323775507855856\">Don Mario</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfKRrv7BaXXbg3F2sVrOD8FRhBNwtDT9QYSwONYcSJ9noWi06gLMac63-fGYWiogz-j4wyAm8CMmoNWLSSs4MtgPVv9BoTHhWW3EyWvNfoQ-Vsb3KbrTNqlQvaxxNnwwUPG-lNmezkHNl909bLfJmGYOdL46gryNhpZESXUjBLIvGBjOrhpy34izAEC69H4uDHLSaCYOoCs9UgdoV7afj-_X5IXHVov7qALXU4Sft_IrUhWbrAY-62YaYih1hY88PbnOuGR1Cxn8UAm4wiAx5QZIn35RkpeNSx-jYBdBNX9PrJUgiK5aQ0bt5Ytvb3Dz0GBy6VUdrMrNIyqDJ-oQWn2EV5Bd-ztgqV3FpjU32u8ViY0yPlSFX3-Qd_eNCkm6IZaC66LqRvMwLGvs5j2cciVNZo3rw7kM-2ah1DHefw2",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106776323775507855856\">Don Mario</a>"
+            ]
+          },
+          {
+            "width": 2322,
+            "height": 4128,
+            "photo_reference": "AV-0GLfTooR5K-4_6_q_m2-7uYAp1FhibfeBwcfpd0fakI2VUj0lGGHHu-ioZfTlGZh5lJZ9UnhGozDhg_-mdBRQgrAouDt-oFgZZv0U209JuLRjYOiaD-FlIfwP-njBIENbDSIPAiiceaCpIO1BBjHNEob5M0ncxawKaBkith0qnI84q53_NPVYZYWfeLepfW-D0b4a-EEC6mEGBFTTeogsVk-XAlAnp5RYga_odEh6AnGUpcFD3DVr8WWOn9y5YFGL2hEy2Z4eXvDZmpZP3NDoiIccwm08TePbWRUQHpYVF53WGy4g-inAqc1Gw3MscXLftylT9jU0GJIBhjOh1ZzytKHPmsE28jbpA0sARgKAsY1QQEf-bdPyThRndsxNEHeX0nUiq-Xu09FdXBAeNjhGKTIwZsQXAVk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107727638060622697302\">Teddy Demuyter</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLe5DlHkD_zoNRms1CXggP7DiTfdZTHEqIeZjP625130zbLS2wvHyjQvSWGZAXhmFTwdy0xZkhuwj0Pz6ElSpRbBJVySthygUT24S7PKUV38yeboQYLWloUSJ0yWhi3JWwOhW0WLwigdcLptLo3FsVyndNr12AR9lOrhPxyx4xEjr5EWu8mQCja1pK4pvg8Ot9i4CltiDqGWvwtk4XDkmTgI6P-IZTrnENtfYyADvjJPLFjTjoRqtUaUxTKNtlxmTp4lfKDc_3Uwzvn_o3CyxZKz1ojCq1_msjNwVwCVWDV3p1I7Yl6_lCaA2RHFjEyfqwhhSWU3qcl3zeyjH0O6mZjJDZYUv7JzbRJPGnxKXIVooNnQXuX13EC_bt-sNTH7ixOFq0T-OXqsMmnRH6tWMpcL7Lu2YMCJPtJCjVLmu4Kd",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106776323775507855856\">Don Mario</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5766
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 3,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-07T22:39:06+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Minh Nguyen",
+              "uri": "https://www.google.com/maps/contrib/106417799333002386783/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVv8s46IjV9JH77EWjvaJcL2lvBsY_PEmCHGP3V3pFR6oKTx4WE=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Nous avons très bien mangé, Alex et Victor étaient nos serveurs et nous ont fait passer un très bon moment",
+            "language_code": "",
+            "publish_time": "2026-08-31T02:09:22+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Guillaume DIEZ-SOTO",
+              "uri": "https://www.google.com/maps/contrib/112667429860462720723/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIx4NIwmizMjZk98IBLcgSVDo_S6mF2vKGh3OBl8zeKvPXzlA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Bonne pizza.\nPas assez cuite, glaire de l’œuf présent.\nDeux pizzas pour mon appétit.\nUne seule bière.\nQue du rosé.\nPas de dessert.\nOn est dans le bled ?",
+            "language_code": "",
+            "publish_time": "2026-08-19T11:29:50+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "patrick vanaerde",
+              "uri": "https://www.google.com/maps/contrib/102237557023312727695/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWgoF-SimEdM-cR60q3shEVF3_ECTuJOgGB1s9RftGV1PS9s3Mx=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Pizza de merde il n’y a que de l’huile c horrible ça coûte cher pour rien fuyez",
+            "language_code": "",
+            "publish_time": "2026-06-13T09:47:08+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Naruto Uzumaki",
+              "uri": "https://www.google.com/maps/contrib/106570130898566997392/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXrQg_40E3e7IPn9jEVXFmZBs3n_TmKonJMrBXwP9vfgoaIhNs=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Très bon",
+            "language_code": "",
+            "publish_time": "2026-06-04T22:53:14+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Herné Sandrine",
+              "uri": "https://www.google.com/maps/contrib/100966601123822302914/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJRpu6jZl4-sld-oaakuqxb-K3ae4jihRINqJFyEodmm12rVg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.2,
+        "user_rating_count": 312
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1051,
+        "bo": 13,
+        "front": 1038,
+        "estimated_cost_eur": 1.275
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons très bien mangé »"
+      }
+    ],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne pizza. »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis sont contrastés : certains sont très positifs, tandis que d’autres critiquent la cuisson, la qualité ou le prix."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons très bien mangé » ; « nos serveurs »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« Une seule bière. Que du rosé. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "sell_alcool",
+          "value": 1,
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« Une seule bière. Que du rosé. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:00–14:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:00–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:00–14:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:00–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Pizzeria à Wattignies, ouverte le midi et le soir selon les horaires fournis. Les avis mentionnent des pizzas, un repas sur place avec service et des boissons alcoolisées ; les retours sur la qualité sont mitigés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "don-mario",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "KnowedMeal": [
+        "pizza"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5766,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "4c4e5c4da3364ef390a8040c7e9be1362a4d4eec6181ec569929bbbfa44662bd",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

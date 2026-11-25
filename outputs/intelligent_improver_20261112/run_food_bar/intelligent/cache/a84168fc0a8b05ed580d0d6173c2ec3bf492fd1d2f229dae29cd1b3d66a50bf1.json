@@ -1,0 +1,64 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Café tabac"
+      }
+    ],
+    "editorial": {
+      "KnowedDrink": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Café tabac"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "Sympathique ! Équipe souriante !"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matinee",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 08:00 – 13:30"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 08:00 – 13:30"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 17:00 – 20:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne précisent ni les repas proposés, ni les modalités de consommation ou de commande, ni l’accessibilité, les équipements ou les moyens de paiement."
+    ],
+    "summary": "Café-tabac apprécié pour son accueil et son service. Horaires indiqués en matinée, à midi et en début de soirée certains jours."
+  },
+  "meta": {
+    "cache_key": "a84168fc0a8b05ed580d0d6173c2ec3bf492fd1d2f229dae29cd1b3d66a50bf1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

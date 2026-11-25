@@ -1,0 +1,536 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:33:51",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "bravas-restaurant",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "bravas-restaurant",
+    "status": "found",
+    "data": {
+      "id": "5863",
+      "name": "Bravas Restaurant",
+      "shop_string_id": "bravas-restaurant",
+      "unique_id": "19de5246e15302dc0b8c889a7c285ee8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55119",
+      "principal_cover": "55119",
+      "qr_code": null,
+      "phone_number": "+33685555897",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "33 Rue de Marquillies",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0600121",
+      "latitude": "50.6137459",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:02:09",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:02:09",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJs4ffJXjVwkcRHkbfUokKXVY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5863,
+      "scope_type": "SHOP",
+      "scope_ref": "bravas-restaurant",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "bravas-restaurant"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55119",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5863_6af3a27164cc4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4919",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34168",
+            "source_hourly_id": "4919",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:45",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34169",
+            "source_hourly_id": "4919",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:45",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34170",
+            "source_hourly_id": "4919",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:45",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34171",
+            "source_hourly_id": "4919",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:45",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34172",
+            "source_hourly_id": "4919",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34173",
+            "source_hourly_id": "4919",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:45",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34174",
+            "source_hourly_id": "4919",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "bravas-restaurant",
+      "google_place_id": "ChIJs4ffJXjVwkcRHkbfUokKXVY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:45, 18:30 – 23:45",
+          "mardi: 12:00 – 14:45, 18:30 – 23:45",
+          "mercredi: 12:00 – 14:45, 18:30 – 23:45",
+          "jeudi: 12:00 – 14:45, 18:30 – 23:45",
+          "vendredi: 18:30 – 23:45",
+          "samedi: 12:00 – 14:45, 18:30 – 23:45",
+          "dimanche: 18:30 – 23:45"
+        ],
+        "photos": [
+          {
+            "width": 1179,
+            "height": 664,
+            "photo_reference": "AV-0GLdEQzoSUWF3yDp8vcM_qOzauHSnABJC18x5PkrQpbuyrWI1n3A-dD0aPTshcjSddI8TJ9bwlR4Ai7_lFo0OYm-7sukxB23vnEONZfdPq2y4ULSQ_C29vw-Dhni9JGkbGnRUGyQa8Nxiva7CqfjL2kAsbhq_6GVYtF0v7lH7Pr4W9byqR5GPRCG6e8bvpvRnyg1j7m28RSJnXaLMc9FRGWSza8Pptd61eC3-LuH4aNRHNDxvzttlwO9F_4FxIqMJo48Khr0gzYzKp8_vBYGPgc2Eg053CUyfyaybDqIXxSXZsceT8kCr8HlG1op6swwlZ6tVnFxj-YKlW-bA611yuvEhAZbgMYCTDoKTbAkiz6fh2McO_Kgh4eZQ92AUwc7lMaWijv3anez_SYDgDJLRCT0cyzxh",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105459487013466720057\">Bravas Restaurant</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 1600,
+            "photo_reference": "AV-0GLc1NUbiw3bM6gvpEuZuQOZvqTAy_RUSmWj07bxWmtanbg29OvGzqwF9WYPLB3K-7C6s5LUEFenGOSHnvOFHsEqzGF0Fz8aGUZHu_NOZhEP8LnUQ_uY_rfrHUdNtCW9TAy2eJbIq6AQdBNvADv9nJHV4ByVt6fChywQoxnCeW0OU3xhxdH_FmkVImHfkrV7qLVi5KbPOdTNArbUrPRnXqVbdZ94HIlrS_Olu7PRInXRj5craCXCKw5X9a-w0uBjr7mshnwCPr_0zZOi7sQxHrevIwNqVEfKFSw5qWRPlYJmGbDGJcKRyEX6A0v8eIUAHrK4uCuXY1Rb4erYTZmwUJ8Om8kp_hlyQtXsMx9rDqgz4HG5c3Ux6JmWQoeP38PYr0BUuFqnrLKacHNI2UaTlp2IbNg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105459487013466720057\">Bravas Restaurant</a>"
+            ]
+          },
+          {
+            "width": 2654,
+            "height": 1884,
+            "photo_reference": "AV-0GLcInIZOkP_uAn4NmicRI9fj3-Wo0kOeo5vCQOcqs8kHl6YjROf8k2yQrMuGiJf9mj4ZTeny2v2UfGdwE7Atpa_ooYg50ElKex6gRIZLFlvqY8PpCfS_TpU7kRsoBlFTyKIwYnHVSnXZ55U6jGUpD0Rh3rpQQWF6-Fz6alpwlhh3zIVIBMHrpHjWOr0hEiLqtcGzKQMC0wbuFKeENjaacLXd69ojI2NSreyJbMHoWNd8gUiYBhT_gvu_mTG_wWc5oHyvG2VOJzoW6SY374GUwMhNu7srxv8tG2tzDvjcD5sFo_BtMwyMZX2s8Mm_IED44JVixcPnPl1bLDcRzgqMDXjbscyzgcNGlSDnov68CvirQ-_t8XvnMdbrquMYWf7ZK97rsqaIzsTb-fRwrrUSocfxc-Fa48AWlFCqlfg6kKlyrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114762233452077206056\">Dascalu Constantin</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfvKBZNcHHif72vWW7cElnaSPe52xO6xmNmM7iH03SfDHY8dh-yJSBFg_gpnahWh5FfmHGf1KEPAQzDoMLf38Kb283ZHJhzll1m3UzI7xq8NQgJks8V3X-u9Ns5_BLx6sEuoOuOgCxWQRxtYw6AF8vaStisLR8zf5LnD7uUjndXTgA0YsM1spc2nuMMzJnpXsOB81CHnyqEd_nflkvN0_rOiSshNj0vFryTNgjFHdJ69Ib14J4Ztbf36jYCi5waI5m3u7W7-zzhgOiVVH0KHaKZ51ios83xEYVIVZHUYA9xjEnFvRnh_ryp7CRBTwBoVPHjxthHftN8Adrh6_-sL0t3WHI_B_GP_zxXU5DaLjKNge1fppGKeGJ5lT9BHNxG7nCryLr7tklk687CYigYNZ7mNqDSoZLtbBwVJRZ5VADT",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116176842389699260176\">Stephen Oh</a>"
+            ]
+          },
+          {
+            "width": 2236,
+            "height": 1884,
+            "photo_reference": "AV-0GLevGiCN1PiCCplA0RGTE-AOGfqImjb_NzTDlw09uL_l-3HgqOF8eDymRAIaKFHSnZMZjAerpRPyP4pEqhHCt4luCMqD-Whbrb-vLNfRVcoxDcjdOt1VYUElxmeATG3KuI7-8No9Cd_M7jqz4qUMpGlhCYiRKr8nUF7hx1Dk6jgjif5cM_R_aBW4zEfUAV4wURF0ExqnNQBoNNWqodO9GtZZvRXtu89dgxeD7up9foxSLC_F4vctTXl4vUMP0O1xwvmF6y5kfFSDjkJO_Ch2czphfDQE_wJMKyPizbLSqpY8yp13Ik1mjy4jF4GWlLBtqYTcLN7EU5OjGfqjQY8zxPNpYH6P4l6BfCXxu0DBoBlh8_TPIJueixFFhq8LuXYnEHIH8pXd0kffB6NFlWmX1hMMSQeTf1MmzQlg4kmWcsHfKA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114762233452077206056\">Dascalu Constantin</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeSl9_bwzlmn2VzaO2XEOfefGpmb-baA0A7rkCDloew0VJOJzVBhxCIj2OKv0TaXo85I8vRdyJBv-7n6RSM-5ogmBMvXbHHuuDMYpFrkCOSiverBBWp_kReXI5lYl6J56Ugtgkzbb0KLu98rF8dBLNcCdmzd13EnBHDql_9d4dp7d-6GBSKLd2PKXEH06dqDYWUE7-uDFdpMmP8nGj_8UpfSZWuNsDSeWGPdhAGL3JhvCH7o_EaX9uAWmATsv4g74SwlgeDt6bpiKzgu9wa1p5CCzNdSpzTM3w7WqDMydx7-jZU05eB5wTLlhsqL_t9gQjgTwXtnOSVudhioW9_vOCfTzEWors2hkg3kdV9eG837PUsw6uVIfFM79hYSOE3L5NFOVO4ICa256Ic9XUsA8ROV1n0mrI_lM72CvXdjYSwGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108061466180118846654\">Wan Ying Lim</a>"
+            ]
+          },
+          {
+            "width": 1104,
+            "height": 829,
+            "photo_reference": "AV-0GLd5z5lKzMpCUCpQaTfAkRjr5ue-0a6SxfC-ICXDFL3um1lqwZwhPuNe7hPdfLEbuen52DsrgLmFiFU-eN55zO0bd00a1l6yNEmwmzBW9IKBkhQHA_LhaR85MNJkpARb6vYv2863E-dWkFfNcJZYqxzE3ajr7MA2cyCqsKUZy9ZW5A8OaCft6uPq8N8kY0gy5LtSJYgcRcsmNhfgXo5vCdhBl4O1QgdBpc6mraH6xQmCcsIJ7u4op6tcTZ7-V7kBiHUucylL7RwwRcj7HGMutyf3y4ODvSbMyyLDdA4kobMqwCpcqf-P7TVWKyZ7jSlhLcMpOsmo-TQQHxdH5LtY1X2gi5meSuiBmwLYDSJpqOb29OKSfgVnzGHRFkywbiJTycg6kQVqdMjuPO_T-n-oUXnzgoB9_LZ8hbDgG2QUlBGrSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101808340035020382493\">Cécile Boulanger</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcTfQfKEb7WAFzpuU9nfh2Z2xES11c_BhpdwzelGbcWmeN0LiJkfqFmMj4RWiqOMJB5RvkTCleURGxVc3TbRZzdehYyXOCNw7HURKGN6ptIKS428G-LPY099ZslFPdv7dJ_LbounibY9LoohxW2Pams42cU2fk1_EavjJg8e2heQJHceel6Bmg3sA04wZVeNGFy_3cH1sp37L4fVl3e0ta6rkkIHr2Tnpj_E7CUC7_H5oDK4YmCx7bp_z_zQY_FIYqaZZ2I_iy0tQAb70vlvmXyd5jWkjcyA-YX3zbjDuGUB6l2wHzBrFiUbvC8KkNfnWRKvlkpLqfoPQCrD6L77islQE7w7ItDZYsXJbTIXha8KA0yd2OCDc6veiD99qgwkH-SpB1lIQWIOdgrEadG0U10QZFGPytB_Rn02S_WpYQv",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116176842389699260176\">Stephen Oh</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLfrsFN6dIMbTOEB6kj8l0G5yUf4XQvjjZn3zfblEUfLMrtEibdVMvEFgQgozcJ8R88kJJFxWUjbM3C8naJ0pZCcMvY36YuF82Bgc9kB-kCKxo4A8lmMNWVvn-uJM8OAJTizViLe_XhrLSjnq3_b8H7d8YwCPqfM6Wsp_jUUS8q9ar8OYPQAqxX77IMSBefJ266Q_bRrFZV1C_pcHM8P5Jui-yE0a0r4rnPG5g8wKq-MI4jVLaO4dR4R46-grPxLehuXk2DVDx3N0fi09Eb5FFkAv7wVpVB3oxp1MX96jBvoUdBgzrvXoKE-8UIAObu2UFUoTuY3TFEFW9eruIaICrPebuQSGO_A-J1tRIawjjt0s2yXRt_akoao3y_Nov2wPovA89-jjVjtL293dMZWj8MjpGTDRxCY8xJsOI9qL-No",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104735393530503182355\">Layla Cardoso</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfDbifeBXjR4p5BJbyilU5CEQkvaWDGsskk2eCODEGO2C6X5KvpwLPksT_tfe9tbvmXLx9nFLnSOR3OupsQB4GHTL1dxbqXa5BXDcoT6X6mUXp3RXIA9UpSGpEdnFnDhN_vvzP3GFiq3mhP749KIaTRpM6R5V6gAinrb3AOCtjoQYA2r3-4V-4xs-23V8sB8EgHY1wQCUUxfLJfnYlw_Gnvyh_IqKc7SHOQTG05vXO5cIRbsIgzAq4UVvIp1Paj-YsYrANn5KAc-hSlc3OjB8H161VuX8UKznxis50EWW1RF2e3mU7gUa0les00n69rO73kezsiDTtmC615e7nAslugDKseP_3bZFVLyYJSoRmclXFD1tlUaq78FfviUi1Nar_L9BFvjEVDZpB3tuksL9pxjJvF5HxGeRnF4PKQVOAk3Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115032040420206886247\">Olga Demidova</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5863
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:45"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:45"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur le menu, les régimes alimentaires, l’emporter, l’accessibilité, les équipements, les moyens de paiement ou les modes de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:45"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:45"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Lille, avec des horaires indiquant un service le midi et le soir. Les informations disponibles ne précisent pas le menu ni les services et équipements."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "bravas-restaurant",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5863,
+    "changed": [
+      "ShopMealType:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f70419ad80b1e5b9b962b86939147c898075baf5d977ea29f07193ff1acdd42c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

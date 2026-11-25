@@ -1,0 +1,35 @@
+{
+  "environment": "prod",
+  "mode": "apply",
+  "started_at": "2026-11-12T08:15:55.747587",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 226,
+      "title": "6:am Run Club Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.meetup.com/6amrunclublille/",
+      "validation_blockers": [
+        "activite_collective_validation_manuelle"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "needs_review",
+      "application": {
+        "success": true,
+        "tmp_id": 226,
+        "blockers": [
+          "activite_collective_validation_manuelle"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "activite_collective_validation_manuelle"
+          ]
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-12T08:15:55.955432"
+}

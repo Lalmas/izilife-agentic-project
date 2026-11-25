@@ -225,10 +225,10 @@ def _add_cf(ws, rng, col, colors):
 
 PRIO_COLS = [
     "string_id", "type", "ferme_definitivement", "is_active", "listable",
-    "closed_state_ref", "is_new_in_city", "opening_date", "primary_category_ref",
+    "closed_state_ref", "is_new_in_city", "opening_date", "city_ref", "primary_category_ref",
     "category_refs", "other_category_refs", "other_categories_mode", "notes", "statut", "last_result",
 ]
-PRIO_WIDTHS = [42, 12, 22, 12, 12, 25, 18, 16, 30, 48, 42, 25, 50, 14, 60]
+PRIO_WIDTHS = [42, 12, 22, 12, 12, 25, 18, 16, 24, 30, 48, 42, 25, 50, 14, 60]
 
 
 def create_ameliorateur(zone: str):
@@ -358,7 +358,7 @@ def read_prioritaires(zone: str, env: dict) -> list[dict]:
         payload = {"scope_type": entity_type, "scope_ref": string_id}
         manual_fields = (
             "is_active", "listable", "closed_state_ref", "is_new_in_city", "opening_date",
-            "primary_category_ref", "category_refs", "other_category_refs", "other_categories_mode",
+            "city_ref", "primary_category_ref", "category_refs", "other_category_refs", "other_categories_mode",
         )
         for field in manual_fields:
             value = data.get(field, "")
@@ -643,23 +643,20 @@ def enrich_one(lieu: dict, page, env: dict, dry_run: bool, stats: dict):
     website= lieu.get("website","") or ""
     score  = lieu.get("completion_score", 0)
     city_id= lieu.get("city_id", 0)
+    scope_ref = lieu.get("string_id", "")
 
     log(f"\n  [{etype}#{eid}] {name} (score={score})")
 
-    # ── Step 1 : S'assurer qu'on a google_place_id ────────────────────
-    if not gid:
-        if dry_run:
-            log("    [DRY RUN] Pas de google_place_id — n'appelle pas agentImproveFromGoogle")
+    # ── Step 1 : cache Google existant, puis avis sous quota ─────────
+    google_context = {}
+    if scope_ref and not dry_run:
+        google_context = izilife_post("/scraper/agentPrepareGoogleEnrichment", {
+            "scope_type": etype, "scope_ref": scope_ref, "include_reviews": True,
+        }, env) or {}
+        if google_context.get("success"):
+            log(f"    → Cache Google lu; avis={google_context.get('reviews',{}).get('status','unknown')}")
         else:
-            log("    → Pas de google_place_id — appel agentImproveFromGoogle")
-            resp = izilife_post("/scraper/agentImproveFromGoogle",
-                                {"entity_type": etype, "entity_id": eid}, env)
-            if resp and resp.get("success"):
-                gid = resp.get("google_place_id","")
-                lieu["google_place_json"] = None  # sera rechargé
-                log(f"    → google_place_id obtenu : {gid}")
-            else:
-                log("    ⚠️  Impossible d'obtenir google_place_id")
+            log(f"    ⚠️  Préparation Google indisponible: {google_context.get('error','erreur inconnue')}")
 
     # ── Step 2 : Collecter le texte depuis toutes les sources ──────────
     content_parts = []
@@ -674,16 +671,34 @@ def enrich_one(lieu: dict, page, env: dict, dry_run: bool, stats: dict):
                   "serves_beer","serves_wine","outdoor_seating","dine_in"]}
         content_parts.append(f"=== GOOGLE PLACES CACHE ===\n{_json.dumps(brief, ensure_ascii=False)[:3000]}")
 
-    # Playwright (si dispo)
+    # Playwright (si dispo) intervient après le JSON stocké et avant tout
+    # appel Google payant/de recherche de dernier recours.
+    playwright_content_found = False
     if page:
         # Google Maps
-        gm = scrape_google_maps(page, name)
-        if gm: content_parts.append(gm); sleep_rnd(2,3)
+        needs_playwright = google_context.get("needs_playwright", {}) if google_context.get("success") else {}
+        if not google_context.get("success") or any(needs_playwright.values()):
+            gm = scrape_google_maps(page, name)
+            if gm: content_parts.append(gm); playwright_content_found = True; sleep_rnd(2,3)
+        else:
+            log("    → Horaires et photo déjà résolus depuis le JSON Google stocké")
 
         # Site web
         if website:
             sw = scrape_website(page, website)
-            if sw: content_parts.append(sw); sleep_rnd(1,2)
+            if sw: content_parts.append(sw); playwright_content_found = True; sleep_rnd(1,2)
+
+    # Dernier recours seulement : aucune identité Google et aucune donnée
+    # exploitable trouvée dans le cache ou par Playwright.
+    if not cached and not playwright_content_found and not dry_run:
+        log("    → Cache et Playwright vides — appel Google de dernier recours")
+        resp = izilife_post("/scraper/agentImproveFromGoogle",
+                            {"entity_type": etype, "entity_id": eid}, env)
+        if resp and resp.get("success"):
+            gid = resp.get("google_place_id", "")
+            log(f"    → google_place_id obtenu : {gid}")
+        else:
+            log("    ⚠️  Impossible d'obtenir google_place_id")
 
     full_content = "\n\n".join(filter(None, content_parts))
     if not full_content.strip():
@@ -741,11 +756,15 @@ def main():
     ap.add_argument("--score-max",    type=int, default=60)
     ap.add_argument("--type",         choices=["PLACE","SHOP",""], default="")
     ap.add_argument("--dry-run",      action="store_true")
+    ap.add_argument("--allow-ai",     action="store_true", help="Autorise explicitement l'analyse IA payante")
     ap.add_argument("--priority-only",action="store_true")
     ap.add_argument("--init",         action="store_true", help="Créer ameliorateur.xlsx")
     ap.add_argument("--upgrade-workbook", action="store_true", help="Sauvegarder puis ajouter les colonnes manquantes")
     ap.add_argument("--purge",        action="store_true", help="Déplacer les done vers logs/WXX/")
     args = ap.parse_args()
+
+    if not args.allow_ai and not (args.init or args.upgrade_workbook or args.purge):
+        ap.error("Analyse IA bloquée par défaut: ajouter --allow-ai explicitement.")
     set_current_env(args.env)
 
     if args.init:
@@ -808,7 +827,8 @@ def main():
     elif not HAS_PLAYWRIGHT:
         for lieu in lieux:
             enrich_one(lieu, None, env, dry_run, stats)
-            if lieu in priority: mark_prioritaire_done(lieu, "done" if not stats["errors"] else "error")
+            if lieu in priority and not dry_run:
+                mark_prioritaire_done(lieu, "done" if not stats["errors"] else "error")
             sleep_rnd(*DELAY)
     else:
         with sync_playwright() as p:
@@ -821,7 +841,7 @@ def main():
             for lieu in lieux:
                 err_before = stats["errors"]
                 enrich_one(lieu, page, env, dry_run, stats)
-                if lieu in priority:
+                if lieu in priority and not dry_run:
                     mark_prioritaire_done(lieu, "done" if stats["errors"]==err_before else "error")
                 sleep_rnd(*DELAY)
             browser.close()

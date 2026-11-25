@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:12:44",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-bonne-biere-bb",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-bonne-biere-bb",
+    "status": "found",
+    "data": {
+      "id": "5740",
+      "name": "Brasserie Bonne Biere - BB",
+      "shop_string_id": "brasserie-bonne-biere-bb",
+      "unique_id": "629476dd99ca10af16ffcdbd2d547c62",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54997",
+      "principal_cover": "54997",
+      "qr_code": null,
+      "phone_number": "+33783242676",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "36ter Rue Emile Zola",
+      "additional_address": null,
+      "zip_code": "59195",
+      "city_id": "360",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.4506092",
+      "latitude": "50.3497619",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:43:35",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:43:35",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJW-tiYabrwkcRP1d5bpKQSUo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5740,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-bonne-biere-bb",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "herin",
+      "string_id": "brasserie-bonne-biere-bb"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54997",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5740_6af39e1731441.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4798",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33321",
+            "source_hourly_id": "4798",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33322",
+            "source_hourly_id": "4798",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33323",
+            "source_hourly_id": "4798",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33324",
+            "source_hourly_id": "4798",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33325",
+            "source_hourly_id": "4798",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33326",
+            "source_hourly_id": "4798",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33327",
+            "source_hourly_id": "4798",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-bonne-biere-bb",
+      "google_place_id": "ChIJW-tiYabrwkcRP1d5bpKQSUo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: Fermé",
+          "jeudi: 16:00 – 21:00",
+          "vendredi: 16:00 – 22:00",
+          "samedi: 16:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdOzRYrKxsBWJk-fej-oKFZHeVoWeV6dezNBSR2gkS1yFE0ZAfp8RkRwHWAHhE0qeItURlyKMhvNKSlN297fqNIRRXq94KxwfIAJTR28VAiPrUiRY-sOzBiW0J4jnI1sEvSWYMtND8JoMtuXdDyL34QMLAwrMbM45R0LVNnTEeFoh8byrqXT_sgR8fcbaJhDA3h8XBVHtvSYqjP0073DV6igw1o0O3TJyaF5z6ir3YTSzJLXQJ1WFwuuNBaAZB504VtHsj17S_GqXye8reAOwWxOWIJ6fLBPde016CZUZ9THSFXlxjyeGYpt7WfnhnRIKZICamtYAAFjCDjchbmWQDr_f7RQDHArfYgGTV6V8G3VxKxlvqUMlUswbeyKs4a6jCgUNX8JuycZxknw-5DGRP5yA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104144576683745565810\">Brasserie Bonne Biere - BB</a>"
+            ]
+          },
+          {
+            "width": 1983,
+            "height": 3524,
+            "photo_reference": "AV-0GLdq9NUSguFQZRJwqM84B65U4Sl3Zii98Z9TTtGQthLIHr3xHkYHYVa9pGECkniK51BCGzquKyeIsAtQIalW0ytHWwQcIcadxQbVhFsI3ElF4CMZNvRPv6quXm43ptDCRs8QY6a_LghPCRXJkh52DLyblnhq0H_WXAA5JXrZveq7LHAAJUT1GQXAS5EM5uNmHoGMYmxQOPhm9httk08jDy8neQpdoWT68jQNRK2j-V_bJngGKyDeYva5AHbE5gVqJ8_O2oxa2AV4jfZjZpoxtyDRCTmfjbaujl0euYIjStjzYKpjDAHrNSu0x2YEVir8hogWJrwJn4mAKHGs1c1abYoR2ORvlGxdarJ4AZC2tv4O8wZ7SQRFRhK6zV1Li230d4BNKNgj1cS1Dy5CqGmJcL70ZUNfdB4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100043332164345812759\">vince Xmen</a>"
+            ]
+          },
+          {
+            "width": 1675,
+            "height": 1026,
+            "photo_reference": "AV-0GLcMVTJwIdyV5EhPPxe1kVvcDS4s1Ur8VA6Stlxg8XMbb7r7U6Me6QE-lB1Twc_9zvZL2BKS8OB6sJC4m5LVHvKjtXdGGfi22idR4lB44V3_w4FTL0qyp-d5pmCMGkY30uHELyCcnSGZ12R7v6atdefdKeg10jGGI7yTd6NeO4SNAKWAiuuvjKcwi4TWEv9Wyhdgh6YoFNM5wtA1T-Eh4QPqBPS-ukVb0X3yuos3UD82qxYNnvAnFLQ0NHgtuFmzlsY4iJWUXAxh0WxN3vMtMxRf-gG5eLM3Np_l2dBOdvndZyE9x6zYnVpHNhKnb-6qPii12zQrLwSP00LF6lzUvk3-a1nctHSsOlOS2eNrBgEADhG5hI5wKWQC3Cswi_F9CX8jSPt5zDjShwVi2pF3ZfzWiXM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104144576683745565810\">Brasserie Bonne Biere - BB</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfAFfwKv77bzr2zKyQfAA3XHOBjsS9eo6r059fgHZdFZYO-tYcx8ma-_fzg6bzNSOo9lQ4V-Muq0AWEC5-reCGaNumIrSbfbgW67oeekTOwPBGgSFvLL6UWulWOT6avVQjG03f9GFlU3MavWg47MEBJ_mFr7TNvzibikWJdjkJqlLHFQQWrrLt3x5VVrG4B9aOvgOEG_0ttpUJU8gFTfHuO1_pr6nyqnWupzH0FtxP5J13GvyrnTshZQk38njIr9K3bQj9KR6bDlDMN8moOL1J3Z7tfw9CT-bmEMoELyC1deQ62IaP2m3c0QgUJEyMofpXgYCKQl8SVMxK5TF9RHYCPRD7FgnHo9hX_kQye89dhgOczY-OcZX_J1URYicJfIU6Bc-Q_idFgB0i2G_FDsaV5Gimds2o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113623599544398668705\">Sebastien Fleury</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLdK638qzKYx5czJPeuVQ97JhUCjOq7bgrudIQGGQwCc6hCzUi5l74bfjl5Ibyn9zhEdnTnhXkzJ4Y88BRMPa3vpAIX5b7Z2djpZm0PL70TkqRN5GyjDmkSIEqG2RTXdA0SRav0DBHvPu4Ccs6fBH5hTWoPR8JsUMU3GCQ5lnP5h89RxSiBwChpqplIYI3b8wEGgY16Ssk5MQrjw1yxBtX7bu70C_OKxEGtHx-V3rnKzL9nbqhuaw3jHbLitbY-9R08rnv_yVukByAEYv3vkZyLlMEgxWLVh5p28YznAXfHtHzf9rWO2lGF54UADfU69Hu3rrvlw587TIxW6baNT9vL2De353F2DcKYTbbvrLBJMfHZIhllEXpUFDdnLpxA4dKnkan8zzrHo6eVf3qxPhGiX9D8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117111682766196161357\">Florence LEPETIT</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdhYmrm_8HsNmbZinlhrvIBNto3WJm5wenAz1gr65hDviH_eYysO1x2__LSQg85ZzZQxgB4imKrm3bPHsuP3NKnPsDDhAcqZoL1_ckhx3-9qc9sD4TSABzxoR7Yx2zO02ac_C-3poN8bOYh90S2eajOhhN2y8kiu3NWWoQDd-gZYjn5t7eDju-nH9eWZ-ow7Q12M97fgzQlaq5GV0eSVNFBVbtUhidNI8WBvTWXYBtJoNkxLKuvKh41FPvtjWqpJdl8yUvEfeoPMrMa07hicvrc9dva5S5F7mQAF5ZKrwu88I8ljH56mva7qsFMGAQjYc-GQ-4YaAK-p7skKu8ZLSg94Y1uHjAHjuGSGLyS3YZd4oCQC2YiZ-XJ2BycNKtBaowuROBL8qQI-lq_AklGG8-J5TCBjsoSU8gF5v5Wi7401A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102440882771396607530\">Piotr Cukierski</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLcA-QIFyj7qV5jw_pQZpIOI7w-4dTSlVlSpAU8LzIYglryDP-7ZaafkcVV2MBAsd7fZ0_bEbi6HcF6RxncIxnjQmHNMbuZrqxod6ItwV3vLMszNpGY9XLQuWKsiVyEFdkF6KU19RcNRPmsQS4e3xM57xZ8uoBlGnA-OnKyfSWAffw6aGi_-iRWdlgoiJLWvla5cI0LjyHJkE1ep3hhRy3SJY18FEWJq6WxezRvT_xdxup5rfe_y7RF_KQuTJwB5bfgOR5a5lu3oemMuJes4VDypfFNfq4rGBKLR9abctlgmrPttPIeRd_u_-Bom4OBQM6V7kcYnMeeMkQUvRw6KfJLmEQbB2qv7C7Fd5ISKZOOjtZdOBsYZdXlkP3Q_i3BX-E8QKY3lZ7hdScj9JMbLy_QiabiEGAdKpBYcKeE1Ysu3Rw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110111359304368727682\">Fabrice Leroy</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLe2WuRY2o3hHI2ehi2C1vueBwC4pUApaiMz2dSpmdm5UyDWc1xO-cm3L6lU9jCb0RctFINcBLVmUCl4u9boNnlVlnIflvqtgZB2fJ7rJTsVkF39Xi-EJOpycQKMHTyuLZNtGKU6_tKQZWhBBqDCc0NFQN-nhu253izs2KOZdmni-AF1NdKiP98klTa7nZSY4_MPuq7JyKihQWxkzMfB1ckCsK1Z-gYs-dH1FKFIUN_w2JX_GLKpDUeJ9koAxzNHWFjb19DxNNu6Yj3DncKSBJcCkDeaFou-xloJk7ydA78qzRWOAXKR9wynqweXA2i1U5cZXfFOR8rsUtYlKl9k_RqNb_fqr3Y5cqAZ7rBGvX5m3Laqg5-dW58iL2nz3SadWTRs840ztIQn5JpSHhqe7HN1cHcpNP57_LQAjNDySA0I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102900037100869893734\">Frédéric B.</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfSJJGO-wWDFCGyo6uLW6vHvdJII8h4IuUkifgRd7_U86A6Qa1KS0reRW9PDn3hLzKr3tDcUZq-5MoqtoTp0TEhK8EAC4giF4kXyHqsuW6D0KINg17T7eSE5Y2RdSQY7OgebHNRD_W69Q3mrmF1LGbo2sYOOTGpJtMDnzxOgwsssSFFCtvVxkmYgtLmwxO0eSV8Nd2RIxVDmAzDNPSN2WO2hPWTrbydZ2VjTZ7MgIqU0kkFVpoVVRGDHxnOKAmOZSxz7I3C4sobWEgnzO3UlmBD6bDNY-E_a8RrPh4ehFBiAFi0DTJCWdNtD5x4hYYrC_qtOITpgHwhe2DtRd6jdI74S8UvfBWvA-hmUGUkhzcAW94NxqJv1Gnnp4QZP1nBc1nUSVdxA3_bFCiNdpBJfcM9wnE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104144576683745565810\">Brasserie Bonne Biere - BB</a>"
+            ]
+          },
+          {
+            "width": 3472,
+            "height": 4640,
+            "photo_reference": "AV-0GLduoD02w3fSgHQF1_AGDPQMbnNBXkwlZxjumqD4x00czb0aIP6ivIBIbg_FrCLbsVqJI7p7_j1MrsQd8s3k6nGTGXLBb-Nt06GqcwNtr8e-8GWxwS5i8-tz3HVV-HzcZBQXg5fC1K_8mDpvSmkLHC1ykqzVbBpdVBdXOdjcKsE8yWNaokfHrRt3a7kWxcI_IQ0q00SM2mjPbrdmrZSVDEcdtYwudUhB3En_UpYt6Gk8LxrRY-hSWFKj2n02ZScVv8q7tvICQYZ1-y5TjMikCfuGKCUEI4kyWuIhiq3fChCjROYh2plJURBDGLUJxmADM4ldFjJuVuEpinJgxZdhTMoM1XjZWXTmx8y9tJFoo9xVIa_HV5sx7hjlQ_UvNMGBOrN4EDaNJieBOrAPCg5VySnwnt0Ca_g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100249442174999651629\">Céline Fache - Hendrickx</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5740
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les informations disponibles ne permettent pas d’établir de manière fiable les services, l’offre, l’ambiance ou les équipements du lieu."
+    ],
+    "rejected": [],
+    "summary": "Brasserie Bonne Biere - BB, située au 36ter Rue Emile Zola à Hérin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-bonne-biere-bb",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5740,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e2cb6bfc689e30dd2e3304442823d0e7ffac2cca93c12eab7facfeab5295f59b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

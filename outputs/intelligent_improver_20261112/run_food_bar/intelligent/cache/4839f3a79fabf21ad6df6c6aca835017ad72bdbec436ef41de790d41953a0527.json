@@ -1,0 +1,79 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« restaurant de gastronomie tunisienne »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.73,
+        "source_url": "izilife://current",
+        "evidence": "« Excelente cuisine, tres bien servi. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« restaurant de gastronomie tunisienne »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« l’accueil est spontané, naturel et très agréable »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« ouvert le dimanche midi »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "tunisienne",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« gastronomie tunisienne »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Le couscous « Sidi Bou » est succulent »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« ouvert le dimanche midi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant de gastronomie tunisienne à Seclin, apprécié pour son couscous et son accueil agréable. Ouvert le dimanche midi."
+  },
+  "meta": {
+    "cache_key": "4839f3a79fabf21ad6df6c6aca835017ad72bdbec436ef41de790d41953a0527",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

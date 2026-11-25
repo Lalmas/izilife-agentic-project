@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "replayed": false,
+  "journal_id": 478,
+  "result": {
+    "created": true,
+    "copied": {
+      "identity_fields": [],
+      "media": 0
+    },
+    "repointed": {
+      "LocationEAPUseForEquipment": 0,
+      "children": 0,
+      "ElementExternalMedia": 0,
+      "ElementNewsPost": 0,
+      "ExternalPromo": 0
+    },
+    "excluded": [
+      {
+        "table": "PlaceCharactTag",
+        "column": "place_id",
+        "count": 2,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 2,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "source_archived": true,
+    "destination_id": 53,
+    "destination_activated": true
+  }
+}

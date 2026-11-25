@@ -1,0 +1,109 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« bonne ambiance » ; « Soirée dansante top »"
+      },
+      {
+        "string_id": "bien-pour-danser",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« chanson sympa pour danser 80 90 2000 »"
+      },
+      {
+        "string_id": "lieu-anime",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« soirée dansante » ; « dj »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« nous y avons bien mangé »"
+      },
+      {
+        "string_id": "parfait-week-end",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« soirée de samedi »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon repas ! »"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Au niveau du dj bonne sélection »"
+      },
+      {
+        "field": "can_danse",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Soirée dansante top »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« bonne ambiance repas bon service très sympa »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 12:00 – 14:30 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 19:00 – 22:30 »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« 12:00 – 14:30 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« 19:00 – 22:30 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis partagés fournis incluent un retour négatif sur la cuisine et la disponibilité des desserts : « la cuisine est plutôt décevante » ; « vous vous retrouvez avec les restes ». "
+    ],
+    "summary": "Brasserie proposant des repas le midi et le soir, avec des soirées dansantes animées par un DJ. Les avis mentionnent une bonne ambiance et un service sympathique, mais aussi une critique de la cuisine et des desserts."
+  },
+  "meta": {
+    "cache_key": "aff4b8ba1090ff7965687c6e1245ffc674c10003b79cab3585c888bf6cbd4342",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

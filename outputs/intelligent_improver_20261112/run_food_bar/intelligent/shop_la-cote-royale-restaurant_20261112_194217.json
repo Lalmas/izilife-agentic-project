@@ -1,0 +1,618 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:42:17",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cote-royale-restaurant",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-cote-royale-restaurant",
+    "status": "found",
+    "data": {
+      "id": "5628",
+      "name": "La Cote Royale Restaurant",
+      "shop_string_id": "la-cote-royale-restaurant",
+      "unique_id": "fc32171b29d52707b7a9e290dea0d7fd",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54887",
+      "principal_cover": "54887",
+      "qr_code": null,
+      "phone_number": "+33320072742",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "329 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "39",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9523472",
+      "latitude": "50.6071365",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:29:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:29:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJAY97vvgq3UcRuPh98gTsfUE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJAY97vvgq3UcRuPh98gTsfUE\",\"rating\":4.4,\"user_rating_count\":485,\"google_maps_uri\":\"https://maps.google.com/?cid=4719187490546514104\",\"fetched_at\":\"2026-11-12T19:42:07+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T05:11:42+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Manu B.\",\"uri\":\"https://www.google.com/maps/contrib/114315618776686652121/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKGL6KxGqxgcq-38HPCu0C1MdQpt1VbNA-ft3OzxKTn6v0Atw=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Première fois pour nous et nous avons été très bien accueillis et une très belle ambiance et un super repas  👍.\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T15:30:37+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Aloisia Legrain\",\"uri\":\"https://www.google.com/maps/contrib/107014944562643052875/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLlWyP7yOredzbFntg4v4aKgSplaU4np-cngI7_lsbTRhwaOw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours un plaisir d'y aller.\\nSuper équipe , patron vraiment génial.\\nUne super adresse\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T16:58:20+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"baba baba\",\"uri\":\"https://www.google.com/maps/contrib/109314786743279995991/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW92NjzROw1_DRXdeWiFGRtQnIWhrIxzYd096lqp_LyuoO4Odo9=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"J'ai été bien reçu...c'est surtout la décoration qui laisse à désiré.\\nL'ambiance et en fonction de la clientèle\",\"language_code\":\"\",\"publish_time\":\"2026-10-25T06:43:07+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Joel Cappoen\",\"uri\":\"https://www.google.com/maps/contrib/114859801563801485584/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK7a9Y_j6McLm8sb092K8MZ0etatPM6gcfcdtdc2DepV4Fn1A=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"On a super bien mangé. Du plat principal au dessert 🍨.\",\"language_code\":\"\",\"publish_time\":\"2026-10-24T21:12:17+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Nicolas DEKIMPE\",\"uri\":\"https://www.google.com/maps/contrib/103200952420918798475/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKoYkghLB9RdO08W5oWY7rQ3Lljn06TKIKB9gc-gUVlKf7yKw=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:42:07",
+      "google_reviews_place_id": "ChIJAY97vvgq3UcRuPh98gTsfUE",
+      "source_id": 5628,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cote-royale-restaurant",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "hallennes-lez-haubourdin",
+      "string_id": "la-cote-royale-restaurant"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54887",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5628_6af39ab27aad5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4689",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32558",
+            "source_hourly_id": "4689",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32559",
+            "source_hourly_id": "4689",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32560",
+            "source_hourly_id": "4689",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32561",
+            "source_hourly_id": "4689",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32562",
+            "source_hourly_id": "4689",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32563",
+            "source_hourly_id": "4689",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32564",
+            "source_hourly_id": "4689",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cote-royale-restaurant",
+      "google_place_id": "ChIJAY97vvgq3UcRuPh98gTsfUE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 14:30, 18:00 – 22:30",
+          "mardi: 06:30 – 14:30, 18:30 – 22:30",
+          "mercredi: 06:30 – 14:30, 18:30 – 22:30",
+          "jeudi: 06:30 – 14:30, 18:30 – 22:30",
+          "vendredi: 06:30 – 14:30, 18:30 – 22:30",
+          "samedi: 18:30 – 23:00",
+          "dimanche: 11:30 – 16:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 1960,
+            "photo_reference": "AV-0GLd_30z7nKTa1tu-s5Ig18zZ1UiyItHJewEV3ZDNAAqdmTKODZvlIhKSy-cLzPin86fD5gk1JzXd4waaXJp58Xrm-n8CZbbWWDMUltc4fOJ6CXf_lwzsip7sbIhtfNtDW1lA0IxaGQptXqTFWAD6Q_OoIAcSjYrehHUV9D6-xHJYgEP8XiIVQkLTZDmeznHIs4qYtD1P66PlbYoNAylgn4XnoTVlchI7DAW-FGe4zlR03lfMu6SRInNihzSBrrzm0tQVzSWtu03zfCLr6Ol_oaI0d-kweed2Yue35QgmL-TnnBbg7gBhvcten2yR5fbm_H5vELpEh3hQ3j5bwdVmMJFxrtJjrBmGx3vKlVHRfQfa5tPMKt6br4DRNdX-BBgbs1qU1Nqli4w59OrWU5j-uHq3Uw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108236583161458928830\">Joel Schoug</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLeo7QQkoPnyxCJLcUyXpfPMcqOi3mQO6Jurdpx7RXXabHPw6E86xkcJAnqf9nXvVMP6NG5IWUImr_gDbvMO-2nVNK3vAykAqS03HJKjuRsYk-o0fxyWYDPtDiLKbigba2ND-cazldgz5i-Gak7ropHx39vMgNUjOTkd0aQDyWDeqnUDLXjSxWDbH4EtNh1S0B6TwRpaOPSdqv-fPxWsGQfeKOTzAat2WE1Y0fIuXZzWC8wHyvptBnHYGffnFnT6rt8nJdEPuA_Bkwc7GSXZ2gGpUfbnJ53rFsDExGsTSqowUDxu2m5X45whL9nkHb4Wjl5VSbEJsUNv5Dsg0Q-R4JgPnwA61HHkk93xhIDYQz-xoud71p9fvab8XHF7HhBV309-r2_xpNbXuuA0b_zLFqwQaf3ihVRCfD3CdUK_iDf9Qw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103200952420918798475\">Nicolas DEKIMPE</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLdaaj6YkTP7YBuFpGNQyDG4xnb6BaUZe2QYN2D8MdxW9Urm_JFw0NnDftULbvq9pIwcyX5BSAWqTIOIusQh6OGyVXv313jM21InCSNOJr_COJwJOnPvGVqNQg3tPPHqWUPsMa4zolMwgX6PRmZUJCXhSBfjWROZWwSoSah0lV-97e9LDnDxeiFMErydAf0J0KvAoziB8E8Y2BuYu-UslMNeTNRwcILh6iUj-CNztnL2MZgK0imQbBouX8aLgpWQEKtxzLh693xHZUsPn32xUvvkXyM7ifwcQQajgBPYIz36NSmQmmU0sp8u5X1Srmgia1H0aJ-LTJOGKRBjyVOCed1vKmzNMc2tyKCHFlOWbbpx5UfIa_wKcd1Vq5KmLLFSY8Z4ATksltAk1V8tXxrLs4_ih_gjHKWy6di6fTwgoiBA1g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107288044191725851599\">Laetitia ISART</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfuI9HsGBLTXjclcQNMrGEDbGcF6LChE5KUavDmNI7nAel__rJHcQ2IB5j0ZrR7yy2fr3ZmtEm6l8uFaGIww-gZ7lDmiWF07F0LzE4PyLuSdONAAd3TvW8CkM1RJsOesdra_gLAw9RE-i7E7T-Rrl_nTPA61qOB7kgvxmyg9ff1zapl9f6t0wdHdtFW0-MSwrE_WhRsvC7ilFlkZ25l7BPIuBdlGaH57SoME9g5L1cn3Dg9GKGW7y2_z6bT6a9UcKw7EgtDwAgsEsCARn1QsDHu0Z7kXslK5FEr6ZeLoO3N4c4awd68UWUSBSky7obb1MNeSzKOGop3OyC0Ub486yw8-JYcwLntPWlyjVCE4TNwPYVbHmVfNU9-NASMXSBaMqc-4iccagMjIv3Db6nvRhERnElD",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105232628694633097374\">jean-marc DUFOUR</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLeM3R8R9SNOXaHmlt3mIcI3d_QyhN8dbzCkMTW_7QrfLPdgDiWcSMCqhbfDADBrMnK6LO_PBMauvValF50S9ZBUZ_b4mqObjKTmV2bflp5YHeRrrvOETrWCytSYVdXP7fs_LS7UOmj1QU4uJsOLkL_va-uH8Xqd4X_uJpTTbblzIhY0O1p8nPc69zSDgMHnMoLf3iS--o05GHQRhYB9F09oCZf0GJ5AlHbydXW__TmJ9NgggrySlfOOqB1maKD0dbb6KE133UHKvUq-uut0ZnyGWy6mR0-kekojOcb1Dzy0Fz0I1gbLfk2cL0__AsqhkITy2wdq11hxFZ4bVLkkLzM7pzuMguoWfKYyAg2pT6fU8MaYQsReRWHLYFU21QtV6GtbkWToulsR_cqBbZB3O9TJaUR1JVI8RwkfBHtgASZ2jQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116500412450949881822\">Fabrice GUILBAUD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLf5i5gd0bgLeASyKkcFoKA_vNv7oVdXsGQWmPS0h8MXMBkUorDT13iLxlKJgOBYPbTeX5Rk7naWfmSPpdXG9zImG1NaWIoSoQWzNbaaPXRlJgRInN0gud1HDzgr4psT-wemEE7OMyCOijPwe6X6h7bo1-q_13ih-cm1Cn_vNVNzyMrPhPZO7qrmkE8LW44m0eNhc7_NyLyAaZk_k0pYRMNFsYr6DBqEKt8W_9-4DmGXZLdHuNKJSmLqFfVlP0309YiQP_qn07L-9AP0pwWOcbLuqCwsrvai0wl8Ui6a4u3aV7aP4kScIK3IS2YFlCJUb1zfZ0inRU8latSUzMW4QbMU-wF4e14ycT7IVgTaUCpiUguJsLuK3PjOHs63alrnPFLUx1OuLrQsioS-TgkGT_wpWQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113663928638548039571\">Julie Lhm</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLf3WHqnJ36Py0rNZFgdIcyAyQZWS4GLOzzvc85HWR-gTRzgFtW2Bm5XJkpOFBY9_VuIjylUJ0BgWpX4RabA4h03nX3DOnTxYpQriFBSuZ7oZxAYWCgNSvH0AKX6nmWzBGmJf2xvpDlLEJSmVxlRKr29gKawzgoYXA4SI6LrnRlBLCAKLf_GCFZ5n3s7-J1RhfTNIxAS3-A2JpKUA_6rKcFzsHrPcIg9hVdb3JmMFf-klBIvpKh-q9LC4zMoZNGwvEt85rEOAWof3P81zfTNGTDXpLrTdYPT-cQlyfR5a6JUhP7i7L0lyNdjW8X0muRNJzOc0aQqfteaPLSkSv4R38yVWEX1EgVBP6DSVsBw1SeQnvseC8PMOJLQBgFZ9_QS43MkJDUVj9Rl766aiSlgE3pEOu0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112038023428818368355\">Hans de Kloe</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcL5CGxYuUxiW0XxhmW2nXPREm3FQtwvpj6LYPuR26vGXqvvcm9sPnB6KMUdDfidrKT8JRf_3rBFc4E9kKNTMmE1V9aP_gDPxgwmB9VPhmHX5MQtrjZoUkjyfEk7PJDVSqTb2pCvthh21sWaRQ83RElRg663WRa7BycoLdXOS8Z5ndOlNFDEpnUo6OQyTZv-Fepu6-drLI4pzkIsV4geBnk5wMK5x9M9VG2uDfMP-LuTjatcX4vD_EvswTYqRPiyS9VrAp6_ESecmtHueUYJ7aMmKqqLwtZ-qpVuHrNlafvJpQtSGNxs_yjzhUvy_VmHV5M1xnOyNmWT117_0qvuplAhDrpX3ZcrYKv7ngh_Hk2LK2_fz8oYxuk1in4pND7YWlKpNBlyVDh_DyGjGPxMmXleUzQGopTI2XAP_3LGMejtw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112902489184827422777\">Robert Pastor</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 2240,
+            "photo_reference": "AV-0GLdTgk6kTylyk6W7MqKmFU9W8fEI-PBBIzMhsHWPHFD4c6B74YsulfRr5CBIMLWvYiINIIW6Dz6ufdnWJvBfQYhxXnop22JNZDbKQqw6IFYwnW02UrQ7xxsuht2_1rebLYLP4fOEueciaZO7ixxv1lVDv0Ssp3R3NbM1aQadxRyhNBGQAhgdNcsh5zQ_HI7pwA14XBNqu8ea1Ab-dvNCdsGE6Lx2eQNW_x0g7j2r6HwAc6NxWNCSqEzSdpCqraVBwqWMXOKxXilX8qzniq_f67d3yIjTdeXJWZZkcqMfnEsttHCo3lx4pddTGlhqmSvVsbIc3GcTGM53DTRh6Qa-V8ZgC8PDffEGSBIgt1ZSXCTJDhyf6ZtdwLmnM4vfBQp3HJhm706pAWaYpoWTUImc5i2vq4QolOM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109809379311383470643\">Jan Boer</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2006,
+            "photo_reference": "AV-0GLdF3RcnRUFUiZqUgayoMzT5sm-fgO55HEeh767AJTycD7KVUxYkmhokjWKbgNrJXAZu_04m53-DVQuvRaeh0p-MH6EYvN2MwpakL6DPoifEWtKnEAngh75Ngx9h92XI2HmrRhwa6t1eT3nWM786dqdVQuKCOzN92wICeDm4msRpi2TMSmgM4K3k3tJ-LhpnI98DvNCpilqisPXNT5Zav7Utb8d3RdqWcKXp-hl4dpu2_cgWeTkRE5HE9LXOOh984jcmbaNVRhAyBaIOve5MGlmfMuGiBOTE4I9_hgqEcQCExlk6o1-iLpoMm7RL_3K6mOof_gEWgB_40cXKGsJIuYFCViljJqsPz4mwKLKYiApg70EwnIj2L6O41tPJ8P1DqZoZESXDOA49ib3UYSO285d1SP4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111121037426567416770\">Olivier Trizac</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5628
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-07T05:11:42+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Manu B.",
+              "uri": "https://www.google.com/maps/contrib/114315618776686652121/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKGL6KxGqxgcq-38HPCu0C1MdQpt1VbNA-ft3OzxKTn6v0Atw=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Première fois pour nous et nous avons été très bien accueillis et une très belle ambiance et un super repas  👍.",
+            "language_code": "",
+            "publish_time": "2026-11-06T15:30:37+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Aloisia Legrain",
+              "uri": "https://www.google.com/maps/contrib/107014944562643052875/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLlWyP7yOredzbFntg4v4aKgSplaU4np-cngI7_lsbTRhwaOw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours un plaisir d'y aller.\nSuper équipe , patron vraiment génial.\nUne super adresse",
+            "language_code": "",
+            "publish_time": "2026-11-03T16:58:20+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "baba baba",
+              "uri": "https://www.google.com/maps/contrib/109314786743279995991/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW92NjzROw1_DRXdeWiFGRtQnIWhrIxzYd096lqp_LyuoO4Odo9=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "J'ai été bien reçu...c'est surtout la décoration qui laisse à désiré.\nL'ambiance et en fonction de la clientèle",
+            "language_code": "",
+            "publish_time": "2026-10-25T06:43:07+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Joel Cappoen",
+              "uri": "https://www.google.com/maps/contrib/114859801563801485584/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK7a9Y_j6McLm8sb092K8MZ0etatPM6gcfcdtdc2DepV4Fn1A=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "On a super bien mangé. Du plat principal au dessert 🍨.",
+            "language_code": "",
+            "publish_time": "2026-10-24T21:12:17+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Nicolas DEKIMPE",
+              "uri": "https://www.google.com/maps/contrib/103200952420918798475/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKoYkghLB9RdO08W5oWY7rQ3Lljn06TKIKB9gc-gUVlKf7yKw=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 485
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1125,
+        "bo": 87,
+        "front": 1038,
+        "estimated_cost_eur": 3.125
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.58,
+        "source_url": "izilife://current",
+        "evidence": "« une très belle ambiance »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« On a super bien mangé. Du plat principal au dessert »"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Un avis mentionne que la décoration laisse à désirer et que l’ambiance dépend de la clientèle."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« On a super bien mangé. Du plat principal au dessert »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Du plat principal au dessert »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "populaire",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "485 avis Google"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Horaires avec service de 10:00 à 14:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires avec service du soir, notamment 18:30 à 23:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant où des avis signalent un repas complet, un accueil apprécié et une belle ambiance. Les horaires indiquent des services le midi et le soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cote-royale-restaurant",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5628,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "460f369c43581bc886f52ae0110ad6d2e7f737d4ea2c5e5f5b7eb72a51c7a2c2",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

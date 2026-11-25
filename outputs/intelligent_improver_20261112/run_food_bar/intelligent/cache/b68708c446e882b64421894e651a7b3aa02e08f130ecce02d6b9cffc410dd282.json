@@ -1,0 +1,133 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "serving beef specialties, plus a kids' menu"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "menu enfant ; venue en famille à 7 personnes"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "en famille à 7 personnes"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Nous sommes venu en famille ... dans ce restaurant"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "les plats sont copieux et excellent"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "les Cocktail sont très très bon"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "tout étais parfait jusqu'aux dessert"
+      },
+      {
+        "string_id": "bon-wifi",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: bon-wifi"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "serving beef specialties, plus a kids' menu"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "plus a kids' menu"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "venue en famille à 7 personnes"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "kids' menu ; venue en famille"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "en famille à 7 personnes"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "restaurant serving beef specialties"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: bon-wifi"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "decontracte",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "in a casual setting"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "boeuf",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "serving beef specialties"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Steakhouse décontracté proposant des spécialités de bœuf et un menu enfant. Les avis décrivent un accueil familial, des plats copieux, de bons cocktails et des desserts appréciés. Wi-Fi référencé."
+  },
+  "meta": {
+    "cache_key": "b68708c446e882b64421894e651a7b3aa02e08f130ecce02d6b9cffc410dd282",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

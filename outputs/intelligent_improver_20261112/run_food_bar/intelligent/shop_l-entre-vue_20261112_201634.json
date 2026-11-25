@@ -1,0 +1,625 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:16:34",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-entre-vue",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-entre-vue",
+    "status": "found",
+    "data": {
+      "id": "5747",
+      "name": "L'Entre-Vue",
+      "shop_string_id": "l-entre-vue",
+      "unique_id": "5c2dd3a632349845001dbf3bf90d0d64",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55004",
+      "principal_cover": "55004",
+      "qr_code": null,
+      "phone_number": "+33320746432",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Avenue Pierre Mauroy",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0372356",
+      "latitude": "50.5976735",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:44:52",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:44:52",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJY6U3JtjVwkcRb3fir8CgDQU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJY6U3JtjVwkcRb3fir8CgDQU\",\"rating\":4.9,\"user_rating_count\":91,\"google_maps_uri\":\"https://maps.google.com/?cid=364123894331897711\",\"fetched_at\":\"2026-11-12T01:28:23+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Un restaurant très chaleureux, très accueillant, une cuisine simple et nourrissante dans une bonne ambiance\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T20:29:15+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Marie-Rachel Jolivet\",\"uri\":\"https://www.google.com/maps/contrib/104263372619013791476/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV0bCuiZQVeYII_P64gFudrs2nYYTEyTB_dKEg4j5ROZFBsTzhwNQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T11:30:41+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"quentin puchois\",\"uri\":\"https://www.google.com/maps/contrib/109126516359558113128/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJm0pyHvhHmfcITgVPW504jA6qCT6zTuB2dh11P-jLNLPpuuQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"Très Bonne qualités de service ,personnel très sympathique.cuisine simple mais très Bonne et bien cuisiné. Repas de groupe et la majorité des personnes étaient satisfaites .\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T14:06:32+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Annie Lepan\",\"uri\":\"https://www.google.com/maps/contrib/103308799740989544550/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJYONZRgCn-IG_G--Ltyi_uIv9m73h9gAnP4E1_OVNqEu2s-A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super restaurant ! Plat excellent, accueil excellent et personnel adorable ! Je recommande ++++\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T11:48:48+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Brunhilde C\",\"uri\":\"https://www.google.com/maps/contrib/118185581140463544872/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWJDmIg6QqLrOipeLmWCpnPQmy3zK0BHAMubmbASkztauIDfIY=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super rapport qualité prix !\",\"language_code\":\"\",\"publish_time\":\"2026-10-06T10:09:13+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Marie Berkmans\",\"uri\":\"https://www.google.com/maps/contrib/113788229425731994083/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVQT-9LlyB3B9DCR8XUG2-HFkB1wwgkwMwJyvoGHiBL0oa853kk=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 01:28:23",
+      "google_reviews_place_id": "ChIJY6U3JtjVwkcRb3fir8CgDQU",
+      "source_id": 5747,
+      "scope_type": "SHOP",
+      "scope_ref": "l-entre-vue",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "l-entre-vue"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55004",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5747_6af39e64d39ca.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4806",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33377",
+            "source_hourly_id": "4806",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33378",
+            "source_hourly_id": "4806",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33379",
+            "source_hourly_id": "4806",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33380",
+            "source_hourly_id": "4806",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33381",
+            "source_hourly_id": "4806",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33382",
+            "source_hourly_id": "4806",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33383",
+            "source_hourly_id": "4806",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-entre-vue",
+      "google_place_id": "ChIJY6U3JtjVwkcRb3fir8CgDQU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 13:45",
+          "mardi: 11:30 – 13:45",
+          "mercredi: 11:30 – 13:45",
+          "jeudi: 11:30 – 13:45",
+          "vendredi: 11:30 – 13:45",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe4G7AOenlollssjhQz0W0SXBzsOGJ6BUa2-aLFqQ9FVAbQm3cKmvbEy4WDcCw6aljQZDgUb-zABbun7yneLF-DIAcLEfsHV-kwSMDn8Bcorm9GbUA3G1XjMgHF6xAnAFMC9Btnxjj_idVZuWh9mKhIHvI94t3vlGsD71iNLPXLoLtaW7SaP9zU8qmm9YvuQZ2xnmYWQT3yMktm2bVFVgOIulircRQjd0a0hFhfBo7_RZBiAhwS0yp5GTzurfUQ-aL9nsBxPrHRgy7ej8NJhF3VAzW8Pv350FHxL3zHZgypwwqVHL7_yWPrKrkjqVeT2Pf8ZJazd9O2qbZuB8BC1N108Kk1_OKoimD7BzXtl70QyODcZ5ubgtXssq0NiTHl18FSQzsZbWI_mBGmKx0YTdV6TGNUeQtR6LINYmlaWIu0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 1103,
+            "height": 1280,
+            "photo_reference": "AV-0GLcaBQL35DArxuh5DqObWY5Mak8ZHsPnpwiD945HiyVtVbOgXk3u8rPwclUouomSiJbTuLL5fT6ufBZPGt1pNYmlLlIPKVFPE_hC9QMoP-RDtD1WDBB-6Nfj937YAF5YgBAQQ96sHr1nnCDki0OSpYFuVIzzE5h3g3zzA7qNhKyoL8IrJ0RQMBoJZvaik8RLdOjEbzjQhQGyIOT22Nr1CsPiQIwGHvSdi5-Ly931Rt6-ZXCZlyr_iPpGIyF7rYr_JN5fobhP4fZY6jAPFjaV5MiPfKozRIU1a-qNCSwLOZhEYtk6ZI6xC0Sy3Lnn040mTcde2dYLAIX_3e3kWcQNRF1wFy-KZdVuhkSxQUGvPnMDgpLMLz7he99ON7_uiGN9T1CyaNFvmW6HAxjIlJPTWYQL6vEkdF_g248VAmcWQ_IJpg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 3709,
+            "height": 2266,
+            "photo_reference": "AV-0GLcJ4f486NQbQbFs_mqCm0YYhkzMJm7L22MRF9f93YDobKMs4-0cK6NDzdSrdpXfspV6kDo6HK5EXc5vTbvSyGHukoirdlUbQLqgyTHcQkQksUe4TZOmvMZpTsT35U-8fnE4ALpuxwJQyfogBPPLw1QA4M5lkmg-Cjhy8XDrRSUQpZZLIbYd6YFMGvzakwVcwi3wsnoMbX7_FzTQgMADVUIx9AhqMjt-NMSDJ7uwWe0SrnM95tdoZFtKt8LAMw8bk8RsJLntOo_Fr3UHnbi6x8ZdrckgXt_td_csTOaypBBMdqXTvJhm3q1KApqHJTUw2JtiB89MTaDVkbg9eomVzuHFbBLxLJ0QEHeu5MW70z3StmKlOILpDb4o-NTUBGERgZy0sIKa3jzdvNKKkrIcHTLAvFg5s6Copyx0JkbKWDV7Dw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 4031,
+            "height": 2429,
+            "photo_reference": "AV-0GLdQ-2V7UjG833DjcyM894vvBG_idM7rmgGxxi1_2_KgW29oas9pS-H1MEO8MnMaCR95VVydRLawsqXE757JwME5nSKhDYlk0RfnyuJ2t5CAeHcPUFY6cSzzdpjKbobOfAJcu3ivgqUS2wve7I68Sx2t08w__RpTDQQNgNVw4PixA8amt1GMKsw1y7lzSbjegwi1v5bupgRbfeCGQA8vqJyP821y0SRRgA-WKo4IC_oQ_qEMAStE1OEOBUi72wAkgN7OvOd7lhus8u_r4OtyQyBxTlXLfZBsDf5e1PZPgbUEp0xvv2XxcEmDhNu27ODKQPVxZjKDxa2HrqTJR4ZZoJVxJWcN9xm6MN_lUVeWT-Mc28FC8wKUIH1Jvyd05XYdK2hDCy6x6JoHHrkL6i-SKwIDoFuTU6_xGxS2PlYRTnfD-w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdTryGMzVLrUwnXZwJcWfxSD1BwrgqjMzZKDlL1S3jO_1QKJ_U-5k-iSlZu5Fzoa3E4LL_3AL7tyc7pfgT2LRSYUHVx1PYiQUVHrNbA53EJg49zH5dSob0kVeKqMRbw25EMVqWN8jpBffL9Htev7yuTp_lkEmTL86dgeqAKpby387uqqvKygtcSaTQn0SoiZj1jEKMhkK3qsYMwi-NHKzpkenxyooGFZetduPkBEUvodETgKJSYmNuH7iR-uvvOCQnngu020kgErMciG82HVYJu4Fi3Tid59jnhXE4nhNxrfZ9KmfxYv0oVc3kqTQUMqg3FkiOqL1TZjAWu8KAAuLOKArHy4Vzggm-S6-R_Mq0TiRM675AVjf3DzsJWuEm0YLUpwUegJUGVXMOtjqWm0ZXFcaLDEOQTBqozjYFyhbuUQQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 1124,
+            "height": 1322,
+            "photo_reference": "AV-0GLcvcOaM2UO4Hi7fOBKEQ86oNY9c9Ju6Nl0y52xgpFS-6qNg566FVF03MiobIylGnoy3LdNBXOP6NlsmdDxHhkk1mijlacwy7PqrMuUiLUC1u1PkPImUQ4BOpbBQcXHiQBlyGAxdRrdhJrBQzlx5Bh9a9hZTPCihs1pQIZ3cdsG6PlVRXACIQKXONXaZ75_ZsAMNBbeDkVN6s2YSEvE5oeI8YgHXH8dMoLRoLqHVDf0QC4iEEIjR9lP-fm8I6Q1GLPhORSgnkiwMw-hUOrZ7L1JtM-ucqPn_TGwRXaPF-VueoDkYkxe6lvpRdL8HcvdvxUieWvXkT-uYACsyexlpWuDrkgYgkVsMJ1Oy5VGq4w3IU3lI9SO7JyPIwl9jDkYI7LWb1bzwk00wOxaCenwbgjloizwHnXpe_8nf5egSxWV1",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdYrgVfJP79AcIWpCzDg3Vy0h6Qex_dri9o-lLNotMTHd9ioyKUwYQ5zPteO_qWCDynIOOA9Sreu2PGJkvM_n4Yq2Qo_tIAHbkjpDLDM2ICXHeWL3OnAWYk-MJ721qF0br4TTE_3kmiDP74b3vS-zhdnrDjdu_BswjhETEWTNTKGqa8SFwGtqLW_erfgOZ1wNnjzQCAAAt7eLqwSaosLM_UjIf2GKB-RmCwKjzDl6GQOdNpQ40NcPek2HfvINSDrVXsqWxq0_G_DITdav4DZF8lzO06eDI7bg1kDdtNDHSduf7A7eJQwG58t6DcWPVDibG43Q_doI7ICVCEjkDbQdsSjSjITlnitJCvMFvSzE_xvuG9wOvDAZDyn_GhSwjU9kxsxe26-8Yhhr2Oz1-W0gBvYrF5Yn4sDLW9Rp_jmm9l",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfveB9Tmv3eh4BEG_WAjmZoVoSR-nEdag-FSHuzIGa4Zynxq8IzKVzzGkz8W8OgcV__Tc4Vc8edVWGS9ZsOmuiLxhVwvJdlbmtVWS2QdSocMgM70e9y0JrEVHRPQTkean392pjTlbnP7ZRPlOyRJ58celPp2WDOiS5hOzPgsjtEZX33zdL19isXWp5Ig1NeoLB0P1HW69WcLzP6TsMKJmsiikaKsYQmDuQmkS-6IYivEGMZ9pqcWehZ90VVvht-6Z8NxK-WIKR7EXoEndawBc-TAZYNcUYjwT6Jm2BXcyWhsGeP9hmYVup3pS82QqnqhBmNwOXfXvBSkreGPM_QaOHRTr9L_BxwSUKtzQFHeexWauTkVX5z2HT53BirPieMFOo3P03uWIVbyxV2sZoLIO-I2MK6HzQRoEzNLXnGlOnD",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcNjaTGdDva-KdFjWxGUTBOMILPeO6qKgQhEEJkVlIDY7m658g74XOFT2o1D7HJVQb_HWnfnTYNSuwYxgrlPM8S1sNyUByB56g8TtNxgvJa4hx5AKxlBjB1yQ585D7VrEcDoVnJW-qvnYeW02KLcCYZ5fcorTBKMfspma7hDUKmT_O6U37pMLGhnLFwA_4GO60DfKxp7MkEugLDWOhqSWW1rWlRQXXb9LB8fFe4Tx76AN-HfKGPfdHwjxPvrhUqTXG2SF7E1fBi8Eu177u-Hl3uyyDBEpA7Q9S9DDY9j_wVk7o0ge198kFm0rhoE403wfqZEz-x9zxJUdnpJese_XkSmOgTabMjEZ2LG023jyGnJYMDv1qJGDTjwh25I_PXoTkIEzt6t75vAFjnntjhvQqZmYQA_ffTQ6PCCc0V_vhs2g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfNnHza623r70RjRBAtrUybRWSIVkWPdi6imwTJsTKh9D2jE8nWc1M7LUUAihJflx01cIBAXCkriIXb9rPKXR-vjo-4tT1gw7EU2Xqm0sf_y9zD4VKQ84NvEQ2icPS_nhquhd5e56HZK1qAZ_oQA5s3tjnfFuuhIg_GQLAhrNtLcpO_Lnn8QxCqh3E180LSEEvqZlBtaNIFskU3w3tR3BXIuxCBT7eo1k2FgP46MJXlwS-zdpenD1VDpdBfORur-JnLU1oNvwCOAIVuqV47gtPnFeIxdzLGKvO7Wm8NF2hb-UFndr3VUNx8AieS_KXhSXUCZhbeexrklawTscg63hOFs_NDX3TFfQmLgjTrJKPGtHgE4zZrzwVvB9Hb3R7nY9Yk_tZT0C6zCYrZwWVZxOCuVoVJDh7x0YjL6W3MaA_z",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105958513299260131105\">L&#39;Entre-Vue</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5747
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un restaurant très chaleureux, très accueillant, une cuisine simple et nourrissante dans une bonne ambiance",
+            "language_code": "",
+            "publish_time": "2026-11-06T20:29:15+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Marie-Rachel Jolivet",
+              "uri": "https://www.google.com/maps/contrib/104263372619013791476/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV0bCuiZQVeYII_P64gFudrs2nYYTEyTB_dKEg4j5ROZFBsTzhwNQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-16T11:30:41+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "quentin puchois",
+              "uri": "https://www.google.com/maps/contrib/109126516359558113128/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJm0pyHvhHmfcITgVPW504jA6qCT6zTuB2dh11P-jLNLPpuuQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "Très Bonne qualités de service ,personnel très sympathique.cuisine simple mais très Bonne et bien cuisiné. Repas de groupe et la majorité des personnes étaient satisfaites .",
+            "language_code": "",
+            "publish_time": "2026-10-15T14:06:32+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Annie Lepan",
+              "uri": "https://www.google.com/maps/contrib/103308799740989544550/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJYONZRgCn-IG_G--Ltyi_uIv9m73h9gAnP4E1_OVNqEu2s-A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super restaurant ! Plat excellent, accueil excellent et personnel adorable ! Je recommande ++++",
+            "language_code": "",
+            "publish_time": "2026-10-09T11:48:48+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Brunhilde C",
+              "uri": "https://www.google.com/maps/contrib/118185581140463544872/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWJDmIg6QqLrOipeLmWCpnPQmy3zK0BHAMubmbASkztauIDfIY=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super rapport qualité prix !",
+            "language_code": "",
+            "publish_time": "2026-10-06T10:09:13+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Marie Berkmans",
+              "uri": "https://www.google.com/maps/contrib/113788229425731994083/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVQT-9LlyB3B9DCR8XUG2-HFkB1wwgkwMwJyvoGHiBL0oa853kk=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 01:28:23"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de groupe »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de groupe »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Un restaurant très chaleureux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« Repas de groupe » et avis décrivant un restaurant avec cuisine."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie « restaurant » ; avis mentionnant « une cuisine simple et nourrissante »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 11:30 à 13:45 du lundi au vendredi"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 11:30 à 13:45 du lundi au vendredi"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Loos proposant une cuisine simple et nourrissante dans une ambiance chaleureuse ; adapté aux repas de groupe et ouvert en semaine sur le créneau du déjeuner."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-entre-vue",
+    "operation": "ADD",
+    "tags": [
+      "bien-pour-groupe"
+    ],
+    "principal_characteristics": {
+      "adapted_to_groups": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5747,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "35d177dbbcb56ad7f6b8743ff5a5278c6d810364d35a1533eb32b5c45e23e7e6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

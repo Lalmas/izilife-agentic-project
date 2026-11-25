@@ -1,0 +1,676 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:50:01",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-theiere",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-theiere",
+    "status": "found",
+    "data": {
+      "id": "5662",
+      "name": "La theiere",
+      "shop_string_id": "la-theiere",
+      "unique_id": "101ec997bef224132f13ab1fb9c3a17b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "6",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54921",
+      "principal_cover": "54921",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "81 Rue Balzac",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.047946",
+      "latitude": "50.6136348",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:33:05",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:33:05",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJH8TEsyPVwkcRp8UDq8L106E",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJH8TEsyPVwkcRp8UDq8L106E\",\"rating\":5,\"user_rating_count\":14,\"google_maps_uri\":\"https://maps.google.com/?cid=11660934076633957799\",\"fetched_at\":\"2026-11-12T19:49:39+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Une véritable pépite ! La Théière de Mon Ami est un petit coin du Maghreb en plein cœur du Faubourg des modes. On y vient pour le petit-déjeuner exceptionnel, fait maison comme au bled : produits ultra-frais, pains, viennoiseries et pâtisseries orientales d’une grande qualité.\\nLe thé à la menthe est tout simplement parfait, le service chaleureux et l’ambiance conviviale et familiale. On s’y sent vraiment bien, comme chez des amis.\\nUn endroit authentique, généreux et délicieux que je recommande vivement à tous ceux qui cherchent une pause gourmande et dépaysante. Bravo à toute l'équipe !\",\"language_code\":\"\",\"publish_time\":\"2026-07-07T11:28:41+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Le_Passager\",\"uri\":\"https://www.google.com/maps/contrib/106682544163533461053/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVtaBFS6r6e-x592UQX3vFcH4e7ffn_ZoAdmbUbUiQ45LDRdOc=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-03-04T19:06:36+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"I mohamed\",\"uri\":\"https://www.google.com/maps/contrib/110227845657098160012/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJyhh6M7OYJRSTfNDh6oWrQaiBeZKW-GKTPsL2ynTeTfw7rXw=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Belle découverte je recommande très bon et prix raisonnable 😍\",\"language_code\":\"\",\"publish_time\":\"2026-02-09T18:40:58+00:00\",\"relative_publish_time\":\"il y a 9 mois\",\"author\":{\"display_name\":\"farida el\",\"uri\":\"https://www.google.com/maps/contrib/101012672717514652950/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK7Ljykyv99a0TVowixIGJQf6nNy9pMO4-oCFwjGTShCWXASw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-01-07T08:49:08+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"wael machta\",\"uri\":\"https://www.google.com/maps/contrib/111625668844865275626/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKRPEJtQzvDnqfZN95EH61dp23ks8pOPVqYnktQfhXA3aVsQQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"La Théière, est un endroit vraiment génial. L’ambiance y est très chaleureuse et conviviale, on s’y sent tout de suite à l’aise. Les prix sont très attractifs et le rapport qualité-prix est excellent. C’est un lieu parfait pour déjeuner, prendre un thé ou simplement passer un bon moment. Je recommande vivement !\",\"language_code\":\"\",\"publish_time\":\"2025-12-20T12:49:50+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Anissa\",\"uri\":\"https://www.google.com/maps/contrib/110426862030928290088/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKrAYJAz5Rn2x_3Yg0cmcvE6cAVC-E9TRWO6uD8wDNJ8pLBGA=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:49:39",
+      "google_reviews_place_id": "ChIJH8TEsyPVwkcRp8UDq8L106E",
+      "source_id": 5662,
+      "scope_type": "SHOP",
+      "scope_ref": "la-theiere",
+      "primary_category_ref": "cafe",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "la-theiere"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54921",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5662_6af39ba199c7f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4723",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32796",
+            "source_hourly_id": "4723",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32797",
+            "source_hourly_id": "4723",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32798",
+            "source_hourly_id": "4723",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32799",
+            "source_hourly_id": "4723",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32800",
+            "source_hourly_id": "4723",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32801",
+            "source_hourly_id": "4723",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32802",
+            "source_hourly_id": "4723",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-theiere",
+      "google_place_id": "ChIJH8TEsyPVwkcRp8UDq8L106E",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:00 – 14:00, 17:00 – 23:30",
+          "mardi: 09:00 – 14:00, 17:00 – 23:30",
+          "mercredi: 09:00 – 14:00, 17:00 – 23:30",
+          "jeudi: 09:00 – 14:00, 17:00 – 23:30",
+          "vendredi: 09:00 – 14:00, 17:00 – 23:30",
+          "samedi: 10:00 – 23:30",
+          "dimanche: 10:00 – 23:30"
+        ],
+        "photos": [
+          {
+            "width": 1152,
+            "height": 2048,
+            "photo_reference": "AV-0GLc2y-xzEODhs90kWFmpmyO74qSN6BXhAI6OTTdoSWPK-qKZNKjp1vOi2VmJbdoZ2SP7aFUuCdFLKuF1HR3t1R6kAl2STNntrqvtRcPzl9sIqS6WoYa_4IH6XzozNYiDHqlEfBOl5_obmWTxPGLIp_HDYnPlXei1jDp443QQ2oLqgx6avcyF2G47so8cyZYJlHih73uX73_q_lnbOQajqtYRp_vqrx8VUIGlZqYYs2tLPVtPH9Ng6XszaksB-iom45AsGSLMXuix9f6EqYsZjcDbMf5p5bYSLsADPH3l1NZVNXyiPdCMxNgLUcpZdGF2PW04qCDVWXp8wte67OOimYqtefbXLz5ftxc1pjU7JqzGoLSC8MWKkdR1kN_LXrWNpexNLx38Cd_xzx7isjKoGstksMuP9YuwEVyPnmsXuqpXtA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110433307396839567596\">La theiere</a>"
+            ]
+          },
+          {
+            "width": 1152,
+            "height": 2048,
+            "photo_reference": "AV-0GLc9KG3YUsELI3RgvpK7-zk3yHjfGel-gZ8DlN5Pkso1KWHKByjv8YzgmHNW5xao-fe1iCrAiB3CCKiBVFP3GfFmmHDoE_vPF28TypEJ64JVwKgobQLol_uHjdHAcRE9F5EegvbAhb_YYmu9WJR2e8fd_dF5L8KZwS0MD9FGpc-b2ubrRWHdJZCq4aeBXYRN9FEqCECmvjCdT5tgSuZ2U1d-brHDPNgZQQlF20JwaXnpBbY9Z7U3v_FCSPUTdgj7CHgHA7NIofxHWRY71eJhf7fIkkmM24OOJlA-1h5tBvSiTctAy6pJjHV7m_FKS_nwRnIC4R6ViGBLmKCjuaAjCV2rYl8i8ugxPpgvLDSMKai1szu8QiWOBRiuPnXecXABVs7V86EcmyM_pWhYY1uJ2myplewqlR3GhfVB47eA3ivZcw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110433307396839567596\">La theiere</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLeLeuozVc2lUf-QtgVCqtFToRT2YpKU3rtjOklZY9xXf3qkZtnIhXhYeC1PJuVgXAtla0ZySn1W5vcjSU7nSNqj0_aJvVeiQHsS1fHQcH8Ju4ValX3nv8AaxfkxdSZsJhRqOnq_ZOb_PWHAE4ACjtSpMpkCzabsOawBuGvnWMdpTLi9Lp71C2Vui_FY0pe2V_-SlL8j_hLjvuWgyERs8qwhf5rZWK1rJjY6SHhnMrMMAdUEA5NtupuUYcP9tGTzKFRHMCpYopfo5kGCDsfZqtldIjoWe7iGbaZSyQcCiCOxcMFvqMp8Gijwt7XbAB2Z3MCmGXL5zIEWhCaZN2ryAOFhl4HO-jE90KdVrxxDGbMZYr7mDm8bvqDKSCNCii2QmDR7CwswMSDOvxtrckRn7WO1EwyH3RiEKJzZvC0dkLhm",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110433307396839567596\">La theiere</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLdnAEb5nZkZEEAQVqLlmhh_n9HcGHFYuo_dDaqFa4s9Td7RiONxylyO4sLMWcvEweeNd2Vwb-dEY1V87eVPsnrvjAAK4eMMvdMtNnm0aVDKJEo_DVmnL-E9Nkfa7jzXcZPE1gwOABalr1-SZxJtTezpwBS6kUgF4H9RRHb7rZD7NC6Lnq9By8nGH_Aa1dYo6xsMWHq2Lq3OngFP0C3wulW-pHp4fL1PL8KK7jJ6j83CuCUctzbtSSkzivocc5PX_qWncivrp1MKIISnWG6b0FQ-iOwfzd8ZXpZZBhqTUjiq8gXqJeBnB0-oh4WlS1HOmjAughwBmy0FUILrm5Y9z7_eS4_yA_mYp5t8VCJLhuNZxlGHgJ4Zg30ueEupBY5ZQ8gL2DlBMaWYyrMYLLxEJ-sMen-TAXaE535m19dGhFPP",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1884,
+            "height": 4080,
+            "photo_reference": "AV-0GLdEykGnNQnlnsU3QLOBTK8WKomBKnDY9l5hJjmgpqXwO0L023geeHpVaeXFmvIDsHODRD67fYhqlQAzLlDQVMIZZzY5FlvS4R9RvmVauwgNIOxJ6gQKdpThSvgk6o5W5dZIwn_6CKRPnrXgPboF5QNqz-ikpdmDyXnWjA48AKiOCn9U0SR18ujduGLcalGMGhj4h0vRYP-w3MzA6w3_z9Rb1nnrbclQk5g6VH6IZfsvF0sAcWDK9YL140BgOXqLB1w51G-uQXZOHu8TCLGCv4qCR2DebyAzMzEcgAoH9tcKK4OlU31na3w5f8BbZbFMXqdBShjYzekZADHzpHgg1ImPdfjXbtptbJOyc7ZQJB7OoygOlqY-KzBt9NqS8VSWRNS0E7us0G3S8gZX_AZ6GRU4cmQ0We8VxP5brtVm6fl4NA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110433307396839567596\">La theiere</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe1lqueEh2IJA_DiCVLYGBq8Y_U68FSNU2uUSNAEKlf2JS686cVt3uJ9SJpOmmOQ7iaZaATptQBcXj3POVLhH2aoQl9g202Nl6oyVOsYBt43OESj_8kz4XyhcxXF-sI1d7lA1ViB6YmWVdAucmdplMg7nel2OU2tFOqvU-G6CHjf088HL6eRCoZ1q4HrrWISPpAZ-F5v37Us067HUaOqI4piD58Abb01C6UhTfYtPtJdXkomx37tsQz4NFg8du6Nr1yFUvl_Nbt_cfPQwhJ_xQFlWdNiCBGw3-hSkq0dkfOsuO0pXTU1XtiTvIPSEbqGaBlIZe8oMSDu5mQgms1vq5riIZTYFwx4EJSTEqWjiWwHzEbAp_dxdHQil-xoYoyoPoN52xiUwsKnJYRrz30wKJ54DiEabCTc4roAI1xS_-aSg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114367235667387238261\">Mimi Far</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLe0spSAeHOTmw6olN1E4mnqh8eHgyt7ufxPlOUbGIdK-_oGcPfPxsRWr4c4jSVoHNyUuIvO2hO4gwAbcih-xUKYzcyd88luAE8bbyID_oZQU8S_Vudz86jwmvXI7QOSJHl_Gbn1YnlXMrH1SVI6l1SB3Ua2X58CM5CU8wGz-unxRQ3RecU4F6co49aw6zIBztX_HjE9pkiqwTtuo5Xx9UiJiyId1EYTTSQwMyCMRGAQ_5NHAA3y2yTCAuLhJjIBaF-7aZzC3M9LFsnlilhiPvTGmKUeruW3kH9CaVNA52kwJKMZ3wqi7G8Ojn_tnXXP1gTJ72X5UjXuZGBlo_Pp1KabgV9eKmySINEGyEJVJ4Dhg3i58XkFFvAP5c_URi3UFoEErUkp1WppgXHWUK4IJQCdTWY1x1D98AZQWmY1qGD-",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3122,
+            "photo_reference": "AV-0GLeOcnJgVM0NfPzG6wcy00YLTfiSQ83HiFaNWaxtRhhAxNU2sK1LabkyPU_3cReoiGRyc6IWbX0ejKCwUbbNsG24xs6v2z8eH17X0jBiCg4yuduXPHVz5fa3R15T7zIJVmQdx3QWgR2eJFyxZ41Nw607T04AQdDTDnJDJgW-YR4yWfwEYJbRYOl6UEp1m1CFpbSeMeasTmU5rpxxbkAQF1tRJZ5EhgtFkaEAnT5lKyTK2PSOwaLKhpK6QsSNUVhIGOJQoR-CoIMnbseoqxlQiTn9o0vy0uQOtcE5SHmOXO5z1_K0yzPKgqpONVR-qoql-PhOW-c09hZIeQ5hoSrE1brR6ve8mG81oEf9vkAtlelTvD9VJtMUw7RqBGB13uM2ZhQ-kvvE2b3oXepWBcGvMiJneVrjxZr-Y1V3eT1hnuyC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106682544163533461053\">Le_Passager</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5662
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une véritable pépite ! La Théière de Mon Ami est un petit coin du Maghreb en plein cœur du Faubourg des modes. On y vient pour le petit-déjeuner exceptionnel, fait maison comme au bled : produits ultra-frais, pains, viennoiseries et pâtisseries orientales d’une grande qualité.\nLe thé à la menthe est tout simplement parfait, le service chaleureux et l’ambiance conviviale et familiale. On s’y sent vraiment bien, comme chez des amis.\nUn endroit authentique, généreux et délicieux que je recommande vivement à tous ceux qui cherchent une pause gourmande et dépaysante. Bravo à toute l'équipe !",
+            "language_code": "",
+            "publish_time": "2026-07-07T11:28:41+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Le_Passager",
+              "uri": "https://www.google.com/maps/contrib/106682544163533461053/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVtaBFS6r6e-x592UQX3vFcH4e7ffn_ZoAdmbUbUiQ45LDRdOc=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-03-04T19:06:36+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "I mohamed",
+              "uri": "https://www.google.com/maps/contrib/110227845657098160012/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJyhh6M7OYJRSTfNDh6oWrQaiBeZKW-GKTPsL2ynTeTfw7rXw=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Belle découverte je recommande très bon et prix raisonnable 😍",
+            "language_code": "",
+            "publish_time": "2026-02-09T18:40:58+00:00",
+            "relative_publish_time": "il y a 9 mois",
+            "author": {
+              "display_name": "farida el",
+              "uri": "https://www.google.com/maps/contrib/101012672717514652950/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK7Ljykyv99a0TVowixIGJQf6nNy9pMO4-oCFwjGTShCWXASw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-01-07T08:49:08+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "wael machta",
+              "uri": "https://www.google.com/maps/contrib/111625668844865275626/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKRPEJtQzvDnqfZN95EH61dp23ks8pOPVqYnktQfhXA3aVsQQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "La Théière, est un endroit vraiment génial. L’ambiance y est très chaleureuse et conviviale, on s’y sent tout de suite à l’aise. Les prix sont très attractifs et le rapport qualité-prix est excellent. C’est un lieu parfait pour déjeuner, prendre un thé ou simplement passer un bon moment. Je recommande vivement !",
+            "language_code": "",
+            "publish_time": "2025-12-20T12:49:50+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Anissa",
+              "uri": "https://www.google.com/maps/contrib/110426862030928290088/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKrAYJAz5Rn2x_3Yg0cmcvE6cAVC-E9TRWO6uD8wDNJ8pLBGA=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 5,
+        "user_rating_count": 14
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1147,
+        "bo": 109,
+        "front": 1038,
+        "estimated_cost_eur": 3.675
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "l’ambiance conviviale et familiale"
+      },
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "pâtisseries orientales d’une grande qualité"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "prendre un thé"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "service chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "petit-déjeuner exceptionnel"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "parfait pour déjeuner"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "the-menthe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Le thé à la menthe est tout simplement parfait"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "the",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "prendre un thé"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "pâtisseries orientales"
+        },
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "pains, viennoiseries"
+        },
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "petit-déjeuner exceptionnel"
+        }
+      ]
+    },
+    "warnings": [
+      "Les sources consultées ne précisent pas l’accessibilité, les moyens de paiement, la commande, ni les équipements ou services pour enfants."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "https://entreprises.lefigaro.fr/la-theiere-59/entreprise-991250275",
+          "evidence": "boissons (non alcoolisées) à consommer sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "prix raisonnable"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://entreprises.lefigaro.fr/la-theiere-59/entreprise-991250275",
+          "evidence": "petite restauration"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Salon de thé à l’ambiance chaleureuse et familiale, apprécié pour son petit-déjeuner fait maison, ses pains, viennoiseries et pâtisseries orientales, ainsi que son thé à la menthe. Le déjeuner et la consommation sur place sont également mentionnés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-theiere",
+    "operation": "ADD",
+    "tags": [
+      "adapte-aux-familles",
+      "excellents-patisseries"
+    ],
+    "principal_characteristics": {
+      "can_have_tea_time": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "petit-dejeuner",
+        "dejeuner"
+      ],
+      "KnowedDrink": [
+        "the-menthe"
+      ],
+      "Hobby": [
+        "the",
+        "patisserie",
+        "boulangerie",
+        "petit-dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5662,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopMealType:+",
+      "ShopKnowedDrink:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "89a7e0b6134aa440251d96d03f2a7446acb1bc76bab04d7c8ac27db002d4319f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "a5f60672cf19b68445a73d862e695913a5614c74c575552bfa007c5bc5480065",
+    "source": {
+      "id": 1184,
+      "type": "PLACE",
+      "ref": "aire-de-jeux-du-centre-marcel-bertrand",
+      "name": "Aire de jeux du Centre Marcel Bertrand",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "EQUIPMENT",
+      "ref": "aire-de-jeux-du-centre-marcel-bertrand",
+      "name": "Aire de jeux du centre Marcel Bertrand",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_EQUIPMENT",
+        "target": "aire-de-jeux-du-centre-marcel-bertrand",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlaceCharactTag",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 9,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "aire-de-jeux-du-centre-marcel-bertrand",
+      "source_id": 1184,
+      "source_updated_at": null,
+      "source_fingerprint": "1aae1a50f683046ac92c34dbca73e1ff2f121df697907694967f849d063140dc",
+      "destination_type": "EQUIPMENT",
+      "destination_ref": "aire-de-jeux-du-centre-marcel-bertrand",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Aire de jeux du centre Marcel Bertrand",
+      "destination_category_ref": "aire-de-jeux-enfants",
+      "destination_category_id": 92,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_EQUIPMENT",
+          "target": "aire-de-jeux-du-centre-marcel-bertrand",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlaceCharactTag",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 9,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

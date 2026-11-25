@@ -1,0 +1,570 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:12",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-fleur-de-houblon-l-estaminet",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-fleur-de-houblon-l-estaminet",
+    "status": "found",
+    "data": {
+      "id": "5891",
+      "name": "LA FLEUR DE HOUBLON - L'ESTAMINET",
+      "shop_string_id": "la-fleur-de-houblon-l-estaminet",
+      "unique_id": "1f3d7a235e5ddfb38ce5f2e06d40be6e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Cuisine traditionnelle, régionale et à la bière pour ce bistrot flamand chaleureux au décor rustique.",
+      "ai_description": null,
+      "principal_picture": "55146",
+      "principal_cover": "55146",
+      "qr_code": null,
+      "phone_number": "+33320648365",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue Neuve",
+      "additional_address": null,
+      "zip_code": "59242",
+      "city_id": "590",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1688194",
+      "latitude": "50.5269778",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:05:58",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:05:58",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJxeJa1pDQwkcRtJ6VerVvS9o",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5891,
+      "scope_type": "SHOP",
+      "scope_ref": "la-fleur-de-houblon-l-estaminet",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templeuve-en-pevele",
+      "string_id": "la-fleur-de-houblon-l-estaminet"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55146",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5891_6af3a356db47f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4950",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34385",
+            "source_hourly_id": "4950",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34386",
+            "source_hourly_id": "4950",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34387",
+            "source_hourly_id": "4950",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34388",
+            "source_hourly_id": "4950",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34389",
+            "source_hourly_id": "4950",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34390",
+            "source_hourly_id": "4950",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34391",
+            "source_hourly_id": "4950",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-fleur-de-houblon-l-estaminet",
+      "google_place_id": "ChIJxeJa1pDQwkcRtJ6VerVvS9o",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00, 19:00 – 22:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 22:00",
+          "jeudi: 12:00 – 14:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 12:00 – 14:00, 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfJQp3iDb99n2qwiBMh7xhd7OSnyrQikBGYFG1kd3irVJjELbn0H-0bVUMbCSF_-LSKK5w_g4EVHL_-Ugq1_srg_4hvtwJUIRCe_oh-sc0yOw8arhW5ZgAy_sCEH-iW0AI84zHBZ_BXqvwksz0ckaqTyuuIXKelgcBcKhDzKoaMBbWxsbdCE3KVkn3jCAvteys_7951naksQoJKCm6-KaIHwTgk48UcVT_sjLmhXtJAFQ6gr6Y-r-cc_ubgepnfL7OfAH8mSrlwLP4icWSCLjySGahkH31IdTi6tFnWCvvCVw050OYHX_DDNRNVsh-ccGKQ6_uoTWWVEa9DJ8XYdSZS3O_q7R-xN4dYNxdVuWG9VlxpETjnhqOk2p9bkjFafGg5pmG7ZYen0lM1G9nU0WVqPJnP77NOQwSqkc1H4qeLvg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102115710478384263142\">mazeos mazeos</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLduSDgsmR4Cc9fWbU0XKuSYqj5OL7pZimtS4IOsuzgU9ZmHmpAqAUTmgqhBKhbDxa2Ddof8TfOI3YChyX83hCSbdl28T3a60RscOiJ9pm4jlEf5lYnt3wurqGJ7tN_aFd0y5ec_fgP29w_WOfPao6YKkMFZ42kElg_T11uuvHXpX-fSHrBatGIXHYPb8a0nTaKTeQG6s8Oo2mkVphEtaN97Ms3t8f8fIMk35_XaGbAv8CntuSmngzUy3GSRwNg_YqRE2wrIAA1CVu3Qc441DetzXOXMMzIwlSWbgbyZ5dQNV6J6pHExL1Fk5KPkLMA0u6bejOdEiRK3yryNdIakpx4Zz19iLfxbPSXxK8PLaYTklQJyOTxFdPOxsH1vYqGudjwKUQ9C8kxw46HLMUC86NpIaJLCNc-9AdOlXx-cD074",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116217019374705228180\">LA FLEUR DE HOUBLON - L&#39;ESTAMINET</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLeLA7CX2vKnFZwGdQ3_4l3P4Y6fz7MaCE8v1NOBzeZ0ywm8tsZ5f58iTRSBSGAZlvXlIWDiOsgEBqI0-nQRiNqCENRx7tKDmYlEExS3qOSmw3MWAfwD9fhOHNV9ujHsg9_wHjuA5rv8ax-ynFcebZzTaEzcBLuBJ54cL4WIGwpitfF_VQM63i8ZI6FWbY7gzzIzm_VwdBk_W5rIaEYwnjXwXrcOOyAqKefXk_jfRgB_2WhccSq2ATFPKlq3uJ7hWqidTaWb8N9ZSO0uPS1dwWev69G7n5Xqpj4fwV_mz8M8s0dICCFCc6nsYCJszg5zoXDnXbhr-MauorUqp_uYeQbOqyJfA88MZuVl_vkTvztiF2eIKVLPgjm6tnZqVDN039_vNI2Uo-KnD5y0xWh5wfOwpl4MD7-W9fKmlsoroRyxGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102115710478384263142\">mazeos mazeos</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLd4Vn4jfnyPYmK5Fn3s2GNFRAf7G_ImvC9vS6mdY8isizAmPFktrVY6-cQEq2oKWN-jX7IWZBp2kWF3BMTiGxw8e1DJchpoxwwHQE4r9lqaE0zNPOX0KUa8lpFSBaIz7Ul-ddkLfcfDm-uxI0bP4WwCTtAFafy_GthyXvRNfkRLAytlGTrovXcirY-wuswN19MKIKl2TAqy3c5dT0SpPF48iCD6YsdRLv-D3uO0nTXgSu1-NkItjTc7sH8jmePzZE3h3YVqTVn9V6vQVQA8xqB8xpp-oQTvraa7BKYsca1yBJ0M1tyZIkv9RZ8sA7Ar6VujA1szpPVS_HxEicu0Xqb_bJNzszufBvjWW-fSsyBD_CbYd0yI9S5o_7y6raOgua3ah5zkOYFrUDjtPMuUls3EnpbCARvC-SkzSaMwZ9WRoQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101996764374869687473\">Adrien Delmotte</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLfzr1J0Jct1jz9GBPV0u57kfLwEARmuonzsN9m8so1iXucKeAXVrZfurw7Ib-8VXFeZ4nxDqZhg0cVxDobWoD8NAZLoVxq6tHiOQfGg80EqlP6vqO8odQYYtcnkAcaWsXawRMofSnOhF6RE6sA5f4vbji_GtuO74vfkzBifXqJ5C4UBEMgJAZRwmWgwYwvJichHfMycpaMn0XsIhHNzV5L_LKFG8jaWtHzLGE2_xQzs5cjx4ypotx24z0cANQG_6sHugg3Zd7RREfa9M3oDqUVE5IRh0ewCPdJju94eews_OR8xhFdwEHYS17Q2do0kx9XH1TNGRR0QiW2ZS7KCKMUxbLKWzWcR-Gj2kDEbrkqBfmFh_LQMmz-vFBRMmb3bD_KLj02lWXam7UXcUu6HMClvrkA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101346425102442620698\">Igor Pagart</a>"
+            ]
+          },
+          {
+            "width": 2322,
+            "height": 4128,
+            "photo_reference": "AV-0GLc99GlkEvDbFK7PxLY9zgxM9PtYfXS-m0k-OjjAJ95_J5IhdhLQVVz9Ccu32UjJ87Popx6nVKZqV5pn87AoVTZApchn-zMqybHMfeluD1-sK8DSQAlwlUW3at0H502SNiGz6WzXhj1WK9tRJq0VbuXtlZ-qayGoveeu53IqmpilMH_KRqLmQ1Q8Cb02ZXtB1PS3Tqv8STfEyMD6ETi1Lm_mZTCfbuDLfjGETzZaIO3s50E1oodtepEmYf9j2UnuAVtMacd_jL0k4RcBBCVwAVk5ao84r-W0_nfVkRS4wClVb1_GxIJanyBFgX-AVSWgQ4i4yBiXwRenfUNNZoYuXeqMI3RuMBFxK7Q7rTJ6pYiMzMz2KWiYN8t12T_uVPAoaoctETmT7cWu5L0qMbEIkyAqrN3fijGwZx5oHeVyMNq4Rg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116217019374705228180\">LA FLEUR DE HOUBLON - L&#39;ESTAMINET</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLefXnGSp_72-AJrcZvkFmBb83tUFB1IZUXl7hTrBpA0ihWeozhnXgrBMXqJLjoh0nc_r2NMfbBvcdQDgmb9_KbGvc8n5LzhDmSzQuzmygjlwnVuFqbd7afL0Rh3OwNBAEDtS1pL-rMEeHt60vKtMWWLipMcpv8avNqJGYW89zFgW6e5MgN4t-DLgoWyaZD8v-REClQTPb-2YORNjFlp5EMEoa1YzhZiGgYPkf-7-EqQHSxgoQs0zFYFbpy0NDdoQjvC8Tg8jxxBUQ6t1YbYyzwNm9xJV8tZlXH876pz1nK_62oYAPLOyXSLD4Thm9r9AekAhNdfqDuCUMrDK3A_YW6Qi2I6PcqUaRc38MCvFN9NJ2LZwvMY94_NH3Dq1HOZ-wJFbRSZ9-7oLbKKN_FPgbtnWVHFVVVoZYOxqw2zlIQ04Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100028472525851482890\">Daniel Denis</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLe-kyHj1teJyWoZL45fK2Y5FrQJaeeKvZTlRFSGmd9mfp0Q_50X98vHyQ_hAfunezixTFW2nOFavpHNMUpdwSDlLboFg2Xz_heMYNiOwcBfAlztos7nK4MSpWsxZo2OxrnIgQhf4r06NDno28P3VeH2-RVvk_JZn3Ps2bw8b0gNEvS0t79TRivQ1_5gdSJwHYu2yaqch6ydz0s7R4h5uFAAz34U0Z0pJiJ0seGcBV981jWqrGjufrqF6NG-9ADXbnvBqTTLqgeDwgiDVzCfo0wX-NBIddaSifcTbin4_TdcP9mOG_jvDqD2PGiXLUvtb3aVOkFKXRHgmDkNb34IRN2amihQKQCm2G4OHQjOktp50JjNQeoE8yloKiWSgMIeYYkOyPEucyznSUr_A5qMDH71qxA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115083317453243377729\">U. Bras</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLflH8Ji-5Oje51qpbjQSZ7viorQ_I6mDOgELVMCDCh-jwCXpMfvRykamOuqwxM9kA3zRZqS7IFuVTdzUaRTtjk3vx4aRR_Nw3kmCGrlgYpdwryT17ElPBLE079hKSeB1aePORRFoY_JPd5f8OA0prbgGKsCA88JtwYSL4Mhgsgzg8q0q4WGkXysZlkugxuIftWA02cWyZRZEEJiuNOXiIoXReN_54dz8ARcvezIK_WW6dF0OVYdvJrwwCB6H0sh5gBvLa9GMHtxmcZMVcPbZJYWVanJdLobV1RJ-1vOaupQ4Y2MOj0Z-zkBXIlSO1Ic-_Fujey1wWjz04OeRD4ynL8ad13wRVcjbPghERjqwi3s4up7aAmag0nPy8-0kZd1Qn9i83-56e8ffh06oIC1_84Q-7xFBfDQmzZSH2bO1-aUPw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105332529918032461151\">Chris Hugot</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLcsYNtCXSXZxFfoqS-SO77iHFkXs_ieoOUkY1Qr9V_W6UUYnDjkLUJIM9GeTQGiXPKuLUYJvIOPsWjEpeH8i-8F_MSEFCjDQLZNW4HUYuYdUpl6iryX0ot65SA991k2KfqxxMmjwFc63m4OYKEiNbgQpew_VcVqINbQFTMegYhYA3KSWAJQU3TCezzdqdlTE55QTniDPSiURLJNnkRZJut1CxPXMulf6UWusSAzeNvz-i-IBmtVCHzGeH5IASfZTGywjI1JzVi3smMYYyc9Td9LILr08WS2GwHfKxIlvGVqadFjmx-U_w4cFFVQt8iMdSAbL1DGQ-wkuGBHjoNzq4-o-JSOahlIWNRuT7ROpk0NZ1t8vkSQGMoJQfzR3_CP-tz_YsImBhMohyR847Ji24PQ0FTYEey1B4sivlM8KU50",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113267119779340403000\">Anne-Sophie Hamdache</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5891
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Cuisine traditionnelle, régionale et à la bière »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« bistrot flamand chaleureux »"
+        },
+        {
+          "string_id": "rustique",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« décor rustique »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« bistrot flamand chaleureux »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« Cuisine traditionnelle, régionale et à la bière »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 plusieurs jours."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 19:00 à 22:00 plusieurs jours."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 plusieurs jours."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 19:00 à 22:00 plusieurs jours."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bistrot flamand chaleureux au décor rustique, proposant une cuisine traditionnelle et régionale à la bière. Horaires renseignés pour le déjeuner et certains soirs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-fleur-de-houblon-l-estaminet",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "rustique"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5891,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "90d799ceea5f7cdeb5270564ff11aeb06decbde011c2bc533cdb37d1e74e5da0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

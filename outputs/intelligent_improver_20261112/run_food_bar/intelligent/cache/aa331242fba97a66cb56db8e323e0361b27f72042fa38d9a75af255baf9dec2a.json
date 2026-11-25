@@ -1,0 +1,45 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Une merveille de boulangerie pâtisserie »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« le pain polka est céréale simplement une merveille »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "« Boulangerie pâtisserie artisanale Delobeau Phalempin »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "« Boulangerie pâtisserie artisanale Delobeau Phalempin »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie-pâtisserie artisanale appréciée pour ses pâtisseries et son pain polka aux céréales. Les avis mentionnent aussi un accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "aa331242fba97a66cb56db8e323e0361b27f72042fa38d9a75af255baf9dec2a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

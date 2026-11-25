@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: \"restaurant\""
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert tous les jours de 11:45 à 14:30."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert tous les jours de 18:45 à 22:00."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Horaires quotidiens : 11:45–14:30."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Horaires quotidiens : 18:45–22:00."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne documentent pas le menu, les régimes alimentaires, les modalités de commande ou de paiement, l’accessibilité, les équipements ni l’ambiance ; ces caractéristiques ne sont pas renseignées."
+    ],
+    "summary": "Restaurant à Lesquin, ouvert tous les jours pour le déjeuner et le dîner selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "67bc4847a443c061cc5c08f8b7f32e1c696d5a98e47ac2c9b65e89875c78d98d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

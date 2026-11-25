@@ -1,0 +1,117 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:40:36.118483",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 40,
+      "title": "Les bonnes adresses du Food Mood Tour",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://reservation.lilletourism.com/balade-gourmande-par-le-food-mood-tour.html",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "balade-gourmande",
+          "principal_activity_category_string_id": "restauration",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "apero",
+            "cuisine-immersive"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": {
+            "name": "Foodeez Food Tour",
+            "description": "Le Foodeez Food Tour est proposé du jeudi au samedi, à 11h30 et à 18h30. Le rendez-vous se fera place du Général De Gaulle, 10 minutes avant le départ de la visite."
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                4,
+                5,
+                6
+              ],
+              "hour_list": [
+                "11:30",
+                "18:30"
+              ]
+            }
+          ],
+          "element_access_prices": [
+            {
+              "name": "Foodeez Food Tour",
+              "price": "52.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "découverte des pépites « food » lilloises et leur créativité"
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "découverte autant humaine, culturelle, que gustative"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "vous ne mangerez pas forcément de spécialités lilloises"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "vous ne mangerez pas forcément de spécialités lilloises"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Portions généreuses et convivialité assurées"
+              }
+            ]
+          },
+          "primary_image_url": "https://reservation.lilletourism.com/medias/images/prestations/mise-en-situation-du-food-mood-tour-66567.jpg"
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 40,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 81,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:40:42.740009"
+}

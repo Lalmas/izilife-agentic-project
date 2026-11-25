@@ -1,0 +1,40 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Boulangerie Pâtisserie Régis Slomiany"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: patisserie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 07:00 – 12:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie-pâtisserie située au 9 Place Roger Salengro à Hérin. Les horaires indiquent une ouverture en matinée."
+  },
+  "meta": {
+    "cache_key": "3ed7c23a70979923c72b190868f392099594319adc5db741df2edc48f249bf2b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

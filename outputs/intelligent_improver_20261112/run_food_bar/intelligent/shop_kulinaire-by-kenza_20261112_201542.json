@@ -1,0 +1,519 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:15:42",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "kulinaire-by-kenza",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "kulinaire-by-kenza",
+    "status": "found",
+    "data": {
+      "id": "5745",
+      "name": "Kulinaire by kenza",
+      "shop_string_id": "kulinaire-by-kenza",
+      "unique_id": "0e2efc3a0d00a7315593abaaca23e251",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55002",
+      "principal_cover": "55002",
+      "qr_code": null,
+      "phone_number": "+33979036680",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Rue de Valenciennes",
+      "additional_address": null,
+      "zip_code": "59500",
+      "city_id": "254",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.083823",
+      "latitude": "50.3673155",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:44:39",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:44:39",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJXY-9H2_JwkcRCps5wlyxUW0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5745,
+      "scope_type": "SHOP",
+      "scope_ref": "kulinaire-by-kenza",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "douai",
+      "string_id": "kulinaire-by-kenza"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55002",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5745_6af39e57979c7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4804",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33363",
+            "source_hourly_id": "4804",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33364",
+            "source_hourly_id": "4804",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33365",
+            "source_hourly_id": "4804",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33366",
+            "source_hourly_id": "4804",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33367",
+            "source_hourly_id": "4804",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33368",
+            "source_hourly_id": "4804",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33369",
+            "source_hourly_id": "4804",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "kulinaire-by-kenza",
+      "google_place_id": "ChIJXY-9H2_JwkcRCps5wlyxUW0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 18:30",
+          "mardi: 10:30 – 18:30",
+          "mercredi: 10:30 – 18:30",
+          "jeudi: 10:30 – 18:30",
+          "vendredi: 10:30 – 18:30",
+          "samedi: 09:00 – 19:00",
+          "dimanche: 09:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfDMLm--ziWF8LKzccHTMKbCajhlOxE1nLIbTq13B9tKzFsv2LsW2w3NFI3jEq-JOBdITFj-cuB5bmVxhs5-t3HLOKuYf1ewU_wLXDn4ju_rsBRQXiGb6xzyGv-UxUcu6mbFnDvnERlMMBHDz84TNfEmdODiqMnHyxyScMMd-vkZFkxtSuPYy46eUq2WlfVIcNS0vadZeESkktzR6dz3vwUKxeFSHfHJb_ECJ4uqRA4Mn9BN_bii6wTI-DQS5ubguBUCv4k4qg2b0wpdvk6dMtj50Jh-rMtAKDC34ItafJlZg5H5Voe7YKYeWDn9p077HbZEwM7klxfcbqb2W1t528M-i661RVc4qrpnFiSX6eXj03C-X0ddi_KzKdQkUdF_sRdk5TAhrcqE_fswG6rh6wMsvm-uCk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113058795128518880899\">Kulinaire by kenza</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeVogqqmIs2Rzpv4kWe7eo0_LImfVHbmlFYahsdccj9sTuGFV7GSJNUgQINNbayoxBU0I7Z_wLG6O--tRCF4GmtZUjD1LUGw7_ZZ5MR6gO_miLNIrqoyu1FrBg42C1htTudEFQmzUctVMunwy9EOsn2vBjvuQw6Gyi7UrycS2Xu6f8pEe8p2f7lm-NgV8L5TshaOQgkl-uGexVtBTdZr71AN5FTUx1coyXQM2rpSVduAZylY4Jjp2N9u2QscQ2ifZIHyXmolOT6TaDxXIJOQpG1JTXQ7iE6SuYognyPAd8jI9AShNLCBY12VKvzsj-n1noU2a-Wl78OL6CyxdX3vN-C7kvI-lIcCY2fiFqhdR3koqth-4-aASY7p4XtvWRpoVsmV42xvJAalvEYZeyzPntukqNMvjV0Cku7u2tXKz7hHA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111822732249101661207\">Jérôme Drumez</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLchWgUTWVMeUxwSgTLHyZCqhKbqw5gdZu1WXNq686V-dDhtMUG9sieolAwR4TUZ57MY-UOpzphbNrfwx99yzRpYjwjlM5h7pBBjDPWmEPlNuNQdteQe6y5qBZRLGwCmfFpxpc2Ng_STi4cxllFLWXFPoBMfx_r9xYVo3k9pMO7xpnBKB8XklLG_JjDUxMUTC0g6Er9J5-n-187WBsObPRtO4ZHLJz4GJxH8zjcEg93SJztAfB2peSWCrOLctYr7LFpPCF1cOo3X902_PwRiXoIStzC83vRwPuu4HlWZpeAw3GhENmntYJ5HRv5SWvgYBZW6ZUQmowM_JJzXdrs4oMpeM4flIRblaJayqiQA8rj2lukpW1lae3l-Taki5ltPAxCSVujiRdr5nyXqRsd0D-WWeL2ZVjc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113709096928923171625\">Gėdėon Brulant</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcoPCuhls7hnQVtB_3ygaGLtnfV0nEnApKIK42BBRvRHizBrqBKxx5Eo8Mar0nOViotRvXIVuKTREsg4ssFRbwnC61wxCbmuzd2btxgocNcfDofUg5SlNiFfcHpNMYwlqrfYDd4JxvL6e-kndrZZl963SAHDwh6CSFSVKzBPTEoIh69yYb0bOxuQ9RchpDfmFQsGGaE3qnNBUwsyDYYXi8EWtPUnFGlOiyA_n3dLhxxi-WL4PB087vZmqWa4LOGpdb5KSOUg4XMCL2uqPtgB4teDGbAdfvM68-3DP3qf3oGTFNSgicogyxhapJtSOT0IKYWo-OqKe9GCUDxY6O0bo-QFnJWaQX8wN6Mmy2WzjrIYXTcAAkr2Vcow4Uk_y5RdbZPMcEzek2DTbYoMtHWByy6ZZMZHdO-gcuzpVkFOcFXdQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114012460146194386120\">B D</a>"
+            ]
+          },
+          {
+            "width": 750,
+            "height": 1000,
+            "photo_reference": "AV-0GLdtDliEj0i6K-TRG7F9FCd_oW39pKzCcBQRElfStYhiWLcKa9OpgrznoUVH8dL10wnlhjPcJkC4R7Tw0EquGJFTlacYwg0bIahofHnEGTZHBweWBaaFPEFccx4zr8AVGnpl-0ZPrYawpwWTjtWMrIxTNrz3VAs2BWugAmE1gcO92Xs5fMumHZwIEFHnfcOvfg0kMID4v4W6zqybanHzxLc5X2d24Fju3gm78M8okxkwxPtqgVG83VwFeuUmd0nI_LPQtcCAkdIpVTolVCbcJehl681x4ZZEc2xiMbGLFDPUhEaYu_qc5RYmqz1T1WjWkjZzFbk8ec3IgUHDj31KnYvJRF26RxYxrAKluUSQOi0sUlF1UzxZu3sTirioxY8Mf_f1vSBodmkleeCPxvjn5xZ4-CYgFAVU_0z21O3WtfIQNg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112158150317550509347\">Rebecca Landou</a>"
+            ]
+          },
+          {
+            "width": 3888,
+            "height": 3019,
+            "photo_reference": "AV-0GLfRj3HWZS6B-DIkS8mW4Ifq9A6XjQCOLo_GJ0R1aNjuac_rGG_S9iJFGyi7lwOM4r_XY9jcsVCnB6-4CBS52-G0aJMmQ_JpVnbZpSdLW5Uf36Za9kH258EliPCgCKqIcWiJY7bXXyaE6HV0BO8ioqL6MNLwWtCdbHxHpFJuht_EGU7mQ-QrdRXrAhDwbd088-4emo4yzvQwNilVPn94-ffFYdlKm13sKPy0x2g1IB91g67KIZHmNq0m4xSVncjbwU8mD8GmUPU9NxMwb8JO6SmRMRQ7ROCdLhxNzMgPffT2y3kuf2eCMDe_j0W8thPrwkS9P6_wUJt0n5GiX53zhvKb57kTEqrpbPINnpfbQEqBUETGDr5IsUf3zVKuGMazy938byN432_8xYhYhbtCpcp36RY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114407906341052275990\">Jean Marc Hermann</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeaeoyjdzkEPOgRSwyG6bJMgdFV-GnMhc7G71Bfe_F_c2bLmy9zWia3aarjxDlTtWLGMhWeJ9QOoTQZD2jfTnWQ6UyiDSQeSUGfuKB-QWMxoK1rxZgmjhNTRtw5vQs_s_B_Ewd1MP9Q3dymMU4AvkIkkZwFWFYFLvxulKzDcZgOlKsnQHDJXgrV7ASVcuREZpc2IQo9KNk7cTpL4t58E0u9XLgG2CF26nZ_aXH2NMgCnWb1URngXSZOeV5PnpaG8Axf7upTqojvR7Q8KWK9KfjtuqJ36C6LSz1sxFapvnOOuDVZI9QC9eEmMnrrXf_oNc4MkOj4gj7IvUCt8aSuHlYKAVaiK5gT0l6SasBVar0tG-1qIwlVM4j2K8esFNrv-FSzoI55s3512z_k4gBYLtJrCAeeCyjhYlnVrlfO6QiQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102112829495771143125\">Hauru Ichidaru</a>"
+            ]
+          },
+          {
+            "width": 1254,
+            "height": 1400,
+            "photo_reference": "AV-0GLcxzWmGxgvR2VH_pV1Sq8Trz6sod2eL54Vz37DB4wtQmcqRLNHyIlTaseF5X3ciUZbNawj310xAZALXjEi-1-YKao9eYkCUNO9y-09SwxYBW0F4ghMrsPBKNaMf4Og5JdK7_z8_5g4kBhopyfbHCuDZFpZO2hNGy0EWnb4yt_mU15iJQcYJZX0mVd5AlyA--CDkr7TtdEk66mZP-8VM65tZVIDySwORz8fqZy3bL8mAJRqWvoyrBHnrpoOn8FDt3Fo6Yo7v64iS6EiXfFzFxQmePo3Kg0rT00kmi-FXsJdtnnpl1B2gsmBjkEF-566a0Dsk8jU-BqaPc_a1vG0748IuycS9pW-fmps6byuHnu_I84tjDQit8fQFmWDRggDgKKz5ojwD_P1-AHloeXzz2liSWqhEOdGAG-kDOoDR8H6G",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104898206911909420730\">Zakaria AFIR</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLeOydn8DTycWXRWIu8kO50femgcw6PPJoiMOSHsGDsPhWsqCptUEIhwshA0eDZYYZxmtHPYyypM_kFwFuwWTUcJ7ZDeu0Shgq1_8KC5nQRoWxaIriVK0tipBTQYz_pC2_JYU1F1YeYKimyGNCo52bQAnX6O4K2GkwoTCQtt8KsjjbzCvDXOitVSltj9lHl2l2Z1pS-qNlFrkHZTnD5a7GgOJ4yxudgW0oggOPwR_ctIA7y7Yay9BdvS3l8w21_445wmVgwhXbyeImcGq0VtjoEledThIkfB4RSIXmDUzFlM6m11m08BiRsbSQXd0FxqiPqz6JRdcCcFBZd16I3r1iCv1lFiUra5h0gE4MobRin-bZnJIWIuD9o8NCzC6clJlDGaDJ6lHVJclQT918A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113709096928923171625\">Gėdėon Brulant</a>"
+            ]
+          },
+          {
+            "width": 941,
+            "height": 1672,
+            "photo_reference": "AV-0GLcKaq2kxopTADyHrs64LjYwm5qobC8Mv2rW3qiFZ2sBqBZaftU60NBw0rZXS8GMzFMmXSpiUPoeRGzMaXDAK0vL6w5G3Wg_kKOgwxGb-6Kv0EtBxm8VwH_2FA-Tz1TuTdhDjW0LTFz30mdz5URQrcSu5amWErV7vQrViAWxqEnsljGsp4NVBoF5K9NHLS6scnvNZshDr8oNcJ80tI7SaWktt2mVpVBYyWQCcU8ADOb4y7ZXFYpmnnK9zUoZszueqOA16oSCzqgHPBuZWDKchL3VhhjwYdeaTuUMG1p_aoV6Cwg7VIsFamXaoGeNoj9HJ0qmOX37rQakKcomBtE3cWs37jVt3-0s7EL1nV7L6Ih17QOKsUb14YRpNyCkEXWrTvPmGVPzoB14_Tgoqr1KUTa8Y3zgI5NG_7fKDgSDuvrq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100641643336107463219\">Benjamin Rousseaux</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5745
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 09:00–19:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 09:00–13:00"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:00–18:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne décrivent pas les produits, la consommation sur place, les options de commande, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie Kulinaire by kenza, située 2 Rue de Valenciennes à Douai. Les horaires indiqués couvrent le matin, le midi et l’après-midi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "kulinaire-by-kenza",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ],
+      "VisitMoment": [
+        "matin",
+        "midi",
+        "apres-midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5745,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "07932fef8a7e73957a8715239c585af8ce882300a913914f81e3c6f9190a1861",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

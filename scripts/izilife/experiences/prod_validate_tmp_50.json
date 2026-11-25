@@ -1,0 +1,111 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:43:57.774504",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 50,
+      "title": "Atelier découverte du Street Art à Lille (59)",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.funbooker.com/fr/annonce/atelier-decouverte-du-street-art-a-lille-59/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "street-art",
+          "minimal_age": "4",
+          "language_string_ids": [
+            "fr",
+            "en",
+            "es"
+          ],
+          "hobby_string_ids": [
+            "street-art",
+            "graffiti"
+          ],
+          "age_category_ids": [
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Prix par personne",
+              "price": "50.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Une super activité à faire en famille, entre amis ou à l'occasion d'un évènement particulier !"
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Jusqu'à 10 personnes"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "À partir de 9 ans"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Une super activité à faire en famille"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Jusqu'à 10 personnes"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.9,
+                "evidence": "Super expérience avec Matthias ! Nous avons passé un super moment intergénérationnel, à la fois créatif et très convivial."
+              }
+            ]
+          },
+          "primary_image_url": "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/sdptpoyidpgmvbaoguvk",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 50,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 91,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:03.638257"
+}

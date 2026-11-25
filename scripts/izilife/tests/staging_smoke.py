@@ -8,6 +8,7 @@ rapports JSON et Markdown PASS/FAIL.
 from __future__ import annotations
 
 import argparse
+import ast
 import compileall
 import json
 import os
@@ -37,6 +38,7 @@ class Agent:
     script: str
     folder: str
     workbook: str
+    required_headers: tuple[str, ...] = ()
 
 
 AGENTS = (
@@ -183,7 +185,10 @@ def inspect_workbook(agent: Agent, zone: str, env_name: str) -> Result:
 
 def init_checks(zone: str, agents: list[Agent]) -> list[Result]:
     results: list[Result] = []
-    with tempfile.TemporaryDirectory(prefix="izilife-agent-init-") as tmp:
+    tmp_root = REPO_ROOT / "tmp"
+    tmp_root.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="izilife-agent-init-", dir=tmp_root,
+                                     ignore_cleanup_errors=True) as tmp:
         env = os.environ.copy()
         env["AGENTIC_DRIVE_ROOT"] = tmp
         for agent in agents:
@@ -193,6 +198,32 @@ def init_checks(zone: str, agents: list[Agent]) -> list[Result]:
             if result.state == "PASS" and not expected.exists():
                 result.state = "FAIL"
                 result.detail += f"\nClasseur attendu non créé: {expected}"
+            required_headers = set(agent.required_headers)
+            try:
+                tree = ast.parse((IZILIFE_ROOT / agent.script).read_text(encoding="utf-8"))
+                for node in tree.body:
+                    if isinstance(node, ast.Assign) and any(isinstance(t, ast.Name) and t.id == "COLUMNS" for t in node.targets):
+                        declared = ast.literal_eval(node.value)
+                        required_headers.update(
+                            str(item[0]).strip().lower()
+                            for item in declared
+                            if isinstance(item, (tuple, list)) and item
+                        )
+            except (OSError, SyntaxError, ValueError):
+                pass
+            if result.state == "PASS" and expected.exists() and required_headers:
+                wb = openpyxl.load_workbook(expected, read_only=True, data_only=True)
+                present = {
+                    str(cell.value or "").strip().lower()
+                    for ws in wb.worksheets
+                    for cell in next(ws.iter_rows(min_row=1, max_row=1), ())
+                }
+                missing = sorted(required_headers - present)
+                if missing:
+                    result.state = "FAIL"
+                    result.detail += f"\nColonnes réellement absentes: {', '.join(missing)}"
+                else:
+                    result.detail += f"\nSchéma contrôlé: {len(required_headers)} colonne(s) déclarée(s) présente(s)."
             results.append(result)
     return results
 

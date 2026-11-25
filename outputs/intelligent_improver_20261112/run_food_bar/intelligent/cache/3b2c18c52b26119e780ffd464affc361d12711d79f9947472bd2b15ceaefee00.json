@@ -1,0 +1,234 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.98,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "Parfait pour passer un moment agréable en famille"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.97,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "en famille, entre amis, ou avec des collègues"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+        "evidence": "Service à table"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.93,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "Que ce soit pour boire un verre"
+      },
+      {
+        "string_id": "produits-locaux",
+        "confidence": 0.99,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "produits frais locaux, issus de la région des Weppes"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.94,
+        "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+        "evidence": "Formule Express dès 12 € HT"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+        "evidence": "Service à table"
+      },
+      {
+        "field": "adapted_to_handicap",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+        "evidence": "rampe d'accès PMR, toilettes adaptéés PMR"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "Parfait pour passer un moment agréable en famille"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "entre amis, ou avec des collègues"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.lebistrotdesweppes.fr/",
+        "evidence": "Carbonade flamande — au pain d'épices et à la bière blonde"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://fr.restaurantguru.com/Le-Bistrot-des-Weppes-Sainghin-en-Weppes",
+        "evidence": "Terrasse extérieure"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "atmosphère conviviale et chaleureuse"
+        },
+        {
+          "string_id": "champetre",
+          "confidence": 0.98,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "au cœur de la campagne"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.94,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "ambiance décontractée"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "lieu pour un déjeuner entre amis"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "dîner en famille"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.91,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "pour boire un verre"
+        }
+      ],
+      "DietType": [
+        {
+          "string_id": "vegetarien",
+          "confidence": 0.95,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Plat végétarien possible sur demande"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.97,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Française"
+        },
+        {
+          "string_id": "belge",
+          "confidence": 0.91,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Carbonade flamande"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "carbonade-flamande",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Carbonade flamande"
+        },
+        {
+          "string_id": "welsh",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Welsh"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Burger BW"
+        },
+        {
+          "string_id": "saumon",
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Pavé de saumon"
+        },
+        {
+          "string_id": "grillades",
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Grillade de la semaine"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 14:00, 18:30 – 22:00"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-table",
+          "confidence": 0.97,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Service à table"
+        },
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Livraison ou retrait à emporter"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "livre vos plateaux repas directement au bureau"
+        },
+        {
+          "string_id": "reservation-en-ligne",
+          "confidence": 0.95,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Réserver en ligne"
+        }
+      ]
+    },
+    "warnings": [
+      "Les horaires affichés dans current_izilife et sur les pages consultées ne concordent pas entièrement ; à confirmer directement auprès de l’établissement."
+    ],
+    "summary": "Bistrot-brasserie proposant une cuisine régionale faite maison, avec des produits frais locaux et des spécialités comme la carbonade flamande et le welsh. Accueil annoncé en famille, entre amis ou avec des collègues ; repas sur place, plateaux repas à emporter ou livrés, et accès PMR signalé. Les horaires en ligne diffèrent selon les sources."
+  },
+  "meta": {
+    "cache_key": "3b2c18c52b26119e780ffd464affc361d12711d79f9947472bd2b15ceaefee00",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

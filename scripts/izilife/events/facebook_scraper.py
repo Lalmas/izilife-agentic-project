@@ -474,7 +474,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--env",        choices=ENVS.keys(), default="local")
     parser.add_argument("--city",       type=str, default="lille")
-    parser.add_argument("--max-events", type=int, default=50)
+    parser.add_argument("--max-events", type=int, default=100,
+                        help="Nombre maximal d'URL Facebook collectées par lancement (défaut: 100).")
     parser.add_argument("--dry-run",    action="store_true")
     args = parser.parse_args()
     set_current_env(args.env)

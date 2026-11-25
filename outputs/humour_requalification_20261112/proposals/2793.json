@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2793,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.83,
+    "evidence": [
+      "Le descriptif présente un spectacle humoristique porté par Sofia Syko.",
+      "Ni la forme stand-up explicitement annoncée, ni un spectacle solo écrit et mis en scène, ni un plateau réunissant plusieurs humoristes ne sont précisés ; la catégorie existante est donc conservée."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme exacte du spectacle n’est pas explicitement indiquée, ce qui ne permet pas de justifier une recatégorisation."
+      }
+    ]
+  }
+}

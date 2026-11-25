@@ -1,0 +1,31 @@
+{
+  "title": "CodeIgniter\\Exceptions\\PageNotFoundException",
+  "type": "CodeIgniter\\Exceptions\\PageNotFoundException",
+  "code": 404,
+  "message": "Can't find a route for 'post: scraper/agentActiveEventQualityCandidates'.",
+  "file": "/var/www/html/izilife-admin/system/CodeIgniter.php",
+  "line": 987,
+  "trace": [
+    {
+      "file": "/var/www/html/izilife-admin/system/CodeIgniter.php",
+      "line": 987,
+      "function": "forPageNotFound",
+      "class": "CodeIgniter\\Exceptions\\PageNotFoundException",
+      "type": "::"
+    },
+    {
+      "file": "/var/www/html/izilife-admin/system/CodeIgniter.php",
+      "line": 370,
+      "function": "display404errors",
+      "class": "CodeIgniter\\CodeIgniter",
+      "type": "->"
+    },
+    {
+      "file": "/var/www/html/izilife-admin/public/index.php",
+      "line": 79,
+      "function": "run",
+      "class": "CodeIgniter\\CodeIgniter",
+      "type": "->"
+    }
+  ]
+}

@@ -1,0 +1,503 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-09T16:56:08",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+    "status": "found",
+    "data": {
+      "id": "5146",
+      "name": "Auberge Du Forgeron - Restaurant gastronomique, bistro et Hôtel de charme",
+      "shop_string_id": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+      "unique_id": "f6507d2806e587369d300a2e8744cc4a",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "1",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Hôtel chic offrant chambres claires avec Wi-Fi gratuit. Restaurant haut de gamme et brasserie conviviale.",
+      "ai_description": null,
+      "principal_picture": "51033",
+      "principal_cover": "51033",
+      "qr_code": null,
+      "phone_number": "+33320900952",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "17 Rue Roger Bouvry",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.029219",
+      "latitude": "50.549014",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-10-27 12:43:49",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-10-27 12:43:49",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ07IKK2XTwkcRIjparABIqyA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "source_id": 5146,
+      "scope_type": "SHOP",
+      "scope_ref": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 2,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "51033",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5146_1793101430_b9366438c4cce1a6fbaf.jpg",
+            "sha1_hash": "73540865e70c9277aeabff7f2cab4dc65e2de26b",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [
+        {
+          "place_type_ref": null,
+          "shop_category_ref": "bar",
+          "position": null
+        },
+        {
+          "place_type_ref": "hotel",
+          "shop_category_ref": null,
+          "position": null
+        }
+      ],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3943",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": []
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-wifi",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "Wi-Fi gratuit"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "Wi-Fi gratuit"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "haut-de-gamme",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant haut de gamme"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "restaurant gastronomique à Seclin"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.96,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "grand salon récemment entièrement redécoré"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.96,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "Groups"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "produits-locaux",
+          "confidence": 0.98,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "meilleurs produits bio locaux"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "restaurant gastronomique à Seclin"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_groups",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "Groups"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_handicap",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "entièrement accessible aux personnes à mobilité réduite"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "interior",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "un grand salon"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/brasserie-estaminet-seclin",
+          "evidence": "vins BIO ... bières pressions locales"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "sell_alcool",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/brasserie-estaminet-seclin",
+          "evidence": "sélection de vin au verre"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_stay_for_sleep",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "un hôtel de charme 3 étoiles de 14 chambres"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "have_terrace",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "une charmante terrasse"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chic",
+          "confidence": 0.97,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "restaurant gastronomique ... hôtel de charme"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "a warm and friendly atmosphere"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "Midi : Ouvert de 12h00 à 14h00"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/restaurant-gastronomique-lille",
+          "evidence": "Soir : Ouvert de 19h00 à 21h00"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "dormir",
+          "confidence": 0.99,
+          "source_url": "https://www.aubergeduforgeron.com/fr/hotel-charme-lille",
+          "evidence": "un hôtel de charme 3 étoiles de 14 chambres"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "apero",
+          "confidence": 0.94,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "The Wine bar"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Occasion",
+        "item": {
+          "string_id": "grandes-occasions",
+          "confidence": 0.95,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "celebrate great occasions"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Occasion",
+        "item": {
+          "string_id": "team-building-seminaire",
+          "confidence": 0.94,
+          "source_url": "https://www.aubergeduforgeron.com/en/restaurant-estaminet-lille-seclin",
+          "evidence": "Corporate seminars and events"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Auberge de charme à Seclin réunissant restaurant gastronomique et bistro convivial, avec repas sur place, terrasse, vins et bières, produits bio locaux et chambres d’hôtel. L’établissement est accessible aux personnes à mobilité réduite."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+    "operation": "ADD",
+    "tags": [
+      "bon-wifi"
+    ],
+    "principal_characteristics": {
+      "wifi": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "haut-de-gamme"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5146,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "31ff34ebd6075a89ab9d9b4d6654b04e62748e4097dfa6e8d44716af6123e396",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

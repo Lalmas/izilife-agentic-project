@@ -1,0 +1,420 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:53",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-ch-ti-bar",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-ch-ti-bar",
+    "status": "found",
+    "data": {
+      "id": "5799",
+      "name": "Au Ch'ti Bar",
+      "shop_string_id": "au-ch-ti-bar",
+      "unique_id": "f91d067213fc74c41ee1baf10367045c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55053",
+      "principal_cover": "55053",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "13 Place Jean Baptiste Lebas",
+      "additional_address": null,
+      "zip_code": "59261",
+      "city_id": "629",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0366623",
+      "latitude": "50.486376",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:40",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:40",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJhXDS8WLSwkcRTQKeDRH6pjw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5799,
+      "scope_type": "SHOP",
+      "scope_ref": "au-ch-ti-bar",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wahagnies",
+      "string_id": "au-ch-ti-bar"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55053",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5799_6af39ffc963dd.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4857",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33734",
+            "source_hourly_id": "4857",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33735",
+            "source_hourly_id": "4857",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33736",
+            "source_hourly_id": "4857",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33737",
+            "source_hourly_id": "4857",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33738",
+            "source_hourly_id": "4857",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33739",
+            "source_hourly_id": "4857",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33740",
+            "source_hourly_id": "4857",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-ch-ti-bar",
+      "google_place_id": "ChIJhXDS8WLSwkcRTQKeDRH6pjw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 20:00",
+          "mardi: 07:00 – 20:00",
+          "mercredi: 07:00 – 20:00",
+          "jeudi: 07:00 – 20:00",
+          "vendredi: 07:00 – 20:00",
+          "samedi: 07:00 – 20:00",
+          "dimanche: 07:00 – 20:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdY3wrIiXjPnHRSg0dji5XOPIRLCvYsCNO8w5pleKWEdmPGsaB0XbWhfEYj5YCpWyki48vj9LsMxbX_cTcQiv0JEvYxWdKCEU8ygLsSen3d2MG0bpuk4lhhdE2G_3k9lZi1kusFjtcEUR5XoZ65buhkKU5Zbo-Qr26_uYOnzW1LcEktC_3C0IgWT3sCNmSpkd-7UcZYoaiPjqUbEdVZxwSDi94sDENsNA9AJ6X5bzQkRWrsFNlxmW9yoxJPtjqwjegxFiBsx3jgMjU0pdkOS3jRc4eHGnRRAj3bX2N5ueG7JFi50T83KsH2aPKPgSEjhb1wlF0j1pNdI7r3o-CIxNu0LCwNeV68jhd5HCVf2EBgD9lMBcdhIIKXprM3Onc4sxMf5PdTPyw6FRX-xSu5xJzfsCfWlhuitwJhk8fgWSWj",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101661044851831023965\">Joel Fraud</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLebzBK3G5kIS5-pCoRHJGmaRjz6KOeN2EmdBMaNqINiOmqnJgOdLBzv9gEATfnZLVJ3R5xp1e3xxO_XbwT8XsEvoGdsUyXvRGp_Pkz-8U9EcMlMnQAalqo66dBZJUG7qgFZY9kA4Q6Xozx_70xVWTI-5p48CbDGyzABnC9AZ92h4TEG_kHwUOa5AOUlJJ30bEml-_SCwuCiLiqazA__Pt_l8FBuwMour2uA8NFtgolz7j1RrNp2EYZvpM15ovTv8mndJ1m4YygJyyraKhGfwLQ6-LXffQUiCkqdEpcHSQ1y1SJ4pYD_lKswSslPgsk_4U0p92XAFgN3lIL6OaqyR9Djc8-LyKGYDt9RReZ3Kd5gvUr761q-OSWRb5vSj8WdbockU8i5tDOI6mUK0bZtDY_9EWdSwhQieJKlJEIBrxaxCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114337441309792355566\">clement peris</a>"
+            ]
+          },
+          {
+            "width": 1288,
+            "height": 1718,
+            "photo_reference": "AV-0GLc8i4If91VcpDGA6qWnO2NgOR53cXOrwJoBKBu5K6kgkx2Fag0IS_K1XVP0n2MSQQI-QbNIsPBn85REzVnJSqaYuGiIoaAJdfJelCfYRaE7hoqi1CjCOk4asp4eXEU2KGCPrXrbSIDCEeJMLL4X3N5IoOFuXDu-lsQMuXQwPp88ISh0p7PN4QwAJE_bgK407Ci_U_7ARMSMXMWp_2ND0lowgArorLa5PEQUUBdKS876JftgkiG--OmsXLMFtCoh1JHknV53DfmP5e5wkh-pWLPypE2bNyRaD_-5BUk1ej2oAP7cH5fiZUApCk6UDTyysGSPxw-ItoxO-1PpMsTSNiqLOZaedoMlvVtpBvAjuvmV_wvDneN9A0nwfF8xUQB7gM02lGwOKCDqCN5oObqOm5sAp9PqlCRS4AhAiSdczNau0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112552252169848322124\">Florent Hottois</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5799
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les seules informations disponibles sont la catégorie « bar », l’adresse et des horaires d’ouverture ; elles ne suffisent pas à établir les autres caractéristiques demandées."
+    ],
+    "rejected": [],
+    "summary": "Au Ch'ti Bar, bar situé au 13 Place Jean Baptiste Lebas à Wahagnies, indiqué ouvert tous les jours de 07:00 à 20:00."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-ch-ti-bar",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5799,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "99b2ebc2cef7b402d9a7e795c72ac4e3dc9a1ce5b57a9d057dd2ac321e1e2352",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

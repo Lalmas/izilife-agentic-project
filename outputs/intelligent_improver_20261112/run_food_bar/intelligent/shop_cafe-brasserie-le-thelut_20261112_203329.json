@@ -1,0 +1,512 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:33:29",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-brasserie-le-thelut",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "cafe-brasserie-le-thelut",
+    "status": "found",
+    "data": {
+      "id": "5861",
+      "name": "Café Brasserie Le Thélut",
+      "shop_string_id": "cafe-brasserie-le-thelut",
+      "unique_id": "432b4077fdad1919708ad7141eaa65e6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55117",
+      "principal_cover": "55117",
+      "qr_code": null,
+      "phone_number": "+33320863791",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue Pierre Brossolette",
+      "additional_address": null,
+      "zip_code": "59239",
+      "city_id": "597",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0678757",
+      "latitude": "50.4709882",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJrZN8H_jNwkcRz1KuCiilNXg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5861,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-brasserie-le-thelut",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "thumeries",
+      "string_id": "cafe-brasserie-le-thelut"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55117",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5861_6af3a25ab51aa.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4917",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34154",
+            "source_hourly_id": "4917",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34155",
+            "source_hourly_id": "4917",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34156",
+            "source_hourly_id": "4917",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34157",
+            "source_hourly_id": "4917",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34158",
+            "source_hourly_id": "4917",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34159",
+            "source_hourly_id": "4917",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34160",
+            "source_hourly_id": "4917",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-brasserie-le-thelut",
+      "google_place_id": "ChIJrZN8H_jNwkcRz1KuCiilNXg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 13:30",
+          "mardi: 11:30 – 13:30",
+          "mercredi: 11:30 – 13:30",
+          "jeudi: 11:30 – 13:30",
+          "vendredi: 11:30 – 13:30",
+          "samedi: Fermé",
+          "dimanche: 11:30 – 14:30"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 810,
+            "photo_reference": "AV-0GLfHFXTG9vW4kJoKc5Z_haCc3N2YbBxq6di9fszkr7vEoFnHU7OlMx47qaTi94I-2YDeTqwRlUONYSjt24Ha2XfndKUJ9r_a5vYStGI4IWmllA51I71V0_DGsqeONy_KhWfML5YqzTKtrTX3d3_W5lIG3TILi3GDz-23Mp60UBamM79jUje_dln5LwZ9VKKsxUX3LrDZP54HZZrwkdrnyzMwFbeOgDNy8XdszSNOWFZnQdPRMtnlSeU_5DG7NMwJMJEOQtvx8D3saCK1xDpOc5HP3ffxNirzWLrJNWpqeGIYyCVpmi7K8ki0tRE3rTBzcZWlrPiCOOmfrFsvhcvOR3ttw6zH-OVlwWHtYONf-lAE9cH712z-_uGxQdna09tD8CgohZrqM2EYvb8CaZ8sZclTMHPCT-4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116290490281133766219\">Café Brasserie Le Thélut</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 2304,
+            "photo_reference": "AV-0GLeUWmoYReVulavnyqTkwm9Jw08PppF09Sn8IywtWfxl9g3E2di4ZJNaWvMnBvXfB_3QHf4TYVQizW0dhJ3nTu1RQCmLL3vO61zhfUuVdRb0OQtvxEmTNgLlKjmcA1uibIGcVVlhwQs_ECM7hntXxYUpv-ew2_VGcApQ0y4lAUgQVFoCTs9_kfIgfLwgGMGHWLz0h91uJleC2qm_DL4YFFLvMInDTc36VNevrJOmUoc8ZnnILzSa89OgQiul0Ye_cFlmvlFMz-FF1Uy6fpPGT59T7n8CiXuyN3F2jxDfOVPSIdpOpgRyksSBJVCnHtgudBGZNYF0mrZsxG-Yoog0CKHNuxYwozr3k-WLqOcm-MnfaKKRMuh8w1iJe-HdpUUO8UbWUmLmA9HBZ1N0eG_pag6OeA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116290490281133766219\">Café Brasserie Le Thélut</a>"
+            ]
+          },
+          {
+            "width": 2822,
+            "height": 2574,
+            "photo_reference": "AV-0GLeyCa7Khqfn4LglpBMGYK7peDmE32qlZxxnMaBjemmGflG13Qy-u4e4iZgsDFFahgHwuC-gVPVTOyO2qR-5VRDh7NcR8kpxG7O2oCC1l5xZd3ZzLaY39Z-G_tSWH0dYLy32aqjuBepEOZnOEpzNeP2adIDZnhxdEtsqT2j_gjNuK2f48eLH2dV-hQkHZVDBiS8yT-ge2K9usBns33Wq8UkNlZ0I-l76NC_BBqejdxcangaYhfD0GprjU_E86Db4HNJvKZNXF4vB9lgkHO_BjwSQusbXSPIRPXtIW-yfWVXPpXQyqGHccSb3lSQvwwQz9r1J9k0yZmzyO3XRbPBBW86ZRECsmElTBsI3qjNdJyJz-sQ2VTUklRnlcKhFTLa9KN7bbX5CEf1PoqyAa1b34frgpI-RV9c",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118086940068203709317\">Marc Wallyn</a>"
+            ]
+          },
+          {
+            "width": 1848,
+            "height": 4000,
+            "photo_reference": "AV-0GLcNyAPVB4w8tM6SV3PKR1XRCqXITk3FakosMnu-KWEcmZUnTSorhBbx_LcKROs7Hl8Br71j7pEYAQTtcBpDyt_qj440danEVc9GcHiXJuca1qJ7rTscb6SHw-dnDUxZa36FkqDofZtl9WVQApqoW4fS9Dg147kvzU0s2Jk4A-IQjP3ofivnnf5ylJiGdO9Fl6nEhciEvy3rY02eHeWbenebd8YOo1brIlyCa1ETwu5icBB46Q7wFwuIKv6Ele0nXuFqmPEzH4VXpgC4sep_UOI0DXhxHRCA4iy2XUpa7tbe7yTpfT9cFCoarg2t0a9u1xSkDKfh5AB5UNdL9WlVM7TAbijIX-njC9Xj2-ihEggQyuKBvrxvSdEIw_eGzsKmiNMCvZDtmFtb7CVIcURxdsDobfvqcsyQaD41dre17cr8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114956006863778344642\">Jeremy Le Phocéen</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLc1ogM_sC1BTgWuvz0XeaenwJ6ln45GQP5W4CJ_-CYARGDq_6sU6_s0qXPjhjyULh-FoziWL1OOnhwwL2BP_z0HIAo-b0YPyf-axbaONp-BxC__ZINHCf292BnWJC5YyEuBNvPGb-vZdR8kBJBqe4J9hQG5ZG2OPvhud9f_CjWRUbKpIAaDi-CEOp1NCOk4CEzYTeEKn0s5FxO8v7_E40HyMu9pWSpOGlJx7PviZkyhhr_UO-31oy0_67BLNLgqqe_1HElE6GinZJ_CN0Vkapo-g_ghhJoNV2HDVPsOSNRcQ2NMpgs9ya0yYgqYGI-uUu-91UkCExiCSmSt4YmNlNl1nlGoa1gDQqg6VGYaxXIbiA3IZ_K4XkAlIn1s3Ic8Fg99ILf8tF70l9-MohxSf8ViB836UcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118086940068203709317\">Marc Wallyn</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc6QF5kjmYtmmFOPFNC4MzyrH860opkag2TLu5d9VBohfaAUOTWbXn5bkSFt4yQo7bj2Sga3jNUeVrBOWoetoQ1lyYz-BtTxvIufk1jql7eOhoJ7IQzx2CqVUTwvCH-kNP1BAWY2K_ijFtmkLpm2JRkjpUuANRuzrS4zZ4wxtaB9YLGukYD_IFVMauITgWfe9xuWFZS1pEw1KqxD7sHuUgXZXPkznXykGFM7Rx4t6JrY0Hs5uqRUitL4i7DsRq59KdQ4_JX2kX82ZSdkYF0WvacvjZPxEvKDt5Rr0DLb6dP0r4yUArTGm5t9ZmpR2IziiYczm1PYUKvqcRf6wMsX3vzwfnbCzn10HrDdNYibNaZw_pOnDSC-C2YtwX284S8uWlqavlJESy3KG3E6agFbrK1BiZB2zk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102828351139995621510\">Jerome Lartisien</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 1632,
+            "photo_reference": "AV-0GLfHmOJ_UTLbV03M6EBzZkK22PC0IRuubWsLP_mRb1gDhcj79I7Ki2aDfiR2ojoAHVWduiP-oVC5SZa0qhEIgh6TtCpsZAvPmpZT5Kz58d43spgPnTlNmCUnx6tHQWjGWoQWsw6FL9OKlmOHRo7yQ909T83F_khrSIrY53sdxRqnKvUGy51Vq9HtVJrHGSqKtpFhsTgTffoDCmXTgBfDffQQP8fkfEMM3botsNIh9cpfuW29ma1o26K85798nQjcLEwNTDyuVIB05V4Zp5i1yMXkNBvmwjMgO-dsTFfv0Q-A7w5PjhkBk70nlWlZTyVPzWAHMrRsaQUMOUQHoP3mbnuPyDcBvAVg5sDBtSCBdnpRl3idjscf_PO3QxHJPko-lnhpPLs8eGwNftM8De_JzRfIa8g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118086940068203709317\">Marc Wallyn</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLddCPNlfBH10yYLsB88tpaxf1GTcPPGL9JpzLHsHzjTMbY5LP7PYxW7eC537Kok-qAFc7srQEzz7jSFJRddWFRLc0L85_yQsB7HadPV5TEbF6YXPg_dL-PfTxHePn4eSSiz7oNN6EXNOxEOLqeKVOADadd6kigVgoYRWug9UPOo0qVZdQKu06c9Su7y9IoVXo6mNWVW_mqF807RMo817ZtaAhSiRNrQwZlvaDyzJJ7bw1alQkfahLjm6in687fpluUiGu7Cz517TnJWjlm7ruVM-RFm4SqlPAcR36plHT7LTHQ155yfOwy4K51d4cQg1oc4Qv-EzG1iP82pU_SaMl3Vf2XBKpRgL5pB70smpTFu1ESFJFhYy4R0HwQjhXLgZlaLRo3D7z1VmK9eJGFbOmcphQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118086940068203709317\">Marc Wallyn</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2016,
+            "photo_reference": "AV-0GLeneylXsSc5OMn4B59gKXoCRpodLX9JrFgOlZHK7N4qtueIi8Sn6exwO6wvSwCSMGxtGTJl9YeuQ_H97Ibn6I0CU7QvUgrLhRCuR9Bt06CclDR9fnXLjfPz7OvvG9fJOWsoJk1faxN2WZ0bd76hxRUGm5vwcsJqWiK5WT8XEV-ntQ2QCSIPaAPzqrBSpPpnaeDz6uzDV2kiXg4LLkCAhJluoVZLs53F72VfyexO8mmdifn5U59KQOA38YV3MRC_dsy4CPoWogXIPW-Lmgh3jKjL3IxvMyQiaVqmQUnJyzzKt1ERP9TxJYNZ_9pJtbGD7KbpBOeAjyfgSCS-ZAz5oQ0VFoVmHg0NVEv8zcohIJlT7CieYVqOSBIT6vgE1GvVFDawQ6JodQnei1ZudPedP-GC2BJF",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118086940068203709317\">Marc Wallyn</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe0L833WnnXZHrUxLEUFivE4A9A_ZbofgAkAytMxR1xoMWy4yaCJv4XfgZBXpOTsgFL1BO3Q0njUSj2eo0Pum25XP73UjUu3CGRDhaq9OiGsbh169M6dhjAFSGq6OW4n2d_kG4pGYqrrrrvqkUAiCwAo2kArtN_OQF5hJLvlXKMN5K3fQRqC3Os5yR7Y9KCVVtz16GYNyqKQrnMbf4poyiZaG1q-53gQVzQ6soLW_m3QVAl2UzpF8p6ktO1net5ptISDq4wd9hWq675dIlbgoLnpF-xa-sM6qsa3aTa-GarZ8gFV7LFqAs8JmSJCC2J7s9kJdGxm0ldPALEhMPHgOfa1s0tn-_mAgH3ETyhV_X3fFURznTWSwZy1nPDZxIIyMzHbOydpLv2SgdeAXeNIB4RYpxxXwAE7XFUCjaZ4MumOQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106629338576406202144\">Laurie Carton</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5861
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: brasserie"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas d'établir les autres caractéristiques, services ou modes de commande."
+    ],
+    "rejected": [],
+    "summary": "Café-brasserie à Thumeries, avec des horaires indiqués principalement autour du déjeuner."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-brasserie-le-thelut",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5861,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8422416d0cfa12dc8baf46b03c98dd882fb8fccc88580b56bc4b6787672f2dec",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

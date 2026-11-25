@@ -1,0 +1,73 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bar-ambiance",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : bar ; avis : « super ambiance »."
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Venez nombreux boire un verre, ou deux. »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "« Venez nombreux boire un verre, ou deux. »"
+      },
+      {
+        "string_id": "vaut-le-deplacement",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Ca vaut le détour. »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.64,
+        "source_url": "izilife://current",
+        "evidence": "« Venez nombreux boire un verre, ou deux. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« super ambiance »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« Venez nombreux boire un verre, ou deux. »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« boire un verre, ou deux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar à Pont-à-Marcq apprécié pour son accueil et son ambiance. Un avis invite à venir boire un verre et estime que le lieu vaut le détour."
+  },
+  "meta": {
+    "cache_key": "c8b286a9d3d1bd8d207d9cd39a07e07da1caefe8a8a402e43cb5891776048682",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

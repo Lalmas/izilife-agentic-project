@@ -1,0 +1,234 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:40:43.234968",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 41,
+      "title": "Enquête de bière",
+      "experience_type_string_id": "balade-gourmande",
+      "source_url": "https://reservation.lilletourism.com/enquete-de-biere-jeu-de-piste-en-autonomie.html",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "jeu-de-piste",
+          "principal_activity_category_string_id": "biere",
+          "minimal_age": "7",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "chasse-au-tresor",
+            "biere"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "verre-entre-amis",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            {
+              "id": "7"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "résolvez une enquête en plein cœur du Vieux-Lille"
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "jeu coopératif, à jouer en autonomie"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "jeu coopératif"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "à jouer en autonomie dans les rues"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.7,
+                "evidence": "jeu coopératif"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.6,
+                "evidence": "à jouer en autonomie"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "en plein cœur du Vieux-Lille"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de nourriture"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de café"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de thé"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de tapas"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de travail"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "récoltez des récompenses au fil des énigmes"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "récoltez des récompenses au fil des énigmes"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'hébergement"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de musique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de danse"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de terrasse"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de télévision"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de wifi"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.6,
+                "evidence": "à jouer en autonomie"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 41,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 82,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:40:52.818859"
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3386,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La description présente un « spectacle humoristique » de Thomas Deseur.",
+      "La catégorie existante « stand-up » est cohérente avec les informations disponibles ; aucune autre forme d’humour n’est explicitement prouvée."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La source ne précise pas s’il s’agit explicitement d’un stand-up ou d’un spectacle solo écrit et mis en scène."
+      }
+    ]
+  }
+}

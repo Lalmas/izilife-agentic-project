@@ -1,0 +1,103 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Nous (3 personnes) y sommes allés un samedi midi »; « salle à moitié comble »"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Le service est rapide et agréable. »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Nous (3 personnes) »; « Nous sommes venus avec des amis »"
+      },
+      {
+        "string_id": "parfait-week-end",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« un samedi midi »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Nous (3 personnes) y sommes allés »; « salle à moitié comble »"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« salle à moitié comble »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Nous (3 personnes) »; « avec des amis »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un samedi midi »; « déjeuner »"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« menu hamburger »; « Le burger bien chaud, moelleux »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« frites grillé trop dur »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un samedi midi »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« y sommes allés un samedi midi »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis récents contrastés : un avis relate un repas apprécié, un service rapide et agréable, tandis que d’autres avis signalent des problèmes de service ou de propreté."
+    ],
+    "summary": "Restaurant où des clients rapportent avoir déjeuné sur place, notamment en groupe. Un avis décrit un menu hamburger avec entrée, accompagnement et dessert à volonté, ainsi qu’un service rapide; les retours récents sont contrastés."
+  },
+  "meta": {
+    "cache_key": "3ebeff49d28eaafad82e954d4a7c7bda9a11fda6f81188d8ebd12f519980be31",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« De très bonnes pâtisseries également. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Véritable boulangerie Artisanale »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Une vraie boulangerie pâtisserie »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« des pains au chocolat “gourmands” croustillants »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Boulangerie-pâtisserie artisanale proposant notamment du pain, des viennoiseries et des pâtisseries appréciées. Les avis citent les pains au chocolat, les éclairs et la galette frangipane."
+  },
+  "meta": {
+    "cache_key": "16c4e2e27aa13c92ac97749f96bc5d76e971c34a30177a810baf99938fd6780b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

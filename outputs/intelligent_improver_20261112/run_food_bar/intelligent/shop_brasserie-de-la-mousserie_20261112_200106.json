@@ -1,0 +1,650 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:01:06",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-de-la-mousserie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-de-la-mousserie",
+    "status": "found",
+    "data": {
+      "id": "5708",
+      "name": "Brasserie De La Mousserie",
+      "shop_string_id": "brasserie-de-la-mousserie",
+      "unique_id": "fd13fbb4b5df790de91534e6efed56e9",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54966",
+      "principal_cover": "54966",
+      "qr_code": null,
+      "phone_number": "+33786471917",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "16A Rue du Pont Naplet",
+      "additional_address": null,
+      "zip_code": "59242",
+      "city_id": "213",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1695265",
+      "latitude": "50.5067948",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:38:10",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:38:10",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJQ-paNbDRwkcRAaTaR1aKkzI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJQ-paNbDRwkcRAaTaR1aKkzI\",\"rating\":4.6,\"user_rating_count\":175,\"google_maps_uri\":\"https://maps.google.com/?cid=3644408626650194945\",\"fetched_at\":\"2026-11-12T20:00:53+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T09:59:32+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"DUBOIS Philippe\",\"uri\":\"https://www.google.com/maps/contrib/100631505161613404997/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKIsL5Ao1oqQVerTZstzgbOt8e54u_Qs52omnpaC0jTAEMnkQ=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très sympathique ambiance industrielle très bonne bières et limonades\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T17:46:33+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"judi s\",\"uri\":\"https://www.google.com/maps/contrib/107288420068328701904/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWMy-Rfy7-8QjQxEFh9B5HYHb5zeKSA3RSBIlUwEpB-tMWb5P7U=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-14T09:52:00+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"BAVILLE Ariane\",\"uri\":\"https://www.google.com/maps/contrib/111442462160102513490/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJvA2QdjdvpeoqF-UeAmFhj8oHk7AWBw0MBqkv_mjYBhdUQBQ=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"A faire pour les amateurs de bières (et autres !)\",\"language_code\":\"\",\"publish_time\":\"2026-08-27T18:41:47+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"brasseur thomas\",\"uri\":\"https://www.google.com/maps/contrib/115695782739258998670/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW0GWf1SgV_hnmawozmUFM-tbr_lX30suqzv6mVj0pXuQyokXh_Ew=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"Je  connais les restos du secteur et j avoue que celui ci m a deçu.\\nBière triple plate\\nUn acceuil basique, une mini planche pour 12 euro de 20 cm carrée dont 50% de crudité🤣\\nLe client va se servir au bar es-tu à l'impression de déranger.\\n, je préfère mille fois l ambiance et le service du Qg de la pévele la déco et plus simple mais l ambiance et le service tellement mieux\",\"language_code\":\"\",\"publish_time\":\"2026-07-23T20:21:02+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Francois Duneuf\",\"uri\":\"https://www.google.com/maps/contrib/102166239163960623653/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIRDPaP3mdttO3WRuNNlMdgaQoOqrQxZ8Sz_8s1Id7I506LZg=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:00:53",
+      "google_reviews_place_id": "ChIJQ-paNbDRwkcRAaTaR1aKkzI",
+      "source_id": 5708,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-la-mousserie",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "cappelle-en-pevele",
+      "string_id": "brasserie-de-la-mousserie"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54966",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5708_6af39cd21deaa.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4766",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33097",
+            "source_hourly_id": "4766",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33098",
+            "source_hourly_id": "4766",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33099",
+            "source_hourly_id": "4766",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33100",
+            "source_hourly_id": "4766",
+            "day_id": "4",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33101",
+            "source_hourly_id": "4766",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33102",
+            "source_hourly_id": "4766",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "17:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33103",
+            "source_hourly_id": "4766",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-la-mousserie",
+      "google_place_id": "ChIJQ-paNbDRwkcRAaTaR1aKkzI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: Fermé",
+          "jeudi: Fermé",
+          "vendredi: 17:00 – 23:00",
+          "samedi: 17:00 – 23:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3914,
+            "height": 2588,
+            "photo_reference": "AV-0GLdycXY8F2EB7SgR1jvC6sm4eKqNVbS3w7i4OgaiM-JqhBZhserIkXwlo6PCwRjrLg_G32AeGp9RQ79huIb6wZ_HFHsPUcvw0zPyhhAhVFYRdxwTMaLmBEREpFPnzniTCZ-QsGu1DvgKLJLRDKbJz4rL2NbfGWwxhwSJwfhymQfISwf-aQEFavAQmDk7S_t7EybOZu6ea5NolyHKw1ZKfkaqEauTRow9bdSPdW1P86k7HeUFm2kHaGiUZVbO5eZEeVcYNRzqlwuIktAX8lMi-1iQxARpmm75HtjVaphXX-tOGptTItN2cZPxUFPE8f8S90Zod2Nva9DR19KAKfHlddqaPtg4dm9H6LtBuLBO7oMgug4u9QUoDxXiOyILNbKkLLwdn_EMeOtEdj3aQm4A3GMAWvXyXeLKjKOImvlsx5lJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfAADc70zaPAXoHfEo1HO7VDfssj7lwhPWyB8Gr6eQg7v-rO6Hu7fht7DPer9u2FjlEe32fAfRfUq5LtZ5Ry7kMVkTOUGxcF_QT7lW-e5EgxFlRlMzSiLL4stNLLxd02SCBD-NeKG6Vn3MkRI_IZVu1AbpTpnBS0oCoKXw2thE4bu65Q-G7Fd1rdr6OppOk16r4aO1_IFczPH_8Q5BTa2e_GThlr8jgJGJOayI09t9d_pbzzvNQBkXIUc84UF50fMvJBh4vw7TInG1tt4kDZsJbLV0tgcnsNcWWUFeUxgjjvIJjNL4IxNQ7eq6505yC5PtU3VyDgJ_a_lViozhQsSuLpbyKDxoA-L3KqWcYGBpqEU29wbO1nqi7Tey7i7023e_do5B6aBwBDg_SZIsTChYG0S3DFJmV0PHXNKVB23p8lg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 4800,
+            "photo_reference": "AV-0GLf89ko5IXXN-mwqJWm9v1lob4gclRcj_sr3My1BxwR1w2whO4bc0fNiuszPSGS7KG4VgbrI5cB411qpfnxeOescM4hFbpohxU7VKkY_LOjM4484ZVoI0M_JNGf_hiidLshcqF-rcLXpZsurIoF5r-_AcABfteNLi-B1n9cY3hLS1x_dTNh0ERp8g89HbWN3qGZKfzZPsLGwhHr-Xlb7di-EfO0oOQgpdbIgKYPC2kj71r-9HjiImWI6_gxWrZ9EGIcaZRX-OppoZ596syhEiQXwQOn-7S1Bp7xWwjrhljcktXIP3Pf_SxLvQsWagTSrXCiB9GeZvj_m55XGMomFKJRhecmeMPHyurOoFSxlZP0O4aXCTMmJK6g6eaoBOBViJxgnZhPR1Av-cM5w33soNVanVw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLcGhOrX8vCSK5fLdEAI7TJeug4JuPfh-2LGaJzlxEpuLHGe1adCeaPQ0-ZgHMytIuhtUKFw6sn8Kx-yLfopGd7dyFJSJvn-e-lf8Z0W50Wa2Kt6tZY3ongH-cIlZiG_urSUQKkmKpVhCv2gDEcrhety79negQdcg1C7JWS9GAB7mCmK7Ws1NMcZ4Vq6PWSdmB97tFuqYBRIQxBKRce7bH1y-5uTLv9X3_HQnjaUwJZVGYOC8uAl3kiXQNzRlj8Q3-DFl6s_e2wygZVvXx5rpbywRyty6JOMU5u1J75qw0ZonftXp_dNTldFcmhxMeZteGrMzq5IwjD4VRKf4p7MfQ512axMGz6TD3THmxUDCppFk6SuRKL3c-VM486-b61IdrCvJkC9sJyf_6Y3jptPlBuYFVc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcPSo2tS7X7uDU44g_7yihbCqZfMqu3lKP5sdi70-ZPq9eiyf8DljzoYRNyx_eCbI12lS1ONBx698kIxpGU41Emy2nc0YxObRhTV47l_dJFTJBC0mC6BpoRZHXJsms6z4N4t8WGKfTLiO8hwUtS9hwcxSONgBTDKBu52zEz8NqHWhYK2DLJUfv54W7VDe2wSEGXt1bYQ4giEJgJx0FCim3PYqddCa5xlfG84uolgFtr_JHVLC2m88T3iceFJMVoC-tIIYisCvSmRrMZBU8WPVarAI-b7FbGiGJg3AJbZLCRlgiHL0cS5-vhhL9xpvdsD-MKE58DI5Q3xc0C52uZEvBafCqR3TOmEkmGvVuRj9x5W1Qq_V0-JeXgRV35brYbkHnO4yoUmhvNl6f99Wo__BWO7lF4h_woc8CclZRvd33fdA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLclCIFhOHzIFz-zMad0z6XGodBfdURrkiOoFCG-q7ukEhoNuaVy_9TEny0m_395T5IyaNoZUJ-tqAFeYbQaZ1envj1188Du0WNbhJ5fQwJ-c78GlP8F7FgoNoh587EOtFAK2JUdvFyQFfb6yYW67bKM1BQnEgMPXZgSSDUpJM23GX0RPmfxhaqD3h3l2oxByqqAlcxsAmmmUKGkBkqcK46JBbgct6Zz05VWdPdqbX4eHJpsMITw5PM_OooO_u85_eweZC2T2ULGF5tw_GL4pPDaOJGI2AXjkolw1k9wZD6Hbd3PYWVGhwwO4nBoc5n8q6LgFWJd9KT7RoeTIM-IieImroTQejtGIy1KdS95snWTDocsVEX-lRTQeBN70ohVjMvGyhCHxCJ6H12cIPQxrZa2Wh-3kayZjv9EtPWcEdtL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 987,
+            "height": 1078,
+            "photo_reference": "AV-0GLcDnMRM5SdtqHMTn5pUoqWOH8gJZHF0mA__Ngl8GiT68NFz1th9l2hKjpan2NejnDIdlDRTOd1CqnFNehlLQocMbzoOjC8fHEZtBSqEtSVB-x7tjgPkcv2ZHkpxmw3XEQ4p8ADEPnOqlsLllhA3CT5MxJOqo2y-3NNIVG51AuDE9yabYZOsMNqzwtkoo5xdivVNUhgwVVI34uwZdkpprklFpa6Qml1LBAN7JkFlYRYNJep60RqD9TIGk9QKa7WVbzP33jbXbj_nc7HfKwTHKNW0iyOCZjZ5tD5iGnBONdeMruzrEUoWahKZGv4kW2v45EBjFbJNSMNZVw8eIaB-lOb_iuR9GCBD5EbzIMSeB2a01kPMdvIvs8Qtep_2P6nG6sXs3n04s33Hckh3aTCju2qonwjZfIIpH3NzXtr0SJtz",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLfKo6brJw2i7VN1A4p-8CV1MYDYq4zDVbmGw955WjRDCTsvOYsG9bUnOmc_mvNeEomCD8XOaKBQaqGfAWgQ8S46y_LA6hRe-WV_MpPvwVKNyLq4kUAOvVo7CBlga8hFoxsgpMTOht89Y4oaswMLFzCd17PUV2J0oD4Tolk_kYHULqWGHV6-EDiEnwsTMaM5J4CT8SYQPa3eMZ4SXKE-Kiln0j-mKHkeCGxGotnAh98pD0iLnYJk51mYxB7gVUt1EDI_vqopFlBOYlRwS_bTft4GWj3wwIADufllXVmnV86Y1B_AZbL6n71FdsWAbDUjILoMv46WvGN1hX4lTfiHdH-E-7F1U21jybxaCZd6-DeQ8y67-X23kV0Jm3-mSeNsOg8s2AtP1ccc867a4fPUwYvYOLVQoq3QxdII8kaP4eQOoA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118314965794123169744\">HUBAUT Martine</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLelOjn8_qIr95_3cpnr14Y4By32M0gnB193cwj7WlJbmlteXqAK1cQiiBjulNvn2Ijx41vko4wYY11PwjZEaC4cVYdlSqKiXGmgQEsn_gdpsuhHWpQFnfmKJ0yYYSyNZCTbldk8kiK9FV4HkdpOtr4_S10PjEjIhoe9kZek5DlCB7_ZQ-f1KtqvyfMJP99mhr1QVHADwdzw6leTIGuuG7ywOkyyWc00vqVZ-zMyiGckVZXIn_ZHUsifHrw_YM3ZmLxn9J3woJeBDzTd7aZpSePYsN0aNyzGe0GG-3Wm72nJeKOalw1ed10ZlfhfpumK8Bm9mxiqOfL0TijA7c3SIMJjg_rN4LzirrgbmR5W-F1W8qObQN64aeirIdLOXt84hsJWMZzGPMUIK0eRITId7oqt8LZBttjC5ahrEwbbSOHvxw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeHjLi5WtUCReZjiCrTQYT4omjMVMQ1nXzpkxCNxHwC5Hmjw5i2DulXD4374WgB-8KWggBKncEDxf6Nh-hs85GikrqodI7LG3T7-6pbhjaIuo7pUMCQ_e2r9DIZS_uweV4dr5TG1LzZxjzCPwwjpcRl8yNlopEely67Y9xQ-zPB2WHeKSg7FLk9IWnd6Bw_BG7hE2J7r2c-APC1EZxI5-Q6Ntm8olbxET-m5jVtDYcQAn2dTm1k1ionJ9HphrcE-uOmhTucuyGxGwd-ZU-z_Ivx49Pxqs1WPb3fMf7DqcRCnkJiwm7rOv-CZYsOG1f6JAVFT2-w05erfCTxvjqA46vJwBHnhvr8RQGmN_TR4KeTGs9WAFPqVQeZxaOynJerFwXx7_TdDC3w8UIdwtz_o1yk-IanKLjH_cZX3Z2B4TP-Fg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102778030637784628790\">Brasserie De La Mousserie</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5708
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-08T09:59:32+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "DUBOIS Philippe",
+              "uri": "https://www.google.com/maps/contrib/100631505161613404997/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKIsL5Ao1oqQVerTZstzgbOt8e54u_Qs52omnpaC0jTAEMnkQ=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très sympathique ambiance industrielle très bonne bières et limonades",
+            "language_code": "",
+            "publish_time": "2026-10-31T17:46:33+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "judi s",
+              "uri": "https://www.google.com/maps/contrib/107288420068328701904/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWMy-Rfy7-8QjQxEFh9B5HYHb5zeKSA3RSBIlUwEpB-tMWb5P7U=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-14T09:52:00+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "BAVILLE Ariane",
+              "uri": "https://www.google.com/maps/contrib/111442462160102513490/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJvA2QdjdvpeoqF-UeAmFhj8oHk7AWBw0MBqkv_mjYBhdUQBQ=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "A faire pour les amateurs de bières (et autres !)",
+            "language_code": "",
+            "publish_time": "2026-08-27T18:41:47+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "brasseur thomas",
+              "uri": "https://www.google.com/maps/contrib/115695782739258998670/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW0GWf1SgV_hnmawozmUFM-tbr_lX30suqzv6mVj0pXuQyokXh_Ew=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "Je  connais les restos du secteur et j avoue que celui ci m a deçu.\nBière triple plate\nUn acceuil basique, une mini planche pour 12 euro de 20 cm carrée dont 50% de crudité🤣\nLe client va se servir au bar es-tu à l'impression de déranger.\n, je préfère mille fois l ambiance et le service du Qg de la pévele la déco et plus simple mais l ambiance et le service tellement mieux",
+            "language_code": "",
+            "publish_time": "2026-07-23T20:21:02+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Francois Duneuf",
+              "uri": "https://www.google.com/maps/contrib/102166239163960623653/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIRDPaP3mdttO3WRuNNlMdgaQoOqrQxZ8Sz_8s1Id7I506LZg=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 175
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1184,
+        "bo": 146,
+        "front": 1038,
+        "estimated_cost_eur": 4.6
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Très bonne bières et limonades »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Très bonne bières et limonades »."
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "limonade",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Très bonne bières et limonades »."
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« A faire pour les amateurs de bières »."
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Le client va se servir au bar » ; mention d’une « mini planche »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Un avis mentionne une « mini planche » et un service au bar."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Très bonne bières »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "sell_alcool",
+          "value": 1,
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Très bonne bières »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : vendredi et samedi, 17:00–23:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie appréciée pour ses bières et limonades, avec consommation au bar et une planche mentionnée dans un avis. Ouverte le vendredi et le samedi en soirée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-de-la-mousserie",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "aperitif"
+      ],
+      "KnowedDrink": [
+        "limonade"
+      ],
+      "Hobby": [
+        "biere"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5708,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopMealType:+",
+      "ShopKnowedDrink:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "213d05e546b2f7d6af4209868a6563dca48ad8e77c9142ec89632e31995a755d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

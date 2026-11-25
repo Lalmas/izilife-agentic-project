@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale beaucoup d'attente : « Friterie de qualité avec beaucoup d'attente »."
+    ],
+    "summary": "Friterie à Avelin, ouverte le midi et plusieurs soirs par semaine. Un avis récent mentionne une attente importante."
+  },
+  "meta": {
+    "cache_key": "82b9e00af46d79541b0dd67da01470d6dce27b11470881c24f5e2a80c865d1e6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

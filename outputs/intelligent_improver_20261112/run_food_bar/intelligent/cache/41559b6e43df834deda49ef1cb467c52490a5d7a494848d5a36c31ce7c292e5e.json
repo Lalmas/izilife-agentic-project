@@ -1,0 +1,28 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "sushi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Je m’étais régalée avec les sushis sans poisson cru »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les modes de consommation, les horaires, l’accessibilité ni les autres services."
+    ],
+    "summary": "Sushi and You : un avis mentionne des sushis sans poisson cru."
+  },
+  "meta": {
+    "cache_key": "41559b6e43df834deda49ef1cb467c52490a5d7a494848d5a36c31ce7c292e5e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:11:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-accolade",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-accolade",
+    "status": "found",
+    "data": {
+      "id": "5737",
+      "name": "L'Accolade",
+      "shop_string_id": "l-accolade",
+      "unique_id": "d21dfcb9aed26845a190873d1b1125f5",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54995",
+      "principal_cover": "54995",
+      "qr_code": null,
+      "phone_number": "+33320502995",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue de la Gare",
+      "additional_address": null,
+      "zip_code": "59134",
+      "city_id": "14",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9161079",
+      "latitude": "50.6051796",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:42:38",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:42:38",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJVVV5ajIq3UcRKLr0K2QSQ8c",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5737,
+      "scope_type": "SHOP",
+      "scope_ref": "l-accolade",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "beaucamps-ligny",
+      "string_id": "l-accolade"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54995",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5737_6af39ddeb9ba4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4796",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33307",
+            "source_hourly_id": "4796",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33308",
+            "source_hourly_id": "4796",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33309",
+            "source_hourly_id": "4796",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33310",
+            "source_hourly_id": "4796",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33311",
+            "source_hourly_id": "4796",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33312",
+            "source_hourly_id": "4796",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33313",
+            "source_hourly_id": "4796",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-accolade",
+      "google_place_id": "ChIJVVV5ajIq3UcRKLr0K2QSQ8c",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:00 – 13:30",
+          "mardi: Fermé",
+          "mercredi: Fermé",
+          "jeudi: 12:00 – 13:30, 19:30 – 21:30",
+          "vendredi: 09:00 – 21:30",
+          "samedi: 12:00 – 13:30, 19:30 – 21:30",
+          "dimanche: 12:00 – 13:30"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLcBiwOTgYHxscn2jJZlpFh9BEUZCbmD7_h2c6Q9qIpePI1Lo6VzDSseBppSVyjvVstR7uk2ST__cnUcLh3mwm1GgurOSY8uMmHpKXgCKVhFvLAaCM9uwgzlyIGCGhqrPa2nSZVxiiI9sFgzOC38l9RMzrx0htMWaKkZyY8r32DH1EMn_i38DpkRnwHY3RYLfdB5WdJceXa4u3F4znoWGenQrHcTGyofVGqblr4JRjR8Dx4zZZ_dH4oPXQXZcfhGB4s4JW0xzN7pMKmDWxJbBlwq-JnSkZI5HnS4F_S18B8HVsCugqUaE48NF0OZMfqj7Aw203QwvsZgHcvWC8E9FPpY0f4342ZGicVkyZgCj550dYrQtpmfKYYHMEnVh3a4JcxFqCV3Ai7inFzxNqfmQCqAYm8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100952267410082372598\">Bertrand DAVID</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdBVaxjT7P6-FmsrvYQdY-9_ruxDVQ42RmpVI-0CYVxbEreJtLFvv4_bNVeXoMTJvmGNb0nZJTIkVZN9BWIil-iyF3zlWItvXbMAPS8_olf_6oSEcYTWKnzSNt5jRxR8xzzSXpXN3hR9KFdO9qQNMidv_LLib_Uz4AIWPcph19glJhdxjFoZa_T8shI5l6liJOnP32k4FmiaQfACDal66adlFl4nav0F4L5MnWwyxHBrIk0VHC5n0ZVKLHEzmTdzKqgklEquC5CB9jTawPtD5Af7x6jbbcdxvvarSp5JOL_3lxK1jDSUAH8zQGd1DKQFFS8OL_T4W7z_Z_X5WNZKFKJehvTy-44RLkK0vvxQIjDPa-MIuqR20ZzoH3WUAaLGzysaP3O7CVFVi48tSyMN7CgJfmDFIHAWjwsBfoaiB4J",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105576319891702248036\">Dansy Marotte</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcOF1FjrYAmjwZs_IQdM5R7hTLj0jEYmPXC2g0GOIPkKYNBeJCx8a5yIpmHKC9rsFeUpBxLS9Erw9ZHUrTWpAnFaTTRUOFaPc2BWEDSB1Fg_REM6oQ4biGKTVIpEV8YCD7Yt6Fapnesq3HO0IvDI9Glv_Pmna6fMLzE2BnqBl12Y24tnJKoVSuSeybtm0qZv8WkU0E8WkQ-wZvYAXnGwfpDmiunfQhrKTyWQcNVXaatieopSUMpOWoGT49NuHKuhSKXVobODaPExPd8V-p59spHHalRULmQkmBQntvVU1ipg_lfnb47k3C_2ckytAgnNol4sr7l8okBow4DwurEfREh2O3ZEspjNe3DseCdz_dBHM6rTHU6J8JHZTykwKpEw5XaSec2RrYBoIWzvm0ZImnLtVLPdb_OqB34THsdAXSEZw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115851260341615996728\">Evelyne Delebarre</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLcuNOFbV3p0cUFuVmW6OEqhNJg8_fMwR-MZw0NZVYJnpNMdVYFoYnZtjh1axiwAsjFv5j7EDHuLxXf7jyiHLDu8c111MpkDGeY6Dwq82buNS4cfXqR16mW8EzLjaVGZYWnJnnU8NNSrHCqOrNE170tV-jzZKM89q0TqRJA3ejdfD87XwYtMNlbQyRnXz9HrYB8ari70_KAuFbv8A1YzZx9lhTkS3Icwme13ISbvPvFyTYSZ3Cyv7uIm7LgNJ1QUjP_eDAoKUhuHTVLIi-kzD9ODHPrS1_yk_OBovaJ5cc8c5yYjoyhXtJPU408uePHiuTTro_DtUqyXIMZjyyB6Mzp_5hgz5ziiqMsdZw2L5L8ThTkYQaFT0qXdoPideUW9BZyz40gz2LSMD-ZzbDLw_K1bXWFOD8h3AMgeaZSLjsC5bA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112344301830797370002\">Alain Quilliot</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLdgrDqGyRR3vipqvA5AL5a3YHyOqYC5uFmoTQvj9YshItfFmI8ZmZMdmJOp_QkIiPbBDkSaqvRLtCJVMJ5FmwjKb2O7E-3JTkZWWG3995CgZCz8J363bGuw0fOs6K3pBh4v-84rKGd4OeWwvvhRuL6pIbJdXtloeTDDXEsgTiky7H4Du-hqRSWEv47xaq8gYJiNvlJr46hPHQeHcvYW_oVosrUCRPa88OPbbgju6H_eJL0xR1UfHJ8To9PhdCmwOiRSrKmJkXs5fYTBcGyJCwpi6mUK5mpVXtMNwDYIBkJrpCpQ0c85dY3BtawXE7aMelgdpDxSwZiCVqtOpxoJvoK4AqNnGrH6Dl1mBuFhfBEfh2bGvytRBOOHFeQGQWKu2bEzABEgOdNXcTs1Kl2SGmQDjWf2uo96veZ23xCK6GZ9Zg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108056788172734531803\">Nico</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeWmDzgXsYFtqM1IzN4yt7bDNE9zsk1-ZIKUQxTUneJ0k5OCBY_lY8CK2wTDLfFKnIt-czK_neY4uMGRSf-cppVrfG27NY5Gx4lkxpnizHgAKrgd13MnKM9Pk82HBRzyI-b9ep0aufR4wyhT98xQG43ik1F2XK70noqd8r5jt0Eb-FBETgj4XwIEJFvIMGrKSSx8amk0wMUTgme7A3bKzUoKHGIoDJqckVQnPAvqo-NYlTzZ_QkWPv70AVB5IH8ZrqnFpcZ9a9wl_T9CymjfmpPGxL1j9IUplwG1JTxp3308SOZ5PxBtWUOIihhK_CGwda666antGOwy3xbT0YB_t4PvCo_g74o2AAzxSzUVbHvKm6UXP2HW0I-_iyky0PRbtZJdC4tATEoZ3U-G2JpgVIsaw-1PJGuVjHtl6Q1QmBV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107439811231056560439\">Valentin Pauline</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1204,
+            "photo_reference": "AV-0GLczjyPmJXp8HHKIktjjimgsIbQVw0loJUbN_S_buaXd31OPe7ShRKXgfFH8u4_fPEtsep-jCJaePZBFzywnDW_0N-68X6su3rI5wcOOrZ8fdFzW-vz6cHIP8XeUTE3l2xv1X8MGi7k7HfvU_POA-j1JswMIvBJL0sDTH2oGm-sIE9VzTiA6v1RBFsRrpEC1_EwqZmsT3nvJvGg8_rXE-yKz-YdH8Ns-Sxa2uSYEgyGK5XelTB8j0KmcGUpZapB6akia-2TwTrCCb937dX-dQwAEvRm0pcwL3zhPr4s1QMBZQfQ9f573IVhTWAVDYm-q20nbvxisgeF_cq6OQKjVJSM_ixAmJ6rUeF2YqhZ4PttPqmM_x5xDFZ1L3XQCbaM9IPK4ECSWR-6DEifnw_m-_tUs4J1V",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100952267410082372598\">Bertrand DAVID</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeEWbfxNnp-_IdyE5f9tVuce522YD9FpL5iAy7jycPLUr-zqHISNUyFTyK99rlv8Wa_cbHP8VCU4Ze8MSOEnQ-nEo6VkU7LaMOr51SvEs1fGw3W9e1z03D8k6-EYz5ha2k2GaQcr3Xfcx_jhwYVPFdq5DlkhTW31_cHZKHHBv0olJscGxwWSTftISTEgMe3aboVhtQqPyIZb66t-k8DX93iU8B28-2zjGgEgXfp4hij7IKzKvZvt85AjcreaA5yfNgbcLuUq9coW66eQkn05PmOVSxx0FPHglR-GqhKUbn-EQI4r7b90jk_PVMrn96_kdwetuLOWIqF6IVD00qYteOV7cBuYV3L1o5pPayOLn4m3J2ELWUvJxmrgKrk2mppZV6fwOG6lBla3Gx5_b_ZsIKByt6x_3M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117386988377549513011\">Mathieu Delcroix</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 1525,
+            "photo_reference": "AV-0GLeKzrMo6_ptZOM1EErCzE1hWzdEV-8tNJ7gDsmATGTD45Ixo6Md_zf8MmZ4kVP-SZbl1XOB6Qcir4qoyyx6OaqWbEf62t8rArBT674lZ4uzmtWUCJtCUQasF3sHsDpCTxxiX6VrlWHCxZ2OoCl54YlIr__SAgeAxvUWC8avyp5OlN4u0AvM-HCyH3KjgSBtHzVlwXyNSFxcW_VUWTMK-JjHTDfWEQHNsj8Rw9mbSDSLbAQK-9Z6aaamGgj0HySrfZJxapMwDsIChQoqHtnIz6niUi0C3zSRocbw64AtRrnAhZZafxcDWcHdf2xA0mha_bJdFfmGJe6kzMIv9z7X_Bm2V14dM7sTkFKkT4AayvLnpJJoAH_9VgCdVHqh30TLEYUX6UPXV3Gq2vU7zCVYpQHcDtcLRrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116874581014709171300\">Janik Busin</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLfDq8WOfRic8pnczQs5_VPVIB6kec8I98zb_7I9wD8fRQo7LkUlvhFATL0ez7lq50krgHJe6YaUMhog1GZZnFnL5TTXltRvdxAN2614nFY8toHnVTQGce_KG3TSeEl70IA7IDcavFDRiPi2HH9ePGHJ97WssAWyWReTxsc6T-RP1jIIj8GczBNPGzEPu4MzNnLc2BmiYPpmqXj8zAEheCY816NrZ8y9YixS-cCgJQZTc_-0miDBdIGQCVouQpgE9gS_xP048iscM1yWVyQi9TjkRbyE27s05eypMa_XCLeaWldCGX8_dM5NNclri0Ojsb8dgDlQz1B_9OtI0XY-244YfQ9Nj9wzat48WiRkfkph4T5LZbk6pCedsGy6PemFXm37Q7G0ru0oiaBW3iWLDUGdJ9NWmdo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100952267410082372598\">Bertrand DAVID</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5737
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les régimes alimentaires, les modes de commande ou de paiement, l'accessibilité, les équipements ni l'ambiance."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Beaucamps-Ligny, ouvert certains jours sur le créneau du déjeuner et certains soirs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-accolade",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5737,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "3e5dfbeff56545d610d50218e8193d841414e75d48b1e46a5b7930280566ec7f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

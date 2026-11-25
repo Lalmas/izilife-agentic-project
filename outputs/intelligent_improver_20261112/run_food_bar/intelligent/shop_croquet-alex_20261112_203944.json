@@ -1,0 +1,509 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:39:44",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "croquet-alex",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "croquet-alex",
+    "status": "found",
+    "data": {
+      "id": "5901",
+      "name": "Croquet Alex",
+      "shop_string_id": "croquet-alex",
+      "unique_id": "44352b5c342a938270f43bb005bb81e7",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Ce boulanger vend des pains bio, des viennoiseries, des tartes, des desserts, des brioches et des cakes.",
+      "ai_description": null,
+      "principal_picture": "55156",
+      "principal_cover": "55156",
+      "qr_code": null,
+      "phone_number": "+33320950129",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "56 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0460841",
+      "latitude": "50.5825772",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:07:25",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:07:25",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJzVq_TV_UwkcRT8a38VXPeHs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5901,
+      "scope_type": "SHOP",
+      "scope_ref": "croquet-alex",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "croquet-alex"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55156",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5901_6af3a3ad17f93.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4960",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34455",
+            "source_hourly_id": "4960",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34456",
+            "source_hourly_id": "4960",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:4",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34457",
+            "source_hourly_id": "4960",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:4",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34458",
+            "source_hourly_id": "4960",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:4",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34459",
+            "source_hourly_id": "4960",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:4",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34460",
+            "source_hourly_id": "4960",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:4",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34461",
+            "source_hourly_id": "4960",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "croquet-alex",
+      "google_place_id": "ChIJzVq_TV_UwkcRT8a38VXPeHs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:00 – 13:00, 14:45 – 18:30",
+          "mercredi: 07:00 – 13:00, 14:45 – 18:30",
+          "jeudi: 07:00 – 13:00, 14:45 – 18:30",
+          "vendredi: 07:00 – 13:00, 14:45 – 18:30",
+          "samedi: 07:00 – 13:00, 14:45 – 18:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 1359,
+            "photo_reference": "AV-0GLfffcH6nWd5MacvuXUNuNplWFbBXgTE0kQ5973iTwiAb52acf45gzXA4fhh80TF9htq_FRi3nipF3xjWFlsjWPvDsshfVXI1wWbrZBzzF6JR4V572WiDo00kEy5nHce3LCPIz-OGwT2s1JeRAb4Oofzi3gn07HMrEcNFt8ErVx1GGUBBhJq9K2-jVOULP2F9uMyPcG-drbYMxNn0tE9OtFSN6yaFPLJnsxNJj6Qou0NJqg5EkT2DQj_z_PdMzN-4fLKnG_NrW9aiCXJMC0tqcU_9x0YQA69eacsyxqzqBeG6zW91FYEL5O9rbTaE1GNSA-9FUQLGcFQb2etArMHMhyRLbdMr5IWd-z-0cE9UMPbaxUfWS1ucNeGVX5U_WqiF2ZmmANrLbBbVCyzc14LjIjAiqE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117088487949573398219\">Edward</a>"
+            ]
+          },
+          {
+            "width": 800,
+            "height": 718,
+            "photo_reference": "AV-0GLcT1d6iMZ4zEHbOqNIIjMJu9SVGwpTiqoImk1f4pMTJQQe5TUzPRY9s2Tr23P1Gxi0uKBdmLczOyvZ3FmuANnniCU4tZt15MCZj37k1_lk1RAd2qvCuNILgaKpHvAGUoig9cMTJsqCV1ut0PonPs7RFQeOuicufY6THhE1R-h44GjPSD_D0gBf4adKSCdksmHQZ7z-n9eDI5KRc0MiBAEJL7wbseAZtOxrz3i9ox9xe2KHQ4Izm1dAjdnio_8wPAGbXMzjcVCjWlqzUwKSMWnUt-YxAjtMwQrG6RJwevULRH2yQaw_Lhh1_jA9R8ekAqr1CmgWxnjt8iEtvcgrB-25_k1H8aH99jydy7vjQyUEyILJByIclM12BR9g2LUE4GPZR4Vu-NheyUEAkQ2g5kwTILMw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1875,
+            "photo_reference": "AV-0GLc0Qwfu73JGdjkUEh4O2RjdWY7BVOuR23Mxo08CRzU6yjiksAGuof3xgoP-hofS5bCBXMgZ9ambEGfkbbfNPIP00R5o0t2SyHPWqIzkv5cdVKijh1NMpHJyHWFmNGwc9-pKBdN6KFZ1y5SSllxYJ_klTVnaRSHXyWD4zMfk6R_R8SQ9utyNwc71cz2okb5nFSYRTBsnHAhqXSCG98BGUs7jehwus1jnOrO7UXMXZ6n4MjIP1nVt_CzUC5ltaV-LeVLarDqXP4vsCCdXvVe1V8G5pM6Fwj8rGer54AhFBYZZrN6Q7w4TRzx94IimLform7w9e-3E0PooPbHWP-P2Dq6W-qWaFVIFPOoo42Cq9jG3sIh-rL45av-lX_jsaVyfAoInvl_70DM3K31NFjbWRUF4D9m1wZs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109698698512520118400\">Axelle Croquet</a>"
+            ]
+          },
+          {
+            "width": 2568,
+            "height": 2568,
+            "photo_reference": "AV-0GLceV8ig4OlHV1kvT0oE0PY7Kb24H961o0gjohzPDX_cc8OUGHz-beqTpRd-MviUDzhctXynmC4kZi60kwToxvolRC1ZvIvDYl5N4Al3pwcgg6FMY2CVnBu1yW-ERrp_1MsRr1etHmpV6_XXH5QgOZkCILKXC7Qa09GvaC5qsO6AmqLMNE3cSidKjgnUhG9shHK4xazpZGFTRUDEuWH3lDTNur03kllEs76u6G2cqtTOywipSjF0DrUVkRqjr4N183OSsfLhHRSttZvKIJNsCs0RVcYWM48KLFeeZ_dhu7nilgJQRoB5cRNnsFy9xWNE_eTgXfLhxMpWRiTl7w1rocroxmXvVsgRBnaeK5HlKdbWcJqIz-OEyG3OJyfKTMAmPPFwQwc3vszNiindZbDi6Bq54w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLf7DJms2f2p0CTcH2J4V-MZkdlqzp_gWYNjhiMPw81hk2J066AehSi-H4s2yD9r_KAUMufHBvTPn9JpwTVbttQBjgJryIf0yNdvY85jA0dz0kcVMl1H7pgpMOsHQbmvng0zg5EOlY5m3uYHuRwMLCdktjI78nmxkYCLirziIalDPp_F8eufdwRJaBb4R9KjY4UE7eONYHebcePV_a295QIPC_6q0tB2YkEmKLrrBK-YUc98MrpWEYgUd-x5tXsTZK4QUx32IqCOWHutbqycsRZj_j3y2CKUEMnoE5xty2-rF9-YEgnISReqT00hk66rnZOnRXMSKx0nvFK9SXvGhO_sjH3pHNDzlH-SZhy-604q3ALTNjEoP41JnSdAKIVMcJhvn7H6zoHeLc_EFRbHaFUybpc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 1280,
+            "photo_reference": "AV-0GLfNAU6iBP2vVPXpznCNbfuwoC-HEG8JfoDGYHTLRdtQu9up6S758oo4EmJgcJf6xNgQvoxraf22R6vZ7n7PtNIAKcWp-udTrvqd3dortod9GtjSYt-1hUsTHY522McJLueJKn9z1bC1vLvK3ZKGNFSrvYkP9yo961QIadAQyY9jY0v_-Pabeu1ydpAbsyC9-VEpCna6iamzfI0PV9_ytcNi-Ro2g4kvZ-b0njKUiuJ9B0fk7J-zEtvulB03gnSU8DqTmFI_vHMLDMe2IqR0rw1GvP3bJ-ffBrzH-WgtQWpzJb_rc5FDlg0tY-VnnR0XZL5nzwaucZRkKLBKxp0lBPGxa3fWge9mVGpJ80T0N3hgKz8zqaFCrRLsxKo40OyKdeeGvjoBZlZM-s2QuKkwJ_Iq3C9s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdiYalykj0S2U0I4OBYSktvh09ige_fBSwOdjVDo06xkp0NcUTmyqTt3clykUALE4SE3rHym0agiiohGY_O3iE07KQ8XM1QYXZTpcSProIo1-oEtReqwqUNtdS2gXJVC3stbbF2FYnqJUqawmPIfYv_-Zy3Nb9x10rwfVhnZE0v8jLvZEwNJMS96PmxZdagw0pXu32VFXeHa2k135w-XzfEWDikUefrY0256tsd_oYmXynG-8xLzZCsMMO7h405Yw46ESiMkPVbgCUJotQJJ5APMjtI5xf25U8gcXw7Q7yUbVVsvelxxQAPX8cJndw4Xsqs0pB4s7y8uUTbV0bx0Aj84mRT9hGtFqWuRDBYS6EigqCmT5r9vLxtHMFzdxeoEfLyTmu0jnunT_-X0uUfJGOKJk8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109709726802734867041\">Mathurin Carnet</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1420,
+            "photo_reference": "AV-0GLcSp0o8a9sWkDNyi5XKeobhQrR-N66I-NDy-x4PgEtsZw33XM4ML1CTEYVY23GAQaCYlq241FPoiAPiE0Lehv9HXsYIqM4eG390mWqe1V9dzLyoPrpD6me3t40t1hNJFOpOX3NSOL9nWPk5Gy79A6wLsM85K4VNGZrozX6oeJyE_Czlj4vYlfqlJszOU686vfwq69ti8MxzVjgGLV4tFxUwUsVlf5pVuLOGrhw_fFkZSys7-6fLcyT2tsqTfaAM8YCeZUaRixO1XV7EXq5Rrt1ai3uCPVmU3KuJ3wisRbawTWR6H6ywm8w7-X13EeFEIMBX3QVAT-9thJDexlcU3W49P4GZw8cXyqSckmckfAyFDv6bkLai4FiOMM16AEAdvGs-0ytZBHgO8QAiOwkr_w6J2pk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 2634,
+            "height": 2267,
+            "photo_reference": "AV-0GLf_tBqzlmbYk559z67sddjVffWKxUSLbauMj8jfz9i1EMz_5zRIN3wO3eFAUjSnnH-nf4dmj_gryD77w_cRx7w0jLFiQQVNyXsXQjvWtWmVprRL9dAw3aQ2Uehiza7XuQ6Y2RtgwYx0xSu6iAcFNLs3VZrWcgic9jjjRdpFCatACswYtEwPB2LPC6c2uWHSUhXsdO425V01YF1AnDeC1UGjgfVihkR74LhUPCnkAJ9OpCMx2VYudstGWJDPwaco-ha93lpNsyL5awUweeDM9bDZnNXVAWSISFS-SRgmoFA8YqI9vlH6WjEoBQ0a_bm_SiocAG5kxPzmZ46aXSJtcKP5GfU3QGjgrn5m4loiO3T5IIFWlrtaLwoKxVD1ck6CS76iL3sxhrjhPJJ3E64JWURnZL0GIPM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          },
+          {
+            "width": 1107,
+            "height": 1107,
+            "photo_reference": "AV-0GLetWAc6cWz4pCMhyT-1DMXCGMnRLbEl_lAyixl591VS98QTl6u0Nd8bYd6YXmV8_Gv-lisGORKFZcZAQHWJ-0afWOiUTLTmI7KNN6CDkqrwnN_WC96gxToAO0O4-ZhS1ZRjv1ILgouxej5ZEgJwxCxbB5pBBVS-vOI0B2RJb3nv629t44Korz0gQttZ8kJWjFx_7s9aQaKlCkOx8AWMQOEp0T14IN8g3kapFwpfFfhodsbOi-btXDekCowColKJBcPDU4YhahxqRFmJDG2fQoo3XZExxfBK2-YleXLKwyj2elyYSEMJ5B4HI-c8ZcDjV9j1wIfv3G_LkJ08Pa65lThjg2s-xtk1FhLwZLxvzvS7pgMhZ0F99_jc570HDC8qmHcBXXJBldu_CAyq0XItkbLzDpM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113808427743726888938\">Croquet Alex</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5901
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement, ni les équipements et services."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-gouter",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "vend des tartes, des desserts, des brioches et des cakes"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "gouter",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "vend des tartes, des desserts, des brioches et des cakes"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "vend des pains bio et des viennoiseries"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie proposant des pains bio, des viennoiseries, des tartes, des desserts, des brioches et des cakes."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "croquet-alex",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5901,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "1373bdccd5641ba14a4cb11764ab804588c1c9ba2520a20c29487fd6eece8abb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

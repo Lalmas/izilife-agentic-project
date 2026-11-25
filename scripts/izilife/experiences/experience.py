@@ -1,11 +1,15 @@
 from __future__ import annotations
-import argparse, sys
+import argparse, json, sys
 from pathlib import Path
+import openpyxl
+from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.worksheet.datavalidation import DataValidation
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "offers"))
-from offer_agent_common import create_workbook, drive_workspace_root, normalize_zone, process
+from offer_agent_common import create_workbook, drive_workspace_root, normalize_zone, post, rows
 
 FILE, SHEET = "experiences.xlsx", "Experiences"
+SOURCES_SHEET = "Sources automatiques"
 COLUMNS = [
     ("title", "offer"), ("experience_string_id", "scope"), ("city_ref", "scope"),
     ("description", "offer"), ("short_description", "offer"), ("experience_type_ref", "offer"),
@@ -28,6 +32,86 @@ def payload(row: dict) -> dict:
     return {key: row.get(key) for key, _ in COLUMNS if key not in {"status", "notes", "last_result"}}
 
 
+def ensure_sources_sheet(path: Path) -> None:
+    workbook = openpyxl.load_workbook(path)
+    if SOURCES_SHEET in workbook.sheetnames:
+        workbook.close()
+        return
+    sheet = workbook.create_sheet(SOURCES_SHEET)
+    headers = ["label", "url", "city_ref", "mode", "max_items", "enabled", "notes"]
+    for index, header in enumerate(headers, 1):
+        cell = sheet.cell(1, index, header)
+        cell.font = Font(bold=True, color="FFFFFF")
+        cell.fill = PatternFill("solid", fgColor="5B9BD5")
+        cell.alignment = Alignment(wrap_text=True)
+        sheet.column_dimensions[openpyxl.utils.get_column_letter(index)].width = 42 if header in {"label", "url", "notes"} else 16
+    sheet.freeze_panes = "A2"
+    sheet.auto_filter.ref = "A1:G500"
+    mode = DataValidation(type="list", formula1='"catalog,item"', allow_blank=False)
+    enabled = DataValidation(type="list", formula1='"oui,non"', allow_blank=False)
+    sheet.add_data_validation(mode); mode.add("D2:D500")
+    sheet.add_data_validation(enabled); enabled.add("F2:F500")
+    workbook.save(path)
+    workbook.close()
+
+
+def is_url_only(row: dict) -> bool:
+    """Une URL + ville sans titre demande l'extraction automatique de la fiche."""
+    return bool(str(row.get("source_url") or "").strip()) and not str(row.get("title") or "").strip()
+
+
+def process_rows(path: Path, env: str, dry_run: bool, max_rows: int) -> None:
+    if not path.exists():
+        raise FileNotFoundError(f"Fichier absent, lance --init : {path}")
+    wb, ws, data = rows(path, SHEET)
+    headers = [str(c.value or "").strip() for c in ws[1]]
+    status_col = headers.index("status") + 1
+    result_col = headers.index("last_result") + 1
+    handled = errors = 0
+    for row in data:
+        if handled >= max_rows:
+            break
+        if str(row.get("status") or "pending").lower() in {"done", "skip"}:
+            continue
+        try:
+            if is_url_only(row):
+                request = {
+                    "city_ref": str(row.get("city_ref") or "").strip(),
+                    "source_urls": [str(row["source_url"]).strip()],
+                    "max_items": 1,
+                    "discover": False,
+                    "ingest": not dry_run,
+                    "confirm_write": not dry_run,
+                }
+                endpoint = "/scraper/agentCollectTerritorialExperiences"
+            else:
+                request = payload(row)
+                endpoint = "/scraper/agentStageExperience"
+            if dry_run:
+                result = {"success": True, "dry_run": True, "mode": "url" if is_url_only(row) else "manual", "payload": request}
+            else:
+                result = post(env, endpoint, request)
+            ok = bool(result.get("success"))
+            if ok and is_url_only(row):
+                collected = result.get("result") or {}
+                ok = not collected.get("failed") and not collected.get("empty_sources") and int(collected.get("found") or 0) > 0
+            ws.cell(row["__row"], status_col, "done" if ok else "error")
+            ws.cell(row["__row"], result_col, json.dumps(result, ensure_ascii=False)[:1000])
+            print(("OK" if ok else "ERREUR"), result)
+            if not ok:
+                errors += 1
+        except Exception as exc:
+            ws.cell(row["__row"], status_col, "error")
+            ws.cell(row["__row"], result_col, str(exc)[:1000])
+            print("ERREUR", exc)
+            errors += 1
+        handled += 1
+    if not dry_run:
+        wb.save(path)
+    print(f"Traités: {handled}")
+    print(f"Erreurs: {errors}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Création/upsert manuel d'expériences, une ligne Excel par expérience.")
     parser.add_argument("--zone", required=True)
@@ -41,7 +125,7 @@ def main() -> None:
         example = {
             "title": "Expérience exemple", "experience_string_id": "experience-exemple", "city_ref": "lille",
             "description": "", "short_description": "", "experience_type_ref": "",
-            "experience_theme": "sortie", "principal_activity_category_ref": "",
+            "experience_theme": "", "principal_activity_category_ref": "",
             "access_type_ref": "", "booking_needed_ref": "", "access_link": "", "price_text": "",
             "basic_price": "0", "duration": "1", "duration_measurement_unity_id": "2",
             "exterior": "non", "with_equipment": "non", "equipment_gived": "non",
@@ -62,8 +146,9 @@ def main() -> None:
             "participation_mode": ["individual", "private_group", "open_group"],
             "status": ["pending", "done", "error", "skip"],
         })
+        ensure_sources_sheet(path)
         return
-    process(path, SHEET, args.env, "/scraper/agentUpsertExperience", payload, args.dry_run, args.max)
+    process_rows(path, args.env, args.dry_run, args.max)
 
 
 if __name__ == "__main__":

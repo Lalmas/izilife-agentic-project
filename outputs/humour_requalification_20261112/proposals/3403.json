@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3403,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.9,
+    "evidence": [
+      "Le titre et la description annoncent un spectacle humoristique porté par Guillaume Fosko.",
+      "La source ne prouve ni un plateau ou une programmation de plusieurs humoristes, ni explicitement un spectacle solo écrit et mis en scène."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme exacte n'est pas précisée ; le nom du lieu « Le Spotlight Comedy Club » ne suffit pas à établir qu'il s'agit d'une soirée de comedy club. La catégorie existante est conservée."
+      }
+    ]
+  }
+}

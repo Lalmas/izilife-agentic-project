@@ -1,0 +1,63 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« on y mange très bien »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Je conseille vivement ! »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« on y mange très bien »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« carte de vin exceptionnel »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« carte de vin exceptionnel »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« accueil tres chaleureux »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas les horaires de repas, les options à emporter, les moyens de paiement, l’accessibilité, les équipements, ni les publics ou occasions adaptés."
+    ],
+    "summary": "Restaurant bistronomique apprécié pour sa cuisine sophistiquée, créative et de saison, sa carte des vins, son décor et son accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "20c9b038871400237628af882aaaa0b436d69086b51ab2f13383a0ba833521c8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

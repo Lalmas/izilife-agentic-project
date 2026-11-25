@@ -1,0 +1,51 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.77,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : friterie."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 11:45 à 14:00 du lundi au samedi."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:45–14:00 du lundi au samedi."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : friterie."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les autres caractéristiques."
+    ],
+    "summary": "Friterie à Faches-Thumesnil, ouverte du lundi au samedi de 11:45 à 14:00 ; fermée le dimanche."
+  },
+  "meta": {
+    "cache_key": "db3c9906cc2d87a19a89128997a404e6a800986e289a0de8d88e02a2308fd8e3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

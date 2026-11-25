@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "replayed": false,
+  "journal_id": 479,
+  "result": {
+    "created": true,
+    "copied": {
+      "identity_fields": [],
+      "media": 10
+    },
+    "repointed": {
+      "PrincipalCharacteristics": 1,
+      "Hourly": 1,
+      "HourlyContent": 7,
+      "SpecialMealTypeHourly": 0,
+      "Link": 0,
+      "LocationOtherCategory": 0,
+      "LocationEAPUseForCategory": 0,
+      "LocationEAPUseForEquipment": 0,
+      "LocationEAPUseForEvent": 0,
+      "PlaceMealType": 2,
+      "children": 0,
+      "ElementExternalMedia": 0,
+      "ElementNewsPost": 0,
+      "ExternalPromo": 0
+    },
+    "excluded": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 6,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "source_archived": true,
+    "destination_id": 1282,
+    "destination_ref": "cageot",
+    "destination_unique_id": "f365e9316a1cff3fe13adfe51086f5bc",
+    "destination_activated": true
+  }
+}

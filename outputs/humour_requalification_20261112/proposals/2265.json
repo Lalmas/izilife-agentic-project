@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2265,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.88,
+    "evidence": [
+      "La source présente un spectacle d’humour de Samuel Bambi.",
+      "Aucun élément ne prouve qu’il s’agit d’un plateau de comedy club ou d’un spectacle solo écrit et mis en scène."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme stand-up n’est pas explicitement mentionnée dans la description, mais la catégorie existante est cohérente et aucune autre forme précise n’est établie."
+      }
+    ]
+  }
+}

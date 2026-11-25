@@ -45,6 +45,8 @@ def plan(args):
    for item in data.get(family) or []:
     if family in {"escapade_proposals","activity_proposals"} and TEST.search(searchable(item)):
      excluded.append({"env":env,"family":family,"source_id":item.get("source_id"),"reason":"mot test"});continue
+    if family=="activity_proposals" and not item.get("occasion_ref"):
+     excluded.append({"env":env,"family":family,"source_id":item.get("source_id"),"reason":"occasion absente; colonne obligatoire en destination"});continue
     if family=="campaigns" and item.get("string_id") not in set(args.campaign or []):continue
     clean={k:v for k,v in item.items() if k!="source_id"};merged[family][key(family,clean)]={"source_env":env,"payload":clean}
  out={"format":"izilife-curation-extras-plan-v1","created_at":datetime.now().isoformat(),"destination_env":args.destination,"sources":args.sources,"families":{f:list(v.values()) for f,v in merged.items()},"excluded":excluded}
@@ -60,10 +62,13 @@ def apply(args):
  for family,items in plan.get("families",{}).items():
   for item in items:
    payload=item["payload"]
-   if family=="campaigns" and payload.get("scope_level")!="global" and not payload.get("scope_ref"):
+   skipped = family=="activity_proposals" and not payload.get("occasion_ref")
+   if skipped:
+    result={"success":True,"skipped":True,"reason":"occasion absente; colonne obligatoire en destination"}
+   elif family=="campaigns" and payload.get("scope_level")!="global" and not payload.get("scope_ref"):
     result={"success":False,"error":"Campagne bloquée: scope sans référence stable."}
    else:result=api.post(env,UPSERT[family],payload,form=family!="campaigns")
-   ok=bool(result.get("success"));failed|=not ok;journal["items"].append({"family":family,"key":key(family,payload),"source_env":item["source_env"],"status":"APPLIED" if ok else "ERROR","result":result})
+   ok=bool(result.get("success"));failed|=not ok;journal["items"].append({"family":family,"key":key(family,payload),"source_env":item["source_env"],"status":"SKIPPED" if skipped else ("APPLIED" if ok else "ERROR"),"result":result})
  out=Path(args.journal or p.with_name(f"extras-{env}-{datetime.now():%Y%m%d-%H%M%S}.json")).resolve();out.write_text(json.dumps(journal,ensure_ascii=False,indent=2),encoding="utf-8");print(f"Journal: {out}");return 2 if failed else 0
 
 def main():

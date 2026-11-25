@@ -1,0 +1,508 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:33:06",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "star-food",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "star-food",
+    "status": "found",
+    "data": {
+      "id": "5859",
+      "name": "STAR FOOD",
+      "shop_string_id": "star-food",
+      "unique_id": "a1c40c38bf88b182869a3b2d6438dc79",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55115",
+      "principal_cover": "55115",
+      "qr_code": null,
+      "phone_number": "+33320962135",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "54 Rue Jean Baptiste Collette",
+      "additional_address": null,
+      "zip_code": "59551",
+      "city_id": "101",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0589901",
+      "latitude": "50.5223699",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:32",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:32",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJr68DfDvTwkcRyw8ypzvPmFA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5859,
+      "scope_type": "SHOP",
+      "scope_ref": "star-food",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "attiches",
+      "string_id": "star-food"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55115",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5859_6af3a24c82b2e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4915",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34140",
+            "source_hourly_id": "4915",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34141",
+            "source_hourly_id": "4915",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34142",
+            "source_hourly_id": "4915",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34143",
+            "source_hourly_id": "4915",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34144",
+            "source_hourly_id": "4915",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34145",
+            "source_hourly_id": "4915",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34146",
+            "source_hourly_id": "4915",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "star-food",
+      "google_place_id": "ChIJr68DfDvTwkcRyw8ypzvPmFA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 13:00, 18:30 – 22:30",
+          "mardi: 11:30 – 13:00, 18:30 – 22:30",
+          "mercredi: 11:30 – 13:00, 18:30 – 22:30",
+          "jeudi: 11:30 – 13:00, 18:30 – 22:00",
+          "vendredi: 11:30 – 13:00, 18:30 – 23:00",
+          "samedi: 11:30 – 13:00, 18:30 – 23:00",
+          "dimanche: 18:30 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLfCmWEt_ej03knAHNJshEVnrbnPXxDVwQ8cRJXpVMGZOxR5nc8Wv2ThNk-5PihJuY8pqCrS5TzisdS71dwONvBrewgOe1USjAjtdMs9bLNUA4tlXEHeJtwzm7WsIe8nEcajt0EA1Xoq9EIkfNAuTfEVlv84JJ1VvxUXWQH8wtso4-bISYpd5b8U-Y_L6I_sZKl99HkXt10VhB7BguSQHJLrFHKvBxaguStU2uwvWRcG-9o2twBOzJckwrbr0tudlxoP3-KSjFPdyoqHQGsTunwuXJsfJ2bZffGRvnPwiHKi4hAuhjhAZSi_wEq-ONQV3JzMtyMBHp7LTakUS4Fb-bI_yu8WGnaKb-cNucR0Ej1phpN4QvfSFy__dVzt_tjKmBFWI0BV_m2V-GGAAC4DNVk5eTp7zi59-lA4CyKAMPu_0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106388799941870600606\">STAR FOOD</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 1024,
+            "photo_reference": "AV-0GLdvRQenY0lKfIg1S7O8_1VuUIVsxt075B7NqEhROnIVctJCaj9r6DFH-6Ua7c-pNWkNlsQRPbj9b-T-2dJqjkd42dqBWQ3SO15aKAKSeblZaUXeHJs3sQroaK-51zWMciGESC9d354sf6P3BrFy-7bdcJd3IUkAsQpC42e5oxfs01aCoFdn-fzX1GJ8WfD_AYP_Ik22W1vP5ur07ApGtZTKaw5SrtzzBBdTZCxbVzppxKrDZ5Z00EZkLzNhpqlXOYSf0yksRfgavhxe9CjNRpVOSO8iZi9sSy2P7hsSxge4VbLpATuQGKB_2k4IisWMKSoW0l0ixX0QYghpUSYVcWAfX8WssfkV8eFvoUP6bXVufn-cow02DkiAsNQpWQMeyeeF0KHrrfohNoXEirLykTBi06m-Hg657yP1KYnwgqm6Rg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106388799941870600606\">STAR FOOD</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLehpem-0nn6PAbwzUP-8VoMhsduSJtTR1fgQsjfaLvMCnxUJyFojmpU89UqOZ6e-E01Zm4w_gmYAHKzWNCukXlLAc3VKTKHwLDYtIy-lFCJFJsVzHlK_g3kZqvpN5-PFf8fNGyufZCuGL-w3KzmdiQ-4cWCZMNluWgcWjg3Z21gfJb7ZMeyQfnXcukNJLfJxMxLldbDu6gqbp12c050fH2e_bs5rXsdYwPhaE74s2cR0wxQvGcFtLixgvIJkIvR0kEcvfc-9Vrcn0uzwJvOfYdU2xiu3A-4_Ulei7iq6CArkpyKhVBC7ufjrLZS3YBqA95155XWqJredBcRS_zEyrdMyxDlCaYZMtbSH_RG_B3xo01U_vhsa5FlL_GQsaTUdM61EgxlRY4vhTCphcxw5a4VtU8QuLIwaVwpNtOXr8DBgw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106388799941870600606\">STAR FOOD</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcrmbCqs-lJMO3JbPnhLWridl8o7yBBy7a3gCRq6RTqBJB-M8cRlQKclQ93weiMed0zYIqbVKjmKnGO-GpWJA0pu3JpJIzuCCNSp8bk81bmBXVxm3hgqR6_djC_4dWgDQOiHA7R_9nVWgjFKGRYVFg9CRKk6oVXAyHAN6FBU_XggMyE3Ovf97yk1ilgLMcO-Cs8wCc5caFXygAw0WW9n5fHBBRZ6O8Hre1jIMl1_35yS0nvEtn43K1ch2BSr8WACg62d_e3CrTj1UIbW7O3doLChttHT_nmJsaJ-eS-pnmS3Nu5xa5TkynpV5ZQBF9-QXPy0qdrwQAW6ahujN1jmPUXB5gMhgKpE--6f-QdQzxZ8pdkZ8LfAk-DQZ8Q_fua6kINuAfIg0pqFoKBA5uUJC7KEbPqBNFQ_G9SRKopEVGQUA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108642042816783909076\">Sam Sam</a>"
+            ]
+          },
+          {
+            "width": 3088,
+            "height": 3088,
+            "photo_reference": "AV-0GLc7yzk0ukghpe8ZUOpuJ4A7e43JJUq-b432D-do1JXNXqtt_Qjyt7KdBHTGQu2y-roXjXVtFfvPdhIQLnI6BFdeardtHz6KIgHWk5YTfVpbnUqMTsm-o3io62ihxVutQ8rgJ62-lmfcUKmE_ILl1TCWq6egX7D5duD6kbN5V25mhnu1H3HJsBH7eb2B9y64_tf24eMqEbqzbc3c0m8j_TcJQeTmLGREzUYK1W2Zal7PrXyKvTusdX1iTlt6oGRfri3ef68vaB-Q27eUx7_eSc7_UYrUIZW9OU8Qe6juIcXXVcbY6dhLTosVjUQwRicjgY9ma_-nzdTAeOzMkzZNUEJbR335aBlCIIx_OxPzl8pTmDhF1Te0n2bDAOiuPPfCL5V5KfaSKGJRwQqm1_2yHdoPlLApn3lXMXVznO9y3BA_7Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106388799941870600606\">STAR FOOD</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdSPoCGEHn0EFKLPBCwEzHhg0skVjohhVR7bxtfhUR-ASLZNGfi10_Vs3q1abytjbS1EqbUxauy3XULpcD0KOsBy2ZeEqfI_YidPGv6hG5klfDkF97DyukP54lKYsUPciEgOQDg7vwcXTTw-IuXNGQB9Xfa-QmPD9qbgbg-5C7KZWuH6auxvuUza9LxDqNcHAh8wBa1nXN-Z32TumdNTDYq8Rs-EHrvYkqSDjQwSzNCDV1UANHNY3W42d-otWnt1nvm2rzbshkwxXrtUC1oJ7cyW9sk6ZbezreWpOfN5y1tVgnHjgIdwhFSI0eZKvaPW-tlkgJXAf55g4oqasvRvGwOdURDTd2YVgH1XdQERqWOViwyLUgtkPSK2CLwPS4XnwhbAeBTb1g6P1lsQy3rNEuSxV104IoLtAK-W_cbxYBOug",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108642042816783909076\">Sam Sam</a>"
+            ]
+          },
+          {
+            "width": 3088,
+            "height": 3088,
+            "photo_reference": "AV-0GLc3P_0885udUKBwyp8RrSWZA2Zo4tjlI0nfBxFAwz0UFzn2iLV-JuMLgKBnty5jFAy7NIaoO61ezmlGtxGm2dHOhrqFfHVWpHS53Qb2bjVubBv4ZABy3rZzCfSvIItnA6kUFV6aRuSHqMkQuT-nVIB8b4BZmu3sIWDExR3Igbs1k9z36LLblpE00b2YlDFjmYlkRfIpNScoykwZBtUmf_2zoJWdsDavJPupGpZ6kBDiLNoax-LeZt3JTHlUqVLLj39mpR23J87T2rzBpMe4C2o5tOE8myXxSNI11cKLyCtHaOjN3yKyxpfQBJpOgOUiqD74ClDnhriftntZ4X2eNBem4V5ZlUnR2KvPvMs363GlLjwZDrf79FChPINUOsJ-w0dam5cMpFlCzJj34DHv3q8UwWzOlI0uuSbS7BjRPyGV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106388799941870600606\">STAR FOOD</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLetQoWdcijsig7egd5hlriyf8y7YzfYLCGZcgXp1-n4uZn23QboDn2GDK4PKGhr0kGEi6sXd2siyxBxoi57Lzkey5omY_309OsywyAVR_Qi6vnBZW3PDnzDR7a1SXB4MEeWhg-46BEhUcCuwkn_9qi2PuvjDiHLB-ahuisaM2d9zVgBBs250bc3p_hGiujTRLzEqhQTLca8TBS7K8_vN9xQP8Emeh2fPj-cSgoxkhJYqwjnqPVh90CNeYOMKVaUJ9QgGKQXHccFTBBzBoPHv6zyfXh3HxzQt7XU_UHoq-kiTX2a0RWJp89lIKZnRduH0_5BiJa2uE1DIscJrBMoZFLZ85KxZgIkzd3BrucYz0EF8D_a90nDoIaqTmEGI7r2dibSFeBQwJ8gBFOcbSTYQ-D2BeuOvp8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117685650927467213935\">mel</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcwUNN39C-blUzkVydqh3SjL4d2R9h83JgNG7NVuxF3zqxCfmHo9BDND6db46Kc1sS7KUIrmO1iBcm-N0pZe84Jw_KWo2gBVcrqzYo03irZQaghEbAhbweHq69_bd-roHcKtbU_BMvOd4mcq0qqiHqLlTllCQMeDSh2mOnoUWtpIfhxsvir8GZBpDGkdbleVMmzzVglD-gJioF71VSElsWm3hWojBgoBW5a6uLjJBKhMMCmXirZ-6BB-YFKN6x_l2l6R24wY1OF87UAQ0CTxUd0bE4Xboy9sERqWeB0WoMLdy9O4T0wPFBFB1A9BnHm4e7G3UsDDRcHh2ex3Tdn089nRseXItfZT_BZTbMYmSGwW8tkEPL4eqnrv_bRmGexWtlV9saXqPUbPCbGeVQYIHRME7e31eg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114843755413893049169\">Rémi Vinckier</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLftsm8gmNr3N8u2NCD1Iy_MvPrBNMHpvv9Xpp7fmIWsyRBYMQYS9mXK0k2dqF1UM0kU9thtlpQTbBqmSQ3gEf66lv5mB4jQotNzUXAFhTtKjrevR_xcn32vwRXsHieTp3gsJtq3U7075i6CpugAbO9AinlzVkTatBNNatn53LYbxVUeAucQ4p6Farv4cLdHWLDHRyhro_1Na4HVoMNaZY_JWF_OtXb6B-AggC7LnVaNv2rMjTOomNhm3b8NMNHja90VjulVKcAr-orPLqjluDZ_bmg8GyyYcGskmR43ScdS56XyU4_b57eb1tDedis11WeZ-xzSOwES-EQvOjEychLLfqDHv6etNYHi3s_PL4G_PYXn6SvY7CRd1OTk4FXVP_COC-9XYAD0Dv36oOo7b3Q01ScxB1nWoF_5A1Uj1PmX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111442645246514187161\">Emilie Daubresse</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5859
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 13:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune référence fournie ne précise la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ou les modalités de commande.",
+      "Aucun menu ni avis n’est disponible dans les références fournies."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 22:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Attiches, ouverte le midi et en soirée selon les horaires fournis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "star-food",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5859,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "729fc20700bb85dc7a9e740f9c82fc6a77ea42ccb99bac24c8c71c9b10c80731",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

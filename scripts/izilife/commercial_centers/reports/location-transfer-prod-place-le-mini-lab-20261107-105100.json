@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "c8e13d17cb1667deb15dc4be1229fed980fcfc86b9c317d543fb11b8d85883a1",
+    "source": {
+      "id": 118,
+      "type": "PLACE",
+      "ref": "le-mini-lab",
+      "name": "Le Mini-Lab",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "EQUIPMENT",
+      "ref": "le-mini-lab",
+      "name": "Le Mini-Lab",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_EQUIPMENT",
+        "target": "le-mini-lab",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "PlaceMedias",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlaceHobby",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "PlaceObject",
+        "column": "place_id",
+        "count": 2,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 31,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "le-mini-lab",
+      "source_id": 118,
+      "source_updated_at": null,
+      "source_fingerprint": "a51c8fc3eb4f15fa9ae2b9ebd69c1cfa24dbd8aa7af0b824dc683150f3e08732",
+      "destination_type": "EQUIPMENT",
+      "destination_ref": "le-mini-lab",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Le Mini-Lab",
+      "destination_category_ref": "espace-de-jeu",
+      "destination_category_id": 998,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_EQUIPMENT",
+          "target": "le-mini-lab",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "PlaceMedias",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlaceHobby",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "PlaceObject",
+          "column": "place_id",
+          "count": 2,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 31,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

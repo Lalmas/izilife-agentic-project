@@ -99,7 +99,15 @@ class _Tee(io.TextIOBase):
 
     def write(self, value):
         self.buffer.write(value)
-        return self.original.write(value)
+        try:
+            return self.original.write(value)
+        except UnicodeEncodeError:
+            # Windows peut exposer une console CP1252 alors que les agents
+            # journalisent des symboles Unicode. Le journal Excel conserve le
+            # texte original ; seule la copie console est rendue compatible.
+            encoding = getattr(self.original, "encoding", None) or "utf-8"
+            safe_value = value.encode(encoding, errors="replace").decode(encoding)
+            return self.original.write(safe_value)
 
     def flush(self):
         self.original.flush()

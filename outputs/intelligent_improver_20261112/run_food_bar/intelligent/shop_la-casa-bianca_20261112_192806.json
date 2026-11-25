@@ -1,0 +1,654 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:28:06",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-casa-bianca",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-casa-bianca",
+    "status": "found",
+    "data": {
+      "id": "5571",
+      "name": "La Casa Bianca",
+      "shop_string_id": "la-casa-bianca",
+      "unique_id": "0bf57898a0e23df8c1028caea445e6cd",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Murs lambrissés rouges et jaunes et terrasse privée dans ce restaurant à la carte italienne classique.",
+      "ai_description": null,
+      "principal_picture": "54827",
+      "principal_cover": "54827",
+      "qr_code": null,
+      "phone_number": "+33320584315",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "43 Route de Douai",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0877203",
+      "latitude": "50.5862866",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:21:24",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:21:24",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ-zvXBybUwkcRejJ0_rDaEdo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ-zvXBybUwkcRejJ0_rDaEdo\",\"rating\":4.1,\"user_rating_count\":648,\"google_maps_uri\":\"https://maps.google.com/?cid=15713581028590498426\",\"fetched_at\":\"2026-11-12T19:27:55+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":4,\"text\":\"Bonne cuisine, service très sympa\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T11:38:03+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Bruno Pacelat\",\"uri\":\"https://www.google.com/maps/contrib/116349364950755370829/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLBjFo-96dj9kg0TiYFkllWHgRRQtJu8ujRPVxyiWeAIvH1hQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Excellent food.\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T19:03:34+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Arthur Karatzas\",\"uri\":\"https://www.google.com/maps/contrib/108069201840696565464/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIqqlPsYfoF2_UK6WHiS4mEmgt_KvYj5pRhHBkYGg54Cu2qRQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours au Top.\\nNous prenons toujours un plaisir culinaire à chaque fois.\\nMerci beaucoup.\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T08:22:06+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Jean Luc Goyer (Slademan)\",\"uri\":\"https://www.google.com/maps/contrib/113017512904610685313/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUYIm7CVW04xtV2epH01Ckes5tPwqutHv61ven51WNL_3zy-c2y6g=s128-c0x00000000-cc-rp-mo-ba6\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T11:08:08+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Abdelrazek Ismail\",\"uri\":\"https://www.google.com/maps/contrib/110283227416039465679/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJeu2uZCGxFHJgT6zljzGdM5Dyssuvv7VLz69d82OkxW7urGf6G=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T11:03:37+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"FAEZA Abaker\",\"uri\":\"https://www.google.com/maps/contrib/107737539805546788349/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJJheAhmf4f7MyXr88OmK4rm-uReSuBguwBtLDE__Rwin0LiQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:27:55",
+      "google_reviews_place_id": "ChIJ-zvXBybUwkcRejJ0_rDaEdo",
+      "source_id": 5571,
+      "scope_type": "SHOP",
+      "scope_ref": "la-casa-bianca",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "la-casa-bianca"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54827",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5571_6af398e497fa8.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4630",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32145",
+            "source_hourly_id": "4630",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32146",
+            "source_hourly_id": "4630",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32147",
+            "source_hourly_id": "4630",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32148",
+            "source_hourly_id": "4630",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32149",
+            "source_hourly_id": "4630",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32150",
+            "source_hourly_id": "4630",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32151",
+            "source_hourly_id": "4630",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-casa-bianca",
+      "google_place_id": "ChIJ-zvXBybUwkcRejJ0_rDaEdo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00, 19:00 – 22:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 22:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 22:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 12:00 – 14:00, 19:00 – 22:00",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeM83rlLuq8U28NnL2WuIovHaYrezpjMkuVXBHFj5bAjOySgywIuBxP2iXWc1NGDbg8mK1BQsXRhBaRRn-Rfk1vx6OO36QrjYu8TS0ytMPuvqyHmRCtak99k1RwXiL2RvIAMXBlXOpvL8TzDPayevDw9Wh1TJ6mJnn54TnhTyxAz3Vvc4fySzbEyaGXuU80fF-D-86cp0bGg5LNTxUEz8tAzSgyrP40Z-Trd8_yU_oatTqViaJun0noC_KcrTZ8z48FL5FNFZrVhNoKeZ41Hp4-bZwHvv84jDYLulAj4F09eDJajsY3j1TgpdHQ47VB7fDktE6niWBsJbb8HxbmtR5p2EJC4SW2opbmIuDsURlV6gyoExG7f1kzmZ6Xt7A242WVJ3NnLbS6uLZgRp0DgbzbifM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe7Hsq9QXSg5xFoIPf8CB2Jl6mv6tmfeNxF4d_6Ey5iB2_OEQRigzHQwU7DkOW-DTTJqeOqePdeusaAq563scf1jcIEvY1u1cBHKEiRIDKuG7RdEYL615tVW7XJ5uO4JfdlZHhGifiWPebolyIATdYmOXpjbV5fWcvYFRiFc2pOIn-8WyAGMelL8H-Vh4kozS7uWwqpbMVyUyvr1Xhsb2QrifRPVCbN8oMkAgl8YBEqy8ZS-dMpemoD5ldNzWd6oTzWfh4NCiqL-MKLApeXp09a5m6mtXAjDfC6UVs8bqV0b_r20-LMVHF53fEoKX49cFhnS0CzFhIWb5ZUEHaE6dk-5pXUNhFKlQd2Mn-T7mfiF7HdHc-XP10mu_pjDCzEAhpPV9OoBFWKZ7hCsur2_P4dJGlL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdlmbrap9PxrqnEzzqsnr62-Ef7jl8PDfzekAcViDXSdVvh1oLYdyyPkwh2IsKl2joXcYt13OgeOQWaMC8s1BrTvZOV9w3RV_jJTYvw6N_s1C1K-WtjRwqVylRYkB7QS6STJDTr1sVWa9OHtSUyXHl8qUyBt0NQlW5JEfiS6g9Fd-fcnlMeZ7J89S__2cicvgBMDhxinBGtI3PAHdw5DvRFY060To_JjZu2eVM-1Vq-Lm2xYvjscY8Coc4JB7Y9uhBUywFxwEO9jie3mOLN3QIRZe8rp0vQpEvQEK-6eVFbGlWwx3kd3KAVEhSPeVcKSZz_7OcaZW8JKOgW7HolhI44Mn36v5xqLvhyP8J_qPAzEb8C_aQxCh5GhfSle__1JSVvLGjwOQdjsDVBQ0ifc9aF7So",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdpKUHRWONo024uEWR_QHLrkBGyuP8y4dSlgthIlkVKvaJocBgfRJalS0TvCsMtkIGqN2CNTk4afCufj7EFkyZQpyA-u-soHt78acu1FcwAtKEqo2RZwQjCt8Z2qh6SQXj1wNMvINeNvQ--bjzW5dTEj-5AUGdEmfoAhbQCkfH23DgkQcC7gydMukpbGXWI0d9j2fel1ga4heMppcOJsqOrnnjbMlW411GMqm1NAvN9mvooc51L-yg66ejGcue4-FXrA8B4kdvyE4hVQqoj0KPZk78wbM6-J3yhfqDCxRQYr57ZsQuUlz9Oe_UbsYm8N2MCMSp_frQQXbmnV3dNxtU79CTd57ft9M8JPWa7LpfFD6u9CwoGv-UZY7Qgf38DPvjtS0vj55WJ9p6LoGndL3XuDfVZmUs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfwEaOkZHmM-EgyFxPhb2IuamuEnzj2ZlMpa9KYZsmMPRIWx2fS_XZt4eps3kY6PCcjIv5CvwkIsElsfLWzN2c2WWs7Okbha8cGT2B78mALwGpmy6UbbVcdAnxQ30K8_9P4ghjghnbOwq5OU5sZ0bqoDsYkP-Ei3DEO5y8dakxGk40GlJa6rYZc4RCczCRcNA1nSn3tkZaGV_5oouHq1KVYDXNsKvfiWHV2Szo8DGqxTrx2HmLkLI_6iC_vb087mn7Vowh2zftuxGjs2glDLC2bLKjgSute5Z6FFQ_HVq6mF63j2qeJV5Aju68M1WHhJ4fPt5HKABUldf-v_wF_xx1BbP7fc-4Dlwp2dAJVMkO-suiWNjnCEcvJu2vmG7KstkopoEUxRlxH6GNegaKsczlKLelfIuBrX3fULMfXHC4fLQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcfdYu6CSo1HYUkXunv9iJgJ5xqf3-14xjc1kIOT9V8H8eZM5dbURnktfEC-da0bF67c2MSig3Yuwdh7QmeUkIJl1jo8aUPiOxjBimbmV2ovhK2Bz_MinTTZu0_fl-SOJd5l5cPTNaudzvmQTC6w-pAGCrObYMGsMPFxKuenpFhbiLEAlqdpvdmidhxrANvbgbXj0p3qIoxD0f_fw5yJBLuhYJwKrBWpysJkQWeX90izO7Y0YsyxXo4dU5B8WwlUSls3voHnUTvrXav3RY8VKZT6dJHMwMdGbEnlumWxBIRwvU0xSPcF9gyZHpOTmLc0uZKPHwT-kDXlXspyBx14WQ-qtd-BrFKp-7BHUV5wsOLlvuD5jaogHuqqNptZmRS0kMXz5mTCao3hgkEsK067uQXxY9Tblo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105570199510393091400\">La Casa Bianca</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLfQ2O512GeHF5KWhfgZl7LyyxuuWU7vaeFfniqc9DP-ZrsR7gNwL2toKFdAViVOz2aACn9cHGeOg-PimxiStV2XQ3MpJKiAiq5iBUVCdWBoiSQ2wjxfwn9B-B3XLNMaON_yMkaD1Jei6hUhJ116yzAZGZY7N9bJ4wu0gjrid3D7kADeQVBbsoi3UtK4TdiEqf6La531WNamtbzfGjLKIjLjJZZMZ2k5exaH5T6cQkcuiz6EkEkvIuNBw_6oveHGIB2DRJUb0Scapc7PpWAwFBsZ0KJDAj9XIqq3zGj-wrdRrx6VINhVcJFNxoKbQ7sulcnK_9Kp3yw8YjPty2WGsIRfjksb6F9Vl_7UGyS24If8O--PXxL0HJJxg4WKZzx5v-3HSIazlH7JrPbBbbg-JWeuuNDWfUnuP6AKq2WO0wIG",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112986204966828978144\">Montrozier Christophe</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdQJ3YqueVCIJZ_H8Y59inaaMGWXfaJs3iHeKEyxJ0QpFzgPQlkm1gK1gE_soCY5X1mNawW9PKxKp6Exq-IPO0ZtZ3i-8enRdOENDdURaoiM2ELIsBt8ZGM7QH6AfeU_2LFpjAJfngnR3W2O_mIuHxHWuhYJUvFzxB1wSMXRrFWGEeVchRqhaAq_j5Qo_zPCwxGB4XyPMUJMfztlT39Wv1QyspQ2Kl7iZFFtg4HcBbNr3IecpbDRMvwr8HJPD0jSGBh7VWzFXO9lHQoOn-eE-uOmHykanIX-yDbtt1upRyk7kVdsgvC3ojUhwVUGFmu2afzlBtrMJDQuAcJQiUyC_puOXfYGpZdqIGv8cBxMSQGdbduNqVWpm0UPg5AJo9Y2QqIVPbjB-lEpALuWEXXeCy8cQIocfQeqZeiXsmGOsw8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112277946979508883020\">LULUSTUCRU</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLerpJtzFqTf83y8KAIIy-tMmmXiUL-lamo-4dC0JlGoZbYuBxgQvColkqyagUvD2Y6z7qe4nUBk1AXTIesxeY-q8R6ZnX0zy4O2_LXd9_DUxsleFXfaSONY57S_iL0ttxwXo-LNe4OgsyGkfzxq5V8U_wMc_QQHI0LuGae-UWsluGRxtFGDwk2Ge03yxBx48wD0bAAauYVQpvaXX7IuNNIUb0RcbFgt0JxbrbKM4qOkTwoLfRdX4c-8YX-lb5X1s5r2Gehy6ImnwexiXaz_Q1DB_mv-G30Tr7jLUK7U-6c1pcgxxICQV0pebk4ILH4YfKMkpsbyEZ1CCJcJHzzimiA_fjn5NB6l9Bj8-a-DdLys5CciWoC-Lbeeu39cyyl09iR6IdzYSua3yQ_x-b4nXDp2b4Kp6zBueYBQwV9mGVVyGw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101592834964529165612\">Pascal Breyne</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLdMrG28t5hIGn9BC1s0by2fOiHY7CLxqKJ-9GYukmzAn7DJ2VbhfCDyUAyTGj7wqSXQ-Uc0qaA43NnmTHZpgQ5vThsj6-6tK9gFnOes-hmzisENH_RupK19swjX64Z2WsH0dxahsvQzXWWyPSenshLgkT6SBFXMLBSP5T037olGjTY-AquaJyzzWjb81oBvGtZWpueXLG-sJ5A5J2_LSabQEbuYvWuQP8B5EudmGK5-af7aQAXRceMAgQ9MTfmT-kSp778qmKwqyptWu3FS_UPfZmGV8R5KRGv7QBwOFOao5NU5KPbOhiKTdVMACZMnrQ1LLgDPv_-EkFOJejrL8kpICoY_gJI_ZXwMhloyYVygZ04XJBs23IoYpysvMtnLMHYR6u59ucD8hXGmyGkMiMRpSx5vd_M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113102590720780673369\">Caro Del</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5571
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Bonne cuisine, service très sympa",
+            "language_code": "",
+            "publish_time": "2026-11-11T11:38:03+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Bruno Pacelat",
+              "uri": "https://www.google.com/maps/contrib/116349364950755370829/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLBjFo-96dj9kg0TiYFkllWHgRRQtJu8ujRPVxyiWeAIvH1hQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellent food.",
+            "language_code": "",
+            "publish_time": "2026-11-10T19:03:34+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Arthur Karatzas",
+              "uri": "https://www.google.com/maps/contrib/108069201840696565464/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIqqlPsYfoF2_UK6WHiS4mEmgt_KvYj5pRhHBkYGg54Cu2qRQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours au Top.\nNous prenons toujours un plaisir culinaire à chaque fois.\nMerci beaucoup.",
+            "language_code": "",
+            "publish_time": "2026-11-09T08:22:06+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Jean Luc Goyer (Slademan)",
+              "uri": "https://www.google.com/maps/contrib/113017512904610685313/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUYIm7CVW04xtV2epH01Ckes5tPwqutHv61ven51WNL_3zy-c2y6g=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-31T11:08:08+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Abdelrazek Ismail",
+              "uri": "https://www.google.com/maps/contrib/110283227416039465679/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJeu2uZCGxFHJgT6zljzGdM5Dyssuvv7VLz69d82OkxW7urGf6G=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-31T11:03:37+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "FAEZA Abaker",
+              "uri": "https://www.google.com/maps/contrib/107737539805546788349/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJJheAhmf4f7MyXr88OmK4rm-uReSuBguwBtLDE__Rwin0LiQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.1,
+        "user_rating_count": 648
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1077,
+        "bo": 39,
+        "front": 1038,
+        "estimated_cost_eur": 1.9249999999999998
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant à la carte italienne classique."
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "terrasse privée"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Murs lambrissés rouges et jaunes"
+      }
+    ],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "à la carte italienne classique"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant à la carte italienne classique avec terrasse privée."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Restaurant à la carte italienne classique."
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à la carte italienne classique, avec intérieur aux murs lambrissés rouges et jaunes et terrasse privée. Ouvert à midi tous les jours et également en soirée du mardi au samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-casa-bianca",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "have_terrace": 1,
+      "interior": 1
+    },
+    "editorial": {
+      "DishOrigin": [
+        "italienne"
+      ],
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5571,
+    "changed": [
+      "ShopDishOrigin:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c74abac665d0b04b39d1250c765bc0e7262e0022d3aa940a55c9fc7f60fbeffa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "restaurant; spécialités flamandes et alsaciennes"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      }
+    ],
+    "editorial": [],
+    "warnings": [],
+    "summary": "Brasserie-restaurant proposant des spécialités flamandes et alsaciennes, avec des bières brassées sur place. Les horaires indiqués sont de 11 h 30 à 22 h ou 22 h 30 selon le jour."
+  },
+  "meta": {
+    "cache_key": "b0b23111ac0a2875eb35ce93a5036992426f835168bbd8deee922e46b31dceec",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

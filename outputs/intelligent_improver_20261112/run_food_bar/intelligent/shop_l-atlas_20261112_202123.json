@@ -1,0 +1,722 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:21:23",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-atlas",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-atlas",
+    "status": "found",
+    "data": {
+      "id": "5773",
+      "name": "L'ATLAS",
+      "shop_string_id": "l-atlas",
+      "unique_id": "229591742b7cbef69d2e741f30fe6f3b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55027",
+      "principal_cover": "55027",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue de Lannoy",
+      "additional_address": null,
+      "zip_code": "59800",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0944867",
+      "latitude": "50.6339318",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:48:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:48:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJb84rhgjVwkcRuZmwJw-VkBM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJb84rhgjVwkcRuZmwJw-VkBM\",\"rating\":4.7,\"user_rating_count\":60,\"google_maps_uri\":\"https://maps.google.com/?cid=1409790575689898425\",\"fetched_at\":\"2026-11-12T03:04:38+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très bon service bien manger à recommander\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T13:19:51+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Abdelhamid Mosbah\",\"uri\":\"https://www.google.com/maps/contrib/113626678329509661564/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIV7QA1gF8Pyx6mwjobHrBfjAehZDDu3JXy026rftrW1izElA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-17T10:10:31+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"sohail ai\",\"uri\":\"https://www.google.com/maps/contrib/117960752293863632577/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIucpqP6IQhEtqoOZo-QIbrJr_A_d_r0si___ZCfqcA0XA6Kg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Patron agreable bonne portion\\nMagnifique\\nJe recommande\",\"language_code\":\"\",\"publish_time\":\"2026-09-16T11:07:06+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Maxime Guillaume\",\"uri\":\"https://www.google.com/maps/contrib/113120215088469850533/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKilRbVjiq39s-RzCSZ30MEcI40bx_9Mp07ClIy1eHs4PSmnA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Excellent je recommande\",\"language_code\":\"\",\"publish_time\":\"2026-09-16T11:06:57+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Zakaria Ben Mohamed\",\"uri\":\"https://www.google.com/maps/contrib/117334322503727278846/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLJ9V9iK7ivbJRP-gqJJjw1GoJYAIu9DBq3BcpDaK4dE_h10w=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-16T08:21:27+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Jose Maltese\",\"uri\":\"https://www.google.com/maps/contrib/115504319366071385503/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLI-XTvPJtsiNofUHowYdTyKM0UZ7zm6u4uzeuUeoeh3oF2xw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 03:04:38",
+      "google_reviews_place_id": "ChIJb84rhgjVwkcRuZmwJw-VkBM",
+      "source_id": 5773,
+      "scope_type": "SHOP",
+      "scope_ref": "l-atlas",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "l-atlas"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55027",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5773_6af39f55ae73b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4831",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33552",
+            "source_hourly_id": "4831",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33553",
+            "source_hourly_id": "4831",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33554",
+            "source_hourly_id": "4831",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33555",
+            "source_hourly_id": "4831",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33556",
+            "source_hourly_id": "4831",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33557",
+            "source_hourly_id": "4831",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "33558",
+            "source_hourly_id": "4831",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "00:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-atlas",
+      "google_place_id": "ChIJb84rhgjVwkcRuZmwJw-VkBM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:00 – 23:30",
+          "mercredi: 10:00 – 23:30",
+          "jeudi: 10:00 – 23:30",
+          "vendredi: 10:00 – 00:00",
+          "samedi: 10:00 – 00:00",
+          "dimanche: 10:00 – 00:00"
+        ],
+        "photos": [
+          {
+            "width": 1368,
+            "height": 1824,
+            "photo_reference": "AV-0GLc1096kJymaT_cMa2Nb-qaWMbjEKEavbFo-De-hFV5Q41Ugk4V9b3FL-3zQNtBk5R_iqor6UJ7qdJ6E2utNsJUxVxIVCYromWha9lwCnlTZZ1arzeAzt4TWI3FKo14eXU_8sAqfVfuC2x8-QNpjJ6F4zOsAS0oNUCOyjt6ejadsTuyJH3KWIfTnXEGlV4a6qtIa0pIHpUuziYjhKotWrWGjD2wQ932KVR11mhSREPEngRQFFk0C7rhNKpJl6-0CTB2-43Bk7rTW2afC9f6IM98A1qZC-rYw4_O6PULSniDat02BK3rXCvVLdGFQB-VQSaBTf5JB1KQhCO8cWiJUt-7AyYZHW_zWbXRgoIVTjUnk-5cbFOUqV54t-_eVDgKeAfjG-ud_7AWw4RIvHYquA-smH-wISPs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101601021587827057702\">L&#39;ATLAS</a>"
+            ]
+          },
+          {
+            "width": 1792,
+            "height": 902,
+            "photo_reference": "AV-0GLdTZtzZ4GaB0EeGp2G5NmHrwCnklXd8uWSh8a9SVcR9v4hSIq0rYwJOGUBFAJ-_vXAh0eapabrWVK6SGQ3xiB21jGVEtfgYnV6JJOLzw_gdwqTW5qRi8oX02Rogqt_iVpqmkbW1QdK4vY68wILrA-cCPoFJs86XyRUm301Mjl86qmcuCYLrGYGlbFWrJkepho0qX0nIdOgizticFfXfiDRewh55NoK1e5gyRXF5OvLjZ4Q0kK5FlwJCiUxOHf6T-2m3jXLWwuGJwqOwwoKVgW9T7SxpL51srP2lsXq6RvPAh6jB27hQJhmq82rydP3mFnrurs8QZpOBLq_aF9N5N5YLlB72_ECbcFJamMw7CfUPyXSc_9g1uIy72V6aBcLIUhJV8PYjEqEKMQIKqX3yoNLA7V8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101601021587827057702\">L&#39;ATLAS</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLdfSlLYhNvszSqPDu5KZn5170Q7kDh_VpS9-c8aqmv0d1Zvet6dDwLspMWiseDcNWvKAQBV0o73eDOSEq_W_V9doC6W6_pshDDnDzfGFjMgSqI7S19qpAYjUiZosCcSTwnTLZOY-nbGJiww81eozg94Y90axIhAVm6uc3CgMcRygWnA6cPjcotHGgXWFHQUsyYVo7WTYQ9KXbadz1EwIHVscKOSLQgsr_7ZssOR_n-F8BJqXXmBTx0E8p-LoNSqH-_G-EPgZESr63HWVxMc60wIyuL-js1BV0XZ3PCZgtwfbhqKBm_lsSqvLV_9n5RqvG4j-jiDMShNJvGkps0n2GVELGgoLDbOPjte5pkcHn3hiccKVoxr4mUQYmhCv25UHwpgOdEuVahjD3McNa7RMAdm7oXJkRZ5rrGd6Sb-0J69",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117375905459928868367\">Nada ELADEL</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2272,
+            "photo_reference": "AV-0GLdALSMATi-J_Y7DR7FZJ26jNhv82VtZSZJcDLzRCQsPc9RRIl0pEguxKfvpy2s29Oh9RB4FrrtdKjejHNRDveWYYCZ6yLxaY0SCetzI7DV0WGMyPRFDlXHuTg3sYihbE01mddOqk-fOUoqfinEf6OOMWuMC9rWDMHMG01RliRFJbJwPT6bEq4tTBOrLGnCjMu1-I735LmMBhHfeVyho4ytDtZewoCus_GPaGX8fGgq10OKizt2iRzU8YU8sGg3e2xYMdRvWXx0KRZ5-yc_34_2UOCBxlzzrMIqxok_DkEbTL3fuQIZARqjXqeSlEpwDUl2btL2vsyhVAE-PAPYaQZjiOl7CHcrTiqZPn9rYqI3onwm8gzvFTSMG5cDtcI3KQrh1Fasjx16sDLz4t3zEc3u89IY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106701095163953305203\">Hopeelife</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2256,
+            "photo_reference": "AV-0GLfDsfRl4-HrqiCvgoIBgYzYjKDJFbEGSqmnV3wXAbAc3Y-wIJc7w98IDMRn7TyceE-kkAf5Z5YfMsdQm11-iKc2Z7QlPxzBmjBXpDYnD_M48CFLqowt-KZ_n8IUpQ1B5Kbgjo8hpDrVlACvNchLwy4mRpQsofCGxgW010ITeyXGSS-fCN_GmZG3CCEbkIF3-khDuuGFClWrkwxqQ70SzMDu5Sm1Qo6ZXiAbACINngKokpEpQu3gaEalYOBYW7jHEZ8TBAsQlRowdYsqRxvQhaohTA2Sz73mSo1FEQjudMiZh0xLS7EKxpZmw5QT8mDhygA5mMVoRx_v2ckUStl6YtDVu15LzAg1DS3BlGXNFK3iw3x1QkjU56Ak0RKmpXuCki5qfedBPtbC2MorTnhGjUusx9YuDjW24eW7K_RFrXD1",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108484742200543083459\">Djellali X</a>"
+            ]
+          },
+          {
+            "width": 1368,
+            "height": 1824,
+            "photo_reference": "AV-0GLcReErozfrA12RV1qAsIr7vC3RBDqOBbfm8Y8SMyHjsaLd8bvU4sOCGtGtxiaS8gj-Rh05i33wa6uH3hSn95Ngt7sez0NqLGfgdSyu6mn1nklss13XgIqBWrIbDTivG8kY1hL7qugx0RQm4l4D4-ym6Vpmklvd-84pY5J7cIZN0wF4ATKPu1WUICUK4jsVhqJZ32KYb2mSydIIFTe8Ega5CtluS4aa83m9LCMkioB75AZoQGnftIcKIQ-qwvH4hqJNuF_7ALsuSNnY0J_S-CM6YQkWbBGTOBhsg4Tkv7fzZyTR-DK8vEXznkssD2EH_1MUlk1di35CMI2zxg4UYnxXac8atRdnrsUTic7IzkRyKCKPIc3VHJ13U9nZumK6hUXbdBf0kjpHVASQPeRRB0c8vnX0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101601021587827057702\">L&#39;ATLAS</a>"
+            ]
+          },
+          {
+            "width": 1368,
+            "height": 1824,
+            "photo_reference": "AV-0GLcaAI4JlEcV06XBeB0E2V3x09c0IATU6Vjz3T4crS5AgG_gR2X5e0uS6dlaf9U8XRFOPY9uaB_3UOoizQuekpGIbiLeY0RZK9M8oAtLkDNR8aOpQVrO1fNE1eEpq0PZh3BdAuhBDpmy2pG-3q045DaITHbL6Kc_qm_yb4EtB2gdEyJcyqOy2O98C7DGRXo6-hHyDmkHMETkmAVMGMrwCMwJ4oFJmLao7j_68SGud6Egyjd7G0c0rwhBTvdzHZ2JUO-WXLsmYcQb5SFUUNnV9h8fjecp6Fu-QFKoSP29eHui4yrxMIiPUPzYiSh5-x5rjIgt8ocL2hntwZ2eQPcOdx2Y6fjWTircC8FELCR_81vZkVDFo0ZHWbuU9s9tA_TI0a9l1cPbfL_lwj6GylA6X9IOuGd-Zto",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101601021587827057702\">L&#39;ATLAS</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLc41zVLd_9qEcCu5sZzBiFWFL2bgjYIHrzuhT1Ev0NirRzNYaSj8hXla7wavU8rFsICBp6X-2WTJSVTNasC2L9OJSI6fKM6KBMWIIRCzGV0YbybfGu-8AYbeTKflfRYc1MdVsOTDBGMWyEYP4GXagiNzO8pjnN5TWIzQc94DO4hIoBjJO-8VqP9cMYwsuYVx-XoY2knUnkzFtqAjy9j49QQeukYS6Fwb_I5VMCq0WUuWbxNBXD8-4_DcM1SThht3pFxMADBaId5gfzEEFav3ythwbpOn1FJYFR5J89Ms3xRkUoiNeEwzRQjXG80HpczTa7ObdB8bs5f2lK0fPWjH-1JycCTEIt4Fy3re3bhHr7ZZgVmUqBH75seyXNAucjsTu5hCwKZeSqDCqL3dHcZQJg-URQspgE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107648009297864677122\">Mhamed LKH</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdOyrsRlNY9rnw39OBOnY4_JVyGEwbvG22Z-LToBAAK4MD0B7oth1EFgXsNIrPf-SRFk0cLURRNm3O7I5cmnacaIgbt9uZAjHPGeKu9vFHv0vMF6Lhtn3DSMMYBrj9rPmvp5E4tP0UlAE1MwPQ2XLGV6CMWkKoqBGCitgJLqizyPCQN4P9dN-6h0eDRyXidPqB3xwp8rfP-un8iopIZQMCJHRDerJrVsiR2pE4RHCMJJCtSJmC1jwiJgGHu6RNM0srgOcI_mN-Jz8vyzaMgjutgzPnUZSMqxfEYde88046DHdb7x0hmLDXqUQHNUJ4ptJrh9jsNFfFTGFOfP_GGQ_rDCCM3i4eRGa69zvfWzDXZspB-0M1TtrFV-1mXea2QBJ2pbKIhRQ2TEtBFPBzJsGZkxMhSsLHt_plneNg4rXm__Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110626639816075308756\">El mahjoubi Mustapha</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 2560,
+            "photo_reference": "AV-0GLcftBQJJjOzgPnmNz1_BJhTzetOv4KEM4oIBIDHaH86yaLaaXtqputX8zB4ZeL41pdzpHwPbG1WmlrA2AnfJmraYBP3K5Q5fdRZlJXxjBOP_RG8mFj1YoxHea-Kj38D8KI9Sc-aNpqcaBXU7D-RC7GJhWM0f63I7-9BFs5cDk9L-4NHVL6hBwIM--T2DubKbxwf0Mp_bHgNObl0nsLmSLcA5Mxq73eiv-ESMApToDsWQbo55q3uQ3sa6LiBH80JWbV1_0P1HGcjN89FkkXYY0QgfW4JsNpVaaDXlnx9Ctlxv_66w9o_uLALu31alew7x9hfJz6pDVvJJSPJBHFD3ee8qE9eNe812FzB_EAgX52u4sWCEVwKJse8otdsBt0T2dTJnfvBmuYqzm8vhx9FY8IEgrfl7CV36x-_JRjZ7xGnrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115351743907180823005\">auvvray Clem</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5773
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon service bien manger à recommander",
+            "language_code": "",
+            "publish_time": "2026-10-09T13:19:51+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Abdelhamid Mosbah",
+              "uri": "https://www.google.com/maps/contrib/113626678329509661564/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIV7QA1gF8Pyx6mwjobHrBfjAehZDDu3JXy026rftrW1izElA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-17T10:10:31+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "sohail ai",
+              "uri": "https://www.google.com/maps/contrib/117960752293863632577/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIucpqP6IQhEtqoOZo-QIbrJr_A_d_r0si___ZCfqcA0XA6Kg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Patron agreable bonne portion\nMagnifique\nJe recommande",
+            "language_code": "",
+            "publish_time": "2026-09-16T11:07:06+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Maxime Guillaume",
+              "uri": "https://www.google.com/maps/contrib/113120215088469850533/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKilRbVjiq39s-RzCSZ30MEcI40bx_9Mp07ClIy1eHs4PSmnA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellent je recommande",
+            "language_code": "",
+            "publish_time": "2026-09-16T11:06:57+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Zakaria Ben Mohamed",
+              "uri": "https://www.google.com/maps/contrib/117334322503727278846/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLJ9V9iK7ivbJRP-gqJJjw1GoJYAIu9DBq3BcpDaK4dE_h10w=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-16T08:21:27+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Jose Maltese",
+              "uri": "https://www.google.com/maps/contrib/115504319366071385503/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLI-XTvPJtsiNofUHowYdTyKM0UZ7zm6u4uzeuUeoeh3oF2xw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 03:04:38"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Vérifier l'adresse avant publication : le site officiel indique 50 Rue de Lannoy, tandis que l'Annuaire des Entreprises signale l'établissement à cette adresse comme fermé le 20/04/2023 et indique un établissement en activité au 22 rue de l'Hôpital Militaire. Source : https://annuaire-entreprises.data.gouv.fr/entreprise/884518267"
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.93,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "salon de thé ... vous invite à savourer"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-en-solo",
+          "confidence": 0.97,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "la détente en solo"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "sélection de plats marocains traditionnels"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_coffee",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Café Noir"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_have_tea_time",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "large sélection de thés ... et des pâtisseries fraîches"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_for_alone",
+          "value": 1,
+          "confidence": 0.97,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "la détente en solo"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": {
+          "string_id": "maroccaine",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Cuisine Marocaine Traditionnelle"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Petit déjeuner Ftour"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "couscous",
+          "confidence": 0.96,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Tajine, Couscous"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "brochettes",
+          "confidence": 0.98,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "assiette 2 brochettes kefta"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Sandwichs"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Frite"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Hamburger"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedDrink",
+        "item": {
+          "string_id": "cafe",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Café Noir"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedDrink",
+        "item": {
+          "string_id": "the",
+          "confidence": 0.99,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "Thé Marocain"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedDrink",
+        "item": {
+          "string_id": "the-menthe",
+          "confidence": 0.95,
+          "source_url": "https://www.atlaslille.com/",
+          "evidence": "la menthe"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Salon de thé proposant une cuisine marocaine, un petit-déjeuner Ftour, des plats et sandwichs, ainsi que du thé, du café et des pâtisseries. Le site mentionne une visite en solo. L'adresse affichée est à vérifier au vu du transfert signalé dans les données d'entreprise."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-atlas",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5773,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "10cc7c48110dfc4cea8e957597f6750f1d8c92ba50436238ab561ac05e2a087e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

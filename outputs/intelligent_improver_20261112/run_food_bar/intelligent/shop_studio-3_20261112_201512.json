@@ -1,0 +1,481 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:15:12",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "studio-3",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "studio-3",
+    "status": "found",
+    "data": {
+      "id": "5744",
+      "name": "Studio 3",
+      "shop_string_id": "studio-3",
+      "unique_id": "b5aea80ade6296025f3d6eeb2277c7e4",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55000",
+      "principal_cover": "55000",
+      "qr_code": null,
+      "phone_number": "+33980813604",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "346 Rue de Gamand",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1174168",
+      "latitude": "50.5808402",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:44:26",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:44:26",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJXUUAHLbXwkcRsT3A3iRivC0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5744,
+      "scope_type": "SHOP",
+      "scope_ref": "studio-3",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "studio-3"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55000",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5744_6af39e4a3d799.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4802",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33349",
+            "source_hourly_id": "4802",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33350",
+            "source_hourly_id": "4802",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33351",
+            "source_hourly_id": "4802",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33352",
+            "source_hourly_id": "4802",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33353",
+            "source_hourly_id": "4802",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33354",
+            "source_hourly_id": "4802",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33355",
+            "source_hourly_id": "4802",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "studio-3",
+      "google_place_id": "ChIJXUUAHLbXwkcRsT3A3iRivC0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 14:30, 18:30 – 21:00",
+          "mardi: 11:00 – 14:30, 18:30 – 21:00",
+          "mercredi: 11:00 – 14:30, 18:30 – 21:00",
+          "jeudi: 11:00 – 14:30, 18:30 – 21:00",
+          "vendredi: 11:00 – 14:30",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 800,
+            "height": 600,
+            "photo_reference": "AV-0GLfnXG7526mMTxWb1sy8rQEjFp2lszTQMpvW3-X5MTp6kY1yFkROL-0t0y1wypjovLlvuG-NEjLwVn_Wf2UKVPyaBAnY8DuH6cHpFDJ-LOLDxn3U853cKcQSvuy9h85Mecj4C_Yu3j9-1qsVyUXRyYvEHj0f65-D-mo2hFer5T222fMic-nF0F42ohUdxE3bp4TXiBpn9N5uN7SIYuNbYZHwRFS1MMtZBYZRQGwPs2auleJTDcTRn-PgglxHVjmhvhq5KjwOvDZcknF7T4uJRdqpdPT4jXLS1cK-W5xC1Gv1EvYSXxObDCGla0wVfLt9w6GyMhWm3cfY0mKrJL5df655TEPQnhvbX3k542ornJ0iyp1aTx-ARvEZT3PhlS2z471v7TyFvmaOIwITJ3tlsScPQ0Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100637486837384983006\">Studio 3</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLcm8K270pedluTZdpRH2lV2kZrjQiLPKiHAS9pnhOlRyMozygHvtQRhyqgrzrhCnuS1vIAha_7cnvG-jSdFDQzSOrbSAzjGS27FYYhVRSxixMeAszzMaQxwq8S9k6HSEyHqdMbTalf7Um_JuFZ6D1WX6THv360sEiLDeMrWKhmRHff-9NgJPgCG-K_y6xLcYc7VVDCYX4n_SgQTolltbRFA1G1NKOZI7q1-Ln4Ab9GovF9XU5vY7Xa0GhHVaQz-fOScD_FrjwVXcYSIM96BVl7iJgTT4NREzvSxD0vjlFUAV5WFemJNlC-zgKNUU700_WbtQUnmLUxI6CXGIPhlJ7wk3joWIg4MEzVApNqno6_JRNu94PNIC1ZqRJ9IGidsnVwN2aS8w8Y4xNAkq3EuI9wMxIJ1Byfjwc65KFqkOIeqpg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115415986625316005863\">jonathan br</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLefmD1qkRx4adhhehtQDkZiu33vH2nxj8Y8KNkolGrtucIJE71ImGQgM0bw2kMwSVi_6onwGBnY__R_3twGxWgsBlshfKa6XhaYgYe3c-cE-ilZ841W5Dmoxmkax9RJIeJjIBTtCSe3Ch06ovr2OqhNJu84lWzj3ZA1piRK77KmSdGxfSDe1c_vefbgNC1Z9YpFXiSPp6KBpJUBPfQOQd53wno9LGbiYo39NdxBdGZ1nTEB3ZNXNyoxAJioHp72lxwctKrdoyFOnzpcPy-M4-OI4H4aQY056HKwkbPrtH59Lj5j8qJ2vAvy8GvbXkRD_dAtZKI1S7SLx33ZZk5fZchvTe4SXHaE4OvrpI46y1J5pFKDK6_CsJsg3y_n5-8Wu8vF4y70wqbhS-fj4ZMVwNQiEQ_y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100637486837384983006\">Studio 3</a>"
+            ]
+          },
+          {
+            "width": 800,
+            "height": 600,
+            "photo_reference": "AV-0GLfxw88iQC38sVz-s9xIhuO7ixyGWChdeWOKCJUtKlz21_E5_4JO5qCge2HXZFY48tOZaabdGvW05vpYZFV6qHwdSERyA1UQmh1S3xrmixeW5oXPDflSvUke42GUkcTg9o7s5l6bKUhIz_lnVewrHYuG0NZ5oArPuTkLAv6GBluEebVBDmTCwrxHeyk3bPPQKewyZ_SGu8Luqt0mbcRJInOdiR0nry_VB66-KEJX__TY1-KkwwTIMOzWDIMFeKbiqXHmkWgXwO-keUmIW7kxK71JNoxy7v1K0q5eMcCu-9eTgzKEbYLhiVybacUNrZakHydv6pjdJE3XLy-AEP09jOiEA2LBz2r4sV9gViBSuHH54uXXCKZ0sx1ZUQr7-gHEVQ-IX827z08qJ1Joq7F-b1uX60hb",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100637486837384983006\">Studio 3</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5744
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert à partir de 11:00 du lundi au vendredi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 18:30 à 21:00 du lundi au jeudi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires en journée : 11:00–14:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir : 18:30–21:00 du lundi au jeudi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Studio 3 est référencé comme friterie à Lesquin. Les horaires indiquent un service en journée du lundi au vendredi et en soirée du lundi au jeudi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "studio-3",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5744,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "3ae0e7eb36b1dc343a0d3dffec2fc6f45ed66ac556f98bdf3cdd50931a46a555",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

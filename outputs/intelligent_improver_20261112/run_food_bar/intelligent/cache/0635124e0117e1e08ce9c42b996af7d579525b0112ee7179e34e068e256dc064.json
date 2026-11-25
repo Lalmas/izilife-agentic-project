@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie » ; nom : « Snack Loos »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 11:00 – 14:00 »."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 18:00 – 21:30 »."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 11:00 – 14:00 »."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : « lundi: 18:00 – 21:30 »."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Friterie à Loos, ouverte le midi et en soirée selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "0635124e0117e1e08ce9c42b996af7d579525b0112ee7179e34e068e256dc064",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

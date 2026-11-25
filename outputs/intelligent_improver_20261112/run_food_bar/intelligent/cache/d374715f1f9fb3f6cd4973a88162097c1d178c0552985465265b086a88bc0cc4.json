@@ -1,0 +1,63 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "lieu-valide",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Note de 4,8/5 sur 44 avis ; « super accueil »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 11:30 à 14:00 du mardi au samedi."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 18:30 à 22:00 du mardi au dimanche."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Nom et catégorie : « TCHOUTCHOU FRITES - Friterie »."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture de 11:30 à 14:00 du mardi au samedi."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture de 18:30 à 22:00 du mardi au dimanche."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Friterie à Phalempin, ouverte pour le déjeuner et le dîner certains jours. Les avis mentionnent un accueil apprécié et des repas de qualité."
+  },
+  "meta": {
+    "cache_key": "d374715f1f9fb3f6cd4973a88162097c1d178c0552985465265b086a88bc0cc4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

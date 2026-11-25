@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from datetime import date, datetime, time
 from pathlib import Path
 
 import openpyxl
@@ -38,17 +39,51 @@ COLUMNS = [
     ("recurrence_days", "access"), ("recurrence_month_day", "access"),
     ("recurrence_until", "access"), ("recurrence_rrule", "access"),
     ("timezone_id", "access"), ("horizon_days", "access"), ("count_limit", "access"),
+    ("source_experience_ref", "scope"), ("deactivate_source_experience", "scope"),
+    ("future_occurrences", "access"),
     ("status", "result"), ("notes", "result"), ("last_result", "result"),
 ]
 
 
 def payload(row: dict) -> dict:
+    def json_value(key: str, value):
+        if isinstance(value, time):
+            return value.strftime("%H:%M")
+        if isinstance(value, datetime):
+            if key.endswith("_hour"):
+                return value.strftime("%H:%M")
+            return value.date().isoformat()
+        if isinstance(value, date):
+            return value.isoformat()
+        if isinstance(value, str) and (key.endswith("_date") or key == "recurrence_until"):
+            value = value.strip()
+            if len(value) >= 10 and value[4:5] == "-" and value[7:8] == "-":
+                return value[:10]
+        return value
+
     data = {
-        key: row.get(key)
+        key: json_value(key, row.get(key))
         for key, _ in COLUMNS
         if key not in {"status", "notes", "last_result"}
         and row.get(key) not in (None, "")
     }
+    if str(data.get("object_type") or "").strip().upper() == "RECURRENT_EVENT":
+        if not data.get("location_ref") and data.get("default_location_ref"):
+            data["location_ref"] = data["default_location_ref"]
+        for target, fallback in (
+            ("start_date", "first_start_date"), ("start_hour", "first_start_hour"),
+            ("end_date", "first_end_date"), ("end_hour", "first_end_hour"),
+        ):
+            if not data.get(target) and data.get(fallback):
+                data[target] = data[fallback]
+        missing = [key for key in ("start_date", "start_hour") if not data.get(key)]
+        if missing:
+            raise ValueError(
+                "RECURRENT_EVENT incomplet : renseigner une première date et heure "
+                f"({', '.join(missing)} manquant)."
+            )
+    if str(data.get("booking_needed_ref") or "").strip().lower() in {"non", "no", "false", "0"}:
+        data.pop("booking_needed_ref", None)
     unique_id = str(data.get("unique_id") or "").strip()
     if str(data.get("object_type") or "").strip().upper() == "RECURRENT_EVENT" and len(unique_id) > 32:
         raise ValueError("unique_id RECURRENT_EVENT dépasse 32 caractères; la base le tronquerait.")
@@ -73,6 +108,7 @@ def add_guide(path: Path) -> None:
         ("Récurrence", "Pour RECURRENT_EVENT, renseigner start/end puis frequency DAILY/WEEKLY/MONTHLY/YEARLY, interval et éventuellement recurrence_days (MO,TU,WE,TH,FR,SA,SU)."),
         ("RRULE experte", "recurrence_rrule est facultative. Si remplie elle remplace frequency/interval/days. Ne pas préfixer par RRULE:."),
         ("Dates suivantes", "event_calendar.py reste l'agent dédié aux nouvelles dates, reports, annulations et clôtures."),
+        ("Migration Experience", "Pour migrer explicitement une ancienne habitude-de-locaux : object_type=RECURRENT_EVENT, source_experience_ref=id/string_id/unique_id, deactivate_source_experience=oui. L'Experience n'est jamais supprimée ; elle est désactivée seulement après création réussie du parent, de la règle et des premières occurrences."),
         ("Statuts", "pending = à traiter ; done = réussi ; error = à corriger/relancer ; skip = exemple ou ligne ignorée."),
     ]
     for r, (key, value) in enumerate(rows, 1):
@@ -110,6 +146,7 @@ def main() -> None:
             "is_izilife_partnership_serie": ["oui", "non"], "is_izilife_organizer_serie": ["oui", "non"],
             "access_on_booking": ["oui", "non"],
             "recurrence_frequency": ["DAILY", "WEEKLY", "MONTHLY", "YEARLY"],
+            "deactivate_source_experience": ["oui", "non"],
             "status": ["pending", "done", "error", "skip", "unmapped"],
         }
         create_workbook(path, SHEET, COLUMNS, example, validations)

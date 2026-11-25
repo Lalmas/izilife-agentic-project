@@ -1,0 +1,191 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Endroit très agréable pour se poser »"
+      },
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« délicieuses pâtisseries »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« salon de thé » et « délicieuses pâtisseries »"
+      },
+      {
+        "string_id": "ambiance-posee",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« cadre ressourçant et apaisant »"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« très agréable pour se poser »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Mon mari, mes enfants et moi-même avons adoré »"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« mes enfants […] avons adoré ce petit instant »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« papoter entre copines »"
+      },
+      {
+        "string_id": "bien-pour-une-balade",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« après une petite balade en vélo »"
+      },
+      {
+        "string_id": "parfait-pluie",
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "« petit instant volé en mode cocooning »"
+      },
+      {
+        "string_id": "lieu-couvert",
+        "confidence": 0.75,
+        "source_url": "izilife://current",
+        "evidence": "« salon de thé »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« mes enfants […] avons adoré »"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« mes enfants […] avons adoré ce petit instant »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Mon mari, mes enfants et moi-même »"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Mon mari, mes enfants et moi-même avons adoré »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« papoter entre copines »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Nous y avons très bien mangé »"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« salon de thé » et « délicieuses pâtisseries »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mode cocooning »"
+        },
+        {
+          "string_id": "calme",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« cadre ressourçant et apaisant »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« accueil chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« salon de thé » et « délicieuses pâtisseries »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "se-poser",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« très agréable pour se poser »"
+        },
+        {
+          "string_id": "se-detendre",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Super moment de détente »"
+        },
+        {
+          "string_id": "velo",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« après une petite balade en vélo »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« 14:00 – 18:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Salon de thé cosy et apaisant, apprécié pour ses pâtisseries, ses boissons et une pause détente sur place. Les avis le décrivent comme adapté aux familles avec enfants et propice aux moments entre amies."
+  },
+  "meta": {
+    "cache_key": "5290024121e190fa8a8b50e6ac194d185f66328fcc584ba4efcb1e44095ced9a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

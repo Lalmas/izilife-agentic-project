@@ -1,0 +1,36 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information vérifiable sur les produits vendus, la consommation sur place ou à emporter, l'accessibilité, les moyens de paiement ou les autres services."
+    ],
+    "summary": "Boulangerie à Santes, ouverte dès 6 h 30 du mardi au samedi."
+  },
+  "meta": {
+    "cache_key": "bce79dab216f688b0891cde215f64ff882c9a416a9e830de0337b56311d03bba",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

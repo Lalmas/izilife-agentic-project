@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T20:22:25.429273",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 97,
+      "title": "Lille et sa campagne à vélo : séjour auto-guidé",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-et-sa-campagne-a-velo-sejour-auto-guide.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.00",
+      "duration_measurement_unity_string_id": "d",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 97,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 135,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T20:22:25.998172"
+}

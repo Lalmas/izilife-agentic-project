@@ -1,0 +1,635 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:56:16",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "bonne-bouffe",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "bonne-bouffe",
+    "status": "found",
+    "data": {
+      "id": "5689",
+      "name": "Bonne Bouffe",
+      "shop_string_id": "bonne-bouffe",
+      "unique_id": "65bf7fc6df7720757477f7dbce64f5d6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54947",
+      "principal_cover": "54947",
+      "qr_code": null,
+      "phone_number": "+33320960343",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "7 Bis Rue Léon Blum",
+      "additional_address": null,
+      "zip_code": "59239",
+      "city_id": "597",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0559065",
+      "latitude": "50.4774527",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:36:08",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:36:08",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJMxSmlHTSwkcRR-FBQwTpP_g",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJMxSmlHTSwkcRR-FBQwTpP_g\",\"rating\":4.4,\"user_rating_count\":324,\"google_maps_uri\":\"https://maps.google.com/?cid=17888272449456431431\",\"fetched_at\":\"2026-11-12T19:56:06+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-28T18:00:54+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Lea Lea\",\"uri\":\"https://www.google.com/maps/contrib/103267002693521699689/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLQFXXD_7cLzXYRiRlXnKtD3LRjagzXbWx_yVsvMAA43JQbgcA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-04T16:06:50+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Martine Bigotte\",\"uri\":\"https://www.google.com/maps/contrib/108781344265619863198/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJQg22my2LW41HZf1i-V-Haklgc2VshsgRM_sAmgjT0cGYXqg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Rien à changer, toujours aussi bon et surtout patron très sympa et commerçant\",\"language_code\":\"\",\"publish_time\":\"2026-09-17T05:57:00+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Laurent BAUDUIN\",\"uri\":\"https://www.google.com/maps/contrib/112528314537301833224/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLD5x4semXukahG19yGeH3U5pZSHBQVmI1OI7jR6VmS-7zL-Q=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"★★★★★\\n\\nUne adresse que je recommande vraiment ! Le monsieur qui s’occupe de La Bonne Bouffe est toujours adorable, incroyablement gentil et très accueillant. Il travaille seul et pourtant il est toujours très rapide et efficace, avec le sourire !\\n\\nLes prix sont vraiment abordables, les portions sont généreuses et surtout, c’est toujours très bon. Il y en a pour tous les goûts et on n’est jamais déçus. On y retourne régulièrement et c’est toujours un vrai plaisir de venir.\\n\\nFranchement, que du positif : la qualité, les prix, la rapidité et surtout la gentillesse du monsieur. Une très bonne adresse, on est devenus de vrais habitués ! Je recommande à 100 % ❤️\",\"language_code\":\"\",\"publish_time\":\"2026-09-16T19:06:59+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Aylin Godin\",\"uri\":\"https://www.google.com/maps/contrib/102752139543427816318/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL-Mp_ele5vmPMp6KUC3EnJm03f3wbTnuHPFCl-8FODg20G2T0=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"Excellente frite Maison! Cependant les hamburgers 😝 meilleur chez moi et dans les fast. Américain sa va.\",\"language_code\":\"\",\"publish_time\":\"2026-07-05T04:30:35+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"linda\",\"uri\":\"https://www.google.com/maps/contrib/112963179227455547981/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUdEEtCCAwQ-3LVox5rwiBUTIQK60GbIMPToPlFcPzHav4g2915CA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:56:06",
+      "google_reviews_place_id": "ChIJMxSmlHTSwkcRR-FBQwTpP_g",
+      "source_id": 5689,
+      "scope_type": "SHOP",
+      "scope_ref": "bonne-bouffe",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "thumeries",
+      "string_id": "bonne-bouffe"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54947",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5689_6af39c588ecf0.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4747",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32964",
+            "source_hourly_id": "4747",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32965",
+            "source_hourly_id": "4747",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32966",
+            "source_hourly_id": "4747",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32967",
+            "source_hourly_id": "4747",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32968",
+            "source_hourly_id": "4747",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32969",
+            "source_hourly_id": "4747",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32970",
+            "source_hourly_id": "4747",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "bonne-bouffe",
+      "google_place_id": "ChIJMxSmlHTSwkcRR-FBQwTpP_g",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:30 – 14:00, 18:00 – 22:00",
+          "mercredi: 10:30 – 14:00, 18:00 – 22:00",
+          "jeudi: 10:30 – 14:00, 18:00 – 22:00",
+          "vendredi: 10:30 – 14:00, 18:00 – 22:30",
+          "samedi: 10:30 – 14:00, 18:00 – 22:30",
+          "dimanche: 18:00 – 22:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLdyyc_b4nCF8UTsaulJpyzQ-9xj8TO0QTJdQvn1-phzcPJuQ4-CAB1tgTLtklGsOP0kHgCfV9kayD4DDKXXQSZNxD4IxmwN17LeVbs5uN-OtSF02FuRg47S1p1E7EmOufE8_tAv973pFEuA2P4BrwvvfEU8OrPgkin5Y7R1md89bBvxUR0rCpP5nO-UUoxCYkQ98BLmdX6Oh_hWOI0HoODiAgL-RAe6YgZ-bPUK67iYC_El7Cw1KBcClrbElFKl1fjkjJb4WFpi0itcHyAbJybS1EfHbOr303dGLtsMs2JVCyodZJUUKjW4jMRky55hQZC2CIePvCTV74azpCrXk1OfOvk0YuVHC-LYZecUrVziSogqRcJhT4y0Wgy3rv2er5kiYBb2IZqnBeWGAXTwIYkJMybrmLE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114296232916181418986\">Bonne Bouffe</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3744,
+            "photo_reference": "AV-0GLeUEnhMyQ2AlbHy4UKmiiLirhmdfsY10bh-GzcmlOJuJFrkhOELo28SKGds5kzQ8dw8TRoEE0N9sWYlJODfM3q_yk1VqzVPkuEROYfmjROxbuPqc4KjqzdrFsZDmJPF3rAKu3T1xozxM9Qf7i0jyn2Prr86OUk_X7_FthA1YjgVv8njyU9_-VZRPwEzW4XhJH9GlhYBtg01sKz76_ZSeFiW9yMAaB4QCGaSe5crFXSpz2denDLzhzJmDFKnZo_pdxa3sUOti4EZWYK-dr8GaYRJfAVsqwj1b_A3tzJ8Sa7sMVUWkJMpDkV2MmHYzllkWQtilQzJ06_GRwQvayhujbxht0tTrwOjeCp9XZBJUEcy-Op6Q2QvKKiNzOB2-hlLUKhm6UshMtWngqJIEd8tS9i6vdH1qPg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103257849097039975056\">Nathalie Vilcoq</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLfmCfPsLzChH82jcAt2Edr-fFSnaIoqmzPzfRHvWHjRHcrjM2oUsR1Qhy0uvCq08pPSlFnSCjGCq4ca0oibXc4LZFo0ug9Pa8J2JOm2ODeT47LKgWppY85WHKtMMkikTK3SGbwoM-bJCFKqFZd_DDImoBeCkodYliDWFZmqPZIn-eRKbRfqGceyW88Lq6Jw6ahBbT-mMjtC3IfKPOHRZ_n_wFgMFekHma2BrcGFfNPooDKSHAuLoiat2YSBoCNJJCLJ17D9enCQ3a4yO4yxH9rK4N_whZvJveVhxKoZ_Nf9xUZ6cv0PyzU9AOat7Amf1UjPE8n-gfDHX9AAAjiZG4WTXBnsqMvD9Ef14-W6KbZ1buvMQwQby90W8MiJoTG-eASWd1gHrkcA2GCcjpV2n3AzZj8E6kI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109549201245879333573\">Nicolas Pedro (Shaenarys)</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLea21oL9WhXIdnfGwzFGdm3dOZGRZh082fxSd3NojCfPR2QFqJsu4u1gmnnNfFlvVqjleuQKILCZ3UW0L6q-NozOhDGaNPIqK6Ho_-UHn86Qwubdjzjfu8Wh3iQSo7X41tFZOO81CG74EDyUiS_LgYQJh7oQ03NgA6997KfBuIntS6KIFKUm2hqsFooyq8En4EhvICQTiZQhcn6k6kNzw6WQ9N2Gs2cd9FIT9I8YWcVqwQe9U7TMvqWMYM_Z5CU8IM-SOgc60SBkqMbmoVKOH0k0kCvE1YSMe6t9Co3tPP6pTtaAkYqADh1CykNlTkjWoppEALEsJ1FvmR0BbZ5m3OLrSTEzOQOmfkwRCh_TO7Jc30sfJHQzUxbbl-L_SmjGiuZkT1NIXylWaLO_-t835T0rrh0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114296232916181418986\">Bonne Bouffe</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLevvbKQFpMi4HKmAsE-4fFDmWdqt0K6E4udBC2DQ8tVRadIoxViAaZEVXK5t4fXJxI85xzREYzLaLikTackukgxBbOUXnaXikn6Ruw9X-pws_8C2_pmvAiG6HNDXjI3h1ayoB3Y6NTnlVPbR0qZDEG5vVo85mlT2BCl7OvOVWXM3BmblDhyMWyLrAu9AbCs2HwY_NiZDlJdd7K2NKMvbJLdeUY0h1FhcQVfO5wTz5u6bhKi1GwEYX31U0Rdv-JDwxWNhAa4rv-omM6_xUfNCrIwbRtnEJKT6aVqLD_7NEsFRbco9yrYHqndmemYkA6NXBlpjnHadgHcHZypPTD8-cyqETX5VLkp3Q74As6cdld7XYOa2FtmT_HpNtYy3LXYQwHo2RdqX6C5TQsj0bRcTGyxvKIoGok",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118221703481493537434\">Marie Monchicourt</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLegA_OU7AZu3k6cr9CoBBCB_Syy2BoFYrecgGOX9AfKjYmsV4bTCcsAOBgJ5m5FTkI5lSyaU4Kb2wSyghLBDi1YPGVLZuJz0mZvIK3PIQj5l5xiUxt2Vua0W_DNvrY5L3YQD_xQJc1KXsLEtP0Bvl_FoPzNMGMuJ3xqnsn_J517ibUP_xaq9T-paP711sn8pEDrzy74PDDfCXPbHe3fDCsBb7Oy0t5VhMxsDyxwWrkfe2EPucn4Gi45m5C0ziPRpIK5MR4VHT_dysjgd5KDFc6-5XzgsJRN169-VUiMvmK42ngcj4xjtzudinNHIOvg2wLxvXemtZkkim-51WEm-YpCS2yeu6abecml6qnIR_GzcUp2Ou5pVAn6GaQ9NlkoMyf2Ck3y-rGshOCTug4uTVZcH6s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102030271050722937654\">Nathalie Berlemont</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLeHp-sjK8w0pHs2ze9VSpnKcJ6hS_ZcqmHATCn7B_BZQHZFXmXwgJpN9TrCYlT7H71M781HvBTXzl04Ovo8UduC4nWET2_zSErfpLAaEsOlZdj2mw5vuRpPSEdPDjZablBVMOE7453f5zMqOO0JwVqXeTRmPCU9xfU4JomsJS2te4MXeGePl-Ht8XtmQrZpMNQOFgduLDw2LqB2NFAxxJ2gh76FshqXgdEVeqxaVJFObRerAzOlvlJmjZYzAPlWO2aSsaFRnm9jB5cbUceuUmlfjrcFJO0t85fqBw9DyM6nZsB4xMOyF9bOAdEevs6csDkOJ8t5yhDC1yiZvh5rbjICzr-8YtemsEgjHlQuStkq5FtJPMs_aj_99XfB_Et-iGS3MdXeP7H3vqwfyYbxsZzNhTgsO_4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114562696759420204210\">A45 amg</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfTlh1J3xQvT6zGaJm6AeR6hxFKuR0kfbzd8acji9SUxFq8bxvo5THmbdhRylXq4Gacm8c4fYiQEsfwfdYBro3kW1UvloanC1BUg39Yjea2kuTpUag7mXBWUABEd9_tMVmOSW8Jf1RHxLswf8U-98FdiNmkCo3hXuPJW26h0AaUDRDbDsUnj-VqSUemoyLumppccl9YojYYruKlDJbiBqTVFvNiJScCewsh6Vx5BsN_5tvs6eq8kwpnK8W6pMT6aw41I7dWvIB0AvpJ5bHxrAsHea9jZwtrm_Np6-Ypz-Mmd2mld0z-xpFg9cZiJl8p12kOPcE2yLHcu3j9KztHtQqSg0lTwX9LM5Ys2Apq8chxNqlbsc4PxshfCpJ3fiiO5RVD_usa5zWSSITULuyleivybA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114296232916181418986\">Bonne Bouffe</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 4608,
+            "photo_reference": "AV-0GLfQ7DGUBQdJ8-4hFy8_DpiMOwKdBoeebGZIeWPL-KlED-QLcxlffY_WBCWAy6vPTD4O2g0CvCON0I9hKwIm9fh8uJlNdztZ2yOouNYbDWatmt5M44lwQ3C2EHFGUWhOtQd-x4T2RD0blEggLFSBfgUO6ZpZfcUTCAopQSyx1M1VODSrmI-eMMx6yzpmkcg-t4PhFIC5gBU7jMYVKQU-XW4NrAL8YuwXqu2qzpyys7KnpxDNiAVyd6SGlZOaKaxbciMPLIEeNN0S1Qg8oj6zGDXjie3ZU9hI8_gGKcwlm6OB3Ye0su2DJz7nLB0uVVXAIe4_ymBF-AobrleFZjuvm-0YLLHiAsKxIHV4SiziM1GlX0jWMNdrS7z0rCRvjANiJb5Zza8JR-dWB3zZ3XU_p4bG4UkE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104939072385923036666\">Luke Parayre</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfBCrvhEHgzE0NNkxFA1RYWhL8KYzIV7briZKkz2DhUIMLHc0avQTAqDx0OQEffdzlh2hK5aug_cR3IQYkgaqpzkcbTObxlH9QCN5XiBhagCts8A_VDyPdDey4Zi0Z70kyRcSfAfnj0hLjSsxaZLJHK8HxT2f7LmuuFS3quOgNkYPtxstNFD6ZTXqUQ8Yun9MIVT6bwRjDsH9IY2zPNkVQTjedowXBUHr0uL0g16amgPPn_w0veXH-aWojRBlK9jtOYrlx77ces1tdHuya9PAHF8b6I65sCo5KinIMbH2BBe34AFMhXnNCYptLOKsKNEj5DKvQBKXPdWp5i2u3CyzjKlDQG8If5vfxfr8lBuCTrKWeO9QgvFCOHG6vf0wOmzL1wv8_SQAvsk1TZvbYhRNvMKrI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118221703481493537434\">Marie Monchicourt</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5689
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-28T18:00:54+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Lea Lea",
+              "uri": "https://www.google.com/maps/contrib/103267002693521699689/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLQFXXD_7cLzXYRiRlXnKtD3LRjagzXbWx_yVsvMAA43JQbgcA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-04T16:06:50+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Martine Bigotte",
+              "uri": "https://www.google.com/maps/contrib/108781344265619863198/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJQg22my2LW41HZf1i-V-Haklgc2VshsgRM_sAmgjT0cGYXqg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Rien à changer, toujours aussi bon et surtout patron très sympa et commerçant",
+            "language_code": "",
+            "publish_time": "2026-09-17T05:57:00+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Laurent BAUDUIN",
+              "uri": "https://www.google.com/maps/contrib/112528314537301833224/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLD5x4semXukahG19yGeH3U5pZSHBQVmI1OI7jR6VmS-7zL-Q=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "★★★★★\n\nUne adresse que je recommande vraiment ! Le monsieur qui s’occupe de La Bonne Bouffe est toujours adorable, incroyablement gentil et très accueillant. Il travaille seul et pourtant il est toujours très rapide et efficace, avec le sourire !\n\nLes prix sont vraiment abordables, les portions sont généreuses et surtout, c’est toujours très bon. Il y en a pour tous les goûts et on n’est jamais déçus. On y retourne régulièrement et c’est toujours un vrai plaisir de venir.\n\nFranchement, que du positif : la qualité, les prix, la rapidité et surtout la gentillesse du monsieur. Une très bonne adresse, on est devenus de vrais habitués ! Je recommande à 100 % ❤️",
+            "language_code": "",
+            "publish_time": "2026-09-16T19:06:59+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Aylin Godin",
+              "uri": "https://www.google.com/maps/contrib/102752139543427816318/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL-Mp_ele5vmPMp6KUC3EnJm03f3wbTnuHPFCl-8FODg20G2T0=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "Excellente frite Maison! Cependant les hamburgers 😝 meilleur chez moi et dans les fast. Américain sa va.",
+            "language_code": "",
+            "publish_time": "2026-07-05T04:30:35+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "linda",
+              "uri": "https://www.google.com/maps/contrib/112963179227455547981/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUdEEtCCAwQ-3LVox5rwiBUTIQK60GbIMPToPlFcPzHav4g2915CA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 324
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1169,
+        "bo": 131,
+        "front": 1038,
+        "estimated_cost_eur": 4.225
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« toujours très rapide et efficace »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« toujours adorable, incroyablement gentil et très accueillant »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« Les prix sont vraiment abordables »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne confirment pas les modalités de consommation sur place ou à emporter, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« Les prix sont vraiment abordables »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 10:30 à 14:00 ; avis : « très rapide et efficace »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie : restaurant ; avis mentionnant frites, hamburgers et américain"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 10:30 à 14:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués en soirée, de 18:00 à 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant apprécié pour ses frites maison, avec hamburgers et américain mentionnés dans les avis. Les clients soulignent les prix abordables, la rapidité et l’accueil chaleureux."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "bonne-bouffe",
+    "operation": "ADD",
+    "tags": [
+      "service-rapide"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "cheap"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5689,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "9c18fce5a544a72325a9f2be300a04e60edd3324e8e445403fc76e20e60b4e20",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

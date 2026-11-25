@@ -1,0 +1,1573 @@
+{
+  "environment": "prod",
+  "mode": "apply",
+  "started_at": "2026-11-08T15:32:45.048644",
+  "staging": {
+    "success": true,
+    "staged": [
+      {
+        "experience_id": 3,
+        "tmp_id": 6,
+        "title": "Découverte à Climb Up Lille Lesquin"
+      },
+      {
+        "experience_id": 4,
+        "tmp_id": 7,
+        "title": "Essayez l'escape Game chez Prison Island"
+      },
+      {
+        "experience_id": 5,
+        "tmp_id": 8,
+        "title": "Baptême de Chute libre Indoor"
+      },
+      {
+        "experience_id": 6,
+        "tmp_id": 9,
+        "title": "Essayez le lancer de haches"
+      },
+      {
+        "experience_id": 7,
+        "tmp_id": 10,
+        "title": "Des expériences spectaculaires  de réalité virtuelle à Lille"
+      },
+      {
+        "experience_id": 8,
+        "tmp_id": 11,
+        "title": "Découvrez la réalité virtuelle à travers des expériences uniques"
+      },
+      {
+        "experience_id": 9,
+        "tmp_id": 12,
+        "title": "Essayez l'accrobranche en plein coeur de Lille"
+      },
+      {
+        "experience_id": 11,
+        "tmp_id": 13,
+        "title": "Essayez l'accrobranche à quelques minutes de Lille"
+      },
+      {
+        "experience_id": 12,
+        "tmp_id": 14,
+        "title": "Une nuit, un week-end dans une cabane perchée avec les Nids de Chlorofil"
+      },
+      {
+        "experience_id": 13,
+        "tmp_id": 15,
+        "title": "Passez du bon temps dans le complexe Arkose, Sport, Verre et Repas"
+      }
+    ],
+    "ignored": [],
+    "skipped": [],
+    "next_after_id": 13,
+    "scanned": 10
+  },
+  "experiences": [
+    {
+      "tmp_id": 1,
+      "title": "Simulateur de pilotage d'avion de chasse F-35 à Lille",
+      "experience_type_string_id": "simulation-de-vol",
+      "source_url": "https://www.funbooker.com/fr/annonce/simulateur-de-pilotage-davion-de-chasse-f-35-a-lille/voir?utm_source=blog.funbooker.com&utm_campaign=activite-insolite-lille",
+      "validation_blockers": [
+        "type_inconnu"
+      ],
+      "status": "error",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "simulation-de-vol",
+          "principal_activity_category_string_id": "simulateur-avion",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "realite-virtuelle"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "anniversaire-adulte",
+            "cadeau-noel"
+          ],
+          "age_category_ids": [
+            "5"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Pack Découverte",
+              "price": 109
+            },
+            {
+              "name": "Pack 2 sessions",
+              "price": 129
+            },
+            {
+              "name": "Pack Défi Duo",
+              "price": 169
+            },
+            {
+              "name": "Pack Full Expérience",
+              "price": 199
+            },
+            {
+              "name": "Pack Top Gun",
+              "price": 369
+            },
+            {
+              "name": "Option - Photo souvenir",
+              "price": 10
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Expérience immersive et très impressionnante avec un instructeur sympathique."
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Idéal pour les adeptes de sensations fortes."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "À partir de 12 ans."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "À partir de 12 ans."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "De 2 à 10 personnes qui pourront s'alterner au sein du simulateur."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "3 accompagnateurs peuvent accéder gratuitement au cockpit."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "À partir de 12 ans."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Idéal pour les adeptes de sensations fortes."
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Idéal pour les adeptes de sensations fortes."
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "À l'intérieur d'un simulateur de vol professionnel."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0,
+                "evidence": ""
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Idéal pour les adeptes de sensations fortes."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Expérience immersive et très impressionnante avec un instructeur sympathique."
+              },
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Idéal pour les adeptes de sensations fortes."
+              }
+            ]
+          },
+          "primary_image_url": "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/hsy5bkkpv1wnewfi1xcv",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "error": "Référence inconnue: experience_type_string_id=simulation-de-vol"
+    },
+    {
+      "tmp_id": 4,
+      "title": "Créez votre bougie aux fleurs séchées à Lille",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.mavielilloise.fr/evenements-lille/c/0/i/98282400/creez-votre-bougie-aux-fleurs-sechees-a-lille-25-octobre",
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_string_id": null,
+          "experience_picture": null,
+          "short_description": null,
+          "price_text": null,
+          "duration": "2.00",
+          "duration_measurement_unity_string_id": "heure",
+          "minimal_number_of_people": "0",
+          "maximal_number_of_people": "0",
+          "experience_theme": null,
+          "experience_theme2": null,
+          "experience_theme3": null,
+          "noise_level": null,
+          "equipment_text": null,
+          "brand_text": null,
+          "experience_in_all_city": "0",
+          "experience_access_type": null,
+          "experience_booking_needed_for_access": null,
+          "phone_number": null,
+          "city_string_id": null,
+          "source": "SCRAPPING_FROM_WEBSITE",
+          "source_url": "https://www.mavielilloise.fr/evenements-lille/c/0/i/98282400/creez-votre-bougie-aux-fleurs-sechees-a-lille-25-octobre",
+          "raw_json": "{\"discovered_item_id\":181,\"raw_source_url\":\"https://www.mavielilloise.fr/evenements-lille/c/0/i/98282400/creez-votre-bougie-aux-fleurs-sechees-a-lille-25-octobre\",\"content_kind\":\"EXPERIENCE\",\"classification_confidence\":0.95,\"classification_reason\":\"Atelier manuel réservable avec plusieurs créneaux possibles.\",\"representation_title\":null,\"representation_key\":null,\"title\":\"Créez votre bougie aux fleurs séchées à Lille\",\"description\":\"Découvrez l'art floral et fabriquez votre bougie aux fleurs séchées.\",\"start_date\":null,\"start_hour\":null,\"end_date\":null,\"end_hour\":null,\"basic_price\":55,\"is_free_event\":0,\"is_for_kids\":0,\"accessible_for_kids\":0,\"student_event\":0,\"event_in_all_city\":0,\"access_link\":\"https://www.mavielilloise.fr/evenements-lille/c/0/i/98282400/creez-votre-bougie-aux-fleurs-sechees-a-lille-25-octobre\",\"location_text\":\"Atelier de Clémence, Wazemmes, 59000 Lille\",\"place\":\"Atelier de Clémence\",\"place_string_id\":null,\"address\":\"Wazemmes\",\"city_string_id\":\"Lille\",\"primary_image_url\":\"https://cmsphoto.ww-cdn.com/superstatic/4411393/art/default/98282400-68508039.jpg?v=1791279319\",\"experience_type_string_id\":\"atelier\",\"principal_activity_category_string_id\":\"artisanat\",\"artisan_technique_string_id\":\"fabrication-de-bougies\",\"additional_image_urls\":[\"https://cmsphoto.ww-cdn.com/superstatic/4411393/art/default/98282400-68508039.jpg?v=1791279319\"],\"language_string_ids\":[\"fr\"],\"hobby_string_ids\":[\"activite-manuelle\"],\"occasion_string_ids\":[\"verre-entre-amis\"],\"age_category_ids\":[\"5\",\"6\",\"7\",\"8\",\"9\",\"10\",\"11\",\"12\",\"13\"],\"session_configuration\":null,\"session_contents\":[],\"element_access_prices\":[{\"name\":\"Atelier de fabrication de bougies\",\"price\":\"55.00\"}],\"editorial_signals\":{\"tags\":[{\"string_id\":\"experience-originale\",\"confidence\":0.9,\"evidence\":\"Découvrez l'art floral et fabriquez votre bougie aux fleurs séchées.\"}],\"principal_characteristics\":[{\"name\":\"is_for_children\",\"value\":0,\"confidence\":0.9,\"evidence\":\"L'atelier est ouvert dès 12 ans.\"},{\"name\":\"adapted_to_children\",\"value\":0,\"confidence\":0.9,\"evidence\":\"L'atelier est ouvert dès 12 ans.\"},{\"name\":\"adapted_to_groups\",\"value\":1,\"confidence\":0.8,\"evidence\":\"Atelier manuel réservable avec plusieurs créneaux possibles.\"},{\"name\":\"adapted_to_family\",\"value\":1,\"confidence\":0.8,\"evidence\":\"Atelier manuel réservable avec plusieurs créneaux possibles.\"},{\"name\":\"adapted_for_alone\",\"value\":1,\"confidence\":0.8,\"evidence\":\"Atelier manuel réservable avec plusieurs créneaux possibles.\"}],\"editorial\":[{\"type\":\"Atmosphere\",\"string_id\":\"chaleureux\",\"confidence\":0.8,\"evidence\":\"Clémence, artisan fleuriste, vous reçoit dans son atelier.\"}]},\"ignored_expired_schedule\":{\"session_configuration\":{\"name\":\"Atelier de fabrication de bougies\",\"description\":\"Atelier de 2 heures avec Clémence, artisan fleuriste, pour créer une bougie aux fleurs séchées.\",\"dates\":[\"2026-10-25\"]},\"session_contents\":[{\"day_list\":[7],\"hour_list\":[\"10:30-12:30\"]}],\"session_warnings\":[],\"reason\":\"all_explicit_dates_expired\"},\"session_warnings\":[]}",
+          "status": "pending",
+          "employee_id": null,
+          "local_image_path": null,
+          "file_fingerprint": null,
+          "primary_image_url": "https://cmsphoto.ww-cdn.com/superstatic/4411393/art/default/98282400-68508039.jpg?v=1791279319",
+          "created_at": "2026-10-27 15:58:27",
+          "updated_at": "2026-11-08 13:12:16",
+          "hub_id": null,
+          "endpoint_id": null,
+          "discovered_item_id": null,
+          "fingerprint": null,
+          "additional_image_urls": [
+            "https://cmsphoto.ww-cdn.com/superstatic/4411393/art/default/98282400-68508039.jpg?v=1791279319"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "activite-manuelle"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Atelier de fabrication de bougies",
+              "price": "55.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Découvrez l'art floral et fabriquez votre bougie aux fleurs séchées."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "L'atelier est ouvert dès 12 ans."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "L'atelier est ouvert dès 12 ans."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Atelier manuel réservable avec plusieurs créneaux possibles."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Atelier manuel réservable avec plusieurs créneaux possibles."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Atelier manuel réservable avec plusieurs créneaux possibles."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Clémence, artisan fleuriste, vous reçoit dans son atelier."
+              }
+            ]
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 4,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 6,
+      "title": "Découverte à Climb Up Lille Lesquin",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "cours",
+          "principal_activity_category_string_id": "escalade",
+          "duration": "120.00",
+          "duration_measurement_unity_string_id": "minutes",
+          "minimal_age": "5",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "escalade"
+          ],
+          "age_category_ids": [
+            "5"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Cours collectif",
+              "price": "17.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "L’ESCALADE : UNE ACTIVITÉ LUDIQUE ET ACCESSIBLE À TOUS"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "Devenez autonome dans la pratique de l’escalade en salle."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "L’ESCALADE : UNE ACTIVITÉ LUDIQUE ET ACCESSIBLE À TOUS"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 6,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 7,
+      "title": "Essayez l'escape Game chez Prison Island",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "action-game",
+          "duration_measurement_unity_string_id": "minutes",
+          "minimal_age": "4",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "escape-game"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "anniversaire-enfant"
+          ],
+          "age_category_ids": [
+            "4",
+            "5"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Prison Island, ce n’est pas un escape game mais un action game indoor."
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Prison Island, ce n’est pas un escape game mais un action game indoor."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "13 € pour les -16 ans"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "13 € pour les -16 ans"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "vous devrez les surmonter en équipe"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "13 € pour les -16 ans"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chill",
+                "confidence": 0.7,
+                "evidence": "Prison Island, ce n’est pas un escape game mais un action game indoor."
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 7,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 8,
+      "title": "Baptême de Chute libre Indoor",
+      "experience_type_string_id": "degustation",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "simulateur-de-chute-libre",
+          "duration_measurement_unity_string_id": "minute",
+          "minimal_age": "2",
+          "age_category_ids": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Expérience insolite"
+              },
+              {
+                "string_id": "experience-forte",
+                "confidence": 1,
+                "evidence": "Expérience forte"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids : 1"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids : 1"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Expérience insolite"
+              }
+            ]
+          },
+          "element_access_prices": [
+            {
+              "name": "Baptême de chute libre indoor adulte",
+              "price": "59.99"
+            },
+            {
+              "name": "Baptême de chute libre indoor enfant",
+              "price": "39.99"
+            },
+            {
+              "name": "Pack Famille à partir de 5 personnes",
+              "price": "40.99"
+            }
+          ],
+          "merge_into_experience_string_id": "simulateur-de-chute-libre-indoor-lesquin",
+          "duplicate_confidence": 0.95,
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 8,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 9,
+      "title": "Essayez le lancer de haches",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "lancer-de-hache",
+          "minimal_age": "6",
+          "duration_measurement_unity_string_id": "minute",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "lancer-de-hache"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "anniversaire-adulte"
+          ],
+          "age_category_ids": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "1 séance de lancer de Hache (60 min)",
+              "price": "18.00"
+            },
+            {
+              "name": "1 carte cadeau lhache prise pour 3 personnes",
+              "price": "50.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "is_insolite: 1"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "is_for_kids: 0"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids: 1"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 9,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 10,
+      "title": "Des expériences spectaculaires  de réalité virtuelle à Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "vr",
+          "minimal_age": "4",
+          "duration_measurement_unity_string_id": "minutes",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "realite-virtuelle"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "4",
+            "5"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Scénario Divertissement - Heure creuse 25 min",
+              "price": "16.00"
+            },
+            {
+              "name": "Scénario Divertissement - Heure pleine 25 min",
+              "price": "22.00"
+            },
+            {
+              "name": "Scénario Divertissement - Heure creuse 45 min",
+              "price": "25.00"
+            },
+            {
+              "name": "Scénario Divertissement - Heure pleine 45 min",
+              "price": "30.00"
+            },
+            {
+              "name": "Culture - Heure creuse 25 min",
+              "price": "10.00"
+            },
+            {
+              "name": "Culture - Heure creuse 45 min",
+              "price": "12.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "La Réalité virtuelle est typiquement une activité adaptée aux événements, séminaires et team building."
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Adrénaline, frisson et fou-rire sont les ingrédients qui garantissent le succès."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 1"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 1"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Il est possible de privatiser votre espace dans la limite de 50 personnes."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 1"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids: 1"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "minimal_number_of_people: 2"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "minimal_number_of_people: 2"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Réalité virtuelle typiquement en intérieur."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence provided."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "minimal_number_of_people: 2"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 10,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 11,
+      "title": "Découvrez la réalité virtuelle à travers des expériences uniques",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "needs_review",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "vr",
+          "minimal_age": "6",
+          "duration_measurement_unity_string_id": null,
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "realite-virtuelle"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Entrée",
+              "price": "10.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Notre équipe, composée de vétérans du jeu vidéo, réalise ses propres expériences exclusives."
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.9,
+                "evidence": "Une multitude d’autres expériences vous attendent, une balade sous-marine ou dans le traîneau du Père Noël."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "minimal_age est 16, is_for_kids est 0"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "minimal_age est 16, accessible_for_kids est 0"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-forte",
+                "confidence": 0.8,
+                "evidence": "Adrénaline, frisson et fou-rire sont les ingrédients qui garantissent le succès."
+              }
+            ]
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 11,
+        "blockers": [
+          "unite_duree"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "unite_duree"
+          ]
+        }
+      }
+    },
+    {
+      "tmp_id": 12,
+      "title": "Essayez l'accrobranche en plein coeur de Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "enriched",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "accrobranche",
+          "sport_string_id": "accrobranche",
+          "minimal_age": "3",
+          "duration_measurement_unity_string_id": "minutes",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "accrobranche"
+          ],
+          "occasion_string_ids": [
+            "anniversaire-enfant",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Enfant - Groupe",
+              "price": "11.00"
+            },
+            {
+              "name": "Ado - Groupe",
+              "price": "16.00"
+            },
+            {
+              "name": "Adulte - Groupe",
+              "price": "20.00"
+            },
+            {
+              "name": "Enfant - Individuel",
+              "price": "13.00"
+            },
+            {
+              "name": "Ado - Individuel",
+              "price": "16.00"
+            },
+            {
+              "name": "Adulte - Individuel",
+              "price": "22.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Un parc accrobranche pour toute la famille."
+              },
+              {
+                "string_id": "kids-friendly",
+                "confidence": 1,
+                "evidence": "A partir de 6 ans pour les enfants."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "A partir de 6 ans pour les enfants."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "A partir de 6 ans pour les enfants."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Un parc accrobranche pour toute la famille."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "Un parc accrobranche pour toute la famille."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0,
+                "evidence": "Pas de mention de danse."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Un parc accrobranche pour toute la famille."
+              }
+            ]
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 12,
+        "blockers": [],
+        "validation": {
+          "validated": false,
+          "blockers": []
+        }
+      }
+    },
+    {
+      "tmp_id": 13,
+      "title": "Essayez l'accrobranche à quelques minutes de Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "needs_review",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "accrobranche",
+          "sport_string_id": "accrobranche",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "accrobranche",
+            "balade-en-foret"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "anniversaire-enfant"
+          ],
+          "age_category_ids": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Individuel - Bébé",
+              "price": "6.00"
+            },
+            {
+              "name": "Individuel - Enfant",
+              "price": "13.00"
+            },
+            {
+              "name": "Individuel - Découverte",
+              "price": "22.00"
+            },
+            {
+              "name": "Individuel - Adulte",
+              "price": "25.00"
+            },
+            {
+              "name": "Groupe +15 - Bébé",
+              "price": "6.00"
+            },
+            {
+              "name": "Groupe +15 - Enfant",
+              "price": "11.00"
+            },
+            {
+              "name": "Groupe +15 - Découverte",
+              "price": "20.00"
+            },
+            {
+              "name": "Groupe +15 - Adulte",
+              "price": "23.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-avec-enfants",
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "string_id": "experience-insolite",
+                "confidence": 0.8,
+                "evidence": "Nous vous accueillons dans notre parc pour que vous puissiez pleinement profiter de nos activités extérieures et nos tyroliennes."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Vous souhaitez venir vous amuser en famille, entre amis, ou avec vos collègues ?"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les personnes handicapées."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'accessibilité pour les poussettes."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour la communauté LGBTQ."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Activités extérieures."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de restauration."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de restauration."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de possibilité de travailler."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons alcoolisées."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de boissons alcoolisées."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'hébergement."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de musique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de danse."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de terrasse."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de télévision."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de Wi-Fi."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique pour les rendez-vous."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 13,
+        "blockers": [
+          "unite_duree"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "unite_duree"
+          ]
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:34:00.618098"
+}

@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T20:22:29.714634",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 110,
+      "title": "Lille : une visite culinaire pour découvrir les spécialités sucrées de la ville",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-une-visite-culinaire-pour-decouvrir-les-specialites-sucrees-de-la-ville.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 110,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 139,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T20:22:30.416309"
+}

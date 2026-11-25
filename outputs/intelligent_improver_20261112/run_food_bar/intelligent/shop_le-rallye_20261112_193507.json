@@ -1,0 +1,548 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:35:07",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-rallye",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-rallye",
+    "status": "found",
+    "data": {
+      "id": "5598",
+      "name": "LE RALLYE",
+      "shop_string_id": "le-rallye",
+      "unique_id": "d6fb867162c904e9825cd521ba113aad",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54857",
+      "principal_cover": "54857",
+      "qr_code": null,
+      "phone_number": "+33320075437",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "185 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0127539",
+      "latitude": "50.6143532",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:24:48",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:24:48",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ5eWiAzrVwkcR02E0C1KPw04",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ5eWiAzrVwkcR02E0C1KPw04\",\"rating\":4.2,\"user_rating_count\":376,\"google_maps_uri\":\"https://maps.google.com/?cid=5675537537955029459\",\"fetched_at\":\"2026-11-12T19:35:01+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-10T17:35:36+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Kymberley Duriez\",\"uri\":\"https://www.google.com/maps/contrib/102943941987840320951/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocISv-VC5cnb-JliJonP6cjWyH_10p_tGcYqorTcwSPOrIa7cg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Endroit très sympa, personnel agréable et serviable,je recommande+++++\",\"language_code\":\"\",\"publish_time\":\"2026-08-21T16:06:06+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Herf Herf\",\"uri\":\"https://www.google.com/maps/contrib/103731192290419380955/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWBPWLKV9FGM1OzRUWCgjuM2pASwe808i98hsbXV87JXzByxoV9=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Génial, avec ma Maman... Jamais déçue...\",\"language_code\":\"\",\"publish_time\":\"2026-08-05T09:32:27+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Mélanie Démaret\",\"uri\":\"https://www.google.com/maps/contrib/113181794595424369290/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX2PhBb4fTnbYtK-dK7l1Fc1X5ICZOymZsQ8mq-NUR_CWttICGI=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours aussi ravi dee vous voir toutes et tous , vous êtes une chouette équipe 🥰\",\"language_code\":\"\",\"publish_time\":\"2026-06-28T11:04:55+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"François Derensy\",\"uri\":\"https://www.google.com/maps/contrib/113760456432282799484/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV1ApSegO2E9LFGbhAf3GFFjQb8KpnPR1yavz_Zxyj3YtZVAwbU=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-05-31T12:23:01+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Philippe Vlaeminck\",\"uri\":\"https://www.google.com/maps/contrib/102592576438008563817/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKAlwdVYR3lWjW5jm0qsimCvPJgr83KEprpLq0GCnsstSY3Lg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:35:01",
+      "google_reviews_place_id": "ChIJ5eWiAzrVwkcR02E0C1KPw04",
+      "source_id": 5598,
+      "scope_type": "SHOP",
+      "scope_ref": "le-rallye",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "le-rallye"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54857",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5598_6af399b09eb54.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4658",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32341",
+            "source_hourly_id": "4658",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32342",
+            "source_hourly_id": "4658",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32343",
+            "source_hourly_id": "4658",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32344",
+            "source_hourly_id": "4658",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32345",
+            "source_hourly_id": "4658",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32346",
+            "source_hourly_id": "4658",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32347",
+            "source_hourly_id": "4658",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-rallye",
+      "google_place_id": "ChIJ5eWiAzrVwkcR02E0C1KPw04",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 20:00",
+          "mardi: 06:30 – 20:00",
+          "mercredi: 06:30 – 20:00",
+          "jeudi: 06:30 – 20:00",
+          "vendredi: 06:30 – 20:00",
+          "samedi: 07:00 – 20:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLei5xmW8OCmD9PZDjlRWXDOoI9jaURT0PCL01cVaEcVdU0pOCogd-4TSRPQX1SY8rMzHM3K2IvL4d_uOmCLpks9ffiGPKvKeoyzXMir32Jyt8GZeN-pmlDVBqkuyI6K1N1juc8evO6yCv5V62sBnBWvooWpNE7px2DK6_rUy2QW2QSzY5yvTKniXVqMik6WB_H3rwu7RhkxVFycpEfwf39jcU2iW92T1bMF8UN-3YMlSXAPJLI07FlAZqhgoCHCkcdH4KOw8F-k2yhV8-FLHthrDFM7uUV22_da80OktFlYfAPDdp5FVSBz09lGI5_OKvxvf9zLYmTz3uG3p_dnvTP_3wnMcct_DP-oWD425n9KJFEdrFlV12Lqu5waRaqiY9hJSwOpxSkbZQTomB7QwV9eyIg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109597575850574583057\">Helene Denece</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe872gZw6W20O2o6OFk64W7jUFln9BgV06WwHIUFCY_XDZEVfgV991VHDhIQxJo4LQZK34E_37xGaViX_YNB-ClIJHLCBozJG-Q4TKojcHgKvNoXmerOHRwSCn-pDrx91S12_Ns5gyTYTEZnVHsHUho_CRIilpX0phgf8fBlnb-xCPlO9kqXaaranfcn8ienx5rwaYqv5qYV0lFH3WlnDyNzT5SsPFVcv9Q1coWmilgAMOcoPVr-4L2uVaT7ldUN5hzcD0upqn5GbjNPAj7CY_sPUgtUSVE9tQYtJuMRtPZ9U3sJi8CmbgZvJJR8LZoJLXvbGASNtGfRKshWxvUd15n7QE_Nzh-JKjZePlkhX38kw7x9Q-xsJOwEerT-3QznxSqWH_nKGBNL8_m6LBgHGlDvkcuHmI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109224132038283163829\">Saddek Ben</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLd1UI6J5PJ_5pW_1DePaqzAu2_taPmqQlXEyPUVx6OrcPPjQyasgHqAGHri4Xou1AcLbuwjs0NG-vMIEti53JBm0tFRiMf3PlvF0c36TbbwO7_VhNGFU5iFQ-9WjPYou0ulUHkC1lqoLtYocfU-Mw-GkL-p8MPwZ_URBeBL14LkYtWyYUkX0LFH381X4QipHqaFTsjSZMedSw4LsvtOonthYwKB9hxRTLCrvKcPfQI9GcwiDOeOYEeE6FMSRHtiOeH0a7Vlq2B6nhIHSms64QDJxVLVOw6hcW6bihbHoxw3nQ9QT46QvhgUuL1VrvTLs34stdvHoWUlXjwfktQ3UKzSY919cjE-n-wC5jE2I-WYGYcZqg8hQoT-KJ47ZA1GwgPYVfO8PGJKJYP5J1s3h3JFhN8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109597575850574583057\">Helene Denece</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLeTzi_yecx3hsTBvsPitjY3REGHjyYdHrs9jAucO-UPzHGfSXUfSRvESbnH-l4oLs0pd6FXcwjUPhhvm3AW5_khrTNvKzzf4jTcKFjsL8MCP-mVMzTK5LSFFs9g64RJClHU8wLne6zludclLb3KSUwWm7Io8Ju5GnJ1MiGrgzkDWbyJxv9RHgWIPm2x1UDcEu1r2SaaLcyRabFeoKbiD0qBiGPncc4hpkx-cMZTnH0mJQayG23N47cilKRca8bPGxQvVHt9McnoRXfSetkKLElXQVPTu_T6WV9bwUQPL5CNdpKB2RcUubAOh6j_5q4286wIPty4R8TRw50a1wXyf1zxwX0mpWAPkMUgvlaXB-5BKSeL7-z-HfB7rm02VitAX7NxcHTruwdoSBl2paJ0xn_-dgu7UXQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107790791310333667725\">Franck Duthoit</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLctjI7LAe-tnzM1SWg2K0uDgcAmh87XsZo1tMoZRW_mPegEJhOY3t5Piu9eoQrSJhnsf7stA_Trhq49_96HTW2xlkJKG5S_V7Dll-MhTa4dBIndJZRykIZdw5mdOVcRSgx-DzCCyugo8D4ocq1nBNI2op3wpJcH1vAxeKXVoWl8-r_P72DRTJzXee1jz4UR5jfOxXAynd40PA21BoTCAWxPPFxunI5tSh5GIrxwcv77fnYMqa-85UQixz-i2XKIMx881r95Rw-xLqBUZc5KSxt5AoimfUptjUycxIKkay7f1CpvFaGk1abkTr9sw56NgMqMXUB7L9HWKPKeQlpmlq-XXj3eaIKh-WTM-JXsSjol0St0capG0Qr-jsSGepnxDgDlTRU70IrqL4W4r6WTBK815Z8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109224132038283163829\">Saddek Ben</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLdw3PKeEBlrecwoAodZXg1yGpWZNMMpB0o6HzS3pQS0T0MM5-yhQVIcjYrqv0OpYSC7yyFyWwFygHIsSVRy0Jwm1lgZUIXzSh53l6LzcfRpOdUR06FJ4kjH3qHNJsOSnHSoowIHOfAS5uC3yI7C23B-G_-micnpgSCRIQ3xPMqU3enP5KrAM9qBv6JXr8hs2IgS3tg2TusjgLK_xq4b9hsFImOczr0omLTxTPeeo6gEwFN7XuS4G1iZWVj7Z6lXGw2Wl3vDbHzf2iZXRWnw72oDsKAL2hh9VxbmHNOJrJ3xA9KyFPLgg3ZfzWMtprdPn1rAOej4MSA3pH0SIGP2wzPu-6984T6ifj9oJu42P4jPjBwaiPUmSuImZjr5slyluNxjNmDThIomER7ptqVgfkzkRiRBxH4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109597575850574583057\">Helene Denece</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcgs3O9dgkSV8NJzcAVzOUIAdBfCtifmw8nYlWUwzhOKmuOKIEndC4HLTw0xS1s_mqL1iv6blTt7UKlQmCf5je5Hdx-vVEo_SXEgzjLwNvDXB7lI_F27gtfNxc5ZFkR2gqTbA4yXDEIju4HmHRccLUPBR2S729iZfbU72a3eVe1fx2_iNSWAvcFe8SOABkv6hUVw7y36ejanSwUs6L9087EaIqFsQUsk1Jmvr3nCEHw4bHDUeChr1P2HVyAplya1b-53ZHM8WCH8ZryB2JucAr0jOO8-jRW3wsnXJVNGRaE9eIPoobX6u62U_lYEWKDNSivnl8H4hyQnvHU_pvp9JvaXR6f54DGp3KvqGzy-kvkGJNMQETjeTsWZZghmW9VSGRZCQ_yLzSY3oogNP2U10fqiGDt",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109224132038283163829\">Saddek Ben</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLfmvMIvWdz9P8JPYAMI8YbhXP8Ty0PP2JpV-M3ttL-fW8AkwnQKC_YuFQ24Tcj4fmof9NoRJukg5nQOd2BhRhEs6D0xNE4APEIzqgrzYVSAelG_h4_9LFXnfnFbVC4rdYs_vqjjebEwLAdkNCR31s-zH0EEJWlndMcR3G7TDEkgxJ0-6C6tmFT-FMT51r_5eE9HlugzyEi40TYzWtgLu_CKI1DbnJIBLwG2mk4_ZJcanRVc78QePj6G7udd9Ak7nKJPHKtuOCcB8RV5_kwi1AWlHNz1aRMgeATUscPH-C781VDYgLO2g5an-MIciHQAPxzHnufLUuIq-Gy9OQHAr97_wX_BMwJ6OQxuf_f5afwYoDKpT0ZlKN9kz55w86zzLnWnqOAtKYMiXm_Vut9xxdKLqmw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115116595393839142130\">eric vabre (stilys11)</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdN0VrJ8NukiTuSaVhADgBrdHXFU02ql5kVeBXiI7APWw4Et5UJil0xi0wllr5nwYtKa-6jTJA_JGsj_TgtYPqp-Cyf383MQRf19LjtrINgVE_BTQmLaEApd-_CR6ZAjagscofiTQlwPJsAHh3Hf2ijX-B5HWs4Da0S1vu91xD66ZLrXz8lrW5uIBIF-2pzF4c3nKN-0uILxjUb8fCAGkEoD2LqxNoM027iEkd3_964o6JtpFQPLKjmGGGuJHpdrO1A8xfR20Nfva3avLIKGQr-tW9VvRytatDRwK-yK68rW6cclHO9ic8Ov8VJRG345UeTjz5tLnZ21GHWi7tDsph0O7_sHNYWoc7jKSiiCDhe-6X1p7_s_dJaLvRWIBZCpAnu7kWN8ricSnUGBV0lXjVpQQQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110269849462054788307\">MichMuch 59</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeuVaJR_InowKiA2vIGZLPGI9KQGZm4EbRUfRX_t_aNQtLOIETwXXwSR9Y7vbjFALNcSNJatlN1sHVPoSJCflRRZA7woJ7oWRaWgZqVd-LyaZh7jyJHR9iY7V1QMNLtYdqk6AmJW9m-eSPLWnYIenGD6d4XflWVaHOdqMM5EZsAkgrdabyqHUWaJE6wl0rsAP_RCgaoteHVrvc1qGNQ9yF_p15X0NpCnOwEgyRBsUm-05QBN3zR_JwMC3u5e6tmX9W664ANVzbLKmBxWAx3k7HJJxjsDDmpVQXnDJpu2bSiVLINQj_ToQhbWYdccG9gUMKH87el3XGQl5itbLzowLt4ba-3bsJ1Ytymc7bIkDhhtau8XawFHQPg2RHZ8iPPcC6oONB_Bw5SCt1K3Cb44_un6Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109224132038283163829\">Saddek Ben</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5598
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-10T17:35:36+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Kymberley Duriez",
+              "uri": "https://www.google.com/maps/contrib/102943941987840320951/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocISv-VC5cnb-JliJonP6cjWyH_10p_tGcYqorTcwSPOrIa7cg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Endroit très sympa, personnel agréable et serviable,je recommande+++++",
+            "language_code": "",
+            "publish_time": "2026-08-21T16:06:06+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Herf Herf",
+              "uri": "https://www.google.com/maps/contrib/103731192290419380955/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWBPWLKV9FGM1OzRUWCgjuM2pASwe808i98hsbXV87JXzByxoV9=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Génial, avec ma Maman... Jamais déçue...",
+            "language_code": "",
+            "publish_time": "2026-08-05T09:32:27+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Mélanie Démaret",
+              "uri": "https://www.google.com/maps/contrib/113181794595424369290/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX2PhBb4fTnbYtK-dK7l1Fc1X5ICZOymZsQ8mq-NUR_CWttICGI=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours aussi ravi dee vous voir toutes et tous , vous êtes une chouette équipe 🥰",
+            "language_code": "",
+            "publish_time": "2026-06-28T11:04:55+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "François Derensy",
+              "uri": "https://www.google.com/maps/contrib/113760456432282799484/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV1ApSegO2E9LFGbhAf3GFFjQb8KpnPR1yavz_Zxyj3YtZVAwbU=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-05-31T12:23:01+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Philippe Vlaeminck",
+              "uri": "https://www.google.com/maps/contrib/102592576438008563817/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKAlwdVYR3lWjW5jm0qsimCvPJgr83KEprpLq0GCnsstSY3Lg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.2,
+        "user_rating_count": 376
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1099,
+        "bo": 61,
+        "front": 1038,
+        "estimated_cost_eur": 2.4749999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données disponibles ne documentent pas les offres, les équipements, l’accessibilité ni les modalités de commande ou de paiement ; aucune caractéristique n’est déduite de leur absence."
+    ],
+    "rejected": [],
+    "summary": "LE RALLYE est référencé comme brasserie au 185 Rue du Maréchal Foch, à Loos. Un avis décrit un « Endroit très sympa » avec un « personnel agréable et serviable »."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-rallye",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5598,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5d6818ab910445ce11d9463f0288f6efcf3caaa182e15792734de7f6053bac7c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

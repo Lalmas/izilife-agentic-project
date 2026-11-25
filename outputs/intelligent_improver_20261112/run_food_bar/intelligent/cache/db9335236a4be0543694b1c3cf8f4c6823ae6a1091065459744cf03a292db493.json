@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:00 – 22:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas de confirmer la consommation sur place ou à emporter, l’accessibilité, les équipements, les paiements ni les publics adaptés."
+    ],
+    "summary": "Friterie située au 69 Rue Ferrer à Faches-Thumesnil, avec des horaires indiquant une ouverture le midi et en soirée."
+  },
+  "meta": {
+    "cache_key": "db9335236a4be0543694b1c3cf8f4c6823ae6a1091065459744cf03a292db493",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

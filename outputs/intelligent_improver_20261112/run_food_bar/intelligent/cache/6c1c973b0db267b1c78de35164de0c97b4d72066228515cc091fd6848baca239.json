@@ -1,0 +1,97 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Chaque repas dans cette salle chaleureuse"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "Chaque repas dans cette salle chaleureuse"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Le repas comme l'accueil a été au niveau de nos attentes"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Chaque repas dans cette salle chaleureuse"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "le fonds musical un peu trop envahissant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "dans cette salle chaleureuse"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-table",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "le service est attentionné et joyeux"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant avec repas sur place à déjeuner et à dîner, dans une salle décrite comme chaleureuse. Un fond musical est présent."
+  },
+  "meta": {
+    "cache_key": "6c1c973b0db267b1c78de35164de0c97b4d72066228515cc091fd6848baca239",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

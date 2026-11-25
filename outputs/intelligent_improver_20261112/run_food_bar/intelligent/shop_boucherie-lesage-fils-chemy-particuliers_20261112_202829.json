@@ -1,0 +1,503 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:28:29",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boucherie-lesage-fils-chemy-particuliers",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boucherie-lesage-fils-chemy-particuliers",
+    "status": "found",
+    "data": {
+      "id": "5831",
+      "name": "Boucherie Lesage & Fils - CHEMY (Particuliers)",
+      "shop_string_id": "boucherie-lesage-fils-chemy-particuliers",
+      "unique_id": "75fb656e0903964fa6c078369c3f3ac6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55086",
+      "principal_cover": "55086",
+      "qr_code": null,
+      "phone_number": "+33362137977",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "57 Rue de la Mairie",
+      "additional_address": null,
+      "zip_code": "59147",
+      "city_id": "104",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9918774",
+      "latitude": "50.5299351",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:56:09",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:56:09",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJmdo90sws3UcRl8H6Ja_xbhk",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5831,
+      "scope_type": "SHOP",
+      "scope_ref": "boucherie-lesage-fils-chemy-particuliers",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "cherry",
+      "string_id": "boucherie-lesage-fils-chemy-particuliers"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55086",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5831_6af3a109821f1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4887",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33944",
+            "source_hourly_id": "4887",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33945",
+            "source_hourly_id": "4887",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33946",
+            "source_hourly_id": "4887",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 14:3",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33947",
+            "source_hourly_id": "4887",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 14:3",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33948",
+            "source_hourly_id": "4887",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 14:3",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33949",
+            "source_hourly_id": "4887",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33950",
+            "source_hourly_id": "4887",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boucherie-lesage-fils-chemy-particuliers",
+      "google_place_id": "ChIJmdo90sws3UcRl8H6Ja_xbhk",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 08:30 – 12:30, 14:30 – 18:30",
+          "jeudi: 08:30 – 12:30, 14:30 – 18:30",
+          "vendredi: 08:30 – 12:30, 14:30 – 18:30",
+          "samedi: 08:30 – 13:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2976,
+            "height": 3968,
+            "photo_reference": "AV-0GLespXZvnNAMjak_W1HHa59pPtfJjVPGV6NVaVHXhtgIAU5nV2iXAxAwQlNG-5Z36HyxnCyYRdZHK611Q3qf6dypLWemCxRmbazFWhQ1NDQqUPjaNYVXinXplDq-Y67-lZlw1EUMn4SwOvOn2tj-10E3PfBhV9d4RlFNLarJQ_XLVCuNQ-BJWcMdX-qpzsAysw5sTNyHmORC3rE07JrCi5GcUrbOFsO_wpD6_hNYS2kim6Pal4qmYqGWbhOTZAqpQI4CARyd59TsT_IzR2Wa54hAioyZOiL0APQE3HEpvMr-mBNzczJt1wCOPPqstautG7h831mvSX4YIIu2IAVDQnTCnfYr5Ykvrtl5faJrkEuvBkhYsyqfsE65KTs-zWzISGwE5EijIPG7mn_lREiyhJvb9iQuzfU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109816137829015758321\">Sylvain Kamette</a>"
+            ]
+          },
+          {
+            "width": 3016,
+            "height": 4032,
+            "photo_reference": "AV-0GLfdUJwc4mdYWX99cs0wfQ5dRsaJCG2onaDNQYt28XIB8HgmfRAAdgcoY5CBPyHP0Oz_aICrgYXeKggVKEmkGoqvz8PXHUQHp5KCFniuVwsj4e1VESFqNuuIcdOg9W2RqPfPzTY8HUS19F55HSvm0BUZrEIupsJQcELUJT71pz6Mfma2LVrcGAj1Joi81-nwHc80KAiOYc3ItK7OOZiC1lXTe5lThA0R0o3vBzsoxyY9e1aAO1GZs_TWQ4mAGzfj1AEDcBu41ssyoSB9qTVXjEpZXjhztrqv3UN2S15Oc-cF9hKJ701PpYms18WEJoo_-We0M3YbDoFznYW9yXhST4RQW13p-0z9xwrl6bidNCI2STtu-QYrfJibVNaM2KVM8L7KOnY_0ARC2aUgy8-G7Kuk-Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101924514174293538496\">S&#39; B74</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfIgSe9TNc55fRfsqOZA83-zNkZcmyZdylcGZdhqtXsn-jMpfNmH7MJq2x4nTxOhBCMbdJIlUGTlxDZFxLBqf4ynDSWRb-dBQVBTGnX5LjiB56FflgsuRkLqNgqfJrFKD8w8TM7nTxuvOljn7CVVsylibqgLfo22--B2O2YK_oXvB3Cco1aWzRwHDfukpOn2L4bbf-0SnvZsh7FyUUCaWpRoD7n2kjpMQf7Y2Jv32IqIJru6KXHGgNuidZetk7QU4BnLg9AYOxnXoYS5VpJJmARK2Nat4ZiC1dFyZMNuxQaQxAp1hQMRxTE7fYaHZ2hsTrEst6y1kz4C8HI8BgYOapwFohzplHwfzx_Nj-B8VrTFvvOSOxF2w5VIQC1Us72Y6ERlvQYN5ZjkOLTRE_qWjBDiYI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118211872954372803029\">Boucherie Lesage &amp; Fils - CHEMY (Particuliers)</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLcQ4lVwSvWkfBMfAIN-cabu1s0Fr_lllZ6bdR4wZi6RF-DcyeTdP8uHzfXeMEH7svRk0BtP4gmgcWXcdciJmoNhrY_iqIhinhFwARyAAy30iQprhzLful-uteHuAYdUp-l01Uacsx863BuDO0tAZANT4lW1oX-q5mK2HFdyxYlsVMHAsk1DsSqTW4sKAF1ssRBAeCvV26wj2CUfdFffyGl5LNzR6Ud8QzYV0_zl5TXnBkogRJlp1ZcaJFtRVHc_3whHvZ4L3q1GHW_9acnds3ystncor20QlW169VZMaxGra25lQsvn5nOZhmClYn9acjNHdMahG3i-xUk_NWhuPRSC7BMGquxtLplC5KIiESeFytK35YiDaDBPV5Uw7kIEsZdWtpsj5_3XGHq9_uNkEdY-XF6D",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118211872954372803029\">Boucherie Lesage &amp; Fils - CHEMY (Particuliers)</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdebiKKyYfD8-ZgfnAI5Br-FrP4EtPb121g7Vt5ZuTGdE2HwXLWnQa7ZXl3tggWXi14BkL1F9ENUdus-b7NO-Xp8I9dq59s9E0Db5iGADe5dMZ3A8cE7XKoOiVJFUF1b1eZwxJ6mAd62JBO9g4cjhKmJBMTNDUVowPhawdB5TQHPWgqXxsy3IZaMT8SSIcCQMD4MQivx_AhjaRCJn3hZRwpG7qeuIKstFNFW6gaP9kWrmcj8Yo9BBuJv4F-4zZa3qDBuXgSn-w1t2EppMj3WgSlaHNWrrrDJfKsVXQFrfvkUSuGpc78ZC_fJtuNfdpwksxXOOA4JSq41ndEqaoplMe2Qa66lpKPrvs1mfBEDUf3i42ANme16n_Xo9kWXale3h2GD2zo-CA1L7a8w5p6qVsGuOQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116586522472995026173\">Sandrine V.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcqJnAB6a2rw64rY5AVgY8w78qXeS8ZIEsGwXCPS2uf7zFomBRcpuOlImKNNDnz2kWWCM2OLsq8T1QUYNdTHAEzYygH2P5ggikKn6PqgLvOuriwmzqOwVgvvpEjT8QN9mqaBWMgDaL9hMO5QEJDZKBMceI3OQnMZDEWMz_nX9vCjid8_7atrSUJHipk9baT41bFy3JfxMldR9mx5KAPNOb5nasJSDuXRfy6qARd6yKsITHBQnt2CsrjE6dqmRcgaGH4UW2dKysKPyMt_SK9DRHyVdhNzIqH7HAcmhF-F-yk6IM_3fbpewvemg2AlOYXs0cC1Hm7bStbB1O4pVfxXKkWvBlQKhHNeKdUm2H2FbItGKdpJOY4cA1erjd7q7hqbw72AT3CfcTMf081CvxlZZ8HnQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100681626241834886789\">Antoine D.</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfjfWX6puGCiWNwEu5rMjjNbMSKAs_WLKgAR3hvX8uLOGUZ30ZU0FnYj3dftAX9cGQ8JFoFz4N4DBjhmX_Z_W2YqIJD64K5jnj4HDb-04f6y5SGZ31Grcwv-KAguar7e8WzaY9x1GqnJPi1OTf3inu98LIaMH32St0Tl9tL4ceNprOntK4flNFlp8bMUIuijAuR0JGQgZF5nqGyMuqEMvAZUVK16NVQ6QSFZlRoWkVLMRmCYmcrBTalN7hKbcsU9mFytQ78mIzCML8IGehGMw18LstUrvrRg8G0V18s7gtPQ5ZYO7zN8M81DXl1UElaXctWmC2qEfx6oUVrutd4INYYkrOPtaINNc08ECRt0L3Gq02v5xU2KAvF0mx-ZhOMuhMM5rRtC2FaYTZAUn3-zZ9GvyWh",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102611461339133651654\">Alicia AJT</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdkJZS9oqta9RUA-XtkwOOox4K5G8wZzN2kK2ff-rK-8sENGUptqsiSFeDJC77SNth2l64m1hNhte6ZkaNQxzfhVXs5ZDnhTIPPki0Dw-OCd1pqnAlAOlf8GKnAowFAd7EIfDtoQARGRGXtlgOBi8dv-Tpp6Pe3ZS2KsOwfPsoigLMG47lrcq972AA2usF68Od1lxzTPj9dCIndDWeERHEfbVgIW3fbZtLUSN_R6dKYU4Y_wpzcEeNxbd1EC13NYppzeECY3qZ_SKr5sfJ6tmHvMWrjtc3lhH119dyRl6RtfuPFJN53pQNkoCCiVZx-GnwgmpScPJMK4K8HmMhbkSp7qPGYdLrmPC8qdcU7NOFeHxu4UaDJGQ-h7pxhOu2-iONGyFnZmqqpsVzJET3Z_JwHPAs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107139580119377365344\">Maximilien Barrois</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLf0A-dWz9r1ncNiaw0-S_7QaiCQBg8TFFvQPSsne5B8t-AuzQGobeZrRVnbMydqQt4_VTmIvdX1vvKI7zl6fT9jYHsQotIH6AyPlMsthu2xvK7_kfc7oRQrX-4N5wrOwGvLfyvDPqEAeGm4ii1QmGIZ-rQhyfYwsz7v0ae2enb7YG2jq41IQxRdSXROdr71ZoYE5PRE0EUVxKmD0mKW0qJb60p1gUvpw1nqdeV4AOpKWm4qsxGwPbiD4IGVF2M3Af7x-EKNLKE-PiokFdUITtAoG3YXVkLXbLGQ-4_VjHw4XOMHtPVa8NWRhSvTMaVYBH0CIeSzYS9tnPZxy_slRUUpLCgG8icMzCPmRx86c8tpIuFVoZcAITpKWQILkaXS8EdrHRD0YAJYSuCiMVfg8wSZ6jkAZ4A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118211872954372803029\">Boucherie Lesage &amp; Fils - CHEMY (Particuliers)</a>"
+            ]
+          },
+          {
+            "width": 677,
+            "height": 677,
+            "photo_reference": "AV-0GLfy1KV6MzQ15i4XQWjVi2EnUiU4F-EovWfd0pSib1lBXbuS9T_ROdNDEHtd6a_2mERhk3uBa8PB7Emv38F7x9htyZUBQSMsGvOxI6zwhIA96dwQVcZWqViFHh5VSeNRzC9_1oalTGlr3lkjEbLmxy0OtWK7E8u93UPHEPd1PkyMly_6p82ObZwyAV3YDX2Y6S_Tm3uX5VwPsKYx69upSBhzzh30eJFNQW5sHViflxmQjpGBJ_VUpBCilZUpI2bnY9rPhdGZNmfCStbu4xr5iKMNONruksrfVQUGQjjjPUWakjQBnYaCwHLqhNphstaW1SZ65tNMryFrXCnejoz-0UQpgHZylUmieQMB1glexge0xexWaSP3jhPhT8b8JvjGluCJoYEzX9hY-g3MJ9FdLTaIVgrV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118211872954372803029\">Boucherie Lesage &amp; Fils - CHEMY (Particuliers)</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5831
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 08:30 – 12:30"
+        }
+      ]
+    },
+    "warnings": [
+      "La catégorie principale indiquée est « boulangerie », tandis que le nom identifie une boucherie."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 14:30 – 18:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boucherie Lesage & Fils accueille les particuliers au 57 Rue de la Mairie à Chemy. Horaires indiqués : mercredi à vendredi, 08:30–12:30 et 14:30–18:30 ; samedi, 08:30–13:00. Fermé lundi, mardi et dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boucherie-lesage-fils-chemy-particuliers",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5831,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "82b0b25caa731ac86e1f764537227b82a7d40c09d95423749ea70fdf8ee02073",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

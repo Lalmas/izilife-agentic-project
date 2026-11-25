@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.75,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie »."
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.65,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Nom du commerce : « La Frite en Folie » ; catégorie : « friterie »."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de commande ni les moyens de paiement."
+    ],
+    "summary": "La Frite en Folie est une friterie située à Somain."
+  },
+  "meta": {
+    "cache_key": "e95850063ad0342803cf6dc569498d896a6e325c1a08dca6517208e9460c96fc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

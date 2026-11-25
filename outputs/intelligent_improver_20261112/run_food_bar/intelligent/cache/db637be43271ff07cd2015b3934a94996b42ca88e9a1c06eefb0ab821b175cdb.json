@@ -1,0 +1,144 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "grand-choix-de-bieres",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "tous types de bières sont proposés"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Endroit très sympathique pour se poser"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "jouer à la pétanque et boire un godet"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Endroit très sympathique pour se poser"
+      },
+      {
+        "string_id": "exterieur-agreable",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "la terrasse est mise sur la place"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet avé les copaingues"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "tous types de bières sont proposés"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "la terrasse est mise sur la place"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet avé les copaingues"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse et décontractée"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "boire un godet"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-pose",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Endroit très sympathique pour se poser"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "petanque",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Le meilleur endroit pour jouer à la pétanque"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "boire un godet"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 17:30 – 23:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "au-comptoir",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "le service ne se fait qu'au bar"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar de quartier chaleureux et décontracté à Lille, apprécié pour son choix de bières, ses parties de pétanque à proximité et sa terrasse estivale sur la place. Le service se fait au bar."
+  },
+  "meta": {
+    "cache_key": "db637be43271ff07cd2015b3934a94996b42ca88e9a1c06eefb0ab821b175cdb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

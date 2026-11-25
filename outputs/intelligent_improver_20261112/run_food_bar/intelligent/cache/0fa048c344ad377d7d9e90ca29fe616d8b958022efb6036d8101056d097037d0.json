@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Les produits sont excellents » ; « pâtisserie et viennoiseries aussi bonne »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Leur sandwich est fait à la minute. »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Leur sandwich est fait à la minute. »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« De bonnes viennoiseries. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Leur sandwich est fait à la minute. »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« pâtisserie et viennoiseries »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie proposant notamment des pâtisseries, des viennoiseries et des sandwichs préparés à la minute. Les avis citent aussi la baguette aux graines."
+  },
+  "meta": {
+    "cache_key": "0fa048c344ad377d7d9e90ca29fe616d8b958022efb6036d8101056d097037d0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

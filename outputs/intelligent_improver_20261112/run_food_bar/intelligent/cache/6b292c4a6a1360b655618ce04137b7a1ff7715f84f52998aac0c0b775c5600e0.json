@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.7,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni les services, ni la consommation sur place ou à emporter, ni les équipements, l’accessibilité ou les moyens de paiement.",
+      "Aucun avis exploitable n’est fourni."
+    ],
+    "summary": "Friterie ouverte du mardi au samedi, avec des horaires de déjeuner et de dîner. Les informations disponibles ne permettent pas de confirmer les services ou les équipements."
+  },
+  "meta": {
+    "cache_key": "6b292c4a6a1360b655618ce04137b7a1ff7715f84f52998aac0c0b775c5600e0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:45:56.931714",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 66,
+      "title": "Keltic Dream — set dancing",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.facebook.com/events/salle-du-fort-de-mons-rue-de-normandie-%C3%A0-mons-en-baroeul/atelier-de-danses-irlandaise-set-dancing/778113685397281/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "danse",
+          "dance_string_id": "irish-dance",
+          "minimal_age": "7",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "danser"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-pour-danser",
+                "confidence": 0.9,
+                "evidence": "Ateliers collectifs de danses irlandaises annoncés le vendredi à Mons-en-Barœul."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=778113685397281",
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 66,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 108,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:46:03.142633"
+}

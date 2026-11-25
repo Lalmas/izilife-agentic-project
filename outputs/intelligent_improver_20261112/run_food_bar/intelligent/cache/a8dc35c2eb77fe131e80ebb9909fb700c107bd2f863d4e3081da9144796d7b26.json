@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les modalités de commande et de paiement, ni l’accessibilité, l’ambiance ou les équipements."
+    ],
+    "summary": "La Loge by Laurent Cauchy est référencée comme restaurant au 5 Rue du Haut Quesnoy, à Le Maisnil. Les horaires indiqués prévoient une ouverture à partir de midi certains jours."
+  },
+  "meta": {
+    "cache_key": "a8dc35c2eb77fe131e80ebb9909fb700c107bd2f863d4e3081da9144796d7b26",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

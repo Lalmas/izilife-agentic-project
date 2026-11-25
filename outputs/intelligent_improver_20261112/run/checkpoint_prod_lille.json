@@ -1,0 +1,29 @@
+{
+  "completed": [
+    "google_hours",
+    "intelligent_1_la-braise"
+  ],
+  "runs": [
+    {
+      "stage": "google_hours",
+      "at": "2026-11-12T18:10:44.947893",
+      "returncode": 0,
+      "stdout": "[1/8] PLACE parc-du-marais-de-fretin\n[2/8] PLACE centre-arts-loisirs\n[3/8] PLACE centre-de-loisirs\n[4/8] PLACE parc-d-activites\n[5/8] PLACE salle-des-sports-andre-rosart\n[6/8] PLACE salle-baron\n[7/8] PLACE parc-de-jeux\n[8/8] PLACE loisirs-animation-detente\nRapport: C:\\Users\\alcamara\\Documents\\agentic_Workspace\\outputs\\intelligent_improver_20261112\\run\\google_hours.json\n",
+      "stderr": ""
+    },
+    {
+      "stage": "intelligent_1_la-braise",
+      "at": "2026-11-12T18:11:02.638095",
+      "returncode": 0,
+      "stdout": "{\n  \"json\": \"C:\\\\Users\\\\alcamara\\\\Documents\\\\agentic_Workspace\\\\outputs\\\\intelligent_improver_20261112\\\\run\\\\intelligent\\\\shop_la-braise_20261112_181102.json\",\n  \"xlsx\": \"C:\\\\Users\\\\alcamara\\\\Documents\\\\agentic_Workspace\\\\outputs\\\\intelligent_improver_20261112\\\\run\\\\intelligent\\\\shop_la-braise_20261112_181102.xlsx\",\n  \"accepted\": {\n    \"tags\": 3,\n    \"principal_characteristics\": 0,\n    \"editorial\": 3\n  },\n  \"rejected\": 2,\n  \"analysis_only\": false,\n  \"apply_result\": {\n    \"success\": true,\n    \"scope_type\": \"SHOP\",\n    \"scope_id\": 5164,\n    \"changed\": [\n      \"ShopCharactTag:+\",\n      \"ShopCharactTag:+\",\n      \"ShopCharactTag:+\",\n      \"ShopAtmosphere:+\",\n      \"ShopAtmosphere:+\"\n    ]\n  }\n}\n",
+      "stderr": ""
+    },
+    {
+      "stage": "intelligent_2_soultrain-cafe",
+      "at": "2026-11-12T18:11:35.585545",
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\places\\intelligent_enricher.py\", line 527, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\places\\intelligent_enricher.py\", line 474, in main\n    raw_proposal, ai_meta = call_server_ai(\n                            ^^^^^^^^^^^^^^^\n  File \"C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\places\\intelligent_enricher.py\", line 244, in call_server_ai\n    raise RuntimeError(str(data.get(\"error\") or f\"HTTP {response.status_code}\"))\nRuntimeError: Syntax error\n"
+    }
+  ]
+}

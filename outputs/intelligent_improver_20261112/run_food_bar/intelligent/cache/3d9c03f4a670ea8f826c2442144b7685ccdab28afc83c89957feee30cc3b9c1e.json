@@ -1,0 +1,132 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« on prend plaisir à se retrouver autour d’une bière, d’une frite »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« autour d’une bière »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "« d’une frite ou autres »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« un lieu chaleureux où l’on prend plaisir à se retrouver »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« autour d’une bière, d’une frite »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« autour d’une bière »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« les boissons sont aux top »; « autour d’une bière »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« où l’on prend plaisir à se retrouver »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« une ambiance conviviale, un lieu chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "« se retrouver autour d’une bière »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« d’une frite »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "sur-place",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« une très belle sélection sur place »"
+        },
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Pour les produits à emporter »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Pour les vrais amateurs de bière »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« autour d’une bière »"
+        },
+        {
+          "string_id": "apero",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« autour d’une bière, d’une frite »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne documentent pas l’accessibilité, les moyens de paiement, la musique, la danse, les équipements ni les âges conseillés."
+    ],
+    "summary": "Bar convivial à Wavrin, apprécié pour son accueil chaleureux, ses bières et ses frites. Consommation sur place et produits à emporter sont mentionnés."
+  },
+  "meta": {
+    "cache_key": "3d9c03f4a670ea8f826c2442144b7685ccdab28afc83c89957feee30cc3b9c1e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

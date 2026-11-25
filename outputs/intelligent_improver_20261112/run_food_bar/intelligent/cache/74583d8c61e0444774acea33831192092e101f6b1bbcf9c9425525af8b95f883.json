@@ -1,0 +1,105 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« les pâtisseries […] j’y vais tout les jours et je me régale »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« les pâtisseries et les gros gâteaux au top »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« j’oubliais les sandwichs très très bon »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« les pâtisseries […] j’y vais tout les jours et je me régale »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« les pâtisseries […] j’y vais tout les jours et je me régale »"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« les sandwichs très très bon »"
+        },
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« deux croissants »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« deux croissants »"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« les sandwichs très très bon »"
+        },
+        {
+          "string_id": "tarte-aux-fruits",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« les fruits sur la tarte au fraise à tomber »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« le gâteau rocher »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« une vraie boulangerie artisanale »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« les pâtisseries et les gros gâteaux au top »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale un morceau de fil dans un petit pain et juge certains prix élevés ; d’autres avis louent la qualité et les produits frais."
+    ],
+    "summary": "Boulangerie artisanale proposant pains, viennoiseries, pâtisseries, gâteaux et sandwichs. Les avis soulignent le fait maison, la fraîcheur et la qualité des pâtisseries."
+  },
+  "meta": {
+    "cache_key": "74583d8c61e0444774acea33831192092e101f6b1bbcf9c9425525af8b95f883",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

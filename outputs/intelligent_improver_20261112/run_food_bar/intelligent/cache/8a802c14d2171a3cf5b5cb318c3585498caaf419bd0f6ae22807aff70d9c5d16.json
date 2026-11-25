@@ -1,0 +1,38 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« personnel de salle très agréable »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon repas cuisine maison »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon repas cuisine maison »"
+      }
+    ],
+    "editorial": [],
+    "warnings": [],
+    "summary": "Restaurant apprécié pour sa cuisine maison et les saveurs de ses plats ; des avis soulignent aussi la politesse et la serviabilité du personnel."
+  },
+  "meta": {
+    "cache_key": "8a802c14d2171a3cf5b5cb318c3585498caaf419bd0f6ae22807aff70d9c5d16",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "populaire",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "user_rating_count: 692"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.73,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "un accueil chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 19:00 – 21:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Fretin proposant des spécialités du Nord, avec notamment une carbonade flamande recommandée par des clients. Ouvert le midi en semaine et le vendredi soir ; l’accueil est décrit comme chaleureux."
+  },
+  "meta": {
+    "cache_key": "705bfe8f4248f4bf13aaa0ba5447f1b05a196d99fd4d8962efc36ac31eddfdad",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

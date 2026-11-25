@@ -1,0 +1,610 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:21:05",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-incontournable",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-incontournable",
+    "status": "found",
+    "data": {
+      "id": "5600",
+      "name": "L'Incontournable",
+      "shop_string_id": "l-incontournable",
+      "unique_id": "5536138046ae3254ea24c0f3f0748320",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54860",
+      "principal_cover": "54860",
+      "qr_code": null,
+      "phone_number": "+33320962211",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "63 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0463189",
+      "latitude": "50.5823434",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:25:21",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:25:21",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ6U1swI-1c0ER7V0AB_2O0jw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ6U1swI-1c0ER7V0AB_2O0jw\",\"rating\":4.7,\"user_rating_count\":352,\"google_maps_uri\":\"https://maps.google.com/?cid=4382722604780248557\",\"fetched_at\":\"2026-11-12T19:20:55+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T17:29:52+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Fred Depo\",\"uri\":\"https://www.google.com/maps/contrib/117489238645516040273/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW-6M-2rdVK7hSLAou2a2iv_OZZA54SUJGJSDebTNWl6B33UFum=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Rarement mangé un tartare de bœuf aussi bon, un vrai !\\nService rapide, poli, et endroit propre !\\nProduits frais, et peu cher\\nJe recommande !\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T11:40:50+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"morgane\",\"uri\":\"https://www.google.com/maps/contrib/115798250783828871612/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJVlRrBGqyDRNj-9fhp9xfpdVjA2uttZOmm7_Pj1gYL-cOT3A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Trop bon, patron cool.  Réservé de préférence\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T10:37:30+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"emmanuel bouchez\",\"uri\":\"https://www.google.com/maps/contrib/107400155357393924940/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUp9ddiGLmQVDiJCjOXt-V_b7imWDJyq5bSBx_IGavYgoKRoire=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Lieu accueillant avec en prime le chef qui vient saluer les clients !\",\"language_code\":\"\",\"publish_time\":\"2026-09-14T15:56:46+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Jules EDMOND\",\"uri\":\"https://www.google.com/maps/contrib/107152616576009912971/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUXPiWqk5SlPYogAK_OX3GQeKXGYDLVRRpQ1zeaCtN8bqsNRoNDzw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Fermé.\\nSans prévenir.\",\"language_code\":\"\",\"publish_time\":\"2026-08-19T10:49:54+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"patrick vanaerde\",\"uri\":\"https://www.google.com/maps/contrib/102237557023312727695/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWgoF-SimEdM-cR60q3shEVF3_ECTuJOgGB1s9RftGV1PS9s3Mx=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:20:55",
+      "google_reviews_place_id": "ChIJ6U1swI-1c0ER7V0AB_2O0jw",
+      "source_id": 5600,
+      "scope_type": "SHOP",
+      "scope_ref": "l-incontournable",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "l-incontournable"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54860",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5600_6af399d18aec2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4661",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32362",
+            "source_hourly_id": "4661",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32363",
+            "source_hourly_id": "4661",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32364",
+            "source_hourly_id": "4661",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32365",
+            "source_hourly_id": "4661",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32366",
+            "source_hourly_id": "4661",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32367",
+            "source_hourly_id": "4661",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32368",
+            "source_hourly_id": "4661",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-incontournable",
+      "google_place_id": "ChIJ6U1swI-1c0ER7V0AB_2O0jw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 16:30",
+          "mardi: 10:00 – 16:30",
+          "mercredi: 10:00 – 16:30",
+          "jeudi: 10:00 – 20:30",
+          "vendredi: 10:00 – 20:30",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3056,
+            "height": 3056,
+            "photo_reference": "AV-0GLc0kPL2T3IxfMav0gDvW3Cmf7AT_mjGkgcF5G5buOm_Mh03uHGkto4c0lUekqGnu6YN4kPbebu41f4tQ8NsDAkvxbWr5KaH8YDU4o6HsSOMNwjv3nkvdxHVnaUkujguHoy6NrxwfUWxVG6L05EEU8hKW0tQ3-7VaAUgPVdqvp8mMTN1xuYlboHCOuZrULLdcl3B_ipIg6u9sQ2jRaCzZA0iOPTOawwQLp1AHT3CP2g6qaCmCpFEnPQrClgdTMtvcg4GJEr6IcHo_6TIgKTqmaj4mqaQOaIymRTkKb1_qN7RtypG9DRs0KdK6JIWnKRjNPupBrjT5kkf6iwcuSve6q5SuXPm_vPcnaT9V6mB7sBsTb5UAbQYvxpf8j78pbtcM6X8bD1AIpXejnuEj7SI6FmDRtg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114762233452077206056\">Dascalu Constantin</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcMJWBgHG6S3w4vUZTzqCNKCtGlc0XPNcPnU-OG7qXHHCtBcs0Oyzs7tDn-pNs6nFgGQpUOpRxGMRWgAJ1VOjTc3WKf2KKPkAcp3OlYdRk2D-Ei7Wk6SRa9UuSTltFwRcAMAnxaJptuM5vokUqf7ySBTH4NbzwfgIpXU09BXafMA12Nl_l1P438_yPKuVW9R1mpKLumqLHeSz4j-BbivZUOlk07nd734u3uRDctt77_LMugPSKm--36-vi9r6NpOLK6oWkfRkDRhaHCcuttMQrRZiAv88ZEijtKsBHxW1qE_AQfXgxWp2rJC8Fs2dC1iOLDfcE4AaNO-DeDzktQewiRuAYDRTwHuLExG5RBl4Yp0LWlD0av1LoyRPHolrxtC12iBUyywk28ske0A8c3S0O0Uwq1Qqq4-1UTFtFkQaw1Jg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107152616576009912971\">Jules EDMOND</a>"
+            ]
+          },
+          {
+            "width": 3056,
+            "height": 3056,
+            "photo_reference": "AV-0GLdZrMH0r6P6iA6f5gQ0ri6ps-_DNFAnNc_fY0tfUwBRnuO7tlBNckIiIe_iMNuBIkYUWmXmofzzdspDuP2q4G6QziItvr6bUQATQmRAuiEzb-ObYi6_HYcux0f-s6cxR0Jb6ahIb29IEjPJOZcS08w1kjhz-WjXfL2A8sDCm6USdUMCm0OhKaocpfK6YBiJanzP_YvXm51R8Qdt93at9rKsnRyoPcOwBeDXnbYdEuddnGNxJD_5dvVqKHqGYsiYuxlJKrSzgu5t-kTeg_Mo5uVk6N5k0HNARjWMiB9CN-n5wmU1KW72MTSBxmdUmEam5jtqUjR3M6SHcxIWVUssvS_8RA9W0r21019RpCZwVA4byF28zGiLFkI-LeOFHUpHPCOGGfwG3jM8f0Ni1pIYbMKhYp-dJAc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114762233452077206056\">Dascalu Constantin</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLd4txOrZr9y7rSGF4_91Wxkg0Bsq-C1hpEODwIcQhK95ALa5qaIGg7DrjgRDbZpCuKFLkPs8frQLmQI2_fHb4IKTwV5y25GROTVlbiOpQ3cK943rcZnRRD_uYAmDuzLFyZwUYe6V6yh1vWV84EpiKmlSTOeuoLxEhxDGclUuNSxS20lFJd-PUALj27bxLI0QsEpTtMrCPHqbRGNcPI0eJlAuSh5Oet-uQDVVm3QVeKlLe0ugVpRiqjSliNJ3oGZ97gspNgWSXXlDWegakZhMTm_gp4Xkl8BVJmapH4PxgDyrUgpZoFQsA-qYuIeFzgSESIYiwVTPMU1XXzO4WZSHaek8Bylwdr25h2SwMsuVciee6YPqusK0VzruvuY6UUsxaee6hmZoH0X187TXWKPuvYwbgpvtVn0Tt5h24H_-vozSQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 2578,
+            "height": 2034,
+            "photo_reference": "AV-0GLfSg6MbirHcwIyYkM2Qqbg4bfkwSveQEDspX55Y6ZjPxj4BoIwGaWpEVzITxJG526pFuBVArrYfeTIbsXoKvvP1DR6wXqtsQvrJtFccI2LBrAwHEA1TnMgzFNd4kkq_N7DpXKcbIOvePdriP0sy-P_-0pSDrEAzz7iHkYd5tWGfHHiud7VORgnAewtaS7MJvGNqUCMpFtgFVjakwUXfoxcNjQ8XXiP-gVHoVDuy5Ho-8nZfXz4JI-kpixfVCbvwHEZWqKiokTfzl9_kPBfDvutdjGyXtaJYiMpSS0VCs9hEp3KQUFj_n3puRBS-PQuQD9e2p_Jp1YsBzStpiGejGuq4tZ7f8XwFMuDwXXz8TfbdBTeLmT2PscI_Tep_Hq-nnjPOTwMnNnE6emJXeJYSMRXHMQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109596457305628758144\">Fleur MAZINGHIEN</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLddZ6JY-4ANk_Na8_lRiA2LdyusMH_GtszO54-wv4JUvdrsx6YYpRumd4dJfuwb14bI1ot-pbez-YtdssDTwriwt6EojFPXCTN9PsU4OKz5TiBGVZjV821inM7UQFVGcuq6gFNz7ZPArPc9ZzWeSn_G3MZAEowOhrQh1aseoj16Q1urXMEFLnHybVYP_oVywiRN7jQUTOjU-FvHwAekm-f7cr-K8kN79AJ6SAAKyVuV1DVtJIxPifM1mM5WNlQvY8Jv8_6Havu7AKqq3YE4wwbhLcdFhhMh1MX-2t_fdRMigqoJEhH2wDUwu3IjgV5pVsakfaKu850sfcC9JNiLN1p685xkjzHCKuVl_0cGcGT0xJJqYVBuQu6GKUwkoNIGJvGK_vVFzPMa8dujZ_zqDEytOCMdEDY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100818903208804625654\">Thomas</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdUrxkSmOWUnj-u1gTfxu-GzO6pPILrgFwKRGjfdI3cX5OwZh0-R9N33FxstK78wXsRg_FdaRU7eKe-0hJFUHaZKgVwyXALdJg59RRbrdEG1USHKo67cJuR6uJTeorTzyiE4Aul6ju2oDpF3cVgamI5rXhhrDiTOV2jioqcNaftmiGrpH72WdXf2vglGcj3wtvBMgqcpnQh7_SOrwnOM__f9v_jNKGfXrgcUR3sHfvJmYZVNfuEvgEewD5oj5I4gNltj8GQzN_7-AwLtZM-So3eNmkfRSOO0j4c8Zm9OrdzC2SSoMGjWwIo6RgnSosOFraELRclXEezYr0r7X1MI8wg7WAJN4pZgtESy_g7t_OlPh6KUmRQMeykP1dITcB6E40BIVszPiQzOdPSqYGP9JtQTcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100818903208804625654\">Thomas</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLfgFvns2k0R6WAOybljdYr9U9fbfGhNLjC8COKnjO7PXwBVCxNCXoi1MgOGwguZbvyXt49nwfLAMVBxMl-y-eBKxUzHb-kcOYxp8Q8qBRLJOXFVP24zHz8TR2rh_O30_JAMUkAxfTtBjIsOd9onP9_cPXSSR7SHqr_U1tXQPCtBvi9kdRO-mqYNH_Jce7M6OBdd2W_4QdnQiiT2vC2VMqLR0jvSJhoi4C23VNgosstfLFiDANFZtlD-Zuy1uD_D80EzgXYpJow8a8s1z-K92dWwMmFWqOvlFeW5ckn7s_Yk70BLU0yKTitLNmz-n-YdnoozB4JfHK0VjHnQWXKOQjrEedWCdaYfDgq3JV-I6p8tsTYFkAM3KEd_b7LmpiTAhgE2-TlKXm0nRDkkUT-RjXFRDXU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108085218160137796610\">Stéphanie De Munck</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLfRgv97kbZWFhgGei8GbshUj91kM-xuzX0cKSV-PlkJBxjyrhht3gdwHrMI8pbTzQQPn6Yum5VmShpQVwkxAPaPRaO19RXBT2N8-jJIYdEnfmNrJ-9_3YuYJV3Lc6GWy4rvkyM72795a6UOfslyG-al2RFFKY6tA9y9zdMjTQh5q30xhR6t_9uJecg_RWIsqVP3ZfkSToIDlMsdu0XmNUmQCwA7XIlGBQpXAVCR7F_R9kgB27ppWB8kjl2m1hRsbXwAlN55TheL-ZVfLbP8JKmW2BFS-D4Mdsc_KEnYkCgqJuV2jREvRGoHJauB40cLp1IHdPCZt_ghxAlFCRz5XndmQeRMBxLhSJjiYkB-ZgOrEyGa6KztW7d-06LkC6f4xDj_L0NRsGqh6cpeNnE5oeEhEh_L8qvk5ZwruYzGk3I2",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107204781726287836652\">Eric</a>"
+            ]
+          },
+          {
+            "width": 1242,
+            "height": 2208,
+            "photo_reference": "AV-0GLdJzwi8r0d7OlqxB3G6Mqr-c6_qXfzLcBW5BEtqc4EwwfNI9ijkIv0rL4I2WkCCzpHhz0JZuGBfMLg50q8MNhYd4YlourqBDXaYF0e9pQrZdhIQxdtkhiBNF6NwGI6fx1TyW9mAbrYCf5lbBqFWRR1ClQuIA-4DgF5Trn_wfx9-Tx96YEoChAh3doeWCi47LWrXBeGxe3tsEgRu9eggnzu7BecZzEOML4aZhaLj1x5Z8UYN4wdpab4ESoTjezR8oGz8_2AIE0Zio-egberzmP-hYfjPskKNsgS078Lfdr6rrNJJfpIaWRFajxc-aZWpVrsapB7buKctOtyL_DZp6VaSQxdE8pSPH4rMWQ_07BfklUdc3OUV-g-wSE47IrRzumKgqu8MXD1JgpkHoXU9AzGqBA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116308530290380460450\">Allan</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5600
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-30T17:29:52+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Fred Depo",
+              "uri": "https://www.google.com/maps/contrib/117489238645516040273/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW-6M-2rdVK7hSLAou2a2iv_OZZA54SUJGJSDebTNWl6B33UFum=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Rarement mangé un tartare de bœuf aussi bon, un vrai !\nService rapide, poli, et endroit propre !\nProduits frais, et peu cher\nJe recommande !",
+            "language_code": "",
+            "publish_time": "2026-10-16T11:40:50+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "morgane",
+              "uri": "https://www.google.com/maps/contrib/115798250783828871612/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJVlRrBGqyDRNj-9fhp9xfpdVjA2uttZOmm7_Pj1gYL-cOT3A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Trop bon, patron cool.  Réservé de préférence",
+            "language_code": "",
+            "publish_time": "2026-10-15T10:37:30+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "emmanuel bouchez",
+              "uri": "https://www.google.com/maps/contrib/107400155357393924940/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUp9ddiGLmQVDiJCjOXt-V_b7imWDJyq5bSBx_IGavYgoKRoire=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Lieu accueillant avec en prime le chef qui vient saluer les clients !",
+            "language_code": "",
+            "publish_time": "2026-09-14T15:56:46+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Jules EDMOND",
+              "uri": "https://www.google.com/maps/contrib/107152616576009912971/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUXPiWqk5SlPYogAK_OX3GQeKXGYDLVRRpQ1zeaCtN8bqsNRoNDzw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Fermé.\nSans prévenir.",
+            "language_code": "",
+            "publish_time": "2026-08-19T10:49:54+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "patrick vanaerde",
+              "uri": "https://www.google.com/maps/contrib/102237557023312727695/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWgoF-SimEdM-cR60q3shEVF3_ECTuJOgGB1s9RftGV1PS9s3Mx=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 352
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1055,
+        "bo": 17,
+        "front": 1038,
+        "estimated_cost_eur": 1.375
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Service rapide »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Rarement mangé un tartare de bœuf aussi bon »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Lieu accueillant »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« peu cher »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« tartare de bœuf »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis du 19 août 2026 indique « Fermé. Sans prévenir. »; les horaires fournis dans la fiche indiquent des ouvertures du lundi au vendredi."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« peu cher »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Brasserie à Wattignies appréciée pour son tartare de bœuf, ses produits frais, son service rapide et ses prix abordables. Des avis la décrivent comme accueillante; réservation conseillée selon un client."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-incontournable",
+    "operation": "ADD",
+    "tags": [
+      "service-rapide"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "cheap"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5600,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5cb78628bbd4dc2a2d9b4cacd141ce970a8b44e4db2fda2d82186121c2dc552a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Des pâtisseries aussi belles que bonnes »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« tout était magnifique et surtout absolument délicieux »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "DietType": [
+        {
+          "string_id": "vegan",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« une recette vegan et à IG bas »"
+        },
+        {
+          "string_id": "sans-gluten",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« number cakes […] sans gluten »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "cheesecake",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pour un cheesecake et un gâteau au chocolat »"
+        },
+        {
+          "string_id": "gateau-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un gâteau au chocolat »"
+        },
+        {
+          "string_id": "macaron",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un macaron à la framboise et aux fruits rouges de saison »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« 2 number cakes »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Pour mon anniversaire »"
+        },
+        {
+          "string_id": "anniversaire-enfant",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« le gâteau que je souhaitais pour les deux ans de ma fille »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis décrivent des gâteaux commandés, notamment pour des anniversaires ; ils ne précisent pas la consommation sur place, les moyens de paiement, l’accessibilité ni les modalités de commande."
+    ],
+    "summary": "Victoria Pastel est une pâtisserie proposant notamment cheesecakes, gâteaux au chocolat, macarons et number cakes. Les avis rapportent des réalisations personnalisées pour des anniversaires, dont certaines vegan, à IG bas ou sans gluten."
+  },
+  "meta": {
+    "cache_key": "7c04594afa11e0a32d33f6018a72a15027f4120594fc69eaea940cc336baa772",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:01",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-visconti",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-visconti",
+    "status": "found",
+    "data": {
+      "id": "5890",
+      "name": "Le Visconti",
+      "shop_string_id": "le-visconti",
+      "unique_id": "04b22993725e280c959a0e2b963440ea",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55145",
+      "principal_cover": "55145",
+      "qr_code": null,
+      "phone_number": "+33320979772",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "98 Rue Clemenceau",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0523817",
+      "latitude": "50.5987177",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:05:52",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:05:52",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJxZgeUavVwkcRY1475LmRyMw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5890,
+      "scope_type": "SHOP",
+      "scope_ref": "le-visconti",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "le-visconti"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55145",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5890_6af3a350f3698.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4949",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34378",
+            "source_hourly_id": "4949",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34379",
+            "source_hourly_id": "4949",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34380",
+            "source_hourly_id": "4949",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34381",
+            "source_hourly_id": "4949",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34382",
+            "source_hourly_id": "4949",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34383",
+            "source_hourly_id": "4949",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34384",
+            "source_hourly_id": "4949",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-visconti",
+      "google_place_id": "ChIJxZgeUavVwkcRY1475LmRyMw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 15:00, 18:30 – 23:00",
+          "mardi: 12:00 – 15:00, 18:30 – 23:00",
+          "mercredi: 12:00 – 15:00, 18:30 – 23:00",
+          "jeudi: 12:00 – 15:00, 18:30 – 23:00",
+          "vendredi: 12:00 – 15:00, 19:00 – 23:00",
+          "samedi: 12:00 – 15:00, 18:30 – 23:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLemaIp8uoCdgD9UE_1_xjow9XB0FYJR303htZwPapMy0Zo0OXMAIGht1d6urfISn8VbtI_OxkFCcSXFaQvYtcyb9z9_tUxFSaWC6-mt7253QuolzlN4A20JR95n-MYmBs0ylhiYhHj8-rKwy_YqPICPoqu2OTsZXOMmQ-vKwV8SKNvEhUzrf3RNKdxL227pLbluAcWxVdit7c8ZyO-2i1q23VjtvQ96Y-LWSUUDD9FnYYgfLD3UfGAON9dc-LHw9vzxVq-exqxIDknhyVYHPfvfROVy-YbHl7XTuDM581x3Sjp6W3_IDwxk4EsL0mDn6rrm_29Zmp35A-20Tq5J5Ny4ekgUscglmIYB-YOc3vYltp3dHbfIuBX4f6IxB2-6gd3zfERtJOShBooZv7yTgzLlKjQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114955101920280358965\">Jonathan Kos</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLfG9GuCuupnl16CBWE6UKadZLqEWCYgJb3SdIQk6v7GURt2PEJCbnrC2DPkA5I88wx76C3MGRaFOYey6yMGbW7YfYFiqLs_5AwgV2DqipQ4jFRXaI0vhm1Bd3qZ43wRcP-JlqLPw8KdI1BefTHa_BAkpP9gH0S84dv1hZcmEIzz5dAHoQQPBxTTdZn7CXxz8oLYh7uzKaiFzBlmUV0jirdq7gIHAs9bYtyt5NnyJLoEc0CLlVsekmVWlKtIEeVJ6tHg_rdsrSAFZ2lYLVm_km5Ng08pSaqnVElBDcWN4egM8Cz_-miu_YK_VsQFinB2kXQO9ncK1b5aOp0bIAlyoqQQRjfZtBbIC-bSoUygnKDdHbMhBhK8ZfuGa8oQSoyGoXNgXUhfahj-R-Bx8BxKYhh-PRU6oZ0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108766213372949867026\">Huguette Damiens</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLdp6mJhPC0-0U66bTVl-G-sKvZ5gVZXtUrksk0L1cDSly2yqh1wPSSdN2md30XbJy5ZnyxaxWOZPw8LkpRuAh73eyDRksXZ1-RPG_jJN-d6z57DxofuU5NuCgL2zfITC-8r9q6iBzgoVDVqEjTwu-yqcDMZQh9Apqh-RhjBe9W-3uTF19fWgURgOAopieW4GdeKe_3rmA6oau1Somp5UfKqMk7EMJgfEmSnKtOIxHFx6ct1vW81wgXBmBIyAwtvwcpSlz01A7YGs8cwnP-4I0xmwQ5YwUu1aALqMd9MHCE8iDBqsWARzespQr5gZrCR8weAzC9GfmCv9P8yurpNcn8N94uGN-FepP0LqGG1iPP2GJI5VkFpe8nwOnMTwCEdj-jLuKhtQgqcRpzVgJZVhNs-Na0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108766213372949867026\">Huguette Damiens</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLc-PGAoxicsB2a4_A2VYykNXo1vUjJufLh83udLkijlCRvNk64pMcmJ1TsRlXiqpC9kZUQ37YXQflFxqu_njYXYTo2oXfl9g-AaIWfAHuM5s3eUYOSajifJNurBzRacO0HLxCmbGKPL_cM0fiQbBY_SCuJkPRD3zGbIJUb-03wYuZkVEa8wYzq5W97_LREDQjLzPDvYaqqK5Tm1hi2FzOqn8RDsKyDi5pW8kVx9Vr1jvaZMpuXg-NGCHDeBqksD5nW0G_Pr_ZfMMedmm1LJCWp9XmcDTvb-eC6TIwvAW7U2qWyeEV-DmAKoM9stEQ04QJSdb_INvJOGOxme02kvnPxQxNqnXhsx0EFa602D8ztq5ha-uyBhXsw-A9FEGx5c5DjzqbyUq7Kzb9Z_ck_D5uasXBQx-xw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104977731773643582306\">Steeve Napierkowski</a>"
+            ]
+          },
+          {
+            "width": 2322,
+            "height": 4128,
+            "photo_reference": "AV-0GLeK_x84ZXCjsrgA8UmjXF5sYMe4JTcYZSBwxvKvbdHprQoXGsBIr0MxJ9aH_3WP4eDTMjQhBq3R-BDelOReY932_rbcHqz8xnW51JUnAvfL1kGoGAdUTO8ejVhIYXeHh9odQ977O74UxhPektgNQceodjHnn9tfj3p0dY1_aLWsY2ZpU20CRQyV_XSHU-3JZHdBVjNRjei3DQ15a4LG5IfOoQFkJBAoREFAXx5HSbP84FrgwrwBQOstDV9Lf9u6EocG5gUvkQWnAY4Y-khtv_hfmE8mEZ9CBoqekZk0emB2dTP_onZro4Ftc40LlZYDT3AlGhP-totaoT8rNFZbxITX37LJbMOhpd6FnTz0_OLJ74buyWjPLW06W0W3p_Dn-1fsFODOBzYhESdp6jSp4LxoIK58",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114955101920280358965\">Jonathan Kos</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcRUoIM9V8d1hdOOfUnhrLC-qpwodzkMBsoqgJQXyO3vhOKvk6eawY4kYJM4ywqAz81SPDeJco8lzpOeWh9znDm-CMjRRDSsMZJkHR47lc0MX3HHRpd3gcuwQVnrh0HHwc-k8UQqaD5xDPleOPRKrczrl_EAlglqULTzFXl5AYLUF2Biv1FN6NIXGPdWShMhqys1oQxkQFLMb-cOqQ9g13mxxRSejljL1DJ7Wms5vWaqrXwYPOEheVRc-TTsN6Us5pt4OwMw16-ES_J5UHoiOUbdXd7MtLjn84WjKoVFcNi5GAgP6FVHlzFM7YrFc9aSTXs0oHr_jGboTEuhbZL6mYolDDMa592bKp_ekvusJ7RyY3K4_ymbYq1gHHk3dxsHXNDnqwSkQdEC3TJ5fuSxfZ-o6Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101167166696154225253\">Ben Ben</a>"
+            ]
+          },
+          {
+            "width": 1152,
+            "height": 2048,
+            "photo_reference": "AV-0GLeA55-I90kmKPAuHMkv_jWq9p_w9B7iOnCcuF97FxbBTLt7XGMaA-OKjKW0FUjaWzNCzelOoE50BDhPrGiZqzm56QIaF8YORkgqi6MbUVn87eDlPzJWmMCwGKnuGb7jDkt1t4lRnvWKvPg-C9bBmzRMg9RsXUVG3REn7wNcChNV7Jb-rs0rWvRtrituvoAaMYonQFSWCBPIcdaA1ZCDHtArnnbSiGaD0PDK5iaxAXbgjWPF6uNKNoEf86k-mKyUEeenZAaWZbHfaHfw28CJ0hX2ogGpxE-vW7kcF0m4QVNUMxf1mwsQAc3ZCICPVd2ERpRLfhPgEyER-RwMVMhrTrkekPmIOJIkN4iDAmDGsNGizHZjuWu0amaIEOClkDuXGior7RsPQT-sbycupks0HC04-Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107285143921458024423\">Yves Wadin</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLffrmLZ5a1usqMuKvtUZLMv40TgfRj9pPVbHOabSL7Iw7-s-wyDb1fwV0WVs5K6LLVhsrIlm20dd-t0zYA8FICehMldH8tVL8qCYot2wFL8rfmDBnFXViq09EgaMfyELmYT6P2wdr9QRAuhVg-zkHg_RMkMHgpV5i4eqdh6AxfYSP0tasnj0fF1pC11TIwT6cK1P5JotSbTOdD3JILfFp5Bn-zR29YC5mkbD0dFdXD1MLFQ3YfBIo79py4DvYlMjxEzSfyHDVFMyMML_scKrb3gZsW1zA0C4VlUyZgUuiTo2ZfJ63P_W2iHEiLj_CBLy8xG7HGEt066hTtV-TLaEluxP8kJ1zfB_sU7KDoc_0ewa349PuA0qe6Kt0JMqztncOlGR6ltAwG3A53H3WYVaqFoBZU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114955101920280358965\">Jonathan Kos</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLeIp8M2VLzg4M_u-DIo-f8lnIo5SFPZ-6pFYDZu_G0zmSsYRwp4_bvTeIp2OiqD6T-a4ZzdFOvR3-1SVHKkPeyQOmx5lk1D5SHHBxwmi8hvcWigAgZRTBDndPKL39XyDtr1rj-Nir_aSsuexG0cESu6wFyzMwoCqXuvP2-RsWotIj_htWKPIGFHKpqVERZ-inBz9XEI-sfCSHoZUoDbNbFRDWcPkM6ePckOe7NlTXMEKA7c7n-Xrvunx28GsoKOq_bJco7yfEzRTSUDvkfj2o3QrsZz_TT8pm4sXbRfP6z-uaE-QpRfyrRYzn2TKiEHaVtYAEs8KLwIJZYVRSF01cMOXEYmnje5H-3RSdOANEW8d7MSEGTtUbkG8x6Qvr4oYt2H1dJYOlEgBVYzYQePIzzP6gAiGas",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108766213372949867026\">Huguette Damiens</a>"
+            ]
+          },
+          {
+            "width": 1152,
+            "height": 2048,
+            "photo_reference": "AV-0GLfBI1V58turaPNw1rh7YTEyqpSH2S2y768PJmDwGAE5x8CK3031UT04BF2HYm60VZ7PD3nI9Hc8BHYRalvmms5GGunqATE6qwCAao7nJTyTjZBM0DyvW1gSN9ze6PaUfMajyE3QpTOP6C3TD2l689OqXPITz1KpMUG8GlKngBXob1O9akxL8__kS8jWgZ-whn99v7qm2ujvVjdaA38hfBY9gIE0KSVIgK7ole39coKSKzoTybfq5TQGks_XP3bfQ5b3G1v20xQPL4SBCQ30WEBZHbeavdu1Y-Cv_6p8JBkXfnaFZQLL6mnqh7zLLCS0s809XyYIeYcImTEvkI4U0F6bHH4tmLgP7iOzzOfsC9Uurq-QoZt4pWCtHJogojprhKi0kLhg2CFNttIU3w1cp7axUe9k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107285143921458024423\">Yves Wadin</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5890
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 15:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne renseignent pas la cuisine, les plats, l’accessibilité, l’ambiance, les services, les moyens de paiement ou les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Le Visconti est référencé comme restaurant au 98 Rue Clemenceau, à Wattignies. Les horaires indiqués prévoient un service le midi et le soir du lundi au jeudi, le vendredi soir à partir de 19 h, le samedi midi et soir ; le dimanche est indiqué fermé."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-visconti",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5890,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8058d1f276ce945fe57c20cea4a54c6e0a6926a0f18528adbbb7818a72150d22",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1163,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "Le titre indique un spectacle de Florence Mendez intitulé « Délicate ».",
+      "Aucun élément fourni ne prouve explicitement un plateau de comedy club, un one-woman-show ou une comédie théâtrale."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description est absente ; le titre seul ne suffit pas à établir une forme permettant de recatégoriser l'événement."
+      }
+    ]
+  }
+}

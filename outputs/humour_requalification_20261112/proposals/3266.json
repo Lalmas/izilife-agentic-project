@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3266,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La catégorie existante stand-up est précise et cohérente avec un événement humoristique.",
+      "La description mentionne les plateaux d’humour et les comedy clubs, sans annoncer explicitement une autre forme de spectacle."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description ne précise pas explicitement la forme du spectacle, donc aucune recatégorisation de stand-up n’est justifiée."
+      }
+    ]
+  }
+}

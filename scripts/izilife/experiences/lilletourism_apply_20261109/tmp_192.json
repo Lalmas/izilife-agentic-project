@@ -1,0 +1,23 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:53:47.423289",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 192,
+      "title": "Ciné Tour à Tourcoing",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/cine-tour-a-tourcoing.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "105.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Référence inconnue: experience_booking_needed_for_access=1"
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:53:47.584299"
+}

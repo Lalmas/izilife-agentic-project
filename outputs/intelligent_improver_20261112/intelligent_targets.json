@@ -1,0 +1,3592 @@
+{
+  "google_hours_python": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\.venv_google_hours\\Scripts\\python.exe",
+  "continue_on_error": true,
+  "enabled_stages": [
+    "google_hours",
+    "intelligent"
+  ],
+  "intelligent_targets": [
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-braise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I2"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "soultrain-cafe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I3"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-relache",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I4"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-casquette",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I6"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "noao-bar",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I7"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "acropolis-bowling",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "I8"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "cageot",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H2"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "a-lardoise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H4"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "asian-grill",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H5"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-bureau-pub-et-brasserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H6"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-petit-delice",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H7"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H8"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bistrot-de-la-collegiale",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H9"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-les-4-tilleuls-50-nord",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H10"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-chez-micheline-le-france-gallant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H11"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafeteria-wattignies",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H12"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "casa-celia",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H13"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "couscousnco",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H14"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "delicescousumain",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H16"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "don-mario",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H17"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "felicilli",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H18"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "flunch-faches-thumesnil",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H19"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "habibi-cantine-marocaine",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H20"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "hameau-de-la-becque-salon-de-reception-en-pevele",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H21"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "hippopotamus-steakhouse-seclin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H22"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "kfc-lille-seclin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H23"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "king-wok",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H24"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "kopi-teh-votre-salon-de-the-cosy-a-gondecourt",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H25"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-incontournable",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H26"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-clef-des-champs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H28"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-gitane",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H29"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-grillotine-friterie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H30"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-petite-terrasse-restaurant-brasserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H31"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-scene",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H32"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-templemousse",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H33"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-bonhomique",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H34"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-ch-ti-boucanier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H35"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-pave-gourmand-a-avelin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H36"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-potager-des-demoiselles",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H37"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-royal",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H38"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-sabot-vert",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H39"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "lehoucq-jean-michel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H40"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-frites-a-gogo",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H41"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maong-bai",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H42"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pizz-express-allennes-les-marais",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H43"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-franjo",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H44"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-campanile-lille-sud-seclin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H45"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "self-de-ghsc",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H46"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "sidi-bou",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H47"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "sushi-and-you",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H48"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "truck-la-petite-terrasse",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H49"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "zen-motor-s",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H50"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "estaminet-la-table-des-amis",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H52"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-ferme-des-hirondelles",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H53"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "al-gayolle-tabac-brasserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H54"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "rythm-alc",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H55"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-mai",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H56"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "centre-social-le-tilleul",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H57"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-place",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H58"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-casa-bianca",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H59"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-pacific",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H60"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-brasserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H61"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-berge-du-lac",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H62"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "parc-du-marais-de-fretin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H63"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-terminus-bar-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H65"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "aux-chtites-cocottes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H67"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "place-to-bee",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H68"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "nouvelle-carte-est-arrive",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H69"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-planch-ti",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H71"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-art-des-mets",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H72"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-garenne",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H73"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-bella-vita",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H74"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-saint-vincent",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H75"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "aviasim-lille-simulateurs-de-vol",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H76"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "chez-magalie-et-gilles",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H77"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "gaillard-restaurant-brasserie-et-after-work-lesquin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H78"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "p-tits-gourmands-friterie-phalempin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H80"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "opa-restaurant-lesquin-dejeuners-daffaires-groupes-et-privatisations",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H81"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-bracelet-d-argent",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H82"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-lacassagne",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H83"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-herve-delepierre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H84"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-delph",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H85"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-breweppes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H86"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "esprit-frite",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H87"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-comptoir-d-anne-so",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H88"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-rallye",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H89"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "laser-game-exterieur-chlorofil",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H90"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-fretin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H91"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-maison-pevele",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H94"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "la-plaine-de-jeux",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H95"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "mimoun",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H96"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-lio",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H97"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-louise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H98"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "alex-taminet",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H99"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-cheval-blanc",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H100"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-moderne",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H101"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-ferronnier-dans-les-nuages",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H102"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-bel-frite",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H103"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-flandre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H104"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-bistrot-du-coin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H105"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-cafe-du-stade",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H106"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-interlude",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H107"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "croustifrit",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H109"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "spot-kids",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H111"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-embuscade",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H112"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "felicie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H113"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "barrel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H114"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "ciuri-ciuri-da-massimo",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H115"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-fournil-de-fretin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H116"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H117"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "artisan-boulanger-patissier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H118"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-central-snack",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H119"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "loisi-sambre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H120"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "gilliot",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H121"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-maurice",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H122"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-gruson",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H124"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cote-royale-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H125"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "profil-color",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H128"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "tchoutchou-frites-friterie-phalempin-gare",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H129"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cravache-d-or",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H130"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "base-de-loisirs-germinal",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H131"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-etoile-d-herin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H132"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-des-gourmands",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H133"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-rendez-vous",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H134"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-comptoir-des-gourmets-traiteur-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H135"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-fibonacci-4",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H136"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "taobento-lesquin-restaurant-asiatique",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H137"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "zoga",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H138"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-la-drache-wattbeer-bio",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H139"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "de-bouche-a-oreille",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H140"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "opoulet-grille-lille-faches-thumesnil",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H141"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-plaisir",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H143"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-delice",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H144"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-maison-bar-a-vins",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H145"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-atelier-du-grill",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H148"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "chez-patricia",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H149"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-campanella",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H150"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-expresso",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H151"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maison-prestige-extension-de-cils-onglerie-blanchiment-dentaire-formation-bar-a-strass-dentaire",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H152"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bucket-s-burger-loos",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H153"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-ch-ti-poilu-barmusee-14-18",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H154"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maison-goguette",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H156"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "mc-ewans",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H157"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-calumet",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H158"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "institut-annick",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H159"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-gerard",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H160"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-lapin-blanc-bar-a-the-et-cbd-shop",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H162"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-theiere",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H163"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-gare",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H164"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "escale-beaute",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H165"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-l-abattoir",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H166"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "duthilly-bernard",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H167"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-ribote",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H168"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-souris-verte-boutique-deco-santes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H169"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-gallia",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H170"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "amici",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H171"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bistrot-francais-lesquin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H172"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "l-hache-prise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H173"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "theisah-by-warren-beyls-artisan-coiffeur",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H174"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "centre-arts-loisirs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H175"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-carnot",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H176"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-flamme-brasserie-maison",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H177"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "aux-pains-d-or",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H178"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-des-barbes-blanches",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H179"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-d-hulster",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H180"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-invi-the",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H181"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-or-des-rois-boulangerie-patisserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H182"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "king-friture",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H183"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-griffes-de-marion-nail-artist-prothesiste-ongulaire",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H184"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "deplano",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H186"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maison-jelima",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H187"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-t",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H188"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cabaret-jean-pierre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H189"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-comptoir",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H190"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-skl-bar",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H191"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-chantilly",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H192"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bonne-bouffe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H193"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "reve-de-caro",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H194"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-du-lys",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H195"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-week-end",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H196"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-grill",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H197"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "trognee-olivier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H198"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "aux-7-saveurs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H199"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-parc",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H200"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-maryland",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H201"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-briquet-du-chevalet",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H202"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-chiquito",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H203"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-terrier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H205"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "victoria-pastel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H207"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-chez-claudine",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H208"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-bureau-lomme-englos-pub-brasserie-restaurant-afterwork-burgers-bieres-sport-en-direct",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H209"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-pep-s",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H211"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "stephane-et-gabriel-desplanque",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H212"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-la-mousserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H213"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "koezio-lille",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H215"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pepites-sucrees",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H216"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "leswim",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H217"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "kennedy-burger",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H219"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-tandem",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H220"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-fondants-de-mariethe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H221"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-delepierre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H222"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "complexe-sportif-de-houplin-ancoisne",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H223"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-frite-avelinoise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H224"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-quenoy",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H225"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "chez-madeleine",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H227"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "sublime-douce",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H228"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-et-patati",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H229"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "anais-institut",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H230"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-la-meurchinoise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H231"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-malterie-par-cecile-lieu-d-exception",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H232"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "centre-de-loisirs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H233"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "yvon-et-fira-la-maison",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H234"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-longchamp",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H235"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-histoire-du-ble",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H236"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "parc-d-activites",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H238"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-thomas",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H239"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-saint-hubert",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H240"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-saint-claude",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H242"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-django",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H243"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "une-frite-herin-d-autre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H244"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "yemma-mia",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H245"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "angela",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H246"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-accolade",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H247"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maison-guillemot",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H248"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "laktuel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H249"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-bonne-biere-bb",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H251"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-lion-des-flandres",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H252"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "salle-des-sports-andre-rosart",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H253"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-pain-d-aujourd-hui",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H255"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "aushopping-faches",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H256"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "originale-pepizz-loos",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H257"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "studio-3",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H258"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "terrain-de-jeux-marais-chateau",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H259"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "kulinaire-by-kenza",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H260"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-maes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H261"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-entre-vue",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H262"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "a-la-bonne-soupe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H263"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-boulangerie-patisserie-la-licorne",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H264"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-oh-a-la-bouche",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H265"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-3-toques",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H266"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-la-reine",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H267"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "le-poumon-vert-de-chemy",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H268"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "blaak-trend-beauty",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H269"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "viabar-barman-evenementiel-atelier-cocktails-drinks-specialist",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H270"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "aux-delices-d-haubourdin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H271"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "auberge-des-vieilles-poutres",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H272"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-petite-auberge",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H273"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-loge-by-laurent-cauchy",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H274"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-essentiel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H276"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-patisseries-de-lida",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H277"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-tabac-le-saint-claude",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H278"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "dayliss",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H280"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "aux-anges",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H281"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "k-line-moi",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H283"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "trampo-jump-henin-beaumont",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H284"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-vienne-hubert",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H285"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "nicolas-valerie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H286"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "delices-de-faches",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H287"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "christmann-isabelle",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H288"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-de-la-gare",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H289"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-atlas",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H290"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "frituur",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H291"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-de-flore",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H293"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-loossoise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H294"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "frites-corner",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H295"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "tanja",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H296"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-galiote-restaurant-bar",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H297"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "snack-loos",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H298"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-frangines",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H299"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-patio-bar-lounge-terrasse",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H300"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-frite-en-folie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H301"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "dream-fun",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H302"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-la-fille-du-boulanger",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H303"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "salon-coiffure-phalempin-fd-coiffure",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H304"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-renard-et-la-belette",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H305"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "waris-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H306"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "dehors",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H307"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "chez-marcel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H309"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "loos-taminet",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H310"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "buff-land",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H311"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-regis-slomiany",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H312"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-ch-ti-friterie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H313"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-hippodrome-chez-fanny-et-timo",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H314"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-place-des-amis",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H315"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "nathalie-s-coiffure",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H316"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-ch-ti-bar",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H317"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-marseillais-barbier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H318"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "little-funky-kitchen",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H319"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-delices-de-templemars",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H320"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "viva-la-vie-coiffeur-coloriste-expert-phalempin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H321"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-les-crapauds-fous",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H322"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "burger-frites",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H323"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cave-d-hippolyte",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H324"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cantina",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H325"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "association-loisirs-et-culture-alc-phalempin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H326"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "ludi-delice",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H327"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "weembi-simulateur-de-chute-libre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H328"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "coeur-de-ville-noyelles-slens",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H329"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-head-spa-wattignies-lille",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H330"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "atelier-des-toques",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H331"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "beautybarjessica",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H332"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "terrain-de-jeux-de-fretin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H333"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-de-la-serre-mosaic",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H335"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-reinitas",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H336"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-etoilerie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H337"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "frechin-cedric",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H338"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cerise-sur-le-gateau",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H339"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-aux-graines-d-or-ronchin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H341"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "collette-suzy",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H342"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-du-witloof",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H344"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-ateliers-de-claudia",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H345"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-jardins-de-madeleine-d-ici-et-d-ailleurs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H346"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-derby",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H347"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-domaine-des-cigognes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H348"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "wellness-studio-nieppe-salon-de-the",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H350"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-banette-a-fleur-de-ble",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H352"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boucherie-lesage-fils-chemy-particuliers",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H353"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "paradis-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H354"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-brasserie-de-bouvines",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H355"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-delobelle",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H356"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-p-tit-sainghin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H357"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "aquatic-bowling-center",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H358"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-caudrelier-anciennement-au-palet-de-dame",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H359"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "on-a-la-frite",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H360"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-du-pave",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H361"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-noyelloise",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H362"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "centre-culturel-robert-delefosse",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H363"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "square-food",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H364"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-l-ecaille",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H365"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "ch-tite-frite-chez-didier",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H366"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "les-cocottes-de-jean-lou",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H367"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-cassez",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H368"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "van-den-casteele",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H369"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-o19eme",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H370"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-seven",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H372"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-basilic",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H373"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "becot",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H374"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "tout-chaud",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H375"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-semaphore",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H376"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-noyelles-godault",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H377"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-bar-de-l-europe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H378"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-estaminet-de-l-allumette",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H379"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "salle-baron",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H380"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "pae-pae-coffee-shop-brunch",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H381"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "weezpark",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H382"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-casiers-de-la-prevote",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H383"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "destination-cafe-douai",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H384"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "star-food",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H385"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "l-engrenage-brasserie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H386"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-brasserie-le-thelut",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H387"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "snack-salon-de-the-oklm",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H389"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bravas-restaurant",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H390"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "maison-epeautre",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H391"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-des-chefs",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H393"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-marcel",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H394"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "au-vrac",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H395"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-big-ben",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H396"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "moka",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H397"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-feuillette",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H398"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "parc-de-jeux",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H399"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "point-ici-carte-grise-wahagnies-au-ch-ti-bar",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H400"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-leu-pindu",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H401"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "ver-o-cafe",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H402"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "spot-bar-vivant-gourmand",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H403"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "loisirs-animation-detente",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H404"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-norzone",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H405"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "experimental-park-lille",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H406"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "la-taniere-de-la-bete",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H407"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-fournil-des-anges",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H408"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-grill",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H409"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-friterie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H410"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "spot-factory",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H411"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-des-weppes",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H412"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "bouillon-pignol",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H413"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-ferme-dubus",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H414"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-la-noyelle",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H415"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "estaminet-l-ecole",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H416"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-minitalie",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H418"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-maison-de-hala",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H419"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "parc-jean-jaures",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H420"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "service-jeunesse",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H421"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-cabane",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H422"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "fratelli",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H423"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-visconti",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H424"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-fleur-de-houblon-l-estaminet",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H425"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "popote",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H426"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "secrets-sables",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H427"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-faches-thumesnil",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H428"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-medieval-s",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H429"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-desreumaux",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H430"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "la-gazza-ladra",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H431"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-moulin-de-lesquin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H433"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-saint-landelin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H434"
+    },
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "climb-up-lille-lesquin",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H435"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "27-boulevard-salon-de-the",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H436"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "le-passage",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H437"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "croquet-alex",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H438"
+    },
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "o-delices-d-ines",
+      "source_urls": [],
+      "min_confidence": 0.8,
+      "with_ai": true,
+      "with_web_search": true,
+      "source_cell": "H439"
+    }
+  ]
+}

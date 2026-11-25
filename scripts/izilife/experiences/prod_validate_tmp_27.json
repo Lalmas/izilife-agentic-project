@@ -1,0 +1,106 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:38:42.071710",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 27,
+      "title": "City Tour de Lille",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/experiences-incontournables/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "language_string_ids": [
+            "fr",
+            "en",
+            "de",
+            "nl",
+            "es",
+            "it",
+            "zn",
+            "ja",
+            "ru"
+          ],
+          "hobby_string_ids": [
+            "ville",
+            "visiter"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "incontournable",
+                "confidence": 0.95,
+                "evidence": "Les visites de l’Office de Tourisme de Lille sont essentielles pour mieux comprendre la ville."
+              },
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Le chauffeur indique les points d’intérêt tout au long de ce parcours."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Le chauffeur indique les points d’intérêt tout au long de ce parcours."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Le chauffeur indique les points d’intérêt tout au long de ce parcours."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "VisitWeather",
+                "string_id": "ensoleille",
+                "confidence": 0.7,
+                "evidence": "par temps clair, il vous est possible de distinguer facilement les terrils et les monts de Flandres."
+              }
+            ]
+          },
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/12/thumbs/Bus-City-Tour-devant-palais-Rihour-1920x960.jpg",
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 27,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 68,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:38:48.041555"
+}

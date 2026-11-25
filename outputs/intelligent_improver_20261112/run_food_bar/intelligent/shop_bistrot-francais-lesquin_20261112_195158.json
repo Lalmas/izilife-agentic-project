@@ -1,0 +1,658 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:51:58",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "bistrot-francais-lesquin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "bistrot-francais-lesquin",
+    "status": "found",
+    "data": {
+      "id": "5615",
+      "name": "Bistrot Français - Lesquin",
+      "shop_string_id": "bistrot-francais-lesquin",
+      "unique_id": "850b9c5988eed4a04969b2245edeb76a",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Ce restaurant moderne et simple propose des recettes françaises régionales en buffet à volonté.",
+      "ai_description": null,
+      "principal_picture": "54875",
+      "principal_cover": "54875",
+      "qr_code": null,
+      "phone_number": "+33320681302",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "110 Rue Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0950643",
+      "latitude": "50.5820992",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:27:27",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:27:27",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJIbLxeCfUwkcRQB281V6jEc4",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJIbLxeCfUwkcRQB281V6jEc4\",\"rating\":3.9,\"user_rating_count\":2847,\"google_maps_uri\":\"https://maps.google.com/?cid=14848829074125364544\",\"fetched_at\":\"2026-11-12T19:51:46+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très surprise de la qualité des produits fait maison\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T16:31:30+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Virginie Recher\",\"uri\":\"https://www.google.com/maps/contrib/107761565380378462480/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVb7xMbVfCm9rc-46M1mX92iCIN6pxWIbryuFyFXKhteSLWffqmBA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une première ce jour, une agréable et très bonne surprise autant sur l'accueil, le service, la qualité , et la variété des plats frais ! Une adresse que je conseille fortement !\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T12:57:15+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Jean Philippe HALLEZ\",\"uri\":\"https://www.google.com/maps/contrib/116412763176497441482/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKm02OJXIqE_0pH6k5lONcxrwl_stOUgq2Z88hfrDwIk4rhOA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Très pratique, pas d attente, toujours le sourire. Chacun mange ce qu il souhaite et à son rythme. Rapport qualité imbattable. Je recommande pour vos déjeuners du midi.\",\"language_code\":\"\",\"publish_time\":\"2026-11-07T18:12:55+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"THERENCE DESWARTE\",\"uri\":\"https://www.google.com/maps/contrib/101561975446811601476/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUp_6-_5p04oB-C5yrtz75m6ZSQ-nV9qipB91VpP_A6qww82ZPc=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Très bon rapport qualité-prix.\\nPersonnel très sympathique\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T18:18:42+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Sabine Pouchelle\",\"uri\":\"https://www.google.com/maps/contrib/109017333396260269133/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXlCX42G2tIzvYLzwUW8b93ll643nrLW6-baavmnS9CPo8Ck3OcbA=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon moment ce midi le jeune serveur senzo parfait nous a bien guidé et avons un peu échangé dans la mesure du possible sans gêner le service le repas étai excellent viande excellente un petit bémol pour les sanitaires à rafraîchir nous reviendrons avec plaisir\",\"language_code\":\"\",\"publish_time\":\"2026-11-04T17:32:56+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Floflo Gathem\",\"uri\":\"https://www.google.com/maps/contrib/112694664658942434849/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJVGMErLrgEJkymJisfvt-0jPMQ7E-bWlvf3EBgUg9Ugp05AQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:51:46",
+      "google_reviews_place_id": "ChIJIbLxeCfUwkcRQB281V6jEc4",
+      "source_id": 5615,
+      "scope_type": "SHOP",
+      "scope_ref": "bistrot-francais-lesquin",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "bistrot-francais-lesquin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54875",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5615_6af39a4f7efdf.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4676",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32467",
+            "source_hourly_id": "4676",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32468",
+            "source_hourly_id": "4676",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32469",
+            "source_hourly_id": "4676",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32470",
+            "source_hourly_id": "4676",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32471",
+            "source_hourly_id": "4676",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32472",
+            "source_hourly_id": "4676",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32473",
+            "source_hourly_id": "4676",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "bistrot-francais-lesquin",
+      "google_place_id": "ChIJIbLxeCfUwkcRQB281V6jEc4",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:30, 19:00 – 22:30",
+          "mercredi: 12:00 – 14:30, 19:00 – 22:30",
+          "jeudi: 12:00 – 14:30, 19:00 – 22:30",
+          "vendredi: 12:00 – 14:30, 19:00 – 22:30",
+          "samedi: 12:00 – 14:30, 19:00 – 22:30",
+          "dimanche: 12:00 – 14:30, 19:00 – 22:30"
+        ],
+        "photos": [
+          {
+            "width": 1024,
+            "height": 683,
+            "photo_reference": "AV-0GLe1meObXb0B5mvHDEF9BAdM-WfcIQng56sCkxCWoIwLw_N-DnrfLYykVtDb3Ed_5nSQljE9nfP-hYPMPfzTzmMpPXHue6tn8L1lmS_Z73WT_ru7-XdizJgg3JYX-09Gv4nh1IGyTWx6G8L7xITZEpsThIQHu_KF7cTimNaC5yc5czRTdF8FFHVXNj5Nwg4qq7gZfRuu4H9_AeroZfBvN3zu49GAnAWhJCd_rw0KFzXaUcCpsbakKQ6Hnccm2VeF3XCO8MomBFB1gK8yhSt3hj2XR6b0eBMiF7LKCInBai585muop72T4PMSZgia_JOgrkFstvmKH7xP0U-4Sec7w-3wZS0SD8Dg0jrjIqIREn9PLzQDvV8uKgAQIOnY_H6LV3g6md8-mJj1qviAQaJLrEi0HgNA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111621809063881440901\">Bistrot Français - Lesquin</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdVg3iQlhjhMRIcxKZJOtu2GNW7C8zfBKpWTJ6YuVLKXh85vrlQYY7iUKctapaRsMn42WHlCRMSG_xZ_ijfcD5KLKY01l003oxydrJPiREK_jQxSwMprZ_CrMu7zRuTjE54YKcF2Ip0xtbLZFyWleu2ttMJtRQ0RMQdMJGMM48FdO0hhow2fx-_F2ZkjsdV9_rMqhP2lmz6g0mJWWFLSCkNUaZpkpWnCTsuSPO-_-zXi2R3WI2TLBgz-bZCJ6uKV6KOM-z2IinuDNvWTQecCuFwk3bU-hudrF3yItxE_-4-kHkERGEMv5u-o26g3Qq-J9f_R_L_WCH0QKMzaC8YNwjSsesNmnjZ5L6ZPIVv8MhNnm4qwDU7Xp_3sNU1H46NPw18TUV8rysmjItZUjSPDa-HhbSNMjfUZCm2Brziu-sQiw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeHrgfcADSJmjDkuCVkBJ8UWUC4wN5m4tZTCPWysWIOK9y6UJjW0T83d2yQ3xkd9WQCkYO6xkzzuN6fYj3hMab9kOoOJ_BrkO8_TB83ukyUrdvhyPEvfYHhptcTcGZU7_hsM4s1f2v_fbkNWij5Mq8Y31MDSe8tg3k4NpDOsdd2tyvbqjhwaWh2iTIwv7Jscs9vALBrBv1RiXu5rs4qDvLYZRxaDraUZhdOl6BiX55s3RPn3m37_FsO5qaNFzJ2MgpEtLxuDcy7-4ikK_BBRX9DIWIwD8-ZHLD4nZUzgbC2frwd5RBPrJIiAaJ6odWrrok93WCwfHpgCD0KJOrcBtzrNhGaTKYlhrK8UchaHYa7D0bVzTHHs01AE73L82LdhtJI47YuxGf6huYL1V4hjZSDPBLiuNmo1fsC-z-wtf7s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112927642809630576217\">Sylvie Seg</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1960,
+            "photo_reference": "AV-0GLcD1AnU_AnG653W-bmZHZu3QhZYPNtV0Rfb39RWgpjCLuIrJveuv9zs_30A_rTv2kLCa9PVWEmJ7rSoUomp5vmpBehivJDMYJrpW_z9R3ob1C-JmGSRN6lCCkoywaU6qhwuumMjDRE3mXvoltv-5mnJti5Bha5t1vPfi9woZ76GBmU-m7JO_P46TCSzEIR2CGg-3Jx9EPnoLrIcnH6wXE804MjIRnstANyZ1eNxs_c4Gpe7Xt7_yr6G0LB5ETWV2jQRlkiLMrZG6BtjTct1uU_s5LoxSEWk8e26nPejE2Cqsj2WhKW0PwZ0N1V8dG_4Q8fjuhpSrVKwrqdXRGbZz4XZB4Fi0DMOnZbLzKeI45UTzY38ImlUYFgNmNjhZ6euFSPkhAd8rU0uptMQRh88lIKbkro",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116311863821121141486\">Michel SCHUH-JOCQUEL (PaPyMiMyDeOuf)</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfQDcTxvzfCFiJVl_FVFkPeWsCEunJaGsO4S1z0iWxTkwta2cOFuCGIxGk5lepjF-30V063eNp61mULBzTuaMmogJ14hab39UZsQexYLpKMsSoY0YnsKoDq52R4agq8c6ANMv7_MfHiDLc6GOn9Z7kjHwKhFAvZXex3m4_U4s2wnBsP90NnvAp3PCKZ7TImwxegRdFrT2a3iLdz2mOm6_uyTl7bDopu2cZ9Uo03kAfdupVqJDS2yLQVSiINkPWPXvZu9OcHbinJpM4It2jceMuOpfF_MfRbfn7ztzZUpj5jcx0gFrOevj00ANcOoITBsZBfJDQfVD8NphOtm_atB2d6cDXurhkjQWQLK68kev9Bn9znnqZC1urWBiOMZhNooklivqHFI6eY1NaBDaIb-94V2nvx3jYbg5hemb1BD4SSNQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110635272715887231808\">Mireille M</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd4mKc6Js_sWZFIOAvB7tj8xeXWWXkPQ-6ZZvX3tTlQFNN6CSBBLp9rgbgJcgoMvjuFfmKxUAmLwLyfjzjZtPI1DK3uQTjwCG0n7Yc1BIZ4R1IkgXuR6cEQm4DzYPO7lu5pa4vS8Qk94rBfg9U-rElNP3UzM0i_XZhXHoMn5Ax-vdDWk4MfuGoLfu6KQeS-dj9kHrIlZH36ikwaiLbtSZY7_JfyYexNHEGKV46rqSpqnW_1HUekIrOukF-0weFCiIPtNLOTkZ2jlmfGFJtfv2I6Ntd3_6yf7D9y0l_UaZLtp2winly67EPjlLWHzEBO4nF_TlgBLa-Q5nVqBqTt-PS0SNmv8yTctrO4jk_5o0jk8P0SUawUIDEyEQjr54hIAOMcOtf6iYsjBB0GfdRgh1bDKOAoVH2NlePAF55bGEu9",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112927642809630576217\">Sylvie Seg</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfEr1auqiycTs68yhhe9dBG0yXgXbo13Sy1uGqEKOn4ue99nww7Lp5e8EtXs1gjuqhPiW5naf9rZg6bcadLImkiYYZs__2-HtnN58qeU4ZIh8Eww5StOPbZ6wfCU-4IWH0oImT9JuwTT73murVkSYfk7RFUg3Tkyfubzu7WYjlDVDISQJjQYmEGq4TQFspTnXhz4G2ASERlHCbbIPWmAHCtShTHOS5IQL9VZkD9MhjRrlEKlE5-2tXEBYm1MKPLi7XVEIaoFXht1bNVzHwO1-QsyaySnUg2v60H0mKoz3oPAIPSQ1LQZqVxZ0SQwbvtCJz5nlV1z-aLOwWAl4bIbRAbzfK-QUkbbeAak53X_m7EKFdgSAsv70EeyemT1LNs8oUy8hWboPZ5QxqRHZKprkdWfqFeCfbZ506qTlpMFEDB1A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102885592335921004102\">Gregory Houzé</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcAmr5zJ3geRvmQOPuz1QrBzQqL5wwJjdhZ8owJIrJSD9_trTVuQJHeuTVMf81-2X3dNsNNefPSGjjXK0kdB6nBLuUBuMMpYr5uSOgFiVgEpwbBu7RCFZTVQwfbFLRASE3kOnCZoVRuqNENusMO45aRPMJfoBuROhpxQ2obIOSPn4Q4SAT2FBc4yrYBtkF8jjdbP5oCi0GCCgqKg0-2rAJOB7KEeIcsznGeXIzDYF9gecT8HA5DlcH7rMaoxQlCBWEhd1ouLJheJv4yV7ZJ7RDNBv0K40y52JDRMcZhBFUriD29N4p6Y1JlwKs5LeY_K3uDvqLGULZdSbsc8rjCBHdRKj5ub1nzTz9LdUAyQuUn4M_0GQU_2POPDu8IgVvGiyhm-FUV70EwBzC-pw8qlxe6aYaBT3j0z0zoHcI33q14Lg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLd23idGDjakS23s7qTiMLO4C9DFxSuLcFnQoySUc63QbjaXMuRDlGy78JjtS0IAcKkp3hE3ZTgfxWP1KfKMKp9xjw3OAceSuiCSQ5DTUv3CjPy-ZIlbJdXuGWtcu3bLYh-nu2gCyI5Lhm_3hC9bmhoIfm3BCSTM8_HQI1AFbmDdzchhGekzYxMn5pKZMrti3WYNAVPuR1Bf1X-ERITb_q5AeIOu58pNClk0sjnyzZt8nRCQwZePrM2KPgN5EqsUYx_miPMcSN-a2lnr4YdWa8UQt3Lc7m81CVovA7NKoYE3Dx_PLdrQvhs5tnyWab9Dq3NjvFkKDGFn7BrSH2xwSw6yQrD9HfqFZSELqPsqiqKVNWXrijx_KonHMfODmdtc8wS1LPkxy-Ob67xv788gD0KCckM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105045184590124004961\">Francis Aliagas</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLePks1E2nJQ5Iv1xfFaOIQNBafNeZ8ch3hwPKl_LBW8lDKamQX8IUkVSuXTpheRNrvdg-p5VX5vSU0RM0yuub89joC39yO2MhK9BSk8WtkbpVzEUhJzw2jJWQ0RB7rTNxGFEsshwVMg1D63MMzPNeJoupTf_fCvX154wz6XiQdbsg8NTaA8QSwgx19LigDV5WEhvgixlN2ndfqMmc9kNkMHBPPfZK8SgPGNk3ES2iJrqHMZxRHuxQ71yUekulvNTmxsXpj8_PovCP8QGEdvDJcJ89mM1Dy67crRT83Ka9DoDn9DCojuq-MK5k0I6KiegDqmmxUbIqc2bKtY_BegTDCSmWQ-SXQy1vtXwWsxhmM_9eaqsY3Sru7I4weZ0SkRD1AD0IWix6ul93aliHuW2p7sei0P0fRVbyS6AIVhSgihzg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115108320967111003677\">Francesco</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5615
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très surprise de la qualité des produits fait maison",
+            "language_code": "",
+            "publish_time": "2026-11-09T16:31:30+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Virginie Recher",
+              "uri": "https://www.google.com/maps/contrib/107761565380378462480/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVb7xMbVfCm9rc-46M1mX92iCIN6pxWIbryuFyFXKhteSLWffqmBA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une première ce jour, une agréable et très bonne surprise autant sur l'accueil, le service, la qualité , et la variété des plats frais ! Une adresse que je conseille fortement !",
+            "language_code": "",
+            "publish_time": "2026-11-08T12:57:15+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Jean Philippe HALLEZ",
+              "uri": "https://www.google.com/maps/contrib/116412763176497441482/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKm02OJXIqE_0pH6k5lONcxrwl_stOUgq2Z88hfrDwIk4rhOA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Très pratique, pas d attente, toujours le sourire. Chacun mange ce qu il souhaite et à son rythme. Rapport qualité imbattable. Je recommande pour vos déjeuners du midi.",
+            "language_code": "",
+            "publish_time": "2026-11-07T18:12:55+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "THERENCE DESWARTE",
+              "uri": "https://www.google.com/maps/contrib/101561975446811601476/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUp_6-_5p04oB-C5yrtz75m6ZSQ-nV9qipB91VpP_A6qww82ZPc=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Très bon rapport qualité-prix.\nPersonnel très sympathique",
+            "language_code": "",
+            "publish_time": "2026-11-05T18:18:42+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Sabine Pouchelle",
+              "uri": "https://www.google.com/maps/contrib/109017333396260269133/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXlCX42G2tIzvYLzwUW8b93ll643nrLW6-baavmnS9CPo8Ck3OcbA=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon moment ce midi le jeune serveur senzo parfait nous a bien guidé et avons un peu échangé dans la mesure du possible sans gêner le service le repas étai excellent viande excellente un petit bémol pour les sanitaires à rafraîchir nous reviendrons avec plaisir",
+            "language_code": "",
+            "publish_time": "2026-11-04T17:32:56+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Floflo Gathem",
+              "uri": "https://www.google.com/maps/contrib/112694664658942434849/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJVGMErLrgEJkymJisfvt-0jPMQ7E-bWlvf3EBgUg9Ugp05AQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 3.9,
+        "user_rating_count": 2847
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1154,
+        "bo": 116,
+        "front": 1038,
+        "estimated_cost_eur": 3.8499999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Très pratique, pas d attente »"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Je recommande pour vos déjeuners du midi. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "moderne",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Ce restaurant moderne et simple »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vos déjeuners du midi »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« recettes françaises régionales »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« vos déjeuners du midi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Ce restaurant […] propose […] un buffet à volonté. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Ce restaurant […] propose […] un buffet à volonté. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 22:30 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : « 19:00 – 22:30 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant moderne proposant un buffet à volonté de recettes françaises régionales, avec service jugé pratique et sans attente."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "bistrot-francais-lesquin",
+    "operation": "ADD",
+    "tags": [
+      "service-rapide",
+      "bon-pour-dejeuner-rapide"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Atmosphere": [
+        "moderne"
+      ],
+      "MealType": [
+        "dejeuner"
+      ],
+      "DishOrigin": [
+        "francaise"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5615,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopDishOrigin:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "45f092cf7487c41dd0b57274f909964ab6f3ad175114b34f1cf4c5eed1da8e8b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

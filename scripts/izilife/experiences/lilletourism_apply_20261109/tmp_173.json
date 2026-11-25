@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:53:22.096384",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 173,
+      "title": "L’ENSAIT, un joyau caché",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lensait-un-joyau-cache.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 173,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 200,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:53:22.526171"
+}

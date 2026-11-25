@@ -1,0 +1,49 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : bar"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : bar"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 16:00–23:00 tous les jours"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 16:00–23:00 tous les jours"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information vérifiable sur le menu, les options alimentaires, la consommation sur place ou à emporter, l’accessibilité, les équipements, la musique, les activités, les publics, les moyens de paiement ou les modalités de commande."
+    ],
+    "summary": "Bar présenté comme « vivant & gourmand », ouvert tous les jours de 16 h à 23 h. Les détails sur l’offre et les services ne sont pas documentés."
+  },
+  "meta": {
+    "cache_key": "554d9875ea8a7e7826cda23df5f693f9b719d51cc70ab30c3fc448fbc154242a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,609 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:25:15",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-franjo",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "pizza-franjo",
+    "status": "found",
+    "data": {
+      "id": "5728",
+      "name": "Pizza Franjo",
+      "shop_string_id": "pizza-franjo",
+      "unique_id": "0cd9afe965191c0b782dc15989d590cb",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "41",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54986",
+      "principal_cover": "54986",
+      "qr_code": null,
+      "phone_number": "+33320953327",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Rue du Maréchal Leclerc",
+      "additional_address": null,
+      "zip_code": "59175",
+      "city_id": "83",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0524284",
+      "latitude": "50.5788942",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:40:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:40:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJT8f1uF3UwkcR2x-X6-iPwK4",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJT8f1uF3UwkcR2x-X6-iPwK4\",\"rating\":4.6,\"user_rating_count\":160,\"google_maps_uri\":\"https://maps.google.com/?cid=12592222788675641307\",\"fetched_at\":\"2026-11-12T19:25:05+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-27T12:54:23+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Albert Bouffange\",\"uri\":\"https://www.google.com/maps/contrib/107631422348851221217/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLpMe374pOg-r8YQQTTC6Igbrck5UAXFXQ2ODdDIDRVN4hVTg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Très bonne accueil\",\"language_code\":\"\",\"publish_time\":\"2026-08-20T19:27:15+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"PATRICIA BACQUET\",\"uri\":\"https://www.google.com/maps/contrib/100351659060584323306/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ6ZiStI9M20TOQIwjY6qO0rLp_rtj4wmQDy1ukN65tJKO1ew=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"C etait un simple arrêt\",\"language_code\":\"\",\"publish_time\":\"2026-08-09T07:32:41+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"N. A. G.\",\"uri\":\"https://www.google.com/maps/contrib/113981370951826847252/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKXqdWY4ZVXHF3m6gS6WAFIa9YvXijAlBtyHlJSow0MF43IO3wY=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une première pour nous ce soir, 3 pizzas commandées, 3 pizzas incroyables ! Elles sont garnies en totalité et les ingrédients sont de qualité !\\nLa prise de commande par téléphone et rapide et le délai et court.\\nL’accueil est également parfait, nous y reviendrons sans aucun doute !\",\"language_code\":\"\",\"publish_time\":\"2026-05-31T20:20:22+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"The MSkud\",\"uri\":\"https://www.google.com/maps/contrib/116955996732600909838/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVtC2GjObDKDwniF-wHWMg1GbsTiRtzsoykOvTIlW7HVdWO3-ud=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-02-28T09:00:24+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"Lucas Sediri\",\"uri\":\"https://www.google.com/maps/contrib/117046207540614612410/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXFZwLkZKpF-P90t7p5WayzMvpLGmeNV2m3AYGv24_FeLUyiWTSkQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:25:05",
+      "google_reviews_place_id": "ChIJT8f1uF3UwkcR2x-X6-iPwK4",
+      "source_id": 5728,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-franjo",
+      "primary_category_ref": "pizzeria",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templemars",
+      "string_id": "pizza-franjo"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54986",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5728_6af39d6e21ca8.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4787",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33244",
+            "source_hourly_id": "4787",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33245",
+            "source_hourly_id": "4787",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33246",
+            "source_hourly_id": "4787",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33247",
+            "source_hourly_id": "4787",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33248",
+            "source_hourly_id": "4787",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33249",
+            "source_hourly_id": "4787",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33250",
+            "source_hourly_id": "4787",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-franjo",
+      "google_place_id": "ChIJT8f1uF3UwkcR2x-X6-iPwK4",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 18:30 – 21:30",
+          "mardi: 18:30 – 21:30",
+          "mercredi: 18:30 – 21:30",
+          "jeudi: 18:30 – 21:30",
+          "vendredi: 18:30 – 21:30",
+          "samedi: 18:30 – 21:30",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 640,
+            "height": 480,
+            "photo_reference": "AV-0GLfkeYnGrP86WH5gtp-GwKCUXEFhL97ZRKK53o6sIKQ8caGKIjb6es9pdy3AaVYvKscs7uuzBl2G7Nowhkxxh69uEuqW6H5MciuWH2NsIN4wHMkQYjeWHAydt-iBqLcrKtwCHhQnFoD4ahYNIX1FLSZwfS5HONSfyEM3Ry1-shEQewr6godKEqA72ausKKfnVlMv-dKWujbLg0Y6Kg6_rMNTtulJBI0X7xHRjHykeSJ5W0uqdZ5uJFrqwjPdpu3JsLybJViDsxCaj3RsuSvISLDEJliLN4ZhsQBj-cBdtGkhkRe-BiRR2i4Q28XyUmEbUPBBdamumfQoHn8nr_CLzi53Hrl9jJemeo-5_nSlTb_jpWHdN-bqWI03MyuZDXVHYdPe8f-YQukvE64OGkrqiiODR5Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLeeaakVGxKpSyeSqAwM4j2vCKkJ3KHmQPBsny4Jlo94YihjZ09JtRx5ljwY19yUyKarnjo8rRCFesXRrlm7UBIJ2IQXdkteULvcu4muM5xLNVcwr4lScbumK5THgPP2J76Gn9SmX2VVYNxdWRFrj2kpdzdTvD_Adt5DNUw8jaIInBJ2DLGI8fvtRYo7dcihe1g9tO8OcKwdHqQ-ND_7NNPkpEJJgwJs96i8ezAWKc8gr_YOweE9GisDttfAo5cwKHQ7e2VKkllLLxKP-zuedUS_cBOTq1OMsmie1JtpC4I1Bd-hJgsJ8YOpTXIIMJ3tJ-1-A_N-kUyvrphhX_mDT6KNBs6fQnfCad_ofAXcPqQJCovIBwDwEJPlP7P4g60LZXRXRZ7jGRjnk2IRdTgyzF7aM-c",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLfcpCgJUNjGJlMFHaNKkxaMxXQ5Bh3KbRrYkmW1DW4KNP8vt_NhebOg2JxkZi0C9GvctRWOPMymZ5plzIVY3ybWAzGv81MkpmWAQl7-SeL3RECWlP5St3uxgnEN8NkNTeCSzMotVsNjXOzZF9jU81zfZvW6yslCc2u8g46PQJ3qLux2JZpg9oJRMTVrxaTYGF8n_PnKNsJiynE58auTNcUxi2XqIQ-IgUoXsfpiMlJVc4ppI9Br78gumQmWAhBYGc8Ko2o9-2zMZ-vr7oBrLgad6_Y_UxiTLFZB59L68Qr_dnoSnvGb8MN3-Tkp1YEIaLEIaMYHjvsauDu-JsVDnMMEiWYYQJ_tpC1MGjeJ_umzWMUHoCdK_coYcPrOIx3wr-lEvh_6kTG1AuD3CYwMkwd7XS7fFOI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115341544038180616974\">ANZHELA HARUTYUNYAN</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdORyqsipfqIgQT4v7d5cVtquKLiQO_Ynm5zaz_kLxm4YPP35iy-nYNFFvrh4NyzbY1nX1FlAeU0vmAFMANbFAt9SPo0b3BhkgStyPSmIfszCJhfxIvWtKTzINlFkDwNXTt9PztW_-WVeGrwIqBeKlBSiKpiQud_JnqHjzqD280TRwjQKNfBDTCq87HFKka-fVdJArsJ3wW4WgOr43emnzVLNZldUUWnC4F4Ng_Q4JzazyCDnkzmiNDwXZI-uwMsliASC-LgwI4up7dSjyaLoCl7lbw0RMmZaysmyY8tJQs6SYC8lsUFm07jh5pampIOHJMZYJ4LHXrzRUJI2OX_9X-3gzeV1Emu6kVG1Fl73s0vNSmrgxvf05V8JscHG1ztnI86sOYrvf0Uq-AfxQBFchnliFn",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 640,
+            "height": 480,
+            "photo_reference": "AV-0GLdV_C_D-3G2lRjNMGh0kl_ORMTsDLqhUmMYk7uSa-__TTjXvLhZjYSWo5cKNo4ZX-Yk-V0OLlTLINf4S7CxBws_4JigMYxDtASl3YAoIiIgzrHhiUhwmO18Kv2P1Sdwzo8bV5M1QZ8W_rWAn273KYqkCKFC1xwCDfjJNuISX4DNU9x1X7LKnHrapVwF8FPpiPZzkevKtFW2A_V2txo7ANvgoap3CNIkZCI25b1u2FEhpZX_J48U-9u7Odd6gmBeOX1KLSqG7sNkj4gnpIFlQe1EG1y1ae80J4DtZoJ8UE7DGzDMLeFTYDq4u1DE5eMP8SWc0y3hvAjJQGIfF3ghUxF8S3ydAtOyhUgvBGkKU9G9_acvzrVUQgWEm3EJzFGNrbM7w-w011pk7NutDAdmr7axP6hNkqk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLe3huIgUdsFzJ7XK5LEFRkaoFy4rjhvWVBYcGAfDPsHfMZup8iEu13hpFy0f1JRph8NVQ1ns3avklviDt4-8wSZm5ZruSZpFdNGC4HUbnPtY0Kw1q0Bi5pxmeO7_NIQugUHjEpBivi80r0nm4t79KP88W50r6tURKzezgb6VDXskvF83Pal4A8sWG6iSxFdWUcdcMOHkSTnn7jptSWCwZ535kE-YNGdMNignm382UUiuLr1R6zV6CMxoyU0gET8-hXUZnyeYo1UN9ww_c_f5jrhCuFEZ1Cs_8LNd8cnVICP0OWZ9sendTyHyeQ_ogUHFozvTmCEyBbTqT1wbroPTAu33nNeMONPnAfYNG7xhvIKXnrTu2_LG-oOirNA5d9w0gSdoLxoVJWuXqQnetMAzq-zng",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLeiqr05GOT3nG2IfSR9uGLQgSBe3pNCxJjhX5HiH67WnEv7FYex36hzo6_FCI3QhBKuCrNJFjRh3ZFX6sWnzigqumvJxR0YgY-lRL17byy1evYECkRvk8U8lNuRmQ-cv7SHhsGkGKbbGZGUE0ClXolkGxKyPO_-wWerx8Gqer3xBGZXFr8V1cehBZyPNBDx_6tmJaT2Dzp_WYtuT81WwQwgd6NL8rcQ3GocdrtFUQjZz-abT5S_x_fJ-irkJsoPPktCUiY-Nf03NGtB0dhRCkDg5770aFe1rAiQCh-QsFDmpyyUfA8qfWX5DhXyHMxmMj2W7mazw0iAJdSRDplMMppL8BUnktmHr792XbvlB2zGQPBjtVu45aVDJhnaAJf5drhysf-omS4sYc35OMXRPA5uxAsGXbk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 2634,
+            "height": 2011,
+            "photo_reference": "AV-0GLcAVXCgyHGNycfQVqNdxbXuNYGLE_QVq9PO_cRfyQn9f3bQDUlwCLUivmIo1jODfB5XUhdqK4noYeDG-oZvRZ49G3Tiy-zPZPh8uphhko9pTjIiXp4LLITEa2ZFvAD7ajvhvfFxZoNQWY0ijRdOc46D7D5RLLUngN4u4V3SgeFWKjA6uYcjDt6J5xTBkuUvg5kUxHaafa_WS8nea_MCGLjhWzP8idiGIFsKgG9l6ircXYrYPpJmBLHKm4Pzs9O4sGVtdkxvzPszHb_keECKnmp1814KMBa3mAaV3MXxzCky41oX3Yvk26x1ghH19arwSFv07Gw45pjHerAPY_tipVNY2Jg9WSxr4lF7Ou_sV3eRDw7qrhx-VqFsehHgEB6O1FqNcjTXq97YztRKMnbFIQ8GS1AALj8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLfRG57kWzZs6Lm44LYG-ocSlZ0d4R5JMi89NgYkSeXw5fvmMQNWJRfoKs6XeCYi4tPOjlV6weF3w4S5mx1FEj1unWQfQ94EZWcJ6mQfwzYzuOWQq7rLPZkJ7kMHu6EKJgncpUY4Q90KzLELKTHj4pi7FplJPNTrrA-7wrJPHmARR7J7tfz6PZ3CPluEk2g84yDEmSsF7ymiqhJKJRYHx4XL48KlnMTMzzbTdCQAxMEiKAIngFU6W3piUzzR1WJiYp8HCY3S5wSCfSnKbshsgVNJfwOaTzLUSzFQOeS6S0Of9qBTjlmbIVu5fx77IZ9kb8GopHJ6URQkagPQpmLWnaMDUM1ZHb6ZnNBLc1Swg8bJaQKPelN6sjM6hzOO6MRLh8WsOLvid46-kDpQ-sMPCXdLpw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104041681359130551155\">Pizza Franjo</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLenPocPM7HqvL84EHG4dFQsBlVaKGJA10mrpJmrFmOpBYQkBlYVL4_XGJXCzmTpxMHYUxXEkdMsyC9mH0JBQ6QlSWsN2vg8IlNqSt3qLhewn0CZLCIUlZ-9hycG2S_yj_IOL_fTY4d6z55LTg9puHDkPkNsrZgqmLgvXlSySmi0_tRuCBBavmepwUJElT00yYOAsH7uxiWC1wByEZ_eauyWCzE2nNmB6N5gtB992_m-98pzTCT3OHyWVn9Q_pu5DDVYQKv2m5W7TGP-BDVxmth7IiYUsGTEY4yCNpvtHZwY8XyjH9pic_mgA9wfw8Qfk2AKvrrLlfNpt3tAVCSOy6OB0S05DFIom1KcW1MQfHD0oDP_yYiJxD7ztP87WAaeWkodtgXd27HMv0n9KzSIBaLlHw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105497553577155489276\">Aura SeHe</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5728
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-27T12:54:23+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Albert Bouffange",
+              "uri": "https://www.google.com/maps/contrib/107631422348851221217/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLpMe374pOg-r8YQQTTC6Igbrck5UAXFXQ2ODdDIDRVN4hVTg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Très bonne accueil",
+            "language_code": "",
+            "publish_time": "2026-08-20T19:27:15+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "PATRICIA BACQUET",
+              "uri": "https://www.google.com/maps/contrib/100351659060584323306/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ6ZiStI9M20TOQIwjY6qO0rLp_rtj4wmQDy1ukN65tJKO1ew=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "C etait un simple arrêt",
+            "language_code": "",
+            "publish_time": "2026-08-09T07:32:41+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "N. A. G.",
+              "uri": "https://www.google.com/maps/contrib/113981370951826847252/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKXqdWY4ZVXHF3m6gS6WAFIa9YvXijAlBtyHlJSow0MF43IO3wY=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une première pour nous ce soir, 3 pizzas commandées, 3 pizzas incroyables ! Elles sont garnies en totalité et les ingrédients sont de qualité !\nLa prise de commande par téléphone et rapide et le délai et court.\nL’accueil est également parfait, nous y reviendrons sans aucun doute !",
+            "language_code": "",
+            "publish_time": "2026-05-31T20:20:22+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "The MSkud",
+              "uri": "https://www.google.com/maps/contrib/116955996732600909838/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVtC2GjObDKDwniF-wHWMg1GbsTiRtzsoykOvTIlW7HVdWO3-ud=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-02-28T09:00:24+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "Lucas Sediri",
+              "uri": "https://www.google.com/maps/contrib/117046207540614612410/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXFZwLkZKpF-P90t7p5WayzMvpLGmeNV2m3AYGv24_FeLUyiWTSkQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 160
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1070,
+        "bo": 32,
+        "front": 1038,
+        "estimated_cost_eur": 1.75
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« 3 pizzas commandées »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "telephone",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« La prise de commande par téléphone »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas si la consommation sur place ou la vente à emporter sont proposées.",
+      "Aucune information explicite sur l’accessibilité, les équipements, les moyens de paiement ou les publics accueillis."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "service-rapide",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« La prise de commande par téléphone [est] rapide et le délai est court. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués chaque jour de 18:30 à 21:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués chaque jour de 18:30 à 21:30."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Pizzeria ouverte le soir tous les jours. Les avis mentionnent des pizzas garnies, des ingrédients de qualité et une commande par téléphone rapide."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-franjo",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "pizza"
+      ],
+      "OrderMethod": [
+        "telephone"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5728,
+    "changed": [
+      "ShopKnowedMeal:+",
+      "ShopOrderMethod:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "05c62fa8f3443a8f2f523b5f9134301bdefd60ed9e109654c272a4449f4079da",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

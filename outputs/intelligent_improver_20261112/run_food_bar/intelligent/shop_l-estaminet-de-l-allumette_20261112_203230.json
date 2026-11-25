@@ -1,0 +1,525 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:30",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-estaminet-de-l-allumette",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-estaminet-de-l-allumette",
+    "status": "found",
+    "data": {
+      "id": "5855",
+      "name": "L'estaminet de l'allumette",
+      "shop_string_id": "l-estaminet-de-l-allumette",
+      "unique_id": "ccc8bf70c40bb1e93c49449da46e85a6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55109",
+      "principal_cover": "55109",
+      "qr_code": null,
+      "phone_number": "+33320649164",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "515 Rue Félix Dehau",
+      "additional_address": null,
+      "zip_code": "59830",
+      "city_id": "18",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1888501",
+      "latitude": "50.5783237",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:00:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:00:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJq6r68GHXwkcRE-2o4eXAYog",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5855,
+      "scope_type": "SHOP",
+      "scope_ref": "l-estaminet-de-l-allumette",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "bouvines",
+      "string_id": "l-estaminet-de-l-allumette"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55109",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5855_6af3a21e453ab.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4910",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34105",
+            "source_hourly_id": "4910",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34106",
+            "source_hourly_id": "4910",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34107",
+            "source_hourly_id": "4910",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34108",
+            "source_hourly_id": "4910",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34109",
+            "source_hourly_id": "4910",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34110",
+            "source_hourly_id": "4910",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34111",
+            "source_hourly_id": "4910",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-estaminet-de-l-allumette",
+      "google_place_id": "ChIJq6r68GHXwkcRE-2o4eXAYog",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 22:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: 12:00 – 14:30"
+        ],
+        "photos": [
+          {
+            "width": 780,
+            "height": 660,
+            "photo_reference": "AV-0GLdXkQrvmxG1082WeDiAvXq_Lse8wQ0_HEPWLxb-uT-_DMlMtbaxfe27YhQ2eT75-9voLSLFnEbfSRDdL0lu-2a91lz8J7HubOf2DGrW4Zw_uqVvYJsHPidxDD55xbfcHhb7uSNffxHACqVzzwl9XBrqDYOMJmM8OBGCdvBskR-bIGlXENmcymwJOcLvcL-y55IpaDiPOWJRdeT6dfC_OQBm3yWPGldhdihnQNIXFqYTLQlfLELotL7rFMQ6oOuNryzyeLqAs8h3i8jYyFzY1B0l8XQDym854j4VZyTNHeHaOH6JBOLsRLMOmMon8R4EkEFebOLPoL1nK6d1V9625GoLtZWcOc0oZrlPsWdAApXpfk1HEaDl9FpG7QCkFUxXa_Oh2aEB8XNbpYOnc9AueYdULrNy",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101799917341561796842\">L&#39;estaminet de l&#39;allumette</a>"
+            ]
+          },
+          {
+            "width": 1179,
+            "height": 1562,
+            "photo_reference": "AV-0GLeKem3jtKxjT-gdO_nSU7BfRatkWfxng8mSWX78pjB4EE48aXOK7M4siQbYYIOk04u9kvmCq7v0OHo672pVnxw6ikCfKyLRt5eTuvmNjW_Sb5rfj4l2wt5HWYa7R_Awm4fSGCsyet9klBAuZGEz7rqK6cA3IKYZpEgF0L-hSPd4VRtBIOxdkTcZG36eDSOowpLCxh4fl6GQaokMrh6Lr1wZGK_rCabSIBTIcswjpOPga1EhVZ2GMg0Jav4bXg_GRoWdba26EJJgec7RdIu3qXWpAn3-pyWxsDE7qTnUYC4MXMarZxlvOJwyyNJCx5ttfe9VIXK8ZWl_iPKGeNNMfUkF-8wuh1vjYbH-hXd2G0R7_V8QDngWpZOngXyVyJ5uUuRST8_5dD0OdjxKRV-8YcnjjEQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101799917341561796842\">L&#39;estaminet de l&#39;allumette</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfsujRkFTwa22yz8ZMZ18zspdf97NfdGi52jhfpRIBfs_wpC3Xg7nCyYWzj2C9jHZ8tVKD3B-5uyC6sid70wmr5JmrCEZSunKI9pojnuuLUfZ3sHS5wDMKBHpNQKYSLueZaP-70W4tKdi4yhVfRbBGuNU1piSEDzIY4QZZDZ-cE_ZwN7aJqcktOop-mT_2Gc_HBX-l9O9E5cAAPM-ILTEVFKoWi2LMis-iA-q8OFC8GDl94DgnyKYkFNZuFDhHRGxo6itW9poo0-Q_ayzD1LbqHlJ26kMLFZVACxd7dQXNy0KiuBRgSsecc_SfvtDmUlblgLzgb4SATe8nEvuhbqwLtGwt48qerz_PV7kfZIGzmfHE0OPxvTzEKRuLSGus9n_k4V41TeI80EkEzylJ5QrEy0KhAxxFMJYuZRenWxlIS7g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110846064925836083639\">jeremy Tbt</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdzsgEZCCDYrr-vSrDLNCgD7maITRuPyLSjiFX1S4zTuTYZxwjRsGnAPwGCUbRbXU_YC-9-HMrIkd0y7gJtwM4jLqAe2YBzTODZAnNyy-nVCPygcfquVYHwHBqSvC-FIoDKiVyZZtbvxe4AzOuab-k4la0TwAgGyamCuJcmVBoL8kqfxcCVgRTKsGzcqf5VEmZu6dm0EERhdanrDwFMO-zMNF-9tbNrLwhtgA17fHJJl6bWDIFJOjsb6xG-py0F456ikVTKRCMNkUoy8pVsuZdg1Eh_feDV4gkn2R0c3X8LgqOG-pUlAeC-3RCcmmWVm-cEgmq4gKgJQ_GkK2XEu5jG1e2BShEf0JYcl0aA32tANQ0m9moCyu_NhCRSK5iv0yBor1tDV8n-08lpxKwL9Fhe-Ov7npsQtw6wJDgfGGHALA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103849590252029271783\">Nathalie Crepieux</a>"
+            ]
+          },
+          {
+            "width": 1991,
+            "height": 1224,
+            "photo_reference": "AV-0GLcAFdM6LewEIi6iSjWJjktO0herPAgsWNUY4YV5xe5ptfNqce1oWRjPG42m7klUefFDdsNOyXsaF0oipMgJsOIqi8G2ruszlR_FJy33vu2b1Ww8dhRWlfR_uEpzpTimJPry61o7YElxmbzV7dIQ43iWfmidDag1-ixyFv9AWuhaeqKJTa2ynBxjoRRcWAG71NMVlfntLCTyhYFWN2OQzg6iE5aXq8MP9aVzJH1faoGk1l4dn58cBnUJ9eYtDHHwluDK4Q0TFxSnITL0VBzewLa8LvlqQqIznEoJlrNlLC83NmT-JRGPne60pyTIlCFdYGkiQIM6T5bi5fZQ2hqotiLeM_GkOWSr6w3kpCESQB6FUsfikAU-2SkyAvrVZPV6Xp33_BjAmfVHjhEntgYOgNC8gYIWJt69aybj-EtUesIY0A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101587120684010140360\">Jm V</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfRUu5nLwMmSfK0bA1FRtnXtInLBg65A2lKaMheYmW8vjcFrdvMfnmAOhiAR_0Rx3E0t6_ag0cIme4CAoxJLi9tyNj4VAqMmIe6uJcIygX08GOAKN3e0gfJW6OEcu2sG0T1L52hVXnnIEr6_8zqdoZhYvDSK9LRt2HeAZjw7cbi8KNfE-nd5biVaqOuO3GlXYPNMvqghQlKNHfDTYntU4-b73ynkqLiHlUIkFktiUE2NvsFmROee9YAmLt_ldyYpza51ikxYUCgNZKXhocQnCTou9YpmqQgzD-ZXje4cQ6D4UBiB2W4V7g80asTxjDcDTWRasNfAw1prSrCFZvl5uz1ERyEaimhM5k3eBu5hQU9K5BE0VwaPHO9MuyJWHHZylowjV-BscnpE5G_WkMe4ETb-2Jt6rChERSqmSZNnspQJw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108291962991688070037\">Nathalie Dubus</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2216,
+            "photo_reference": "AV-0GLcxWBSwJP1bm25rj3lXBstnlS4HsSdL3alFJkYh5QRNtnGPby1ySLHx-vsO830sMwXQxuoq5DyGxecgmNeWQRcya4Uwshdcu4Z2z_BWja1lloG-hUUHZVTNXyYL5xzfx9GvkAD-gPxhAyFsfOdQCDVP7CV-dWKDpan8uD7djGKXEJSCeIGs9cNCrcbPcNqgcds3UCYgkl7_6d3X2Y9deqjR3YQMAmEQ2RxbzuHrakHsOhWDS_CODKybGkPy4AB5U888SiDsu0cuP-dYELzOmSZLIBFdL4uHWSsYK_MAz_HUaYbEYYsS7K1vMbI3lnjtoklrFwIgVZqGc2SkXDDHMKkAnjmjAKxZWAAW206lBaOPSx7b0ST8jIDtpbyHuXHWc28C3TrHWzKbka6t9pj3hIxJ4QJmGLpewNsCX6Wk0tn4og",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110491096504231323520\">Emmanuel Dubrocq</a>"
+            ]
+          },
+          {
+            "width": 1800,
+            "height": 4000,
+            "photo_reference": "AV-0GLdTO8qDAOuDQtEhmbQljGWbJqKUSXFj6ApE8cET_9SofG-bzrd0Wbv2Zbys9CKwTaKAg22rc18blcPD5LJiAytYYY9d5Yy8U8_9FnTEpUuAzhY1X1GtOQQjBHOAhB0qYaMvi1Af6r6iMI3sNeqK1dB0Eb0QhrnfXtGxOZQswtWDBVDpYN1YD5anMeLQMZgS4_mMfchiwU52PiWJz2dx1BmS0EekeYtUL8vAfmte3o_MJLgXrsiq_BFPQiBPk9aBDuTQ-tZ78nSzq4RA7r9ED0E0c0CO1lBf5ENFqgpz3_bZubU3lAYR1BS5T5ZVZ8HPOZ-ImXVv0L4d6wb8Cr3gEgUPbmvEK83_mvvClRgr57m1PUTKWSL7kWN8NnaTD5w76qSQuIR9bL5bY9ZyaVOCuQV7gcigpzfieKPukr4xoT3fcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105977856128604926952\">Jan-Theo Schulte</a>"
+            ]
+          },
+          {
+            "width": 4640,
+            "height": 3472,
+            "photo_reference": "AV-0GLfuTV-O6G3ADl4UN2YfbNSSecMwWiUCOqgRcOqSEtB1mZWp3Xn41voNMPkdwtZNdAfiBo5N6sVrvGv1LQ9UMN3DyeRu6u6qH13cQoV844zgAl2uAiJRhajpKqYVoJfXalzsBcOAnR8O0jxoM7cdqnNr4a2qLgkrnuBqVP3VnC8PNRdfdvbExygssZEGwd0VO2yOZjzFrYMwVH9h6bUJ9hcPWqLiybRkhZDULVpqFNr6F3975dCmKhUv8qEeCcM5OxFXbdj1vlJuYNxsh4g_UEcn8JGi_NVF7IGZI8iaky1k9PyYsq24w1yFTvVE0ufzfcAOFOtg0HoX48w83k0Kbhl4oSFvfeBFcS-IB0iOUJxxJvSt2aTzX8FfuIvtKx43kFnKtL1RSktwFhbJZnsxYH4pxTlACnBbYJfZU7nrjnKqAg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100926031344171027180\">Sabrina D</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfnmuhXn6UQMB52M_wJgcRt32cntce8BTiQsL0KhgGSpd9zdOCucA7H7tf9vOuoPDcYH5gndS2lwErTAop8BzYFTUCblkuZI73t47M8_AYexHo0ErsQP3h40e2m-H6rTvJtEuOJR70-3ikhILwG39uvx-WQ9KVZoytex5Q0ZWL163cyfArProC9703sB2QmeEd1nCuyuWScUeFMQx_Q3Jrxnj7yUtUdLaqQ_QZU2Dw8L3kXsurglNLOj0yZLfq55J7vSfz98gsHTf4ZrfNmt9U-BMueK2LJ4VrQG_4KOuC8sNPS3Tzxl7fX73TVria8ZJLEqXPZUgVyCtTJyLmlX2rl-G-8fM-8aUowRyWiIALT5lrGwL-dns013qVCFl8KNIMxELv4sMYzHH9nz-tsUFyggvghVSrN7neNbuI77eW0ZA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118122569034282869925\">Nicola Masi</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5855
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucun menu, service sur place ou à emporter, équipement, accessibilité, moyen de paiement ou mode de commande n’est documenté."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Bouvines, ouvert sur des créneaux de déjeuner et de dîner selon les jours."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-estaminet-de-l-allumette",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5855,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "80270f788b8f808643ffd37f1df5994685fdf19744947561a815c2c91011b786",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

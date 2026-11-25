@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "insolite",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Lieu atypique sur le thème des poilus"
+      },
+      {
+        "string_id": "vaut-le-deplacement",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "mérite donc un détour"
+      },
+      {
+        "string_id": "a-voir-absolument",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "A voir."
+      },
+      {
+        "string_id": "parfait-week-end",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "samedi: 10:00 – 21:00; dimanche: 10:00 – 18:00"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "les planches sont de qualité"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "chaleureux"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "visiter",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Le musée est un plus"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "musee",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Bar/Musée 14-18"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar-musée consacré aux poilus, apprécié pour son ambiance chaleureuse, ses pièces rares et ses planches de qualité."
+  },
+  "meta": {
+    "cache_key": "295ae5cd8799f6f93154a869e3964ecbcba77bd61eeaa2c962a950a31a11644e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

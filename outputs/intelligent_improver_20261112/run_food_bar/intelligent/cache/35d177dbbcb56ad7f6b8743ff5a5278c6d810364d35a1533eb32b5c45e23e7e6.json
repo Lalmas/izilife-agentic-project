@@ -1,0 +1,70 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de groupe » et avis décrivant un restaurant avec cuisine."
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de groupe »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de groupe »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie « restaurant » ; avis mentionnant « une cuisine simple et nourrissante »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Un restaurant très chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 11:30 à 13:45 du lundi au vendredi"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 11:30 à 13:45 du lundi au vendredi"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Loos proposant une cuisine simple et nourrissante dans une ambiance chaleureuse ; adapté aux repas de groupe et ouvert en semaine sur le créneau du déjeuner."
+  },
+  "meta": {
+    "cache_key": "35d177dbbcb56ad7f6b8743ff5a5278c6d810364d35a1533eb32b5c45e23e7e6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

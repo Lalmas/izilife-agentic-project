@@ -1,0 +1,548 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:38:32",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-interlude",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-interlude",
+    "status": "found",
+    "data": {
+      "id": "5613",
+      "name": "L'Interlude",
+      "shop_string_id": "l-interlude",
+      "unique_id": "933e77c968c97fe79db670f51bf8a291",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54873",
+      "principal_cover": "54873",
+      "qr_code": null,
+      "phone_number": "+33320382006",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "97 Rue du Général Leclerc",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0207852",
+      "latitude": "50.6101232",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:27:09",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:27:09",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ8d9UJz3VwkcRjWU-auQu51A",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ8d9UJz3VwkcRjWU-auQu51A\",\"rating\":4.6,\"user_rating_count\":88,\"google_maps_uri\":\"https://maps.google.com/?cid=5829679801224291725\",\"fetched_at\":\"2026-11-12T19:38:28+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-30T04:06:09+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Jean-Philippe Cunniet\",\"uri\":\"https://www.google.com/maps/contrib/115364323858758232488/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUoqlGozo56ANZQX4GvzBO-zZXCtVWxswmr6RiQOcpMZt_Y_fclaw=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-12T18:38:25+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Hervé Jourdain\",\"uri\":\"https://www.google.com/maps/contrib/104558625473614036586/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocImLi51T2EmwwCI6in4nb_fQyqR5wDhL12HCSzTLMXf3LUkvQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-09T04:44:15+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"ruddy leleux\",\"uri\":\"https://www.google.com/maps/contrib/111425442361808018092/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUiYSVGA2cgudVlLcwlr2PGlYFuB8KVEGkZwtCchQ6cyWp0dRqL=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-07-06T08:12:03+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"deblock jeremy\",\"uri\":\"https://www.google.com/maps/contrib/111981590651300555371/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW09qkCHQ3FblIvd4g7nqlfzeMgp_cQLsFpeyBmffbQVEMJso1uZA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-05-19T15:46:39+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Michel Samy\",\"uri\":\"https://www.google.com/maps/contrib/114168829508397965350/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW8fPHnPY60D-rf4KWecs0bR2kLzAWUaS6DvobABjl4sM4gv3UjrA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:38:28",
+      "google_reviews_place_id": "ChIJ8d9UJz3VwkcRjWU-auQu51A",
+      "source_id": 5613,
+      "scope_type": "SHOP",
+      "scope_ref": "l-interlude",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "l-interlude"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54873",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5613_6af39a3d1f20a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4674",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32453",
+            "source_hourly_id": "4674",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32454",
+            "source_hourly_id": "4674",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32455",
+            "source_hourly_id": "4674",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32456",
+            "source_hourly_id": "4674",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32457",
+            "source_hourly_id": "4674",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32458",
+            "source_hourly_id": "4674",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32459",
+            "source_hourly_id": "4674",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-interlude",
+      "google_place_id": "ChIJ8d9UJz3VwkcRjWU-auQu51A",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:00 – 21:00",
+          "mardi: 10:00 – 21:00",
+          "mercredi: 10:00 – 19:00",
+          "jeudi: 10:00 – 21:00",
+          "vendredi: 10:00 – 22:00",
+          "samedi: 10:00 – 21:00",
+          "dimanche: 10:00 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLcmpxPm56GsEDnYGtQ1o8eFuzue1xt5c3fdyNpRSZaHfnr19qKfD86KWqOKDWyk9E78belqE6m_AiPlOhtz-td2XcQ32uvCnyYpfnwPpLH7540lbl-htuitT7fd_HzlKvw7F3_woDpxra8yC_SJuAFMZAEOxeir0o4wQeVXQezh4yNLMmipRgfOAiKVvr0KFS3wUS_8AUrcUVX4iHwgyST7I0963oy3l-FC7fxQv3KRVM52zR8cjxt9e6AIzGA6wO-LfIePDUisA9rhthkH4tm3ubclG5R91Qhj-OZUyBK7naGEeOh4T6bARFdSRBzJZpdUmPGXCqibrSA5cEdX9sSKXyqbWH-1agYJdlnN9FWjZqg0ld6gS9cun96cTh3xALbkN7lLtadEmt5cv-K8s2Q8DXU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLd7UDjoqZdxcohPcVpXa7pfTFEu2pa5XQWchwGb38LtPty0--R4sdhXLhXs84AqahowLFT5FhVrN1kPsR6Pnyx4LtjJ2KJi-1t39--4ScviviXskce7WPNizmaBoJHDPQC2uqsu_3iuNtEyaeMeGeWuBehj73L2meQxXW736YyR_Nicx4VHZ4I-tg6j_0o0JXG3du6KsFO9BZmJ1alFAuW4YY-NOVR3SoYnHVVl8MAlZIC4f6bhA_Tm8hDN_V-CNpjW7pGp1Ahr_RfO01ZDvUqImmV7ozUr-4AYmMebJcXRyNjO97nmPly9zuWER1Jp1zELvpRr_d0PIefoEJLkz-TicUbzO9W-CnkjLhbAF1WRfEorqVHeoCYVuRO7iZVhIiWOCbDX0r59s9Ifz7DjnosTGf4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLf9ieDpnOqUi5nIGVolvbHl-nqZkaZILVVdvz4yUDG9EatBBGxjSmFZI4EvRSmi3Uh6iZqJ54YA40A4tJpI6aHbIidUZghion1Vjg5486Q16kTNgIPKQ0r0ERoouJAIANEls21xIPRBfcjO6LiWO8VbidY4Qx8uCxovcTpD5rQjKTz8ExMYtfy621Rq0U2XZ-J4LjzGs1TocGVCPUA16zfNgloHkjaKU3zTr-xHJlBmFikIabg64LWFYXcQJ8hQy6gD9_OflHQUrnLvpXNZO7wLRUDOhz_-09gxNTUPxn5ch_tBoG1Nz0aGjORxJwfajkGgXyPwFYi71xJBY7LLv4hmheDkUqw-HPfxxZIMruCLcYararJJVfh612zNfCtfqRKeQaz6A0rfn061MaUBL8nDzkU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 719,
+            "height": 820,
+            "photo_reference": "AV-0GLd7VYulM0_5WzVXol7ZWlc7U2WgSbf3o533VhKlTdO5bsfBlhZL_Mxlo0WNgq44j24euYW3jjbZL43KaboTRTfnIWEdHGrinIKJ6NhjxvOAdhA2iJrWkaqOj2X6BPYzZB0O-QEEbudK2K3ikydmyFFvz7fmW0QByE2LnAjZNQ4bV_f71YFR13ErArG5H9I2eYXeUx47TYecH6i3gwonlHVV5QNTh_iuvWPgQ0w6b0hDIBefxFD1jtH1y2-1P8ys1Ztxpu6RQDFM5LMOyLk9gMdnqom3nPEVsd0y1zqwoFrdJSKpD3_IliD_W8nM8g1DTR2hs6vPa_1cHqLVy1dmtYwz7z_NZhR45wZZOEBW7IuEgSX7vaJN02nQwrUIdyDAGn58yfbm5ErWvcO0N5RkW7j2Q7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdm68ixOuZCZkvijEma6FtdwOsU8r9m1LGIySkAnQh_8bYZ4mKn5UuSJ_7-PkSwCu46VlvtePIhMi9W-zyB92tdjAwVDcP3jZgvAeF_b1TrTKE6zAoRMJw9ZCEEIhtY0uTkFKxletcEYi2REF2OkdWkYLxZiBYtCWA9Q9V7lOgJlv--s3O_axoeCsvSAtO_JI1Q4xn3caXzAlc8RI8Qdbk01pTkZXS_E-KpNTpSoiqam3iCTA8d10QQVlCkvWZfCe9zry7DiZwkT6UMmnfOj_xye00HuYU3EOx3T6mLSNnRSqw7kIMvwFtjTeigT0oIgn5u_xfovNQdXIcc53F43NngRMzPLGwUV_YsB6Lvq1IMxrojD_UdJ6ovk-JXFmYi3Y3lMNNEQdKbyMgJrBxkVuYqomU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1018,
+            "height": 1357,
+            "photo_reference": "AV-0GLeUyR174t9gWH51wgHUEGKuodMemIYqPzFcXxR6CUCmBmsx6cCtLBbraAnUelBHpojplGYpo8frvn_Ug2m41e-hqq2bzAKfkdaRv_F20N3kgBH0m-BtIL8POLSG1eZ-tDwxdvOyr5PjPNWSQejjw-9HA2799s-kr7gARZid8i24g1AlKoGu47OuILqwps4KIiBELTQNwlLQrHXNuvLjxoQyMK2Id9Ur1b6EFVswiOUB2-RnSV3v_fUov_eqzmbvMX_omn_SuQ044CocAh9AnLgZ8_FbsztfEWvEPLtOtiHSdNWQfZnG_4fp3MSxwQySCBE9_5tuPKVhKs5dkxWAt91A761AeKxNOlBVOk-FAU8m2FO1WxJz8kO-U4d3doyKTlZ89czOZ2lovC2kGnAVT1HYQQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLduFP717QAAFGsC9o_xQpKMYxz7AM5nlSS5e1HgvwoMf-VTnIvyCvva_FyDaAbT4kgFtu5UToDKzYfwf3tCKRaaMSP0rqexqAKDdPkGgbLGWTdj_tnRi215QQbQwMXxUj62EwXwS44ZSgps7j5k3aJe21FRKZ9-oc6TC9FTERjxgeqNZjt5LdtcSFOQt8-Vqrr5OlN_msJ7WHgHpy-8_7qa5koaCMOS9k452qYaDYyF4YCnTyGhi2deLCssDxFLdMHKJmmH4SL9oSEExWJezfwl9s8TQWAuVsZj39Qy6X2Bto_ZZRWIK0u3TH4OsZMLNkFY5bDopo6lBuhHvxxbRAtV7OCjgVfiTszpoIVNK8KLevRpoASrrdoRsxdWgIXfCutuZtqTbvVy7l04XJvPQJxp2iM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLc071vHkbid5k8hrgDEFYN6pNU8XywqvHELGXM188X4Zy8i1E-xOfl3FDk4Dln6RXo5QffkcyCoO9mph0e_dQHypT1xa14-xpg1WBWN6dcJU2hJvwxFif_kkIKpaezPh_7XwOJaNCbzpdmF9Ga84bPZkl_MUAa_LoLzR24LLzcUcX8tVIqx-AFsISe95rZWflOhIKI_LL1Bbg-K-m9Hclpd7fx6omDH18BGC0hOfMb72TDX8CXMcYIkWPnjbbL3Fa2A1D1o3UQR4VM34cMKgm6x1oivKizTJ47Zd9QAGWEiEyGTwt2x05Qfax8hJg7_hblWguftFVTQeLAt4hOjpGNKNFqbZfuJ0KTF_LMvCe26rZ5MKxsjHFn4BFue42dTEL8bad9sCpkwU-cl0nymnLj4XoUJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdpW3nIggqBbD7gxMdBFUMlA24071unu4ivC_N3fivAC_UNm_4xk_UjI3AVNo7T6qQkGpQsFcXOtj4IYAQBmhRf3upHUwu0mCnrZ6jckucbxdncjkLjxPEvylJFWWJ_WhzlMNEymppxg8VkgWyk2wJlhdRRQ42RwfXXO6BjMBD-CyEkftg7dEn9kapKqMifB_-4QeUfIga3jdHfxEdbOQrJmd0zp30u5POyDYMAhwqRxgcxkKYA0str905ndJkATDiOmtDjcewKGZLJwq2RC03JTXJZf_E_qi8SIIFe5lJ-y7vHHoLCMLTGY7_elNdiovMi8V5WkecGUlHnJ9mMP08WVWcOEO0wq-DA5RS8uEeiiSsshwRzxxtXipnbbYa1WzE_1O4jCV__udOtP1tE5M0FI2U",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdW41o7mQeIf5uJC93XUWvtZ_wj1TltqBLj18cpSxsw6E9B5G9LIPefryaX8FxZ0Qn-qVCV3yaH2UoZIj41gBKMS0p9oIbj0AkRoSTY157vnEflPFC5RP0QitNXZtR2v-UqFR8O_TXgWUYoXLQa-kksSXiX9ewl8jp2YwZPZ1P2r5oKALjyK7volzxUW8vU8X_aB0ENmWOHIQLU17GHA6ciM3bi7Esr1djfWaA-SlYlpN6rJLZNHNSADo-br2If3ra3pZO4yGWldZ6yjjh68LAn2arUABKPKegfsNhqrNk56HdZv-VJhrBUMJuZl8RPDNXQJCvlyYvFx9xPHojaiyRLAX0XqXPU_pAY6W4OHbW6D20vpfTEaJyj47YSrNhETvotqbNvYzdGVNhaQdMYcmKELXs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105053940780262442995\">Danièle Hayez</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5613
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-30T04:06:09+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Jean-Philippe Cunniet",
+              "uri": "https://www.google.com/maps/contrib/115364323858758232488/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUoqlGozo56ANZQX4GvzBO-zZXCtVWxswmr6RiQOcpMZt_Y_fclaw=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-12T18:38:25+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Hervé Jourdain",
+              "uri": "https://www.google.com/maps/contrib/104558625473614036586/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocImLi51T2EmwwCI6in4nb_fQyqR5wDhL12HCSzTLMXf3LUkvQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-09T04:44:15+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "ruddy leleux",
+              "uri": "https://www.google.com/maps/contrib/111425442361808018092/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUiYSVGA2cgudVlLcwlr2PGlYFuB8KVEGkZwtCchQ6cyWp0dRqL=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-07-06T08:12:03+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "deblock jeremy",
+              "uri": "https://www.google.com/maps/contrib/111981590651300555371/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW09qkCHQ3FblIvd4g7nqlfzeMgp_cQLsFpeyBmffbQVEMJso1uZA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-05-19T15:46:39+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Michel Samy",
+              "uri": "https://www.google.com/maps/contrib/114168829508397965350/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW8fPHnPY60D-rf4KWecs0bR2kLzAWUaS6DvobABjl4sM4gv3UjrA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 88
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1113,
+        "bo": 75,
+        "front": 1038,
+        "estimated_cost_eur": 2.825
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les services, l’accessibilité, l’ambiance ni les modalités de commande ou de paiement."
+    ],
+    "rejected": [],
+    "summary": "L’Interlude est une brasserie située au 97 rue du Général-Leclerc à Loos."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-interlude",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5613,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d5383308bba2bf9056e2122febbb503ddcc58a1d108147a1c36f9fed91d181c4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

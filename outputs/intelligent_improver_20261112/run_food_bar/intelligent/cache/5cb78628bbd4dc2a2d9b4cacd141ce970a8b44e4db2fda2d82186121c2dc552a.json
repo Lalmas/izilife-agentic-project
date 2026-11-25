@@ -1,0 +1,63 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Service rapide »"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« peu cher »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Rarement mangé un tartare de bœuf aussi bon »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Lieu accueillant »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« peu cher »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« tartare de bœuf »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis du 19 août 2026 indique « Fermé. Sans prévenir. »; les horaires fournis dans la fiche indiquent des ouvertures du lundi au vendredi."
+    ],
+    "summary": "Brasserie à Wattignies appréciée pour son tartare de bœuf, ses produits frais, son service rapide et ses prix abordables. Des avis la décrivent comme accueillante; réservation conseillée selon un client."
+  },
+  "meta": {
+    "cache_key": "5cb78628bbd4dc2a2d9b4cacd141ce970a8b44e4db2fda2d82186121c2dc552a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

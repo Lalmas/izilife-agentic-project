@@ -1,0 +1,603 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:04:41",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-et-patati",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "friterie-et-patati",
+    "status": "found",
+    "data": {
+      "id": "5721",
+      "name": "Friterie Et patati",
+      "shop_string_id": "friterie-et-patati",
+      "unique_id": "1756417de918458d8a7040b0316cd434",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54980",
+      "principal_cover": "54980",
+      "qr_code": null,
+      "phone_number": "+33366769623",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "32 Rue Alfred Cousin",
+      "additional_address": null,
+      "zip_code": "59273",
+      "city_id": "36",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1350739",
+      "latitude": "50.5600832",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:39:52",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:39:52",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJSbCA4ITXwkcR3taDGIRBZwg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJSbCA4ITXwkcR3taDGIRBZwg\",\"rating\":4.2,\"user_rating_count\":310,\"google_maps_uri\":\"https://maps.google.com/?cid=605524710507402974\",\"fetched_at\":\"2026-11-12T20:04:32+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Miam ! Super bonne frite !! Je recommande les yeux fermés\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:06:58+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Lyla Rimboeuf\",\"uri\":\"https://www.google.com/maps/contrib/107185953025695533062/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV2oQNfauVl_7H82hP3aS2vNNSTCe0jb9LgAZfAcXwh7ZJja5M-=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon je recommande\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:02:06+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Maximilien Le Bigot\",\"uri\":\"https://www.google.com/maps/contrib/102144225264005683592/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUdEWCumzkpSSAjsgc-dCo2CgM_flTi4h_NktzM8Okai8JzFW4O=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T18:28:13+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Jean Christophe Hivet\",\"uri\":\"https://www.google.com/maps/contrib/108992392099314773795/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUm7CDn27Kyjnr1OW77X-xqLFWeVe-59UK6TOy8i_T6xoMNZj7JNA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T18:01:43+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Vincent Hédin\",\"uri\":\"https://www.google.com/maps/contrib/114277707685616632775/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIppnYhbb5CSZlceOMFMY3Vopf6cEg8xloDUgyKCEVpV_635A=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T19:20:58+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Seb Beaucourt\",\"uri\":\"https://www.google.com/maps/contrib/105466779596224447944/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXcW24bPKHlo3gwZHx948tndX-5fS3qLPy0KUmoF5ZSv53--Nu9=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:04:32",
+      "google_reviews_place_id": "ChIJSbCA4ITXwkcR3taDGIRBZwg",
+      "source_id": 5721,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-et-patati",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fretin",
+      "string_id": "friterie-et-patati"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54980",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5721_6af39d3884a1a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4780",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33195",
+            "source_hourly_id": "4780",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33196",
+            "source_hourly_id": "4780",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33197",
+            "source_hourly_id": "4780",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33198",
+            "source_hourly_id": "4780",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33199",
+            "source_hourly_id": "4780",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33200",
+            "source_hourly_id": "4780",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33201",
+            "source_hourly_id": "4780",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-et-patati",
+      "google_place_id": "ChIJSbCA4ITXwkcR3taDGIRBZwg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00, 18:30 – 21:30",
+          "mercredi: 11:30 – 14:00, 18:30 – 21:30",
+          "jeudi: 11:30 – 14:00, 18:30 – 21:30",
+          "vendredi: 11:30 – 14:00, 18:30 – 21:30",
+          "samedi: 11:30 – 14:00, 18:30 – 21:30",
+          "dimanche: 11:30 – 14:00, 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdcl8DwgCdjOeoU_r-T5XCw36yS-Dm7VHnL0GHXf8HX3nYP8AYxi9-tUE7uGGSNDIwr6sgxBGluF2QjWI8arYO3t6oi6YqQxmF6EuL_llhEH_UxJ0GDgjF59N2fFOrLc09ZHueVTConvDvYNeVV7N09qSIEagbYT7FRd3eVELUbHWXwqCCD99BY0syPJUHvYk_rA4yyDVFLzXzDFQarrjBS9lW51_9nJY5XGBEV87AgPyjkHdA5QnxPk7rPhAu3H5AkmeH5XFhTFbBx2wKiu061JRY9G4t84NO5a5SFnvXJbljPhxoTNPVHibjEdF-EE90gPy4kcgAANsbOzhNM-LNsetsxp9QzIBcaJftZBsHFJ7IAKoSErL6JeBxurU31EMJMLNSeoPGGn4wAXXWUZECrNeR_gWQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106716365153327153648\">Cédric Lentz</a>"
+            ]
+          },
+          {
+            "width": 3199,
+            "height": 4800,
+            "photo_reference": "AV-0GLelj69Var17DkDk7p_QClX0Dnmb9cz53WFvHHcDl6rRIHtpFCQ5fisbgzQwAJW8CGFw-Ovyx2m2o_HREPC_aTNECjDNF8YR8wLAmWDYePn6e973iHoX0Jbr-RSnV6kp2F9kIaZTIGASaG5po_pXLEIQHgrlBab4INCznf0IcXeQFvkWDtbynwrNLHv8d_0lU7DxGXkIeYstJbKpFucIqIBBC9uI8frrHSFx9WHAuJyGPRb9y7VV1FGJIMA2HVVCmBWMGNT_dG6a4MrVG6fdALqyKzE1f4aLFP5Bz1WgCbol7lUTKqX_01irMuiBjpNgn6YWNP1Dzob3l6m-2OjZTjz_CulMwEGiQDG-9AHVNV-kFoQdQJMAz8n2rGdUNqcEohP1yVdxXA7gbvuSZp2Fx0KItDs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2484,
+            "photo_reference": "AV-0GLeeC4GMFIiz2UEkusK569GIUCtZBg9nNZs3-PM-uc4BBCrdUJMIi3NXvH0nqspV605mX4oUhYBupg39QA_v2SAfVKipqQrV2k6dvuUed1kl8YYeLkCvnb8RveXNnfWMHd6x4HxdghD1rDUXPufOurelTFH8XdqgIBpNZwrVSd1ygFjfC6HhcdrrqZrIZV-fB069kpN3Z5vBmjY2FAnNL9onEUE_KgHtn5GPyLxapSQf99RLKPFLzudPsGVr9UP2jUVISfMFGmEZuXmDnxKRh2fnMGxs1BNWbMzUdvk1Hi49H9RPudgDO0pdzU91WqiQnimcwBWjlOPgahcITnfWAl174J0sBfIE7qC-6306PY4q3LGRl9IkYOeAgFpfPGA1YX1jNVOegs3AZ0Dd5vC8FoTiEVAMOWyZATHl_S_8O3e_-Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100560368816703878700\">Pauline Po</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLeLLDtRFNc9d3GbYnzMy0oG66stVB57zCmkpIdVz9_P_kvauTnhocrOetCINz5484gl4iU3ZUqN5LQbxJNnzkhNGnueyKfonfZzusxLPiUJEZjX3715zgYU9tpmfy8okrqqo6tau09kG77J4eJbVaRkK9qvkX5NIEyog1VP_qd5n5lGNaDb_rHBZycOnJO3qsxV4DCbwj3tRQCpxMsUu9jNY96d1kp4YPusvo5NJkjNvAxIEEo3n7RCX5nLVTOo9tdWqad4X90P4G4_9F4c6D7QtgzEcbCPWqh5zZJVaLGCYg4RNqeZQ4u3quY0dW8VyR9F62YEB-4whbPD43K_QUefPGZIdg1V-gmc1hjzwXvQCvR1luLzsEM9Vk1Jpa2o2rwK3SAOK5vpNlKwPq8Bvj53ZDPLCOA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLfMOx-WJ05cK5Y_6xloXJvgFP-nW2dkZNDrU3ybZpDlLcj-rq0u0z8ClMYGMurLJgXFXeQOH_idJ_NuBxmJlxOMXtglfC9rIQRVM2Oq1BTpALJ2SMm1MCdC_GIdrVys2HTv-G3E0bbAF5omeUBqJNK3OGU1VYwqx_eFSYX3gkVjEb2juRqW-ZbXFP9A1Q8bmz5R0Hmjl6d6aY01zYr3jJcNSa_ot-0rir0SY6Oxy_tMnmjWq6kDyXi1KeL7OKPmxHvC1VLKfqIfV4WoPLHIsJibeuS-y7-vzPfjb4JXPye2IXdl8MxAbomJ3SnGMqZVSTjMFQF0w8CpaXvjErTa58rQ6uiIYtD5K9unFnowMB8J-xFJ6-qDo1uRrVy02weUiChWZYUVq3gNtdoCzi2Qscbo2Ds",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          },
+          {
+            "width": 3199,
+            "height": 4800,
+            "photo_reference": "AV-0GLfTnYgD6SsuUOgT7-hs6rqk4n-sHUxKbi6z2JpRGRCyMzwflPPX2_kxclgMnbSFc62wwmCDiwqWWQErO_ABDj_Ze2s410FGkXcgud4K8yihWaUKvWpOtgMIgtLJDDwwJrc8IQpVOJm-75-0ECgfg9_Jumr7a8sYLc30xePIc8z6ggPAp6J8TNxia4ehCxfvVqE3f1xFJQ4CSVRxfMRvSzJrWX28f7Wv_lxBWpP2EUy2qweZQ2Fuj6sgADW7gZ-86pM6SGT1jXsEVU8TkFlZXfi9Nn8Zf9Xp0gLvF9VSJTPJ1Rv2CS6ZkaXThVlDbNOPBZ-OJEhHMK-3uZe4YgmkAjcZMFNr0F34XAArzFYeQTMwOpYx5gNfvp0hKVPhYNs7UAEpLrX6LsDihFxDejkceZY7V68",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLefiShoMcvCI-ph7SR6-9tkIXc3PVrVFuQK4g1NggKpyGZ9k9rIo-Oeinp-zALkhVT2MAIVOWBEJqiQqIa1qeohUk6q9bZ-W9MJrDuw97TXOc8hb--KexT673CC_R1IzvSFUPV2Kg0Px_3iWHYA-5JAzGJ1txl8Y8NZvebbWDz1U6cj1QtmQtyg-lF4vMHpgCPmF9ctRlNTUAjjWED8-JEYbfx7yBSCN2lpwvVTuBwX6IqSSCOy6RlkWsIMyXKGtkriDXbEYyiSOtRbOLk0E4-s1QrZlMtVYiVMNrCWm2gyvktcAJG5CuIMt_XXA5p9my6pqrcu7FCziPRUUEVfLK5iRmkVfkAL9D2vFRV9ZM-4S2fHhYUEwRmOhoZg7S8KsYx5J4Rn9Qhoj7ioqCUDm0ORDU4BfY4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcpFHnAZ7GgHlGoIfVuE93vzzn_OHQwCRIzwZpFLIZfq943ivihk_sZVYHIN9DvSlJU_HOC1vNSfn1gAI5JB_1hl_HfRgr9fz4Kmh1RRa2dRx6AfDYlDUKVFyTgkS1Uqy0cSACKZPgGHwD4PhlZm8Uz9XnhFRTCEzfAZ4AdconLu60nufmxUHhabupKLtNE7pTJ0-W6KeOcmQnTkGRflfBqMvR2D2F9r2PIt-LPmIks9cBKDDiK8AHuN5k55vB_kQlCg2lz8c0ewcp9BjBbzI6cFxWGt60pPgtULLbSxhYjzMHzoE6tFic7k_RtJBKRRf78cpQRfn9-bUr1_EhCMG7TqQt6kuVQW9gmrxy9E8iH_Xpgx0cA5FV2J5sl7BdXL8ASJvtorkCXQmhECdGSmf9Qaj6r",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118176796152041551254\">Élise Bouchez</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLcPVHuO_7p0b5X_zfY2ChpyvdN8oSHp-TLIIQL5jt4iDLorJw2Y--BI5Ovo84kAnL3muzfzZSzfTjLq1Ft9tClQOv0F5_Aireed-JxMkcx6r-UOg6S5QELWb0RKGoIx39OGBlc_iJJb6LpC53c-Y6mbp-8_ITYldqE_3PpqbsAzP7bYmIuUeBAu7ySpJSVpZ6pbq08l8e9Vt_gvI9ZJbePeIFFGGH7NlClQfL-9o9NddKYEN3koQA9c-fbeYqX-Hb29vcL28FDrsUJCoGpaoR95gg_CMbl_uTEDaLtaap9ZkLe3AjuOK9e7Xbi1MNx8l4HwOb6fACgh2TYdvXy3I9qCSt24Nn1UCQKLO1Fs3oqmS-ISxh21VERqFVy5ds2iEBSJaWKElxC8FrnwGXdP7Xj0LV5RZZQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116006875515293388126\">Vanessa Bauduin</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLdSgubJF5sVcGfje2_5JUmfuqxDV-Om4zPOsk-YkDCoyX5VpArJv_0dDRDcavADGRFxXGeSqTW-7sJEYKnQFO0Pfq24bFtNuvNWISJQrILSw_pdwE0oFGl1GQ7Tt1OmGOjXV-q4owYRQqTUQ-R3GJbjVvCrChJCQB0S-bMsGcbOlSYcL4Ng0tvBUXW7XD2ki7V6w7aZfUuy4ABURdPg1DOuNRVMU94ReurD7gEfeqUhoTWFmRvRcdLrrfxKQ7e6QQe-j2oczLG1Aermhbiq2AL5v9xt-4XimETHt5kCq4LIiaL5QveAxY5ExvcmYo8cYHQpUlHSyRqqQ2CWWSaR7mTZQBR63VXpIl_Njy1x272AGs36ponNhf257qVbNFUqoIf-VHoKsajSD_9pAv_TOD8l-g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100210642286589184763\">Friterie Et patati</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5721
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Miam ! Super bonne frite !! Je recommande les yeux fermés",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:06:58+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Lyla Rimboeuf",
+              "uri": "https://www.google.com/maps/contrib/107185953025695533062/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV2oQNfauVl_7H82hP3aS2vNNSTCe0jb9LgAZfAcXwh7ZJja5M-=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon je recommande",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:02:06+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Maximilien Le Bigot",
+              "uri": "https://www.google.com/maps/contrib/102144225264005683592/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUdEWCumzkpSSAjsgc-dCo2CgM_flTi4h_NktzM8Okai8JzFW4O=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-10T18:28:13+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Jean Christophe Hivet",
+              "uri": "https://www.google.com/maps/contrib/108992392099314773795/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUm7CDn27Kyjnr1OW77X-xqLFWeVe-59UK6TOy8i_T6xoMNZj7JNA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-06T18:01:43+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Vincent Hédin",
+              "uri": "https://www.google.com/maps/contrib/114277707685616632775/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIppnYhbb5CSZlceOMFMY3Vopf6cEg8xloDUgyKCEVpV_635A=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-05T19:20:58+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Seb Beaucourt",
+              "uri": "https://www.google.com/maps/contrib/105466779596224447944/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXcW24bPKHlo3gwZHx948tndX-5fS3qLPy0KUmoF5ZSv53--Nu9=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.2,
+        "user_rating_count": 310
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1192,
+        "bo": 154,
+        "front": 1038,
+        "estimated_cost_eur": 4.8
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement ni les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie; avis : « Super bonne frite !! »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:30 – 14:00 du mardi au dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:30 – 21:30 du mardi au dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:30 – 14:00 du mardi au dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:30 – 21:30 du mardi au dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Fretin, appréciée pour ses frites. Ouverte du mardi au dimanche, le midi et le soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-et-patati",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5721,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "33b856e7bf29b494ef267839e94b80fa2606b3c047d2f2a08db2da91acdd3595",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

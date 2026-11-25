@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie « friterie » et avis mentionnant un sandwich américain mexicain."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–13:30."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–13:30."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « De bonne frites »."
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Avis mentionnant « mon sandwich » et « un américain mexi »."
+        }
+      ]
+    },
+    "warnings": [
+      "Avis clients partagés : certains louent les frites et l’accueil, d’autres signalent des problèmes de qualité, de service ou de prix."
+    ],
+    "summary": "Friterie ouverte en semaine sur le créneau du déjeuner, proposant notamment des frites et des sandwichs selon les avis. Les retours clients sont partagés."
+  },
+  "meta": {
+    "cache_key": "2b540c59fe73f85e331825b8817724868ef93c8417ea43812c000449658e8a4a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

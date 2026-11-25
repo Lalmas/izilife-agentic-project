@@ -1,0 +1,522 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "destination-cafe-douai",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "destination-cafe-douai",
+    "status": "found",
+    "data": {
+      "id": "5858",
+      "name": "Destination café Douai",
+      "shop_string_id": "destination-cafe-douai",
+      "unique_id": "992af17b7edb0e01b50f458190cb1bd1",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "6",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55114",
+      "principal_cover": "55114",
+      "qr_code": null,
+      "phone_number": "+33683896208",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "92 Rue de la Mairie",
+      "additional_address": null,
+      "zip_code": "59500",
+      "city_id": "254",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0805248",
+      "latitude": "50.3681045",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:24",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:24",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJqx9DcWfJwkcRKV_5RvfM6vk",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5858,
+      "scope_type": "SHOP",
+      "scope_ref": "destination-cafe-douai",
+      "primary_category_ref": "cafe",
+      "closed_state_ref": "ouvert",
+      "city_ref": "douai",
+      "string_id": "destination-cafe-douai"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55114",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5858_6af3a2449b4e3.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4914",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34133",
+            "source_hourly_id": "4914",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34134",
+            "source_hourly_id": "4914",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34135",
+            "source_hourly_id": "4914",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34136",
+            "source_hourly_id": "4914",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34137",
+            "source_hourly_id": "4914",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34138",
+            "source_hourly_id": "4914",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34139",
+            "source_hourly_id": "4914",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "destination-cafe-douai",
+      "google_place_id": "ChIJqx9DcWfJwkcRKV_5RvfM6vk",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 18:30",
+          "mercredi: 11:30 – 18:30",
+          "jeudi: 11:30 – 18:30",
+          "vendredi: 11:30 – 18:30",
+          "samedi: 10:00 – 18:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdI3p4SVtyBW1iQ11N9_VoKNjfNZwmuAiNgrH6lmdp-v3nLb8YA4_7Ny-OcwQFNX45qUpWLAmfM9UEHJ9pMNShjFEBoksEVWLqbftJOXkF6dOtgKINnkwynzCtMPjLTBPlPi511n9uJlmWup3fXUCwi8FgmWae6tXc8DnQTYwLqj_YjdCJe09hkRp8BBqyek2PL5PgcrrUU-MTFwkKqi5CsqQIb_92LeAPwuPNAM0YTq_94b9pqRplZIRreGDzlc3FL39XXKalhH6qCwKG-Dk534ZhdOWCzV_3-RLkn0vMFQN_FUACaciJnCSDvIJQJtyIsB13jG4HlGddg7HMG1EzPOuXMAE_cY41Vq4G8jYHreFMBMljILbSScpg79fwjB840sPQdJpDzIpYYa4zaBGjpq0xHq8Ze7GtueHNwlDbLcw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107707707801313901981\">Michael W</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLcXlW1ei3jdm3r2a5fxgR-UINPZCOgDe7WL9jVyDoLa1L_ASL9rDM30UEO3AYBQhlHXYQW9OqgqFAQcwtIEATjDXaTYqnoITFxLT7nMMTpAzBQivLGKPgDPqU1VDOhgwj3ckXSjxiYUlS0KIBHyCi_hY7C01pl_eNMG-G4_0ASyvh_w__X1HE0CStMH3905OskM5D1whda8LccuaIZUMtrvLN-1oN3oFJqv2vowqwi-JdMi_EM9YhzhEa38GyrBWMLxquLcg8sah1kPwrG1c1_RrZW4LXmUsa9IGQNL9OI5IfAnvJKpN5_CZANHXDiCWoq15fAMe-C6igGwgZzl-VB1z6z6mPpAAGOMcCdYhxbA9tYn3qiDAz3NGrniyCWNfAvlqv0SBcuIwfS7paRvF4sWSQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111710274624601933595\">Hélène Chmielewski</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdAqpLUUrQF7jM64NjtWpV4C0TwpsOvEY0CPKvujIxL554Hn-yH4vwfck1539-NTWbclGp5ptbdvBvtPd9RA2Se76gBQLcH4T3_6ruWQ7ioL_frNqstMcmY08cyDDwRVId5pzNFkkcu0YYaN9r2BQhBn-RV6h1-UGBYcWqFJIGIOs0hukzunsPlnVi00cxAwjs2wKBnTjOFSyyoR2g5q_oZtYQm9B92aLO2ojCRX9n9NFG-fZD639MLl-qgcLmXgB0FNpY4T4Xs5f6v57eWgsmEi_w_OHYteQ0WgpP8-_LRy6YBa8g5l9jjzNTIMpFRaI3MMKssIkFTJFCsQhCnqy8hkKYTXSjDxEMjRWJ3Ed28FW9JM95FxB0qozKBjOUFvVT-NdJS4ygZBzaXQYWCEP5zr2cFeuYQ-6ao6ytOis8o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107707707801313901981\">Michael W</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcfhIzXkJ9Gn8u3nL5WyBTxHSUgDS_LOCnoagWcjtcoUPc5FRj-C4NjWEGN62S5g2dZIlCAEulbTB33sbXea992Ue7z_8uGmWOmS6f39vCSJApNr9gvlDtfbySEDryAoi3h3GNOVQF7lirgknrO2J930RBUDKHO3KKvUDOwF2lj-pQj_0dnxxt0Y9RXwYlbJBC4o5Skv4STEexnXsQ5Nl0uTnvxE8euo9J1rsYDMGHvUWiTjCF4-_qkVZfoaJRC09hD98Yej3QgRFTUDVqvhjbmATJ5pcQJ6ZSK-0M0GJXGheIXK8u-IX5uEmoKoTP_-83bSMPIB4O0Q5NVhXtvmCR1NUFNt6s3Rq1SqMk_OqGH4UqE6NJuxjBXTDLxsrH-w4m7UAq8W_u9Z0llURqM8oprv0aoUdjtxwEeggWmhnpfcg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107707707801313901981\">Michael W</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLf3jeAW4Q3-FkznPEYN9BMUZihevjhJAdgD9v7qvkWTWr87VGzVQadVI2i7P7cqFWaNcizao9wRsTeHNSsPtRGBKxam9EReMcrNJBAdwREwfUFfZyJ_uAhrbNEDV95sacA7GLcyMynGGjzHY7h8qu-SrVoSzcL0C88qLVQsGdVsdonkE_NPFRjUqH1WJUyK63fdJGK4VYDAkTqrZq2teXKR1axsLvqQ8zM1z0Ub-Msuos2QLdHTsW2jaFk35fDjhP1DWTR-amG5hj7kWgkG5I87VMfWnEI19DWFf8Lwn1dh025qOeWPKXTEedEjx3EI8zrySIi_Ogxav7nVIgeiafx1OohZw1F_sgEu-DRwmwfdEX_YD95ePGrdkdA6h5zWSpuf2KRDHjyE6liOmBettE1NetHkb12ztVKwbtcyc4YAFQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107707707801313901981\">Michael W</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLda8djrjHQ2R-YUG1ALxbpdlvUt_H2gZy_ugDxzQ5W9nNfQTe_D2ULt_Yr23AkHmrlec18-ETdDn_3N_7-SOEunSfPIO0TlAf6yDQUrHzwyYFKu9YBix1TjCdSakrZlFcMAP7HOeluu4xFegPLrgCFECaBAdPmwjBBMKERUb1FbEClnXebL706A8w4yfS6ygEX_hfouABHCoOvkxv-nYzrIpbc4JlTWktDFUkO1jbUQ8KzUXW6n9tpakd3BjObs5rvyobyqfoCuTImrJRTp0CAYDI0KdTLURWLrnm_eSf_erNgJDcqwAaLGxlj9f96ok_ohErC2fi005hvDtuGMhquo3h1-IfIscSsEUVAJokWkfjZmSzma87OhE0ghCwbNhVP8Ry_enhBtAsB5RermPk4JgO4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115100775167399704551\">Céline David</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLd3WESsU1bQ0BkzVsJ_38zJzqXvmLPbQm2Sa_1tKa8gUyPuj0ncmTqP5H1R5mW3XhqXbTR2lF4VFF6gKdDMIzv7Uq1gkP6KsLlpza7-xppT1wbo48xVuVC-DwXjjHqxwSLnaSo2W_P7sjfxTLnvGxr35lVahvS4TLZ_uw0KDoqJlFtEZY0Qzm2XN4YJOG83pSUB7p1G7VJIEBsdAKofSlz6fnJlHasNc3qsUN19tr_E9JNKRHi2JnrtbMgdRayoHI9qoU0jApOmZD6274QUztbu6i7i2xqO4vBtf2F2CLVhZrHGvXn05gU35Jzz4KMb2UiqqbzwnsSMrgM3k1aJXvU5uS4LQBQY_VHwPtYNQWnKJIlnFZst1Hs1MGVC71EV2ZLfdpDlKg2cEiT9MS3K5qAJWZf8hgd9tzMyq9tG0qJmHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117647751490262414561\">Giovanni TERRASI</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd-eZQd0v78WQiUmcBvUxwRZIugQZ9M-LwtyQ6q-jgo3CQEOfZvtlUZTdimzCPbLMX9KffJrX0E7Gi_EwndE5DQn56nIs0kEQWfaHDw8jmHp5F6RxbAFDPZ-4aRuBqcabn29bwbfK8Xagv3PbbI_rpD-w0AUe-YehaudEAvl_di-NH9f1NRCr0dFkhXMNwuZBSqJmhlDNrS8112tKJbzt9qdmeqNveNAdfqy2gata2ceh3h2jcrhwhnmAN_TXcoU_UWyxiZtQTnKp-8IXKdEDpCe7xrcYu4_IZ3cKyZkvIbGn9V5kEzVPz9IKKMExz0L0JZrvU03XcU1HsLvw4aG8_leZHUo5hjWI8j6d1-N-b9_i18K9D9aQ1nT-mzCmP74Fp1VuyXRZgy162XpmgVEQcpJrMLh7nLZgjPbCOupYtDfg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107707707801313901981\">Michael W</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLck5uqWaigBpDKEKRNUdPN1690POl_7P9kGbmu3msdKg6cxFRJbMc-0VMu6VOglPCqN8wrOxRd5QOzGVT2ui_fHbYQ8clIAE7UgQUinenQ3HyEDCVxUhqoqqSnBZMYYvPZtsWXgkkNADPz2ea2rseHC2sSi-5GbTTxGkTflmdFLY63yNaRS3VDA7W6YeEeTXCyXMMkzgY89p8z1pNM-XP8i_1lUACHFcTN4GVfaV2qOKla34kEg9ebOu0SuV5SE04_q1ihxsfhU7HB16dCmoYWS-Cp7zuyBFRWlcDktEY750Eh2S7RrlnylQa9mpiFyUALx5ZOa2XvudJ0jRmpyMvaoJJuy7MAbltrO4LUNCasQc9V5_6v5KyMj_Z9sqw_5UW4qmfC5bpjSGJuBCfiBXuB26anL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103874833445958187697\">Lilou Lilou</a>"
+            ]
+          },
+          {
+            "width": 3008,
+            "height": 4000,
+            "photo_reference": "AV-0GLfzAitoamR-Zi6F5ve8_G2n6shA5SekyejQaqja9W6uBANDjB6fDqCobEyrrV0YOKOVYT82H5sQnVlnQjTqUwk7IZcDhpYAK_uY4IlPvYj1vC9l_FiBeg98XZr7Cw120xGq9H3ORmLXLjRsLVQUiuu-kJz5YImsNzodcF5tQ12wQAIutkSB0JvGN3_u5UoXJGy75xYGu0MZM6-DAc1ofYxLs2VFELbk9ihLzaMG68wUMnnN2QuS0iIx00HC6jxJZNAa4eZBYQQrkFYcuJaQ4XCYM0iaIeVy_PAletYBcft5-EqCSDRoWThvz3ZQqyLy8-rzwq35mS-6ApShDEcmQxB9k9eB3Zd3cAj9TdtVIWR85L3DqJhVf2Ir_qvhmGDxQXt40q7deVuoGjxqX4WBYLsy2o7qPPI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107076468305034911493\">Magalie Dhaene</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5858
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: cafe"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: cafe"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 10:00 – 18:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 18:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les modalités de commande ou de paiement, l’accessibilité, les équipements ni les ambiances."
+    ],
+    "rejected": [],
+    "summary": "Destination café Douai, classé comme café, ouvert le samedi dès 10 h et du mardi au vendredi dès 11 h 30."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "destination-cafe-douai",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_drink_coffee": 1
+    },
+    "editorial": {
+      "Hobby": [
+        "cafe"
+      ],
+      "VisitMoment": [
+        "matin",
+        "apres-midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5858,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0349cccc6d92c5609ee47ed0c2f55327c2ed10cd0992b8897b3735bb46c58aee",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

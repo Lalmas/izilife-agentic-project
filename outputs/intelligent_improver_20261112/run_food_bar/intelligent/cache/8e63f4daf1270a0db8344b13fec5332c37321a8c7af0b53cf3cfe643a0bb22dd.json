@@ -1,0 +1,64 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Pizza excellente."
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:00 – 14:20"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:00 – 22:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:00 – 14:20"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:00 – 22:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "telephone",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "En rappelant, on me répond"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis récent rapporte une annulation de commande difficile, des boissons oubliées et 1h30 d’attente. D’autres avis mentionnent un personnel accueillant et un service impeccable."
+    ],
+    "summary": "Pizzeria avec des horaires de déjeuner et de dîner. Les avis fournis sont partagés sur la qualité du service."
+  },
+  "meta": {
+    "cache_key": "8e63f4daf1270a0db8344b13fec5332c37321a8c7af0b53cf3cfe643a0bb22dd",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

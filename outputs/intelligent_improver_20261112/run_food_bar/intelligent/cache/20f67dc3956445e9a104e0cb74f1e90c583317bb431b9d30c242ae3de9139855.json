@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "boulangerie",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref : boulangerie"
+      },
+      {
+        "string_id": "croissant",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Petits pains et croissant »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« Personnel très sympathique bonne ambiance »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Petits pains et croissant »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref : boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis récents sont partagés : un avis souligne l’accueil et la bonne ambiance, tandis que d’autres critiquent la fraîcheur ou la qualité des viennoiseries et du pain."
+    ],
+    "summary": "Boulangerie à Haubourdin, ouverte du mardi au dimanche selon les horaires fournis. Les avis récents sont contrastés."
+  },
+  "meta": {
+    "cache_key": "20f67dc3956445e9a104e0cb74f1e90c583317bb431b9d30c242ae3de9139855",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les services, les équipements, l’accessibilité, les moyens de paiement ou de commande.",
+      "Aucun avis n’est disponible dans les données fournies."
+    ],
+    "summary": "Waris Restaurant est répertorié comme restaurant au 168 Rue du Maréchal Foch à Loos. Les horaires indiqués comprennent des créneaux le midi et le soir, du mardi au dimanche ; le lundi est indiqué fermé."
+  },
+  "meta": {
+    "cache_key": "f8ec11a619e7eb14269ce2f4e31acb8598823ba1448042ddb2445da73af61606",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

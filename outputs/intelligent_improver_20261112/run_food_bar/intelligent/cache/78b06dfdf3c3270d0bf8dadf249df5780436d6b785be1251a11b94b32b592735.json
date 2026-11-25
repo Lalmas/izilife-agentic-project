@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 15:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 18:00 – 02:00"
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 18:00 – 01:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les horaires sont indiqués, mais aucun menu, service de commande ou détail d’accessibilité n’est fourni."
+    ],
+    "summary": "Restaurant L’aKtuel à Faches-Thumesnil, ouvert à midi en semaine et en soirée certains jours."
+  },
+  "meta": {
+    "cache_key": "78b06dfdf3c3270d0bf8dadf249df5780436d6b785be1251a11b94b32b592735",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

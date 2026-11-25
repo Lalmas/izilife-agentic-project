@@ -1,0 +1,137 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:04:18.021650",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 22,
+      "title": "Balade commentée en bacôve dans le marais Audomarois",
+      "experience_type_string_id": "croisiere-en-bateau",
+      "source_url": "https://lamaisondumarais.com/fr/explorer/la-balade-en-bateau-traditionnel-dans-marais-audomarois",
+      "validation_blockers": [],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "croisiere-en-bateau",
+          "principal_activity_category_string_id": "bateau",
+          "minimal_age": "1",
+          "language_string_ids": [
+            "fr",
+            "en",
+            "nl",
+            "de"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau"
+          ],
+          "age_category_ids": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Tarif standard",
+              "price": "30.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "insolite",
+                "confidence": 1,
+                "evidence": "La balade est décrite comme une expérience insolite."
+              },
+              {
+                "string_id": "kids-friendly",
+                "confidence": 1,
+                "evidence": "La balade est accessible aux enfants dès le plus jeune âge."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La balade est accessible aux enfants dès le plus jeune âge."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La balade est accessible aux enfants dès le plus jeune âge."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La balade est accessible aux familles."
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "La balade est accessible aux enfants dès le plus jeune âge."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "L'activité se déroule en extérieur."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "champetre",
+                "confidence": 1,
+                "evidence": "La balade est décrite comme une expérience nature unique."
+              },
+              {
+                "type": "VisitWeather",
+                "string_id": "ensoleille",
+                "confidence": 0.8,
+                "evidence": "La balade est proposée tous les jours en fonction des conditions météorologiques."
+              }
+            ]
+          },
+          "primary_image_url": "https://lamaisondumarais.com/images/b/9/e/8/f/b9e8f8d3db5a23baab2adeb64c5c02d93cc1a1d3-la-balade-en-bateau-dans-le-marais-audomarois.webp",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 22,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 63,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:04:26.331473"
+}

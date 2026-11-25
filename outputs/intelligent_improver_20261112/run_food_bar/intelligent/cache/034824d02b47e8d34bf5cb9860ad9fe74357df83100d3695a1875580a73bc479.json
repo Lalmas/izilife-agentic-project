@@ -1,0 +1,147 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« j’ai eu le plaisir de dîner au restaurant »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« J'y ai dîné samedi soir »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« idéale pour passer un moment agréable en famille »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« en famille ou entre amis »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« L'apéritif était bien servi »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« le tiramisu, délicieux »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« dîner au restaurant Felicilli »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« en famille ou entre amis »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« idéale pour passer un moment agréable en famille »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Ambiance cosy »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« L’accueil était chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« J'y ai dîné samedi soir »"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« L'apéritif était bien servi »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« cuisine italienne authentique »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "lasagnes",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Je recommande vivement les lasagnes !»"
+        },
+        {
+          "string_id": "tiramisu",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« le tiramisu, délicieux »"
+        },
+        {
+          "string_id": "saumon",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Mon amie a pris le saumon grillé »"
+        },
+        {
+          "string_id": "salades",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« accompagné de salade verte »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "apero",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« L'apéritif était bien servi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant italien avec cuisine maison, ambiance cosy et accueil chaleureux. Les avis mentionnent des dîners sur place, des repas en famille ou entre amis, un apéritif, des lasagnes, du saumon grillé et du tiramisu."
+  },
+  "meta": {
+    "cache_key": "034824d02b47e8d34bf5cb9860ad9fe74357df83100d3695a1875580a73bc479",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

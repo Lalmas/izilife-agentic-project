@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:45"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:45"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:45"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:30 – 23:45"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur le menu, les régimes alimentaires, l’emporter, l’accessibilité, les équipements, les moyens de paiement ou les modes de commande."
+    ],
+    "summary": "Restaurant à Lille, avec des horaires indiquant un service le midi et le soir. Les informations disponibles ne précisent pas le menu ni les services et équipements."
+  },
+  "meta": {
+    "cache_key": "f70419ad80b1e5b9b962b86939147c898075baf5d977ea29f07193ff1acdd42c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

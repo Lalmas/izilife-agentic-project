@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:37:14",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "estaminet-l-ecole",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "estaminet-l-ecole",
+    "status": "found",
+    "data": {
+      "id": "5884",
+      "name": "Estaminet l'Ecole",
+      "shop_string_id": "estaminet-l-ecole",
+      "unique_id": "70661c8221e0e975c3919bb0498edeb8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55140",
+      "principal_cover": "55140",
+      "qr_code": null,
+      "phone_number": "+33320971479",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "16 Rue Jean Baptiste Lebas",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0196097",
+      "latitude": "50.5186003",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:05:01",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:05:01",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJwSIbhB7TwkcRbw-Xd0JzyIk",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5884,
+      "scope_type": "SHOP",
+      "scope_ref": "estaminet-l-ecole",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "estaminet-l-ecole"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55140",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5884_6af3a31d45936.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4941",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34322",
+            "source_hourly_id": "4941",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34323",
+            "source_hourly_id": "4941",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34324",
+            "source_hourly_id": "4941",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34325",
+            "source_hourly_id": "4941",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34326",
+            "source_hourly_id": "4941",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34327",
+            "source_hourly_id": "4941",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34328",
+            "source_hourly_id": "4941",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "estaminet-l-ecole",
+      "google_place_id": "ChIJwSIbhB7TwkcRbw-Xd0JzyIk",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:45 – 14:00",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00, 19:00 – 22:00",
+          "vendredi: 11:45 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: 11:45 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 1920,
+            "photo_reference": "AV-0GLfcSbRwbT_ysCmZftYtzHsRg8nWIt6LDxxHmFMOnY4ijQ2WcHL3AF7M0CyvZlYfwWxIavhq_vDGbW-MQlHE0fpCsmv8uLGerTLw7Gxdd9wMAe_q3bVlD3jM_7eNZyDSfhpgM_HsZRvgyqsVYOJ9NLP3TF4aaC1j-nx2kchAsZYZ0UUoydjeq57jXopLsVE-FlbJ_JMw_W5V-XpqddoJ3zSLKRYTNoWDvngSCle5_3NUnwBC0s-vgFGiYTUYeZeht26WQqHWPhRNU-_o3P0UPXsgY3lChiMR1xrldiP3GRf3L-xuWgW7MiM1JSKIFKofRUJTcfNS3JiqCYHoK4yXtmS_X1SZIGOUimiP9Y4bwWkkvmM_9K1-NgNC3RkkMJJVWLU3tSQvHLsG0G2c2iIg1O8uBgs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102316030106033083314\">Estaminet l&#39;Ecole</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe-IS6PXyQHCvlAdy9VShwvW0Dcj5-uR3bGinBEVTeFlMM43zmxUp0PreidCqcavR9q79OmV3gTlqKuNoT335PuAVnf-wBU_80T5TGfeew5qtrbbc9qP1Sm4wNbrBGl3zTUzL6imaaivP6Up75zyykiJfiyDSzf3JdEL8hRdeK2jc0EdGrVuI29AkxXQks9r8zLJxyJ8ttaX6p69hhMNrwLGFz4zBD5hyhUJFRHUcVADZ2CfdZZ71y2Y72QBYndhWgNntqnt319qRM8CTSRF6s-NlRMiFwM6UNlS8tmicDMcFBhZi-FMRYWgh-s2QyrSkf9klxxUZ7csFqVe1spGU5j52lALYBLh0RkNAcv6nioIU2-dO-bSQgJbWUxMdBFpjsBNaALn6yF8jGNjCk24w8Ec2AgyKBuPiCB9SkpuNII",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116452504604884266714\">valerie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLeMGD0kWX6Mk8Xh0QyA6qHgWI8fZFzPrEQC-Dl9D5wS58zi5inj5FxfgQfyP7COb_EgYfdYJXvI2GujtGsWzJdupxCC1xeVNNDfahmBftyTGiQUtfFS45hF5qkstTVbKPU9F-madLVHkc50s5mJollE8LUagOZ_YWD4fhV-iYOMFSJ7_1XNeZ8UUO7DAZMrurolqK-JTWJk2YBd5mBaXxyqoKzZSKUAC_i8ueFEUbXRnxhCiMls_74ghHupBbhpNLg5UW12jL7uAy4ahvOPbFmfaaOJfiV8-G_tBpOi4wtQBWmeBMJAQsly_UBZylF7dYZh5QClFUewLqMzd61TFSASYYgXXG20eObeKmAOrHzk2lo02QtojwwaXccqO3eA4d-w-QtnQL-UNN1HXqJCXHDU-1MEi9aQ_rXEYv87WVpdtw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105684923945072753879\">José Luis - Heilig</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "photo_reference": "AV-0GLcLpnyCI1bQLCmrqkjGJXwjmjdkGTMOkJPcbNRPAKZfkNCkWtPP1tDrnDkK7vJeNFElYUbhdbXdPvdT6lNM6nJclm6EsqoFh6Dj8AQ3CwqBUptB30sC9IfGq0MDS0q02pyPErB4im-9bbSd6t4JFZ5mxjo5TBB9OUZPMKkgobcAdn6l00vAHMjZnTGwd_c_hGQXVDJcNeYwQjkieVI-ryKLvxrJvrNGBfzslaoyPBA0ANgJ12tCrvQsOnFVmov_m-CR0H-v8_tm40kldecESNqVWPjazN8Dl6KT2y7gw81xh42XNiRTF5DfCQ8UyrwCr_IJxZdP5THvZuS0jj7dth1fRvE62Lcp9bppPPFBRuqwRFUmh6vM034XEU3dxO2Kka6LZEr9NLypu7PhTf1vHhXiNqw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102316030106033083314\">Estaminet l&#39;Ecole</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLdF5KYA-eqShnWQ2uUmiKTPHCc7rQw5YA8duxc58SHA_h6RY6DGM31HUEIfzy7n-5vLw8-pkKiaRkMbIrMJKuuHf_TZNJ8QMRucbNa3UtfRIeaRqzIatdcWzOZaQEeWS4NmcLpz8x36v3YSrTM0IGkpIflLW_DT-sXnU3mw-ojHiE2bH0kRlkrmwgWoaR_z2X9m1fKBrH8wooSJm0jtnwB9NnEpP_bvMrxG3OQnElhQaKWn2JpdKWZDLGxRkMJI6UiPi-ajm6EjCNi-MTFjkrfUVgxAXRy7rdSpm2U-ewd7w8X5mNbOmazKKndmUOJno9wYAWBWwnnRiou9jXHcaYxoiNpgRdhVxdfYPzB7ML6WqKHev9kQHe8y2fErBrnSPivVFEVQoAiaySvhEx7nIiVSuMEJcx4_t28L7i-NUDjb",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105684923945072753879\">José Luis - Heilig</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeEisYJRsikz2yVmrMFwBbkagnWzRIt7G6u9D2rZTubyv8PNGysurfRyZ053_ozXeXz_yG3KTstrO9fWp-Y2wBt-jUw6MS3kOrAE19BhOEcsdX_4mqaUxGWgFFD3HI6IsZwDyPNwWwuWx6j8qiOJrnJQokRFQRJ1Ix2fM38SwgAxEQ6Zwp5SAtfUkGZsTg7IMivHn9ydjcxHLxo1kW6N8pMJDQ7S6UVIF3UIk5l7-ooe-w7M0YbcTgcHXUmr7mMUTSS7kd5x7QMuQF5o82rNMLcVJ-FEf3997FXD2y4o383zB9O2sXwQxZpHMlIE4GzRYmkTxQQkrGFguaY_TOiQjlclkmTtqniuJwJOBMFJwS3pMTT9WsMjzzIqGaXprdDuIXFRWnbDxwHH58g2t1y74Lzf5q0OsE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107477469295120252718\">Joelle Fernowka</a>"
+            ]
+          },
+          {
+            "width": 2444,
+            "height": 2056,
+            "photo_reference": "AV-0GLfEd7288Cweap8bQy26OuqyaQkLhauAANkmfB8-3HRQNCit2i7cmVK1a_2Dg-NZSd3TUfzrrNsnfoj6tKWxb8immDO-u2fIJ-6oofUZnJGzFkV4FEs8Jdxjz6wua1ip-DQsRZmAw7r-BoS9VFMmhwLEi8E2_E3okCs012W6LhyC0nuHMHRqyLIloj-yllGDXgMNDWGPzmCxBME-lmiybSwr4_Ossv6DxP5vsnnvXm2keViLV0gJ1iIeZoUVw-OKWUawPdChrg-J9wDUpFYpQHIa7IpBOER60uxxQB-72lrFB3fLxyk8v6RomeDvQBNi6LpePLiqYLzD_LD7NBLcdNcnFNWUzMaWD3BwJio_526kwyz3DNQOdKs5VBeYNMm-2OANI66Ix_zsoWU8de38q4xDprYUA_4euplZrLD1bv_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101401981260010422036\">Arthur Liege</a>"
+            ]
+          },
+          {
+            "width": 2772,
+            "height": 3552,
+            "photo_reference": "AV-0GLc2B1SBdULazFy2dLXkSAsMXopuQ-_ncy9siAvmak6XHANf8GQP03eFj3Gge4eEbGcO0iEpEz1bcWUq58Dzo_HIIFa1FET9gS-m-IgzSAOU4lRiyGR5wFm-y2Up2E9oawV5HJglJbLXu02epasgsITreayE8-6AiBm6YkNaQbQh11lLbZMw7LLmBABvfH-NOsNesJSs3bLZyn4YA4JXsGW_-QH_J8psXOs8XGRHUeX9mv-JjJpy7sF8MB12V6JklcFPlH6NMx1LuthvpwiOXkjFNI1o6zu7Si4ulqFTfaDwjZpyYmVZzgjC0Xzw43j-QoAFuMrI83mcg458tuFik_jffjwFOk3TOPJWoRzSX7JuOTnMr-FMFmGdW5Rgc6wx2ANK_E8s3Getvjn8ZBPyiWJIy7q1",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101777742671756077487\">Angela et Sylvain</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdQcYzN26xBKR4nnS9RP1xvIOCa9585W2Dr2jOb2QBMoJl48i4e-flFbGqbsvPGKO9nO_WONPCu5BCJXKJngkLq5_uvO9ZvADCYJY5l0LWf0HtmF2j36CBi5YDEulOQJtfRnDPFDZ3p04yzziDlNvCjvjzhe5PJ0ss1VawVO8ipKQTxwLeP4684I6NeOHuXHg9ZFL-6JPV1D15LSmi0Lo3tBgHj_SsLh2F0CcAXQNbLqLtHVYkxIn-hmFBeyRcdr7wwKINCS5z9PEEOmnq3cfBMG2s6drttFPyP713BoyCUnkgcro3g6BJ-VS3nhyBY44B0nr5E-viPMMd1E0QnyZ1-V8fm-7fCVS52noAzVuwh0N7OIPKkEI9g62AzTLlEQGubvx-tzx3uwQNX1D6uSmr0vJIAo4HLveROMBJWjs3FbA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107118312725527756794\">Caroline Cocq</a>"
+            ]
+          },
+          {
+            "width": 1816,
+            "height": 4032,
+            "photo_reference": "AV-0GLcRBkEWz_-bqdDloWAWoMIsUDV-RhGJKxT4M5fitmAFtMqtxwWA2K2hqtmq_EpNsorqFm653hl0DPpa24RV7f0IjBokHgnPvssPXzKnFyUs5oSce62Obx4CwyKPoPfIfi3ahHNyFw6uzjzeUrgJA7s8f_-xugywiHRiUYC8h9reQyUZ_uwdY_qLYJxDhDBXPmP3p-sKiGPREkiF8WP5gD-t736zcSvVr2BzDaQZhjkZkhp5aRyBC914v3ST17Mj1ecLO8gE5NygYzqC9OjzKYwsSAzQiqzLZ-MHR8EZEk5Gs4sxLrs6TTLZzRTWRwiCaI_rYLfa0kjK0JdOAwkM2mAdt7OQnpy_D4iIUmX3pkbaS405URKYxtRbLhQ_ln0iJeLpH7Ts6Sa6kfbLieGHQHqHoQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108464642510768751045\">c F</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5884
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne permettent pas d’établir les plats, régimes alimentaires, la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de paiement ou de commande, ni les publics et ambiances adaptés."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00–22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00–22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant situé au 16 Rue Jean Baptiste Lebas à Phalempin. Les horaires indiqués comprennent des créneaux de déjeuner et, certains jours, de dîner."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "estaminet-l-ecole",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5884,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "eb6ccdc4707b1916712a409d4ac2b4943b9fd9a6e7805273e1de5c06ca3ade71",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

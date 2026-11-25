@@ -1,0 +1,592 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:58:33",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-briquet-du-chevalet",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-briquet-du-chevalet",
+    "status": "found",
+    "data": {
+      "id": "5698",
+      "name": "Au Briquet du Chevalet",
+      "shop_string_id": "au-briquet-du-chevalet",
+      "unique_id": "25441769fbe8907d8b9dfd814cbe84da",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54956",
+      "principal_cover": "54956",
+      "qr_code": null,
+      "phone_number": "+33321281880",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "144 Rue Léon Blum",
+      "additional_address": null,
+      "zip_code": "62750",
+      "city_id": "1171",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.7864067",
+      "latitude": "50.4434732",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJOxUmGYE63UcRVD0W0kgcFdA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJOxUmGYE63UcRVD0W0kgcFdA\",\"rating\":4.6,\"user_rating_count\":237,\"google_maps_uri\":\"https://maps.google.com/?cid=14993921633487830356\",\"fetched_at\":\"2026-11-12T19:58:21+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très belle découverte au Briquet du Chevalet ! Un endroit chaleureux et convivial, un accueil très sympathique et un excellent repas. Nous avons passé un très agréable moment. Une adresse que je recommande sans hésitation !\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T12:29:01+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"christelle laune\",\"uri\":\"https://www.google.com/maps/contrib/115029752304017457705/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVI2fJIZKpV0bLqKqsLenanqyy3b26SIMUY-ubwWH6HAdgcYKIF=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne ambiance, la nourriture est excellente et le personnel est comme ça 👌🏻.\\nJe recommande fortement, prévoir réservation par contre.\",\"language_code\":\"\",\"publish_time\":\"2026-10-01T11:46:16+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Kévin “DroidXace” Hatterer\",\"uri\":\"https://www.google.com/maps/contrib/117233848586588385561/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUUTa-5o9GQj-p-Iwr1Ig7xwxHqXwGR8_O11xa9IvvLIV1xkjVVEQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon, et le service impeccable\",\"language_code\":\"\",\"publish_time\":\"2026-09-11T16:28:00+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"lud h\",\"uri\":\"https://www.google.com/maps/contrib/111961662314642478648/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKYprr4RwNmXmW8nSnRkgG8uZ0ZYYql-hkyx795GsHIMGZFHA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Ambiance bon enfant, lieu convivial servi par une équipe sympathique\\nCuisine simple faite maison et copieuse\",\"language_code\":\"\",\"publish_time\":\"2026-09-11T12:13:31+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Eliane Milcent\",\"uri\":\"https://www.google.com/maps/contrib/117782331812404528114/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKFLR5v3ixHvg9mgNQBSo90esu9L4QP2k_xevy3gTvvF8TcOw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Merci beaucoup pour votre accueil sympathique et chaleureux,du jour.\\n\\nUne cuisine du terroir,simple et  généreuse,et bienvenue surtout après la découverte du Terril des jumeaux 🤗\",\"language_code\":\"\",\"publish_time\":\"2026-09-01T15:54:08+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Loetitia Herbreteau\",\"uri\":\"https://www.google.com/maps/contrib/100459640351618227012/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXUGk9BHyTis-rs_jtkPr9fF4CMHqmKsPQweHO5Nx2kJCNIeYUt=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:58:21",
+      "google_reviews_place_id": "ChIJOxUmGYE63UcRVD0W0kgcFdA",
+      "source_id": 5698,
+      "scope_type": "SHOP",
+      "scope_ref": "au-briquet-du-chevalet",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos-en-gohelle",
+      "string_id": "au-briquet-du-chevalet"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54956",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5698_6af39c92afddb.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4756",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33027",
+            "source_hourly_id": "4756",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33028",
+            "source_hourly_id": "4756",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33029",
+            "source_hourly_id": "4756",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33030",
+            "source_hourly_id": "4756",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33031",
+            "source_hourly_id": "4756",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33032",
+            "source_hourly_id": "4756",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33033",
+            "source_hourly_id": "4756",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-briquet-du-chevalet",
+      "google_place_id": "ChIJOxUmGYE63UcRVD0W0kgcFdA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 16:00",
+          "mardi: 11:00 – 16:00",
+          "mercredi: 11:00 – 16:00",
+          "jeudi: 11:00 – 16:00",
+          "vendredi: 11:00 – 16:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLfoRRelEY6FhUoCxTusYCdTfNKIV0Aw3ZzZZMgXQpQoYugtl8BVkmJekpRYEfsvsjb8MCsrKsQ8ZTnWcGJSecEtdGgvnR-BVJIr88yt0jrhsZQFSgjWSKhoy2bFZ0k9imCrZr6IXHyHbKdXEti3DaQqEMdOVmEYcpvqRCCMi-_Vvs30PiweCJa1-Mgz_VuXR6Ddebn6e3iN35dgIHPG7SUj68TJJtr4Ogt_W3neTCN2ZA3CPmVd34em4i0k8YXYRnarO5llWpJukLHEvzvILpIL5evR2oV7YFCxUV6I-yN7QTTe_AC1NIXIHrSlIgvn2fqIKDl9XVk23nebLjpFWUTeUnIx1g8-FzLosKojLUTACy27KqSa2DpaDtmDB8L02GTY77JuGTV76nGAkhhovALFumIx49g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105450131615748663055\">Sophie CHAT</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfCrNwh0FnIa4hVolB2K8cPGUkvM06FfUwQhpRWwsVTtKsa6vpyGGQnScBxk_3Anwjvl_3g93zJPYx9iSEz_wu5Kng8-MsvwQVMy7i_BVN95InE13acVKhV-Ko8k5gEsj3jiItMFfhTA0W9Jgc_Ex8Z5tjUvrn0tmVS7gNQWmTfra_-KuCPRYrfZTMGIzucsx7kWWcysBxsCJy0AydQh-Kp452LHyIzhBmUKB_H87efA1FlS2bQcnolGcMDQxRD_zoGoLV4V63gQd5d1t6RQYWw3ZidU6S0Jqfii5481qGFjn_J0WI8JwJZbwIF7frjTEd6Yba-45_Inl8SZHbfzD-A1aCDjbdu9Z1yRy45qxztHO1xlkxU-U4_VN3l-e6eetP4G2KX9wQ-KlaA4BtbCsXuLOW3tABqJBik3RQkbXbcyg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100459640351618227012\">Loetitia Herbreteau</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLf3dLHWl5QeMY4Fzhr52Ppqi2lslhNLzPNVxLm6WiTgUL_Uo4_awLUiuN2AaJVz8OM8ptaGVq3b_HeuYnlhhBIGTz2luvMzyAnVwZzxicB0mtRfpMkaVJBsRHS4J1MVmdSstHtuexhmuZKwWd6egmhaEyIsFg60tKL4e0_CYJXNyobE54WNWwv8OC4Hs2VdPu4mGx_OlINnT7WnurhVdPobIeOf0vbg0X49pLbkdMfr9K_vwzesjeDGNvfqLXpMypcxNU0iCNz1Rbte_tT5CYF81-6YJdKJyKoSnBa2iR8lpbXFOGo7apuvCFTqFIyRKNqDj54JacFw3U_2WYUen-89zfEGXXFmLltS9x51Uly52jWRMdNUON3WHosa6Wt75gicfDSpVt1IjYh1FL8MxidVuSE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103158377312728279046\">Sandy R</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcTanJsAUctDm7_Fnct9jjtCtyn52J0bNq2D-7SenCbdDydcBsSxjJFGtGVWa-nETUB3iGBVKmXJL-U2Rd4gcKrDaSYEbnJKg4SGXk6lT37JnBobsk8IyRyVpJB6fsb8wW3N_9YDpxuVSWYji2I1Kl-vqggScE6vwoZRISPX6tDGaS6BRAJT7TdPzxpcr8n8NGsVROKI_YanJ6SSoIpjV4MFnYsthDeh3UCmWuUtJkkJSem7A5zRAl_J07L1CEkXp4XdYnKpMVmo1i6-mQ5UelvksASPo23KutfZz-j3AZ5-gdngRPEZ2HA5cWsOXODYlSLzXKBuTUAlsnGuqOjHKTmIH-1bwVe0LEsUlHtqLVx86nNFvSvKwi7ScwHSL1T0SPOQUn_ontf2-LtSKDcCj7J-qzByLU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104074300367893088495\">Sandy Richardsons</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe_HJjVrq5Aek2zxGb90vR4Od-d-8MxzIKbFEifZ3xL1maEcQCZD_9SMoAVL_ZNAbSoKThfJZJO0xnGBPecFviQ9rbohR3VCW5PYvu6gLpVwCUjkDvf-bNoIu_Oycvaph1bLDQ0C8s6NZjoeHucx3py7a1eC18dMZLdRmdIJ77OdWU-BR9eH2yE6zP1OTwyMeLeWo79n7fHZG5jFJzJFAXTBjUO8FhYVOUMHUxkV69n0pDi70giuStxLsmtkbGern3dF4vpEatQx482dS3YgqJ604k-JJewS17W_4nBMSpyzTbgbU_HmsiZUKjgYDzevV2BSHwnj7Hm229p1IRmf7uf-JCGjvoTN29PL4itFMIoaOmtOCxAZX9eyXgkFi1HsIFXne34wMCbL6WgSciY4mq67wI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103158377312728279046\">Sandy R</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfsFTL1az8j7MsP86s5__Iy_5W5B42y1Q5fCVmQGSSryHNAWyIHpZEOg-Aq8lR4qXIXEvAgkvf0f57lctMsEERGdY3TTfMIPvzYvpDubYTaUctjtvimv6kuPOqS5IdZonxDJbNyl6dY-2fi_q0F21e7DY877HykpFGRNad7dsuv4oGQWd43uvQjo2-fsIVM7F4HrE4NF8TrQwmpcvW8GU06UJfmkM_woagr9mkx7Yk--wPZX6-qksqeR4LaY3H8x2nagICnbtn-qhV2bZDaQCL6pAFwxe82L9cdD08PTVm715btANJ4RylfNCuhrG6z-NTCwBfjsGSRs766GBwb_x2Pig0xCwmgfoE8tbUQme5auSwoyxIbww1lM7wHH4W9lMj6MP6duOKx1miHEta2R4bjkvA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104074300367893088495\">Sandy Richardsons</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcGsnaBemHJ8WlHICquVdjiFakhnC6tjnStmFNtBnP7nb_1vyyv6ukYl5CXRA_CyiglqU50js9dHbDXOnCB40QxJXeOe094ibNfXTbHUwZP76XRGafdhVLiEuYwSQtgxnd6r8SrCTq5xVlcvmjqrfQtu38qalWWIpA1f-inBODQKRxDofPbeoih5KIKCWCRNrQZZnB3svjA26lba-pbFm0rWFp7VXFFN0j7_grDfMWgrxMXIuDbWUX8PaOmvuu232JAVMOmDWB0_DRhfdgT23u-6_6hxToB723B9S_l927qGTR8paeASQFyiegzLphH1sPnvLqBO7BmHgUqp254ZJPcBPs6DG9zCgVE2tlK2aqgxWKMr2PYuh1j-kTfqYRGHokYP4RzPuT9dr2z4X8sHb54s8Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103158377312728279046\">Sandy R</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeGNCaD1dT-_pRAYsgmTzl6dA-RADjpI8PO0-2pSN4ltdJEfaGtoRTZOzbl-yyxGGUZdahcgse7WHelYAfVRBQ07cxPbRUk40Dol6T9fW3Vo1iSm6VEZySsiZOKWMuttyJUf-eCEMehEPPW6JBbq3Dc10Z1_lVJnxQKcTwv0AHb1XTOt_o2pox4GG5jVLBfyxow0M2YFvZCpNk6j-C_mZdJv04vBkzL6AQj2xF_mozz0-TSKoOiaSbk2oxUD4Sf-KbJ3gLEOXUNBcq3V708HeZziVhTiPwEnp_ib2lC5ucyKgRcHfgXvgIebKPXUrOCSr4ngxOCgNqz4LSq4aG9sQRYyUbDEWk576cFnZ_VC99qs_RSHUCqv8t8O0ejQnGGCa68wxswII9pTdL9K10BQxu5oZY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115696320771222794197\">Rassouan Richardsons</a>"
+            ]
+          },
+          {
+            "width": 3096,
+            "height": 4128,
+            "photo_reference": "AV-0GLfK2SnecN8S7wJHgu894VKhnpixY0dinhmU_sv4NMpV5LafEv-ent1z00dSIOFkQznfMqBDLmltT7tMtUuXe_b4ok2Virk1ZpTVyiOdCKtx4seuVzhpOVf6u5AxsfrVPiQC9_SDhGOqVm-ddRamP2IW3E3LSXhBUmcGzMqN8KMCHDTrftCALdszSXCFDlNtFXGPcz7b_7Gh6DhzXiPstry7HFrjQCuMBhHjrPzJ2DXNmbkKNQoy9-rIxu9JS-FY99URafcC3HU063UBtHyzQemSj7U5AFihmlLIkS1gGrPUU47hCn_nIm0B4iu4q208NrSgcIDkhav-dHuMhG_yBmGgboZt5lhbx6Gzq-_pIkL3eZeDcyNr6tPLSxD5PLptKMp11-7fWvWPj6bfJF4lgLDztg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115653166891696682763\">Rassouan Richardsons</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcNqmEuO0J2YH6Ffp9_C0aVc4_NXOfMkiqqJB32sEGDYA3u9wOFggKyl_YvxTP5e0hhrZzL6ferY6XWLbWwTs1V1Hu7nRAR9jqEr--oGM6OBQxMHORzsITVozQlVQy7puxeFQPjPeVj644oDzfHTTomAHQofJzACOx0WUrb10Fca_YVedGnvrdLrAfAiXHCPivWNdRlzJd-yksjxH7EM4SXFi-e2abcqnpoUzc5Ut3rF9tpgaPvXDy1QoF5Z0xdsnp45SWI1omwIMasvygNC7zazvD4N2Es-KkGFsf-zLbEOOHlxsLS-3P3Dx9htrdFKYeX38yhn5G7qHyxkBQkTekCGPsTSgMWgRZvK8kYj2O7MD4ppkv-3ER-75Hh_ow4cCXEXb_DEfNZU58P_LTy0YT7_Z7ATbE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105473541388849937505\">Gérard Juif</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5698
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très belle découverte au Briquet du Chevalet ! Un endroit chaleureux et convivial, un accueil très sympathique et un excellent repas. Nous avons passé un très agréable moment. Une adresse que je recommande sans hésitation !",
+            "language_code": "",
+            "publish_time": "2026-10-21T12:29:01+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "christelle laune",
+              "uri": "https://www.google.com/maps/contrib/115029752304017457705/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVI2fJIZKpV0bLqKqsLenanqyy3b26SIMUY-ubwWH6HAdgcYKIF=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne ambiance, la nourriture est excellente et le personnel est comme ça 👌🏻.\nJe recommande fortement, prévoir réservation par contre.",
+            "language_code": "",
+            "publish_time": "2026-10-01T11:46:16+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Kévin “DroidXace” Hatterer",
+              "uri": "https://www.google.com/maps/contrib/117233848586588385561/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUUTa-5o9GQj-p-Iwr1Ig7xwxHqXwGR8_O11xa9IvvLIV1xkjVVEQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon, et le service impeccable",
+            "language_code": "",
+            "publish_time": "2026-09-11T16:28:00+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "lud h",
+              "uri": "https://www.google.com/maps/contrib/111961662314642478648/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKYprr4RwNmXmW8nSnRkgG8uZ0ZYYql-hkyx795GsHIMGZFHA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Ambiance bon enfant, lieu convivial servi par une équipe sympathique\nCuisine simple faite maison et copieuse",
+            "language_code": "",
+            "publish_time": "2026-09-11T12:13:31+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Eliane Milcent",
+              "uri": "https://www.google.com/maps/contrib/117782331812404528114/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKFLR5v3ixHvg9mgNQBSo90esu9L4QP2k_xevy3gTvvF8TcOw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Merci beaucoup pour votre accueil sympathique et chaleureux,du jour.\n\nUne cuisine du terroir,simple et  généreuse,et bienvenue surtout après la découverte du Terril des jumeaux 🤗",
+            "language_code": "",
+            "publish_time": "2026-09-01T15:54:08+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Loetitia Herbreteau",
+              "uri": "https://www.google.com/maps/contrib/100459640351618227012/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXUGk9BHyTis-rs_jtkPr9fF4CMHqmKsPQweHO5Nx2kJCNIeYUt=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 237
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1178,
+        "bo": 140,
+        "front": 1038,
+        "estimated_cost_eur": 4.45
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« un excellent repas »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« un endroit chaleureux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons passé un très agréable moment » et « un excellent repas »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "lieu-de-vie-local",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« lieu convivial » et « cuisine du terroir »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant convivial à l’accueil chaleureux, proposant une cuisine maison simple, copieuse et généreuse. Réservation conseillée selon un avis."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-briquet-du-chevalet",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5698,
+    "changed": [
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0d0b82842a42117c5510d6e63657457c8a07b514b026f7e6af10443f79dc2358",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

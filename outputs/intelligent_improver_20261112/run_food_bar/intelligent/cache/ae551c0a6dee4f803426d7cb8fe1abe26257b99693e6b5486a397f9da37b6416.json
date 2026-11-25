@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 20:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 12:00 – 22:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 20:00"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 12:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les modalités de commande ou de paiement, ni les équipements et l’accessibilité."
+    ],
+    "summary": "Restaurant Chez Marcel à Noyelles-Godault, ouvert à partir de 12 h du lundi au samedi ; fermeture à 20 h du lundi au jeudi et à 22 h le vendredi et le samedi. Fermé le dimanche."
+  },
+  "meta": {
+    "cache_key": "ae551c0a6dee4f803426d7cb8fe1abe26257b99693e6b5486a397f9da37b6416",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

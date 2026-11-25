@@ -1,0 +1,104 @@
+{
+  "audited_at": "2026-11-09",
+  "environment": "production",
+  "constraints": {
+    "openai_or_llm_calls": false,
+    "automatic_experience_tmp_validation": false
+  },
+  "hub": {
+    "reliable_endpoints_expected": 20,
+    "present": 20,
+    "active": 20,
+    "priority_2": 20,
+    "valid_driver_json": 20,
+    "with_hub": 20,
+    "with_official_city": 20,
+    "lille_city_resolution": "string_id + MIN(id), aucun ID de ville codé en dur",
+    "excluded_sources": [
+      {"city": "Pont-à-Marcq", "reason": "aucune page détail événement exploitable"},
+      {"city": "Camphin-en-Carembault", "reason": "événements multiples sans liens détail individuels"},
+      {"city": "Hérin", "reason": "agenda vide ou bloqué sans liens détail individuels"}
+    ]
+  },
+  "hub_runner_service": {
+    "status": "audited",
+    "php_lint": "passed",
+    "base_url_preserved_with_pagination": true,
+    "embedded_payload_merged_in_discovery_probe_and_dry_run": true
+  },
+  "experience_cleanup": {
+    "candidate_count": 43,
+    "remaining_in_production": 0,
+    "action_owner": "assistant_after_action_time_confirmation",
+    "assistant_delete_action": "executed_transactionally_and_post_audited",
+    "backup_experience_rows": 43,
+    "foreign_key_dependency_tables_audited": 48,
+    "conventional_reference_columns_audited": 71,
+    "non_empty_dependency_tables_backed_up": 13,
+    "backed_up_dependency_rows": 745,
+    "user_events_policy": "hors périmètre à la demande de l’utilisateur",
+    "production_rechecked_at": "2026-11-09",
+    "deleted_since_backup": 43,
+    "post_purge_audit_sql": "outputs/experience_agent/xp_purge_post_audit_20261109.sql"
+  },
+  "duplicate_resolution": {
+    "city_tour_lille_68": "physically_deleted",
+    "bus_lille_123": "active",
+    "canonical_2cv_74": "active",
+    "champagne_2cv_122": "physically_deleted",
+    "post_purge_invariant": "68 et 122 absentes; 74 et 123 actives"
+  },
+  "reference_directories": {
+    "sport_count": 46,
+    "dance_count": 46,
+    "music_style_count": 89
+  },
+  "external_promo": {
+    "checkpoint_file": "outputs/experience_agent/externalpromo_instagram_checkpoints_20261109.json",
+    "instagram_urls": 4,
+    "publish": false,
+    "validate": false,
+    "status": "awaiting_manual_review"
+  },
+  "christmas_2026": {
+    "annual_celebrations": [
+      {"id": 2, "name": "Village de Noël de Lille", "event_id": 1195, "hourlies": 9, "weekly_day_id": 7, "dated_overrides": 2},
+      {"id": 6, "name": "Village de Noël de Wattignies", "event_id": 3522, "hourlies": 3}
+    ],
+    "standalone_events": [
+      {"id": 3528, "city": "Arras", "active": true},
+      {"id": 3529, "city": "Douai", "active": true},
+      {"id": 3530, "city": "Seclin", "active": true},
+      {"id": 3531, "city": "Fâches-Thumesnil", "active": true},
+      {"id": 3532, "city": "Calais", "active": true}
+    ],
+    "pending": [
+      {"city": "Dunkerque", "reason": "dates exactes 2026 non démontrées par une source officielle contrôlée"}
+    ],
+    "long_event_hourly_rule": "day_id hebdomadaire; event_date uniquement pour les surcharges explicites",
+    "package_validator_guard": true
+  },
+  "google_sheet": {
+    "tab": "Ameliorer",
+    "target_range": "A83:C89",
+    "status": "updated_and_visually_verified",
+    "rows": 7
+  },
+  "completion_audit": {
+    "verified_blocks": 8,
+    "total_blocks": 8,
+    "status": "complete",
+    "only_open_requirement": null,
+    "production_evidence": {
+      "hub_endpoints": "20/20 présents, actifs, priorité 2, JSON valides, hub et ville",
+      "reference_directories": "Sport 46, Dance 46, MusicStyle 89",
+      "christmas_events": "7/7 actifs; Lille 9 horaires = 7 day_id + 2 surcharges",
+      "xp_backup_rows": 43,
+      "xp_remaining_rows": 0,
+      "xp_deleted_rows": 43,
+      "xp_dependency_rows_remaining": 0,
+      "canonical_duplicates_active": "74 et 123",
+      "obsolete_duplicates_remaining": 0
+    }
+  }
+}

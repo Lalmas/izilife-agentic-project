@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1160,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "Le titre « Cécile Marx — Iconique » ne précise pas une forme différente du stand-up.",
+      "La catégorie existante « stand-up » est conservée faute de preuve suffisante pour la recatégoriser."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre seul ne permet pas de déterminer si le spectacle relève d’un one-man-show, d’une comédie ou d’un spectacle comique d’une autre forme."
+      }
+    ]
+  }
+}

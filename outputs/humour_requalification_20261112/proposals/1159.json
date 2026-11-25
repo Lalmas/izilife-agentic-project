@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1159,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.55,
+    "evidence": [
+      "Le titre nomme Rémi Boyes et le spectacle « Bombus Terrestris ».",
+      "Aucun élément du titre ou de la description ne prouve une forme plus précise telle qu’un comedy club ou un one-man-show."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La forme stand-up n’est pas explicitement annoncée dans les informations fournies ; le classement existant est conservé faute de preuve suffisante pour une recatégorisation."
+      }
+    ]
+  }
+}

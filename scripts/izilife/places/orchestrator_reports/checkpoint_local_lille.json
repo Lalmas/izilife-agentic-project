@@ -1,0 +1,54 @@
+{
+  "completed": [
+    "maintenance_content",
+    "google_hours",
+    "media_curation",
+    "intelligent_1_palais-des-beaux-arts",
+    "structured_content",
+    "promote_existing_covers"
+  ],
+  "runs": [
+    {
+      "stage": "maintenance_content",
+      "at": "2026-11-05T22:30:09.358827",
+      "returncode": 0,
+      "stdout": "[22:29:41] === enrichisseur.py — zone=lille env=local city=lille max=1 [DRY RUN] ===\n[22:29:41] Ville résolue : lille ? city_id=1\n[22:29:41] ? 0 lieux prioritaires\n[22:29:41] 1 lieux (0 prioritaires + 1 queue)\n[22:29:44] \n  [PLACE#4] Place Rihour (score=0)\n[22:30:03]     [DRY RUN] 957 chars collectés\n[22:30:03]     [DRY RUN] ? postAgentAnalyzeContent ? postAgentSubmitEnrichment\n[22:30:09] \n=== RÉSULTAT ===\n[22:30:09]   Trouvés  : 1\n[22:30:09]   Envoyés  : 1\n[22:30:09]   Fermés    : 0\n[22:30:09]   Modifiés  : 0\n[22:30:09]   Skippés  : 0\n[22:30:09]   Erreurs  : 0\n\nJournal Excel : G:\\Mon Drive\\agentic_workspace_local\\izilife\\places\\lille-zone\\logs\\W45\\enrichisseur_lieux_2026-11-05.xlsx\nPilotage global : G:\\Mon Drive\\agentic_workspace_local\\izilife\\logs\\pilotage_global.xlsx\n",
+      "stderr": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\competitions\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'localhost'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\nC:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\competitions\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'localhost'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n"
+    },
+    {
+      "stage": "google_hours",
+      "at": "2026-11-05T22:30:19.366948",
+      "returncode": 0,
+      "stdout": "Rapport: C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\places\\orchestrator_reports\\google_hours.json\n",
+      "stderr": ""
+    },
+    {
+      "stage": "media_curation",
+      "at": "2026-11-05T22:30:20.159621",
+      "returncode": 0,
+      "stdout": "Aucune ligne à traiter.\n\nJournal Excel : G:\\Mon Drive\\agentic_workspace_local\\izilife\\media-curation\\lille-zone\\logs\\W45\\medias_2026-11-05.xlsx\nPilotage global : G:\\Mon Drive\\agentic_workspace_local\\izilife\\logs\\pilotage_global.xlsx\n",
+      "stderr": ""
+    },
+    {
+      "stage": "intelligent_1_palais-des-beaux-arts",
+      "at": "2026-11-05T22:30:21.707181",
+      "returncode": 0,
+      "stdout": "{\n  \"json\": \"C:\\\\Users\\\\alcamara\\\\Documents\\\\agentic_Workspace\\\\scripts\\\\izilife\\\\places\\\\orchestrator_reports\\\\intelligent\\\\place_palais-des-beaux-arts_20261105_223021.json\",\n  \"xlsx\": \"C:\\\\Users\\\\alcamara\\\\Documents\\\\agentic_Workspace\\\\scripts\\\\izilife\\\\places\\\\orchestrator_reports\\\\intelligent\\\\place_palais-des-beaux-arts_20261105_223021.xlsx\",\n  \"accepted\": {\n    \"tags\": 0,\n    \"principal_characteristics\": 0,\n    \"editorial\": 0\n  },\n  \"rejected\": 0,\n  \"analysis_only\": true,\n  \"apply_result\": null\n}\n",
+      "stderr": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\competitions\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'localhost'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n"
+    },
+    {
+      "stage": "structured_content",
+      "at": "2026-11-05T22:30:22.847890",
+      "returncode": 0,
+      "stdout": "\nJournal Excel : G:\\Mon Drive\\agentic_workspace_local\\izilife\\pilotage\\lille-zone\\logs\\W45\\enrichisseur_contenus_2026-11-05.xlsx\nPilotage global : G:\\Mon Drive\\agentic_workspace_local\\izilife\\logs\\pilotage_global.xlsx\n",
+      "stderr": ""
+    },
+    {
+      "stage": "promote_existing_covers",
+      "at": "2026-11-05T22:30:23.808527",
+      "returncode": 0,
+      "stdout": "{\"success\": true, \"dry_run\": true, \"results\": [{\"target\": \"PLACE:palais-des-beaux-arts\", \"http\": 200, \"result\": {\"success\": true, \"updated\": false, \"skipped\": true, \"reason\": \"no_owned_media\"}}]}\n",
+      "stderr": "C:\\Users\\alcamara\\Documents\\agentic_Workspace\\scripts\\izilife\\competitions\\.venv\\Lib\\site-packages\\urllib3\\connectionpool.py:1110: InsecureRequestWarning: Unverified HTTPS request is being made to host 'localhost'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings\n  warnings.warn(\n"
+    }
+  ]
+}

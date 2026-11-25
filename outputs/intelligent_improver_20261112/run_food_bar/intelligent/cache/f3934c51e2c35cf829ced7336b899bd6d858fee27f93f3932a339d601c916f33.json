@@ -1,0 +1,29 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "La fiche est marquée inactive (is_active: 0) et non listable (listable: 0).",
+      "Les données fournies ne précisent pas les produits, services, horaires ou modalités d’accueil."
+    ],
+    "summary": "Nicolas & Valérie est classé en boulangerie à Phalempin. La fiche est inactive et non listable."
+  },
+  "meta": {
+    "cache_key": "f3934c51e2c35cf829ced7336b899bd6d858fee27f93f3932a339d601c916f33",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

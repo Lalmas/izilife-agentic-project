@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2985,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La description annonce un seul-en-scène drôle et touchant, à contenu comique.",
+      "Aucun plateau, open mic ou programmation réunissant plusieurs humoristes n'est indiqué."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le seul-en-scène est confirmé, mais rien ne précise qu'il est écrit et mis en scène ; la forme one-man-show n'est donc pas suffisamment établie."
+      }
+    ]
+  }
+}

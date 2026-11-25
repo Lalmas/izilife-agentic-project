@@ -1,0 +1,40 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 13:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 13:00"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 16:00 – 19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les éléments fournis ne précisent pas la restauration, l'ambiance, les équipements, l'accessibilité, les moyens de paiement ni les modes de commande."
+    ],
+    "summary": "Bar situé au 63 Rue du Lieutenant Baillet à Carnin. Les horaires fournis indiquent une ouverture le matin et en fin d’après-midi du lundi au vendredi, avec des horaires réduits le mercredi."
+  },
+  "meta": {
+    "cache_key": "ea2f907ec24523cf40a8163ec037350d6501d05ac82c10cd8cfaff62b9a6c1a8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

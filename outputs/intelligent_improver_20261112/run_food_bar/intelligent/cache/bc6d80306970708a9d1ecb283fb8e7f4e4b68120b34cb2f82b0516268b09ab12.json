@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Les pâtisseries n’étaient pas fraîches »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis Google du 8 novembre 2026 signale des pâtisseries jugées peu fraîches et une réponse insatisfaisante à sa réclamation ; il s’agit du témoignage d’une cliente."
+    ],
+    "summary": "Boulangerie située au 97 Rue Carnot à Faches-Thumesnil. Les avis mentionnent des pâtisseries, des mignardises et des viennoiseries. Aucune information fournie ne confirme la consommation sur place, l’accessibilité, les moyens de paiement ou les modalités de commande."
+  },
+  "meta": {
+    "cache_key": "bc6d80306970708a9d1ecb283fb8e7f4e4b68120b34cb2f82b0516268b09ab12",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

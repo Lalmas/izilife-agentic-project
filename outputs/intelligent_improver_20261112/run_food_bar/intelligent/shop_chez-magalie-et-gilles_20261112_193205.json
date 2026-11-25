@@ -1,0 +1,619 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:32:05",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "chez-magalie-et-gilles",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "chez-magalie-et-gilles",
+    "status": "found",
+    "data": {
+      "id": "5586",
+      "name": "Chez Magalie et Gilles",
+      "shop_string_id": "chez-magalie-et-gilles",
+      "unique_id": "fa9812bcb0c9a9591944b4a4bd086c7e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54845",
+      "principal_cover": "54845",
+      "qr_code": null,
+      "phone_number": "+33320903275",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "56 Rue nationale",
+      "additional_address": null,
+      "zip_code": "59147",
+      "city_id": "5",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9856935",
+      "latitude": "50.5423712",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:23:26",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:23:26",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ33gErrYs3UcRwQLv92FLiW0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ33gErrYs3UcRwQLv92FLiW0\",\"rating\":4.5,\"user_rating_count\":125,\"google_maps_uri\":\"https://maps.google.com/?cid=7892922706087051969\",\"fetched_at\":\"2026-11-12T19:31:50+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":1,\"text\":\"5.50€, l’image par d’elle même…\",\"language_code\":\"\",\"publish_time\":\"2026-09-28T09:47:58+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Tom Tom\",\"uri\":\"https://www.google.com/maps/contrib/111606976556144453210/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIyQkRqtNH4s2xnrGIyVJHJKt7odAKLP47A8mbx6y-zz_2bKQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super bon\",\"language_code\":\"\",\"publish_time\":\"2026-07-27T10:53:33+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Carrasco marie-jeanne\",\"uri\":\"https://www.google.com/maps/contrib/116021948945829973978/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUpeUbSZTPoivoTAVy1-zJVFQ39fgoix1FVKJrKNiDyu-U1J_Lf=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Bien sur un bel accueil, sympa et chaleureux mais surtout des produits de très bonne qualité, la galette frangipane a certes un coût, mais elle a du goût, et c'est même très clairement la meilleure que j'ai pu manger du haut de mes 53 ans, sans exagérer ! Bravo pour cette qualité et votre accueil simple et sympa.\",\"language_code\":\"\",\"publish_time\":\"2026-01-28T17:11:23+00:00\",\"relative_publish_time\":\"il y a 9 mois\",\"author\":{\"display_name\":\"DAVID GALLET\",\"uri\":\"https://www.google.com/maps/contrib/113507758520533627618/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWBRDjN_j3snvxYJ5l7O_RnXdalRZ7a5qk0c4eEFv97ahLa6z9F=s128-c0x00000000-cc-rp-mo-ba6\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"La bûchette au café un vrai délice\",\"language_code\":\"\",\"publish_time\":\"2025-12-25T17:20:25+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Pauline Decool\",\"uri\":\"https://www.google.com/maps/contrib/116378332047904015306/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ-dLDcI56zDp4PwGRET0Utmdo_vgChBBQBVCEj7OKrCF1iSw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Excellent acceuil, baguette tradition excellente et bien cuite!\\nMerci Madame d'être ouverte un 11 novembre!\\nA visiter!\",\"language_code\":\"\",\"publish_time\":\"2025-11-11T09:23:57+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Nathalie Vasseur\",\"uri\":\"https://www.google.com/maps/contrib/117236284020198535366/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWerjMR8N_UNYw0RFWUmuKusVRo1V5aRpVRZoFMtyb_hXD6SMRV=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:31:50",
+      "google_reviews_place_id": "ChIJ33gErrYs3UcRwQLv92FLiW0",
+      "source_id": 5586,
+      "scope_type": "SHOP",
+      "scope_ref": "chez-magalie-et-gilles",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "gondecourt",
+      "string_id": "chez-magalie-et-gilles"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54845",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5586_6af3995e86e83.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4646",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32257",
+            "source_hourly_id": "4646",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32258",
+            "source_hourly_id": "4646",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32259",
+            "source_hourly_id": "4646",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32260",
+            "source_hourly_id": "4646",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32261",
+            "source_hourly_id": "4646",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32262",
+            "source_hourly_id": "4646",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32263",
+            "source_hourly_id": "4646",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "chez-magalie-et-gilles",
+      "google_place_id": "ChIJ33gErrYs3UcRwQLv92FLiW0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 13:00, 15:00 – 18:30",
+          "mardi: 07:00 – 13:00, 15:00 – 18:30",
+          "mercredi: Fermé",
+          "jeudi: 07:00 – 13:00, 15:00 – 18:30",
+          "vendredi: 07:00 – 13:00, 15:00 – 18:30",
+          "samedi: 07:00 – 13:00",
+          "dimanche: 07:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 2433,
+            "photo_reference": "AV-0GLfW1q0Uw3NFs4Uv3JD7H8AUM13tnWvlK2w8HwMuuuR1BuFGldkctIpx5c-KBWb9vQrW4a2uaWXfrRWDXYXWEymnXxB-d_eihIJWnPPt-72NRIKOFW3zHwWHjW3NrHvDmP_g3RGci06HNLM9mOuRk1G7mjOX90EMTDkM9re3OFe7zxdDpxHb7jumjMV21pNPgVgUSZowXIUVqSkz5koWf6eoVJ4XgyGiRQDqY2IL33g09QHZuuLvJRDcwtoTBOJrEq_2eEc_K3YDGrE8T7D3xwrLRciflRSGsjoJnxBadhL1Usfe-3uc8uBEnWN-sYrvCW6bHf5DV6db2ItZqctyCsep-3RYJfj99O9IsRSGT5adfrRbq8MtghzW6_W8BpRXy1es_ICDHEfXXuarIrYeWoZmeKoRejM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117748616548294502729\">Chez Magalie et Gilles</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLftNanWMqdVTEHyqJW-8umxkosDQ-ObqAVTLzgJxaLxWuvMK2Ym31vJde5vLMeVSfrLP4mjYJfp0bhQ5H8D8hkaimY9xqNupey_dkQGnB3oc40oACCOmXS5E_6AuFWBycECdxbs1chjfNplCvcia6-PUDuZjyZMm86VV8xALBcgYxcZpB_VYqkywm9Z4kxIdvzXZ1jzaa9R28cPH9CY7m7z0PI5DB6zXmrGrnany_pk7B6H2eoVcqFZp9-X294ReSWncRnIkKT0Ny6nsTj2oFwty5Y6M54dnsjGg6_eyUf2COdOnBpiRPv2Uid2ittg0zGfzKrn_gTwU6o3-JaYatLemQTvMC_r4UpfVJrOE6RfdVF95KuNgMK2emQ-HBjTmWnq954syuo6vzObO9ALM3KaXUWAZLk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116363716923618920686\">magalie Christiaens</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLcgmZByadZi5Q-H3uHMQNDYGZ8Ea0bEnv9m0TSjOJkgsi1_np5NXFbctZMU8lruqWbpkNefK114GSAoSkSK6zK8UY_j-buRpaYADEl6rHRfXJYLYkQoGTw5wjQ_YkGSe-k27mVAwrPEeXI0-4KRyUzwcHeNwAQZP9kt1uca_Ek7NEqil_dRPrEHn1StNSoUztfkhct9xnh4ZWfHdfyr0Q7T7HRMoARQh8hAKLHrvceYmMCJlQhmelW01nY7TgHZpi-mX7QFBgCDZ2rTE_mb0mUZeq3LkBEkDHmhZcYa3ZrSIHZU8h0cRM0F5wlnSSrxHcW5mVt9rMZ_mt0HtRsXgQdlhVX88_DT2QNJUVxwPLm2VCafwCnq1OHHAyUz3IJ9ngzS3tDmG8JXSfflqFpSzBu4RmY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110356265071914441872\">Misael Costa Corrêa</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLcKVcxlKSQgouFLd9yXta_V_YW61dx_uOArA0XXLSRoain4fuipUNqV9CtTh2dkH2RphkIvQ0JNl4ApsFbQVx_O7r2rZYM6nkl6chjlBEbaQIKFVH1EL4D7M8p8tIOn19aQ0A8eYJ538PhDhzuOeJp8ybDRQDP-mRvzSHLfS6D-T8yw1xg10Q8_UYLp_vpoyGKvYd9-dJImBB3snx09HymWvV3LSDxYxmwSwy5vcBCo3p5Q2CyV6nYrt0T2_kQgjsGQd3fbLVR_8tO7jhFADL4EVNr9UK8OLDYDH2Pb5jswwJxcdWJtq3LS2M_I8WjRwlsyf7QjU6HInmI5j3kDcfIGlbu9tYxOIM32Jjf1pWVgTVhE-NpvaOPoRv0sBJgqPgGNLUoZOzDZnyUxw525riIkYd2-3GA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116363716923618920686\">magalie Christiaens</a>"
+            ]
+          },
+          {
+            "width": 2322,
+            "height": 4128,
+            "photo_reference": "AV-0GLcJJ10Q7KP0sDvVxzfDGV2Lz0B4sEQYOdt_Nd_Rh-THt5G_-kolPbcVq03-Hd-F9t2i7uvPC5xZR8WxiiPkPsWN3vOx4XBkSbS1eLCyU5-7h6_QcQ3m2nejcMoiblI6-jLkupw7wHYfJ6vkCrAZ9ZgoQDos0GofY1Ak-DPlsTe8QOeGZxP-X4sNDfCDCTz10Mi0kWYRpESxrt7OumKPDKt-QKT_I8WHxq4M5hnVE3N0-_mtguPht8t3P32mQ54oVMHFtlslfHpED6H-1YakYEwSnDEi3PfOo8ymTAt4it8C8JELTcIE-_26zujjPEwiytIrMHahwapvOvbZdXDPKjqcW4jYBjKfldWr_TLBOZU473MmxuUItRPMcB1jlIME0KD4_lqknWgW1tmrBACz89yjGaT8bMw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116363716923618920686\">magalie Christiaens</a>"
+            ]
+          },
+          {
+            "width": 2717,
+            "height": 2322,
+            "photo_reference": "AV-0GLcrXtb9q5vvTEKsRdNZle2zy9CnykjarRQf1V0-EbGqfPoUNjV1VusPDrCldKYge8j__2hJwvjh0ss3Y4bFUEpUSdw2mxFEFRnhEb2yqmgtPBCgiBxFF1izRipHHYOSHbZNrBcrtcQvaccExm8KynCbu2JKfkd-lkP1rIySzUfNYVDqmBKg1cOjW8R7qv73hqNJ5Rbk-ICxk8nMADCxavgv8NCjMf3_FdeA2KdfhTiOZhsmeqaXzaPV0Nr-CJSifjEaXaEN0UbDELBF2DHvZg6_mM9zLu4t08Ti3SOPe_ROf3-L_vV6GA2LTJUI-C6OHJxQ3ZOcxhPfX7PC6sFZVMgrJN7bZVO2s7vQmmLj8iXz1iIHMX59N5wTkxFxu4Be9VZIBoUYO8Mz4KDT4GTyoqRCTvE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116363716923618920686\">magalie Christiaens</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 1792,
+            "photo_reference": "AV-0GLd4C4_Hwd-Ph00WdEqEM8TyWdJYUrMQLB9iaHx4uEKtk5JqftGe0SBcRGJsoRvKeQuRV3B4_OL9N8ymAGuLiyGPZLFS0ERCd-9wUWjkc0s8L-7poHkEm6t7kneoK330w3ipxmIbJlgi3b9pddasJTFIIKLgtGTm-dP1BaWo0PCcrwNm2XFRTVKZfsEPOFzMtmz6vIxF-MWMYSWsNsH6sTc4md_jreTjsDdM55hfIIr4pbj4CqcyVFXNoME7LwYzqY9WUvSphkWNZq94iVhkbQdESPklDW3fsHjICQ2FGgYIjYPspuDmk3evCBliVG4Ev_xn08RKPNUEyHBz_uDQoFDwGdg18C6a2jsDgZwufz7msvEujflhs6-1_G1cFItGuRu7CDMtQl0yb7RHOeNqq5x2gwM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102327478941691567273\">Ophélie Guichaux</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcXCQd6_6jPt33OKGQ5QOGu3ilirbI-pWp2puoULnidj9g9v6gO_ue0w4T2N16fvpVpqndErFQuLw9EXv-W0-RwHOL4lynWAegk4V58gXfjl2BPUJC-mMt6L2h-i2AqaJ6iCT8Sr2chO9v0vx6BxNOWBBE2YFKiMtc3osxxOomSX4vG0RUqXVv2cJV2dVtFF4cV-kXfe_goclvpFNePsg5oQ0EoGAvWmWoXLyULpf1b6UI6VxBkj-ayJSiC7fTS2P4y9UJIaISUE2FyHGU6H2i_pICPTHmvjmgqSEXCKGWFSSj8WS2yKeIHFtSj10yEOVZdvPEyYQNG5HNvL8kG_rfrOjth3lh4kLIEqZgWC0Nf0OeUojvwedApLAKxBYhs-cKucqZ4AiLKv_MNqYLyROPgGqC3",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117748616548294502729\">Chez Magalie et Gilles</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe1LSXwsi7UrcylgwlJ1kIj3MVxab5rtqC3qRa17Hv7KDTeYpyy_nntfQTbPjxR6jmfC4dF2_BNKPz49mW2pHzylbFBvgigLX-zJVSQpXGjp4v0AYkaJx0N3_2kNFOjf2TMSCWybUdJNb2QN1sDWA9d6iKmihdhy01iWpJf82Xk6yTfb93w2Gt69pTyaKbFwVLUpkWQ7id66lPfsh6EnuAPkAsqm0YUxgkh3VfmKtDKbnusY5B30QZ9cP3gvEzUWeu2Yt8Y0tQKwem7kMVqMlx2cKdaFpY-08vCBvhgAJHhcL4njLBEEOYqZQBzvCfiAuo18tLVnyQCwCB5XRjALNbJBnsmlUhP6BhlZjrtcAnN3PqkY7EbE5ppGTN73oHEfbexnz-dzizaMLDquAJgc0J1Sg7Cn9tG2E8nUIfv0464",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111606976556144453210\">Tom Tom</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLfUi02iE4YRHSWjjGG0YV_pLiKAnZwYX_0RGmGwsHLk_zQukfEyU-x-1ldSsTm0y1zqHYvMyUoqhMDwTYpTKkWoAq6wJ-s8Tghsy1I63c7_WWLKzRWv9IbU3ZrtJFfOg0F0adxZJkCx4jRc26zOm0Uxwrj8Vq1uZ4tgmfNofL_c9kalKx8N7T1e8HiObTB-rmkoDMtLO7KIpe4EWHvsNhO0c3eoX18L-KLsvAeGp524kBPKCXnO41oxWoA4oCnIKApMQNkN30z-YbicR46ulYCMBOinDhlbzNVfpLVPNUxv8KMrDIPmMyWzkelws6hquhlR_LyZq5Y_fir91xuwbP6teo1gF5AqYCfWxnuyvuZVkp8Dm7kltMRVIhlg5p5Wd2ROuVJJLQ-MowqgMfjc4DfdvCvSXDs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116363716923618920686\">magalie Christiaens</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5586
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 1,
+            "text": "5.50€, l’image par d’elle même…",
+            "language_code": "",
+            "publish_time": "2026-09-28T09:47:58+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Tom Tom",
+              "uri": "https://www.google.com/maps/contrib/111606976556144453210/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIyQkRqtNH4s2xnrGIyVJHJKt7odAKLP47A8mbx6y-zz_2bKQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super bon",
+            "language_code": "",
+            "publish_time": "2026-07-27T10:53:33+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Carrasco marie-jeanne",
+              "uri": "https://www.google.com/maps/contrib/116021948945829973978/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUpeUbSZTPoivoTAVy1-zJVFQ39fgoix1FVKJrKNiDyu-U1J_Lf=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Bien sur un bel accueil, sympa et chaleureux mais surtout des produits de très bonne qualité, la galette frangipane a certes un coût, mais elle a du goût, et c'est même très clairement la meilleure que j'ai pu manger du haut de mes 53 ans, sans exagérer ! Bravo pour cette qualité et votre accueil simple et sympa.",
+            "language_code": "",
+            "publish_time": "2026-01-28T17:11:23+00:00",
+            "relative_publish_time": "il y a 9 mois",
+            "author": {
+              "display_name": "DAVID GALLET",
+              "uri": "https://www.google.com/maps/contrib/113507758520533627618/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWBRDjN_j3snvxYJ5l7O_RnXdalRZ7a5qk0c4eEFv97ahLa6z9F=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "La bûchette au café un vrai délice",
+            "language_code": "",
+            "publish_time": "2025-12-25T17:20:25+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Pauline Decool",
+              "uri": "https://www.google.com/maps/contrib/116378332047904015306/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ-dLDcI56zDp4PwGRET0Utmdo_vgChBBQBVCEj7OKrCF1iSw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellent acceuil, baguette tradition excellente et bien cuite!\nMerci Madame d'être ouverte un 11 novembre!\nA visiter!",
+            "language_code": "",
+            "publish_time": "2025-11-11T09:23:57+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Nathalie Vasseur",
+              "uri": "https://www.google.com/maps/contrib/117236284020198535366/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWerjMR8N_UNYw0RFWUmuKusVRo1V5aRpVRZoFMtyb_hXD6SMRV=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 125
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1088,
+        "bo": 50,
+        "front": 1038,
+        "estimated_cost_eur": 2.2
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« bel accueil, sympa et chaleureux »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "gateau",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« La bûchette au café un vrai délice »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis récent attribue 1 étoile et mentionne « 5.50€, l’image par d’elle même… » ; le reproche précis reste ambigu."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "excellents-patisseries",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« la galette frangipane […] la meilleure que j'ai pu manger » ; « La bûchette au café un vrai délice »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « boulangerie »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : ouverture à 07:00 en semaine et à 07:00 le week-end."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués jusqu’à 13:00 du lundi au dimanche."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie à Gondecourt, appréciée dans plusieurs avis pour sa baguette tradition, sa galette frangipane et sa bûchette au café, ainsi que pour son accueil chaleureux. Ouverte le matin jusqu’à 13:00 ; horaires d’après-midi du lundi, mardi, jeudi et vendredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "chez-magalie-et-gilles",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "KnowedMeal": [
+        "gateau"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5586,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "cd0af43b0674a2c6944619dc5ec8d13f6ecc961446d69add0e6b13cc4630a77e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

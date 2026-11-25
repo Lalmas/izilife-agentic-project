@@ -1,0 +1,122 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:39:22.618518",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 32,
+      "title": "Théâtre du Nord – Visite guidée",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/",
+      "validation_blockers": [],
+      "status": "error",
+      "proposal": {
+        "experience": {
+          "id": "32",
+          "title": "Théâtre du Nord – Visite guidée",
+          "experience_string_id": "theatre-du-nord-visite-guidee-lille",
+          "experience_picture": null,
+          "description": "Visite guidée du Théâtre du Nord, reconnaissable à son imposante Grand Garde, pour découvrir son architecture et son histoire sur la place du Général de Gaulle.",
+          "short_description": null,
+          "basic_price": "0.00",
+          "price_text": null,
+          "minimal_age": null,
+          "is_for_kids": "0",
+          "accessible_for_kids": "0",
+          "duration": "1.00",
+          "duration_measurement_unity_string_id": "h",
+          "minimal_number_of_people": null,
+          "maximal_number_of_people": null,
+          "experience_type_string_id": "visite-guidee",
+          "experience_theme": null,
+          "experience_theme2": null,
+          "experience_theme3": null,
+          "is_insolite": "0",
+          "is_nocturnal": "0",
+          "noise_level": "0",
+          "with_equipment": "0",
+          "equipment_gived": "0",
+          "equipment_text": null,
+          "place_visit": "0",
+          "brand_text": null,
+          "experience_in_all_city": "1",
+          "experience_access_type": "libre-et-gratuit",
+          "experience_booking_needed_for_access": "sans-reservation-possible",
+          "access_link": "https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/",
+          "phone_number": null,
+          "city_id": "1",
+          "city_string_id": "lille",
+          "source": "AGENT_INACTIVE_BACKFILL",
+          "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/",
+          "raw_json": "{\"title\":\"Théâtre du Nord – Visite guidée\",\"experience_string_id\":\"theatre-du-nord-visite-guidee-lille\",\"city_ref\":\"lille\",\"description\":\"Visite guidée du Théâtre du Nord, reconnaissable à son imposante Grand Garde, pour découvrir son architecture et son histoire sur la place du Général de Gaulle.\",\"short_description\":null,\"experience_type_ref\":\"visite-guidee\",\"experience_theme\":null,\"principal_activity_category_ref\":null,\"access_type_ref\":\"libre-et-gratuit\",\"booking_needed_ref\":\"sans-reservation-possible\",\"access_link\":\"https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/\",\"price_text\":null,\"basic_price\":null,\"duration\":1,\"duration_measurement_unity_id\":1,\"place_ref\":null,\"shop_ref\":null,\"phone_number\":null,\"exterior\":\"non\",\"with_equipment\":\"non\",\"equipment_gived\":\"non\",\"is_nocturnal\":\"non\",\"noise_level\":0,\"participation_mode\":\"individual\",\"minimal_age\":null,\"minimal_number_of_people\":null,\"maximal_number_of_people\":null,\"is_for_kids\":\"non\",\"accessible_for_kids\":\"non\",\"is_insolite\":\"non\",\"experience_in_all_city\":\"oui\",\"place_visit\":\"non\",\"source_url\":\"https://www.lilletourism.com/sortir/visites-et-decouvertes/histoires-architecture/\",\"inactive_backfill\":{\"experience_id\":73,\"staged_at\":\"2026-11-08T15:38:16+01:00\",\"original_is_active\":0}}",
+          "status": "pending",
+          "employee_id": null,
+          "local_image_path": null,
+          "file_fingerprint": null,
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/11/thumbs/Theatre-du-Nord-visite-groupe-guidee-Olivier-Duhamel-3-min-1920x960-crop-1699872929.jpg",
+          "created_at": "2026-11-08 15:38:16",
+          "updated_at": "2026-11-08 15:38:16",
+          "hub_id": null,
+          "endpoint_id": null,
+          "discovered_item_id": null,
+          "fingerprint": null,
+          "principal_activity_category_string_id": "architecture",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "visiter"
+          ],
+          "object_string_ids": null,
+          "occasion_string_ids": null,
+          "age_category_ids": [
+            {
+              "string_id": "7",
+              "name": "18 - 21 ans",
+              "scope_types": "PLACE,SHOP,EVENT,REPRESENTATION,EVENT_SERIE,EXPERIENCE,ANNUAL_CELEBRATION"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "incontournable",
+                "confidence": 0.9,
+                "evidence": "C’est une visite à ne surtout pas manquer !"
+              },
+              {
+                "string_id": "architecture-remarquable",
+                "confidence": 0.9,
+                "evidence": "Découvrez pourquoi et comment son architecture et son histoire se distinguent de tout ce qui l’entoure."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "is_for_kids\":\"non\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"non\""
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "error": "Operand should contain 1 column(s)"
+    }
+  ],
+  "completed_at": "2026-11-08T15:39:33.014019"
+}

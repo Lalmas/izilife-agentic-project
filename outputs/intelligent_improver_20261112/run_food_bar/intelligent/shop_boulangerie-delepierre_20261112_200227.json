@@ -1,0 +1,607 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:02:27",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-delepierre",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-delepierre",
+    "status": "found",
+    "data": {
+      "id": "5715",
+      "name": "Boulangerie Delepierre",
+      "shop_string_id": "boulangerie-delepierre",
+      "unique_id": "832ef7c036cc1da4b522da437fc4fe94",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54974",
+      "principal_cover": "54974",
+      "qr_code": null,
+      "phone_number": "+33983006264",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "4 Rue Henri Barbusse",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0767857",
+      "latitude": "50.5878123",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:39:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:39:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJRSlA5Q3VwkcRU6iZWIM3-vA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJRSlA5Q3VwkcRU6iZWIM3-vA\",\"rating\":3.8,\"user_rating_count\":95,\"google_maps_uri\":\"https://maps.google.com/?cid=17364252350547077203\",\"fetched_at\":\"2026-11-12T20:02:17+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":2,\"text\":\"Une boulangerie idéale si vous n'avez pas besoin de pain ou de pâtisseries mais que vous voulez regarder des étagères vides\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T20:13:40+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"San Antonio\",\"uri\":\"https://www.google.com/maps/contrib/106624407406305553573/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUG8MjA-xGLcy8FgvwpIJRFNrc6nLzOB1WYhsg_dXe-msK8F94=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-29T18:06:09+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Adel Bouzekri\",\"uri\":\"https://www.google.com/maps/contrib/112121355013369414746/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWM89X6NxaB705c8x4sLLTWiYR5VAXSVjPoNI_S5XCz-s12RnZqCw=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-04T16:32:19+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"BRIGITTE Leroy\",\"uri\":\"https://www.google.com/maps/contrib/112664833258396393907/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJHzWiPp93tjZguEAlgcPzkhRO3QUfps8hvNYcqKWBqfyS1IQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Très déçue, je suis venu hier dans cette boulangerie les baguettes.\\nHyper sèches , je retente une fois aujourd'hui je prends 2 petites quiches emballées dans un vulgaire plastique. C'est honteux au prix que ça coûte.plus jamais\",\"language_code\":\"\",\"publish_time\":\"2026-09-10T10:40:24+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Delphine mansuet\",\"uri\":\"https://www.google.com/maps/contrib/116173500983745924932/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIag4sIb_7dTmcLC-0zEcbun5Wv0mj8C2O_CXPl6yb3EgCUgQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"La boulangerie-pâtisserie Delpierre offre un accueil chaleureux et souriant, ce qui est très appréciable. Les produits sont de grande qualité et la pâtisserie est tout simplement excellente, avec un très grand choix pour tous les goûts.\\nJe recommande tout particulièrement les pâtisseries au chocolat, un vrai régal ! 🍫😋 Une adresse que je recommande sans hésiter !\",\"language_code\":\"\",\"publish_time\":\"2026-08-14T14:28:43+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Jean François Bridelance\",\"uri\":\"https://www.google.com/maps/contrib/111919348779110104391/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjULcBu4mWxThwD4POq1_B4gu-2Bhq7etjbqjOCa3sBt5tQAUi8=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:02:17",
+      "google_reviews_place_id": "ChIJRSlA5Q3VwkcRU6iZWIM3-vA",
+      "source_id": 5715,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-delepierre",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "boulangerie-delepierre"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54974",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5715_6af39d0a9b65b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4773",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33146",
+            "source_hourly_id": "4773",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33147",
+            "source_hourly_id": "4773",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33148",
+            "source_hourly_id": "4773",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33149",
+            "source_hourly_id": "4773",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33150",
+            "source_hourly_id": "4773",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33151",
+            "source_hourly_id": "4773",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 15:3",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33152",
+            "source_hourly_id": "4773",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-delepierre",
+      "google_place_id": "ChIJRSlA5Q3VwkcRU6iZWIM3-vA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 07:00 – 13:30, 15:30 – 19:00",
+          "mercredi: 07:00 – 13:30, 15:30 – 19:00",
+          "jeudi: 07:00 – 13:30, 15:30 – 19:00",
+          "vendredi: 07:00 – 13:30, 15:30 – 19:00",
+          "samedi: 07:00 – 13:30, 15:30 – 19:00",
+          "dimanche: 07:00 – 12:45"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd2QYDOe7ohZQJUIZI4bQ5XpBUrtM1BzEBJOPZjNnv15U47TfFFJrDbO_eXMX7r0CxJruyeXkndVDRr7qtN9LpfQ2L7WtBrbQxpb2iXTcDfdchQrV88tEwFL4Ov73L38EbZnxIr7iR9TSl1a4xjBfEV4Hbcql1QPEfoSTfhlG_8glGA9VGquFtThyISX9IELkJcY0eIBs2heZBpy2lK3YibglNs3-RPic-Ffi5GrE3JC_mdC0HMXV2B1KmYwHwrgxoNaNMddcMyDg-NaDaXUzVvwt-xbHyofC48KEDk8c5Lh8ZcIGK3VKtdGkY3ohEwfupjcLvMfsVSnSr2gp5bWIilyJQWJkO7bEMCG9JwAU000xrgAEDg37cMWXf5IQC3A_f_767Ae4QE9bTRv0GzQBkLIrvQr8U",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100747607172464623655\">JM K</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLf42BTW4OSSxUO81pg8MHfsUuReLuNNIYG-iiIAwarHqbToiyYLjAS382vSgMAf3CYqHTjYKbXwR96fhFZpUor2ollBi7getPe3mxTtS0jJ4R_7XPUOYFTGHPwyCRuMkQ8XlO5IcGiifglKvNzjosVAvxIo9--9VO7dNLHJdLYs_OSCnVKGYYBm8UWBtYXk8FasnAEVcouZXEhQlFSvu7DLqnY9NjdLA0IzzYXVnDzf1_xn1UidnO6ylkUNpnTtqih2sUHSt0nEqdajWRle6yJjrHyJi8bLexoaU5ndQ9eCX2yoDpvMaigKD7AnaYRyd-RZnRODBU479jzjreDCQoOUGNb9brsszdPREVxPk0AuCa7ooBGBfGiMySL8QfQDBp15wiXkmQEe2NH2VEDvGnyqe7Ty",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLeafiJB_YONjPXYCzXBCpdJ0NEcaQzuH_gBokVLY608R8dkJUpNaaWYebhME7lA0iRfxNxhwj7fXKmx8iegQ60iDFtNZWQUx0QrmUWf6-rnM8RDPyQsyqSjNch-jawelgITOnLwGdz-se_nn-6Pa5qgKhXYPD9wtfSlmH1UA1uUI1sVPjfxUYEEBZtxpxVzszX2nP9IQRKlcoPKYqSbFkbMC2oJzZ4Ixb9L2oc2tb_ScvNHpdMxR_jcENElxF6KlkRFgkM-swB_10dFxHb_JqjGrdOPvv6eiFqa0ZQ4LBHoWacDAo7eX5sJZPdBfRkGhhCXxnsTgszVJJwMma754Kxoy6p2ae8r5uvDO6F_6EslbLOhNE-HTM8Tg5RqrxkIalpNcdyHWiqjeIA7gHCdW_yLmEo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLduKuusqcmAeZuSDHo31_aLzKKPiyZnTcwN0jHoYcPvUAoNRzC0fBPm_hcnNxAPfFKTy0XfqbY55FFu9bQYkpprqqbllEtxkdyax1iqqzyQXETzqs_lK95UA6aff9IBdbYeJ-snxyfD7ZxL-f78TzsDAv_Blq9m1kWNQAtjH3k56ulzhxNhQiV6em5LIh_97O4SQnhnZOV8YcYuKbCpXqnpD1OoU77MbrhwtgcJkj5wn1vRsVh0dGjo29srFYBnW_FATwqz-2QgxsXX2E7tMSpDmJG9sao5k5h_lG-TrGwV67BzK_HSssrgnpor697gDqw-SwWexI29pboxoQNpK7cnWAW981hOBxEKGJJxrZHf1FiCJeQXjaRVHZ35b7QLfzyaX75XAgIckbi1EgofQzAgMEs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLf5xj93GI-5VZD3UoWhR-lQojufkkTVyfuMO3Z1XPvxItgro3gns_pue6sBumWi5wyqCJBF5l2nlwF2drd-4CKrCYEtrfvYNPoEwKBwC9i8PhH2LZj2LF2BeQzrytd2rqIJW5LntU0BCnW_mHUaE94ash13j6alkP4RmCBTnNBhtgO5cuylNwPEv-2_Tu7tCcXWe1YMXG2-McrrI4FnDgswrMbKGo7bcOs9o0sw8P7iUgFwYg04i4zf0kA-Qc8Me7LjyIuXoxYedrDR50IVL-JYeg3oYf1e5EDj7iJqQThXhgVM8-4JdxVLnS1HAh3Ed1T7JvbqF2MxAchzb8dpGaPE1nj8nxSYSsK9qXcWAlW5ySAAcGdE27tVaWLZRNhzph_Yn6x9iqbisCQIywfzBFYnJ_iyzzg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLcIQoQSrfRccYlr_Eih5Pm96inPxxXgtsm5RS9owXGzvZ2qD5VeeT8iU9qJEujYPZ_a7WrMTOnOwBM-ZCbwClkIoj-01Tkj4WRXBOQ5hlPDR1LmApT1xzht2FQGINqYhJsrgooHNz9nmsGSbErJLeDLzouIr9izzFJ-xQtohpXMhG0TUXUwpjAIxF0y1auBOXVjIJ0z8R4nmFzP63TY4UaZ_ZRlnXmo8IryQ5gsBlk037OASv9zW6GbUW2xLG1fVjiCksw8B7-NdrNQuFuRaRpHLJyHLz3FieHP5aIbYxLMG-GSwRVSvPWi_YH4Z6KlI7TdcVvvlQkTSqztiTS8Fj-byX96fTALsJ7w3zkX1QGxvBgrIryZymCrqwOdjpweOw209bQa2A3-8n2FUyX__RAS8FE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcem83tstP5z3g2QqoOQx4LoaKwKkjbyn4ppmhboSU1p7NIZi6tNnOv9WneDjGZ8yO9i3vWXfYShVGxIxNr1dNgob6fggDAAzNGhf8GB7Hqeqe7FNYVcvNMIrtaiuizudpJ8jRAjNhSUgr0F9zYNxn2TbMY_-BBbBNZ7TgTNSrTrs1dp9gnSpQCaHPWCzjr1YYAhZbcZBusdKqdJjFdb1O6G1EmdVdit8Z9uom5_-kKR62n7u-iPWulmPb3WZ7XBUXPsZO6wR9sUY6LoHK56fcgEYelHL4pdVBQRWAF3nJZwr5ofIJFsZHX4kdoGhi1qbKGJSzp1b4lrRjPaVjzF8ZdMUHnwacusY_f0EEDGA5LHjV4JFADimGzGVOHJ6KVaBlm__vTRpqrqION_ypITBL5ZOWG",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100747607172464623655\">JM K</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf5gNL2Z5yuf1Qs5WyOpuFsdY_DDIajFf1tfW9ZEj_4z2MoFjQTkLXBd3xEdmbG4Snjo8LbhsphWPkgvkWBSGgLIT9YjaozpViWNim61_4SS7_NypoD0nat8DkAe8k_vGlHettLvIs6qqUBmrzKVAkLc84l2DtzDXX2LCsJQYYXPtgv-vwbjSQz-Xwwtl9UjUmMeN42wgVKbHp0C7nx5SJI-ha-FU8-jVSWBoz71X0Aa2R1QaHwQeblblF1uRao6oVLFl_qQ_PihNFshYTK6E9zycS92C9DpQ84xgfBzdZzdDWfb5M-Nh3P45tYpxV9W9yjE8VPH-u8JyZf7Vi_wdoD_OOJ8jRcRA-eAhBD4XxIlnOawPvSKhTRI9pvTE01KddkIp_B7umW8HB7zevlbvZKfg8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100747607172464623655\">JM K</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLc490dV68VV7bJMEQvALPXQRcvJ-xAAd3cMEeSt6gOWsIsLSp3lNkbBRN2-hxFKqWChzaI96Yo1D6X1h1NUMUG1s_PTAXJJqyifAnClwGqOzmZKSGfE9d4rxDgVtsSIIgVra18EFVgQb9ELUFXOH32GWdzuZz1LqxtEw04byurgET0agVKrqMO2JgicgyxlKh0-uiuhqIiGUuoRXg5Ywk9S--1baB6tlPeLattLXmkO8VeCsQ3lzhhUCRibPujiVHhYvIAQnZA4ocEbcTJhEYdH_iwynrol0EB6j_sfsCVX8oZg2iCsa07rjotB3GwjKfatPH7aXWlPECaKUxVYeHvjW2K6ucnNTxZaa9xWHrrwiRIbVhbH2n0Pvtj348S5ufU-l5wcowltFOWYmrOQYNpaJ8s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLcNNP_LfIR7tK5e2JhHLa6ab0BpwzFMwf83IJfSZbF8YIkl8WUt0cn69U0l6WhUdzV-YI_QjOu4sufJ8TKO7JN9XCONKxzri8bc8ScIMG6hEgUf_a8Bj768r81rETrSH6aM6mVj8H7BBz9UqTER4R-uf0E6GiUz9JCk0SdiWl4Y0jjQPnpVffljCJQEbM15Od2iH49R3BbW8KFwHHIeLigDT8IBj9EZ_Hou_3i3BdZvocz5aJW00_tQZh7kszsoSciPyDD6W13KkFfHTOAM6Sr5cZugvf35lm1rwDcQLq0oWSY5iTMt6XW_MDrNnwfkb7DT_0ZOsJaDdq5aWvpwVbGIiuA9PViylm2lkj3XDnpS613YUZQILQzaSEamw1kEhvOpiD6-2fziUEgOZXyQ3uEuGrY6RZs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110927323060269900585\">Pascal Antonio</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5715
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 2,
+            "text": "Une boulangerie idéale si vous n'avez pas besoin de pain ou de pâtisseries mais que vous voulez regarder des étagères vides",
+            "language_code": "",
+            "publish_time": "2026-11-03T20:13:40+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "San Antonio",
+              "uri": "https://www.google.com/maps/contrib/106624407406305553573/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUG8MjA-xGLcy8FgvwpIJRFNrc6nLzOB1WYhsg_dXe-msK8F94=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-29T18:06:09+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Adel Bouzekri",
+              "uri": "https://www.google.com/maps/contrib/112121355013369414746/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWM89X6NxaB705c8x4sLLTWiYR5VAXSVjPoNI_S5XCz-s12RnZqCw=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-04T16:32:19+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "BRIGITTE Leroy",
+              "uri": "https://www.google.com/maps/contrib/112664833258396393907/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJHzWiPp93tjZguEAlgcPzkhRO3QUfps8hvNYcqKWBqfyS1IQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Très déçue, je suis venu hier dans cette boulangerie les baguettes.\nHyper sèches , je retente une fois aujourd'hui je prends 2 petites quiches emballées dans un vulgaire plastique. C'est honteux au prix que ça coûte.plus jamais",
+            "language_code": "",
+            "publish_time": "2026-09-10T10:40:24+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Delphine mansuet",
+              "uri": "https://www.google.com/maps/contrib/116173500983745924932/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIag4sIb_7dTmcLC-0zEcbun5Wv0mj8C2O_CXPl6yb3EgCUgQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "La boulangerie-pâtisserie Delpierre offre un accueil chaleureux et souriant, ce qui est très appréciable. Les produits sont de grande qualité et la pâtisserie est tout simplement excellente, avec un très grand choix pour tous les goûts.\nJe recommande tout particulièrement les pâtisseries au chocolat, un vrai régal ! 🍫😋 Une adresse que je recommande sans hésiter !",
+            "language_code": "",
+            "publish_time": "2026-08-14T14:28:43+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Jean François Bridelance",
+              "uri": "https://www.google.com/maps/contrib/111919348779110104391/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjULcBu4mWxThwD4POq1_B4gu-2Bhq7etjbqjOCa3sBt5tQAUi8=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 3.8,
+        "user_rating_count": 95
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1188,
+        "bo": 150,
+        "front": 1038,
+        "estimated_cost_eur": 4.7
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« la pâtisserie est tout simplement excellente »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "quiche",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« je prends 2 petites quiches »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis contrastés : un client signale des étagères vides et un autre des baguettes sèches ; un avis loue la qualité des pâtisseries."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture dès 07:00 du mardi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture jusqu’à 13:30 du mardi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "apres-midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture de 15:30 à 19:00 du mardi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie-pâtisserie à Faches-Thumesnil, avec baguettes, quiches et pâtisseries, notamment au chocolat. Les horaires indiqués couvrent le matin, le midi et l’après-midi du mardi au samedi ; le dimanche, ouverture le matin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-delepierre",
+    "operation": "ADD",
+    "tags": [
+      "excellents-patisseries"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "quiche"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5715,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "eeb177f1d116f1e396c726a7c89b8266887618617f34c98d7a3fe4d50a7911de",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

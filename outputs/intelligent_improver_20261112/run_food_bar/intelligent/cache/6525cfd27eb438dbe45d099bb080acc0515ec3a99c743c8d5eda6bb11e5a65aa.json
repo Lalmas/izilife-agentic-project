@@ -1,0 +1,150 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-familial"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-familial"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Nous sommes partir dîner »"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« offering budget meals »"
+      },
+      {
+        "string_id": "lieu-couvert",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« une partie de la salle est condamnée »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-familial"
+      },
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-familial"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« une partie de la salle est condamnée »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons eu pour 32€ pour 2 steack 2 coca »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« Boisson : bière tiède. »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« Boisson : bière tiède. »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "decontracte",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« in a relaxed atmosphere »"
+        },
+        {
+          "string_id": "cheap",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« offering budget meals »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Nous sommes partir dîner »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "choucroute",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Plat : choucroute à 12,95 € »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« À part les frites la purée »"
+        },
+        {
+          "string_id": "puree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« À part les frites la purée »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "biere",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Boisson : bière tiède. »"
+        },
+        {
+          "string_id": "coca-cola",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« 2 steack 2 coca »"
+        }
+      ]
+    },
+    "warnings": [
+      "Plusieurs avis récents signalent des problèmes de propreté, de disponibilité des plats et de service ; ce sont des témoignages de clients, pas une vérification indépendante."
+    ],
+    "summary": "Cafétéria Flunch familiale en libre-service, proposant des repas à petit budget et une consommation sur place. Des avis publiés début novembre 2026 font état d’incidents concernant la propreté, le choix des plats et le service."
+  },
+  "meta": {
+    "cache_key": "6525cfd27eb438dbe45d099bb080acc0515ec3a99c743c8d5eda6bb11e5a65aa",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

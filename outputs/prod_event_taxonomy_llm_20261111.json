@@ -1,0 +1,1954 @@
+{
+  "started_at": "2026-11-11T20:45:22.809688+01:00",
+  "mode": "llm",
+  "results": [
+    {
+      "event_id": 1238,
+      "title": "Exposition \"Le Château des Étoiles\"",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "exposition",
+        "principal_activity_category_string_id": "culture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre et la description identifient explicitement une exposition.",
+          "La catégorie exposition est déjà précise et cohérente.",
+          "Le catalogue associe exposition à l’APC Culture."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 2
+      }
+    },
+    {
+      "event_id": 3982,
+      "title": "Atelier fleurs en porcelaine",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": "modelage",
+        "confidence": 0.94,
+        "evidence": [
+          "Le titre et la description établissent qu'il s'agit d'un atelier de création de fleurs en porcelaine.",
+          "L'argile est explicitement mentionnée ; la réalisation par modelage est cohérente avec l'activité décrite.",
+          "L'APC Artisanat correspond au sujet de l'atelier."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source indique plusieurs séances (les 4, 11 et 25 novembre), alors que l'événement fourni correspond à une seule date."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1141,
+      "title": "Spotlight Festival — 4e édition",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "festival",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "La catégorie existante « Festival de musique » est précise et cohérente avec le titre « Spotlight Festival — 4e édition ».",
+          "Le catalogue associe déjà la catégorie festival à l’activité principale Musique.",
+          "Aucun style musical, sport, type de danse ou technique artisanale n’est indiqué."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 3935,
+      "title": "Ateliers d’éveil – Relais Petite Enfance - Ven 13/11",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "loisirs",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.76,
+        "evidence": [
+          "Les ateliers sont destinés aux enfants accompagnés de leur assistante maternelle.",
+          "« Ateliers d’éveil » justifie une activité d’animation pour enfants, sans préciser de discipline particulière."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description indique des ateliers le mardi et le vendredi matin, ce qui peut correspondre à plusieurs occurrences."
+          },
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le contenu précis des activités d’éveil n’est pas détaillé ; « loisirs » est une classification générale."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3554,
+      "title": "Atelier autour du spectacle « La Baleine Tatouée »",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.88,
+        "evidence": [
+          "Le titre indique un atelier.",
+          "La description propose de personnaliser une marionnette avec des tampons à encre, une activité manuelle relevant de l’artisanat."
+        ],
+        "doubts": []
+      }
+    },
+    {
+      "event_id": 3561,
+      "title": "Ateliers numérique — Café numérique",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "informatique-et-ia",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre et la description indiquent des ateliers numériques consacrés à l'utilisation d'un smartphone, d'une tablette ou d'un ordinateur.",
+          "L'APC « Informatique & IA » correspond au sujet réel de l'atelier.",
+          "La catégorie existante « Atelier » décrit correctement le format."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source présente plusieurs dates de séance récurrentes, tandis que l'événement importé ne porte qu'une occurrence."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3563,
+      "title": "Ateliers alimentation vitalité",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.9,
+        "evidence": [
+          "Le titre et la description identifient des ateliers consacrés à l’alimentation, aux repas équilibrés et aux régimes.",
+          "Le format explicitement annoncé est un atelier ; le sujet relève de « A manger », et non d’un atelier de cuisine pratique."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source annonce deux ateliers à des dates et horaires différents, avec participation aux deux nécessaire, alors que les champs de l’événement ne renseignent que la première occurrence."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4009,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre et la description indiquent des ateliers de stop motion pour créer des films animés.",
+          "Le stop motion est une technique de réalisation de films d’animation."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source annonce 7 séances les lundis, alors que l’événement existant ne représente qu’une seule date."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3979,
+      "title": "Ateliers bien-être parents-enfants",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier-bien-etre",
+        "principal_activity_category_string_id": "bien-etre",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique « Ateliers bien-être parents-enfants ».",
+          "La description précise des ateliers de massage pour bébés et de partage autour du bien-être.",
+          "La catégorie existante « atelier-bien-etre » est précise et cohérente ; son APC est « bien-etre »."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L'événement propose cinq séances distinctes, les mardis 3, 10 et 17 novembre ainsi que les 1er et 8 décembre 2026."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3146,
+      "title": "MASTERCLASS² / Oren Boneh",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "masterclass",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.95,
+        "evidence": [
+          "Le titre et la description identifient explicitement une masterclass.",
+          "La description précise qu’Oren Boneh est compositeur et présente son approche de la composition ; le sujet relève donc de la musique."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description parle de deux journées de masterclass, sans préciser s’il s’agit d’une durée continue ou de plusieurs occurrences."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4002,
+      "title": "Les ateliers bien-être de la Maison du Projet",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier-bien-etre",
+        "principal_activity_category_string_id": "bien-etre",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre et la description présentent des ateliers autour du bien-être.",
+          "Les activités annoncées portent sur des solutions naturelles, la santé, les cosmétiques et le bien-être au naturel.",
+          "La catégorie existante atelier-bien-etre est précise et cohérente ; l’APC bien-etre décrit le sujet réel."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source décrit trois ateliers distincts les 5, 13 et 20 novembre, tandis que l’événement importé ne correspond qu’à l’occurrence du 20 novembre."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1169,
+      "title": "Welsh Fest 2026",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.96,
+        "evidence": [
+          "Le titre « Welsh Fest 2026 » et la source « Festival du welsh » indiquent un festival consacré au welsh, un plat.",
+          "La catégorie existante « Festival culinaire » est précise et cohérente avec le sujet."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 16
+      }
+    },
+    {
+      "event_id": 1170,
+      "title": "Ouverture des portes",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.76,
+        "evidence": [
+          "La catégorie existante « Festival culinaire » est précise et cohérente ; elle est conservée.",
+          "Le catalogue associe cette catégorie à l’activité principale « A manger »."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "Le titre « Ouverture des portes » ne confirme pas à lui seul le caractère culinaire, mais aucun élément ne justifie de remplacer la catégorie existante."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1171,
+      "title": "Inauguration officielle du Welsh Fest",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.72,
+        "evidence": [
+          "La catégorie existante « Festival culinaire » est précise et cohérente avec le nom « Welsh Fest ».",
+          "Le catalogue associe « Festival culinaire » à l’APC « A manger »."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "La description est absente et le titre seul ne confirme pas explicitement que le festival est culinaire."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1172,
+      "title": "Concours Relais — équipes de 3",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "concours",
+        "principal_activity_category_string_id": null,
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.43,
+        "evidence": [
+          "Le titre indique un concours en relais par équipes de trois.",
+          "Aucun élément ne confirme un sujet culinaire ni une discipline sportive précise."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le sujet réel du concours n'est pas identifiable à partir des informations fournies."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4003,
+      "title": "Ateliers d'écriture : les bizarreries de Lille",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "ecriture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique « Ateliers d’écriture ».",
+          "La description précise que les participants écrivent une histoire : le sujet relève de l’APC « Ecriture ».",
+          "La catégorie existante « Atelier » correspond au format annoncé."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source annonce deux occurrences, les 7 et 21 novembre 2026, alors que l’événement fourni ne porte que la date du 21 novembre."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1174,
+      "title": "Concours Espoir Hauts-de-France",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "concours-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.35,
+        "evidence": [
+          "La catégorie existante est « Concours culinaire » et son APC associée dans le catalogue est « A manger »."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "Le titre « Concours Espoir Hauts-de-France » ne précise pas qu’il s’agit d’un concours culinaire."
+          },
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "L’APC est déduite de la catégorie existante, mais le sujet culinaire n’est pas confirmé par le titre ou une description."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1175,
+      "title": "Ouverture du Welsh Fest — samedi",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.97,
+        "evidence": [
+          "La catégorie existante « Festival culinaire » est précise et cohérente.",
+          "Le catalogue associe cette catégorie à l’activité principale « A manger » (string_id « a-manger »)."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 16
+      }
+    },
+    {
+      "event_id": 1176,
+      "title": "Animations familiales et mini-jeux",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.58,
+        "evidence": [
+          "La catégorie existante « Festival culinaire » est précise et implique l’APC « A manger ».",
+          "Le titre mentionne des animations familiales et des mini-jeux, sans confirmer ni contredire explicitement le caractère culinaire."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "Le titre ne fournit pas d’indice culinaire explicite ; la catégorie précise existante est conservée faute d’élément suffisant pour la remplacer."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1179,
+      "title": "Concours Amateur du Welsh",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concours-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.96,
+        "evidence": [
+          "La catégorie existante « Concours culinaire » est précise et cohérente avec le titre.",
+          "Le Welsh est le sujet culinaire indiqué par le titre."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 16
+      }
+    },
+    {
+      "event_id": 3598,
+      "title": "Atelier Peinture - au Mini-Lab / Le MHN fait le Mur",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "peinture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "L’événement est explicitement présenté comme un atelier de peinture acrylique.",
+          "La description indique que les participants découvrent les techniques de la peinture naturaliste.",
+          "La source mentionne quatre sessions distinctes : les 18 octobre, 22 novembre et 20 décembre 2026, puis le 10 janvier 2027."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’atelier comprend plusieurs sessions distinctes plutôt qu’une durée continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1185,
+      "title": "Concours Professionnel du Welsh",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concours-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "Le titre indique un concours professionnel du Welsh, qui désigne un plat.",
+          "La catégorie existante « concours-culinaire » est précise et cohérente.",
+          "Cette catégorie est associée à l’activité principale « A manger »."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 16
+      }
+    },
+    {
+      "event_id": 1186,
+      "title": "Réveil en douceur : séance de yoga",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "seance-de-sport",
+        "principal_activity_category_string_id": "yoga",
+        "sport_string_id": "yoga",
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.88,
+        "evidence": [
+          "Le titre indique explicitement une séance de yoga.",
+          "La catégorie existante « Festival culinaire » ne correspond pas au contenu annoncé."
+        ],
+        "doubts": []
+      }
+    },
+    {
+      "event_id": 1187,
+      "title": "Ouverture du Welsh Fest — dimanche",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.86,
+        "evidence": [
+          {
+            "field": "event_category_ref",
+            "value": "festival-culinaire",
+            "reason": "La catégorie existante est précise et cohérente avec le titre « Welsh Fest »."
+          },
+          {
+            "field": "principal_activity_category_string_id",
+            "value": "a-manger",
+            "reason": "La catégorie Festival culinaire est associée à la catégorie d’activité principale A manger."
+          }
+        ],
+        "doubts": []
+      }
+    },
+    {
+      "event_id": 1193,
+      "title": "Remise des trophées du Welsh Fest",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "remise-de-prix",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.83,
+        "evidence": [
+          "« Remise des trophées » désigne une remise de prix.",
+          "La catégorie existante « Concours culinaire » et le titre « Welsh Fest » indiquent un sujet culinaire."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le caractère culinaire est suggéré par la catégorie existante, mais le titre seul ne précise pas le contenu du Welsh Fest."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 1194,
+      "title": "Clôture du Welsh Fest 2026",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "festival-culinaire",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.72,
+        "evidence": [
+          "La catégorie existante « Festival culinaire » est précise et cohérente avec l’activité culinaire qu’elle indique.",
+          "Le catalogue associe cette catégorie à l’APC « A manger »."
+        ],
+        "doubts": [
+          "Le titre seul ne précise pas le programme de clôture ni ne confirme davantage le caractère culinaire du Welsh Fest."
+        ]
+      }
+    },
+    {
+      "event_id": 4010,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.97,
+        "evidence": [
+          "La catégorie Atelier est cohérente avec les séances pratiques annoncées.",
+          "La description précise que les participants créeront des films animés en stop motion, ce qui justifie l’APC film-d-animation."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’événement comporte sept séances hebdomadaires ; la date indiquée correspond à une occurrence de cette série."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4016,
+      "title": "Bougeoir en céramique",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.95,
+        "evidence": [
+          "L’événement est présenté comme un atelier de réalisation d’un bougeoir en céramique.",
+          "La description mentionne l’argile, la personnalisation du décor, les cuissons et l’émaillage, ce qui établit le sujet artisanat."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source présente plusieurs séances les 9 et 23 novembre, puis le 7 décembre ; l’événement existant correspond à une seule de ces dates."
+          },
+          {
+            "field": "artisan_technique_string_id",
+            "reason": "La céramique est attestée, mais aucune technique précise de façonnage n’est identifiée dans le catalogue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3562,
+      "title": "Ateliers numérique — Café numérique - Lun 23/11",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "informatique-et-ia",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "La catégorie Atelier correspond au format décrit.",
+          "Les thèmes smartphone, tablette, ordinateur, navigation sécurisée et démarches en ligne relèvent de l’informatique."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "Le titre parle d’« Ateliers » et la description mentionne un tarif par séance, ce qui suggère plusieurs occurrences."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3564,
+      "title": "Ateliers alimentation vitalité",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "Le titre indique un atelier consacré à l’alimentation et à la vitalité.",
+          "La description porte sur les régimes restrictifs, ce qui confirme un sujet d’alimentation."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 16
+      }
+    },
+    {
+      "event_id": 3606,
+      "title": "Outsider Class — Festival Trouble Fête #2",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "conference-debat",
+        "principal_activity_category_string_id": "culture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.96,
+        "evidence": [
+          "L’événement est présenté comme deux soirées thématiques avec invités, interventions et plateau radio, ce qui correspond à une conférence-débat.",
+          "Les sujets abordés relèvent de la culture : art brut, réalisme fantastique et imaginaire des années 1960.",
+          "La catégorie existante conference-debat est cohérente et l’APC existante correspond à Culture."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 2
+      }
+    },
+    {
+      "event_id": 3983,
+      "title": "Atelier fleurs en porcelaine",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": "modelage",
+        "confidence": 0.95,
+        "evidence": [
+          "Le titre et la description indiquent un atelier de création de fleurs en porcelaine.",
+          "La source précise l'utilisation d'argile, avec cuissons et émaillage : l'activité relève de l'artisanat et la mise en forme de la matière justifie la technique de modelage.",
+          "La catégorie existante « Atelier » décrit correctement le format."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source annonce des séances les 4, 11 et 25 novembre 2026, plutôt qu'une seule occurrence continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3607,
+      "title": "Outsider Class — Planète Claire ?",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "conference-debat",
+        "principal_activity_category_string_id": "astronomie",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.76,
+        "evidence": [
+          "Le format est présenté comme une soirée de discussion critique, cohérente avec une conférence-débat.",
+          "La description mentionne les extraterrestres et les mystères cosmiques, ce qui étaye le sujet Astronomie."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le réalisme fantastique et l’imaginaire sont aussi évoqués ; le sujet pourrait relever de la Culture plutôt que de l’Astronomie."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3151,
+      "title": "WEnd Bachata LILLE | ALL IN ONE | 27 au 29 Novembre",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "festival",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": "bachata",
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.95,
+        "evidence": [
+          "La catégorie existante « Festival de musique » est cohérente avec l’événement musical animé par des DJ.",
+          "Le titre et la description identifient explicitement la Bachata.",
+          "La catégorie Festival porte l’APC Musique.",
+          "La description mentionne des cours, des sociales et des soirées répartis sur trois jours."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "Les cours, sociales et soirées semblent constituer plusieurs occurrences distinctes sur plusieurs jours."
+          },
+          {
+            "field": "music_style_string_id",
+            "reason": "La Bachata est explicitement attestée comme danse, mais le style musical n’est pas explicitement indiqué."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4137,
+      "title": "Les rencontres des pratiques brutes - Festival Trouble Fête #2",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "autre-festival",
+        "principal_activity_category_string_id": "bien-etre",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.78,
+        "evidence": [
+          "L’événement est présenté comme un festival hybride consacré aux Pratiques Brutes.",
+          "Le programme principal propose des discussions, conférences, entretiens, projections et performances autour des pratiques d’accueil et d’accompagnement dans le champ psy.",
+          "Les concerts sont mentionnés comme des événements annexes en soirée, sans faire de la musique le sujet principal."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le sujet porte sur les pratiques psychiques et d’accompagnement, mais les créations artistiques occupent aussi une place importante ; une APC liée à la culture pourrait également se discuter."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4143,
+      "title": "Krinator_Ron Pon_Harry Merry_Chevalier Surprise_DJ Blondin- Festival Trouble Fête #2",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concert",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": "punk",
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "L’événement est présenté comme une « soirée concerts » et son type est indiqué comme « Concert ».",
+          "Les artistes décrits jouent notamment du synth-punk, du rock brut et du boogie punk."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Les styles sont variés, avec aussi de l’électro, de la no wave et de l’acid ; « punk » est retenu car il est explicitement associé à plusieurs artistes."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4,
+        "music_style_id": 56
+      }
+    },
+    {
+      "event_id": 4138,
+      "title": "Les rencontres des pratiques brutes - Festival Trouble Fête #2",
+      "status": "error",
+      "proposal": {
+        "event_category_ref": "autre-festival",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.91,
+        "evidence": [
+          "Le programme présente un festival hybride dédié aux « Pratiques Brutes » et aux créations singulières, avec expositions, performances, projections et discussions.",
+          "Les concerts sont des éléments du programme, mais ne semblent pas constituer le sujet principal du festival."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "Le programme traite aussi des pratiques d'accueil et d'accompagnement dans le champ psychiatrique élargi ; « art » est retenu pour les créations et pratiques brutes au cœur de l'événement."
+          }
+        ]
+      },
+      "error": "Recatégorisation refusée depuis une catégorie déjà spécifique."
+    },
+    {
+      "event_id": 4144,
+      "title": "Krinator_Ron Pon_Harry Merry_Chevalier Surprise_DJ Blondin- Festival Trouble Fête #2",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concert",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": "punk",
+        "artisan_technique_string_id": null,
+        "confidence": 0.95,
+        "evidence": [
+          "La description annonce explicitement une soirée de concerts.",
+          "Le concert inclut des styles explicitement décrits comme synth-punk et rock brut.",
+          "La catégorie concert est déjà précise et cohérente."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Plusieurs genres sont représentés, mais punk est directement étayé par la mention « synth-punk »."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4,
+        "music_style_id": 56
+      }
+    },
+    {
+      "event_id": 4024,
+      "title": "Icare_Paddy Steer_Rodolphe Burger & Sonnenblume_Badaboum_Ticket Boisson - Festival Trouble Fête #2",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concert",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.97,
+        "evidence": [
+          "L’événement est présenté comme une soirée de concerts et le type indiqué est « Concert ».",
+          "Les artistes et groupes musicaux sont nommés dans le titre et la description.",
+          "La catégorie concert est précise et cohérente ; son activité principale est la musique."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Plusieurs styles sont mentionnés pour différents artistes (électro, techno, jazz, funk, disco, post-punk) ; aucun style unique ne caractérise l’ensemble de l’événement."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 3738,
+      "title": "Fête de l'éco-attitude 2026",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "autre-festival",
+        "principal_activity_category_string_id": "environnement-ecologie",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "La source décrit explicitement un festival consacré à la transition écologique, avec des activités autour de la réduction des déchets, de la biodiversité et de la consommation responsable.",
+          "Le catalogue définit « autre-festival » comme festival thématique et exige une APC ; « environnement-ecologie » correspond au sujet.",
+          "Aucun contenu musical n’est indiqué : la catégorie existante « festival » (Festival de musique) n’est pas cohérente."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source annonce deux après-midi, les 28 et 29 novembre, tandis que l’événement existant ne renseigne que le 28 novembre. Plusieurs ateliers sont aussi proposés pendant ces après-midi."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 914,
+      "title": "Anthony Kavanagh • Samedi 28 novembre 2026 • Le Splendid, Lille",
+      "status": "error",
+      "proposal": {
+        "event_category_ref": "one-man-show",
+        "principal_activity_category_string_id": "stand-up-et-one-man-show",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "La description présente Anthony Kavanagh comme un humoriste et annonce un nouveau spectacle comique.",
+          "Le spectacle est porté par un artiste nommé individuellement, ce qui correspond à la catégorie « One man show »."
+        ],
+        "doubts": []
+      },
+      "error": "Recatégorisation refusée depuis une catégorie déjà spécifique."
+    },
+    {
+      "event_id": 4025,
+      "title": "Icare_Paddy Steer_Rodolphe Burger & Sonnenblume_Badaboum_Ticket Boisson - Festival Trouble Fête #2",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "concert",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": "electro",
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "L'événement est présenté comme une soirée de concerts avec plusieurs artistes.",
+          "La catégorie existante « concert » est précise et cohérente.",
+          "La description qualifie Icare de groupe électro et mentionne des bidouilles électroniques chez Paddy Steer."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "La programmation réunit plusieurs genres musicaux; « electro » est attesté, mais ne résume pas nécessairement tous les concerts."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4,
+        "music_style_id": 9
+      }
+    },
+    {
+      "event_id": 3739,
+      "title": "Fête de l'éco-attitude 2026",
+      "status": "error",
+      "proposal": {
+        "event_category_ref": "autre-festival",
+        "principal_activity_category_string_id": "environnement-ecologie",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.96,
+        "evidence": [
+          "Le titre et la description présentent une fête thématique consacrée à la transition écologique, et non un festival de musique.",
+          "Les activités portent explicitement sur la réduction des déchets, la biodiversité et une meilleure consommation.",
+          "Plusieurs ateliers sont mentionnés, mais ils couvrent des techniques variées sans technique artisanale unique représentant l'événement."
+        ],
+        "doubts": []
+      },
+      "error": "Recatégorisation refusée depuis une catégorie déjà spécifique."
+    },
+    {
+      "event_id": 4011,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre et la description indiquent des ateliers de stop motion et la création de films animés.",
+          "Le format existant « Atelier » est cohérent avec l’événement.",
+          "Le stop motion relève de l’animation, d’où l’APC « film-d-animation »."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source décrit 7 séances les lundis du 9 novembre au 28 décembre, alors que l’enregistrement indique une seule occurrence le 30 novembre."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3980,
+      "title": "Ateliers bien-être parents-enfants",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier-bien-etre",
+        "principal_activity_category_string_id": "bien-etre",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre et la description indiquent des ateliers bien-être parents-enfants.",
+          "Le contenu porte sur l’apprentissage de gestes et techniques de massage pour bébés.",
+          "La catégorie atelier-bien-etre est déjà précise et cohérente."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’événement comprend cinq séances distinctes, les mardis 3, 10 et 17 novembre puis 1er et 8 décembre 2026."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4019,
+      "title": "Petite poule rousse",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "marionnettes-contes-mimes",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.86,
+        "evidence": [
+          "La catégorie Animation enfant est cohérente avec l’activité proposée aux enfants dès 3 ans.",
+          "La description présente l’événement comme un conte mêlant histoire et cuisine ; le conte est le sujet principal indiqué par le titre et la description."
+        ],
+        "doubts": [
+          {
+            "field": "principal_activity_category_string_id",
+            "reason": "L’activité associe également la cuisine au conte, mais le conte semble être son sujet principal."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3631,
+      "title": "Atelier Dessin - au Mini-Lab / Le MHN fait le Mur",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "dessin",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique « Atelier Dessin ».",
+          "La description précise une activité de dessin d’espèces animales accompagnée par un illustrateur naturaliste.",
+          "La catégorie Atelier existante est cohérente avec le format."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source décrit plusieurs sessions à des dates distinctes, et non une durée continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3634,
+      "title": "Permanence du conseil citoyen de Ronchin",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "cafe-citoyen",
+        "principal_activity_category_string_id": "citoyennete",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.78,
+        "evidence": [
+          "La permanence est ouverte aux habitants et organisée par le conseil citoyen.",
+          "La description annonce des échanges avec les habitants autour de la vie du quartier.",
+          "L’APC Citoyenneté correspond au sujet civique de l’événement."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "Aucune catégorie dédiée aux permanences d’un conseil citoyen n’est proposée. « cafe-citoyen » correspond aux échanges citoyens, mais la source ne mentionne pas de café."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4020,
+      "title": "Petite poule rousse",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "marionnettes-contes-mimes",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.91,
+        "evidence": [
+          "La catégorie existante « Animation enfant » est cohérente avec la mention « Pour les petits » et l'âge minimum de 3 ans.",
+          "La description annonce une histoire mêlant conte et cuisine ; l'activité de conte est explicitement mentionnée.",
+          "Le catalogue propose l'APC « Marionnettes, contes, mimes » pour le sujet du conte."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 40
+      }
+    },
+    {
+      "event_id": 3509,
+      "title": "UKULELE PARTY ! - Sam 05/12",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "jam-session",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "La catégorie existante « Jam session » correspond à une rencontre où les participants jouent et chantent ensemble.",
+          "L’activité décrite est musicale, ce qui justifie l’APC Musique."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Aucun style musical précis n’est indiqué."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 4012,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "La catégorie existante « Atelier » correspond au format annoncé.",
+          "La description indique que les participants créeront leurs propres films animés en stop motion.",
+          "Le programme précise qu'il s'agit de 7 séances organisées les lundis."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L'événement représente plusieurs séances récurrentes plutôt qu'une durée continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4017,
+      "title": "Bougeoir en céramique",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": "modelage",
+        "confidence": 0.96,
+        "evidence": [
+          "L’événement est explicitement présenté comme un atelier de réalisation d’un bougeoir en céramique.",
+          "La description indique le travail de l’argile, puis le séchage, les cuissons et l’émaillage.",
+          "Le modelage correspond à la réalisation de l’objet en argile ; l’artisanat est le sujet de l’atelier."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’atelier est proposé à plusieurs dates distinctes (9 et 23 novembre, puis 7 décembre) plutôt que sur une durée continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3981,
+      "title": "Ateliers bien-être parents-enfants",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier-bien-etre",
+        "principal_activity_category_string_id": "bien-etre",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique des ateliers bien-être parents-enfants.",
+          "La description porte sur des techniques de massage adaptées aux bébés.",
+          "La catégorie atelier-bien-etre est précise et cohérente avec le sujet.",
+          "Le catalogue associe cette catégorie à l'activité principale bien-etre."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L'événement comprend cinq séances à des dates différentes ; aucune date ne doit être modifiée."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4026,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.88,
+        "evidence": [
+          "La programmation est explicitement dédiée aux familles et au jeune public.",
+          "Les activités proposées sont organisées autour des œuvres et des collections du musée d'art LaM."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La programmation rassemble plusieurs activités réparties sur différentes dates."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3640,
+      "title": "Atelier aquarelle - au Mini-Lab / Le MHN fait le Mur",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "peinture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre et la page source identifient explicitement un atelier aquarelle.",
+          "La description indique que les participants apprennent à dessiner et à peindre à l’aquarelle.",
+          "La catégorie « Atelier » correspond au format, et « Peinture » décrit le sujet réel."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La page source présente plusieurs séances distinctes, les 7 octobre, 9 décembre et 13 janvier."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4013,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre annonce un atelier de stop motion.",
+          "La description précise que les participants créeront leurs propres petits films animés.",
+          "Le stop motion relève du film d’animation."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "detail": "La source décrit sept séances distinctes, les lundis du 9 novembre au 28 décembre 2026."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3569,
+      "title": "Activités manuelles — 6 à 9 ans",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.78,
+        "evidence": [
+          "Le titre indique « Activités manuelles ».",
+          "La description présente une séance destinée aux enfants, suivie de lectures thématiques."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "« Séance mensuelle » suggère une série de rendez-vous plutôt qu'une occurrence unique."
+          },
+          {
+            "field": "artisan_technique_string_id",
+            "reason": "Aucune technique artisanale précise n'est indiquée."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3632,
+      "title": "Atelier Dessin - au Mini-Lab / Le MHN fait le Mur",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "dessin",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre indique « Atelier Dessin ».",
+          "La description précise que les enfants découvrent et dessinent une espèce animale."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La mention « une nouvelle espèce animale à chaque session » suggère plusieurs sessions."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 2416,
+      "title": "Le Jardin D'automne 2026 - Lille",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "festival",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.97,
+        "evidence": [
+          "L’événement est présenté comme un festival de musique.",
+          "La programmation indique des artistes et des sets sur deux nuits."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Le genre musical précis n’est pas indiqué."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 4027,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "visite",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.78,
+        "evidence": [
+          "Les horaires de l’événement correspondent à la « Visite contée – Il était une fois l’hiver » du 19 décembre, de 11 h à 12 h.",
+          "La visite se déroule au fil des œuvres du musée : le sujet relève de l’art."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description réunit plusieurs activités et dates de la programmation de Noël, alors que les dates de l’événement correspondent à une seule visite."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4028,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.88,
+        "evidence": [
+          "L’horaire de l’événement correspond à l’Atelier Main dans la main – Mon beau sapin, annoncé le 19 décembre de 14h30 à 16h.",
+          "La description indique la création d’une décoration inspirée de l’univers du musée ; aucune technique artisanale précise n’est mentionnée."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La page regroupe plusieurs activités réparties sur différentes dates, tandis que l’événement existant correspond à une occurrence précise."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4029,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.91,
+        "evidence": [
+          "L'occurrence du 20 décembre correspond à « Atelier Main dans la main – Le cadeau de dernière minute ! ».",
+          "L'activité consiste à créer un cadeau inspiré de l'univers du musée, ce qui justifie l'APC Art."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L'atelier est proposé à deux dates, les 20 et 23 décembre ; l'occurrence du 20 décembre est celle indiquée pour cet événement."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3599,
+      "title": "Atelier Peinture - au Mini-Lab / Le MHN fait le Mur",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "peinture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre et la description présentent l’événement comme un atelier.",
+          "La description précise qu’il s’agit d’un atelier de peinture acrylique."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 23
+      }
+    },
+    {
+      "event_id": 4014,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          {
+            "field": "event_category_ref",
+            "value": "atelier",
+            "quote": "« Neocore propose des ateliers de stop motion »"
+          },
+          {
+            "field": "principal_activity_category_string_id",
+            "value": "film-d-animation",
+            "quote": "« Les participants pourront ainsi laisser libre cours à leur imagination et créer leurs propres petits films animés. »"
+          },
+          {
+            "field": "occurrences",
+            "value": "7 séances",
+            "quote": "« Au programme : 7 séances, tous les lundis à partir de 17h30 »"
+          }
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’atelier se déroule en plusieurs occurrences hebdomadaires."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4202,
+      "title": "Goûters numériques : créez une tasse unique pour les fêtes",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "artisanat",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "Le titre et la description indiquent un atelier de création et de personnalisation d’un mug.",
+          "Le format atelier est explicite ; le sujet relève de l’artisanat.",
+          "Aucune technique précise de personnalisation n’est nommée."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description mentionne un atelier de 3 jours et la présence nécessaire aux 3 séances, tandis que les dates fournies ne montrent qu’une seule journée."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4030,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "L’occurrence du 23 décembre est un atelier de création d’un cadeau inspiré de l’univers du musée.",
+          "La description mentionne le mail art et la création d’une carte à partir des œuvres des collections, ce qui relève de l’art."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description indique que l’atelier « Le cadeau de dernière minute ! » a lieu les 20 et 23 décembre ; cette fiche correspond à une occurrence parmi plusieurs."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4031,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "visite",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.88,
+        "evidence": [
+          "La date et les horaires de l’événement correspondent à « Visite des collections – Les étoiles montantes ».",
+          "La description indique une visite des œuvres d’un musée, relevant de l’art."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description regroupe plusieurs activités sur différentes dates ; l’événement affiché correspond à une occurrence de visite."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4015,
+      "title": "Le stop motion s’invite à Akado Dombrowski !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "film-d-animation",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "L’événement propose des ateliers de stop motion permettant aux participants de créer des films animés.",
+          "Le catalogue APC comprend « Film d'animation » (film-d-animation).",
+          "La catégorie « Atelier » décrit correctement le format."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source décrit sept séances hebdomadaires, et non une durée continue."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4032,
+      "title": "Les vacances de Noël au LaM !",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "L'occurrence du 30 décembre correspond à un atelier de création d'une carte de nouvelle année autour du mail art et des œuvres du musée.",
+          "« Atelier » décrit le format ; l'APC « Art » décrit le sujet réel."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La description rassemble plusieurs événements et dates ; un atelier similaire est aussi annoncé les 20 et 23 décembre."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3510,
+      "title": "UKULELE PARTY ! - Sam 02/01",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "jam-session",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "La catégorie existante « Jam session » correspond au jeu et au chant collectifs décrits.",
+          "Les participants apportent une chanson pour la jouer et la chanter ensemble ; il est précisé que ce n’est pas un cours.",
+          "Le ukulélé et l’activité musicale justifient l’APC « Musique »."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 3635,
+      "title": "Permanence du conseil citoyen de Ronchin - Mer 06/01",
+      "status": "low_confidence",
+      "proposal": {
+        "event_category_ref": "autres",
+        "principal_activity_category_string_id": "citoyennete",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.71,
+        "evidence": [
+          "La description indique une permanence mensuelle du conseil citoyen, ouverte aux habitants pour échanger.",
+          "Le sujet prouvé est la citoyenneté.",
+          "La permanence n'est pas celle d'élus et ne correspond donc pas à « permanence-elus »."
+        ],
+        "doubts": [
+          {
+            "field": "event_category_ref",
+            "reason": "Le catalogue ne propose pas de catégorie précise pour une permanence de conseil citoyen ; « autres » évite d'assimiler cette permanence à une rencontre amicale ou à une permanence d'élus."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 4007,
+      "title": "Cuisine libanaise avec Mieline | Au restaurant Mieline",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier-cuisine",
+        "principal_activity_category_string_id": "a-manger",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique « Cuisine libanaise » et la description annonce un atelier pour apprendre à préparer des plats traditionnels.",
+          "La catégorie « Atelier cuisine » est précise et cohérente.",
+          "L’APC « A manger » correspond au sujet culinaire."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La source présente deux occurrences distinctes, le 8 novembre 2026 et le 10 janvier 2027."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3600,
+      "title": "Atelier Peinture - au Mini-Lab / Le MHN fait le Mur",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "peinture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "Le titre indique « Atelier Peinture ».",
+          "La description précise un atelier de peinture acrylique."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 23
+      }
+    },
+    {
+      "event_id": 3641,
+      "title": "Atelier aquarelle - au Mini-Lab / Le MHN fait le Mur",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "peinture",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.96,
+        "evidence": [
+          "Le titre indique un atelier d’aquarelle.",
+          "La description précise qu’il s’agit de dessiner et mettre en scène un animal dans son milieu naturel ; l’aquarelle relève de la peinture."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 23
+      }
+    },
+    {
+      "event_id": 3781,
+      "title": "Bulles sonores",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le format est un atelier.",
+          "La description annonce une exploration musicale par l’écoute, le chant, la voix et des instruments ou objets sonores."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 3633,
+      "title": "Atelier Dessin - au Mini-Lab / Le MHN fait le Mur",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "atelier",
+        "principal_activity_category_string_id": "dessin",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.98,
+        "evidence": [
+          "Le titre indique « Atelier Dessin ».",
+          "La description précise que les enfants dessinent une espèce animale."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "La mention « à chaque session » peut indiquer plusieurs occurrences de l’atelier."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3511,
+      "title": "UKULELE PARTY ! - Sam 06/02",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "jam-session",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.99,
+        "evidence": [
+          "La catégorie existante « jam-session » est précise et cohérente avec le jeu collectif de chansons.",
+          "La musique est le sujet explicite de l’événement ; l’APC correspondante est « musique »."
+        ],
+        "doubts": []
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    },
+    {
+      "event_id": 4006,
+      "title": "Badaboum",
+      "status": "occurrence_blocked",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "art",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.95,
+        "evidence": [
+          "La catégorie existante « Animation enfant » correspond à l’activité destinée aux tout-petits.",
+          "La description présente une expérience artistique et multisensorielle qui invite les enfants à découvrir l’univers de l’art."
+        ],
+        "doubts": [
+          {
+            "field": "occurrences",
+            "reason": "L’événement est indiqué comme récurrent et programmé certains dimanches, avec plusieurs dates dans la source."
+          }
+        ]
+      }
+    },
+    {
+      "event_id": 3792,
+      "title": "Bulles sonores",
+      "status": "applied_llm",
+      "proposal": {
+        "event_category_ref": "animation-enfant",
+        "principal_activity_category_string_id": "musique",
+        "sport_string_id": null,
+        "dance_string_id": null,
+        "music_style_string_id": null,
+        "artisan_technique_string_id": null,
+        "confidence": 0.94,
+        "evidence": [
+          "La catégorie Animation enfant est cohérente avec l'événement destiné au jeune public.",
+          "La description mentionne explicitement l'écoute musicale, le chant, la voix et l'exploration d'instruments."
+        ],
+        "doubts": [
+          {
+            "field": "music_style_string_id",
+            "reason": "Aucun genre musical précis n'est indiqué."
+          }
+        ]
+      },
+      "updates": {
+        "principal_activity_category": 4
+      }
+    }
+  ],
+  "candidate_count": 79,
+  "finished_at": "2026-11-11T20:54:38.499913+01:00",
+  "counts": {
+    "applied_llm": 22,
+    "occurrence_blocked": 33,
+    "low_confidence": 21,
+    "error": 3
+  }
+}

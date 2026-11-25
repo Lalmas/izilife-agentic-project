@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:13",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-la-fille-du-boulanger",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-la-fille-du-boulanger",
+    "status": "found",
+    "data": {
+      "id": "5785",
+      "name": "Boulangerie la fille du boulanger",
+      "shop_string_id": "boulangerie-la-fille-du-boulanger",
+      "unique_id": "3554cff31888ffe6a828adeb082a3155",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55040",
+      "principal_cover": "55040",
+      "qr_code": null,
+      "phone_number": "+33320970911",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "6 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "208",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9886661",
+      "latitude": "50.5107248",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:15",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:15",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJe0ghGHst3UcRRrtelgFbyOU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5785,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-la-fille-du-boulanger",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "camphin-en-carembault",
+      "string_id": "boulangerie-la-fille-du-boulanger"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55040",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5785_6af39fa717887.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4844",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33643",
+            "source_hourly_id": "4844",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33644",
+            "source_hourly_id": "4844",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33645",
+            "source_hourly_id": "4844",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33646",
+            "source_hourly_id": "4844",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33647",
+            "source_hourly_id": "4844",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33648",
+            "source_hourly_id": "4844",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33649",
+            "source_hourly_id": "4844",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-la-fille-du-boulanger",
+      "google_place_id": "ChIJe0ghGHst3UcRRrtelgFbyOU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 12:30, 15:00 – 18:30",
+          "mardi: 07:00 – 12:30, 15:00 – 18:30",
+          "mercredi: Fermé",
+          "jeudi: 07:00 – 12:30, 15:00 – 18:30",
+          "vendredi: 07:00 – 12:30, 15:00 – 18:30",
+          "samedi: 07:00 – 12:30",
+          "dimanche: 07:00 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLedaR77IPtS8DljJLY6L3jfjJnvJU5rNu12rnFqre30D0ONiwZ0NapTG-8_eqD5v-KFwYNFQiTMFFPux_ua5h3sBjKpc7ItzLsXc9Mgw11tNvkduZny8jBKCGSREBvoY4ygMn2I1SAG0k6XPvOafp7n6A9PX9UXb7xA7M1eG9lcYmZPZmOtQSGrBZOL5bl9z5Ig1dgpWUZ3v8_pSfRtKShz17pSEHBhfA_Rocleh984IODpqI3oY56rikPYow3xKCJHs2navoHSjfKNMoHA9cZanWuvvdixQD19uwQcPIH8IIkch7-b5UDb1KXZ89EMLLRw1UGNPs_vF9WdoQeqkRQDRZoiG4VQ-rp2eYrTmZ02t8qWxgKTLmH4kvNvwoxYTyjCjLKABLGIEe_1yTN36o_bYmKjFHo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLckfCjzFVvmuSb0IrSgm_nnJBqoGeQtP8mqP5ISBxLtP2z3Cg2w2goa1xeF_sYyr0fCVl0BeOKAFuhlRBW66Hja0AG0Ee8MXAMewkc39qdguHZhMB2v3YFEd24FKa9M-uhMK6Yz0r2XUzSRUxR4RGDoU_FMem385n9AylpwasNd-_FuyOI95pKRMJtYJx-E2IdEJTk-ApsK-JVirnqcOQurWPiDmPtrAEOO4NNAeekBUHHCj4X5GtKabacrPgLR1o0CxGzRATH6CUmMC6Nn-7-nh3nmBBuNSvWVJNVbq0yqM9hmXOfbjM3Vn5SWydp-N_Egt7IzA0-bPLjZQCMJiH4d5O_EQiKxZztn2rV3YbQeu3vfd9xxYkYD2_YLsijDDhyFguDY0rgJG2tp-oGrQxQMKsDZ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 1702,
+            "photo_reference": "AV-0GLeJ_MmSLr3tkH3nwtvHtGpt0WJn7gKLaPhsVVCS2zedb8G8B3Jx4YGzNkO5OBjOvA-Ra0bLxyIhH602MY9rS_O7SaB5alEHwoe_m0Kz9BdoX5LMdZUuEbULBajrsAMaryRGDcZatQ73XsJA6t95YeSKLZEclbI4i76SjW8CGUhQ2aFKbGnjSSlHOqTs31BbdMB-gVjGUYQmcp3eIO53fLwidvi2TxRUstJiFObCAjot9eDPurPDx5C-wm2maQ2reQb6rAbgtxsSbILTetDTDFuVfj9jvZ31NAk9RqMY8yO5c8O7rHkpkPkIQ7ZAOEdr9PWAFUbcOsrshQ0gEG7nwcBLLvvZ8z7L7UxkxHMRL8dgNCcykgoWebzkMTS46z9lIlwUjjgFZt-Uc7Ev_dXeWqC0cRE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 1051,
+            "photo_reference": "AV-0GLdIk7wjQLrS03xBh6KFOtG_m0wW_uxSERHzC9m0yyqh6oydxNjwovtuHt9zGdPDirggzQd9_mz4U81znCXKj7fSnGQAAhO1LW7-gvqEvdJk1-Ti-_VLtWgZ5JcfCrvbeImS3LjYLNdWQnmL91ZGD15YsRqBPycb59xHUhwVbERp1pJbpB6Ts04bJwmOt4_k5d_fyy3s6mUeA_e_QjjnKEHl5G9pQgfPWLhx_I4HXIDjMFTJclJGqnmGtUXwMjaX4cX8ZK2LHNhalgAPVuCZfwlt0aCZd-MATaB98hgBABNeNHAFEbJc75HxNA2YitgK_iY60z7idMH5xdNdNvRqp_NzSHOGtj1wuUfYajhWf-zwKa8ReAVkwiR0tZF0GN-uWhwZ5KoZWqcNIWJAZeaaEJ-T_0B_p3o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 1844,
+            "photo_reference": "AV-0GLcjxa6OLOKMEg7w0npBBkKvwVi9WH4bWMmss551oHt7KnqacZ2RZz0AKdRKlJgIRNSVEKD0RtiUi8wjh4OwvsdQDhsjU7k0BeKwVH_8CVT6R5orsjTOy7H9g_ohXBV8ikIZpT2fUIoLtg00v_QAIgKRGW0S_9WdIhXEvVhLLagHuAfAuY7l-9Vnc0sm51QAcZOx4vMxcjJXhPbH5c1E-5j_hNv2Bz8OXwgo59bRFSJR41uuQg4rbU31UyDpgDXrT2QhYYXC39pVbuz1S8LwtjGJetvvHG2c0VDt1sS3CwS5QXTY_oWrglCRX6SeNWBbM8-4oJmmEKNxk0CjQouefbutfGRM4xp5Y7iCWO1rwzKetqpXNopvYaaFSHg4eQtoPYkUYpy7bvyuixoJELedxIfS5cA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 3905,
+            "height": 2739,
+            "photo_reference": "AV-0GLd29y1EtxpDMIN3HT-xCthA2iNy3E08IgemU3g-gGrefnyMcOy7ber-8DDkrFLCY64-ozn02n9cybAA-C48Vbf4YvLSHRTuROBfHgpIR3KQm1DnRA1HqbWThJkIgknB8KCeClEoYUNH5HJPVOmsl6UYX4zv-r_2vUWNO36NUeSpD9vrCreNPWzdtUFwawOJZPP7bwjwKefMJvJLZPV1Nn4RwsFveEdrXCiR5itAA5uiggptb27MJ_m9Jx_b4sDT9PcGLey6_JUMVpFyYgrRiXI3Ii-ovCEKPxBLR34roE-cewYXEMw741WQqeGLZvQI1YSdbAze-npNYv0343EDIiRCndF4hK_jNbXs6qg70call4abJTkfxP-rxee7DbFx6_teAkRQ1CoRjBWEBwgNvNxeVFrZqXg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdfNW3K_xmINo4M9nn0FGoXCTkxCL0w6HJ81WChXGE1cKNy_xqgQ-fVM6RGGvFs9TqOmYcUf3F5eRpdpU7qYm2eRr88kF4hT4tTu_RYqXx86pO34XtmG9_zUiP476w_Fj0_kNJ1mKTFTKBUT28Dbk_cNHIxNgvFzH2F5jg5TAUtYqYDbIEg0UqG7TsrADOVGTlUOeDQbAgCFfU_FXqnjiLaOH5rRQpZv_S6nM0NOjo58Vv8U-LQK6uWaQiG_unHYSgtDY4wSHjkEehwgznS2sINikJSW2B5RLQsXT7K6cd2YRt5SKJOxfXsaG7SBp22kpnsfecpJDrvm9RyfpcavC6-Ybl5iElPvSI2LkPsSf7MbEiYQvg7D8VX_7BXerVYwYAEtHZ70bTZFj0aMxHT8WuBK0VA92E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 3315,
+            "height": 3024,
+            "photo_reference": "AV-0GLfupjQRaywyJUX24YQTlaaUS2vBeTDzOfwDF4qIehkndCfXmYSvn5h6NcCSKagLlMSH6Hhtc2-43ds9OqJi5FT9nLlXs2eW6mePUi_Tt2irg_TTcqfYO8vsvMrfOlTeQEvwI4-QqlXTVKw_IT35h87yV7dnO9lpNJ3-x_WXRpcZbo6j8iFkDPoZuWImkhTZOriLolYYVlIBnJ0ev63RE2OLhc1Oew9gDY4D7hfYUCnm00swPc3AYC_M1pIdj1WvJEGT1pFUe6kxiliQXNFDexFm57KZHbSNRLZUMZXcsTqriW0urWlC6-BYIWozUnN5YIc4Ib6kazeQknjoC-NveyqACwNxX-ksud1nJ8QYFYvq0qNbKW0yCFcpFqDZZ0EBbnmN9CAZFItQhDdh_J32LaOrz5m-aMk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 2958,
+            "height": 2767,
+            "photo_reference": "AV-0GLe5FdEp97Xj3EGp9Wv9miAfssn9N5GaxK71ktocVKAhbYqSIg8dqPNAKbsnRsHS6_3QR13Y2BC7irOvK9D_zQ3yO40aCcXIbZrXozAdiY5iFbzIMF1MlmxqKjSWLE4sbPQEd4zp53-UKiJ7oAh1rD7FuRh3Ghj7QnUz4BLbUhct3zkErtSUE2pfNKI4ZuJoOB1g_1fKeEfJL0yMlGzvN3MXHXgtx0jl14n_ElqqQ2msxaMfJvaHf0MM0vZUjHIRiwTLh0c0Eo50orA3EetUgzIF5gGZP5s7UfY_8BPbjZQa14c3LOQQzBmg5mcqS8wI2ZRbXFkByYo0YD7MZRyrdYetUTMQII1CTlii2IAxyf7X2Yqxj8U-lDPIA4OucKE55Van433vjvpkHMdZ3M3OmKK2_AU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdIck1wDY06Dopiyr20Mh5TJ0HoqKacaAD6qBbZCItvZgKWwbb4S0UVLADM4Gpk_2hLl4nETWIU125J6KawA5FXpfrV48Y82Fb56GTFbpFKuNRPF_eL1g3VSrUm9lg9EqO3m9umBgQu6Bul1SBYqv2x5C1B6kDGH7xPMc0w0coJt0EUg4Dc7HXqdaBN-13DffiwB-SC3Qs-wHamz0qqSY-RVt88OS8U-BVq85PNk0QC4g5SgndN4dOJcJl8pEUtubr3pdKXa8ZIQP7MDRZ3kBqazYyKhy5BCBMH7sbcUEaiKEx7l5oP68wrXS6lA7U5iI2NOpD2t7wdNwn_13LmGFhEQDO6cFW1yI3MzaoVgMxyHTbXq6hN6DL5lrhGDMDYut2qFeQP-ppqRCKSyv0BY3Higeem",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105173462540567666073\">Boulangerie la fille du boulanger</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5785
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Aucun produit, service, mode de consommation, accessibilité ou moyen de paiement n’est renseigné. Les avis n’ont pas été récupérés (budget épuisé)."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie à Camphin-en-Carembault, au 6 rue du Général de Gaulle. Les horaires disponibles indiquent une ouverture le matin, certains jours également l’après-midi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-la-fille-du-boulanger",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5785,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "1e000d35de5cf2974b6a8ec647d513aa9468116346695897655ad145e1cd6e06",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

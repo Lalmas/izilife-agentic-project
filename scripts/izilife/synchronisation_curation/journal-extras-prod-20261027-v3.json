@@ -1,0 +1,362 @@
+{
+  "format": "izilife-curation-extras-apply-v1",
+  "plan_sha256": "393fb13103e804e54a17c9421b0a8a32fec95898a1d03eab5d65b591bf400935",
+  "applied_at": "2026-10-27T16:38:15.032729",
+  "destination_env": "prod",
+  "items": [
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "PLACE",
+        "canal-de-seclin",
+        "micro_escape,half_day_trip,day_trip",
+        null,
+        null
+      ],
+      "source_env": "local",
+      "status": "ERROR",
+      "result": {
+        "success": false,
+        "error": "Raison introuvable: se-poser"
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "PLACE",
+        "lés-près-du-hem",
+        "micro_escape,half_day_trip,day_trip",
+        "4",
+        "10"
+      ],
+      "source_env": "local",
+      "status": "ERROR",
+      "result": {
+        "success": false,
+        "error": "Raison introuvable: se-poser"
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "wissant",
+        "micro_escape,half_day_trip,day_trip",
+        null,
+        null
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 12,
+        "scope_level": "CITY",
+        "scope_id": 1538
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "lille",
+        "day_trip",
+        null,
+        null
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 13,
+        "scope_level": "CITY",
+        "scope_id": 1
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "PLACE",
+        "lés-près-du-hem",
+        "micro_escape,half_day_trip,day_trip",
+        "3",
+        "10"
+      ],
+      "source_env": "staging",
+      "status": "ERROR",
+      "result": {
+        "success": false,
+        "error": "Raison introuvable: se-poser"
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "wissant",
+        "micro_escape,half_day_trip,day_trip,weekend_trip",
+        null,
+        null
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 15,
+        "scope_level": "CITY",
+        "scope_id": 1538
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "dunkerque",
+        "micro_escape,half_day_trip,day_trip,weekend_trip",
+        null,
+        null
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 16,
+        "scope_level": "CITY",
+        "scope_id": 259
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "calais",
+        "micro_escape,half_day_trip,day_trip,weekend_trip",
+        null,
+        null
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 17,
+        "scope_level": "CITY",
+        "scope_id": 845
+      }
+    },
+    {
+      "family": "escapade_proposals",
+      "key": [
+        "CITY",
+        "aire-sur-la-lys",
+        "micro_escape,half_day_trip,day_trip",
+        null,
+        null
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "escapade_proposal_id": 18,
+        "scope_level": "CITY",
+        "scope_id": 671
+      }
+    },
+    {
+      "family": "activity_proposals",
+      "key": [
+        "PLACE",
+        "canal-de-seclin",
+        "date",
+        "se-balader"
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "activity_proposal_id": 1,
+        "scope_type": "PLACE",
+        "scope_id": 41
+      }
+    },
+    {
+      "family": "activity_proposals",
+      "key": [
+        "PLACE",
+        "canal-de-seclin",
+        "date",
+        "sortie-velo"
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "activity_proposal_id": 2,
+        "scope_type": "PLACE",
+        "scope_id": 41
+      }
+    },
+    {
+      "family": "activity_proposals",
+      "key": [
+        "PLACE",
+        "parc-de-la-dreve",
+        null,
+        "se-poser"
+      ],
+      "source_env": "local",
+      "status": "SKIPPED",
+      "result": {
+        "success": true,
+        "skipped": true,
+        "reason": "occasion absente; colonne obligatoire en destination"
+      }
+    },
+    {
+      "family": "activity_proposals",
+      "key": [
+        "PLACE",
+        "canal-de-seclin",
+        null,
+        "se-balader"
+      ],
+      "source_env": "local",
+      "status": "SKIPPED",
+      "result": {
+        "success": true,
+        "skipped": true,
+        "reason": "occasion absente; colonne obligatoire en destination"
+      }
+    },
+    {
+      "family": "activity_proposals",
+      "key": [
+        "PLACE",
+        "quai-du-wault",
+        "date",
+        "se-poser"
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "activity_proposal_id": 3,
+        "scope_type": "PLACE",
+        "scope_id": 6
+      }
+    },
+    {
+      "family": "territories",
+      "key": [
+        "CITY",
+        "lille"
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "scope_type": "CITY",
+        "scope_id": 1,
+        "fields": [
+          "is_country_capital",
+          "is_country_principal_city",
+          "is_region_principal_city",
+          "is_department_principal_city",
+          "is_border_city",
+          "is_mountain_city",
+          "is_litoral_city",
+          "is_village",
+          "is_rural_city",
+          "ai_proposed_description",
+          "geography_checked_at"
+        ]
+      }
+    },
+    {
+      "family": "territories",
+      "key": [
+        "ADMINISTRATIVE_DIVISION",
+        "nord"
+      ],
+      "source_env": "local",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "scope_type": "ADMINISTRATIVE_DIVISION",
+        "scope_id": 33,
+        "fields": [
+          "is_litoral_division",
+          "is_mountain_division",
+          "has_villages",
+          "is_rural_division",
+          "geography_checked_at"
+        ]
+      }
+    },
+    {
+      "family": "territories",
+      "key": [
+        "CITY",
+        "dunkerque"
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "scope_type": "CITY",
+        "scope_id": 259,
+        "fields": [
+          "is_country_capital",
+          "is_country_principal_city",
+          "is_region_principal_city",
+          "is_department_principal_city",
+          "is_border_city",
+          "is_mountain_city",
+          "is_litoral_city",
+          "is_village",
+          "is_rural_city",
+          "ai_proposed_description",
+          "geography_source",
+          "geography_confidence",
+          "geography_checked_at"
+        ]
+      }
+    },
+    {
+      "family": "campaigns",
+      "key": [
+        "musees-gratuits-les-1er-dimanches-du-mois"
+      ],
+      "source_env": "staging",
+      "status": "APPLIED",
+      "result": {
+        "success": true,
+        "created": false,
+        "updated": true,
+        "campain_id": 1
+      }
+    }
+  ]
+}

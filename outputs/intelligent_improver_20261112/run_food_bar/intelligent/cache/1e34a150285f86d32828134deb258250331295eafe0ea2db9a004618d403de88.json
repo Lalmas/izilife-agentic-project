@@ -1,0 +1,111 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons tout les 3 très bien mangé »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons tout les 3 très bien mangé »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "« aux cuisto et aux services en salle »"
+      },
+      {
+        "string_id": "lieu-valide",
+        "confidence": 0.89,
+        "source_url": "izilife://current",
+        "evidence": "« Bref, je recommande »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons tout les 3 très bien mangé »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« un St Nicolas de Bourgueil à 36 euros la bouteille »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« la carte des vins »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons tout les 3 très bien mangé »"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "« services en salle »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 12:00 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 12:00 – 14:00, 19:30 – 21:45 »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons opté pour le couscous. »"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Un accueil avec le sourire »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis juge le couscous bon mais indique qu’il était léger en viande; un autre souligne des prix raisonnables, tandis qu’un avis estime la carte des vins chère."
+    ],
+    "summary": "Restaurant ouvert pour le déjeuner et certains soirs, avec couscous mentionné dans les avis et un accueil décrit comme souriant. La consommation sur place est attestée; les avis divergent sur le prix des vins et la quantité de viande du couscous."
+  },
+  "meta": {
+    "cache_key": "1e34a150285f86d32828134deb258250331295eafe0ea2db9a004618d403de88",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:51.077080",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 57,
+      "title": "Lille Running Team — footing collectif",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://lillerunningteam.com/nos-sessions/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "session_configuration": null,
+          "session_contents": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Footing collectif annoncé le mardi de 19 h à 20 h au pont du Champ de Mars."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Footing collectif annoncé le mardi de 19 h à 20 h au pont du Champ de Mars."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Footing collectif annoncé le mardi de 19 h à 20 h au pont du Champ de Mars."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Footing collectif annoncé le mardi de 19 h à 20 h au pont du Champ de Mars."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 57,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 99,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:57.804284"
+}

@@ -1,0 +1,445 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:26:44",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-reinitas",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-reinitas",
+    "status": "found",
+    "data": {
+      "id": "5815",
+      "name": "Le Reinitas",
+      "shop_string_id": "le-reinitas",
+      "unique_id": "162bd85a9b772acebec09934aae7a4df",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55071",
+      "principal_cover": "55071",
+      "qr_code": null,
+      "phone_number": "+33967434013",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "63 Rue du Lieutenant Baillet",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "20",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9538521",
+      "latitude": "50.520227",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:53:48",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:53:48",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJjbtC1fws3UcR4NT5PhIhIvE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5815,
+      "scope_type": "SHOP",
+      "scope_ref": "le-reinitas",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carnin",
+      "string_id": "le-reinitas"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55071",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5815_6af3a07cd3860.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4873",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33846",
+            "source_hourly_id": "4873",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33847",
+            "source_hourly_id": "4873",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33848",
+            "source_hourly_id": "4873",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33849",
+            "source_hourly_id": "4873",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33850",
+            "source_hourly_id": "4873",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33851",
+            "source_hourly_id": "4873",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33852",
+            "source_hourly_id": "4873",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-reinitas",
+      "google_place_id": "ChIJjbtC1fws3UcR4NT5PhIhIvE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:00 – 13:00, 16:00 – 19:00",
+          "mardi: 06:00 – 13:00, 16:00 – 19:00",
+          "mercredi: 16:00 – 19:00",
+          "jeudi: 06:00 – 13:00, 16:00 – 19:00",
+          "vendredi: 06:00 – 13:00, 16:00 – 19:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdhExr3IVfM_H0kPArRvj1ie3EXAAW0zrpyKJMkzn1UYhjMQW7N2Z-jBGViECO8_DfXJzDSaNKfJhn9wsppGxjod8K-DRYWKegWBkx1IO7Nm24Dsrs1QZZMK0f4QxyHWQyiAkmDe7vfyix0MftWBGjXNPLPWjTGckDqpUiwMUa1ursIXhtOjoAvRyFPiGsiSnIKI2-JMfZwO-DZoMmeKONbr4FDf8Vo0FHFlsIGsImGdTYMLqPV-xsToWpuEOisVfYq6Erk_NHU7pZ27lQXIsTRbNm2hFvFZi5OPB16i2unt1u5Gj5zB5mtz_-GNDdFnYgLO4a_MgjOnPv9UPvrACeG-BObmIxQVlPIi4uT1vIV17LeTiWN1nVRfiStOzhhIRkuPiW1e2jcNoiyRg719Ku41qwDuKTSsZXesy-3X6-CWg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100567251207794453016\">Lereinitas Carnin</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcz4ZBvucA3IS4h1v_o4EM558GBXvaDEten7EK751_vjFA7tuS99c71HOcv2WWHKAr2puobEI8ZnqD_5q1H5vHQLbE29oNyEvh3R_dBSqGlyLL8_8oMbFasB_mP1tZyjJNpxYNQhNzLp7ej2dVRTmI_OBjd_hQ5zzQKqqzureQ20wLILtYXOOt-PZ-1ZZBNXwSK6P-vM_bNj0hrRw5OQedLFgEETQ3S7q0SHRSHE9IQHNY6NJt-M8f1Uksagxp7Uq5sFe-cwYHIpg4LRt8Uc6w8aTEwPM1Dk12xoMAmcunQRFGv42mviD-XR_VES2Crea-xArHKbgrr0a_PZVxl9NuQFGZsRy7mWLZeNdYR7WGh6dYOnmJjFGFrUEdIV5DQYTQUzK1WS1bt-3jcs0MKmo3R8Cbgtya9xKqVdvBL7dcC-w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100567251207794453016\">Lereinitas Carnin</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5815
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 13:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:00 – 13:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les éléments fournis ne précisent pas la restauration, l'ambiance, les équipements, l'accessibilité, les moyens de paiement ni les modes de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "apres-midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 16:00 – 19:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bar situé au 63 Rue du Lieutenant Baillet à Carnin. Les horaires fournis indiquent une ouverture le matin et en fin d’après-midi du lundi au vendredi, avec des horaires réduits le mercredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-reinitas",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5815,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "ea2f907ec24523cf40a8163ec037350d6501d05ac82c10cd8cfaff62b9a6c1a8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

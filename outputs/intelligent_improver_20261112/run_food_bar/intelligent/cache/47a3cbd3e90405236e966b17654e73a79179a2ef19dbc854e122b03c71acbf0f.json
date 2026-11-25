@@ -1,0 +1,61 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Fast-food de qualité"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Service rapide et sympa"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Les burgers sont super bons"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "les frites trop bonnes"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "livraison",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "livraison rapide"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués jusqu'à 04:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Fast-food de burgers et frites, apprécié pour son service rapide et proposant la livraison. Les horaires fournis vont jusqu’à 04:00."
+  },
+  "meta": {
+    "cache_key": "47a3cbd3e90405236e966b17654e73a79179a2ef19dbc854e122b03c71acbf0f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:54:22.546287",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 83,
+      "title": "Excursion Lille et Valenciennes en train avec un guide",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.getyourguide.com/fr-fr/lille-l643/lille-excursion-d-une-journee-a-lille-et-valenciennes-en-train-avec-un-guide-t1535479",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "minimal_age": "7",
+          "duration": "8.00",
+          "duration_measurement_unity_string_id": "h",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "visiter"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Prix par personne",
+              "price": "399.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "escapade-journee",
+                "confidence": 0.9,
+                "evidence": "Excursion guidée d’une journée reliant Lille et Valenciennes en train."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "activite-collective\""
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "activite-collective\""
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "activite-collective\""
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "activite-collective\""
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "No explicit evidence."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "activite-collective\""
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 83,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 126,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:54:30.815484"
+}

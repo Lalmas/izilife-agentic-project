@@ -1,0 +1,646 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:25:32",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cave-d-hippolyte",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-cave-d-hippolyte",
+    "status": "found",
+    "data": {
+      "id": "5806",
+      "name": "La Cave d'Hippolyte",
+      "shop_string_id": "la-cave-d-hippolyte",
+      "unique_id": "748723a17405eaefcff9a1562dfa45c2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Cave rustique tamisée avec cuisine traditionnelle au menu et espace pub convivial spécialisé en bières.",
+      "ai_description": null,
+      "principal_picture": "55060",
+      "principal_cover": "55060",
+      "qr_code": null,
+      "phone_number": "+33320960630",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "143 Rue Gustave Delory",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0879392",
+      "latitude": "50.5874894",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:52:28",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:52:28",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJi6mCTy_UwkcRRrafyfA4P_8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5806,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cave-d-hippolyte",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "la-cave-d-hippolyte"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55060",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5806_6af3a02cf3d7e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4864",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33783",
+            "source_hourly_id": "4864",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33784",
+            "source_hourly_id": "4864",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33785",
+            "source_hourly_id": "4864",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33786",
+            "source_hourly_id": "4864",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33787",
+            "source_hourly_id": "4864",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33788",
+            "source_hourly_id": "4864",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33789",
+            "source_hourly_id": "4864",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cave-d-hippolyte",
+      "google_place_id": "ChIJi6mCTy_UwkcRRrafyfA4P_8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00, 18:00 – 22:00",
+          "mercredi: 12:00 – 14:00, 18:00 – 22:00",
+          "jeudi: 12:00 – 14:00, 18:00 – 22:00",
+          "vendredi: 12:00 – 14:00, 18:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLd0vVj3c3nrqRCaru6vuX313g2hCmY1NLWrqtz0WmRuCzRmTeqbNybwTNwUzjMBEdAtZQ8L-vrm1RmM5rWzMrWOt4V9leFjnjsXR5T79x9fALaXWutVzcKgBO4gRA9b2NLusR4iNUISOmifNq8tDgEzazYl_pB1lPTkMp8kjgcf90WBff9KfS-vrqKXndXrgKIjHas6dnHn-nICzqI0pP73559HZFGa6PtShwn8ny5jwtvvB95YDv727uU7HubnVQo8K3VZUsWlqwuF1AhDtEjwscqrTmpYoyrvlOSSrxWWZqYUi4EdRW0dJExAKBqEx6I4WHJAd_xah638phvz-M02fAXBeOgNEfTcUoTdH-VCNjrVGjCNFrKWP5-4jyO6gNwY4pi0L7imzEOFnf_r6Gs2LEU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108923315615857955756\">Nico La</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1152,
+            "photo_reference": "AV-0GLfHshQHCCv2K2emVkaey-PUja8wPqgmf37Tkf1zPVUFY8m-9H6ePkMtgMOE9RXyJ1LqTmQiGdHvntPPskrMhQx2zsSacDP8f9y7zxxaQ1__Ewl_PwOhhw5MFeR0N0C6kEtl8vLtZYqW_MzX0tZasantFvzDxSLMDv1psMyN4wjwjYyIEg6lq-pgpdVVZyrlijMFotIbRYUZ_aoE6Uo_BsIphvjQXYXnwfnfNi5LWUcA082Pnr8uJOb1AB3ctrZYGc0Vmmj5TWorQapKo4k-w2kRODOrECwtoexHuHdQwLyZW2Zxd6Qh9zDxzNI9-BaJAJjQ1hzmSc4_kKAk-a9jUridxYqNxMXLWy3tJDL2bJaF_Us0PTxi_jBEgfqT1I8IQx-xLgmSgHQq59GRgp2XbcBDfVKas8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101399414848641527268\">La Cave d&#39;Hippolyte</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLekuyCdJYiQIfn8DW8SrII_hb6iJaheIASL_ySURy1Raj3KdCAj35FQ0nQOhDNOKf4YHjOEZfdERMQTNCB9YOQrugckSZjGMWvVPUTJLMo1s8mW5xhc3zTaxw7WdF_sYw1h4Sw7ZQUAJjYD76v19pkytZG5AajB7JinLcvp9WQUgZHF9nu9O835NngcvVRolgFb3RUinHMcxuBPIrbc-I_T0lIVK2l_0ZMIrzikCpHiUiiPCtVO49RGhY92Du77Xgqxr3F4VKX-BOwFGxd4Foabl13z8VI2tAFWw3nnt-Iw6Fuora_dS419JMQthj489TazD6-tvEm4toCf2fWRWM2GB1l1ilcO0WLsiT9inEbgqdmbxOBDLOy-RMJ-C_Wfu5os0QyBem2ZNnV3ca1Omzp36ridLhPBukQZUl_ezTjQXA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116737448837997760086\">CHRISTOPHE SIMONI</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLctTtYiUOZuYXpRiM9cyZntTH6WXiLkmbP8YiJ3mFLPh3aycf8HMn45loyYx8wJQ0lz3BAdQyWfKSpse9dCPytzyyi-u_4BSuFuVwnSQqqQkKtRq4m2XaalPk0kKP_tgw3epiDBJKhObeDAi2YWKYSHR-W8h8BawM9UyzPyFCfjr5bh-t7p1IMeD8Fu_ru_9wkLK5FWkbTqyjnrXdEB4YXJuH5NRK5ucw1Qi8ogR9VKo6wqJQUkhlxFHWLXpSWY7vV-_QVfA9eA_i0m_Wt-1t-BE8_QWsIfpJApLtEmTheYqWhYA7WKk2V9OlahTdHynOXIS4mjPfPEgfprQEgTemV3pVBdxTOSWhtiPVgh1kTYrMNP_P4GI2-ZDBnex3Ayp-bSLQBA5FC_APYQcKu5k7TBUDMtePJjM8CHDbtlM8Jy",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113665228210131052423\">Sandra Hickethier</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcfSD0wJQAEfjWjDP2TPGNrVIx6sRx57PU6dpVeJCosl6LtDVeEcA3PwiHR3QRxrDerHTZMeSvF20gRjGBVB8zsoHoJ2ZOu4t5Qs_Y3Jq1k2F8Ou15H6yelI2UH0dpvwFqaEtmVUCI1AYIv8ULWs7iLhSmT6TnX-6qe_y1cHsbam7uArMI_9tp2m0skQX3KR9f5j8DXHhk6aR85b2fPLdoRokOMeGT3Mrn8YsIgstxF6gn2k-DP60c_UVc1Lw0I47lkVBftgp6TF1VZM1rNOLLg2rwLPCCxJ9xq13JvXZgeNTJ10qi41eXwyGXvyxSO61sHhHXwjeJkSuKy4HolC8tt6AYhR0tm4eQQnP55p8TWP-FOZEaq6n8reQUQS85CzXwscweG9m1tJW38gPRLrcKR9nB_v6VftqnTgtBACJcP",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115189652658621603557\">valéry debuire</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdYczToZurl5eiDL7wRXeuAP9OlBG6g781WU-Mmgt7wabMe-ZO4BII1KnwMM754LbNSuMOGAwWG7m1cefvRpF3B5nKR8Qyw6gt2_OvUcy5oy50Tq8wnzO14y_N9cAZrNQ3Dc5ofdB0nnmnLeTFWsALVIX1DT8wb1O6Z5vfhiG2SDlh52lsYwtUrhC_LSLqCe7YaE4c5idMGuLQyJk6IoVMctMsw1qs44y-jrHeEKU6gfF21IEyC7sXyHXRBlX4rgD_vrLFQq0c0Zgj5hdgRI9p8Bt7fhPmAVGXtgz6BM0OHx1i4Nu-VcAz-RzxLxFqFsm1DN2WWZjlBvzTHrRFnoz5CSTj_BKN2lCpj1tGouegcxQ5UoAUijwsPskkeQ-GdOQ9p46JCHZ7oHkp0rvYM1QPMXSXUpu_9LEhmY4OC3XbH",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106981987762753605256\">Cedric Val</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2992,
+            "photo_reference": "AV-0GLfzzafnT5BDKnafZZGNeBSp2Kbc_rvuLIL35k8Y2SQ7r5IWI5-7Fnm63vT4Q9gNvIOEJAmnsIP_dlCJCUwl02ivjWXz2RRoRJZFCB586TR1ty5hul-9pq_ilEEYzjSd0tc2goAD1zOgcWE7zGORUcc6It3JMXdSjXvhz-ccwmRCjucVmL073flOsNeeGt8UNH9_KQ-nye15JsEBXAbiF0i8Zl7Ygpdm0-vdsSWXNwykNlcgyZxvJ2BE8LlOvXOYxqjSNdgja_P4BfgtOdALUual0dM36K5FYPqZoyfCg7iyGTUrUyLB-5sIw2AFghQhmh13rEucuqD2GotsISITp1UwjopysBEa4HVm58_XChNu0JbbgHhCCMyNeBEJHBfIB_Waqa5ObNSeymjEYvga48tiCRs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109478722405083925880\">Benoit Decoster</a>"
+            ]
+          },
+          {
+            "width": 2592,
+            "height": 1944,
+            "photo_reference": "AV-0GLefStDrnVunOZUER9m8GrV-j_-eKOnW-fxz62XWp6yXx5I4V7ha163rvwfDKyHcSk7cjIwTM0pebOM7xoN9BFzU2ck2Ua1HrgDKmOu8O4nZT8qZbWcVS7vE0X4KHWAVRzowDlzLh0VdQ2eu0ZR9WgG7nKvXussD5vJXYYLgsa9bePXxiGDSRgGpwk59zTAKdeswP2xikUi4Us2CELLL0x-4OwcXGE5Ag7LWHifm9vhifhPHDtRUgVwb5FXl8mB3fcFD4tseffvZ-ATuhJ5sDnwKzwRTA1jTrj-pLA2ZiVocNI5rYX0UOAobowmlUz4b7jECw2lYp-q5KRNnSjZfKD8t8wZXvgKY_I0SVKfEkeFlyFDrbIE-opzcjRgI79chl0ksUkXW4aF3_nu_4qARN6B2EtuWRsx-KxjsZXoT_bCynw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109374156231776516149\">Miguel</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLemjYG2G4YhkovZQ7LJTFC40r1te8LHidTe3LdGyp6SUS53tvVj6XxvVf38eMveWlHkTW6vGNasBMmbJxpsgd99RB8TMimk3K6GcJpBRok4xLGSyQJFRuD-0pqtlIPaSDS99-l3s2C_Dbnrv2hbVr3F8i3Ojyto1BzZY1dZQr3kKsdPNuOg5Xmy0BIoc3092Snmvvwx3vQDVtl_AXX3HhQ8oqfBcg4hG3jSTyxxEFIwIQOAP6osvHxgpogQwI8_tDGrnxRp6zZ1ZGFKgbURjnvavGF0fTlDPmwZQzombPA9KNxu5LZFIVGriptnSVVffbRWdsgg1zBDlOq12Xjh9EcEkCFQCdZUOQivUJDLtOvGCNFTbRNrSan9wGOyokA82HFkCDrFWqtUwFer9gyJiF0pQ0RntvnhBySQ0OehBRq-ng",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113665228210131052423\">Sandra Hickethier</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfSHRlCnDoctxzNjtbblQcLJK7t50NBcafkwKOfG9wE2yIdZ38Oy_eQQ7yQRNVyJErwkXM2koWDLrWZl8ndaiJeB1UoU-C-2aIGVeCpJDSn6AcNw5bKz2NfUYAfnhHwQMoxRrUOIPrDjZW4WjKRoXTubP-Sy0NPE8NvBC8_DYwGeNyXUNVWhryxo5HxZI1qTsdVhoXOmBzAsNXqdSgtmAxCREsafVT_XXS3prbK0VHYnAcjX4bIRd_F-lLdWIWqVH-4wV3BdtcZVzaHvgiDNECPVS4Oxq1C4lrhgdA04tC0FQugKawRD6qGzvgFdf9DVb2Y3x_pGWNw1AFMx92mQkhdR8-RAC0fafZX0OmV5UK5a8IU36R_4NSJ6th6yRkCIm7tP-xhZKIH96ahFGy56ng4Oh5F",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116611654246737093646\">Laetitia Begue</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5806
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "espace pub convivial spécialisé en bières"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "cuisine traditionnelle au menu"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "pub convivial spécialisé en bières"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "spécialisé en bières"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "Cave rustique tamisée"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "rustique",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Cave rustique tamisée"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "pub convivial"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.75,
+          "source_url": "izilife://current",
+          "evidence": "espace pub convivial spécialisé en bières"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "espace pub convivial"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "spécialisé en bières"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "espace pub convivial"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "espace pub convivial"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "cuisine traditionnelle au menu"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Cave rustique tamisée proposant une cuisine traditionnelle au menu et un espace pub convivial spécialisé en bières."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cave-d-hippolyte",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "interior": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "rustique",
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner"
+      ],
+      "BarType": [
+        "bar-ambiance"
+      ],
+      "Hobby": [
+        "biere",
+        "boire"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5806,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopBarType:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "4021a3a477369bd0244ea1ef02f824038f927998e9219b92980e5a7a0ef7c785",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

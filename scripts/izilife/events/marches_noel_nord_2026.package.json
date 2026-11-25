@@ -1,0 +1,84 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EDITORIAL_AGENDA",
+  "publication": {"activate": true},
+  "events": [
+    {
+      "client_ref": "ville-noel-arras-2026",
+      "data": {
+        "title": "Ville de Noël d’Arras 2026",
+        "event_string_id": "ville-de-noel-arras-2026",
+        "description": "La Ville de Noël d’Arras anime le centre-ville avec ses chalets, ses lumières et ses rendez-vous festifs du 27 novembre au 27 décembre 2026.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-11-27",
+        "end_date": "2026-12-27",
+        "city_ref": "arras",
+        "source_url": "https://www.arras.fr/ville-de-noel",
+        "is_active": true
+      },
+      "sources": [{"url": "https://www.arras.fr/ville-de-noel", "kind": "OFFICIAL_PROGRAM"}]
+    },
+    {
+      "client_ref": "marche-noel-douai-2026",
+      "data": {
+        "title": "Marché de Noël de Douai 2026",
+        "event_string_id": "marche-de-noel-douai-2026",
+        "description": "Le marché de Noël de Douai se tient du 4 au 24 décembre 2026.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-12-04",
+        "end_date": "2026-12-24",
+        "city_ref": "douai",
+        "source_url": "https://www.douai.fr/mdn-2026",
+        "is_active": true
+      },
+      "sources": [{"url": "https://www.douai.fr/mdn-2026", "kind": "OFFICIAL_PROGRAM"}]
+    },
+    {
+      "client_ref": "village-noel-seclin-2026",
+      "data": {
+        "title": "Village de Noël de Seclin 2026",
+        "event_string_id": "village-de-noel-seclin-2026",
+        "description": "Le traditionnel Village de Noël éco-responsable de Seclin revient du 11 au 13 décembre 2026.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-12-11",
+        "end_date": "2026-12-13",
+        "city_ref": "seclin",
+        "source_url": "https://ville-seclin.fr/actualites/2822-village-de-noel-2026-les-candidatures-sont-ouvertes",
+        "is_active": true
+      },
+      "sources": [{"url": "https://ville-seclin.fr/actualites/2822-village-de-noel-2026-les-candidatures-sont-ouvertes", "kind": "OFFICIAL_PROGRAM"}]
+    },
+    {
+      "client_ref": "marche-noel-apel-faches-thumesnil-2026",
+      "data": {
+        "title": "Marché de Noël APEL à Fâches-Thumesnil 2026",
+        "event_string_id": "marche-de-noel-apel-faches-thumesnil-2026",
+        "description": "Marché de Noël organisé par l’APEL de l’école Notre-Dame le 18 décembre 2026, de 15 h à 21 h.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-12-18",
+        "start_hour": "15:00",
+        "end_date": "2026-12-18",
+        "end_hour": "21:00",
+        "city_ref": "faches-thumesnil",
+        "source_url": "https://www.ville-fachesthumesnil.fr/ma-ville/les-documents-publics/arretes-municipaux-decisions-municipales/",
+        "is_active": true
+      },
+      "sources": [{"url": "https://www.ville-fachesthumesnil.fr/ma-ville/les-documents-publics/arretes-municipaux-decisions-municipales/", "kind": "OFFICIAL"}]
+    },
+    {
+      "client_ref": "calais-fete-noel-teddy-2026",
+      "data": {
+        "title": "Calais fête Noël avec les Teddy 2026",
+        "event_string_id": "calais-fete-noel-avec-les-teddy-2026",
+        "description": "La Ville de Calais célèbre Noël avec un programme de fêtes, de lumières et d’animations du 28 novembre 2026 au 3 janvier 2027.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-11-28",
+        "end_date": "2027-01-03",
+        "city_ref": "calais",
+        "source_url": "https://www.calais.fr/calais-fete-noel-avec-les-teddy",
+        "is_active": true
+      },
+      "sources": [{"url": "https://www.calais.fr/calais-fete-noel-avec-les-teddy", "kind": "OFFICIAL_PROGRAM"}]
+    }
+  ]
+}

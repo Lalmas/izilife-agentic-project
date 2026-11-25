@@ -1,0 +1,749 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:01:57",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-tandem",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-tandem",
+    "status": "found",
+    "data": {
+      "id": "5713",
+      "name": "Le Tandem",
+      "shop_string_id": "le-tandem",
+      "unique_id": "89eed02360099c64d39a59d136fee5a1",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54972",
+      "principal_cover": "54972",
+      "qr_code": null,
+      "phone_number": "+33320078127",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "96 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59211",
+      "city_id": "81",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.968501",
+      "latitude": "50.5854902",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:38:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:38:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJR647yBYr3UcR_htBS5bTKDQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJR647yBYr3UcR_htBS5bTKDQ\",\"rating\":4.5,\"user_rating_count\":340,\"google_maps_uri\":\"https://maps.google.com/?cid=3758486531501792254\",\"fetched_at\":\"2026-11-12T20:01:40+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Deuxième visite et bientôt troisième et nous sommes toujours satisfaitsp\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T12:50:17+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Jean-Marc Deliege\",\"uri\":\"https://www.google.com/maps/contrib/102198120084318112760/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK5iQAvdoU3Tv_M9nnjxX47x50yejTF6mtGCCGbEX6jVtVDOw=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-27T09:54:26+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Daniel Dansette\",\"uri\":\"https://www.google.com/maps/contrib/113130702518091581222/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUfjR0F6TUwaj5xNfcNIgbJP3gVie_gaPx15CPwti7_aRuzZf4=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"C'est toujours avec beaucoup de plaisir que nous y venons à chacun de nos séjours dans le Nord.L'accueil est chaleureux avec à chaque fois le passage du chef à table ; la cuisine est excellente, uniquement du fait maison de l'entrée au dessert,ne passez pas à côté du foie gras maison 😋.L'accord met/vin toujours parfait.Bref,on adore🥰.\\nPS: malgré les nombreuses fois au Tandem , ma petite fille ne se lasse pas du poulet sauce Maroille accompagné de frites du Nord 😅\",\"language_code\":\"\",\"publish_time\":\"2026-10-24T17:33:38+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Fabienne GOBBETTI\",\"uri\":\"https://www.google.com/maps/contrib/107498712617303748136/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXXsq-ZIYJt9KN0mrlo89h3t18Am2F-_It685FhTkj8x3fyqQthiA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Comme à la maison !\",\"language_code\":\"\",\"publish_time\":\"2026-10-12T06:19:54+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"SYLVAIN DALLENNES\",\"uri\":\"https://www.google.com/maps/contrib/104887694048134931247/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIwwhUpiGymxFjB-V6GJetjRjpYk0TZXNj1KTxGCaUd5gnvuA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T06:57:59+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Herve Delaby\",\"uri\":\"https://www.google.com/maps/contrib/115767705441082221947/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWglQfdqTG5q0lEJ-BrVDBn589kmbcGN2f6cV3tyZHmkcgypU0H=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:01:40",
+      "google_reviews_place_id": "ChIJR647yBYr3UcR_htBS5bTKDQ",
+      "source_id": 5713,
+      "scope_type": "SHOP",
+      "scope_ref": "le-tandem",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "santes",
+      "string_id": "le-tandem"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54972",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5713_6af39cfd21f03.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4771",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33132",
+            "source_hourly_id": "4771",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33133",
+            "source_hourly_id": "4771",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33134",
+            "source_hourly_id": "4771",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33135",
+            "source_hourly_id": "4771",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33136",
+            "source_hourly_id": "4771",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33137",
+            "source_hourly_id": "4771",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33138",
+            "source_hourly_id": "4771",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-tandem",
+      "google_place_id": "ChIJR647yBYr3UcR_htBS5bTKDQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 20:30",
+          "samedi: 12:00 – 13:30, 19:00 – 20:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLd6bP3YyptceOK1XgDM1YzukTW73-vmFh8AqMJDP8XcN2qNSxfNZdOVJfwCfGyEKbHPA4of3IQrIQoHHDtHz3bn79bC2yK0ckM40iVNeuJmKCy2s5wH4M3p3FkLAf52NOSsheqCphS2GwpAuV52VwFXCgXTPAiz9lwrY0d7kwMOmCUbX_Nb6zRI3VWzRdwNYzlGO977hiDSI-Rki-1mPV88kQ5m3A-evXlBdl2Mo4ON3b708yJOTd287FNmc_7BOP8IGrCxpa67XDvWDpCAvT6lneBc-YGWZTpqLYxq73bPXr0wDFhRZ8QVK7vvPbH1bwK6iX8Fy7ARNP76DezHEforOkL8LghuyDFe0BaU9ThGq-airYX_3RQFrqULzqDc64sV85YZUB6nEiheXi02XaNu15obYK88dA_aZJOV6DqbOg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101646285200866931970\">Le Tandem</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdBGdVha4xgd-5XbgpeKRjYLKPk_YV7exNimMi96UiFnpNiwNzJjrtAwnwFopIb-bnjBO3tZDf23J1AL5s9Vz0E6wKiRQ1Uo-omq3r4Fk5UfPP6A3z2oq4y8fuXH7hHYqvfFcZNlRVr8ppYmxPWziSnqsi50XV0xb6lYmlTWD_XDcH2ZcRbttSdGw05EKMfi3kygmkumDjwHxJfPmGQtN1bKcCXiqhLo15XXTMxlUoSaBWQerO2vo-W9HueeYk2azelbphLSvUsKtZ4GUbOA9munR3qNRbL1UQe16kp1ZzghzEG9AS3gSsNSJLQpRtKzCJg4nK7BmLqd36zqldxgGpaMmA9Uy2yHdRi2TMqMhLh3ceKIqQn83oQJyVWeg98ayMXBhFfEQB8SxbYY9MNYLyjCYcLFIA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110282307239161801349\">Didier Durietz</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd7SerK9EuPn62NZYO899i4OOI0GZmIRGcNz7mOWaainPUbgittlllA4aLJcgShAC7uJJ6HzO85m52LA-YfcAE5JBz7Gjt3tu-i2fCPdebmaKV8w4FKYup1g80Q6vjgrIF8KnW4gOEc8SWVGRjdYbCIvWB-kvgvM1zMcNcHrS6yWvyYNi3GBzrRbak2Vk0aDsRkmWA0jf3Ywdahanr7oa6ZM7gRMJhzdajt4K3SCyU8tHjDy-7RJEzJeWETGMKKWdmvJsDE-f0Iv-se671YNCb8BijMZ4TusbHADHI7PuagfhhLeIzyKRFO9BTvry5dtoWtbBqGwFypl9j3pviHVG0pAGNNZBmY_D8cVkMKA3mKlbFL-XI7aqfkf3OXQ15C0cLIzGDbUZqBkVZxlxSygaFIwVg_eeY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116273333937700508388\">Yeibon Ye</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1920,
+            "photo_reference": "AV-0GLeEsV0qmwExT0B6ohCK5xHY4oBpZj0-NBIwGCkpCM7BXwiG-Vadnt5_a2jjQ4aCcec2B4oJSl1ItCtkek20x312u6yUZKc-PAPW8Jts2FBr5sypgTUPcgTksX5AUOnNBB12BIcreGc1GCSu4Ekepp8GpZzq-1VxMfRnuoEyZfkv07DPDmrVrNdt3LkgY31h4Tn20KvyxoWSS1MfkZI__-KAwPDIrYoB-xgjp_SYkCE7z4ac2HLmGDzLahw5ePvlLji2PmrcfPf0hhGSllGYTmEjihnbsbDxENoopJFJuaFL0rVEuSKROYgsC54X4pGPj5aOa9DMEEZOmD8HhzAOkW6SMhfRA5MvXTIvZpzuswV3YaVkzl-P9XgArzfHK7Ae7MnsZBoBLpAqRjWMNTUwY0-LbZoUlec",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109878561392701532596\">Sophie Wallart</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfpsV_54PVGVp-eAuc9m6KeWwBNab-mtgt0qdC4fVFrR3xxj9PB7P18VtQNPs8rMPQvLo5j2aFvA0ht4VhpTLnwCcE33bww9_I7Nb1PLJf06HUjlk59SLxyV_sACsXwwruJLh1svPuiEIMTBqQ-PXHCH_3ZAaENyP_9ofezvqEL27w9_N5nVtc7hwLDXhhpuRvRdR3k8tSHidMvG7BKbNtbE5ePZY224i1Abm1SV0ZG4EtCFrkBO4HeJYOMMI37gkY7PlfnpkDZlaFFK7DqMmW2KzSLY2S9LLQtfdOB_UKLFEA_XbVAuIASRKu74tRksCEEPKbhgl2HQKlihJ09stWV31bf2xwUMK4sUQ3TxgyJtAm-N6ZX_1EJJQ8kYwOvzixe1O-BO4PmgsCKYJZWt0_XZLwatsI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115189652658621603557\">valéry debuire</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3472,
+            "photo_reference": "AV-0GLdOe6yvcdPGoVdCnkQpXmgiXMoAmLuxbxTJrMsIGfH2Cucw8S6Ge5fXfzoUtq8UFjJWpphsdkUGZ-SyXAxR8-6lRsvgTMQLH-Pc-aFSO6PX90tsPWdGA0qRc9lChUXeQGJykFxZWOHajxhOEYncrEPOtbEpRFDYHqx1yBMrnvJxGQQAXnjvtkhFoaORyzGogNOAqCqoiB9doIkYYySS4DzUBTlVpOo8Nn_3ok218VPusjMF4e9MVkt2lQ3TuZp5FjYkE7DXObh6sG79Txh_y-yqk0oArCcDgoG_dLNtJ7ITKWGLEKdCjKGw10_zRk38uyonjVE2XLyrPcL7uLuXmzTssZrXkd6RuHVTe7U2aKBnjmvXVv_oD0U-L3AzDHBcaYfECyUbhPHvNcc4qhosC4vFYAojnv8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110520497869897107838\">Gghhg yvggbv</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdGb52-txtUE_wMHok-MhTl2Eqld7WN3RNpwWFOeJC7A2uuHFPzO4ANt-lGQHRk1j1S-W5sLLPNVoWHaMlmSTd-3PBMnU9NKzi4HSRQizQPIVs0Jwd8VCZoKHZTsycc9mhZ7wdWszI6XKqtpdT_XaLqcMtLMaRTxcd6m90U6NUFk5w7vycBIuUt-PouBsF6QmZi09xHPUlv8Wp6QMzAZIUQzpUxcDLJEXT3DiJVAKfpwArUbgzdBU4UTV-Xr7kswScBzDd8R-sGpPNo7X9Zdi1wulYjaXi42lKS95VWIojqd6ZSmbCCyXHsJWLhLs8IXS8zcYFmfhPWyLNEXDVTI6S1pADgTiWS0nG3UsYPO2wOf0LWZVhpJruj-7UxXIlQUaUJzIBWQQy2wyvzAdrOdHt8-DFK",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116273333937700508388\">Yeibon Ye</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLf7tRa7OxzD9B44KDf17j4Mazi77044Ujhr-T-vIgvwhb4lX_AEhbKxHv46FpoVot2xB8YUNf4qfattJJSKzwABuNkjO-iyzlOe_HaYcNsvvptzlReq7I8BPrYbZxvO9i0XPKuCWO9oPz4UP9r9XtYWolHdeA5i00V5teZPAMGrty4xzlsmtsqKs8pQvm7xsM9CObocNzTha71siPjHZTeXnWnMTbPtwPghQz-hNWE7nDR4ITK-k7HgxXlWov2G3Ad4bLySIDgzYI1D4hObz3M_ISc919QyJljy8SnTrpmEIUG0iU_JDsRQdytDkZkwavBGTAWbzCgASFls8GoG9f7sJFz1QXmbd4Z7KtpbUMcZtrW8NegGqZxYe6OQuj_MxzGBScVUnjJe2CW2zsCl4jZbzBg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101237784037720641900\">Jeremy Cpn</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLefgu2IjpBPVpaFINv3CJRmb6_DSjr5Q0-Y3Gu4Yk8HLuPbUnVQuxCIlGmDrSlnZJWHd5FzAunL8-9hN57bKhRlM6_K4qimCceQV2Piqcn7-3NbWW6vamQBlGpJhLCmOoA37p_SqT2CiLL6hpM4UTmpjO1FhM72yLPOJPQNuaHoP8ouQURce3MeVK1LIDpCHijm-cLW1QjzS_zBpLsh8qcUzdGeUSOp8XVZ0kzhCwp10purZpsMBQbin4RoL-sjfIGbmm3AvHWxxXeD11-mSO6xZuhwC6EHJ8Q3Q92snSNjSsTAJeEhceHliK5ixyST8pEmaEY6V3IvShU8N6oUTwM4L01BS8iFou8PDwbeWWQGOb-jH2aXtN4j665yoNi2mQgC1Zdqy0ViVNKjPw-IObgbJhE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108684689112544875021\">Sylvie Vongkhamseng</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLdSszIFdSdcbCWy0CqOBKX845lNz0dsYAIDtxurFwyd1SCfJRsUE7WxUabk0FWm4D76vT7BtPpINN0XHdIKrNDI7loeFWMglWn9AHKo4G20gfr8luXjw81Al3_YsrWNw-oncENvgVu1gly7tRCThQVe2cve2vGPI5jJqCIoa-BP00W0ZPcdQd5lGcjWV3giMFigV9tdv79ZpvYXejHq1dlzGJvD2kgE5yO4lQfXD5bPQ2BJfTCZzjUhNBuOqDRaNdJakjTZ9Z0IYJg9BM9ZSQx-t2B9cR3PdRUY55CsHr6vnZ0CidJ8nMMVbzTU4T-aSS3d0cF32qrTUtvLqEr0wLtOed2vpaULNshVdp4FVj0STNev04ae4Vl8zFKUxuCADhR9IDMrxUxuOUiXtXn_gqWLYNg_Kdo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109878561392701532596\">Sophie Wallart</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5713
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Deuxième visite et bientôt troisième et nous sommes toujours satisfaitsp",
+            "language_code": "",
+            "publish_time": "2026-10-31T12:50:17+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Jean-Marc Deliege",
+              "uri": "https://www.google.com/maps/contrib/102198120084318112760/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK5iQAvdoU3Tv_M9nnjxX47x50yejTF6mtGCCGbEX6jVtVDOw=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-27T09:54:26+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Daniel Dansette",
+              "uri": "https://www.google.com/maps/contrib/113130702518091581222/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUfjR0F6TUwaj5xNfcNIgbJP3gVie_gaPx15CPwti7_aRuzZf4=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "C'est toujours avec beaucoup de plaisir que nous y venons à chacun de nos séjours dans le Nord.L'accueil est chaleureux avec à chaque fois le passage du chef à table ; la cuisine est excellente, uniquement du fait maison de l'entrée au dessert,ne passez pas à côté du foie gras maison 😋.L'accord met/vin toujours parfait.Bref,on adore🥰.\nPS: malgré les nombreuses fois au Tandem , ma petite fille ne se lasse pas du poulet sauce Maroille accompagné de frites du Nord 😅",
+            "language_code": "",
+            "publish_time": "2026-10-24T17:33:38+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Fabienne GOBBETTI",
+              "uri": "https://www.google.com/maps/contrib/107498712617303748136/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXXsq-ZIYJt9KN0mrlo89h3t18Am2F-_It685FhTkj8x3fyqQthiA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Comme à la maison !",
+            "language_code": "",
+            "publish_time": "2026-10-12T06:19:54+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "SYLVAIN DALLENNES",
+              "uri": "https://www.google.com/maps/contrib/104887694048134931247/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIwwhUpiGymxFjB-V6GJetjRjpYk0TZXNj1KTxGCaUd5gnvuA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-09T06:57:59+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Herve Delaby",
+              "uri": "https://www.google.com/maps/contrib/115767705441082221947/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWglQfdqTG5q0lEJ-BrVDBn589kmbcGN2f6cV3tyZHmkcgypU0H=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 340
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1186,
+        "bo": 148,
+        "front": 1038,
+        "estimated_cost_eur": 4.65
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille ne se lasse pas du poulet sauce Maroille »"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille ne se lasse pas du poulet sauce Maroille »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« la cuisine est excellente, uniquement du fait maison de l'entrée au dessert »"
+      },
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille ne se lasse pas du poulet sauce Maroille »"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille ne se lasse pas du poulet sauce Maroille »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille »"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« ma petite fille ne se lasse pas du poulet sauce Maroille »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« L'accord met/vin toujours parfait »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« L'accord met/vin toujours parfait »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« L'accueil est chaleureux »"
+        },
+        {
+          "string_id": "cosy",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« Comme à la maison ! »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 12:00 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 12:00 – 14:00, 19:00 – 20:30 »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.79,
+          "source_url": "izilife://current",
+          "evidence": "« poulet sauce Maroille accompagné de frites du Nord »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "foie-gras",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« foie gras maison »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« frites du Nord »"
+        },
+        {
+          "string_id": "fricassee-de-poulet",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« poulet sauce Maroille »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 12:00 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 12:00 – 14:00, 19:00 – 20:30 »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-table",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« le passage du chef à table »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« le passage du chef à table »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« le passage du chef à table »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Restaurant apprécié pour sa cuisine entièrement faite maison, avec notamment du foie gras maison et du poulet sauce Maroille avec frites du Nord. Les avis soulignent l’accueil chaleureux et évoquent une visite avec une petite-fille. Ouvert pour le déjeuner et certains soirs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-tandem",
+    "operation": "ADD",
+    "tags": [
+      "adapte-aux-familles",
+      "bien-avec-enfants"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "is_for_children": 1,
+      "adapted_to_children": 1,
+      "adapted_to_family": 1,
+      "adapted_to_family_with_children": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ],
+      "KnowedMeal": [
+        "foie-gras",
+        "frites"
+      ],
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ],
+      "OrderMethod": [
+        "a-table"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5713,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopOrderMethod:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "eaac82dc5dcbcb62c94b5a69509a07d90fed99f90c448b71bc19489d91ce7eab",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

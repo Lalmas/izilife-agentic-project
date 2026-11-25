@@ -1,0 +1,601 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:31:31",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-bella-vita",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-bella-vita",
+    "status": "found",
+    "data": {
+      "id": "5584",
+      "name": "La bella vita",
+      "shop_string_id": "la-bella-vita",
+      "unique_id": "a1d7b444cd54768a20d2adebafb64b08",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54842",
+      "principal_cover": "54842",
+      "qr_code": null,
+      "phone_number": "+33320328730",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Résidence du Nouveau Village",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0169968",
+      "latitude": "50.5164258",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:23:05",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:23:05",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ27bRzR_TwkcRiVKmqBe_BlI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ27bRzR_TwkcRiVKmqBe_BlI\",\"rating\":4.4,\"user_rating_count\":137,\"google_maps_uri\":\"https://maps.google.com/?cid=5910621669304980105\",\"fetched_at\":\"2026-11-12T19:31:14+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Une pizzeria de qualité avec un patron super sympa!\\nUn délice!\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T19:04:34+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Ben Da Silva\",\"uri\":\"https://www.google.com/maps/contrib/113741353392584238355/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKAfuS4kkgY9AVRKCQMrgl94KoCJSnjSEmAQVzk3ICNR7XZlQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-27T18:51:45+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Vincent TRICOTEAUX\",\"uri\":\"https://www.google.com/maps/contrib/107232111523308244718/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXZ5QVVyxxOZny9v-p8LhQcYH5rBowaS4KUWLPSfqTFA6QITbPGrQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"On s'est régalé, les pizzas étaient bien garnie. Au top !\",\"language_code\":\"\",\"publish_time\":\"2026-07-29T18:32:09+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Aurélie Cuvelier\",\"uri\":\"https://www.google.com/maps/contrib/108084414206922724758/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLjODmTTiOmrF0x-vGN9bKlE66yr_faeZVjzaqyLgJ5u_DLBQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Sympa! Efficace! Honnête! à Phalempin... juste à coté de chez vous! Que demander de plus?\\n@ très bientôt Patron!!!!\",\"language_code\":\"\",\"publish_time\":\"2026-07-10T17:29:48+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"patrice pecriaux\",\"uri\":\"https://www.google.com/maps/contrib/109405751296345300382/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVari9hW_b06daicIH5MZD8usphQhgbk3NOnIdNmW-hcgEbAbHA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Des amis sont venus à la maison à l'improviste.\\nNous avons l'habitude des très bonnes pizzas de La Bella Vita.\\nNous avons donc décidé de commander des pizzas.\\nJe retire une étoile au service juste pour le délai (les pizzas n'étaient pas prêtes à l'heure indiquée).\\nEn attendant nous avons fait un blind test musicale dans le restaurant.\\n\\nJe recommande car les pizzas sont bonnes et le cuisinier est super agréable.\",\"language_code\":\"\",\"publish_time\":\"2025-11-30T18:13:28+00:00\",\"relative_publish_time\":\"il y a 11 mois\",\"author\":{\"display_name\":\"Charles Derache\",\"uri\":\"https://www.google.com/maps/contrib/102867003304406310606/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUmfoMycWA1PW9_WN7rzXKavaPP7FTo5Wk_PWWGrGKSljSklcMe=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:31:14",
+      "google_reviews_place_id": "ChIJ27bRzR_TwkcRiVKmqBe_BlI",
+      "source_id": 5584,
+      "scope_type": "SHOP",
+      "scope_ref": "la-bella-vita",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "la-bella-vita"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54842",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5584_6af399492d7c5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4643",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32236",
+            "source_hourly_id": "4643",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32237",
+            "source_hourly_id": "4643",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32238",
+            "source_hourly_id": "4643",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32239",
+            "source_hourly_id": "4643",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32240",
+            "source_hourly_id": "4643",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32241",
+            "source_hourly_id": "4643",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32242",
+            "source_hourly_id": "4643",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-bella-vita",
+      "google_place_id": "ChIJ27bRzR_TwkcRiVKmqBe_BlI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 18:30 – 21:30",
+          "mardi: 18:30 – 21:30",
+          "mercredi: 18:30 – 21:30",
+          "jeudi: 18:30 – 21:30",
+          "vendredi: 18:30 – 21:30",
+          "samedi: 18:30 – 21:30",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcbrAECpwPCvgGQK4Af-M1N4z4WNtuGSPu6qIi_GBAc9DibkxHf42HrlCr20tA4ZcM56h-pkJSBnGIjzq9kSijjj3AQU9sGxpI5FUd-tN7vDpSkBEE9ZUn8diHB549Yc7cFi_wUjBniZ3lXy3wbaN31qCshXc9Heu9v9m4kRBHizjMv4N4G9rMF-EMCFoE7ZgbKweDWX6748vQbwd9O309vF-qbqkml1zkl_rB14JZcIKodgMh0mlPa65B_KOQJAX5eDjj71W26ARlGdG_2L2CZscFJvx9mAKxHY_cV9lNSEwesk6YzfehDmtGzINFE-lR9QFuSavhv8Blq2B510N0HJrQDpDP5OTz5iLfC6_KA28db040op7iyhH8tv_6b3bzxmSg00mbwjvK7qrJkqBonhE4ql3g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLda-RspA52pZcu4rc57QLy0q6ZZ4FfJXr_AshWfKVfeh03MS-Gn6HWjk2upds7PxBg5hrhj9CME9fkwj5AQlGlhiowLpYP-9GGDj1fEV3YUj3MDor6znhVLspottQ36dCvAkjY67He4EhYdNxU7r25VGpkJs2DvOqnzgKGarJIAH6zh8gtni96HpVeCorzpZ7Idgz3_-vKsOnSLfEMn3hY89OeJdGcVUyGXcXlfT0zA9pbM51UpYyElFrTH75bZy54ljjIjbu-YusyZYub4G79MwhnzXsJpCdY1gzBmmAekKWEctcy4Nf5c5Hgd7AA0o8CoMNT28tF8-Rq9npT0KPI4j0YCJA9nfe9Rl-UqwW8gs363GMaSafdLE6QyftcTOfDeohkHU9_8Os3HCD2rTAZPS1ez",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcIKAC_0pJoCRQ05wEBZoa-qWciPaG5mKGz7fAKu_z_h0OCIfEfu2B_Q-DDGw0IfemD9GLGf_Rm6VMM6v246W0KdOHP2jIF5hpnDlC3a7r9abAX6JWZeLnOPLDelxPmHVKpwXYUBQzkGm3jJAHpXZHZmwn6KWHI3bbaxOqcehs6Tfmqam30KuGNosadWTTqCXTykIQEnU69sGo3T2yEm4MVGQ7NGv-O4D9GrUKrB6L9Z78cIj8EgLb7sL69vxnbbwg2HmN5e3rMTMGODHfZYTW6NJs0hwlPHT-lf25kFDirfdJZdzm2A_Cj4Q3s35A-1R0B3-2PUVgyY8xXHp128gCJtbAbouW4TwHmKnfgxbHL58DiGQ5g-nnAvgf275CQvGK4maH_b2kQlF1d_BYQLZ1DPHo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117332196817032342898\">Elisa Huyghe</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLcEERBqBDE7-vYLzAvFSnbiYj528vvxVE6Pv1Q2625r3pJxwSLV1I5V2NF_L6ljvBB_llNmoFfaHN3P0Xkk8uHza8cSGUGdAlKN1iknnR-2rppWrU7Jb2M_BLhdDapA5NEGfUM5aKqWBolWuLEZepf22Y-yXSAkm4WvAus4x5UsWaF_KLzYbAoRJCq7JwWAWvMVcoKHbi3YJi1slq7f4LSipXF7zcanNwbpTZzqkofXMIJ5LxlFj5htgIdgrY8OdfvnIRbKxackdmM-wryM4d8o9roppcT1AC6RBSvXa0brEaPaUujfn8dGvEx9bqMVXeEr5tmeL4LjiBKaIPmGHK7icSKFw8ZWPBFifo2YF1A7IIQLYwz2HoxEFsMOjXtrpW-23vxD0ezgKGM68hMKsNQN5ZY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdCWP099OVQvpTQkOEqCZ21nLCgiQNX1Siu4kB2mpmFRHEPqIBpDYrwZhllwZfAg_RSIjHtON2JAuKIY7KhHF7AVbI1moB9aIcuyqO5s7FqWhxMINv1hI-vGNFDlWnHlDYUTAqfY52BAPo3fhUsK7jDWU7L3OmJuOYH5F0tk0YogI70wxfVzeEg8BQnnjIyFqetuQbZi8_PFH_thIE7wxaNeiaWlFZLWSqwx7UgVvblJf-h3kvmm4opQc1Qdv2FcDGWJbJ4po4IO9br268RfY-tAwyz34USmlTgzQTmvaTuQpUmCKivFGPc7e8VnCyowJ92pcJkSsi9t7PjwTsXPpfejT-uG1EO6EVB1weN-ORjnq0snOp8Qu_axyad7k6e-wPvOhHe97DEzb6CnviCtFCiF_DCRUs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 720,
+            "photo_reference": "AV-0GLdnUN-CCPAHSOfNy9E1xDaqEQOlXKV2iiHQZmaBzITaPuhq5o9QtGMpVf7qNgSWlg4-p9uoGOVdgHZd0exgr9JX7XwqUH2EJxRBM2tY32_E5BQz0h0kChG3IVBwgtNNTY9glM-1lXCiILluU8jUCsnkeBgtvRQQpJKCj6PP8PCewU5jPyBBU7BRdIWP8NzI81jiJ6lr37M5wc2onJQml1NZmfQkhC28MVYTff-NGbEmwkuOZ8RVsl0-6rt28vt5GvBcRRkrnzkRIRWdggqiaN5NsM86VtZ_hoiBkYldkGc25QOSFpaLeodsuc59SQmtBDg0Ked9NfMj-67XZL1uer01gULzJD0AIFRYekSwJCAQz9jtNLRraxWt7e1NznfbDHpUQIZq835Vwp2vpDT45nrdE__A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLftMkVozM-47TYfGBnSck0IWgkqyBVqa03tKdibX9tvioz9sETQLYl71wkI_szrs9N_K3vG4hplNwXADJjK9phi2K6JT9PwAfH_B6VAr79st3YKWB3y6n0qwVUgsV0LSCSwV9-aoihl1NdIeGUGH-zTeduHN2lRK8xHtodaHbjAXtygK8uCP3WOinCoTCyJRqKABzNbc7KSEYJOxv2BgAOpmEw1QivCiFvABM_UxPz9bmWrLnw8y4YzDiPS0MdkuqqcwqNaPclB-ugO3vrLNX3Dlx5rIycWVMIMf2vLF8frtmCVVI50damv1ih-KWXgmVNSQxSxaSe2tIMeTK4mkX4gcdEdVodhBgXItlZ4cdhd--RFr0uhuVNz3jIn5l6Q8lHSfqfJUQ4xy3bwto9qtGmXfVAhUb4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117332196817032342898\">Elisa Huyghe</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 720,
+            "photo_reference": "AV-0GLeJ1XuA_olxtokD0DF1mCdLQdyzrLFTDVkNmfS1qr3nNYAaJTJQagTlanaun_wERVq2e67UMGfxoI2bT7c1rxpw7T7RLAmLF1TQ3vWkKJamHNhGMW0mjGemCOwwEGNDEAHFWTNZf3GOqodAmmNsD8LbXC9wcAeaL2XLNFKIfECu3m-0TAa0nxjuNv3w199Ayx6WaWJj64JI1n-Td0e8to4inmdJSpJDqz2rjt23z5VrSasSMEnseTFbpWtf243lBp0RnVaNFv9zjfmTAvADF524qrsqljaHhePXVdv4fthoV7ZBPDQNmDRKR_9esmhuc9yHCtaxo_1U1USpHNZwwN6IV1s8Xl1TGLGk5vblCKGtkmAFbckU5Z6_Aoj2UvfrTy9bw6horq4M8ISqMKjiZ04R2AE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 1824,
+            "height": 1368,
+            "photo_reference": "AV-0GLcydqoCSR8VV5amdUpto1N7NwlizWdWMmy8kkCYNi45oZiuJEXEnCZ0MJPyzZijjRPF_DRh7yCQiThdm_5zRd45wygC4Jurke9K42PNMNo280s0kiawXEkLLvz90WOrcMJPZimt_zEFmm34yAQGWbUlCiU2rsFl6BoQK8r_3Dytma8GC22V2Dqgn_xGmqt3wI_7sTGhswOpnz3JWFpnpA88R08GnIuo7feUEQqNtbLYmBZ5rkxTtvnmtC8UtTAxb9dZnBIkUFyOMjy2pOnIg2BIKOZrXL71-G3lHoupJSIRXCDPtgiThkhPMgU2Gh6VF_hHj4X7JVOP3pd1BeP1HuVNIA85tHHFHU1Cw5vwir0Iw1mbDrjz4S2YkGo9-EDdZwGKyiK7C7NOv-OqZKBqt1ybpnVG2t4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101410094295692896585\">La bella vita</a>"
+            ]
+          },
+          {
+            "width": 2136,
+            "height": 4624,
+            "photo_reference": "AV-0GLelEUZkld5PSAWVH7ssDPMk3VIxIXMGMYhb1cSvFVySDyLLZdO5t3-mgUIsVVLakU6FNs7NCZ3KuuklAE9xZUURtK1nPa0_-ZqOEWsHp7aD8g3IUUAsiNW1Iy_B2Lskd4QmSB0wkLGPRySRt_j4UWv8rBy7ay7jLOQKrZA2WR_R0-GySidMAcR3IUYUSOepN-86Q-O0xPep_LrPgGOy84M4tsLfW3xkCcDe-aLN9pFxUnSc7cL5AY7P-TzzEtW-Qia6cmnjIx3GnZwyRcvuWlcsTQ9aEUewQtPt8whIg-SYVvTFsRt7HFgvUCsOtwOr2DHl-CrKyg8GT_CuGKEOc4xrCjIor50saKNv2zedsbOXcGRg8F8Un8yzK2xmC1D_dTIAO0B_-FoVeG2nolAVpXnCLgc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109070707727731436012\">Stef</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5584
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une pizzeria de qualité avec un patron super sympa!\nUn délice!",
+            "language_code": "",
+            "publish_time": "2026-10-21T19:04:34+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Ben Da Silva",
+              "uri": "https://www.google.com/maps/contrib/113741353392584238355/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKAfuS4kkgY9AVRKCQMrgl94KoCJSnjSEmAQVzk3ICNR7XZlQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-27T18:51:45+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Vincent TRICOTEAUX",
+              "uri": "https://www.google.com/maps/contrib/107232111523308244718/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXZ5QVVyxxOZny9v-p8LhQcYH5rBowaS4KUWLPSfqTFA6QITbPGrQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "On s'est régalé, les pizzas étaient bien garnie. Au top !",
+            "language_code": "",
+            "publish_time": "2026-07-29T18:32:09+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Aurélie Cuvelier",
+              "uri": "https://www.google.com/maps/contrib/108084414206922724758/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLjODmTTiOmrF0x-vGN9bKlE66yr_faeZVjzaqyLgJ5u_DLBQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Sympa! Efficace! Honnête! à Phalempin... juste à coté de chez vous! Que demander de plus?\n@ très bientôt Patron!!!!",
+            "language_code": "",
+            "publish_time": "2026-07-10T17:29:48+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "patrice pecriaux",
+              "uri": "https://www.google.com/maps/contrib/109405751296345300382/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVari9hW_b06daicIH5MZD8usphQhgbk3NOnIdNmW-hcgEbAbHA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Des amis sont venus à la maison à l'improviste.\nNous avons l'habitude des très bonnes pizzas de La Bella Vita.\nNous avons donc décidé de commander des pizzas.\nJe retire une étoile au service juste pour le délai (les pizzas n'étaient pas prêtes à l'heure indiquée).\nEn attendant nous avons fait un blind test musicale dans le restaurant.\n\nJe recommande car les pizzas sont bonnes et le cuisinier est super agréable.",
+            "language_code": "",
+            "publish_time": "2025-11-30T18:13:28+00:00",
+            "relative_publish_time": "il y a 11 mois",
+            "author": {
+              "display_name": "Charles Derache",
+              "uri": "https://www.google.com/maps/contrib/102867003304406310606/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUmfoMycWA1PW9_WN7rzXKavaPP7FTo5Wk_PWWGrGKSljSklcMe=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 137
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1086,
+        "bo": 48,
+        "front": 1038,
+        "estimated_cost_eur": 2.15
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"restaurant\""
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "\"blind test musicale dans le restaurant\""
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "\"lundi: 18:30 – 21:30\""
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "\"lundi: 18:30 – 21:30\""
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "blind-test",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "\"blind test musicale dans le restaurant\""
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Pizzeria appréciée pour ses pizzas garnies et l’accueil sympathique du patron. Ouverte le soir tous les jours ; un avis mentionne un blind test musical organisé dans le restaurant."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-bella-vita",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "diner"
+      ],
+      "VisitMoment": [
+        "soiree"
+      ],
+      "Hobby": [
+        "blind-test"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5584,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "309614e1d8f8c4695ce5616e3d81f8ce98851d0b44b9702dccaf57aaf44408e4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

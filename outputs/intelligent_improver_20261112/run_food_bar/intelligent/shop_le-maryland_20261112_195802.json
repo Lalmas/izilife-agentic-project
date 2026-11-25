@@ -1,0 +1,624 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:58:02",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-maryland",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-maryland",
+    "status": "found",
+    "data": {
+      "id": "5697",
+      "name": "Le Maryland",
+      "shop_string_id": "le-maryland",
+      "unique_id": "6e8d10fb9d06465ca347d33060e0f0fa",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54955",
+      "principal_cover": "54955",
+      "qr_code": null,
+      "phone_number": "+33320614115",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "78 Rue nationale",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "489",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1154787",
+      "latitude": "50.5192756",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:36:59",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:36:59",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJOXU2DgzRwkcRC7ek1LzBfCA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJOXU2DgzRwkcRC7ek1LzBfCA\",\"rating\":4.5,\"user_rating_count\":263,\"google_maps_uri\":\"https://maps.google.com/?cid=2340958923091392267\",\"fetched_at\":\"2026-11-12T19:57:47+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T06:48:06+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Laurent Duhem\",\"uri\":\"https://www.google.com/maps/contrib/112572085404450531491/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKXCxaK1k7tiNzKyrQjmDfNRRmzvv0p0SRPqdVENeIfMt6W6A=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne accueil, super ambiance,\\nVenez nombreux boire un verre, ou deux.\\nCa vaut le détour.\",\"language_code\":\"\",\"publish_time\":\"2026-10-18T19:23:36+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Eric Duncker\",\"uri\":\"https://www.google.com/maps/contrib/101100760021391682835/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIKNfXasBG_P09MCTa35UvyRNiGi7o7ZIM7GIQJCjxg1mx3Gg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Je recommande à toute personnle\",\"language_code\":\"\",\"publish_time\":\"2026-10-12T20:17:45+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Dams Dams\",\"uri\":\"https://www.google.com/maps/contrib/111918331476751096815/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUP4qjTUdVZlAGKNy_gDHcLU3XK2s_QUsPJzHtySz_EwQThRzIw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-04T10:06:32+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Greg Caron\",\"uri\":\"https://www.google.com/maps/contrib/112223371026696390688/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLFSKI9k2Qncx-6tFFN8uDjq-jcNSwBSZxXz3pkKRbXGblJnQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Personnel accueillant et efficace\",\"language_code\":\"\",\"publish_time\":\"2026-08-28T11:14:38+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Domi-mini Belm\",\"uri\":\"https://www.google.com/maps/contrib/117194085149433653698/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVGJtAXCRxM7jcyQoAX73WC6LGhiuyppf2WC3xLgoiBdaJHLEJ9=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:57:47",
+      "google_reviews_place_id": "ChIJOXU2DgzRwkcRC7ek1LzBfCA",
+      "source_id": 5697,
+      "scope_type": "SHOP",
+      "scope_ref": "le-maryland",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "pont-a-marcq",
+      "string_id": "le-maryland"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54955",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5697_6af39c8bef2ca.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4755",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33020",
+            "source_hourly_id": "4755",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33021",
+            "source_hourly_id": "4755",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33022",
+            "source_hourly_id": "4755",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33023",
+            "source_hourly_id": "4755",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33024",
+            "source_hourly_id": "4755",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:45",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33025",
+            "source_hourly_id": "4755",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33026",
+            "source_hourly_id": "4755",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 16:0",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-maryland",
+      "google_place_id": "ChIJOXU2DgzRwkcRC7ek1LzBfCA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:45 – 20:30",
+          "mardi: 06:45 – 20:30",
+          "mercredi: 06:45 – 20:30",
+          "jeudi: 06:45 – 20:30",
+          "vendredi: 06:45 – 20:30",
+          "samedi: 09:00 – 13:00, 16:00 – 20:00",
+          "dimanche: 09:00 – 13:00, 16:00 – 20:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcVMiOf78pv4AouHMoXDKbZPq--ZBs_JF3Ah65W21MyHEvQQxSF_7BIx8ncLzwjXcAiiQcxskvtNKm00tv-zv4nQ0wcsYtbbqUh2DHifxKnzik954xdn3LrblPHCSARdz2SdpsYVulsOpMg-rExDjqpJbL11fGwuQh8HWtQCkwSbwcQD8u_nZhJQl960hyhQz9cGFdhwFruojxoZ6Yq-gUyOIAKnZVZzZuVNh7nxaTQ8CNFCadmmorvE_pqsWf41v9gcpfbjl7Wown7WOISFKH34Tw7VqSiGGejToBRuy2PBqqSzYtXfGlc8MJ23OJjd9u_Y1xNsWXd4pAn_JGwSuIm-23s1dXBYylInE3EbcLvSgbB_G58ZPPRQhjHkmIDz_8BSoqEzKgEZ7HmbfFbllyC5YZLSpY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107607255583443572099\">Le Maryland</a>"
+            ]
+          },
+          {
+            "width": 512,
+            "height": 960,
+            "photo_reference": "AV-0GLf_XwlA1KRBb5XICX6bWvVP4rp2vEx6Jlukw5utRIFxtGp5huqz7BBnzv_c-dVLt8jPfEx6mkacVBklp_PMvvFq9KQLczFuXhYclnua6cU2DOD_hDIQIuLXj5JY0tiCswkRXXy3wxd2EqyQ7eXDbT60a6xEFO7NzHKExoXQAGq8iRMN_aVMremnfLtZ7uP49x_3f6L03aaT9asORlh_0MtsArnj3ADw_F-JiEeLikxW4aj3yjYv0Uc-0SyLpqARu9AIWY7CejRwvptvCw-7RG3UnRw66mcZfDdVBinvvKjn-1NZt-gyucbYjbF-MHgdckdLZEI6aPf4xoIBHPw-oIeSplIaD5Z-LikKEERifqh29KH_OU8PsokQmlxrKEeqSM-tge33zWiFL4cRDP-U7uZEipuDXRE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107607255583443572099\">Le Maryland</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLenNrBOua9UWljkov0DDB2Os9FhZL1Kp01wN1wUsyw8WO4orzVGEC3v7QQN59qaZHMeojwVvtGwu76iv1-UnPjrXF38QnxmxRg911g1n6GkeZsWT1iIxhG1kPyd7WxrKShYjx-ZSHvOBhR0zo9NZj8Q0tWzAQlhynVd5QUZdKXfwG8e4HuoWEHxfyY2ZAVHROQBSLoKYBoG2tVCyT_VS4nBAkCgD2CB6d27S06-zVKdul65ZcI9uB5NFT8uvuJ71H21SXuKTJUj2hz3oO2GobDSIjGNd-uqSFdK9Xsj0zjOgSMHxQE25kUN3eNkdMRkmgAOQMh7stf1GFkUNnzSAMvGSoGdhd3tcVx6LFqwe63iRcRvYuL3yDxOev8hPA5BX3etUmpFV0KABlpBD6uBM_5D-Y0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107607255583443572099\">Le Maryland</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 1210,
+            "photo_reference": "AV-0GLdEOsry6rmIgsPj7-YAJVkiy6S_jlxxne-0mBGxixvgmGUN-rlktQ8q8XFgjnFsIqHqxny3LHH7MdXfpwT9qRh4bRSOaLm4eb83dTEBG40pZSKdcg7N9xouXl13TQCbAZ1Fc29d5TdAU9koPq6wOWMmacN0ofINTWonwFsouG07MQPe6ZkZrkn0oq8LWmLaGV_cX3aeeOAbsiJlcWFcc5Ltv9dj5E2HJ_CK7p5QpA9KRj0w53Hc-XNCU_mRUtpikMbGMae2DXXMfAKnY55UiGXhgzMMAQZcWfLq2HxWE3fsw5Anr3qEqLDhzMYOdohQmiR8_xiGgYil9qLci_em4bgOhcmnfdg2qunzUh0z03NxAUG6tNMTtazbKRic3yCM9UC8VIMZ_-fU5w0WQHqupozUHF-eId1HW-BNrpJFsmWweg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107607255583443572099\">Le Maryland</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeXa7jxCElo6PFTwptEycM5dTzvYcPYHE2h1yne4UQILVW9he9wt2FgO2jXjidoEhFVOjK734ZMj9gTPuiyLS_Ml3LjqIL7M0MaJRaPSc8upC3zfd_FOJLISp9BeZ3Rvp_NlVIs4oGbzThEatszamjVr3DbocckaJQDZWLC1fCEXvGW6apkqOXmQC5c0xWk1xwjmcWFed0KDnlLSNJttTSs_rpHO2cKKP6miZH2mtavT-I9vt5DuRVB86FKWSMC4VOnJsJVOnqWu-yqCKgzI3DFWHJB93e9_XE1RtdgIJs2gu5kH43eXuN6f1uc7N_wgyJaTexoD6KVkq67iVXPga-Y5lwXGFIcGiCV_9U3rW3nOvE5xbypMhsSuboarI2VhcKOip-OamF-XHOXLFlAaFythgWe",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101291360600887852387\">Laurie Talon</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLezVgTVj1Gv0-UBLeRyTIo5Wx99gXt9c59GM2UyHOJxHozA3qdRJsY4bEmgsdkXq9EYm6gnMtf0J20C-Ndl48t9h5ByzUf9BBn3DTgCI8Y1F-ZNjwTLuUz9wje2mXQAHAnnGIXcp2BHsUtAoc7Hb2EmKsoonwrvHpoOZ2iVnxkHIvq_TibyizmAcY9vmmSL5u7a7KObli2Ikc0qTNO3ql5PD4NhH9nYXx96Ns0KrJNAfZs4f0ohd5sQPHVGzoY_CCs_tUA1y5hfqQKl-mBh9ug3HMLZ34chFdaDY3aMSk2_z6qVfP8_NPeJZoNZEQeuP3fo0qmb8Jj5lzhf2TGWoP4JJOooKMsQs5EWNNBDliV2ns5PGTuSgVw6OPwktgF0YPkdujSBi62gw4f3LBUNkMrMDpKTDg4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111512334862244493478\">Cherche Pas bouffon</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfeKSPOYPoPFeMOeQrA5sW_c_ntTT6VDgpmmoGZnJbvoAhsfV3d93OL-C-Yfw-0HpWYMxlcDuYGsBDCoLgS2nqmoGviAxtFV3vKXeUvvkYLM_17C7J8f4ulF9hV1-WS5Hi6Gl7J4VPwodZtesBhwNZ8sYLJfMOx4-n1kGrQn8QRXHTOg59yk1rfBunKHFsVlBsQ1W75zBzWb-02aEubHcNL2AKQb8EDOuZnolPg6Exhv8-HNgRz7ZhEMWmy_dz5asGc8-7HrrsYXmC1-rDYRxrnDOaIUQIm2Bh3sh1dMlctMR-adVeIZNP47mB_7ypKc_67qv76p1TJ1glhDRMgblK8xgL9d99_8QhaHTkJrm_Dd4Es1QfOZulEFxafBi3BjSedjT3_mqCjPj03I2BePrkUYmyx",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101291360600887852387\">Laurie Talon</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfXKv7qsrgIaS40RVq24QCViW9GDje9hl2r3IKqMIsZlgJJiWh594OsyUGHjhqI8Yf9LxsULfn8brjkQ9fYSY_LotTHtR9QmNyKJxfMNyji9u6pJtRmHCjHzNrf9exzSVtJ8yvmmXrh12KRBJiEGiP08CXJw9hqVzEUETOrQSsmhCPJuSsi6bKNww64EUDWZ17l0YTnk0TOg1VNi7AYcbEIRHSrR9SlBMJg4bgpER1XB4iTW2QuIR1kOnPUtqdqkzlOslFBtnkexAOoZKRWosCVMd1VIhD_J4WoTlUEvyvC4PvloguGUdmQXypK9S0_BsBOpUzc7iTSmkohxZh57HSZ0EKHSt4Cz1IOB1fGjYv37FkAumiq8Gc4F_KzvkJFGYYAwiJUYKpxTTf0Po7UxhHqsRE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111512334862244493478\">Cherche Pas bouffon</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf_YCSFqNp9OflbjreNNzILNUr6mfReH9TJEpZ1ktxSPeaDUbjnh3eJLKyWPVM2orIo5QbUUMaKJGZHgByCk4nXfSgIaNUH-f8-5iU17GnZZZi_JXX8LCrAtTwrQ_uomRSoCHsTSXFQIDEXmsRzwmH8pkL1rFwSiHrLtY0L2K1Ex1H7OxvVkjCqzwfyDDLoIfs1JNJ4aLAKH6FHLSiLFIXZGClKLKCiCDXDLHShjtU6HsntCquDfWJ3RQ7rgGIibscJrUqMyJWMSmNdp3rgdEpmL27L5HYd8i6gl6vDvQZu9UZ0KYcRQWj9PkGEGJDPNZ2idTj1MoajEsEl6BqpYRz7Wn1l8SUAX7mHNwVo-uRsHQ6uCR3oJKpHqDaTvO4yTiLLslUUp9mvDLpbrJc2KaagrYeP",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115565759254214639719\">Manon Bachelet</a>"
+            ]
+          },
+          {
+            "width": 1104,
+            "height": 1104,
+            "photo_reference": "AV-0GLfuTJgp5lffjYmg3tUpfVmOpscTpeRy6mzFfVUNEFPUUsKjefSAmngKNZqKUA-x5w13z7hbzNV9OWrkNzivcbOjt1okK5_iWbqCLM3ylANJyLXAM0P6MtDCRVDbq61rdcz3u2AlOfhb6qowEXOQiORNgg5J6tz1BjBzSqw0ahiRNnxqjtGy0RmJL39H3RPGD1tSGR12Xqob-3C090R3fHo_kYA8j_pK2rH4Lo-SwlJbMAh2yq_vczIaKI-9-8Y0KqNBdBpReYj0WcNlZKtxy5yWesgtRgORwG9u4z81hNvdcq5uKuqCSQoYKJ9RbDjCsk3nuNl5MFvSX2ZuWACd1cLDrbVdfM76h72ZMuPHqinGZXzCQm4g65SoRIKQC_Pr6LsJv8aR2N480_iLOxGtLx6Kg4hHpJA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107607255583443572099\">Le Maryland</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5697
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-03T06:48:06+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Laurent Duhem",
+              "uri": "https://www.google.com/maps/contrib/112572085404450531491/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKXCxaK1k7tiNzKyrQjmDfNRRmzvv0p0SRPqdVENeIfMt6W6A=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne accueil, super ambiance,\nVenez nombreux boire un verre, ou deux.\nCa vaut le détour.",
+            "language_code": "",
+            "publish_time": "2026-10-18T19:23:36+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Eric Duncker",
+              "uri": "https://www.google.com/maps/contrib/101100760021391682835/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIKNfXasBG_P09MCTa35UvyRNiGi7o7ZIM7GIQJCjxg1mx3Gg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Je recommande à toute personnle",
+            "language_code": "",
+            "publish_time": "2026-10-12T20:17:45+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Dams Dams",
+              "uri": "https://www.google.com/maps/contrib/111918331476751096815/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUP4qjTUdVZlAGKNy_gDHcLU3XK2s_QUsPJzHtySz_EwQThRzIw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-04T10:06:32+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Greg Caron",
+              "uri": "https://www.google.com/maps/contrib/112223371026696390688/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLFSKI9k2Qncx-6tFFN8uDjq-jcNSwBSZxXz3pkKRbXGblJnQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel accueillant et efficace",
+            "language_code": "",
+            "publish_time": "2026-08-28T11:14:38+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Domi-mini Belm",
+              "uri": "https://www.google.com/maps/contrib/117194085149433653698/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVGJtAXCRxM7jcyQoAX73WC6LGhiuyppf2WC3xLgoiBdaJHLEJ9=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 263
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1177,
+        "bo": 139,
+        "front": 1038,
+        "estimated_cost_eur": 4.425
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "« Venez nombreux boire un verre, ou deux. »"
+      },
+      {
+        "string_id": "vaut-le-deplacement",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Ca vaut le détour. »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.64,
+        "source_url": "izilife://current",
+        "evidence": "« Venez nombreux boire un verre, ou deux. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« super ambiance »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« Venez nombreux boire un verre, ou deux. »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« boire un verre, ou deux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bar-ambiance",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie : bar ; avis : « super ambiance »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« Venez nombreux boire un verre, ou deux. »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Bar à Pont-à-Marcq apprécié pour son accueil et son ambiance. Un avis invite à venir boire un verre et estime que le lieu vaut le détour."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-maryland",
+    "operation": "ADD",
+    "tags": [
+      "vaut-le-deplacement"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "BarType": [
+        "bar-ambiance"
+      ],
+      "Hobby": [
+        "boire"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5697,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopBarType:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c8b286a9d3d1bd8d207d9cd39a07e07da1caefe8a8a402e43cb5891776048682",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

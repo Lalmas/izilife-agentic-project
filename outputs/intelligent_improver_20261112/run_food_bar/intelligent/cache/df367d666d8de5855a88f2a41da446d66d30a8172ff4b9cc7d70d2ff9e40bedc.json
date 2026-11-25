@@ -1,0 +1,36 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi 11:30–14:00, mardi 11:30–14:00, mercredi 11:30–14:00, jeudi 11:30–14:00, vendredi 11:30–14:00, samedi 11:30–14:00."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du service : 11:30–14:00 du lundi au samedi."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, le style de repas, la consommation sur place ou à emporter, l’accessibilité, les équipements, les ambiances, les publics, les moyens de paiement ni les modes de commande."
+    ],
+    "summary": "Restaurant à Sainghin-en-Mélantois ; les horaires indiquent un service le midi du lundi au samedi, et le vendredi soir."
+  },
+  "meta": {
+    "cache_key": "df367d666d8de5855a88f2a41da446d66d30a8172ff4b9cc7d70d2ff9e40bedc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

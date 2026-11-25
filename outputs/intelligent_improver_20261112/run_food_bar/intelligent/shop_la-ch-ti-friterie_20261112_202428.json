@@ -1,0 +1,536 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-ch-ti-friterie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-ch-ti-friterie",
+    "status": "found",
+    "data": {
+      "id": "5795",
+      "name": "La Ch'ti Friterie",
+      "shop_string_id": "la-ch-ti-friterie",
+      "unique_id": "257d7dd1c4f8275e1d5b26a28f6bdae3",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55049",
+      "principal_cover": "55049",
+      "qr_code": null,
+      "phone_number": "+33682310075",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Allée des Primeurs",
+      "additional_address": null,
+      "zip_code": "59491",
+      "city_id": "2",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1424493",
+      "latitude": "50.6497862",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:17",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:17",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJgTSqXnQpw0cRnRDESIBN5MI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5795,
+      "scope_type": "SHOP",
+      "scope_ref": "la-ch-ti-friterie",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "villeneuve-d-ascq",
+      "string_id": "la-ch-ti-friterie"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55049",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5795_6af39fe578d85.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4853",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33706",
+            "source_hourly_id": "4853",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33707",
+            "source_hourly_id": "4853",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33708",
+            "source_hourly_id": "4853",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33709",
+            "source_hourly_id": "4853",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33710",
+            "source_hourly_id": "4853",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33711",
+            "source_hourly_id": "4853",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33712",
+            "source_hourly_id": "4853",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-ch-ti-friterie",
+      "google_place_id": "ChIJgTSqXnQpw0cRnRDESIBN5MI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:45 – 14:00, 19:00 – 21:00",
+          "mercredi: 11:45 – 14:00, 19:00 – 21:00",
+          "jeudi: 11:45 – 14:00, 19:00 – 21:00",
+          "vendredi: 11:45 – 14:00, 19:00 – 21:00",
+          "samedi: 11:45 – 14:00, 19:00 – 21:00",
+          "dimanche: 19:00 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 4096,
+            "height": 1840,
+            "photo_reference": "AV-0GLch9qVEsiL-7c8dfCdmkCwIO3i61kGSX0KvkCTW6wddneT6awA7KT9QfXc_tX8_ibnPs6cZnk1koaZw1URRKI73HvCMHK908uaGng7um8QdwWz3rrcZXUqYg3bjLKkd1n4EW-oPDZi1qNvr11Nv-ZdegNjFXqwL9WoefIHtU3fPUxlxC_OkSRNIudtShLELASJ8rSW63LGgd7mU6ewn677bnRuJX4GfgkB_1lKRA1BO-qzQuKSxQ3JPkj6XdD4omEHWyHCYE-kdBisxw3sHwXAfcRdJPBLaws-605sS3yzSR0E8tVwgCL5oqWUKyWDc9J17JNzWXMIyz2RFhRsQ6vxQri6fFTugAAggT0obxWi0Xd2i8fustaL_o7ol-kqLgM8jwpW5j185OfTW6dMn4fc9hJoOWSFO79FjaFn8FrVP_g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107240087677266835895\">LAURENT DACHEZ</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdTbmho_PRaYQBYaaHfgVJ1BCyexilVIwCQ-dmlt1d5nc7DCAQMBCtnG-5gHC3B2t-Vx9f4IFcnNTZdtaQys4IMHK79qdHWLUjFxvDKF9g2hDBm7ij1q8K8ddcd_GSOggksbcFNy5XbnwC22D9hcLyKz3g4nkbfYFOkiExuKYKWZ7kPZVDDp5mSAo66klBF2sHQPTrR7OXN59lX7gc8X3B5eCVWqTIseNJ0NFFMWOT76tkGgXbOQ2OVlRPThSoDrF_bWyNB2RDl6LveYD827PNU12hx9upyFMLW7O2uUa4dPZhCMVoZv3QcYR8PGYC0LqUnoY2W4oeT8UdDbWoj7lO56FclR3DcSV1lzcs0sqWXTy0z7Fd0WLAL2lCsCrCSulg6AkFewfGYRNjKQbOPTbP7kT1zf1E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115117837755871436733\">Allan Drcz</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcY-COq8ELC3vMk8Wsk03tcRY2pH9PbkruBSln9idHw328bODA9P51LhbqZ60aulbks0wL6gBiIJz-woGMKa29gvRsFNHN4JDAxuzMNh6hHrrhDFR6QMDQrJG_qa_19K9dPL4brWGHDFMBe_r7Kqy8P5MK4Lfez_BJShWxcI76hivamtkIjhOmZSBSE7wNH_tEpTYCl6gweA8fDW3cp830GWPppWOoea_cl75ubr4lsLhG2aLTBzyi_oIXK5o2IbOGjY9hk-ilUNJ2wMgLijhuTKI1Flih6E0WS_5AYq7MTEygqtpFFlNf5-L5x3Ch9Sirv-ADmCNm6qSm_XhW7ULnS6u7GE3afs6S_GAeIE058aYLp5qGqmJfUdzRxz7Uudn64lAYFGkATD7_2KgXbiWj5yGiZ6qBGTcENqdavQJfg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104418588285021159607\">Nico Cambus</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLea0DHZSDt2-O8HKMPcFYbXZp57tNMmsOht5sI9nMY_4U2qcSDPl03J6jyWu3zQxJcuHalpE4c6Mrr0vwwj01yIEvSqw5dBuUjbeSOhnP9rIfsoVRqJ5-SDuqdV_Bpc3EpEO2-EyGWqOSZrk9abtgKSjHao5-FrQtNV586-QZ-ZY4VGEY8R87G-GubJSJb9mW73byiR8xBgem8I72DRLzfgTqMcT1EMPbFIEhageGC9PBNXlX_zc0IrCVgPghvMvSEhkcjvvM-g4IsyLlO0JuNyIzdBsAVmvcjSccAb0G6pUWOfxYicVWj8iUYq0IxALYLfaZcYhYVpCVqi3j46DooPztflDmBaWDIuHnftF5yXaeTWQgGwNvbaTIlRP7LqDxqByMRxiRhLL2lWoCWN1iomq3WvfJ4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108139542386363449061\">Dionysos</a>"
+            ]
+          },
+          {
+            "width": 2739,
+            "height": 4624,
+            "photo_reference": "AV-0GLcKTFr2TNPQ3pOYajRY6_c1D8Ou7yxushZNkE-dep0IfKVkZATfW4sumYr8HF27I8DLeX6OacTNVHRgK9pF8G5QjHnda2NnM7bcW75Y3U789Hcx_uOtrDJcJNogqxbNjcWv0zb0Up1_fj6l9NsMdtgLqMtwXWyUXy5E1ZHBeeu6A1nNMt5Zg7U81RpxlD2YrSRAcg2BQkY7dNeeOsOwaNsbC_n8Vx9gDPpoeVpAvg7otlEUv1BxjsHUvNZvR72a5irCa6wXXLso--mqBS22uSanSHTi8s-si1BGD0fxZp7yv8ljVtlV9xVtXadXmQoO2uTg7ASedxtm7OCK6Pn0zgptYLp01mWOymkxXfhLLkEl3m-ekgphEk940UTRvYfEO79sF6NVKUxJvKvy-SZoLr2EHMr_kW5SjnQoYon8nicdwg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106271161213992301253\">Pauline Becar</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeq3rGPkKL35mTtsq4MXsAYRqh3DCQaiRKnnCeHQeUfoLM6AMETpofLXG18Y9wgFjpcGvQax8Rwjsu2TmxP5RdLd6zsekl2kWamJlXYpaRqF0jfW0qeawBQGvPyY6GwE0mnhu4MDrFaJVXPtc6sWZM-Z0NF6XO4672zlySitGR4pzLLybMughPfjUHPSiQWqwLe4bv4cCVpLVtGWimP8mPksxESvuvXtURnvUg-q3dy7W66I91FDhPhvhphCsG82JEWKhttTWZF5TpYaIHo-w0WdZF66pqN_wbw3QBp47SLphZIWXi7otphF2lr_wiImiuQV0T8dPltisDJAzFUVlZvGA2BzuE3bUJxK44LpMuUqTZU6vSodWvHnx-rO88wCD-_BzG7CYBZwGgRF2Wxjq9blzI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108562716946728849054\">Véronique Descamps</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcaE7Pd9eC-DoyljZH8z2qIW_g-zJavbUhCg8Ad8wtC5eLSESXb4Z_8p478lyrGiiGr94ucOe5GntkkB-eevtDlvJM95pQV3uRdkBbKpztiset4AKhFeA3EZ3wmRPtBzmPoi_KFO9fbZfE6-faQcZHUBgguUFfxxFgxqZMxYbntQVRcJPRE2nbnDyOTNAdAodQN12GLhXeRV34XT5ZFDkLLD1w351NDrARnOJqJd_jX4DPJ-iU8lfu7skH_oDteemHQrB3yRSRWxWb-Dy8u9oqw8KGDZ7ekIkNXqE2unDrbDMtUxgrSPfpIcP7OqJzW_7Dk2d6Nl5Xqm9cpm1wIzLxM9yx7h9Gk7kwqtEqQGu3xNKt7WBjds-xygs4Jji0ZwESbNTTMaMKzSdsNIMnj4xb9VuA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108562716946728849054\">Véronique Descamps</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLd9JJRlxclZK063esHQqL9Du2s5szpfL07pBxpnGKk3ILA7SACmxtw3HfCu_PZXprzFImhd28PTRp19zaHBjJLbtD0W35cVrLrIUuNkcEJoOfiTSTpRxzo3ifv3rpaqA0fz7Dh_7C6jSL9tgnRlDErcdaEPL28ikVEbZkx7QChJrW9imZrD4dmnYC0Bqy0gvoOIr9CUZiqWdU2y15N6G-vpom1xgYVD8P4n7rMiyOfHJ30Enyh8Ue2p5W_PJj-zuDXm1UDARNAFYBDA0dgvRp0jUDiKkOFOkn_JU0OIcqjWjHSW2YyCbJdfDyqUFO7BtYdZKaGLejiwg2ByOXVgwGb14ib3Gbf5UGt6KxP7WhAGwhLMQ2SGw0UGApJVP1kcM9kvCn2v9ubX9dPn7InweyDtEbgiOdfDWGL4x66zOuP20Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110235123695610277256\">Guillaume Hubert</a>"
+            ]
+          },
+          {
+            "width": 2140,
+            "height": 1855,
+            "photo_reference": "AV-0GLd2gD6sqESjv_zQxgDgYfKRnr3UfXIHXti_iOCf9DRtYf66b19VkWToiIu4RhXs1zOU1K1OD126xuoHl1RkkH7GLi5lJc_lfd2l6P_SKw07rAMWPqwYWw5WAVDwU0qVEYo6AzgFzQA3EWWost0FHKm8azzPSO1V87OIpGZfR4hBTyXALAf1oAY6nAD3IWKxyEq1NCcbdiWVc_eiVflfBi4FOPjt1EbD5gHjJGJyS3qg7Ynu8cfoBb1J1PIETInFETJqV47pqSHD8YXbcnkRs7HmWz89CwHXQDxU53jQBvDFCYwWTF4xo8eKIDMURj5MP0x1C7HxZiGX4QwPDbet2kPqvwyvRuNuUTgHaljBzdlwHgZR1aFAtferU9EzrqGt9OarGP1VuX0wGfoDH4Ft13gbJePvAR0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106243671596373841772\">Georges Cioaba</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLdE5rG3UIkIMKQ71g0QGa4iiAP1mCq_rAhQ7jpapntkC4YXcJLKz0bTWEfhV-cd9D-tnPeRpw2CSipqXJ5qZP11NULmSeGgYb5YW6QrU7_GR2k6Bzwtu6ecWezJwca9Sy9vBduXjG0vI17aQgp2BU9Lra0orzZaV-FYrmIB3-pvIX6fUhKqTRjQKF9tSIvveRN1rBO33LJLiARx2Oqb5JyFuXygSTFY8WZCaC-1tbwBXhWWIIUUomnNYagLFWHxM1KFSxJPNisOz6w5UuJQLbaRjxTWFZacLEXy2U_SWA3_jRuRop8sncq0EFFKsl_vAXgVphkp4MDVbUJ1n0uhPIsRuDm-16_X_hVud1CyyWNFtpOvsBEX6QHR_oFyQ6mgJke2JnOIF__c2pTABxFnqGW5yhVDiW9wVgYIUn-VdkF48g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101058994741634327773\">simon waucquier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5795
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45–14:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les modalités de consommation, l’accessibilité, les moyens de paiement ni les modes de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00–21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00–21:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "La Ch'ti Friterie est référencée comme friterie. Les horaires fournis indiquent un service le midi et le soir du mardi au samedi, ainsi que le dimanche soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-ch-ti-friterie",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5795,
+    "changed": [
+      "ShopMealType:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f5a2e0062ab63c4f81ffe8027f3b6af66a86fc24bf686f50719adb6378cd0828",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

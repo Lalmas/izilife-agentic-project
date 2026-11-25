@@ -1,0 +1,95 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:13.959972",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 52,
+      "title": "Atelier initiation bijou en terrazzo à Orchies (59)",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.funbooker.com/fr/annonce/atelier-initiation-bijou-en-terrazzo-a-orchies-59/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "principal_activity_category_string_id": "artisanat",
+          "artisan_technique_string_id": "assemblage-bijouterie",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "activite-manuelle",
+            "diy"
+          ],
+          "age_category_ids": [
+            "6"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.95,
+                "evidence": "Laissez exprimer votre créativité et repartez avec de superbes bijoux à votre goût."
+              },
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Floriane vous accueille avec sourire, gentillesse, patience. et simplicité."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "À partir de 15 ans"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Un superbe moment partagé avec ma maman lors de cet atelier."
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.9,
+                "evidence": "Ambiance chaleureuse avec Floriane, aussi jolie qu'efficace !"
+              }
+            ]
+          },
+          "additional_image_urls": [
+            "https://www.funbooker.com/fr/annonce/atelier-initiation-bijou-en-terrazzo-a-orchies-59/voir"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Atelier initiation - 2h",
+              "price": "85.00"
+            }
+          ],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 52,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 93,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:21.754434"
+}

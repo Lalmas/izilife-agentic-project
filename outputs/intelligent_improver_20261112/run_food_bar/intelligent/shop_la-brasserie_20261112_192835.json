@@ -1,0 +1,622 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:28:35",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-brasserie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-brasserie",
+    "status": "found",
+    "data": {
+      "id": "5573",
+      "name": "La Brasserie",
+      "shop_string_id": "la-brasserie",
+      "unique_id": "c0a3ef3d9167028e781f4bfe1398db13",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54829",
+      "principal_cover": "54829",
+      "qr_code": null,
+      "phone_number": "+33327865607",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "300 Rue Hubert Parent",
+      "additional_address": null,
+      "zip_code": "59171",
+      "city_id": "277",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.3102802",
+      "latitude": "50.3601431",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:21:37",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:21:37",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ08z0j6DBwkcR_pzk6hr1xGQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ08z0j6DBwkcR_pzk6hr1xGQ\",\"rating\":4.5,\"user_rating_count\":329,\"google_maps_uri\":\"https://maps.google.com/?cid=7261197995186887934\",\"fetched_at\":\"2026-11-12T19:28:19+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne cuisine, plat maison, service impeccable et les tarif sont très raisonnable, petite brasserie embiance familiale, je recommande vivement\",\"language_code\":\"\",\"publish_time\":\"2026-09-26T18:28:46+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"yoda yoda\",\"uri\":\"https://www.google.com/maps/contrib/100574317554447617491/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXfdnuLHbEXgDt1vS_VuqqpZjqMM1MlhMoWLWT1YI-9z3G11OEn=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"C'était tellement bon! L'un des meilleurs tartare que j'ai eu l'occasion de manger ! L'ambiance est top. Le service est top. La nourriture est top ! Les prix sont top ! Merci. Je reviendrai.\",\"language_code\":\"\",\"publish_time\":\"2026-09-04T18:22:10+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Dimitri Degroise\",\"uri\":\"https://www.google.com/maps/contrib/117534217387662082029/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLDIexntjPnKFVDcmDs9-YZeQC_6SHG5FLvQPQOB8vhYFIPeg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-11T14:23:55+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Stef s\",\"uri\":\"https://www.google.com/maps/contrib/106151592803289893765/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ3xErWtc3757AW3v6v0qQrr0F2xo6HjxiGU47MM76p8ZKGDg=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Repas de famille correct, légèrement salé, par contre, leprix des boissons est exorbitant.\",\"language_code\":\"\",\"publish_time\":\"2026-03-06T11:15:00+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"Damien Somson\",\"uri\":\"https://www.google.com/maps/contrib/113012400205559204103/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVd9Y9zpn62mUb75G9gItBWf76Y13NQWS86Y0akYpNt2YCz5Uu2CQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-12-26T10:20:57+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Alain Fleury\",\"uri\":\"https://www.google.com/maps/contrib/103521150423061275737/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKylwTlUIucOqju-Buxew4r4jAh9qMTiLDNPwaPdXqA6Yf2Ag=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:28:19",
+      "google_reviews_place_id": "ChIJ08z0j6DBwkcR_pzk6hr1xGQ",
+      "source_id": 5573,
+      "scope_type": "SHOP",
+      "scope_ref": "la-brasserie",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "erre",
+      "string_id": "la-brasserie"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54829",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5573_6af398f171914.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4632",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32159",
+            "source_hourly_id": "4632",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32160",
+            "source_hourly_id": "4632",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32161",
+            "source_hourly_id": "4632",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32162",
+            "source_hourly_id": "4632",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32163",
+            "source_hourly_id": "4632",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32164",
+            "source_hourly_id": "4632",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32165",
+            "source_hourly_id": "4632",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-brasserie",
+      "google_place_id": "ChIJ08z0j6DBwkcR_pzk6hr1xGQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 12:00 – 14:30",
+          "jeudi: 12:00 – 14:30",
+          "vendredi: 12:00 – 14:30, 19:00 – 21:00",
+          "samedi: 12:00 – 14:30, 19:00 – 21:00",
+          "dimanche: 12:00 – 14:30"
+        ],
+        "photos": [
+          {
+            "width": 1512,
+            "height": 1606,
+            "photo_reference": "AV-0GLd46XnqsWPBeBggVt9Ax4ZfMZw1NdfbMbFie8GAu1jjVWZDGhlflxM_c_aijBMZFYpFonKNlpKlMivRasqTJFxCE8Bc5wGO2xJmteWcTMuNU-Rs2HuG73AHyzY1gGLysngX16sJVXep8Afk7ZN8FLr6DEOxnNE8al4gn9PxPhNP_T0GO7YIlbKnM2KNS40EPl66OMzcA2moIiRhUUFSKyy2TBuC33bwBx6ZbnU2tho4_w18bfwtQ1eAfBrSz5A3IqHrU5YYGc2syJDuL182QCU1RHy5qyCjNo0nJhWtKYCajoEwHHMbP_392K4q2UeT5tKk7_cZKk9fsXmdfdhOeYaz9pC1tuAegG6A7WP4cInDwEue8nmvvMNVxGEUPSIQG8alKOEsTWgCq1yYec84XRkHIXM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1375,
+            "height": 1144,
+            "photo_reference": "AV-0GLeRAD3XU2KVh-E8WpadCJCh_LkaN8xv25lsNiXvkj6JxU3ee0zCp9PHPvQNkV35pEnvOuDSSjFxjiE_BgFzrUoSLdzKMotbbS3U5OxaiCYpVRnLIPrzMAm5bkl4C4_LSTgLAradGseP8DjMzTlEaEN_lhC_q1oUQb85It0gqd0I0V_0quBeKCSrWeHE6EzhBBo6hqpfQeVd7G8WnwB35fKOlUto7H2RaHKVFEBfQ3cxfnJajvbnmOaxL8_F_yYBteiMPqlRHiS_-Jr06Gmyg8KukaqGeFYrZnuQBtd4BuHgr1vFx3v0_dGYMXzgD6H1vBSkkC2OiDTRQkziCspeo41xNctS2gxJ3lPzARb-Ql7lbcFTPoeDK8yhm5htiAH2TdmAjHFKda63iL_uuzkSbVYp17vO_ysSVifcU5Tu6Tws",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 2120,
+            "height": 1192,
+            "photo_reference": "AV-0GLc-cymyeqZs-8row8NKqDC9GwiLGL_0o_j2UqdmkxbOeFeue2zlrhVrKSbG8uJ6Ir8daZtdAP_jKfDuZ03x3AnnZps6dYJOXhAJoXiEk5nTKF4zN2nNq-3PJ9Wo-N7DTsue7v-uNB_pnRfLq2ttKOh_yUwU4ca1volICuL068KvAZMe5ibWu89Qi-Luwo5XmMpi88C9IfQ4iZrqIpEa3_AzWQPdTLQYfWD1whFRd7RbVjUeeZsPG-pt-giuWG_UISlnKcn9RkNGzCA8f6GIg3Ana-ZKCIKkgdYMH3R-fRlN1TeVoQhvfEz8VTofOI35IVRofAa99qqO76Xv6rwExIkzgQDKW8q2-lFrORIdDob3R9eyvqSv8XCNQFqoidbUqBsZgDoAtqNlyswDbJbv_H5TDI0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1583,
+            "height": 993,
+            "photo_reference": "AV-0GLd7wyYBbXw734U2Wa1MrXsvb2fOO3DigKtLdMsUHPJcsa-w2NSKk3H8x09jiXb1c5-9LVg3vB5UT9bRfAQ89sV4cm9WHNPZiOSoLAUOBL0WX6vg60326Q-V5G82phLzaWQ0RRk_m8PXNb223zN5kDcv3Tg4iYo5nmAA_OF3Vxgtc-TX4MWJ_y1ykoS8fQUnP7H9UEeZ6luztmefnbOOj_Eyl4T2DBj4GE5b3DfZfdH0cTUMn5gm4xvrKJ4qEIIm5Jln8bv10SDl9MNgv5kRenfi6Klvebqt6oSQ5KENsSupD9qbCeHIZQKulDWGpa9fKAlEG7Kze-7yVj6jfx1Ow5epyi2WO_t6f9DF72xyCVtDwsODbFvavEv_p--4at3r--GzdAwDK3xh0n8i7v6fEwxKq6lubhWehvvS2tt3aPnFJw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 1583,
+            "height": 993,
+            "photo_reference": "AV-0GLd4X3zxToHXvXD2gsEZk4SivgpsDJ4jqJ0X8khXk2cAKFw6yKpBfzECx3o7JJRLv-Ap5VK8lnAT96ar-eaKJZ6YR43OB7aFSptOzpHnecj1Q1XiQm_VU8h9fvm7tcuyURpIGXa05zXZpMmzklUn8vbxmBbRFLjRjpBpB4wnNWA1hzZ5GJ6sIVssXsQW0vgQZ0X4z95QZcwXxeP36WqPizmPFxy9fCx6bLDHIPOkXA5MQv3gxdynZpkYlmZgxdpuK7-6lKezVBXesgq8QglZS6UOh1qCOaxrjpx7Pon48jL3DEvWK1GLMGbYP_-AkQJ_t0KmbCxQzpr6xAuTFCrD6-vV7ZsNg8qy9O0KODUDMm1oujceoImMR-M3Ibg151MSW1m13e_gmvzIXyAiPuozwzJieXyHXJwl0lQ4Yl287izpjw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 640,
+            "height": 480,
+            "photo_reference": "AV-0GLf886WDrG7M_3-9UwlMzJl_a4fRrgKKzaGHTqKXEZCnW3hICcykXrwi9QJHji7EKAbXC3IjuuybFLwxS8E6TIkSr4Wzgdi0Av2il5O35i_uZTAVc8zKUDblc1F3puBPVqma0hqFITD-YdgImzYBOIS8L5vJp5nT7wV1FRPMHbLW7vXnn0KH2z1--6K7M-DjE0zFaoy5IIOORoxGS7OCiTVwqfnZjcTVBmFQICGuFP1aPz_8nOJXJi0S2fWDreDCK4G67Vi8ZFplN8BOjKpw5GSvWrmCBnqngAT2aZ-_SHaxtdVc9j7Z3VM7WsJ1oPfIQZlldGBN5mDm_ebjfmHuhgzGDhyXl3Jr8oH540KHFiS3j-UUtniwfm-w_plT7W4wI0WWQrGEvtS6hK0utDpqFSVl2g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 640,
+            "height": 480,
+            "photo_reference": "AV-0GLcnk7t1w7ni2AZlKE2lzp2FJJKWZj9gV69F9-5rFA8cTNSE7pzFi2_c_ik1JevNebxFwm-yczvPLLu2T5Pb8i4QJ-MIAj-t5KsNMoqs50aWIaYuvIiTzDYkE-k3Bapm-JcBNrah3XHcAS_paAWKBPQBX6G-nWro3WR6lLQMNSkbQSoN2jOFeKuRa5i2DDaz_DhbNtUbmk3pBqusNJlxNBCH4kAq3BtKItMaWXiSBB_splmWCbEuAuYrvP9QyGSS_SDYpsHnz_VcwnAWjQmmjIrLAZUGw3kG0B4PwKbUM_kKDBeqetEen5E99dvzmmEHcobX6ojhCvwBFz0sqv5RekZ7V3iN5YOhdQ42y8KtEi9KCQmANE3lOL7ULiSeuYStJ33i_RZKkAHUj86_oRCsNlb88AI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110398076163558385412\">la brasserie erre</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLclljmAz4TM6ocvYl5oToVRRyQZmDeKbAHqzBZFnLS_m6sf3dFE5sWp0q0xw4XS0t2FqUNvhXAhpgP1qIuup3Y-YDEXcKjXwiqGu650-Q3rjWlvIhwNChqLzJjfBx7NCm7em3wELiuSBzUwjq-EEjMoZg3hEh4KawQB-xLjhqqK37zbYmCcGd4eggCPxyD3W3cE-LHAN5qGxF_uMR7VcXkZqAu2I2ixwAJboTljgC7ENCfSctZni33DhITwf93B5lsRwsned-yaTjZbINa12uTdySz7H57xGI2wuLpIUbOjZa3mG7UnxAS631nfATYn0yh-ygv82AIxiXpB-3fgGAnIGfoj0Z2W9ri4k9h07k9bUONKlO7i5Q0W__YLjNLoGnp9Kv0TKyZh6silQ-QC9sYEVYs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111283205065388098340\">François - T (François T)</a>"
+            ]
+          },
+          {
+            "width": 1712,
+            "height": 1294,
+            "photo_reference": "AV-0GLfTva04-cFIgYNZrUXvyYm5pwFWqg7JPpgOLlKiZ9_ygWE1HFxoISDGyD8HW1ZGITYeYNd5dRsGJW9oYAQgZz1Tca3BCV_PbS6XNVmu0dZSpBbuvIEYeN2DfY5a1fniA2edQshBfz8WhM9xXI2niRBmAEKMBjToGlItrm2MyxOGai0SfNtb8jNTTBN4aQoqgFIsjmER8D3fzA2MFR7-A5eBHAKyXSKLRcGRUP8GRaDGEF89M9U_7fqzQ1NCmncbWR3GZzz9uY5NWk9rxrYtorjp-BQpseWkiq9VRHJypMHbd0eSOJelRCElxfE9rO063d48kT_KUVXFpRkSs0oudt2OjMQ939wYxcCVERFfgLS9Q8byqaQk9B2B-yM0jAqvok-UvxNN_PzEdK-4tedo74vL5UhuBwA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102464624533756259702\">La Brasserie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLcoiGUpsMTRP-suQvGJ29w3hB0XS632y_3OBfFhksBuVJgSUkfePiwBoXNpZT6TnwmYdr5KtOHnb2JcVxr_W0Jqu8V6LPdj20aOdizkIIbUH6y35Z8cxfcVCcZPlbW2bUKjF3bphPrxZlzgCyJXi0tsk_AxrV5XhAluK2ZrHAskFDlDbPNaBMvnNlic_-hq66zbRt-qgxDaIsH9T-TLfoORdCG3OtDK3j7Oa19atW0JD5E6OT4hr1R50n1qYzYZ-XRhfeC3coG4D_BmkayiaSwew8qOPW1GBQ7TYUy3nCk9vubgYQJX2nOr2-6YmfSNAyOdo-EHiX3NFJ_OdBhHN9AwmEDOlXf8fvzPZV35Ytyz2pi_n8kKdouipuhE5zcY6UiXH25s6w2lyrJb_DqxlStBLmidgSM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102449863819408109157\">Kelnerowski Philippe</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5573
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne cuisine, plat maison, service impeccable et les tarif sont très raisonnable, petite brasserie embiance familiale, je recommande vivement",
+            "language_code": "",
+            "publish_time": "2026-09-26T18:28:46+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "yoda yoda",
+              "uri": "https://www.google.com/maps/contrib/100574317554447617491/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXfdnuLHbEXgDt1vS_VuqqpZjqMM1MlhMoWLWT1YI-9z3G11OEn=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "C'était tellement bon! L'un des meilleurs tartare que j'ai eu l'occasion de manger ! L'ambiance est top. Le service est top. La nourriture est top ! Les prix sont top ! Merci. Je reviendrai.",
+            "language_code": "",
+            "publish_time": "2026-09-04T18:22:10+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Dimitri Degroise",
+              "uri": "https://www.google.com/maps/contrib/117534217387662082029/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLDIexntjPnKFVDcmDs9-YZeQC_6SHG5FLvQPQOB8vhYFIPeg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-11T14:23:55+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Stef s",
+              "uri": "https://www.google.com/maps/contrib/106151592803289893765/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ3xErWtc3757AW3v6v0qQrr0F2xo6HjxiGU47MM76p8ZKGDg=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Repas de famille correct, légèrement salé, par contre, leprix des boissons est exorbitant.",
+            "language_code": "",
+            "publish_time": "2026-03-06T11:15:00+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "Damien Somson",
+              "uri": "https://www.google.com/maps/contrib/113012400205559204103/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVd9Y9zpn62mUb75G9gItBWf76Y13NQWS86Y0akYpNt2YCz5Uu2CQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-12-26T10:20:57+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Alain Fleury",
+              "uri": "https://www.google.com/maps/contrib/103521150423061275737/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKylwTlUIucOqju-Buxew4r4jAh9qMTiLDNPwaPdXqA6Yf2Ag=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.5,
+        "user_rating_count": 329
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1078,
+        "bo": 40,
+        "front": 1038,
+        "estimated_cost_eur": 1.95
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« petite brasserie embiance familiale »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« très bonne cuisine, plat maison »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« repas de famille »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« petite brasserie embiance familiale »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« mercredi: 12:00 – 14:30 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 12:00 – 14:30, 19:00 – 21:00 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis divergent sur les prix : un les juge raisonnables, un autre trouve les boissons très chères.",
+      "Les données fournies ne précisent pas l’accessibilité, les régimes alimentaires, les moyens de paiement ni les modalités de commande ou d’emport."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« l'un des meilleurs tartare que j'ai eu l'occasion de manger »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Repas de famille »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Brasserie proposant une cuisine maison, appréciée notamment pour son tartare, avec une ambiance décrite comme familiale. Les horaires indiquent un service le midi, et le vendredi et le samedi également le soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-brasserie",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5573,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e6524c73ea9a4a5cd0110d8c4c0c7eed5698c41e602c8637fc46346297344dc8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons pris quelques bières, quelques whiskys et refait le monde »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« quelques bières, quelques whiskys »"
+      },
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Convivialité Formidable, Ambiance !!! Patron déjanté »"
+      },
+      {
+        "string_id": "incontournable",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« C’EST L’ADRESSE !!! »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« quelques bières, quelques whiskys »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« nous avons pris quelques bières, quelques whiskys »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"brasserie\""
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« endroit convivial »"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« Patron déjanté »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« quelques bières, quelques whiskys »"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-ambiance",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance garantie »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 10:30 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 10:30 – 14:00, 17:30 – 23:30 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas l'offre de plats, les modalités de commande ou de paiement, ni l'accessibilité."
+    ],
+    "summary": "Brasserie appréciée pour sa convivialité et son ambiance animée, où des clients rapportent avoir partagé bières et whiskys sur place. Les horaires indiquent une ouverture le midi et en soirée certains jours."
+  },
+  "meta": {
+    "cache_key": "321ca2b13efd84b49c335937dddad07a3421ecd9c4d08d4242b56c8d84864038",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

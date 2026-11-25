@@ -1,0 +1,62 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Burger Frites"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Burger Frites"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.62,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 13:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.62,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 19:00 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 13:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 19:00 – 21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas de confirmer la consommation sur place ou à emporter, les publics accueillis, l’accessibilité, les équipements, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "Le nom indique des burgers et des frites. Les horaires fournis comprennent des créneaux à midi et en soirée ; les autres caractéristiques ne sont pas renseignées."
+  },
+  "meta": {
+    "cache_key": "aed508488af8eeeb71b17c703c99adcf9d4ed3669947a46da7e464a087c0a8fe",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

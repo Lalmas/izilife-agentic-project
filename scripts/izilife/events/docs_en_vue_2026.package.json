@@ -1,0 +1,161 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "ANNUAL_CELEBRATION",
+    "data": {
+      "name": "Docs en Vue",
+      "string_id": "docs-en-vue",
+      "description": "Festival international du film documentaire organisé dans la métropole lilloise.",
+      "event_category_ref": "festival-de-cinema",
+      "default_event_category_ref": "festival-de-cinema",
+      "scope_ref": "CITY:lille",
+      "is_internal": false,
+      "can_be_linked_by_others": true,
+      "news_visibility_days_before": 30,
+      "is_active": false
+    },
+    "sources": [
+      {"url": "https://docsenvue.org/", "kind": "OFFICIAL"},
+      {"url": "https://docsenvue.org/edito/", "kind": "OFFICIAL_EDITORIAL"}
+    ],
+    "media": [
+      {"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/2-AFFICHE-DOCSENVUE26.jpg", "title": "Affiche Docs en Vue", "is_principal": true}
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "docs-en-vue-2026",
+      "relation": "ROOT_EDITION",
+      "data": {
+        "title": "Docs en Vue — 3e édition",
+        "event_string_id": "docs-en-vue-2026",
+        "short_description": "Projections, ciné-rencontres, masterclasses et séances jeune public dans la métropole lilloise.",
+        "description": "La 3e édition de Docs en Vue propose une programmation internationale de films documentaires du 3 au 28 novembre 2026, précédée de trois avant-programmes fin octobre.",
+        "event_category_ref": "festival-de-cinema",
+        "start_date": "2026-11-03", "start_hour": "00:00",
+        "end_date": "2026-11-28", "end_hour": "23:59",
+        "city_ref": "lille",
+        "source_url": "https://docsenvue.org/",
+        "is_active": false
+      },
+      "sources": [{"url": "https://docsenvue.org/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/2-AFFICHE-DOCSENVUE26.jpg", "title": "Docs en Vue 2026", "is_principal": true}]
+    },
+    {
+      "client_ref": "petite-casbah-2026-10-25", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Petite Casbah", "event_string_id": "docs-en-vue-2026-petite-casbah-25-octobre", "short_description": "Ciné-famille, film d'Antoine Colomb, à partir de 6 ans.", "event_category_ref": "projection", "start_date": "2026-10-25", "start_hour": "15:00", "end_date": "2026-10-25", "end_hour": "16:24", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "access_text": "Tarif Ciné-famille : 1,80 €", "basic_price": 1.8, "currency_ref": "EUR", "source_url": "https://docsenvue.org/dimanche-25-10-petite-casbah/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/dimanche-25-10-petite-casbah/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/petite_casbah.jpg", "title": "Petite Casbah", "is_principal": true}]
+    },
+    {
+      "client_ref": "taste-of-cement-2026-10-27", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Taste of Cement", "event_string_id": "docs-en-vue-2026-taste-of-cement", "short_description": "Projection suivie d'une rencontre avec le réalisateur Ziad Kalthoum.", "event_category_ref": "cine-rencontre", "start_date": "2026-10-27", "start_hour": "19:30", "end_date": "2026-10-27", "end_hour": "20:55", "city_ref": "lille", "location_ref": "PLACE:palais-des-beaux-arts", "address": "Auditorium du Palais des Beaux-Arts, 18 bis rue de Valmy", "zip_code": "59000", "access_text": "Entrée gratuite", "source_url": "https://docsenvue.org/mardi-27-10-taste-of-cement/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/mardi-27-10-taste-of-cement/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/TasteOfCement.jpg", "title": "Taste of Cement", "is_principal": true}]
+    },
+    {
+      "client_ref": "petite-casbah-2026-10-28", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Petite Casbah", "event_string_id": "docs-en-vue-2026-petite-casbah-28-octobre", "short_description": "Projection jeune public suivie d'une rencontre d'éducation à l'image.", "event_category_ref": "cine-rencontre", "start_date": "2026-10-28", "start_hour": "14:30", "end_date": "2026-10-28", "end_hour": "15:54", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "access_text": "3 € pour les moins de 14 ans ; 4 € tarif séance", "basic_price": 3, "currency_ref": "EUR", "source_url": "https://docsenvue.org/mercredi-28-10-petite-casbah/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/mercredi-28-10-petite-casbah/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/petite_casbah.jpg", "title": "Petite Casbah", "is_principal": true}]
+    },
+    {
+      "client_ref": "total-trust-2026-11-03", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Total Trust", "event_string_id": "docs-en-vue-2026-total-trust", "short_description": "Documentaire de Jialing Zhang sur la surveillance et les abus de pouvoir.", "event_category_ref": "projection", "start_date": "2026-11-03", "start_hour": "19:30", "end_date": "2026-11-03", "end_hour": "21:06", "city_ref": "lille", "location_ref": "PLACE:palais-des-beaux-arts", "address": "Auditorium du Palais des Beaux-Arts, 18 bis rue de Valmy", "zip_code": "59000", "access_text": "Entrée gratuite", "source_url": "https://docsenvue.org/mardi-3-11-total-trust/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/mardi-3-11-total-trust/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/TOTAL_TRUST.jpg", "title": "Total Trust", "is_principal": true}]
+    },
+    {
+      "client_ref": "six-billion-dollar-man-2026-11-04", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "The Six Billion Dollar Man", "event_string_id": "docs-en-vue-2026-the-six-billion-dollar-man", "short_description": "Projection suivie d'une rencontre autour de la liberté d'informer.", "event_category_ref": "cine-rencontre", "start_date": "2026-11-04", "start_hour": "19:30", "end_date": "2026-11-04", "end_hour": "21:36", "city_ref": "lille", "location_ref": "PLACE:palais-des-beaux-arts", "address": "Auditorium du Palais des Beaux-Arts, 18 bis rue de Valmy", "zip_code": "59000", "access_text": "Entrée gratuite dans la limite des places disponibles ; réservation en ligne", "access_link": "https://www.heure-exquise.org/", "source_url": "https://docsenvue.org/mercredi-4-11-the-six-billion-dollar-man/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/mercredi-4-11-the-six-billion-dollar-man/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/affiche_the_six_billion_dollar_man.jpg", "title": "The Six Billion Dollar Man", "is_principal": true}]
+    },
+    {
+      "client_ref": "sergent-immortel-2026-11-06", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Le Sergent immortel", "event_string_id": "docs-en-vue-2026-le-sergent-immortel", "short_description": "Projection suivie d'une rencontre avec Ziad Kalthoum.", "event_category_ref": "cine-rencontre", "start_date": "2026-11-06", "start_hour": "18:30", "end_date": "2026-11-06", "end_hour": "19:43", "city_ref": "roubaix", "address": "El'cagette, 78 rue Descartes", "zip_code": "59100", "access_text": "Prix libre ; réservation conseillée", "source_url": "https://docsenvue.org/vendredi-6-11-sergent-immortel/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/vendredi-6-11-sergent-immortel/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/Le-sergent-immortel.jpg", "title": "Le Sergent immortel", "is_principal": true}]
+    },
+    {
+      "client_ref": "the-guest-2026-11-07", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "The Guest", "event_string_id": "docs-en-vue-2026-the-guest", "short_description": "Documentaire de Zvika Gregory Portnoy, Zuzanna Solakiewicz et Michał Bielawski.", "event_category_ref": "projection", "start_date": "2026-11-07", "start_hour": "18:30", "end_date": "2026-11-07", "end_hour": "19:48", "city_ref": "villeneuve-d-ascq", "address": "Cinéma Le Méliès, 11 rue Traversière", "zip_code": "59650", "source_url": "https://docsenvue.org/samedi-7-11-the-guest/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/samedi-7-11-the-guest/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/THE-GUEST.jpg", "title": "The Guest", "is_principal": true}]
+    },
+    {
+      "client_ref": "or-de-vie-2026-11-07", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Or de vie", "event_string_id": "docs-en-vue-2026-or-de-vie", "short_description": "Projection suivie d'une rencontre avec Boubacar Sangaré.", "event_category_ref": "cine-rencontre", "start_date": "2026-11-07", "start_hour": "20:45", "end_date": "2026-11-07", "end_hour": "22:09", "city_ref": "villeneuve-d-ascq", "address": "Cinéma Le Méliès, 11 rue Traversière", "zip_code": "59650", "access_text": "Tarif : 4 €", "basic_price": 4, "currency_ref": "EUR", "source_url": "https://docsenvue.org/samedi-7-11-or-de-vie/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/samedi-7-11-or-de-vie/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/Or-de-vie.jpg", "title": "Or de vie", "is_principal": true}]
+    },
+    {
+      "client_ref": "sur-le-chemin-de-lecole-2026-11-12", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Sur le chemin de l'école", "event_string_id": "docs-en-vue-2026-sur-le-chemin-de-lecole", "short_description": "Projection jeune public suivie d'un temps d'éducation à l'image.", "event_category_ref": "cine-rencontre", "start_date": "2026-11-12", "start_hour": "09:30", "end_date": "2026-11-12", "end_hour": "10:44", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "access_text": "3 € pour les moins de 14 ans ; 4 € tarif séance", "basic_price": 3, "currency_ref": "EUR", "source_url": "https://docsenvue.org/jeudi-12-11-sur-le-chemin-de-l-ecole/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/jeudi-12-11-sur-le-chemin-de-l-ecole/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/SLC.jpg", "title": "Sur le chemin de l'école", "is_principal": true}]
+    },
+    {
+      "client_ref": "nicole-nicole-2026-11-12", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Nicole Nicole", "event_string_id": "docs-en-vue-2026-nicole-nicole", "short_description": "Projection suivie d'une rencontre avec Lucie Garçon.", "event_category_ref": "cine-rencontre", "start_date": "2026-11-12", "start_hour": "18:30", "end_date": "2026-11-12", "end_hour": "19:51", "city_ref": "roubaix", "address": "Médiathèque La Grand Plage, 2 rue Pierre Motte", "zip_code": "59100", "access_text": "Entrée gratuite dans la limite des places disponibles", "source_url": "https://docsenvue.org/jeudi-12-11-nicole-nicole/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/jeudi-12-11-nicole-nicole/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/Nicole.jpg", "title": "Nicole Nicole", "is_principal": true}]
+    },
+    {
+      "client_ref": "143-rue-du-desert-2026-11-13", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "143 rue du désert", "event_string_id": "docs-en-vue-2026-143-rue-du-desert", "short_description": "Documentaire de Hassen Ferhani.", "event_category_ref": "projection", "start_date": "2026-11-13", "start_hour": "14:15", "end_date": "2026-11-13", "end_hour": "15:55", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/vendredi-13-11-143/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/vendredi-13-11-143/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/143-rue-du-desert.jpg", "title": "143 rue du désert", "is_principal": true}]
+    },
+    {
+      "client_ref": "alea-jacarandas-2026-11-13", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Alea Jacarandas", "event_string_id": "docs-en-vue-2026-alea-jacarandas", "short_description": "Documentaire de Hassen Ferhani.", "event_category_ref": "projection", "start_date": "2026-11-13", "start_hour": "20:30", "end_date": "2026-11-13", "end_hour": "21:48", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/vendredi-13-11-alea-jacarandas/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/vendredi-13-11-alea-jacarandas/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/Alea-Jacarandas.jpg", "title": "Alea Jacarandas", "is_principal": true}]
+    },
+    {
+      "client_ref": "cutting-through-rocks-2026-11-14", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Cutting Through Rocks", "event_string_id": "docs-en-vue-2026-cutting-through-rocks", "short_description": "Documentaire de Sara Khaki et Mohammadreza Eyni.", "event_category_ref": "projection", "start_date": "2026-11-14", "start_hour": "17:00", "end_date": "2026-11-14", "end_hour": "18:35", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/samedi-14-11-cutting-through-rocks/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/samedi-14-11-cutting-through-rocks/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/CTR.jpg", "title": "Cutting Through Rocks", "is_principal": true}]
+    },
+    {
+      "client_ref": "dans-la-gueule-de-logre-2026-11-14", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Dans la gueule de l'ogre", "event_string_id": "docs-en-vue-2026-dans-la-gueule-de-logre", "short_description": "Documentaire de Mahsa Karampour.", "event_category_ref": "projection", "start_date": "2026-11-14", "start_hour": "20:00", "end_date": "2026-11-14", "end_hour": "21:26", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/samedi-14-11-dans-la-gueule-de-logre/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/samedi-14-11-dans-la-gueule-de-logre/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/Dans-la-gueule-de-l-ogre-1.jpg", "title": "Dans la gueule de l'ogre", "is_principal": true}]
+    },
+    {
+      "client_ref": "persepolis-2026-11-15", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Persepolis", "event_string_id": "docs-en-vue-2026-persepolis", "short_description": "Projection jeune public du film de Marjane Satrapi, à partir de 10 ans.", "event_category_ref": "projection", "start_date": "2026-11-15", "start_hour": "14:30", "end_date": "2026-11-15", "end_hour": "16:05", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/jeudi-15-11-persepolis/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/jeudi-15-11-persepolis/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/Persepolis.jpg", "title": "Persepolis", "is_principal": true}]
+    },
+    {
+      "client_ref": "lechiquier-du-vent-2026-11-15", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "L'échiquier du vent", "event_string_id": "docs-en-vue-2026-lechiquier-du-vent", "short_description": "Film de Mohammad Reza Aslani.", "event_category_ref": "projection", "start_date": "2026-11-15", "start_hour": "17:00", "end_date": "2026-11-15", "end_hour": "18:51", "city_ref": "tourcoing", "address": "Le Fresnoy, 22 rue du Fresnoy", "zip_code": "59200", "source_url": "https://docsenvue.org/dimanche-15-11-lechiquier-du-vent/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/dimanche-15-11-lechiquier-du-vent/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/09/lechiquier-du-vent.jpg", "title": "L'échiquier du vent", "is_principal": true}]
+    },
+    {
+      "client_ref": "raving-iran-2026-11-18", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Raving Iran", "event_string_id": "docs-en-vue-2026-raving-iran", "short_description": "Documentaire de Susanne Regina Meures.", "event_category_ref": "projection", "start_date": "2026-11-18", "start_hour": "14:00", "end_date": "2026-11-18", "end_hour": "15:24", "city_ref": "tourcoing", "address": "Ludomédiathèque Colette", "source_url": "https://docsenvue.org/mercredi-18-11-raving-iran/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/mercredi-18-11-raving-iran/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/RAVING-IRAN.jpg", "title": "Raving Iran", "is_principal": true}]
+    },
+    {
+      "client_ref": "le-sang-et-la-boue-2026-11-19", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Le sang et la boue", "event_string_id": "docs-en-vue-2026-le-sang-et-la-boue", "short_description": "Documentaire de Jean-Gabriel Leynaud.", "event_category_ref": "projection", "start_date": "2026-11-19", "start_hour": "18:30", "end_date": "2026-11-19", "end_hour": "20:00", "city_ref": "wattrelos", "address": "Centre social Laboureur", "source_url": "https://docsenvue.org/jeudi-19-11-le-sang-et-la-boue/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/jeudi-19-11-le-sang-et-la-boue/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/Le-Sang-et-la-Boue.jpg", "title": "Le sang et la boue", "is_principal": true}]
+    },
+    {
+      "client_ref": "hitch-2026-11-28", "relation": "CHILD", "parent_ref": "docs-en-vue-2026",
+      "data": {"title": "Hitch, une histoire iranienne", "event_string_id": "docs-en-vue-2026-hitch-une-histoire-iranienne", "short_description": "Documentaire de Chowra Makaremi.", "event_category_ref": "projection", "start_date": "2026-11-28", "start_hour": "14:30", "end_date": "2026-11-28", "end_hour": "15:41", "city_ref": "tourcoing", "address": "Médiathèque Andrée Chedid", "source_url": "https://docsenvue.org/samedi-28-11-hitch-une-histoire-iranienne/", "is_active": false},
+      "sources": [{"url": "https://docsenvue.org/samedi-28-11-hitch-une-histoire-iranienne/", "kind": "OFFICIAL_PROGRAM"}],
+      "media": [{"image_url": "https://docsenvue.org/wp-content/uploads/2026/08/Hitch.jpg", "title": "Hitch, une histoire iranienne", "is_principal": true}]
+    }
+  ]
+}

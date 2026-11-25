@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Boulangerie Feuillette »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: « patisserie »"
+        }
+      ]
+    },
+    "warnings": [
+      "Le lieu est indiqué comme inactif et non listable (is_active: 0, listable: 0)."
+    ],
+    "summary": "Boulangerie Feuillette, classée dans la catégorie pâtisserie. Les informations fournies ne permettent pas de confirmer d’autres services, équipements ou caractéristiques."
+  },
+  "meta": {
+    "cache_key": "65f9179ec25570d700d32f12756082e6df522c24d19a2d5bc4578da20da370e7",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

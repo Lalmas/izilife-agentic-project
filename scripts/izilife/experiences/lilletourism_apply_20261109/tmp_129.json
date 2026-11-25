@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:51:33.495159",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 129,
+      "title": "My Explore Bag - Armentières",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/my-explore-bag-armentieres.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "150.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 129,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 157,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:51:33.966572"
+}

@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les avis Google fournis n’indiquent pas d’URL de page consultée ; leurs détails ne sont pas repris."
+    ],
+    "summary": "LE CH'TI BOUCANIER est identifié comme un restaurant au 12 Rue de Seclin, 59113 Seclin."
+  },
+  "meta": {
+    "cache_key": "705d8586d40e551c8d9c9b82f60b68c5d2a6c839959ba6959df3e5ae9dd05f7f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

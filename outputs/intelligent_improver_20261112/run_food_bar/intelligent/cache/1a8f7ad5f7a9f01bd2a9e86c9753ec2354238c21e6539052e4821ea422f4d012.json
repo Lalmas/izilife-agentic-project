@@ -1,0 +1,49 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "« Très bonne pâtisseries faite maison »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.65,
+        "source_url": "izilife://current",
+        "evidence": "Avis mentionnant des « cookies » et des « pâtisseries »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "« Service très accueillant et cadre agréable »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "Avis mentionnant des « cookies » et des « pâtisseries »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis sont contrastés : un avis critique les cookies comme secs, tandis que d’autres apprécient les pâtisseries et le cadre."
+    ],
+    "summary": "Pâtisserie située au 110 Rue Roger Salengro à Wavrin. Les horaires fournis indiquent une ouverture le samedi et le dimanche de 9 h à 19 h, et une fermeture du lundi au vendredi. Les avis mentionnent des pâtisseries faites maison et un cadre agréable, mais aussi une expérience négative concernant des cookies."
+  },
+  "meta": {
+    "cache_key": "1a8f7ad5f7a9f01bd2a9e86c9753ec2354238c21e6539052e4821ea422f4d012",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

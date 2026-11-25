@@ -1,0 +1,72 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-voir-absolument",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Ce musée est sans conteste l'un des plus riches musées français."
+      },
+      {
+        "string_id": "architecture-remarquable",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Dans un superbe bâtiment du XIXème siècle."
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "Collections prestigieuses adaptées à tous les âges."
+      },
+      {
+        "string_id": "bien-quand-il-pleut",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "Lieu couvert avec de nombreuses expositions."
+      },
+      {
+        "string_id": "place-historique",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Plans en relief de villes fortifiées par Vauban."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "Collections prestigieuses adaptées à tous les âges."
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Lieu couvert avec de nombreuses expositions."
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "calme",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Lieu couvert avec de nombreuses expositions."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Le Palais des Beaux-Arts de Lille est un musée incontournable, situé dans un bâtiment du XIXème siècle. Il propose des collections prestigieuses de peintures, sculptures et céramiques, et est adapté aux familles. C'est un lieu idéal à visiter par temps pluvieux."
+  },
+  "meta": {
+    "cache_key": "8fc502e0c078564fff4a11c2f6bb2315516b61369c90bf68dd851f5b9bec53a4",
+    "references_env": "local",
+    "analysis_only": true,
+    "provider": "openai",
+    "web_search": false,
+    "cache_hit": false
+  }
+}

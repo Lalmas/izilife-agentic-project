@@ -1,0 +1,468 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:39:30",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-passage",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-passage",
+    "status": "found",
+    "data": {
+      "id": "5900",
+      "name": "Le Pas’Sage",
+      "shop_string_id": "le-passage",
+      "unique_id": "3cbb33d242fdefbab1fb59d411e33f75",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55155",
+      "principal_cover": "55155",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Grand place",
+      "additional_address": null,
+      "zip_code": "59480",
+      "city_id": "47",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8313777",
+      "latitude": "50.5613341",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:07:17",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:07:17",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJzSqkpzQv3UcRPJUy-Xe6KFI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5900,
+      "scope_type": "SHOP",
+      "scope_ref": "le-passage",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "Illies",
+      "string_id": "le-passage"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55155",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5900_6af3a3a59d00d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4959",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34448",
+            "source_hourly_id": "4959",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34449",
+            "source_hourly_id": "4959",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34450",
+            "source_hourly_id": "4959",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34451",
+            "source_hourly_id": "4959",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34452",
+            "source_hourly_id": "4959",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34453",
+            "source_hourly_id": "4959",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34454",
+            "source_hourly_id": "4959",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-passage",
+      "google_place_id": "ChIJzSqkpzQv3UcRPJUy-Xe6KFI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 09:00 – 21:00",
+          "mercredi: 09:00 – 21:00",
+          "jeudi: 09:00 – 21:00",
+          "vendredi: 09:00 – 21:00",
+          "samedi: 09:00 – 21:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLeDFsWJkHpSd5oRNhQ8cNSvt5o21egpkhSYczmjyYSatvcPy2PR9hAr97DbqAzs0psYxSndRZ6XDJOYK6G9RsxP69bmTLqHydOc65gzx9mbh14L_7OcrAXkSPUes4CHtxdn6YqUYyBePH5Yj5aLnw0bH2FSqC9uddL9qkgS4AbX6fA0bZUmAgqy9X4P9r61aSVDZsU47xc2iX2aBbOM85lrCEnhKLF4E1kR_xUrnpapGWC1qK0_Tvd99qpyLBpTlklQRTbWMRbb8ynKX0A8y4jSG_SJZ6NagNLtNaovKitB42XKa55H-U1onFJpRfSBubJBaf7lss9kUKM4BRS021j7I0EmEEQup4JjZfy7OK-7IietRoim_5sfUkUjnA7on40KNjSJFDszEbOQBtoPx5cF1F-x",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110297076745791698484\">Le Narval</a>"
+            ]
+          },
+          {
+            "width": 3599,
+            "height": 4800,
+            "photo_reference": "AV-0GLf7H_7leiJ7au1zuVNzY-kWl2aJb9KcniDQYvIJdrMhh52FHSOSu15MvbwTrS18Sod2UB_CIiFeOuwDtLGi_I1sDzcn1be4P3LC75b-DvM6F2B66DPrZylhsKKSksHJHFEZ13-lTOvwU71t10rb2WGEr8oaPLjROMR3cEp_M9jVKJvBOvu90JEOpPBK4TI_dc-RyR7l-yj-snhOedoC223Us3ZjlTwM-RFYlfzpmYy30IZjnpCYvS8C7g9NlD-zxk0IDHBZjrLOLx2TkoM9ajiYnN9y8kAu8NKoKwCIQYSoBo-iZn-53KK0XM9yRChuQwFe9i8fdMe_4gafsu-fsCLjAl50QAv6y6glPl2Pv9EzQOJi0AkFd_53zbxezlFe0uFMZrbVVmKpOFdoN7uNrx9zNT18WQw2U0_HQHUCIoar",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111981156462371871371\">Charles Remy</a>"
+            ]
+          },
+          {
+            "width": 2688,
+            "height": 1520,
+            "photo_reference": "AV-0GLfTm6YBTPv-Ru6IHCTtfv1aTeV6UDw_eS2rYEIwn0geCnQHw64WCy9a3lstnkSr_tBO3aXI7r8EgDijEoCtrp5xBBZDTFr0xSpZMgKmaVb2_R7ZaCRcvQcqj2cHPbiJPbhIr9sCqJ6_D6Y3jSqJJ1jRalxpdE9Q5LGqBwkBb8N21TWkmgMJ1wM0TXUYKVN3r-bB8bhBxtlM3i2XD4-K1HnmUG6t-MtiiQi9GFHPvUk_6E5f1I-zYaZqtx1oJ51fJ2RMIrmkvz5K1iI4fXi62qyJvwijtNAWwNbg4SZx2axChdS1Ob72v089wvB1LwIDjo1kjO2q-MA6TqNYbFoS09hp1rQ5Vy_8D9Hp8Pntt9fpt_-eIlRI3oizpeliN2x_G66KFAbC-G_-TKSwUKmlvn1zJjw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110297076745791698484\">Le Narval</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLdnrKsyADTcMAOiy3jYKZ1i7wC-w0cqfue4L9UF7P2re-4J93ChaRgli-5iDbdTDrZwPMdSJWXzw3SnzUPfMKf-B8ji22lJl9khAsJsvNpUUtcL9370L1LquYLoL2VgmW8_k8qIin7GDjCV0FXSHIrilJo1DCY0xQFXIj44F0ZLQbo7CHdpcJQI23EWbFlbDLC1vxj6ryMLPz1OVN0s_wrHoowiwZPdZgiCKQYemXWZk-pmcO_zTfe7PBFmDVhwrK8ma7DYgbzFaR-9nXTKr9WRLPqrlq3q0bLw159zzkmDu6pBLopAUqUmWy2Q2V4wms_Lbk9qW4FYdhBE7_LNGuoRRA1p40e9Tj7DHDCvqxxgCgyrpP39-5Ul02DiF4azfC6sBcmmsVv1_-H3cbbKolKszkM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116199525032129903558\">Amo</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfrxRD428WvK_E4wpGN2z-4UbypfPJVXl7tsccBm7uQoaPBxG0NhEngdlQqkin5sB3HMUbckAtRdAI1EjfZTsQdPY-BuWcXiEdPHlxfK_Rmd9kzZfpf2NnmglyJ-jlOjGblPPwMVrUqDD2duYNM49kqoJr0zcaO-K_3GGSXBqCLvAqt09lkiqZWe6gsnVy7M3m2ws1B6_9A_GjXaZelcbvx5Xv3Oh4ECOGNKXqp74jVUwSx_rKAUW1tyY7gdIIkTgedhL7zye-Sq7XxDXv9EQ8EqRdcYR3Imc3NIGL8idbG04D4U4jgQwMclebBqTr2gR3rmLN02huct12IN60r7gigaqiSMJm8XBmbZm7Qaa6qM1aR4VshvFI9oc38dZNM0LqZXF0rn4yGI3LHvaUORNbsSUM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116199525032129903558\">Amo</a>"
+            ]
+          },
+          {
+            "width": 1520,
+            "height": 2688,
+            "photo_reference": "AV-0GLfJQ1s6WafIGYUm2zc498JHZFZqTlRyKJWMQ9bPvy3KzHodR52q6Gw1w8_tSXcmzt69uMVAWQVjYhs2I9crBSwXdlYwvaOxyxtI_c5CLT8tPM2m5M3w0FU7f0y8uvq-sNqJ599_TZx77XmRqiByt0QXw5zewKprGzW-pmsL9Us5PhtlVUXDvl9lptasqnaEdBOc5WuWNfDEBkQ_qAUuzhxfZSf54EBfkfcTz69EgA11nGQ5tDv0g1ggFvT-EVKNDqW9WBUK4ZrCTAkPj-6nFbjstIj0y6uMiesYxe0LhEbUQTVPjajiOaUPfc2zDVTDAA4FfFDU3SQmefv1lun2Na5f4Y4yb_EyBdIzlGTd-SddFc-R4mOG37F2ZJD3PqS7JAOOBo4h-1xUz4jCsI9cdyEyX1Aq0Sw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102113865655071721910\">manuel durot</a>"
+            ]
+          },
+          {
+            "width": 2688,
+            "height": 1520,
+            "photo_reference": "AV-0GLc6B1kwb2Vz7KlEo5GdlqE4oLL8wRB0Hg31qRqfi9IvmdaepvzeHywcpd_56PGCBC8xFX-6CRqoWMP4hOXgze0bEDkjEI83tGRl1q4RyM1W8jng6XuAG_hJkLqW9Gh6h7uCC7Ipfrxc0S50dokB6682cKCx6QbhfHjtJTRmum1R34V0RblkojdhSSdtnA2hfrwYZesTCn0RgKtzvNW8AZHznHzYq30x6-xWS_bknEnBmvNJw91J49s3NOeYqP9BL_ZS3z7BiRnoiE3tNu3EmrpbConJCnviLFcjgXaqjDEuocecaNgGWQIEtMYBdF_khu46py8GY-J8Sq3oUQsFzha-s-e-OZos49lCV91irZmTH5XcSTLGEPi_fZpFmWkEyW_7GXmIrBzNBafadv1yvQZ7IzI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102113865655071721910\">manuel durot</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdxWBAAIjLoO02nGy1031X2uJSXUtE1_2cEyXbKbbNmu9N_sXwfDopNEVkrtYIMb8hlDFlIT1zny447jkdD0FJSXX1zSVlv7EL6xehxbf4dU90FsPGgPQNpw_Ioc6NCmjlZ_GuZRLAC6DGGZ6YD1cFba9fzI31PWWIbKExgH3dM_nSUKLS_4z8lkME27EhiQ5SqAOI-8jVBEO3OjPEvoc6qwFxFA25fTEPz__hdli1R8wszNG633F2l7wAcZ3d4YmDcJZrLKsFnlD4vqtjTXrBz4469xTCj9dAoEqe1h5tHVSxNpvKWmzaneKeCRlh6vE3VJXuFEw0LqJ_8nOIcaQXPUt80fn8SjUkMTpF-QIlLYw8gpRsSW6gvAJzAp4E0UyxPsRsrMvs-kzfaQL78ScX_Gs1sHjWJmpGJEMzV51wt7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111981156462371871371\">Charles Remy</a>"
+            ]
+          },
+          {
+            "width": 2340,
+            "height": 4160,
+            "photo_reference": "AV-0GLfGHxI3ZxsdZMcZ1_CpdXiv7poG3VdLGJBIgrWjNAE6TK1yj8LvbHQuEdQCYibmz_N5dwNGJ044A7eL6AKdysvBz1w2TYKSJLBb1EFhKWvyD-9ovv21FLaTds_268fmHDaAoxXqPEEdrI-Caqawq6Lhe4W2mvfLnjWmiZJYcvOlbhv3ItA2ic838U_9GtHehKz1lQr4-mzCAfiCIv9PTvav4zjvCWLEvPDxAPEoZf7QIDJ3svenhMKTJVPAk38eXQoXrf6tY3jbSfoGqKPRIuXzEc7XPjJar33i6aCxhIMfPIp-1t_LxC8qbyYw4DrmQASmKY3Pn_JI7aUugh7Ggt1BmdzM4L91DQJQk3DYoSCHIOBMI-bjzUEJexMNYNjn22eitgl7zH06pylrVGKv4g89Bf3E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107343236456277099747\">Mickael Carlier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5900
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne documentent pas les services, l’ambiance, l’offre de boissons ou de repas, l’accessibilité, les équipements ni les modes de commande et de paiement. Aucune caractéristique n’est déduite de ces absences."
+    ],
+    "rejected": [],
+    "summary": "Le Pas’Sage est référencé comme bar au 2 Grand place, à Illies. Les horaires fournis indiquent une ouverture du mardi au samedi, de 09:00 à 21:00, et une fermeture le lundi et le dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-passage",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5900,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f64ffe3b8e9af29bc2a976f1cecde8b0e6855afde04a71a7bbec89f192b1ea82",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

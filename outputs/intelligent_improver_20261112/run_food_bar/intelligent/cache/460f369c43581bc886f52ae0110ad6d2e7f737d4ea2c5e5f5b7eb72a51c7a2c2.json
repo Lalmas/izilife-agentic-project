@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« On a super bien mangé. Du plat principal au dessert »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Du plat principal au dessert »"
+      },
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.58,
+        "source_url": "izilife://current",
+        "evidence": "« une très belle ambiance »"
+      },
+      {
+        "string_id": "populaire",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "485 avis Google"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« On a super bien mangé. Du plat principal au dessert »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Horaires avec service de 10:00 à 14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires avec service du soir, notamment 18:30 à 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis mentionne que la décoration laisse à désirer et que l’ambiance dépend de la clientèle."
+    ],
+    "summary": "Restaurant où des avis signalent un repas complet, un accueil apprécié et une belle ambiance. Les horaires indiquent des services le midi et le soir."
+  },
+  "meta": {
+    "cache_key": "460f369c43581bc886f52ae0110ad6d2e7f737d4ea2c5e5f5b7eb72a51c7a2c2",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

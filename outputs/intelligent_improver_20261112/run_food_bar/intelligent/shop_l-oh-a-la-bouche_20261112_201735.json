@@ -1,0 +1,659 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:17:35",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-oh-a-la-bouche",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-oh-a-la-bouche",
+    "status": "found",
+    "data": {
+      "id": "5750",
+      "name": "L'oh à la bouche",
+      "shop_string_id": "l-oh-a-la-bouche",
+      "unique_id": "51518d863f05c78b5777bd2e793f9f7d",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55007",
+      "principal_cover": "55007",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "59272 Rue Pierre Curie",
+      "additional_address": null,
+      "zip_code": "59272",
+      "city_id": "26",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9179543",
+      "latitude": "50.5498537",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:45:11",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:45:11",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJYT8GgQ0s3UcRPgK83YTi3mU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5750,
+      "scope_type": "SHOP",
+      "scope_ref": "l-oh-a-la-bouche",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "don",
+      "string_id": "l-oh-a-la-bouche"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55007",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5750_6af39e77cd719.png",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4809",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33398",
+            "source_hourly_id": "4809",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33399",
+            "source_hourly_id": "4809",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33400",
+            "source_hourly_id": "4809",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33401",
+            "source_hourly_id": "4809",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33402",
+            "source_hourly_id": "4809",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33403",
+            "source_hourly_id": "4809",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33404",
+            "source_hourly_id": "4809",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-oh-a-la-bouche",
+      "google_place_id": "ChIJYT8GgQ0s3UcRPgK83YTi3mU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00, 18:30 – 21:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 18:30 – 21:30",
+          "samedi: 11:30 – 14:00, 18:30 – 21:30",
+          "dimanche: 18:30 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 1702,
+            "photo_reference": "AV-0GLdEs8mt-W-I0Hwi5lwJaM3K9-IZyiPSA7bZlMbAz1G1rRSrPzVMsUWvrXyhdrPK09pWFtmuKxxiJiKF9hHPH72N3Je5VFPgc0DENmY1_OBiX7UmSI-HY0HhnxiPfYpb5HiNMTagyNNQBueePX8SF1CboQYS_cm80_nGXid3kj2uMN3Bvfg46DhKJqxGcQFnTPY8lioPMEMlM8k7_mCHzwayjRRqLEg_C0FasRjSP-1wqA2MNEFU3qKNNypp8vAX-eZzv8qd0ZQb3nAbhllQa1w4uENt-1HjGFJBrvGhKWY1ak1iT3yCgg8fEcs_DvBVQO81DjZX8kadcYvxBZkg5QxCF6duxEq3Ye1e830fcrdTBc125Am88VppZcFDQvkkVNfrjN82XtVQqGQt8FBn1Y0PswZq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 548,
+            "height": 365,
+            "photo_reference": "AV-0GLdEeaLej7EcqnLEbAjmO4UraCUGxDZeXEGOvn9s5QS8IM3gV0pkf75XSi6hniwJ9xPMXqKN46qUEHOB6uHUtN_wAmpyGUorVFHfjNEglO0s3uUgX6pGha-yKqsls8kkz_qg_jJOzanNfEMsVaPB_D9igctPGJqI1mpNOY_i0ZS_LXpW_8WCq9rUaP1nSejWfCr1_di5GyqQfZleQxlpomYcQSW2B7s3tofDa79vXrSNviBE768bdHfbV1w4DL9gCEuPAXXz_ycbP5by3WWvWRiwiAS3zio5hSsIcD3wy1qjVZ7syE24Syvj-k7s3AzUqUqwLGN-r2bl7fNR2gTLBiIU7-ZnAW8RY-pEJTpjWCmAhEyv-AmdCFRUmDPOlHfM6G5xSrN4I4UPVK3J4sPRsgQz5WUVC_8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 500,
+            "height": 500,
+            "photo_reference": "AV-0GLfVKjWq7e8hVynhukCKY-fsRi6jCTLvPe21fGGMPJ_fGpE6OjyticbtMxR7xaKcVWCtEC0LNCUlVEQBntQlm28C1YIgLibJQ4FS6rfkyU-HEtvsXFA1F27asn2ST_SbD-HNg-y4s0kBq2y6qMHY0VQSW10iFJOb2VCDuA8eNKFP8nCz5scr6FEHIAvNkQsaIGdEsq6HMmqWRu7rxkEfcUVUxHLT0dBjleKvTOa704xAfkje-yQXOFCcpDlRcULE7rTSzAX7_ftU-Pkb9HsrG_qCeatxHbii2j1Vy9TGMaINdj9h2H8dNzpUNfLBIZjuMCT4do1Zupw41E5i7BWipTGOvU3Hlc_IW15RF0Z-7sndSrEpRtSAxMNz3yiSMb-djPIEIajOw4HGE7DLRFGmnI_6SV0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 548,
+            "height": 318,
+            "photo_reference": "AV-0GLfavQ8XpjMwKF_D10io0FfRz10UWR4gkt2Q1wtiK6QYHmjD0K0xbV41WbsDwIH9Qm14JpjJM6P1HGh8Q-BnDn_8n5Y-ac_inucZ1Nmt7Z7bgjGCIPNyXAC2zgu34stL-2ztjIkwJDjA4jsT7PzgKyNA7d0EskTmJhO1H8H9zKLvbRKiPA--bI7sT-uwJ8Iu5wK-E8yghqI-FgROngp1IQxqCg9FBPlhCIPPrBh_8xcOG-zT6Uwlk6Y04h6BJKaBIdlwN6kYzFpQYIR3iTOnNfD4YrlQJI2oivMDo_zirNzr72Bu1o7Ijkj4XgRWRJ1bRaBCWiWDnCR-g3yxFoMVlJoD-n2NEKQ11FCRpex36OuSrd2LXgPxh_iTQUMFxlVnen1O6ClKgyFOfYgvKpOj60tQCeloLS4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 634,
+            "height": 552,
+            "photo_reference": "AV-0GLd_OzKnCIrTUsNOYSe_lHRVXsupZqqyOT_AdhviJB4xpGIRuO0yfGpNyZyleIPOKKcOM288uiUmh8KQATyxrpwlSuaZ8FGGcyX3VUlKEzRSKSM1bmc1xnpd6qxi8kSnBz3Ycc3nFh9_Gb62kPC3eDbuQ_EJJzlT63JDa7V6OySvq_9bSyg1Pxusa1Wd1HKos2ManPNIOIQhRKPCPpYu5bwOjIMF-jiJw8yRTYemJkLgy5vBpW52oLr-kPFJuDzqhB06OjsexQL_g_gqPQvyicparwFhyTcbHx-m7AbvcekANQrIIenUvYOJApyEF9J5ohysiE6J6IrDFzs5JAflStY_gQY8V8cZ3p_j6uTvlS402zUYASOQU_OGPWZVyJctgzNuD803gcUeW-yZ36DEQ9NnPs8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdbZnkaC8udnq27Qf7RFnRWiwG-vv7GuH7GHGjmWBM3udYANpOa0BJS0mervlhK0YdSKbrkx-UFBoyD2TcvfvlA7Zv36KcOaQrFsHHprm7WW81FWpX7XQYgAiReEiI3idVM7z_QwwBRXm4-BDd-7nu2GoQZtO35vzxr-V3sVZ-KOJ37RrkIeebwfKNE8l-qYjBfl3GAt_nbnJGmptgprD3MWgRgJ_oY3sfB-qbEaYWLPSgis2x3AusqqF-JIDnQGq7r4plg3VXpN_iPaJCvU-VUbdmfn8BcfvqZI2k84c9UJpuJI09Du0EPNk_AUGSUDzYCVrGk39MCp126pTBStJMg9UW2AciNBA9CBEJ2htRZueBnMqvdUTeOSFUjllRptPUgAXyi3499e8RFmjOiYcaSkpMt5so",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfT4Y7t06T08NLR4McqYwO8Xm0RkgTagb1zFehcYEH5Jwg3fn9I8WowNUhYMeezXqvvtnQ1K4RmFyNYsTOoXlpIJ1JeIgRPHhBG0nm9qDbJkgQ-RITKHENsSW3QxUS_HqHoKEpJDM-n1DZ9BfwpzZP_4Emj32ggo11vgZVOHE79UF2RlLNVd03AU8FX_HBhoJ6L-QxpqeyAIyqIIVzZszHik19s3Nr81PcrbqLhkcE0dtlSIZl5gope7ZUmzJwXh94P8xdFgr0TneNeRlyvoLsSOeih3z_l-fsz5kXt3hM1WIJIYBqQpuP32yymzY97z3EnoVSfro7AID6q7KPvfKJ-ROFqToHZHKjHmu44lg3EhIdLx_7EVNRMawdw5_R6DM-puQTdvbW8M7kgbx2NJGAnrw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 3461,
+            "photo_reference": "AV-0GLfwrl09W_7I8GqdRQ58kXH4Whf2mtYMgceF2FyYhBYspEJdiYtq408d2X48D3EroXzjBX_uUTnLHY-64xJUn_PAaIxNAiEpW14xEkt_Yz-WBrqyRR6dP0l9-IVKSQDswJRWrT_M51zvvvtn4g-lRNz1LTMEQXaz6N0UgjdXcoeKVZHp8rxSyHjJ7sVfr42tO2ypgInMQFV2Yosa-FBphGhWm__c5RJb30Q-ppwIuixIXbOo28cPl3TUf6UvwDjwjKwQqWz3XmTimwCw3gdKEtwNsr-L-A-77tNeURg-MQuONA9Kn0gvHUj_i_Bo4TN93ehNkQ2s57RUSqajvWgcgWjy69zDDSYl9gcx18jNnN3GdrL1dk0oHOrMm5gLbWeq-YoCv7N-hT_sG8Pi722pgV5cslks",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 960,
+            "photo_reference": "AV-0GLfFbsAd_WxgIgwK9AoybgzZCzqQEM3gk6usQR-Wp11DoupHX_d5OTZOmBFE2zPg5HFTGHNp5F6VHwzzwmq0DExLYhtyL6i_RCuj0OETDpynVsUi1BndtXrOijeFSbKIyp2BWrlfxz2d0ALtqfSq0PJCXHnnyXR-4fhq8V84Mm1GzxkbsUSC8JeRlEfg-beqkkQLG38h0hwhRqv_15jVqxlibO39VTzIfkoLa0_A8bmbsA3vku91IRGoqzQ5_Q12LU0UHJZyzMwQ0rFDLETfLV062fMrKZ6qZDrrb3IKkWUloP0iOYOblm1Ixrcc32k7gbi9piEbSySNyPkE8hxHL8d7Z2WzYMlbvhzXgyo6HIp49QdnZLYAOi6dLtv0LPWCZ8rE30fhxJgTQvhzkNYitkdXdZOF7Kk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdMiibDEZgUH4KhXwvG6TmY9WZe-Oc7r0o-V-65hIPt8DDgi96Fg57sOiEjERTZgr6NJQrLxiuKyP1k7sYtcLcj04Z-0FrZCqrT6DOJqROaVAs7WcbDkez3qEWtNIlE3kCR49gDkVJnsA8gpg7xAddn914LqbM0eJ1PlO2-zpXR8kB76eArbxmhlBsiZiOfiZtc7_QqpBGNPzlW3yLclqoTeVPqE5Gq9oKFTRSzXWMzQNRXtjdJXkBOrR0rgsDFDPyIg-pcU_JHbmg-6N2uhHG1LzZZy2LuKSr2_pkL2onlN9a2s3yUP-rWTbI4UNeZ18pZek9VLWuZapmEPT_OiLtA9XwSSiwrTd3ShH_dVWoprAUxrR1hXKT34gnJwSG3bamaM9IXyTYAus6gR_XoMiFN5CoKIe4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108315277404191969651\">L&#39;oh à la bouche</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5750
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.98,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Restauration rapide"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.92,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Friterie à Don"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "adapte-aux-familles",
+          "confidence": 0.78,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos menus enfants"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.88,
+          "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+          "evidence": "Places assises accessibles en fauteuil roulant"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_handicap",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+          "evidence": "Entrée accessible en fauteuil roulant"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_children",
+          "value": 1,
+          "confidence": 0.78,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos menus enfants"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.72,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos menus enfants"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "Déjeuner"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "Dinner"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos frites fraîches"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos sandwichs"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.98,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "nos hamburgers"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DietType",
+        "item": {
+          "string_id": "vegetarien",
+          "confidence": 0.72,
+          "source_url": "https://lacarte.menu/restaurants/don/loh-a-la-bouche-4/menu",
+          "evidence": "options végétariennes"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "PaiementMethod",
+        "item": {
+          "string_id": "carte-ticket-restaurant",
+          "confidence": 0.9,
+          "source_url": "https://friterie.autour-de-moi.com/l-oh-a-la-bouche-1223024.html",
+          "evidence": "Ticket Restaurant"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.94,
+          "source_url": "https://menuweb.menu/restaurants/don/loh-a-la-bouche-4",
+          "evidence": "Take Out"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Mardi : 11:30 - 14:00"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "https://www.commerces-en-weppes.fr/commerce/l-oh-a-la-bouche",
+          "evidence": "Mercredi : 18:30 - 21:00"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Friterie et restauration rapide proposant frites fraîches, sandwichs, hamburgers et menus enfants. La fiche indique des horaires de midi et de soirée, des places assises accessibles et l’acceptation des Tickets Restaurant."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-oh-a-la-bouche",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5750,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d639f5ea6bbadda17aabd73823e61ef4a489a9b42d4e7f73e248b16cdaf83bca",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

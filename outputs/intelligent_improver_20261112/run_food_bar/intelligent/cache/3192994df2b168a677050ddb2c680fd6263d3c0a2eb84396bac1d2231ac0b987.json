@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Pour le bar rien à signaler »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "bar",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Pour le bar rien à signaler »"
+        },
+        {
+          "string_id": "point-relais",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« dépôt des colis »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 09:00 – 13:00 »"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 09:00 – 13:00 »"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 16:00 – 19:30 »"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.75,
+          "source_url": "izilife://current",
+          "evidence": "« lundi: 16:00 – 19:30 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale que les horaires affichés ne sont pas toujours respectés."
+    ],
+    "summary": "La Cravache D'or est une brasserie avec un bar et un dépôt de colis. Les horaires indiquent des ouvertures le matin, à midi et l’après-midi, parfois jusqu’au début de soirée, mais leur fiabilité est contestée dans un avis."
+  },
+  "meta": {
+    "cache_key": "3192994df2b168a677050ddb2c680fd6263d3c0a2eb84396bac1d2231ac0b987",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

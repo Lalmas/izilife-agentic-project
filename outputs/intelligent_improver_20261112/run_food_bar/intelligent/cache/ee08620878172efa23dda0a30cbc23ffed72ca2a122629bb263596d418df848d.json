@@ -1,0 +1,102 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "nous sommes venus moi et mon mari manger"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "on nous installe dans la 2 eme salle"
+      },
+      {
+        "string_id": "midi",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "lundi: 12:00 – 14:00"
+      },
+      {
+        "string_id": "soiree",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "lundi: 19:00 – 22:00"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "nous sommes venus moi et mon mari manger"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "on nous installe dans la 2 eme salle"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 19:00 – 22:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "wesh",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "un wesh XL"
+        },
+        {
+          "string_id": "salades",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "une salade de chèvre chaud"
+        },
+        {
+          "string_id": "saumon",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "un saumon avec riz"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis partagés comprennent aussi un retour négatif signalant notamment une salle froide, du riz froid et une déception sur le service."
+    ],
+    "summary": "Restaurant avec repas sur place, ouvert le midi et le soir, proposant notamment Welsh, salade de chèvre chaud et saumon ; un avis mentionne une ambiance chaleureuse."
+  },
+  "meta": {
+    "cache_key": "ee08620878172efa23dda0a30cbc23ffed72ca2a122629bb263596d418df848d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

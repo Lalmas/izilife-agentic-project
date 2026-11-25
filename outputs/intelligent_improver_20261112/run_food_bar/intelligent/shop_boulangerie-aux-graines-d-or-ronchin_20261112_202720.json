@@ -1,0 +1,649 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:27:20",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-aux-graines-d-or-ronchin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-aux-graines-d-or-ronchin",
+    "status": "found",
+    "data": {
+      "id": "5820",
+      "name": "Boulangerie Aux Graines d'Or , Ronchin",
+      "shop_string_id": "boulangerie-aux-graines-d-or-ronchin",
+      "unique_id": "18a2e9bf66568a35957ccae73265aa97",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55076",
+      "principal_cover": "55076",
+      "qr_code": null,
+      "phone_number": "+33320870443",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "13 Rue Lavoisier",
+      "additional_address": null,
+      "zip_code": "59790",
+      "city_id": "73",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0766062",
+      "latitude": "50.6045608",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:54:23",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:54:23",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJkR8y4VnVwkcRDRNee6Bs8S4",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJkR8y4VnVwkcRDRNee6Bs8S4\",\"rating\":3.9,\"user_rating_count\":284,\"google_maps_uri\":\"https://maps.google.com/?cid=3382604231652283149\",\"fetched_at\":\"2026-11-12T00:33:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":2,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T16:54:30+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Steve\",\"uri\":\"https://www.google.com/maps/contrib/101487888347503523992/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXwEHadHVBuohht76Jvq2Eku4J0ozCYBOuiis4hJNcr0jaiaLaBAA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"Lundi 02/11/2026, j'ai acheté deux sandwichs vers 13h. J'ai fait l'erreur de croquer dans un sandwich sans l'inspecter, j'ai du recracher directement car il avait tourné. Le sandwich pain polaire au thon n'était clairement plus mangeable et ne semblait pas daté du jour : salade oxydée et cuite, pain détrempé par l'eau de végétation de la tomate et on ne sentait pas le goût du thon bien qu'il soit présent en quantité suffisante. J'ai pris des photos avant de le jeter.. À 4,85€ pour un sandwich de cette taille, c'est très décevant.\\n\\nL'autre sandwich pain bagnat au poulet tandoori était plus frais et a pu être consommé. Mais ce n'était pas exceptionnel non plus.\\n\\nJe viens occasionnellement dans cette boulangerie depuis plusieurs années mais je n'achetais que du pain et des viennoiseries. Je me contenterai de cela à l'avenir, plus jamais leur snacking.\",\"language_code\":\"\",\"publish_time\":\"2026-11-03T06:43:55+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Catherine CHAUVIN\",\"uri\":\"https://www.google.com/maps/contrib/115227957625736316746/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKr1f11h7KtjnfTu07woOQRW5djf4IfGm3uccgZqDfIK3_AYd8=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"On commande sur une plateforme à 8h, les produits sont disponibles. Une fois que le livreur a réceptionné la commande, on m'informe que la moitié des articles n'est pas dispo. Veuillez mettre à jour votre liste d'articles et vos stock.\",\"language_code\":\"\",\"publish_time\":\"2026-09-13T07:42:03+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Benjamin LIAGRE\",\"uri\":\"https://www.google.com/maps/contrib/107418333829628074931/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUXCVqsTEVAo4PrQQiPb18Zhd82AP_nXnd_ZesKn-HJOUwerlEy=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-13T05:41:07+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Yocha P\",\"uri\":\"https://www.google.com/maps/contrib/103592604139831846285/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXjUVdUU7iUVFo88uMHbootzG12X_RHlRtNRVDdO9AH9V9j0_k=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Personnel serviable et souriant. Ouvre tôt le matin et c est appréciable pour les personnes qui commencent tôt. Produits frais et prix convenables.\",\"language_code\":\"\",\"publish_time\":\"2026-07-07T05:29:18+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Nikos\",\"uri\":\"https://www.google.com/maps/contrib/105497744475401840996/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJzLa089pwyak-6euhw0iLooRfhILaqi9oxjJOoax9oAPjTCw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 00:33:25",
+      "google_reviews_place_id": "ChIJkR8y4VnVwkcRDRNee6Bs8S4",
+      "source_id": 5820,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-aux-graines-d-or-ronchin",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ronchin",
+      "string_id": "boulangerie-aux-graines-d-or-ronchin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55076",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5820_6af3a09f26f6e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4877",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33874",
+            "source_hourly_id": "4877",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33875",
+            "source_hourly_id": "4877",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33876",
+            "source_hourly_id": "4877",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33877",
+            "source_hourly_id": "4877",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33878",
+            "source_hourly_id": "4877",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33879",
+            "source_hourly_id": "4877",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33880",
+            "source_hourly_id": "4877",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-aux-graines-d-or-ronchin",
+      "google_place_id": "ChIJkR8y4VnVwkcRDRNee6Bs8S4",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:00 – 19:30",
+          "mardi: 06:00 – 19:30",
+          "mercredi: 06:00 – 19:30",
+          "jeudi: 06:00 – 19:30",
+          "vendredi: 06:00 – 19:30",
+          "samedi: 06:00 – 19:30",
+          "dimanche: 06:00 – 17:00"
+        ],
+        "photos": [
+          {
+            "width": 1295,
+            "height": 729,
+            "photo_reference": "AV-0GLflsWVerkpDHnSnZUCzDcPGMHZYxzDaBhYqpYLuIVBHu5v38iLvDSGD8wHitVyoEVCePXCCVAygZ4Pct-SSRTzIyUpYWrsrpC7VLV_wKR6ayszN-vejEQBZSW-cl987vMg3AvuMJfDserFmxf4SPR-lwH6_HOHMEYFOIJ52SKlNz6JJbWETGhCU1yb7tpay_VGCBJb1bnWnRR-G69M3uw2VC_xvJOFtrqov5HeM_sZFXxzd7UkfTcY86yZg0B-7g7Kf_T9YLQVUZaoe-t8P1Z2SQY-a_hPWLR9xRZ_RGQkdlON2jxi4AOEXcMTArFFrYRNtSTSr3OLqfJcxCy-CEVHanD5TWkO-7sSoWvkV_tk-k4sVR8OObutWK795-VoBnWF43QwpdW-cV4M5mN_U-2u_LkHu",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103741295828504787515\">Boulangerie Aux Graines d&#39;Or , Ronchin</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdsSkmH9UCrFpZ628KR2qQFo4ly8gYaTgs5f1zxEhHZf6n-QcLbAe8YrLzmx7r3-cj4ir9Ef4bvNpsPrgCrDyTAPaSO8ZE7MQuRsSf5wpJYqKivS4wuqtfRTDQlukkYxiSnLY0hwaAIiVqxslh1JJQYbQvDlIbazQnAgC7nRasAl1r6Enpda843r7WMoL9VCwMWMge090BQi9lJW8qnSFwDy3piJP6nlO-B5Fua_7hk9WdfqqL9SR-oIzCCYuQySiATsSRHNvS3YbM3o_w4CC8nbvatx3EcXHQMmukRXk3NpZz1WLxhmNIaYpslrEfq7AwYhmHxxT1_lVW9zX8fG0cFVCx__fF4XL3iTZu01v_ZSPy1UgV5GYYwSHERvn5NX4sKiKHG8aIJ37LVyJxFoNS5c2s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 3648,
+            "height": 2736,
+            "photo_reference": "AV-0GLeaFxylL7eB9mz36aA4ribCY5Qes8UONSsqjzeEWscls5n-nhWuADfRsTTLNr9ieO0ubnw6Fwt9ZxhYzEGHS2jr2SDAlh08NBrbXcXHdKEmV4Ht3N0LC-9RuxLEeuHOOAB5cnGxGICbzJdMIz4LuSviDjkc1Wf0vfOdGmCuUQwgZPd0JnV-kVhPT7PASf_fPpThxXYZixY60GBpqTQWLjRMYb4Cv3cUelpH2aB5pcVXfFvxoWC9I8L5Qdf_D8ZA3lQ00QH-V9Rt1mf47Tn5lwhE9TXM5JOtK-08BKh_KjjU1lhyrl9zBTOyPHrDEbJLjALctGr8CJ-CrP4HSg_GfpIfKYbNud6yNXDMevkcQA4gqM2NJyMbp8pUw2iBGmwOxN-NKvSAZqJViYxfe6ja9Q55G54w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109905294102187174653\">Johnny Delahaye</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLerUZ8CY_JgvW7agVfAaWlhZc4aDJA8BSRRslURwCsMy6U4zPXVCa_82BLND_u22U8RMUu8k6QfQdpgsePOj59CKJYgYEdzpCUlwRgODrSq-3tgwsyf-ZectLTj3f-dafcOEfNAkXqjQVejDxgrFdujgxw-cHrWU9mvnyxoPUgTV7TvUnZZe_Rrw4Bhif-oT7F4MOYiEeJOi1FIBel2P3zPmQ__62sbl7KSBOilOlhlUrD_hDHu0GDel5vhGs0sAS8JcqxOh8G-I0ITwdw7DylkrnFfvzI8FBYExUWpST2pTiOY3jAYVGI2LWVO34EExVqCoxtaVAA7H0HuTHF3BKznjiXvof2n5qWZgtKCybZH6mF5KojqX_fkk0zaj7mwbKQlDrEKfO4jo6xHDbmwKagLqA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1440,
+            "photo_reference": "AV-0GLeiU3Gv5ya4AoYFB9s3dhSBxZMf80GEfQ5ES1Yhqf_VQ4RmWPHtRFAEV7p0RzSPmpXxzmb4ItFmySZSV_BvQt_H89nQnxRiakLDSsAuOFlPrYXDe1uor8HBRISJ8oD6u6dpRuuWhxvlqfVC-g9VbxM-5x5DhtePCJzaOeFvg10bQgMz2QXyU38Py51jCkyPEI7ydWLNHp-cX1dH66e8NFWpt0wuceyZIusc-g4MYf-aAhK3MZZKH94kiwrcVJVx3zO_9jtOytD-zbOZz17KAX_jOyWJ9ccEt2rgC1SGnK4Nxc30Os-2R3FzwDby-_LJI2ySiS_eklM3Gd3f3EL9w9r1o8yccuI8HNQ8CUe2jNAeoUNro6yp7m8gHRkdYQuX3X688z8KREkslPzkaqq0lzWb-4Ap",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLethocsrhmIgXqkXaTi2s59nEjFt1RQRMjYBk4EXREofuLaR8KsoafHod4peLtM94Q4qjzduTKF0cDUuaPSqHUrW_eUF2JfwNZRjoCBifCNDlYvMLNX_G2cN-wUAS20ScLK2XvMPJUlgwbhX6TWAM7-9iM7l0S7ogQ3Z5K0ZvuLn7YmiIkNwJQrWxsiv0Fdkk1VCerpn8u57t237wzEGWpME5fotjyoGjzWMmJueTJB5B1npZflYlBF6bkKADwIMKagWxf39-Kp0elShWO6EuTS6y_43KrsPN-VyB5dqrtC4jB1V4aMAU8Sspj2FxrRLDI6er4uWtMc5GG3Ody-Bcdy_yQ59DbDKWheCLsLzoEDm0IPO4nCq9XOKknkrTDaS3uLfa7iQdks81O72GIhgaLMsNg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLcuoD0bG4XW6KzLDcdbd71TDmNlaMQO0dj6FObmrncO6M4F2GE9-1jhxnQD6y8SvIcIgdVz9ywUgpdt-t0OjES0EGzLX-cswj0JLkb2HgmBV71MB9jEdvei6BvWAxOfTSTWP7HDh6MW8wp33K4iaSzcVyWgu9HUy17Q2p-V22NcCS4Vez8LtnbqL8nR5zroDjHlZeZM96Lli8yKDB-csr4fVatspN_VD6hcMXI5ufus5rBjDMFfB3WLlY0NuPuOn8IfVA-F1mtJ72fZ3KgHqzF2J88-zc_lS4Af0UhZyX2KsLXyXIMsR1oUfu9i8gsKR-77N6uJS37WcgSBtFXqoqeZYIBqBWO0BqVBhRWGUIxtZlYFdxMYIH_c9kVMKzY_Ah8t_h29iMP9TKtf2WxiXwa7Nuk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLfwbLm3m6dnA74w5G6jJoO4H8z27tRJO3QpVOalaTJybsATj9urGNVTrYMgAC6yO3U8PhGmYnpMXWOnbBbxL2QirzVzj8qrbgnEcB8b8CDTGcsOYp0DjnAjnO-pRvw6b3E_E96GKmeGoC7GCvmKjMoYKzDBhQf6jXyi0-RzLM3X8W8hNpxFUKBQqh9RMQvZy_3DIuLQHqHc6F0htwoUOTDPfLg_0GiTL4uI42sS9up4xOStFqOi8B-VcSwcqVsKuth9Vyz0h3zik8B4OjWKEKwMuEKDhDz60zkxzqLAiRPke7c1V52AuCqP0CgFjFYJHrFQ-xSUczKeKxdk0j0VFL_8br69XhqEnY3HcBBVpeHPmsIpg-nDo0tT6OESd6ERyOUPegRdoJCuNDx4I1NYUJC84w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108855213086031547489\">Charlotte C</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc-_S8gwhpe9soDbjmSdhNIvox1_S5qaLrrQ8jeuwn-L7aQ8dXSN_s1z2xjlribyJ9LhSWMoB7hAztiAkzH3HKo9JZnGmKA7vaZCiBTD79MXCYca9E8HOZR2WAutkjHLUWM67Sny8KbGQ_ZSHRbIleWcCsTkjVrTxZI9HeV6tQHiWFM5NNYtNAQcKNklfq9NWQ1Pp4VxNWBp2v7BghoyJ1OERUCHeef4kOxdMbDgTuv2nlwkivyxy5KQUTVnrMYcc-s3LGm6KnYJmpeNtDGtPmHbkvnE720K5kPkHgvUkjXttuGk1SvqQh_O1fNi8GTNwXMZwZ63pRZKPxuxjLEOVykZxWqPIQL7WJk_GaDbasgC7Lzx-uwbROiVwfz3cs3iUq_boH19nKdTla-8bVVNVYei7P7",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118000199080215917035\">Gabriel Salomez</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 967,
+            "photo_reference": "AV-0GLclfd8yd9fEu50SrfYWA7BCl6V7TWer5w6b8_RhRMMIuNZ2GtT2xPC0S7g4em9JbbTXfVNE9rW78fPS4NPx1dTGKacYGt2cMxj6lat3Pl1F9-45GH93burf_EHbVv759XUgrHessO9M7IV3coFMX8ey5MlUPrZBIvYfUn9BnC703o2SnpFPyoZbxL4RTkXbzQXEHTr4x4H8C7HLXIJQ_eWZMX6VznCHWcpunhcyDjVjDQf5DQr3LtzrqTC8uams_spoRWOadE2PVP1Z_bCDDISaObznnJenGxD_oJNcVCAKZW5lDdFtKoa6LGnZtmM-tXIjktGNAK4Zt7UGXBfIM_uivQwCVpXwDEOo-jkwh5CX9OEL2yvPpmbZAhh0l9zTPq7V7rznHG6l5rX0v_VepEDfXzTa",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118000199080215917035\">Gabriel Salomez</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5820
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 2,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-09T16:54:30+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Steve",
+              "uri": "https://www.google.com/maps/contrib/101487888347503523992/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXwEHadHVBuohht76Jvq2Eku4J0ozCYBOuiis4hJNcr0jaiaLaBAA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "Lundi 02/11/2026, j'ai acheté deux sandwichs vers 13h. J'ai fait l'erreur de croquer dans un sandwich sans l'inspecter, j'ai du recracher directement car il avait tourné. Le sandwich pain polaire au thon n'était clairement plus mangeable et ne semblait pas daté du jour : salade oxydée et cuite, pain détrempé par l'eau de végétation de la tomate et on ne sentait pas le goût du thon bien qu'il soit présent en quantité suffisante. J'ai pris des photos avant de le jeter.. À 4,85€ pour un sandwich de cette taille, c'est très décevant.\n\nL'autre sandwich pain bagnat au poulet tandoori était plus frais et a pu être consommé. Mais ce n'était pas exceptionnel non plus.\n\nJe viens occasionnellement dans cette boulangerie depuis plusieurs années mais je n'achetais que du pain et des viennoiseries. Je me contenterai de cela à l'avenir, plus jamais leur snacking.",
+            "language_code": "",
+            "publish_time": "2026-11-03T06:43:55+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Catherine CHAUVIN",
+              "uri": "https://www.google.com/maps/contrib/115227957625736316746/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKr1f11h7KtjnfTu07woOQRW5djf4IfGm3uccgZqDfIK3_AYd8=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "On commande sur une plateforme à 8h, les produits sont disponibles. Une fois que le livreur a réceptionné la commande, on m'informe que la moitié des articles n'est pas dispo. Veuillez mettre à jour votre liste d'articles et vos stock.",
+            "language_code": "",
+            "publish_time": "2026-09-13T07:42:03+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Benjamin LIAGRE",
+              "uri": "https://www.google.com/maps/contrib/107418333829628074931/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUXCVqsTEVAo4PrQQiPb18Zhd82AP_nXnd_ZesKn-HJOUwerlEy=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-13T05:41:07+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Yocha P",
+              "uri": "https://www.google.com/maps/contrib/103592604139831846285/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXjUVdUU7iUVFo88uMHbootzG12X_RHlRtNRVDdO9AH9V9j0_k=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel serviable et souriant. Ouvre tôt le matin et c est appréciable pour les personnes qui commencent tôt. Produits frais et prix convenables.",
+            "language_code": "",
+            "publish_time": "2026-07-07T05:29:18+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Nikos",
+              "uri": "https://www.google.com/maps/contrib/105497744475401840996/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJzLa089pwyak-6euhw0iLooRfhILaqi9oxjJOoax9oAPjTCw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-12 00:33:25"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« deux sandwichs vers 13h »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« deux sandwichs vers 13h »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« primary_category_ref\":\"boulangerie\""
+        },
+        {
+          "string_id": "snack",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« plus jamais leur snacking »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Ouvre tôt le matin »"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« deux sandwichs vers 13h »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "application-externe",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« On commande sur une plateforme à 8h »"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« Une fois que le livreur a réceptionné la commande »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis récent du 3 novembre 2026 signalant un sandwich au thon jugé impropre à la consommation; il s'agit du témoignage d'un client, pas d'une vérification indépendante.",
+      "Avis du 13 septembre 2026 signalant des articles indisponibles après une commande sur plateforme."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« plus jamais leur snacking »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "sandwichs",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« pain polaire au thon » et « pain bagnat au poulet tandoori »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie ouverte tôt, proposant notamment pain, viennoiseries et sandwichs. Des avis clients récents rapportent un problème de fraîcheur sur un sandwich et des indisponibilités lors d'une commande sur plateforme."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-aux-graines-d-or-ronchin",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-dejeuner-rapide"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "Hobby": [
+        "boulangerie",
+        "snack"
+      ],
+      "VisitMoment": [
+        "matin",
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5820,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopMealType:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c521e4a8bb823bddafc539402f4dee9e10182a6227a91a7af2d86d77ce258664",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

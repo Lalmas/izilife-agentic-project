@@ -1,0 +1,491 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:48",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-fournil-des-anges",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-fournil-des-anges",
+    "status": "found",
+    "data": {
+      "id": "5876",
+      "name": "Le fournil des anges",
+      "shop_string_id": "le-fournil-des-anges",
+      "unique_id": "85c5f1a70882a9ab064cc01fffb77c7f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55132",
+      "principal_cover": "55132",
+      "qr_code": null,
+      "phone_number": "+33374466407",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "57 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "39",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9691225",
+      "latitude": "50.6114773",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:11",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:11",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJv1-1Tu8q3UcRxydu1qn8ns8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5876,
+      "scope_type": "SHOP",
+      "scope_ref": "le-fournil-des-anges",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "hallennes-lez-haubourdin",
+      "string_id": "le-fournil-des-anges"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55132",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5876_6af3a2eb6877b.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4933",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34266",
+            "source_hourly_id": "4933",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34267",
+            "source_hourly_id": "4933",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34268",
+            "source_hourly_id": "4933",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34269",
+            "source_hourly_id": "4933",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34270",
+            "source_hourly_id": "4933",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34271",
+            "source_hourly_id": "4933",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34272",
+            "source_hourly_id": "4933",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-fournil-des-anges",
+      "google_place_id": "ChIJv1-1Tu8q3UcRxydu1qn8ns8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:00 – 19:30",
+          "mercredi: 06:00 – 19:30",
+          "jeudi: 06:00 – 19:30",
+          "vendredi: 06:00 – 19:30",
+          "samedi: 06:00 – 19:30",
+          "dimanche: 06:00 – 18:00"
+        ],
+        "photos": [
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLf_Hp6qKH3JZPAxq8FGzBxhc4z6x99pzUAGpVfv1a2oS-IiqwXS4qrhWfqcHxDEurV3Vmu6QSRPdZtr-cBAo3EuXUrdslsuKsXBZhMojVJ_C5SfDlgNhQwngsMmMmtuaKo2txZt34JlIr_-FVipI-Q3TzClj2wdNmAS6x8OCBMbBaL4X8T-S44hPVFrzDxfOQJ0cTY6Re0Z1JOJszKlr8O7UBJTUAMLQ72FiAXKBIpYRhXx1WMrlk-fRmlouQSKk2_RiUqsEurYFgfnx9dTaVSkMh9F9ysWP00yr2zDbLLTlTM19-9fTPWOYjEY-GYwKW1BPBYCG4ICJyQ1_mGXTJ2sQiLN-YQl2qobi0UeRIBpnRMRMP75Cm8wmS7bS6kG10NA0hYSMxw1al3RizL2VIsLU14",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100251766125279420730\">Virginie MARINHO</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdd71CFUNysw2I2OvZzzV7PRgOpxs-u7gifGvk0v79NvmenvrUKQPsfUzMoRp-P77cCstIHFtkZ77o_baTNSYHKeBTu0lAXb0xbZmp4w-ucx160FHlykaXWMoLEhejlgxtA-cHurawOQEFv960jzIMYG9ZfHAGm3jI488Gchdbrgoi-X_NQPksSLbv39oA-2fZvKQAjwxQamd5IexOq-r-T1POtOjqsUx3RRWnrrUumBAiO__OHTtIty_dBHX7ay9lMYh3avs-bSPs8YnkLf5YeQNgnkZDy5snyRutvCyWGKBi2xADowoKRLlF0irdmatWys76D54NM2jRuVJKD0AkZzGJ10DpXq6Aq4wOmvYSSUmxjWauUUp1ztmTXq1dRKgOGWrJqDa4xip2XT5urjm9TQ_B6erwuXh8nT4XlXC3jqQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103337313461858459168\">Mohamed Amine</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcNovh_Kq01Aq2hJTHs0yKqzbKAiPxI1wp43Lz8m04-uifk6I8xlK4Ya07FA0IGe_hy8BqBdpLDoLHXiRHWDbFShKDS0QJ0cLQi6WGuqBZDWbxiyOUdRo-Nf6gHqj-LFE29RyRXCo7VG90avJl_-KzhZ0IJoJZmELuQpZUFSQQZeQzrU0gPUDQMz1v1DUDhhV_4gRtO-3kZET4W8O68RfYrhMdWTBzzsg9o7_b0IjGNnXyjCgz8NqIaG2rBQZcd9eshTPgC7Cjc8gn8XQe6BYjSIPcuWA-xgz4ANk5oBGt3AZUm5ne09aCMjFtOfbBmGKiD1cKGrKa_eeVKgb-KW4JHt7MwRd4yctruZqj2xZLio7-WrTK6_D5i8eG95bQ7ZlmdTLTLrCtDIPeITLQ9BgDNF8eO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104846575403804065670\">et aufait</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfLOQV_FAml-0zE-szU-f8j8OTI6FZl7iFok0oABB0UNpiEr0H3GQnVlWXvXJfaFODwXR318htdBeorcAuHt62AeQPVaXSpmdBeOuXZtCera1_z_EGtCFXW7TbcbBxWHt5dyPkcN0GbifqWgqhB-GtVJkkq_LafNV2rRixDFz1lo_0Lo7rSm6MxTjiMYTbFE3_adPgDKBlw4_NEbIBbjAV-v_Fi-SdLu9cz6tsO6K5t3EKuFk3EsMFmI5mOcgiMmDnlhI8Cs-sEmQI3z4Kbu0b94aHMQO57ZHni9oZnf1334nTZD03m8ZjTU2uQsUpo6pWhZzfc-QAOboodqyLM6cHsp8_XbWkFAInSr1WWyVPNNk5E_okf_wucPoobRuA4vV6BNjzHHVVhn43b2VaQLXS6W9css0rVwZGkZOShUETZiw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103337313461858459168\">Mohamed Amine</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLej9ANlwSAjEQVfkC_KHiaTuKMlIB4SUkNsFducMMURZzagvoHAiGPLbWCAJpg_q7qB9wrAzSTN1SE32xjoL_ZpeP-5pmhUqa3kruUDNWXj7JyJmbr9P8NdN1qIxc5zoPudWkYJTK-IfgK6N05BM56005ynYCx7ruK_2jnnuDPeGaWz8OplppPS6lgrmmtAmywilD-oslJhxi_oLe2XlFvZh4zRxzoD9Bo9G86OQUQgezzY2aL0GJqKpzy_p-VVFiJvTsN1iylSwBua-P6vl6MQ6t-ebY02lQqfWGHCN7psi_4hvXfrv7iRntZNiMmuk_0KsC0RYM5NqATRZkd0BBDgmZGe1FEVEEeEB7x48d67D2Jb5W9nwbj352KRRdQwbxRedWL1NkPzTEq63gzcNRSHSO06yFA9jkTm0bZYcQpV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103337313461858459168\">Mohamed Amine</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1960,
+            "photo_reference": "AV-0GLdbTYj95XBrencgRWm3o54lKyMdteyqOxxKzJBaszu74MpoCZObfoLgLbXzBxo5JlGid0W9Sj36f-sNhhApMQO_77kiReYJMnzSamQVLw8P7iQogDoFm_PE9xYYYui-hFHqAf7DZB9te4juq1ytoVPvF6QIzH_-GoMhyr89UbaKkPG8hNgiDhtYs2_jiKos6MkfXwMmWRxBzAnt_eCN4BSep0JBJtio1RahYmkQOWLp3PPnEPSJ9nHaxqUYnTbNJdBzemNNqaG6XVHMhcO3psXkmdbiXvEszn2kW9thpyw9n98_vzU0sECUVDk89Yqh_yJ1bTk0mxA77lj_Nwg-bh5eRw7j6im7wQFbSy9JvvFN5Qod9SeMX79WET01-EsI4dvw142f0sXPUFmDbKzpBgq3zz8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100251766125279420730\">Virginie MARINHO</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeIrZH7WT9_xSiCQ6n4Z2QCtDYQfAezglPDbx9FMRGwIURPkfPnUXnMvdhbvL6HIA42snMebaXI1NYY1MKjVo4ix_s9zVLnBn3rFVxOOFHTOm4qcc6RmUjJ2Rl3tJwLsMm00gew5AyzpZvPCsjtMJLO_2SbPZydiAb6nEbpdQIX3PJ_Q7x1z2ksqTMG32p7Ig3Vq29POeRP4UvcbnGP31TbVudbR3zG7WN24nDKsA6E88uGSgJ2V290CJnhrUpGkCkhPQ2UQYiG4GMHlk9I-wuJP6zp4-GIegGcfUrK_-vKivgjQBMlVu84-RtNRsYmCpgJA4oKSbQCQvM2HmtOLZMDBiRsFo3LVxzdKI-tt4IpGdiTs6HFU3bfCkNB9sYCQW0k9eMDhm2Y8-cKQVtuYfPInPw0vYqM-bFP_mdyFLjVkg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103337313461858459168\">Mohamed Amine</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLexYn1JiQTvZawBg2MnIODQRAkywOqC7Eu4MnaWeNqEhlckftksy2LIwGmkRL9FD0P4QNhe2E4SgB2pkWMI8eY727dQOERSv5DZHK9GafehBMCo92cj9Oqx2m2FmTS8QxpqlnEZXVyt4VJK8JaBpgW1eJn9A1v02bwV36apSYLqOCR7lpPFC2Bdg1-ktV0hZQNlJT-GdABDnif9KBv1QHdLYBpBY626ibq3Zh-fF_tAtLpV1XiC24BWRZNmIZ4ISbcbaa_jJ9vWtPMEX2d7uULb5cYWm0IYWjrNH8CVhDphtGet9MlbOAriC1qwXyPLqVqDr0ZDjlWaZj29969yU6BizLvo_b2xw6ygLrTI32VxaM-RIWB766QJWZAFBZ3QTL078g7srhMBoO_-AA3u9Q6OQ4wOysw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104846575403804065670\">et aufait</a>"
+            ]
+          },
+          {
+            "width": 1284,
+            "height": 2778,
+            "photo_reference": "AV-0GLczOPNUrNVRXPIUlKi7E7wUbA7EijhHF7wuC5vZ5fPUDuGEjoEKmdkWuTbkEEAFhz20dNme-Du1nL06R2Exszt1vnsG7pwK3GALFqcm-yvQ_sxK19bW9nr61omPdvUubbwMUa-Tij7x0d9YsFeeNHEE7qaqkl3moh_Iw6z-kVYtvU1GgQtHpjRLNZQFKiAdwL3nzBCYU9S0z53Y2jhxlxLByJyqPl4NszeDtNL2oAgidFz8WmFJuJGXoAqu1ZA69CbjkdIrTG4ysOUpgmcQKE5jxCU5x_vMixmkcYANxPaqrkbyv_lVxJPCg9CQ8qu5VgnEE1_i3kJykaEBSznD-RYwiE3UzOmLiRqb5d9bNqUfkR2Ha6MOfHeo_vRj9Ry6t39_i-pd2WPGUlXf6-R4IQdvk89kJCG0-uBw4bw1WNIQmg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116865104509720265853\">Thamila Bellakhres</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdZFlvNKDri8BYHrHU7vGAN8hVULeHRsbluuFMnohvOClRPWxbHEltZs68AY3uz1Sb3up-KbFefK2ujcTKuyRl67lOO5skLRBt87fIOlPoVh9VzJ9w25UejCVYMVOB6IWBAi52uby7VdbBcp9-qyZwqkQUyb4qCSs1IhlVIV218NaORQsaa0gwjuB4-1Copwgt3AYiailsHJPoX2VC4D9Gok3zeNAVq_VaKxVyuZbhXsCPYqSKkJEZ-MbKvRh9LvpJkJ-8K6bJj7tZuv5S3eG4Q03VHGpLSbMcn2tY-Kyn7i_3NKhDqCHcBlggpOSC4UAZG9fDGQc_cUGwSR2zT9YR_45BnKdefwg1M5EqFcUwDDnaOGIbkLMdw252vYh9ikX2guqMpkwHu8Y3uQI8Nayoupug",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117651959388074937321\">Théo</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5876
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations fournies ne permettent pas de confirmer les produits, la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les autres caractéristiques. Aucune absence de mention n’est interprétée comme une interdiction."
+    ],
+    "rejected": [],
+    "summary": "Le Fournil des Anges est identifié comme une boulangerie au 57 Rue du Général de Gaulle, 59320 Hallennes-lez-Haubourdin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-fournil-des-anges",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5876,
+    "changed": [
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c43b7bbb10c87a955598dc9ba4aa46686513ec13f039a6e8738d4572f6696959",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

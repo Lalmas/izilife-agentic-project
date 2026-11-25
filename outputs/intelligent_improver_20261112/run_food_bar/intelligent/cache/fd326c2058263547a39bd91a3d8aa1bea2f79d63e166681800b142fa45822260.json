@@ -1,0 +1,78 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : restaurant ; avis mentionnant le couscous et les viandes grillées."
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« accueil chaleureux »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "couscous",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Excellent couscous »"
+        },
+        {
+          "string_id": "grillades",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Viandes grillées excellentes »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert samedi de 12:00 à 14:00 et dimanche de 12:00 à 14:30."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert samedi de 19:30 à 23:30."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert samedi et dimanche à partir de 12:00."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert samedi de 19:30 à 23:30."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne permettent pas de confirmer les modalités de commande, de paiement, l’accessibilité, les équipements ou les publics adaptés."
+    ],
+    "summary": "Restaurant apprécié pour son couscous copieux, ses viandes grillées et son accueil chaleureux. Ouvert le samedi midi et soir, ainsi que le dimanche midi."
+  },
+  "meta": {
+    "cache_key": "fd326c2058263547a39bd91a3d8aa1bea2f79d63e166681800b142fa45822260",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

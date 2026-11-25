@@ -1,0 +1,571 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:51:40",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "amici",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "amici",
+    "status": "found",
+    "data": {
+      "id": "5670",
+      "name": "AMICI",
+      "shop_string_id": "amici",
+      "unique_id": "2b3b6c4ac1400fd69fde2192c93b678c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54928",
+      "principal_cover": "54928",
+      "qr_code": null,
+      "phone_number": "+33984251753",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "9 Rue des Bouleaux",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1303134",
+      "latitude": "50.5965041",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:33:54",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:33:54",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJIXtvMGDXwkcRWpRLycO9w90",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJIXtvMGDXwkcRWpRLycO9w90\",\"rating\":4.1,\"user_rating_count\":217,\"google_maps_uri\":\"https://maps.google.com/?cid=15979824551434097754\",\"fetched_at\":\"2026-11-12T19:51:31+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Parfait du plat, au dessert et le service au tu top.\\nSeul hic le bruit, petit plafond acoustique ?\",\"language_code\":\"\",\"publish_time\":\"2026-10-23T18:53:44+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Cat Cat\",\"uri\":\"https://www.google.com/maps/contrib/109315816400542913142/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVarMnemT45ZxpBOKVVLB0MgbJbC6RAgBD55mt3Odw8kI2HMjNJhQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-22T21:14:59+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Jean François Pérard\",\"uri\":\"https://www.google.com/maps/contrib/112597286501897250730/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVFILuCUHezcWDSktAMfatY5pODZ81JM6hTLi6FDCkl1SQYuAP-pw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-22T16:55:40+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Soline Peers\",\"uri\":\"https://www.google.com/maps/contrib/115155851328882347848/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKIsP_tbRqXWa72pdXE76PwPT584QHsqqGkdMHTcASebjfc=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T14:47:24+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Loris\",\"uri\":\"https://www.google.com/maps/contrib/108511003203528450210/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUdm3mJ0BtkRbx4EdvZyxfrXq-e-sc0Fyzuc4aWzKzS-p7lgI0=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Tout était très bons je recommande ce restaurant sur lesquin et aux alentours.\\nBonne adresse\",\"language_code\":\"\",\"publish_time\":\"2026-09-15T20:19:09+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Sophie Drochon\",\"uri\":\"https://www.google.com/maps/contrib/112301045194454612285/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWP6vXMWxsJICRFCr4WfD4rzS-gETitmtQJRfgsfpkDd8-QvVUz=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:51:31",
+      "google_reviews_place_id": "ChIJIXtvMGDXwkcRWpRLycO9w90",
+      "source_id": 5670,
+      "scope_type": "SHOP",
+      "scope_ref": "amici",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "amici"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54928",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5670_6af39bd218c6c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4730",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32845",
+            "source_hourly_id": "4730",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32846",
+            "source_hourly_id": "4730",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32847",
+            "source_hourly_id": "4730",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32848",
+            "source_hourly_id": "4730",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32849",
+            "source_hourly_id": "4730",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32850",
+            "source_hourly_id": "4730",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32851",
+            "source_hourly_id": "4730",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "amici",
+      "google_place_id": "ChIJIXtvMGDXwkcRWpRLycO9w90",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 22:00",
+          "mardi: 06:30 – 22:00",
+          "mercredi: 06:30 – 22:00",
+          "jeudi: 06:30 – 22:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3310,
+            "height": 2108,
+            "photo_reference": "AV-0GLc6CffjKr9F9A1E-bz--sCwz1u0xNweVrXun1W1Glk2QIA6bskipEIrfxQmJu0raxMtIcjbI7wGUbVR2Ohz8V_sPCFqlbdjRk2fa2NXf_gkK3zOzo-GqPm7Z_YHAHu_zkjsoFlM-11uASk6Ndbl45ZHwxqZLWNX1Os2x3BKlIPC_YJMOn3Jme95whBya2BU49zgExxJU7olAxNjmkWYSe4wlHZhfd0I3_KuHAKpVJ5culEDOQBddd-4qHu19cSHTkabSyFwvdaGIR3jX5GFekYNkmSC36y8vX8LCB1XtRI6i_8FlcQPzhyzL30nB-zDnMT_vWXUWXEcjq7zox481ELLr7VjIcvH2CHXufoQvPaAGDdgkOGWbe4f5M7Dz110RFRFQXnjDdpg7xHo1Vtbv-AA27jd",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101174061554826470846\">AMICI</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3056,
+            "photo_reference": "AV-0GLf_Ps9l_8XCRs-S-M07-Sd1yyRo4G91GlCXuLoxaSFvIbByWubPBnraXBklHZ8W6y6Zzh8awA0V9TCK8E4J5pLSuZioEXK6xJ3jKJ9t2g7boYvNsnAeL0YK8p_u9wdiLL5nccaG_Mar-0aWzBzp_hq-bPMKcgO03mrcbuOdZGjsqPubgLFomc2qLrEYjUkO2IVkXr7g8ZHNrymdW8Xpy3ux5wZl7pcA5x55mMxm2H89G-MTpHLP2I-x7-_PagZ09PZAc9EqEEFaSPOurtbvu_N1s8A6gr2MevzCJ3hN2MFvF0-3Iy2FeO4Q0_g8M5-z95jlhekjehg1eRXjiq5zEfFqZUljHmQ2lJAEAydi-pdY9yhQ2d7ym4W4m8Hm95Tdott8Tirj4oHYGmkpDHYfFcPpIqa6J98",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101174061554826470846\">AMICI</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLe6L5HUamz9fdgLSV9YtoS4pUzFwfHGBPOk3XLvScsepCAaMCGLnCDyXuIwUWmOc2TlhY4FoZ-EhrgGQKPQrqJMrrNZ37dEZtCTdQQ2aCOIh4crOeXAN38WV2_LhM7nSzVDwflDtJydR_G4DjflEfe19uzg98v6xNJgL-YrIJUdaFeQY7SYSmYXXmLgXGkrTIuWgm9H5pBsBiVcZpX4rZbr6HbotQ7YOJLb1CN_fEfTMHWqcVJ943_rywSbcn7-Gxohmyi1NXs4lT_YY7SZxp4NE9qG9lEmQFos-Qc_f-C1aws172UoVALf9AkytvCZZQdcDajuLQIXI7m_MgJNy4r_Bzw3RxkZ1lKJBN-eskPDXcDZ6DENoGz_UdI1fR6EYEWxiaP2hZi7RkDRE0qRcijyMxoDgGXTYfZsJMaEZ7rSeg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116994304208858660321\">BAR David</a>"
+            ]
+          },
+          {
+            "width": 1320,
+            "height": 1163,
+            "photo_reference": "AV-0GLddv_DjX_3DelDbl2w45tVclTM-tkBOCUeVSdAp1iPBpAEyuHqqMfk9UC9q6f7eVKU5qBk4GwDJkPPRt2Q0vVemjOALVr8tn_1Au4l5O0S8W4V2ENuro26jE-dgbICjSM6p5Z2g-NxJ7-qOioPraPjLhgSfmrDqmtHmftpg9JcqNgikiaa31QzmkoTx3oULzkzTSvEw6jVJ_IxuRDLXYzJTE0dJGCQTmedN1M6jbO7iMHmfXO4DTWoy598IQ_gShh_6KEDA-6BQsfxILf8GM3zzXpqkIXVpElKEtKCkl0OTBC8-VuzaK6qyqQUYDiH-I0HFGX8DiTeUFKsGIrExFxcnnAUv82lUWFh-O21FevF0faEQcZ2vImPwe4JLL12Qp6WvQ2fiXsXrjjsutBcj777xKuaroZs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101174061554826470846\">AMICI</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcu3d5RXRDkwPBPu-TLqmkJvEt5ptX9GH6Xh3oA2bLcFxGx_EP71KfnmOnwLVV7YJ2RzvZzgeB5i8PUnq1ZzPDr_LNeSA_NSWcd42RWTF8Ob8I4zLvRG1ssITrnnrcwCXyfJ_lUNQ99tO55HnvWMx1xiB89DyIqgeJVV2dYVfjNDpIWIFHWRNebpK5hbUn06fKrnjTEat-lTNXT5JdOpEowptheiLtXkd96zqAYw2NaOF9VZd3lhRQwb7JTAAYvTWcPs2bstLBpBc1gTsKm0QRyi-uU8CXuQIasK4zCXIXgHcWXFbKsTz5qkiLpOuDVaRrzVQDseiB2lOFrB34rivIHdQ034q4so8mCYo-BwbNAf8TTF2n7tdpDhG9pmY5vBdVSeya9kzTSjDjFrElJbZ0RsA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102388505565613252125\">d kelly</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLesOeNKRB51D-0_ZYjqTf1D4I9CzLcYXwzTG6cR8lO-ivZLX1hMavVhIe2X2P-byVzSdqCOZnEYhjK48qV-1wK48_vre33TIwxxrkt8E4937NWw3FfTA6uhEwelef9-4NN5dPd5_cqvWmICE6IKCqHbWKxD3g6Ewl5VorUuVh98uPYEWTNY-ZS4SWCORlE98bTMi1TijSseeaxrrZZkiDS340b-1s7S_f-yGp2ZE6uZJlJQyS8tPHs--SmBEtiUGQI7yabKoqN-cASchTRD2tHV1aXvLjHmCy8suTbqHa6N2mZQWSU8cHQ-VCUoTTXVeq9WEZI60B0u8wrMbc31USoTpalosGK-qyHFPJLyrLytXpQShb2z30Rc2rGYSNvINOQ2LRDS72MOXYfPivCHjoq2kQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112595857828695946388\">BERLEM Stéphanie</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLetdAJQ8eDwct7ANEXbemkhbJtp3cmNMtPpwLv43M_nvfK6j6Qm2P4_iXJPXQBC2UirS-M8Le-ss4F2Rav56M0-mpXgDUnfTHUphRRicAIfT1nUHkVHSSzpgF-P-kSMYurUsuwXIfldW3Lopl4DgN4ZqssRpIJz6LCFD0VJGikd_neixau1Ptz1hVnpJn--863X9V2VpXtLn1Clhx9r20rBW_d2d-6y6AJ6XiTD05ogUBkn2qvnG6U0QsQtcViEm4kZxIk-YV-NoswtDYqwb_L-clofGfen6ewHJm_hceqUd375s-4-rerx6fL1DkEgFRdOQfhzjx2wkky00tVhZkHks-Zz_dCPJHysr2O2_amPKmQ54TK0et-_Gb1LWRd_Tt42GoHXLLmsCb1Tt_N3BRDFZ-duj8kM0TLOIhOB5h0ofA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116994304208858660321\">BAR David</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2412,
+            "photo_reference": "AV-0GLdLDEwAFrtCrqvJEgbT4p-D6c33EEEq4hUnhhsk6hnRA5xwP_858kKIMlkpFHXd_pboBKLK6cj1FVwpaZEoQmqfcQol3TmXS_IhAwPA6m8XZK-agvy-8p0NYsxnMl71LXS7i2Ss0Y1tMv5MiwY6bFuS4wUSlFnnSkbu3cEXQ-IGIE4jTxxucf0byESAM4h6YFxSNKVN_p70NNcNEzboAga7qbT6Fp2r5mWz35yHdITRf-bE5LL3e9cNp9LaLR4xDdExur77q2v1v0ldYpRzGBF-Kl8Er9tWjEviTG7QB9Kg-M4OH-GFeCDbEfTY-L0zGVTRCEzojBZeXiec4VK-0MZ7dft91zvTm1fTsqhrbhM0BQwSjZzwPHK_k5qxTlS0RTEsS_C0Wr5o-Vbodta-TO_R7oRsUqQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101174061554826470846\">AMICI</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe2-5a3mjA0ATGqi2u_HxlEJ2Qid9MlCZB3Rw28IQAfLVHFiJpjVX02XO63myRR0TfM3zupYeHGfimtncfqYHSKDUaRLpCF1E3KB9HWHU1Zhf2auSCPXWvuJp0wximVakUIjR4D3hlc6xzbd6HUym3_j08TSjTFlSXulTDK0w3AG8P3YWbHwcIG5BMVTnthPWmUtq1muuH8bgnAXtGxHjHwp35r1AROQ0eIyJAdBtr8OZSHqbv0_MVJE7Jac-CoBIco8y1CF1WVlV2QTaFErFJEq-pxz6kjSQ8yai5ZXMgsRycP0plYdG8BwDYTF3gOSCUOYkm12oU3EiWGKxBhSFq1oTsGjMLC8gvTAYtsFfec5gXXV8tltXE6v0WiFX4ZWHohge3CXRZCilfPyw7ReyvNkE9D-M8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102649816086664984440\">Pedro C.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 3024,
+            "photo_reference": "AV-0GLeg9lC-F9FcqNGZE8Pqg_qZWwi0kBxHesi9DGjEdbRbHrtru-qE8aDlh2Jty_f2JOTtT2tEOAxNQbdzQhair72ORe7QuWh78W7-sBXctNQdREQzZoaVka3CDyZrzltdSCSbjuBwL7MKeRvOSlYK_Y9XRGvVWiQ5yXXdjNWlKV5Tlikq0BQ8N9tr8CRJ0CfHXtxN9bPoi0AIqHMVdgd-N2nvg7VIWcs5d2EbVrLOspBwCzNfPMCndCRGHtHAf5MTol7Tb0GxKNzOJfsrod0rHFCgvlIfpeR27wPH-wUiBNd47lo7p6eGRgL1ELAi7khxjXi4ljmo3RjXiId5XRFMybitH-u4VbVlJ6W6wtxvge4EuN8fjdSNRnhPlEQgtWFQjqMDWv9uOPfvzlQdU2ML_3hZiexvHt0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102649816086664984440\">Pedro C.</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5670
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Parfait du plat, au dessert et le service au tu top.\nSeul hic le bruit, petit plafond acoustique ?",
+            "language_code": "",
+            "publish_time": "2026-10-23T18:53:44+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Cat Cat",
+              "uri": "https://www.google.com/maps/contrib/109315816400542913142/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVarMnemT45ZxpBOKVVLB0MgbJbC6RAgBD55mt3Odw8kI2HMjNJhQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-22T21:14:59+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Jean François Pérard",
+              "uri": "https://www.google.com/maps/contrib/112597286501897250730/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVFILuCUHezcWDSktAMfatY5pODZ81JM6hTLi6FDCkl1SQYuAP-pw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-22T16:55:40+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Soline Peers",
+              "uri": "https://www.google.com/maps/contrib/115155851328882347848/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKIsP_tbRqXWa72pdXE76PwPT584QHsqqGkdMHTcASebjfc=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-09T14:47:24+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Loris",
+              "uri": "https://www.google.com/maps/contrib/108511003203528450210/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUdm3mJ0BtkRbx4EdvZyxfrXq-e-sc0Fyzuc4aWzKzS-p7lgI0=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Tout était très bons je recommande ce restaurant sur lesquin et aux alentours.\nBonne adresse",
+            "language_code": "",
+            "publish_time": "2026-09-15T20:19:09+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Sophie Drochon",
+              "uri": "https://www.google.com/maps/contrib/112301045194454612285/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWP6vXMWxsJICRFCr4WfD4rzS-gETitmtQJRfgsfpkDd8-QvVUz=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.1,
+        "user_rating_count": 217
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1153,
+        "bo": 115,
+        "front": 1038,
+        "estimated_cost_eur": 3.825
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Parfait du plat, au dessert »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Un avis signale du bruit : « Seul hic le bruit ». Les informations fournies ne permettent pas d’établir les options d’accessibilité, de commande, de paiement, ni les équipements ou ambiances."
+    ],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « restaurant »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Lesquin, recommandé dans un avis qui apprécie les plats et les desserts. Un avis mentionne du bruit."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "amici",
+    "operation": "ADD",
+    "tags": [
+      "excellents-desserts"
+    ],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5670,
+    "changed": [
+      "ShopCharactTag:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8bb3a78158a713ab6499383ff91b44013641eef8242f131d2d7f89ec653506b0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

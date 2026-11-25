@@ -1,0 +1,115 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« de quoi se régaler aussi bien pour les grands que les petits »"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« aussi bien pour les grands que les petits »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Friterie » ; « burgers », « frites », « tacos »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« aussi bien pour les grands que les petits »"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« de quoi se régaler aussi bien pour les grands que les petits »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« aussi bien pour les grands que les petits »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 18:30 – 21:00 »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j’ai pris le chèvre miel » ; « Les burgers sont très bons »"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Les frites sont croustillantes et moelleuses »"
+        },
+        {
+          "string_id": "tacos",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« les tacos sont vraiment très très bon »"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« autorisé pour les sandwichs »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« 18:30 – 21:00 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale un accueil peu chaleureux et un burger au pain carbonisé, contrairement à plusieurs avis positifs sur l’accueil et la qualité."
+    ],
+    "summary": "Friterie à Phalempin proposant burgers, frites, tacos et sandwichs, avec des horaires de déjeuner et de dîner. Un avis mentionne une offre appréciée des petits comme des grands."
+  },
+  "meta": {
+    "cache_key": "a915884688137022c6f191223c3c6ea3a803e9bc65b7ba76acaf9f30050ccf21",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:04:27.197054",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 23,
+      "title": "Visite du chantier naval et balade en bacôve",
+      "experience_type_string_id": "croisiere-en-bateau",
+      "source_url": "https://lesfaiseursdebateaux.fr/",
+      "validation_blockers": [],
+      "duration": "90.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "bateau",
+          "minimal_age": "3",
+          "duration": "90.00",
+          "duration_measurement_unity_string_id": "m",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau",
+            "visiter"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [],
+          "age_category_ids": [
+            "3"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "insolite",
+                "confidence": 1,
+                "evidence": "Les visites insolites du marais de St-Omer"
+              },
+              {
+                "string_id": "bien-avec-enfants",
+                "confidence": 1,
+                "evidence": "Bien avec enfants"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"1\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"1\""
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Experience",
+                "string_id": "experience-insolite",
+                "confidence": 1,
+                "evidence": "Les visites insolites du marais de St-Omer"
+              }
+            ]
+          },
+          "primary_image_url": "https://lesfaiseursdebateaux.fr/wp-content/uploads/elementor/thumbs/ph-faiseurs-de-bateaux_-59_GF-pk7g19qddcg4t1vh8czbzbdqaxd1vdzv01ytmov4y8.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 23,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 64,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:04:32.876446"
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3655,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "La description présente un spectacle humoristique de Hugo Simon.",
+      "Aucun plateau, open mic ou programme réunissant plusieurs humoristes n'est indiqué.",
+      "La description ne confirme pas explicitement un spectacle solo écrit et mis en scène."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le format exact n'est pas explicitement précisé ; les éléments disponibles ne prouvent pas assez clairement un one-man-show pour remplacer la catégorie stand-up existante."
+      }
+    ]
+  }
+}

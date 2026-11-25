@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.65,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les informations disponibles se limitent à l’identité et à la catégorie principale du commerce ; les autres caractéristiques ne sont pas établies."
+    ],
+    "summary": "Le Potager des Demoiselles est référencé comme restaurant à Vendeville."
+  },
+  "meta": {
+    "cache_key": "4c44779acb2ea1070b450620698470df3515d546898ea609cb8b0bcd95758128",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

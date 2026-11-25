@@ -1,0 +1,39 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Bar / Tabac / FDJ / PMU / Snacking"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Prix très correct"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Lieux convivial où la bonne humeur règne."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar-tabac avec FDJ, PMU et snacking ; un avis souligne l’ambiance conviviale et les prix très corrects."
+  },
+  "meta": {
+    "cache_key": "98c0bd16b460cf692ef07ddc238e4c6af64d9c89d0cf10bd12f507409ad415b9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

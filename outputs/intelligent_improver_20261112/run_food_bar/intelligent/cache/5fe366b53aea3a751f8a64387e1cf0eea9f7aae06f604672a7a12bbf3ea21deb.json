@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie « friterie » ; avis : « un bon hamburger » et « des frites »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : mardi à jeudi, 11:30–14:00."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : vendredi et samedi jusqu’à 21:30 ; dimanche 18:30–21:30."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « un bon hamburger » et « Burger du mois »."
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « il n’a pas la main légère sur les frites »."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : mardi à jeudi, 11:30–14:00."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir le vendredi, le samedi et le dimanche."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie à Haubourdin, appréciée pour ses burgers, ses frites et sa baguette. Ouverte le midi certains jours et en soirée du vendredi au dimanche."
+  },
+  "meta": {
+    "cache_key": "5fe366b53aea3a751f8a64387e1cf0eea9f7aae06f604672a7a12bbf3ea21deb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

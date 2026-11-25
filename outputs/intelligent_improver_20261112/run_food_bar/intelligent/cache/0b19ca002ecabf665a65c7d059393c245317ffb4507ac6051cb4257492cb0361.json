@@ -1,0 +1,129 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« il restait une table disponible »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« il restait une table disponible »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      },
+      {
+        "string_id": "bien-avec-enfants",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      },
+      {
+        "string_id": "tres-populaire",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Victime de son succès, pensez à réserver. »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Plats du nord parfaitement réalisés »"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« pour ma fille poulet maroilles »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« On est arrivée sans réserver »; « pour ma fille poulet maroilles »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« accueil chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 11:30 – 14:00, 19:00 – 22:00 »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« Plats du nord parfaitement réalisés »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "wesh",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« une mention spéciale pour le Welsh »"
+        },
+        {
+          "string_id": "boeuf",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« carbonnade flamande »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:00 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« samedi: 19:00 – 22:00 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Carvin proposant des plats du Nord, notamment le Welsh et la carbonnade flamande. Les avis signalent un accueil chaleureux, des portions généreuses et une visite en famille avec enfant. Horaires indiqués pour le déjeuner et le dîner certains jours ; réservation conseillée selon un avis. Les données fournies ne précisent pas les moyens de paiement, l’accessibilité, la musique ou les modalités de commande."
+  },
+  "meta": {
+    "cache_key": "0b19ca002ecabf665a65c7d059393c245317ffb4507ac6051cb4257492cb0361",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

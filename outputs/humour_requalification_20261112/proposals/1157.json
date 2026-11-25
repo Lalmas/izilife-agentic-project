@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1157,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.86,
+    "evidence": [
+      "La catégorie existante « stand-up » est cohérente et aucune information disponible ne prouve une autre forme de spectacle.",
+      "Le titre indique « Julie Conti — Nuances », sans description permettant de préciser davantage le format."
+    ],
+    "doubts": [
+      {
+        "field": "spectacle_format",
+        "reason": "Le titre seul ne permet pas de confirmer explicitement la forme de stand-up, mais ne justifie pas une recatégorisation."
+      }
+    ]
+  }
+}

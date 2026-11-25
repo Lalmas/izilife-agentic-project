@@ -1,0 +1,511 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:30:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "square-food",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "square-food",
+    "status": "found",
+    "data": {
+      "id": "5840",
+      "name": "SQUARE FOOD",
+      "shop_string_id": "square-food",
+      "unique_id": "ef3478e3b8c27dcc3045eabc0100743c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55095",
+      "principal_cover": "55095",
+      "qr_code": null,
+      "phone_number": "+33362522889",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "69 Rue Ferrer",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.064746",
+      "latitude": "50.6105713",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:58:44",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:58:44",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJoR7dndHVwkcRzK69HQriOqE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5840,
+      "scope_type": "SHOP",
+      "scope_ref": "square-food",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "square-food"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55095",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5840_6af3a1a4680c0.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4896",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34007",
+            "source_hourly_id": "4896",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34008",
+            "source_hourly_id": "4896",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34009",
+            "source_hourly_id": "4896",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34010",
+            "source_hourly_id": "4896",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34011",
+            "source_hourly_id": "4896",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34012",
+            "source_hourly_id": "4896",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34013",
+            "source_hourly_id": "4896",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "square-food",
+      "google_place_id": "ChIJoR7dndHVwkcRzK69HQriOqE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 14:30, 18:00 – 22:00",
+          "mardi: 11:30 – 14:30, 18:00 – 22:00",
+          "mercredi: 11:30 – 14:30, 18:00 – 22:00",
+          "jeudi: 11:30 – 14:30, 18:00 – 22:00",
+          "vendredi: 11:30 – 14:30, 18:00 – 22:00",
+          "samedi: 11:30 – 14:30, 18:00 – 22:00",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLf7WaGzzWnDty6-0ykQ09jl0UqkmMQUGydLIDonR42lKuf5Fnv9VqnCE6vYFvck3PbWmF586nvpcsUnyfJJgmUQ06LSigHEWoxuKrqiAZXsqdsnRxwqCRwGl5QIL-cVvlqi2JGVlyQ-7a2qBXq6CBGf5m9PgNfPbIQltBKQXyNCayi3G6j4vv5SeSpMXF00OFbed8tHZg6L6VBcPsVhiQE60cvGb_85ExXg_P8HqnyZ-iL9jtJC6AhLqhH5AP2Bt-WPtCE7LEoGaHZJdbXH-rTFdf8e-Ip16dUEPY_-_eQcF_7_D9b53piVpQCco4ZU5v_vBqkF_3p2FnnB3ugU6ik7BPtF4ZcEaJ2wphNhGgGac842niayhVOBV-Y4kwsrd2firFIov-A5jW17ik_JvKUGb6klPDwGZtnKDusk5akfgA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdi0lAG1VkYYB1bUQFS319DFsd-j2Zk3LjERbcD1L8PJuIreOJtLwQwbBg1KFbQv9fB-psdym9Q-ZUsdZC6tOKiyggrZ7P_xxBKExdAAgDcMRZRb2Z5OoVITUZmTgA5l-6zkeCGsdRUrQ0YUZGOceXSkZkTIuhan7rixfAAshW6xdjE8HIBctWjlY7CyDxgIuFO6UBjJyqRBBhviTtL2sMcvNLfBo2geZSR_fbvdI0uuisNtxGlG04xIB9F2jh2woa7aI5Z0-t1Ocq3F3CBr4EroF-G2V9_xswt45hgp2B74F93_nAWvkDXk71r5R7czZ0QsCwMMDKcs1wYjnB7Ywdoi9iZIe6mbY13vQXVsZF8zW5tDR25WVxNyWi3YQlk541lbuQHnSmSmBSSUUKkU-EIUpFkiVb9kDApCwpTlEPf",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdYSaTCYcEO-2x6OlqbNMIY96sIBcL4rOaF3xLsxjqFKwx76ETjxgyLWtDkGCaV2nrRIbbAH8BwQ-kJ3GJoNDtknRSIHEt-vryiQiWvBhtHd98JUCHM-wF1doy7uYR5UeNvvV8Z2YZCKpg95cCx8Yl47z-osBNDANEZLId0FdALXCDKvKFljIlcQNkjf0mOBOxIKHNu7MYrffg_an422fEJG1hQs5tMv25O74PxAFo8XgSgEWjzha5UlTkVUyZccxFkTZjBlhFhbkBKHfrOPBY-zmBuzqjaMV5cE3MXVGTJf03w_yiWcD8l8lmqlDb-gBrz33JvbbUGVWQdnerirpKz9cwLIaojWl3f5EY3WPz239YOFWkjMKr2SxbXap2olTk-_LB0QxyRmVP8TZwhhk9j5bHrTxRXfXW0ni6_7XOHdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLfQSFFOnFM_2oi9TjILzL8OvuX4-dTeG-nO45sp__m8rXkrd6c3cmrJXQ7dV-kvV3w-Nlcclh0HUP3gHf0LKz-IbElPqg7gg8_TPv_DSr_4ZZcPX_W6WawT5meHNKgmiomn25G3BmdpzQs3mR2xyoodazI4-SnyUn3leG4gKsIGT7MDA4soffbryfFu0KqFeIzmP7HoTZx8sGtUCS1BZCeSBuMF2lGRixwWudqbB-DXOmVC2knnl6kBQqZw5jjCRMvNO1uA5IdGjyU2PlEe4n3mwBfnLRmB_T8rUNo0hRJxr2y0fDr69sXqfIG8AFLBcir6kjbMA5_5yIK788kCrPEtNCsK1tZNGniQUZXyM2EEw65svP7146KphMK9D626ES2qsoDjxd8Gsa-VniY7G47Ill8zG0j461iQO8chbuuAOw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdztMaOPbt1i8WqYqEnqcw6mP0jzBp-9vySYj6Fu9tWw6277wH1s7jQZryLTfbLkCpbTOF8S4iO-wXXfvMZJkcQtm0NM3TfABQ-gAatObezK_sriymI-EHV4Jp_dofL5SchpBbVzzbGHN84UKEzHEkBGPohHxy7ASsVjEMbcGIGxrNV6acVc-YTDCD-LmL4HIrHFfeS6g5P7yEzXmGWTd1PJ5pDXviEXezkJ94yA7emFmcNfIdM2Z-_2tC1Y3st7f6cEWBjFsPGI3NZPESPLX77yOFjiSB7U3R9tpevf7vP5fu8w2Ex48RVrYjHZDF3KWpYdzLg2h45D_7m1FrN9Z8jn8ppDg1zeJmMvaMDniKbdyEZjVehzA_A76YQrwdhdBnbsDbItvRuU_GhrMAr5F8HKY9HRNNjawy_19jEAJ62rw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfElik-0zBnPOZh3a9cZQqlq9pE-DKIaGj-dLSJaOamt8bv-iHDIedeDNLyPyGcT9fnmW-6Rh0d24by7rX3kwgkXQxN87TvkLJNSKRyQ_O8tL6aVUlt0uZwc5XqcihSIt2OPIgiwm_jDmuyMGU0cNMLQCsjJKQ2enWKpI9jfV9S6kkEPoEoxyVJgc9Ouje7s4WoMUsJTrlaEISU58hrH7pp51ZuvcbDtaCBtQxPjyT-PfjPxIoWkRAl9DYzYdEccwLhRQs4dXfTvxjLeSTGgNAfK6TI1SKRO18hNCGOF-_0XwzREKBdYj6wNBAP129qUSWhL1dBZprBuXgXZvlOEvYnWYMevsXf0FWpxE_FZa4q3TtLWJ3YM8v85zgApvhRmn6pq0WoHyU5ZsVAU-3y-8c5dMoqZ45GGsyOnmQ461Dk1Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101695341364475553510\">SQUARE FOOD</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "photo_reference": "AV-0GLdNMTyxqY1-Fj0syUY6XbPcQkPa3vMgo7r_malOM3shbcnr3XqFkEHSW4DpEJesod6qE_cI2or0oTPflk8Uhyyl59ABBk5IykJ_nV1Z6GlViPPjwStzvrF71iY86zUhPyujAdHvnFq65vfDI52yM88Dj5rrEs8H8MIJR1hsP_OrLeJ-wtGdVW4CGWvsZkyMF2INvnZtMmXYiC1qLgjOnGspwGTD1g6Th8HLc8NVCMt5mWH9XyB1f856Femo5Z4zqdqFb_n2iLXAa2Ojm83l5uGS61Oa7jGrRjIYgWKyn1RfWHK2mnlt2pXLbJOs_C_Jcbboum5goCYPVJ4F5qQgR90PfrKHDksCLtMH2JwD92rYSsP-ZTSJMllBU9cRK-0Cszw8Uc_kk3thlIopOPWc7aKDIg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110232888492071314948\">AK Best!</a>"
+            ]
+          },
+          {
+            "width": 1124,
+            "height": 1600,
+            "photo_reference": "AV-0GLdpX4GQ0TP9-lWhFQqzsnEpndRFOp2TQGktlwJegDw5Zyy7YPSb0a8_9fYSeUv32KpmKCrq8H7mUohNB3KTfLiwZeVi87Qu-UjKGVwm33wlwL9fK3PO9CsQ4aw1imNp_2ah8gn0ixmtAJKuCCUqOgOmS69eCDjG7vA8e67Vrkb5LBMcyWVYqZar6LWri4VqKv3JCFsXAaiIeoXzjijunupKAXAz29sij7-9lSjdmex6fZVWZk3RpEIHn9PsNqy4tqqUWnIf1H5Ta9tmpJoYlN3QVd1LMdqHIMWFfcQthAL5gi8JnZSar47TMVec5D0pO7s9XYyObfS_JZBdtFsFGvkhU2CWEG7N12KVKUQp-9B1ExkYqUYaT_OJMCO1rOTyqHYUMGfdhVdWd4Ielzr7CXVsxHI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110232888492071314948\">AK Best!</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfJiWdHadZDdxUl6BpIhm8gLjYvd_sPbV391ZfB9l0ekXu9KEQPZlDuGIjErHPFymrXpeAraVXzjO44cG_t-4cBmIujdLMYYuBxeFt-n7S5DoMkoDBbA3OEkkejXtJO4YfmMpYgTUkFb9EFk9p7a9R8WgQ20Ofa4ZbBIw2rIQpGKDm8t2p3835J0mnevgyU7KGPAIWUbu1sS-yhcj5V-IA-Zwpg6hvPVrV6MOVJ8rRmOll-E-EPIHNOhOefgcS2rvhj91pPT8QEKjI_glaiitsStJKqYnfm3JJmoWwTz9FsjgA_M_dQq163Mig57KU-h9TzUIS7Beb0-NxQRnx26C52mN1eOorTRdIJV3KF5jNK7CXWurFnZlBCuclehA5w52borjJhLbb27u4h1JUMOd_c66cELjkHZ4kvJcdguyUgug",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109098330649843467385\">Mohamed BOUMATI</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLfOuvBKALIEqdI2QC9GJPhnl8w7Erp26U6AbA0nhSJYHWwF38_aB34zcAKtdPigjbHJrMSleFG6qRZ8KPv3NvZjdhJI3mAiQXYuwpK6bR76H18MrWALVGr0F_xUZ2AUG6dTRDROsF8AGRVvE-o1aAcCSn0iqchJ4hjymLme2gTqczmb5DSo2Yopb8AS4X9SdIEJYQJqvHRFcmnpEo3Dort_XcMDyMnqNnXzD0yGRBRTv9tTKWwF1SMzViqbeFShm3hES4gX4rsMVnx3csdQ77vbt-GORZBmBG6b0qT6goGoVSWOAAFx-ZnytHoEIiUVKKBXjjN7at9MuyQSMXK27hejM1KXkASzuWwF6e9kBwFRTtfd6WjRiTij2vFvREhJXA8FASXP2U59yiU_ADmvekS1POQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110232888492071314948\">AK Best!</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5840
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:30 – 14:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas de confirmer la consommation sur place ou à emporter, l’accessibilité, les équipements, les paiements ni les publics adaptés."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 18:00 – 22:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie située au 69 Rue Ferrer à Faches-Thumesnil, avec des horaires indiquant une ouverture le midi et en soirée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "square-food",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5840,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "db9335236a4be0543694b1c3cf8f4c6823ae6a1091065459744cf03a292db493",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

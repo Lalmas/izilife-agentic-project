@@ -80,6 +80,31 @@ def izilife_places_zone(zone: str, env_name: str = "prod") -> Path:
     return drive_workspace_root(env_name) / "izilife" / "places" / normalize_zone(zone)
 
 
+def place_curate_file(zone: str, env_name: str = "prod") -> Path:
+    """Pilote canonique de création/résolution des lieux."""
+    return izilife_places_zone(zone, env_name) / "curate_places.xlsx"
+
+
+def izilife_pages_zone(zone: str, env_name: str = "prod") -> Path:
+    return drive_workspace_root(env_name) / "izilife" / "pages" / normalize_zone(zone)
+
+
+def pages_curate_file(zone: str, env_name: str = "prod") -> Path:
+    return izilife_pages_zone(zone, env_name) / "pages.xlsx"
+
+
+def event_improve_file(zone: str, env_name: str = "prod") -> Path:
+    return drive_workspace_root(env_name) / "izilife" / "events" / normalize_zone(zone) / "improve_events.xlsx"
+
+
+def external_content_file(zone: str, env_name: str = "prod") -> Path:
+    return drive_workspace_root(env_name) / "izilife" / "external_content" / normalize_zone(zone) / "external_content.xlsx"
+
+
+def transfer_file(zone: str, env_name: str = "prod") -> Path:
+    return drive_workspace_root(env_name) / "izilife" / "transfers" / normalize_zone(zone) / "transfers.xlsx"
+
+
 def izilife_events_zone(zone: str, env_name: str = "prod") -> Path:
     return drive_workspace_root(env_name) / "izilife" / "events" / normalize_zone(zone)
 

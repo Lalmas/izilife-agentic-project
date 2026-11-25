@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3301,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.84,
+    "evidence": [
+      "La description annonce un spectacle raconté avec humour.",
+      "Aucune forme spécifique de stand-up, de comedy club ou de spectacle solo écrit et mis en scène n'est explicitement établie."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le spectacle paraît centré sur une artiste seule, mais la description ne précise pas s'il s'agit d'un one-man-show au sens d'un spectacle écrit et mis en scène."
+      }
+    ]
+  }
+}

@@ -651,7 +651,7 @@ def get_text_provider() -> str:
 
 def get_text_model(provider: str) -> str:
     if provider in ("openai", "gpt"):
-        return os.getenv("TEXT_MODEL", "gpt-4o")
+        return os.getenv("TEXT_MODEL", "gpt-6-luna")
     return os.getenv("TEXT_MODEL", "claude-sonnet-4-6")
 
 

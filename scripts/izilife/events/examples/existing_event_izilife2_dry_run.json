@@ -1,0 +1,22 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EDITORIAL_AGENDA",
+  "publication": {"activate": false},
+  "events": [
+    {
+      "client_ref": "izilife2-readonly-smoke",
+      "existing_ref": "c9b91c4cada774690994d2007a8f405e",
+      "relation": "STANDALONE",
+      "update_mode": "ENRICH",
+      "data": {
+        "title": "L'orchestre à l'école Hugo Sévigné invite Daphné Swân",
+        "description": "Entre indie pop dansante et expérimentations sonores, une expérience puissante et sincère.",
+        "start_date": "2026-05-26", "start_hour": "19:00",
+        "end_date": "2026-05-26", "end_hour": "20:15",
+        "event_category_ref": "concert", "access_type_ref": "libre-et-gratuit",
+        "basic_price": 0, "address": "81 rue Maréchal Foch 59120 Loos", "city_ref": "lille"
+      },
+      "sources": []
+    }
+  ]
+}

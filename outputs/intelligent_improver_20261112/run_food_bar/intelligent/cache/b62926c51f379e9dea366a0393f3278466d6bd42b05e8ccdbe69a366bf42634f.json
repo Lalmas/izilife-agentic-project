@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Aucune information fournie sur la cuisine, les menus, les services, l’accessibilité, les équipements, les modes de commande ou de paiement."
+    ],
+    "summary": "Loos'Taminet est référencé comme restaurant au 60 Rue du Maréchal Foch, à Loos."
+  },
+  "meta": {
+    "cache_key": "b62926c51f379e9dea366a0393f3278466d6bd42b05e8ccdbe69a366bf42634f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

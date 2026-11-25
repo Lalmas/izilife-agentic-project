@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "Les données disponibles ne précisent ni le menu, ni les modalités de consommation ou de commande, ni les équipements et services du lieu."
+    ],
+    "summary": "Le Terminus Bar - Restaurant est un établissement de catégorie restaurant situé au 120 Rue Cyprien Quinet, à Libercourt. Un avis le décrit comme « le meilleur Cuisto »."
+  },
+  "meta": {
+    "cache_key": "a05d30f1da161d1ba9a6c8ff3d59702bc8f3e3eeb9b68c75ad6b2696ca475c90",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

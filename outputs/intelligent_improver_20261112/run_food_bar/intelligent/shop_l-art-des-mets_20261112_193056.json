@@ -1,0 +1,661 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:30:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-art-des-mets",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-art-des-mets",
+    "status": "found",
+    "data": {
+      "id": "5582",
+      "name": "L'Art des Mets",
+      "shop_string_id": "l-art-des-mets",
+      "unique_id": "d600324ae8d21b5be3896ba7c4b66ab2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54840",
+      "principal_cover": "54840",
+      "qr_code": null,
+      "phone_number": "+33320502302",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "863 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59134",
+      "city_id": "34",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8842082",
+      "latitude": "50.5839727",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:22:51",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:22:51",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ1cUup2kp3UcR2Br5I7O0tQI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ1cUup2kp3UcR2Br5I7O0tQI\",\"rating\":4.7,\"user_rating_count\":889,\"google_maps_uri\":\"https://maps.google.com/?cid=195260840356158168\",\"fetched_at\":\"2026-11-12T19:30:43+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Le repas comme l'accueil a été au niveau de nos attentes, voir beaucoup plus.\\nUne toute, toute,toute petite remarque, le fonds musical un peu trop envahissant.\\nRAVIS\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T14:58:22+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Patrick SPELBROIT\",\"uri\":\"https://www.google.com/maps/contrib/105808238439493870332/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK6r_D97rTc67piqWJEPM8Wt52jrkuIuQMZDd5zTn8ipxvTOA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Chaque fois nous sommes accueillis avec de grands sourires. Chaque fois la carte met en appétit. Et chaque repas dans cette salle chaleureuse est une fête de goûts et de saveurs. Le service est attentionné et joyeux. Merci à toute l'équipe et à bientôt!\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T17:27:20+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"pierre caradot\",\"uri\":\"https://www.google.com/maps/contrib/100460072083614888568/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVbWGeZ9mooYKyLRylx5UNWLSGzdlRxaTIbx_XGYW2kqh7VP_eY=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Personnel au top et la cuisine maison toujours aussi bon , merci pour ce bon moment\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T17:22:03+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Louis Constant\",\"uri\":\"https://www.google.com/maps/contrib/105915955183418223870/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLgtVrDhs3leYZmsf2H_BkrwFAiLD_xtKawEQr5Lqzy0-zffA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"parfait, merci à notre serveur qui est d'une gentillesse et d'une disponibilité.....\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T11:25:43+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"groux sabine\",\"uri\":\"https://www.google.com/maps/contrib/104585239019172745861/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVycG2D5qDrF8SG748wrl4WgTp8IKnh3-Ee40NtEp9gONkv1msq=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T12:49:06+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"aurelie billaut\",\"uri\":\"https://www.google.com/maps/contrib/108068199438258997232/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI1Usgr2Neh_HWhfr_Cv6RhLtlvtFq9IFBsrC11n-ODdaI_HA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:30:43",
+      "google_reviews_place_id": "ChIJ1cUup2kp3UcR2Br5I7O0tQI",
+      "source_id": 5582,
+      "scope_type": "SHOP",
+      "scope_ref": "l-art-des-mets",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fournes-en-weppes",
+      "string_id": "l-art-des-mets"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54840",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5582_6af3993b64df4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4641",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32222",
+            "source_hourly_id": "4641",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32223",
+            "source_hourly_id": "4641",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32224",
+            "source_hourly_id": "4641",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32225",
+            "source_hourly_id": "4641",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32226",
+            "source_hourly_id": "4641",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32227",
+            "source_hourly_id": "4641",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32228",
+            "source_hourly_id": "4641",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-art-des-mets",
+      "google_place_id": "ChIJ1cUup2kp3UcR2Br5I7O0tQI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:30",
+          "samedi: 19:00 – 21:30",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLdpuWCF2EYzFwGAoaduQDZXfMQeXARUKzn3-x9MgUDkmVypPEC40vdYlMiEWXWRm6GCH9Cfnp3unUgrNDopGj9rVYtYn2EimmSkGIpWdjrRo2VZhaBiMx_iRHaS0oWrzbkhEaOJkJuDaeaqA9AguRuJGEc-fIfsvf2qoC3OsppDXs-azN04BhiwoKOsDOWjwCcd1N3HKGlD9WVL_L4l2btKoTrT9g9tUEbAROh4hx-tHggDdmM7Gh6DspdimULZ3MDLXdqafJS4k5eFv0ziEXlqo9JKGWHi2wxdkDOPiGh0J9x4C4ISQR6evk2y_2ISGpxeqJbfB8HIBT3RCuE-Q4UpKJM66MwRQhcxq9BlD7W9PCyHtHUdmSpwhO9H7JMJXW8x5ZyRy50bT5om9FRh64gKCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103123074082615237890\">L&#39;Art des Mets</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1908,
+            "photo_reference": "AV-0GLf1TPCrJ7EUHzM72Q2kUUQNdQvLyTOq7auhChes9rip6cto4yaqxFHhskewGWQtuU1JuWySKpfkPWJO2y0bXTL0Oc2dGPiWNPdYrBRh1yMmFQafCjnEkeheyc-czLpGd1wu0kqoNOpeHSg_1x_85JtTDZD0DR_1Se_WnkZQuQAPgXBHRTRlAu3m9mUOEnxKkKROvq9DHhXV3zTYPZgJ35pqcNPdN5WlFg3y_nfpNpAd55FOKUo9OJmYOJBMkhUJEoY0nXMqTVAdF1x8h597hiRNa8PFmtTIkUlfV1MsFhlnLG7HpzrDNl7X-DxX37EmzPG6sOqHSx9EqfdC_0fEgm63qIV-vvuIDFvuJJRWlC0dozMA1xbsN3tNfDzUdJqcf8mPbQOWXkQvQxUtxiBMWGk_UU9C",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103123074082615237890\">L&#39;Art des Mets</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeHw3dJx0oRorihRKJPgHq9KNbCFDuD4g9-3rtr1C5Eq9PYOgLbdsrjxgxT24-u82orthV4Z2ueXQ6E26Lli_gcGzQGQj4c1uNXwTZJQjHKMKFmaa0oxh0vAJ5w_wEERPUQVMwblrcAxkGg82L11AQsVhY4JHLF3s6qAPqAogsbonv__NwKYrRmrQe343LMxjhaSsxlylu7sXoooYNqeIBoQRrPkiPVZFvTx1sEJ_cWkwoPtrmf3VLtbLAw06UGeLA5-MiKzFEn5b5fjyKiv--hGo5TvgOMqHKJT64Y6glw1B6539j2hQShkPwwQZ3AA497SlBqRm3bd-dPdtjhmWww7ohJ0h6VagyCk9CbhaLnU9CjSvFuk4_li_Z0zQa8lpUhS83Sk_pHZjjhDhJp5Apagb6pDyILB5eUXN7FeSSCyQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103951041315850605457\">David Leroy</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfH7ysAy1Yg1mIZsgWgaHDYX8V3FpFne8ceUNz4ervUKXXiviv2hukK6nj7KxdiQ1qA0_HKHh_FgeRD4z_nTnt_eyewSPsMSc9FXWpvqXP2H7TrBCCisTuNLZeMZVG21FsU-FX03Wpw2xUhNiWW0L89oBjOKT5pJcNbH0ikRA4Ek7t5AwJDbhywbk08mZbi6Dj9UTAJwz7YCXfrD4QrJTVr2Y_8v2qbEiAMT-lOhScAQMQQUAcDLNP2KwH3x7DkCsuj6yWVPTfaBSxizF_7KwEZ9pDH-0-_ZL-P_5JMh07_aW-UdEq62TcfT_e_-yrMbugWw-CczYFdUZD_Xi1JjJLfdwXlNuXdCD5diFxv266gf8EWvIjbzZ8tjoAr7mTxdF9SSG5vU_u6CnOxcxLVl0pwS_4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103123074082615237890\">L&#39;Art des Mets</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLfaFq18E6rMl76RZDyCDbkYoCXkoV_cUqdVS3V6d020KuoWoRtKHkHTM41MKc-IUWpos6NW0BodgjGN2DdTDQ2ZjiVxNvoI9p-s1STJJOIfBVZCMufaQQQPEJ5wuiZkB4C8EXthhw71Sd7k0QkhJYjfIQiS2LCWCK-aHN1szLv78atNQB0s5EIa8gF1FuC6VYBwnBLre6Vk7i9JdT8lysQCSqVgy7qIlzh69NMKeFAThDT3SOyaokokH__AC6tTK5q3PXED0cX-mMYS1lLVrbJu4FfbKYeNyKvu1e63kWwEXcDxNu9a7vRx1BMpRW5hnDDAlKKCEEHRVG_ODBdNGDmKSlaoec2aPfazlCU3G6uhXiwYDDdklXEQrlt2dKhAjloYyELk0EJz5QwIawtY3ylla2aA1e2ttHCxZuMUleO4uQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107413789636131663948\">Christine Dupuis</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfJnOqoooVvLBSbEmcVMOajyETGGOlCcQ13ZMQey7qjuTJMCZ0uIovXdHgvKBecL5QqhHtrsIgeT3PXZQWRizxwb2hiKbrqj78YC66zg7VqXpvRNnRdcwu_UbBDdAlrkU9wttT4SAtKjQshBJ5Mni-XSLChtd7mRzXfHzEctX5JP9cVCWG6wLGYF0PSJkq3P-JGHAZoxOrRhSYoWD5DW47_iEHlEobYyyrLKWmtJzyf51FXfHAmiXylLiZk6HdGwcjJlKyD-rmQ3DYIuF-Ln9IjhnSF6dQxqrMKkaByFbk5jX_Ox4jJZB1Dr9onKShyAqu5nVRdUeZuvHr-9MgX4HkQvPc7fyXDLAiM55fulydSzaUMqBQ1hYi70dM6-VEC_tK5D_NeQ8-RCO9SWq446gsCfwsdqaU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109679135708029061459\">Pierre ACARIE</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLevHbVXlN9mmD6X_6QbRvjZwLRxZKxDk1nLI61A4cNL83MhAV0HNE55DTKs8C9YvbD7picDKujPAodW3oAXR5Iu71OAHSdaHvIvIj3PTMtZgbfoH7klyVGwdM6zIu2vRdAt-txYNZeu1YH4vZeZgbPc-Yvf97b4X3s_rxxNe760WnOPSFWEodVp5N4fMWTx5NHLdK6NAOe4nJHgDRoKytYgsNi_vch0wpRTktD7tYNGlOVlG3FZYfrRIU66TpdeSeT4FzI7Vf9PaCZNp1b3HSA2---FcONAJLlHDML-rVv5x_3gej8rxt7n6stweDIjN0GmfEsvZem7idIZ21AeSmgUt0qm1bf3szXHEL_FdbOtctgYd1tOWlZEQ_zPRtOZ0HKW23EON2xg-AUcX__E6w9Ai2x2mSJ16cUzOJVSrQzo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113574505743454255653\">Dominique Pauwels</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfFiZ14yLbNBZvvPGzX42sZneTf-ko4vt1blnH_npl1dsULI7cu3tJhpzY42MP-Ikk8AZMmUcPh1RqJZp6BcfuosdZRmhglHI9NYloV5fpQs7k9pdTHbn4KWVWuEeT42Z5O4kdhvxn_moOOXY1zy041DwG2gRmae1OcW143b9jak7r8c2fDikj5kP9ff5NwRQi9Fp7XC8uY24Q734XP8hkSEgNgTuYyZUl3hb4Z2fmlF5iVN_cGCEkuJQxMJ3kHT7wxS9m9oiaNuUsx0u-xgZfIOQNri0fraCiiIKhKpz1_TAG5pgZBgGNkJVGHotCp4UN462IUzGp3QVu53cQXENt4jtx4DQo-qX2QLKPWU_hXtlXmbsCZABc_IV4Fvxs9G5FsMH-YCrx6FdoDNnkkI_JU4FReSC8km2RWMnEBA24K",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113574505743454255653\">Dominique Pauwels</a>"
+            ]
+          },
+          {
+            "width": 2080,
+            "height": 1377,
+            "photo_reference": "AV-0GLc_XgMT9D95K9R-28G9WuEbCmJ1gwH2larsLqllYWyYi7PC5QfBCZFef82z9eJM65ZZ3Sd2VR5F3vu3ew_qxdAuzbMeziCstVokjc1gCgGULVFh_tDRXLSGUq6mGtoA2LFkKtBF_Nc1UpT3yNwl1UjglxXxnL7m6IMTamX5cowN77CCsmK3rtJ4HlXyDVMtB_1KHPtr7_pMoZ6uNPZ_S_QaIIEpX9Z1Q0RwW9RaWZiG1OJrS8_pX6jNYQK_8D9yui23eAk547I5SblPjDg0kecg_5ZIDRpgaclZPIsD69w0czZo23evzE-wCaDbGSG4JiMrN7WXqOqB76yQcs9dRePL5sB3LqPer6JYXvVL1f5x7QVJWnNgKKnZ0g9ISGvFAea92f_oYoA6V44mz0k1h8QSXWCwSP4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103123074082615237890\">L&#39;Art des Mets</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLeSClpmPegyJJ9PuR7baoOAk397tklLlrR0TpI3_D4rby-9aaW7n5E9mOruWaRT5ERBrJLKjwx83vyPPjg3aEghjA_7FsVg2YsalbgqPduVEVCjqJlQbg1tG8A46DtvOHJhmYqJnrPTQK7xMmehspB2KL3mQaQIdeHV4dD9Z5RyxLv3OxwkXoeC81P0r33z3rZsQeofTYXy5AuXDpZzjSDcPHEy8YB4nomwVu1h1sp3lwlYzPbmpdowFituT007ESwYP64qDDVEVkXQcUBJnIh31-jmQJhPePQfuLHydBWo1UA3_pu6sH104MO2045aD8AJAn9xsgvbNVntkFI05ZE4H_bnAjZpq0ZBw9-9NDGuoPZtvyVk39V7EdrJLsfwilINpzkJfOqHSxEAeY_DbhJ2xzM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103123074082615237890\">L&#39;Art des Mets</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5582
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le repas comme l'accueil a été au niveau de nos attentes, voir beaucoup plus.\nUne toute, toute,toute petite remarque, le fonds musical un peu trop envahissant.\nRAVIS",
+            "language_code": "",
+            "publish_time": "2026-11-12T14:58:22+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Patrick SPELBROIT",
+              "uri": "https://www.google.com/maps/contrib/105808238439493870332/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK6r_D97rTc67piqWJEPM8Wt52jrkuIuQMZDd5zTn8ipxvTOA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Chaque fois nous sommes accueillis avec de grands sourires. Chaque fois la carte met en appétit. Et chaque repas dans cette salle chaleureuse est une fête de goûts et de saveurs. Le service est attentionné et joyeux. Merci à toute l'équipe et à bientôt!",
+            "language_code": "",
+            "publish_time": "2026-11-11T17:27:20+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "pierre caradot",
+              "uri": "https://www.google.com/maps/contrib/100460072083614888568/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVbWGeZ9mooYKyLRylx5UNWLSGzdlRxaTIbx_XGYW2kqh7VP_eY=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Personnel au top et la cuisine maison toujours aussi bon , merci pour ce bon moment",
+            "language_code": "",
+            "publish_time": "2026-11-11T17:22:03+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Louis Constant",
+              "uri": "https://www.google.com/maps/contrib/105915955183418223870/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLgtVrDhs3leYZmsf2H_BkrwFAiLD_xtKawEQr5Lqzy0-zffA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "parfait, merci à notre serveur qui est d'une gentillesse et d'une disponibilité.....",
+            "language_code": "",
+            "publish_time": "2026-11-11T11:25:43+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "groux sabine",
+              "uri": "https://www.google.com/maps/contrib/104585239019172745861/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVycG2D5qDrF8SG748wrl4WgTp8IKnh3-Ee40NtEp9gONkv1msq=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-08T12:49:06+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "aurelie billaut",
+              "uri": "https://www.google.com/maps/contrib/108068199438258997232/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI1Usgr2Neh_HWhfr_Cv6RhLtlvtFq9IFBsrC11n-ODdaI_HA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 889
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1084,
+        "bo": 46,
+        "front": 1038,
+        "estimated_cost_eur": 2.0999999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Le repas comme l'accueil a été au niveau de nos attentes"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Chaque repas dans cette salle chaleureuse"
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "le fonds musical un peu trop envahissant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "dans cette salle chaleureuse"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-table",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "le service est attentionné et joyeux"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Chaque repas dans cette salle chaleureuse"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "Chaque repas dans cette salle chaleureuse"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Restaurant avec repas sur place à déjeuner et à dîner, dans une salle décrite comme chaleureuse. Un fond musical est présent."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-art-des-mets",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "interior": 1,
+      "play_music": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ],
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ],
+      "OrderMethod": [
+        "a-table"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5582,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopMealType:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopOrderMethod:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6c1c973b0db267b1c78de35164de0c97b4d72066228515cc091fd6848baca239",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

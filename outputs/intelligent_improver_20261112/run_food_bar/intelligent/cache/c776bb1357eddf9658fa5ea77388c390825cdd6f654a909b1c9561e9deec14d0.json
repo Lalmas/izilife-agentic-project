@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.89,
+        "source_url": "izilife://current",
+        "evidence": "« Super endroit pour se poser ! »"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Super endroit pour se poser ! »"
+      },
+      {
+        "string_id": "habitude-locale",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "« tous les samedi après avoir fait nos courses »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "https://noyelles-les-seclin.fr/commerces-et-services",
+        "evidence": "« café, tabac, loto, presse locale, brasserie »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "https://noyelles-les-seclin.fr/commerces-et-services",
+        "evidence": "« café, tabac, loto, presse locale, brasserie »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": {
+        "string_id": "chaleureux",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Lieu très convivial »"
+      },
+      "MealType": {
+        "string_id": "dejeuner",
+        "confidence": 0.72,
+        "source_url": "https://noyelles-les-seclin.fr/commerces-et-services",
+        "evidence": "« brasserie »"
+      }
+    },
+    "warnings": [
+      "La catégorie principale indiquée est « friterie », tandis que la page municipale décrit le lieu comme café et brasserie ; aucune carte ni offre détaillée de friterie n’est fournie.",
+      "Les moyens de paiement indiqués par l’Office de Tourisme sont la carte bancaire et les espèces ; les autres modalités de paiement ou de commande ne sont pas documentées."
+    ],
+    "summary": "Café-brasserie convivial où l’on peut se poser et consommer sur place. Des habitués mentionnent notamment une visite le samedi après les courses. La page de l’Office de Tourisme indique le paiement par carte bancaire et en espèces."
+  },
+  "meta": {
+    "cache_key": "c776bb1357eddf9658fa5ea77388c390825cdd6f654a909b1c9561e9deec14d0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:28:20",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-banette-a-fleur-de-ble",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-banette-a-fleur-de-ble",
+    "status": "found",
+    "data": {
+      "id": "5830",
+      "name": "boulangerie banette A fleur de ble",
+      "shop_string_id": "boulangerie-banette-a-fleur-de-ble",
+      "unique_id": "b2eb291ae9eef1a709eb2209e8980148",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55085",
+      "principal_cover": "55085",
+      "qr_code": null,
+      "phone_number": "+33320606484",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Place du Marché",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "7",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9342011",
+      "latitude": "50.5305942",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:55:50",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:55:50",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJmXfcUFos3UcRsM0YYNUHZ0c",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5830,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-banette-a-fleur-de-ble",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "annœullin",
+      "string_id": "boulangerie-banette-a-fleur-de-ble"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55085",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5830_6af3a0f69f6cf.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4886",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33937",
+            "source_hourly_id": "4886",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33938",
+            "source_hourly_id": "4886",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33939",
+            "source_hourly_id": "4886",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33940",
+            "source_hourly_id": "4886",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33941",
+            "source_hourly_id": "4886",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33942",
+            "source_hourly_id": "4886",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33943",
+            "source_hourly_id": "4886",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-banette-a-fleur-de-ble",
+      "google_place_id": "ChIJmXfcUFos3UcRsM0YYNUHZ0c",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:30 – 19:00",
+          "mercredi: 06:30 – 19:00",
+          "jeudi: 06:30 – 19:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: 06:30 – 19:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4000,
+            "height": 1800,
+            "photo_reference": "AV-0GLfJCjyfP_TZDbn6SnNmdxemt6d62vHpqOUlNu4vaHw2-Fbz2pgfS4grwH4sQKIN5D742B_CqzM0jg_pAgd4JMTegd53EjMW4peJ-77AFq3wh8i68dM0GnhvLpgz23ZPyXBv6qHkTxRbjIZb5g72lLEd86e0lGqaRj-GO3FDJEAmk36aITG9fikaUr6hzXB0r5XEGFMKo7jP1-abIWQkpt01ZI5kYg7VfiqmhYp13MfcwAy9kb5KOn2VyW3RsHzHsULxXfzis5WpA2YcO7-VQKXSPvlpzQDSGwBoMZS-utCBN9nkgDdjb5PtvjjtghAjkTYP_d0RR4Y5DpVghwkS2UB2JA_YG-q-nDhVFnV2rxBK34CZGLZCJpuIL8-vgtM3kslmq5dV7ImHgy1ZJvigmxU_2Dc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108352477911535047602\">Les P&#39;tits Bergers</a>"
+            ]
+          },
+          {
+            "width": 789,
+            "height": 960,
+            "photo_reference": "AV-0GLe5mSk5QNIcbu93-o-yOf-4uVisYHj8gabF-iUvRh3g2KdQR3gPE1Qira99bBMivN89UDPSTEowkXcZhMj2DcqcQH9-n6dvFMNzsnJ8CWD_qd31lxaGB9XeW03oetxOfzj5N7BY3JterkV8NdooPF7m7Jk4W-DY7ILfdx7Y5H3QSEr5xDxON8Y0VnNRV5nYxlgFHqqpgayxSErgeqbMxHFJ-yz3HDKMOFS6lR1I4wtnKmG8AA8yFDlC4bGAy5x-BgWNCKVCaAIYLQpsDnToj3eEqG9BIv2ruv_YThKWR4RKkfQ0FTk_-akjfnT8H-Gb_mt6ACJQn0e1AJFHA3ridjUhV-vRvjTiu-QPS9hnjEPKBXwbe7-Cu1rS7LQZTDSzNGX4jSa4K7PSf12EZUpHxRnzevg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116568416976160532970\">boulangerie banette A fleur de ble</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd0dKSfPN3-R2glw56hS9BnXXa_OCQloJbykjh_GGbFfXgtZMBXz3VKjFDfIo9gN3wuKzPECkayZfKPRUXC-h7j9pBlepe8V3cG6pb0lD2TJCbZpe6k3bw4y74CgpAd95bcP3oQ7rCiPoLlYT1KNzmVuGXPdntVV4YGepseJEWmA35tp8NL9usuIOT99xX-l6hMRbLvV4dlIcYhVPwOIJwCgzD8-QVRteBmM6spxSzZLMbxbE3_5L1CancKmmgGc5RHlX4AYEPJSP_xfHOKsXkHRnjKRUSAjaM6f82_e_C1TlgO1lSxDX60WX0QVtgtOi1tybT-RA48P4YaBxiQajcxoHhfnNDdsLeWeWpvpptGNlsN1yzOLxZcedSWE8a32S_hodXS4WYccbwqfUrlUg2PxXs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110296928865698933480\">Sébastien Slowack</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLfA9C2GA16sQVqVzoc2YUJL5ybiSZ9c4tDf0mjnpeU6nBmMqdjppyShLd9YGMqGpZCFoII4fgMtTFQAtTHboAbUGW5lGBghUlNo4wuf8ubFWTLT9KYjdqrE2Dbj7mLGu-GpFEIoq7AMs5FvGw-uti6pdY17XjRBvj1kz_dc6KuKJY10j9nd2JlD0I0HnKKW8H-eE7qPEVzuu7Xcgj2qm1oF9jeoC_tB_KyervoUvtsmMl4YsA-79nGMPq5wqNXvKLcEKdkKlOJThaxZdiBLp05boIvSFAxC30-SSwgIFQmY7fqUoxEiLH-S46AA6DdNrbH7FU_2xG7lKvXx2xO_sfdTNqZoF9vWa3TBxH9BKGEkPu1KEoAGKtgoWSWMwfxSfY__0Pcv2VLf8nhNphhBIvAOdX2B",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108352477911535047602\">Les P&#39;tits Bergers</a>"
+            ]
+          },
+          {
+            "width": 1919,
+            "height": 2084,
+            "photo_reference": "AV-0GLe5viFFpY890Bps9dLLqbFLzKxhrAs9GIe7BntW33AXAbyS_WYMo6ZplenFyVtRYDu-uAPqWX6AkXHjcGmV45IAqz_2IQeVQi-HrC5WP8pZzMCg-wf4oXaQx-0t98S_N1S2PHe3z7mmHWvkviRz4q7YA232C5-AbNMddeTkNOB3M7B7Y6_q0VPDspKn1eekiR-C-nMIGji0hmAFjqEcEM_GX727XKaOEwdhixjeIMKcL7kBKcWTwc-1Y6m20z_8faBEKu7bYbGEVQSyB7nk3qZSrG6-JNu2wazESTF3KoDWPPadSUW_wdhrwDvJPjnfhjCLGqtEeQ0HCL_wkTuyfLFRSLVUjWBT76QyPSjzqzcWHoqBsZ8hE5Ut9fG5qcvXevKkRIR8Yg9VAzzk4As5RmzjYtA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116568416976160532970\">boulangerie banette A fleur de ble</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfLQPzCBnbmSSUBA55GvK4fe6jkvonFwLUvdVT0pOP7eoNpEToQbyalE5xUnDjsLlq3MrugZkJLqo2WgUZEtDkyHkNt-tnpWmctZSAAG-qk5cT19FxCvj917bLAK9hUErbgkfMp77B6JTNIU4NVFeSyJ3lesUR0K6hHce0a6uTNykDuhAXS_aWS44y8jS6PwiTlXfr0cKY3n6pwOaM0yWvOUZyhn42LEcbabvrqn8kGObo5HEyn9oOEKYh1dx20_jH8x01XNFkppDUOJwIhOn7TY8rntC6tx2-vOf6rwtYDaFv2X1GYCV-vNkP17cmGdnYngvIjszcx-YcLPRMKSnqhMyIxzDQNBxzwlTkxCiAmcGI02qxrBdkVeiDNRdbbsAzaSpZy7MQ4CVvRCdhq0_8IHwMoA18",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102349539523723593383\">Antoine 62</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfwgTRZDjFIfEKE6YvijnpdVD7yoi1VeLd_f-a07wXKSPS_z4Z_H0ikkSLeqcnphjcY-cMmg6Sul85VPin-dNuNoUyH-23kXtnrHB00CdIVZ2-XgIRSInM6RsaLto4EUl9lK3K-aKYSMs8sDW237aeoakqVOjFORBVRDtwwoXvlYRAn4YEdHlMnlp4sGcP07LgPoQVBVb7QyRgcFfIy2upfhe60gbbZYp75BT46ZmnooOVXp4a_g33zRBQ0fbjhBAaXyb7l5e86vfqUURRNQoDQzyiCsobjSBs3L-G7_gFmN71ka72_vZd_Pwk7SR2BWaQyDK2-W3-D1G7rXDFc5ycQV0NgBzu4UXUpLzW5c3p-pcnSZbLythq9-Sx6975nGkVeZSRLf6ur336VBzYZauVVqrl1NGs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116980503818465568355\">Chloe Snt</a>"
+            ]
+          },
+          {
+            "width": 1110,
+            "height": 1907,
+            "photo_reference": "AV-0GLfQsuQRjrlVNVvHB2sOsq4UhCH70VIEA56S_i8mvK82kPogjEB1AL0FHF6-gJ7SVJuyvorqNbO_mGjl-ihz4DL89oEF80BsN8cfM8b0G6WbB4a5-khRj4y0FbkWoHjrOm9NBZs5oqV6uaZ7-VLFZ4pgALlV5CuEpaS2T_Lqh4uqG840c_9ozQI93cd3a-5DBJEei5cHGGQ70RfGlaJY0X8B0lUZBNXRfQSyBNCqZ2qqPbXB5qQbKnEaw4gu-bepbyy3cG7kcf8oP8RLckvkgDRAUoEBhjKRznbR8MFXMSD2M4kN4U8KOfRexrQr6Y8AviAmTZ9BCAgSodwSjpJxlC8a_WX9YFW9f0u4vj9uESfosc6GT9yEjJuHCEOL-Ic02wIpmNzXLpYFbQs2XrmI4tmwNJsSoYE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116568416976160532970\">boulangerie banette A fleur de ble</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLezkDQHsDqpxAsZFo2NAiCUN5bgCnVSqwne93tymUkL1pCEBfZyJrUzmXyiGc4nbn04GCpIm0oB4c20RaSaBTQd6xItmPlMYZGn6HOp--TXrWJ4YHXgBLyjbRO7v2AqkNSoH4R2HANtu34gqyW4Z1cXwuRyV1krKhZp6QBW7pkPSrWOQFYeqO941_h2d58GurEx-2bHQzHaanhJ87IhRRgSY8VIFyv3yS8ZLuMnFbSR7FjhsgbsACn-jJsnKoimWVPG3eU-VMJP-y3zyXmfH_tqHJr-BjqOBukEiJljGz0aRCGwZltCMfV7VWdpURNnylEYIv_j7A5hlZfpb3C0grws6_P6G8cqFhy97e7rnTwF5c8DMwBnNkPI6963L6vtjkOm7j0u-UGi_l4RQQnVdudiJCY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108349930820499748351\">Cass Ou</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfGTV0pWaXNgvJUWG3XIGwTuAMb5YbCIBr8FTe9Gf7WlyPL4XCVzo-NYfQMr7bEfsqiLOjDs3jT1yA2B-ibj6iWqUmiVX7xEWZme8YwYrT-rmVCBZ5FC0VEGDwby_b93w7LUdEgshi6rjNKpj4Fuigq4sjAkkDQR98MWpfBTGD3CQVyEh6Ur6z1t0l5VcyxWZPDXSch1hOWnJLfcJcoAYEIRkj0QE_0aAMPt3OOlIyr4JuGIcbFYvAY9rIIcIBY9aVs2ppUQuoUPff9DQAdnhkpte498OkbMGZBDC2NVJAljXjL2U5gnJOE_Jz1d0vQGhTIZuj6QqDd1qBZeW-S0PSXoPrdJN46z-DGRbBoiL7WRMmcuLLyjcQIsXmrAAb6nPlMIhd3ERwTQhZURmz5mRUw-gI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110296928865698933480\">Sébastien Slowack</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5830
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 19:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Boulangerie située place du Marché à Annœullin. Horaires indiqués : du mardi au samedi, de 06:30 à 19:00 ; fermée le lundi et le dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-banette-a-fleur-de-ble",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ],
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5830,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f32cc48ef3d86ad758530121cc0221189788fd50978d808a29aba904e3b77720",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

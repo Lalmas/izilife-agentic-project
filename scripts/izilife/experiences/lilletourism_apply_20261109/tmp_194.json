@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:53:49.202335",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 194,
+      "title": "Visite du sanctuaire Sainte-Rita à Vendeville",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/le-sanctuaire-sainte-rita-a-vendeville-1.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "90.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 194,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 220,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:53:50.140874"
+}

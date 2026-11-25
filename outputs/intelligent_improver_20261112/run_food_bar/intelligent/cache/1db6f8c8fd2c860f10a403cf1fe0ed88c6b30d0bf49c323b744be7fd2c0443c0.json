@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: discotheque"
+      },
+      {
+        "string_id": "bien-pour-danser",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: discotheque"
+      },
+      {
+        "string_id": "lieu-anime",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: discotheque"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_danse",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: discotheque"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: discotheque"
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: discotheque"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "danser",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: discotheque"
+        },
+        {
+          "string_id": "ecouter-musique",
+          "confidence": 0.7,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: discotheque"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données disponibles se limitent à la catégorie « discotheque » et à l’adresse ; les autres caractéristiques ne sont pas renseignées."
+    ],
+    "summary": "La Cabane est référencée comme discothèque à Lille. Les informations fournies ne permettent pas de préciser ses styles musicaux, son offre de boissons, ses modalités d’accès ou ses équipements."
+  },
+  "meta": {
+    "cache_key": "1db6f8c8fd2c860f10a403cf1fe0ed88c6b30d0bf49c323b744be7fd2c0443c0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

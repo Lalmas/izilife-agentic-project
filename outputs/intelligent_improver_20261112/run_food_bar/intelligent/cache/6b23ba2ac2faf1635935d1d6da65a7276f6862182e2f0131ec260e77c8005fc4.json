@@ -1,0 +1,55 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Nous venons de découvrir chez Claudine, nous avons très bien mangé."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Les plats sont délicieux !"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Un accueil très chaleureux."
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 18:00 – 23:45"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie où manger sur place, avec un accueil chaleureux. Ouverte le midi en semaine et également le soir les vendredis et samedis."
+  },
+  "meta": {
+    "cache_key": "6b23ba2ac2faf1635935d1d6da65a7276f6862182e2f0131ec260e77c8005fc4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

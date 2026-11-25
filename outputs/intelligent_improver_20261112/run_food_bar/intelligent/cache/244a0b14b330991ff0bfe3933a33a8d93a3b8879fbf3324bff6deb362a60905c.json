@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni menu, ni modalités de commande ou de paiement, ni équipements et accessibilité.",
+      "Les horaires indiquent des plages de déjeuner et de dîner, mais le restaurant est indiqué fermé lundi et mardi."
+    ],
+    "summary": "Restaurant L'écaille, situé au 668 Boulevard Victor Hugo à Fournes-en-Weppes. Les horaires fournis indiquent un service le midi certains jours et le soir du jeudi au samedi."
+  },
+  "meta": {
+    "cache_key": "244a0b14b330991ff0bfe3933a33a8d93a3b8879fbf3324bff6deb362a60905c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

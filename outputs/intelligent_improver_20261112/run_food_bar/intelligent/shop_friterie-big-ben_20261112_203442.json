@@ -1,0 +1,528 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:34:42",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-big-ben",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "friterie-big-ben",
+    "status": "found",
+    "data": {
+      "id": "5868",
+      "name": "Friterie Big Ben",
+      "shop_string_id": "friterie-big-ben",
+      "unique_id": "a537ae87ab5d62affe2502492488d28d",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55124",
+      "principal_cover": "55124",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Rue Séraphin Cordier",
+      "additional_address": null,
+      "zip_code": "62220",
+      "city_id": "867",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9511892",
+      "latitude": "50.5039008",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:02:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:02:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJsYhhxQIt3UcR_0AQPH5xa6s",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5868,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-big-ben",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carvin",
+      "string_id": "friterie-big-ben"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55124",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5868_6af3a29db843e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4925",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34210",
+            "source_hourly_id": "4925",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34211",
+            "source_hourly_id": "4925",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34212",
+            "source_hourly_id": "4925",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34213",
+            "source_hourly_id": "4925",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34214",
+            "source_hourly_id": "4925",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34215",
+            "source_hourly_id": "4925",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34216",
+            "source_hourly_id": "4925",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-big-ben",
+      "google_place_id": "ChIJsYhhxQIt3UcR_0AQPH5xa6s",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 13:30, 18:30 – 21:30",
+          "mercredi: 11:30 – 13:30",
+          "jeudi: 11:30 – 13:30, 18:30 – 21:30",
+          "vendredi: 18:30 – 21:30",
+          "samedi: 11:30 – 13:30, 18:30 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1536,
+            "height": 1108,
+            "photo_reference": "AV-0GLcZIq8-f1qSBQtuBlA0CJ_qY5cT_NpL76d24uM0dDdqUqdpTB9szpFdifMQm7vxx_DP88_iZ-GKPdxs1KHB-ubDGcmd4AQ9Y8eiL1OfDKwNBkZflTkOYzHiR7zw9UUWjJ5x6eXrZlycZQ2hHxNg2KJzmY0EmEIcDekPjbM8KlMtyxatpXTS5ciymGHvbimF0jjeRKaEa7EepKlWNrtaMv0W0tw3dx9YhG22ZVK5RSvV-ZaeJJnWQWVA-Xn1PaOgikTS7xr7eW9vth502r54CQTRAAVT3Fau55f9grPLZCQfLZKRHvFxY9TZd2i_BTdUXhHKPkEMXiJXID_MESfNGgxXMTEvuqr1zI6Clc15BNiq7_mavzNakc-VHsqWWlxM0h17Nv7lW65YnifMbw_LxwGiv832gItK6pkcCs5zOKCUjQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103168073003081823668\">TIGAN LE ytb</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcJokak03I3NAZC6r7if48DVGXSy64Qn_d3Q3wSCXAC1g2NOPNWs0k5waPfA-9E0JXJouFzPcbz0MnnfnQt_KL7AtFakne2xXuJu5A3KYLuQKTjm7y8yVlqr2pMRCcj4YZibEB5VoTolFo-NWXL2buTB2DkRsx5F0sF6tBh5aronqBuAyf41dk3AwdGIeIH7ZkvQUlOxMsw-ZoNg2LySz71L6iRn4DC16E3KS76nwpUdvxJkZMSZl8okQAYYH_wOPh-sbLhNLtTK6wFoTVbxZ6kQCBOiruVNqFGeVFqxr3ahQYUjWeBag0qpjf0omz0REGPk1ZL4xDg_buvFM6lVJXyIL6fCA7JRZryJC8PL_2LKjOTXcJQp0qoOn8CdMhWD83w3aSTIJ5JmH4J-DLnUJIEEtXXAdU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105564577260634552303\">madimina westindes972</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfl6LrAsL8J1iYsChRD3Vw-qgBeAKiZ0pafLkHUjXKWly_mCoB9jtWK52CvC6l2eJy9LBgyW3bk8jfi-rCqw6v-MrIhGWZKyTJNaDIsHjV7Oh8G9S32ubnQbO-hLnxnsuYatOwsrcEiXXHVFq3fRhvXrWLn0qli3cjxv1qUPapwTo_Bwxs7yPQMZ8rEsuFOG_5YLi5WIJSvK3cyWNOZswvIEMtRchfVcIc-0FGdVb0Xx-w80G-siqWvOFf06S1aKYURaO6BClE8nNU28B8gM_5bOU3DSljlD06ACkMG3_TaZVENNPZjUTejs5LUHhMF7OGjBYKeDiEsiYv-_dOM6QItNSWEY5eRItohYYNDu8Affnzvsx1fyTp1sZhpxsY7ZfJUe9NLcOnYu_n8GlvArKJZ6u0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105564577260634552303\">madimina westindes972</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLck0h9M-NjrklOcY6X7dTpf-_FV-GrjBH77Jwvar3lWpsy4W9DjDs7fdw5-bjylhLdpQa-t3IXHDSoLqorD3i0m3k_-M4lEKToNQJPtkt_NI-GKyugHVOqX0lp01a3PqdNgQAeGapHrb12aeEkkLJY6lPie_hOwfnMOlh4y4MH3OU7uDv3hCptVHlSODbYsclxrXeTvTlLNKcgSTn3DCXj8Qxav8hO5YxbxT3kbiWH0KVwTc7FMSWg46a1FlYq34s3AT92_0gjFbUQMwRm8jANnvN3YubF9jXsOBZTH6VKH7UxBuI91VQp8FduCtryyT6zVBBm2AEDNRtKWTga9HFFqabQtHtNaIeHnCSbXNERsuMfNOgMbCSJA7MLuhs3nfXaae48inEefk_EpjMPgbuzMqNY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116274145159700631419\">MARIE DEST</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfggEuYuPF3-o9BbMLMXDHcEeLo96cLesJ6_a15hU1Zpjb9yLHj-XErbVmb3qnWxRImQdj07pEBdHfV9X5Vjb7KZ1Usq9qABibHJjgqk4hmN636EVJ_qEASumwoVWBRXThlWxlLWpdQHoNoAofU4y68cBWzJwqYM9SrYDvXxiMLcOpGGVQNAf-a5ZZlUppxp39zxBjwErpwDWaSeyxE9CxRehcRZqFTj5uAQ92YCVHHDaHpq4paizCv3-VStQzCJCBlWm5XW5Q2tmBu5RWJiXUBqMR4yHyNekuMPS1r9SpCrmsX7tYu8JXy5n93cPh-ffdUddCUBAK9qzqLG__X0C8p0J0HTagrxnvkObqHiWzgU_9Y2Jlf3MB2Pqc0Q8TqbRa_qJEYsdsIV88Le90_LoEZKceta-OoAwe1atK5h0U2Hw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114650092866914965497\">Friterie Big Ben</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeujXYA-TTUQcOedk6lXrjCErrK90kXSd2yoJJ3SqYCgIwZIlS9AK_h0mopQgaw6dDc0_gaw7ljt60XV5bPyR5z-JP6Cw_kwVBHsUbCuc-qV5YL7CaeZtes1HyRCICJ_HHrlFtx3lWH0nvyywyvXx-UP6kGkOnUvJ70itEoGIznG42koBKgQub0Hgfx_ooq2yPN5N4agmLy2HONLN4ecn92aznwuW6qJsJW1By2qpyzrNBrr1_cZKSlE2hIRvAwFysygTUyAMnJ7HLixTPwmuy8HXIDwbGxPvPlJyihpVxcyH2hJGKEWPrmTQWUwgBoVnqiABq_g50Fy_nx8MuxNsIKdKz1TJPwocqyEjQtTgi8hlJjFDl_Kg6yrz9kFTJ5nY7E5P3wTmOlQbarVgfgoa9g4nA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105564577260634552303\">madimina westindes972</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfOSYwhcx689WRDtx8g3ggFBqcEe3lBobDIAsbJb9hj0dKz7kttiGpBMb8jHo4KiVYO3mly42iPccL_BG2WzLhC6mJkNsUUQXzh6MR_2pB7HDLIFLMAa1yUynHBoSNALErWSHg3uA9gvSfGlApBxruc87PWFGwzb9KFGntMwbWUN5viFamBSmXmsbmMvv5i0UID2F-tNE9g6PYZO2y7V_MfPE_TGEexqkLRTOMF22EdhxbE7T3Oetf4MxJU4-hINc8Xeo3Yp6hcGN9lOu3ChFp5pMO28hb9oq5_IwGOnozxkG_aFUA0C-Ny_PMSBszArQLj62ibgi-4_bGzQpKeygOc3W45zqzpbOtm0RCaxwlPQt8St2B_l1-4Nm3Rs3zv7m2zqFBYPqtc4uBnVbVqBPcZylx3kVg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105564577260634552303\">madimina westindes972</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfRRryklgZfkW0pCd5cw3R1679IJ-Re3P6qp8GH7NTUJkcu4BEdBJt6sHMSJRgK4OSgSkdpE_7K1rDSpf6nAp9bGX65opF9NItGKg8rKA69w5Qn7qUzFExNnpzBwj0dMmH3OXvHb1QoP-YASEpkNo73H8p4LiPHK_GzfA4BFF3-QM5bBKtc1gyCnEjPUYmSN__ksHgaKihOvZLf9SUimRsw6a90_1OXyRVLJca2mv39zYcD3kqckc7eELpojjbpRXO87y6Xd7xrL-4Jon1KtOv36BPrYsFL99AcNs8AyZzBXiHEOPGI3Glh3E8-IhpvKzgd_24EhGNdWVNfYzp4EnrXx7cEfpSBb-54-rFwzqiymwdCPei5ZE4MAluu2Bt5rDXbd3Y1E4Vd8K5id7R8ueSX0bdr",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105564577260634552303\">madimina westindes972</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd7bg0JM8vR923SmQomtyV5NpSxJ00h1WqUMHHlE3MD7euSi9NmvnZ9aOtCsduTg1ebKid5caw8xUrsSSlufiSuFfU8CuFgYXvTMz_eo1BliI0IAorFP34N_rLRyqE-hbdRnmwUDSBXgXbmkbMroRXJF__yh4LyS6gTJbVnU-SaG1vdlSJV5tTmxH9xJ7LK-_el8qoGw1Poz8kTK50t1pVY1KCnQWaMkrknh3fFPZSr6vdwqh8mIh8xlFkn_vHZnv81GCmv_VqJ1s337Li6Zw6hxI3lLadKAnCxlLoJrH-krQx_uwKJeFpc-5lmHQ6fdqzJ0oky0c_rhVObFfgt7Kku9bvcZ-O0jUYJ2zN1CWQmEuefMGICNxIA39FXC721khP5GtUQkjqGvwSwUT1eoCRnuN1dk1BcoPAgKAWmYMZSYA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114650092866914965497\">Friterie Big Ben</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1430,
+            "photo_reference": "AV-0GLc_gzu3J4ZtuLhbedJckw40wzHZVQiFV_gSaESlwvJTCpICqrKy7gh4IbTN9ikO4MjopaVB8fHyHo4G8oaasHayW-OrSMd6BCvAnSpU67IGY5qDI2QAxFjntiymmV2wzSjrK5Fab02YzUfZkJ3uzIadHt19qXs_ZnON0-wXnIKb4v-hBzUIIedFaHpsQkjHPsAkGYgl34YvaVvMOfxD_OhiWntM5qFUbsxjpqkPY6GK2NiJPfQlZfZAXGmIVbqaVA7o_wb6fWTCYoI4NWjYo2ML5GyhJrUHnrrIIS0-DMP9Jm7bySf1jAUJt26XKTwllAwshYiZX1yJfrWQBJfITothvaVqSexSW8FTGY11hHlj39lyNPi7PeTAviOGfWX-g2ovqHpAraCexc_yQy7VzQZlQ6w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114650092866914965497\">Friterie Big Ben</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5868
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.77,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place, les options à emporter, l’accessibilité, les équipements, les moyens de paiement ou les publics adaptés."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie friterie; horaires du midi indiqués"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30–13:30; mercredi: 11:30–13:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30–21:30; samedi: 18:30–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie Big Ben à Carvin, ouverte certains jours le midi et en soirée. Les informations disponibles ne précisent pas les services ni les équipements."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-big-ben",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5868,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "cc188238f306c8f4882873919a74e76c04a08ecc0cd621351da273d283922886",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

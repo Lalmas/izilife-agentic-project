@@ -1,0 +1,25 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": [],
+    "warnings": [],
+    "summary": "Le lieu est identifié comme un restaurant. Les références fournies ne confirment pas d’autres caractéristiques, options de repas, services ou modalités."
+  },
+  "meta": {
+    "cache_key": "473b6dc12c6992397bee1d89b9bc22cc10ee814424bdecb670e9a522045fea59",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

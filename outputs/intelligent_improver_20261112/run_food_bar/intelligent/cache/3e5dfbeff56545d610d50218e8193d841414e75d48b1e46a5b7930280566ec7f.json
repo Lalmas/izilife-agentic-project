@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:30 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, les régimes alimentaires, les modes de commande ou de paiement, l'accessibilité, les équipements ni l'ambiance."
+    ],
+    "summary": "Restaurant à Beaucamps-Ligny, ouvert certains jours sur le créneau du déjeuner et certains soirs."
+  },
+  "meta": {
+    "cache_key": "3e5dfbeff56545d610d50218e8193d841414e75d48b1e46a5b7930280566ec7f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

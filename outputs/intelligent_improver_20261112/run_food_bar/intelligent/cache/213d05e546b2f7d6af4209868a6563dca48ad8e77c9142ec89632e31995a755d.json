@@ -1,0 +1,85 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Le client va se servir au bar » ; mention d’une « mini planche »."
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Très bonne bières et limonades »."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Un avis mentionne une « mini planche » et un service au bar."
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Très bonne bières »."
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Très bonne bières »."
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Très bonne bières et limonades »."
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "limonade",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Très bonne bières et limonades »."
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« A faire pour les amateurs de bières »."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : vendredi et samedi, 17:00–23:00."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie appréciée pour ses bières et limonades, avec consommation au bar et une planche mentionnée dans un avis. Ouverte le vendredi et le samedi en soirée."
+  },
+  "meta": {
+    "cache_key": "213d05e546b2f7d6af4209868a6563dca48ad8e77c9142ec89632e31995a755d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

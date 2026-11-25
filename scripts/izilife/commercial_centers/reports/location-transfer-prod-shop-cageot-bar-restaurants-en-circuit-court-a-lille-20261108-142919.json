@@ -1,0 +1,137 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "e7c4162cb13139dd8cbdc6b38a2b83848b84d6f31117949b1ed32b599554bd54",
+    "source": {
+      "id": 3886,
+      "type": "SHOP",
+      "ref": "cageot-bar-restaurants-en-circuit-court-a-lille",
+      "name": "Cageot | Bar & Restaurants en Circuit Court à Lille",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "PLACE",
+      "ref": "cageot",
+      "name": "Cageot",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_PLACE",
+        "target": "cageot",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "ShopMedias",
+        "count": 10
+      },
+      {
+        "family": "dual_scope",
+        "action": "REPOINT",
+        "target": "PrincipalCharacteristics",
+        "count": 1
+      },
+      {
+        "family": "dual_scope",
+        "action": "REPOINT",
+        "target": "Hourly",
+        "count": 1
+      },
+      {
+        "family": "dual_scope",
+        "action": "REPOINT",
+        "target": "HourlyContent",
+        "count": 7
+      },
+      {
+        "family": "typed_pivot",
+        "action": "COPY",
+        "target": "ShopMealType>PlaceMealType",
+        "count": 2
+      }
+    ],
+    "blockers": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 6,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "SHOP",
+      "source_ref": "cageot-bar-restaurants-en-circuit-court-a-lille",
+      "source_id": 3886,
+      "source_updated_at": null,
+      "source_fingerprint": "aeb46b00641ffc5274766832645e1706ebbecf2f0b7c9d57d5bea95acc515666",
+      "destination_type": "PLACE",
+      "destination_ref": "cageot",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Cageot",
+      "destination_category_ref": "food-court",
+      "destination_category_id": 4,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_PLACE",
+          "target": "cageot",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "ShopMedias",
+          "count": 10
+        },
+        {
+          "family": "dual_scope",
+          "action": "REPOINT",
+          "target": "PrincipalCharacteristics",
+          "count": 1
+        },
+        {
+          "family": "dual_scope",
+          "action": "REPOINT",
+          "target": "Hourly",
+          "count": 1
+        },
+        {
+          "family": "dual_scope",
+          "action": "REPOINT",
+          "target": "HourlyContent",
+          "count": 7
+        },
+        {
+          "family": "typed_pivot",
+          "action": "COPY",
+          "target": "ShopMealType>PlaceMealType",
+          "count": 2
+        }
+      ],
+      "blockers": [
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 6,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

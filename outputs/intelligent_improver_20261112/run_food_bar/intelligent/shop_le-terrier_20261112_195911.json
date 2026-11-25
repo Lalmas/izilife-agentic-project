@@ -1,0 +1,620 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:59:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-terrier",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-terrier",
+    "status": "found",
+    "data": {
+      "id": "5700",
+      "name": "Le Terrier",
+      "shop_string_id": "le-terrier",
+      "unique_id": "b4dc2a6ad7ec1de7e0f0b33b57d1bb28",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54958",
+      "principal_cover": "54958",
+      "qr_code": null,
+      "phone_number": "+33320072467",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "43 Rue Louis Pasteur",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "39",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9606685",
+      "latitude": "50.6156868",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:19",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:19",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJPSFyfPEq3UcRZYdbPZRjErI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJPSFyfPEq3UcRZYdbPZRjErI\",\"rating\":4.4,\"user_rating_count\":2120,\"google_maps_uri\":\"https://maps.google.com/?cid=12831427776667682661\",\"fetched_at\":\"2026-11-12T19:59:00+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Excellent sur toute la ligne, de l'accueil au repas en passant par l'ambiance du lieu. Nous avons passé une super soirée,rien à redire.\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T08:03:01+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Martin Lemahieu\",\"uri\":\"https://www.google.com/maps/contrib/105977395334232854751/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV6oavPEczbd03nsomUsTaHv6YodEw7PlpdNnhVMrHjgrpOBXXo=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un estaminet comme on les aime. De bons plats régionaux et un cadre sympathique. Nous nous sommes régalés !\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T13:58:39+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Alexandre Olivier\",\"uri\":\"https://www.google.com/maps/contrib/115781999504436300751/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKrPx4w5kaewOf843iqmOxy6Hd_t3WYw2k8-zlwCD2_Ew-hzA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un lieu sympathique et où nous avons très bien mangé. Le service était parfait\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T09:58:32+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Valérie “Valoudebeuvry” Parent\",\"uri\":\"https://www.google.com/maps/contrib/103459124428685928658/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIRGGm9Hsi7ah5JGkIj9Cg7KWgqULjH45NpPY_q1fiCI9o7EA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"C’était bon et de bonne qualité, un peu chère mais belle découverte .Le restaurant est très bruyant.Nous aurions aimé qu’on nous propose de l’eau pour nos chiens comme les autres restaurants l’ont fait par la suite\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T20:10:29+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Roxane Vatore\",\"uri\":\"https://www.google.com/maps/contrib/107081204961321899696/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV9GhFeFRoBNG2EP-1zlE_sxcsZ4IPuEc8TI_cwCiKVf_IPmxWR=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"Beaucoup trop long à servir.\\nNous étions un midi entre collègues et avons attendus nos plats plus d'une heure.\\nTartare avec bcp trop de tomates à l'intérieur. Pas mauvais mais pas génial.\\nPar ailleurs la note m'a semblé très élevée (23€ pour un plat et une boisson)\\nBref déçu.\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T17:24:57+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Marc Thieffry\",\"uri\":\"https://www.google.com/maps/contrib/102626431192836766263/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL7uZTKWcClyeedkarTE8z7Zls9XasDzUbDCzY7Ejqkq6-aLw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:59:00",
+      "google_reviews_place_id": "ChIJPSFyfPEq3UcRZYdbPZRjErI",
+      "source_id": 5700,
+      "scope_type": "SHOP",
+      "scope_ref": "le-terrier",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "hallennes-lez-haubourdin",
+      "string_id": "le-terrier"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54958",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5700_6af39c9f76829.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4758",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33041",
+            "source_hourly_id": "4758",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33042",
+            "source_hourly_id": "4758",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33043",
+            "source_hourly_id": "4758",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33044",
+            "source_hourly_id": "4758",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33045",
+            "source_hourly_id": "4758",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33046",
+            "source_hourly_id": "4758",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "15:30",
+            "with_break": "1",
+            "reopening_hour": " 17:3",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33047",
+            "source_hourly_id": "4758",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-terrier",
+      "google_place_id": "ChIJPSFyfPEq3UcRZYdbPZRjErI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 15:30, 17:30 – 23:00",
+          "mardi: 11:30 – 15:30, 17:30 – 23:00",
+          "mercredi: 11:30 – 15:30, 17:30 – 23:00",
+          "jeudi: 11:30 – 15:30, 17:30 – 23:00",
+          "vendredi: 11:30 – 15:30, 17:30 – 23:00",
+          "samedi: 11:30 – 15:30, 17:30 – 23:00",
+          "dimanche: 11:30 – 16:30"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLclne0p8V9k_BRZIrk_fzGwBPFLdOaIzUHeEtI7djqstZFldSfWRG8giO8mMfdMJ_eBwcDsE-bHTBytBXqsxNXS2-tf3beKzPd5K6_dI8Al_PmMkxYq9LLY68NudsZKnUeOxh-xO7VKH-F_CpiEqS7hRAIaSesj9f-GHJomljj2U5CmYl4VdsvzpzPkIS1rV5cUo4Pd-7wmj7jixNgKZnQ19p43UH0YWB9aFrwIsS6fYwdfEyUOfaF02SpRNVJj6LhO-2DCKKlsCV0YNjYhKZAElF7aZABaYNPPyz2IoVHi-ujbM5sNCCt_eBE9OZ3yGkcB0e1IOdNtSVY94ViPNYV0wrGYlgKrpUJFJppCRZ_imqY1yhu36DXAe97kWshhWQZgG75jwIbG5DHJcAMJ6ulMY_I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117404407489208826351\">Richard Bastien</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLcciQvuajCiIqhZZc141SoIqc8qq2ofqbG_bNVIK31-eL39-Wmio7OR2_BDfbof4v-QEG-e8X_c6JYmIY_Lj6dHp_prN8ncCRe2MojcByq6M2N_3qY7sjDLG4kxW9E9vYwrkUO-7cpYuu9PAwdZvCI4BHEQFwba1ywcYnu0hzV8pcTXYz86engxMVsUQ4FBJkKQ_GeCO3vcWvnSAB0l081iJ5imkVGsQdz2MlAOU7UiioWWT9Px0PBierOfGKW9ks_o_1MJ9XITi12VeCG35yugz1BsY_2Q7iFBwTFky0xSUPm-4QL6c-TcvJyTmfDBFufGCvWMugDCE9jca880t1x7_t3NU4EIJZElJnfyUIIHVcecKSoEFwnmyuetQvrce41-fmXWyxqb68RW7XQxKQrbOq9jPBs26ofYfoAnxpL1sg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100463847853275591861\">Steph Rueda</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdx-WAdvuEId7T5PP6dcLNH7vCV8sS8H1U3JZD3s9p_c3dExxl6VUWdbAeZwgNiHDYmLyO2Smo71XIJ7QMszlp-5XiDgyOoOhlhYZljmQAtHjwHQNlu6Xgepjy9UC5rfg9xWxoD-db5aOw0-4206KsB6xFgGG25JETDLujMuNykmJzyDbnSWEZIjPHtGi2vW-1OcXngigbU0YTmtOj4UTARDkNPMQxlkjNmWXyCpiTRhuSNo9a0WP0j8fa5lgV6mmWFQlqZYtdZjNeOHZ3BEAbn0YtHccYDhW3ZuO4VIIlEqt_oK5Z0KU1BQcdnaeLFym28a9rDkLiAaGn5CF5dxp4-1TQhT1Gvh4uhiRvweBBV3qICXVZnWcZEm5K2noJvWYgrRV2aUfNzNHfeiIWANtgLRVcUFFt-lh1tVS-oTYvc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115301885012484270318\">Mad Cow</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcoHHiAkhL01BTcjEidCCLYhIWJMBI5PYRLjN9xZUUg6O3J_7-cz5zONowxaP9ebHXmqKjnzltPu_mQlh_ZQnrLntYqwYWCXQuiRJPNsHqTbU3V3rtxen7GkmNgZme1SRyFcXybs3E-mgNMAlJLKKYoLxAPkJZWyWPRIWBCSiIaqajg_W_D09fGDgNNFMTPQ2yM8bbH5q2bH26_Ff6hknXKX9j01lxp-L_jO3Lw_AUlboqKIkNfqtUuYAK7WIJg6lDUWKKu-HDry5B2fSiUWhGTfK5OpmL8sHG64ZzZcyPs207J1PnA0Avf3cM2RmhW_grxXdD0456tjkMNb0k6cffFftcWrV-CnIhcsxu5lKkiijNsBSYahwuS4Dg_PQOXKbJD4-b74Ndq8yNcFs2qUqEBUpS_pxxJJtadNapZflCz",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107302678827073588580\">Anastasiia</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLcuo1PQeyjkLgJw8KyxgnLL8E5AGdAQIrWpXRGofJAda6YlxQnkmfv7nBkwkr5iiK01A-RiAHAY8nPIxiaLVyVMJWz-Kt8FjXYws6zixRidkwzUrMtuwRpqke0EhnKY_Hw3JYBaKM5NYes3YlojpiJcrzya1YBG1zbKT2LjGk--EuzFU6HDXz0DudVRIdVMVNRkUdQ8CH72BjgYBhyxoPEArPMz29lW-uJwvX8SzGwv2WOTNx6II8qt5ry3l87Sru_ePSA_KJuMd0qJe73U0_-y9rP1Gk1hQvv-0S6OQB9yi0TafpdFTzpRILmMa4o9f6ZyR9z8rxmLbMt80NIPtDUN6kgHln3pipRzgfD_MORA9sLU_Q43WGalANLBQwOv6ki5_bF6VVqteNGE-f7BGs-lywrlnJROc_GgCUqVHiQk5Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100463847853275591861\">Steph Rueda</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLcv5RAshmoHdfbuycKM0emeBu2p4NEWZQ1chIIEH7Y9bgzT4AY22mec06hBsJ6brqOTqwL-OEvcx3WIKhwqBwsWusHRSJ7ce1k6eyRGRTGCFX7NWV3hfPZ8-4LKoTDkprm_SXoD-6Odc-DqtOEVmRkGepAdiQQJMU6N7cx4txNXwX30mMMIkPLygn0eYlc-F0b-CoDUMv7IxObWXcg5xjLue9BwbB4oIgxjC0CR3ABn2iblsICxH78QC4D8dC5tAhSycCe82dAYWQQr4WS-CPnum53L-dz_xBlZx7zK_bkfs4-JqyM6iJ-QAhD3miurthLTihEgwQyrMOAQEKy-BlhKhWOcCd-reCPdWNqFs_cLHOITEVbtjZ-BnP-wyxUn8wfO0AmQcllwkZnOC0iKIPIoqVQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103265356262304703438\">WOLL François</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLetzZEEAFoQkcAGpDTQ4tkJ3uWDY-a7HHFS9683Ouo2PbXHTcJK0SaHJI7-MgMoEmtD7tMc9fX6GCbDXane2kbspE_DAzrr6kUFSfKZmbZAmqple47gfi0PledMUfINJAu_YKGO71Gs75VSlvQ4ld8nhcx3YMXk9VwoxYnmcBULda0YGVhPXVyJNSiRBcRsDbt6NY3Lj-d_mUu6IKzXcTIxvBg_dkh6dD5GmiB1CTVzX6iFF6OxvH-T7gV_iU9UQdpBc6zVisl5-ZmrIG-9gygYSA6uPAP915rgWCwaOsLCvNDmVso8BMCa_LQb7y-vixJ9DWJjxAuj6_VbPhV2dcdB6ERcGzR_V-cmwwOdWs1E9ts_Is1Qvjperw9pvvV5Y8yLblAApZaKF6m9rC9024j_V0AlkaWORU386v-AFMpDHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106747083485080770010\">Quentin DEMBLOCQUE</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLc45Omvx5gKIzPhQITcYXda2M_QOfP2ozZ6LbOrXpU54DoqoE8eiZfXC7ERG21cLh07Z5xZrFzOHILVugIMQXXKhOiOgs8jrz9K6vsdzZwItZmeWto_lPhnqLPvN9mrKAGgwiamixmgCWZDki9U8lBuj92pfdzXbD7QhDPTbev2wnN7OtphTB6NAPJiX31QqfKbyndrbvnU0IQYf9-XYg92J9DB867W85w79jauVLaesC1JZs2xC0SWSvOjN0KVT-v6fhMlyIjaqcB_54hVfYCTwxytMaXzwDAx4DUI-Xe0XO8LGS8bNp5oqli9E2XZ0dVC3sT_M9lDySM-p0e5tsxusWvK9OSE8nF0MzfwNiaGflQ8QfwLzA-PXP2QVjMgorlcY6hoLJAnahCHe5MMjtBdDi0BLAGHFotOfgTjB3MA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109447328596184208735\">andrea boulch</a>"
+            ]
+          },
+          {
+            "width": 1500,
+            "height": 2000,
+            "photo_reference": "AV-0GLd-0w_W47VE1jZeB_YiI_SH0Z6XPHAVNHSpGIPM3tAMdIMHAsPdbnU87PgcPNhvE3E-uo1d28g5lRuU7TW-l1o6IDnERUOeiWmKEy4vfuPFNu-GXo6K1mges51h0XEenjJWr5bAWXTIOHHz8Zu92Ewdarb86AhJ8YtpVTALP3kmUvzhgjxLgtttpxcvXBPNIs6uDwtGZZkzrePAosb0iUf9gbxFxJ1adM8DvqRyWP6LaXHskv4iQGWN8WjjoxOyYda_Rrw9jGNPvasPag_3zCwm819tew0HvGCrZmdjSdLXJcn3zOphUPOorb1WmrUBND7bK1za5vyWeKgUzfNitU-iFgO5aYrrycgYpkUW-awyJlqszYaKT2VlzgtoiHhxlF7I0XAbDjd2V8i0n8TuaEPheWxApx1vC3eeDBE3wwRQnw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103451460092755215780\">Caroline Lecoeuche</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeh5Ufe7QqfePY1vEWCTrQgQU_TxYMIshNegdZiysXZ8_8SwxgYB7-KhSaBeDwXX5AH6r58LBX4QzolptyHVUboRnVld0WjbAaTdvNqYQYR3qwWb7tVqvFegOSoGNqG0ohIZRtaY2gK6DpNs3vhIXSvwfacEZA5w2wT3Ttxu1N7jTfSFjucPT5ps1k2l98fxUSXuSoICsS64MGu7Cobu1TgNEbPVhI6_190oKiJetGBE9Kf-7Y2g6vjKcPW4HhGVdzDj9t98K4VrEmQKJp86J6I_7MgE8NDGyeaJEFZ3ScZcOB9VpaNOQl5QWOY8uO587V9f57gU9nY_Igs5h2Fef81cQHxmeUxardQpd2HQn6cU54MKy4Co3VC-L7p2GWxAzoMFaEmUMXIZxBJe7Grc9YBBtjDCkQAqChASmJcQ7GHTA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104846575403804065670\">et aufait</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5700
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Excellent sur toute la ligne, de l'accueil au repas en passant par l'ambiance du lieu. Nous avons passé une super soirée,rien à redire.",
+            "language_code": "",
+            "publish_time": "2026-11-06T08:03:01+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Martin Lemahieu",
+              "uri": "https://www.google.com/maps/contrib/105977395334232854751/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV6oavPEczbd03nsomUsTaHv6YodEw7PlpdNnhVMrHjgrpOBXXo=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un estaminet comme on les aime. De bons plats régionaux et un cadre sympathique. Nous nous sommes régalés !",
+            "language_code": "",
+            "publish_time": "2026-11-05T13:58:39+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Alexandre Olivier",
+              "uri": "https://www.google.com/maps/contrib/115781999504436300751/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKrPx4w5kaewOf843iqmOxy6Hd_t3WYw2k8-zlwCD2_Ew-hzA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un lieu sympathique et où nous avons très bien mangé. Le service était parfait",
+            "language_code": "",
+            "publish_time": "2026-11-02T09:58:32+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Valérie “Valoudebeuvry” Parent",
+              "uri": "https://www.google.com/maps/contrib/103459124428685928658/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIRGGm9Hsi7ah5JGkIj9Cg7KWgqULjH45NpPY_q1fiCI9o7EA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "C’était bon et de bonne qualité, un peu chère mais belle découverte .Le restaurant est très bruyant.Nous aurions aimé qu’on nous propose de l’eau pour nos chiens comme les autres restaurants l’ont fait par la suite",
+            "language_code": "",
+            "publish_time": "2026-10-31T20:10:29+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Roxane Vatore",
+              "uri": "https://www.google.com/maps/contrib/107081204961321899696/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV9GhFeFRoBNG2EP-1zlE_sxcsZ4IPuEc8TI_cwCiKVf_IPmxWR=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "Beaucoup trop long à servir.\nNous étions un midi entre collègues et avons attendus nos plats plus d'une heure.\nTartare avec bcp trop de tomates à l'intérieur. Pas mauvais mais pas génial.\nPar ailleurs la note m'a semblé très élevée (23€ pour un plat et une boisson)\nBref déçu.",
+            "language_code": "",
+            "publish_time": "2026-10-30T17:24:57+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Marc Thieffry",
+              "uri": "https://www.google.com/maps/contrib/102626431192836766263/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL7uZTKWcClyeedkarTE8z7Zls9XasDzUbDCzY7Ejqkq6-aLw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 2120
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1180,
+        "bo": 142,
+        "front": 1038,
+        "estimated_cost_eur": 4.5
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« un midi entre collègues »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« De bons plats régionaux »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« un midi entre collègues »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« un midi entre collègues »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« Nous avons passé une super soirée »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale que le restaurant est « très bruyant ».",
+      "Un avis rapporte plus d’une heure d’attente pour les plats à midi. Un autre juge la note élevée."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« nous avons très bien mangé »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« nos plats »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Estaminet proposant de bons plats régionaux, apprécié pour son accueil, son repas et son cadre. Les avis évoquent des repas sur place le midi et en soirée, notamment entre collègues ; certains signalent du bruit et une attente prolongée."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-terrier",
+    "operation": "ADD",
+    "tags": [
+      "bien-pour-groupe"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "adapted_to_groups": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5700,
+    "changed": [
+      "ShopCharactTag:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "644c0a513115fcd4463c4aa439058992e0f405042fa3558801425a512a461bc1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

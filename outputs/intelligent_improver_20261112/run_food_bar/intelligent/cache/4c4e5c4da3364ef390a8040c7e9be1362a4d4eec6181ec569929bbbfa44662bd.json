@@ -1,0 +1,85 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons très bien mangé » ; « nos serveurs »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons très bien mangé »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« Une seule bière. Que du rosé. »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Une seule bière. Que du rosé. »"
+      }
+    ],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne pizza. »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:00–14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:00–21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:00–14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:00–21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis sont contrastés : certains sont très positifs, tandis que d’autres critiquent la cuisson, la qualité ou le prix."
+    ],
+    "summary": "Pizzeria à Wattignies, ouverte le midi et le soir selon les horaires fournis. Les avis mentionnent des pizzas, un repas sur place avec service et des boissons alcoolisées ; les retours sur la qualité sont mitigés."
+  },
+  "meta": {
+    "cache_key": "4c4e5c4da3364ef390a8040c7e9be1362a4d4eec6181ec569929bbbfa44662bd",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

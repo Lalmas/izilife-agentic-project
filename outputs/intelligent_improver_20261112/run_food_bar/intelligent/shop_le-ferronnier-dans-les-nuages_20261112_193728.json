@@ -1,0 +1,676 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:37:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-ferronnier-dans-les-nuages",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-ferronnier-dans-les-nuages",
+    "status": "found",
+    "data": {
+      "id": "5608",
+      "name": "Le Ferronnier dans les Nuages",
+      "shop_string_id": "le-ferronnier-dans-les-nuages",
+      "unique_id": "16cbe4da954be22c89abf10b630c815e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54868",
+      "principal_cover": "54868",
+      "qr_code": null,
+      "phone_number": "+33327962896",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue des Ferronniers",
+      "additional_address": null,
+      "zip_code": "59500",
+      "city_id": "254",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0815872",
+      "latitude": "50.3690941",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:26:36",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:26:36",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ81buYPHJwkcRcPCTG9lTjJQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ81buYPHJwkcRcPCTG9lTjJQ\",\"rating\":4.7,\"user_rating_count\":400,\"google_maps_uri\":\"https://maps.google.com/?cid=10704022606288515184\",\"fetched_at\":\"2026-11-12T19:37:17+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Un endroit comme j'en cherchais depuis longtemps sur le Douaisis !\\nUn moment agréable, un endroit cosy, une infusion délicieuse ! Et pour les fan de chocolat comme moi: prenez le brookie sans aucune hésitation !\\n\\nMerci pour ce moment, et j'ai hâte de revenir !\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T20:11:47+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Blandine Arcangeli\",\"uri\":\"https://www.google.com/maps/contrib/109541916683123403121/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVSpjd-BJ9Fy4VpWpLug47ineiO1Qpw--IO-g2J1YLjujjCoB5a=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Hrane nisem poskusil, storitev kljub težavam (jezik) super, le nad kavo nisem bil navdušen\",\"language_code\":\"\",\"publish_time\":\"2026-10-26T21:42:12+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Samo Šinko\",\"uri\":\"https://www.google.com/maps/contrib/113898342319303536103/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVBPzxf9Dwlrl-OpHzn50P2dEtaWJuVtVxqClpx_E2sv1AnjXg=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un accueil et un service chaleureux, des plats et un brunch de qualité pour excellent rapport qualité-prix, je peux que que recommander ! 😊\",\"language_code\":\"\",\"publish_time\":\"2026-10-25T16:53:03+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Sasiharan Jazz\",\"uri\":\"https://www.google.com/maps/contrib/101875069289440461630/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU1kNBj7hdiKXt1MoMFCw_ER67MDRozYPll2ywNz7daO-nrfvPHoA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-11T14:13:45+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Victor Dochita\",\"uri\":\"https://www.google.com/maps/contrib/110032901492511389729/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWLkzm0RvKv78JbyX9S2v4YOKHhkOKjW_sdMRmQgBRze8oywlYX=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Bonne adresse sur pour un dejeuner sur Douai.\",\"language_code\":\"\",\"publish_time\":\"2026-10-03T08:22:16+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"aude van damme\",\"uri\":\"https://www.google.com/maps/contrib/109725264140553332247/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWg0OPFBAogeaZYjmXycNxhc9_ScRjrasZ6VjJhKLzaxtWi-v0vCA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:37:17",
+      "google_reviews_place_id": "ChIJ81buYPHJwkcRcPCTG9lTjJQ",
+      "source_id": 5608,
+      "scope_type": "SHOP",
+      "scope_ref": "le-ferronnier-dans-les-nuages",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "douai",
+      "string_id": "le-ferronnier-dans-les-nuages"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54868",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5608_6af39a1c9e20c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4669",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32418",
+            "source_hourly_id": "4669",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32419",
+            "source_hourly_id": "4669",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32420",
+            "source_hourly_id": "4669",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32421",
+            "source_hourly_id": "4669",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32422",
+            "source_hourly_id": "4669",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32423",
+            "source_hourly_id": "4669",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32424",
+            "source_hourly_id": "4669",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-ferronnier-dans-les-nuages",
+      "google_place_id": "ChIJ81buYPHJwkcRcPCTG9lTjJQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 18:30",
+          "mercredi: 11:30 – 18:30",
+          "jeudi: 11:30 – 18:30",
+          "vendredi: 11:30 – 18:30",
+          "samedi: 11:00 – 19:00",
+          "dimanche: 11:00 – 18:00"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 810,
+            "photo_reference": "AV-0GLcO7QFr-wT8seXBSMoZDBK6okcXQE0RrU7biywH4Hl9PbuK8XnLJC0sCRVsjRMaathDSQm7N25NXV1UfripNorCbDH7HRTHVP_maLJr6KAxL0wag_USg7eRLX6bay9VfIfYu5Y4YO2K9vtKkxb4PYjcJDK6f_UM77_d8UnZg9AAqvy86KhrX54faqM3riOicuR4jHBx0GBtEs91l0oPwij2e8yF6mxMHyhu_U-e-vKNzj5K6R7QfwIPDi-10TwN-hO8LUlMFTA4QDNlIiq5UizhOmU-7d3I82n6UNi5F2e846292_umoUUk-Q5AzBSgj9EeZ7VcYy91AsaqBCzjF3i8uvP-e3XVtR200qTyOuM-b6-8byAd8nXWkSGDjFaxutBPe8smvtfz60TqaFRX3zJG3jI5YDg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109171408418768039687\">Le Ferronnier dans les Nuages</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3472,
+            "photo_reference": "AV-0GLefSIZ3tNchk1Yu4PcxeEDrW-_cqVV4biPePP3QXFrEGKjJehB6YrnMO2Wg9lpkTAX-dVLWSQxkLTB7ETyOOIGpM8ZdmiDVnx5ruZzamrLfx7OawAOPo4SlLFgHxXKARroyssg3o7UZGEXvaxvf4nP8iVRir2YOTNeWlGuTdnRVAjyEN7YnbR0bswTsrMJZJhA1xjdpUlA_6jsLMi-F7ZHqzUAmcDklyvbXnZ6IxLo--M7-l0GL2JqBqyX2LhKzKt_uHHzNOos2Nycwo0eKaXFTCiPy3ZBhl7pSnC5GG7MGAzvdwoZ91lrQIz2rHt3NoP5Bl_-yM-GeZc7Z0MPv00bEzoAMPBOvGNSwEegbeeDxCcrpqr6RcrfK47i0yVj_qCvfpMqAjxSvo1CiAYEO75nlnQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109171408418768039687\">Le Ferronnier dans les Nuages</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3472,
+            "photo_reference": "AV-0GLfO04psYJT-4jveSqmOJKyD5zrCvElNkyFu_aqpLMbFBUFAFsob5hkV7T3j0cCarz-HzAydfbj3xRk5YnqJPnA3MLS4xiGQzmiHrEt0WOPIfX3PWNzke1-nx9YWPoivLtHga6houcVdg0B6GuRHAMKo3NH2WUNpGCdy8pxv0wizbf6IQGphPQgSJ-UpqFrwee9h8HBI2wRh3JoIEroiwR0oZ2wc6K8vcnOsXoGZVl0qOUWS05_yHXprUfkcWLcKbhX1J8f5UWVa4D84WxQaTLQs41_PllXGB_tZ2lReBF75yR-uPUQ9-Qi4WMa8YvTNuzu4q1uyA_qGBsIzWj0X0A49rzGrnBY_nGRuDOeTJ-NhiqNlQwj_lP-TwSTm1fpbT6Dl-CaB7dkDvG6mRlRORsaxSa-s80BGZuuONScejeif",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115751166742723677444\">Aaron Hutson</a>"
+            ]
+          },
+          {
+            "width": 1169,
+            "height": 2052,
+            "photo_reference": "AV-0GLfOWZNbVeiMwNiMFdUSLW6QlShg0wnXoKV-ITS6WccJBYXFrzC_tE3i1bn4P2pM74RUJAxulA7po_e_XJ2CQFaI_0WScE0Nbi6SutU6gZFXXVR0UI4RVQa82B674L_XcYOdf-4-Yq1xD1L9yEwnusnJlmXUei3RcmXXS_xxy_Jn-lZ1kVnAxXJLuRlXQ3sxXKh9nRry7kSEKqUvLshmD_hjeg5GtduMDN1KgXOyKTUtApra9Oyy5VLCVjzvDrd0OnPP12xuf4pgBcci_On_6BW2B51q0LACPuHbX13vIgpZS6CQiVpRUsjll-laNDtyQ1ycbu2QOEQ5Rrus6gIAaL1wSrFIwC7QngPf8_XMnCP6TqjW6may7HKRqJcEcBF9BVJuDjbnHzzM83sRqKOhimtzAFQoD6z29nTC_D_sJfictA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105591818146907301967\">Angèle RZEPECKI</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLcj014TX3zjhwhe2fLqScJXzKCMMVNCKUJADv4FqFW3IcZeee5mdLwGQcoJUiT52AwbxADAFhdArx-K1ZmZREMvJv5Zlu2LRes1t4joVu0LGXljfF10L_puQZFKeKL3GAl7BQLosP3XtqeATMvKKit2ZqRgtoiLxPNPGb_xrmpQmqA8MADTf_iRcwfas9Gh1112q1WcguQZZEjz64YuWTmXcLnuSFwtaxmrpB3scNSLUuy4mIzQMIXn06whPyDJG-XJm66atjlJA6xEbXh4TC_pdzXvEwvGuODBU_v-zx83FEpDitvn6Q91CMfpY52GfkNF8O8cOfCK8Suh7odrFG6Wi4vgxWpMeg-2P7ASlq-pJUXXsiU2piz4QrBwnfmZMe_UTeXcQFoPPBZ20chYTfW3w2xduBBp6gxPX-uRGgsvYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107110816882318162921\">sam bou</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLf291-oQB34YEn4bQM1CcNPRlk2_1dhpN73aZZL8_27HpaUMIc6HfkUlaJqdW_5UEJOGb6igM6d8Oh3B8HL3ZNWMvYTHSIiZ_WkS17BCk1FGfuayVN95zfW6mndo4hJjC5lgnbFevyIP8FAduR8O-OtB7AJqHnvrjVtEPNLkZm6-u_yqZiIzQTjeutLJdMA5byeUJ-wIJYTEY-uajClkB6_UArwufkZNoOSY90gPCRnlZddvKtvgXEQLYFjkGSEm-2l-J3-Fu-XICuqnz7ttfLVXa9Rln_MNkBcMiMCoiF5OrrEAnnHo1gYrmhxzWXnNbQPXb17OKco4Tvo7mb_5LDH2aT7dGfcbb3OChcpPjI3vKVUhsXVs7-rq9JvaT_QmZyDEjwRofpT4_HwDKmomH3uVZvqhws",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109171408418768039687\">Le Ferronnier dans les Nuages</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLd2JG9XSU383AcobKGdLm21Zwr774ToNCn_G0gNC7VXYrwMnFQrAYip9KYwAMDsjVqX4XfGdJlEO4kKkH_ySM_MJGpC2Al05EOnH6Rs2kZoqLGmQ7nr_-HeIK4zoMvoNbBA0KTR8apYjdg3As-KCwtfmD57Dn0MA12l34Cp5IqiiDiGGksbAnVsj6AaS7GxhnomKIY4eUryX8ewHYKRVmb8Jts-YtSeXdBBVT3nPOAXpMLGqfzu02-MDD0DldwHPuojWC274m6T6UfHKllU_G9IQVsIlSukQ7ueBfq5YaAjg1nVY8JcT373MQtkG5imOQGa2YZufDMCfc2GT2YNkbb1qub-jLZlVo4-g967mxM8uI0E7r0L7KJZThbz475qgfu2u42FRQGU_3kglq5hxeAEFOwGEn2BIKQ-aaVAJnTdBA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105266402433298282937\">Aurélie Defrance</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLdD87GhdbjMT0FKYWCmcXZenBw370tuJRaKQi1EEOK3b5k1nzO57RPi-5mZWTA8h56h7toolgwAxB0zrGXm46fcTJm0cHceem7FHay1_2sApbNcK5IQBbrDTmZqpkwShfA41TEv1TNJCVmhNClf2eQwqar_2ByRUwBn9Rnoo3MPBiidlKj57_uWSNAYNPQCkW3rVktutXdjOWP17c8RSj0DYQcbg5eC7axqDFdG2il1XthliYDWqE8DJ_T6La45pU01g3ZA9c6JegqmMpyskDJQJ6uzTqu767S86C6NCC8qfcb1PuHUrqSsiFwRzcZbAmduzUiqjwnKmVGqsLKj--VVqwch57OIjYWAuIaVE9BOneeb0kHqgIR0vkUeziKyaJVfWr9_HzDjKwFnl5EwfSkuRY3vjKlEphezFxgcgzt0NQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107110816882318162921\">sam bou</a>"
+            ]
+          },
+          {
+            "width": 748,
+            "height": 748,
+            "photo_reference": "AV-0GLcXpToT3PaRrb_p6LH0NMbanBEPthShIPR20EpGDByxPi0qi5r0OJEek0kpihjFKPhR_7kDN7v5Bfr3UkHgr4FVmoYm4pE7ypxv3zEmOD340f6eKHkn9zowGryV7jv17ry55vEEZgKZSErvCYeaP7RM5-7GKv0lz3WZrg_AD_OzP_8wJ7z4qdc8pmhEov0eZuanJSZncOm4pDkaPU5ZwMTCmMaXBn1h4c_oh5eqPzdraKBPggetWgWwxDTXHMOnFYz9_lA8S-Ha24udWF0KMd9f62ub_OpnHQHTE2y1B54otrbZ2ntzK4UNYzqF2vBJmYapRze_JlZQOgLBRmBSjURSGfBb44__ccmYeriT2SIin857924Z2xRZMqh_rNBiMXW_CeLPUZdaQS7JAiKE2H8T6g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109171408418768039687\">Le Ferronnier dans les Nuages</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3468,
+            "photo_reference": "AV-0GLfa_kAOxPNyL-iVXVoYbQHiroV-6bn1cWJaZjbeTi3n1fCAN7XAgk5W-muR-pdrm76MPJydkL45Tf4xtDXxf8uBtRP6P9mApzF_rIGxMc74TSDBqtHFofvLB2XJGbRQiyq___nfP4OVwvBBOZChK43zl7UqaF7jikJGKTBrxCqpsh4iMXNkyITkqRIogr32XVVn7KM0DCpSf2M-oNabwdjUfDUv5M_bOUxUpdyiXTYdDU12tIxP2EIx8Kqf6sIFZ8C_7W3H02YTshDLPTP7zVBISaRynx6MGZ3bTwvBtm8ks1JmCu5U3riRNVOSwMYV3i2nci9cEr7yIL4d_9eeV9hhAtfn-aikYxT0wsXSNbmzFFhY1zTvuO9umhuptIYXmN_8XnzS7EdqH3gWfZkPZvtCFTGj",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110003417560950324598\">Luxtos 98</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5608
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un endroit comme j'en cherchais depuis longtemps sur le Douaisis !\nUn moment agréable, un endroit cosy, une infusion délicieuse ! Et pour les fan de chocolat comme moi: prenez le brookie sans aucune hésitation !\n\nMerci pour ce moment, et j'ai hâte de revenir !",
+            "language_code": "",
+            "publish_time": "2026-11-10T20:11:47+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Blandine Arcangeli",
+              "uri": "https://www.google.com/maps/contrib/109541916683123403121/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVSpjd-BJ9Fy4VpWpLug47ineiO1Qpw--IO-g2J1YLjujjCoB5a=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Hrane nisem poskusil, storitev kljub težavam (jezik) super, le nad kavo nisem bil navdušen",
+            "language_code": "",
+            "publish_time": "2026-10-26T21:42:12+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Samo Šinko",
+              "uri": "https://www.google.com/maps/contrib/113898342319303536103/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVBPzxf9Dwlrl-OpHzn50P2dEtaWJuVtVxqClpx_E2sv1AnjXg=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un accueil et un service chaleureux, des plats et un brunch de qualité pour excellent rapport qualité-prix, je peux que que recommander ! 😊",
+            "language_code": "",
+            "publish_time": "2026-10-25T16:53:03+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Sasiharan Jazz",
+              "uri": "https://www.google.com/maps/contrib/101875069289440461630/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU1kNBj7hdiKXt1MoMFCw_ER67MDRozYPll2ywNz7daO-nrfvPHoA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-11T14:13:45+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Victor Dochita",
+              "uri": "https://www.google.com/maps/contrib/110032901492511389729/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWLkzm0RvKv78JbyX9S2v4YOKHhkOKjW_sdMRmQgBRze8oywlYX=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Bonne adresse sur pour un dejeuner sur Douai.",
+            "language_code": "",
+            "publish_time": "2026-10-03T08:22:16+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "aude van damme",
+              "uri": "https://www.google.com/maps/contrib/109725264140553332247/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWg0OPFBAogeaZYjmXycNxhc9_ScRjrasZ6VjJhKLzaxtWi-v0vCA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 400
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1108,
+        "bo": 70,
+        "front": 1038,
+        "estimated_cost_eur": 2.7
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« des plats et un brunch de qualité »"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« un brunch de qualité »"
+      },
+      {
+        "string_id": "ambiance-posee",
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "« un endroit cosy »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« des plats et un brunch de qualité »"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« une infusion délicieuse »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un endroit cosy »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Un accueil et un service chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« un brunch de qualité »"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne adresse sur pour un dejeuner sur Douai. »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "infusion",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« une infusion délicieuse »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les modalités de commande, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-gouter",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« une infusion délicieuse » et « le brookie »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Un moment agréable, un endroit cosy »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_coffee",
+          "value": 1,
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« le café »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Boulangerie et adresse cosy à Douai, appréciée pour son brunch, ses plats et son infusion. Le brookie au chocolat est recommandé par une cliente."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-ferronnier-dans-les-nuages",
+    "operation": "ADD",
+    "tags": [
+      "brunch",
+      "bon-pour-brunch"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_have_tea_time": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "cosy",
+        "chaleureux"
+      ],
+      "MealType": [
+        "brunch",
+        "dejeuner"
+      ],
+      "KnowedDrink": [
+        "infusion"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5608,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopKnowedDrink:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c85565487aae1e6148eab402dcb35f57f748381488fb32d343082fc450545b88",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

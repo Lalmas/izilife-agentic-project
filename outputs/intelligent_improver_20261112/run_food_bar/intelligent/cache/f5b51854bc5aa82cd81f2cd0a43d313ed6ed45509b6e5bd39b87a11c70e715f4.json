@@ -1,0 +1,68 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "restaurant aménagé dans une ferme rénovée avec terrasse"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "propose une carte courte de fins plats de saison"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "restaurant ... propose une carte courte de fins plats de saison"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "avec terrasse"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "champetre",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "dans une ferme rénovée"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "carte courte de fins plats de saison; lundi: 11:45 – 14:15"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.74,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 17:00 – 21:00, vendredi: 17:00 – 21:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant-bar installé dans une ferme rénovée, avec terrasse et carte courte de plats de saison."
+  },
+  "meta": {
+    "cache_key": "f5b51854bc5aa82cd81f2cd0a43d313ed6ed45509b6e5bd39b87a11c70e715f4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

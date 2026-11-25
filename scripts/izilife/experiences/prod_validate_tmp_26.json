@@ -1,0 +1,191 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:38:32.392007",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 26,
+      "title": "Visite libre du beffroi de l’hôtel de ville de Lille",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://reservation.lilletourism.com/visite-libre-du-beffroi-de-l-hotel-de-ville.html#reservation",
+      "validation_blockers": [],
+      "status": "error",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "minimal_age": "2",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "visiter",
+            "vue-panoramique"
+          ],
+          "object_string_ids": [
+            "ascenseur"
+          ],
+          "occasion_string_ids": [],
+          "age_category_ids": [
+            {
+              "id": "2",
+              "name": "3 - 5 ans",
+              "age_from": "2",
+              "age_end": "5"
+            }
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "vue-panoramique",
+                "confidence": 1,
+                "evidence": "Découvrez Lille à 360° !"
+              },
+              {
+                "string_id": "incontournable",
+                "confidence": 0.9,
+                "evidence": "Inscrit au patrimoine mondial de l'UNESCO, le beffroi de l'hôtel de ville domine Lille."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Cette visite est gratuite pour les enfants de moins de 6 ans."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Cette visite est gratuite pour les enfants de moins de 6 ans."
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "Le beffroi est aussi privatisable et disponible pour les groupes."
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "familles de 5 personnes et plus"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "individuels, dans la limite des places disponibles."
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.6,
+                "evidence": "Découvrez Lille à 360° !"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de restauration."
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de café."
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de thé."
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de tapas."
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de travail."
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'alcool."
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'alcool."
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention d'hébergement."
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de musique."
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de danse."
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de terrasse."
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de télévision."
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de wifi."
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention de rendez-vous romantique."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://reservation.lilletourism.com/medias/images/prestations/panorama-depuis-le-beffroi-359279.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "error": "Operand should contain 1 column(s)"
+    }
+  ],
+  "completed_at": "2026-11-08T15:38:41.574255"
+}

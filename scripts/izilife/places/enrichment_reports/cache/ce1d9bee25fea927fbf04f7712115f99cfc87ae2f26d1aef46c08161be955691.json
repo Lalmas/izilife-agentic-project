@@ -1,0 +1,66 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-voir-absolument",
+        "confidence": 0.9,
+        "source_url": "https://example.com",
+        "evidence": "Ce musée est sans conteste l'un des plus riches musées français."
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.8,
+        "source_url": "https://example.com",
+        "evidence": "Collections prestigieuses adaptées à tous les âges."
+      },
+      {
+        "string_id": "architecture-remarquable",
+        "confidence": 0.9,
+        "source_url": "https://example.com",
+        "evidence": "Dans un superbe bâtiment du XIXème siècle."
+      },
+      {
+        "string_id": "place-historique",
+        "confidence": 0.9,
+        "source_url": "https://example.com",
+        "evidence": "Plans en relief de villes fortifiées par Vauban."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.8,
+        "source_url": "https://example.com",
+        "evidence": "Collections prestigieuses adaptées à tous les âges."
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "https://example.com",
+        "evidence": "Superbe bâtiment du XIXème siècle."
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chic",
+          "confidence": 0.8,
+          "source_url": "https://example.com",
+          "evidence": "Superbe bâtiment du XIXème siècle avec collections prestigieuses."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Le Palais des Beaux-Arts de Lille est un musée incontournable, situé dans un bâtiment du XIXème siècle, offrant des collections prestigieuses de peintures et sculptures européennes. Adapté aux familles, il est un lieu historique avec une architecture remarquable."
+  },
+  "meta": {
+    "cache_key": "ce1d9bee25fea927fbf04f7712115f99cfc87ae2f26d1aef46c08161be955691",
+    "references_env": "local",
+    "analysis_only": true,
+    "provider": "openai",
+    "web_search": false,
+    "cache_hit": false
+  }
+}

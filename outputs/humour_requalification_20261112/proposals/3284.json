@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3284,
+  "proposal": {
+    "event_category_ref": "spectacle-comedie",
+    "principal_activity_category_string_id": "spectacle-comedie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.84,
+    "evidence": [
+      "La description annonce une « revue humoristique ».",
+      "Aucun plateau ou open mic réunissant plusieurs humoristes n'est mentionné.",
+      "La forme stand-up et le caractère écrit et mis en scène d'un one-man-show ne sont pas explicitement établis."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le spectacle est présenté comme une revue humoristique solo, mais sa forme scénique précise n'est pas détaillée."
+      }
+    ]
+  }
+}

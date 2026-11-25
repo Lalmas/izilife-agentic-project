@@ -1,0 +1,496 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:52:47",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-des-barbes-blanches",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-des-barbes-blanches",
+    "status": "found",
+    "data": {
+      "id": "5675",
+      "name": "Brasserie des Barbes Blanches",
+      "shop_string_id": "brasserie-des-barbes-blanches",
+      "unique_id": "1120c73c0258f48e0e23b45ce7a2cae2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54934",
+      "principal_cover": "54934",
+      "qr_code": null,
+      "phone_number": "+33600000000",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "14 Rue de la Becque",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "102",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0755906",
+      "latitude": "50.5246698",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:34:40",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:34:40",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJJdR_dE3TwkcRwo5g_hZNw8w",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJJdR_dE3TwkcRwo5g_hZNw8w\",\"rating\":5,\"user_rating_count\":18,\"google_maps_uri\":\"https://maps.google.com/?cid=14754721565348236994\",\"fetched_at\":\"2026-11-12T19:52:36+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très bonne expérience du repas a l'aveugle.tres bon mélange de saveurs . expérience conseiller et de très bonne bière\",\"language_code\":\"\",\"publish_time\":\"2025-01-22T13:14:40+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Eric Guichard\",\"uri\":\"https://www.google.com/maps/contrib/114601977575838048798/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIoPMMy0OSWeMFrBrkTtvRBp3Bfy0M1W38wx8Dll4yjrpgY0Q=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2023-10-21T10:53:45+00:00\",\"relative_publish_time\":\"il y a 3 ans\",\"author\":{\"display_name\":\"jeremy debruyne\",\"uri\":\"https://www.google.com/maps/contrib/111841003778855652004/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU4A99nhNSeDz8zMn4vl1afqZkwbaHb1hdOK8M7LuOP898ZDE2S=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une valeur sûre, le brasseur Baptiste fait du super boulot.\\nMERCI !\",\"language_code\":\"\",\"publish_time\":\"2023-06-29T18:28:05+00:00\",\"relative_publish_time\":\"il y a 3 ans\",\"author\":{\"display_name\":\"Pierre\",\"uri\":\"https://www.google.com/maps/contrib/110325286883867566371/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKSwoj2ShKSpFp88RK1rH2DA_Jr-OsDlJUgL8Gain6i-7lwpQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2023-05-26T11:08:37+00:00\",\"relative_publish_time\":\"il y a 3 ans\",\"author\":{\"display_name\":\"bruno fick\",\"uri\":\"https://www.google.com/maps/contrib/100997492186611968605/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWh2rMliXGcBWLwOzNPYkHXZv3A7zNyAeG_dYBnltqVM1wl6i5ghg=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J'ai adoré tout simplement\",\"language_code\":\"\",\"publish_time\":\"2022-04-07T14:36:01+00:00\",\"relative_publish_time\":\"il y a 4 ans\",\"author\":{\"display_name\":\"Johnny Doolaeghe\",\"uri\":\"https://www.google.com/maps/contrib/104742472635400427360/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUx0WxcC21Em-RjY2dylfn2QjxwsTpRhETCuwXDojUi5t6YtoV6wg=s128-c0x00000000-cc-rp-mo-ba6\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:52:36",
+      "google_reviews_place_id": "ChIJJdR_dE3TwkcRwo5g_hZNw8w",
+      "source_id": 5675,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-des-barbes-blanches",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "avelin",
+      "string_id": "brasserie-des-barbes-blanches"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 0
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54934",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5675_6af39c00c7435.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [],
+        "content": []
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-des-barbes-blanches",
+      "google_place_id": "ChIJJdR_dE3TwkcRwo5g_hZNw8w",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe68MCL2ShSxmwT3F4KBdrAb9tf21AXKvb1FBjfciNaqvXE0sLOYXAw8qUcjWMwi4YkEhOh2Aj1699MpuD9BzZWL6pU2bwrKu-j57HUjv296Uk6b9NygdbNwVRuIOYF_di3HUvIapbBEJprm9th3v47gnDj4Y53sQM7C_9GnpD3Mldlbo_F67XG3j5C80SF9QdcIX9_0EfWtXb6OHuL_6x1wiRG8_bp5NbFtX37S80rMwfyK1xy2fwuQjbEXK4D-Xc18CeuBvKbcdmABJG-tgBZ9M8rr4zxKdLMtCybIij_ofjAByb2p6V8Be7xPBaa1c6nlGaY8cf9vCn67kKuT2RbLw0di_J2S7F-ib30RO9pavg3KXMXCdme6c-2xd0_KxOhMGD97c7TOGdpdyFwnRozoIaF",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          },
+          {
+            "width": 663,
+            "height": 663,
+            "photo_reference": "AV-0GLdpyeSBQhJuMn84Dp6-omMYR3dZIdQ_XDF3Aro-0HByFxWR2xKEsSS2K4NOfWZw1kAAapTCA-vfXhxgVrqOhk5c3FTO7Nfuyc-ckTGhTeL8O6sC9PoKa7Q915qHEiPxqIWNmPl_kh1phG-RZmqjd5fxieEXdvj3DAHSWgtfOkfzMaxcIXTop1HU-XjeSTCQD3rnuVF8Vo-KckVlOnxJnzte_BA2I8mYGMTgk1wu2QfoMJ1l7i-uNGQxC9wOBWdAvln1-_Pyqq3sVfaDnOwfWLGvjNmiUAJTLKM3KmjU4bOxMHB9kzKIvIvUegsjvZuSp82GDN9CTanRVgqLIT7UYGAxorO3mu-C0mwXuQl5Rgh65f59xrDsbe4CzFQjquJrprV1fG5tmWtTEbCQH8FfdyJrPWo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLeZLi86d7sS30j7s5RYnoAR11bcKhi7OArtPBJotkt2YrSPEtX3BTi91IqNF-6qYnkEs13-c6xe9ZaLEUvN9TyvqfIz9E0djk9uQ4-4Zt5p1luE8pW98C1WGjyjZFSE_1XhuDLfDLYXPojt_e4DcjAJRZEKTnkccoLDDBJnASiyPN8tZubrj4_rW8uKTEARopUBCvEiBrYu9kdQoU5BHa-PLB32GKCSrRRuK_a15ybYWiPQMM8Po0Fl2qtgKybSv9CORQTt6gDOkvN5d8Ib8Wf5tq8fcEHcF9Y9gJI_0LZgiRIN_fpuhtzgJEliq6cuYIqeFw7rMxfT8Z0N_8ZaqYKeKHnsPz3RdsaQct_EftiRKTVx823NmtzwrL-YKiIs9oKC0Am3xTRuG6aKZeI_FkUBennk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLeFeCt5iK_Ub2_JXEVfjfaQ1Q5OOVzkzOdeCQjl82sWpzi-uyGuKlfYz5RTQ7t2FV0x6VeNd2CrA4I6vp-msUSBc_fuZo-wG4N0XstzxNEe85cg-1dvxoAkJDq7kaozdQoCsPVk2aUzsvZRgQrRFNDSttrQDAJlKZbtwsotOjfc_6HwQxQ3Zw1IS357OgRmrvc-njsZi23YV1tNUvDnI-oyWUvfJigpIBfQ7asz92LSyWmHCjSMsyn4gUNXqexWopE6iVifWS9floQ1pXJLYxqwZjQpM1xGXQxgT0bSZJ_UKEkWjBSiSmXwRfv-zq0k4oohCHDuUndCq9mRjd_rU3KwXH1L7xU7cjpbsbic4rHhWQk-AyqylGdS04mmyi5fDXi4RfAYmcsjSy3-v_qWiq-GFXau",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLcmLqhQZqs7xq_dWlX5B6VbIy7YhBpTCSFLtXaOzI6_87OLMwng1FpLc4nFQbdnhh1L7eLgA5kHjTi9nYglBXi2pJ4HaJ0xghHbgqNIicP2OjZaZ90nE5zjIgaxA0dqq4iTMLV4VdK7O6LHqytENMwcOfkqUk3A0wG6IgAmL9z0CCokbmWGNLW6qVeie6Yc5B9Q26H44H5F0jBcT8qKOUTZZ914XHmn0Y2tp1IvKHaET75ItrjB6DZEwx4rISau7jsitzEHeUlyK4MywufLffS8EImvUppAA-04xjm8AwYzfgBDDwdlG1JgkCX0rjfoSAg6w2xfQjcdpYtckedRP2arISuY4YvJv67im1MsbJD2zFtCqbn8YpJivbCYSN4aHBoQ8cQlJI6_FyNQNBsQq7_hVOM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLdOcrph_0EydhoUXox6pGniteb78lKH_zYXCcVuXk7MMexxOd-q7EW9COH9gfDLRRjPyqWMObyUJ_3GSlryce-4zrG2KGeqJGFfnFuk4o1XEfE5iifRWK5qNwFPmRcke-nBKxofbI6dcggevSaObNpoMV7tlCzKQeTVki7JObzg_uGGfqI-Dl9SHcZlosNFZIr-FjuvCLzbwpvhuFDd6lr2NsvVNt7KALPE9CEE38la8igvKNZwmHDbfKS48Std4ICKTU8geQq35C1R800lCcDwg1QOPSwhln4FLWFKnBzn_UXTKYBVfbjpQS6od6Eucd0yvpj47mTtmyCX7w2SjliDp0iS_zO4QEZRE6cdeb70ALJFe0nVNnKQhwqFIJXOPZRB2aZnJjDH76M17IwS0YsH3KSO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 2406,
+            "height": 3471,
+            "photo_reference": "AV-0GLf5EnzojoQD7yqwc7liGxMcvcdCuBy8Qt0CVLOcM6F1sJEoc6W7zuOiMS6uxfPd42VrkRDWugY3fdMD6eovQB1SbqTveEkMWGX7mrOrZ8xQO_tRlbe7A8hghwXXk1CkqND4dYG3g0h0zc_NWa3STgelpRtcmcEQo1B5NDHhJBLR7SNcAfpxX3PmgL5Dem1bhVoWTNFb2TEZwyrL7cDG0CU1471HaTZg3KLZryve4yi2Ak2HvVo1AJKP68_orKEn2GAeOgV2VikLVLLdh5XsyE5t-ogNEa_A8d6Fd8knr7tRaIeMIvLX1nZLOifQD_qX3wWMAWo6RaFQbinSM4PQZ_m5OZttg9lIbOjFoHFyVfugNxHuN0W_clISQTTywMFmJfvJEfBrgEW_YYQyG1zORmMMi2r4BKk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfuUZGI-toMioQtV2EEjfSPIVrAsnQbdbuh8MkqwmK6onNxzNSJxZ0mufs4rM9HXzXjGJR-kCrmZK1wdiE9QmOGP7qaYptF7lrEVll_24phTzn4vzeTYXUUFhBhs4RQdAD3Ab16cdUTxLTvGRSegU1k54b4Ruc6ofTKFjdZDqgZ2ZSy56CABMrD3FPs58NLDBru6psHlkUpViYg10TYfgsDAu_dySvf-aVyl8bKsIY63XtJ9eXB3FlAUiVYufC_HHe7zs3vqnCaaub75K6OolPtC9JbYK7TeApFNVrJrHChJ9h06VFmyZRR-O82hiu-VsHywGDavXCKDxfmh584lxOM3JqhUA_d4FpHrzlQVy0Rv4bBrMm7aJJqLJO-UYEzMjtmk1IKHPyaCOcExi_oRihxV73nlR0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          },
+          {
+            "width": 1414,
+            "height": 2000,
+            "photo_reference": "AV-0GLeu5CV_m9fLKjics_8ZL2XSQSC9RZSnY5RT-DwmYZygaGPtoG1Xal2OaIDMz9c4EQgSsFOcnMBEKPScIwVi0_tLtu5oyLTdJ5dPbY9QgjYOahQogYgGWFvn62nRaUCra0e8YRn196X6aUW2pyEv-7-ttKwOT3WdjhYGD93_B0eNG5MvmlsHOa0Ux8ZpeEfgr2OpEGOhzvSJwxKeSypO6EKIhdoInEzmewO8dmXeNaMnAkUwaUy9esxtu22Bj8wg6wz-6DWug6Ld-uuhqcUZLPiOsBmzWTKNkRWaVKyv3wHKrhXHf-kC9gqVxJCMVMYLOnWAM4BxH94N69a4WuajkyZWQ6EGFFUuDJiHu4m6lnIT8aJTUL3X_z7-sNy0rw0VarUsBZ5sf73bjOyWEp6oRr5597g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          },
+          {
+            "width": 816,
+            "height": 1256,
+            "photo_reference": "AV-0GLf48NGKKuuldx6fAdIu7CSCLljjJIneU9NoxdyO_B1FfexELlpE_HPQJuCLVFlDWmAu2i1yJn-thHX6juMilhscNIgQJ8X949_WTIlVp-lgexp-TF2VSL6MIT12treNkjzRUXhDF24PyHL266xvoVJMwTbSwLevYPBXIfgPgg1lPC2FBcjormYqBIn2kSJ0DRDnEK7X_G7LXcm0Ws8ZfsGMTLatBoI5TfTDHLuDpQC3pWZabuzGEGwubsW7QqmKUHHFt5op5zIqvIbsgddLAYhR9EdUPylGj4t9jJYVZpkJYXmfNljJbShMbcdyQaihsEyOjb1m-jJqRTR0cbYmRzV7hj4azhJB_NYUX20a8T0zoC4X9w8PJkAAqE9hQ3iSYQjD7o4crEM5wx2ZTB_hGyx5Eg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115427887957350680784\">Brasserie des Barbes Blanches</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonne expérience du repas a l'aveugle.tres bon mélange de saveurs . expérience conseiller et de très bonne bière",
+            "language_code": "",
+            "publish_time": "2025-01-22T13:14:40+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Eric Guichard",
+              "uri": "https://www.google.com/maps/contrib/114601977575838048798/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIoPMMy0OSWeMFrBrkTtvRBp3Bfy0M1W38wx8Dll4yjrpgY0Q=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2023-10-21T10:53:45+00:00",
+            "relative_publish_time": "il y a 3 ans",
+            "author": {
+              "display_name": "jeremy debruyne",
+              "uri": "https://www.google.com/maps/contrib/111841003778855652004/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU4A99nhNSeDz8zMn4vl1afqZkwbaHb1hdOK8M7LuOP898ZDE2S=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une valeur sûre, le brasseur Baptiste fait du super boulot.\nMERCI !",
+            "language_code": "",
+            "publish_time": "2023-06-29T18:28:05+00:00",
+            "relative_publish_time": "il y a 3 ans",
+            "author": {
+              "display_name": "Pierre",
+              "uri": "https://www.google.com/maps/contrib/110325286883867566371/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKSwoj2ShKSpFp88RK1rH2DA_Jr-OsDlJUgL8Gain6i-7lwpQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2023-05-26T11:08:37+00:00",
+            "relative_publish_time": "il y a 3 ans",
+            "author": {
+              "display_name": "bruno fick",
+              "uri": "https://www.google.com/maps/contrib/100997492186611968605/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWh2rMliXGcBWLwOzNPYkHXZv3A7zNyAeG_dYBnltqVM1wl6i5ghg=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'ai adoré tout simplement",
+            "language_code": "",
+            "publish_time": "2022-04-07T14:36:01+00:00",
+            "relative_publish_time": "il y a 4 ans",
+            "author": {
+              "display_name": "Johnny Doolaeghe",
+              "uri": "https://www.google.com/maps/contrib/104742472635400427360/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUx0WxcC21Em-RjY2dylfn2QjxwsTpRhETCuwXDojUi5t6YtoV6wg=s128-c0x00000000-cc-rp-mo-ba6"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 5,
+        "user_rating_count": 18
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1158,
+        "bo": 120,
+        "front": 1038,
+        "estimated_cost_eur": 3.95
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "experience-originale",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« repas à l'aveugle »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.68,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« expérience du repas »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« de très bonne bière »"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« de très bonne bière »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.76,
+          "source_url": "izilife://current",
+          "evidence": "« de très bonne bière »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles sont limitées aux avis fournis ; les autres caractéristiques ne sont pas renseignées."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.75,
+          "source_url": "izilife://current",
+          "evidence": "« expérience du repas »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Brasserie appréciée pour sa bière et proposant une expérience de repas à l’aveugle, décrite comme un bon mélange de saveurs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-des-barbes-blanches",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {
+      "Hobby": [
+        "biere"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5675,
+    "changed": [
+      "ShopHobby:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "13e284bd526365731687d5d3407d291bddf607c01ea45b588d52eb3cdf03b598",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

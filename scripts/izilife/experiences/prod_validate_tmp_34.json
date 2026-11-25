@@ -1,0 +1,89 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:39:41.520914",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 34,
+      "title": "Balade en bateau promenade sur la Deûle",
+      "experience_type_string_id": "croisiere-en-bateau",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/visites-insolites/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "croisiere-en-bateau",
+          "principal_activity_category_string_id": "bateau",
+          "minimal_age": "7",
+          "additional_image_urls": [
+            "https://www.lilletourism.com/images/balade-bateau.jpg"
+          ],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "balade-bateau"
+          ],
+          "object_string_ids": [
+            "cours-d-eau"
+          ],
+          "occasion_string_ids": [
+            "verre-entre-amis"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "au-bord-de-leau",
+                "confidence": 0.9,
+                "evidence": "Le parcours longe notamment le bois de Boulogne et traverse l’écluse du Grand Carré."
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Découvrez la ville autrement : plus paisible, plus verte, plus inattendue."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 34,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 75,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:39:46.989771"
+}

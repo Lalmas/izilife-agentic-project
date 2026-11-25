@@ -1,0 +1,308 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:43:25.105712",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 47,
+      "title": "Atelier création de parfum à Lille (59)",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.funbooker.com/fr/annonce/atelier-creation-de-parfum-a-lille-59/voir",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "id": "47",
+          "title": "Atelier création de parfum à Lille (59)",
+          "experience_string_id": "atelier-creation-de-parfum-a-lille-59-lille",
+          "experience_picture": null,
+          "description": "Découvrez les matières premières et les notions techniques de la parfumerie, puis créez un parfum sur mesure à partir de vos senteurs préférées. Vous repartez avec votre composition unique de 30 ml.",
+          "short_description": null,
+          "basic_price": "130.00",
+          "price_text": "À partir de 130 € par personne",
+          "minimal_age": "7",
+          "is_for_kids": "0",
+          "accessible_for_kids": "0",
+          "duration": "2.50",
+          "duration_measurement_unity_string_id": "h",
+          "minimal_number_of_people": null,
+          "maximal_number_of_people": "10",
+          "experience_type_string_id": "atelier",
+          "experience_theme": null,
+          "experience_theme2": null,
+          "experience_theme3": null,
+          "is_insolite": "0",
+          "is_nocturnal": "0",
+          "noise_level": "0",
+          "with_equipment": "0",
+          "equipment_gived": "0",
+          "equipment_text": null,
+          "place_visit": "0",
+          "brand_text": null,
+          "experience_in_all_city": "1",
+          "experience_access_type": "acces-payant",
+          "experience_booking_needed_for_access": "uniquement-sur-reservation",
+          "access_link": "https://www.funbooker.com/fr/annonce/atelier-creation-de-parfum-a-lille-59/voir",
+          "phone_number": null,
+          "city_id": "1",
+          "city_string_id": "lille",
+          "source": "AGENT_INACTIVE_BACKFILL",
+          "source_url": "https://www.funbooker.com/fr/annonce/atelier-creation-de-parfum-a-lille-59/voir",
+          "raw_json": "{\"title\":\"Atelier création de parfum à Lille (59)\",\"experience_string_id\":\"atelier-creation-de-parfum-a-lille-59-lille\",\"city_ref\":\"lille\",\"description\":\"Découvrez les matières premières et les notions techniques de la parfumerie, puis créez un parfum sur mesure à partir de vos senteurs préférées. Vous repartez avec votre composition unique de 30 ml.\",\"short_description\":null,\"experience_type_ref\":\"atelier\",\"experience_theme\":null,\"principal_activity_category_ref\":null,\"access_type_ref\":\"acces-payant\",\"booking_needed_ref\":\"uniquement-sur-reservation\",\"access_link\":\"https://www.funbooker.com/fr/annonce/atelier-creation-de-parfum-a-lille-59/voir\",\"price_text\":\"À partir de 130 € par personne\",\"basic_price\":130,\"duration\":1,\"duration_measurement_unity_id\":1,\"place_ref\":null,\"shop_ref\":null,\"phone_number\":null,\"exterior\":\"non\",\"with_equipment\":\"non\",\"equipment_gived\":\"non\",\"is_nocturnal\":\"non\",\"noise_level\":0,\"participation_mode\":\"individual\",\"minimal_age\":null,\"minimal_number_of_people\":null,\"maximal_number_of_people\":10,\"is_for_kids\":\"non\",\"accessible_for_kids\":\"non\",\"is_insolite\":\"non\",\"experience_in_all_city\":\"oui\",\"place_visit\":\"non\",\"source_url\":\"https://www.funbooker.com/fr/annonce/atelier-creation-de-parfum-a-lille-59/voir\",\"inactive_backfill\":{\"experience_id\":88,\"staged_at\":\"2026-11-08T15:42:59+01:00\",\"original_is_active\":0}}",
+          "status": "pending",
+          "employee_id": null,
+          "local_image_path": null,
+          "file_fingerprint": null,
+          "primary_image_url": "https://res.cloudinary.com/funbooker/image/upload/ar_1:1,f_auto,q_auto,t_lr-medium,w_400/v1/marketplace-listing/xoxs2szzrdmnyfyu55cl",
+          "created_at": "2026-11-08 15:42:59",
+          "updated_at": "2026-11-08 15:42:59",
+          "hub_id": null,
+          "endpoint_id": null,
+          "discovered_item_id": null,
+          "fingerprint": null,
+          "principal_activity_category_string_id": "parfum",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr",
+            "en",
+            "es",
+            "de",
+            "nl",
+            "it"
+          ],
+          "hobby_string_ids": [
+            "atelier-parfumerie"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "evjf",
+            "anniversaire-adulte"
+          ],
+          "age_category_ids": [
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Atelier création de parfum + flacon",
+              "price": "130.00"
+            },
+            {
+              "name": "Atelier + flacon + échantillon de parfum",
+              "price": "160.00"
+            },
+            {
+              "name": "Offre duo - Atelier création de parfum + flacon",
+              "price": "250.00"
+            },
+            {
+              "name": "Offre duo + - Atelier création de parfum + flacon + boîte cadeau/miniature de parfum ou affiche « l’Histoire du parfum »",
+              "price": "300.00"
+            },
+            {
+              "name": "Offre EVJF - Atelier création de parfum + flacon",
+              "price": "1250.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Cette expérience inédite est faite pour vous."
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "vous rentrerez dans l'univers fascinant de la parfumerie"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "is_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Jusqu'à 10 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "moment convivial"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "is_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "individuel"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Offre duo"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'accessibilité handicap"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'accessibilité poussettes"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention LGBTQ"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention LGBTQ"
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "en plein cœur du Vieux-Lille"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de nourriture"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de café"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de thé"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de tapas"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de travail"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'alcool"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'alcool"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'hébergement"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de musique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de danse"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de terrasse"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de TV"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de WiFi"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Offre duo"
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 47,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 88,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:43:40.832419"
+}

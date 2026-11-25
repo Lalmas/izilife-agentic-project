@@ -1,0 +1,32 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Nom : « Boulangerie Pâtisserie Caudrelier »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « patisserie »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie-pâtisserie située au 112 Rue de la Gare, 59221 Bauvin."
+  },
+  "meta": {
+    "cache_key": "a69d0840f7651716ffaecf1e1818be14ee50ab88b8400903c9c4df9bcdb1e47e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

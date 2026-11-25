@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "Nom et catégorie : « Boulangerie Pâtisserie », avec des croissants et des chocolats mentionnés."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« acheter des croissants »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Ouverture indiquée à 06:30."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie-pâtisserie à Pont-à-Marcq ; les avis mentionnent notamment du pain, des croissants, des petits pains et des chocolats."
+  },
+  "meta": {
+    "cache_key": "b0624b4562920382ba2652fd3bc6bb106b3ee4b1077ee4e423d39b0610490be3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

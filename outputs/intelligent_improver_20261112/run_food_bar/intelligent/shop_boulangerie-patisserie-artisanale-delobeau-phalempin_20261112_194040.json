@@ -1,0 +1,563 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:40:40",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+    "status": "found",
+    "data": {
+      "id": "5621",
+      "name": "Boulangerie pâtisserie artisanale Delobeau Phalempin",
+      "shop_string_id": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+      "unique_id": "edc81293b980c127267f2c30f3c1d02f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "4",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54881",
+      "principal_cover": "54881",
+      "qr_code": null,
+      "phone_number": "+33320323463",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Rue Léon Blum",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0181697",
+      "latitude": "50.5167168",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:28:18",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:28:18",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ9cQ6PB7TwkcR24PwFsvquSE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ9cQ6PB7TwkcR24PwFsvquSE\",\"rating\":4.2,\"user_rating_count\":127,\"google_maps_uri\":\"https://maps.google.com/?cid=2430231631927215067\",\"fetched_at\":\"2026-11-12T19:40:31+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très agréable pâtisserie au top est le pain polka est céréale simplement une merveille\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T10:54:20+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Bruno Duquenne\",\"uri\":\"https://www.google.com/maps/contrib/106788303818218135792/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLsMTM1MWAL0q9CgH2n4SRSq7mD8y5QnKOClmd6sFNeaFpkjrI=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une merveille de boulangerie pâtisserie :)\\nTout est excellent et que dire de Jennifer toujours avec le sourire…\",\"language_code\":\"\",\"publish_time\":\"2026-10-10T08:52:53+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"jerome bellanger\",\"uri\":\"https://www.google.com/maps/contrib/106327195635592136001/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJWTvgPwKuAfUo_g96dKs3iTyR20YxMfv-VyyKx1qQwdkShTA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Accueil chaleureux et bonne humeur sont au rendez vous au quotidien! Merci pour tout!\",\"language_code\":\"\",\"publish_time\":\"2026-10-08T08:25:22+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"PAGNIEZ Grégoire\",\"uri\":\"https://www.google.com/maps/contrib/106777480158731889552/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX6_XWe-aOxvmac6opoRlYbX5Qzv3ppw88ax6kwzTQ20OQ5CK5S=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super accueil\",\"language_code\":\"\",\"publish_time\":\"2026-10-06T06:03:19+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"maryse breem-lambin\",\"uri\":\"https://www.google.com/maps/contrib/104899310036723823675/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocI5u3dx5errQbSbnWBTUYyHeQGfLUqXnrntDsRCs2tmnPtDsw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-10T08:00:58+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"ALAIN DUHAYON\",\"uri\":\"https://www.google.com/maps/contrib/108189897695784104793/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKl93QgOZ8gZwLFFTIVAgLUhJH0tZKgWYyH2oDsXIDyPTxXPw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:40:31",
+      "google_reviews_place_id": "ChIJ9cQ6PB7TwkcR24PwFsvquSE",
+      "source_id": 5621,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+      "primary_category_ref": "patisserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "boulangerie-patisserie-artisanale-delobeau-phalempin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54881",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5621_6af39a8224893.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4682",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32509",
+            "source_hourly_id": "4682",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32510",
+            "source_hourly_id": "4682",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32511",
+            "source_hourly_id": "4682",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32512",
+            "source_hourly_id": "4682",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32513",
+            "source_hourly_id": "4682",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32514",
+            "source_hourly_id": "4682",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32515",
+            "source_hourly_id": "4682",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+      "google_place_id": "ChIJ9cQ6PB7TwkcR24PwFsvquSE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:30 – 19:00",
+          "mercredi: 06:30 – 19:00",
+          "jeudi: 06:30 – 19:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: 06:30 – 19:00",
+          "dimanche: 06:30 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLfly8CVFBnI3BUUA72hP47fFk7esf2O7TjMQABeTQwMfh4O8lYSH1uJFzfeHbc2UW7j6FTeWVvbymNb1c6hPy9Tz2ihkNdwLjklmWqgSaQVc5nv3MHluJqm3HrcPV4S_Jw7sgOLZQYRXK-PlOf2AvM008IrDA5SHnU7jkoGyx4woyHiJdA2chLWPHnXe83C9D4opCtFYIbDMvldjmmcyE0Y0saHhNhV-YkOzHZbR7hSPuGKXgxCOTlFTcfR1ptLISkmtZl91YSpaHNsSUNnheNhU2ARt1TJTiNP7BunrCm0LGNLzEd1ywp3qtIlBAepbfV6dpx8rMM4NSmG8YqgEA9zm_Pzmixq1B1yPh4M_IKZ2c259WCsZYqe2WqRcOhS9v7xmy5Dn76t1OJ5QY2_bYkp_KFJGtTP3xdVP8PRLFlO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112839112182076692525\">Boulangerie pâtisserie artisanale Delobeau Phalempin</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLe0hNrbOJNgPbmZRUuDoyE649Y2R2Un7i7uALrDX1ldJeV_WZ4nbvgiQYKBp_berL0r4L2yU7aExn03lecCclXqC6HRJGfLVVLSuoq6-iTyBuX049mIB4cm6xGT7-bccdAL3U6BRXFwQyt4QA3sgYf7bjCkXpDlXcU7pmQOFmV2dzJ-0glP7M0I2lAkF8y29Wda0mWM8XgDQvAKwr6CWeXGDkVynbJ_ag17lmdzRNhvMUVpm9W0CQMELzgeJFLTwH8o6E1WEa6raAtPFe3-wNGdwheBb_FgUJTTQ7nu3iRnMYoR3f8jJgE5slWpFMtM78cnJQM39MJWlG3DamSwgKhC5lSi9bDEvHoMddTwyf8cort8gd3vCucpLabCHv1KNZm5loBgU5Z8xDppOL3FW0vav5tWoaQIJfsPOQCBKzbl",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112839112182076692525\">Boulangerie pâtisserie artisanale Delobeau Phalempin</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLfyyAzP7ZMwT7CMzoI_HLb_SG3N6I3KFtFef3zUbigmFi9WHKINAyDtZhPwZrZlzeRp7UapXuDxQ11tEWICZaWgFHQMlqw1Q5Px3kqQUV78K5qvICQQMx7aKS5T_s6GliohvEyQXSgt7s7r4RtSrYfcs60K6ViklLVnepjN9OdMNBj0KNBs8ZVe5OAxO69Nf8raJ1qimX3quZZMt89KcrDhkpYp6nZRufjFUKL_aLHwC_2U24Arg-rXrsPKsXL7qXUqI6rstifndMMf4JOlRIZEsPKFrM3dmeUB4D5-1GBysECDoIX3oZtZQ0qihO2Dnt_w1-t1HGIZnoPl-xz1dk7XJHIiAXY0FaUjSSbwZnrjhm9dxIzOFBFDO1et9IzCX0Xm1hidyrADd2mea-t7RiCTpXBA_e7uueRcge7Zuy8B5g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112839112182076692525\">Boulangerie pâtisserie artisanale Delobeau Phalempin</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLdr_yo6qrX6gIs_9PMBIbnKFdI6ksWxav76hkbZAUgMGUz1ua6YSxY8SbM9Snuf3haOH96SAA4sbm1bWUEmwmVHccbGGPH28opPeycnc-XIxvdKGgYsPI1wfKGRJGhIdVe6e58XCu0YFG9t8g3xDeE-hsWc-lLlCTlpWgnKVeGuYGMOT6AQwIVBzQ1kqMso41N1unTcK7MnWQHuqH6Tw7oaQ7NyfjVRigBSsRn3jWL1EHghk1z4jm-Hx1yV0GsZmoYDvjygOL9gMImdD6_sgFyaJx-c9EKh368s8CtHu15dcgiWlJw2Azgp3JRjbR4sdsCPrRTRW3nrv_oIZEzeRjU4MgUQ04YCeOyY5COinmUi0FMoAGhJpBb1N5BtnptAmw6_JSWxKWDPxMJ3MYkoSM8iaCR5LPAe1_2IsrljkCGHiw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112839112182076692525\">Boulangerie pâtisserie artisanale Delobeau Phalempin</a>"
+            ]
+          },
+          {
+            "width": 3200,
+            "height": 4800,
+            "photo_reference": "AV-0GLfJzrtfGO3_3nWANxqEGR6k11_42LUMEHuRHZJn54cACqVhmE0kx3vZdOE_lTmzLx_VHfIZQX6us7QoTHbd7Fcbm-bcTjrf_SrVTMxQJAEuMeRhH8E5sXbR2lsXcO3L_wjcYOubmoe42McPbHZLsCtbi8K6AYjxyrmGKgXFJkmK47paJY3scg5OjWc89onAiMRfz8YzASB4Nb_ciC2lVQPc4l420AkG60-9NXKbLCIzDzSkKLOSaDSXLpl_69Q0PtktNBbjkHcyXGdYJTS91ZjGozOROPq8pZZoB-lGKQA6ICqueJo9PeAQoognbn8VrHbE61JO0XpT5laaMLYGD47PRMYWC5ejAgpAk04AEwPLYWN7zoLv4zMocbhBh0caXKNRX2esi0L7rx9yRXsVnF-Ehd-XAKCV3ZrSt-QNmkFNvw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112839112182076692525\">Boulangerie pâtisserie artisanale Delobeau Phalempin</a>"
+            ]
+          },
+          {
+            "width": 900,
+            "height": 2000,
+            "photo_reference": "AV-0GLcrU_a0IIq_CUM7TXxAxQjWgr--EITkJeo5QMjK2alMUxZATnZnUJq4-HKpUou3GpZQx_D2T7Hd2Sh3QK5tOrpqqWDSfbxZohINFHyNmxQP0FXYT2bRz2taoCEDssksOuqP1cV-440RaTxr6wqDs8_UjQowiEh23D9T0YwCBwmDUJOCzpSuqp0pZ5sSY59HnoT19Mu0COLYvhr2q1W1KqUuBO6AIoA9KihDcR4nHa650arK8bV_IFY3RnwAksYRHTSKy7NZqE4g2rMXJx6I67unp_ZLq_hNu9hzPFfWa9TFnBKgzyeK3JJ0tHulFj29VjCXM_xUDdBVKSCCzaGw4QXgyuJWZWIBdQxkH4X2nyDgIFtAwxouOP9xlrbAQ_qP1cQa9kSoLJxd_tXvkofSwdPiDg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107922066703412906068\">Manon C</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLfaIssMeAbpToMH9qYTXLrvnt1CF8MnTJtrWIbKytgqAFsxDfxc8BI6eO6Yc4ET6MoVdkmNqlQDMX_6FFu5Cp_yevYpU-BBnx5sATJz_lRDxpSxwZfKRidPCo2SgrgVUJ4GWdB4dgZRTZxfOGKA3oFrl8-_wFdF7nUjeufpzvTMJvxupY4YRI9Sxc6CLqcemH7_lqEYrjlzUuLuerY5wt01m0rHqQpzY2tidP9J0FV_t2xfYbyCcj_u50XgnSqTAlA0fPQWc7aJt8EYtBWN-5ZY3TZmxZ0b6kBfphbg8jDpnER9Y_StFWZ--Bq3Qxe2DfJOySsYQlVdiJzUJGz1uyDMlda1O01DZ1KRl4KjyOk9Yxl5TW_560K2h8lsGwgF4iWWru5tjuEZ_7dtMK9sT2rTfB0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105843129263160462811\">Rémi</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5621
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très agréable pâtisserie au top est le pain polka est céréale simplement une merveille",
+            "language_code": "",
+            "publish_time": "2026-10-30T10:54:20+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Bruno Duquenne",
+              "uri": "https://www.google.com/maps/contrib/106788303818218135792/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLsMTM1MWAL0q9CgH2n4SRSq7mD8y5QnKOClmd6sFNeaFpkjrI=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une merveille de boulangerie pâtisserie :)\nTout est excellent et que dire de Jennifer toujours avec le sourire…",
+            "language_code": "",
+            "publish_time": "2026-10-10T08:52:53+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "jerome bellanger",
+              "uri": "https://www.google.com/maps/contrib/106327195635592136001/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJWTvgPwKuAfUo_g96dKs3iTyR20YxMfv-VyyKx1qQwdkShTA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Accueil chaleureux et bonne humeur sont au rendez vous au quotidien! Merci pour tout!",
+            "language_code": "",
+            "publish_time": "2026-10-08T08:25:22+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "PAGNIEZ Grégoire",
+              "uri": "https://www.google.com/maps/contrib/106777480158731889552/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX6_XWe-aOxvmac6opoRlYbX5Qzv3ppw88ax6kwzTQ20OQ5CK5S=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super accueil",
+            "language_code": "",
+            "publish_time": "2026-10-06T06:03:19+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "maryse breem-lambin",
+              "uri": "https://www.google.com/maps/contrib/104899310036723823675/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocI5u3dx5errQbSbnWBTUYyHeQGfLUqXnrntDsRCs2tmnPtDsw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-10T08:00:58+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "ALAIN DUHAYON",
+              "uri": "https://www.google.com/maps/contrib/108189897695784104793/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKl93QgOZ8gZwLFFTIVAgLUhJH0tZKgWYyH2oDsXIDyPTxXPw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.2,
+        "user_rating_count": 127
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1120,
+        "bo": 82,
+        "front": 1038,
+        "estimated_cost_eur": 3
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Une merveille de boulangerie pâtisserie »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« le pain polka est céréale simplement une merveille »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "« Boulangerie pâtisserie artisanale Delobeau Phalempin »"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "« Boulangerie pâtisserie artisanale Delobeau Phalempin »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Boulangerie-pâtisserie artisanale appréciée pour ses pâtisseries et son pain polka aux céréales. Les avis mentionnent aussi un accueil chaleureux."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-patisserie-artisanale-delobeau-phalempin",
+    "operation": "ADD",
+    "tags": [
+      "excellents-patisseries",
+      "coups-de-coeur"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie",
+        "patisserie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5621,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopHobby:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "aa331242fba97a66cb56db8e323e0361b27f72042fa38d9a75af255baf9dec2a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

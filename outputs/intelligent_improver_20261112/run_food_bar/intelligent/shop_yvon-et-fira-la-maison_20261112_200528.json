@@ -1,0 +1,748 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:05:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "yvon-et-fira-la-maison",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "yvon-et-fira-la-maison",
+    "status": "found",
+    "data": {
+      "id": "5725",
+      "name": "YVON ET FIRA - LA MAISON",
+      "shop_string_id": "yvon-et-fira-la-maison",
+      "unique_id": "ae21d423b67013ffd03ceb43d770f0f3",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54984",
+      "principal_cover": "54984",
+      "qr_code": null,
+      "phone_number": "+33328049781",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue Séraphin Cordier",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "20",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9595267",
+      "latitude": "50.5182281",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:40:26",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:40:26",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJT1CAbz0t3UcRTZ5YTAj8iqA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJT1CAbz0t3UcRTZ5YTAj8iqA\",\"rating\":4.9,\"user_rating_count\":234,\"google_maps_uri\":\"https://maps.google.com/?cid=11568335705425354317\",\"fetched_at\":\"2026-11-12T20:05:08+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Un délicieux magret de canard et une succulente pavlova aux fruits rouges. Merci !  Je me suis régalée !\",\"language_code\":\"\",\"publish_time\":\"2026-10-25T19:26:59+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"dd dd\",\"uri\":\"https://www.google.com/maps/contrib/105313819657708380893/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWTaIoWPfVXeWYNpxpAdXpVkr-0ZC3StCGOhh7yCCzLlaNJIzuo=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J'adore les boissons au lait végétal, l'endroit lumineux, grand, on s'y sent bien ! Et lea gâteaux sont toujours trop bons. Les prix sont très corrects. Franchement, que du bonheur ! Dommage que ce ne soit pas ouvert 24h / 24 et que ce soit loin de chez moi ! Un petit cocon pour être sólo ou accompagnée.\\nIl y a aussi des jeux de société et une boutique.\",\"language_code\":\"\",\"publish_time\":\"2026-10-23T07:15:00+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Marion Sacha Tk\",\"uri\":\"https://www.google.com/maps/contrib/115331633969756190327/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU5oMwWCVJA-JyXjD0ytWzK6VZAN6XR8o94B252LNKy3_KUoss=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Bel endroit spacieux et sympathique\",\"language_code\":\"\",\"publish_time\":\"2026-10-11T05:47:32+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Laurence D\",\"uri\":\"https://www.google.com/maps/contrib/117265227273020212570/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJBhpmY8kQAVeF33yPSJPdZVC3zP4wBJyS_VIwQqiWElWfV0g=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un lieu atypique dans lequel on se sent accueilli, très important pour les clients, le sourire, le savoir-faire, le savoir-être et les propositions sont étonnantes et les plats fabuleux , même pour les bons mangeurs ; sans parler des gateaux faits maison !\",\"language_code\":\"\",\"publish_time\":\"2026-10-07T18:47:08+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Br Crun\",\"uri\":\"https://www.google.com/maps/contrib/113940277301411927238/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIsnLrBmO9PQJz0biYzJ0J4cxokkau_OqhDHXKuZvclXp2WHA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un lieu très agréable pour venir manger un bon repas comme un bon petit goûter.\\nLes produits sont justes incroyables et le personnel super accueillant et gentil.\\nJe vous recommande cet endroit à 100%\",\"language_code\":\"\",\"publish_time\":\"2026-10-02T09:37:08+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Clara Constant\",\"uri\":\"https://www.google.com/maps/contrib/100846926093017496284/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJHQPPuz4uzzBaX7aDLVwmkmbgy6piXewDY8N8JCRuQZe06tg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:05:08",
+      "google_reviews_place_id": "ChIJT1CAbz0t3UcRTZ5YTAj8iqA",
+      "source_id": 5725,
+      "scope_type": "SHOP",
+      "scope_ref": "yvon-et-fira-la-maison",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carnin",
+      "string_id": "yvon-et-fira-la-maison"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54984",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5725_6af39d5acf9fa.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4784",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33223",
+            "source_hourly_id": "4784",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33224",
+            "source_hourly_id": "4784",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33225",
+            "source_hourly_id": "4784",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33226",
+            "source_hourly_id": "4784",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33227",
+            "source_hourly_id": "4784",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33228",
+            "source_hourly_id": "4784",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "18:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33229",
+            "source_hourly_id": "4784",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:30",
+            "closure_hour": "15:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "yvon-et-fira-la-maison",
+      "google_place_id": "ChIJT1CAbz0t3UcRTZ5YTAj8iqA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 08:30 – 18:30",
+          "jeudi: 08:30 – 18:30",
+          "vendredi: 08:30 – 18:30",
+          "samedi: 08:30 – 18:30",
+          "dimanche: 08:30 – 15:30"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcDYi0Mt3aZ3yz4v45MriHjrfG4c40cnn25ACQJZdkZo3cjb7z0uktXgWHrZC-cUimfYBnkcBH-s6o03IFdpoM1Qccw_lQtGhZODWGEazpaFPO5jDlwNOW-krFXeqF-y8DD1L9Y8i1PtVuMCCK3FtyBY0cypp90NzQiGSbBzDl9ihztdNWnLIz7sczOmd-ZLFjpN2w1iVs5v7vez6DJh0Is1kPzcx2dg13rG5NHVHRbspUXr6oDcpLWA93r51aRr_J8B2TtdFjfoIgwopRFbxhvDRQwl3oA_KnmtccIdm4-2MBB_f-x5cUpJUmwVo0nGBQdaaVjyMpE7aTCKCkEwOw3GTl0xSnhN9FaLTRoRvPbdIXW-tmVTIaWfOiTuMTg-1EFU0A9pVTWs3MRgZvMsfB6qBM8_v02nJt6qKKo_mFwgQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118040596198277724558\">Tom</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLfvSpXJ97rmy-p7SoOT-RQy_VAMg9sDCQnruVP1_tvyEI9R0EVK4FK-w-u_GJpzUwgSZYB0a_C_nWacXJrjK3G29pL-uPsxvXiDtrRtL3N_12J_EFimLLiivJIroZEckamj57omWYSGDFZwpEFfkmtWtTwniyXj7iN9jw2IZ8PsjjANPLNzZWBOaJc61KB0QSU0lBGHrJbRQhhCPZtdJKsSS61YGHiDBaFtD0MuWAHP7NUNt2WZZ3EH0UTTBCU1YDW9f0_rlV-Pcmef3JTSXEiyvE2xFLIlfsRxAZcEGRDIoHHBrNVTpGR-wfRb6ulzU6MWaqMouwew7a8gJFvEylFz3gQ_KXsMcC9vW9kPxBZa5_zeUBEUD8LULGO2j5_2G_VpOdrA3g0oOVCZfli7NFyLuQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102452109860055409396\">YVON ET FIRA - LA MAISON</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeP5z5IamL843tbhS7ZTgvUDUSa7PQg06czfpzaMR85ffIMhIaq8qIOxAUDDDidbsDR_BNcWtyb90JvkXx2-D7xlQT1tyAS3RB8DwnaUPuGxo5L0sIBaMuT465EZj0AvxIjUoORsxdgUyrZg6vxmn5oZ9whhdEBnubDC0dlllbs-_s1vR_Jz81tjlhyUqKEStUYRG0HiifPXKKeThe66dgpK9sjMyl6mXTZXSfoorGvyDDGlvCF6TskpIE2odSkG17q7GuonKLdw_AGE86YDoOfT5ko8XSWhQ5pshvCIYOrzVzEJaqGWUB_WautlWDa6xr0T5iUSTYtKHbCjxBkPCwEwZYkOuNih-7ydkORBTCqR9M3ACUQN0X8ldyj9VbBtMQnSPb5NKQRGGHydH2FhOTqfiDb_zIb2Lky_IDIrrMoWg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118040596198277724558\">Tom</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdoo81Z1VxCeHZZDSb22fWCsBEsPEsJPjE-fA77ME7sH7h20CGR1DbbenJEGvSUvDr0RBApYEm3EKg1NKJT8Pac7pCYNdtfUW-_ibm4JFa-G58mbH4W648CjuDU2AtB_c7UbskaSZ_1fDbyxhPXsNm84XpyO4ItcGxCtjwJtEpUWrmcRIfFTGub3K36Ud1YIX8GQCBBHPi7Rv9x0oAg8KHk7PYWIFVdXnE2cJtfKRdR04iW5yXvTeA1rRgZ4WQBy2o0xud3NZ6SXuUlKVCtEtk1pUF2Bh3oKgZfPO224MmRz_swWPAHnvmONVJZVx5pKjXHwN5lU8pnHCwLQj2G5eKqjHfFh-cUIl7cS65Uye4YmX3LvFg6afSTRC3cfWwZc0i3qd9YKt8u-1nLCv-nmeHzFUuWPYGwMrXfhkmk1iWI0Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118040596198277724558\">Tom</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLemtmAICfh_xG07ZV5grXnUEO0KUFEtujzm_4B36db8yePyQsl8TjsM57QsaNpsBnTmJh0TsCcPTPcDl-HHLKuCbiadeHeBZ1PeBVspLGqzmkH7MRiMcz_0314nVpm9qdK5O-AzV6dQrjRjQ0flw1gNpj3CEKzOyJkjItR2kJCLMQdu2R9L7j1wrnSx_pGTe_DvZQy54OkfF_J5vmsTkQH_J094y0jPByUTAawHUW4p0MLmJeZ4K-5x8LUd1YvQUzLT8UwDBf9MJw8uljCKXyMNfHzPNPEmQPtRGahaff_b8ePMWyFHy-LvvMCoXVOpBMZyMhjj5_3GvcpsLzWHvqPmJlDgbx4AwIO4uV52-fMNXyy-eAbJoB4HvUI6fdpVJkdCjL2qL4UbfGOOe0cGFo20CbStTdaLaiVQDTCS0Eb4WA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118040596198277724558\">Tom</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeIfoZl1BU1qCbq4eKcNqGXrFtapZXaB7zEQgDaTUyX6A5BLhlMquAG6RI0FjK7RNp3cDQyP3Q6XCVyLZL9YPmAMM3kKVyEQ5Wkj1VU1Ij22atC72YIuADbgZ-oHldwjFfjmOBCe0izKNCBrDzp8pXlCBUPrPFXm0k8VZcxcflZweqTIHbMLbTFkwycapwYG7DqfPxToy1IznkEmogUd8zuCufNmlS_4yzqreJeT1n-hYxYC-uvuY3sVRsvxazMss0V6KqAYUtFItMGM61nDo-JH-Rlb9JvG0tyhOVD9duJxmnlbRePXqkF3i_FBLpHMjhm8j-j1F6Qe6EgXzMJJvfMNCwRpQKfH2oZTMOrFh1DZq3ze0mUI-2lqI4erXI0eVXr5eCDNmF8N3EjVuGHR4viDvSqvGsqDUh2ORxXk1kF",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108940275199264533528\">Mathieu RENY</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLcDSE5CnQl1G6yXNw3XYvxBoPe64ZyPnRbUknrQlWtpdA8UqsJaGvZ-TEyKQZjwyKsgC7ij0QyKR0jgT1ECkUTFu3y5rNSviON3zODL3OfwCY-pxFPu5eoUJfYlcNEPV0UH5qtLhpHFk-bIoYVAIofT2I-_37fBnqfhpusYkUL_uDZEzKsAskCK5jRG9D0cgWq4mFqQGrhv0ubng04MyuzDoSS140grlPDyqRF77VUoSKJpkIcPf3FDHByK-o1MFldfLpeojTgqaDaHRqyOTYwonT0NKvYMKJ2f-_-LrFGMirIK13jPeFRsGlqjGU_6s3w1FrGDAOWqODxNJi_OVq4rf6IXMg88KjlKp5_FSkE7qUIH4n5e7AQutvVd6AcOfT2zYXH756G484Yp8LEIOtiDGpWgSimlC2uUhaZjnjB26w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114178499119963067931\">Werquin pierre</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfG-I-jy757DNd2T0qYnxfg5I98jg4h_wSnWxm73agZAgCM7gC4chyc2fzHGOdIgVdUERi-DqvKawPojP7TV7SNBeZyFbaezZmj8Vm32SRo-PZwpHazqeA6RegHvW1pJGSNbUI-SoBT9JT85clPhr1TGuR16fYZofMz1MCs9CTwkX4EuXdi_sgVwvBhI-2CIv3z-5DxqLcQLtd7R0ALdweTAETghsRZe1PbXknHG6NqEGi9zY03YkeZIRqFo0qKOqrrvt_Tgvhx33WYaCmJ5v4x3YIFfacqlIuBLVyVzwIBlm4w1FagXZ_Ht5z_jUZLJSMTbu95mimlI8qu3MCE7hlx2Zj-WjQ1fyHT0lX3pwNiBYJkPaC80R6oc9pVcFaFTTEm_S5MJx6NsfpTOmCF_3EeknxoZgqJMh1yR6hwl6WN0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112855624154064584119\">geoffrey selingues</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdGe4aavl7T4l8Z77_ieTQ4R2C2qF26QlhBhrKKLRkfzNG1jc2XPZ_sa32Gq_DbTWaTlYrvnwrVQ3JiPcTm_dM5XSt8CC-iNmxEvPozGcabiZvy26pECp3gkKHDbtOVf2oFYryaOuARnukWxCAHU1bp5aMHsWhrA5F_N8ZmsFMYS6wzCG1lN_BvNKPZaWopoBaYhPRFK_3agevOiI8bBj757bky5n91UfACjECfqluxPpZjGYzNb4u0gbK9VKDbzb3vNeXQmwRXwPsE3O5u_MNDmMQOdnbRC67WbdBFsVk0zlHT-koiQZb553F5KIhu5duxTDP6oLAIYKD5UUJwHcr7uoYCCxhHvWZe_9wAvLle03_xc44XqXRXeaCIRzoBe4rUChkndy0j0evOHpYplXi-kpMnxsM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117045750329579809535\">sabrina loria</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe6d9cgewGSdW4uA0E-ROhVYNk4ghtQr1ox-R0f0gU4Qu-2y0oE05r3l9W3nAkH0_y24Qj4reBS7sowstRwaEU0z0X6FesVl-Z3N4T7En4UUZV0TweQ-ng_ORaLpLShL9dYeb7y15HrmozLfySjPfLhULToK53YJbcIBxxwlTj7x2wTBB64AvjVfQwolIBMjMjm9faCQz2bQ4nRzcTO7dQvkHelSnT4PWNjSnEEP7YSgaLPNLqMS9sXdH1QbDrQHlHp-faAVKsCJij5iwSxYWd4PXcnI3kz7kwFKiI3phZAVAHw7Jxt7Pu4nSTqw821SARxUJvmoXz5rVBFLVOA4RvkBirg-fgiQMILOinK1JGXpHVqempANVpXgwdqDaHyGGTCwgqwncs_GLzAEJOe3pDjpTI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108940275199264533528\">Mathieu RENY</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5725
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un délicieux magret de canard et une succulente pavlova aux fruits rouges. Merci !  Je me suis régalée !",
+            "language_code": "",
+            "publish_time": "2026-10-25T19:26:59+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "dd dd",
+              "uri": "https://www.google.com/maps/contrib/105313819657708380893/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWTaIoWPfVXeWYNpxpAdXpVkr-0ZC3StCGOhh7yCCzLlaNJIzuo=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'adore les boissons au lait végétal, l'endroit lumineux, grand, on s'y sent bien ! Et lea gâteaux sont toujours trop bons. Les prix sont très corrects. Franchement, que du bonheur ! Dommage que ce ne soit pas ouvert 24h / 24 et que ce soit loin de chez moi ! Un petit cocon pour être sólo ou accompagnée.\nIl y a aussi des jeux de société et une boutique.",
+            "language_code": "",
+            "publish_time": "2026-10-23T07:15:00+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Marion Sacha Tk",
+              "uri": "https://www.google.com/maps/contrib/115331633969756190327/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU5oMwWCVJA-JyXjD0ytWzK6VZAN6XR8o94B252LNKy3_KUoss=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Bel endroit spacieux et sympathique",
+            "language_code": "",
+            "publish_time": "2026-10-11T05:47:32+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Laurence D",
+              "uri": "https://www.google.com/maps/contrib/117265227273020212570/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJBhpmY8kQAVeF33yPSJPdZVC3zP4wBJyS_VIwQqiWElWfV0g=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un lieu atypique dans lequel on se sent accueilli, très important pour les clients, le sourire, le savoir-faire, le savoir-être et les propositions sont étonnantes et les plats fabuleux , même pour les bons mangeurs ; sans parler des gateaux faits maison !",
+            "language_code": "",
+            "publish_time": "2026-10-07T18:47:08+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Br Crun",
+              "uri": "https://www.google.com/maps/contrib/113940277301411927238/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIsnLrBmO9PQJz0biYzJ0J4cxokkau_OqhDHXKuZvclXp2WHA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un lieu très agréable pour venir manger un bon repas comme un bon petit goûter.\nLes produits sont justes incroyables et le personnel super accueillant et gentil.\nJe vous recommande cet endroit à 100%",
+            "language_code": "",
+            "publish_time": "2026-10-02T09:37:08+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Clara Constant",
+              "uri": "https://www.google.com/maps/contrib/100846926093017496284/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJHQPPuz4uzzBaX7aDLVwmkmbgy6piXewDY8N8JCRuQZe06tg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.9,
+        "user_rating_count": 234
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1194,
+        "bo": 156,
+        "front": 1038,
+        "estimated_cost_eur": 4.85
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« venir manger un bon repas comme un bon petit goûter »"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« une succulente pavlova aux fruits rouges »"
+      },
+      {
+        "string_id": "bien-en-solo",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« un petit cocon pour être sólo ou accompagnée »"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Il y a aussi des jeux de société »"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« un petit cocon »"
+      },
+      {
+        "string_id": "insolite",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Un lieu atypique »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« l'endroit lumineux, grand »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« venir manger un bon repas »"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« un bon petit goûter »"
+      },
+      {
+        "field": "adapted_for_alone",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« pour être sólo ou accompagnée »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« un petit cocon »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« personnel super accueillant et gentil »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Un délicieux magret de canard »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un bon petit goûter »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "canard",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« délicieux magret de canard »"
+        },
+        {
+          "string_id": "pavlova",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« succulente pavlova aux fruits rouges »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« gâteaux faits maison »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "jeux-de-societe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Il y a aussi des jeux de société »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "boutique",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« et une boutique »"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information probante fournie sur l’accessibilité, les moyens de paiement, les modalités de commande, la musique ou la terrasse."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "excellents-patisseries",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« les gâteaux sont toujours trop bons »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« venir manger un bon repas »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie-café accueillante et lumineuse, appréciée pour ses repas, ses goûters et ses gâteaux maison. On peut s’y installer seul ou accompagné et profiter de jeux de société."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "yvon-et-fira-la-maison",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-gouter",
+      "excellents-desserts",
+      "bien-en-solo",
+      "jeux-a-disposition",
+      "spot-pour-se-poser",
+      "insolite"
+    ],
+    "principal_characteristics": {
+      "interior": 1,
+      "can_eat_here": 1,
+      "can_have_tea_time": 1,
+      "adapted_for_alone": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "cosy",
+        "chaleureux"
+      ],
+      "MealType": [
+        "dejeuner",
+        "gouter"
+      ],
+      "KnowedMeal": [
+        "canard",
+        "pavlova",
+        "gateau"
+      ],
+      "Hobby": [
+        "jeux-de-societe"
+      ],
+      "ObjectOnPublicPlace": [
+        "boutique"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5725,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopKnowedMeal:+",
+      "ShopHobby:+",
+      "ShopObject:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "db2228996f0634147fe8f573303898838d885acd9ce777ef51267029591276fd",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

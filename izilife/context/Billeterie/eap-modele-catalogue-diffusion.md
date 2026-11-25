@@ -154,7 +154,8 @@ Une fois l'EAP rattaché à un Place ou Shop, son périmètre local peut être :
 Les liaisons existantes sont :
 
 - `LocationEAPUseForCategory` ;
-- `LocationEAPUseForEquipment`.
+- `LocationEAPUseForEquipment` ;
+- `LocationEAPUseForService` pour diffuser un EAP supérieur vers un ou plusieurs `ElementService`.
 
 La notion actuelle de « diffusion » doit être renommée en « Périmètre d'application » lorsqu'elle concerne les catégories et ressources internes.
 
@@ -174,6 +175,14 @@ Une clé artificielle n'est pas nécessaire. Les références typées `PLACE-{id
 - action « Dupliquer » pour accélérer la création d'un EAP indépendant ;
 - choix « Tout l'objet » ou « Catégories sélectionnées » dans l'ajout et la modification ;
 - badge de périmètre dans la liste.
+
+### Prix différents selon le périmètre
+
+Une liaison de diffusion ne modifie jamais le prix. Si le prix et toutes les règles sont identiques sur plusieurs cibles, un seul EAP reçoit plusieurs liaisons. Si le prix, la validité, les limites ou les conditions diffèrent, chaque contexte reçoit un EAP local distinct. Ces EAP peuvent être regroupés sous un EAP modèle commun grâce à `is_template` et `is_variant_of`.
+
+Les trois tables de périmètre sont many-to-many : un même EAP peut viser plusieurs catégories, équipements ou Services, et chaque cible peut accepter plusieurs EAP.
+
+Un EAP appartenant directement à un Service porte `ElementAccessPrice.service_id`. `LocationEAPUseForService(eap_id, service_id)` ne sert que lorsqu'un EAP appartenant à un niveau supérieur est diffusé vers des Services. L'ancienne table `EapPrice` ne contenait pas de prix : ses liaisons uniques deviennent des propriétés directes ; ses éventuelles liaisons multiples deviennent des diffusions.
 
 ## 8. Experience et Sessions
 

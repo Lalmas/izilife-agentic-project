@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3331,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "La catégorie existante « stand-up » est précise et cohérente avec la présentation d’un spectacle humoristique solo de Rémi Boyes.",
+      "Le texte ne prouve pas une forme de one-man-show explicitement écrite et mise en scène, ni une programmation de plusieurs humoristes."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le texte source ne nomme pas explicitement la forme « stand-up » ; le classement existant est conservé faute de preuve suffisante pour une recatégorisation."
+      }
+    ]
+  }
+}

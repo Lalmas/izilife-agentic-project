@@ -1,0 +1,139 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Au Bureau … Pub Brasserie Restaurant »"
+      },
+      {
+        "string_id": "diffusion-sport",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Sport en direct »"
+      },
+      {
+        "string_id": "bien-pour-afterwork",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Afterwork »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Afterwork, Burgers, Bières »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Restaurant » ; avis : « un repas agréable »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Bières »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Pub » et « Bières »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "vintage",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« décor anglo-saxon rétro »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« restaurant » ; avis : « un repas agréable »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« restaurant » ; avis : « un repas agréable »"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.83,
+          "source_url": "izilife://current",
+          "evidence": "« Afterwork, … Bières »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Burgers »"
+        },
+        {
+          "string_id": "brochettes",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Les brochettes d’onglets »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "afterwork",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Afterwork »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Bières »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« Pub » et « Bières »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "diffusion-sportives",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Sport en direct »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les sources fournies ne précisent pas l’accessibilité, les équipements pour enfants, les modes de commande ou les moyens de paiement."
+    ],
+    "summary": "Pub-brasserie au décor anglo-saxon rétro, proposant burgers, cuisine bistro et spécialités locales. Repas sur place, afterwork et sport en direct."
+  },
+  "meta": {
+    "cache_key": "b310a5ff6781182a5437d8f47b791e892b77a4602b27b2e2c4f25e2e25a4cda4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

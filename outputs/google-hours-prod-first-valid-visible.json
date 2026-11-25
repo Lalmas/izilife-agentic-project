@@ -1,0 +1,81 @@
+{
+  "format": "izilife-google-hours-v1",
+  "env": "prod",
+  "apply": true,
+  "created_at": "2026-11-07T13:53:54.749495",
+  "items": [
+    {
+      "scope_type": "SHOP",
+      "scope_ref": "saucissons-lefebvre-l-epicerie-de-l-apero",
+      "name": "SAUCISSONS LEFEBVRE \"L' Epicerie de L'Apéro\"",
+      "collected": {
+        "url": "https://www.google.com/maps/search/?api=1&query=SAUCISSONS+LEFEBVRE+%22L%27+Epicerie+de+L%27Ap%C3%A9ro%22+5+Place+Catinat+59000+Lille&query_place_id=ChIJoZVcpKLVwkcR-LdQLmxYLnE",
+        "google_title": "SAUCISSONS LEFEBVRE \"L' Epicerie De L'Apéro\"",
+        "closed_state_ref": null,
+        "days": [
+          {
+            "day_id": 1,
+            "closing_day": 0,
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": 0,
+            "is_overnight": 0
+          },
+          {
+            "day_id": 2,
+            "closing_day": 0,
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": 1,
+            "is_overnight": 0,
+            "reopening_hour": "18:00",
+            "reclosure_hour": "19:30"
+          },
+          {
+            "day_id": 3,
+            "closing_day": 0,
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": 1,
+            "is_overnight": 0,
+            "reopening_hour": "18:00",
+            "reclosure_hour": "19:30"
+          },
+          {
+            "day_id": 4,
+            "closing_day": 0,
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": 1,
+            "is_overnight": 0,
+            "reopening_hour": "16:30",
+            "reclosure_hour": "19:30"
+          },
+          {
+            "day_id": 5,
+            "closing_day": 0,
+            "opening_hour": "10:30",
+            "closure_hour": "14:00",
+            "with_break": 1,
+            "is_overnight": 0,
+            "reopening_hour": "16:30",
+            "reclosure_hour": "19:30"
+          },
+          {
+            "day_id": 6,
+            "closing_day": 1
+          },
+          {
+            "day_id": 7,
+            "closing_day": 1
+          }
+        ],
+        "evidence": "\n\n\n\nEnregistré\n\nRécents\n\nObtenir l'appli\n\nVoir les photos\nSAUCISSONS LEFEBVRE \"L' Epicerie De L'Apéro\"\n4,9\n(48)\n\nÉpicerie fine\nPrésentation\nAvis\n\nItinéraires\n\nEnregistrer\n\nÀ proximité\n\nEnvoyer vers un téléphone\n\nPartager\n \n\n5 Pl. Catinat, 59000 Lille\n\n\nFermé · Ouvre à 10:30 lun.\n\n\nsaucissonslefebvre.fr\n\n\n\n06 80 67 73 10\n\n\n\nJ2MR+9F Lille\n\n\n \n\nSuggérer une modification\n \nPhotos\n\n20 photos\n \n\nAjouter des photos/vidéos\n \nRésumé des avis\n5\t\n\n4\t\n\n3\t\n\n2\t\n\n1\t\n4,9\n48 avis\n \nLes avis ne sont pas vérifiés\n\n \n\nRédiger un avis\n \nAvis\n\n\nTrier\n\nTout\nboutique\n10\nsandwich\n7\nchoix\n7\nprix\n7\n+5\nChloé Gavory\n2 avis\n\n\n\n\n\n\nil y a 2 semaines\nNOUVEAU\nCela fait plusieurs fois que je mange avec ma copine à cette petite boutique, et c’est excellent. Je conseille vivement. Les produits sont de bonne qualité, je recommande plus plus plus.\nVisité en octobre\n\nJ'aime\n\nPartager\n \n \nGauthier Corion\nLocal Guide · 30 avis · 3 photos\n\n\n\n\n\n\nil y a 6 mois\nExcellent ! Cela fait plusieurs mois que je viens régulièrement ! Un super accueil à chaque fois, de très très bons sandwichs et comment ne pas parler du saucisson qui est excellent (le fuet, mon préféré).\nVisité en avril\n"
+      },
+      "result": {
+        "success": false,
+        "error": "The value specified for generated column 'is_overnight' in table 'HourlyContent' is not allowed."
+      }
+    }
+  ]
+}

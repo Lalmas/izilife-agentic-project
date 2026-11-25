@@ -1,0 +1,901 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:17:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "casa-celia",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "casa-celia",
+    "status": "found",
+    "data": {
+      "id": "5790",
+      "name": "Casa Célia",
+      "shop_string_id": "casa-celia",
+      "unique_id": "099839f7a89caed9198f6d74a4efe040",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "5",
+      "secondShopCategory_id": "2",
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55044",
+      "principal_cover": "55044",
+      "qr_code": null,
+      "phone_number": "+33689733341",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "4 Rue Jean Baptiste Lebas",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0186574",
+      "latitude": "50.5177154",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJebSIUr3TwkcRMQYQbytF1g8",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJebSIUr3TwkcRMQYQbytF1g8\",\"rating\":5,\"user_rating_count\":115,\"google_maps_uri\":\"https://maps.google.com/?cid=1141175608434230833\",\"fetched_at\":\"2026-11-12T19:17:23+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T15:38:22+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Sylvie Feron\",\"uri\":\"https://www.google.com/maps/contrib/114535306990032887355/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLQvhYNQN6UVediCp52IRCNbW2HgZ8EDk1NCmKNl3ZK2oSC6g=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Entree là pour un en cas, j’ai decouvert un lieu chaleureux, un service attentionné et surtout un plat du jour absolument delicieux ( thon/ brocoli). Bref, une super experience que je renouvellerai tres volontiets.\",\"language_code\":\"\",\"publish_time\":\"2026-10-24T11:33:45+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Viviane Nawrot Pennequin\",\"uri\":\"https://www.google.com/maps/contrib/109296439407830526118/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLuqTVwXxdUW731Vn2OvY9x7rQu9oMKtAjZ9iE711oyHSaLiQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Une restaurant cosy, comme à la maison. On s'y régale et on est accueilli avec gentillesse. Prix abordables et produits de qualité.\",\"language_code\":\"\",\"publish_time\":\"2026-10-23T15:11:17+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Melanie Dubart\",\"uri\":\"https://www.google.com/maps/contrib/115030276109974488006/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUIzMFJ8cu8_z9C24jrkl0YWpH887QVjHktEy5l0vKNDLEVqls=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-10T06:18:06+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"jacqueline breton\",\"uri\":\"https://www.google.com/maps/contrib/115276601958392313499/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKjOwBHOt0xnVaMs3HqdArlpUhNdH6wPx3m_ERMv_M0PsAjUg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-06T16:19:41+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Sylvie Bouthier\",\"uri\":\"https://www.google.com/maps/contrib/111989587719730842405/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXFYOFvAof_4w3Gn7t9aSVoxtUg57f6rNMfpf56hfIg97pVyO9D=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:17:23",
+      "google_reviews_place_id": "ChIJebSIUr3TwkcRMQYQbytF1g8",
+      "source_id": 5790,
+      "scope_type": "SHOP",
+      "scope_ref": "casa-celia",
+      "primary_category_ref": "salon-de-the",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "casa-celia"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55044",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5790_6af39fc6c8ea6.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4848",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33671",
+            "source_hourly_id": "4848",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33672",
+            "source_hourly_id": "4848",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "17:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33673",
+            "source_hourly_id": "4848",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33674",
+            "source_hourly_id": "4848",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33675",
+            "source_hourly_id": "4848",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33676",
+            "source_hourly_id": "4848",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "18:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33677",
+            "source_hourly_id": "4848",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "casa-celia",
+      "google_place_id": "ChIJebSIUr3TwkcRMQYQbytF1g8",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:00 – 17:30",
+          "mercredi: 10:00 – 18:00",
+          "jeudi: 10:00 – 18:00",
+          "vendredi: 10:00 – 18:00",
+          "samedi: 10:00 – 18:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLcobZc_BqnXmIy8TwnakG4jEdzsWP0ysHat9OqIpQm1jLFlV5Hx8_iqVXGhb--cbyCIaDPxFzSjtumP31QJNRguh_ulrC6Sv8pY_6R-e56VHX8X0MDNDi7LxVB5Udx6mCxZoqUnL1ZhfRZ8yJCrwveJ-spvdKf8GIjIUlUgKHAG4ziOaxKEKHJRJV0jn6-pfacVlgNkocLJpUqvOLFgwGqSNhlJqqTW6YkY6I6fceoUufI-InH-dvsSc6x7d8pZlE09-hsgVEwn4gM98KpA7CH3yE1e2-uZN7c2PqZwzEhlbfZkN1gcCHQrONv78GeVigJfLDcVl9dsuqItktnQwIUemIa6goUsXxqS7Xrb69mnIG1UvPh7Cp5k2WgJUfEkifAHalQ2B6x97YuVRiGgFvAruCwpIQ8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112826935744645393357\">Casa Célia</a>"
+            ]
+          },
+          {
+            "width": 2880,
+            "height": 2160,
+            "photo_reference": "AV-0GLfBhdqV6b22Q99Z9BZnpNz7DcwBi3Cg-t6cO63bAvRMuOpECTq9Gw94yOmaVreTYXOZwfnPIA9cGff0gi_MZL7EiBaDJonf5gzt60YaAfAlVsJlIT23OgguDHQNGgyMmGkjFuoDqtcInTRcdOFasi_zuEUgHbde5BqLshf6qnE5jIbTkriColhpmm3wvvbLBQve-zI6OBUkELX4mmcMKJBgmUnETRNfHFhCqw-1yn3L9invQfa8uUdawUlR88fnvJ4Q1XNmE9Dm5Ocv5weardJQ0Z05NqYRSQd7z145ExMcz7JcGu44vDuMkdenYfJ9zSVrW3w1K8rL_LBvzAc3yjgQXmXBy90sc0V06tksRtW_XiSCHxl-wExL2URMmuvFqtBNwheRUmJiHEAQYdYFbVIvjWqr0ebrzdtKovvhoo_P2g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112171533394074005436\">Marie Mouvaux</a>"
+            ]
+          },
+          {
+            "width": 2992,
+            "height": 2992,
+            "photo_reference": "AV-0GLfkLhFYJmk2mfEiJVzDvfEiPy08GovA8RQqhM83usld4VYDQ1kYAJr0s3Cia8NLzgiuPnj7Jw2xLcHDPTtsCViBvHzlBPkeZO5DDkFR_rH21l3FaY54LhUWOIbDOM-RZLcMN8SurCSwj7Ry8ytNs0gPiaB-T07ILtEtAK1Xz_r5njjY8nxJIkHqxJhD30BAKbofhYzYbN0i9z5L28g93SToVyym_HGkFSKJQ-KHJIgsvCOlenq5J0-OLcba45_G30voyQHwH1NmerYDxbz4_CFEhgguSe9k9PEBWYY7chJd5Kfs_SKdAnNEJ-G3tdOqfLxlJoe724iTiCNF4I82z1E-rRXXeYoXmJOSLGgn8VQKPsJqv9e9C23FLmxFegRLNdW38uYTdCLztp4ALtJqDJsZ-Ai3JIQTl85sFSQfDv9iDg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108452650624761575539\">Marie-Hélène Vendamme</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLdUCgaMpO3j7A-aRFc118bo1Y70e6y1uqy3smipx7cVMkDdjcxLMa0C7NvFLjCEipAsrVpzc9hlozPFRNkvEtHvBXWbKFPybXRN3hxcp2ZUAevedi9iiduEcvYol4jRGVpn_vurrc4Y_0aQyyN5cb0nbRHLvtk117v-SEzMHbJczRqbSBe4ctAkpCpK-Zz6U-SIsPTHcucCF0eGfH5aRPVOqvMBcoyUsszvt9y1cM_Mw7rf-epXKkndG_2k8h7zEvvf78lEV_BkDdQWXYjsnMnaWNjfR9PP-I33OMtMcDGp2D5fAZAp7a7MZTpoizPYP7F901z6qNsQV_zJ7A6vdZrlb0TPJUE3Ps5BzuiiAGdvl3HnvhWRM-2KR5WJpbHhgHo1zbo1WhIAhESGykxHew2NhA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112826935744645393357\">Casa Célia</a>"
+            ]
+          },
+          {
+            "width": 2051,
+            "height": 1740,
+            "photo_reference": "AV-0GLc_TOqz-3SDbLxn_BNj9nPjFhJHVHDEj9rNGyZZOgSILPGT0Rh4ekLBmMw_6Urf0tsbYOCSTNaWpGjDFs0NDJdjLj8fzuE7FoAf0B-G44kdIOCK2lYcqzzXNW42OyiPDM5lO9IHttzO3ZmQY3QVbNrNwmMrJghq0zN1-nnC65ayi7ZS7nifCoar4ABp3nouItEzyNZkwv1yARPbGqCoHwkHZeupfA0uYPi9i3dnp5LoIJZnV_RAAR_JVSz1WOz3wC6FGZke0iVYqDEmlz7r7XciQ82PIOHk2ILBGSh8HClfK2Ajwpbgz2N--7aFfP1dPa8X223f3Y85rGOx5jucVbOtqyyEXq8a3X7-trpp7ufFOlvHmUq0hs4o-tqQKZViVbV_9bfIFOMecghI2aS5NO-7-q5Bhsw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107795507840741767950\">David Saint Maxent</a>"
+            ]
+          },
+          {
+            "width": 1800,
+            "height": 2019,
+            "photo_reference": "AV-0GLcfmXIHRGkViXLAK3osYTdKbL3xKbC5EyJiIntTskonr71y9-VIFpWMWTll0ghihHtZfWHhizs3RCYVAmM8WTA9JcDDceaF4KbIZOXjq9Iw6FrSL_eU3tukphP_zfrhfHLGpsDTNAdh7COd8kX_H2-BvCq-m6F7-Mu0hFCFfaP2QcjUlqXe8hDyYVaTPTNCso0GGLjxp3DTIFly1yMFU-DEph-1Dw9cyIGxgeRtRy80dA_0GKDABdxzwNfxqO4jgVRpX7m9_1lxpHAxVneR4uha_YWbm6gV9z-70LN_8f8qBs8WN2Q5G5a2xW2GPbCNB0J3KwUuB5Pg9RmPN3Wtc86pZZ-qPOqJ7b0pq2WBVtEQLFq98zj7VuP1q_Cu_DLgrgv-mkBKCOfsgMK42BRb7o4_Kw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107795507840741767950\">David Saint Maxent</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfWrm2ZLlwJaojBAGGvPMqI3ZgAFBrVIi3UD1YeaiEHF5dFz7fK98VFQ-x4DoJ8HytcVfWMY12rvEsPHcxRXs5NDxDWbpbv-UaUchjgNwrZnK_iGJLnxjkA3fOFJijiysklKBM4tPXP9HzxAghhnZrzuf4F9q9sKOHttBkVo7X8MThkbzEra2fHd4i2gFMKEIacL2G8h5GIEH5HYcN3SbC4VEHht-bGlhz_58wTGbKpTcSdA8NlxOSBrVlxRV8yGP1wrHhr_dq4GVHF6fQxPX8D1hXXXGudR_9KB_iPyMcxMv9rjPEefLfB0proJuF58qB-bEIm3zvFFrwkRo4ltxmzsKQeUiM0Vbx6xaBnZYWXn9zW9-8IjUIvk6tmY9qEbGSKP8CFq2b6glrae-izRbRuDZ88S3w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115182095736258210554\">Anais Montardier</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfaVGF3q9bX4IWKicHLuaM12hn0UYfJT8rbRudmRqT8KqoO9dD8lAzJaBsL1jTXXkFYeAnO_K2UjwjVWFdE-Du-QB8se7QIFkyIuBb_WwEXqf6e-Z3bAWE1iELryA33unYP3Hg0kMdUkkpYH-473qmTPninv_Jm4BsnFtPDwHS1iDnlMz386-YYnGVUuMPZRtLG5c8T99rvXcB5RKUBxZjGIwzOv3YEzkViZKMrpnA_JZn79hTwQh-Mf-1jzFShCy1uTnEFjD8QKNo2hzD3gPU3YAvMkBiigiRrppKyi2aj5CM2iDr9YtECqwEQQi5_TLdYCO5RGtvdONy5hYnHwl5XFH8ulTZQ0lxrO8Om6krthwNSlENqTXP_67K4d1ADI6Ev-sWsxe2K8vFNYvtlcUrN23xzhHBJpCK7BcL1dWZJdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113563780380557062008\">Ju T</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLdFyW7i6sxD5At4nP2dkrMZJGx3ZQcOMgaxc5q5C57gmqga3HhCW7CeicvjqStQUcdaPfRciH-j77hKyoybdR7_WF7GUZGihYPMWa9TkU0zWYxWhcNLhYJndDyNYNju6Zt18Fe9C5_Pd-YamykQ0HW_hWPjsXeL5DFaKsr_jOSGuj-Z56mj2rbEkpQWosFoYdKSBS_jlkH4nq-2YlAiGzFHWT8t_ejR8D6xKOzR5qPvzEu_988XWpfF-vdnhKR0cu_yL8VdnC_-rZujavnkh5VA_H1u4nG6tnERh_AiZCzZAciFEwtm3Ol4YVLhEaBPMLRE2Krlxoz2ob6zk-KYR5defvbE16FqTeABkSUVwkrkhaZYNUpymN46JFtboyt0g39jSwoyOLo7HzEHvQkVvYYUGhhP2Sk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116569684929396880534\">Anne-Laurence</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf3b3sbHu7SWN5chdB_YpUWDWhQ4a599xOPrb2FJYI-PO6W5Ohv_sLd4GFl2I-Z06sz9zo-b9AOjilMfQtfEWhsxCQZE6sd6PYqat8MDn0u3vJ3RnTK4nn2Xv7hHHHudlEjH2MEBcd1Av1EjWKGlaStJIg9BtXVRsu4_ttkDmwmESn9siydJ-7_H1ZZH1xjzOGNg0wE5z4ncZKnvdS1WDkPhCTz-co2wpuuDdTq4EEo-oI_9Te0mEXIuIUDQvpRNTlnQWdjXoVYmTahqScupf-zMTWpMLw5TaqMMnNrOan1azvm2VqzwlWbOMifXrY9I6A1PPq52R_JyKTLC0bYCbPLSdbO7YkLrnaT9Qw4KV0tq7XF6x6gGZ00YmrdXT2iGDNyjHCb9zVoZAuTtX9HwchlVkq9zdbgat7FQov-jmp9ig",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110685908500328582379\">Sophie Gloaguen - Ver Elst</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5790
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-10T15:38:22+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Sylvie Feron",
+              "uri": "https://www.google.com/maps/contrib/114535306990032887355/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLQvhYNQN6UVediCp52IRCNbW2HgZ8EDk1NCmKNl3ZK2oSC6g=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Entree là pour un en cas, j’ai decouvert un lieu chaleureux, un service attentionné et surtout un plat du jour absolument delicieux ( thon/ brocoli). Bref, une super experience que je renouvellerai tres volontiets.",
+            "language_code": "",
+            "publish_time": "2026-10-24T11:33:45+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Viviane Nawrot Pennequin",
+              "uri": "https://www.google.com/maps/contrib/109296439407830526118/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLuqTVwXxdUW731Vn2OvY9x7rQu9oMKtAjZ9iE711oyHSaLiQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une restaurant cosy, comme à la maison. On s'y régale et on est accueilli avec gentillesse. Prix abordables et produits de qualité.",
+            "language_code": "",
+            "publish_time": "2026-10-23T15:11:17+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Melanie Dubart",
+              "uri": "https://www.google.com/maps/contrib/115030276109974488006/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUIzMFJ8cu8_z9C24jrkl0YWpH887QVjHktEy5l0vKNDLEVqls=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-10T06:18:06+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "jacqueline breton",
+              "uri": "https://www.google.com/maps/contrib/115276601958392313499/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKjOwBHOt0xnVaMs3HqdArlpUhNdH6wPx3m_ERMv_M0PsAjUg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-06T16:19:41+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Sylvie Bouthier",
+              "uri": "https://www.google.com/maps/contrib/111989587719730842405/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXFYOFvAof_4w3Gn7t9aSVoxtUg57f6rNMfpf56hfIg97pVyO9D=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 5,
+        "user_rating_count": 115
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1047,
+        "bo": 9,
+        "front": 1038,
+        "estimated_cost_eur": 1.175
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "L’adresse indiquée dans current_izilife est « 4 Rue Jean Baptiste Lebas », tandis que les pages de la mairie et du tourisme indiquent « 4ter rue Jean-Baptiste Lebas ». Vérifier l’adresse exacte."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "différents espaces avec tables"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Le midi, l’établissement propose entrées, plats et desserts"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Plats à emporter (passer commande)"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-gouter",
+          "confidence": 0.96,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "pâtisseries et douceurs"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "kids-friendly",
+          "confidence": 0.95,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "espace de jeux et livres à consulter sur place pour petits et grands"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "adapte-aux-familles",
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "moments de détente en famille"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-en-solo",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "déguster thé ou café seul"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "entre amis autour d’un jeu de société"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "lieu-de-vie-local",
+          "confidence": 0.97,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "un lieu de vie chaleureux, convivial, intergénérationnel"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "produits-locaux",
+          "confidence": 0.97,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "produits frais et locaux en circuits courts"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "jeux-a-disposition",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "autour d’un jeu de société"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "is_for_children",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "pour petits et grands"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_children",
+          "value": 1,
+          "confidence": 0.95,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "espace de jeux et livres à consulter sur place"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "moments de détente en famille"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family_with_children",
+          "value": 1,
+          "confidence": 0.91,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "espace de jeux et livres à consulter sur place pour petits et grands"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_groups",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "entre amis autour d’un jeu de société"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_for_alone",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "déguster thé ou café seul"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "interior",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "différents espaces avec tables hautes, basses, normales"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "salon de thé avec restauration le midi"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_coffee",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "un salon de thé (qui sert aussi du café !)"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_have_tea_time",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "salon de thé"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_work",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "seul en télétravail"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "partager une bière ou un verre de vin"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "un lieu de vie chaleureux"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "cosy",
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "ambiance « comme à la maison »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "restauration le midi"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "gouter",
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "pâtisseries et douceurs pour accompagner vos moments de détente"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "matin",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "le matin comme l’après-midi"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "apres-midi",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "le matin comme l’après-midi"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Le midi, l’établissement propose entrées, plats et desserts"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "jeux-de-societe",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "autour d’un jeu de société"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "sur-place",
+          "confidence": 0.97,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "vous pouvez déguster thé ou café"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Plats à emporter (passer commande)"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Salon de thé convivial avec café, pâtisseries et restauration maison le midi ; on peut s’y installer seul, en famille ou entre amis, jouer à des jeux de société, télétravailler et emporter des plats."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "casa-celia",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5790,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "612ed89c5e02f619c2e7bad7b92b7c22bb5bb3d497b88608224cb295adff7285",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

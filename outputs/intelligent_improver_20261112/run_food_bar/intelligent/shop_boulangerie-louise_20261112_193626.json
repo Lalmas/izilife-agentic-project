@@ -1,0 +1,577 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:36:26",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-louise",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-louise",
+    "status": "found",
+    "data": {
+      "id": "2205",
+      "name": "Boulangerie Louise",
+      "shop_string_id": "boulangerie-louise",
+      "unique_id": "53e18b7db49eef0e1a893fffe8a22ad2",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "3",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "2044",
+      "principal_cover": "2044",
+      "qr_code": null,
+      "phone_number": "+33327990194",
+      "url_website": "http://www.boulangerielouise.com/",
+      "url_facebook": "https://www.facebook.com/742164862782042",
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": "megret.franck@boulangerielouise.com",
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": "2",
+      "basic_price": "0",
+      "basic_price_currency": "2",
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Village du Recueil, Rue Alfred de Vigny",
+      "additional_address": null,
+      "zip_code": "59650",
+      "city_id": "2",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.148283",
+      "latitude": "50.6574569",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2024-11-07 16:57:10",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2024-11-07 16:57:10",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJF3BYmMopw0cRM9R5KOkjZQw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJF3BYmMopw0cRM9R5KOkjZQw\",\"rating\":3.5,\"user_rating_count\":484,\"google_maps_uri\":\"https://maps.google.com/?cid=893159585416336435\",\"fetched_at\":\"2026-11-12T19:36:14+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Une super équipe à l écoute du client et bons pains !!!!\",\"language_code\":\"\",\"publish_time\":\"2026-10-31T18:33:09+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Audrey Fabret\",\"uri\":\"https://www.google.com/maps/contrib/111516453086945606466/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX7JOOMtFycz_W09xlEx9cOA4jnpXQpWtt7Yz2gPsy5rSaKar6o=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"Les 8 baguettes sont toujours à 5 euros ca  c est top mais du coup la tailel a clairement diminué. La.plupart ont des formes très bizarres et souvent trop aabondamment asperges de farine e blanche ce qui donne un bout pâteux bien loin de la.baguette tradition...\",\"language_code\":\"\",\"publish_time\":\"2026-10-29T21:37:35+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"OBABA OBABA\",\"uri\":\"https://www.google.com/maps/contrib/116526918474387626090/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLrqMUSU9v3Gc_f3RjJ-FNEzPZi3vqTbP7zOHTOMMTZcfYFJg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-26T12:34:25+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Seb Beaucourt\",\"uri\":\"https://www.google.com/maps/contrib/105466779596224447944/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXcW24bPKHlo3gwZHx948tndX-5fS3qLPy0KUmoF5ZSv53--Nu9=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Ne surtout pas hésiter à y aller ! Mega bon mega accueil\\nMerci Laury\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T05:34:46+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"STEPHANIE LEGRAND\",\"uri\":\"https://www.google.com/maps/contrib/106146187837173491082/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXSamD6JvBLBMItqp8zLZGEHDI6t45dTTyN4uSqJcDmv-3FBJYO=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Baisse de qualité des produits turnover du personnel .\\nMême plus de boulanger actuellement.\\nRavitaillé par d'autres magasins\\nPain pas cuit , blanc de chez blanc autant vendre le paton directement\\na fuir\\nBonne journée\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T08:10:33+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"xavier doucement\",\"uri\":\"https://www.google.com/maps/contrib/101919518555638425098/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocL9MaR0i5bOgSziWfOOjhvm7Me2Yq7N5oKBConepYfDGVp5YA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:36:14",
+      "google_reviews_place_id": "ChIJF3BYmMopw0cRM9R5KOkjZQw",
+      "source_id": 2205,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-louise",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "villeneuve-d-ascq",
+      "string_id": "boulangerie-louise"
+    },
+    "counts": {
+      "media": 11,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "2044",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_67332842cd154.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28859",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736611ed4ec7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28860",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736611f66cf7.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28861",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736611fdfc3e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28862",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736612087253.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28863",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_67366121254e8.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28864",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_67366121e374d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28865",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736612279bf3.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28866",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_673661230f329.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "28867",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_2205_6736612391561.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 11,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "1462",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "10228",
+            "source_hourly_id": "1462",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10229",
+            "source_hourly_id": "1462",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10230",
+            "source_hourly_id": "1462",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10231",
+            "source_hourly_id": "1462",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10232",
+            "source_hourly_id": "1462",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10233",
+            "source_hourly_id": "1462",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "19:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "10234",
+            "source_hourly_id": "1462",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": null,
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-louise",
+      "google_place_id": "ChIJF3BYmMopw0cRM9R5KOkjZQw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [],
+        "has_google_json": false
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "cache_missing"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": true
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une super équipe à l écoute du client et bons pains !!!!",
+            "language_code": "",
+            "publish_time": "2026-10-31T18:33:09+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Audrey Fabret",
+              "uri": "https://www.google.com/maps/contrib/111516453086945606466/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX7JOOMtFycz_W09xlEx9cOA4jnpXQpWtt7Yz2gPsy5rSaKar6o=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "Les 8 baguettes sont toujours à 5 euros ca  c est top mais du coup la tailel a clairement diminué. La.plupart ont des formes très bizarres et souvent trop aabondamment asperges de farine e blanche ce qui donne un bout pâteux bien loin de la.baguette tradition...",
+            "language_code": "",
+            "publish_time": "2026-10-29T21:37:35+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "OBABA OBABA",
+              "uri": "https://www.google.com/maps/contrib/116526918474387626090/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLrqMUSU9v3Gc_f3RjJ-FNEzPZi3vqTbP7zOHTOMMTZcfYFJg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-26T12:34:25+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Seb Beaucourt",
+              "uri": "https://www.google.com/maps/contrib/105466779596224447944/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXcW24bPKHlo3gwZHx948tndX-5fS3qLPy0KUmoF5ZSv53--Nu9=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Ne surtout pas hésiter à y aller ! Mega bon mega accueil\nMerci Laury",
+            "language_code": "",
+            "publish_time": "2026-10-16T05:34:46+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "STEPHANIE LEGRAND",
+              "uri": "https://www.google.com/maps/contrib/106146187837173491082/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXSamD6JvBLBMItqp8zLZGEHDI6t45dTTyN4uSqJcDmv-3FBJYO=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Baisse de qualité des produits turnover du personnel .\nMême plus de boulanger actuellement.\nRavitaillé par d'autres magasins\nPain pas cuit , blanc de chez blanc autant vendre le paton directement\na fuir\nBonne journée",
+            "language_code": "",
+            "publish_time": "2026-10-15T08:10:33+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "xavier doucement",
+              "uri": "https://www.google.com/maps/contrib/101919518555638425098/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocL9MaR0i5bOgSziWfOOjhvm7Me2Yq7N5oKBConepYfDGVp5YA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 3.5,
+        "user_rating_count": 484
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1104,
+        "bo": 66,
+        "front": 1038,
+        "estimated_cost_eur": 2.5999999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Le prix mentionné provient d’un avis client et peut évoluer.",
+      "Les avis fournis expriment des appréciations contrastées sur la qualité du pain."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "Les 8 baguettes sont toujours à 5 euros"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie Louise est identifiée comme une boulangerie à Villeneuve-d’Ascq. Les avis mentionnent des baguettes et un accueil apprécié par certains clients."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-louise",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 2205,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0819c10d4b722540ee23fb8b4b0ab4444482428ddaa215ffc4156846370660f9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

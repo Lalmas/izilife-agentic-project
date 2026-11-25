@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1155,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.85,
+    "evidence": [
+      "Le titre identifie un humoriste et un spectacle, sans préciser une forme plus spécifique.",
+      "La catégorie existante stand-up est conservée faute de preuve claire d'un comedy club, d'un spectacle solo écrit et mis en scène ou d'une comédie théâtrale."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre peut désigner un spectacle solo, mais ne suffit pas à établir la forme one-man-show."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas la cuisine, les plats, les options sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les modes de commande. Les avis sont indisponibles."
+    ],
+    "summary": "Restaurant Fratelli à Vendeville. Horaires indiqués : déjeuner certains jours de 12 h à 14 h et dîner certains soirs de 19 h à 22 h."
+  },
+  "meta": {
+    "cache_key": "6a2b94cd9b7eedf980604b7c8cd884678a27c07d93fcafe82570ba97de67b77c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

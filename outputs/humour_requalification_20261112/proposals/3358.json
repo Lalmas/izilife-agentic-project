@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3358,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La catégorie existante « stand-up » est précise et la billetterie la désigne explicitement comme « Stand Up ».",
+      "Le spectacle est présenté comme un récit solo de Guillux."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description seule ne précise pas la forme artistique, mais la catégorie existante et la billetterie indiquent Stand Up."
+      }
+    ]
+  }
+}

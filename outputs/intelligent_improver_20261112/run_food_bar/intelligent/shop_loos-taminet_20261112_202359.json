@@ -1,0 +1,486 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:59",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "loos-taminet",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "loos-taminet",
+    "status": "found",
+    "data": {
+      "id": "5792",
+      "name": "Loos'Taminet",
+      "shop_string_id": "loos-taminet",
+      "unique_id": "36ca19c6acd2bcb13596aee56083ff8f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55046",
+      "principal_cover": "55046",
+      "qr_code": null,
+      "phone_number": "+33320356281",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "60 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0177778",
+      "latitude": "50.6152778",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:59",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:59",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJfak0TDnVwkcRLe6wZk_VFXo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5792,
+      "scope_type": "SHOP",
+      "scope_ref": "loos-taminet",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "loos-taminet"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55046",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5792_6af39fd34c3db.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4850",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33685",
+            "source_hourly_id": "4850",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33686",
+            "source_hourly_id": "4850",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33687",
+            "source_hourly_id": "4850",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33688",
+            "source_hourly_id": "4850",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33689",
+            "source_hourly_id": "4850",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33690",
+            "source_hourly_id": "4850",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33691",
+            "source_hourly_id": "4850",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "loos-taminet",
+      "google_place_id": "ChIJfak0TDnVwkcRLe6wZk_VFXo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 14:00",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 19:00 – 21:30",
+          "samedi: 12:00 – 14:00, 19:00 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1500,
+            "height": 2000,
+            "photo_reference": "AV-0GLcugSHXlewKr5iGMwMj7-1K7x4u13rA7Cg1LAs29Rab85g3RjxmJWmNsjJwQjNKnljwK6itcn9TwnVCMxd8CEYjsDrIpNwSwRHJ1Yt54WwmfyAhKXwJWizo3of03fpJ8qTCbukb-5DFAQtc6p_TyoojVLp68xvi_GbuVVV_7HJq1GIWYoZVmozoUopegZge7gIugWCnWMNOJLy-4qPzZSI0kE-XmUtjgQ9G-K3lfU4V0MpdsuXdNug7QEOHPZ025E_IgMmz9Xur1x73AchOF3Ol3W8C314UDeQo5tRbkG0XZ2pvGonhzrmMNmbLLRU0alphSAUyxenjbbFpVzke3Mqp4yami1g6fJmEAR7Js-dKBWDLpT-fjN1x4aGum_ZXy5tqcPkhyOP6s3B9SuxfcdewdfI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112413261114898677572\">Mickael Pinho Sousa Rodrigues</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeRAee96NnNGymj4OUUhTM6HZ2ykYBy9KuG50XbhyGeX-x7EO751L-GEyRLd-DZw2Uh9teqoDlX0IcdcaNo1LbvZC3YJZP22zNOWjT8hlcIuB5AdtwssDG23klR2ulTO97TgMh7gq27GF0ARQleKgKWVQm23pWrOvFYQbZ6dZtvA4IaQcGVCoHfMumOz6dy5CUVQp9ar6kaR3YphlriegZNYe_kbEDmuXtCp42NFW1GcET4AdEKsNXfMtk1VanZHAxcnz8KGUd7DUZvbMOq57bv3xfnfxd6bln1bRChoEtwPxvVUFrQ4VnqcchhixWXBzdr_UXP5DZD5HmFaeg2KNQwOCPeUcKrlvWP0HQP3den942JrIUon9CVJkKp5Qr3VZyR_MFxVrVEEzP8_y1IhNxMpJPwQ3E66XRV-bAyjAIc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111208288910569259012\">Dr Funkabilly</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLcIM113cA9h1rdA-Z0mlsZkG5EKzMWKm1gIDpboM-_6OWsoFASb4vF8gL0Xa3aqz0AetXDfTGgMdIa415ZHcb3sB_IdE4ioGABWRi2EXZPKx4L1d85IQrehp47AWuYzxKV7r8eiY-zZU8CZcn-WCXBTBeNNocXQdTbD05T2eP5odyKFzeLsy_vfAIzqcxO0uBTWG4IbkUyeOpDWIGOyhzKwO_N237LZR1kbcMG_mdws1KEVnnzuF9iz-5ZH97lXij_N6x8sUIRIlFMHedW4WIvd6b3DjPrGwoikqHSWvYkac7asjBu54Uas4L1BaR2U1U9jI8HDEmROtjFgGXgE3rDWknVJrSxhucKPTEAFIYoo8V-MPAeHg_S_BwC2ld0hPjPQtUwdBOlA0PI_GGMoHoMivVB70hhqOB3ViWCNG-xP",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111247871227738162669\">François Delcroix</a>"
+            ]
+          },
+          {
+            "width": 1848,
+            "height": 4000,
+            "photo_reference": "AV-0GLedU19JsrChS_bBEdZLlgV4F_vu3fFpbw-AegQSgdyxdRAok7vehvjoA1YJv6gNkjAJb-0gqNgzf0_scx6OquuHclZRjtDesHKi5mZiPR-9Lf6zQh6thXM20Zu19M2WQz8fWKvHnNnzw-5fMyf7lYaglRr0oQXK_g187RJs64D_lG1MIEiAScrCWj2J_qqU9nE7avey1Tfc_00yvN43IuYtIVS8-y9PPMStZGkuxF9Fc2C_ehxfgkXd4hMG1FHIBCAo1aOiXPprdhHuwEvIpr-xlW7uWdFLCC_MuKJWq89Z_z8XtAJ4l8RFASvbjp7qr0XVibo2Cf8d5orDtHvuwhWEikUtFmOPotRtg6EsJBm-JlijJPYRsu0uI3ptw4tMsC6SZbWHVfpDH4V9w6FylrlH6quZ4ih1W5q3KuM0jnB3DQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116704951573060210766\">Julie D</a>"
+            ]
+          },
+          {
+            "width": 2142,
+            "height": 2856,
+            "photo_reference": "AV-0GLdRQb3-lDLceMZj4eNCg419NQf2sYk6EQzA-ONIbz9T8vQhyLmqfFW0edmrZO0MN24IQgrUoj2aSyqiKtQ0_upRvttjqADvNigmkf-f6-IviiJGAuL4VuL0Lyot71txwpGmOL-3lnwKEkLHdLeZLBd7pmh96esE452-C9C8mvdGZoMU7FmPHN3InJYZ6hj37WwFIudZHTpTgZQWUTUwdyvTYEmg7NhhCPnpMLdN1fZMr4Htv4nYcGJpY-MaW1CUDQZBYy5WS1vzInI8HGJIfLw8pYeNg-4wvVIygg6cJ3h-JwhcQ6pvZM416htQ12ijligsDtqgtEqARE3UgyFX7gEm9q7PioKq8rt8BTljLiQiaArtvAPHNfKKNh4hJm3xs2tsxAkIXUrf4HgwIAHklmn-9Og",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104619763028348346472\">C Y (Stylus)</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLd-J4lde0IXIhkI97dG_STwAxTioSAFdSpBTgxxSXHv99JBIc5KHSVU3LnShRHRuJH-WoOnGGMDceZInPXX_4f_vUnH2hVx9B1nuNIM26Zar0hpfA6zECfKw0LQNkIvlOWtyULPvLBKyNs3e0q7bA1Fobd6I4zhbjZ0fxga8AOZvNEkv0sFCirA61XsOKumTBlwa6gVJMmTVbHDz6FmQhVlg6k7c3aQLHgrssV1d7Ih3deUSvscSiLZMTamA8QcAgDGdoMKoyeQ-LZk-mxmyHFUDmEmUm17eU9IqocpjfBXliEbfo_9NfQgGB-J7-eOD65dS8b4bfV0lMS0Fm9unTSba-4-CFYqZR0Jf4QjgzX2SwJpeXBTvxHAU1w7KRcREoXZ-1_tVVaz1MAn3YDEgp_-4PaIDMGFa3Ezt4OtLoFbRw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116674073734547139551\">Alexandre Régnier</a>"
+            ]
+          },
+          {
+            "width": 3065,
+            "height": 2128,
+            "photo_reference": "AV-0GLe0oQbTN4J0dqA4yP7DHyk1_3Kpu29OGcLiH52G3W4fJK9bQFz3kvPESRaCuz24ZSrMhAZr5GrXGHeO7JlDOcc7WN1IR7IfuxfdkCqS8QdkZlP1eXQ3SNbAybOGYfQorZYzcnMbRMstQzGgjA78nbX2LZ9pskUY6fbVo0JXuTqUW0cdj5OpLZQTccqifJLipRtFRBtiDAloWdc0nm-6YPaM72QPgXVmU-utVc23B67hZRC-XvCSaIvNhx1EB7OV5Z8ZfR6KiGAIJjWwzfhdQ6re9nwBhASJm618Fr7RgGfVaxy2TGrbDoaT-I_KYAN72pPKK9J2vU5d1V43LisYRSlF1qM5aESKyg831fopd-jK5tF1iM_-VdiHdGQQZd80HYFmllfzgZolM96D_xKJG-dxryOB08TgdjXQeWfBi4_y3w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116634038660294151108\">Gérard Lefevre</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfOkKbNjSnHDDAwSA6A9SyEuH-IcEdmnuNM22EOXIPiN-lOdQ-E4oTYET-6B-t9dkDH0ZEWYAh2kg38AcZ0QK5ShAglA8mQ6wbj9V3mLB7QeX3bvFIA0U7J3aBv6azr8K3Sh_FaBHwlQp8bUNYx_waNjbbPvvD45h2PvYKFuSQ-ZAhbQkOy-Ao53gz6S5l1l1hjuha4mbcEx-rec3vU5wdmPYAAMHjATRqD05XwTge1Su3-zR-vgTT45L7uSbTynbV7saw_rbGM1Xk3EPHIerba9TEapLmjNAjrXvfBVHRkfUp5l00B-6ja_3WTov4Fk432YjpQKcCVoW7kdXF_IBy-z57AZD9nUDwAhtrmOpP4Jtx4vsWabiOtPWrckbuzvXjNbDrXxeQBm_quCKevzWVUwafX4RE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116401432288366253882\">Celine Devely</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3468,
+            "photo_reference": "AV-0GLdkpis0vBKOvNExqWpXdXEHjDkTNXyFvATaVVp3XMU06Fndm8UPWK4F4ycHQgQBUTu2oCqkoxuYv2MrDMEt6wU0OhaB0z_qPw0O5I7HhRBTasq2qOudPEP-pDL8OMSuy_Rknr1hHTMdhxcc-GY4UqHuhyMH7tseFj0nDneQoN79g2EPd42l0Ndg2-GCdOI8zAb-jvpzeGJZOGknKnz_EJkzs0qWmoyVG3cE8Di-KNB8-gO-nDw81Fzc9sMP6yqaPmXj29aBSl0Rc6YDmOLYx9JpsiakbBYYSQHLyl2JCjh8oIKo9CXxLgQyHpl2LTLMNkNubx7FYdJzXjjYnldEDcSPL7Ll8K7VpGUFNNc5MiRUmu2zMDkNCifQE0utVtW0tsPlDZK8Zo1ERIp1Ce8L4tIEKW8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118024647170784883262\">Stephanie Vissac</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 4740,
+            "photo_reference": "AV-0GLfamwxLTyFQFqiJ5dVS0J_gD4lalsqkbarKvERFBqJNheuCvFSMy3Bzbfj6trJL3k8t4vjx-_Ub2h_P8LdQbLhkmkloMsx81d85Y9Ucw4DiAviP28kx6xr0HUgLGd5dFT34tj-G2wE1mnZjURVNs5nOiqw5gc0S8K7prh3vYAU_CDgiAAWns4qERYWviGYc0V9XCbBhb_cnbs8-7b6BAd2t8i0JeOIDgL23KVxXDkaF9QE0ZyvAM81metERg_LXOAt4aQ409RlXwTqzjWasqcQBM75H1rGedVifVPuBkCx4p9KglfAzHwExFvh4tA5vbMHV7U7EOT-neNryGwTumVRIHHUHJSPMl-491yY2T99z3T-0S_Jf6H8TvHftnmeqDY-mX-7Ucb4H4bCvmoqptsL7Hk3Ajy9EKYsLbfBLoUk4tQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116770400589859657169\">Majo</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5792
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Aucune information fournie sur la cuisine, les menus, les services, l’accessibilité, les équipements, les modes de commande ou de paiement."
+    ],
+    "rejected": [],
+    "summary": "Loos'Taminet est référencé comme restaurant au 60 Rue du Maréchal Foch, à Loos."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "loos-taminet",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5792,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "b62926c51f379e9dea366a0393f3278466d6bd42b05e8ccdbe69a366bf42634f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

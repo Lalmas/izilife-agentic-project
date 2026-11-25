@@ -1,0 +1,42 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 11:00–15:00; jeudi: 11:00–15:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.68,
+          "source_url": "izilife://current",
+          "evidence": "mercredi: 17:30–23:30; jeudi: 17:30–23:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les services sur place ou à emporter, ni l’accessibilité, l’ambiance ou les moyens de paiement."
+    ],
+    "summary": "Restaurant Le Leu Pindu, au 1 Rue du Général de Gaulle à La Neuville. Les horaires indiqués comprennent des créneaux le midi et en soirée du mercredi au vendredi."
+  },
+  "meta": {
+    "cache_key": "eb5b3f294abb12496f0fb2c76d88a46156efa72c12e236789a39b97d143f004e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

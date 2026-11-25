@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "DishOrigin": {
+        "string_id": "asiatique",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "taobento Lesquin - Restaurant asiatique"
+      }
+    },
+    "warnings": [
+      "Les informations fournies ne précisent pas le menu, les options de consommation ou de commande, l’accessibilité, les équipements ni les publics adaptés ; ces éléments ne sont pas renseignés."
+    ],
+    "summary": "Restaurant asiatique Taobento à Lesquin, au 970 rue Maurice Herzog. Les horaires fournis indiquent une ouverture tous les jours de 10 h à 21 h 30."
+  },
+  "meta": {
+    "cache_key": "7f09145d4cd90901f9a1b8bd7e20bc3a259c2f6355a2cc40487f08beb06ea505",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

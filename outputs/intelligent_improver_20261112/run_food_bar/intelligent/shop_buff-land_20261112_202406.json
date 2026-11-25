@@ -1,0 +1,484 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:06",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "buff-land",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "buff-land",
+    "status": "found",
+    "data": {
+      "id": "5793",
+      "name": "Buff'land",
+      "shop_string_id": "buff-land",
+      "unique_id": "9dfb72eb64b20fe9e9aee7d4cd37dad3",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55047",
+      "principal_cover": "55047",
+      "qr_code": null,
+      "phone_number": "+33631889483",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Avenue de la Boutillerie",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "82",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9729701",
+      "latitude": "50.6288515",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:05",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:05",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJffmp0XIr3UcRMqxMvmL_2zE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5793,
+      "scope_type": "SHOP",
+      "scope_ref": "buff-land",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sequedin",
+      "string_id": "buff-land"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55047",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5793_6af39fd94ad30.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4851",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33692",
+            "source_hourly_id": "4851",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33693",
+            "source_hourly_id": "4851",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33694",
+            "source_hourly_id": "4851",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33695",
+            "source_hourly_id": "4851",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33696",
+            "source_hourly_id": "4851",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33697",
+            "source_hourly_id": "4851",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33698",
+            "source_hourly_id": "4851",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "buff-land",
+      "google_place_id": "ChIJffmp0XIr3UcRMqxMvmL_2zE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:30, 18:45 – 22:30",
+          "mardi: 11:45 – 14:30, 18:45 – 22:30",
+          "mercredi: 11:45 – 14:30, 18:45 – 22:30",
+          "jeudi: 11:45 – 14:30, 18:45 – 22:30",
+          "vendredi: 11:45 – 14:30, 18:45 – 22:30",
+          "samedi: 11:45 – 14:30, 18:45 – 22:30",
+          "dimanche: 11:45 – 14:30, 18:45 – 22:30"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdcW-FjKmnhDeNUKrZWe9CtjIiE1LSPFLQpzjVDpOmhBKPEscUH9dXuLvw7OLEIfJajqbiDtB_gdBiWl6VT_kx6WcDA7B0bFR11I1J_HXvUU5y_Y9eFLkuExk8Qm4K12Ho1yv2Ha8NTSBjMY_6gFJ9FUeoPjXl1bEHweuV4wtHiGGbbJobdXQ3UsQYmCC3qHproBHiS1ubxUFi_mI1eDUbB2sHo3I1EmN_4L4rJRnfx1heCEX9WydKEmNryd4jjuXB9hWlqbfuhxRhfJs1Vm_Nqt6jTyMgYkOU5PntAfsjcnKOW59ffLiN8Epzrd0NT4AWKUzl8Zxv2CZXNVx-WaUP1qXcO4LQUZEhDOp0sc9p4MhBRaLQKvkmLBwm71NUf1TtiTutW8zyAGuF6eO5QBdQaLd1AdUaVuRDt7GMR0Sqvgg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106032269616758208077\">Régina H</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLdUbzuizlrQDDsQoyBKNL_-13HVyUSAD21L9H6EFuKtsSfFrUj-U4UgEp0HIX0sKj25L-zbEGPNZ2IcPxlILOxj1uLtXHfOKrkgGK8lntQrp3M51BX_2cunuP-3A67TKwRPl1VTRHkenHy4buwwqXAOsxnHNYx5hzWcgSB7Q-Kzk3YoAMXXjuzvfGbIo855xgrT7WO9ak16dcpHaaOP5BZ-YhiPoQU7rui0xcjjvGLwlVMx-I6IPYGWGtdwQ15mPYJT8ovSnH_bgkNhVTKim2Ad8ZpTaDjjhOKuhoIjEW8lo_KDzGxtWNAqnPFs3PYf-n0DTUvTqJwsKHq2DDaRAbTKzNWKaqvljgvpUPFoDLuBwPMeYd8JwkC8CxYiy60jJiXCnTDgDy91xYbCXS_5phvd_76jOmVO6v0Scz7ys4q_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLdBUxp1z-18GNAVRlWG4aNtqRVfkG0qE4RW4oJQNAuvIU_lgUTfYgjzdfknF5XtWh1_-DGd7j6Lg9GlqK0z1O_yCJroiMQ3W0k6hlbvq0vUI1062z-dS8hXznvY3xeyLzwGASInYMd5F8PyN7FpbS9YDP4NIG4s5mbtUsKXwiIGyftYk7nOUbtBEN7XIRbgqxsekSDACNJOe658d6Goaeh2fE9tioebd7_BJVzru9qIVqqfROkdbb--qM9DYOZCEp43aP3p2Oab_pcDDtBuaGdkfnnb2Fwtyi62bT4lSuSdZtrrGP8fKPKo4ZotnFyxoXpobTWRa8eoDmO8f8XXVBN2MInSq1q6Xj68PP1QELPz-8UvVXdAGl-nmZK99wZ67D0way1Vfre5vCZruVvaV4QoqvRGfBLBCfETBdSSzGepOw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLekVKN8NF_mpQvV-L821l_9FeMWSWDjdgppjEeYvdItVH2Z_VrPycZROWCHHdD1PYaTbhLMFDlZEHZ5LKM_tkeowicKQ8AxEUFTZXv9NEoFreGayJ2xawFevDPDVqGGxDiLZUhblT1_PmR_C6KmM8tJa63gTIBiD5rPXndYFch-R3olXt0N7IBnEab6yyJPD5TVwxyyi6RSn5iDeJfrGSTa4vPgKY9Axj-UwRemcSIqvepR1ZhbGtjkG637u6cs1zr6fmB-WjuSkQt4YnRlBgqRpfwF1abitQk0V6ivtjGxCM1YJJSBAAkYsx7KU3CvrU1hnu77d8_zAKFEuFvJU4cgOQ3deU_ciScusdB24Uefoij_ZNd4PLQ-tGFMz_Wm3WLQmyXW4rfRia7PnQQKtKRsHzxu4yyZz4rsrTi_EzfkiQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108750557661527945915\">julien dubois</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2252,
+            "photo_reference": "AV-0GLfKJ_EnFucbrZ0fRED2q_cpnGK7L702mN0_fe9_UEYGBhZG-MEbVJpET4CZCYpuCjKXDhdPwamdrZy_uETIuCdmUqzfFqs2SgNfhMm3jViQi6O2BVFDnb2XoJ3RCB3J7e2qZEb0ezrWSW7Osq5EELCZPBJdoomJr9Vake5Z-S-pNI2o2pI0dw34VW1OAIKhGXcTREPhFAllHWNDsUQgSvNZWhq-s32TrBCy5QdITZA0eRB63ZZ47b3l5SnfqbRooAS2H6yAogIUsGtdMltf10jLTpYvoDhgA9Ap8mFjrP5UBLjoppRy82O0UF4G9_gHWXbweuoZYTjFcVt3QPGxe-0tZQilUeDAeA0NUqHz0DCe6ID95C9Trg6Bd2QZEBzdxfzvb2A-3GGNU8Tpwo4WB8iXB_sENWAK4zMDWv_nRULr",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105316692393249288909\">Daniel Gilleron</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLf3SsNM-FKX3OWajl1AST4pII1Z6QT098diHkYsfLoYzBjN_exi19JKiYO7LQvI60-QkVjm4t16g0pZzg2aKuyKKlUGYXA3CiWXy8MIqy6ukZD4nxN0P6KLH5dIZpj026602H4nROkin5HjKn8jqS1NwR0YNmP_Q2ehvQm2KYWuC0UOAXIlR2mOawMivVZ-92USEVHPgFFqJ_Og34hHLM6BRFWBd1IT-2SPfv6iGbrQG9_2INHJtguRqsYUPXjXFl0aodcT8-_OxJA2NyQJ-9CJ-jrKHHxcYoMqZM1Ra6ytvzPXK2c3F3eK-Hp-cdDzjiX2Kn0sW5osaHrIfBdcqJ15HRXPZrr0-rRcaVvcQIrKLS4jBo0dlIO7ZcW_P44MoAy9xkfdx37WsWvr89J-Qn_FnXB5N7wRqL40GCDD52ew",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108750557661527945915\">julien dubois</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLezTkAbWpVQrzvV6sdHFoO-IJbaZ-UTaKYsjJYsYF2_fZVmtKfo5YWVMppGudZfrnu9Z0uLKdBUn08XB5EdcMCZzTndyArv4-_AX4eo42sOsyCaJ9EpLl_E2fjB8kuP8VChZrHhPX5sa_dUIWyeQyl31iObSsuSMBFsDl-hxrJ2NVrYxNG-hNV33DdrKaq0BisWRjoCn2Nlk7EgGdzpbr_5TZIG4gg4jc711Z4ZiP9vZ6Uy5nf65EpSj3U9Uyhkr89my_lUgsJh_-FPrXx4klI6WtS7KpJiNJPm2nR2gQJWHbOyj1WnuUH7QLENkKGcIDZgG7yZCfStcLqUxR7VHhjoA9U4NmfLiBZTXfe3xC4EbtIdnqukUmIq2AkTpoSFiTIwTGBvnFjYk7pMqOfFpVExhLQDJHmzbg91YCL-CGF1kg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108750557661527945915\">julien dubois</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLfx3XANgp726hIcZxWamWVnw_5QXwatxuyxXmNkSE1Mi7HuXKdvAjcAheCPFkEYc4r8pxUlY64OYvESUpSTx48rLPC54g_9eoGwlxqsJPnh4O9ToY2nHYv0lj6n4BI2t2B9nYitfnu_PSz_Oz8UIP_l9cMctA77YfuagKA1etd4Jr3a_Kgqbe1hXi2rM_vVI6RPDLMzu0VHGVI5-S3KYSIA0D-ZEMsbO7ssOhTIdXLnZSk4VODWsViIAt-bnYIE0bkKvfZzsY2K_wmAqsRrDUQWZOPKDfDoa3ayy-7fnfhSv-vq6ilAGkYSauvanSCggXayZ833y_FDq1hqWlLcwD47WrcgAgT-Fc14Ukzs6RGcz9wsF6TQ_v64Xyrl8HuUmFIhnAyRDxcaII6k0Gdo0fExtnMOKA94AUIkwDOsD-iw7g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLfeqIQpmhEGD7boSUhXbAHu34Ebt5a2CT0iCL_uTEmzfRxFjDceLvQpfzPPwkVPkNRKaX_C8lflU-uQvJpCf9nlU9ANpQlEeT23Mar5hEvPCCRUwUL4GqziF__qD3CIxiPm-Ac4XJ8nfsSYdqjiXnShauHLUDapJR7Wwbs6q7cdAyowfq4gcyEGVc9m5eJ5iS0UmlMZjF1j-kFCb-SvBcFXooYehAtkw1eJoR8ZX5RB-gzDibwi2DMh8RHO02KpFkMlQxbduzAJD6JMRtieNV2YNjMHrYDj8reH_KQ7VSeZFlwx6XpKvI87xprW_4EKuR8WY2ESPdGfGEP1CP5UXEYqa-Mh1W5A4wavGuzFBv4PpF_kcJvrAmMgLuvWLlW1T30JH-I_samMduFGm70KPKBVro5D_FU-C6dZSZhdeL3hbA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113956776686413681130\">18 S7259</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdWU0tV8QjbHwhoqfXrQCzUVIalho4Z1CL8Yq8NjuGqjv_t-f9zx4ZCJCt_60AOfI2ICUUncJ_A8jd2i7_38aILk7O6GHWGNXuahCaWHktzSOMCIK_KmqUX63VBIeox18eWK_0ZLx2oFW8dsi1SGGn2SxNwVe_dILWnxhUgqB8dhwmFDCrytX2FsetogS_k3fDNsQBtrQctTWfAeJ1btqTWeOkVSJEGlm7CRt8u4CS0W4UdwX2t1dBMfNP_HhTYFW4DLcxe2A4n9fMDXkEgAUFNN_5uOMk-f1cTFdY-GmSUCke2nSkDSCnFoBluUcHqcFY430HMUxrfKCUPCph8jmjWFBVbRdfSWy1-wfjOtkxJRTdzl9v4Hj1Vd8zlMAmtSjYISCAQf_h5e1N3CnkOl0e7NBrsjP3Ux8_JCyLz4HmO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101046992293209289786\">Jiayin CHEN</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5793
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne permettent pas d'établir les plats, les régimes, les modalités de commande ou de paiement, l'accessibilité, l'ambiance, les équipements ni les publics adaptés. Les photos référencées ne sont pas décrites."
+    ],
+    "rejected": [],
+    "summary": "Buff'land est référencé comme restaurant avenue de la Boutillerie à Sequedin. Les horaires fournis indiquent une ouverture quotidienne de 11 h 45 à 14 h 30 et de 18 h 45 à 22 h 30."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "buff-land",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5793,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c03e81411e2007d90e8068bab8fefce5a68c988087329519edd2abed19a45bcc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

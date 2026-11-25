@@ -1,0 +1,527 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:39",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "pae-pae-coffee-shop-brunch",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "pae-pae-coffee-shop-brunch",
+    "status": "found",
+    "data": {
+      "id": "5856",
+      "name": "PAE PAE coffee shop - brunch",
+      "shop_string_id": "pae-pae-coffee-shop-brunch",
+      "unique_id": "9171d3a2db79f45f7a35368f932b84ae",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55111",
+      "principal_cover": "55111",
+      "qr_code": null,
+      "phone_number": "+33320448529",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "237 Allée Clémentine Deman",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0226065",
+      "latitude": "50.6343883",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:00",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:00",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJq9gwTPrVwkcRPLeu_jg2TuE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5856,
+      "scope_type": "SHOP",
+      "scope_ref": "pae-pae-coffee-shop-brunch",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "pae-pae-coffee-shop-brunch"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55111",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5856_6af3a22cd1955.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4911",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34112",
+            "source_hourly_id": "4911",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34113",
+            "source_hourly_id": "4911",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34114",
+            "source_hourly_id": "4911",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34115",
+            "source_hourly_id": "4911",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34116",
+            "source_hourly_id": "4911",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34117",
+            "source_hourly_id": "4911",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34118",
+            "source_hourly_id": "4911",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "pae-pae-coffee-shop-brunch",
+      "google_place_id": "ChIJq9gwTPrVwkcRPLeu_jg2TuE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:30 – 16:00",
+          "mardi: 07:30 – 16:00",
+          "mercredi: 07:30 – 16:00",
+          "jeudi: 07:30 – 16:00",
+          "vendredi: 07:30 – 16:00",
+          "samedi: 10:00 – 17:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1333,
+            "height": 2000,
+            "photo_reference": "AV-0GLe1Y7QVS8mpv5zezZJoIb8O3j3y0oL4yk5jwPS9BA66Nrq18M3TqYEyCYmTj79K8HOBjIatFTInUArBoRE3D3Ts-dSORiSQZ4u7m8F6Exo7br_7IRiafcN6NlVjBaZV3OigK1JP3BRR_xKqwcRwPyzUZThwgfVNIsc1A1m_4tV-E7dctGEw_2sYA187muBKBCt-gP_PceYygMpEXz5iOwnm3aOo67u179jBwmMCc80silUogxjVOAc-B6RNN6tKNHXnPQleC6gsw3nLQEoFgzCt8YAi5KbMX9KajbnL_ufQrXCo56dJoxh7fC3Fmmhyyc7LPeBTOxFbiKCJCMk81rzyEA09noRJYCR0_Bx4qNmSQYiav4_M8p7DSm-KkPUkVjO8xTNxNmCs9txhNLQ2HhcqnkH8Z2Od09KFDeIEwV6rWw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100862921006484384399\">PAE PAE coffee shop - brunch</a>"
+            ]
+          },
+          {
+            "width": 1333,
+            "height": 2000,
+            "photo_reference": "AV-0GLegfdXUsYAkb4YMCw6FQ4HAaqdXu6Tqljiv25tXK6JY3Ys-IjOMllGXCi8e_l-kWaurldtM43f_9m-RuhYb7zUEHrSJxZY0MbeHvi6yD_q46UzeHcjxV50LxLqL9hQQSoBajFBH0C8ctTkGQTcNXLKtR8tSxW01la5pZLlr75VIblNfiLu8DodPOdtnAfPCnjeCBjPVjf2HFXitu-z4wS5O3OvCMQLBIVT7KrLBlZeLK2XKbtmn_vQP5GMN9HLXP5k3tY7yviR0AH-l_rFVph9bWwgQZXeFYm4tafPCXZHsw6urW6Lgw0az5vN8kdhNoyYBw9Itt9nRsLzynE2S125AjPRpSSEHKMj66EYe0T9A_UrWeSeDJQAg-0qELEDhZOVGyZ4Z9xpQ-o6qz7pZMV-8qlPWMXmV7ioQBP70SI3z",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100862921006484384399\">PAE PAE coffee shop - brunch</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLd3k9BA9o7JwOgufm9cGlpGPj6iXlSbZr5zKfiw3mAWBpiNg_Ak9RaaMk3yDSVczu9bxaAj613Pg5vCEDLhgWRDuRCtb-sbhe7fIYgvLkEOguCPsG3ZXcjMEGZb3Ys--gkD7zL3zcEGVO_awrn1RSf8ghQQT8f3iefqq0vavk8lgVRRTEEzdrYvbws_xmWmGo6dZngHbdOxhDchRf4HxBAKicAZDJH0YoUkSLP6wCU0rMInRdxpCb_wRfJ3nvuJRvL4uJZ-Q_JSZTzca7pYJaR1H9K57jHGxHIYbn_ub71JTG1QKC4bS56bqCvmN9KcCoJ4pdOGs-mZ3f3al_-Le-SfM8Wm0j1sQkzRvC2wsjvdljS3zHhS9Bu8HSHNdqvoKz3MR8BYJMktyL6advarpoSBYoH6dOoLaW7pPsE7hOdK8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107688622082241440589\">Marjo rie</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2049,
+            "photo_reference": "AV-0GLenT_GLpe_k4wtJTWBn0UfqsvbEttDxvBFwEmrkGVY58l-EOwQmc-7rNsXYuUX94OZoCVx0tw9oIVbJOb4sfrEMuZIvY272K5JLGsj_0b7JiR67Y4Tw4wEAZU7QAS1OESKxW5iPnsZcZbtePwclF3NEub-mYtWcDXliit1Hv4GBky6Syq5gjFgyrMwZ0TW7whdWF_Kt66YaHU3MeHh7cEtipzO9i_9IQEvQ_wmILweEPwjhZw66CHjy9Kqvvo08gBaMs4-xumtQM9ZDMlP0Wz1rcRXXVZQMCp66Bk5SWzG040CM3WatxQxYvphU7yx8E5Jp8kl5MmdcUVkCK4OJS55_h2-zbPMVCi6hC1re2_O9DDojEM676jGJF5xeq9mC_j9Rokm4qyrvLTH_ZguybQfATZlsxK0EDBrbK7QBt0uklA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100862921006484384399\">PAE PAE coffee shop - brunch</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdZHFdRAzJf_aoWhH8YMnHmncdMaJxA3oPTpWTkUAr3fCcP1Owq0veciuq0nXaIUOEd3bwKa-_BMazyk_6w22h0Do-VqUGj7NVB34KrhIrbW2nWh8tqvE5v0oVEip0JezzEGSlRbZG_yFh3QXJLfdQ-ivvCLzJVniBv5uSo-zQPOcmYSHYjMRGfPaUNwp1heXN-OrtiOKRCN9gAbuXhAkBRAStC_i6WX296e_ziBvo-RdwTvOcWsQ3vcckedj6Ply6uzEm7MkTpdQDhNqtRYaT0OpXdBjYyccwmo9I8WkS2J6rCPo18IVTI-WsUPqq2GMvO2KKk3y6tal0ZTA-UMtabhk3WOUdEc4FujVnZ8WYyqcbx9fjJFVE0xUw52LxGei75J-z1FuY-IkxnYoaVkOQ2tDvLj5QyQw346ATh_WvdpA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107688622082241440589\">Marjo rie</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdiFe_BCY5lDbL6CoDmBIbdJ2tNTlC4hHjgypLUR_gsG3_eh4FNsb0K3cP5UtaIW1BhJ6E9QZemV7mVgETugeIoji1nBy12Vv8NCM8hfih1L2RJNtUC8aWrjXqSpJ9dCUHy9m4qxaohtaNshn2iOKXgC6vqcPCPbJGMXuz8q2SAREiu9eBKcyCAJhQfzWW62Uvtq4Dp_20CD3mwSD5KauBXnfmfF--Bo5TWamlm-cR6pv-ZNiBHLIBiH-sKV9svOp5FlvKrA8_KZ18d8SdCDRxcgqcLzakqHyexhC8L6_88KcPYq0Qy_vMnqxNoYHj-y6-EpGLb9OXKemSoEGXARaA-6Er1m6vkqaRX0FDNOziEC8xDMs_wGgfk-ZHj-1Lolx74X3Z8NG5iZbsHBx4NXxRfHuQSZzl1iTnzAgNq90tC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100862921006484384399\">PAE PAE coffee shop - brunch</a>"
+            ]
+          },
+          {
+            "width": 2910,
+            "height": 2910,
+            "photo_reference": "AV-0GLc9puSGBxjHMLK7uBPsUL_JqSVlu8xyH6i5Qq_3jbbLvRmJA0WLRitLSjqr70gx4NyWEqJOwhR8EvfXEdEzaLi7hTkcTOeGh_-pT90iHysrt_PwGDNh_vJiQCJMM8CKGr7UCG3baLK9X8sC-DDpVXjytEAsGs-mUQEEyeOqHFcetygJNFM9EoXzgu1bZnlIp6a7YH4HjhJwNJkqKN11YBz-GvUfZ9o9Laod0fvQsoouHWYISy8FAGzvXWEoe9j-d8dCusQtvYgT0dn2DsP74okXb50i7XxgZQ0atdHxoXe1HbeUsB6MKKvHA5YpvMgPqkAkNK3FlG01PwBRrNGHcErNAPXgUqC-dmZwSui-6vuSDRG1BnwUvmUj6EWA7KpWHiAmqyUEm7C6ldJPQ8JUdkAObwpJaPH_CMnQ4kptNDkUGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104828769318065217815\">Xav is Zen</a>"
+            ]
+          },
+          {
+            "width": 2667,
+            "height": 4000,
+            "photo_reference": "AV-0GLe37zuwrgjFbVwRzPf9r5sQqM3dL_CTgR9sKWd_iKnk4cqg9zHinR9VDA1UjCpvwMiwx1DwumZTLQdYP-Xy6Ytgiof1vL8OUua9TR9fiWA7PwXufzLwiakPlUolBYA6JYzd_BoqMKPphaXWRXLkj51dhOF7xFgvFUoBmAtmx70n9iPfYPnPwKc9i7Hwzf6fNTOgwex8iTvFEe7Vl7bVwjhRUSw9iM7D0Ibq6MXDOnSAFSbfimrG1ZHQI1fXfvDgnx5bIxD-KJELTglfT2QNP3-04i-FAbS9DJndv47K0OHSTqCPXQ2W6EPm1D180etzFl0AOEHKLoBEzwz1acC941oFanOknUm7S3DYfSq2VkCsnhHjNEquTNKjxTc_g8BT87p5IIyEeX6rGg4cxFwjeLs4hxXQIS6XDK7StcK0Tli8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100862921006484384399\">PAE PAE coffee shop - brunch</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfaBobQJjIH2q0_dYQUDWRGZVMgn6nZoqDlMmz4gk4KFJ8IqICgIgQqopObeqHk-3zu9YBpOvJ3tUyAE9SABF8zVE2ZRPrSlPpftxkpIUlpFSCB3xy3aSBRgI80ewQEBuJ3aWy49wb5e36Ae9UepqfiHks3pP0avTIoo5KyTHe28feMCt7iIFf8LPrNZaXfCBXvL1Qc2zXTXLnclyUnA5btZ69OX5xJwvY1EC2hJ5uky7Ho08_xVELAk52ilKJfgW7KMnm_O4TK6MzWTDnCjtEbKbMKmvs0MVNpBV5E-yJtB0_dC0LwVs0ICJnKyvn3sECasNcU4MoR1KGpQCu3AXH-6rmGIPXOMFyMsBRmD5qA4_k7Izytx5IewIpMKKdB0YBQQFzHPFR6Q2iHH3LVHqd1EoYIuFijfgq_aLypo1V3-w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101681442879341163603\">Inès</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcRN1_iRyeUgZQCOorrx13FXl6_c1-SyVIN9E2Ap2ej9GHIkr4lA2_8-PGBI5u3uTDlmoffAe5OoQVJu_3c9TEqIZUqBcYv02PobUDHntUHE93j33DBjcCBF6wcKIdUCmaILbGsKnFIbqpKbKyRICKKVkWptyoOT4cGdNvQbDjxbuXIfk8RNRk9TROmSgJ-A7v5vQggYTk6Ue1x4Xrqoy5a_61VUnGXTX_icbD2J5bbRMlE1mVmEmfu_FmdOX9-F4VYXxTx-fBL8Zi0z_iqZqnOhX-3Q6MTnDmWlU0VEFF5uHoTMcDsbpVreNdrMorR9oiowcm6yIECzvnpCvVmLRfxMV8oxGDsK0pi-aa67FcS9h_Y_Ix88QrIzSX0yubp9RdZiRfHFmj6H0mw03rgE3I5b3aheGRPs4BOKxZgIMBiNw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106730310301790603093\">Claire Paques</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5856
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "PAE PAE coffee shop - brunch"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "PAE PAE coffee shop - brunch"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les options à emporter, l'accessibilité, les équipements, les moyens de paiement ni les ambiances."
+    ],
+    "rejected": [],
+    "summary": "Coffee shop et restaurant à brunch, ouvert en semaine le matin et l'après-midi, ainsi que le samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "pae-pae-coffee-shop-brunch",
+    "operation": "ADD",
+    "tags": [
+      "brunch",
+      "bon-pour-brunch"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_coffee": 1
+    },
+    "editorial": {
+      "MealType": [
+        "brunch"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5856,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d099121075ae01488cc369110e83087d4dcb6dad9be1a38d01ad73ee0462514c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

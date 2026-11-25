@@ -1,0 +1,242 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:40:25.490803",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 39,
+      "title": "Enquête à Lille : Vol au Vieux-Lille",
+      "experience_type_string_id": "jeu-de-piste",
+      "source_url": "https://www.lilletourism.com/sortir/visites-et-decouvertes/visites-insolites/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "jeu-de-piste",
+          "principal_activity_category_string_id": "jeux",
+          "minimal_age": "5",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "chasse-au-tresor",
+            "enigmes"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "jeu de piste palpitant mêlant mystère, patrimoine et esprit d’aventure"
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "Menez l’enquête en équipe dans les rues de Lille"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Menez l’enquête en équipe"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "en famille ou entre amis"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Menez l’enquête en équipe"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "en famille ou entre amis"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'accessibilité"
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "dans les rues de Lille"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de restauration"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de café"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de thé"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de tapas"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de travail"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'alcool"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'alcool"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention d'hébergement"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de musique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de danse"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de terrasse"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de télévision"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "aucune mention de wifi"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "en famille ou entre amis"
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://woody.cloudly.space/app/uploads/lille-tourisme/2023/11/thumbs/photo-FLAMENT-Anne-Sophie-Comite-Regional-du-Tourisme-Hauts-de-France-0421-min-1920x960-crop-1700056591.jpg",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 39,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 80,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:40:35.659039"
+}

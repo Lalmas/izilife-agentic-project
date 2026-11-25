@@ -1,0 +1,131 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "897f990adb2ab6b346302e1bf4d549d86e7f349f4663e11311c9fe9aa5d294b2",
+    "source": {
+      "id": 687,
+      "type": "PLACE",
+      "ref": "association-des-amis-du-lam",
+      "name": "Association des Amis du Lam",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "PAGE",
+      "ref": "association-des-amis-du-lam",
+      "name": "Association des Amis du LaM",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_PAGE",
+        "target": "association-des-amis-du-lam",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "PlaceMedias",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlaceCharactTag",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "PlaceObject",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "PlacePaiementMethod",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 16,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "association-des-amis-du-lam",
+      "source_id": 687,
+      "source_updated_at": null,
+      "source_fingerprint": "e60d915a20bb6f53ccaceb1f14a58194a958b2622a1399b4b8cb5c929e643eaa",
+      "destination_type": "PAGE",
+      "destination_ref": "association-des-amis-du-lam",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Association des Amis du LaM",
+      "destination_category_ref": "association",
+      "destination_category_id": 1,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_PAGE",
+          "target": "association-des-amis-du-lam",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "PlaceMedias",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlaceCharactTag",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "PlaceObject",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "PlacePaiementMethod",
+          "column": "place_id",
+          "count": 1,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 16,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

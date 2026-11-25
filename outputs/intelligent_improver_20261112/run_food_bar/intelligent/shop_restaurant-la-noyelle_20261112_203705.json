@@ -1,0 +1,569 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:37:05",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-la-noyelle",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "restaurant-la-noyelle",
+    "status": "found",
+    "data": {
+      "id": "5883",
+      "name": "Restaurant la Noyelle",
+      "shop_string_id": "restaurant-la-noyelle",
+      "unique_id": "bbf9d8f4e858f3dcd74f0c46bed8c1ee",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Chambres d'hôtes standards dans corps de ferme rural du XVIIIe siècle, avec logements sobres et restaurant.",
+      "ai_description": null,
+      "principal_picture": "55139",
+      "principal_cover": "55139",
+      "qr_code": null,
+      "phone_number": "+33769905318",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "832 Rue Pasteur",
+      "additional_address": null,
+      "zip_code": "59262",
+      "city_id": "77",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1802061",
+      "latitude": "50.588567",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:55",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:55",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJw6sL03vXwkcRF0w91FZrnEs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5883,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-la-noyelle",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sainghin-en-melantois",
+      "string_id": "restaurant-la-noyelle"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55139",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5883_6af3a317299e6.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4940",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34315",
+            "source_hourly_id": "4940",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34316",
+            "source_hourly_id": "4940",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34317",
+            "source_hourly_id": "4940",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34318",
+            "source_hourly_id": "4940",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34319",
+            "source_hourly_id": "4940",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34320",
+            "source_hourly_id": "4940",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34321",
+            "source_hourly_id": "4940",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "restaurant-la-noyelle",
+      "google_place_id": "ChIJw6sL03vXwkcRF0w91FZrnEs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1600,
+            "height": 739,
+            "photo_reference": "AV-0GLe8_gDitIefYcuMpkZh51f1b-tIWKVEadzaLx0TTRXQ7XzzIVn3af0LCF3qC7eMyzR6zcbViwcj7p1cR1BPBGV8mscyAGNzy1n1nIJv86FZXceDWV3FtM7qZNa7CMmVqcrhMPkk7Jp6Fg0UrpCF75RgHnW7rjTever9CcmYDiOMskJfUw4OsxPFiHZ6ZhWpnhoGZ9r4oYzK9D1_qtzGe6tAYdIppvidnFnQqffYT2jmeygHj0NU-dTGevgejoeeQVRKgiofco9PZdTuOvVVuid4Oe5rHn0Igi1jpXtSr-nXcA8YCAHA_lw5JPpLxIzwp_XePSxyb3-eqUcN3xAuMkuDoJsMyR0dP6txkpCo7kv8kEONVVPFguClFYUs3RMPNHOFsMrsXsFYf_dd7E_2sNvSMbNQCMMFHft09MhG3iAL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115216013988008593143\">Restaurant la Noyelle</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 1800,
+            "photo_reference": "AV-0GLe6RJpbC1WHlXlf_JoGDsRjyGJhk5EIh5uD8uQiC39b2sXH08QYpPvx1eE1WvcGC1ot5O4GpkkzL33HbQT3AQjHm_h2iRSwvxRXs1e7Fybp4MNFc5q4Tz8XBqsxLla8fhS11MAz8Vb00tA7JlGgwyAFpWGesFlfzXfvwC5O-OOUspU3hLpReXFrAGd_t_8JAk_Gd6F2mGtijGF4wGb9p9x3A7BhqNu4t5Uv8qN02e-FLt4D_PFb02_MVVageDq5-1nBgXtEFaG0bxmVEmsTQeBzb9Addmo2WLRf8ODTgTb2XKtjPhRTbMH8BIKjNtASHtKE9_ikQkGtPTG2Pq9NPJzfQ2u-bNCqWoqH7P3qFhymnyrSAmOgR_2VCBs9zoKffhZqrkJhKWRaT4vm2Go2AbZE0z0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106243671596373841772\">Georges Cioaba</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLfM2RMY8jA9MJR69mmVIDBn80Obz6bXZXBYsgA2_3fYVk6c1H4m71wYorK6apAgel6JwRvcfbHqQnzWwFSNI5tbOnICHvrjUR0OTAjYhpH8l0hscVTldsg7yD4vy_8WWgud_PA7jPJ-lRFPKXcqq0eYCD9gwwzEigLroHnoML5ULr9sIamEB_KtZfCG80ou05-krWaCes_88p1KFnHBmcpq_M-VFTAD_7CZIfZKUjHKMGX2cz78rxqhaprtwhzjcm84BGNmO2VhBEJxK8EHlfjLNgx3CcJv_OBaHZx8yDpqBchVoYVAFCBKg1MRgU5KHoc-2Xfkai78A_wihnDFnI6luDqtlPqejbqFOedWgEFSzA2hkFoXzkEUZVmodduKbYWtW9c7VngPN4Ek9ZM4ZXGDLHjTKyLdQ4W2Fe6mkJOl",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115216013988008593143\">Restaurant la Noyelle</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfR1z81aA2lnJI-aMBu4q0HNIHULcCslsMMucJaxAZdSoIrCfhrb32TAteE4poPZEtoTAdNhV7TdFxakFU_TG_mjof7uvvM7G5dIOMGtDcwJ5X7EsoxQgXl0wvk_Rge4CLIzjUV07UgdsN2_Q1tzpcdx_5OLZArl44F9px76dqMn-vShXj7k-3MD4kMCRVOXQlKGYQFjt7GEb3pjEemT3s04-pFC7dqb_pvcUTpnFzDshIvzfsIDsn-VQ1wEae2qz2vNx9ZTcOXaTYzbzzYk2Qj--4wSqseYKgjuT9zw8U8ePqhHhHd_mZq7og_jAO84AhTzKlkSk7J6Y2VFsQ2vMi8dKi2KBHotXu0VNf4oKClmmy2SYubyluWMk788EGhLAt0BM1G8m_w5Z4BWXZzPLhr_8R7JIee_sk0JK0uP6m-Nw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117518239964680477513\">Catherine Demaré</a>"
+            ]
+          },
+          {
+            "width": 3968,
+            "height": 2976,
+            "photo_reference": "AV-0GLc5QNQLuANdpB5QKNNURwCWILw6xI3OlOcH1eeMe_Jwep5CAUJZtVP9lKgDz-FsUryiIlQDVgGSOzrijqMBmygqRCS5GxSntSV5CuW2-g-oQVMuBxl1thhMWC36x1QP9o9REPKthuMvAVZd5HkJ5SMTQMd-Oxq53MS71j8P5ghQ_FyvudIEnFRERsoGNj0yS1vlOUKp4qnIhPL-7i-6CN_oWl1ZT0BgbjQbdhuKGXxq-umIe-89RLxNwsy2qfj6zDpN0BOqTquLZaQcOS61alv5pGX8l5d3orIDGHjW2oNvEDo5_evDjB1TN_cl5JNwyzjnPMTW5pN_o3gsK3rqLzdqQ3X5verpx2U7DmFwUrlYlCmkg3vCadFrSxOOKBGXkeacVgjfyw-FW5jOpYsiGru_YK8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112507895261143958778\">elodie saus</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdl38jOD84R8ELUbsWtjNpVGuwqhhbPyV9uRfIUXmRv4DqViTjEvLJ22lIguUborMZ9Oc73oaTgMgnqAnD-RLgbRvcS5FlqQeuMgIp6zxjXS_UnDMIn5oBjLf1xZ118aC-7bus3KfY4zvP3C0FV1t3jjBHcDAV6tSaJ9Dy2N71q24r3Ivk4pQOqlwHi4Yh15zs0qk0rFFtVDAVcmSU47GMJH3DpP4z3YVs_RV6acTMaxQktqS5Ywn15naKES2WGd7hXHNSBc9_ejIMd5_wqfdYZBu2bVcQEsqgpeb4RCS4ateEpWz7PP1Dpm3rqla0ymjxxkQrmrLy80NgQPdWgke6T_28nWgBKQ_xKm5OfxoUMwT1qATynC8GnHrvqIXsirKkYTgabZBu9NvJcAQvDxb5G0nweAkuadAJcHnUPaC_5Jw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115216013988008593143\">Restaurant la Noyelle</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 1800,
+            "photo_reference": "AV-0GLfUd26Tn7cCmSnrpuIwlfBkJ-wHpE_XDucUD1Rvtb4OPBqARY0fCDMz-8tA4BcvxNshXa8j1ODpne2UOCcdVSV1vxto9-GgtCgjfvZav45W_WeVP5PRslf3AEdjE89HCZfEe3yl5px4Z09WFVjtikSKEixWBdbgObDNclyqSGiXOHvldl1lZ25v15-Vj2YCPAgxmFPnHWsxQdjj_byDMcISl53zVvCNJq31AIWdPg6WaRSMYrl4-0NPriIV9UZIPu0A8R9sfS80zKNZzRlFown80rxeXHFie8yrca4fQce_Hm6jCWibHXp8YMp1o85PYJvhuigvFQ1njr78auO-deK4scDjxRB-yj5wWty6JZysBCWxWkj7Q4pkcs-0jnJsMAcAAHZ4lympWvsC3hs8JlzNYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106243671596373841772\">Georges Cioaba</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdRGnHjeD4-YC_80G9xgwA-9uJodNGF7JNt19_iqv_k1vkmc0GB9ke9dmxiFJsKNfxzk1YdwSPy-dNd591rfngqzGThjspec0S6j2423Dpc_H8CkIm_qEqS8jxDB93-y-EMsaijNTIZ_pnVqsiD6se1vFIXTH_td8saKI3S_aeJNESOXJeHqW14XMOzl1tPI_Djxi35SUrB1omTHdWxaVeEMxJKRThRkpZ0_XJFvOc0G54NzxZT4NQ-9oV4xPjrbkVdB_P5RLfIVlMgp2PL20fZwdMPOyy6wUkBL2xnpTgJCStm_iRJGWDtgfjWvRTL1IrFgpm6609A14aL0ioGdwe2nE1LAbXYukj0BMZS17kZwj3JDuXmx3tkv4_x4tZF260wHJIp1GOEyRIgTwWTpSOhHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112421619715889300734\">Àlex Freginals</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLfcOynwbnbkni5MEzhs99t8V_26-0JXku82eyBfMOVtfDWGI5z-4xU04fk8vgiDG26ADtRhzJaSrzB3t0eDqo5opK-lqbgT5sh2w7wRa-X0nNA8P1LO7qMpvJfouqP62Qalo7muZ8K04PvihOWMKyT9jVY_KRWNdC7ytRv_R-UwlXgDktbGl0RsZLtI92ljWCqT69fL9R_-DFwE5MnXOII-1WzYJpTkidq1i6GcWNtn5bxsZ-sXIiREN0yy8vmA1i3UHb-nkdMynA9Vq_1gSRoJbnELX1dRkns11HFHRFvy1uz6nGl4PKDZuY219G-dKWBdpYxNQhd2wVARLSjyo-YNNIv-zuPVjVwh8mG-909Yu8Ti_JqnaDEcmNbHyfM5JmDDv65M_lZep34I4eA-DfOaNQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113932926780247021660\">Olivier Baert</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLfuMfdJzL7S7-IEQZuVVn1Yhsar1qrnloEnldac7fP89Z0Gi2t13IOYgzv_6dHDOp_HQJC6ThF2WqRPD8HTWXk5YfcgqORak957eYxzsA0dz-WR27Dc-mMRLcDvyUuVJjtp75n9FtNItkGxHyM0QeJiXQJVC3GOdzD-uztDc9rtGodBpL_YxcP5M5-4XNuf2RL9Qdb8NAySBYMjDrdk8z9FTh0D0e367VQmbEcymUVqOAvPsEoWRW2HOyjrI_tDQhDpPmo76fipJAF3jQVGrvFbClz1f2ILjHN2B5i1xgWixZyO-u_5khiGoWFc2LcBk220Ih2QDLui1YNBmi_ICHp1DP67lRjqKHJZNLE09y0M1tsdiejPAzIsopwZGSLYAFMjMsvPrXgH4t9L3aak5L9l-0WV1XM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113932926780247021660\">Olivier Baert</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5883
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "restaurant"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Chambres d'hôtes"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "champetre",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "corps de ferme rural"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 12:00 – 14:00, 19:00 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "19:00 – 21:00"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "hebergement",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "logements sobres"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "restaurant"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Restaurant avec chambres d’hôtes dans un corps de ferme rural du XVIIIe siècle. Déjeuner proposé en semaine et dîner le jeudi et le vendredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "restaurant-la-noyelle",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_stay_for_sleep": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "champetre"
+      ],
+      "MealType": [
+        "dejeuner",
+        "diner"
+      ],
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ],
+      "ObjectOnPublicPlace": [
+        "hebergement"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5883,
+    "changed": [
+      "ShopAtmosphere:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+",
+      "ShopObject:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c426917e06ac2a47640f7daab5a30ab1a997085caf64d436152fb935bc3cce61",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

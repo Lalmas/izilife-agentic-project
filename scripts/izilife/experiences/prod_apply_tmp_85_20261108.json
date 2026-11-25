@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T20:22:24.308447",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 85,
+      "title": "Balade en Bateau Promenade",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/balade-en-bateau-promenade.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "60.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 85,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 75,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T20:22:24.842633"
+}

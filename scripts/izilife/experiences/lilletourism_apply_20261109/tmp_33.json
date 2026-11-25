@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:50:24.086754",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 33,
+      "title": "Lille en 2CV décapotable en 1h",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-en-2cv-decapotable-en-1h.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 33,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 74,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:50:24.355997"
+}

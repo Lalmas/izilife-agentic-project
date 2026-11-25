@@ -1,0 +1,32 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "habitude-locale",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Une chouette ambiance de bistrot de quartier »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "« bistrot de quartier »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": [],
+    "warnings": [
+      "Les données ne précisent pas l’offre alimentaire, les boissons, les modalités de commande ou de paiement, l’accessibilité, ni les équipements et activités. Les horaires seuls ne suffisent pas à établir les moments de visite recommandés."
+    ],
+    "summary": "Le Gallia est décrit dans les avis comme un bistrot de quartier à l’ambiance appréciée, avec des patrons jugés agréables et professionnels. L’offre et les services ne sont pas documentés."
+  },
+  "meta": {
+    "cache_key": "e87c1a5d8da05555464d38377923087ee6ce1f1b2fb93891f0d6654fac69d543",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

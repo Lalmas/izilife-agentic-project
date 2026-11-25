@@ -1,0 +1,135 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« un endroit sympathique où nous poser »; servis en cafés et tartine au maroilles"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Dégustation de bières et petits accompagnement »"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« un endroit sympathique où nous poser »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« un cadre formidable pour organiser des événements »"
+      },
+      {
+        "string_id": "parfait-week-end",
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "« un samedi, en plein marché »; « une très jolie découverte »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« accompagnés d’une délicieuse spécialité locale : la tartine au maroilles »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« servis en cafés »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Dégustation de bières »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« repartis avec plusieurs bouteilles à déguster »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.75,
+        "source_url": "izilife://current",
+        "evidence": "« un cadre formidable pour organiser des événements »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« L’accueil était particulièrement chaleureux et convivial »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous parler de ses bières »; « Dégustation de bières »"
+        },
+        {
+          "string_id": "cafe",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« servis en cafés »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« nous cherchions [...] un endroit sympathique où nous poser pour boire un café »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Dégustation de bières et petits accompagnement »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous poser pour boire un café »; « servis en cafés »"
+        },
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« repartis avec plusieurs bouteilles à déguster »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie artisanale accueillante et conviviale, où l’on peut boire un café, déguster des bières avec de petits accompagnements et repartir avec des bouteilles. Une tartine au maroilles est mentionnée parmi les spécialités servies. Le lieu est aussi décrit comme adapté à l’organisation d’événements."
+  },
+  "meta": {
+    "cache_key": "13f0857b0fcb99055f275aa1ccaffd92de24189e52e648d80ed1e24a01e634ae",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

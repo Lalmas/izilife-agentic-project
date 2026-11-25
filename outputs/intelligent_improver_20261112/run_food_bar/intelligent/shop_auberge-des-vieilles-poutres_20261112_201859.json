@@ -1,0 +1,509 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:18:59",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "auberge-des-vieilles-poutres",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "auberge-des-vieilles-poutres",
+    "status": "found",
+    "data": {
+      "id": "5756",
+      "name": "Auberge des Vieilles Poutres",
+      "shop_string_id": "auberge-des-vieilles-poutres",
+      "unique_id": "f030b42a48612b47f75fdbeebabb8544",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55013",
+      "principal_cover": "55013",
+      "qr_code": null,
+      "phone_number": "+33320502313",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1270 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59134",
+      "city_id": "34",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8899894",
+      "latitude": "50.5839107",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:46:03",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:46:03",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJZV_ZSmYp3UcRoaXoymuI74M",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5756,
+      "scope_type": "SHOP",
+      "scope_ref": "auberge-des-vieilles-poutres",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fournes-en-weppes",
+      "string_id": "auberge-des-vieilles-poutres"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55013",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5756_6af39eab922b1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4816",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33447",
+            "source_hourly_id": "4816",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33448",
+            "source_hourly_id": "4816",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33449",
+            "source_hourly_id": "4816",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33450",
+            "source_hourly_id": "4816",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33451",
+            "source_hourly_id": "4816",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33452",
+            "source_hourly_id": "4816",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33453",
+            "source_hourly_id": "4816",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "auberge-des-vieilles-poutres",
+      "google_place_id": "ChIJZV_ZSmYp3UcRoaXoymuI74M",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:30",
+          "mardi: 12:00 – 14:30, 19:00 – 21:30",
+          "mercredi: 12:00 – 14:30",
+          "jeudi: 12:00 – 14:30",
+          "vendredi: 12:00 – 14:30, 19:00 – 21:30",
+          "samedi: 12:00 – 14:30, 19:00 – 21:30",
+          "dimanche: 12:00 – 15:00"
+        ],
+        "photos": [
+          {
+            "width": 640,
+            "height": 480,
+            "photo_reference": "AV-0GLfHpQP_Xrr0UTr-CMiTARheagQQHrl-uyXCdL-ZKry47GdCnEfZ5k8OPzihWs6Rf0BVOSmO5Edv-uXBVXhElI0xnl2U5pkO7PjJNoejp_uuZrvdyM-PTr-y_N7_LfaVU9F6Qopxl9frwYhFl_omkvZt8-zKsiKCJ4mGBWbKY1foIAzPFCcHihDAK3hIaVaXT3EDihs-tvXeXM9XtSZ4tb2yLGFuGMAdchHJzPjTYUC4aSFgs-ZF95HTfMZHBzNFX5HOVn7OklXz9jXSwPWgVdINVjIrwKFpj2stgqkVjoDJytyPJXCS30QcPtSOJJEu3YGMH4P4jp-r5nq64dqclwe_Zu4CDoP6v5GmNDGIlZs0War3W0cUh7Khb3Vytg--dL96cGF8kmOXACIU3TykIYF4pSETnsQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113664734297371843954\">Auberge des Vieilles Poutres</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 3024,
+            "photo_reference": "AV-0GLdnHwGDs4qBrJ66oJ1ISKFlqmVp6Ir4Uip5uFBZoYIMofkjT0BjwL3IY3d06V37ks8IxeLRDcielYQJCbl8Dwh1xI-tqTNUSufUpqEtGdGllJozWiaYtoCJAUd-nEB3kOiJz8jsnrW_goXLOMDjCsIFNeyHnmpUA-dcSzzBaagx8QhHQcSI1M9g8MHzHcBZMSs7QqSalsx9C35OanWo-Dq2CfFUAoAi0EHmMkcTS65ihOw8l_AhGuaebwkqL72RelkmFOqPJVF54PskuM05U6H63kYmu9cYS5puT_XoPuB-_Th1zJhW2pgrvBhcv1Fyx5NrFCcPswN6tuDM-VLtX5968vX0BWjOp5UzF0HvSqQ0fSr6IBJNsIccPcEMk32cg7l3ccOzMSK_i7GsgLf0M_WIrM-GtPY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113664734297371843954\">Auberge des Vieilles Poutres</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdSOEN7kvDxcOFfsWJxUz64W_cZbLPIrJbrGviR_DlCzVbcM_I-5Ftk9-KLqP0IJYI2_leQQGDSMFjLL8ftvYngFw1nrnDmdXBrdZ558-J-VZYqyZ4gyq53ThjrdkPqfcnZL0_yXi7E1uM3MsRq6bns6d3RJs77P6rgkkh9BpKwdA-L9PgP83uy5UtQr2YfsPjXVHE5TnqZzzt_el7lz57W9LexBcIrSTcary_5tOn_LoUZr5R_QwB7VeRmznOiq7pcTY_GEUnDBv-4atkdYqjuzuedvTyI4Itw6B2lSe80AReCdKEIvNyFRnyY32YJUsxjbYJ-KtWNJe5jipsXuja0-IFnRhxTpMjpbAYxsvdzjcCneWoJF1IEqmhIxd8bNQAs2JMGC9OF9l0-eFK4EXt8_QE9kH8uLLXktkIcpiG1IQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105897494624918588936\">Christophe Rose</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLetdTX_tyJOE2PHM7LZItq3g4-1wR-9QBs_58fQVvDBcdhTdCGVPUy4W5H35em1TJTiIrw2FT-ajvYtuARsf3dFonBRJ9qsS8Ihvhk9CGcedXESBOjlYO6-hzCGvixN9IP-Gp-Nc7JbHQAe1R7HEO7L-1w6peAfNkGE1b2iN04mJ0UIah52vWOZ1LAZfGE3vLacWTjJigbQq4PzxpXbEvXBeTnsi2VdI-voMIuBACaE6dkj14aWi0XGPaXrwM4IyvMAZrXehhAuLLBoBLj40OtemcUEskpkrWNAHLxMNS7-NJo73kVcvjAvCQ8JWwsopIyZe_L60uSe8PqAkUv721ZS6BfjGOj0H3J_W3j1F-3ZMSXwdBqHHKz6RgLeXRpe6mK-K_w3g3-gkYQUbbvpGLt7aL7opXAaTg1gXgtufi3__A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105897494624918588936\">Christophe Rose</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLcqTA2shJ9T7wDaUCHDF9DNzPEDCzAtTfro6nTN-pRsKf-Ij8A-jBZeOidtjJN6aeXiOtFiPNRo0cSIDM8fpDj_B4pBUDaHmCCv2vPKVhSIY-zoab_wQnuPMoCSN1DReG1D2Z0q1ufpKP1eQGCKbGXgPq8SG2rSPa-14otUPdjVviYQ0Jf9cFKkgOJ288jfXFDonnPQD0tpU62U0UwA_ctlQh8ohV2he9e8KmqgXifx9EWECuo9GaTfElyDk8jpjEtfyZku9IKId65_ANkdhnaVivnMBtf-9TjNkj0J13dNBchcVzbTfcoS2fVK9UhaoMbRJs2B8VfIKTw8A8uGYm3OZCpptwr6xVU3tExbEOdEv1W61xnGvp1lN382piw2enYydVLUNFzeH4PtatWoHzZ-9YY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108056788172734531803\">Nico</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcHdVDUlXHJlXhyvB1JGznIXFciA_TBEQ9aDEobxuiRP_smsndsoyBvOompC1Z2FuzQMHwqWR6JW81UrAYvzebV9OaoMKB170AsKVJm0yyoZqc_B01ZQo4uyFL0uKs-_J8RkGeRBQbHFjEuqw0VURiFPHbY4u5Zoon-ECxNedWQEIjv99V1MwkFzvb3lYvIPtDW-GMhN2Tah5rHZphaGF5e9Ni7mZyFJCS9YQ8__uN0xDTF2wyeCg9Pa8URrw6D8GtEbeBZ_qxpTRxUQuZm06IBEP8m5jEsjbuND6G-sTeA4OIOvkMOqMnxiPCY0mLEvdjzKeZPuLi4FcyVZVK_gEtTUL0EaV87nt9mIx6hZ7MPKqpGenqHMbKLVYu_dQxGM0Ep2Arl6T5wqRsVw9heyV0rjisZj_Ud9grZLsT-d6eFRw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105897494624918588936\">Christophe Rose</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLeX0OmGW4YbuwiAgKYcazdKcPHInejCSHeqy2CB_gxf2mDQL3zzFuMI17wTs0pVuYA3kwTwHhJ4a-xhHRNjzepgmghlp9VC7TsnbCj6Qe-i_ZRyj2Dvote12DMiVa3xtMGIKGSf-SB1gUEi91wem1dIpMM46QzU3L6r5cv7BbGaxedPSKssO-7D58OUBRBawurvVbgi-qGsylA2SzE0CVDpxF9kfQid6xJobijo6HsLzuDQcJ5qRyBDrASIUjFQAj6KLuCpjWlwE6Uh8cH2GKukuz0o7TyDEPPSkksX0P8_4hBCu0PncxoykugJtIgKoY8sBvuCjIj6op95Sxo80PwZd9vrKyXDg9E8G9fhrZ1VNHRRn7fP6L-hkDZRvHeu5STx2pBVUq0IprTkyk3u-AWnL0sD",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103791002791224750092\">sabine populaire</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLd5Vr-hpIyDfWemcmEtSD_CVzKmzn0bCG0WDMlGmyTnaHgcXY0HcXIusg4Ptn8mbdW3cXO_90jygCzBSvnq7lrohi-YUHIG-r3zif98HPDvMk5tLj_wTbKh4lMgToiNCUhadQ72qA3nmYN8pLo0dTxw1xzfjGpcFmBmXcCR7jrjou7vggyUzyE6u3dzVDNez4H79KO7tL7U1n3q8NyihDtWpQzRzdS9U1eLHaSl8JqwzIpUdB7n5TwlHGT7IDTf6BlBO_z8i8QOihKghXu21T59ZpKPciIFAwu32RGsvvYY8S_LuCN1W6v3unhfzwmPBE_ncDrloofmuiI35Ba7Cq-3Uj_TJPKbBRoKIQa7sT7uWZMMDQHEDLdmqmTmAd1Q-9Uk-PRM-A2zbcKWg-Zd-kRrrSRUMTksUMX6zHVHpuSsNw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105897494624918588936\">Christophe Rose</a>"
+            ]
+          },
+          {
+            "width": 3204,
+            "height": 2268,
+            "photo_reference": "AV-0GLeVu77lcgDSH9QAJ8sfMq1lTmABoXiVbiIO2qxyGsZmPfAniR5ijSKDhpWaKquQPNb63HGwDIMEft2EaSPghb1DutIddHzEiV6yNl0dB7n9T-Vn7tVfvFF_6Zbf12hWb8Ql9PJ3ddeED0gBp02CRsIpTfpqt4I1D6WONRR1xUe_HhYtstvJkBUQuj9D6k6UqoxyrY0BzEPfYd7uvaWiz-3XYnsvDo95fu1evPlL9dPs3JkgnGIzwe-5dheiePiM-gvwoFoRBevnzU78pZd55clQ9guP9ss3QlWYTUQiBMsfi9b8XaIPbnlu4Y-jEOKj8zgG9-LF8dGEnLkFslptBqyhyunJqZfzEPir3OAraBkLQozS0Eqt2uS4SxEo7BhhzU_gux32ypmtnBXfZgNH3hpOMw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104580670919142672772\">MichelBofficiel</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcxZ7PM-pVoIFD_hRmsv3da9ZL9VypNhWQk9Z3DDRiAiwA_gSsFDReEw1XpmSSxa0YNCYxoESK0FboDBQTr3HrcVDoai_gHhwr3LinvcoQXUgs9PGkvEZL7oftqfF-O-DLVYALr-IujETAqbM7zOYUX5rdTr9cgSuTHVsGSUAoQiaAzG0UufqEl-Tfe3WlLurGgFcnKUp-IK-CIAp2QGJuIxPj8gPsrO4tiAMUgSq0SSdvAaXphzNSSt4OlvhUBtVgT3IEUNDLhSGg_yGePujHLrj9q6ynccgNAPMWO0FKaoCdPq8KoxCsJh_emmEmugoswJX_T5cVizCRP4agAFjBgzebOwwztyybtaHHleEBDSKjK2DIM0QahR5bJK2Fsq23f70SGeLhnkGyAdQp71UdzS_jOF-b6RMV6Kfhx4DRO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105897494624918588936\">Christophe Rose</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5756
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant situé au 1270 Rue Faidherbe, à Fournes-en-Weppes. Les horaires fournis indiquent un service le midi et certains soirs."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "auberge-des-vieilles-poutres",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5756,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5922e0a1f96d0e723686ffcf21e20b8c4bc2ddf25e6a0e631e15d6e2167536e1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

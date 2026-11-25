@@ -1,0 +1,44 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "La serveuse passe plus de temps à discuter et boire au bar qu’à s’occuper des clients"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "La serveuse passe plus de temps à discuter et boire au bar qu’à s’occuper des clients"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "accueil chaleureux"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis sont partagés sur la cuisine : certains la trouvent excellente et copieuse, un avis la décrit comme basique et manquant de saveurs.",
+      "Un avis signale une erreur d’encaissement lors de deux visites."
+    ],
+    "summary": "Friterie à Hérin. Les avis mentionnent un accueil chaleureux et une ambiance conviviale ; plusieurs apprécient une cuisine copieuse, tandis qu’un avis est critique sur les saveurs."
+  },
+  "meta": {
+    "cache_key": "82e44febdb4bab49eb1884aae219f8cc71bcec3eb723fc244256ef1eca934c8f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

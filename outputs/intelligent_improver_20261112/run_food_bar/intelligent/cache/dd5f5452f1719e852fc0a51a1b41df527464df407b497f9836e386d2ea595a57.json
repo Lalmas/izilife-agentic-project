@@ -1,0 +1,94 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "« boire un verre »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« boire un verre entre amis »"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Bar de village comme on aime »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« boire un verre entre amis »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.8,
+        "source_url": "izilife://current",
+        "evidence": "« boire un verre » 🍷"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Endroit chaleureux ! »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« boire un verre »"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "verre-entre-amis",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« boire un verre entre amis »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "point-relais",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "« déposer les colis »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« venir chercher mes gratte gratte le dimanche matin »"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie ne confirme une offre de restauration, l’accessibilité, les équipements, les moyens de paiement ou les modalités de commande."
+    ],
+    "summary": "Bar de village décrit comme chaleureux et sympathique, où l’on peut boire un verre entre amis. Les avis mentionnent aussi le dépôt de colis et l’achat de gratte-gratte le dimanche matin."
+  },
+  "meta": {
+    "cache_key": "dd5f5452f1719e852fc0a51a1b41df527464df407b497f9836e386d2ea595a57",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:10:17",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "angela",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "angela",
+    "status": "found",
+    "data": {
+      "id": "5736",
+      "name": "Angela",
+      "shop_string_id": "angela",
+      "unique_id": "0a6f36df7358d0b676ec569c04e15574",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54994",
+      "principal_cover": "54994",
+      "qr_code": null,
+      "phone_number": "+33362641140",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "107 Rue Faidherbe",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1153613",
+      "latitude": "50.590144",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:42:21",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:42:21",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJUZbPMUnXwkcRqJwIpiaWaik",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5736,
+      "scope_type": "SHOP",
+      "scope_ref": "angela",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "angela"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54994",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5736_6af39dcd9fcce.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4795",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33300",
+            "source_hourly_id": "4795",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33301",
+            "source_hourly_id": "4795",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33302",
+            "source_hourly_id": "4795",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33303",
+            "source_hourly_id": "4795",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33304",
+            "source_hourly_id": "4795",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33305",
+            "source_hourly_id": "4795",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33306",
+            "source_hourly_id": "4795",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "angela",
+      "google_place_id": "ChIJUZbPMUnXwkcRqJwIpiaWaik",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00",
+          "mercredi: 12:00 – 14:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:30",
+          "vendredi: 12:00 – 14:00, 19:00 – 22:00",
+          "samedi: 19:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLf7IsHQ4B43CFl5SVsumX08t0ywLwHxTJp-6dMNmbw0962vzFDIenzgXKVkdqy3LDtiCxUIn3-AvMRLVsExAGutgSS69kCQeewRD2zA437J9Rg8UJPOVZvpZUhZNQ5PoR8eGyQjdvwcsQC0bwvKdIyorqeaRYH0pHRm4NoR-3o7660Lbmhbw5c8ia-BM50QeaRAs0o2tJ8OeTjTR1DccXt7UVhzxPxy7e_mj6lCohO4PO7y0IFcNai4YVTwJOlmN-VehCT1UcbhnrdGSMFnIto0dSsKRqmIH7JM5aDmtbVrkpqrLESUkl6ZmKL4brzIODMKHRF_vqn1ZaRyUsQZEnqEjjNtTeO6g5yVvLnKq1RXM1AtihUE6t0mBs6PpBoKpuvogPkD2pymp3WuDP42gCF-tms",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd3gzhHhP_61G7b3gwF4vJRh1IAT5PFEShaOxA9MIh1UyOovapqZMl49MngFWbtsWEMwsy05RGhKRdq2jh9jw6OEYpJlMQOdhaDjnmNiNFNQa8y6jMi_qTZ-hSnks2dNL6-yhhIwaMTAWJqGA46Yj4VhiaK8WdU2jV0CE63pc_FDgQ7U1Iho_nRbuGj1cauT64vExyl51Ii-190aEmDtCTecC2sDkcVPKENBijwG5yFUBJNnXnbaVjMpyoAN42qKaVJbEkyj0RMyxET1Anq4fkB6Asi23Y8Hpz1tRjFixPNcug3yPpWFdySYfdwXxCTB7RII3RHSqU3n_77KvE30gDbACxHClTIZrlg_malZ5SZe60ruPbYXsrg3RbO-XbizMmo24z091McigVVhKYS1Nt3Vgn6u70",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 1221,
+            "height": 1133,
+            "photo_reference": "AV-0GLccCfJ-NsCoKWkYjOA45lBDS2Ra-3s4qkNbaraaySfjiwYKkhKLZkBywlIEAjnesxM66Hl-WksrFNA6Sos92rxUW7QtXyq5akY-HDlxpQdr5yNI4NXTZA6GJuPHEMmldpuhBscgvUG6eeSV_6JKkh8BfuM2xNPlYwp7UGg5vvlSKbCTiAKaUIaWPikVLnsdyF7OX5C-EQY8nwApB6txlnKdtucwiwu55Rb9trFnwvCcCh8q9oThumRB5S6jof8MnneAYM5EhsFcEj-D_vY1C-YU9PynSDkOQFQFHEcs5Mncp2qaUPkoBMOfIwcTZu4VbNsDplJ0AFWlOjACeJ8OOBDX5T8t0UNwgHRNggbhBwTp9AjSM0jgu8Soi7vqevtOBCmv3WSsPH4mY8y6IFMQlIIpGsg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106580447938287500862\">Hei Mei</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLecLWTCXgVr-vcH7cs-QzDlFARGasgjq2SBFeYkm79MDDr9IsAtt0BdDO5len4C90lP0PTEJErgS5yJbxDdtZyAGWJciQ4XMSuwJwKv0bh7yTqilaGqwX4coA9QMIj16Yj5KS0ReMGcadV2aj0zafPHyuLGeScrgRYC_-X5H2cxeAfXwTnYArbFK1e1iY5NcOl2uI3GuwzZzhinVGU9a6AXyQZJ5SA5Ewd2buj63mMB83Nwp01-gyERXOXqUvaqCBh2Xj7e90LuM_1tYGuwBQmWo_l_UGNa2OfQ-lDa_PUOkY2J_snz5TD3-b08VGGRsj0xm9rPHmoA7lYjyUUjhfOA5Qij3Y713o5ZUoz-jaiiielPY2Em5tRbt-S_6P-MtdJlivZ4eLN_zpnwpM_NAWo6G9OdRQM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117114475841240643440\">Stéphanie Hennion</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdz3ea-Hk4snxbfR-_xp4GZpjPUP16XGifWtxfe-57pQpIQfS-y37z4Pwm-9iFlyvnSla6tMZNrXnsTgQRXz_86PeGEt5Mcyv39iVw-3xRCLma7Z_0fv5zctGKJMFg-_UEegPj62D8P4a7qeOimFnQsdVNwVFVf1A9rjM0XRN68noW20R0SfTM_Z4-fxlZEqI1UsFiYTE1qR2gjD3bkhyZgL4Et7hx3tB_ayMVhHdLpIRmqf9o34Qt0lC31gSGuGIPpBs44WJUUSxPoOMu9bRrebNlRisTnVhY0WiW62q-eF4POVDdr99e17VKLR8V5sJWi-bSd8CAD87gW5PPOz0R-M9wAfr1WGoFFbc2RDPS8NbjS2baA5qrpIGibk2iyrcuh1nb2k2kr7Ja9Gd6Diysr80s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe_2haW_fxU3kuov3UXizQU7q84CPjzoC9_3UBqVvEu0NDDBeY1OTp02hvLXrWjEK2FcCZgypAQiV0o64e3ZITDL5jgGwGmcqL-QEgbLHr72U3tHMMDM_FiP61qjY8xoiCDvpgPlW9EUvgTsuXVMzVnJ9A5lKGAOAGwHqz75IUYvoW2A9pQcp8-VGT7KXXK7sUmhietv__6e27hPk8UYeA_N49rDcbcFnu7YuvCe-Sdd_na04zvpy8y-dCZ9bEeQkjeegW-8r_3ZGl_yrgk5gNN8rqfdzjza08ujQN0VwUU3ekCte5SUp1eIIk51j6ix4E64rsW_t8_wLcXruT_FQmSOyoFGGO-0hvEK4hB_lePq2_AFqyV5_LHBcttuD4tpxtRwEO8cApZEWtPCtoowtmCdqNvPf2lMPk0lTNEt2fcHg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111212337844586004028\">Mélissa L.</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfHeHZfysGonoF7Ylzob6Rx60vf04MPFVakwY4NvZtenw1_OpXfcQn0rg-9G_aczJJpb9mAVxSh_xgYu3cq77J0CdtwLpyAHg9QQ_TwhF8I8R-75178erOzriJUP5C_OC2uF5WsVHbIO1txPEdJ0aUj-S8mxKzlAjuQIPoaO6cBRENMnSNvICnzIpXdLZ8QAtDtMaTjQJFL4osGxhOgKInSQCnzlNKC7QsNRSA8H9JVPIIp8qJx36IEjbVKV7oqAJb9C3fftUpXYMuT9A2_D5gpevJXQAAci-FpZ_OnOEFLIJRICm6xEekaWePfSTU_Lzw2xqxieB3cRWilgXdvw0BnHoKb8sDhQZjksi2-ysCszaoPkF2iF9bg64FIToSX-wMwhthUwR_kQe0jbmTGXEY8wvrkkPM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLevh1qap7g6N4kbHLaGiJ-pV5zmH9NnuVtdIdGX6oWhDf6hUaXkHLAolFFLm5MmdKc9LP1vFSkX2TWlNYK8Z80Ls2smGRQKBQFa5S00iCdTqgHLC7tCMo9OFQll52-tu9PZUePFL9wh0SO3pvt70UzMG_Ogi6cjXWQOaW_7RTUPn9b6wtpPqouLHYSyxypCMfiFtnf-wJLzYwSB_fPr_T6Kjh_A-T94dmbz8rslr9DaqOZyAPx5AyHjWGyt65rIKOoZp3jirEcfazqnfMJbD7WoGym7bC6onbudDKnYJE5D8CFy_8noPsKfLxpfmTOcBIDH4zV_Le78ANSiodVjfbzDCVnnYE9x5XWv-KM3aOLh9vPAP7vV71F5lTCUr7-679S9sX8qAxnlGvvGrCI4xqlo-w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLf2JYvIp5TxuALaljDVqAoAaT4PyN3x2omqI6WopbaFsxNxqANn_--bk9YDXhseXBZospoAI-GHnpL5Mx2dkbepIBfw4kVSeuWGCHKVdVVZcYI9NoozmxdmwCJwWdwdrUkdi_osMjGWN6Oi_D0j8YLWIXkawggUglsqdYZCgRnn2DFRdT0Xua3ZedKXCtKl9YdQnfGc-xkSVeFkUZCGaJKuJwozXK_1wleGMGuBc16I86-3po1_PNSRmD8LeVF66R8hlstoCjCcXV_oJOfMyGSM4s5yUZB1yntPf_yHihz2_ffRhglM5RKGbpo79XCDas2IFlY_CdLoTE0GsqSpp1_8ZeAYCk8OnArGqOUwvCBQfkONTL4dUmuyo1jQjz9EY4cBeCwI6bkKtyxwCO5bbUtoRg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLeDu36ycehKgRzlSWVbdFZEFrQpkCoOXtIM025mRoLe3VXpMnQuKsxiNx5VFGPwenWDvongvDaUrTuJheu4oMTTHM_97x-8M2YV6R0Sy_HVitysu92foAJRi8PMrpbFJ2UHEJCR9vTGFsWPS0P3ThNK1MenrbDlNUlAcRbMNacqmhpH8lQTkIyObmS3cT2KkCiQ0tAZ7LVjOOZjBUw0PVfPTzV0_nFJobu5HiEk-9R7P2BIQn53GicaLMt1h38r9ViDzAQM_Xxeu16T5jgEaBzwQKYXV_nMkRqDYQDa1QfStTTgAQEj-anuOxq_Ydf7WVpbo4dMWs86LvYSvYpQTRQMHRL2_4c_dh1kcs4cWK7UxD_rgu-fT2e9UCk4T2qHEDsXC09MLnzj4smqAIW7T_HuGA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112802628701699153414\">Angela</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5736
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Lesquin, ouvert le midi en semaine et certains soirs selon les horaires fournis. Aucune information disponible ici sur le menu, l’ambiance, l’accessibilité ou les modalités de commande."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "angela",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5736,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "20e13ca598be7a860860ea89e3eeb1a1384a4e3cb46a63ddcc0aaa5cea209c54",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

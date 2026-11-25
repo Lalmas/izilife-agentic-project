@@ -1,0 +1,101 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "place-historique",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "lieu chargé d’histoire"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "notre restaurant"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Coup de cœur !"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "cocktails de ouf"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "les plats et desserts divins"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "notre restaurant"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "la célèbre Mandarine Napoléon, une liqueur emblématique encore aujourd’hui proposée à La Braise"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "une liqueur emblématique encore aujourd’hui proposée à La Braise"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "une atmosphère chaleureuse"
+        },
+        {
+          "string_id": "chic",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "cadre original et raffiné"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "pour l anniversaire de ma maman"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "liqueur",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "une liqueur emblématique"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant au cadre historique et raffiné, présenté comme chaleureux et convivial. Les avis soulignent les cocktails, les desserts et l’accueil, avec une célébration d’anniversaire rapportée."
+  },
+  "meta": {
+    "cache_key": "f28cb4d00ac55a56ac6daec1f0b515d2e02c97e6755a9338fcaed4d0ccbfee76",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

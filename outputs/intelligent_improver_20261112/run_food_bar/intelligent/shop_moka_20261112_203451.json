@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:34:51",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "moka",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "moka",
+    "status": "found",
+    "data": {
+      "id": "5869",
+      "name": "Moka",
+      "shop_string_id": "moka",
+      "unique_id": "d138bc796bef0f2573e37fb69101bf4b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55125",
+      "principal_cover": "55125",
+      "qr_code": null,
+      "phone_number": "+33320744523",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "221 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0096462",
+      "latitude": "50.6140402",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:03:01",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:03:01",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJscjbbPXVwkcR_0et7DnGHIw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5869,
+      "scope_type": "SHOP",
+      "scope_ref": "moka",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "moka"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55125",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5869_6af3a2a55ebcd.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4926",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34217",
+            "source_hourly_id": "4926",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34218",
+            "source_hourly_id": "4926",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34219",
+            "source_hourly_id": "4926",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34220",
+            "source_hourly_id": "4926",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34221",
+            "source_hourly_id": "4926",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34222",
+            "source_hourly_id": "4926",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34223",
+            "source_hourly_id": "4926",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "moka",
+      "google_place_id": "ChIJscjbbPXVwkcR_0et7DnGHIw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:00 – 20:00",
+          "mardi: 06:00 – 20:00",
+          "mercredi: 06:00 – 20:00",
+          "jeudi: 06:00 – 20:00",
+          "vendredi: 06:00 – 20:00",
+          "samedi: 06:00 – 20:00",
+          "dimanche: 06:00 – 20:00"
+        ],
+        "photos": [
+          {
+            "width": 960,
+            "height": 720,
+            "photo_reference": "AV-0GLe6RWo1Uz45t8ILGsTdsWfQnoQtBLDYiFtzdBArrpcAUXcdNU9pNToIraD191nF-hQblQMgKaqzVPhqe_fN3-3ytaDBuJFJXNIw3r0HdWn_93tX74POgySjetillwAJ5pFt3j1vNLRzeH1e-CTu6A2HGQVGeDzuD0EcoCVOkIp-haLsN51fsS6dWcJzyXUGMd2Ywf5X-1IjF3pW1L6TqbzhxwkOsT15lMLbvEuusl5XW8AktwRy6Vu1GzyxB71arqxVgkGvF9meDLbYyyS-r-8R9VOWf_1Fwtr_R72eLORlMqxZgV_PuAsJ5mTr67Hip1mBmVXH9TV4vUzVwv-MJbE4_NQmMYy_bH3PtGXKzPWTZt7hCVDFPbMFcm8_VmZ7IffoyxAPBwte5kasTr_ugg3T5Kc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106305724123668698995\">Moka</a>"
+            ]
+          },
+          {
+            "width": 1284,
+            "height": 966,
+            "photo_reference": "AV-0GLfN4Z9gG52oyKupXhlb4vmhPMishBIULrmCLLGkS0yVUOJ25cKjlG3qWjuswEK9EGZ49moQ-exhjOhk5HIm4uIbkqMzZI6dnzQAzBy0bzABjLrPf4LRdKowwe5fOhRVwIWqLztEzIgYM4ra09mU_ZrM-IlpLkioi5lO2d2ORsoE62YkwYYRWlGEokLvuGymhEFo4al9jlbEh5STDoTv1kL-oEd13czyiSfcuIRK9CwK2SClukMvM_nZxGNNntBeiofhnqpECP1g0UU7w8wIwSzRavVhwfhb0iyn13LHe6rTKLWJkR6y56BJ_VyS1359LYIbovY6M4Cnqj-GrCCSh1u1xUZr494U7DrKKXBXj8aoeIuNkRfwnr9fuLySGn0J6CenM5fvNiJ9uM0Lwxlw5SOJLf0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113813502040159540927\">Amel Khelef</a>"
+            ]
+          },
+          {
+            "width": 3711,
+            "height": 2783,
+            "photo_reference": "AV-0GLe_3yBwwKVQ101KPobeT1NIOUN6v0ftd0sbuuXxBaiS2m5IY-8qQ5mA0C23noFrrpERKaXVzLlFtfmttkBRZlVOU0IhhB7Jik17GF6YtVzPM2NNGoFmYRSbw4XkHBxhg6Pk51x9kSex5QkZdZNH5kkX_q6Aqwp4jMPP2K431UWe_iNm9js_ip0Cf_5baWRrKoztqadz6ieDCG3Y0Jh0in4d1z7VKqQHI8dR-PJV0fZ9mY0oVca-JJoYVCbf4fUPokTMtaWamvV1CrFhpjcQtOiPdgwGJKFmGmrxOlKJCXLa1R7F7nYQs_dMFl5V9O7RoZtLCsbgxjg8uNVctIzIIkt5-KaFDzQ73jm9ucCeGZA3eI2W4k1KfvVBa6B0uuK1RLNkhvMWZQwScmOC7s1cyDh3QPQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110427673486937726560\">Amel Bou</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd35ziKNRjlKe_4FxUWxbSZ153gNbsvpKJjpglJvG7Wpsasi5jU5ikrZ4T1p2ncp525t2PmC_djLHfos7xX_dGcwkGv_B0JK0hjheuTgaW-quypsIRrAviSPKlBwSv6hBkc5lL1ptO8WAjwPz9qr-j7_u4tHhjkXSvgH0ASZ6EJDTQaExYUFnBhwbqoNeCOh-j3E9UPzCWlBZbiW8-r7NAU-nOoyKrC2uSoQo46_5emWVr5VyhhfY3dn7-Aj2FsM2Dltb5IUIh9Xv0qglVzIs1fwBwFeStiC1y7aaSwHuesYUc3ieNbZqNjVAVGahtHTAtS5xs0_y810K11PVXargAXpO-ynydiOVHaO2g4BWNiOYt6TMLVqPDqsAx_BBY8P_juIlTjBr_fY_q5FBHSXpyzm2USkqov7qxGcaTowcWO",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111692640485993620114\">Nad</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdrze_pdO0g1lUGQge3aNSEewLhiqyBzkqC7sVzZHsDvcicL_Cq37lKJoAMBhgrTavfUxcueaZIepdr-vhlGJMm8YDlBmB8ctXhdmMaIpSlbv9TPLyFquqdk8JBh2U0GmE8CS5kP7a3_mJiTZX_8Bc3HNL_-yWBedCSOh1Y9g7tqi05h1clUQR7CvSr4x9L266Ldx5kdVCXZEci5X2jGIK3FY-xUTp9B3rNpQKSM5WWKwly23bkgccBC3NGCRynspsTUZJ8gkthdbgaaDcr0r95oJaX9yQ-6yc7elCUu1oq3IB2u48EoiWkEVTA1LS0H0-FSe_o6hQwZAwDscPNI2dniJ3o3JXh740LBnrjqdodPpOD9V1EI8rwgjFqu54Wul11seArKmaxUPP93PX2Es41mM50RH6xbNc5XbIkg9ceQg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112746805433983400242\">Tissiamiel</a>"
+            ]
+          },
+          {
+            "width": 929,
+            "height": 697,
+            "photo_reference": "AV-0GLd9X5YUBZ582Axf0xBjbibNgqYjc1TZCRdf_xAOMmDl-lbtbTUXMVfahv-uLTqFjN2g0C5y4vYtzGMIgyJoctDSG_NP42ut35FRJMkR9wZbuIuI4QwbIsBGK74GpIu9DK8AS8QRiTeTOH3j4jzvdN0ifkTmsTiWuFeWEumD_N_0aH9dVPaHrThqvetOzTwPN4vcV37pEQkkPF9E2su1O7JRuPxSCthtEHlF4fXI1l5kvYtH9lfg-r4lhwTrY6YJ3w5w8uZSZE2Bb7-PmivMgao4XS2U53CqI5UOZm7oVGW_9s9QkH58X4NKVVOnBTy5p6FxApNqcVM67cKen_fSIs0i1_G6lRK1E7431Vd4GmFgihxKu9d9DOU5HgWq87VRUt_tlXG44N5RVOPA-vEA3LH-RA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103680016512364651754\">MARIUS</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdD33iE6mCbXEOY6lvvCSQNl5ltxwYe90IowgxJGjRctEMo-MeHVNeElEMNXVcPPrMJDsFGgoR8LQFK_Qn4r-40EREdD0tJg4BaYhkRnb_L-9QQia9NVW34dYyzZh6tc-A-CkVRxzPjRfPwMgPv4mv6Lba2P3Scl8EzyVhx5ko9vALOtDtEvS1b0D432PjQUhoipw_lc8bRo2NIM2-z5_XzoyS9DcPTdlYO3pp4u5UA2MsmxmjiD03V8WIRpHsCsoHiRRNvu7NLJVrpOLhxfWXYWIuZbhYrqkZkBXmtQI9nGtWn8TwrlGt5IqD1Q1CcjNDFt-oV3TvFtpaxIVP39UMi8srQVdaPeHn8J81HkyHlLOnXPcKiZrstqTPEJa15OVSs1OEUS8OI2zh4NyfqW6T3W7TLhDFGKJScqreeZoBNoA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112746805433983400242\">Tissiamiel</a>"
+            ]
+          },
+          {
+            "width": 2268,
+            "height": 4032,
+            "photo_reference": "AV-0GLfoZ-4DUzEDhToVKMwPKeNZ0oerHL0fu8aes9cT-9TAkBj9PvjxTF67YzLvR5kEoFDEtHcypmVoDga1nsgUzYIe9vH1AESX6VhbbtiQU535nmtBmWtA3hLLkwYFXhV4wX795cWbw01cq9zzBUivDph3euJqRsb5m7J9fe4HHipmzOIdM7q9Ybps9hZkAkGCWg_w5bN0wtYNBcBvAEYQIlcC3OuKiOxWd3LSeDk1_QWi2hoVt9CrW2ESWPnQkpNWcittIQle4EQ7atxq3xFrTENVmQ89VT1k_vKD_LPDTImDtqNFWd2gkNZYztq9tzurUxb-i-OMNNlfi8xPKp7egb8b8wZciDEnmNlWxSR3FUU_jMjEuL1nkGK8Pay2gzLau5RBg4GAlA01OzkL5pWnF34-rKDV",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106944219024368616160\">Patricia Dezoteux</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLdegQpmFlz9DWqEZOWF5v5bYWzkRRIihY_3R4Ing2-Gc0U1PJjaGTEvn3ch0DMkuIRnl4xQ_Wf-C9NSj69UBSv_Xr8g_qci34EBAcou4wStQ-KIhQjMAt9QUquhobMkXod4ILxfCF-Npy6oMi5M2V5iR0ymL-w0JxDZfVMgmfO1IuItB5IA9n7LD5Khg30eYxTQ41xhpRI76iHDid4G3sQ5R6VuYCNMb61l1tgC5hk47Qvyobvc9uMerL4e7i_yV4vgqL0IjdS24kOwNiRbVYH8iQ3llJbTb7ocBUwwHCDNVIxxKPY05El6KmnRKD6UIlSUrOp3_H25YsrBq23X5YuoH6Jxm2ozz05TSrAnMKOBchqpnVZL_bU9jr6Txv3bWH_omRxFIjRqPWgA_I3VeCbs4tE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109520071733742530395\">jung olivier (Drakvodra)</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcN_nMtnS_C7fXd-Nxtoal1_QEvpobSd_kXjSQVCGaEX75mWvlIX9JJFGRJsOWapS1DFKaMfxUhUsUhEh296IKtTYezjVOoCyxPLe5fJpdFaS6GbPAhZWtAEf5NkbOw8RbwkU9JrlT1JSnYHRJinJa6CXLEfPUP9gmUZS0NY1OOoLMTB55UFxb3KPhd-wqFfi-A3KLz17bwtGKaQAoFzfErX8ci5tvABywCo0EVe0X2EUX_ZFUo-AUQuYlOtYinA63n4c82oYoSXPKrcN805tiWPNsywrW_jZgrom6BF12orhQ0ZCAYApDjH2HmFwY2cqwixhnWM3DSECq4_JSE63hdXcrPMJGDb4YsN2vEBYgHkJzMNhvLU2KOR_JzGF4RVTtyN0RmQlrb3RLgpMx5lxiJrhNlyis",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117150322128102663063\">Malik Rush</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5869
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent ni produits ou menus, ni services, équipements, accessibilité, modes de commande ou de paiement."
+    ],
+    "rejected": [],
+    "summary": "Moka est référencé comme boulangerie au 221 Rue du Maréchal Foch, à Loos. Les horaires fournis indiquent une ouverture tous les jours de 06:00 à 20:00."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "moka",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5869,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f6b7ec906cde9c251cf8fc2d671d1d2bde12a906826010a8bce297b89cbc3cb1",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

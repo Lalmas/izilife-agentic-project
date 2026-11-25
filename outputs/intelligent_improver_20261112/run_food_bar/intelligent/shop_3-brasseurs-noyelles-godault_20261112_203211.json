@@ -1,0 +1,504 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "3-brasseurs-noyelles-godault",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "3-brasseurs-noyelles-godault",
+    "status": "found",
+    "data": {
+      "id": "5853",
+      "name": "3 Brasseurs Noyelles-Godault",
+      "shop_string_id": "3-brasseurs-noyelles-godault",
+      "unique_id": "a678c3d5a07313f7065d70492d8aa965",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Chaîne de brasseries offrant des spécialités flamandes et alsaciennes ainsi que des bières brassées sur place.",
+      "ai_description": null,
+      "principal_picture": "55107",
+      "principal_cover": "55107",
+      "qr_code": null,
+      "phone_number": "+33321137980",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "43 Boulevard Rufisque",
+      "additional_address": null,
+      "zip_code": "62950",
+      "city_id": "1266",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9771113",
+      "latitude": "50.406809",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:00:31",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:00:31",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJq3UiLMjMwkcRsf3Uft4vGOI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5853,
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-noyelles-godault",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "noyelles-godault",
+      "string_id": "3-brasseurs-noyelles-godault"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55107",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5853_6af3a20fda942.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4908",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34091",
+            "source_hourly_id": "4908",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34092",
+            "source_hourly_id": "4908",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34093",
+            "source_hourly_id": "4908",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34094",
+            "source_hourly_id": "4908",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34095",
+            "source_hourly_id": "4908",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34096",
+            "source_hourly_id": "4908",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34097",
+            "source_hourly_id": "4908",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-noyelles-godault",
+      "google_place_id": "ChIJq3UiLMjMwkcRsf3Uft4vGOI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 22:00",
+          "mardi: 11:30 – 22:00",
+          "mercredi: 11:30 – 22:00",
+          "jeudi: 11:30 – 22:00",
+          "vendredi: 11:30 – 22:30",
+          "samedi: 11:30 – 22:30",
+          "dimanche: 11:30 – 22:00"
+        ],
+        "photos": [
+          {
+            "width": 4712,
+            "height": 3121,
+            "photo_reference": "AV-0GLdi2U34KAr4PSh-pF1daT442qvcrVau1m_lkuaeDOgj_A5q_Ys94-DvV2V8ErvLpV6-kTht5SmHHhLHjHf1WPFcn1GaNTsN_VQP1lB_JbDoadiL9KITpL9awmWkMxjN94IlLihwWLUk6CcnOp-cw8E0R8ZMlp26-AQkZ3ltoBdWj06Rgv4M7pUAjcTuSZ25cettcg1ueiuO19hqtSx3U2jWZmGo-eGfS71d3PGjHBAqvVYnHQNp4z9MRGP7UCgnAspK06WpSQ9D7G_W3Gnd_lUnxacuXkBb5hOoF7M-no8bo0o4V_aq-lW61thDfd9JlStGwlddRJrFF1SFb51RSd9epm8pUnmX1IxmiQzwYs5XdDFG8n4s44zwOX7eKKENlHpnEp-jsmC5dcZrLMvYJ8Bc8IMY9E0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117299954592602528956\">3 Brasseurs Noyelles-Godault</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 720,
+            "photo_reference": "AV-0GLfZsUiw3ivDs3sRsWFTVrCQnVhQFRa6ucukhebmi4ffyXSadHrtmBxJW_IdObdrH9BbF14gQqAJI2ErRgTlEw6VzLmRQOYA3-cpJy_4iiGutiTlY1RqW77-OHqvkQ94uUDUQt1rzhVzQugdpvf6qtD3xzx_Cuw-3E1I9HJXbIJT4qRVgfDdV9yquOCoAM0LnghTt5OBmN33908O976ZYWjqGJqTwib6rxt6B2F7UOkUKr3eChncdVtU6ym9KywHLNYps_m5HD9je90ubTNyR1jCXuUIrCemsoJWZQ-gdsuFGbbQxzUCpt97rCNizYvWnnrHFLa6d-qr-J-b1_poqXJQweLWLYnXilZjW4EaQk-tx_fkRZapnYGlgJ0unmWIRDx2NX-adAtVZWSICiJbhkw1ka3C",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117299954592602528956\">3 Brasseurs Noyelles-Godault</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 720,
+            "photo_reference": "AV-0GLfrzqQwkZn7Fqz6jqE9vLsga9bY1rzO9UHzSf5hM4o6r2fTdjPan5uWP5HPjSA4kNudCH5kourHR6LFk3QM7KR_IWMNIlCDwCiq74sSCH-QiesvCu328xoyBfL_nc_rYZ4b60WO5fLJ6QrCMTCP1LaGze9gK7QF5pDvELgdhR2RSqddC_XXC_a1MyWaA28PTDp82IjCiVLpf9VdXaLUf9Qtx_-68_lyQClRLhT6FPkBxvNRSXgzC0Bn2XSlVLieMhm4GFjcIvpxmIlLCNb5ajlbTho0d-xKsxMJTEOXzrSlP67AWwPqnlOJFNf0qd-oDzeQVJ_SXCX99wLjS1GN7at5ko1pxn3wmjs1MBubci_c4LzpldVycY-uVGPCNKsYOfZGIV47G3ZREApIIK6ZJLGRogag1nI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117299954592602528956\">3 Brasseurs Noyelles-Godault</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 608,
+            "photo_reference": "AV-0GLcCcY_UvHI-uQp14gGXSpq6ymITFZNNKHOiT5HItROMHrivpOZc7v6biqNgUfb_aNucMIhA6UwG2GzvRyuCTcDyk1AofRbZ05ceaHBtvIzfxxiIP2xSaUp_tY8bYjf7fCZjjaWnmkJJkOuNE9MjS_7J6kBGyswEdo-dGyaFRaQc-yE93ooiVbOgThkzgXn6F-U3zX7N_fd8thmDhO8vv0ErtEoN7WjXdbZu2p-8NWeYueITLK_30h5ThRaDw_hTETT5lKYSO4aIZ1CkxwPQtezioo8a3SJMj1p_J4QGxhxoezjt0eiPaw03MJn0CDsSACnYg_8qYW69jDuVQWO6RzU8jh33N590ZJe6CEtHO_CEBPuDB3wJXcBPhNizSCLGJPXxSEXu0t14ZRp6ACg3MLpN58yLZLm_wKbzOznFPI-sCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117299954592602528956\">3 Brasseurs Noyelles-Godault</a>"
+            ]
+          },
+          {
+            "width": 1122,
+            "height": 1587,
+            "photo_reference": "AV-0GLd0JDWJc6-zqZpQXZdnsRmFfyRWOBZgWwn5d-QrleTyjuzIKb70Pw_gJxzB_6AHHc2jIYKN-MM5F1wlVYqeXf1JbWfOTivNnttYeihvfOTic4SVsuuflqMJpdmnnWqMbWOvzH5xKPaE0fS_DEc9vDa4X053KMLJ-qlm0ZRCeboBnDNH8tPLrl3S_lCmIqPhvCpX6XBcntXznrv521U7jR5YwWXlF96EKq5DT3PYoxj6kLRTm36q-xkZJMp5fBVZYwx2bwSv6kPNhCZ96DJcpe2CjrRwkj3hJWk3HDBjCfu56TtUERayNixh9a_41naKxREjfXScDy_P9rbuSSmivnTd8tbuj2rXgH-J-lzK_Gs-FjjqN9D1kgMfl2DEwsfFzN77uuA0G3kaG-kJzBrBt0lN_xwxti0fnMWwpSHTUfIOHQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117299954592602528956\">3 Brasseurs Noyelles-Godault</a>"
+            ]
+          },
+          {
+            "width": 1814,
+            "height": 1386,
+            "photo_reference": "AV-0GLfvvuiGDNWiAbZ3zTYfZW15g2PoNEYXeRWY8YaF3E2XikQH_3DwidVMvEzuONOhR5Qc6Vb_6_a_dLfpvlbwjRKFqkGRvX9uHZIPhRYXaUJqfIixgi9WIsrbXupSv_dWCteQ4zt-FtyESeH_h6B71ubV2J6jMoL_lMLrhKymW-Ytf-nFNSdPfAKFKrPmhfoD5BW8cxbw4SntRDt-1wUCTVsHUBNvPM22B3aPUT6pl68-cSAIpwXSWiiekYvy0Rc7bWoSi6lu9bhvH0Gb1ORi_KhlyV9aZIxSVwBCH3n-GGlHjOmKtP4TXHBLh1P3q3klqPP3i7MNd0lH52m8oFWQxZRpDCSCIedE9y8VsoqYivqw3QijuxJc7fOSH99buVG0xs56o3P286J1lGcwueuM0hsg_xH6U3gb44-j6_pgh5Y1uQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105669408789879037640\">Marierose Dolinsek</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLd2gFsfhM1R4Wyc2mJAedRFKXAn-gsFwuW7SNxPOme3jUidmY4P-Ea2Lbvvz79bnTv1Vq3Ufrgk7fgVTOhwgc-RLVUYzi0p_9rZw-zHd5UacwsIyP8Nt4Ni8PA5Fpqhe4qBzOY10hJs99IZshWc2T-UX4P3j4OfH8RcuvbxvvCYPTsGoYpDBDDxdKhRQzE08V6LUrE9WmP51qPP8Hmysx9LplbpdWNUb-zeUYiiHv5x5zVQwbfT8giKKRZ3H8MNma61Eiadt5ntYrVZiRe7EBEN_cy7yhUEGO5aLaSXSazvqpDFgpzB0-y26_PNkZB9LfeSh4Ank2yQxP3DQR78bwug6_kt72hDBxl2OvBfyPL_my2Hwemej4yW7rd_m6mEsUXFjTuIKl_WW8Was5L_8CYgKoC27bSYOrik68U4DPYfrw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114852811072335445383\">fanny D</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdWK5pBQ9eploexY1eSUhdPtub5dY9cU8B4VdnQJBWKbJ9BdM7Ql0bJ6cuv1CmAC3VYtDvhLk3LzgYHVxP8Ivj71VzIDbuSdKamld-_QtayOry3XoQGPkEwa2BvAEFQt8Vynxer4qr0-6q6BabFhhSOVW1mM1mDffVsxrxpvvSpt_4Hsz3cL5ueLtKv0oX9oELd0y19vlrIBn87hetp4yR4ziDju_7LbIDsQpEZ1bpPI5KOFbQsGdBIAE6zkIMR1iDHo4gD9XCW8vYSXd4MU739PmMhIFDl40Af9rMbms6RtkcPaqDtvpMxpvk-5uA_hjnDLUtyvxp22VcdjtAZ-nro8eWrDMVKJ_Pdyf2WYnzsIcXIvKOL9x9KjUYJIxQ3jMGS-4FPE2dUYFF1hNKZwdNm0cn4HVVNllwP0aYhSsvhbw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114852811072335445383\">fanny D</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdnTOqq8QtwancfoGQetMBUStY2lT9m_j_1wSvIXwk-jRc1UtmpNdm7rXKwclL6Oc8wGqVnGTYBLgYEXLcdKB0R0VgDsIDVHs_AJDW9Glly-teRLMtVyTQ-PlNh7NkyY-eqWn9-znBmeglum1IeThhObPeIeOITD-iQx7ELW__NJ1nHHoNip-X4a99eJQdQNeWNcg6aEvY-UzBBNgjnRn7WOI4kycSPqw0995iHcmWEJUQv8oBeC1VX_2snItI4dMvCVWGAQQXEFFJ2RTUw0uC-gRAQHY8XUIR_jqQuqe-ETuhJCT8KqhXn7lB0XjUk8rvfbRyeHiAt_oBBvNdX035i_n0_idk-UZvpY07-W6aQG_J7KByJ3nylst_dLbaKfZ9Rdw3Jig6zIJ99rWo0sEEDoxOi1QANep3x_-B-eMhCUg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108265736848533569675\">Nico Bouckaert</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLc2ec9qL76aJkvG09wpU4PSGhQ27uo841iu7yJcvl8i2LJiGUx4ievgxM32or9bQ-36CSX5C0BnYEOWq7SNEioNYjV9QDtMu7jBIYIT18PnE5Uf9Crou9xm5FTCXw5wF7NgW_ze4Gz2YY75ZJd4sUV76iUAgtvnjhCX6JA1-mYnmZQYsAHFVOHnvKvUo2qWkOavXS13ZgdAREQW1bPjZR9WtV4PA93TeOhj_OqDW_BHFbufe0oNoqsEZqBVAbMiwB2WCkNRqR8UizOVQ_7ToejrgA-ou_OdR5qxm07_6KkCKB1AdzofAHajqC85MyOmr7nBVLiBQR4md1QIA0K4ygYDLYOnCqJiNom3KZaB4ElBRwlHTZMnUwGxMtRE38oKv60PIoCyzOp8M27xlEP6OMni3Wxpw6OpNlcxDXIPo1nMGg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116986466650453465160\">Seb Gdlr</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5853
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "bières brassées sur place"
+      }
+    ],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "restaurant; spécialités flamandes et alsaciennes"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie-restaurant proposant des spécialités flamandes et alsaciennes, avec des bières brassées sur place. Les horaires indiqués sont de 11 h 30 à 22 h ou 22 h 30 selon le jour."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "3-brasseurs-noyelles-godault",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5853,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "b0b23111ac0a2875eb35ce93a5036992426f835168bbd8deee922e46b31dceec",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -220,7 +220,7 @@ La production possède un second verrou obligatoire :
 python curation_sync.py apply --plan .\plan-prod.json --confirm CURATION_SYNC_APPLY --confirm-production I_CONFIRM_PRODUCTION_IMPORT
 ```
 
-Ne jamais lancer cette dernière commande sans validation manuelle du plan. Avant le premier `apply` de chaque environnement, exécuter manuellement `izilife-db/sql/curation_sync_journal.sql`.
+Ne jamais lancer cette dernière commande sans validation manuelle du plan. Avant le premier `apply` de chaque environnement, appliquer manuellement uniquement le bloc `CurationSyncJournal` en fin de `izilife-db/principal/020_New_Entities.sql` (ne pas rejouer le fichier entier sur une base existante).
 
 Les routes nécessaires aux étapes 1 à 3 sont strictement en lecture seule :
 
@@ -332,7 +332,7 @@ Dans `izilife-admin` :
 - les routes `agentCurationSyncInspect`, `agentCurationSyncListScopes`, `agentCurationSyncPlan`, `agentCurationSyncApply` et `agentCurationSyncMediaDownload` ;
 - l'évolution de `agentAddScopedMedia` pour les médias Product/Equipment.
 
-Dans `izilife-db` : `sql/curation_sync_journal.sql`, à exécuter manuellement.
+Dans `izilife-db` : appliquer uniquement le bloc `CurationSyncJournal` en fin de `principal/020_New_Entities.sql` sur une base existante.
 
 ## Copier les médias d'une ancienne fiche vers une nouvelle
 

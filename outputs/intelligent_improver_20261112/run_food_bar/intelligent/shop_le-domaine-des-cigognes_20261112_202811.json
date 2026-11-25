@@ -1,0 +1,580 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:28:11",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-domaine-des-cigognes",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-domaine-des-cigognes",
+    "status": "found",
+    "data": {
+      "id": "5827",
+      "name": "Le Domaine des Cigognes",
+      "shop_string_id": "le-domaine-des-cigognes",
+      "unique_id": "d8d80d6d1c8b1137aeb6ee8a53b37fff",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Hôtel chic dans ferme du XIXe siècle avec chambres élégantes, Wi-Fi gratuit et restaurant sophistiqué.",
+      "ai_description": null,
+      "principal_picture": "55082",
+      "principal_cover": "55082",
+      "qr_code": null,
+      "phone_number": "+33320343744",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "D917",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1036077",
+      "latitude": "50.5372207",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:55:12",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:55:12",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJlXZKAEPRwkcRNzrvQFlikpk",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5827,
+      "scope_type": "SHOP",
+      "scope_ref": "le-domaine-des-cigognes",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "le-domaine-des-cigognes"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55082",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5827_6af3a0d108b4e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4883",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33916",
+            "source_hourly_id": "4883",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33917",
+            "source_hourly_id": "4883",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33918",
+            "source_hourly_id": "4883",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33919",
+            "source_hourly_id": "4883",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33920",
+            "source_hourly_id": "4883",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33921",
+            "source_hourly_id": "4883",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33922",
+            "source_hourly_id": "4883",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-domaine-des-cigognes",
+      "google_place_id": "ChIJlXZKAEPRwkcRNzrvQFlikpk",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00, 19:00 – 21:00",
+          "mardi: 12:00 – 14:00, 19:00 – 21:00",
+          "mercredi: 12:00 – 14:00, 19:00 – 21:00",
+          "jeudi: 12:00 – 14:00, 19:00 – 21:00",
+          "vendredi: 12:00 – 14:00, 19:00 – 21:00",
+          "samedi: Fermé",
+          "dimanche: 12:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 2144,
+            "height": 1429,
+            "photo_reference": "AV-0GLct5ibYNw5OTBRUEnPNXIt8mn-xhlp9IQdRB2vJkwe7PKdidiTOqmdIviXxPZgQP6jYe-Kq0rkBkG3yQDNfJ8zCgw2AodL1NuMVwbq4HHpih0-ii4lq48H-n6CANA8H7s6mH5Q2O0rwCuCoU2WiHBAqyWdta4pClrUewoFI1z--7xANtjcsKtwgfA5SuYHrJvI_aRByUo1350GGmzgRZrI6wu8LMgUbhmVsJJ6chYBnA7A1qppsaHKdifrdqlgKbJNLxbGiDgRm_cN4V-ZYuXCrIwjMPzhDR-ayihsH4vOB1hy1uOl1JF1wHgTxFNvMDKAV61XUez8I7eUv3NrCz10KHEwR_8ZNfPj_B1DTmo-U3JFg6CTBhdHGFL5SiLegYKexiLJ2RIh1bw0D-NSyNMvrL2oZ2Jo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104951162181068560501\">Le Domaine des Cigognes</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLd180DGpKxR7K-K-p7Tamek6oSfzq9NCZPjklu6mxoUm4BwU85fH8C7wCy5oPbEpdjpAnUBGUT0B4MoDnnPMqUm3rkR0dc21FUnYsxvLAot38Q8yiDsjHZ72Szo3JuLhGEuuyHKwmGs3ZZFdCbm6MOnrbs5FDF1PMgKenC7I6TlsPqj3LqTn6g15TsO6xru5jTpjG9K7lDt8v7QdgO2Qv0K_jh8mW9hyEN2BZ_Bh8_7ghLilIjAVKZJuBTJsL6FZIqO7mVAEY24GjpavfiUIWYd72KuHL_XXkb2lVyAiP6NcQNMdmAPyxfdaLeUCkmY1cZgiq8wGo9YhnpcC5zN_neI2Fhtrb4FL8ZSNRHw1f4QdLZ7fSwVuzzd0Mx9oZHd_B4u2Y0GxzFdGj6U9K_56f17sRs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104951162181068560501\">Le Domaine des Cigognes</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 750,
+            "photo_reference": "AV-0GLeuhTIw_JlCeRaEFvRVsbhDgNfcyRdBwE3M5J5lCzBP5NGXgIwAJh8ODij5QKrRvViyzUNxLkrvAeiLRJ6sJoUzLCjIvQdufdl9UR78fXED7EDxq0YfIIlB7qw9M7pwcAt7wKruOboFbeaICLidCzOcdEruuDea9H8-M1XXddxeSrZcBC4OmqYEzFypoFMQn750TNVIz4Q_E71_OiPONKgyj4NWPV_a4R6yvmu_Xvvde3Zth7MRh1OlXamiX6f8DVjj0cQ525M2WAzul26aHWiUnfw3OJ63OqcBtt7DjAh5lM3iDkSD0Lux6jObCsg6U9j-9KxigtT3cLsb0yPuN7enTEt6i3cksmiL0OYe_QgX4i72QaCaM6RygtOSSTGsujNc0su1HUAsAbgnqYc6ngXJgAA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104951162181068560501\">Le Domaine des Cigognes</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 1536,
+            "photo_reference": "AV-0GLcGdobouZMgJwR5Aulx_Kiw0C-Gr3Hzo9U9yI363-Kci9n-zKNFaKwSRf2JODEz4xNcmdzYOlyhsI32DB4urWcreJM9EnU2J2JdmJwKL5CS_OolWqmGwjSL23lC9GHcyzkx8H9ZW9EUMvm0cRrgbcbmNOnZn-N21CNjBzflfvVKFz_AJRCtCwFn1dccFcS2rdFYd_72VCv8RHcb99rue3JyB3yJh0Z5J34Ut4fXCeAxlYd4LfKUtuoXCtJPxGQsOJMcSYzL-o3n6CGFVVRKDu2OQNFt4bp169rB5REN3xyu-FCLx85jsR38oKPU0kZDHlEviLQOatJ35Nm0nK041RqCQVjk-T3WV1AUamwOug5l6si-UueWMXVxN8rJj2w9EvrEwpuKEXccVPVUIH05tJSH5omT",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117652277688812820634\">Antoine Horon</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1440,
+            "photo_reference": "AV-0GLdd86rPGkU_Knydbc28tl0q7ANMn180uTyvkYfJ2tDCJbVoAbmsITGph1SRk6XWUwtCgxEARBYZLhxr2eajK1NX513zZ-Fe904uPzKb9q3U7-N0nsuhs1kMvIEkwRlN0rvzomWvMdS_ed9vyNMIWKExzPEd0wgpoIjTIXIVTy9tWwiD-Bj_AzERfBnds1CaTqo4bcVlbZXQQBjnS1hNutiGJWozCFPD2UXs8w7SUq-saHJ5HGyk9oOcbv6d21d8XMiTHQ9qLHzDKBAL1Kq_w_DQlPOkSGb5tjsZWIlk-6l-leSVrAAJLCYCdX2zESNQ0etktDdapaaL4W9fEINzPDnHHCaZtfs79aZRmmI7XgsQ2M6IMB1DnUbLBfExOvk21b5FPwww9mdJ_IEi7w5lq3duHiU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107959084496501870863\">Dark DAD</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 1536,
+            "photo_reference": "AV-0GLeTy-28lLAQomZv42pIBt9dWeVg2ZcrolMZgsWI2mARPWrNklp7RTGr4dCC3GP-jQRcjKu3jXQDErIrHIiwU5WuwfyYMkCIW6YY6U3Af-jLQJJj9DrNMqvvWfWLR7d-wMtkAwvZV6ikw4ctjfgh6DJrGIPLsAvkr3JlsgFWkeoAcx5oEGTelaiGi8_qcWM9o4aVcY63_-vcHGWaJvA7X1NChNll_5x-cl1BPk2dQfOSX2tbBGruOauyPJKEwk8NjOhCHeLhJ2ZOmDtMvF_TLdCP8O-4QybAWgDmt97-bJ81OI6wv2Ibh4WOufLr-RUZVptNMRhwkA8V8Jj3o7WcENnZCjPR03OrzQs2jDM9fEvXD_Lbx-p0GpWvgPclm8wDyJUBveaR0C-aNjd7DDtjYBksCyPT6MQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104951162181068560501\">Le Domaine des Cigognes</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 900,
+            "photo_reference": "AV-0GLcPSkbhoLhYJ7Qf0eqQcn08pIJRLaoYVIDOD344PJNM7gg2zSAi-EGGQZBBo2vU3wRxA8FuwTM0mKLvS5edpP47-e0Df-w3X6gHitDRA2KYoZ1Y_j9mVHIk64gSIPBDhkHewwhnXlt6-ANhdGVZQAnYyK6cr4KUrpbyABloF-MNV2UVkF7FXfbw_B_A0Gfp0wlS0KtR6jBdh3xSzvlvASeSbSSfJM6v5yY2uQhFJczEhvZSQahFZSzPoX46W6iVlKnqi97Cq_rJpiwAymGLxT_9fP7osE-UqKfll24W88qhNBHytwbUrj5l_Mc2SG_y1K4JsHmbCFfQ2AzZBVSH8sByP7-D_Ku0VGPUszkgaUbwIE2qHgzYRWnLjd89ES9GFhZoucP3bqabcoPY_bVmWXkqJ_w-iCGFutirDnOtFVbgJQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115557038581407681362\">KATIA BALLY</a>"
+            ]
+          },
+          {
+            "width": 2144,
+            "height": 1429,
+            "photo_reference": "AV-0GLc6pqLWFvm9jS7UEbVGXYZe-ru44ok9658znl0T2jRuCitUEZuNZFdBMWqWokJj5t5QuhHXLiy7gRDiimzbqES_v8ctxo1ObIOMZc6MCq9OeoSdGOohDrBUthnappvVZjR2xd2AjSxtM5d2OInxAOLut7RIZeDkXEgrfGVNPpjV4RHjQdKwRutp0n9UShj3UqLXuqvvgBC-_xplikxVyBitpne7YVX-GqoK2jy-UsNTuFiytBWJwPUj264Yy0ao9Ofi2xAxKEzsjfYWo06WPklACLfiGRMpOkh97ZrFzwV4dWpiPNioDaHoGaLhVAm8lkGambTTQBxcU_mu0snghqU2tKj3_ADn6jBRnHMGBzU-7AgunGpeXvoZzPedZcg_sA2862xI3XThZpLoDlRO5zI38Lw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104951162181068560501\">Le Domaine des Cigognes</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLfZkOoZpP3nNgIZLTbmkNIxRlfUQfMp0UttX5_sI9vGDG1vwKnno0MwKDRU1pknqCHss0K0LywrgOL5YzF5AOQ1UqZ3iHqU_nOXFSdtEBjZqvbLk7lPJ1E98b7O3z3L730NG_VyjktX-Q0021eC6kHPHYXfDVi6j7X1_qDMuk-xYZ6cCbGJJO66jisBSuDQHroh9Dzpz6hHULI4JkmdN2DtHSXSaroQu6nz9X1Sy39VwgdvE-SEw2jBlZSKLD42oswRjByfJGdiDcjfCYzDv7TaL9koyRdn5mukJ6ccmz-iiOD1SDUCS17sCn66UA0isn7Maw2u6Y8QiyO7YRYgPkTD8z-_PqH_snjecQy0gFzuTdZjv2Aiy7SszpsFc-A7SEstD0hunM6y4I87CI0H32D1CaleYdE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105045184590124004961\">Francis Aliagas</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLe7sWG8457eLVm-aJy0HBp3Za3ifs3QwFUnvtaFQsgVPAkrjySm6ISAVXqXViMCtBLk02KF2iFmhryaR1mF_XejLEjjFohgz-9FfAS89Tatu7b7BYN6r-DYqyUNuTJwBuLUnwa7gQXDwIk2U4A4dJrAM64-eOqpxARW7odFYFCJ4BdGwQyGhxEmvVC-lK4KYR0ld6deajgi2zyaKgO3eoShK9166N59VKtEGiHxPNHu-zb_4-H7yfxXXA_qczY9pgQlViUGJCW35OrdpCCEdnH4IeTRDTttbdBO62eZPRNpxSsHWMLdCNUCDGKZChWaXz9gfW5UZmhALDhVFUrbD1bVwwCR0MaF9ijSN9OJwSY3dFpW9m68VHn_r78J3Ne-vIUcWBD8egX8gNcpGeym3zNnn_gs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107959084496501870863\">Dark DAD</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5827
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-wifi",
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« Wi-Fi gratuit »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« restaurant sophistiqué »"
+      },
+      {
+        "field": "can_stay_for_sleep",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« chambres élégantes »"
+      },
+      {
+        "field": "wifi",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« Wi-Fi gratuit »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chic",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Hôtel chic »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.95,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« Terrasse ombragée de 80 couverts face au Parc »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.88,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "Le restaurant propose une terrasse avec 80 couverts."
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "have_terrace",
+          "value": 1,
+          "confidence": 1,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« Terrasse ombragée de 80 couverts »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« ouvert le Midi »"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://domainedescigognes.com/pages/le-restaurant",
+          "evidence": "« et le soir du Lundi au Vendredi »"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Hôtel avec restaurant sophistiqué, chambres élégantes et Wi-Fi gratuit. Le restaurant accueille les clients au déjeuner et au dîner en semaine, ainsi que le dimanche midi, et dispose d’une terrasse ombragée de 80 couverts."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-domaine-des-cigognes",
+    "operation": "ADD",
+    "tags": [
+      "bon-wifi"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_stay_for_sleep": 1,
+      "wifi": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chic"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5827,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "7b356cd73231dcbb6957fab608ead32eb2e8bad076b50f4642c96a1e33293c67",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

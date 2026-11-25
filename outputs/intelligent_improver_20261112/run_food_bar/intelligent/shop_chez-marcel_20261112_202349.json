@@ -1,0 +1,524 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:49",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "chez-marcel",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "chez-marcel",
+    "status": "found",
+    "data": {
+      "id": "5791",
+      "name": "Chez Marcel",
+      "shop_string_id": "chez-marcel",
+      "unique_id": "ca123d8aac1b3b3a5d029fdbeaaf8ee3",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55045",
+      "principal_cover": "55045",
+      "qr_code": null,
+      "phone_number": "+33971338419",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "",
+      "additional_address": null,
+      "zip_code": "62950",
+      "city_id": "1266",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9783129",
+      "latitude": "50.4120936",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:53",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:53",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJf0ZswAUz3UcR74ukWuv-WMo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5791,
+      "scope_type": "SHOP",
+      "scope_ref": "chez-marcel",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "noyelles-godault",
+      "string_id": "chez-marcel"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55045",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5791_6af39fcd32a05.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4849",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33678",
+            "source_hourly_id": "4849",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33679",
+            "source_hourly_id": "4849",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33680",
+            "source_hourly_id": "4849",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33681",
+            "source_hourly_id": "4849",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33682",
+            "source_hourly_id": "4849",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33683",
+            "source_hourly_id": "4849",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33684",
+            "source_hourly_id": "4849",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "chez-marcel",
+      "google_place_id": "ChIJf0ZswAUz3UcR74ukWuv-WMo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 20:00",
+          "mardi: 12:00 – 20:00",
+          "mercredi: 12:00 – 20:00",
+          "jeudi: 12:00 – 20:00",
+          "vendredi: 12:00 – 22:00",
+          "samedi: 12:00 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 783,
+            "height": 976,
+            "photo_reference": "AV-0GLdsoCbU89CtC0jILUrfiBiA63zorcuia4eCEbYB6l-bqOS05BQJ_Pwr4hBuY2JF56wpzGtxV0dSa5YHEBJAZ3ZeqWIq8CKiH4cKAZGyAVI3RKHug_E7Vs0RENw0X_S9kuOmdT9GnFAnDL15FA1fw00IW9OYcj3uelWoKRG1DvFqsCaVRWvDzfj9QniW_i4b48NRjUoZHzdwkICICnVIBzSR4FImZAWKEItnZ6bJD6QekY9-J68Ulbx5qCR9m4-uk1qSIkEG8dwzsVe0vcB8iTB2TjSYD3LoWXlS2Eh5JB4Yn0XdmnQ_zunaJnTveugxouORLapi69TsANYhSDSEP8tgqbU2_QhBSCYZe1H4p5DtzWO4ksTG1ifcnOHhi2LfGaz7h_p6Ul1gJdnc05PUnJgoI40kmWRAEk88b2NXONk6Bw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110894228734192499803\">Chez Marcel</a>"
+            ]
+          },
+          {
+            "width": 750,
+            "height": 423,
+            "photo_reference": "AV-0GLfUFQNnP1hKO0SKqP4wFlGqYqjGI50b5M5MVYCDudaX-niJZjYH9HImyHlzHwkSLA4l0QMzk8Q1n3OtyH8ixVXdTqeCNY606UhmpRMGCZ5cSyUBWFbFkeoVNO-4X12LL8MFX3hQRVKxRvqp0ozHaRlYWdaNJntzw0xlq0fXsRF-N1nXBH-rH8rFzEPY9D6DUJHSqFW0bNeRfHA4CWOCbzCJrzC6km6dBTSykqgwVTVlCJTSfBqfyHSRApPnaEJaqN2HfOYhXqZBNgY3_e9WAdP--RiKPi9QWs6h_u750NSmEXVhAYfAOpRVZgwX-VSJDr7xBUag4ji4sjwsUsxhQr9WTx1_nLnW8MlFo_D3TJyYnY7TNizWXXThv5SQLFOF1NseQwmgKHGTH-0G7oWtAsxzPvk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110894228734192499803\">Chez Marcel</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 2000,
+            "photo_reference": "AV-0GLc1OKtRG3quwmrJA8Qw8hWZR5XBvkM_74EsLBzFlBqwNP9PuxSrBDYQoLisFVViiwK6BNcUccD9YzOVuUikjtByRdHccfi1B9fkankndbk8s1aPHK12pdGuOjbD8TxEsNZp7QsrmTeZLW2S8zmjqXajUbQUbxVOe8Df4NsvZvJ3dLh22OMAWyGk5ufYQ6xYDD84w2k6JmU0Rg8dqEaOPguFtGV01IPrUov2vKkEGrwnL39ty2ido8VX6eu_ooEj-BUFPQIVwRmShRPkPAzkE5AjqyLLPpf3Q2z20aPuicP33Q8fky4k0zrxVQDlVVpglhubgE0k9VLq4m8YsS4koUGjz-PpBge2xf8Dpfq9qSUN4x0gWDhYMonJ6dkW-6IONcRgB-oKicIVDF6zbRI8Py9m1qsEq0Nq_96q702AxTX-bQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108392607309778379212\">Maxime Frémeaux</a>"
+            ]
+          },
+          {
+            "width": 3056,
+            "height": 3056,
+            "photo_reference": "AV-0GLfSVAbDP8dKFpoww7H5_UY2Yx0ZhEw7XI0aIyEQlVdZVJL15NnHIbb1OKsAXGTY4hxahLjoNtT_6bNA9Oo2VVYQW6G8jszX38a6svGx8lzbi38kvX3wpsQPwz3xewyJox5z4JaMGIOg_coK_wugNf9bfiC2RIC-5Q-0PeVgYFJqDdifHWlwqrKTP7ZP2IK-0AQqLgMj41uzYqg6MWjWYvF2Nqb4ilhrf9V-NFvV5bJc9V53CEWO0UDS9gb9GrWEVLx3y7nPIhwb9CA3yG5Ji1YB7AabB-XOTSio5GUDm30h-fQbpEJfR1bqApfSOg56cq0kcuwSc-OSJ9Om2Gu4_9omJrZFdI9qzqHIQRC4b5FV-VNjbZ12JRNsObbUvLz9o3ZYkp73GWkkrCEJxzOEIABOoATw9U7wzOHl5bUGN-VQqw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105949475083997376578\">Delphine</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1795,
+            "photo_reference": "AV-0GLfZ6s4KrVjQH4B6WdO9WdWGxi-5-PLxEfE6FeZWJUd8YWgQmVkWDVlrxM4GCE3nsdubC85v2_4MEMsetTKsu6j6rfAUL-mV3J5-yK0gSUdcte9QlhdmeYxTBASp69A7KtgPDi-t4X40ozJvo13a1iwn0FUYveMpqNMFrHSBlsjeLz3_pGuxXFDx3EapvsRAXW6NuZ8UXts76G3MC9rUVyPerv3E-X-K3jW3turD4mdkl6TGPUzKxisGhnK3U3JAsa8pY2Cjy2Q2kCCcZe0_u9x8DYM14iOmsK82AWUAfjzYmvx1tqv_TpvVfOyQky6OEgTruKzyAT8_2zuyk0wCe_W5mmHre8gMuXppPNJrcPNGkXoWX7HKkGa8RWNPlpVbueyIj5AKlnfYl-GTwjbvc7BbF9B1X8jbnDEmS4xZNhzv",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110894228734192499803\">Chez Marcel</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcviljwIZ_ZayCl2cWYXWCXGYo9HN6KgM8A3iq1sBeLA1BDtOysHx5zROU2QWKRfLN7WMOEy1G18BREmKvqOCcemRfXNPWwjJvjkq8x8oBeN1Osa531tXjn4D2LWlGYjR5ZeQSG4UlCZrlmWhuLlqukPbwDskpQnact2Ljr_614Z8wvkclIdSrtFTLpofxj5phbdNAZw70Nc5GiglcfAjGstnORYwV5Ny6ljWkB9WswJ5n2dNtBkcHtsNOhuY6YfN7e7GqelH31r-SUvh8xoZxcae0XJVLUNpC1Dy8pu6HKnNEkm7vcma9VtMH2uL_YZfjsXrKrFIyMoCkFpU4Kd_Y7tlnxsN5EC_VCCdDEtpR3y8Hxzw-8N56eWSpdCs5JMFrQK8NlHNNzeVS9_ME1xBgRO-o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110787771638225368878\">Franck Volckaert</a>"
+            ]
+          },
+          {
+            "width": 1978,
+            "height": 1319,
+            "photo_reference": "AV-0GLeCVS5jNrsPIiNXIjDYFyCf65jGpDYC2hdWHtPLzROGQitdDaOv46fjFk-tSGTf3NEaQbS1XB8gdyMLEnj2rlBiJA6H1LVeMWSi0A2KO9OtCQ8XOa8Ww0MDxlwYVDtC1yO8mTHdBZr_ofHrwmn2qhrGqkuNSt82hqVYJEkf271dfF4JWH4ZGbtBr5ifvjcLmM6YnjHtDAQI_kJdTM91GmhudYRap_USb05Khj6VyJVYAoF6VtK_qo4UWBv9_wJAWNVSUMc8Ed75smEGDRXzW4PvAcFYqKth1x-32Cpe8M57Lo_OfgJQfLK1wCKAW0HXr8ZPfbblhYCWeWYtUaVhItYVgsoNNkWOTui3DirtnVpHuiekixky3GBwtNNQDuTxrKnXh49BppY_-eX7YivkUbW3fdA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110894228734192499803\">Chez Marcel</a>"
+            ]
+          },
+          {
+            "width": 1623,
+            "height": 1623,
+            "photo_reference": "AV-0GLfykmM-6_Lz7JwUzlGFNhW8eHuRzMg6rsopjf90TRZa6fiptj-7fNAsIwTDfKiy0WCwYnPXJ6GzqxJpNjuaIvxo1U2PsS2xi_jeubPgFA3W5qIDGcFxKtCaVO4RXGsQH7Ixie5nvxb4Zlw_wqnMN-d9rGn5Xeyyq5JXbb1qyZHR4nvZ4g0q2fXeEHSRhjBGT2JXDDIXSXFWWlwWz-_piVSHtjFth6uRSceiYXiLrryHxs_appi0CcbchxWyHhlWZgCM7AK5Qd43k1UX7Z8vOMWv_UhL1tzsO8BqurnqivotyegRRtvL4ytnFhSY0iQQR4kRysALVNdGyNMV4tb2R760gaD_neM7fYTk2zmv_C0BWFYmwKd5DXGCGEMDH_RTELDZQYjxp2Xv9q5vD35Ii7VLEHguqjkSEd2Du-EFe6Oi",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110894228734192499803\">Chez Marcel</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdRNEdR1d9pQiJA2w23voy2rST-qnd5V-rMtXhlUkMrpEgBiSKXcaOlnRON62F7ECq7-3US8BJ44WJgXhI-mUkjoGmhBKFtWM4sev7dDZiQ6F1-9G9Ojf2p8PT72Z86Jokh2Adl3SWCnrDY2_KUha7fWZZDABI1nBU7Fhfeza7zX1WofWVc2sgiXqpRjQl9MBr_399AWqa6TP-9boD6vAUjkkgwfsdqZGNQrNDb2fp24TFE7JA3uH0XPh-lQ1Re0qU83RIfh9ZK-H0zdv49D4MHCXAZqcd18FhCqaMca8MEnDS35wys7wUwgu6vydG7FSJ75GRdVhv4ggcrBp9tOEZzMDjccpZeysly9AEsyIZhw8dj5y6WLtr24GukJEVAWv29f-9a39BTtp1iCAJGJpihL31BqfGQwQ4QzyvrU-Wadw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107465146831625160725\">julien Moreau</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeTWko0o4iGj8TuvPpg6b53WnPd1gpuHU5X2VB6uZvrGntCYc5DKLH4A6L6B_QJUMW-ujwmTXSnuAF9qKUo4QJOxt_JRgzlMXZxOAi3j4Kkfmw6zaa0-eyAeeqOzXSQQPmRuUsOcr52iE6yKar08191GZFp1q1DgT8qPr03afhp74rBTiDIWaycsTsCQNBUvXNz0maiyjvi5k4ZIf7vS0SPmipoJtVMLzbo-fVtAByczuqJ4VpFFtX9w5XhlXcUUomFds_XI0rC-iul4TD8CyGlILWo91kJTEUduudreFvW12pwV0oie0qDNvN0A6mXOnoA5f14BtP4NXUTIDbozGiWQd2LdEkJT_u6nsg1WQq63NrKL7gXVBS7ZDOpoOj8m3KjgPPc52DvAI2Z6YoDIjwdsrM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117774417109077760026\">Océane DAVID</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5791
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 20:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 12:00 – 22:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 20:00"
+        },
+        {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 12:00 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent ni le menu, ni les modalités de commande ou de paiement, ni les équipements et l’accessibilité."
+    ],
+    "rejected": [],
+    "summary": "Restaurant Chez Marcel à Noyelles-Godault, ouvert à partir de 12 h du lundi au samedi ; fermeture à 20 h du lundi au jeudi et à 22 h le vendredi et le samedi. Fermé le dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "chez-marcel",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5791,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "ae551c0a6dee4f803426d7cb8fe1abe26257b99693e6b5486a397f9da37b6416",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 2510,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "L’annonce présente Alban Parmentier comme humoriste et décrit un numéro mêlant autodérision et anecdotes absurdes.",
+      "Aucune autre forme humoristique précise n’est explicitement annoncée pour justifier une recatégorisation."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description ne précise pas explicitement la forme du spectacle ; la catégorie existante est conservée."
+      }
+    ]
+  }
+}

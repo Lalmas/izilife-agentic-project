@@ -1,0 +1,56 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les régimes alimentaires, les services, l’accessibilité, les modes de commande ou de paiement, ni les équipements et ambiances. Leur absence de mention ne permet pas de conclure qu’ils sont indisponibles."
+    ],
+    "summary": "Restaurant situé au 4 Rue de la Marque à Ennevelin. Les horaires fournis indiquent un service le midi du mardi au samedi, ainsi que le soir du jeudi au samedi."
+  },
+  "meta": {
+    "cache_key": "915173f69a64541c75870007e8c4b36461ee4e700c932c0d55c11b565fa4c374",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

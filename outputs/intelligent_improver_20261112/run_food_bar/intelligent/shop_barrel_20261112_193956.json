@@ -1,0 +1,584 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:39:56",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "barrel",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "barrel",
+    "status": "found",
+    "data": {
+      "id": "5618",
+      "name": "BARREL",
+      "shop_string_id": "barrel",
+      "unique_id": "5c5b07d2a3050db7d42ef6778202b549",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54878",
+      "principal_cover": "54878",
+      "qr_code": null,
+      "phone_number": "+33320473651",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1030 rue Maurice Herzog",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0936478",
+      "latitude": "50.5826265",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:27:58",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:27:58",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ9S8Mxg_VwkcROZ17G0mDw2s",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ9S8Mxg_VwkcROZ17G0mDw2s\",\"rating\":4.8,\"user_rating_count\":3780,\"google_maps_uri\":\"https://maps.google.com/?cid=7765194532533804345\",\"fetched_at\":\"2026-11-12T19:39:45+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T16:17:49+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Deedee's Patrick\",\"uri\":\"https://www.google.com/maps/contrib/100599456413217669070/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVOaQTJb15hlB4qSA3CbmEkJHnZtta7fXdAcTrzE-KhjupM3BDvlg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Tres bien merci a leo\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:32:30+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Gary Dewame\",\"uri\":\"https://www.google.com/maps/contrib/113682434281396326024/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ06M8rC7KWr5-dPIc_0uCgvwwwW6Bpl1k4FXkAt3TJmvHumA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:26:17+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"mc cm\",\"uri\":\"https://www.google.com/maps/contrib/105089333107609981726/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLp4WwT0FQrjWYiYMAFjJDIgzWj5438J9ccuCyvoZ8-NKfDiQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Marie meilleur serveuse\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:03:54+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Arthur Brunois\",\"uri\":\"https://www.google.com/maps/contrib/113542397064095821814/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ0dT1xhJglDj1m4lk4UEZvWi1fFnCgf-OpHojeu3qvDKTttw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Marie la boss\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T12:03:48+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Melanie Modarelli\",\"uri\":\"https://www.google.com/maps/contrib/117621767613514223617/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJyCeU0wE47y5LOUNgrSK0PyivrQcNmU83Tkg1pqw9oAyt1Mg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:39:45",
+      "google_reviews_place_id": "ChIJ9S8Mxg_VwkcROZ17G0mDw2s",
+      "source_id": 5618,
+      "scope_type": "SHOP",
+      "scope_ref": "barrel",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "barrel"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54878",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5618_6af39a6e2b06e.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4679",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32488",
+            "source_hourly_id": "4679",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32489",
+            "source_hourly_id": "4679",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32490",
+            "source_hourly_id": "4679",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32491",
+            "source_hourly_id": "4679",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32492",
+            "source_hourly_id": "4679",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "00:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "32493",
+            "source_hourly_id": "4679",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "00:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "1"
+          },
+          {
+            "source_id": "32494",
+            "source_hourly_id": "4679",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "barrel",
+      "google_place_id": "ChIJ9S8Mxg_VwkcROZ17G0mDw2s",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 23:30",
+          "mardi: 11:45 – 23:30",
+          "mercredi: 11:45 – 23:30",
+          "jeudi: 11:45 – 23:30",
+          "vendredi: 11:45 – 00:30",
+          "samedi: 11:45 – 00:30",
+          "dimanche: 12:00 – 17:00"
+        ],
+        "photos": [
+          {
+            "width": 2964,
+            "height": 1892,
+            "photo_reference": "AV-0GLdSJYIqp5DWCl7EgeixxfG_o2jmpLx46QlRcb0xaVDhGG8emHynpGCxqrMTIBGvjCbm_4g1y2qKmrDj7oRJnAQvH7btiGQrfel988uml15sz7ScN_gRsWJmSS9oBdHDNxQhxndG-mmsrYuDKx72F6X7_vemQt0z42-wifHxL_y-RzQ8wfRYg6sjyIlrXXvlritZ15MuHlB-EcOsmYRsOuMNi7FDFXOP76HwFa-F627nsCZYb2p4rfutWeSIhmK1WEhru-yPYmTGW-FzBAE1hUVY2KrNqt6FjUf2sfwqBIuTdJ_Ou_hSlSLgoqPDTCFcSvpwQQTO15QExTixzX-UTQ-hMOlvSxpgwPnnW2KuKVZLKILwy7WeVYQ4W_40YUO7lqfxSwBVR8Hsuqvk2TkYAT8WOiS6AjI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114308983269543285297\">BARREL</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1350,
+            "photo_reference": "AV-0GLdI2QJcpKrSao4v6nhF6wWKYK62k7x3sn843moKxCjvX28fzqzTBejWtg8sFugTZ-d9701H-9zgh54GOjLWJQZyE0bKndOuPkmCk410DOFaBbXw9d5LUIEfYiZt4U6nBwscKx7DsXo6F8tIlcEmfNuJqglqnx7Znnj45b6QKBDkVknCDFbZV39QB3yAK-yejirPel4B_d0dd-d4sMYLBa803H_4LRkhEoSfXlyWz-IYOF0Ea33Os5vMD8PtOQPV4NwaC4Ai5gp0wkRMFW-7z9aO5inGcg0sDNVhbYY5kByMfymfabjnQ-ukcYQ8deUQwBDeFXFbpkFbuWrwDuomP5iE0sVKozsD-4eWPRwJnGaGv9YEewjjUROOLbPbyxnTEJEM7tXvw0ZGptT2NX2n0OPzl8hJwyhIvx5ulh4xtmSiFA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114308983269543285297\">BARREL</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcQiTXBDKXpVCjNojRsUTb9o4LJpCFyKy6ykc56QBxzGRMvT-Y10F40Z9xldQ2S-uT96ykNoOSzEprEA0UVGQwjTl5LzuZUvnkzzginCJXrFPQA_HB6AiL9ESfoNzEthcWonnSXr4y7HleQUmw5QDqTcti4WKxSWGiVDm39LZhn3kDhrmYO2iAOSOxuW507Lx-wdIl2IzyRqNwC6LTCyD9zUylyG4BKlDmCx5vGHjoDSNzHYC-qQyDVSscL75evwiOX5PGQSRtGkl--I5O6XwGMfiFukNGQth3Bk8yF8exEPcQiTCbXHWLEZv068nSaBBhotWiR0FaK25Cn02Zba-gZ9lVs9rlK8aphZ_NocSKZiPxaL76wT1M0gFnui9_ytLkdmt52xCJ0pMfXyac-UJPHG2UdAaWDUU0WLPPTarO5",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104095447588008203280\">́Nky</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeDnxj3q4rdB63OZe0ZiPLKtCDjGEkqxB1mawcn9FL6BcCAgnfHXNfl8yf9h7UNS7QoIBtxGLzSjHqKpkL_nxcFk5MFHDkbp70LnhumuThTcLDc2X5DVgHgYl-JAA4aRm-zwS2_uV8QJg_buQ88lHjdnYCMBnSdsRLMvf0Vv-1sHoHir-_sLocr4CrSxzQ-BY_8wXpPYa5e3DEjlTEuA3P675V5sVtLxauU3Mlsg-nCmrt2bo_80uJ0PY73_EX3qwxb-81F58Yfex3NsZ6JuJ9taJ8FYRvxjRUyKFxoJZQL7h66eDV_lY8VgAykv0hKth3Y_LmO7cHHQrGnzjrC2bbu7w-cBZzBjqmwKSEzkLdF0e1vSarCez9HAft6gVx8y6uE2sQcwx22-4TH8eZeN9UyU5ofW6ZeFC_V1EtV7auryw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113983270382230095152\">vanessa ganjoueff</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1350,
+            "photo_reference": "AV-0GLdfex2mI6fBUMz4F7Od2b96oQFdtDmIg5kcq0NcVynlZGvwJl4nfuTWRlbwrtPI7mTS3Er7JUTwfVV97LvPp2I37ZSauysp6NLFU1pnnR3AvvoTEsoI5QDxdmT1CBgwOUrSnFeJNLZ10uLeR1OvGerjNbpOuYBX7bj0nWwYWR89ptXxfHp--FIjizHrRmCmFJ6Yi7LhRwJU7P7P8b39fzIIvQw35k63YgbI_rINFtxLDcCZr9ABH5Xa6A3ZFfobDtRxTBK9brgllPHhO5048w6nXxmJ02JBdE3DvWTVcx08VmDJ4BzX_s8KvpWBw14mjmS3trT8SCtKtnvMdNo5D-a0yBh9p4QO9BX98kunHkdbcl3ISD2i5FIV687XA4Bcnjt9mK72oz2YC0Vo7Ej0R41uRcm9-xAi4vu_gr8XfVdT2g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114308983269543285297\">BARREL</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLfyvbWmsNxBdSC4nG9mNR2Rfznbf3hNqVF4WaK43ZXfRhoKhK7C6c5HNnDOr0ap7awL62h_W7fsmFGrnjlbMRqGhpUIT-dPOEVdFWYGxzYyadjvIWG9ZTADix_65aEHdfZcZWM8pvLOgYZdpMM3Kmw2MeCr6rJ4wtdOT1dmDrR4HB9CFepo_DH4ji1jqre_Q5GhxDeQpRvddz79TBt3t7QXe1-uItATQ7sVslNVlPqBCdsCoMZWIer40FwELyA3C1pzDV8DzY_xHNx5hIfNCvoYJYmQw24EXDgMEID37kdvwnQNNAASLr8aZZcZZIWerrd9O2hl-jyiuCSOwqwrDPeUnYo-zP6TwsuGZbV9S2LZXDtv6_EAgmEVmlYnEnpU5bLV0G08W8B1OwCNL1E49o2r1OHep-Wilv2-EMLJZgFrnQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116521960782772993508\">JMC</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfiIkHeK3BigDkb9vR6YQUvwWSyJS5PkiGjkq3GqLXcjL6hs8WF6XpZlYqalXOgG3HQnCPOsYZEzXQ6ZPBDqMl7VEV4-iHLQ7Bn_An77JwpgiLdiqJbkeAhTCVTwu9VyrJRbd2-cgh9Gwamv2m1oLFm_poDiWT4sE3kw5ZSV3Vzm9bE8868PbB-Ye0A9LxUI6an4wiF9ZVnx4M12JWfVTu_VXJk8Oyn5I9D2tudJhgajgVzpsTpyuQwJCHyd1liIkYOXUBb6uOs32fj0hCtsAvaGXKpjykWSRu1jtrtJHqxmw9zPO-dcjG3gUduvQHQoFJ0YWDQJ4L7l1mTNOPyB9LzLCt40uGyrH1VKurYd25fKyAzq7IZFHu9p-Rv8SOh5LC5HXyNiZQS57rlIEBjzvF5o5AiN2l29PurBHkqYAiH",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104163917690394529351\">Julien Lenne</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1350,
+            "photo_reference": "AV-0GLcMXB3z6eSEcEj4jZACojmC7Yjw2BWdOEIcPXtp3jaMTPr-_ggvgaenr8DDIRaAWNJRteH7ZGD5O3nf2nH6WZbgPb321_Mk8ls8yOXQF-wS71_Q8LzqRgN4wMtfVafkLQx2wGOef_RTt0uLzgOLTB69v3twWeFh_AhQfcRAxH7z8K25qKiMBIAOSbD2tu2jKgiq5mm-8a28glhE4esenMDYnNdg3eh8lkAPvA1dvp6PCWZSyrywczpZTYprDhEfbf3w4iHSW6nCowy_tf-DKyzzCqFpqVAqFzIvusa9_67lF3GlWQkir-UMOtxsMZLWMOCagVRPeOpo5EtMQ_MDULqDY7CvJczpfuWXI7SZ70W4LypqfjNuuxwyDXptnY5CZJbDtrMCQbw3qIHAs20U4bVM0sBzOvn9iClfoYNyIUPB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114308983269543285297\">BARREL</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLf8mRKfK-vJy9Ng4-z7txXPzZYECRafrNisLbDgo2uc7mQZfjNIDg8qf3V7ZHUogE7xkYVSNGebdMAakQ7suZumKsWoSIWRuI2cVUSgStrRU1-T3B6f_m01toiLAPwIEc-QC7pgdJQb3qymYfqQ8yABhRML8gp0boQISQlU7yXW5TU_VKqh8JkY38QOg77QoofpUj5tt9rCYTJAQAfl3dCny5weJyXAQvG4LwTfuBU1Ctu3h3VnnVtLPT4nP2X4Ybgc_eMyda1p6HZcprAB8JMX49Q_HAw-zw_MOv2qq6Qpyk4hD0AFmwI_GUsBSZ-NKwKvgAZXtXhRYsIAmj2uEgVDxp7E0CHKxs0kqleQYaIO578aLTBc_vdunzKJStWdvxf5AITnPO7y6IvAdPqIAsWaB2Uer5SjsgBkSo36XYKXaA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116521960782772993508\">JMC</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLegit66WX_UgCMT6iP_X2aLEeEoz4NrxE8k-zi-D65VfaVfwlpf41Ui_2uYzPe2EGUkUKDLti-0t6fZ-JW_E9KxqKI-BG_z4TYnoP5oeFhvKidijXQ0V7Q7CyUKbGlamkSptRz_YeaXbvHwOeRb5aaaguk-5qGHQTK-LALF-BTziWxUE8mPrRKUsCKAu7gQRB51scJZoMqM8LzrESE2-bS8BGi0j9AibMX5NhES_9vZMGB6EWSP8A43roi3mAya0buOZwE0cYzmpjXyTPa1kDCKFg10SiLdXsfWT6u0Z14fu0XEJbhcc3jdoXwnSIEEDcYO4cAxlqqO7XqZWBT2K38QlksKYfBpLDcD72L8HX-oUxR2rmPiKBu3awbMZJRFj7ws88HSANWdTMPgRfUwz-6nI5VpXA_G7gjHD8HcwROQnA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106371383315059091537\">Niek Bertens</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5618
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-11T16:17:49+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Deedee's Patrick",
+              "uri": "https://www.google.com/maps/contrib/100599456413217669070/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVOaQTJb15hlB4qSA3CbmEkJHnZtta7fXdAcTrzE-KhjupM3BDvlg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Tres bien merci a leo",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:32:30+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Gary Dewame",
+              "uri": "https://www.google.com/maps/contrib/113682434281396326024/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ06M8rC7KWr5-dPIc_0uCgvwwwW6Bpl1k4FXkAt3TJmvHumA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:26:17+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "mc cm",
+              "uri": "https://www.google.com/maps/contrib/105089333107609981726/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLp4WwT0FQrjWYiYMAFjJDIgzWj5438J9ccuCyvoZ8-NKfDiQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Marie meilleur serveuse",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:03:54+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Arthur Brunois",
+              "uri": "https://www.google.com/maps/contrib/113542397064095821814/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ0dT1xhJglDj1m4lk4UEZvWi1fFnCgf-OpHojeu3qvDKTttw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Marie la boss",
+            "language_code": "",
+            "publish_time": "2026-11-11T12:03:48+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Melanie Modarelli",
+              "uri": "https://www.google.com/maps/contrib/117621767613514223617/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJyCeU0wE47y5LOUNgrSK0PyivrQcNmU83Tkg1pqw9oAyt1Mg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.8,
+        "user_rating_count": 3780
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1117,
+        "bo": 79,
+        "front": 1038,
+        "estimated_cost_eur": 2.925
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "populaire",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "user_rating_count: 3780"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 23:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 00:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les options à emporter, l’accessibilité, les équipements ni les moyens de paiement."
+    ],
+    "rejected": [],
+    "summary": "BARREL est un restaurant situé au 1030 rue Maurice Herzog à Lesquin. La fiche indique une note de 4,8 sur 3 780 avis et des horaires d’ouverture allant généralement de la fin de matinée au soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "barrel",
+    "operation": "ADD",
+    "tags": [
+      "populaire"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5618,
+    "changed": [
+      "ShopCharactTag:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "05d2dc0353562fb51c6e5cace7b9a697da758c96816ea348cd2cb16ab1533bb8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

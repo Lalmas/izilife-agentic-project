@@ -1,0 +1,109 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "brunch",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« des plats et un brunch de qualité »"
+      },
+      {
+        "string_id": "bon-pour-brunch",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« un brunch de qualité »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« une infusion délicieuse » et « le brookie »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« Un moment agréable, un endroit cosy »"
+      },
+      {
+        "string_id": "ambiance-posee",
+        "confidence": 0.79,
+        "source_url": "izilife://current",
+        "evidence": "« un endroit cosy »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« des plats et un brunch de qualité »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« le café »"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "« une infusion délicieuse »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "cosy",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un endroit cosy »"
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Un accueil et un service chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "brunch",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« un brunch de qualité »"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne adresse sur pour un dejeuner sur Douai. »"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "infusion",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« une infusion délicieuse »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les modalités de commande, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "summary": "Boulangerie et adresse cosy à Douai, appréciée pour son brunch, ses plats et son infusion. Le brookie au chocolat est recommandé par une cliente."
+  },
+  "meta": {
+    "cache_key": "c85565487aae1e6148eab402dcb35f57f748381488fb32d343082fc450545b88",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,503 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:20:25",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-vienne-hubert",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-vienne-hubert",
+    "status": "found",
+    "data": {
+      "id": "5768",
+      "name": "Boulangerie Vienne Hubert",
+      "shop_string_id": "boulangerie-vienne-hubert",
+      "unique_id": "c2fac08c3d29f11c8e45c59a578d49c0",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55023",
+      "principal_cover": "55023",
+      "qr_code": null,
+      "phone_number": "+33320070767",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59211",
+      "city_id": "81",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.959968",
+      "latitude": "50.5936869",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:48:22",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:48:22",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJabX57QQr3UcRfsSvGpumwKA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5768,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-vienne-hubert",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "santes",
+      "string_id": "boulangerie-vienne-hubert"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55023",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5768_6af39f36e5319.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4828",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33531",
+            "source_hourly_id": "4828",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33532",
+            "source_hourly_id": "4828",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33533",
+            "source_hourly_id": "4828",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33534",
+            "source_hourly_id": "4828",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33535",
+            "source_hourly_id": "4828",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33536",
+            "source_hourly_id": "4828",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33537",
+            "source_hourly_id": "4828",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-vienne-hubert",
+      "google_place_id": "ChIJabX57QQr3UcRfsSvGpumwKA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:30 – 19:00",
+          "mercredi: 06:30 – 19:00",
+          "jeudi: 06:30 – 19:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: 06:30 – 19:00",
+          "dimanche: 06:30 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdgaYZxcSlL3NJko5uLwVD3TcWzNMCh9c6OPIMQw5zBkK6dNH_Pcyxc6MGCCa3gzbA9HjoCFo4JAlkn-DElFy_gZwu0sQWc9Us5hG22lR_slDWFCNSEaMSxG57MT7UldfBXXfVwu-ijGgS4UZp2HEsGkgjjmV5xg1Ja9j6u8wS-EQaGpoejaWuYWqqqddaE14uKqO8tqzx8xwQC7ll9N1SqZ9EHrY_7by9G7dOnfBS6Voy0YJz_3Zt8c_KU-6GKpONg-qgVSf539jE4dn1Vi2M28mXAp1fJazM7CXGpnmbTTvVBWb1YJW2c92lvJR8aadRd9UGjU_VIxRN4y3Tt2qEofHMFqAcaEZNuCFbnMOkx-Ts47jypI5GS-ktBrI9a_-PbbtS1wvk3FMA3hOb57U_lE14LYmHymjjZI9oAe0ZAcg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103951041315850605457\">David Leroy</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLf1cVOPYy1cFJ8bt8uW_XHZWVXqRvD0Qci0w_Iha6THMVO9Knxe4fmTRP93VdwIQJft6r-P4WkqpvXrgX-s7xWKKI2mt1FVR0hTasD8ei1jvzdW0j9bTz9IBMfX0eDtowgT2ugKPS6EqMhwUiPNghnb3Uyiwrg4oFPA0-tqGOmXpaNZqVTbiIvx3iXRwGh1mj0auXsVXEyJXS5y4WGGUB-IE4n__P1ixpim_EJgYB55fwtXxnDZ6Ei0J2ZxzHGlo6ZxH5XangF4JfxEOJG_dHluPmX6aa1a2Ch9vjs8mvVP7sJckpXUTIYJIr8D5MzETcEdwe5RVpzc69jcaDNscv_cXsXfKSnaHY29Rk59BTJfKSQvmLD47El5-k3yUNFg1W6vv_HU52gfMU4yTd2Mguuzako",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102103642375705599247\">Virginie Deplanque</a>"
+            ]
+          },
+          {
+            "width": 3968,
+            "height": 2976,
+            "photo_reference": "AV-0GLe1QyXBtEWZpLnIEmIPgwYRab7EdaVWvaYk3caZh7RteJT1KiuxNlxIGkcc_59Yvn8E6IRv82vlR3hU8jlBKg4z9qpmIhJE1PJui9VG_4KrqBTiAn__tCuaqcRHioYLtE_ewcHdp-035f-TgqSNMSvLwLcB1gy_3ouA47rxQRlmpOWbUr4T78wLgoW3WbSZPapRIKEVKAcMdEn9VpKUVsAnI9uCTo8gO862TGQK7eUf9oIPCPhAI6HGhV8RkgzD1bIsxqFN8HYITR81LUL7VVdR__jFAyb9DFC4zNxF8a6gMLR1mA2bmFFqTrHW0TfyvXJjRXXFrR-wfp-I_iqC3OkFzRELOLPYTR2DoONNtJ7YaMGb7pUozBMZSTnAJ-AodFbaxvRbAOxK11AMkG7_t7NRrdL_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101949176655162219036\">Olivier Hilaire</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLc1ude6RZ8o2Ww8IcGwyCdJJWROi6__yP04SZU3VndQyL4JR5d1aB0WnLX8zO8pIsaHyBZhGZS4KdQhb0Oq5vJuZyc3sPIyiCcOABKf21yYclXjOT9kwBhH7qUJ5XkAvzNShZ7JFYCOxp1CpyYwcpTwaRARPkkQa64i2CiPUpf9sBErwSHASJZokEn3voyjdZCeTrB5yfnelvquLwtZt18DhXO1aRSMmmERj5ZiAV1TExxcAvsq3w_F4ojfDrsc9p-ZtUS_ef-Q8cj7_WMHRFnJySQPOwZzVAlUyrCgGkpPvENiXRqQB391p4lHOPkZYvSpDDDzACNKBqN3ZDq3Xriw4Z7gDmBJRhcNK7rc2ubR6hqY7hdZJ-jQW1e4x5H-DAYnRRNXU1itOMwjW7PJVCU513M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104834580200375380366\">Ana Martin</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfROKFbzfBJNSI8tkdmf0VFFSYcrbFYpYtBzHckpwJ1-MaNlQ_L5WuJtBlxcrVu18ObSXoyd6zo9KouFAP-qDP-RfiH98R6thne5_aKevvcs7x6WWWENuU05S7f3pH7t0AtUbvGpSaify9IrhE8rCQ5TRxY-xXkF0YfClkq-vhvvhXKynBkoyACCuWyDfn3XD9e9NE9ktVVduT-EhmQEe2yWY6JdvZvUb-HznVSDEK994VrT2cXNkxIXL1nnEUnuqf2E2uWESICVzltZzDDpa6t-Sg2EPZ4K32yEiIoBSo6LVz6wfhMx1LZlJHsYYHtY9ZdSzjv7Ge4BJx5ijnrOtMCCbO0x4JSx3kjLMm3ex3Pdy2xCraVhLAm2kZd43Al_FYSOx0MepekUHqGtAJ7ACA9sVwS03DLS-tAElW4nPxPSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103231456935783838949\">Isa</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLd6FO7tHCOuaA9qObxqThu4L6w6Stxt-8eeqg5UYNimkxwzaSoiQW9l6eP-Gc9kZNUeiJPR2O65MwFpqsbeEy5outyLmeKCgT9gBF3JxS_cwLjYvHwI5ZbhLnAkPCkWy77xQCaPFLAscomQMLqC4LoSvcTT3Inwad2aWYMFKHpvvKXgwUsAGTCuvqfU_uNDKlYQGT9PR5dq8lAZvzYDMJUrlx4hvO-E2n1SCW1jxBiKt1jp1qmuuJxa-35pB21B8gY7A9VRIeFs1flf_E5GHFehh_sYsXzuon_SGkKyydRywj5ZGnmusogClwfZ8QPUaCAdxzX29cOb6CrF0wsU1vPs3uC4zKjsqhfByYJxKx3ZPVA2jhtZEA5RBInLQE3IRbJMRm1uJcOlNqAj67xmttSnptbCh58",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102103642375705599247\">Virginie Deplanque</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLe6DzbttqlpO-zZ-531I5w6b4Ahv45RIycMxPQnt1K-Qr0TQbBuJAWeB6zW9xIcfGUSkXSLfOwMBiAP-rfkVkfBE320DEwBkjDY89YZSfxHx2hy-VepR5CAcqjKFOpslcKa0h9QD0hYAuHz0c3QIN2I-IObb9HPwbiJIJ4dciHQpraI2CaX-ouSuxTzYLylKFCqoNIOLbgGb7wuvhJ9bp6CD_bBCp_uagExjVoLokcWPF1gRTxt3SInI7vH3wSI2_Q6TZyp51IVUmQK_pUlJ4V-1Fa456XoPCX8JG6ewXXBsNfIF5-2Xh-6CY2VCY9bAnSe4fG8sLpqMLtizyVt9G41IGvwCC-1cFDEeONL6WZl6zVTx0Li4aU3dLDzwmsSc8HoTDkEd8udtJ2bFghW5i5poFem_IM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104461795444479136637\">Nicolas Inchauspé</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe39CgFUyImX5YGlzS5F4I86qqdDQwpXGrD9aYS0MvfcQVegCDIgZJl3dT1F_kcfKB-0DlsjbHbvk5k24CE_Ge9gZ6IxKkHGqPDZbjm3S9c7e3PwGmMfp4EWpHCbdEkqYpli6HFhquGb9ENg1OfhYIBT2jI76cjAPZcUsxUvDuBMhYXSzBl3QHuEuM1Tzfo7XxJrjXFiploN_hJwHK56kEC1zQYFtQ8JapkQ5hB_NylL9sN5xcup8mvtIFblLK4E3KGoNGF-iS4NyjkiSZ8prz79j-cNMXwU0AOUuJJs4rVhb831jWQFrVe8CnR9D21SmEoEMj7Z2xnUnCJmap2ZP7rtW033wA9uZFWmMDSXoCHc1l4vH5Bu9UXTExwuqUnJ2lCsuXrgIAkOsiLZbuPf0k6u2KduFU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110176054783148759213\">Caroline Duytschaever</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3139,
+            "photo_reference": "AV-0GLePz00ETDXM7TqheTz8gaKQgYNNx9DdtcI6UKWMkcawz76OIkNtgAgomf6SvSMC2FFElqOtVn71A6L6C2q-jHPrTAasmusFBj75pthXKFERm3x1kHy_qiMKiiD2YFSe54zNPt5-ZtYz6-8udMmZIFGnYUGspJhcp67RWRdETxUQlvwKmczyFDGNxYEJ6W3VGzaKb5tOb_LRowvNSvfveSyAkLdblIm2MPJyXTl3O4MLD3g656XC_xYcpZKE-vsRt2cFydaMn5qufJgWlR0wfK5R2nMdamO43ezKN1oFCsdEutQBjU2cZC9lIetVAUN9nocdsJN04j1Fd4qSPIV_7ILLVXjP5Fs504dQk8k4yV1D92g6mMOuee8oAGLhB0HWi5hBL7LRG01S3g5WfzSyviNASNvL9lJRX-f_KF36jESmTQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111053165308933149569\">Faustine Charlier</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 960,
+            "photo_reference": "AV-0GLfE5EK9wl6buNn6BuB8v6tdB2w7IEXXYd7mY6BuTxuuKQyiGN16AMB2SzmJ1A9e2VKLbD5kW4T5iMk1bEK83l9kf08IERm1IaZcgCjzRRtVSYJ1NTWlwydTsa5WFwtH0Q51mJY2bQAgqcy_vtgOmhho9_zDylEr6K1845N2bqPo7KSXgHqo9ZhT4PBqleQtAh1ogMu2KRRUCOZWN2jXd2wGOS1rerU72kpAw3Wjzs1Tw8yspqDI5LJK_EK1w-U2MkwmBrovYjMsVvBOGfm8c0I9oS-lwR0bK01Pbx9rVU0ZTaHXIpPXTkuHBhWvsB1Jy-wGF28I5Hcp1uzRQr0corvZiTVpaLDYLlhgrOph2PU8utUi-mYhdwyTSaR-c-GOcFl8QL2HTa4DrzG95AbRdvJE-N4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113109431598031668414\">Emma BRIN</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5768
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information vérifiable sur les produits vendus, la consommation sur place ou à emporter, l'accessibilité, les moyens de paiement ou les autres services."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie à Santes, ouverte dès 6 h 30 du mardi au samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-vienne-hubert",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ],
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5768,
+    "changed": [
+      "ShopHobby:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "bce79dab216f688b0891cde215f64ff882c9a416a9e830de0337b56311d03bba",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

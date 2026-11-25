@@ -195,6 +195,11 @@ def upload(path: Path, values: dict, principal: bool, env: str) -> dict:
     token = os.getenv('IZILIFE_AGENT_TOKEN','').strip()
     if not token:
         raise RuntimeError('IZILIFE_AGENT_TOKEN manquant')
+    tag_refs = [
+        item.strip()
+        for item in re.split(r'[;\n\r|]+', str(values.get('TAG_REFS') or ''))
+        if item.strip()
+    ]
     data = {
         'scope_type': str(values.get('SCOPE_TYPE') or '').strip().upper(),
         'scope_ref': str(values.get('SCOPE_REF') or '').strip(),
@@ -204,8 +209,10 @@ def upload(path: Path, values: dict, principal: bool, env: str) -> dict:
         'rights_confirmed': 'oui' if truthy(values.get('RIGHTS_CONFIRMED')) else 'non',
         'belongs_to_scope': 'oui' if truthy(values.get('BELONGS_TO_SCOPE')) else 'non',
         'owner_page_string_id': str(values.get('OWNER_PAGE_STRING_ID') or '').strip(),
-        'tag_refs': json.dumps([item.strip() for item in re.split(r'[;\n\r|]+', str(values.get('TAG_REFS') or '')) if item.strip()], ensure_ascii=False),
+        'source_url': str(values.get('SOURCE_ORIGIN_URL') or '').strip(),
     }
+    if tag_refs:
+        data['tag_refs'] = json.dumps(tag_refs, ensure_ascii=False)
     with path.open('rb') as handle:
         response = requests.post(
             cfg['base_url'].rstrip('/') + '/scraper/agentAddScopedMedia',
@@ -247,15 +254,22 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
     if not pending:
         print('Aucune ligne à traiter.')
         return
-    for _, values in pending:
+    eligible = []
+    for row_number, values in pending:
         if not truthy(values.get('RIGHTS_CONFIRMED')):
-            raise SystemExit('Chaque ligne doit confirmer RIGHTS_CONFIRMED=OUI avant lancement.')
+            print(f'[EN ATTENTE DROITS] ligne {row_number}: RIGHTS_CONFIRMED doit être OUI.')
+            continue
         if str(values.get('BELONGS_TO_SCOPE') or '').strip().lower() not in {'oui','non','1','0','true','false','yes','no','o','n','y'}:
             raise SystemExit('BELONGS_TO_SCOPE doit être renseigné explicitement à OUI ou NON.')
         if truthy(values.get('BELONGS_TO_SCOPE')) and (not str(values.get('SCOPE_TYPE') or '').strip() or not str(values.get('SCOPE_REF') or '').strip()):
             raise SystemExit('BELONGS_TO_SCOPE=OUI exige SCOPE_TYPE et SCOPE_REF.')
         if not truthy(values.get('BELONGS_TO_SCOPE')) and not str(values.get('OWNER_PAGE_STRING_ID') or '').strip():
             raise SystemExit('BELONGS_TO_SCOPE=NON exige OWNER_PAGE_STRING_ID.')
+        eligible.append((row_number, values))
+    pending = eligible
+    if not pending:
+        print('Aucune ligne autorisée à traiter.')
+        return
     if dry_run:
         for row_number, values in pending:
             print('[DRY RUN]', row_number, values.get('SCOPE_TYPE'), values.get('SCOPE_REF'), 'owner_page=', values.get('OWNER_PAGE_STRING_ID'), 'tags=', values.get('TAG_REFS'), values.get('MEDIA_GROUP'), values.get('SOURCE_TYPE'), row_urls(values) or values.get('DIRECTORY_NAME'))
@@ -295,6 +309,7 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                     if source_root not in directory.parents and directory != source_root:
                         raise RuntimeError('DIRECTORY_NAME doit rester dans le dossier sources.')
                     files = local_files(directory)
+                    provenance = {}
                 else:
                     from media_downloader import download_one_url
                     urls = row_urls(values)
@@ -305,9 +320,13 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                     lot = root_dir(zone, env) / 'downloads' / download_type.lower() / slugify(download_ref) / f'{row_number:04d}_{group.lower()}'
                     lot.mkdir(parents=True, exist_ok=True)
                     files = []
+                    provenance = {}
                     media_type = 'carousel' if group == 'CAROUSEL' else 'photo'
                     for url in urls:
-                        files.extend(download_one_url(page_browser, url, media_type, lot, lot))
+                        downloaded = download_one_url(page_browser, url, media_type, lot, lot)
+                        files.extend(downloaded)
+                        for downloaded_file in downloaded:
+                            provenance[str(Path(downloaded_file).resolve())] = url
                 files = dedupe_files(files)
                 created = skipped = 0
                 errors = []
@@ -315,7 +334,9 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                     temporary_path = Path(temporary_directory)
                     for index, media in enumerate(files):
                         upload_path = prepare_upload(media, temporary_path)
-                        result = upload(upload_path, values, truthy(values.get('PRINCIPAL')) and index == 0, env)
+                        upload_values = dict(values)
+                        upload_values['SOURCE_ORIGIN_URL'] = provenance.get(str(media.resolve()), '')
+                        result = upload(upload_path, upload_values, truthy(values.get('PRINCIPAL')) and index == 0, env)
                         if result.get('success'):
                             if result.get('created'): created += 1
                             else: skipped += 1
@@ -323,7 +344,7 @@ def run(zone: str, env: str, file: str | None, dry_run: bool, maximum: int) -> N
                             errors.append(f'{media.name}: {result.get("error", result)}')
                 if errors:
                     raise RuntimeError(' | '.join(errors))
-                message = json.dumps({'files':len(files),'created':created,'skipped':skipped}, ensure_ascii=False)
+                message = json.dumps({'files':len(files),'created':created,'skipped':skipped,'source_urls':row_urls(values)}, ensure_ascii=False)
                 set_result(ws, row_number, 'done', message)
                 wb.save(path)
                 stats['done'] += 1; stats['created'] += created; stats['skipped'] += skipped

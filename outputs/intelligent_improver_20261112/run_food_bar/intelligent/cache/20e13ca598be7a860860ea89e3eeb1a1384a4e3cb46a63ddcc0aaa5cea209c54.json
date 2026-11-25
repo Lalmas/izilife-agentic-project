@@ -1,0 +1,54 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Lesquin, ouvert le midi en semaine et certains soirs selon les horaires fournis. Aucune information disponible ici sur le menu, l’ambiance, l’accessibilité ou les modalités de commande."
+  },
+  "meta": {
+    "cache_key": "20e13ca598be7a860860ea89e3eeb1a1384a4e3cb46a63ddcc0aaa5cea209c54",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

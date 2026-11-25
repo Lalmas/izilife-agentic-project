@@ -1,0 +1,486 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:31",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "3-brasseurs-faches-thumesnil",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "3-brasseurs-faches-thumesnil",
+    "status": "found",
+    "data": {
+      "id": "5894",
+      "name": "3 Brasseurs Faches-Thumesnil",
+      "shop_string_id": "3-brasseurs-faches-thumesnil",
+      "unique_id": "e3788cdbc90827badb13927f4f77da20",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55149",
+      "principal_cover": "55149",
+      "qr_code": null,
+      "phone_number": "+33376462066",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "10 Rue de l'Égalité",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0826299",
+      "latitude": "50.5848962",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:06:20",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:06:20",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJyVaXvi_VwkcR6__Hzyipvto",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5894,
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-faches-thumesnil",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "3-brasseurs-faches-thumesnil"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55149",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5894_6af3a36c18485.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4953",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34406",
+            "source_hourly_id": "4953",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34407",
+            "source_hourly_id": "4953",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34408",
+            "source_hourly_id": "4953",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34409",
+            "source_hourly_id": "4953",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34410",
+            "source_hourly_id": "4953",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34411",
+            "source_hourly_id": "4953",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34412",
+            "source_hourly_id": "4953",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "3-brasseurs-faches-thumesnil",
+      "google_place_id": "ChIJyVaXvi_VwkcR6__Hzyipvto",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:30 – 22:00",
+          "mardi: 10:30 – 22:00",
+          "mercredi: 10:30 – 22:00",
+          "jeudi: 10:30 – 22:00",
+          "vendredi: 10:30 – 22:30",
+          "samedi: 10:30 – 22:30",
+          "dimanche: 10:30 – 22:00"
+        ],
+        "photos": [
+          {
+            "width": 1552,
+            "height": 714,
+            "photo_reference": "AV-0GLc2V-yFex0T6fTLse1erWNx0VoJ7O8e4kg5dy0jb2FnWd7mnsydpvpSks4DuSoWCqmglq4Yko4HuAr_sPTNW_E4-o1QZUP0hbjcAKIiDiErWa44jpPwr875u8VxXB8GCYn_NSmRf0ERT1Zc92vSoVm_mwL6LnSSiEkDcceBiX0rcd0vG7mjlASlQQMPRjXczICSgX7a4Q5gSmI5q61hGw6KHHEXKeNgaQralrEA_0hMTSQ-e-07s-6EoTR5Que_N9L5IObrkCZiXt_9wqeKM6rLcg7GlWxIFtHIS3UfGJfCxN6DqYKhTLrFx-e0MUr9GqELCD_tB-DcE43Al2nFKUqfcQtnr_C7wRda45VcNuFVwTG5OXeuvafmrwzOIed7XAAREBKmvG4t2URcY1PrcbfK9_Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108156075595033233089\">3 Brasseurs Faches-Thumesnil</a>"
+            ]
+          },
+          {
+            "width": 3023,
+            "height": 3384,
+            "photo_reference": "AV-0GLd-bMaTkouiGgPhJx3eeGrIj1uvq8d1JaXgYr7sOZU9kDV7ZaRbmgn_-4Qvr_h4X3h29WS74tUtT2N70VEG9FEW-T3V9TOvlh3EXsD3PIt0rvBv0bxbQzOKr-z0tq_ehnkUiDQLZBh6TCZuLADJuxZWAA_3fyW4Fx-uKjuLjJWfgye8ZzovFfKX0HvH6g-02tFsteGd16uCMoSEmKM7nyLbd8PWkC9v4wQr6SBBdvmWqet9OZrPFO2SXdQ6GULjKoZl1po5E8W-mx31y4caZE6CoIFEdzDB8_cf6q0l_xas52iwcb3aqg8apazq4DhdYmT7Py1jj7GPZ279z5NnJDc7L-oqbgay6atxX6oaQ4nhxA-KGmcHnnam8VAevvkNR8i7BQzE_RtCj1aPpf2KS4ai6uYA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108156075595033233089\">3 Brasseurs Faches-Thumesnil</a>"
+            ]
+          },
+          {
+            "width": 3840,
+            "height": 2160,
+            "photo_reference": "AV-0GLdqdjaGJVBTnP-83kKVW-xVQhEnAkkxaLfq-8bprMOXAkj365KwUZwkQM5Vol8OSEC6JBRLoPkYUDOTZ8je9IwQvE0wqfaCqloIpMN93QrRq9OO7zKPIvftjIyioPeL45fkl_7_aiVZ_PLWJDuvPefpO_aPZ8CY7h0J0NQvEuwSnMy9QijBcm_Ha_hyIq-K9ulGZsH2r4fU5UNF9fVfiKogZfeErr3hBU77ITmppJK7E5maR8H8D_WSIPDKcuF6PImn8eWToN1x_-cKoHM6BR-ENMWSzNK84oJFlwE7uCQZSa0y2Ur6VhWWfKVHNUanxPzwzoOn78oeVvIvLZZkJ0XZpJPEJvdkHeIq_2aZQvxJmnLgIxc5PSwEl3obmxYYEfjm5NqwzYRjcY0TJVUyjYtnwI7ITgJH6xUgVVvgsIgxpQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "photo_reference": "AV-0GLfstinsvd8RAqNuGpMsINaiGT0tUxur8596XQpfHT3Q88Qq3lF1O5onLRzusEYumCpUGrg2v9Fr_W-9-X1DOwylNluVsVLMEFm6KZCLfiDWXuwkK6FmeokEe1wN4vL849damwcIytrQ-NLi6MBIq2wPKd_vjn3Tyxp9q0QRbsyFTr4RDolaAzm7f6QMpOxbO3qELWuOH-s7axobGPMDo1ug7ffnNRMkoccpSIYYV4OVrvuOMTkFNkyniPTBHrT8_JTyRSzf_BnR8fHA-wZPY9ifvBFWMkkL5GAEKhtAZF81UD2Mqpd5j8eyfYLaBKB__8a1it3_yV0uY7xlfoEtrZS1qR7FQ8QZHOAS_hGQArpyBuG8DoF7ZxpX4t4nr7oZFbIREIuupRHV8AVlHMPuZvRMY00RuIo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108156075595033233089\">3 Brasseurs Faches-Thumesnil</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeeXsYgLcarB1bxjyzbd26WFsVtoSEe7FT2IWxitbDC7zZ5hDPV9N98Svnh6H6aA8NW3sbLtxTsxzRxf5P1Kwnmku0Ty-trJqScA0NRQ4DPKl8xcSvzG6BCORYw_s7TuKMUnguCOARtQgUEAumJ2SM7jnjp6Zq4wovpaif2WsZnWYBjgkMHvlpLFUx4Ly7nXeSB-rvMmZK72QVckHrXM8t1_Udq1OLcmzvWtIBBddkxp6JA6N4TZ-4i6on_B5YAZYU4JLCqtEAFv6JU_jaBwQh-04NBXnv00WINk7y1oLomU93hy4i9tiXp5q8kjg0x1aWz4l2TZQXDRzULhxCpbVD71jUihC1YHKvZvOSbhUYPBq1_NRl0tjScuFyeNnM8VZja7Ccr9kplnysdWwaI3jlYXbNGAupNGQbJyp2v2Rdt",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113100416325618502378\">Pierre FONTAINE</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLdWMc6R9htlaWn-VDGXmDSszevY_JNrP4Fb-_I5m85zQ1gVQwXLIVRAQ0fX0AbITtrqD413i0ogoEGHubw4dpBPlAFGSItFQiCKKTZzX-cKa6u9qv1RIxPHeIAV1j3sdzudCD1SKxBso8XIS00hyK2OJGG4jM32dpRnqN2K27olFW5AcPSHs6rlzy6rKUMW5kYz4RETIuBNMlFmxH17iPLbd6PkfBg6dktpgOKseTsDNxE0KBhdjSvKdTlgq0o4XmQouOFnLM08rRX3GVSyA4ELOZkUYwfNMdBqsXfFYx-P-l1egJg4JNDfGNoZXGLbJ24WRj__7YFpykSsAHXmSeRLUQ6RMcTVl05NWX0lcA54IgvKrSTZiDGgTSpVX49S2zPPcY2oSyKt6KV8YeaqlIBY5kB_rwjaCCD2K70Gd1bv",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108156075595033233089\">3 Brasseurs Faches-Thumesnil</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeHrgVfb3cffNJQcqil4ryE1HqYo9PAVzi5zy-CLZUadGSSlKlyC4qO-Ns_9pqfE5NTvxV8L4Vr2oWqA3ni9CsV-qHsylMa1D8dZN8MvQ_4koWNWiogDLtmJYWIPDvnQjvZXyJH1tSDpR3-XpV4SMFke41QJhKm0VYD1KfMsm42lfbT_8qUIGlY63UG6P3X4_zStypmQty4RMtVUitysVixscEYJY00M_I_yOGXQVs5YmY6R0rrrPalZCpl9deISKpvNDkB-ou-PIgbmjrMUen_MUOGbxtw_WfNOkwyQCAwMCN8w2pgOVyq7OaLgie4Sx33N7Thg9ECZMBtIXRbufppVbVJQlWUV5lM0_eZxPDZhRVAiBxicd-DwlMhKYYKSciuqQDRM74sfNhnFcWwM22EHt9_M8saEqAzuyhSm1pNKg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105482725698989159544\">Caroline Luchez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf8hmOzx4IBDrOPNREITRtK4h9TN4iz2Z1mMt-odUcOSLchiyf9Ar9GHhbxfBhgq3EPl5ILMCTF0ls_VZi1l1jTw9BskJT-c7JK7DwbXnBdONshr9E7iGJLNTv-7C8X5ubbKTkc7iR6hpuPoRw65FB4LtYGUQi3CdnQDhYookLTMEG9SV83vV0VtGdrs_Nk6fjSVURwBI_0hkeSO_i5P7YPH0th8CeoYF1EDLeeoe6mHQLCjgGft1UsGarasZH3uXDAD1Ix5sqBufREPB1n_OxgfGJ5tcqwl2bF5un-KFOVevekC22RVbEBVfC7CF7Xzl_nlF3hIaE2J1pZ3lY3iXfH58sh2B3IN6rFkwsjrGrl8XpZI2gi_Wkp0tOFe2L6vScS8Cen3NHRgw_0cB9jDVvObzf29QU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108156075595033233089\">3 Brasseurs Faches-Thumesnil</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLf5bPv3pIuyhbfkMGAtg_lX35pqnlgj002bxTuZBSfuQj2wbwwd1gYzx8YNwNegCkSAL35EpEaNpEsvuUCGnwFLHdEL9dPruWJv6ZjbBpsdLXr-VLJpE5qwS9S42BIGB73W_1Ant-vruGf6N75nI9pwaNCQ779ouBMlVBfI9vdgVsoEdTCK06itRrhQfXJMTNb7u72t8Vp4AGLKT57LFcbGtXegZYdRw6TuhqYftd5jTdz8l2d7puC2RWAbz37mqsbGIvIJE3z0Y8LZWV7NtROn0i6dRSDOJAYGRzlzAD1mAXPervR32QqL8LwuQsfPZZyxuJai0BDj4C4kuWzBrna2UO1lm6qOZ2M3IFaeGlmHv1hlvA5ds-0hOJ6PrEmri1OfF_6yLeNLv_PfBVuOYNU9jmHC9Id72vz0nQatV5rg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103195292996596720043\">justine titoune</a>"
+            ]
+          },
+          {
+            "width": 4640,
+            "height": 3472,
+            "photo_reference": "AV-0GLfo-xzFK7a8kZ2Emft7qeJ0sB3dulHMz2NI8xsQbMuSjUE4fYNRIcSZo1ZerF4z92L5LFwvAvZg_iGaDiuhHFb3F6L2svcQP3E94lFhp8vrwE-vihBgAnSfBpGR6qm9QVxPeNyJYUa1GKcCEh8Vg8yTpwxolNWRE0_O_7nGBBZUDVmbYUxkxAcNsqB32PUWMo7bj4a2Fz7-1YYWpqnqj1Kni3pabQSTQQCZPa_BRoL06BEuNSaUcwlmQ2ljTdWZFJ3EqgCX0nh3Mq1kli1Ngq9o_UyQW2b2oL9L9h1CohWQR1WUT0gqqli1Dm4Av3jHuvB9gCfIQeQAg4Kfv1BVrOQeHFz4dsrE3sbQ-kT1zzUxehp-Qfr59FwvRXHF03acZUHzNc_jEz-ruifk3BFPlIfJYeZ0YitUma5fI8sae624hw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111608443731839584333\">Didy B</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5894
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Aucune information fournie sur le menu, les services, l’accessibilité ou les moyens de paiement. Les avis n’ont pas été récupérés (budget épuisé)."
+    ],
+    "rejected": [],
+    "summary": "Restaurant 3 Brasseurs au 10 Rue de l’Égalité à Faches-Thumesnil. Horaires indiqués : 10 h 30 à 22 h, avec fermeture à 22 h 30 le vendredi et le samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "3-brasseurs-faches-thumesnil",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5894,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "53e16e1b13e8e9a588f3cdbfc6ebef88b8a57f341dc21c3bb08e272117c13c4a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

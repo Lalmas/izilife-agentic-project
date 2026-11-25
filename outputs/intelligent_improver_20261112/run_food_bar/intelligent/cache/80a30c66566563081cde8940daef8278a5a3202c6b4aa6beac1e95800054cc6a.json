@@ -1,0 +1,36 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Superbe service avec le sourire"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis ne précisent pas les plats exacts, les horaires, les modalités de commande ou de paiement, ni les équipements et l’accessibilité."
+    ],
+    "summary": "Restaurant à Seclin. Un avis décrit un cadre accueillant, un service souriant, des plats généreux et des légumes de saison."
+  },
+  "meta": {
+    "cache_key": "80a30c66566563081cde8940daef8278a5a3202c6b4aa6beac1e95800054cc6a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

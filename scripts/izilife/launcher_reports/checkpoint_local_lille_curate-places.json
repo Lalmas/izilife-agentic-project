@@ -1,0 +1,14 @@
+{
+  "completed": [
+    "curate_places"
+  ],
+  "runs": [
+    {
+      "stage": "curate_places",
+      "at": "2026-11-05T22:10:19.118843",
+      "returncode": 0,
+      "stdout": "[22:10:12] === createur_lieux.py â€” zone=lille env=local city=lille [DRY RUN] ===\n[22:10:12] 1 lieu(x) Ã  traiter\n[22:10:15] \n  â†’ Palais des Beaux-Arts de Lille (lille)\n[22:10:18]     [DRY RUN] â†’ postAgentFetchAndStoreOnePlace/lille query=Palais des Beaux-Arts de Lille destination=PLACE category_string_id=musee in_on_place_ref=NONE\n[22:10:18] \n=== RÃ©sultat ===\n[22:10:18]   CrÃ©Ã©s      : 1\n[22:10:18]   Unmapped   : 0  (Ã  traiter dans le BO)\n[22:10:18]   Erreurs    : 0\n\nJournal Excel : G:\\Mon Drive\\agentic_workspace_local\\izilife\\places\\lille-zone\\logs\\W45\\curate_manuel_lieux_2026-11-05.xlsx\nPilotage global : G:\\Mon Drive\\agentic_workspace_local\\izilife\\logs\\pilotage_global.xlsx\n",
+      "stderr": ""
+    }
+  ]
+}

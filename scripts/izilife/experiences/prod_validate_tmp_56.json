@@ -1,0 +1,84 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:44.062082",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 56,
+      "title": "Good Run Club Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.instagram.com/goodrunlille/",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "session_configuration": null,
+          "session_contents": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Easy runs sociaux annoncés le mardi à 19 h 30 à l’entrée de la Citadelle."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Easy runs sociaux annoncés le mardi à 19 h 30 à l’entrée de la Citadelle."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Easy runs sociaux annoncés le mardi à 19 h 30 à l’entrée de la Citadelle."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Easy runs sociaux annoncés le mardi à 19 h 30 à l’entrée de la Citadelle."
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://scontent-cdg4-1.cdninstagram.com/v/t51.2885-19/475423832_1835276063907828_8043750759747747922_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_cat=110&ig_cache_key=GFhkVhz0n9qBLIUGAFIAi8iyJKFvbkULAAAB1501500j-ccb7-5&ccb=7-5&_nc_sid=669407&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=7pblTas1_yEQ7kNvwH-Giao&_nc_oc=AdoEVAbcCPsvUJivfsD4QUNqxutBdier_9_M3zLfY37Ge4wV3Fo2XK8YhRtKrfSfwAg&_nc_zt=24&_nc_ht=scontent-cdg4-1.cdninstagram.com&_nc_ss=7b60f&oh=00_AQQ9f8HCHLQWgCTwG9G2IEXcaNTDB5RZM4Udm0wC9E0eqA&oe=6AF66B40",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 56,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 98,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:50.647531"
+}

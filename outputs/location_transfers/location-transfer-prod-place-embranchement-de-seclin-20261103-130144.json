@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "3cde430fb8043cc3a248f9d8005158e100be40ac720950e048dace1a263d1964",
+    "source": {
+      "id": 587,
+      "type": "PLACE",
+      "ref": "embranchement-de-seclin",
+      "name": "Embranchement de Seclin",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": 41,
+      "type": "PLACE",
+      "ref": "canal-de-seclin",
+      "name": "Canal de Seclin",
+      "is_active": 1,
+      "listable": 1
+    },
+    "actions": [
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "PlaceMedias",
+        "count": 11
+      },
+      {
+        "family": "dual_scope",
+        "action": "REPOINT",
+        "target": "PrincipalCharacteristics",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 4,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "embranchement-de-seclin",
+      "source_id": 587,
+      "source_updated_at": null,
+      "source_fingerprint": "f867fae93afdab8a5dcc4f320c448a09943e03ad01fcd6871fd8b117d20c8368",
+      "destination_type": "PLACE",
+      "destination_ref": "canal-de-seclin",
+      "destination_mode": "EXISTING",
+      "destination_id": 41,
+      "destination_updated_at": null,
+      "destination_fingerprint": "ba1b8b11b904751bb03f13a37cf1773a08ef175ce945e240cdb4ac4477ac2b35",
+      "destination_name": "",
+      "destination_category_ref": "canal",
+      "destination_category_id": 45,
+      "activate_destination": false,
+      "actions": [
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "PlaceMedias",
+          "count": 11
+        },
+        {
+          "family": "dual_scope",
+          "action": "REPOINT",
+          "target": "PrincipalCharacteristics",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 4,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

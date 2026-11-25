@@ -1,0 +1,508 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:47:30",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-expresso",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "l-expresso",
+    "status": "found",
+    "data": {
+      "id": "5162",
+      "name": "L'Expresso",
+      "shop_string_id": "l-expresso",
+      "unique_id": "8bed1f2603538ee0c73321eda52d556d",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "1",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "51214",
+      "principal_cover": "51214",
+      "qr_code": null,
+      "phone_number": "+33320328074",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "161 Rue Maurice Bouchery",
+      "additional_address": null,
+      "zip_code": "59113",
+      "city_id": "3",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0329655",
+      "latitude": "50.5577026",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-10-27 12:52:54",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": "Lundi 10h-15h ; mardi à vendredi 10h-22h ; samedi 19h-22h ; dimanche fermé.",
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-10-27 12:52:54",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ85MChoLUwkcRdKj3ie3UpEs",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ85MChoLUwkcRdKj3ie3UpEs\",\"rating\":4.3,\"user_rating_count\":1576,\"google_maps_uri\":\"https://maps.google.com/?cid=5450715565712189556\",\"fetched_at\":\"2026-11-11T20:37:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":4,\"text\":\"Super qualité, super bon goût, arrangeant et souriant le personnel\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T02:05:16+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Stéphanie Vanhée\",\"uri\":\"https://www.google.com/maps/contrib/109051544937157192731/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWeTBg_-UmBsGHNFG-Tpxuk_OOulNeR_fTl4R8i3-amGax45T3c=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Cuisine délicieuse\\nTrès bonne ambiance avec la partie bar et partie restaurant\\nJe recommande pour passer une bonne soirée\\nTop\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T15:54:16+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Steeven Cotten\",\"uri\":\"https://www.google.com/maps/contrib/106395529656269321756/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjV6ggv9Ux-ZrE-rwUp-nSbWP0qxRRR4q3ximZl0h2B9513CEP0t=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"En déplacement professionnel à Séclin,\\nce restaurant est une très bonne expérience.\\nPersonnel sympa et une très bonne cuisine.\\nSi je retourne dans le coin c'est sans hésiter que j'y m'arrête.\\nUn conseil réservé pour y manger car il se remplit très vite.\",\"language_code\":\"\",\"publish_time\":\"2026-10-28T11:38:00+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Ludovic Muller\",\"uri\":\"https://www.google.com/maps/contrib/108876998054529468622/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ3JwefINBD3mGc3eRIswkjh5rmFzBoWfNXjckkbuwvz7xHkw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-16T15:46:48+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Vincent Prevost\",\"uri\":\"https://www.google.com/maps/contrib/100440072375894302714/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWR-weJUfA_fj7ZysRkChs9Z85EvllLs08CTROG_AMtNnn99lTL=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-08T13:25:00+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Cyrille Jounot\",\"uri\":\"https://www.google.com/maps/contrib/110120589806272752957/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLAJH77KFRWHC47noo2vRBQPojbWlxHbJJbV3lXApeUHRSZlQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 20:37:25",
+      "google_reviews_place_id": "ChIJ85MChoLUwkcRdKj3ie3UpEs",
+      "source_id": 5162,
+      "scope_type": "SHOP",
+      "scope_ref": "l-expresso",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "seclin",
+      "string_id": "l-expresso"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "51214",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5162_1793101975_0e077575cae13235a480.jpg",
+            "sha1_hash": "140263dc0faf3aa9169ff33aee516eb6daf09bd9",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3959",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32082",
+            "source_hourly_id": "3959",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32083",
+            "source_hourly_id": "3959",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32084",
+            "source_hourly_id": "3959",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32085",
+            "source_hourly_id": "3959",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32086",
+            "source_hourly_id": "3959",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32087",
+            "source_hourly_id": "3959",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "19:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32088",
+            "source_hourly_id": "3959",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": null,
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "l-expresso",
+      "google_place_id": "ChIJ85MChoLUwkcRdKj3ie3UpEs",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [],
+        "photos": [],
+        "has_google_json": false
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_missing"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "cache_missing"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": true
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Super qualité, super bon goût, arrangeant et souriant le personnel",
+            "language_code": "",
+            "publish_time": "2026-11-08T02:05:16+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Stéphanie Vanhée",
+              "uri": "https://www.google.com/maps/contrib/109051544937157192731/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWeTBg_-UmBsGHNFG-Tpxuk_OOulNeR_fTl4R8i3-amGax45T3c=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Cuisine délicieuse\nTrès bonne ambiance avec la partie bar et partie restaurant\nJe recommande pour passer une bonne soirée\nTop",
+            "language_code": "",
+            "publish_time": "2026-11-02T15:54:16+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Steeven Cotten",
+              "uri": "https://www.google.com/maps/contrib/106395529656269321756/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjV6ggv9Ux-ZrE-rwUp-nSbWP0qxRRR4q3ximZl0h2B9513CEP0t=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "En déplacement professionnel à Séclin,\nce restaurant est une très bonne expérience.\nPersonnel sympa et une très bonne cuisine.\nSi je retourne dans le coin c'est sans hésiter que j'y m'arrête.\nUn conseil réservé pour y manger car il se remplit très vite.",
+            "language_code": "",
+            "publish_time": "2026-10-28T11:38:00+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Ludovic Muller",
+              "uri": "https://www.google.com/maps/contrib/108876998054529468622/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ3JwefINBD3mGc3eRIswkjh5rmFzBoWfNXjckkbuwvz7xHkw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-16T15:46:48+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Vincent Prevost",
+              "uri": "https://www.google.com/maps/contrib/100440072375894302714/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWR-weJUfA_fj7ZysRkChs9Z85EvllLs08CTROG_AMtNnn99lTL=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-08T13:25:00+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Cyrille Jounot",
+              "uri": "https://www.google.com/maps/contrib/110120589806272752957/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLAJH77KFRWHC47noo2vRBQPojbWlxHbJJbV3lXApeUHRSZlQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 20:37:25"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1141,
+        "bo": 103,
+        "front": 1038,
+        "estimated_cost_eur": 3.5250000000000004
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "lieu-tres-frequente",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« il se remplit très vite »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« réserver pour y manger »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bar-ambiance",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« partie bar et partie restaurant »; « Très bonne ambiance »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« réserver pour y manger »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "BarType",
+        "item": {
+          "string_id": "bar-ambiance",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "« partie bar et partie restaurant »; « Très bonne ambiance »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant avec espace bar, apprécié pour sa cuisine et son ambiance. Un avis recommande de réserver, car le lieu se remplit vite."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "l-expresso",
+    "operation": "ADD",
+    "tags": [
+      "lieu-tres-frequente"
+    ],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5162,
+    "changed": [
+      "ShopCharactTag:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d870efa270352f58d69a9195b133573de6e9af023314770ee0cdfbce0d93946b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

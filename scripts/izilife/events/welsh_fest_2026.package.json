@@ -1,0 +1,562 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "EVENT_SERIE",
+    "data": {
+      "name": "Welsh Fest",
+      "string_id": "welsh-fest",
+      "description": "Festival gratuit consacré au welsh, organisé à la Gare Saint-Sauveur de Lille.",
+      "event_category_ref": "festival-culinaire",
+      "is_active": false
+    },
+    "sources": [
+      {
+        "url": "https://festivalduwelsh.fr/",
+        "kind": "OFFICIAL"
+      }
+    ],
+    "media": [
+      {
+        "image_url": "https://festivalduwelsh.fr/assets/illustrations/gare-saint-so.jpg",
+        "title": "Welsh Fest 2026",
+        "is_principal": true
+      }
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "welsh-fest-2026",
+      "relation": "ROOT_EDITION",
+      "data": {
+        "title": "Welsh Fest 2026",
+        "event_string_id": "welsh-fest-2026",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-20",
+        "start_hour": "17:00",
+        "end_date": "2026-11-22",
+        "end_hour": "18:30",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "source_url": "https://festivalduwelsh.fr/#programme",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://festivalduwelsh.fr/#programme",
+          "kind": "OFFICIAL_PROGRAM"
+        }
+      ],
+      "media": [
+        {
+          "image_url": "https://festivalduwelsh.fr/assets/illustrations/gare-saint-so.jpg",
+          "title": "Welsh Fest 2026",
+          "is_principal": true
+        }
+      ]
+    },
+    {
+      "client_ref": "20-ouverture",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Ouverture des portes",
+        "event_string_id": "welsh-fest-2026-20-ouverture",
+        "short_description": "Food court, bars, espace café et marché de Noëlsh.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-20",
+        "start_hour": "17:00",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "20-inauguration",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Inauguration officielle du Welsh Fest",
+        "event_string_id": "welsh-fest-2026-20-inauguration",
+        "short_description": "Inauguration sur la scène principale.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-20",
+        "start_hour": "18:00",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "20-concours-relais",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Concours Relais — équipes de 3",
+        "event_string_id": "welsh-fest-2026-20-concours-relais",
+        "short_description": "Huit équipes sélectionnées sur la scène concours.",
+        "event_category_ref": "concours-culinaire",
+        "start_date": "2026-11-20",
+        "start_hour": "18:30",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "20-back-to-welsh",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Back to the Welsh",
+        "event_string_id": "welsh-fest-2026-20-back-to-welsh",
+        "short_description": "Quiz du Welsh avec Julien Lepers et Bertrand Fashion, puis soirée rétro avec Will Turner et DJ HS.",
+        "event_category_ref": "soiree",
+        "start_date": "2026-11-20",
+        "start_hour": "20:00",
+        "end_date": "2026-11-21",
+        "end_hour": "00:30",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-concours-espoir",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Concours Espoir Hauts-de-France",
+        "event_string_id": "welsh-fest-2026-21-concours-espoir",
+        "short_description": "Huit finalistes sur la scène concours.",
+        "event_category_ref": "concours-culinaire",
+        "start_date": "2026-11-21",
+        "start_hour": "10:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-ouverture",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Ouverture du Welsh Fest — samedi",
+        "event_string_id": "welsh-fest-2026-21-ouverture",
+        "short_description": "Restauration, bars, marché et espace café.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-21",
+        "start_hour": "10:30",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-animations-famille",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Animations familiales et mini-jeux",
+        "event_string_id": "welsh-fest-2026-21-animations-famille",
+        "short_description": "Animations dans l'espace famille.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-21",
+        "start_hour": "11:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-claudia",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Claudia Musique",
+        "event_string_id": "welsh-fest-2026-21-claudia",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "11:30",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-carma",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "CARMA — DJ set",
+        "event_string_id": "welsh-fest-2026-21-carma",
+        "short_description": "DJ set sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "13:30",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-concours-amateur",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Concours Amateur du Welsh",
+        "event_string_id": "welsh-fest-2026-21-concours-amateur",
+        "short_description": "Quatorze finalistes sur la scène concours.",
+        "event_category_ref": "concours-culinaire",
+        "start_date": "2026-11-21",
+        "start_hour": "15:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-smoke-eaters",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Smoke Eaters",
+        "event_string_id": "welsh-fest-2026-21-smoke-eaters",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "16:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-fondue",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Démonstration et dégustation de fondue — Le Gruyère AOP",
+        "event_string_id": "welsh-fest-2026-21-fondue",
+        "short_description": "Démonstration et dégustation avec l'invité d'honneur 2026.",
+        "event_category_ref": "degustation",
+        "start_date": "2026-11-21",
+        "start_hour": "17:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-the-kash",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "The Kash",
+        "event_string_id": "welsh-fest-2026-21-the-kash",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "18:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-cauliflowers",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Cauliflowers",
+        "event_string_id": "welsh-fest-2026-21-cauliflowers",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "20:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "21-jacques-fromage",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Jacques Fromage",
+        "event_string_id": "welsh-fest-2026-21-jacques-fromage",
+        "short_description": "Concert de clôture de la soirée sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-21",
+        "start_hour": "22:30",
+        "end_date": "2026-11-22",
+        "end_hour": "01:00",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-concours-pro",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Concours Professionnel du Welsh",
+        "event_string_id": "welsh-fest-2026-22-concours-pro",
+        "short_description": "Dix candidats sélectionnés.",
+        "event_category_ref": "concours-culinaire",
+        "start_date": "2026-11-22",
+        "start_hour": "10:00",
+        "end_date": "2026-11-22",
+        "end_hour": "17:00",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-yoga",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Réveil en douceur : séance de yoga",
+        "event_string_id": "welsh-fest-2026-22-yoga",
+        "short_description": "Séance ouverte à tous.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-22",
+        "start_hour": "10:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-ouverture",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Ouverture du Welsh Fest — dimanche",
+        "event_string_id": "welsh-fest-2026-22-ouverture",
+        "short_description": "Restauration, bars et marché.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-22",
+        "start_hour": "10:30",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-brunch",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Brunch welsh et animations enfants",
+        "event_string_id": "welsh-fest-2026-22-brunch",
+        "short_description": "Brunch avec les restaurateurs et animations dans l'espace famille.",
+        "event_category_ref": "brunch",
+        "start_date": "2026-11-22",
+        "start_hour": "11:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-color-snake",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Color Snake",
+        "event_string_id": "welsh-fest-2026-22-color-snake",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-22",
+        "start_hour": "11:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-the-wooz",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "The Wooz",
+        "event_string_id": "welsh-fest-2026-22-the-wooz",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-22",
+        "start_hour": "13:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-christophe-gros",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Christophe Gros",
+        "event_string_id": "welsh-fest-2026-22-christophe-gros",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-22",
+        "start_hour": "15:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-north-project",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "The North Project",
+        "event_string_id": "welsh-fest-2026-22-north-project",
+        "short_description": "Concert sur la scène principale.",
+        "event_category_ref": "concert",
+        "start_date": "2026-11-22",
+        "start_hour": "17:00",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-trophees",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Remise des trophées du Welsh Fest",
+        "event_string_id": "welsh-fest-2026-22-trophees",
+        "short_description": "Finales et remise des trophées sur la scène principale.",
+        "event_category_ref": "concours-culinaire",
+        "start_date": "2026-11-22",
+        "start_hour": "17:30",
+        "end_date": "2026-11-22",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    },
+    {
+      "client_ref": "22-cloture",
+      "relation": "CHILD",
+      "parent_ref": "welsh-fest-2026",
+      "data": {
+        "title": "Clôture du Welsh Fest 2026",
+        "event_string_id": "welsh-fest-2026-22-cloture",
+        "short_description": "Clôture officielle du festival.",
+        "event_category_ref": "festival-culinaire",
+        "start_date": "2026-11-22",
+        "start_hour": "18:30",
+        "end_date": "2026-11-22",
+        "end_hour": "18:30",
+        "city_ref": "lille",
+        "address": "Gare Saint-Sauveur, boulevard Jean-Baptiste Lebas",
+        "zip_code": "59000",
+        "access_text": "Entrée gratuite",
+        "is_active": false
+      }
+    }
+  ]
+}

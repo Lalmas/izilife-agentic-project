@@ -1,0 +1,486 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:13:14",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-lion-des-flandres",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-lion-des-flandres",
+    "status": "found",
+    "data": {
+      "id": "5741",
+      "name": "Au Lion Des Flandres",
+      "shop_string_id": "au-lion-des-flandres",
+      "unique_id": "8e2bb839020b48c782f0d4a6a3af0c40",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54998",
+      "principal_cover": "54998",
+      "qr_code": null,
+      "phone_number": "+33668381155",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "23 Rue Voltaire",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1024254",
+      "latitude": "50.5886829",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:43:48",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:43:48",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJW4-QVoTWwkcRT0On8knUSk0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5741,
+      "scope_type": "SHOP",
+      "scope_ref": "au-lion-des-flandres",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "au-lion-des-flandres"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54998",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5741_6af39e24ac6af.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4799",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33328",
+            "source_hourly_id": "4799",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33329",
+            "source_hourly_id": "4799",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33330",
+            "source_hourly_id": "4799",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33331",
+            "source_hourly_id": "4799",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33332",
+            "source_hourly_id": "4799",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "15:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33333",
+            "source_hourly_id": "4799",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33334",
+            "source_hourly_id": "4799",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-lion-des-flandres",
+      "google_place_id": "ChIJW4-QVoTWwkcRT0On8knUSk0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:00 – 22:00",
+          "mercredi: 11:00 – 22:00",
+          "jeudi: 11:00 – 22:00",
+          "vendredi: 11:00 – 15:00, 19:00 – 22:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLeZVD4zwami_VuzWKIU3FSo3J8mf24B2pMcZ88ygfO8dRPhNKngi7r4fz24y-kg-Uu4HaB53_E1pkXahULGTKDiQJ8irJDwkiVeKgO8L36fXqib-cikYeTT3Wk7wXDCTnkoC7H6TkrIpnbiogVv_kuj3hcF0OHURnk2FPSmQLKi7J_leyg1UGvuw6T3qYvp212UCTuN7rQv9AdUVUl3DiDV09-mSbrKqiF6FqRiIE-5OmdDDrXln_-wnOCPuzEtzsJnIaIK8O8_vGTBn3LESK3SUUcW6mSAvcskaAei6Q_Qb8RLEeYbrIlDummBK2MNICzTs0qT9kmz4UaVuETlX5to6CboPLtdSV_5HUSrp0IKL2DTc-t6JGEUDYs77uLmjxZhISIGcdrBQbbwBj3OLBqU1lP4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113699653999143134712\">Andriy</a>"
+            ]
+          },
+          {
+            "width": 2250,
+            "height": 3172,
+            "photo_reference": "AV-0GLecALbfudE03L7-j-RWSfIug1VYeOaMbceIa9pOMcgjjmC7tM7ZjzbuLedPQdWyu2LQ0cW8L-ytdKnBH7XuzjV2GwfBOqfwm2caW2MjSP0wwLpujrkwSNm36ocMA5nQSgjS4eRIS5z6kJsYJPkW_8UvqrTV11jLs4HoqRk9fN4bO96LDZdVUYQQqV62u3dNPNsml-LjA-rRciLcMBhf67B0Q8DP8yaeMa3WpTT6auj-ugCTttQsTtsrN0h3b2ChK1iTVXsKD7ZoRCUPhFkNvgr-Em4Wx_x9K_6cz5xA9U5COsTAaKVuoFjI0vZVY1CrhqNQQ1LOR2DE15k5YPfw-YgZpkM1xWSqldoNaWlpLTUx1D-DeGt7IdY8bctEDhwRZGCEn6Z5pzC_vY5j42A6jLvd2j2U4iteCTs8ubmHypePwg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116851304058690904265\">Au Lion Des Flandres</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLek79_KMytyW84Rhyb0amG0nAGtPR7mgC0I21-3AqGq4PwBMNd7gUH0U9wY8nDWt8LGHUuBUspiKcTgtheyC8JSP4mPYJtsOYthD5DIBxPZaplTRgx6Kr2RQjR5GGdojtFu8A47pdHKgb2QSlipewkEZo63ZgMjfEiph2xAFuWYuopT8Lho8SvvvDSeYYp0OoDZaotSGUhDV6lOPJUp2_tFDc5PIislIlaKil8k-YMD02SDklqBU5VwLUZeTrxUVNIH-Zhz5jB4yie-cq0-rd21mLQa0ssLSjoByQGxzjL43hYTn7V5RZ-pi5lKJCUFih6V1MI61OhgJ2clDAGSXmYgZ85ZvuKS1VdkY-QN4SFkartY6YXJeeEZnGAS3bBid51qaf136WpleRbSotXWhQTmyy5kzh8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109637193778088510749\">Bruno MARCHAND</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcNF-VwxonToHaHfqnACkbSWJ6goiQKlNbj-_k94nlf57bwNRU6S55bnuUU4RfTGETmZb1T2ymTWrdTWVk0AyfCF7zrI9AS3neID70ni57NfuORdOt80baGNHpOK6IeQpdWda6BF5dpekRZa3EF3dIgrkTKEoOFaw438XxJ2_CZvm9O6MUlCwZ9XafMEw22M5tBtoGmKpyPaDZnYiWwOhDf4ysJAaBg013SVDiQV-P1yZ0jqn0HiihqUh-uiFB9bHi2sxgp1yPy6crsd0DK_A87OrArJzRn6syfe8QlObdcshEqbzOwyzkJaAvsQMGiqYWCsTHosCQndU6FwHEbGueEDeaSWSrxzvk9d--I-VBiKvTPjLS1WXJLh3Sz7ipFLMs7KQDuUQmkLwJ29TOCnUsllA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103545081899925320054\">James Ledolley</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLebYd66M0apTI1iwXFyF-miWX8L43HYABrDoMvm2pjU680NrH57_7GpdExBiw1ynNcSD3D6DF8gIKurINKd5CgddwVqy3qcbChyXtnqSyzcyYQwbwBtFBHASYYMfK1RxsrBAGluJH_tzhR5qTeR_pbqtw_5qDdFNXxRyDPKpy_hzGwKIRTwjtoc17zYzH4PEKLXPfCNBJ0YDl6YFPWDV2w9XfH8Ma1NCYE2k7kTUUT9VPeaxdzWbXoUE9rR3NEFh5UuoceVAVD9hl88bYYn5NLsfFtSy4D_8twNspxhXQY18xeT4oFzGKDCfItZIGp_PeywjaSRldb0F_ceK85jKRQyNKYJ2DZGo0KTl0d09_gcqI9te-D1Ak2SkPnMi8paJyxOjLqZyVzJVd51FTGZM2R9aSo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105471515154654443550\">michmich mich</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLf50s3A_ZWhCzIeg0ibLBAL4Dc1zmTRq_eNfJ3B11eL7MekxQaMyRLzdHmiimmqXAyzqkWla5VHpBmErG0GOVOx_WYyT_FVF9xNkFMB449a0UAN3W6qJk_PS1JYuMoXxvOqeJPRp6JSmcArwSlO_juN4NJGq5vHkP28SpxT34e28wBjXgmlEzLaYy1Nd6D4Hp_kWAmOiA2H2S0NYA63FJLisBqN8A8CmlwxQOA3ap1qQypfJaDvXTiM0c0q75KZJUEbli72q0WWI0lDDwO1QFZ94HtML_ncHhM2XVD7dfJBB3vYW5duOBvbaCnhBpX6sRhLyzDHermNQFHVfKhA_TxOcYyds68PZMkXu7CbFHNOMc1ekKEGANdq7h_kySegU6fa7N2onHoWy964Fwuhzrjj0-6tBxY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107304752541825031573\">Tanguy Deren</a>"
+            ]
+          },
+          {
+            "width": 1844,
+            "height": 4000,
+            "photo_reference": "AV-0GLcaNq2G1gWV5MmHLGM0bfScR3cKQ5rF0wazwhPCp-gGP8WJP_9jpne4Su-JcunF_rz2CmnD2s650p1p2LFo94rP8z4ZunnQdrfKJ9oXUZ_3fg0rphQroqEZc6DR2TQReU8MsTWwHB1UabAOAHtbnbWzLJGs2q5SJrT9kW5LkjynHYgEmJv8huz79mwYnx_D6eEpt2tBKOPt_2opYK08yqxdVVPUWNJLGXRRBqUMy81FC0NJ97d1MHS0qawR-z5laoExb_xg2xQneDJwPqDSQl0dkdj_gGnAaqT8Y-6l2a_6c7YAHurfMs3ez7kANW6RRjpAjYzizLLJGhOaXcUNUMozuo1M1zBI3XbnEmfU6QIAtTMkMa3Ew6GRPNlTFtr1FBskT2ym3JXg-kqkmkGrpUODvA8rkXN-zCuqRt7RqKGz3g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113261562890003172741\">Aurélien The Myth</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 1844,
+            "photo_reference": "AV-0GLfH5bbtxxoHzwBMHOGKZ9EyELCVX9buachv1Zul-AnuTIyf4cyYPOvS9SQY5ohFdDy2DAeqXvgVDSri0BwneHHq_Hsmp0pc_T9lwabN_PfyNa3JfhqyUNDc2P9WMVZR9rKReQc_gPM_tPqjGNS-92MUH_9KVpmRalXVfiDwz0IhZ7RHVy26zOxlD7vpcVLozLBs4zl2RCJuToyXSK5zUEBU3xSKMrfaosGNl7LWaS-2aNGY2sMwFMPSymDdAiJP1AV-njZqCZvZEvdExykNImdIT5zupb0Z3kQF472Pt4VG-kQeoNW_A1KCFSBWO2WW5YZrYx4cpXn4yicaP2LJxsZ03qMgJBL0ENjptoK_sjYkjDcP_mPdp_6fj9OCaQ2LXpsV1AxcYy3wGB0wyKSfSbohJS34RXOd6msPmYgCToM_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113261562890003172741\">Aurélien The Myth</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLfzSl0__vP6HMFIv4nzRbnerf06fhvMj72HVG4yWt8MKsERhnCkbmO2XHzGAGsVmOam45x9hO3c_evdmw6rk8KKhenjYFYMJNQPOZlXxr3EexcDSwKuVEm09wIdNTHtkEzoZRTi32oXkbjdpc01TfbPiwqwDOuU6j_IwENCUodCMm094YYdkkIxJWHe-XumWIJz_RBLflwpCLXctHaJXKMOwlbQ686eJxwljmiCb1LNZqgEvEXkOMRTYocS38bL-VC8JfHeX_698Qrm_4jAOU4KSonxMg6xNzUA9KlZ1wAkyKSCCwuGnPV_VMR9wD90jhfyTdMAc2g2G_ZZhltot_z8G7mIT73XSj7NyyAfM8gD0TNJJu3pa9VGRkPzc0P6qj0x3rrw4uwF7gxoVWe-asxg1GzMpTqyBQ7WAtOrPzxkzA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116851304058690904265\">Au Lion Des Flandres</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLf3VW2LEtJ7rxunS_LRbWhAlTvSP2qmhLzf0lOHxjuzxRkmQC5j63HpS2vm9VAVRaEUmDWtBvqN2ksok6wqgpzL4XbreVqUNLnxlf3ib5Q4mbWcisxBCu0rC_r74sDqK05Wz8Elx8ml1ooX0O_xjG0177ph8idHVC8puqdsapImc6Ohz3t8g6MD4-8YJgAjWgICI2QOu1v07YzCs3Pdz5BPqbjePYeUdBpnr0Au2grb_C8jp7q9DGHid2JJOj151KiSX-6NWr1S2lLnasyzG1vlxd-sUtSIErrEdDueCv1x1hrnB2h8pozrItve7S-l6GDwqWEsGMLfTYiQX0tyKQV-LIPGsj8rGPosW_6ByFYyzLFaB9o4EZCLifB4rJqzXgwM7GxczDsNiYsR-pi1xIKo-7g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109338254652581683432\">lobry yoan</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5741
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {},
+    "warnings": [
+      "Aucune information fournie ne permet d’établir les types de cuisine, les options de repas, les publics, l’accessibilité, l’ambiance, les équipements, les moyens de paiement ou les modalités de commande."
+    ],
+    "rejected": [],
+    "summary": "Restaurant « Au Lion Des Flandres », situé au 23 Rue Voltaire à Lesquin. Les horaires fournis indiquent une ouverture du mardi au jeudi de 11 h à 22 h et le vendredi de 11 h à 15 h puis de 19 h à 22 h."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-lion-des-flandres",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5741,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0af78dad3ee88a27449ebad65145134779a37e3ac337c625a7cff08159c9449e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

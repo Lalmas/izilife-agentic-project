@@ -1,0 +1,51 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "poussette-friendly",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Dès que j'arrive avec ma poussette il vient toujours à ma rencontre me tenir la porte »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Le meilleur endroit sur Loos pour prendre un verre »"
+      },
+      {
+        "string_id": "lieu-valide",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« je recommande »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« Le patron Robin est très chaleureux »"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« prendre un verre sans prise de tête »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Un bar de quartier apprécié pour son accueil chaleureux et son ambiance simple, où l’on peut prendre un verre. Un avis souligne aussi l’attention portée aux personnes avec poussette."
+  },
+  "meta": {
+    "cache_key": "9afc92b838c04dca48af373cebbeffc46488c5d4e47b599589b02d9a975a14c9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

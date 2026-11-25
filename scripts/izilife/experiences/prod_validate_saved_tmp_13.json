@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:00:35.728878",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 13,
+      "title": "Essayez l'accrobranche à quelques minutes de Lille",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "needs_review",
+      "application": {
+        "success": true,
+        "tmp_id": 13,
+        "blockers": [
+          "unite_duree"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "unite_duree"
+          ]
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:00:35.871685"
+}

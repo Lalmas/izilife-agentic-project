@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-ne-pas-manquer",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Une adresse à ne pas manquer ! »"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« visiter ce bar »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.68,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance chaleureuse et conviviale »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« dimanche: 09:00 – 15:00 »"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« mercredi: 10:30 – 14:30 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« jeudi: 17:00 – 23:00 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Bar apprécié pour son accueil chaleureux et son ambiance conviviale. La fiche le classe également dans la catégorie restaurant."
+  },
+  "meta": {
+    "cache_key": "c2e80207c03b549245ebb4715113dd3721784f41830efc4dae59501131887e25",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

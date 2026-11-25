@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 0,
+        "confidence": 0.9,
+        "source_url": "https://cryotera.fr/prestations/pressotherapie",
+        "evidence": "No mention of children services."
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "https://cryotera.fr/prestations/pressotherapie",
+        "evidence": "Services are open to a broad audience, including families."
+      }
+    ],
+    "editorial": {
+      "MusicStyle": []
+    },
+    "warnings": [],
+    "summary": "Cryotera offers a range of cryotherapy and wellness services primarily targeting adults and families, featuring whole body and localized treatments."
+  },
+  "meta": {
+    "cache_key": "bd6ee382c4a3629db3105ceb39a5484bd7097488d72b65a81660b262cf48330f",
+    "references_env": "local",
+    "analysis_only": true,
+    "response_id": "resp_068bdca10507c93b006ae6fd22ac6087d2b4dd237c5e7c31e5",
+    "model": "gpt-4o",
+    "usage": {
+      "input_tokens": 64855,
+      "input_tokens_details": {
+        "cache_write_tokens": 0,
+        "cached_tokens": 0
+      },
+      "output_tokens": 190,
+      "output_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "total_tokens": 65045
+    },
+    "web_search": false,
+    "cache_hit": false
+  }
+}

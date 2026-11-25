@@ -1,0 +1,621 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:34:07",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-coin-de-delph",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-coin-de-delph",
+    "status": "found",
+    "data": {
+      "id": "5594",
+      "name": "Au Coin de Delph",
+      "shop_string_id": "au-coin-de-delph",
+      "unique_id": "48f1e11e3d8fad65485537b9772e9b70",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54853",
+      "principal_cover": "54853",
+      "qr_code": null,
+      "phone_number": "+33374678892",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "52 Rue Jules Guesde",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0179094",
+      "latitude": "50.613216",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:24:22",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:24:22",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ4ePe9DvVwkcRLMlaogCq-8M",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ4ePe9DvVwkcRLMlaogCq-8M\",\"rating\":4.7,\"user_rating_count\":69,\"google_maps_uri\":\"https://maps.google.com/?cid=14122067976250902828\",\"fetched_at\":\"2026-11-12T19:33:52+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-06T15:46:31+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Sylvain D.\",\"uri\":\"https://www.google.com/maps/contrib/114785144505142482974/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIO50Zr54Qk4fsFDtuOhF43jYjEZ6qjt8VZRAD8Ud32fvs-yg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J'étais def chez delph\",\"language_code\":\"\",\"publish_time\":\"2026-10-07T16:59:23+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Pearson D\",\"uri\":\"https://www.google.com/maps/contrib/102188656804627793756/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIvlxnnLxJQEk6PbvV6_e4DL3vFhMkXxk9gO2Cjgz0_5uM9dw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-02T08:54:48+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Mortier Clovis\",\"uri\":\"https://www.google.com/maps/contrib/110445992691400165288/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLhYw_dJVY3g6z3nkN6HbAG8FmMMlnv4-wOBjwX-RBb9FUt3f8=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un bar au top ! ✨\\nDelphine est exceptionnelle : accueillante, souriante et pleine d’énergie. On s’y sent tout de suite bien, dans une ambiance chaleureuse et conviviale.\\nUne adresse à ne pas manquer !\",\"language_code\":\"\",\"publish_time\":\"2026-04-08T09:11:01+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"Naila Archimed\",\"uri\":\"https://www.google.com/maps/contrib/111747114338602086267/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWx0fcJMK5ulRznmrmJ-uOLpOKE68rLhzRoHItjjme4qhaCuBY=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"J’ai eu l’occasion de visiter ce bar lors de la braderie de Loos, service au top. Accueil très chaleureux !!\",\"language_code\":\"\",\"publish_time\":\"2026-04-07T18:18:49+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"Faustine ARCHIMED\",\"uri\":\"https://www.google.com/maps/contrib/101439747644158498539/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU0KNrkLRyROxsxpAEfA5JE1tS2zyfzo9qDh1bm1-rJQwvFDso=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:33:52",
+      "google_reviews_place_id": "ChIJ4ePe9DvVwkcRLMlaogCq-8M",
+      "source_id": 5594,
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-delph",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "au-coin-de-delph"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54853",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5594_6af39996401de.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4654",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32313",
+            "source_hourly_id": "4654",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32314",
+            "source_hourly_id": "4654",
+            "day_id": "2",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32315",
+            "source_hourly_id": "4654",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32316",
+            "source_hourly_id": "4654",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32317",
+            "source_hourly_id": "4654",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "01:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32318",
+            "source_hourly_id": "4654",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "22:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32319",
+            "source_hourly_id": "4654",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "15:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-coin-de-delph",
+      "google_place_id": "ChIJ4ePe9DvVwkcRLMlaogCq-8M",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: Fermé",
+          "mercredi: 10:30 – 14:30, 17:00 – 22:00",
+          "jeudi: 10:30 – 14:30, 17:00 – 23:00",
+          "vendredi: 10:30 – 14:30, 17:00 – 01:00",
+          "samedi: 12:00 – 22:00",
+          "dimanche: 09:00 – 15:00"
+        ],
+        "photos": [
+          {
+            "width": 1440,
+            "height": 810,
+            "photo_reference": "AV-0GLfJq9dn5lbQ8g9I295eyuZPJ_S6xIfhGC5R-BOsgey3lQllwoDcwOHV3wCOxhnR6FORKrVBYxFnSNKce56r6eZ3fcVATRvrJfXcofjZT2jbAhAIfjEEq1IMPRT9ZfUgweW69qvng1s7J6L17ax4rOtJ8n1Dk4M5f7yoSCa1cv6JlH96PB0mUh-UcLIRbm3GkIYN2YJuqlimz2OA3P9JcEuuTCDZ2YIjLlJq4sHH9F3bh_qHbCjR4VR7Y85cCuVCyQ2huMJS7VdMQ3_XfCHaYYMiPpG5m5kJ6C1TNyC40MpzhQz77Eru6OJyZl_Y9VQn3v2hEpXGCpGJVa1X2tDBSoFIcHV-yymhydRNUfXBkrt1TowOSqqPcGf3sPhJnElV9ru9e1RXNQmCItZ4DIBYYxiy7XkJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 1038,
+            "height": 605,
+            "photo_reference": "AV-0GLdmErtg616NwG8B1PUgq9d0aYSys0xQdtol1ZogfFroINGbVulJAMBcM8CMOTVLsEG6JN66ozritMcXtgK36cjW6s_AFKhaqV3p6jppEWQeG2TuxiYZ19Chtj_YWpqwYPqwJUTbjuqQzqfaU1J6XafaZsj-JSPgWY5xFjCGQWsKQql-cmepBw_rj9kiPeqMU-oTM8_LTzsZLkHbzLTj3DCVMf7RqQ07hv8kE8Q6ICiM39k5XgLRMYczQRIsUlzGM3P0tRiE7026oIzPw3zAKJTP2PebPZNvLpbNQg-4ClexBXPmfAhoKarBULXeCLGgejlp2w-7KKFZENKONxIY_STq7N98VOVupO9ZHylg-3GCP2Xo0e_507ECxkgcTNoaiXGbeC001v4g3YMXNDUNspbohQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeHOagczRMZrLus7hAQlxn-HnVW-NIW1zn6zZFhZrHmyKnY1KIa1ZS9AlIuE9M8JSPERC0oe8VQyPG1116_-uHrszmBtRIuPBfrti5W00othwB0BThyjQxAbNougUgiJUoeMAr0t_yUBK3s_QaxXdLtruwzx_ad6NvCzRBRJM1uRBJFClL2pljSIJAjd_0BaMKzvtbrZJALItJtsOzingPDEqstFpoH0IjOYJUBkcWISuHDnTX7XEUF0YqFTDHkE8Q58D0nowZZzA9tv2f-3mB1-mMYqVpeDzvm1wJ1wq5Y1elecibZN6w2nV2Mg-PEd8BdasZ-7TlH4EidGw_yx98fkwMtTfiZ3UJA11owCzczz1UbmR5PMlVfyzV4aRch5pXxTbDfEamhe4hs3j4XvaKA4xwqMgaFKpvJElAyP9JyPA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3144,
+            "height": 4192,
+            "photo_reference": "AV-0GLdrDHDpuS9qzLCVVaM0TKCzdozf9jt8btEp9sj4EOcor8BNkY9NtEDV2OKTpX-J6PO3W-b3mIxlrZtkRRSJe6ehXFdrOYMro2p-I7TBW2yeyIgubXSvRxTU0_rjyQXfjOApEuYxf2MCqMiVGGAqMpEzyYeD4Vwpwsy1mRr11Zr4UesaTpt4vSzQ3Ji-1ZUDNuAvRhSff2wYL_OiGFqPbU0JzgnhR7Q0kJ0lUjr1Q-SWKXh2I16dK8EJN-xBOsAHH6HNJvVlmtAZPe7NjZsVPrtT2BNQtpAhMnMWzGUubzjDjnM9Ch5zVjETnjd7z4Kg8xWSEL4SrSM8_KdWkCBNxo7GHbz-CS3dnQymzKlMKML1RXfFZQM5_LSeHu3txfcnwcxVhTpPs0ImOM6zFDLGDmkEi0Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLe_lQQb8pw7DvLPcWg5w5UOJx9BvsNuPxc9rAyhMkty9SyFD2oqJYOsON9L6jLd-Z-6SrcNdhYKLFEKjlSTltRpYk7--02hQIb9PbRaWRrpPkT1UNwKNBJSJ3UbV2Iu-oxgEU0vfl3kbwL5yUB8ATyaANTab_nwGKVBKo7pRPyPCWt8L62vLcxreM-KFvNxCebF2-lYdZXGwSgeNsIomA6Qz_HahvuTctmvakLjAEn4D0ayhRci5X92Nwp7oUDcdTP52euVUFzEwcNc0WQXYigS_kP2L4oAlep6-1gaJ05QoCj5Lzp566kKSXpYnBkwQ6JQ70bPCVwrnSgS1iUhpoKu1zlm1gnD6lAR6XEAtozcSeBpsvBtOzmLf3Yy8onPjs42TpsasZ-HSO8JpF7bgxEuowEX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 2682,
+            "height": 1724,
+            "photo_reference": "AV-0GLeKryhIWFTlHqqSk22dBt-llS8QHqhmAX8gj9jCA4bLxTBksBJbq4jjqw-TUzgfIR9wvwuEwYUR1oAt6P4bmpoZ1HrD_RKepRPaZQG9UTiEveDmQ7wBVQ8WFluOGVsC3se4oLaDa2qFzYQcuaUnXKfxnpdDUdQz9NSPrT_hjLx04GwBFvhlNJvC4SRE7aQfP-Iu4Kjv9T6nkTR-UAbSwhsMm1nK9nPXqaOZ4DCL1KiAU3cOfgVC9cKG3mSPS3C7XQ_1mKcY3i3CYqPSPBhJ0q8ikt0BngJ88wMqY8xc-yU0oje-UAjE1N3Lnwu2L4b0IoV4qtDnuswyC0-lpfzvwZB6ijMucwfpiEML1mfNd9Y2KJmCH7k0qHVcjhaZ2Ye8lrUbVhuQUl4i922XSOJ6XExWPSBEZXRcTwrut1-mz5Qm",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 756,
+            "height": 1008,
+            "photo_reference": "AV-0GLfr14Tpt0aQFUj3NhUl0csqK8JdmEEQ8cF3EyhtcLWfB4tRjoxMV84caSg5qL-jTqpve-3Z4gY4dtIMVZmUr5ZpK52-iaZYeTvFaHHOf1T5JCzUCvXU8DiPWZ40XJz2NzHVoqak6wjJSS3zXVzVKQmiTS2vbZHj9wvZ4Jhb2lsFx42Vs3R9J0OJvgxrI46qN2KBRKSdm-irBvBaYa0HMY532mMUkg-i-dAnchJp_HX7fUsLUT0tmWsQZPQMvOY_p1YaADY6cEc7py6JOWWgliMLzniDIHVWwK3ZVcOMa-ixlm0J_b9tXPZS8gLR4aE_QkkyAfi0btYUNYedtp1yS0E_Mh1tQ7KiLz3F8omfyvmuwoclptqEXhoChlMfjA6yeENJGGOpJaHuPz5w6NR2Wu4r2Rdf",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3144,
+            "height": 4192,
+            "photo_reference": "AV-0GLfq9M5c3yf-X107eL_FIMeu07bZm_z7ac_ABkNcm_qwvUYUeoNJnBicQG5KN9jx1adD6lsxF8NtBTbsLc_Y9P-eb_2vhbP91eah4CWHzsmKbfj6anHoN_idGgF9AIoTE8mEU_A_FDDJEPief1UlzW9MB__l-KGdP9AzwtyAcwBtKMXDoj4GBohuDTr1OYJM8k6ZMCvY0y1mMc_iOkhyIPlgJkUvHDlSPt5MWsVRkv8Jz5Zv9a8pbnl4ffiB0DrOghNPDpV9S4p02GLqK3I0M31dAHBXtrTl5udVtKH0IDD9JTE6LjrduwXWy7kTZPSzEUbjCFtjBldYTetCE13j5vW8ij4zR9WR8Udr3F1Lsmcdmin2ZSNZfI1HVDh0NJR8LM2T7nYfooLV2oblFIcqOAaZwMwN99k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3144,
+            "height": 4192,
+            "photo_reference": "AV-0GLd7vYvF9QEBn46evg3lqgYlyWiuuXYYYLVnamxnEr5ZXrbYlrApPVo1vZlDG1haQjvqMolLjC8A9PNgFNwHXFhyGdpQoBz6IxVLp9DKbmiPZ4HPF8gz0Vc9GTetEWSjke2i-aNF5chfpdWSIDIWkSuBIqOI-CH61Xu7hHLhiysn2vNi5-KixWlJFsqroql5qWxh3Z7FnsLmRSQYLioOAMdm6Z1ua2-y26NAxD_oJMpK52oXzTG4jQy7ZRBsf8smi0R1sQwlWtqgoi94f2_1RY0tBspJYQB0jag8ms0nPO-88OpTXBunXULayWoFIWyBvlu0QvvNe_r14E-R5SQFSBYD_E1o-ZtHe6KstPRK7qS3K9UOPTwxOyjqBM_KRWFTckKGKewtFNA801PZOmfLqyZLnXe7LF8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcEcBPuJ4OkaaLxMR3tHDerybwsLiww-ftoJl9QBbVjm1HN9otT_Sst3XIlIgQb9fFsYGGPSUMLOlzxMFnk64qlnzV2yxffn3iGl8RSYRdfdhXwcqfOYbx9c6kV-bhB_BGoxqpP1hPlI_2LgbriSyBFStytvWjLpfPQCmjfqIXCufwxoOOacy66TswL9IvBnWN6TImUEyNnv8wjkNZ_nj9atO4GLbIq0oDoz2F3QUNWtHQbSbLILQp94h_2cylsE4NyszSbHVNBCNE4rTEo0Q2PON1KWm5omepPx7lORIO_i0ai8z5MwKVQwoZym7gwZv2rvW7ZzcgBsKzyYo4eoxJ460qq5BrcztnMJtbviGufDfXFRrIGxPP1gyOPu5s2ep8Rc-svFZXABtXuOpo7JO5cX2M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112380788396140075438\">Au Coin de Delph</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5594
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-06T15:46:31+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Sylvain D.",
+              "uri": "https://www.google.com/maps/contrib/114785144505142482974/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIO50Zr54Qk4fsFDtuOhF43jYjEZ6qjt8VZRAD8Ud32fvs-yg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J'étais def chez delph",
+            "language_code": "",
+            "publish_time": "2026-10-07T16:59:23+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Pearson D",
+              "uri": "https://www.google.com/maps/contrib/102188656804627793756/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIvlxnnLxJQEk6PbvV6_e4DL3vFhMkXxk9gO2Cjgz0_5uM9dw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-02T08:54:48+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Mortier Clovis",
+              "uri": "https://www.google.com/maps/contrib/110445992691400165288/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLhYw_dJVY3g6z3nkN6HbAG8FmMMlnv4-wOBjwX-RBb9FUt3f8=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un bar au top ! ✨\nDelphine est exceptionnelle : accueillante, souriante et pleine d’énergie. On s’y sent tout de suite bien, dans une ambiance chaleureuse et conviviale.\nUne adresse à ne pas manquer !",
+            "language_code": "",
+            "publish_time": "2026-04-08T09:11:01+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "Naila Archimed",
+              "uri": "https://www.google.com/maps/contrib/111747114338602086267/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWx0fcJMK5ulRznmrmJ-uOLpOKE68rLhzRoHItjjme4qhaCuBY=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "J’ai eu l’occasion de visiter ce bar lors de la braderie de Loos, service au top. Accueil très chaleureux !!",
+            "language_code": "",
+            "publish_time": "2026-04-07T18:18:49+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "Faustine ARCHIMED",
+              "uri": "https://www.google.com/maps/contrib/101439747644158498539/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU0KNrkLRyROxsxpAEfA5JE1tS2zyfzo9qDh1bm1-rJQwvFDso=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 69
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1095,
+        "bo": 57,
+        "front": 1038,
+        "estimated_cost_eur": 2.375
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "a-ne-pas-manquer",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Une adresse à ne pas manquer ! »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.68,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance chaleureuse et conviviale »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« dimanche: 09:00 – 15:00 »"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« mercredi: 10:30 – 14:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« visiter ce bar »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« jeudi: 17:00 – 23:00 »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bar apprécié pour son accueil chaleureux et son ambiance conviviale. La fiche le classe également dans la catégorie restaurant."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-coin-de-delph",
+    "operation": "ADD",
+    "tags": [
+      "a-ne-pas-manquer"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "VisitMoment": [
+        "matin",
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5594,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c2e80207c03b549245ebb4715113dd3721784f41830efc4dae59501131887e25",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

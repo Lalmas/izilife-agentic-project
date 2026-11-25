@@ -1,0 +1,499 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:27:03",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cerise-sur-le-gateau",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-cerise-sur-le-gateau",
+    "status": "found",
+    "data": {
+      "id": "5818",
+      "name": "La Cerise sur le Gâteau",
+      "shop_string_id": "la-cerise-sur-le-gateau",
+      "unique_id": "a6e954c3c92a2e4d38edd2ffe4532d90",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "4",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55074",
+      "principal_cover": "55074",
+      "qr_code": null,
+      "phone_number": "+33664138266",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "30 Rue Georges Clemenceau",
+      "additional_address": null,
+      "zip_code": "59133",
+      "city_id": "103",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0158484",
+      "latitude": "50.5130282",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:54:09",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:54:09",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJk12k--DSwkcRDJxjvCQd6d0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5818,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cerise-sur-le-gateau",
+      "primary_category_ref": "patisserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "phalempin",
+      "string_id": "la-cerise-sur-le-gateau"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55074",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5818_6af3a09180c66.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4875",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33860",
+            "source_hourly_id": "4875",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33861",
+            "source_hourly_id": "4875",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33862",
+            "source_hourly_id": "4875",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33863",
+            "source_hourly_id": "4875",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33864",
+            "source_hourly_id": "4875",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33865",
+            "source_hourly_id": "4875",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33866",
+            "source_hourly_id": "4875",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "12:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-cerise-sur-le-gateau",
+      "google_place_id": "ChIJk12k--DSwkcRDJxjvCQd6d0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 09:00 – 19:00",
+          "mercredi: 09:00 – 19:00",
+          "jeudi: 09:00 – 19:00",
+          "vendredi: 09:00 – 19:00",
+          "samedi: 09:00 – 19:00",
+          "dimanche: 09:00 – 12:00"
+        ],
+        "photos": [
+          {
+            "width": 2305,
+            "height": 1850,
+            "photo_reference": "AV-0GLdZb3bm9crVBBuhyYofEZjEtDlOD9-03_msZnfuApwNANeOI3MWn0Dp0TmCzDrhefogpKigtz1ade3fALl6PJKKBkm5r9LD043uUymx9CnN0yujpOl4lj6Et2X7yz7PvcvHF0MTS_4OhGf0Cv971tIWs5cop_sBo3IoXr75dQivBq37w3Wao4hZHCd8P7V8bKXbC0QRXY--Xpo3ZclvUVX8l3CRD2P_s5r_XoHxQvfDZCX517lrBAlFeGslr8I03ogI2cUF02YFn7K4WDezineGRhkftj0v4kNgZHcJChyUYdPwkp3K6cA5lP2cBPIT4vHE7jYDLkEgoVpMEYoMjss_FRq-Px5ih-IsoBz0J2mwJjy-CPXuGH-GIVIjk4RB-_49Wmsz_UBJafRSruXlCA64KRuDkdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103428594775978692450\">La Cerise sur le Gâteau</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfvVN0QX2rUj_c29kF18X_V4QVsVU0z9HlxBB3HaJRfpxul1HXIThHwPszrwC1TlQYx2ScyYaRS_6h_lGzgS8CrTLuvmjSiOzRk7mDde7tQHnR5HK1n7sZwDc5q62XpGJ-U-d87Js5oHLDmr7ha017DNg6vaurOvUrxJRVvpUxEE1fwfPeVpNO41PPP9eghIzOtIF1oR53J4hRalC7GlyoZwe1k0_XzgHigzzsNjnCmM4v8wCkgOfWIlXqw4IryVa7-IAino19GUZEqYfS0mUcoT4xik3nEKgYv3-MEj16uKxQd8KhytLYf8XrkvYYEo7tksqvG26Xxro9MLp7wF7O1R7S_CeJ9fSoVXguhi5vFntmfTo5Z_hBKdG4HIi_7eEHUS7EedFSTyJmlwx5p8_ksFU1rDg4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107199672934401679005\">Severine Skrzypczak</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLfON4cYggPyJRv9zOAIHwQfxCi7EHldDa3XliGCvn8_sDyVlWs61RaX5j3i3fUstK6F4oMmd3VjZ7vwU5GOw1_4xQdOt5m2osSPzryd3swWs5iSjqOOZE8CtAKAc5yne-t35Qot3_qlSjD9Lr4PBPeLzW1PUrvmxwHfOdCaQQl_BLp6UBY1QvmKw7abkwB6i_Cu9aS-qGgoXanADtf5LDAthRZM3YsY8B6BAQaTWITNRFglLPNCcLdwAEt8L9kahHWv4dPEY9dJyUSkjam4avjrD1nrjJV_LPD4iFGsG1YGwa7f8JBjwa5NScLkJHwHOc07R69RxUEMM5kGmQuxPc1KfQpmcAvw4Xx5r2nJ72LdlfpFeH38lUSNnWRSDenkftvbW73_Cgg4F6Jb-hvZn31Kdow_o7A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108081377904213577870\">Emilie Milouse</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcI9exf5hDRxnWULR086A2ICGIE7XsXG8SQDGCYxW7x-fmKTp4NmLsGIgIOGc-BaoQZdbq_XzmBnKn7l3PsjmwWPLZVYouvv1JdS7E7jyCzLtte5EXK8FqiUthtf_nX9-wZWLjvFhORsKMbag9dsEu7hk1it4BbzlRCwbwBTrwdYJEQXqqlI2YMVdzkocbMtfoVrk4-fk-E2K81LVlTkIIqmEs-uy15slP65usMFsNvXLp80vZ-iekROGPop-QfTB8z4afMFVQ2RZJE8PegEKMoSrhBQ0Kgfx07ZcpLFtVQb0Etkk0G0pqJ5-Z2IhYY5DowtP9HHU39Pc6T28iZ8MvPeUjd-yEQKMQu71HQcj9ykxsN1eHK3zZjxX1ejX8N6_wqRsC4c2LsHZonHFEIeA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115942771841047748896\">Alexandra Degryse</a>"
+            ]
+          },
+          {
+            "width": 4055,
+            "height": 2867,
+            "photo_reference": "AV-0GLftipLzBT62TzTMVnyRhVX5OoZpcUi5a4y3v9fGzJ_071phAlh68g17SwN_8dqTBPSxp2A4552mQhijE49ceF84KnTKPJ42otQJYGko6NlfLZO1mY9m0F2QZXrrb6pOr6g8etDgl94uYBl_iHL1arywwVuemtn7e5m993N1YtjNx1vovI0mCC7eQ48RM_jdWPwjbRym0IBmexw-ooxE_uG-4yaDnyLxYPvsONn71ePi_OibPXTiau9MhqlLpcFiIY_un8_rzuBrqhV4cE1n0ZR0SglkT6NGX8HzttZtQenXbtenzYycxWMFH1feYiyRXcPKeUqCMRcmWq6v7bPs0FkIx_HSnNFN8Iws7-4ePd6Y21Jeg_B_1rB-U33kHvfaew1xFsOThMMrSGaFmG_rYPbrkX4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108081377904213577870\">Emilie Milouse</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLdP-ZGxPZh1RW5s6LbSC2KkItX86tbgYQ1Y9W8bIzYMSPKN-_B2-86EiOz6wHiM5FRFUAN67JInXFebcvOJo0CpwGQiur6v-IfKvyRUYu21UCACwyZAgrfHXk5Ud0Ruo5vtIgqG7cFPNPuWusUZqwHmrVORfMui5oPd5K9YLFJqogYYEc7XNSj18EkfbnYLrarDHzg5uWmLzZ7-SgT5olHoU9fnnQQ1o4HA3ynQ6nI2KeztdAchm2uVhWHgpXk-sc-E1p3uUmjxR9eMiNjMiOuiPPmU-U1lzvw_2J_d8o_HuRlAd3tYryGaC89PKG17q5EeETZVdo6MWfzEh3eq3QBIt_MEvnnTahrXxBWeStt5gvBNsvaYPJAtiOJg1ytcn2BDP5iy0tyWy_ujNGaWYx0jSZg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117407433705101257146\">Renee Degand</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLdy61mnJWc2M1oGT1wN-NdSF5RpfJ2sUok2FowVyWiwxV_hO7oB7chr_5DXXa9yQYFhYgK9jd_U66uvrmzfL4QQ-exyrlGB7P2ziSU7z7qq_I4w_1rAQn8RVOY3iim33SuVzoicHyG9vAXcneGtQ9G46PbozEl8Y1VKHcFS_RiurAYqfQQUkKIjG4qtmCaBhfRX6ryWEnt6MYpzMhiToWGvajI19eSnxTEmdOJpjJNI-ASwmHDVUPygRhQCkxy1z0cJPq1vIDhHP87Fo-f4OTjoQJKYBH_AZcASWnirpxoW-p7od3WL8SLZ-qZggvxzpBJUNXg7VCpwTr8UuaHSvhPV-ElJHiHWVzQZs9qdiXH_dtOYK5-OYsM4QFje8nsbi1OvqHDfmQVtVpDYHikXdiEds2k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117407433705101257146\">Renee Degand</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLcRWEW5n4T7fEAfKTEA36jjktXRNgE1wuLEKXP2IXQlq7aYk3Te6Acpn3bPtweyINTCsnR-2RqaNRlscsv-ruxVmH2cnA0i6WNWahprACFKsWvr7CsOZOl_n7Jg0bkONFJwKQ5Z9SylAtgxIr5U1gY5RXKleNWHgfhZzEzRZHGQwzX0kDwS0-huxTyw-5DYjlof2_u8WrtUZUiiX048KksIlU4qADhnmUlHr5Gwxd4z9N8QQhGg0XswbJwGoDyqORq5THiSLnRpCLQXuBPaNduvWjo7G4Fhy7elMMhITp21fBEF-HoFtaZm-c1wafS4kwdzipiX8H8O-TGEyo75AnMExqDK2FszS-5wshadJyPS2KlBYhQGiCwmjA_-2J2YdEYNkJIuuKLWQbYVWyxR9aaXSoz4s7I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101038365402560199365\">Bgt Bertille</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLekNdN6bKR4HhLfSRV_JwGSefLdZmyVOpR1QfMjESw_vx1XqwmBtwVZz-9JMXSm7FBjghSDkqxnEgfro2F6tl-kXGJiu1Y6wu1W7ruBn1o0r9YeGL7TxD8a5bOP7k1uyjDp4xEbqkdqLHODJBTG_TPTCXYgblVj01Q9BfDylEPdmB94DUTobZCAuQC-baLqFP7v3-OH138JYbyu08pQHJvdw1jrYFScAY-uxMeq5USBjxzRgJVrqMu41-_9XVMFI1KgrmzByd_xXvm9UfdHFTQMEBb2xV3lmcMXkIAiOnCIrWP9w1rHFt8alfDaHywBpzPB6OVExazt_TAHOOFvMHVnUQQhXNyx4VH63M8rH0slYOTy0iyp2cworAZGsbQqiCp4w5XBrcLeEdReDCUergaB5Tse",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117407433705101257146\">Renee Degand</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLc54VXo3G1AbeZKjUrVD1KLY5cn0GRmxc7b6jSpGiAMllJmQyfTQ5dDBoYRbh3N9ps1dxOHNm220kbUjfGWfFdTlFkxoVhd-x1Ytvg_Woamdpmna77jZMyKDdqThcrNb37NiA2IGx0-_9UV4EtbwpnIxY1H7HUC1SjK7wxZPH6M-6swNHNVvJNMXG_Mwf_YqvvFqvlNOyd99bN6dFHohgwR0YmjKjBvGpGQRRe9JwTWzpfUWs6HADAN-AmU6INkR47Y4qqqELgoMPjoo2YRDY8dpO0aQwSVaxBkcyzbWrdE7M7i8wh6sQd2t_ot1e3dpBLoDDdx52v4E1MNfjdQ7F4Tq3RqRzX8LaXBljV2EZf1OCcM2uQTElb53s4xi2eE16W0TGtUVM6BKruerIi-pQz51g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117407433705101257146\">Renee Degand</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5818
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": "string_id",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": "confidence",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": "source_url",
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": "evidence",
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Pâtisserie située au 30 Rue Georges Clemenceau, à Phalempin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-cerise-sur-le-gateau",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5818,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "676af5f22d1c7745fc48573eed24f1fc3109b32967a45111b7c33f8f8622b18f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

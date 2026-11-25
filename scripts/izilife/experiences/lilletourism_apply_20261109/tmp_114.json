@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:50:28.098857",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 114,
+      "title": "Rallye Bière Vieux-Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/rallye-biere-vieux-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 114,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 87,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:50:28.765370"
+}

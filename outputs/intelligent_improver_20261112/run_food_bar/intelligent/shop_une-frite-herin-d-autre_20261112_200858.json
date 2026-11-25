@@ -1,0 +1,502 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:08:58",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "une-frite-herin-d-autre",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "une-frite-herin-d-autre",
+    "status": "found",
+    "data": {
+      "id": "5734",
+      "name": "Une frite HÉRIN d'autre.",
+      "shop_string_id": "une-frite-herin-d-autre",
+      "unique_id": "d58aafab35c387ad9a79008fa2dee43f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54992",
+      "principal_cover": "54992",
+      "qr_code": null,
+      "phone_number": "+33327340502",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 bis Rue Danton",
+      "additional_address": null,
+      "zip_code": "59195",
+      "city_id": "360",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.4508195",
+      "latitude": "50.3517647",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:41:47",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:41:47",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJUW0158_0wkcRL4WvMSBlxOc",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5734,
+      "scope_type": "SHOP",
+      "scope_ref": "une-frite-herin-d-autre",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "herin",
+      "string_id": "une-frite-herin-d-autre"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54992",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5734_6af39dab4f7cc.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4793",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33286",
+            "source_hourly_id": "4793",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33287",
+            "source_hourly_id": "4793",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33288",
+            "source_hourly_id": "4793",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33289",
+            "source_hourly_id": "4793",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33290",
+            "source_hourly_id": "4793",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33291",
+            "source_hourly_id": "4793",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33292",
+            "source_hourly_id": "4793",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "20:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "une-frite-herin-d-autre",
+      "google_place_id": "ChIJUW0158_0wkcRL4WvMSBlxOc",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:45 – 13:30, 18:30 – 20:30",
+          "mercredi: 11:45 – 13:30, 18:30 – 20:30",
+          "jeudi: 11:45 – 13:30, 18:30 – 20:30",
+          "vendredi: 11:45 – 13:30, 18:30 – 21:30",
+          "samedi: 11:45 – 13:30, 18:30 – 21:30",
+          "dimanche: 11:45 – 13:30, 18:30 – 20:30"
+        ],
+        "photos": [
+          {
+            "width": 2048,
+            "height": 1149,
+            "photo_reference": "AV-0GLfyWC2FDRX9f5SmHYw-8bSEqsmgIh23mcSsas6AFL6djU18o4zW2xBrMzAjO1yFcbWlkzM7oskIwkgqZEuhqOzf-6EUP_Ujuq0QfX44hNvJBhTgJ7r-9PsH4Qa95phPT1utV91P5LwTUKtTFzDbhaLM8cGVOZIP9NTonyKU4Ug_-nYsBAkrSl4E6jFHFMxS98L9uj_-dwhaXRk_EUJebt6Dy-n6qJDWibttvZ9nUyIamHy2M28aOscHzQqTZfenj0xJuVHGhGa9xxrXfX_nREcImCYe4KTOWSeTHbC0Xbqndkli_AyBWXr4wL8vUlCWqeq_Yt_iqSa9GwDBKaElzUKy34ZYzB1L89ZtBMjp7KmT4O4Tm0KmKkPb0kmtOJjqV9m5c8Cv7eAfCLNaOua0_Dyw9AZwJsc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107238149048504305769\">Une frite HÉRIN d&#39;autre.</a>"
+            ]
+          },
+          {
+            "width": 828,
+            "height": 315,
+            "photo_reference": "AV-0GLffVLhf0nDTEgovGxRBWNeXJPamkE7Yf1aUeTrUymj2BGGsBUFu2zZbQ-IJFFhf73GRnfEBtdJnRGeb6VFW_calP9EqddE0pgnseTE_YoOHmspBvsSKqCmdmbfteeC7z2pfycW3mP3gKU1qL19bg_jdbAmWpoX-ke3Q1vvcHU_Zu4vBEpLTlPJ-2DZrXwLIMHZ6MAFZwkJm3xp-CFmjvUHE_FuM1Z3Ua9VEoNYx3V7OHjIS-u9GZ7LpayZxSNUI2z4ivLoA2tW9CAeV-PJ7IWfK4XIqWwyCdXebE9-bdrAgrqxJxKHmE_9IslwBmULsqHFF62hIw_tK6sRf2TxVZrrUPVrkAUsmTbIO-mIZavWzFA1B6mQOhkenmJ9oAEOBEtQ9Ypx5R0v3BIjfbJjPa3Hjeo4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107238149048504305769\">Une frite HÉRIN d&#39;autre.</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLcH0rU__GNV_rD7ZhRN37OnfK9DfszxZhT0lzKTErSNfwmlN1FVFhGSjijzkllwj0k_Aw54b9C4AYIOHsbJil_C1hZxF718kKRxj6UPuEkuPaTo_2wgTNhXLB0yN8qMAUXxjhfQDeti3KHJGM6g1dt5QWr9OYhk2BG6FPzDmnMycKK3czct6SIjMgvCOb0CzDs8o8LwEN1gXrWWP0uJKqWqD9X3kw8S34eYSQlvTYj4M7vZvx0b7kTRP8a747ckBzMlW5Whgz2AXDDvl9QzZahdpzyzasNSsZn3L2fqlGbETDGDchOSDw2X8mMD5scgdENA587TNxO_5ao93YNrAcguH3xrcQQL_BtgNUxUBbYIV4wHtBORWNWmkehN99faB7qxCyER3aB9wjNMKLhfQyWySC3xq7Dc1WD4OMjuoV6MZQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107353336538886410864\">Mohit Bahuguna</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLeUsXbMv6vmSCN5PieiIIR77wU-nHT32pUrolD97AEWIphdK7fO0I22c_dI_yuVSWOQ8zrv_CDqtuUQ3Mq_3I9CxJf_QS_07YDG8VtfZepy4KnS-OUNYdr8u8PbLZZ4z4hMwth84uwujCpie2rZXE6OTK1U7rSo5jqHz111Ife-7rN3V2rnd_EfI8nSZP6WVsI9yC-GEFWowi2H0wNywisbSZ7p8KQBvJEflWEqcYMVEkLkr6YanVSWw48btKVIitucxiruxTzJOjfDdCJj1Ct86G6mTHAW3OeHviees5Zk0FsdX2TQFUPFHa1NC7CrnYsF5CxdPFWLydShjPVkWmGjADZel8zpjDmnstYhODSNwuuQJfaYRkDNKaMjlUhHFSYag98KbKLTmi6Qzfxh-TOniz5F8KA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112780304665414082781\">Claudia Buchmann</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 3072,
+            "photo_reference": "AV-0GLfKcOpRKOwsI9wpKFucY7UBP9S7EiS000N7FCSWQmvNSgYZyRo0hgC8E7YocNTn7knXVfNebb3WyFRN7BK06bnJkeHFRSXkab6sAo43oEPZf58Ch4LmmvldSfPzt5cNjqDuaH9ROHm2e0sf2gwN1eWqe7Jk5rZPbyyE0gjcKClRxtJi_3w2td2Qg4TzZgDWUVcjGCBX6zVql7KFxABF4Egmq7XBvZ8wHCBzojQbQSoVGDJZ0F1ktMSWJaVvyRGkuPANinO3xBImKTXFV6XT1oaH8pEbrwHItStsarTUt0Ob0ISPI6ed7JETDkhAeRfby1XAbjoPZfPEjVS0-kLuTOuonHtjd5Siv79Ol_GVQNuT7ozBkqgdq04cQQdQj4U9-vXYlgLGjiY2Fst6E7utm0nzgpQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112713489865843246906\">Chloe Pluchard</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLcC8OiKzu96O0yJYuTqhmlh2ABoyplvaVwhubEOhUqkd0joYev6mmE-T_VZSu1AEM-SF5WXCcSfKp9BIBVlb_QZmlBeiF5F8Rdk6badvEUydR5GeoH3FvwYS5yy8Gnh8525brjEt4ck7FQbxOHv9o04_jIxtXihZJ17dv5qIHSV8mVyd9uI-jFvRkoziwMtNLP_Fu654FysHszVU7gpJgS3DEGqaYD-_CsnGfoAHV2NholzZI9oe46vZumJm_dry-fjTAbclajzOjaPen17xJpgtgoj_kkMbXkmu4w-iyFxMQmUQa7f-vKkW3apNJzjeJH71DureV0dBQJCwdYrklcCJ85EU9Reu78kSANG9Nw3Qf57cm1hYjNklxKCZnWhjGLNCtt3TWEtkL5lgut01bGLgVM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100529221469549454454\">Jess P.</a>"
+            ]
+          },
+          {
+            "width": 3753,
+            "height": 3596,
+            "photo_reference": "AV-0GLcav1-tZqnjTiKv1EoA_gm94FMHKLQ_57Kgnuvxlg67lNRSPb4m_DG7yFvyCYconX3Z7KWp7Qv65uhoOav2VCRCY9LDZrMK1esAz7XNcthEREGMMbFiLouDgJjsBMYFWKqE6QjKfvQWCX57hKaPJKhCzvC24vIiNdSFgIiu7p0CnvjkP2AOHz9uVgv1UzPjHdsUKk6JPg2b8_euPVpIkHw18GvXAcCNVvGrgV_hzRbF3eS1jeMwJleFagwmfeID773t0WvK61rMtpJwyEFX35DAN7dLBmc3Qj1aItOR1nKezKcN-I4ktGF2oKYjLnKROKGdFd-wCXufHMwn9shZRNyeiNaFAVlaxN-1ebNwsd1C4Zx9AYBJv6kAhBY9i-lvzwrHa8UnY3QzYX7VHGHYyyvmOCA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107587170533593526501\">julie leroy (l&#39;atelier de Julie)</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfil2Ti1z2AUlkXwMw7tPdPqHWFUeeikZrVLAUaqveTbrFlz573U94TRSVrG4OOoDNnFR6cid_7WyPu8926toanvhoISskhqGa3sDJMATHZkR4y8PUrOMsdcseS_ZudAAglLGquaIz_7kdFXJ1OXCm5a8b0Y0wIRy7K9kAp9t6QLMpKiRsk25r3CH4kLvPjFv-uV6d7tyoq5UsxwXAswRQ_iq6cFhwWX8mBeCUnZwLPA6uRSpLvu3PFaiudEpEC7KBC-UxyVSuCUU9xl3RVN9ZlfGZ4pVpD6NJNjLhpVlRHVQZBUVGRwdPBS4FdI4oNyLFUeA8oQ9h4HFjsqiC2qjsYskflLbeWG4fFv0Gj1yEArYmBqa4V0N1CloHfy6_3bxs3RJa0qzVHrKryzi1dq9FzR0Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102933283671591388831\">Anthony DGL</a>"
+            ]
+          },
+          {
+            "width": 1587,
+            "height": 2245,
+            "photo_reference": "AV-0GLcaR0ylcXDoFl0xEyuYHuNYx48x9eZnHjMgxP8FtZIKd4DD69oYOMIHB23vT7bCOjZKoiMvKDtgYMH-B2rtP0HQG5jfzaSOH9Wlpok3jQ_ignl31Rcf08OEPdor1S6mWza5tijX3XHPUnYoJ1GT-O-PJp9O5zspomQOF_LG6-VaKtaltpkKS_UJtDdvNYIRET6zrz_x5sF5jT1JKb7DdxbI9lrrPeevu6JWkRQgWFd1RweB5VuFFT8ASRouWEfFCr6m4vL1ytqHbwjq5t1AsZ6JybDAm5HsDo4i13b7yikNDZYSkw9VN9A4uV2EvFueCxX40Kp4wD_ZusThkW2ccrjrpRo8X65SU1XmEo4qCUPF3IlGp_D7ymvjsdiajez2oPkcJDtuhb8etdhsBamtr1RYboVxcq1qWrNH4s1zfg0KkQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107238149048504305769\">Une frite HÉRIN d&#39;autre.</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 3072,
+            "photo_reference": "AV-0GLePhwJOEX6gz_IuNcFa5Yy-PGibJq0BAXZUwAsmv7S6yTBYYr0hrrke0M9IbhWxBn8xNbVnIopnXg03p32FWmno03cghTfsDsIBIZUoDAB3SZ-dyYdWC44Mkr27olWQpMzs1w-WQUYclTreFGI4v7Efc9qihedzjJ7hQVozRmUCgnRgE0egbvjgT5UyvUDZQNHTtZtUbVjTuWa_3TfOh7_Z-86T7881far7JJ5xA3WctoSXR1--n94xKbZz9-tjT7WrUE2VGP-d651k9ZQfb4ezwQMB5le7QV71MpDn_6sJlne-8yVSFIAF6u_5ekSF_Cfr2xYlmdzl8ab5fbsbKVffXMCC2eLdX-K8qqytpYwVMjnRdCmlODVbVCegFQVtAZbwbG_IL4DTKljIuhXAqIawgGs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112713489865843246906\">Chloe Pluchard</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5734
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie ne confirme les équipements, l'accessibilité, les modes de commande ou les caractéristiques d'accueil."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Friterie située au 1 bis Rue Danton, à Hérin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "une-frite-herin-d-autre",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "frites"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5734,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "dacb07d73c354bc36f7f2f85fa3ad2a855238bf1de1813cd1573d6214f79f0ee",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

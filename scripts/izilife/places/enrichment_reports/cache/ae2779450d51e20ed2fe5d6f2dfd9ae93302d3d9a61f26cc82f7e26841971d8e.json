@@ -1,0 +1,71 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« aperitivo de cocktails création et d’antipasti maison »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« recettes traditionnelles de la cuisine italienne »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails création »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails création »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« cadre convivial et authentique »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un aperitivo »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« cuisine italienne »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant italien au cadre convivial et authentique, proposant des cocktails création et des antipasti maison pour l’aperitivo, ainsi que des recettes traditionnelles italiennes."
+  },
+  "meta": {
+    "cache_key": "ae2779450d51e20ed2fe5d6f2dfd9ae93302d3d9a61f26cc82f7e26841971d8e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

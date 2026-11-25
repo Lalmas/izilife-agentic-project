@@ -1,0 +1,33 @@
+{
+  "schema_version": "izilife.location_package.v1",
+  "objects": [
+    {
+      "kind": "EQUIPMENT_CATEGORY",
+      "string_id": "restaurant-scolaire",
+      "name": "Restaurant scolaire",
+      "is_location_candidate": true,
+      "source_url": "https://www.gondecourt.fr/page/le-restaurant-scolaire",
+      "review_status": "approved"
+    },
+    {
+      "kind": "EQUIPMENT",
+      "scope_type": "CITY",
+      "scope_ref": "gondecourt",
+      "category_ref": "restaurant-scolaire",
+      "internal_id": "restaurant-scolaire-de-gondecourt",
+      "name": "Restaurant Scolaire de Gondecourt",
+      "description": "Restaurant scolaire municipal accueillant quotidiennement les enfants des écoles maternelle et primaire, répartis en deux salles et trois services.",
+      "city_ref": "gondecourt",
+      "latitude": 50.54564115613193,
+      "longitude": 2.9851193748727978,
+      "coordinate_status": "verified",
+      "coordinate_evidence": "Coordonnées du lien de géolocalisation de l'Event, explicitement validées par l'opérateur.",
+      "source_url": "https://www.gondecourt.fr/page/le-restaurant-scolaire",
+      "media": {
+        "source_url": "https://www.gondecourt.fr/page/le-restaurant-scolaire",
+        "image_url": "https://files.appli-intramuros.com/img/custom_services/cover/collectivite/5458/f407f67d48925602272e158c3a323bb6_restaurati.jpg"
+      },
+      "review_status": "approved"
+    }
+  ]
+}

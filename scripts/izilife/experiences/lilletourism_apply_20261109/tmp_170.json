@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:53:17.129600",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 170,
+      "title": "Les petits meurtres d'Agatha Christie - Tourcoing",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/les-petits-meurtres-d-agatha-christie-tourcoing-1.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "105.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 170,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 197,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:53:17.584823"
+}

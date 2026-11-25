@@ -1,0 +1,34 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : lundi à jeudi 16:00–00:00, vendredi et samedi jusqu’à 02:00."
+        },
+        {
+          "string_id": "tard-en-soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Vendredi et samedi : ouvert jusqu’à 02:00."
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas l’offre alimentaire, les équipements, l’accessibilité, les modes de commande ou de paiement, ni les publics et ambiances ; aucun élément n’a été déduit de leur absence."
+    ],
+    "summary": "LA RELACHE est un bar situé au 32bis Route de Lille à Seclin. Les horaires fournis indiquent une ouverture à partir de 16:00, jusqu’à minuit la plupart des jours et jusqu’à 02:00 les vendredis et samedis. Les avis Google indiqués affichent une note de 4,7/5 sur 162 avis."
+  },
+  "meta": {
+    "cache_key": "30f5734ed9cec6fea799477d8df8510de291ebffeacedc2bcc3820d663f75ed0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

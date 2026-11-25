@@ -1,0 +1,571 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:33:50",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-herve-delepierre",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-herve-delepierre",
+    "status": "found",
+    "data": {
+      "id": "5593",
+      "name": "Boulangerie Hervé Delepierre",
+      "shop_string_id": "boulangerie-herve-delepierre",
+      "unique_id": "07673e055aaf550b4d909b924e83c8b0",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54852",
+      "principal_cover": "54852",
+      "qr_code": null,
+      "phone_number": "+33320951690",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "97 Rue Carnot",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0672837",
+      "latitude": "50.6050764",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:24:16",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:24:16",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ4UMEoDTVwkcR9fpDcK9CmXo",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ4UMEoDTVwkcR9fpDcK9CmXo\",\"rating\":3.7,\"user_rating_count\":152,\"google_maps_uri\":\"https://maps.google.com/?cid=8834165465334151925\",\"fetched_at\":\"2026-11-12T19:33:35+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":1,\"text\":\"Je suis venue chercher un plateau de mignardises sucrées pour un anniversaire (d’une pâtissière en plus…) j’étais rouge de honte…\\nLes pâtisseries n’étaient pas fraîches. Celles composés d’un sablé étaient donc toutes molles, le glaçage des minis éclairs avaient complètement coulé.\\nEt ce n’est malheureusement pas la première fois !\\nEn discutant avec les commerçants de la rue Henri Barbusse, je me suis aperçue que j’étais loin d’être la seule…\\nQuand j’ai fait part de mon mécontentement, on en a carrément eu rien à faire.\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T20:26:04+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Pauline Masquelier\",\"uri\":\"https://www.google.com/maps/contrib/103069035694956121427/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWYYsORoB5izeMrm9JVQSVxuD1yp_7KmHKYA9AjubR0w2o5iw0A=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-30T20:57:09+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Adel Bouzekri\",\"uri\":\"https://www.google.com/maps/contrib/112121355013369414746/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWM89X6NxaB705c8x4sLLTWiYR5VAXSVjPoNI_S5XCz-s12RnZqCw=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-22T15:12:34+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Marie Hélène Waeytens\",\"uri\":\"https://www.google.com/maps/contrib/118287556847594266749/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLfQS44WzkrnxGfmPLnG1DZi7XgNDTTyzn6j10y_hHopzeVZQ=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-14T05:13:29+00:00\",\"relative_publish_time\":\"il y a 4 semaines\",\"author\":{\"display_name\":\"NanaBakery59\",\"uri\":\"https://www.google.com/maps/contrib/110175457881716410972/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUIq4v9BhFVmkxcPktBIwlez7eN6xYk8X0A3apNeecva1UjxH4=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":2,\"text\":\"Bonne boulangerie de qualité, cependant la taille des viennoiseries est vraiment ridicule, je me sens totalement arnaquée. Merci de revoir vos proportions afin de vous aligner sur les autres boulangeries et respecter ainsi vos clients .\",\"language_code\":\"\",\"publish_time\":\"2026-10-03T10:08:43+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Coralie Doye\",\"uri\":\"https://www.google.com/maps/contrib/106318044239809479359/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ5X_A3fIaaQQ-jr2NPCLBmaio51FehYftsepvZ_Ukn_xMSFw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:33:35",
+      "google_reviews_place_id": "ChIJ4UMEoDTVwkcR9fpDcK9CmXo",
+      "source_id": 5593,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-herve-delepierre",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "boulangerie-herve-delepierre"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54852",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5593_6af399902613d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4653",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32306",
+            "source_hourly_id": "4653",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32307",
+            "source_hourly_id": "4653",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32308",
+            "source_hourly_id": "4653",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32309",
+            "source_hourly_id": "4653",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32310",
+            "source_hourly_id": "4653",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32311",
+            "source_hourly_id": "4653",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32312",
+            "source_hourly_id": "4653",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-herve-delepierre",
+      "google_place_id": "ChIJ4UMEoDTVwkcR9fpDcK9CmXo",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:30 – 19:00",
+          "mercredi: 06:30 – 19:00",
+          "jeudi: 06:30 – 19:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: 06:30 – 19:00",
+          "dimanche: 06:30 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLeLIRusVm4ucIbcFetkyN6XTNWdEv6kjYGxQZzA6RKmdK2NxvMxOAu9eilVLBqVGvEsTD-_RyEkcO7Hph_Vwsyjcg204oBd53XZjd4XOaI64nhynwKKyIKKY46BZLA-IHTltGk_Dk58PO_jXgsaQdOZzXPV2Y4TmYUf8r4Y0PvLlvP9LtNEyLZiIw6fUsAEc31b6hK8A9IOvmNOkPxKhQtIZiWytGVeD6s3izA7DL_x8zBRurNHmG-uf-3alxEGup20CrXZya6IBfm_n4KLymwixT1IPyVGV8zF0oLnm_uXe4P4bUnz_r6NaVwM0TTPA6dQDQ6j4uV7NPqWAMRlTuXwTZYjSFIbJnpjPbsM4PuNQx5eBj64JlrT0_HKlEoivsdfcgYfuZ2bO3k8pRp1hfLe0wxUS5EwEccX_va9GuQTOA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116231612402818210667\">Sylvia P</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLfyLvYx7BDH93bjLZasfhbaQOTYQF4EAlw8g2h9hoa-ObJdhpXQfOfDV8n5vZOYJFCgzz-iNiwPuzL-3k9BnDZt-kt5hOSkQlUxGqWKXWQn4btriGyJLMvejBRT4uNbmfgQg85DZghjK43ZW2aD4iQ6l01tIv8v_5bmJ2ZohJ07zLRD9Zb3loApQkH8Fy6EbDl147QKJUdMHyFmvEh2FCu5ldTntwZQwbwre9j8o4wJluqduYzX1bbDhV1SOQaSpeSE4fjwoSv5g4tdq7V8YXKYfkQH3V9-p8UiCYajJvgkUvzsNtEAl9ukzh47n5P1t76_MYUIOuGz_RokRWOmzOBAjW6hdeGW-GFzo6VWMsdnGoTqeM-MnXqlPLsaWGNHfskdi8YIyZbMuduHqYxc2_xry5rXw6bVq5swxZ16uEGMmQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107560796060575137955\">Priscillia Logie</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLd31JSeCqT7E2NvNZ8msqKvpOTVdHQaSCkPI4OIBOmwpXkoYhca5Xv1iLU25SscaSD2mdTSjXMBvs6onrOIO-70-X8nDWNx2OYb68cAwC3FnGNdbA8PxDshXUvooIZCkxEfi2Gsr7gLQEuAm2srdKRYKKn_ujrU29fQGmyC9n1RTEyDdjP95SI-IG-poI2dmjOzM27M1gZjIoPk0HvrIGWrzB9UE4DrfomnIM28wOgvm-APX-HkHHzuavn0mbkrrLLV2Io6k7Wz9hPEiP2R1A09DvMyXKWvE87jNCiMse9E34CsvD62qdlyWDATaUXaBUoWmZP25TuR-bmZn08d8Sh_6SsBkugCtnPVjWdlIsgLRSwXE8sHx6YUT6mzK4Eh3rlVvgqD6QQfpxjXAb4FpdUUzyHJTqU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107253319307118878225\">Nicolas Montambaux</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLegbR7pS4o97LdNNS9DSi42cZSbCeq6jjzZ3niXRVDDS-JpJ__HBQSKTU9igIfxMp7s8M_4yFHnEyQGMI42RmoME757CUNAvWUnXFh7b2g16qa-PaUX9A3UvVTOIaNuWdUmFzP4guPvdg5KxdfwmUzGSMnASFAcrAKnIadvs1QC2D8ZVnKi4489lPyI6wdSP0jay2hfHr3bycleOUt7hyL4YJ6YsuhRx2xU31TYA29h-YTgj_jqkDSIAS_H49t8iuViR6vH0UpJLTGt1tBS6Tn61lUdphVf7jel5hF1kazNdgTYFmYJDflmXp0JKPIZc3x_q1IgIeyUhCfWseGJByxZtR43f1yf_vcy1cIiT1ooqwchhuqOkD4sGQbIUf_1rt_byAuCvMH4JmJKZJrMtbnVwUFfMKOCiNs6wJP2cdhW-Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102060918704708702701\">Hoce Tac</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdHTmX4ht98J_eh1wUSpCrEaeGJ_69ImloMtmOQBmBlsZ5lltUJ_whHpJmtf1fpG0mDRUmTfHd5u_4GEtA3V1tWjybcy258XFnJIT0kSsfAsgm4bMA_wuy8wuZ-HQfIWOO_Nk1YVFwFxNjGB9D2wA-2-hcn91hP53kJBupjqzq8wTJ4QF-G3jheT-RirA_Ie50gyRF7KUcis7CsSKuQSU8xFaEyCOMvKsYKKsUSnl517w4SDAKf5lvMzT0Lz1Zy2u-s84Yaew-FBbKGLqOYuQqRw8Dc8mMvsb95uq3ffcziu-RZRPjZUZsaf-7w_W67XSYQxpWbhSXLT87G9SXJm-XZkJSl4lIdfoUjNmc8q8apnPLbsC-JmegBxGt-wTCzZODMrGLnwxfN9mvNMhOZ5KtYyNCYzxM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111960510353972516562\">Thilleli Sahnoune</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLetOVVqLWsYT4N7V1LcIrJgq-s0oEy4F6wwoaroNa5LlYyr9FWLCrTFVnVdTGATzJoR_rmSTwVfZ4Bq4VJygfE1J4vbInRAXEpKnfNrA36BAfHmTLIwSiU-as5wXvy9q5VZ_DTPg_LjZuwMj5I8zQ6ylmv90ma1GjKniaaMWzCMcoe2uNd6myNEQRBvdx3vpj0UqqSZQz1Rcnz_dgZ-eDQkAiJnssQu5Em30yy803Tbd9F1jX1aAtBUaSdeNznUBOInc0iMoKiLjGRclQyEUI9abNgJXa8u4_f3kKzsng8uR0Lue9f1JCwTw0Axvykang7dedyoD69YGVMULn1QZtmScgw_3S_UqKXs5LMgtonjbDX0EIHVcpS-AMKtdG-f9TQhGEnhQErTKleaLiz1inF6RhsN",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103306379603625395931\">Kimo</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfEv0iz8vOo_JPNciXPxS-QYzzSeRpFerQ0j3Ra__H_fwlp2ESIQg1uhcTqHXWxpTn2Cc7g3V_QAEB5HsVApeXu3FSBWdaWVoGx7cyFWHvys4AGsIdzXPxJR6KhUTepoeBSfQ2b3OeIw86O7CnGXMpZQnVfS1skP_w1x3l7h-7yZkqrcafrVO6lfH7U8WwZPo1LIXd5USE3VFw-MNOy-l-Qi33Kp9uo-n7Oa83fTm2DmPM5I-aFA8ZXvQ0P5_PniAmcFS3QcPxN86sMWMW4S8iME4WJnfGwHDYnDNi94NM06H0HT02Z5Ep8L7D4OCVDWu0nVLaKg5Plqy9cP2zfvhryJMDm27f-GDH0IfAwRDw76qjptY_pWrsr8kvFeRGwJcjcqzWFj6Yn6Iz9oqDPOWDO6g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104926634705716468431\">David Duchene</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLesSqmomaNSrWsT0axkK1Yckoq45j3dzhlbyH7-qxopoh9yKk3KwYyYdbliuPecJgOSMZKoZXDkTrju63PRhw-uPo6fXN2f5BtIguXISGAwPLPcF4Bn0cQexTKQ465cDJLhwSMa5la7kkRKx71cHHYRhyxxsNEbFke4yrintWmSlvr-b5sZ_6_M47aGkVPg-DqJsY4Rr5bJUh7-3BlYOIWIsrn_muQLRfLRDDVfELwGrKqcLnlICSZw-WSLTCjzPXdPIWn-75bSIwuko3q_gFczIxHye23wKSkxVFCU3hKsV0I0psdWHhxEDBNAPPFHyVOPCpVPMtz8MOj--jhCJQbeeCTPy9TI7CIViJKXwoA_XtpwSgWA5fMwCglweOvhxs1POXR0W5vTZn70z0WPSVKdCw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114076067298804173941\">Jade Jade</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 2560,
+            "photo_reference": "AV-0GLd8XHrahXpNqIvVZaurjwKd90eXnQF-Mq5WHi_mgBufaPdYzdBXM8L6GPvqcUO5en7HYj9sxPHs53VjwB307mdlTTLHfABasW_nTBLQefLu_d0WuDBxDk_Gl6gIoYjX516TIAqNAX5phTfyCxXYzJul_pv5WLuSkFTYVPBBw3UgMXy5CNe19fJUrMENO5rR4GQp7qVGw-fP-4K-5mJc7MV7_UM5d5XTN18zwc5ZnWyncRgEWBitF3mKkTZcoBN_VM5v2bjaxuZmXgGrm4ua7mt-l2N1fcStObXy-_j5ftaX7uAky4Avn9EKsCOi6EIiUDxp2nvx3c2SeUay3Gk7Au61NXlDdasxHVLwqsIRENTowUSzFUQjE2GP9oWb05VknunzJ4WN0NRKFt6Ps5RLAY3C7HdaHxhUWoUauf2k_faG0g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113641673268430158210\">Reygan Studio</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcNw8i5OkalRD1pmpSnckTwA9endgmy4RXTyywCxVrMsdY4a8roqvuXW1F9i5OqKq53n5ihOcY8NG3EztZG8zsvYHxM2y8CaAaxxdMmpGH7P9ET2FMY2Ud2GdDL5_rM7bGSkUY_R4mAUhVFvJ_5ksRAIDJj2GqS7-jvh07kuSJ73ZYXk8xfKWXDXY6Cp0ndkr1GMbGaeigh7ABvCGhtSS91j92c2zZnjbSZ8hkrllB8U-jn2LTNwpxq9udTz2ZlvdRVNmt_J0WCD8ya7dI3Kr_1KOq3RspCy8042uBFidyowQ9L5sCGm8I40Z-Myojcw_NT3RsZddzRLNsXiPbCe2K2hx56_uQklzOKcHHjO28uQiFQm3h6R3TSvviFLNQ7hwvh5txwGhd0sQ3LJbOdIY1fcKIZ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115582104018795273677\">Sarah Benkhaled</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5593
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Je suis venue chercher un plateau de mignardises sucrées pour un anniversaire (d’une pâtissière en plus…) j’étais rouge de honte…\nLes pâtisseries n’étaient pas fraîches. Celles composés d’un sablé étaient donc toutes molles, le glaçage des minis éclairs avaient complètement coulé.\nEt ce n’est malheureusement pas la première fois !\nEn discutant avec les commerçants de la rue Henri Barbusse, je me suis aperçue que j’étais loin d’être la seule…\nQuand j’ai fait part de mon mécontentement, on en a carrément eu rien à faire.",
+            "language_code": "",
+            "publish_time": "2026-11-08T20:26:04+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Pauline Masquelier",
+              "uri": "https://www.google.com/maps/contrib/103069035694956121427/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWYYsORoB5izeMrm9JVQSVxuD1yp_7KmHKYA9AjubR0w2o5iw0A=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-30T20:57:09+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Adel Bouzekri",
+              "uri": "https://www.google.com/maps/contrib/112121355013369414746/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWM89X6NxaB705c8x4sLLTWiYR5VAXSVjPoNI_S5XCz-s12RnZqCw=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-22T15:12:34+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Marie Hélène Waeytens",
+              "uri": "https://www.google.com/maps/contrib/118287556847594266749/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLfQS44WzkrnxGfmPLnG1DZi7XgNDTTyzn6j10y_hHopzeVZQ=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-14T05:13:29+00:00",
+            "relative_publish_time": "il y a 4 semaines",
+            "author": {
+              "display_name": "NanaBakery59",
+              "uri": "https://www.google.com/maps/contrib/110175457881716410972/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUIq4v9BhFVmkxcPktBIwlez7eN6xYk8X0A3apNeecva1UjxH4=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 2,
+            "text": "Bonne boulangerie de qualité, cependant la taille des viennoiseries est vraiment ridicule, je me sens totalement arnaquée. Merci de revoir vos proportions afin de vous aligner sur les autres boulangeries et respecter ainsi vos clients .",
+            "language_code": "",
+            "publish_time": "2026-10-03T10:08:43+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Coralie Doye",
+              "uri": "https://www.google.com/maps/contrib/106318044239809479359/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ5X_A3fIaaQQ-jr2NPCLBmaio51FehYftsepvZ_Ukn_xMSFw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 3.7,
+        "user_rating_count": 152
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1094,
+        "bo": 56,
+        "front": 1038,
+        "estimated_cost_eur": 2.3499999999999996
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Les pâtisseries n’étaient pas fraîches »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis Google du 8 novembre 2026 signale des pâtisseries jugées peu fraîches et une réponse insatisfaisante à sa réclamation ; il s’agit du témoignage d’une cliente."
+    ],
+    "rejected": [],
+    "summary": "Boulangerie située au 97 Rue Carnot à Faches-Thumesnil. Les avis mentionnent des pâtisseries, des mignardises et des viennoiseries. Aucune information fournie ne confirme la consommation sur place, l’accessibilité, les moyens de paiement ou les modalités de commande."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-herve-delepierre",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie",
+        "patisserie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5593,
+    "changed": [
+      "ShopHobby:+",
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "bc6d80306970708a9d1ecb283fb8e7f4e4b68120b34cb2f82b0516268b09ab12",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

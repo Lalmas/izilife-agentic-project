@@ -1,0 +1,61 @@
+# Lieux à passer dans les pipelines après correction production
+# Format: TYPE|string_id|pipelines
+
+SHOP|le-bonhomique|ameliorateur-intelligent,photos
+SHOP|auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|la-grillotine-friterie|ameliorateur-intelligent,photos,horaires
+SHOP|maong-bai|ameliorateur-intelligent,photos
+SHOP|kfc-lille-seclin|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|hippopotamus-steakhouse-seclin|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|au-bureau-pub-et-brasserie|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|les-frites-a-gogo|ameliorateur-intelligent,photos,horaires
+SHOP|asian-grill|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|couscousnco|ameliorateur-intelligent,photos
+SHOP|la-petite-terrasse-restaurant-brasserie|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|truck-la-petite-terrasse|ameliorateur-intelligent,photos,horaires
+SHOP|kopi-teh-votre-salon-de-the-cosy-a-gondecourt|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|casa-celia|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|pizza-franjo|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|don-mario|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|au-petit-delice|ameliorateur-intelligent,photos
+SHOP|sidi-bou|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|bistrot-de-la-collegiale|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|sushi-and-you|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|felicilli|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|a-lardoise|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|la-braise|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|le-sabot-vert|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|zen-motor-s|ameliorateur-intelligent,photos,horaires
+SHOP|restaurant-campanile-lille-sud-seclin|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|cafe-chez-micheline-le-france-gallant|ameliorateur-intelligent,photos,horaires
+SHOP|la-scene|ameliorateur-intelligent,photos,horaires
+SHOP|la-clef-des-champs|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|le-ch-ti-boucanier|ameliorateur-intelligent,photos,horaires
+SHOP|habibi-cantine-marocaine|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|la-gitane|ameliorateur-intelligent,photos
+SHOP|l-incontournable|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|hameau-de-la-becque-salon-de-reception-en-pevele|ameliorateur-intelligent,photos
+SHOP|pizz-express-allennes-les-marais|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|le-royal|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|le-potager-des-demoiselles|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|cafeteria-wattignies|ameliorateur-intelligent,photos,enrichisseur-contenus
+SHOP|le-pave-gourmand-a-avelin|ameliorateur-intelligent,photos
+SHOP|king-wok|ameliorateur-intelligent,photos,horaires,enrichisseur-contenus
+SHOP|flunch-faches-thumesnil|ameliorateur-intelligent,photos,enrichisseur-contenus
+PLACE|cageot|ameliorateur-intelligent,photos
+
+# Désactivés / fermés temporairement : ne pas envoyer dans les pipelines actifs
+# self-de-ghsc, lehoucq-jean-michel, brasserie-les-4-tilleuls-50-nord,
+# la-templemousse, delicescousumain ; damane-cafe = fermé temporairement.
+
+# Horaires Google Maps appliqués en production le 2026-11-12 (7/7 jours) :
+# sidi-bou, bistrot-de-la-collegiale, sushi-and-you, felicilli, a-lardoise,
+# la-braise, le-sabot-vert, la-grillotine-friterie, asian-grill, la-scene,
+# truck-la-petite-terrasse, la-clef-des-champs, le-ch-ti-boucanier,
+# le-potager-des-demoiselles, king-wok, les-frites-a-gogo.
+
+# Aucun planning exploitable affiché par Google Maps (laissés inchangés) :
+# auberge-du-forgeron-restaurant-gastronomique-bistro-et-hotel-de-charme,
+# zen-motor-s, restaurant-campanile-lille-sud-seclin,
+# cafe-chez-micheline-le-france-gallant, habibi-cantine-marocaine,
+# kfc-lille-seclin.

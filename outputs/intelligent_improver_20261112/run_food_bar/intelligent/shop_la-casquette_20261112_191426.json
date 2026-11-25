@@ -1,0 +1,838 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:14:26",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-casquette",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-casquette",
+    "status": "found",
+    "data": {
+      "id": "4169",
+      "name": "La Casquette",
+      "shop_string_id": "la-casquette",
+      "unique_id": "3f1fcd9a8f90c25c352b9cb741b56cf9",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "42039",
+      "principal_cover": "42039",
+      "qr_code": null,
+      "phone_number": "+33320468253",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "110 Rue des Sarrazins",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.045778",
+      "latitude": "50.624393",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-08-16 18:30:03",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-08-16 18:30:03",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJI6j-hHbVwkcR7UChQhBBZws",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJI6j-hHbVwkcR7UChQhBBZws\",\"rating\":4.6,\"user_rating_count\":282,\"google_maps_uri\":\"https://maps.google.com/?cid=821696995111551213\",\"fetched_at\":\"2026-11-12T19:13:50+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Endroit très sympathique pour se poser, préfrable en été quand la terasse est mise sur la place, tous types de bières sont proposés, néanmoins attention le service ne se fait qu'au bar\",\"language_code\":\"\",\"publish_time\":\"2026-08-25T10:50:53+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Vic59\",\"uri\":\"https://www.google.com/maps/contrib/117369750293900628590/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXor3TXaWp6cXDuZqntETdjggp3yH58RtKpEOpIoEAxso9XdDE=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"La Casquette est un vrai bar de quartier avec une ambiance chaleureuse et décontractée, typique de Lille.\\n\\nLa proximité aux terrains de pétanque rajoute quelque chose d'exceptionnel au lieu.\",\"language_code\":\"\",\"publish_time\":\"2026-06-03T12:03:29+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Hugo Laval\",\"uri\":\"https://www.google.com/maps/contrib/109777156612281975255/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX7Bs1GG3gje39-IIMUpnCVolaWN7gHhhRMhOZBbMMwE4S8_aLR=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le meilleur endroit pour jouer à la pétanque et boire un godet avé les  copaingues 🤹🏽🍻\",\"language_code\":\"\",\"publish_time\":\"2026-05-12T20:40:26+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"Charly Favorite\",\"uri\":\"https://www.google.com/maps/contrib/114081133480459724557/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVMsqmLmh9yiV9dsq0UQI4O_n6C5041xjhAbfjCdqMsunM6fGE=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-04-28T21:40:24+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"Charlotte TAFFIN\",\"uri\":\"https://www.google.com/maps/contrib/107125684729031976639/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVeTBU1uddw59FRKr67v2BLFj5inkKubJPUiZmATiYNsz_DxLo=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Un super barman !!! J'ai perdu au criket mais j'ai gagné aux boules 🔥\",\"language_code\":\"\",\"publish_time\":\"2026-04-27T21:07:01+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"José Guerra\",\"uri\":\"https://www.google.com/maps/contrib/105363492620210791189/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjX8ryjJ0PU0S7RcVDhQzpiMRiVaifQ87bXFX5ew_BR1TyNppW8u=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:13:50",
+      "google_reviews_place_id": "ChIJI6j-hHbVwkcR7UChQhBBZws",
+      "source_id": 4169,
+      "scope_type": "SHOP",
+      "scope_ref": "la-casquette",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "la-casquette"
+    },
+    "counts": {
+      "media": 10,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "42039",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58b41505.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42040",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58ba9965.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42041",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58c026fa.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42042",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58c49ca5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42043",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58c9abb1.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42044",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58ce74c2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42045",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58d3108c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42046",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58d856b5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42047",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58dc207a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "42048",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_4169_6a81e58e1ea87.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 10,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "3030",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "21197",
+            "source_hourly_id": "3030",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21198",
+            "source_hourly_id": "3030",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21199",
+            "source_hourly_id": "3030",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21200",
+            "source_hourly_id": "3030",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21201",
+            "source_hourly_id": "3030",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21202",
+            "source_hourly_id": "3030",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "21203",
+            "source_hourly_id": "3030",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "17:30",
+            "closure_hour": "23:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-casquette",
+      "google_place_id": "ChIJI6j-hHbVwkcR7UChQhBBZws",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 17:30 – 23:30",
+          "mardi: 17:30 – 23:30",
+          "mercredi: 17:30 – 23:30",
+          "jeudi: 17:30 – 23:30",
+          "vendredi: 17:30 – 23:30",
+          "samedi: 17:30 – 23:30",
+          "dimanche: 17:30 – 23:30"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AWCwydgxB8pEJXjLqoGTgdhXz63CYfb7Yb404o7SpKSBVZajPsj7HG0SfpG4u7UVabAdzPLxDPe1edDCMKnNjnAS1m_HqOfaucr0-GofjlT5Bj4nRVqPCsBK9KJMzAQy4FwfvtRguJDBmmtGc9TC5uHVKq5_YyQYdGT9DUuUglYVgJDyJGRXHRnNwmZwOWW6vrecW8uo2x_wR4QgeNF-RFQoc8g4sPLIcRekG33EP5VFpKvC6iem3GRbNUucZSEmTCR9ViMiB6afHxS_ZmYybYyhaAe3dMRWSjbj60968fzg0WeSq2a9Z9AkhIDumNHMP0OH62nla80pTaVsXg6LZZsDUJct6nIMOeAqfnAtl5_pCc2_GoutpnrG9iXnDNZYT6e9s1jEHMCU1nXpEfMtns8HBLhE7-q6ilQRLYqpyvt3mroEMvXPGbQaI96ZOGz32HZb",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106614126191953875163\">La Casquette</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydjv1RUsoZdCSzAWVoVQz-C-fcA3-l7Voc9_2yCvanxPqqYm54ICUaZSlyudUdWKz3MEalQD_xY1RrreS-Om2dTXb9DswRR_T405YPPWVCdtUEzuL90lXGoxvO7ljQ4SLjLgaa2BjMr1xAhMcxKnMr1UggeDcak-BE11kSa5z07O8r5S_ImfAL52Z1L5VKvY4LfJcN0usRkIaFCAbfcNZUfX0YVtm3AFFgdC1OH48fCqHfY9BYskrp-mdVXcRqZGiFj0w-HZqslCtFgkGRXu_n4uvgK5VFFZDWmpEYVDPeKBRGEoRnYxMZgDQcTK3SxsSF4r6ogmEqEl02DoQ-6TYYR8WJMnCZUh4Ry5dFiFVojqP0whzZ4gtW1nrh3NbV7QiJ24vi8CWm6pFQz306nx9_8iIuAvAsPVBJsxftpe4pT5TxrX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107065901965800816587\">Ciro Lanza</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydjoOTMLbZbjbqJo83YUHCXObRWlDpqLlf6Ec94o1Rg5FrPwlao_bNhwA9O4abOSY6q-DuieTDV4SCTa2ZabPRi-WSi8dvQGBrtr-cHE90gfDEGTO59QSfl-p7Wu0p6PtYyuo7hc4hZGaB8IyrD4mjWavprJL_HfNrWRzSzVJpW4-12Gk87NGABl_ilhqj6d98GTneArolpmF4fE4Kf_4z-Pyr7BpYyhYkEyM-MOnhGDycfNKh2BtCuLD7dmqP2lTFMjUpKCm5lGYMLOSh5cxHGrTkeNpalFlLxPm3MKCHJ5C-nWx5UMYjROm9Im6Qav8GjQjAt1VLRT2hgGvwgRFgEkwdkg5u1GUNg1s8TrWUfjUMFdSy3oyVlemKOu2eAECTpb2lBxTxnRYtNtcR35OQlHBwKRBw_dm7vBfSAu-s6Wzg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107894497595155663779\">stephane zermane</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AWCwydjobUtlbX2su201zf5vlnSGWPhZe_0bFbwAHwyQHHfcwQx04LzzSFn6eYEoYnH6A3LUBXb3yJo6U_09u8OHd8k4_1wQsGUzT5UwaRJO2dgEVNNFpTVrBCasxTQ7nCSUA_3rYo4eH6O0ygwTiHNAWNE_ODppuWvyO0TiX_PEA0vLzgOsDFjTr56nueploy4arBoDscZI_TK4sSVL-V9b8t0SKTh6RgQdubGnPJVRVi5QZ2VP2xKLmQn2v5rYKywLca3GrKvs-G6UqM21hUA_SCAYFJ5FMgBTVnABDcxI-J0_ITb5di56e2RZZI4lduipshZNR3e3qVmBVy3effT_KAFNKwvurEp9qXpKy3a3QErbC9Y8Nd67aQmts-N6-UYINUKZOiw6hlop3JkS4K86_8aVec_AL4Q5lMU7rnaw0jIdngqDQFookJbb5fEqPQ7U",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109995120948174966283\">Sarah L.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AWCwydjTuRCt3pMLTzeJDB20-bt1c3kGoTD8qL3xnSTCQx-W8y-ZeP-p2xWrv2KSq_Ncu_j7er59cIxj1ZKxnhY2Gvn750D1JjrMcrLuWEA_6tobt0JN3b3EUwUsIfWxKYpXzF8w-Nm47TcKQVRofkhrRY0aMLLePVSTh-5ixLbX_3MCSy5kFIKN9xC5Bx-ik5HC-QKs7a12KQsOBERj5TtM2woII4eAMMBh8atrYYbqgCnOJtEJfSdDuGV3IUbddhdrEZ5Bc-RhyAVx1wpAwOGBRZNFFtRCG8M-tTmpYJM8xj2Wo_kdM3SUFWwMuDAISAb9yjwOEl6iusJ44FrNchPyb94CJs5hbDWLJ2oOX6bkYEZLt_dV26kmhgH7ep3Rsg7UMXIj4uWjH7XZSaOQSHox3VI1ANm8O5yGldSKNPiNzHQ20A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107065901965800816587\">Ciro Lanza</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydhNlRDFNAF_B2TAf1qEBOJ3EJTAtIzS6SwMIWnN8_JXtndhoYkIqPG8uZcAD6hvR5c5DMUdMu0wKY0f0FBW6hh3OpGqhSmse4u6xIxmaIYSXf7XlP1jZCy9mdT5NtsJqkYwHvEI6xdnXbZQQPsIEThhiHUN4jOXOUJpN689UnRVq4zrnLcdeHjAqy6n9SrmCeb_gaNiEvLk_9OeQl9EBsIEfQam8a-RUH63Q_zkpSaoNB_XXLAPExvZzbzNa8Xrpp2zQR1zxerIS7nk2tKbnt6-025hRxbnaxuU_9erD89Jz1qcTmOWMo3ZMzDMPBc-KDJ7s5hZWaFkTmSw6yQm7uZFiUU_P1fQS16-MuURgwQWZEarPP4S-oJaY_IjsC-UIVPiwS4FhmvV6ADdIfXjnvGodBnUd_w9kdk6-sVR-L8qLhM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107065901965800816587\">Ciro Lanza</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AWCwydh0KkVEflH2t1Wf4mHHLH6LKxjrfqbkQ_4_6FdFevIKl_3oAL5yzDEzfnPkVgRYVS3Od19r-Ob8X5uZJsK-Tl1Mzy0xYv5fHqNKfeKN-rADOABzQH31IoPz6qppwYr24T6y5W-fG81qPjQzQ5qtXQjQ2ux0ISSCn07wIf3KdT1Rdx64lXa51RaSgyExIwf_2gMWStDrB8omKUmkBZpTyLAx9fCEIPBqIxHwD5mLoWGUviOtZYmjG5F9d4-4cO3t5276_-l2-13RSCq9C8_xP2n5ihqwK7Fydfl8Q_IVex6_NkluduBC_gnZDPPbLdYXRJFvl_lYl-dUWFJleFS6bLMdPmiZ8z5eY8jcy5Rce1PXUOPowtbenRvKnc8vTCJ8X3d94-YHa3ur7TOVJIrkbqVenSGxYJ60RavBV2eaxroYXYrC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109421642933198109110\">giorgio cp</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydgKU_MPg7_Mw31KVI4Dy9xg6cQ7Ll_P082YNrRRJ4dDee3k9AH4ns6ZYUxHJeK_pL9WraTcimqbuKoyWkyxuYeIYIJM912DJ2uNiVhFsKv6X-sQJoQQHP2afqjiUmYqWuQTozS2madj3aeEAnLB1gtesVZXi4b7GuJv3viel3P9JikZJ39aq7lcRpsvHMktlqWCS-nwD5GEVy_zC3em--XkRg0G15nTNrLNO1FA3_earM8WJTfipSJcLFLfGanFlA0TnpUauK88sBRKu1lNAXZlEFS0XMevAUQaSwf9dO4w0TolKVL1hGZqDbTW-0J3psIffzjNrFlzrHo6FK2Y476s3GKHNJNvdeIkhA0LiWqBzsT7uANHWq0JoPVgbEH3BE_kEPX_eoIAfdq7KHNrR1YSTS6833pvnroGqIqVeDOYHw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114338839247568164815\">Benjamin Digeon</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AWCwydggV-ZXGUSdKNuL9DTw8vqbByQe4JMqk6IMMw_bOfTwza7JsVvaiL-BBW6shkwt5FNnUiYHpBjK3_HHO2b-Jsu8wuLfRm1TWztXrSwx2mgs6ADtqp0XZ_dUjFu1TkZFdkaUvAXJQQYuIQnRPpAC0Az1UxYCSCitccrrek5tSHqZwiyZc9cPstXhyCgobqfk668N8GpLD_xoZljzp5nnA3YwcwJWjbZeGDvdzzSULLk2p7TGNna0ekqTndo0kH-oPT0CL7gqwhRqtlvMUBg8s3zYKZQRGhIUrr84D_jmqAxcyl56b00g-EdedM3ajoO5wGtGCsf0TetkXewwJs6PVef9VUTHHdDa6dO2r9TGHsN_fwwLI8Le6feNCc5FPvFu7X4DcwEyljyOAx12GiWE4v7G4pXzx6jEv04pi_wVRHBeEYQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110918052949922537533\">Thomas Sanctorum</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AWCwydiQKVoFAhthd1vrfoqpmKhsgSkh1h_XMxXkFdTNWPbXb81NhevACg4e9UwmVXdfow262mvQmPZp9r15XZROCHKJYbQthRi994MSL4XaDoW2MOQjdBVDK2UrJl2Q8lnvl_HG6Unu3NOPbpFQskhK9yT0Sfj6kCC_aE6u1E4Wbigrb-S2rtOrupKFcxrzv5RRSknvL5b2vSfXWKY0cXq5Q3ehpPwzZiR2CzhFCBC5da9TVSkEEnYUrJEFeBGi-oDvhQ1TSuuJvJZgrBGrz0WBuKwDWB2n7hr1hoK8XD6IN0E-LvHazu-UQ75KHv6zv38SOClFoJsNh_zgBkuleT3D_3v31lgNbIrAoDcF8R7i7dNrzor5LKid9XhGgaR14zmYoennxw80WzYTlq6YPfPXZA37WJEnMTSMa3pODUaGj18VJxf5",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107065901965800816587\">Ciro Lanza</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 4169
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Endroit très sympathique pour se poser, préfrable en été quand la terasse est mise sur la place, tous types de bières sont proposés, néanmoins attention le service ne se fait qu'au bar",
+            "language_code": "",
+            "publish_time": "2026-08-25T10:50:53+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Vic59",
+              "uri": "https://www.google.com/maps/contrib/117369750293900628590/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXor3TXaWp6cXDuZqntETdjggp3yH58RtKpEOpIoEAxso9XdDE=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "La Casquette est un vrai bar de quartier avec une ambiance chaleureuse et décontractée, typique de Lille.\n\nLa proximité aux terrains de pétanque rajoute quelque chose d'exceptionnel au lieu.",
+            "language_code": "",
+            "publish_time": "2026-06-03T12:03:29+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Hugo Laval",
+              "uri": "https://www.google.com/maps/contrib/109777156612281975255/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX7Bs1GG3gje39-IIMUpnCVolaWN7gHhhRMhOZBbMMwE4S8_aLR=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le meilleur endroit pour jouer à la pétanque et boire un godet avé les  copaingues 🤹🏽🍻",
+            "language_code": "",
+            "publish_time": "2026-05-12T20:40:26+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "Charly Favorite",
+              "uri": "https://www.google.com/maps/contrib/114081133480459724557/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVMsqmLmh9yiV9dsq0UQI4O_n6C5041xjhAbfjCdqMsunM6fGE=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-04-28T21:40:24+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "Charlotte TAFFIN",
+              "uri": "https://www.google.com/maps/contrib/107125684729031976639/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVeTBU1uddw59FRKr67v2BLFj5inkKubJPUiZmATiYNsz_DxLo=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Un super barman !!! J'ai perdu au criket mais j'ai gagné aux boules 🔥",
+            "language_code": "",
+            "publish_time": "2026-04-27T21:07:01+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "José Guerra",
+              "uri": "https://www.google.com/maps/contrib/105363492620210791189/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjX8ryjJ0PU0S7RcVDhQzpiMRiVaifQ87bXFX5ew_BR1TyNppW8u=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.6,
+        "user_rating_count": 282
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1041,
+        "bo": 3,
+        "front": 1038,
+        "estimated_cost_eur": 1.025
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "grand-choix-de-bieres",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "tous types de bières sont proposés"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "jouer à la pétanque et boire un godet"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Endroit très sympathique pour se poser"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet avé les copaingues"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "tous types de bières sont proposés"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "boire un godet avé les copaingues"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "ambiance chaleureuse et décontractée"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "boire un godet"
+        }
+      ],
+      "BarType": [
+        {
+          "string_id": "bar-pose",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Endroit très sympathique pour se poser"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "petanque",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Le meilleur endroit pour jouer à la pétanque"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "boire un godet"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 17:30 – 23:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "au-comptoir",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "le service ne se fait qu'au bar"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Endroit très sympathique pour se poser"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "exterieur-agreable",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "la terrasse est mise sur la place"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "have_terrace",
+          "value": 1,
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "la terrasse est mise sur la place"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bar de quartier chaleureux et décontracté à Lille, apprécié pour son choix de bières, ses parties de pétanque à proximité et sa terrasse estivale sur la place. Le service se fait au bar."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-casquette",
+    "operation": "ADD",
+    "tags": [
+      "grand-choix-de-bieres",
+      "bon-pour-apero",
+      "spot-pour-se-poser",
+      "bien-pour-groupe"
+    ],
+    "principal_characteristics": {
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "adapted_to_groups": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "decontracte"
+      ],
+      "MealType": [
+        "aperitif"
+      ],
+      "BarType": [
+        "bar-pose"
+      ],
+      "Hobby": [
+        "petanque",
+        "boire"
+      ],
+      "VisitMoment": [
+        "soiree"
+      ],
+      "OrderMethod": [
+        "au-comptoir"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 4169,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopBarType:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopVisitMoment:+",
+      "ShopOrderMethod:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "db637be43271ff07cd2015b3934a94996b42ca88e9a1c06eefb0ab821b175cdb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

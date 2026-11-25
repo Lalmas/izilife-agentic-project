@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3407,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.76,
+    "evidence": [
+      "Le titre présente un spectacle de Florence Mendez.",
+      "La description ne précise pas la forme du spectacle."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Aucun élément du titre ou de la description ne prouve clairement une forme permettant de recatégoriser l'ancien classement stand-up."
+      }
+    ]
+  }
+}

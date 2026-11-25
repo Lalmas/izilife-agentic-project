@@ -1,0 +1,499 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:29:09",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-p-tit-sainghin",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-p-tit-sainghin",
+    "status": "found",
+    "data": {
+      "id": "5835",
+      "name": "Au P'tit Sainghin",
+      "shop_string_id": "au-p-tit-sainghin",
+      "unique_id": "e72c2fc4b9c44643970a2fd9815f50fb",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55090",
+      "principal_cover": "55090",
+      "qr_code": null,
+      "phone_number": "+33320795239",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "253 Rue du Maréchal Leclerc",
+      "additional_address": null,
+      "zip_code": "59262",
+      "city_id": "77",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1670505",
+      "latitude": "50.5878426",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:57:11",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:57:11",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJn4boMXPXwkcRQsSoLEPwt7s",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5835,
+      "scope_type": "SHOP",
+      "scope_ref": "au-p-tit-sainghin",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sainghin-en-melantois",
+      "string_id": "au-p-tit-sainghin"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55090",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5835_6af3a147934c2.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4891",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33972",
+            "source_hourly_id": "4891",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33973",
+            "source_hourly_id": "4891",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33974",
+            "source_hourly_id": "4891",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33975",
+            "source_hourly_id": "4891",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33976",
+            "source_hourly_id": "4891",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33977",
+            "source_hourly_id": "4891",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33978",
+            "source_hourly_id": "4891",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-p-tit-sainghin",
+      "google_place_id": "ChIJn4boMXPXwkcRQsSoLEPwt7s",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 14:00",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00, 19:00 – 21:45",
+          "samedi: 11:30 – 14:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdDngiVaToPy1xduifCgmwEoJh-_KcIB-cWAgkxA6GBZQKL8FNlBgF4hoEAzKu9HlxuwFdKGr2_P6yRY3YDFlmhE_QhujBvbdf-ACpfUlZ36q8_qmxgnB5o7lqLEJh3YA11UfKJs5sdb7709yfkL5gK6TLZn0vh7RX0TNSmM37m8J55sRJSTDXkGSTB317pmXfUd4C7eS_VqbCAEkFqpARab7WNhdjnu3WwibKs40WVAXh2iiRR5qskzCNCWmOdUkSE4OYIKiyXLfenxSM9Y2v4kepUnbzHsLMIEo8F5tgkiLMwBy7aCqcLT_cZyyZlOFCPwN5o179c0f6n88dpmVhhBRRW2fsAGnZJhNfj63QYDgyDWdoeMP_7127Dth0wv6wuUWIbvcxtNVmU5vVU8Qdq8Ig",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100295371861486355515\">Au P&#39;tit Sainghin</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLea2l9oIEXqkKSBreHfWI7AlgCJp_fkT7Ag6Rbf3qE1ln_qZh4Lw9KlwHzD2quYPrkxIJ1HK2wkQYBHzPSTcSUzR56L8-Nf0uUVz6wy7cVMFpwPR69DptnQR1YD5YAVUHY0vYxJoDVEGnhiq56yCLGlq6Bs3MuhT37P8uJKAJoDLU8o_5nDVrmL6PPO3xxlIs_4-m_LVE8ESm6Bo_X8SJhD_X7vwT4UXIcWb91HtrpLnuFvSJEfjIDimXJxO1Z_thesINtUxEjMjP8L3IRdf8BBEAiryc0eYFfabnbajjKAr6K_Xc1fFucuKIF1iViBWBy5EXpXhz0CK4gWTMT-6-cP_uZjCsgPydO9PmxYQbXrArdzFZqHqOow-9RPYeUgRdin0-hB5CycrlinuMgOll5o1DlXzSI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100295371861486355515\">Au P&#39;tit Sainghin</a>"
+            ]
+          },
+          {
+            "width": 561,
+            "height": 315,
+            "photo_reference": "AV-0GLdlYJ5Xmia90ggh-NJEXp1OBfs0kWY-aLLLag22y85ibxmna5vYTT2TdmjW2IR-EseLStFPjxVckQb4Ey3LbcKWGDghuGDVvKB9K-Ifjz3JgSH1NUK87vG2dZkov_Bn6OtupJje9PK4vyzfF34PeLmnQu30_5GRLHa4KZxt0QSsk4m_QqsPOCBO0mf_reJ78ZJH_ujwFB4FN5ffD5sFvNAxIXeUcp3qpksU0NmHSJpmfwDNrbLzZ1XBEhvDwYvh3kQPOJQaHON1fQy1k0lDtLeRwDwki6haenNZQT09wpcuL2AD7enRKiX7MCBj2lvXO7siAoOKEuuZxy97enYl_X42276h8nebvP8pKP9N08IOTN5VVcPsngIYIUX-oO65SRz9ebxlZjYuWyG8t2XNj8LTIoE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100295371861486355515\">Au P&#39;tit Sainghin</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLfyyBIlZzkXdzXG9i2xg1aoOHh8e4JF9iyH5ujIsPB95QhEBLrd-7fWhvctEJvM7kRfGgHVNePI-8WxXhY59pPa62YNtJ-cU2JaVUPvH_PF-2YdixmH86qQph0lnYNzw7_o_W9ir3XUAVTFcylfC6OoIbJgX8lYT8dVoDFZmiOSdGkCeP-06Ct3WpkavJbRYFWBb9v9qnnzZsrmUxPR4w0hmtyEb2ZgHK2O6XQ-8cB6XlWdcpVFTNiRvWScr02Aqq6-TNYK2RD7E6hLqotUTFZI9zHVyamwXzFkp1XbZnLTPSiUpwmoI8NECI3qGEjQVqaU8eGF3hAIwFUMxb-PfsGxFSy-8v6p4tpSTWe-8dVAjqL2M13ILd3Et3woGkZvUDOlKzpvt8dZ0mqWioGzbBNLownrvEs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110724893320923198271\">Myriam KARABILA</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLdPpjXGWcOqAJWXXzFe6I9hB56pL9ORRbwDKcBnPXn3P9pmT-9KbWGj0HG4ez6Bt4L4iquQI7fWVObwJofB_vHF8VZJm5-WacIy6CGMwit3mvVp7pwlO6tVgqkuHq8Jol9bwGESKsEnQhhdwI7PI8cMBNF6d4N6ShLw2wwVsj6Z7NM-MCGh3plP1-kLKm3frXwcEipJPVIw5zAcSGonSCXE0vy4ctD7UZZak68YqA7-dsDPzToUPa627CZQhVsTV1YXfb8PY3MRqSV0krR23IgKfV90DOAdU5ZYeduSRHlqG9e8M-dWb-eWga2GxRdm05vKpdRZAYGwoMOPY3TdGEMuwDAtFt8s_l6h9kwRhrDJKSMBfgmujH0IPgRRN181cu2uztxooDc3rC23EX9ySIPPTJbOSOg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101417510946467194258\">Fab Bono</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 2592,
+            "photo_reference": "AV-0GLf8Kr4lnFoOolGV7zFwbPf2YCZDjmnr8c0UiqGK7YGtY2aYRTBmgrS9kC02iU1kRTQCUuuJsfEeAocQMstRNp3piuXe0QLSSZWtmhJlMC82Glcz1DR7gCa-Ah4zYxxTQTpjBQFEUQBHCVhJH7TxE0tyjfxrNI_dJiBKTlhgK08iqd2GyKuAgSMrW0_qNMqp-xi4Sw07ltANYbliQX-u7lse_lb-lYtLOVQsjzkZDEwlCqt8milSpTSrC8Kg4KOR0y55DDsIraxUy8HFbxGXhAbTLp-u0PR8EqmLzNVQ3uHKD_Mr0tJqyvL0wRftwQfm2sB7xB6swZ0icRQiWY--aq6eQG0hOgMmwDzDCT2WHN9A2h4TlXqcQsdFPdMD43FJ6Mikq7f73MUOpVN7u4dJL5mRO-ldmG0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101829327910816839130\">Franck (Lefebvre)</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLe3wApLisT1ptGAuhFTSMZcUDW1MSkLMdJaR5XOb39wFpyECIiJKpu7TXFa1D-XhCg8___46Jydd-bGBPPDWanDvpPuJyrD4TYDge6fXa8gzVUg7GaoOfvWUWjKA9jiwd_goiIWdTp2A2SQPsfDvtmlwLXskg4fYAzuSapXZlsc8uhON7eIVlAM_w41v0jAEtGFY5D-gCMu3Lujw3KUKd7pFtrC9FP2tyrAgC7e8p2mWaerFOOUsEFYKrwyRzL5626IzLzHEsINYk1ZkjnVh-_aLfRNMGhd0af4DnL-XY7WBhZCPspl5nxNegG5wRGsrb6PfhREkuBkmRmoaEVBKxSuo69MBR6e3fLkdVTi7EunLkwOAXQndanKbMmkA8hj1fHIGQgUCKfIDAYdkMFgE8lRQyVXVu1D0qkNRRdofVwu",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114787482371577574951\">Maxime PllE</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLedHyowYo2VfSxw1ai15LZZi9arpA_uJYe58GL2YYvcob1-UXDEM4cyvzvPfs5Ws0sPOiswKzHu1fiNS5hvPDo3VjhgcML7x_u6oGQkiXtepn09V0gwueBnxg1IsSKk7sUT5e9zhQfNKohmXDaXQTWX7vvLF-DPug8B4LlJbIYnfSA-uRvP0uql8cpNgA2HlEwwZkLAnSTaf74toMTmCG9VCgYV4805sK5eDX23OhV5KkKRKAlrk4OS25-QYuQRBTLYqLZ2SAMtffOFQ6WTNRb382tWDP0uAr2dR4m0GqkorIWqLw9j2HyNzGDmxZcltGhO2b4t7-hfjQH9-RdH3j0jCngS18OehRdazex4OXYZKlk-_ITkBmr2DkYPDsqYC3JDSTL00ZbG0asCkFYpdqoBxqS2cVM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110558376158835548082\">chris schenian</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdG5AeM6HfyEB2DRiR5kpHcqlER7ywYfg4AJ34W14y9g7Y-ihrCVbsFZZyFRmisp9B7y73q1dQXvEdP0xN4--ZJmYrpuxPOQGXCUZlVLOfKllJ34CkJg9uLfWYp4AcaTEdfR3vXLdjOfNRuflPt6D1xeWHVi1BaDPJ5Q1F6WNkS5Y3LjG8CgLJWPmSxM4U8rKoXIY5QHG8MVHdM_Fp_aZnrofp2qBeDsoDEMFYjDhh8RnQf4sbOeMSLb2RLK2bTqdLa46LvPaFtvkXVaqNCYX88ujuVUvSerfLDNNDgJT-8raKBx0ftyuMTDPlNm9n_SWvTtRwZMjsgrbSygMACt5tH2NGLR48w4FOQTxAmpmT34cDLlknS7VBFPhJmesibWkcDUiu5VIfwlrwPGw-109f7KzkjfXuMeu7MkAJyPKlOwA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113174487042368680813\">Frederic Devismes</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLeyAOytr6FXbLbaTy8i30w_4K1XES5w27Vyn28lCzlNbngC4KHnZp1hUUyj4VNLay2_tIvXVWnXK23IM4kz1WS0hDgAJAlKTpaUw1R6WbjGi8JfLx8CGidLX-fg-RJMG86kikt1aLGVLIcZrrEKxmHDOMv46E6AQNzhZhI6gXQji1Ybqex-1aQ_elaHQ7j0WCpTCLHXeL4p28KDqC7Bl5O_oeGh6-ARFYsvWoqPq5EufYG2KiuoOLxyZ-M1pAHXACvmBKRtsEQa6GueZMk_Gy0jh3vLb_QKx20U5eAFKRmfqUJrqEUjNQ204F36yHEM3WcejnFR34oxr1_zf3jbGjSo77y-Z0S2vOsi_OCntPDOfa-T1ExCsUpF8pdDJEykDFk4O08KEA0L5-eRjI-t4XATDE0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110724893320923198271\">Myriam KARABILA</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5835
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les plats, le style de repas, la consommation sur place ou à emporter, l’accessibilité, les équipements, les ambiances, les publics, les moyens de paiement ni les modes de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi 11:30–14:00, mardi 11:30–14:00, mercredi 11:30–14:00, jeudi 11:30–14:00, vendredi 11:30–14:00, samedi 11:30–14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du service : 11:30–14:00 du lundi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Sainghin-en-Mélantois ; les horaires indiquent un service le midi du lundi au samedi, et le vendredi soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-p-tit-sainghin",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5835,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "df367d666d8de5855a88f2a41da446d66d30a8172ff4b9cc7d70d2ff9e40bedc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

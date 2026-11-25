@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 10:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 10:00 – 14:00, 17:00 – 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur les menus, les régimes alimentaires, les options à emporter, l’accessibilité, les équipements, les moyens de paiement ou les publics accueillis.",
+      "Les avis Google n’ont pas été récupérés (budget_exhausted)."
+    ],
+    "summary": "Restaurant ouvert sur des créneaux de journée et de soirée. Les données fournies ne permettent pas de préciser les plats, l’ambiance ou les services."
+  },
+  "meta": {
+    "cache_key": "34c2a10919bad645d10535614446d3371371881e2b48a563d4081bae6abcb52b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

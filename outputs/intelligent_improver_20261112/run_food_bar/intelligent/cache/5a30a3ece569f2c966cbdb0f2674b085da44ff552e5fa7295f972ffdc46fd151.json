@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« Avec un ami, nous avons eu l'occasion de discuter avec le chef en fin de service »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Les plats étaient généreux, bien présentés et délicieux »"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« cuisine du jour comme chez mamie pour un super tarif »"
+      },
+      {
+        "string_id": "populaire",
+        "confidence": 0.81,
+        "source_url": "izilife://current",
+        "evidence": "« C'etait plein, pensez a réserver »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« petit resto traditionnel »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« accueil sympathique »; « ambiance conviviale »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un dimanche midi »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un dimanche midi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant traditionnel à la cuisine maison et aux portions généreuses, apprécié pour son accueil sympathique et son ambiance conviviale. Déjeuner à prix abordable ; pensez à réserver lorsque l’établissement est plein."
+  },
+  "meta": {
+    "cache_key": "5a30a3ece569f2c966cbdb0f2674b085da44ff552e5fa7295f972ffdc46fd151",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.94,
+        "source_url": "https://lacarte.menu/restaurants/santes-1/la-minitalie-5",
+        "evidence": "« Pizzeria, Restauration Rapide »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "DishOrigin": [
+        {
+          "string_id": "italienne",
+          "confidence": 0.98,
+          "source_url": "https://www.minitalie.fr/",
+          "evidence": "« foodtruck italien »"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "https://www.minitalie.fr/",
+          "evidence": "« plus de 27 pizzas »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "mardi : 18:00–21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations fournies ne permettent pas de confirmer la consommation sur place, les options à emporter, l’accessibilité, les équipements, les modes de paiement ou la commande."
+    ],
+    "summary": "Food truck italien proposant des pizzas ; ouvert le mardi soir à Santes selon les horaires disponibles."
+  },
+  "meta": {
+    "cache_key": "7817b257f391d9a7aab417c2b673e380e0122b153ae5b4bde7e57e4812000377",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

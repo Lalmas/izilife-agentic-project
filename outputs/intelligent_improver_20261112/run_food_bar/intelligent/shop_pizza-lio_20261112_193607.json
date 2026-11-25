@@ -1,0 +1,554 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:36:07",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-lio",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "pizza-lio",
+    "status": "found",
+    "data": {
+      "id": "5603",
+      "name": "Pizza Lio",
+      "shop_string_id": "pizza-lio",
+      "unique_id": "002e0cc40d709b9c2c4f0370a29f3a5d",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54864",
+      "principal_cover": "54864",
+      "qr_code": null,
+      "phone_number": "+33613340819",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "Rue Marx Dormoy",
+      "additional_address": null,
+      "zip_code": "59211",
+      "city_id": "81",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9625993",
+      "latitude": "50.6010857",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:25:58",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:25:58",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ6bkkRQMr3UcRcUs6hw1bC7M",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ6bkkRQMr3UcRcUs6hw1bC7M\",\"rating\":4.7,\"user_rating_count\":73,\"google_maps_uri\":\"https://maps.google.com/?cid=12901505671194364785\",\"fetched_at\":\"2026-11-12T19:35:58+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-14T20:59:23+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"lilou bibard\",\"uri\":\"https://www.google.com/maps/contrib/110890409823532622860/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLhP5dFf9QWspwecNx0bXD2VzzzLpvtHMpQw2Z5MVvifg7vMQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-04T22:02:57+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"CELINE DELABY\",\"uri\":\"https://www.google.com/maps/contrib/107770242784492802806/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ8hVNMydV3Fu0V9MrQvy6rWTmrUs3rRIEqoKcUhXBMur12QA=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Whaou… une vrai surprise ! Beaucoup devraient prendre exemple, la qualité le service est irréprochable. Numéro 1 dans le secteur sans hésitation 👏\",\"language_code\":\"\",\"publish_time\":\"2026-04-17T18:53:01+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"jimmy devliegher\",\"uri\":\"https://www.google.com/maps/contrib/111970669479816062622/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVhTQsrecyogZLKEQWvY3REJqDpVeSdyR792GnBLEvaLSiPK_wN=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bonnes pizzas\\n, personne très agréable et disponible. Merci pour l’accueil chaleureux et les délicieuses pizzas.\",\"language_code\":\"\",\"publish_time\":\"2026-02-20T20:41:30+00:00\",\"relative_publish_time\":\"il y a 8 mois\",\"author\":{\"display_name\":\"Pauline Olive\",\"uri\":\"https://www.google.com/maps/contrib/112262730879576439356/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKnBfftXXYd14yYERZsBzPLe6uLXK_Z0DVbo0aJ8FjKI4PWmA=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super je recommande 100%\",\"language_code\":\"\",\"publish_time\":\"2025-11-15T14:15:30+00:00\",\"relative_publish_time\":\"il y a 12 mois\",\"author\":{\"display_name\":\"Weill Mathis\",\"uri\":\"https://www.google.com/maps/contrib/112604090004136485908/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIQCHdiB3imQ3Hfd6FxH2vw4PgXEmrl-ErGYrzSTCWFLvdnSw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:35:58",
+      "google_reviews_place_id": "ChIJ6bkkRQMr3UcRcUs6hw1bC7M",
+      "source_id": 5603,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-lio",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "santes",
+      "string_id": "pizza-lio"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54864",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5603_6af399f6e5dbe.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4665",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32390",
+            "source_hourly_id": "4665",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32391",
+            "source_hourly_id": "4665",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32392",
+            "source_hourly_id": "4665",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32393",
+            "source_hourly_id": "4665",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32394",
+            "source_hourly_id": "4665",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32395",
+            "source_hourly_id": "4665",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32396",
+            "source_hourly_id": "4665",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "pizza-lio",
+      "google_place_id": "ChIJ6bkkRQMr3UcRcUs6hw1bC7M",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 13:30",
+          "mardi: 11:30 – 13:30, 18:30 – 21:30",
+          "mercredi: 11:30 – 13:30, 18:30 – 21:30",
+          "jeudi: 11:30 – 13:30, 18:30 – 21:30",
+          "vendredi: 11:30 – 13:30, 18:30 – 21:30",
+          "samedi: 18:30 – 21:30",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 3264,
+            "height": 1836,
+            "photo_reference": "AV-0GLdgX3O-yXupbSMmUFPDIneNaoy3uyzah06D8FmEGTOTfYA0i4YrADzKTQx9v1DnNkJtK0-MFcLOqtEKchJvWiuUlJIPkIeb05HrHIHU4tIwaBLi_V42RhPwEcHgfXFZlZ3dg-rs-b7GArZxX3k7SV-mk4n9qyctA1QYGl6vCSym9u7OYZakLG4sLSriHhC3YsJu05oHPgqZ7FkBeGpJDSfT025lFaXy-FiyGGRRyPutXZJ58JOVyhTrI-QnjQIgdv-pUEmQlZzlKZYjfvaMialuCSvZJOJypNoeVq3r6rCq_vzohy34B2apbGWDyTlbPkT2NXttSCZawIyROo3YmUROAV7mvzPdJI-fyBHPpRXz6CaNfa-Meovb9ASwzHIvnH6RE6OyEfIBKuG4blyir1YgfHE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111541435327350436098\">Laurine Dupire</a>"
+            ]
+          },
+          {
+            "width": 1170,
+            "height": 2208,
+            "photo_reference": "AV-0GLdc3zfpzlAwBnNeQXyRn4cVIp-GcEPKKuTyjSnNNi-y8tsbwPrDruxqeMvSiyNaneJtqQgyircdxIJ-L1Y8_DG3MwIDlFOvihsGj78jzDs3SL1s62hG0838Lw1WOW54RIFSSfKg-n0YW_njDb0B5ycFtp3UJcgQhRsyZv9CY74HWwJVhYdvE7IxmpFEYNKRKai7Hx5qBJZL0l_Xnt4e7zYip3QlxVPWIgIbmFArFgkmUKRHzyagPXC9hjiLFza9hl859qWvl4U51Sjmf4_NNReut-SF3_IeSqGNxeoZY2K6aB0q3GSGb-AZvnQU_0_z_uEcXyAtMPDL4hEfqqHc34YB8mr8ez-4va2l5Xo2Zut8HbJGC3JR_t78YEaIQYCR2GWrifv6r6lVyNdwfg7MJ-SZQcE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114289554703719469543\">Marine Barbier</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLe5DhJBs7y-dWH4ngKDLnW6ce7T_1CUVxXtSBaTNeutfZeHov5egUvlID0AkJdGr02U6Z2g2ty9rfebGZ9zxAuv8g0HRlffDme9oETiR2opBQu1SP2TmId9DBR1uZBHIeJ2dCMmZi5idwpryAQGLdP4PUligkmiuDY7zi5HJksZ9FFO2ndjKmYU8S9nUoaW2Of1-wKYg8QXaH-2fkjzTpGEc_ip1fNQmEjglt5DIFs2IZvexYBlXvPYv_600FZyCB-gxCsWlMOhaTFOZGX1kz5kd_0P32UGkMIuHtEWZ9ecPqdb0gkmx42TNWRspSWg2_cdiNSxYVzcy1Ep4cEqcol3lCXDU_coJS9AbIWurYcsG2aQYuJhlKjxEdkzRnIHct43whSanWm33SGWkOHKFJKvj_I",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107033923617398841904\">Enzo Ghillain</a>"
+            ]
+          },
+          {
+            "width": 1680,
+            "height": 3648,
+            "photo_reference": "AV-0GLe-lY0TlvsHZMxyRgW3IV1jtCWPRRs1FPRnzcHpal7VXHJXvYYaJ3fnSBF-5LB0uyL6BKJSkbIfwbeHiDLYMmGDQQbsiAbEOWApXev7YVJGgxucBf4sb7sQJ-esF4jffOJ4fbtfSseB_8qHlA6vDeNTpngMP0t4QaAEcVE22eWh5oEud8JlHWWxEm80FiPLHABrXDyFa0Az9tRoWQHt6i9NcEpL6husXCjUUQHqP77pTN4zjCmk5GAmYyz0YCNHT-jEbikqu5C5_6G-Ai3PPBR_nI7tgx81c_LIHf9S5Cvfrg2VY7rgC3LkenAVHDvs86lhkxCwDWwVsqpshBGtYC2VajlGlYg986oYknfQOgOuAzoxwAQP7V3rQbMc98H9fAlchG6Nf-7SQbk_iIXYMtJkne2x3Rk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110321842163976923385\">Emmanuel Constant</a>"
+            ]
+          },
+          {
+            "width": 1918,
+            "height": 1080,
+            "photo_reference": "AV-0GLc5ZHE1AA4dh6NqF3uZlVEI9mtmU_BO1BiE-J4YtCzWJOoRzV8U70kKwFTLq-851ubnJQTKw-JgW1nOl8HFqQ-jkCWSo_yES6XVj6D07GYWFHDDhlxsSPqZX4goGdo_mNiplKBNg17Vuc9K_zg44ZHhIv5NUfJTP7WdV8UThFtr3wRlnO0lL6VQENxjin-4TY4aNKf90WbPQZDG9tvh1nKOWkuTVSBiluQX7EscZAFC09eYWL3m4kp_V3rj4pLki_1Jc3ct3W1TCY7cvlJ4RFUS3paayqwmrYp0TjCwmQyegxiYGCiW6WUykeDt1xHHdTAb-rxhB0TsTnGhh6u6ywkso6uk04Fq8PTP9t5-C5vN_Bqqx66GS_qyw7FKVkU7Zqy-xY4zX14T5ROOu_rDvn2UFBg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109557877247416374150\">Pizza Lio</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5603
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-14T20:59:23+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "lilou bibard",
+              "uri": "https://www.google.com/maps/contrib/110890409823532622860/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLhP5dFf9QWspwecNx0bXD2VzzzLpvtHMpQw2Z5MVvifg7vMQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-04T22:02:57+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "CELINE DELABY",
+              "uri": "https://www.google.com/maps/contrib/107770242784492802806/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ8hVNMydV3Fu0V9MrQvy6rWTmrUs3rRIEqoKcUhXBMur12QA=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Whaou… une vrai surprise ! Beaucoup devraient prendre exemple, la qualité le service est irréprochable. Numéro 1 dans le secteur sans hésitation 👏",
+            "language_code": "",
+            "publish_time": "2026-04-17T18:53:01+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "jimmy devliegher",
+              "uri": "https://www.google.com/maps/contrib/111970669479816062622/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVhTQsrecyogZLKEQWvY3REJqDpVeSdyR792GnBLEvaLSiPK_wN=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bonnes pizzas\n, personne très agréable et disponible. Merci pour l’accueil chaleureux et les délicieuses pizzas.",
+            "language_code": "",
+            "publish_time": "2026-02-20T20:41:30+00:00",
+            "relative_publish_time": "il y a 8 mois",
+            "author": {
+              "display_name": "Pauline Olive",
+              "uri": "https://www.google.com/maps/contrib/112262730879576439356/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKnBfftXXYd14yYERZsBzPLe6uLXK_Z0DVbo0aJ8FjKI4PWmA=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super je recommande 100%",
+            "language_code": "",
+            "publish_time": "2025-11-15T14:15:30+00:00",
+            "relative_publish_time": "il y a 12 mois",
+            "author": {
+              "display_name": "Weill Mathis",
+              "uri": "https://www.google.com/maps/contrib/112604090004136485908/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIQCHdiB3imQ3Hfd6FxH2vw4PgXEmrl-ErGYrzSTCWFLvdnSw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 73
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1103,
+        "bo": 65,
+        "front": 1038,
+        "estimated_cost_eur": 2.575
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« l’accueil chaleureux »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Très bonnes pizzas »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 11:30–13:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués : 18:30–21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Pizzeria à Santes, appréciée pour ses pizzas et son accueil chaleureux. Horaires indiqués le midi et le soir."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "pizza-lio",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5603,
+    "changed": [
+      "ShopAtmosphere:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "a8eb43b31b456caeaa8d5b7065f8f334ce833a1ee497e6cebfb1190c31976e07",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

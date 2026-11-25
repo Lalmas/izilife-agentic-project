@@ -1,0 +1,84 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.92,
+        "source_url": "izilife://current",
+        "evidence": "nous avons fait un mariage ici"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "nous avons fait un mariage ici"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "nous avons fait un mariage ici"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:00 – 00:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "samedi: 19:00 – 00:00"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "grandes-occasions",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "nous avons fait un mariage ici"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis contrastés sur le service : un avis le juge impeccable, un autre le critique."
+    ],
+    "summary": "Restaurant-estaminet à Fretin, avec cuisine faite maison et viande saluée dans les avis. Ouvert le midi en semaine et le soir le vendredi et le samedi. Un mariage y a été célébré ; un avis recommande de réserver."
+  },
+  "meta": {
+    "cache_key": "264c99d1907b3708f8f1ec9f58a769bfde398ba1ff937435b8ac71a7631a6963",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Très bon resto » ; « chez maison goguette »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Très bon resto » ; horaires proposés le midi et le soir."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « Très bon resto »."
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Accueil très chaleureux. »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Avis de restaurant ; horaires du mardi au dimanche dès 12:00."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "Avis de restaurant ; horaires du mardi au samedi en soirée."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Maison Goguette est référencée comme bar et décrite comme un restaurant par un avis. Les horaires comprennent des services le midi et le soir, et les avis soulignent l’accueil chaleureux."
+  },
+  "meta": {
+    "cache_key": "38e4c33fc5b1653c62a5d2ab9dcbabfa3fac97665f73dac0a338a585cc670afe",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

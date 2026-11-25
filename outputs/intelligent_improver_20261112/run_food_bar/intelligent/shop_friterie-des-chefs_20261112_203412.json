@@ -1,0 +1,544 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:34:12",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-des-chefs",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "friterie-des-chefs",
+    "status": "found",
+    "data": {
+      "id": "5865",
+      "name": "Friterie des Chefs",
+      "shop_string_id": "friterie-des-chefs",
+      "unique_id": "b547af8af7b870d9d412afa5d02671f5",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55122",
+      "principal_cover": "55122",
+      "qr_code": null,
+      "phone_number": "+33767150194",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "8bis Avenue de l'Europe",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0521792",
+      "latitude": "50.5871867",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:02:31",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:02:31",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJs9HKHFrUwkcR_nyz3NeQUso",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5865,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-des-chefs",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "friterie-des-chefs"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55122",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5865_6af3a287b56e6.png",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4922",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34189",
+            "source_hourly_id": "4922",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34190",
+            "source_hourly_id": "4922",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34191",
+            "source_hourly_id": "4922",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34192",
+            "source_hourly_id": "4922",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34193",
+            "source_hourly_id": "4922",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34194",
+            "source_hourly_id": "4922",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34195",
+            "source_hourly_id": "4922",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "18:30",
+            "closure_hour": "21:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-des-chefs",
+      "google_place_id": "ChIJs9HKHFrUwkcR_nyz3NeQUso",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:30 – 13:30, 18:30 – 21:30",
+          "mercredi: 11:30 – 13:30, 18:30 – 21:30",
+          "jeudi: 11:30 – 13:30, 18:30 – 21:30",
+          "vendredi: 11:30 – 13:30, 18:30 – 21:30",
+          "samedi: 11:30 – 14:00, 18:30 – 21:30",
+          "dimanche: 18:30 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 2588,
+            "height": 1456,
+            "photo_reference": "AV-0GLe_SWq5djaMpjZa1gqTdTknYyJqmkdZJlQ2GoDBhfoy8x06VCnVPgzDexloeS1dgoxh5nkR9fWxOA8rpAyOf9JhojmtdJt-BPg9tYvWpKgvVlKA8GeBk2Iji8fbaeqr5VXfs5Mxv86bsqQPCfmHrbDizDEZGSCFgKJbmyX8JYrGk7ETqBAp6JsZA8SEzeyTdv_cAcc2SSGVeXckE3qIZf5hra9OzkbE2_uKCRYVXquQ42NPtr-pEacd2lAyEL8OPhOAezSWHQI4nuLCUSpMtn6D_v0eT3pywsUSvhUwmA5xeNyKtpx6UnBl3j8m9ACgxzcGlMB9X4mPdqdSwqNi5v2WN_hGIiNYk-kR_nO9DpKV-rx092T89dzDqlQOm7opZ47pDkeJHe6JQt5aLzqOcKEbE9CcLmc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108606350077611878626\">Friterie des Chefs</a>"
+            ]
+          },
+          {
+            "width": 1306,
+            "height": 635,
+            "photo_reference": "AV-0GLeSR_JuI54yZoI6wabnZzYCa6dQE_5j8U21AZkZIDiMjGwX8WGzNhKmmuWZ5v61HdWUZnqUwqorLRQOar099dned9tbN9Gzeum2NRvCBQ5JoNc_ZgPfneCWLfurC6jqp20Fsd3dExDS7WHf89zqxw7p_9Fe9VfpVtIZyck3WjQ5Af6BnL8PvEth1VyfGZIi5BcMWFHF-5F7N19eO295X9-whsYTT9JcXvsnX712zeXXCnKCEVyHEpOqcLcTRpYCItANPosJPrnmANws4_z_UemY1JVYfvUCd9Il5M0ChMClqzEGUM6UEBHJ5cBiYkgIhs4810OjG-WhNU2ZcyDVFcwMW0iV6CS0MI2RMwFtHH0bPjRQgtS9C5kg7fNHmV3nyPNf9MQAnxUVQmucLOLGXyzZXcY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102654287058669761115\">Thomas Saint-Solieux</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLcui1KSHCKlcUXb1ozPPppMiSrJ2VPEcWZvmvTL33ZKB_p8N5uQLjAsQTJuPK7NSv7mBxu0qdPJbQn0wyCe1SE4zYqjHlnfxryU3mTlh9tOOuIuVjORBO-16uUFm66X7MB3aUswIaRHgR-Awnd098a_SV6zOaLBsqs3pOmQnHy977hvyPSCBq78WZt3-2nWtLNE8cyxULbPilET5BeCCpF6XkI5TnOJyNlOfELBeLo2i9B3h-LlDuSVNgESiAgSJD3arNCkc4l1S8pED0Fg4tY3sJpskN1lvTiusp69pizS066Kz2QMkgoBVW4PcII3acscFtjS4K8bH65Y0wm7oJLrOpZYBKzmt-tMGJ0-AeIw5TeCbf7Zc3A-Vh3TskdBzH0JMASnLi4aSrtSo9RWpy-j4dL2poJJbyG4YDjOMTJD",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105028478332145099262\">Denis Pamart</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfpRgNd91M8jumwiqrBM74fRah2c8EEZ4GyM_Cj-HDtdks5oW8AHOCsiIZMDOtfxWIDZM1TvuX8SYvC6xw7J11XGor-XDPtPvL_n9CFeA5xVNE7MkJHUqFUUZIrMqqjM1gI1xZN8ggvHtDGDlGczoemcAShx9IlzCsHQnla_3eqsJ2BLOhWYA3l7dVJd1E1mlQ2iuJFn6UtF_rhwfItrglm9gLXfnTEPE-Thb3T4Pd0cdEfhW9SlmHMjiVGLd8c_p7teoojnpOHDr0ovN_vhsGpZHdA2_THy905SbQZRHkaQypYrgPoKf-zuokvAwTkFA3-luiXPWEFFlCuPfFesjEunuxootbTdqwOXjzikBxBe5culeySFNj2eVw2aK-dgW3TBKyw5j4zaqPeHtFQFlSnl3M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110598779796934567795\">AQUA DIVE</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 3096,
+            "photo_reference": "AV-0GLcnV0BsxJdah5xzu8Xugi5VRqVXUwPRwvvJD18RdWxpFlILF4_kjKrKgcUFaKLCreWbeciLK5HeA-l4fPf2endV4uAwrXCxfVnEHvuhKNwW6iMb5RHoTQSE30HKgrnPolpfYoC8-vwZ8zcbPhtrCC6ty6ovTQbsPBEStvSjKw5cttnG05bID85WxMPnaZBsoHDNv2Q6tE94qFkNxXOm0IRaTq-gy5HgpINsgy3dvX8mzTkUlwp563SrsQAjuG-vntT2Uelpdo6JtB1dQ-hMb1wac_KhoCpR6MXnLaa-622HlTwq9mS7nmURt4YAvBMMQMLnV5LAMm3Omay-lY1cwOumqfYju3S-LXj3RyxAqHIFFI-w1zDeI3rCOgPfODSogqkQgjgaBuAMy_1aHvxr2HqEu3zNpyU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108362021232659237116\">Avand Fardi</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLePQmOHpUNftw-oe7oiPkCmz2Tadq1IhIBOK52VtYPgQDnMPJcZYD6bkMblHUwmMa7fMC_GocUA7JVezOAtqExllQHcWrLiwUFPC_EGIFVkt9IJI_4WWPNKdpmymIUHIeqV3Aw_dozQqbXljjfbq_hfy9TZtVLqKqN2ySuKs1PWqcH6O94oxvGAnMRhfZIE6hKdzj7mOrn2AUXAMiWYzEUDZf4y_px6ux8_AD_Pf-bV5gX0nX5-wgqcs5NHx-sbTIlohbdfGzQsaU4KRlf_py0D7Ae-E5BbgOanzcNKEiy0IjRniOvCefl4AIg7tao9BkKuDNu2zc3WUbxSGwm4TR2z52Moq5Og3ZLhUxOFDZDroaibaT7e_w6vAJ8gFnYCA6lAk3V9pwxve9zIlITU7AqVojI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110480247192791180837\">Michael MOZAR</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcNxtD_e47nmp9gljUZ2v-IxGiBqdWlEIcbSuG4lPRgoFu9w5v9OU2-OUqFqVVuzeyI-OEISBg_AkL5idOkz0RTr5x7-y87sHGiRyXbnh19VCLTboLbkxjCrg7HpFuvTPASc6AZ8JdNyb6KeECbTKJ9eCMIaLJnl6_8n2-sIAsaU0Yc8TK_IHRRAS3LkmEKZfmDYmpfwXxdmO3ujr39DMDRAItdQYgEug001JpNs_xXRGAJM_2FLu3yi_EcsT_FSmsSqGHVfIDBEOJ2N1xPL1EaKK4MazXGfJgmKAhRpYQNV46PQ2u99GY4UUwMBq-7oyORo5hqOq3xzXeeUWSlWIMX7c3y3fArN-u_tdXRPQ1npWKyrvOUZlUgXLKk47VdVfM7_TJZz6Q8rNdO5L6dxxgTnPUSgdQhPG24w2Ke3vyrRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110024403477699943595\">Romain Pruvost</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLcenYXryhSPE-TrtGCv1wSUJ_MQGhaDA1wTp_OLfdIzZhy1b4orMsxUruMDNdsUXd38eB4Wkl6s9Ya98t3Dsxc0SEstA-8FLvywwlFVXBO7UoxRu0PwSgbGtgswzT-WA5yGsZmneEO15Y4s23B7eCi-N4hmDUr8XszePMlwVEUHHIYkCPopY5VTGiqmt7PvMIitn2Y4EaaUlWPojGfZdJNkrYPWQRtAZvO7i5qA8c4y-fx55YG4bFDqmY11i_qfVwD5zArUMINv162qpXTJG_sVpQfr0VJE8llQ4xaou1ckm_9jLxw0lg9KMqUhOWnR_XIItBlcaGrOD_hy6iVJ0rdY-l6HPa147T3_9vvsuQFjbrt4i8s7AFPd09dujvFjpdlEv_U-B5IyvZULa2qVfKyEn2s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106195112900597261549\">chaine Lana</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfpQl8SQCPqdXo8geHK02PkDv0YonfH8Dr8UFSynYQUabgHQBf2zmnK3V7jfs2FXGwrOrL6nSbMSD7joUGYAissH6cxV34o2-w6ala8dPB2PTOxG8EB_eWJtglP2YZrYU5P9TtYjATgtSogdoMb7iAq04aqklEQ7ZNra3sVkKJ9llK7Hb6o3o-pjwM8nuMX4-tBdxnoYpAiRAQilkdjnezOFx5z5WnI0i8HpMT5KRkB5duaruEFd01zL1i--bWi4fXelMIYj4ir3hkJqK_GJMHfX4jttwI7paXfdZqGYrlB3SQMzEACMStRGPbg9WSGvpbyKGK3qffT0467R1hyV3STnkqPN2Tpu_5fUGie0eh8Y0MtScpi9ABU3dEBpxTb_Y6-SeIrrYDoT0wJ5oaGn755AIKvrFI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102474984406249148016\">Wax Doll</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe74VJSoQWq5w7Kp1eGsoZ-AI0hAkFBK8F-xlwTMabhr7MKBESocZ74vO9SR9mBobgofCyX5W5ol-qjFl5VVm8lzXrwbu0bepbIJaF2lTFuNxq8IGPBjvZaMKdUgk3GklofdQOn46Jh26NR4ceDMZTwpfbANqvOpgwRXxv8Kd0lu-EkGUYdht5IfJ8daq_rfnPJzAwsCn_kLVAdP4cpq-HR1ahIG3yTyg4VV_2uzerSOlJl3a6A6IznhokgSzgB5vURsTJ3W1aPc2rTX1cnU2I7PBOwYF_pgoRzICbePqMrQRT7EDli7gDVGPWJHWvjAxErEyFfJVBlANJBnIFIPTT4H6VvdO_MOBTs8nFWMjj8yOCqgL4NXwq87jFImQO4lALUyGkNpKQ-IfqSM5NE4z84fxM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114801513855098489283\">Berenyce Graux</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5865
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:30 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne documentent pas les modalités de consommation, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: friterie"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:30 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Wattignies, ouverte le midi et en soirée plusieurs jours par semaine."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-des-chefs",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "frites"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5865,
+    "changed": [
+      "ShopKnowedMeal:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "ffc388b9487980ee1fc23172cf8fbafec387848f544c9af0603a03f58ec1d991",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:53:35.594867",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 78,
+      "title": "BuzzAttack — expérience jeu télé en direct",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://feverup.com/m/615539",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "jeux",
+          "minimal_age": "5",
+          "language_string_ids": [
+            "fr",
+            "en"
+          ],
+          "hobby_string_ids": [
+            "jeux-de-societe",
+            "enigmes"
+          ],
+          "occasion_string_ids": [
+            "team-building-seminaire",
+            "anniversaire-adulte"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7"
+          ],
+          "session_configuration": {
+            "name": "BuzzAttack Sessions",
+            "description": "Sessions disponibles toutes les 20 minutes de 10:00 à 23:00.",
+            "dates": [
+              "2026-11-08",
+              "2026-12-31"
+            ]
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "hour_list": [
+                "10:00",
+                "10:20",
+                "10:40",
+                "11:00",
+                "11:20",
+                "11:40",
+                "12:00",
+                "12:20",
+                "12:40",
+                "13:00",
+                "13:20",
+                "13:40",
+                "14:00",
+                "14:20",
+                "14:40",
+                "15:00",
+                "15:20",
+                "15:40",
+                "16:00",
+                "16:20",
+                "16:40",
+                "17:00",
+                "17:20",
+                "17:40",
+                "18:00",
+                "18:20",
+                "18:40",
+                "19:00",
+                "19:20",
+                "19:40",
+                "20:00",
+                "20:20",
+                "20:40",
+                "21:00",
+                "21:20",
+                "21:40",
+                "22:00",
+                "22:20",
+                "22:40",
+                "23:00"
+              ]
+            }
+          ],
+          "element_access_prices": [
+            {
+              "name": "BuzzSquad (4 à 6 personnes)",
+              "price": "22.90"
+            },
+            {
+              "name": "BuzzLeague (7 à 9 personnes)",
+              "price": "20.90"
+            },
+            {
+              "name": "BuzzRoyale (10 à 12 personnes)",
+              "price": "18.90"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.9,
+                "evidence": "Expériences et expositions immersives"
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Un jeu télévisé classique et fun"
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Parfait pour les groupes"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Convient à tous les publics"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Parfait pour les groupes de toutes tailles"
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Format Intérieur, climatisé"
+              }
+            ],
+            "editorial": [
+              {
+                "type": "Atmosphere",
+                "string_id": "chaleureux",
+                "confidence": 0.8,
+                "evidence": "Superbe accueil par le personnel"
+              },
+              {
+                "type": "VisitMoment",
+                "string_id": "apres-midi",
+                "confidence": 0.8,
+                "evidence": "Sessions disponibles toutes les 20 minutes de 10:00 à 23:00"
+              }
+            ]
+          },
+          "primary_image_url": "https://applications-media.feverup.com/image/upload/f_auto,ar_15:8,c_fill/fever2/plan/photo/40eb1fae-05ef-11f1-9614-bab92dbb370d.jpg"
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 78,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 121,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:53:45.448621"
+}

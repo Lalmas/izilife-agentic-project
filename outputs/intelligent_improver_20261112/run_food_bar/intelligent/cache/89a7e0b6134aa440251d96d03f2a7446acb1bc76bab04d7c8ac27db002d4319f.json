@@ -1,0 +1,116 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "https://entreprises.lefigaro.fr/la-theiere-59/entreprise-991250275",
+        "evidence": "boissons (non alcoolisées) à consommer sur place"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "l’ambiance conviviale et familiale"
+      },
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "pâtisseries orientales d’une grande qualité"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "prix raisonnable"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://entreprises.lefigaro.fr/la-theiere-59/entreprise-991250275",
+        "evidence": "petite restauration"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "prendre un thé"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "service chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "petit-déjeuner exceptionnel"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "parfait pour déjeuner"
+        }
+      ],
+      "KnowedDrink": [
+        {
+          "string_id": "the-menthe",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Le thé à la menthe est tout simplement parfait"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "the",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "prendre un thé"
+        },
+        {
+          "string_id": "patisserie",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "pâtisseries orientales"
+        },
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "pains, viennoiseries"
+        },
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "petit-déjeuner exceptionnel"
+        }
+      ]
+    },
+    "warnings": [
+      "Les sources consultées ne précisent pas l’accessibilité, les moyens de paiement, la commande, ni les équipements ou services pour enfants."
+    ],
+    "summary": "Salon de thé à l’ambiance chaleureuse et familiale, apprécié pour son petit-déjeuner fait maison, ses pains, viennoiseries et pâtisseries orientales, ainsi que son thé à la menthe. Le déjeuner et la consommation sur place sont également mentionnés."
+  },
+  "meta": {
+    "cache_key": "89a7e0b6134aa440251d96d03f2a7446acb1bc76bab04d7c8ac27db002d4319f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

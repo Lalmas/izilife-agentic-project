@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:25:08",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-les-crapauds-fous",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-les-crapauds-fous",
+    "status": "found",
+    "data": {
+      "id": "5804",
+      "name": "Brasserie Les crapauds Fous",
+      "shop_string_id": "brasserie-les-crapauds-fous",
+      "unique_id": "bcd7ef1f56c8b5ee2f199f0a7c0a9f9c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55058",
+      "principal_cover": "55058",
+      "qr_code": null,
+      "phone_number": "+33780777713",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "410 Rue d'Athènes",
+      "additional_address": null,
+      "zip_code": "62138",
+      "city_id": "786",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.8515072",
+      "latitude": "50.5153782",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:52:14",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:52:14",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJhx9ub_Ev3UcR3nnAngC-adI",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5804,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-les-crapauds-fous",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "billy-berclau",
+      "string_id": "brasserie-les-crapauds-fous"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55058",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5804_6af3a01e267fe.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4862",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33769",
+            "source_hourly_id": "4862",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33770",
+            "source_hourly_id": "4862",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33771",
+            "source_hourly_id": "4862",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "17:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33772",
+            "source_hourly_id": "4862",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33773",
+            "source_hourly_id": "4862",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33774",
+            "source_hourly_id": "4862",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33775",
+            "source_hourly_id": "4862",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-les-crapauds-fous",
+      "google_place_id": "ChIJhx9ub_Ev3UcR3nnAngC-adI",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 09:00 – 17:00",
+          "mercredi: 09:00 – 17:00",
+          "jeudi: 09:00 – 20:00",
+          "vendredi: 09:00 – 20:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 2701,
+            "photo_reference": "AV-0GLe4atqiwkRk7gTBlNyBqU6DUlrq8dsgGIt31kcAYkrgR8dgAMA5Y8pXqX4HKZuwcIMHm7w2UqkcEQ3TMCozxE7eIhRn6XC3uPTMZpEo7AtvMpgMCnjx_d-B5J7iXLvFl_ZyCNtqY1lKg-u_Z2FEwoVjS1kdYbEnWNqbGXdVygi5AhRQMl66IIilCdq4ofxSV7uGyDFct5JBYfH7-4cNrbVpUaXcipkdFvDW7QU8ruD8WMrcS82esn4EaSChR8s15CiK3BtDwPiLKUAu-MfIxsuXOwg3MIeLxdGdz3_Nu6RJSIapw5cUhpmFipidfAGDL2vUo9p7PGHndCGTDLKav5XhIseJhKRs8dkgbdY-5qYSO9Oo02BFS7BkNckHUlejyPInK1zbP8nGWnwnvBeYYebsR2E5w8tln9fvw3mJECgM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118101891629604028380\">Brasserie Les crapauds Fous</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfmeTGmTn7TEJ6nXaquDsXdbhpetxKa5HErwpHQlev8ldoFc5FFotyZYsC_sFcBoJ21UAInPtXqidPURcmseO1SFrPfD7lswY6-5LIUpNh4nSGeQ0GiW_p838f-9fTExIk-MEXWoXCaBCx050U2xtOR-G_2Nw5E1IV0D-mxAhHVTzxxiX3ZS36J_XLJqvz4S1eKCEv_EwfHD4AL6ct1sYmzegfPMq-tTTAqtZXqx7RwjpkXcU0qaYKyRVNbRqjgGp0wShXHqNrUNERbq9CTPzyR-z3v7FJnwZGEt9BbST8UOe501b0xrl1ZEQEuxOJLqpMcxl93WUGtW4gxs2jb7IBlP69Dc34BSiXuPbq-abIjGm69pqJLtXPZG3FtZ9vxr3TRtMaA5Z7fvMy_n8nBPQ8AFokAG6Er-kvsZP2h7i9L",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111549237777296518997\">Marie-paule devos</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3200,
+            "photo_reference": "AV-0GLcFYUdVvogxv1RQ6uskoBRjMepmMI1RhjI3k2CLljLlY1Fb9scN3f3YgTBrzdQP81qZIkH_hQ7qf-ic0ExCILjZ_JhpYZMQlEQlj9Obx41EOWbCN-kIYbJIr9O6TdxK7B4KK3k0iedE1-JT12dBh1vbnOKqqnjb7eDIrcG02T3sNL5TiQurfQwAZJ4fIrp_K6-HP6xzWH47Oq5lETvMOc3vId3N_TFiGF_6enkOlUwFsN0o-d8LbhXftPn97C4cAQSvOdmOEM-YNyhV3ncyuF3xfpCwAE3-XKb-S8UlaDIWrHfJIr-fGGyaZQitHNrL2xkXN_4lAJcKn5a3nUGokPtAfpMxBOMeB7cetQFAbGMmiLwGTSTPsLtnaJHlzKYER3ndaQy1f8_iW3RCjGwkdlfTbkH6TuXNC4mEi06s10dr",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118101891629604028380\">Brasserie Les crapauds Fous</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2701,
+            "photo_reference": "AV-0GLfdwsx0Urz_N5pXyOCyyi33aor-TsBwGSOMo-RCI0WA-BFRQudsfrGsI5jky6XubXTgn3JfUwnD6N9Jbrpavui3NX-p8Tm0nGeCgwF0UWOBwotLGE6nrRW8U3Rn_2m3cb_B7XCK_K8VCAPffD7x73rMuhIhoByqOrYh7mndH7h63E5kM5lJYwAxQZEvhGKYQOI4dQrsZg44yfgMxWs66RekNkEjQ9JdefmaUqBbfTD8byBshzYbffGc_yC5bRpOPDUd-duuNIUmpPwyeFXbG9kreKgmRmI4EURAcuZYF6_vREdJt5koxIn5vGOpTxY2zwaH-KzMf9TT-KxueTSeMhvo4p8GxpO30lNkGOZs17-O6k2v5j32i4KkQkwarpdqNeevClEQGXvrExz-HPAST__ms-E08sqUIiDWDYymKb7ypQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118101891629604028380\">Brasserie Les crapauds Fous</a>"
+            ]
+          },
+          {
+            "width": 2250,
+            "height": 4000,
+            "photo_reference": "AV-0GLff5FkUl2m2iLAMGtTcGuWYKfEfnJfKa5XUXnZxKR39btW1j-39Hzsb5OJ6Fe9CUoi7Ad6WEw0-_8R9RmyS8-JEhvHDdbnsfgsK9Y-p5Qde1-KhQTAyqh16cvlOuOuD53zShYk__ZivXp7y7YmanldbHwij02Zn9l-P7t3ru6anfQ5U38oNkxgJ2YknVOl9tNrmMzjMoyUYG45hA3wE8GwApQhEV76XVEGcKY9Yk40JgGS-F9nfQlwTal24UrCtS3BkWijbXHRq8Wo8z3w7aPmiuar42xHPpHOEXTiu2gFU5x400DWYkDGF4-Y90di93Xle3EQyvOKTIDnzpSXbyJ-QdbsbFS9HFxeFUZk-Bkd-x0mkGM6aIE5gQccqLeE889zK0NQWHTnfNrRFTWrOkmnw9ZTOe04",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLfz7Nvd5Q7P21otwh8FinyfvtPsDMUdrwLfb9wQ4JIdhtqGLrYfq-X99vZrFklVgofACM4RxH1yztNspKp6r7V2j_KGeI6_X1fgCG98QmbacWEg_V4xOhnl-o2-dHFGWyynJNXGNbthzKAwu7nTSbjOCeeOcO3weSUtcNy2gUAJsltLlHToZHd7tMrug0Xn6gLJvYwDrOFYCADNynevw1obEZaiHbOqJSPqaEFXdQolkMuPX3vY1PyZzV_dJnDym7QHnw-aplXEHKjwCCtSkG3tpOUVn6qpTgJNmxycmuNrCPf64Cu8p9sypxAod8qfH1DV3DoAl4fz1nPlnCZ7XBcGmcxqPNMJRPyjrdPe9nX46MxlFG8lNYyRlXF8m2_3w0kixWP9FOQa3fvha3wzkG6GU-Ge",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2701,
+            "photo_reference": "AV-0GLd5O2go7Ymg9kX1GSSuUxir7YsNYEiZFgNJKcDhDLrPX8jT9ngPxGuJjC2sQHXqW8RF-xcgkSGTmCrbwQ2-37mlWPWVkXK9kjD-Kn7VIsdimEQYvdUoTQG0Yf_HC82gzYecAGJfjIhrnU1pddFWJKmjHPZorVxK4qKlDybqSzKZ6sKKaCJlizZs6BmVNZ9YhsIb4Sg2vju6JFMbp4aQ9qOwATjLs4b5ayL-nGIjxDge6njpZfpjlyX2tu3p9ifHZkfJLUPMoA-8eXBBGcklPlchpq8q3cRwlvUwtpod7Ij1mAMiR9AadldeQlTQKmdQyyrUAA3q9qYbDP9iShsXCAllQWc-XsFPeamE-sbr4T_KfG7t2V0DVUcZwNl6ombxdTMJ_fy30nx73NYa-MBIouVSqcftw7jhY08JEKI8uBS_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118101891629604028380\">Brasserie Les crapauds Fous</a>"
+            ]
+          },
+          {
+            "width": 494,
+            "height": 645,
+            "photo_reference": "AV-0GLcTN90kYDkIssdG5fV2XfgVhdbAIWPRRLI7Opu-IjOhEcek5l-etWyPDcB7uYvG_CeUBL6EzxinJsbIBhrk4SJQVJhnL4xYoNJE3WLlBaVhfjVYpwLyoWorl9M5rD1Ds2rrqIy-ZF6YSr--vc3Aq3eNtAKVbKJdDXYqalqh4LWth2AKl9FMbEq0hWpLcgMHnVbR8B1wNA1AxidQ8J85U24NTiwi2D6-VIGxndVQGKk_gbz71gDN7gMhzoWPPvAmpoWY7I1bYyZ3fuDpiXzxBdt-0l3n5HC_rD0TuMuCpScefICgjV2bAHNRwPS04OnG4VSbv8tL16nW0WjUMLBLUfzg9IaPGkoIH045mqHuvAydLcI0QF5BfzHhVRz6Av5GXbkQHmB5UoGyYWLZymbcYg75gZ3N3ZI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113725451454840939410\">Edouard D</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 2250,
+            "photo_reference": "AV-0GLcvoMrkUNHUNH36e1pJbGTqvfCzHMWOseXwOKjdq6GSAtY0SE4bUgVmrFPDO0toXFqG6sHUrTHfweqEmeI1OpYbJNDwEz6svhvTBJIIAl5LWttV3TFdL3XwQ01Y-zeR__ff1htDaPnfo-p_DL1RuA8fgu6W2cnvq-tBzAWQ9-kt2jWTzy6g-jmsHs7-rWLXIgeAPRNdHwFkgSLwGesMVHTIAITbA8QeQo4At3D_aQF_OL-CLiALmLQ0TyIC0UPj0SzUwK6d_ZAjtc1YiKM8ny2XArMDBSiwF3q2zvWNBkpPcyMv9bnBX9j_1S4CK7lgHoDOv19iRiqfgL57ci02DtL-ZaRFVizLdSEVhT637KMAe1Sei5Aj4Ug8ZqN2lLW_-KeTAISQOD6jdeUNimQG26RvGkk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104742472635400427360\">Johnny Doolaeghe</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLf1jKcQpoRDyNgkndmCkjs6PRFJfInKij81MVhMeEW_6gqk6lHnywGzlTemHtIrywrgppj7PQlsevL_C5OoKAKpMIxFfLfz8M0s7iB2BNJbJRr2n-chgL3BP6CO6lAkvQ0XvSk8cDRD7hvIkvsG6yYvNK0b0aa3jze-m2n0YjP5uVhFzwnFyUNvvJ_oPTDPOn5I8yRzbaRfPE336wHh4YtuQyzNonUfy-fhzHZny0kgkc_jgMTXPQQDvXsbK5t01BO2efE1Bb4-zP09NilAdcdI9BDR3EYgBOwwjGmW8w2a3wYTP3rGWM79iRGfbD_CSayYQJ0K80NGHgofdGPcB6L6F5n2ypM-8cktU0DtWZKq4-sfrzKGNltzYXvd6c1706TNP7YVRGQAolXguvsXH-RVmMSUvORPBJbxibBR9gMB",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111549237777296518997\">Marie-paule devos</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5804
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne décrivent pas les services, équipements, plats ou ambiances ; aucune caractéristique ne peut être attribuée sur cette seule base."
+    ],
+    "rejected": [],
+    "summary": "Brasserie Les crapauds Fous, au 410 Rue d’Athènes à Billy-Berclau. Les horaires fournis indiquent une ouverture du mardi au vendredi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-les-crapauds-fous",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5804,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "489e92ba3283854c9fa295ff8d992117baa9f0ce1e406c128b9337c812904c7b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

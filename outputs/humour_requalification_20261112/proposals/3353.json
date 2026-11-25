@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3353,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.86,
+    "evidence": [
+      "Le titre et la description annoncent un spectacle humoristique en rodage, fondé sur les vannes de Nordine Ganso.",
+      "La description ne mentionne ni plateau, ni programmation de plusieurs humoristes, ni autre forme précise justifiant une recatégorisation."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le stand-up n'est pas explicitement nommé et les critères d'un one-man-show écrit et mis en scène ne sont pas établis ; le classement existant est conservé."
+      }
+    ]
+  }
+}

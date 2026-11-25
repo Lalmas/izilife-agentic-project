@@ -1,0 +1,51 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Je viens assez souvent dans ce restaurant » ; « Nous avons passé un très mauvais repas »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Les avis mentionnent des repas pris dans le restaurant."
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« excellent restaurant propre chaleureux »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "asiatique",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Le nom du commerce est « Asian Grill »."
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis publié le 29 octobre 2026 rapporte la présence répétée de cafards près de la nourriture et des sauces du wok ; il s’agit d’un témoignage client, non d’un fait vérifié indépendamment."
+    ],
+    "summary": "Restaurant-buffet nommé Asian Grill, avec consommation sur place mentionnée dans les avis. Un client le décrit comme chaleureux ; un autre signale un problème d’hygiène allégué."
+  },
+  "meta": {
+    "cache_key": "29d3672f406f024941e31d63a4555155fc05900aba54e7980ca047b32685c355",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

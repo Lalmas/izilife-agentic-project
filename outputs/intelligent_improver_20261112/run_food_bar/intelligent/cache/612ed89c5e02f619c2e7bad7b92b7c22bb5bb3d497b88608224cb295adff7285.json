@@ -1,0 +1,242 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "différents espaces avec tables"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.96,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "Le midi, l’établissement propose entrées, plats et desserts"
+      },
+      {
+        "string_id": "a-emporter",
+        "confidence": 0.99,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "Plats à emporter (passer commande)"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.96,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "pâtisseries et douceurs"
+      },
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.95,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "espace de jeux et livres à consulter sur place pour petits et grands"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.94,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "moments de détente en famille"
+      },
+      {
+        "string_id": "bien-en-solo",
+        "confidence": 0.98,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "déguster thé ou café seul"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "entre amis autour d’un jeu de société"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.97,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "un lieu de vie chaleureux, convivial, intergénérationnel"
+      },
+      {
+        "string_id": "produits-locaux",
+        "confidence": 0.97,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "produits frais et locaux en circuits courts"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.98,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "autour d’un jeu de société"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "is_for_children",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "pour petits et grands"
+      },
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "espace de jeux et livres à consulter sur place"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "moments de détente en famille"
+      },
+      {
+        "field": "adapted_to_family_with_children",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "espace de jeux et livres à consulter sur place pour petits et grands"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "entre amis autour d’un jeu de société"
+      },
+      {
+        "field": "adapted_for_alone",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "déguster thé ou café seul"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "différents espaces avec tables hautes, basses, normales"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+        "evidence": "salon de thé avec restauration le midi"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "un salon de thé (qui sert aussi du café !)"
+      },
+      {
+        "field": "can_have_tea_time",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "salon de thé"
+      },
+      {
+        "field": "can_work",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+        "evidence": "seul en télétravail"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+        "evidence": "partager une bière ou un verre de vin"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/2023/01/05/a-toute-heure-de-la-journee-la-casa-de-celia-est-votre-casa/",
+          "evidence": "un lieu de vie chaleureux"
+        },
+        {
+          "string_id": "cosy",
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "ambiance « comme à la maison »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "restauration le midi"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.94,
+          "source_url": "https://tourisme.pevelecarembault.fr/leter-en-pevele-carembault/destination-phalempin-et-sa-foret/se-restaurer/restaurants/casa-celia",
+          "evidence": "pâtisseries et douceurs pour accompagner vos moments de détente"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "le matin comme l’après-midi"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.96,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "le matin comme l’après-midi"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Le midi, l’établissement propose entrées, plats et desserts"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "jeux-de-societe",
+          "confidence": 0.98,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "autour d’un jeu de société"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "sur-place",
+          "confidence": 0.97,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "vous pouvez déguster thé ou café"
+        },
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://www.phalempin.fr/mon-quotidien/commercants-et-entreprises/",
+          "evidence": "Plats à emporter (passer commande)"
+        }
+      ]
+    },
+    "warnings": [
+      "L’adresse indiquée dans current_izilife est « 4 Rue Jean Baptiste Lebas », tandis que les pages de la mairie et du tourisme indiquent « 4ter rue Jean-Baptiste Lebas ». Vérifier l’adresse exacte."
+    ],
+    "summary": "Salon de thé convivial avec café, pâtisseries et restauration maison le midi ; on peut s’y installer seul, en famille ou entre amis, jouer à des jeux de société, télétravailler et emporter des plats."
+  },
+  "meta": {
+    "cache_key": "612ed89c5e02f619c2e7bad7b92b7c22bb5bb3d497b88608224cb295adff7285",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

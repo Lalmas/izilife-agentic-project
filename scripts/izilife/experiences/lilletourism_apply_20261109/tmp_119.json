@@ -1,0 +1,33 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-09T15:50:37.886297",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 119,
+      "title": "Impérial City Tour",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/imperial-city-tour.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "75.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 119,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 147,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "ai_calls": 0,
+  "completed_at": "2026-11-09T15:50:38.444881"
+}

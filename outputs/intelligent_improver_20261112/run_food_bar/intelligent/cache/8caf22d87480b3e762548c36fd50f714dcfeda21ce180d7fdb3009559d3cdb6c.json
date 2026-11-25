@@ -1,0 +1,62 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "kids-friendly",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: kids-friendly"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-a-buffet"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_children",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "characteristics: kids-friendly"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant-a-buffet"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: chaleureux"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "ambiences: decontracte"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas l’accessibilité, les options à emporter, les moyens de paiement ni les modalités de commande."
+    ],
+    "summary": "King Wok est un restaurant buffet à Wattignies, décrit comme chaleureux et décontracté, avec une caractéristique kids-friendly."
+  },
+  "meta": {
+    "cache_key": "8caf22d87480b3e762548c36fd50f714dcfeda21ce180d7fdb3009559d3cdb6c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

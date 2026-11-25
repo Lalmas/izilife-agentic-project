@@ -1,0 +1,98 @@
+{
+  "environment": "prod",
+  "mode": "review",
+  "started_at": "2026-11-09T15:47:54.542415",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 195,
+      "title": "Le vélodrome, jour de compet'! - Roubaix",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/le-velodrome-jour-de-compet-roubaix.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "90.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "reviewed",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "histoire",
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "visiter",
+            "monument"
+          ],
+          "additional_image_urls": [
+            "https://reservation.lilletourism.com/medias/images/prestations/v-lodrome-roubaix-tourisme-615353-615355.jpg"
+          ],
+          "age_category_ids": [
+            "1",
+            "2"
+          ],
+          "session_configuration": {
+            "name": "Visites du vélodrome",
+            "description": "Visites proposées les samedis 28 novembre et 19 décembre, de 14 h à 15 h 30."
+          },
+          "session_contents": [
+            {
+              "day_list": [
+                6
+              ],
+              "hour_list": [
+                "14:00-15:30"
+              ]
+            }
+          ],
+          "element_access_prices": [
+            {
+              "name": "Tarif adulte",
+              "price": 11,
+              "currency": "EUR"
+            },
+            {
+              "name": "Enfant de moins de 6 ans",
+              "price": 0,
+              "currency": "EUR"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "kids-friendly",
+                "confidence": 0.99,
+                "evidence": "Cette visite est gratuite pour les enfants de moins de 6 ans, sur réservation."
+              },
+              {
+                "string_id": "adapte-aux-familles",
+                "confidence": 0.94,
+                "evidence": "Un tarif réduit est accordé aux familles de plus de 5 personnes et la visite est gratuite pour les enfants de moins de 6 ans."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "Cette visite est gratuite pour les enfants de moins de 6 ans, sur réservation."
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 1,
+                "confidence": 0.99,
+                "evidence": "Cette visite est gratuite pour les enfants de moins de 6 ans, sur réservation."
+              }
+            ],
+            "editorial": []
+          }
+        }
+      },
+      "provider": "openai"
+    }
+  ],
+  "ai_calls": 1,
+  "completed_at": "2026-11-09T15:48:17.029302"
+}

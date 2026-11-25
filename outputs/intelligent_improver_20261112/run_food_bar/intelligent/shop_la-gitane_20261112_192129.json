@@ -1,0 +1,563 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:21:29",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-gitane",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-gitane",
+    "status": "found",
+    "data": {
+      "id": "5828",
+      "name": "La Gitane",
+      "shop_string_id": "la-gitane",
+      "unique_id": "403c8d66ee3f87ef560af2e71888502e",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "40",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55083",
+      "principal_cover": "55083",
+      "qr_code": null,
+      "phone_number": "+33320973354",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "105 Rue du General de Gaulle",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0506541",
+      "latitude": "50.5816596",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:55:20",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:55:20",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJleo_6WDUwkcRc8ADQJ9d4-o",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJleo_6WDUwkcRc8ADQJ9d4-o\",\"rating\":4.3,\"user_rating_count\":213,\"google_maps_uri\":\"https://maps.google.com/?cid=16925474763143626867\",\"fetched_at\":\"2026-11-11T20:47:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Tres bien\",\"language_code\":\"\",\"publish_time\":\"2026-08-30T14:29:27+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Christian Tellier\",\"uri\":\"https://www.google.com/maps/contrib/116649771820950607469/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIPfww01D-Hz5tDBC4uMGjXfalOpuhY3n7zfolm2UaBPvPd9Q=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":3,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-27T10:54:16+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Jean-Michel Poignet\",\"uri\":\"https://www.google.com/maps/contrib/116060799704692904073/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJcdQk2khoGPAQNZpg8cTFd3MlWkp6tT5FWSyRdTJ7xa-Ip=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-04-01T18:15:48+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"Seb T\",\"uri\":\"https://www.google.com/maps/contrib/101811594897192339188/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUfeTVJRIDbAq-8x4RN2pPgC_EA9ztIQnA4xIxo6G1_DmyBiK96=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-03-29T08:20:39+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"MrGolfgti59330\",\"uri\":\"https://www.google.com/maps/contrib/105441608126292164922/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJORbye-6Tl1GdrlRZs0Z4CBc3Rbqc8uu_7l3mJ00VuVy6gHA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Très bonne cuisine et très bon service .Cadre sympa.\",\"language_code\":\"\",\"publish_time\":\"2026-03-27T19:17:36+00:00\",\"relative_publish_time\":\"il y a 7 mois\",\"author\":{\"display_name\":\"ALAIN DUHAYON\",\"uri\":\"https://www.google.com/maps/contrib/108189897695784104793/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKl93QgOZ8gZwLFFTIVAgLUhJH0tZKgWYyH2oDsXIDyPTxXPw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 20:47:25",
+      "google_reviews_place_id": "ChIJleo_6WDUwkcRc8ADQJ9d4-o",
+      "source_id": 5828,
+      "scope_type": "SHOP",
+      "scope_ref": "la-gitane",
+      "primary_category_ref": "bar-tabac",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "la-gitane"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55083",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5828_6af3a0d89377d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4884",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33923",
+            "source_hourly_id": "4884",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33924",
+            "source_hourly_id": "4884",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33925",
+            "source_hourly_id": "4884",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33926",
+            "source_hourly_id": "4884",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33927",
+            "source_hourly_id": "4884",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:30",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33928",
+            "source_hourly_id": "4884",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33929",
+            "source_hourly_id": "4884",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-gitane",
+      "google_place_id": "ChIJleo_6WDUwkcRc8ADQJ9d4-o",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:30 – 19:00",
+          "mardi: 06:30 – 19:00",
+          "mercredi: 06:30 – 19:00",
+          "jeudi: 06:30 – 19:00",
+          "vendredi: 06:30 – 19:00",
+          "samedi: 07:00 – 13:00",
+          "dimanche: 08:00 – 13:00"
+        ],
+        "photos": [
+          {
+            "width": 480,
+            "height": 640,
+            "photo_reference": "AV-0GLeuI3ZC8FxSQEre3i05FGK7OyFDc1zR_aAtuvHXM-SYHdEaxn5vBOFvx98fvZScDTAiXIOu8T1YyhoJWoIX5chdztdcMLugLSjrfL8op65gJQjNMqEmpQq3z9UOX6-HKdBw4hv0k3Wo2MBMF-UfrnPxNfh2MYB2owzjh8huR4pIdIlb5hP_o0XvmaIQNiyDXUuDluLFKpcPzFIT7xw8UD8Wg4KRonlmWyJgJjSqNSklMBjRyDyD79P5Cyeessxo8d68_JsB7jT3dpU1H5Y6pS3C4MoIKbX1xrs52IFvqr7zAasq4a6_XJGVvowYjbnAf6X1VUhA38BlCxPlbhB4Tik4K4ux07m6hX5LxknCYC6fVg_1RStxn0t6RRuYg1FIXC8-1lsuoVhfKpe3MWDTW6mSO0zjCKI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103363316320764214193\">Hanae Gbn</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLd9PEtBRIYcAJem_0HSxf9PbpZnjRaUqjqZtf-lZXg7vmNbwlCY46vATNBKLjL6XaZs_2KdtzTKoBOUaOKtLb8TuoNPrx_etr6Pp-jzT0hDmeCq7mV7dmCZnf6-BsmdVxIArhhi9duFPs6FW5gfzn1h0TCnKlqQLJsf3_vj-ZjoVieYfSb2l9VswgBz1a8VFRmcvJor0JGH7ZAIr29SjJZmMawfKk9N4KTrp1ieSc8SkEbh9Qzh-mbAbADUCx7JUyJZqhl165P179cMaa_klCA1zWg56sKwMDIVfuVDH0C2gxHkf6FdBfebmT_sUvlDhV3yMjEKs9Q1Vm60MkOGYu1DmhOHHShl0G9mxJN1_CuYuJtgrj7HLm5lOMnHj4ok6ouWDQFduBMzkLAb6LFT9bQa81GPVCqgOTwNJ_4ApScY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101806947855565377293\">Virginie V.</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfEq6VOge2TTPlIHzOVTZTSLD7oBVASnHY5D9-5PT97RhzliHGfstKlvTzgrlGVkfrha0yroYacxYsn6rHkUkwWIieQhy1tkvQ6kjom8TZiws8Aff_wD76a27S_w8tgw6Yc59TaWPVrpwPeTOTBhM2NYh18s8adRa-lEJBUCv5_877pMstz9RYSXKy2ZuTkho6Lk3H5AuT8RlxRgSpzl166lHJG7T1kpnaM93LRyCvpkfrKpwyveuQ2LOmLXJOmz9Udo_Zk5VxLDO1eP6BxqKwRcH-VODHJHh2WpToirYBKLKE2ArGu0KL8MjolUSTxQkqVpWG9d55tfNHvvgdzVXr6550i7XZB-EAxdj_4ZrNThN6hkuaBfl1u1zK0RHyMjf8w3XFncpnpxx5CLBh4a8M27J_ZdsE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110246347525114022002\">SY JYPY</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfSZ-_6pvnejLz5uGAg_CJCbYVoj0WA6Jq2E10ontJfJxP4GIWLgp9pG-flRrWBkbsfrvbBKk1wZcz2eF83dcJOQ-9HmzYhqgcBmuomFeP626U-RKfgJhXk3VYFqbrN8Y9H_fthqVBgz1kq1yzXPOIu6xUNTdSmDyVqisaItpOdtgHkrTiL3a1-a_6QuzQTGT2savarc2DxhF4KE3RZomwoJ48XBSqf70C2u9GuC_ItUyCIlsHQE1qoXunm6uTwWnEC9sx0twyEFYlbczFNcAmgP4SYivyiwtLKQdjEWnYbFSNXdlLEHi8y9qmIsSy6QbTNGbLj2BkzsH2ro-A1BgkRuQcd9yU9HXAIbGzFAdtweNRD86nitTeBmMd_yB61xubMBT5_CiR5Pn7o0gWcRatC0penNCo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110246347525114022002\">SY JYPY</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLctDUrL71O74P-XYFKZplOtPDG6pk4a5uIOruXalliCDfOluUl0J7XvbM_WNey5ws26VcUrFPVS4Cj5rdWU-j6-_582zG8N8wS9ocuYcEG9clpdMr7X8hXkfT2pY1FDXGlXmDR4nO0p2wTZPUGp_gyzJF04AlsUw6yI2mE1Oe1ZMw93CjEZylojlxNE1r79AB27Vb40I3A2UfL9Mt1s-x_AU77B1G2u8C9NcM0ina5Cnrg4h8EBghe4GAFUdTdnfIlb22x7eZc1MNV0fc1B38FaXe0oc6ArgdqoKbHX-o-5JUKFJnduq1zyqLcYGLrA6bV0957WxtXDocm5AYoSLKnKzpQrqPzpiKFLL1z6khJPgGCWTCqiOCTIQbgTM6uhcdeKAxcGHxpr94YwZt9a9ZbaRbgObik",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105662318361172109442\">Fabio Po</a>"
+            ]
+          },
+          {
+            "width": 480,
+            "height": 640,
+            "photo_reference": "AV-0GLdv1LwTkM4JZ9BF_sbHTjLU8jMMvdYxkI-R7c3SNceHn5WBbsz2gq3ZlIReeo0zeqAf8ozNRxvR-L2E9hpu3VCTb4BvVtcU9-joEto113bN7qfGO3kQ2pzdiSm-iO2KOwyZ20eK6RLHOdmO3vK-9m_CG13OaQIVNLv46t-XdzyaSDEoRRrx_hFy6VKTCG52iz2NowGc4OqYnxJjdsZxB3BWZlkiO2mBpnhYiHcvFWsMacmkxeoYLODYQHh8Y1RTW0nJb8zNC-bIwreLqPE9JsPFxnhC8gk2LmH5YVN_6tvWIIHvQgYPPpYFP9v-G9rxzOQvpV69gujouxeNbWUXNwHUqgAh_mjYKShJ7k8r7EkDz7z5dt5ub4sYcVL5BeJs8c2NQ8EnWsYR_cIT-qlB7dJFxA4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103363316320764214193\">Hanae Gbn</a>"
+            ]
+          },
+          {
+            "width": 2448,
+            "height": 3264,
+            "photo_reference": "AV-0GLeFDXiSTxxVDACs2jKb2HviTsQLkW75P0iEckv0Ez2MPh4eEXx5OEppUFTmb6ry7_OUilo8YAkaPJR9o7q44Pw-ZYmPxtRSv75Gt9fTc4r0zXqh4ntNKYdp10-ZstaE9eD4JD4iEb3iBSyjxVlGylRvCpVk7siCiK9e3yF1UJDhwTLeF1MVYB5NwY77Z35JU_mg70QY7-ycvSeVtp2Syf9f6j7t_jpxHJtIYx26zH4lvmAWOLUYJNVp_n9k0-YMeUtI4GoKQjSzK27hbzl0cPwj3UZ-gyWR0YUGbklPAQvEktPcwItve2EWk1VbHpakxPx1LnayliBVFCk9Bx_zuT6ZySbkHTsjLIGyl1GMd2v-LVjfZv0zykQrVCUH88b5CFRdE8Ue2ZZM7ibyTlbevoeYsdKW",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108158611558833302961\">J</a>"
+            ]
+          },
+          {
+            "width": 2592,
+            "height": 1944,
+            "photo_reference": "AV-0GLewoO1eFGVXleSY5_sPOD8b1W7igT7u_B16TOxRFEKMicC2xMI6pNIiKA7vRmwYPFW9fd2Gay2RfDrsEi-lW_f2zrXOPY8WKoEf7HMmiMWF0jnrNOr8U7nv54O6Efgp134vfuZhg9yFEO0MRK9Hh9BjnSIfPy-_RPv0mXMKQLnKV7Xxm_2SNF3WzmstErSFreSaud3tEsSsK6nm1vuXfWlzgcmPtkGPcLcH7yTpMWgurqGOzHBWOMueiq-KcQiOgnOnpj6tTt2ncmblnTA9pU8SCV5h5lOnhUXVl1c68ymzqtvDiSsW6igX0vX3E2z2yR4HgmnfWS1HBYImtlAs6QRRd7OdLl0R77hLjkAnJrHLa0tmW_nDGTla0_IGhcGmIzoViBBZoF9i4cq3LzNkwh_5OOLwbaM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115400066568761674826\">eric leducq</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLetXIzHycfNfiO0311cBYI8AmsnQHG8m4GtppDlocIIniZlHz0EOf7_Smxy4gaAJhrw_SXTL3ptWwMkp3LAUmNy-uwjp67Ac8a-mQGFCqNatDy3hUo6oBV1ntu5d6Ao3xhU05ba3wVr1Pm0FuxHOQOgW07NKzIIJP8rN8sIuKkXBNi3W33zHoYVWva49YNP9NacPddSbIOvNj8vNBZf1W5dA_9I5ovhkWpo3yMZkaXdjm6SAec1YNRZUImBZ8SAEfMg8sJ34-GswfS8XyRZGspsdOs6Y_4TjpIBWB85yZXCK6ZrSGvb7sVKL-JZF1ZLH_ozn2I9oIXHW9PgUU6gbQii-96MrBMjKh8otNsECD4toV6qZer4re6-V4IWjyyP5XsvY9zR6S6ta7-PQTbPEfY7xpJ_",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105662318361172109442\">Fabio Po</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLcPUTW-1gkcK_L58t8aJOGKeL_V2PrKy_QV0kqhInKWboN7M4F4e14r8b3nbaH7bFkr9Uke0QLZ565hD_RLoXRjUx6JSMU0QVZXtquL3KSOOsVdaGLzg4iAfjmKO_9wSmC-VXlnVyMU3-o-TqPMXlRSdRalsgK7W31tYy8kmoZgqTrvjYQyJnNRJ0pir-lBd8VkXzMfXj7wIMIddhWvGi3pw3Q1waUGToreQHhXDgLHrqBsQnv5ymm0bCk-N-MfpMSjnou4iGY2TD2RiY5w6aq6Wxxr2MxJ5LhoaRW1ModB6YT2a0xX-YZC_CFWGCtaa6z8bYZsyFwNRLD4vg5KLZ0pNlOBxNBZdCCIj1YbP0-xpvjptLfyRIVz_cmbxNHudw54tnsSIX6OmO4DwM2kisCzfrU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110246347525114022002\">SY JYPY</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5828
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Tres bien",
+            "language_code": "",
+            "publish_time": "2026-08-30T14:29:27+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Christian Tellier",
+              "uri": "https://www.google.com/maps/contrib/116649771820950607469/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIPfww01D-Hz5tDBC4uMGjXfalOpuhY3n7zfolm2UaBPvPd9Q=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 3,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-27T10:54:16+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Jean-Michel Poignet",
+              "uri": "https://www.google.com/maps/contrib/116060799704692904073/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJcdQk2khoGPAQNZpg8cTFd3MlWkp6tT5FWSyRdTJ7xa-Ip=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-04-01T18:15:48+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "Seb T",
+              "uri": "https://www.google.com/maps/contrib/101811594897192339188/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUfeTVJRIDbAq-8x4RN2pPgC_EA9ztIQnA4xIxo6G1_DmyBiK96=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-03-29T08:20:39+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "MrGolfgti59330",
+              "uri": "https://www.google.com/maps/contrib/105441608126292164922/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJORbye-6Tl1GdrlRZs0Z4CBc3Rbqc8uu_7l3mJ00VuVy6gHA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Très bonne cuisine et très bon service .Cadre sympa.",
+            "language_code": "",
+            "publish_time": "2026-03-27T19:17:36+00:00",
+            "relative_publish_time": "il y a 7 mois",
+            "author": {
+              "display_name": "ALAIN DUHAYON",
+              "uri": "https://www.google.com/maps/contrib/108189897695784104793/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKl93QgOZ8gZwLFFTIVAgLUhJH0tZKgWYyH2oDsXIDyPTxXPw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 20:47:25"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1056,
+        "bo": 18,
+        "front": 1038,
+        "estimated_cost_eur": 1.4
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 06:30 – 19:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données identifient un bar-tabac, mais ne précisent pas les services, produits, modalités de commande ou de paiement, ni les équipements et l’accessibilité.",
+      "Un avis mentionne une cuisine et un service, sans détailler l’offre de repas."
+    ],
+    "rejected": [],
+    "summary": "La Gitane est un bar-tabac situé au 105 Rue du General de Gaulle à Wattignies. Les horaires indiqués permettent une visite dès le matin."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-gitane",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "matin"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5828,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "2b8592f867e55bbba78a07d40620f3a143e73f41e1878a752844e24e1c48dd43",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

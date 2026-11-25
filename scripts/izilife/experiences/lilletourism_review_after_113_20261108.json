@@ -1,0 +1,53 @@
+{
+  "environment": "prod",
+  "mode": "review",
+  "started_at": "2026-11-08T20:27:41.969563",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 114,
+      "title": "Rallye Bière Vieux-Lille",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/rallye-biere-vieux-lille.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "2.50",
+      "duration_measurement_unity_string_id": "h",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 115,
+      "title": "Rallye Bière Vieux-Lille en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/rallye-biere-vieux-lille-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "180.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    },
+    {
+      "tmp_id": 116,
+      "title": "Visite de la micro-brasserie Célestin en anglais",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/visite-de-la-micro-brasserie-celestin-en-anglais.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "60.00",
+      "duration_measurement_unity_string_id": "m",
+      "status": "error",
+      "error": "Le fournisseur IA n’a renvoyé aucune analyse."
+    }
+  ],
+  "stopped_early": {
+    "reason": "provider_unavailable",
+    "after_tmp_id": 116,
+    "consecutive_failures": 3
+  },
+  "completed_at": "2026-11-08T20:28:00.522806"
+}

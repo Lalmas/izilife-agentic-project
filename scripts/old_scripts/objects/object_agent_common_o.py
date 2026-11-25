@@ -150,7 +150,7 @@ def call_openai_json(system: str, user: str, model_env="OPENAI_MODEL") -> dict[s
     from openai import OpenAI
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     res = client.chat.completions.create(
-        model=os.getenv(model_env, "gpt-4o"),
+        model=os.getenv(model_env, "gpt-6-luna"),
         messages=[{"role":"system","content":system},{"role":"user","content":user}],
         temperature=0.2,
         response_format={"type":"json_object"},

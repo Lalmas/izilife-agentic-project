@@ -1,0 +1,783 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:56:48",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-week-end",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-week-end",
+    "status": "found",
+    "data": {
+      "id": "5692",
+      "name": "Le Week-end",
+      "shop_string_id": "le-week-end",
+      "unique_id": "ca26f50bee8718c6dbd26bb3a8d1e78b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54950",
+      "principal_cover": "54950",
+      "qr_code": null,
+      "phone_number": "+33320975647",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "17 Rue Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "59175",
+      "city_id": "83",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0563928",
+      "latitude": "50.5683733",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:36:28",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:36:28",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJNaEhkm_UwkcRLeoJJT2t9ts",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJNaEhkm_UwkcRLeoJJT2t9ts\",\"rating\":4.2,\"user_rating_count\":91,\"google_maps_uri\":\"https://maps.google.com/?cid=15850046416703056429\",\"fetched_at\":\"2026-11-12T19:56:31+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"On peut boire, manger très varié. Ils ont une grosse carte brasserie.\\nAccueil super sympa de toute l’équipe\\nTop pour une pause dej’ relax\",\"language_code\":\"\",\"publish_time\":\"2026-09-25T12:16:08+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Philippe Hamelin\",\"uri\":\"https://www.google.com/maps/contrib/103804060860368338923/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIMPMrmCqRce8iPz41gk5iUoQbEsC-aBcDaOUTG21qii1e2=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-20T14:24:00+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Gaetan Leal\",\"uri\":\"https://www.google.com/maps/contrib/111408111644614029185/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVnFVQ-6szhm_uC6KuVY73loPlADVKARtwXQMKyBYHcC1SaiUxD=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Nous avons passé un super bon moment ! Serveuse ainsi que le responsable était très agréable et souriant, ça fait plaisir ! Bonne ambiance, braséro nickel le boeuf cuit comme on aime.\\nSeul point négatif pas de clim, nous n'avons pas pu profiter des flippers a l'intérieur...\\nBonne partie de fou rire avec la pétanque dommage pas de lumière a l'extérieur pour pouvoir plus profiter après le repas.\\nJe recommande vivement.\",\"language_code\":\"\",\"publish_time\":\"2026-07-04T19:20:32+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Béatrice\",\"uri\":\"https://www.google.com/maps/contrib/101003969269861906431/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWnBz2ElFxahTDUhh0ltD86N_L3PgUzQIWlEifJ6gA50IA16us=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Endroit très sympathique pour manger sur le pouce, terrasse très agréable et service au top 👌\\nMerci pour l'accueil, on reviendra pour goûter le tacos 😊\",\"language_code\":\"\",\"publish_time\":\"2026-06-23T16:58:50+00:00\",\"relative_publish_time\":\"il y a 4 mois\",\"author\":{\"display_name\":\"Tatiana Leuliet\",\"uri\":\"https://www.google.com/maps/contrib/102327029513298871933/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKPbIwd5l_Jt6g9wh784KUchHiMOWKHn9FqZaPnAC_RdBobSrtj=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"LE BAR TABAC à ne pas louper ! Large choix de bières , cocktails , tapas , et petite restauration le midi !\\nTerrain de pétanque et flipper à disposition !\\n\\nAu plaisirs\",\"language_code\":\"\",\"publish_time\":\"2026-06-10T14:41:11+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Florent TiFlo\",\"uri\":\"https://www.google.com/maps/contrib/104402345318983608783/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXDve8f6lTCri4TsGrRqPxHlvC133NT0sgjmWkTdBjOQjtenkgu=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:56:31",
+      "google_reviews_place_id": "ChIJNaEhkm_UwkcRLeoJJT2t9ts",
+      "source_id": 5692,
+      "scope_type": "SHOP",
+      "scope_ref": "le-week-end",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templemars",
+      "string_id": "le-week-end"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54950",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5692_6af39c6ccf2c0.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4750",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32985",
+            "source_hourly_id": "4750",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32986",
+            "source_hourly_id": "4750",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32987",
+            "source_hourly_id": "4750",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32988",
+            "source_hourly_id": "4750",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32989",
+            "source_hourly_id": "4750",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32990",
+            "source_hourly_id": "4750",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32991",
+            "source_hourly_id": "4750",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-week-end",
+      "google_place_id": "ChIJNaEhkm_UwkcRLeoJJT2t9ts",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 08:00 – 20:00",
+          "mardi: 08:00 – 20:00",
+          "mercredi: 08:00 – 20:00",
+          "jeudi: 08:00 – 20:00",
+          "vendredi: 08:00 – 20:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeMzzES4pW_jGQ0n-xze7z8ySc3Wy8ugjX45-w9g-4yvinsnjutZCN_KFL4W3kyJMJTVx738CnFGu4E8PA2cZqzQ2fQhDmbW9CT3h1wm65ZUmSBDlcDVRERsdEhYfHnOzbvWg9MEeEuLmNPWN01WPBa92vDpU6NwV4odv_DmhP4RZufrvjkkw_olAhQMFaa9PdDFk_JZdiAqhZ4VXgNelbfIxOp20gkYAoYTK5-g_hbEYRha1SpWbxUGJ10-uFd3HjilLzwxtwzjx4K5lNHJ8aUvTkLnbnA0xgTqANysnWvKZ6sdH8D4Z52epLkZmfgfxVIFx1InRdjUa3Hb60BDitYr9nIL2j4dgivs_3-4sKCi6s-qNHINasWff99o6azh36xIOcaiNEyfeOHEkI-tHreKvkVwzC5scqgEVFc3q0qcA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112621889812443244374\">Le Week-end</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLcB05bJ5IIOAGj8tksRZTpEHFFS6gBkHnq3b4Q1blJcuKx5WJICdMQ37FYnBoFxgnBacBi3utg_pmaIzGOISGB39ibChjdLlvSR6DPe6uHUTPRumRrePhh6HLsaZ6WOphOOaD6ZMF1apOwiNEdWXHWB-xgqhq17TsT1QFEx9woTPIu0RBfsupwcGblrPTGC6YvUAaIvQHShQojEO9Gh-pfuLsxiklnoCrPNAs6xcqCio4Q72YLB3I9k07_q5OYrJQ4_Av9uQv62U70t0XiPXuOj_LFDQPK_iPLHlJwrpWGDo1GpbGAD8YVrpvFnLdAcRQHMzBe3AqpsqcGPUN_wczISW7VBH2_ib2OLUe9-Pu1h17pVms9WJu8YihhQtw0d_-pdI8ub_wbhAmSL8GDENbHV_vI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110002310591061779631\">James ORLANDO</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLfwpoAXyulX_azl56uozLSAXV8Y7WLWaX4W0m82XtnwQXzpgKkXQsezMT6Xq1QEKGLujF2G-yhgeyZVpJXpYSrpSOFEYuAyWxNjNa6Xt3m7ZrM0pBdmgTviPXXcmTKAowevXiAFL3duf28sM3AjVmpY4b7-33piIeWvPVd35lNx26zRWqMCJfngZSJXEERj4BuNhAEZd8dHPtyuiCjvpFIZpjVdrfDcLnY_000IoC3p6-0Qlt9wqvlNUFZ33IFgyca0AeYnghkPrXJpycT-KcR40fAuHYTi5XQ3QtCoPknr0a0LSLtbIxnqREN2kexpdeMONNgyFEuAZyJqv_nlqgubX3omc18myZ9-kIe1FOqxSjYFueKWHkS_tynJzVhwzN7qden4Ikq6VmGxbSGg2oWUPJRlSRtGHBxutRK85KyL",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112621889812443244374\">Le Week-end</a>"
+            ]
+          },
+          {
+            "width": 3264,
+            "height": 2448,
+            "photo_reference": "AV-0GLedq10g62px7g9EXrfj7UNwIbcO_Kc4twPxCcRaAwq-1n9m5QnHvaBzfT0QNDwl49d5k51AVT862vG9bMG7npDhZAcOVCQAqxUMLYSaQetZAhwPOni6toko_zhD5DhhRwc61SaAScTgzW5lLse5PQZ6DW22tzHZmNdWrn6WAU0rElCH1Mrrl368_Nlvt_WZBnv3cgoVb-q_EdCLbMAWU9PDayc4s24_-1jHmhmkVdLXhVoQjeLnWt_WZD8_b0NTAeXictGa4-3cW-lIxJcYJPJnXYeaIqUxmiVmC3qh96CxJOiFDyshW7av2Zh6r2i3295GtthBUca0FkjL0mAtjiln96A6zIhdSf9EfLtC0BB-3znoQK0pEmduvDtv6-ymuIebGDRRCPUnWgvdNRFBeYJaqXCQ6uw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110002310591061779631\">James ORLANDO</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 900,
+            "photo_reference": "AV-0GLcKFXsHOhv3dSl83se7biKyb8_LLmGAyUBOKQcmntTF6oImaxhEN6XFxiOLSLVMRCVpsRTyNbzzS2x6bJ7vSIqppYMnLNvQwzQ1Aga4EsmexJU6K9ml7u1s2f6fiToh6CJeG-2-33f_Gm72C7_jGVJjg-HxWf2umTrzpEal8-lw10jAREC2MoSVOErqLDCc6kZ8o9bct7O6MOZfXv1DpieItvlxAjvNWtiHBQ2TFujaY0-Kzf1Y_3Ljl4ajbfPwn5oqfCih_0C2Vihxewy1S2G1zziRetcFL_ZQIKdPNVEhWrdLaodaD9RE-OP8tyQBqhKCGDgWuhY4hklMJxTg3lnpJCWUdynxCbKM_ANqxJMpDx8A60iHq9a846IbgU2UP0WyI-cHvyl7gGoXhbJ_0TYVOHNfU8s",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100198821599836155781\">Lola</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 1600,
+            "photo_reference": "AV-0GLdiOZg6Tsy9IeEohYv5s5gEyr1q82IrOQlSUfusqBzOT2QU7k9fSy958ypA6EPai_Jkx85qHnKBD0ggKFY9mEHwiL0xFtBde8tkJ7xfZ8KHMEcJI1ECf3bLh8YxV7qBZUUKaC_n5KEJE423FWRnofG7e8ZiWk63XxiQntClvTWA--qEhaL6zfSee5FiMh6m_c9gZiNm39Tiq98Aza-TI-DA44j-o-M4Px692zPJ8jyy6NyE0h2HJXJ1poWcDkimN-KQhx7QhR4wV6ax_H19W2dtjyU4FCznN3mVRsi20AJPTt19oCcHl7ohx72rPKQubQn_ahb7w3VNUuep2ARxZWwmr0kkGRsvBZADazoY8qJpDLGl6wwU8PTfA94dU1v2QJ3Ez6c9G_pfpzvVC1VCbo9LG0d4HwI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100198821599836155781\">Lola</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeeW-_oEV9kamzOR2dQaReeOQNiZRqXRhF4ffIIombCedmmeJl8MxvBB8y-Irk4lfITBIAmwrpziHBcPINCdbFkuT4rrkFULgqTUZBNAgdh7eGY5V9Dob1Gihvk9DHv_LEuZgOp7EQIFETB2enOLPNQlm8_5PZXnrUfhWvVjROlgkty9TygI5SZf7BpcowQRgs9FSRJYUOkbjr4-_P10MEs4J8txiGmq6oRpnBfyu4xgkBZxn1B-b8Gw2eoNJZ-v-5JEbtuyfF3apZ5ofFlyrd72hOXw7attxhJUu3JUElpmSFkAKl-xn8HAj1KG22D6wkCBwxNpkF8yF71gbebu84qK7HSbCAZiwr7ILKtCORAKI1dbclRxwq5Jiptbd_AEUtfAJKQILki7KpjHJ93zcWLABULu9Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100198821599836155781\">Lola</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLcmkDGJXWCBl6ljI37ES5WPcOAPpPbGEnA7XO83WlHJLPRes5EycfDdnAD98M7PlYaGJR4D3HKZkOA1IW7aV8iE44qSjgBgLLvgHbH8ZzetOGS-YS2ekELVe975L5kkyKboQJtvwgoH_3C9EGL8WCTKhGYKqEmYTM85quY2YO5kxCSBLsz7xmwONm6_P2M_j-1pxmkeZUFx7ajpgEevBsnxwFqUzuFB0p0R6iyhwumw1M8Ylvckde1vw2gFMkovhN5Y14fHOTOXEgl0kpgQK4GeTu30QGN2kD9zB9zv4GvaduP2-VNkKhkagB4xiVowSx_XAVrpzWGGZiyYtL_F4inHVjFb96RCxD1hXgKJEPYVrSzdlOfd9C13drGC3JZnpsX4hhV3emkF39g2H5bdX9g64biO9EmxFTqueRyJ0SA_9Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112621889812443244374\">Le Week-end</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLf7mz4qLEfzPEQo58pWRL9Wj-K8y8TIj4D0HvgOEYTIfkp2e1vP19DYE5zvwCpo2RSeMy296Ou6mgHOzIi7tlPnR50Zy1ghGaH0NpslUDPgBaw_dPKqqx1g4jo8h2DanWAhUzPNoaoHQxQ5-o5K9JMyggHQ7wOijBbp28Zy-N_ZNZ6k5HDF7dQFjgDmXZhFM0lwlfytY5HeqfVVyeGfXYu1jzoyyu0qb57UjkLSQrP4-2alRr1WAa6X1fz1dle-U3dmdYoBzbJY0chw6pYXKjieuZnMwGWFuIhWdo3Rzvr6m2UubyICnFGyiyhUNQHUzcNzTbRxaRomoq47PRXKcCgEi6SI8PslZThSNsVMhh-JoxnLRWtC4GPJL_os0YDd-o1b09zbkyph1lTKw_S3Gojc1w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100198821599836155781\">Lola</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeRegoC6S7z2byfSlbTvM9kSlegRyZLA0jaWPxK6dU4ehO3QyyFmuBaUKT1G0rekcAN2CMY3_oTFEOoMCVnX8mB-J1BuHCWLiNoMskZtghTC7IhGWWzWAxIXwQoMG9bY1q3RmpDH_Te8w6JgY6T724GPG2Kcu0lCfGj_UJV1ncLsHUbTDnVccD7IYs8Nf_PvY1ZAkKGkPxOW444QcLB4sIdcCJ5GpdHj1NOlyYKWGYWIHWLjc4xmQr_4iVGfd6B899lVaaAlPdw3HOIs3huF2lZ7iYkUm3aux_hcLIVgrN3hp_qPs0ABgVdWYnUSx1DTUKIlwo8UB2tM09UpBWFoDKnXEjJgM1yqL68JZhRhucBkuTyPGLLkwhrZ4uMMoDhbMRIfkkWj0cV5dz3oiXV7IBb76dd",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100198821599836155781\">Lola</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5692
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "On peut boire, manger très varié. Ils ont une grosse carte brasserie.\nAccueil super sympa de toute l’équipe\nTop pour une pause dej’ relax",
+            "language_code": "",
+            "publish_time": "2026-09-25T12:16:08+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Philippe Hamelin",
+              "uri": "https://www.google.com/maps/contrib/103804060860368338923/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIMPMrmCqRce8iPz41gk5iUoQbEsC-aBcDaOUTG21qii1e2=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-20T14:24:00+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Gaetan Leal",
+              "uri": "https://www.google.com/maps/contrib/111408111644614029185/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVnFVQ-6szhm_uC6KuVY73loPlADVKARtwXQMKyBYHcC1SaiUxD=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Nous avons passé un super bon moment ! Serveuse ainsi que le responsable était très agréable et souriant, ça fait plaisir ! Bonne ambiance, braséro nickel le boeuf cuit comme on aime.\nSeul point négatif pas de clim, nous n'avons pas pu profiter des flippers a l'intérieur...\nBonne partie de fou rire avec la pétanque dommage pas de lumière a l'extérieur pour pouvoir plus profiter après le repas.\nJe recommande vivement.",
+            "language_code": "",
+            "publish_time": "2026-07-04T19:20:32+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Béatrice",
+              "uri": "https://www.google.com/maps/contrib/101003969269861906431/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWnBz2ElFxahTDUhh0ltD86N_L3PgUzQIWlEifJ6gA50IA16us=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Endroit très sympathique pour manger sur le pouce, terrasse très agréable et service au top 👌\nMerci pour l'accueil, on reviendra pour goûter le tacos 😊",
+            "language_code": "",
+            "publish_time": "2026-06-23T16:58:50+00:00",
+            "relative_publish_time": "il y a 4 mois",
+            "author": {
+              "display_name": "Tatiana Leuliet",
+              "uri": "https://www.google.com/maps/contrib/102327029513298871933/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKPbIwd5l_Jt6g9wh784KUchHiMOWKHn9FqZaPnAC_RdBobSrtj=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "LE BAR TABAC à ne pas louper ! Large choix de bières , cocktails , tapas , et petite restauration le midi !\nTerrain de pétanque et flipper à disposition !\n\nAu plaisirs",
+            "language_code": "",
+            "publish_time": "2026-06-10T14:41:11+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Florent TiFlo",
+              "uri": "https://www.google.com/maps/contrib/104402345318983608783/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXDve8f6lTCri4TsGrRqPxHlvC133NT0sgjmWkTdBjOQjtenkgu=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.2,
+        "user_rating_count": 91
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1171,
+        "bo": 133,
+        "front": 1038,
+        "estimated_cost_eur": 4.275
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "grand-choix-de-bieres",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières »"
+      },
+      {
+        "string_id": "terasse-agreable",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      },
+      {
+        "string_id": "exterieur-agreable",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Terrain de pétanque et flipper à disposition »"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "« bières, cocktails, tapas »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« flippers à l'intérieur »"
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« manger sur le pouce »"
+      },
+      {
+        "field": "sell_tapas",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« cocktails, tapas »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières, cocktails »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "« Large choix de bières, cocktails »"
+      },
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« terrasse très agréable »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« Accueil super sympa de toute l’équipe »"
+        },
+        {
+          "string_id": "chill",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "« pause dej’ relax »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« petite restauration le midi »"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "« bières, cocktails, tapas »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "flipper",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« flipper à disposition »"
+        },
+        {
+          "string_id": "petanque",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« Bonne partie de fou rire avec la pétanque »"
+        },
+        {
+          "string_id": "pause-dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« Top pour une pause dej’ relax »"
+        },
+        {
+          "string_id": "apero",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Large choix de bières, cocktails, tapas »"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "flipper",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« flipper à disposition »"
+        },
+        {
+          "string_id": "terrasse",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« terrasse très agréable »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« petite restauration le midi »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les références fournies ne précisent pas l’accessibilité, les moyens de paiement, les modalités de commande ou de vente à emporter."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« manger sur le pouce »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« petite restauration le midi » ; « pause dej’ relax »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« terrasse très agréable » et « manger sur le pouce »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant et bar-tabac à l’ambiance conviviale, proposant une carte brasserie variée, des tapas, des bières et des cocktails. Petite restauration le midi, terrasse agréable, pétanque et flipper à disposition."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-week-end",
+    "operation": "ADD",
+    "tags": [
+      "grand-choix-de-bieres",
+      "terasse-agreable",
+      "exterieur-agreable",
+      "jeux-a-disposition",
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {
+      "interior": 1,
+      "can_eat_here": 1,
+      "sell_tapas": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1,
+      "have_terrace": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux",
+        "chill"
+      ],
+      "MealType": [
+        "dejeuner",
+        "aperitif"
+      ],
+      "Hobby": [
+        "flipper",
+        "petanque",
+        "pause-dejeuner",
+        "apero"
+      ],
+      "ObjectOnPublicPlace": [
+        "flipper",
+        "terrasse"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5692,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopAtmosphere:+",
+      "ShopMealType:+",
+      "ShopMealType:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopHobby:+",
+      "ShopObject:+",
+      "ShopObject:+",
+      "ShopVisitMoment:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "6d8eaba69e86445e8b21c8313aaf0f4c3e93f4b6dce7f7108a36f254888b0f1e",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie : « friterie »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:45–14:00 le mercredi et le jeudi."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 18:45–22:00 le vendredi et le samedi, 18:45–22:00 le dimanche."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de service : 11:45–14:00."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de service : 18:45–22:00."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Friterie à Wavrin, avec des horaires de service le midi certains jours et en soirée du vendredi au dimanche."
+  },
+  "meta": {
+    "cache_key": "b46bb0b7afb59a63c7151756dde669f91128f89b0f63bd7f4b9610495cfd7623",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

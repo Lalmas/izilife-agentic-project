@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1166,
+  "proposal": {
+    "event_category_ref": "one-man-show",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.72,
+    "evidence": [
+      "Le titre associe une artiste solo, Laura Calu, à un spectacle intitulé « Senk ».",
+      "La catégorie existante stand-up est à réexaminer ; le catalogue prévoit one-man-show pour un spectacle solo."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description n'est pas fournie et le titre seul ne confirme pas explicitement que le spectacle est écrit et mis en scène en solo."
+      }
+    ]
+  }
+}

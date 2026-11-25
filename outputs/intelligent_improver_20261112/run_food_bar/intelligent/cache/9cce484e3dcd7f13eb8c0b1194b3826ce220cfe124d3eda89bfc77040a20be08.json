@@ -1,0 +1,65 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "ambiance-festive",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Soirées karaoké au top"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "prenez Jean Claude dans votre équipe"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.87,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : brasserie"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "karaoke",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "Soirées karaoké au top"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "boeuf",
+          "confidence": 0.7,
+          "source_url": "izilife://current",
+          "evidence": "pièce de boeuf"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Soirées karaoké"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis de juillet 2026 signale un changement de propriétaire et critique le plat consommé ; les informations sur la cuisine peuvent avoir évolué."
+    ],
+    "summary": "Brasserie proposant des soirées karaoké, avec un indice d’activité en équipe. Un avis mentionne une pièce de bœuf, mais signale également un changement de propriétaire."
+  },
+  "meta": {
+    "cache_key": "9cce484e3dcd7f13eb8c0b1194b3826ce220cfe124d3eda89bfc77040a20be08",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

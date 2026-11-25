@@ -1,0 +1,53 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "ANNUAL_CELEBRATION",
+    "data": {
+      "name": "Village de Noël de Wattignies",
+      "string_id": "village-de-noel-de-wattignies",
+      "description": "Rendez-vous annuel de Noël à Wattignies avec village, patinoire, animations, manèges et présence du Père Noël.",
+      "event_category_ref": "marche-de-noel",
+      "default_event_category_ref": "marche-de-noel",
+      "scope_ref": "CITY:wattignies",
+      "is_internal": false,
+      "can_be_linked_by_others": true,
+      "news_visibility_days_before": 30,
+      "is_active": true
+    },
+    "sources": [
+      {"url": "https://www.mairie-wattignies.com/evenements/village-de-noel-2026/", "kind": "OFFICIAL"}
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "village-de-noel-wattignies-2026",
+      "relation": "ROOT_EDITION",
+      "data": {
+        "title": "Village de Noël de Wattignies 2026",
+        "event_string_id": "village-de-noel-de-wattignies-2026",
+        "description": "La 21e édition du Village de Noël de Wattignies se déroule les 11, 12 et 13 décembre 2026, avec feu d’artifice, patinoire, animations, manèges et présence du Père Noël.",
+        "event_category_ref": "marche-de-noel",
+        "start_date": "2026-12-11",
+        "start_hour": "16:00",
+        "end_date": "2026-12-13",
+        "end_hour": "18:00",
+        "city_ref": "wattignies",
+        "address": "Centre Culturel Robert Delefosse, avenue des Arts",
+        "zip_code": "59139",
+        "access_text": "Accès libre",
+        "source_url": "https://www.mairie-wattignies.com/evenements/village-de-noel-2026/",
+        "is_active": true
+      },
+      "hourlies": [
+        {"date": "2026-12-11", "opening_hour": "16:00", "closing_hour": "20:00"},
+        {"date": "2026-12-12", "opening_hour": "10:00", "closing_hour": "19:00"},
+        {"date": "2026-12-13", "opening_hour": "10:00", "closing_hour": "18:00"}
+      ],
+      "sources": [
+        {"url": "https://www.mairie-wattignies.com/evenements/village-de-noel-2026/", "kind": "OFFICIAL_PROGRAM"}
+      ]
+    }
+  ]
+}

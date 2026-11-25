@@ -1,0 +1,122 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Repas du midi avec une amie."
+      },
+      {
+        "string_id": "ambiance-posee",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "Ambiance apaisante."
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "La planche apéritive"
+      },
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "Le cocktail de la saison « le Feliz » est excellent !"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "avons fait découvrir le restaurant à nos amis qui ont adoré aussi"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "Repas du midi avec une amie."
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "il manquait du chauffage"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "fait découvrir le restaurant à nos amis"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "calme",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Ambiance apaisante."
+        },
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Accueil chaleureux"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "La planche apéritive"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Repas du midi avec une amie."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:00, 19:00 – 21:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Repas du midi avec une amie."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "19:00 – 21:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis récent signale que les chèques-vacances ANCV Connect n’ont pas été acceptés malgré une confirmation préalable annoncée ; vérifier ce moyen de paiement avant la visite.",
+      "Un avis récent mentionne une température fraîche dans la salle."
+    ],
+    "summary": "Restaurant proposant des repas sur place le midi et le soir, avec une ambiance décrite comme apaisante et un accueil chaleureux. Les avis mentionnent une cuisine de bistrot inventive et raffinée ainsi que des cocktails appréciés."
+  },
+  "meta": {
+    "cache_key": "1a830ee36d245b1bed426b3cf6938de7fe775b5ef1a1b9a2e9cefa762fc3f47a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

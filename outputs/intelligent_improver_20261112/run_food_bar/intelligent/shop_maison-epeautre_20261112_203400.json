@@ -1,0 +1,491 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:34:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "maison-epeautre",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "maison-epeautre",
+    "status": "found",
+    "data": {
+      "id": "5864",
+      "name": "Maison Épeautre",
+      "shop_string_id": "maison-epeautre",
+      "unique_id": "62b5365fc24cab3782155c5efafb0c7f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55120",
+      "principal_cover": "55120",
+      "qr_code": null,
+      "phone_number": "+33320536942",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Avenue du Général Leclerc",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0797581",
+      "latitude": "50.6002524",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:02:16",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:02:16",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJs6QuSkPVwkcRmZb82vDANGA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5864,
+      "scope_type": "SHOP",
+      "scope_ref": "maison-epeautre",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "maison-epeautre"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55120",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5864_6af3a278a535c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4920",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34175",
+            "source_hourly_id": "4920",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34176",
+            "source_hourly_id": "4920",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34177",
+            "source_hourly_id": "4920",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34178",
+            "source_hourly_id": "4920",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34179",
+            "source_hourly_id": "4920",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34180",
+            "source_hourly_id": "4920",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34181",
+            "source_hourly_id": "4920",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "maison-epeautre",
+      "google_place_id": "ChIJs6QuSkPVwkcRmZb82vDANGA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 06:00 – 21:00",
+          "mardi: 06:00 – 21:00",
+          "mercredi: 06:00 – 21:00",
+          "jeudi: 06:00 – 21:00",
+          "vendredi: 06:00 – 21:00",
+          "samedi: 06:00 – 21:00",
+          "dimanche: 06:00 – 21:00"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLd0WI46RvU6whbR90Z2ppuPYCTKqg57IiA6l4KxrKQyZWwS59XI_JCtd752OxzIOYS_Ptp1SXqaCD5z4LzaTw0Fgor5OmCRGx-n1ojWuBNU6f4qN4EfT1g1hKSDk2_2yb_sq34vUSGAFSXdf41fFR37fVpGL-mDOcwUmxzG0AXVXNm0A0auDoStW2M3wYz1fssWldlY02_a5OtdRHitPUkxB3oBPE54FAeabeSS6l2FSzDMai09Js2haR7Ol7lU11aY2rWZkqc_ZPhwJdQJZgkWYjlGnLI7ExJCOsqp9QI9RkGCAMpbvH2ueH_P2bpCaGPugNNSQ213CrccW4MPYrwgcMufKzpw5zQdLmMehgHaKGGrF4dNSfV_NdJFop-4qDYZJ3xlawHv1JppcOAvHM6i5F9Nq4U",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103874833445958187697\">Lilou Lilou</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLd64noiFOsxOzz_ptNTmQzmwx24zMB_GYNA-TaGv-Xx4o0_U7eZVZmjwekgAqhZLj-fmVKuRM5s4foaVnGhRtIkReZ92k9ii33A_yUXOt3D1oWs95DK58-SDeCNqREwiJwyuG_cB5YALHhwn7Ph4pEAjBtOVpXdXx9Bd2eWYxGP0vflAew-0095ZaILagWER-3ok9Lmg1xmcoRPasEG8UBbYuIoSPUyoSgtxWDVR4X-aOwpl1dO9Muqs3qhJ2vHDg_tBMncnJzN8fza1xu_nx7l1TpaRe_YsXadi48Jpl45xw5WqnYt-M2T6-JJ7K3pAQkqDPTFsOuiEOgTEL3xm22dIYz8Hvl6Au1sQ93tnpW80__4siwtEFqyEvVKzAXsXw6d4OJH9Qxv7qavTmqOoSWmH94",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116270637983305902303\">Asma Afarsiou</a>"
+            ]
+          },
+          {
+            "width": 3456,
+            "height": 3456,
+            "photo_reference": "AV-0GLdqyydkC4bNxyvS8Dv0WuK0UbS1XjzfeKpmoysyysUu5H-KBnFS2kN3oNkR-MWtycgzM4wtGBgWv7ijna4aSun5EW4SR3fL5EbsChaes7CA2ew5EuGHrKEQ3PCg_1hS0rsj-yDVWVFWGnwzWJQiu5THLkTwk4hP4ll_xoxrbsDaSYz5GwBzMWsELm61qiybvWFS5rSafufWlMyjuWEW_U6GJPIwDEdmiDW-K7TDaQ1lfz7UnVhHGaIc1mqNOx5DzVuSmK_U3R_cpWUq6RxF6zmJmWz9Ppy5Noa_BwHgRVBwy8vvYzEPXK-c9pQvTxaaXmrMz65sMvt9gkjy-4DgjpDaF_D2iDS0Jh3c-r5J5rQZgbx-TGlJWQIlPx-CQWO_x1EG_xQDwRe-03ajFEwgY1y9dTE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108001896946583320149\">Oum Aymen</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLcc0GOrnh3Gc_7pGWy8K6P08BKLGuXEYia9evMKiGO3gg3el2sx25SImsS963iH7NYVEcSupg0oamCS-UsGqOaTGn-o7JTpuXbMlVo-aqUOdtbcryA_UatUik-j33063kwApJLkCi8lPcrfc549pFMKjNJZOVjHKrDLEY2WmJgxrMwyUM1d6SjlLCz0SQxYorrIT_lCVo3VEbUaFT1akm9dvtjItFysWAjymmtydnR2p7qLsLnYV20mZkRQDhJhRO-2uJHtVbLJFYVRJDGj1pDuVc7kIyTyhDbjmmW9qtinLqxpH_LYP9Qjhxm_ZIdhmhsXhcAt5C1wA2B58TensliHnRnQlPGNaxItJcim_YNim9iZCj-crNuj0KufvxWxlE_WQBuTOtc1iA1IEmvDfat_2JM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102375254289520750946\">BlackOzZ _TV</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdeU-VdUZaQPbR7aiBkvqwj9ukA0PX2OhJDGTQ0xaNFlmcZovSvhMEorj1eJleij6mGl9bdOlXj88MNJezLD3sXkAcA-FwkVTLMWUes1yZFOGtmFf8KcBVL7rWrrAhVeqF356WL9S08rtuvgiC9g3rNVUnm8djmHYQ3SSzJ4w09Cik8pDfSOFNPa8dVsA9qYP1PhTB2lhclIileyT7pYif8ahpcpXEe0S7BTexMOG9HVPSRhniGrdUhNGzsAUxIHOhHZYbACv-7a4aDRJ9q_XUAV0D4KF33YcnDg5QVw2NERnAGx1TQoDjmOkam4IlA-5zYiINxj8FZfYehOJxl3UQmeJWEntAXl-HdfuBqJn1xweZaKwvAFJWcjGPtToWrrEnbJZK-Kg0hFQJYplYXfvKQwg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110601196539417551255\">Martina di marco</a>"
+            ]
+          },
+          {
+            "width": 2252,
+            "height": 4000,
+            "photo_reference": "AV-0GLfbBP9Db6wdqKSjPwOg-woJ2VrwpMzdZj5XfrfYIT8ghIWyfHeM1uYL3RDjldvJsqs8bucBxXPfJeWBMkayoqEPUqtcHvC5YCPsF9E_DyVF5V1axKiHAJ2XP6-YP654lJkLPH-JQGbjAYoI5tJQjhBJu-wqXsYFDa7q9Nh96qEUJ3SGCa9f7mzuGAHfnRLsVYBZ7Xh2QpdeqNcRHjnPOP8QkABUsoilYHy3w75DoHzilUW-IyNhSiz-k797JJ5G4H63nCK0gVOQDoVq-ULahdF5tGLC6PuWM34I9YXsYfwIbD7rx6ELi1fODe59OwmjNLSIZquHBXmASrmKU_2_z6tSXjKOvJWcGI8S06BtQ0hl9gpZs2Ej2xkOHdYZ8t3XV1wqOXy8iqS2XZ2kHjHlPa7XS3M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116864586076583402996\">Fauquenois Romain</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLd2c-Ukv_wRs3UQtGq08-uo53EKN0_Aci3626QNFQhCUxpi-p6oXCOQiHkxVYoWvi2vzHVip9DAqhql09sXuW06QnyNpRpcWNWDO3gjJYGihPpJX-lALx-bDn1NKdL1TEHaOscdrgIyl_ka5YLwk9PGwD0wEVtQvJxGcYIUpc0SHGT8n0YmoHMPJfTdoLTFNXLzh0RkBZHCanbmgM3ajrlrdlmPnzkjVyjYVKde_zrBW51XRZ04qu28GcMizDZ1lATEuj0lWu-bdVDDBiYRHSMQVP57GM9-_uIjgEmlmd3IEDwVPNX7A7M_7RBsEPYqyQ3xOFyBp6cVYAxjUyr06AOrCnJmPxuuidSUO7rdis2cMasZuI1UhSvVJlOZL8phQCEj_X5XDNAzWRf-WhTNlQAT2nQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117678525809891787345\">Mat Metropo</a>"
+            ]
+          },
+          {
+            "width": 1598,
+            "height": 658,
+            "photo_reference": "AV-0GLfKhg0Y8VK7PWsO009BJWGfcdj5R9pi7U6GYMdBXE4PcvMyRvELJ6Z8S2w4GTXU1bUHWbsa7c-ugfaNWlLf4VGzHRVXYH8bl0dohgW1ITPnzz54K47Kq62SPyQ63Dg52_RYThdLFq-x1847e_wExfiYfIbb-1eAd2I9rr8BAfZLiIf23b850Pc5dD0_70uhWy7_OGUFy1gGhcEbBB86CXkG5Xf4xROliw7QBLO0w5NLtHjZMO5sJluXvvEgvWBto-0AELRByGB05Y1aiSsTjboLbiLmGI_q4ViykcZKCKS5PhsliWX-K9qMlErZ_GwZs_ymx-IU7VS1DyFOAK5ph4_nPotnX_OmqaWPjAp3aag5wgbKmBdKtt4utHteopRRHAfXgDOhfyrwGWhdTvtA-VsfQGs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108001896946583320149\">Oum Aymen</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLeA7kyU73FBPWbsBcr8xMKL2mRiTwtvysYqA5Xm68iV9JEuOMWfqgZpjYbcTIF6KrFCbtV412Az7bON9MD3rJRlelunr_1UJg8LIyuemWr6wU9F0MGXOJ2vS7SyKftxh0q2wDH8h70xMqSDMk8mltdWF3MwlsnhFVKBYLh7N0S4T1gv_HSfXTVifrBSGA4Lbpko_h6Q4GN1xOhj78iBhQiNvjAt0mxSLiqhKFvv0RW0aOLdI6VTIragmye33rvn-zVCQWCf3tm7-dZxpx87chJW-TAuGTodBklKaNYy5nJNHIqz9xpEq_5eeGi-4icoQ6n8bemSp90X0RrOhtwaRLGOi1c99QbaRDWSl2enIHP0_tjjoT9L047DpVilF4pfQVJb8kUp5uTew29-3vdJLdfUt9Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110386152240704137572\">sourisseau pinou</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLe1cFwG6a159e_iH6y4GAHbyC6njavgASIDW0xz3Log5gXVqcyyj2UsOezNYb_cV_KQoJbHpV1mou2ZMgaEcXtH2xTQejgrhsWeIgZQ8eDtfhJNf2NeCTM_rpYe5cdzcIrqzheMuUEwlXHeYFs911kDQhPryTb6EMZQImblVa6Q-Gao8eVi39qqv9HUDaKDzubGj2SMs5XHqCWdRZtbPu-47iTsGnRA7D_GbH83VnWTrKOKA9QlVMCTj_K_63zBRFp-1L1pQOwcqcE-kALt_SyxsCwrxEK9DC2qTOvW6VLuXxSzcQwatQDcCUFDwxYKo7BVl17KbhTbz3Urnk7LLdtvwsDEHV_krck3_SiQd6f5ni3ls3nGHwSDMxEjlwKIm-Z4MWn54qZhblztwlolb14EjabLhn4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107123203377169767996\">ghaya chebbi</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5864
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas les produits vendus, les modalités de consommation ou de commande, l'accessibilité ni les équipements."
+    ],
+    "rejected": [],
+    "summary": "Maison Épeautre est référencée comme boulangerie au 1 Avenue du Général Leclerc, à Faches-Thumesnil."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "maison-epeautre",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "Hobby": [
+        "boulangerie"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5864,
+    "changed": [
+      "ShopHobby:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c7b2c8ba1e8488ad4b9dcdb0b4b4ed003b9d44323b3ec58283702145277d4860",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

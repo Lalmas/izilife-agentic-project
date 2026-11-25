@@ -1,0 +1,600 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:49:20",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-gerard",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-gerard",
+    "status": "found",
+    "data": {
+      "id": "5659",
+      "name": "BRASSERIE GÉRARD",
+      "shop_string_id": "brasserie-gerard",
+      "unique_id": "4078b64904615d1acf81f827b6792534",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54918",
+      "principal_cover": "54918",
+      "qr_code": null,
+      "phone_number": "+33320079197",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Rue des Peupliers",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1308994",
+      "latitude": "50.5958002",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:32:46",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:32:46",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJGxHZz9bXwkcRvrd04wB3aoY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJGxHZz9bXwkcRvrd04wB3aoY\",\"rating\":4.7,\"user_rating_count\":53,\"google_maps_uri\":\"https://maps.google.com/?cid=9685684794313455550\",\"fetched_at\":\"2026-11-12T19:49:11+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Très bon rapport qualité prix. Service rapide et sympathique.  Je recommande ce resto\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T13:49:56+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Guy Vichery\",\"uri\":\"https://www.google.com/maps/contrib/103303582121810402293/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLlvESIJvO6Jk0VpK54BSLxlz2aBToBcYYHkjW3wXl-49whww=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T12:51:21+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Maxime Wazylyna\",\"uri\":\"https://www.google.com/maps/contrib/105745647790827321103/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVzgRKyNjSmFMs25LHo8V0OtG6QT0HJpaT3IksGmFALCvVPPRQe=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-12T12:50:40+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Romain Sabatier\",\"uri\":\"https://www.google.com/maps/contrib/112142503779690776580/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKP_jW4AaZiWdu3DrAHmmzXs0RnwzGwCVgwv_C37GSLsbcCZg=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-09T12:12:54+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Stéphane LEFAND\",\"uri\":\"https://www.google.com/maps/contrib/115840865664319043208/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLVMCEozmdHnjSY26K02pD7ouohUTzvSkY2LPRH1zHW9_waPA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-05T17:19:02+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Thierry Carel\",\"uri\":\"https://www.google.com/maps/contrib/105106207643598410002/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK0qISRjKWJEnSrxWwPP2il75QfQbpXH15BfSn1gOM27GZUaA=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:49:11",
+      "google_reviews_place_id": "ChIJGxHZz9bXwkcRvrd04wB3aoY",
+      "source_id": 5659,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-gerard",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "brasserie-gerard"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54918",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5659_6af39b8e17d5d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4720",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32775",
+            "source_hourly_id": "4720",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32776",
+            "source_hourly_id": "4720",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32777",
+            "source_hourly_id": "4720",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32778",
+            "source_hourly_id": "4720",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32779",
+            "source_hourly_id": "4720",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32780",
+            "source_hourly_id": "4720",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32781",
+            "source_hourly_id": "4720",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-gerard",
+      "google_place_id": "ChIJGxHZz9bXwkcRvrd04wB3aoY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:00",
+          "mardi: 11:45 – 14:00",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00",
+          "vendredi: 11:45 – 14:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLen7f9Yki8zI9Jwu2tuYC_lvwLp26ccUGmEGaDzY2nbzwV5tfnTtR62oyt-tyuy9PanMCMD2GCSWWsNTh3poBKI0UVFGPRxugzmVSoNIbJx6Iepb-Q2Wrp0vvAnW6V0aA3_gQqv4UfIomR-u9q36GPqMepc58NmcrG0hqRm8znTwzSixw0hVCQWAiENjPcC9Gigxm7Ke_lsYm4a9VRbulduIMjztalln4Q_alCPjOTGqBJIbXSXDOpPhGwqXfTXX8Pn1X7GFfdflzAjpRC2XTN4EPmmaCA_PP4O3IEI1eeEsoM2IoM1eqBvc89ePpAE2AyAhfW__QTgf7YXIRAMLLjkWzhpJ-EWUekjql855DVi1MMBuocBE8NX-Orv4VCOJbh_ps_4i0wCTboYhwVTGncnpUbSWmDj3grzIfpXatbY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLfL8OZ8230WIInMWdblKHZLhYlX4jCv5n--atnAfErkKfj6vhqk6n_aoYsVgReGsIyoyOpmNXZh9x0exw9ZuMAL8zOlUtf-WsBfJAULyAQxMCfOVZg-e-AwV8WJ5osBF4BPrElVb3CQKHkO2dNBFI5BOlfpHiUdnGJnKErlws06UgYRDIwCZXNKZbnTsLRwORQTsJSJO_cd_bUN7CzhVj7Gqi7OL89_pYdHrlsv71AAaUD1Odvs3Vbkkv6vT1CA4kF2Lx0j5GP050KI-SDuMmGAg3igUPKaeJzrA-q5BHPy0FOSkgJx6iN7u3uNsbaRuBKRpTsi2UqhfItOUoFWQb3Mrk_Xw3dHP9GKpELCC6jRk5fQQtX1vV7NlVWA10XUt7OMxqUOEEgTgKYaX88dj3Oscrg3h03VtBYhvs1a1FPS8g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLet8r6KParb2zOSepOrmQp69CFODzzATiEzxtGNO6EaPLgaBh5jF3nmQG9KwOlJomYX18APMq0a37-eKdiu_7lEZO32iedrDmatDPVxTB9i1eUz_JQ1sdWZp773w54WtTiX_R232rP900jMZnPuJtsb3yLJjjl5eNipyfj3ChD_UKXwDoprVNbPxSjrkhBM03t916jds-XUlVpapPsBalkbCmKaWZrPv9UkZMSip_73y1vZkbYndzdBjpSJmZSQ38LsskWuwFcye0LRbcYmj7BgJXM0ZuG6fVHaFcK1sa2MSfXTNotZDMFAivPh6s3UQ4O8FJOxfM4woK2guqT5bNP5J7zqsjoWPO-4CI0rmWpqRebXK3vCWK7GYWHGDNCxKo8mLM9TDbyT-ld9U841yr_gN2cUKtRrQJXC51zzsqCy",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 250,
+            "height": 250,
+            "photo_reference": "AV-0GLdi-7sTFCZQ4ehjeDyuWkuMc-jFycKvDNSoUFFfsFESP_84uhZ6f-raZYH0qahXq54dZUDPC4m-5ZFrGvUuf7bV5getwey1ynEJ33Bq1o6pb-NLP2ozx7hVjEaDlr19T9WIvIc3K2mV4DFd0-T1mOqitb1lDq1X_FhiydsOqOMQh6ACEmXQWSizJ1RaNi0zslct4QcsZT6Rzv3GGcVkyKxLk44Ds0W0sDX83oF_jWnhqC3tCP8REY7xV-My5X58H5TOoNQPsi4_jnF-9-NtrvUhR4ej9lX7jSgqVUDDHXE9xAQ1HLGooAQK5cjJxr2tySMYGGyAbOeKtqBod3XTYoIcpWfqIkIRgFbl9Q0adi483YvrRpjxEzRnb2cukaX8Esnhv1vvsE2Ff3TVxGqF3a8fW0qZAHBuR45qLfYc4wxcSw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLeGAkAp6Hkc2qYh3hg3guE4bU3es2Lj8UtMmra4u3CB-V0hBsKIADHo0d_UherZBUzjDds7Ioo8LmB3nHHsNZnTyWM_BLPCLkElo__cFtLS2GkFpmH8ULHcCd-fTrl0-5M9LLlK2dog1yNEM_aHc6xBU9qlnx7vHPFrdAGp7E_9hBFQcVmoUn7YnT2XQI_vGdohCLa31J4EMyTARl388MPMJyZKhESk6DzyGeStUpYGDXobuM3Zs1kMFdW8z4tmlTmsUCPNlgQ_iLUDFR7rXdO0EHpfc_N_gtEOi93pNMDv_K795m2_TwsOQEbW0zHM-aWSUFUMURN7bqb-7e-IvcqTmIZxlccXf9QbQDNVRkpSmHkIgiDJxSJri4T-w-geUr17PNW6Glo1fep0kAOZORaq3qPUKJP3ho_nB4CATxqubw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLdr9PzD8cYBddiQXeICDawdn5KGDzh3bs0MgkmvZzpps_fJOykdZHWty_WZ0DLQyhIi0sHu4BuxCzIhz9uytYKXkAJE7cZcQ0kTwO1XQMu2I3X6FiTlaaPF86_tOvaorj_jm2FIbJAIAT7SZaYoyLGGQUVL7CL0PzybrLEcjiH7Mnkruxnl8JZHjO1G01hdunGbVpq6uIoGhKB8WRNCWaolcLa6xwGd6vu-R0Nalb81-fMas3wx8XHPRKMsB1UKUVRqAFhu1vU4VZMyX4P7ctxRMWE89x8eQFzaQZm8ZfV37hvgrnHBxnrY_f5tTxkMCj_54zsdv0gNjk5G7KmNu5B1o-kW4h3q1YZVO75UlAWRmdrmZORNlW2l4u-CxmbhfVC3i2ALz71Rly7xBOUYech31TbjeO4cLf6zJd-jwg153g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLeFtuIVxYITHM3KKXrqm1bqIlFmRU--vvO-whqxUO_fLThBQfJRVA5x7-oo_cM-Dc_i7Xuva3rilxWYHXpOdLeTVgmT5GUrsm2CQauOX7N6fn6xkIRWki37oQqFUO7mIwgHob3LsTi1dQH5DhztYW7cFNEugb2UyBJvLhzWXKffi7MUmcp-NgBWXwWCkkfnFu-8V4rmeLXmoa85H_vrhlFmkwsF_rwfUHWHG2seWvOJcMiOAioYyYIwJAPeVGNNIc4XnIr1vfG7qiZVf5wefvGePbZVhZosJxV3MPi0DBLY0rHsq4tWHwtsrDHF1gWXufA4k8j7VKPgRGY4n1WTtTsLsXYejz6vi6uZRh-AkDUwk5qs9votqn8D1C8S88uP6c1wrDU43UpC0xtlSBbuz02-AlxopGf_m2eWTOBTWlL6",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLcYlrf9xmRF97N-N3TAhBb8uQd_oJEIhVxUoZ6nSv-Etz09-lJEjXQybNaIu3qbA5CjKHGB_XcebK1MewpLwlyxJrhhtwmNLc9GVKPB4cphaSq7ah-A8v3lNv3RnY6k8BMJYtZL_SK4Gbv7Iqz_Wj11n8jpUQqgf3bFRJxA2hQ9hYn6LESnkXOv3IS6eXn4w1U_KvbNi8Nx3v2yGO0e6okmjbhYTa3Zzgg1B9cZAByXatP0NglZxin5-7aLXUNvBqTEBKqtQ8xfxm1NI5XyoW_HR6zmRdV1NMh4O-sCNj1xbra8MiSvkzu8KP37i_rM-MDRNZ1F_ZWGnGlNMF173-LVcrzWunUquyLpsl1dH1SPr7KxxvxGtIm2hdhm5n49HRcNRhhC6YgnFWLqv-_8NroeTYBwbaOvtyxvJ8hvzMB0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 800,
+            "photo_reference": "AV-0GLcDJF8TdTVnXrnNQkLTjG2gMi2xUMuMKacwFrUZbBXXxBzbj3hxcFx3P_FJECrUUGMgYWRj01Pa9rQawWR_QVPv1g37CxFQgXHAgQ7mAcAsWd9_QU3MIrkEnEWXS78jGk_9Gsoq7zDPbxBu5b219HJg9w4vNwRuy3sNbwZsiumHOiBwVAaL6SPNzD4y77IIFzspcDLsFYBJiRDV1O_vjvKSPIaiWLkFjWnTPtcH1juK6JG8Ym6H_8079YCzKpPCAJn5SXKIrx6Q2Qu4kNiRCEkRHfJTO8KzgjR4QGx0ysq401mPb6JNsC3GRNUVvQR8lh6GYf_UOr2FzGf3Xc3p91FHmKGEyCoGJgna3R8W-WxOC__XQcIP03ZYqAT3fjL3iRkrxxQrzv1xV-p0OiRd4T2tIGo7CKKTTY8YNaRzCIGWdQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          },
+          {
+            "width": 250,
+            "height": 250,
+            "photo_reference": "AV-0GLfKyNfwRXwr0F65nbiR1UgQDbLXoS0vwUInQTpzklMlLqetmysgzLGLK1ELLa45AI4kT6l9oFGCdk323ASfo_rYTQrhVubu6L8GmLbjqNkVJ1EMVMPswU94flkEYbB12FTcnMX4BaagOWvE8lNbnMpJAn69XyFUR4s8O2EHiAVViStk0vF0g8ds6vu36goyyE1AYwYkwooWCulvVAeWLaVg-_kTOd70lMU0YMG_hsy7t2xMhLFh10XUM4k8CEWnoY7UzVXCH9V7LngfrUKU96GVDwqn09UsXiaUa9ckxaj2RqCxYcNkC6YSJZcVE5GKysEIHnXFqErrTc6Y4y2k7NurZQ1DGGEIrEvU7MLA2XoS66R9wpaGTSy8j6qrQbxXx2yKpsc3GHB0LqqFgiCUcmuiDVnqB9YoCUJBfq26uu2fVA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100834805695091954137\">BRASSERIE GÉRARD</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5659
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon rapport qualité prix. Service rapide et sympathique.  Je recommande ce resto",
+            "language_code": "",
+            "publish_time": "2026-11-12T13:49:56+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Guy Vichery",
+              "uri": "https://www.google.com/maps/contrib/103303582121810402293/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLlvESIJvO6Jk0VpK54BSLxlz2aBToBcYYHkjW3wXl-49whww=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super",
+            "language_code": "",
+            "publish_time": "2026-11-12T12:51:21+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Maxime Wazylyna",
+              "uri": "https://www.google.com/maps/contrib/105745647790827321103/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVzgRKyNjSmFMs25LHo8V0OtG6QT0HJpaT3IksGmFALCvVPPRQe=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-12T12:50:40+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Romain Sabatier",
+              "uri": "https://www.google.com/maps/contrib/112142503779690776580/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKP_jW4AaZiWdu3DrAHmmzXs0RnwzGwCVgwv_C37GSLsbcCZg=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-09T12:12:54+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Stéphane LEFAND",
+              "uri": "https://www.google.com/maps/contrib/115840865664319043208/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLVMCEozmdHnjSY26K02pD7ouohUTzvSkY2LPRH1zHW9_waPA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-05T17:19:02+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Thierry Carel",
+              "uri": "https://www.google.com/maps/contrib/105106207643598410002/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK0qISRjKWJEnSrxWwPP2il75QfQbpXH15BfSn1gOM27GZUaA=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 53
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1146,
+        "bo": 108,
+        "front": 1038,
+        "estimated_cost_eur": 3.6500000000000004
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires en semaine : 11:45–14:00 ; avis : « Service rapide »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "service-rapide",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Service rapide et sympathique. »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « brasserie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert du lundi au vendredi de 11:45 à 14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert du lundi au vendredi de 11:45 à 14:00."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie à Lesquin ouverte en semaine sur le créneau du déjeuner. Un avis souligne le service rapide et sympathique ainsi qu’un bon rapport qualité-prix."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-gerard",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5659,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "abeaa28d5a21824d0846526743ce37fda34ad1c954efff97d5b4c8e59c4f4312",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

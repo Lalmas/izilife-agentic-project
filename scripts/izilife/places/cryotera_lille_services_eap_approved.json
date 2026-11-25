@@ -1,0 +1,728 @@
+{
+  "schema_version": "izilife.site_content.v1",
+  "source": {
+    "site": "https://cryotera.fr/",
+    "tariff_url": "https://cryotera.fr/les-tarifs",
+    "tariff_scope": "tarifs conseillés dans le réseau de centres indépendants Cryotera",
+    "observed_at": "2026-10-28"
+  },
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "cryotera-pole-de-cryotherapie-lille"
+  },
+  "objects": [
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/cryotherapie-corps-entier",
+      "item": {
+        "name": "Cryothérapie Corps Entier",
+        "description": "Immersion à -90 °C en chambre de cryothérapie corps entier.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Cryothérapie Corps Entier",
+        "price": null
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/cryotherapie-corps-entier",
+          "local_file": "cryotera_media/cryotherapie-corps-entier.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — Séance découverte",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 30,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "Séance découverte",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 1 séance",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 42,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 5 séances",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 190,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "5 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryothérapie Corps Entier — 1 séance",
+            "quantity": 5
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 10 séances",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 350,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "10 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryothérapie Corps Entier — 1 séance",
+            "quantity": 10
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 2 séances / mois",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 65,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "2 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 4 séances / mois",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 100,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "4 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Corps Entier — 8 séances / mois",
+        "service_name": "Cryothérapie Corps Entier",
+        "price": 185,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "8 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/cryotherapie-localisee",
+      "item": {
+        "name": "Cryothérapie Localisée",
+        "description": "Application ciblée du froid sur une zone du corps.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Cryothérapie Localisée",
+        "price": null
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/cryotherapie-localisee",
+          "local_file": "cryotera_media/cryotherapie-localisee.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Localisée — 1 séance",
+        "service_name": "Cryothérapie Localisée",
+        "price": 45,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Localisée — 5 séances",
+        "service_name": "Cryothérapie Localisée",
+        "price": 195,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "5 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryothérapie Localisée — 1 séance",
+            "quantity": 5
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Localisée — 10 séances",
+        "service_name": "Cryothérapie Localisée",
+        "price": 350,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "10 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryothérapie Localisée — 1 séance",
+            "quantity": 10
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryothérapie Localisée — 4 séances / mois",
+        "service_name": "Cryothérapie Localisée",
+        "price": 110,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "4 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/pressotherapie",
+      "item": {
+        "name": "Pressothérapie",
+        "description": "Drainage mécanique destiné à stimuler la circulation lymphatique.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Pressothérapie",
+        "price": null
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/pressotherapie",
+          "local_file": "cryotera_media/pressotherapie.png",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Pressothérapie — 1 séance",
+        "service_name": "Pressothérapie",
+        "price": 25,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Pressothérapie — 10 séances",
+        "service_name": "Pressothérapie",
+        "price": 150,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "10 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Pressothérapie — 1 séance",
+            "quantity": 10
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Pressothérapie — 4 séances / mois",
+        "service_name": "Pressothérapie",
+        "price": 50,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "4 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/cryolipolyse",
+      "item": {
+        "name": "Cryolipolyse",
+        "description": "Traitement par le froid des zones ciblées.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Cryolipolyse",
+        "price": null
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/cryolipolyse",
+          "local_file": "cryotera_media/cryolipolyse.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryolipolyse — 1 zone · 1 séance",
+        "service_name": "Cryolipolyse",
+        "price": 200,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 zone · 1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryolipolyse — 2 zones · 1 séance",
+        "service_name": "Cryolipolyse",
+        "price": 385,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "2 zones · 1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryolipolyse — 1 zone · 3 séances",
+        "service_name": "Cryolipolyse",
+        "price": 550,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 zone · 3 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryolipolyse — 1 zone · 1 séance",
+            "quantity": 3
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Cryolipolyse — 2 zones · 3 séances",
+        "service_name": "Cryolipolyse",
+        "price": 985,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "2 zones · 3 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Cryolipolyse — 2 zones · 1 séance",
+            "quantity": 3
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/soin-du-visage",
+      "item": {
+        "name": "Soin du visage",
+        "description": "Soin du visage associant froid localisé et masque en bio-cellulose.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Soin du visage",
+        "price": null
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/soin-du-visage",
+          "local_file": "cryotera_media/soin-du-visage.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Soin du visage — 1 séance",
+        "service_name": "Soin du visage",
+        "price": 45,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "1 séance",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Soin du visage — 5 séances",
+        "service_name": "Soin du visage",
+        "price": 195,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "5 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Soin du visage — 1 séance",
+            "quantity": 5
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Soin du visage — 10 séances",
+        "service_name": "Soin du visage",
+        "price": 350,
+        "currency": "EUR",
+        "access_type_ref": "lieu",
+        "price_model_ref": "ticket-unitaire",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "10 séances",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer.",
+        "is_pack_access": 1,
+        "pack_composition": [
+          {
+            "name": "Soin du visage — 1 séance",
+            "quantity": 10
+          }
+        ]
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer"
+      ]
+    },
+    {
+      "kind": "eap",
+      "source_url": "https://cryotera.fr/les-tarifs",
+      "item": {
+        "name": "Soin du visage — 4 séances / mois",
+        "service_name": "Soin du visage",
+        "price": 110,
+        "currency": "EUR",
+        "access_type_ref": "abonnement",
+        "price_model_ref": "abonnement-recurrent",
+        "is_active": 1,
+        "need_to_be_confirmed_manually": 1,
+        "conditions_description": "4 séances / mois",
+        "description": "Tarif conseillé du réseau Cryotera ; centre de Lille à confirmer."
+      },
+      "review_status": "approved",
+      "media": [],
+      "warnings": [
+        "Tarif conseillé ; conditions commerciales du centre à confirmer",
+        "Abonnement à configurer avant vente"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/suivi-en-nutrition",
+      "item": {
+        "name": "Suivi en nutrition",
+        "description": "Accompagnement par un professionnel de la nutrition ; tarif sur devis.",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "currency": "EUR",
+        "status": 2,
+        "source_evidence": "Suivi en nutrition"
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/suivi-en-nutrition",
+          "local_file": "cryotera_media/suivi-en-nutrition.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    },
+    {
+      "kind": "element_service",
+      "source_url": "https://cryotera.fr/prestations/cryotherapie-corps-entier",
+      "item": {
+        "name": "Bilan personnalisé offert",
+        "description": "Bilan personnalisé sans engagement.",
+        "price": 0,
+        "currency": "EUR",
+        "service_type_ref": "beaute-et-bien-etre",
+        "price_unit_ref": "fixe",
+        "status": 2,
+        "source_evidence": "Votre bilan personnalisé offert"
+      },
+      "review_status": "approved",
+      "media": [
+        {
+          "source_url": "https://cryotera.fr/prestations/cryotherapie-corps-entier",
+          "local_file": "cryotera_media/bilan-personnalise-1920.jpeg",
+          "role": "cover",
+          "rights_confirmed": true
+        }
+      ],
+      "warnings": [
+        "Vérifier la disponibilité au centre de Lille",
+        "Droits de réutilisation du visuel à confirmer"
+      ]
+    }
+  ]
+}

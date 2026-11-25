@@ -1,0 +1,66 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« déguster des galopins de bière »"
+      },
+      {
+        "string_id": "eco-responsable",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« Brasserie LA DRACHE, Wattbeer, BIO »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 1,
+        "source_url": "izilife://current",
+        "evidence": "« déguster des galopins de bière »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« acheter des bouteilles »"
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "biere",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "« galopins de bière »"
+        },
+        {
+          "string_id": "visiter",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« faire la visite de la brasserie »"
+        },
+        {
+          "string_id": "boire",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« déguster des galopins de bière »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Brasserie proposant une visite, une dégustation de bière et l’achat de bouteilles."
+  },
+  "meta": {
+    "cache_key": "56d9af0fc196b67fe9eca05814d5e02cd162d179a7566173bb96b2a727905e88",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:07:25.835829",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 26,
+      "title": "Visite libre du beffroi de l’hôtel de ville de Lille",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://reservation.lilletourism.com/visite-libre-du-beffroi-de-l-hotel-de-ville.html#reservation",
+      "validation_blockers": [],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "h",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 26,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 67,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:07:26.896924"
+}

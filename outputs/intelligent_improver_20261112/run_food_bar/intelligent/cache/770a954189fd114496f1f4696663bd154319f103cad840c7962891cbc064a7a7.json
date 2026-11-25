@@ -1,0 +1,44 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:00 – 23:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 18:00 – 23:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles ne permettent pas de confirmer les plats, les régimes, la consommation sur place ou à emporter, les publics, l'accessibilité, l'ambiance, les équipements, les modes de paiement ou de commande."
+    ],
+    "summary": "Restaurant ouvert certains soirs selon les horaires fournis ; les autres caractéristiques ne sont pas documentées."
+  },
+  "meta": {
+    "cache_key": "770a954189fd114496f1f4696663bd154319f103cad840c7962891cbc064a7a7",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

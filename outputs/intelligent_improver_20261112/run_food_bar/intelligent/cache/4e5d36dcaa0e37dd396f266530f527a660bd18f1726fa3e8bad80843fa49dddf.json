@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.62,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: brasserie"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Un café ou l'on se sent comme en famille"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Un café ou l'on se sent comme en famille"
+        }
+      ]
+    },
+    "warnings": [
+      "Les informations disponibles sont limitées ; aucun détail confirmé sur les menus, les modes de commande, l'accessibilité, les équipements ou les paiements."
+    ],
+    "summary": "Brasserie à Santes ; un avis décrit un café où l’on se sent comme en famille."
+  },
+  "meta": {
+    "cache_key": "4e5d36dcaa0e37dd396f266530f527a660bd18f1726fa3e8bad80843fa49dddf",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

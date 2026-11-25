@@ -1,0 +1,28 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "root": {
+    "type": "ANNUAL_CELEBRATION",
+    "client_ref": "braderie-lille",
+    "data": {"name": "Braderie de Lille", "string_id": "braderie-de-lille", "event_category_ref": "marches-braderie-et-brocante", "default_event_category_ref": "marches-braderie-et-brocante"}
+  },
+  "publication": {"activate": false},
+  "organizers": [{"type": "PAGE", "ref": "sortir-a-lille"}],
+  "events": [
+    {
+      "client_ref": "braderie-2027",
+      "relation": "ROOT_EDITION",
+      "update_mode": "ENRICH",
+      "data": {
+        "title": "Braderie de Lille 2027",
+        "description": "Édition 2027 de la Braderie de Lille.",
+        "event_category_ref": "marches-braderie-et-brocante",
+        "start_date": "2027-09-04",
+        "end_date": "2027-09-05",
+        "city_ref": "lille"
+      },
+      "sources": [{"url": "https://www.lille.fr/braderie"}],
+      "media": [{"image_url": "https://example.test/braderie-2027.jpg", "is_principal": true}]
+    }
+  ]
+}

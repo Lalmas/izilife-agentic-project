@@ -1,0 +1,77 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "Partager un moment sympathique autour d'une bonne pizza"
+      },
+      {
+        "string_id": "jeux-a-disposition",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "avec billard et baby foot"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "autour d'une bonne pizza"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Accueil chaleureux"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "les pizzas sont délicieuses"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "billard",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "avec billard"
+        }
+      ],
+      "ObjectOnPublicPlace": [
+        {
+          "string_id": "billard",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "avec billard"
+        },
+        {
+          "string_id": "baby-foot",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "et baby foot"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Café-restaurant apprécié pour ses pizzas, avec billard et baby-foot."
+  },
+  "meta": {
+    "cache_key": "0fdb585ced6abb8ea1fa409d2afa27571873c943fb868519cc9e9e651124913d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

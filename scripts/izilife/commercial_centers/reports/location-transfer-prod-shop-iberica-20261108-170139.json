@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "486a746c5eedfb8af90cfc59d0eb25f0c99d524c831a84b020bcb9bffe5ec8a9",
+    "source": {
+      "id": 5156,
+      "type": "SHOP",
+      "ref": "iberica",
+      "name": "IBÉRICA",
+      "is_active": 1,
+      "listable": 1,
+      "in_on_place": null
+    },
+    "destination": {
+      "id": null,
+      "type": "PLACE",
+      "ref": "iberica",
+      "name": "Ibérica",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_PLACE",
+        "target": "iberica",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "ShopMedias",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 16,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": true,
+    "canonical": {
+      "version": 2,
+      "source_type": "SHOP",
+      "source_ref": "iberica",
+      "source_id": 5156,
+      "source_updated_at": null,
+      "source_fingerprint": "7fb38e2495432d5729709c1e554c997a4cb5e68a05a7cf5a2fb8f109eee5f613",
+      "destination_type": "PLACE",
+      "destination_ref": "iberica",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Ibérica",
+      "destination_category_ref": "espace-evenementiel",
+      "destination_category_id": 148,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_PLACE",
+          "target": "iberica",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "ShopMedias",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 16,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

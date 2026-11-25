@@ -1,0 +1,117 @@
+{
+  "success": true,
+  "plan": {
+    "plan_version": 2,
+    "plan_hash": "6d77cfbf55527707d741e1d78b4fe2e25649805b0a940beed38b02ff31c752f4",
+    "source": {
+      "id": 119,
+      "type": "PLACE",
+      "ref": "le-musee-numerique",
+      "name": "Le Musée Numérique",
+      "is_active": 1,
+      "listable": 1
+    },
+    "destination": {
+      "id": null,
+      "type": "EQUIPMENT",
+      "ref": "le-musee-numerique",
+      "name": "Le Musée Numérique",
+      "will_be_created": true
+    },
+    "actions": [
+      {
+        "family": "destination",
+        "action": "CREATE_EQUIPMENT",
+        "target": "le-musee-numerique",
+        "count": 1
+      },
+      {
+        "family": "media",
+        "action": "COPY_PIVOTS",
+        "target": "PlaceMedias",
+        "count": 1
+      }
+    ],
+    "blockers": [
+      {
+        "table": "PlaceHobby",
+        "column": "place_id",
+        "count": 1,
+        "excluded": false,
+        "reason": "Référence non déclarée : stratégie métier requise."
+      },
+      {
+        "table": "PlaceObject",
+        "column": "place_id",
+        "count": 1,
+        "excluded": false,
+        "reason": "Référence non déclarée : stratégie métier requise."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 17,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "can_apply": false,
+    "canonical": {
+      "version": 2,
+      "source_type": "PLACE",
+      "source_ref": "le-musee-numerique",
+      "source_id": 119,
+      "source_updated_at": null,
+      "source_fingerprint": "1c275997abbbae6d1554828f04f7d9c6a4ea5a43cbbd3b09947ee55129d879d7",
+      "destination_type": "EQUIPMENT",
+      "destination_ref": "le-musee-numerique",
+      "destination_mode": "CREATE",
+      "destination_id": null,
+      "destination_updated_at": null,
+      "destination_fingerprint": null,
+      "destination_name": "Le Musée Numérique",
+      "destination_category_ref": "musee-numerique",
+      "destination_category_id": 999,
+      "activate_destination": true,
+      "actions": [
+        {
+          "family": "destination",
+          "action": "CREATE_EQUIPMENT",
+          "target": "le-musee-numerique",
+          "count": 1
+        },
+        {
+          "family": "media",
+          "action": "COPY_PIVOTS",
+          "target": "PlaceMedias",
+          "count": 1
+        }
+      ],
+      "blockers": [
+        {
+          "table": "PlaceHobby",
+          "column": "place_id",
+          "count": 1,
+          "excluded": false,
+          "reason": "Référence non déclarée : stratégie métier requise."
+        },
+        {
+          "table": "PlaceObject",
+          "column": "place_id",
+          "count": 1,
+          "excluded": false,
+          "reason": "Référence non déclarée : stratégie métier requise."
+        },
+        {
+          "table": "user_events",
+          "column": "target_type+target_id",
+          "count": 17,
+          "polymorphic": true,
+          "excluded": true,
+          "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "izilife.site_content.v1",
+  "target": {
+    "scope_type": "PLACE",
+    "scope_ref": "parc-de-la-citadelle"
+  },
+  "objects": [
+    {
+      "kind": "equipment",
+      "source_url": "https://parcdelacitadelle.lille.fr/la-citadelle-lieu-de-sports/le-mobilier-sportif",
+      "item": {
+        "name": "Mobilier sportif de la plaine Grimonprez",
+        "internal_id": "mobilier-sportif-plaine-grimonprez",
+        "category_ref": "cage-street-workout",
+        "description": "Ensemble de six modules en accès libre pour le street workout, le renforcement musculaire, les étirements et le cardio-training.",
+        "localization_text": "Plaine Grimonprez, Parc de la Citadelle",
+        "city_ref": "lille",
+        "exterior": 1,
+        "is_active": 1,
+        "instances": [
+          {
+            "instance_code": "double-cardio-jambes",
+            "name": "Appareil double cardio jambes",
+            "sort_order": 0
+          },
+          {
+            "instance_code": "double-cardio-musculaire-jambes",
+            "name": "Appareil double cardio et musculaire jambes",
+            "sort_order": 1
+          },
+          {
+            "instance_code": "double-fessiers-dorsaux",
+            "name": "Appareil double fessiers dorsaux",
+            "sort_order": 2
+          },
+          {
+            "instance_code": "double-abdominaux-dorsaux",
+            "name": "Appareil double abdominaux dorsaux",
+            "sort_order": 3
+          },
+          {
+            "instance_code": "double-bras-pectoraux",
+            "name": "Appareil double bras pectoraux",
+            "sort_order": 4
+          },
+          {
+            "instance_code": "double-bras",
+            "name": "Appareil double bras",
+            "sort_order": 5
+          }
+        ],
+        "source_evidence": "Retrouvez-le sur la plaine Grimonprez. Vous trouverez 6 modules sur ce site."
+      },
+      "review_status": "needs_review",
+      "media": [],
+      "warnings": [
+        "La source confirme la plaine Grimonprez mais ne fournit pas de coordonnées précises pour l'équipement. Valider le point avant import."
+      ]
+    }
+  ]
+}

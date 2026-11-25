@@ -1,0 +1,474 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:32:48",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-casiers-de-la-prevote",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "o-casiers-de-la-prevote",
+    "status": "found",
+    "data": {
+      "id": "5857",
+      "name": "Ô casiers de la Prévôté",
+      "shop_string_id": "o-casiers-de-la-prevote",
+      "unique_id": "488d9d389ab94cce403737d4b0fd19df",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "6",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55113",
+      "principal_cover": "55113",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "54 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59273",
+      "city_id": "36",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.137727",
+      "latitude": "50.555061",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:01:16",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:01:16",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJqfoxSFLXwkcRBkUiwvVnQLE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5857,
+      "scope_type": "SHOP",
+      "scope_ref": "o-casiers-de-la-prevote",
+      "primary_category_ref": "cafe",
+      "closed_state_ref": "ouvert",
+      "city_ref": "fretin",
+      "string_id": "o-casiers-de-la-prevote"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55113",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5857_6af3a23cea456.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4913",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34126",
+            "source_hourly_id": "4913",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34127",
+            "source_hourly_id": "4913",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34128",
+            "source_hourly_id": "4913",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34129",
+            "source_hourly_id": "4913",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34130",
+            "source_hourly_id": "4913",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34131",
+            "source_hourly_id": "4913",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34132",
+            "source_hourly_id": "4913",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "Ouver",
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "o-casiers-de-la-prevote",
+      "google_place_id": "ChIJqfoxSFLXwkcRBkUiwvVnQLE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Ouvert 24h/24",
+          "mardi: Ouvert 24h/24",
+          "mercredi: Ouvert 24h/24",
+          "jeudi: Ouvert 24h/24",
+          "vendredi: Ouvert 24h/24",
+          "samedi: Ouvert 24h/24",
+          "dimanche: Ouvert 24h/24"
+        ],
+        "photos": [
+          {
+            "width": 1940,
+            "height": 1435,
+            "photo_reference": "AV-0GLc6fPlVT-C8EmC-5pJe-zhNMyf_xGGL6Ws5QNzJs4u4qslwaReB2VXD3ogdXxc2f0Jpw0vNkhVeuXkSLyAuXJ1Q4WZa3gonXdYwhCixiGS_psPfS69lvdPbUA-lGAsc7aRygOwMVBMJ6m6NamSScXQRdNSjVLgW2hBscuMfL8hvd_GA0ICV0LgA3zP89AMka04O6pdAHKKbb9nMWmQ0_yLsDFEQFDGdMTY_RDUhT_8HdPNbFn_wgMrpcJjOxX267NA-PCXBuCI0ZKYYiBbO0xUV906f2m3Tz-jqx3rVobRiABBGfzzl7_neTvIRtk5C9XKQwBetlw5Yci1O8dUW-5de41VgFC9flekp9S4kDnRGLy_ewElwA1apIHWglDhd1NaaMS7LXaUBjU7TjVaaMutBpQqO6qg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1536,
+            "photo_reference": "AV-0GLe_7eO2gVxda72wXxoxU7CaG2nQa3j-7ExN6PGVhnIgA33KYnekJ5Bz3vXDjjwwML0nMC0oLq64MdHnu70LpGMU7antaRtTee3_XWYNGcA3RhbZSkBjbkurKELA5edmJFeCGEV3dzFO1bAkIp_kX7w2vziBcw6s8s-PT0k9wRfhyq2QsagmR-axdCY7wjt13mL-kQr9nkWHXywWop7xgoaG7BgXhTeFhmVa-Z6B7E-nPrTUQVCKghQCrthBVowii5XcfmqrzQmNcX0yfFSZNI1AsD_m2vcbl-hITqvUS_Ov0pWmJLTJt8z-UuBHS-sjdiwzzNvmRlVdKRyJCufy0YcuzqSnDXaPNfN1ezGbaZu7euMi7zsuqENagylhmztBQgnh3jq5okNjhkV1W5txC41rduc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 778,
+            "photo_reference": "AV-0GLf4ZNmxqEoViDMLUUjh3aYHhs7rFQI1sVkve2u2bjI9gm2-s7SORMMfE7NgH6mfvgHwH_0U2mXUGeHhIxqdGzoEZReDlQRlQyKVGBjARdpf2TZfRlyCTEiqFQWM8GQL8Z040ZCLxbUlHFUEQGfNFDIrRQKo_VFA-0u-MrnxcSisa4RKRZhlsP67CM64_U1pdY2dzUc-lUSWZ0fatfdDYn-lQJKBlJmt4vphOZqZPVrrvG--V4yWqFMVfkDCR-dVIyWPXkZRrvucE_MNC2vAJov6_vUDDIdEqaGISYuzjHOxR7vj8WZj2JJ-B-aZpjhNwqFOzK1ds8mhmMEIBngyUZAW9ee-jI3esJNzqNh89PXUwzOQB1UbQIjeS7nfeHst29SfR6b_4war3SlzlnI2ISMIBec",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1940,
+            "height": 1435,
+            "photo_reference": "AV-0GLf3ekYP2BqG7ar1Ogx8rd9GKqimJJCw0-AhcnLzvzg2KNGvu_wAqBSFBVT6_Azq8ZWlPjQbKR3kD5zyPe1F7ibOqlpP6dYHG55AjSWEiP6VCocbdAxgdxLJ4y57ifKhB2iCZUBK3can9ZAiEwy0f8otR4afrrrCl5C8sgYG9Yt7dvu0cCp_PzESZ2C00J5OIkQe6gC7UbGnFfO3EBTAFTN2KvmWu0PUumQ_BQj-eqr22Hmi-NssVFeJ2eo-A1GDR-pJPOmm8N9bvFo3og6spwBUtkzpWYS73eKgqeKGEfLyNproqHY-K8mhSy5NXdvNcBNlG3jddodMNDy48l0jY4r8HfOh1XwgajS5S--zNJ72m6H_SENFXjp2-V_YhSWAUG6_a12FpYdET0_ycgqfUsNSah8zpZg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLc8R8P5lGg2nPVMU4edwCwHzuvQrfqZ-d9tMpPcOieMV4qT5xWwRiEcIOdcilu2U8gHr9iDkSEbJgv4q5ZiNR4zsgMgu_muXNl0d6sfeevarsS83gVezqpgLRDiXBidTaz8fTZsCjMGNIsJ0yc7P8PcbLx4AJU0bfL1Rycj7SnRUj-XNR0QAIqdQVMoRhd_RszcBWR3GVpiZZo6WVn3P8-2jd4ugD4bQqvegtOUBLAc864zb0aqFdIN5sxHtP5Zsxw1w0WvdhDQPkaDr0VeFjlbUv0NXvd9sYJgAFXQOz8pUFe-JI_SH19enRgzPj1x4ysLyyEBIFoNRl0E2ngj4J0IaUx2P2HnWejMkj2UOpQELeuO8LwpsXn2NEtH-3pvAHMJnCj6oaYJ6WD2mWlOubNNc59Skdg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1152,
+            "height": 1548,
+            "photo_reference": "AV-0GLdgX_k8YBJ5LpN0xbAnfrKnG0LSPb0nZow-bNiHqjJhnrqGFkk48cu95vsolHkrUFCQeakjJ-CHeXl5VSINC7jHRd_6VP2rn7C0LQnD4zF1lXS59L03zbz50LPDcC6UOMQ22QRyDULScSRR-cSvWXzXEipUZ5rS5JoOpgafG1d-SXpKCMvpyaP4oemeCUCUv3MvDW2CacsRp2hWQEmAoXgK1qjG2S_YB1ACHDg1AVqQYXF52MU2Em59CckUtWdHSY6bXB26nRUMW-kHv1OL1L6I9_iCKjkwAaQculMsJIiHG8z1fC3OyCqFg2O9HDqp79JqDXgjOJ05LeYwGSQn0ztjPAzN-XiGVC8XaLuOwj8ILh5nmh1HCQRI3xP6yexh24uDEkg6F2G8swXSWhfxLMKIxA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100740246123183463540\">Jennifer ronchin</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1080,
+            "photo_reference": "AV-0GLeHq2_JRoicsrDoxz__sl2KCpQJRsPj_g4Mx1JpD5F6p_r6phHBVAuECfCyrOjxUzlEI0hrkth_VjWBq98MPJ6bH4mpKtMzhViKJltRucp3N6K99V9OePig3oeT7b5jS5IS4lc6eZs3uzXB7i0FDbW9_E0IUTiJLNGaPp_5p7Qt3gi7qlXq4XFtXDAZ941Dw1ylcW0iehdO_cEL-P-MLc9PDduU9Djz4l_qFbtmGxeiH-fGmOKxKXJ1sHtOnecAoeXTkx4OZpR_F_IuVzsvHfyfc8sHMxF_HWtI9M9DlJrLBD1wU63aRRagnco9Ov1tAS-BIR_KCm5u1XdGL8C2lxbtfKM4T4K2b2Uli-SjyYtAKYvVzwtsgyYap0LtIPCysdFTFyAwvZzoqnU4QDPDAENA0CQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1184,
+            "photo_reference": "AV-0GLc8X-i5JzRvpSJ-GUABtaKECf-YV1W7NdoUI9i65f8miQ-mLpxJ2kcdrLPK2Ljm5q2lcOvdVW5MaQypKyDvRlGjeX8vmJnzRJD0dnwhuaYUc9uJRLkqVOpW4XaI4bVv5DHcugELtfTXrF4eOvVhuDbVtFFVmPrmtOLrqHdLxOnZv5sCt0Et8KVV19aVsrSWcdrpFkzWRHL_xgdvxkCSX2nw7BDnQchiQMJI3ZlyYeUuDgt5UMC7pxo50FLB_rrLchEN8lskDIWDZFnPYRytNevwgrgRzwugbCbewV7GX4nAfSfXsUaB-A_e-_lrzl1NzyV8NgQCpSKeqiT1Ma_FWWWfOKmxOytaVFiOyOoVsZkms5Utu9EG_jkj2x9Fasy7IQ1scJ_4DjAvsxOufJqP3Q_9ActNeXg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 1440,
+            "height": 1184,
+            "photo_reference": "AV-0GLfrNdkN0yjbVlTw2wyofWrqE1-FYBSZJnlRDV2b7Y3Rdglxt65FOYvGyTxr8XsmZNoU8E-h2RNq38EWC26RrfQ-71ubnYu8VbUATr2-NEmOfpMlfduA9883bGDUC6ufgvw3iU2kWiBTs_4wgF9z3I_FBpKliHj4KO-rVWSADFUwy37x43uCSH59SemeHkNYsMiKhnaBAeHfNu1Yz-eS673BulULdkiKPYP_SdSOPPs8zeEdXq13xbR12BuQGCYCGsIYGvb3zVf1jhe9UmAdVfTNLO-wxZ58IzNv876gyXygbP22N-Bs3ZkHiqqfVYgMdXgW1Dqb1S_dsxTt32dY1h5On-y_AHbYkz9aSEn6ENYh1wke0wOdtdZ07UM3fwOrg5HGYixCrzH3YCVG1d2KVkKfozjk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          },
+          {
+            "width": 720,
+            "height": 923,
+            "photo_reference": "AV-0GLcYYnH6M0GT1BYag62jL01gldO7uDfp_acq1dkaON6rI_4bNyTzmTWimH-KUY-OVlsN7aF_UJrr2HDvGiq8uSkXGLNKfj_AgNf5JGmqGuEN1QIe7nowDU-5SJG9SI1jTRXWb7PKbDn5duhNzgzKqxIkopftWBvZhZNqBNo3kRg5-acA7Nn29FwuosIkieQCdtEaU5LAAuS8Hnu-GPINeAVjhFMLEN4bVbbHc3AnT2qo87i2ZaZeQdXiZJlSkr4AasFZkosYtXyAgJ3tASH3No9wIU8199IyQJZcLAaWzEhW8_lTb6AurS6ILUqSwpgUKwLHjaWMW2Tnk7a1m9c3da5RTF-JLd9dl6cVu1XtPI0pxUML9IxexlA7ptrz2XBPljFfHSB6iephT_we1ktpNNsjodI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106601094771979106404\">Ô casiers de la Prévôté</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "skipped": true,
+          "reason": "cache_incomplete"
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": true,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les horaires Google en cache indiquent « Ouvert 24h/24 » tous les jours, mais leur application a été ignorée car le cache est incomplet. Aucune caractéristique ne peut être déduite de cette information seule."
+    ],
+    "rejected": [],
+    "summary": "Ô casiers de la Prévôté est référencé comme commerce de catégorie « cafe », au 54 Rue du Maréchal Foch à Fretin. Les données fournies ne documentent pas ses produits, services ni équipements."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-casiers-de-la-prevote",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5857,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "07ccd361ca51d41cd4f5953b2596c2493bffa05d85b5ce034f10bb4253c1c1e3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

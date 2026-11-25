@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3368,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.78,
+    "evidence": [
+      "Le descriptif annonce un récit humoristique d’Amandine Elsen.",
+      "Aucun élément ne prouve qu’il s’agit d’un plateau ou d’une soirée de comedy club.",
+      "Le titre et la description ne prouvent pas explicitement la forme d’un spectacle solo écrit et mis en scène."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "La description confirme un spectacle humoristique, mais ne précise pas clairement sa forme. La catégorie existante stand-up est conservée faute de preuve suffisante pour la recatégoriser."
+      }
+    ]
+  }
+}

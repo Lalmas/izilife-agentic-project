@@ -1,0 +1,549 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:22:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-galiote-restaurant-bar",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-galiote-restaurant-bar",
+    "status": "found",
+    "data": {
+      "id": "5780",
+      "name": "La Galiote Restaurant & Bar",
+      "shop_string_id": "la-galiote-restaurant-bar",
+      "unique_id": "4a044d4a92a2be360985c61fcf6f1075",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": "Ce restaurant aménagé dans une ferme rénovée avec terrasse propose une carte courte de fins plats de saison.",
+      "ai_description": null,
+      "principal_picture": "55034",
+      "principal_cover": "55034",
+      "qr_code": null,
+      "phone_number": "+33320074678",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "18 Rue Marcel Sembat",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1301626",
+      "latitude": "50.5938088",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:49:37",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:49:37",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJcdZHEffWwkcRlImbEVWHbcw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5780,
+      "scope_type": "SHOP",
+      "scope_ref": "la-galiote-restaurant-bar",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "la-galiote-restaurant-bar"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55034",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5780_6af39f817e934.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4838",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33601",
+            "source_hourly_id": "4838",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33602",
+            "source_hourly_id": "4838",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33603",
+            "source_hourly_id": "4838",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33604",
+            "source_hourly_id": "4838",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "21:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33605",
+            "source_hourly_id": "4838",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33606",
+            "source_hourly_id": "4838",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:15",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33607",
+            "source_hourly_id": "4838",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-galiote-restaurant-bar",
+      "google_place_id": "ChIJcdZHEffWwkcRlImbEVWHbcw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:15",
+          "mardi: 11:45 – 14:15",
+          "mercredi: 11:45 – 14:15",
+          "jeudi: 11:45 – 14:15, 17:00 – 21:00",
+          "vendredi: 11:45 – 14:15, 17:00 – 21:30",
+          "samedi: 11:45 – 14:15",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1835,
+            "height": 620,
+            "photo_reference": "AV-0GLcaHo40cw9aJsl89_JuqwSpuDSGoTFjOkdw74PEId3JK46XWGPA13obhRdInHfN8c-MkYiQ0G_ZmaJIlMWbevYp7nCYp_KeQa0niHlL-oUbT1TFyRTvE2X7OabWPHM3PRWDluA4lbLWknOraiPwZSyJD1xCEvAVuuL475KophPe54cgqVO-5YI_IE8yzgiE0fLb5Vniud8yjJA1sr4S9cA_PGWJyASIR0ipZtQbytFvTPEvhZBEx0gN8y2vIf7KgnvZkKag5XhJ0filnghOh8hB4p6v0JFjdywyMgaY_YZcDrjpSmpbE0rPG1jVclrzH1zCHJF3wwvY-vR9OyFKz0yJiB676TkAsisvOh4GUwWpLjkmfdtHFBF0_tzaf3MsEOquU2mxG16R_dRseRFW1xGTl0-_tgU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117794905099162391513\">La Galiote Restaurant &amp; Bar</a>"
+            ]
+          },
+          {
+            "width": 1920,
+            "height": 2560,
+            "photo_reference": "AV-0GLe15kFlguiFj3-Ov6-49nisQm7IMy8A-I6ZZBNoVQCPMTtiauHnJpSA81rO1-wQmq2Ns01QEH6_QtKrJQ-Alp2OXayFNsjFp0yg4nG2XerVJqrK2JhjKJXuOwc6072LM3YeHW7eiZXoQoZDAgfTMMi1WPpLkUFFauqEqnsdwmscU-KdWAita6KSKsmMwr4GJYf1uWyUeHC4C4LKp9G_XUxiTtEg7_mvA0UbJZ9GlFYp7kTbSYk9TMWEmT6HOQElFK7REBAlM5bxW2xEyqEXbchggrTjZhSHG2XguaCW1j9M1aLQKng2Ah9XI4gC5ceMsuTX5aOICFgUyFUdtnv9E-LtAYnLY5EHaOz67EQYwmXUSsh35JrTwNcbTFqQbpmYxjnpaAwxGIuy6-UTfacX_dRw76C6TaI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117794905099162391513\">La Galiote Restaurant &amp; Bar</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdDeeG-zXpdV1wOMCK-71M_RCZ6sjpmWJ-mj_RQSQakwmyHllqmC7yaUz7nbZELIOsdCZ8Wjv5eoEtV3hhq9WarhywQOxNNzrEitDNG-ONjKak3wURLm7HZWKsjd4x70uyxcohuGQsMA2C4I0ECBM-RU_8U5T5XwLQtKfjnyFv_vcqO_2l7k17Hl7fjmJLV5TIf24Y_TuBpaLo__WVJAGkIYHRQlswM2qmFeptbJ1wA_Xm4IUJBvazwCrf71GhFojhSoGHdgCTyE_1I3xnvzgp1ZdgC5GChONodFPFoQHTJo-GUFjFDM6Qz5OPnXSW5wJew9Nus-OO7hh0Ar-Lj8qHT2g67HiupPKNWHTPBQM-NcSnTrrZUINKkt8T5bGovb_KM6q0sUbx5Nc6ebZ3O6rspGUYU7Cw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109899268865632889460\">jérémie Bernard</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdkAjoIGGYERVGR607F1hqRvMuaTEtpxwmzaC-UyuFKPHB89v1eLAQ6YjHK3odgS7aiHwUbqaMkgTVXryASBb225Bg3Fi2GfvYfsGGGDlzfagK6ZIPTN_4GnrCUGkR91qRwtK7mah7gGAKovOueaLsJNK7hiIDDZ_MDIejcWFMH3OuVBkG4yz2vp981AWeUQef0ugEQHJhrFcwT6QZvhEFygVVbfhbMqkHBuYfktOjauBbQE9CeHfK9IqV8lDG9SgMFQ0a-1B8xyXhI2XFvpMovr5a-IXZmHRXICkLD9IYtTrd8G-aKcKiF5vNffrCYcftCOWfAVO5vtIlt8ovRthI2qkemGnp7RtgBxDJPVNgo3O5Ccy0_Dtnb5QDPowtF7zT7ajwI2BnTnS7NqCvu_LmqZSERIg5r7o1B51sJub8Iqw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102725338626141670163\">Mat ML</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLelOCnO7fFddXh8dExP-YVfvmauRv4Jc-qcpbw2MNO300QlXkeAzTGnZAqgQ3Zv_9tfnPKfz9xdGYHR0i55MfCIPcMF1CamtxCzN2IKQnF4ccCAxpx6qU0hdDAjkzu4EOsed953nCCJ5mERmfoQR-rFaBYWmkzpAY_5aGEf5YQWZPQmpERzwZwK0M6TlKT631pwXrF6iuYRNkCPCv0nVFenlnWrOLZIfAZJT5U3DBWZHtjWS95vm2_kKCzcSWKJMr-huF5PCdu1F7cVMf-AlZHLDYjrCoJYnwnHeHNCc1NE9vXBBHKDZWpsH1mC8xDHKg8MyuYR1ncud76eUN7eKBgtDjIqIXk72khqOuf537HTymk4WNsXof-lIi1Pb1dNRabssCHVn2wC2py5kuN0WLQKgWNc_gFTnotOvWAnUYjI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105403199898634998834\">frederic baraniecki</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfC6UzyBfpnGALZJnUJ6-CdrOmNggKA9wFnhEYjGLjw6nitPCkVzbtyDPFt-2k6jZiE7euziJCzjp51QpSJt0dCCRckIuewScmgk1qpqNIKdUSH-COk10kQkJt0cWukOcYAsWwGMdea0Izlr21ElmSkQRJgGFer0PDtJJUeaVwJbkuIaONj1FRfiegNjgW4pTvQ_6ykIa79JwfcQ5CCoH4q8R4mq3MdCSrdPPXZVhekFgnj3g9F8Ewl56Pmtljq7eTlpompY0dYn3sKgixZZT1n1uExShUc8lvhBgyOXQyLx-qlNHVXm2D5EKbh5KkOoD3M7rNh7gfYqFhGNPUDWN9IJXjopVmBiBv1gf23kDDcGOFXaZVfDK409YSPZwGP9BqngF7dEHB0lo8f_-FQ23dtDm_i2621PAyBvv_WPtGL1A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106622298342385480186\">Cang Nguyen</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AV-0GLdDXmhebWAxCaSZKRmVr4f8g9ItXqOo1OVSIUg-KNty3uoJF3BL6XXJVUjacVfc8NVlxuuDsLPpkowaF06QhOOzuq9uleGK02F8VEWBpMgUuVKs_yr_8s2phG8ldQmI-Eioxt2KujjSq2U5EO-ociey7_S12TxrZeCGQoB-xX5o56akLg4DzLBMJk8TXcNf1_nJFqgdFBJEEVRMGmwmxq3I0_cXOLhKJuMFB27HoJUxPmVzD4IzYjmn9XR_7c4h0bZ_WH6loab5Gu-0hXFm1_58g4BhMj3SU9X62bIeQUYgWhD69wlPqj3s2ojBtR5JoLFVHE6R6b3hlKKvqKPqAi_bTubnd_woMBTQuOGGFgJyl8oZoaRQLNu--92aqSS58boZKxYsby79_EWwwK5JkLoUFeo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101491798237858707562\">Eiffel317</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLeZML7CVn5_W3rdZRzOGo0alYhUA20oBUs8UtCc0j6xRYbygdiTt3dUrxWU1dtF-LL5G2szgkyw_smkZlDIJi9VubdhrZ-GuIiOrHVrpUa5q31XiE4ZLzRUq4GFAjHlI8fn72U2dhTNfAkGAnRw1aECI38-V_Y41HFXg2A539kr0czppO0CbbeiTIGjrKbyaTNjFdUNyNdVL0MO4wvGDIW9yIoCVqyOSzo9O9JY2pD1LYCffLxadT3O94CL9-qeJJVqH5L4KSkJFuFgYD6NtyuigrHAfA7BrQPQZQQ8CNdtSg7fTyzoyMzClU-CRvX52cJFtQ_5BO6iPtDu4cXaxw2njo8G_WpT4VGIGZ-G5GToRriQvX5IjJji-tdt6o0LpOdVWEWdOGT6vk-w-0-W2waqsPo5U-o",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116299133108918636576\">Marie-Hélène SZCZYPINSKI</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdgoDCOQ67CxYW65nqqxm2AsJwpVZrbUNwPrid3Mddo-XHgPDsYPIc1035cycd0vvej-Jy_-0jX8fSLGfn_3ZU4JfZ5VjWH9JjGWgHjDYRKozfubCJkbN__lIWGcT3tWcOFtlSuvxv2J57K77vfy3qE_FWfO14pgNYWiWPILpBViJ2pfdUCZ4X3FDLQsmZZuvsnU-gdsUD56u7bvr5l-PmYGMVUcyRwkQOBieOvvCxl-k2OWTjZpCwtvJu0y1OqruasDtZUmh9N9HlURT4HQxjavSNuTcmWKvKs5tMqdWQ7MxNiPpCCXP5-xjVZ63PHsRIZ02DmsUWEWvzXoYaC3tIySDA9Frmlorr7xSmHChUtLQ2CuvmNAvCNYPOOE6X4ha_TV2ui2rcCYZLHvWtcu-Ro_WclgP7BaFltJ0opCSolRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105403199898634998834\">frederic baraniecki</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdx94pB6GglBrtOAORaxqw5Rx3Gcat98UXLNpjWUdUzGpfQhh3PLJnE44jy3q9I1mfL4rtom_3YkJqN0mGLkvjfkhsA70x_IvG1I0sX05f7i7vGyJKmA0jZREby0UuYlCJAG7g_UM-Q-dHnHDDY_cxQ4N-ng8hnjU0sXZK3cIo4d_tsVK6Spy3lbVSTLAlrfr0CS_23CXukfIUPwDdVQenJl2v-PzVhaLRmaNSw4FzegO2-seV1jnwa3LrVdZDoj9hBdd_SJ8b_RNfy7zh8dBRcRr5IL8cayM9Y9NGe0jUDrZFDZx-NKxdtUzXaPHBLmmkpxymqDEsYdFOHpL7NbTbYgT_FbR3gpcnqI4sKHW4r-daYyf4wdHupW-qwYgedzi4RAlXaFop8_94EoJ9FAaHGLK8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117688736854679438426\">Mathieu Teo</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5780
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "have_terrace",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "avec terrasse"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "champetre",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "dans une ferme rénovée"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "restaurant aménagé dans une ferme rénovée avec terrasse"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "propose une carte courte de fins plats de saison"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "restaurant ... propose une carte courte de fins plats de saison"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "carte courte de fins plats de saison; lundi: 11:45 – 14:15"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.74,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 17:00 – 21:00, vendredi: 17:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant-bar installé dans une ferme rénovée, avec terrasse et carte courte de plats de saison."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-galiote-restaurant-bar",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "have_terrace": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5780,
+    "changed": [
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "f5b51854bc5aa82cd81f2cd0a43d313ed6ed45509b6e5bd39b87a11c70e715f4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

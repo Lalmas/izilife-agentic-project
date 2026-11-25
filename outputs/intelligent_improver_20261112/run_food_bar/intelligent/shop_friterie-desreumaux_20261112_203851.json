@@ -1,0 +1,520 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:51",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-desreumaux",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "friterie-desreumaux",
+    "status": "found",
+    "data": {
+      "id": "5896",
+      "name": "Friterie Desreumaux",
+      "shop_string_id": "friterie-desreumaux",
+      "unique_id": "77445065e75a04cc830d9c21a4f0e530",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55151",
+      "principal_cover": "55151",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "90 Rue d'Haubourdin",
+      "additional_address": null,
+      "zip_code": "59155",
+      "city_id": "4",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0680567",
+      "latitude": "50.5996668",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:06:33",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:06:33",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJyxWHArXVwkcRCqmKwkerSHA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5896,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-desreumaux",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "faches-thumesnil",
+      "string_id": "friterie-desreumaux"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55151",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5896_6af3a3793d988.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4955",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34420",
+            "source_hourly_id": "4955",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34421",
+            "source_hourly_id": "4955",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34422",
+            "source_hourly_id": "4955",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34423",
+            "source_hourly_id": "4955",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34424",
+            "source_hourly_id": "4955",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34425",
+            "source_hourly_id": "4955",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34426",
+            "source_hourly_id": "4955",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "friterie-desreumaux",
+      "google_place_id": "ChIJyxWHArXVwkcRCqmKwkerSHA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:00",
+          "mardi: 11:45 – 14:00",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00",
+          "vendredi: 11:45 – 14:00",
+          "samedi: 11:45 – 14:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLeJVDy_3eV_4jR8DP8Qr7c_qsu9wtFzILpZvCIjadmfc90Tl6TefmGfa2S8284Xs4ftMIdwAiIpGPDKuzTm2Tl_FHtgfzSZWYyJLDWOKBGY0uwr4M_aNqripAyDDnM7NyJ-QUdGJRMQZxpotozOu57_o4P5JNbPOZLF8_BYnRkKOqgV-rDDgq4gdS7Xl2-i44TZEOZWH8WB-q57y9ZRTKwWPoojpnzK6e_GXt0YoWhX-8DttE-dhbux8_uU44JyzSSRBTs7BzAxiDGJu3BaxWyL1V0fFnkaJuczlekH_OnTmO68tqajnzsa4LX7qJmG-X0NWLK2HbHlXUadAhXmBEoxE9PZwUX2GLLhd8SLfHVysvM6neKNrUxXJWkAm734GbHhV1a_Q7EGASdlC-rJ8dk31XaPVmc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104139228706622519416\">Lolo Lag</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLcY5fJtfczrtb_HBoKiWNaSqbdRhnulHgQ1hsk5Kh6uFERLMP9GruN0d3cTh_Ha9tAp_3qyINwDxDmh6kIlqbRxo5_m4SnlTlPDcRdOl1WQvDwxoYQwrewGsjro-uiwCCtgdcnDuSui6FiGmtxFhbdSpzyC8QrKJhydt-z1ZCoCDDsfbsoFY2p6GWMGNmzDCJvb7xosqQJeE2Wpc2wc5JrbV2iFUAvctj50lYst008ULe9FJUonVINlj2Aq26EGG7bo27LJ-Em_Ap0ks7l1viRAbyOcIYEOE6Gs5hbOHEwA9qEOTHzKYqu9ihYshofIDfIxhjdcJccX3uj1N3G9a1FAvGYvLBhGZ-KMat4jwKAIvXQHEggaPRkAPhj58PMCHmuRjidShcJnnSQjXnRDlBwEaLo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116655124590795198810\">Friterie Desreumaux</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLfksZJjQoeHBElh_Pr1AoaLCiTycW1-H48bEVtEyVGy4lGOsgJe1FXA6NZK2rGP2XB4fOx0d6-YNzIeBapmCYIaow0BP-_I9SPShKnjmzS84FfEzNwsCgsgG6ggEj73ATQDBVX6gsc9ndrRy8SQYO2wLp_iHNT-0AHqrd2yGhjwYPGCiE4YYUq4T_q3AGESjtnOcN_NBYJRf5StvB5JDMQ0PNtH34blQycMrPp9VogQC_Tp2lW0gzZ6ZG900_tC8MsG9T5BHQu9L_Et867YVquQ6-hhhzMtEJYOhseTqym8LZ6iT8z1LhJ7QvIs9E9u8Q7S8IVC6X07-3E1-R4f3RTLnxLLrYGINnuhfSPx3IM1lWBXN2FdqBuGzcnegdT1VjivUj7eYnDjbTlgBVm707sUD2fqKvs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106594240743144081732\">Philippe D.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeKzBcCzq6bmJMEPHpjwSaVBE1ivhS7UooNkcAbVpPKv3lM6hBfbHT8c9O912E1M8AIBjWgYqM4Yq_h7NjnLrbyT3NlALZ20C06eSuj0Yq52LI-PZ3BuR5E90_ArizYKU1Wum4DhVATnl6Fz_h3s3fAzndzYaL1n9jnu5m_FahcshJioZU5kfZ8jnpJl-vrviuTn_rlHyYuMPcr96xbRtptQLwJcD13FPlYOFcL86IaIX-lap0yEPht0imzJCzTlpdeU6xIpARzjPLDNrhDsz-GOAT4fPDfX6-_yfjh6vxpGxB07RYmZSbUCCBJaH1VHuSJgE4a-YseMp-KVqaWdoIACeQ7wVGFszn0nnXQrmJXlgEN8O38UkPAjr4c02ctgpisXFXj-eSYhFL11KX3Kr58mzfXAQksoTsUD2hJktos",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101172576616421955971\">Le G.</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfHXu7LwzbVhgpZ7EikVrqpZlrl-Vret4dqDh08paXPr8eB-oMehH68_3p1yoGbskMiXwvkW73ZmIfgK5qLP-crjQ1VfvB5Czn99D19HG3ykz4BAUoIQQt1fn3lsXZYC0bBC0Vy_oy2fYKbtMathxn3cYtaGiU-YD4nHEre6fpv_hUmpiqE5S08C6hK9ChPwgvD7YvRGXvNyT01qJu-vG-GIpGrv_8cQSVunypE7mbD5EPYVFb4trvuhQQfepLw7PkmCcQ0SNWfQmIH_JNwZ9xmAY91Btr0CfbM6dTSHg-CKRJprcZFm8gfiE5ar5E46jprx9f7ntmlLBpYZ1SWr26S_A95iSeEgiQa5mLmcMjacE5K0mO18w3tcuxk2YjUz7F3biBn_UjqZAIePQuZHBIVittIYYM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105936683828383228919\">STEVEN Thiry</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfV_-xDmA-D_rBGMHIgNWCM4MV8w78gUPYx9jBnG_b1feMdkCT1FXGuBEUg73S-w1vG9fwwsfnuPmN1lF99-8BOYwc1i0bzhU3JjtTQg9ivcrXBjjsjcAhGpEg3nycVm7s0CGNNNXw1tjd3VqWsdZ4upTqFSMqNBR8-imncC4iHJ6MBBGcicLGqINsRvnPK4aFzntpc8lZsRpb4BXiFeGhekrpXfb1rGQxtYzxgyqt9rlMoCIwpHZyDFdTDj-KHnkNTLVPYaBw_VVqjSZ24j-51-NajhnKsjl1r5B7EVHhkGIJj2s87SNnePQxzAHQImRJTmxLWVwipdn9GVLsN6ccUm5iKbFGcEHcFMqrx0eiynVsEcOYoiIy7Y0oiynFNNZ0x3oBfUasFU2VsqbenbWHoTszm4nc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102050944011741406835\">Épicurien &amp; Nomade</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLdzfDaTxEU_fbATR7NihHvKlCvY2CmYw0z5uFIP2ldvXX43cbM2_InxFOkKH-AyjilF--qCBMPEKIQc-kJb3Xy5_0KBGzn-ZeDs2ZEloain7aOZ7Gg7rSEaRz7-Poq8Ax20890UTyO4audpX020ADWYPgten_oowPcEhLhEqRp_UqIHveOTUGlHZISOwyONsYLYygLDXHogRyGLYxXznO4MgK7nz7wAgh4WNNq9aT6WvBSVqTLPjGZNXAqW4FrxJzYhEoQHeaYlsjdwvbmCAwgjbWfdGayNu4Y4D8BA4f3MxHATKkvDosewkheWf57j1AAH5gghhb8TvZGtg3f7zRRV6VYS5Qe6GuRdHQcsrnIAtBHeVA3VDUItr5sFm-r9K9b6OqoAb2r8tn1AGDwj1yk9fkDaZ7Y",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107622691553090019603\">Jordan Taely</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfm8nJYUXqw49OShlxvRUcddevX-dryZFOqBcrnLEiD1BYtn-wTY7Uuo2KNxGbxV_OcKgrx0btDlrJn_-eoT4vu-lQIQ--FzfmeeLNJrg_ak6mamcrkL1WcQcBK-NfBBZSImpBiXNhn1vWrHHY4H7phI7UKaFTog6nsVYTfcUi_GlGlmZNEw2x4_zUopahUN79PCqlv2rWZJ_ph8SrGvquOpF4-8IGE9BTPZv-Ysg2UCa7_LxT2sV3Ozes961r7PAX7_ObHoIxDzOHqIlShZCCYmh_tf85R2QaV_Mdo_drAl_6U3ISAlsRvTNDfcaNy7NGwj60t4Dy1GqEd-Ab8K1sUu07fVoWh1h0aIAdaeps_fc1Q24PpVsmcMhm_SeFb92EV1KhA6rcrfGltNfhGn7yvAD8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118109461982144013185\">Cédric BOUXOM</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdNWWI7e5kyJcP_3G3mgQSm6Gn_tl48LhvjRiPyAVmnwMZYLilojwSq1PhcHjJevBWzqiOjjnt2PrHSHgUSwpZMgeGo-Ft22bvc2DpKWpXsqvawgw1-CkjZ8KOAgjlH4sqYSJEwRuPkXQ9gD0WIBcu0WZLn7l1jg1y81dkUWFvKznaJZKZuhPPVzEtF53DjZbxVfNu3VPe1uFvkjQFOlDfqSdDtDUKAL1n0wXb7hmxYM_8qihq9liflWhYEdQPhukBsmCAaIR9qzbNcM9JMoVPCCUyj8_03ANfKcZFybqfWXCcY0_QkAAJlr21iuYpCCD_9NcEka1c8e7T40NIdaYZf4vpcv21XSP3Z8hiGG8Cq6JDz_keZkmxciSAabQIYjv-x3MQHQKY0dGrs1-Gv3JAS2U6tfbsr9xv8KgCRCLQayA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101172576616421955971\">Le G.</a>"
+            ]
+          },
+          {
+            "width": 4128,
+            "height": 2322,
+            "photo_reference": "AV-0GLdlMnWUVOTOAB_yOVpHRfTIdpEKCF6cRdvz89SbXPFTZAgECU7iCy3RNmcfFRy2ZSW6FiOPQ58xj895TNEfW-yrEw12CXMTzswW3dM-Ot9pNTyNlFU1wC1VRDFSggOGifATLThOLur_Eg4wcEvWq0o0GnyOUjRq7Ypar8P21oLbHNP8pSsxxVm_EX0O6USQVPlrHw0Jw-VyPJ0K4nRAkLx0Jy4TL7jPwBlTWmBXsOSxWB8gRlQ4t5SkR7iWwYGjBypkhLyKiUbHlOmC6hFz1EAW99n2fGS2FbhQtWRceDGKugYxAhUDs-LeUvUydFsSoN_4GOqTGR7TsNXtstszeg0aK0cyxcR9KokA5kkno1dzZqbxLjO_hBTuKPgOl04piDvT0wOwEJSD5_8XJ-FHONishvy048M",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104139228706622519416\">Lolo Lag</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5896
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les moyens de paiement ni les autres caractéristiques."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.77,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : friterie."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Ouvert de 11:45 à 14:00 du lundi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 11:45–14:00 du lundi au samedi."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.84,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : friterie."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Friterie à Faches-Thumesnil, ouverte du lundi au samedi de 11:45 à 14:00 ; fermée le dimanche."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "friterie-desreumaux",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5896,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "db3c9906cc2d87a19a89128997a404e6a800986e289a0de8d88e02a2308fd8e3",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

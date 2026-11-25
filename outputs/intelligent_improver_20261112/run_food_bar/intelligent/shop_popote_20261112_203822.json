@@ -1,0 +1,497 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:38:22",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "popote",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "popote",
+    "status": "found",
+    "data": {
+      "id": "5892",
+      "name": "Popote",
+      "shop_string_id": "popote",
+      "unique_id": "158b237d2268d4c00da82c9479b7faf3",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55147",
+      "principal_cover": "55147",
+      "qr_code": null,
+      "phone_number": "+33960388293",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "32 Rue Léon Gambetta",
+      "additional_address": null,
+      "zip_code": "59320",
+      "city_id": "42",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9831051",
+      "latitude": "50.609089",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:06:06",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:06:06",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJy-122XIr3UcRYHxne1k3lgY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5892,
+      "scope_type": "SHOP",
+      "scope_ref": "popote",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "haubourdin",
+      "string_id": "popote"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55147",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5892_6af3a35e07612.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4951",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34392",
+            "source_hourly_id": "4951",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34393",
+            "source_hourly_id": "4951",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34394",
+            "source_hourly_id": "4951",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34395",
+            "source_hourly_id": "4951",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34396",
+            "source_hourly_id": "4951",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:30",
+            "closure_hour": "16:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34397",
+            "source_hourly_id": "4951",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34398",
+            "source_hourly_id": "4951",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "popote",
+      "google_place_id": "ChIJy-122XIr3UcRYHxne1k3lgY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 10:30 – 16:30",
+          "mardi: 10:30 – 16:30",
+          "mercredi: 10:30 – 16:30",
+          "jeudi: 10:30 – 16:30",
+          "vendredi: 10:30 – 16:30",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLePl4MFUbaeMsXAgGeNQWOz82TXKJ52DP2oWI0Nqf4DmahTlGXqLzPbQ3x9BxJYpeaUiCnyuAEYK-mQXlBBRRyNZNk635ffTeCBNvbG0XdVzAjq1Yottf6fIzieLkPX56RcUqiIdMEvo7QEGHgzgnXksoSghoaITt1h3ZYkVWvhWBOuzdGMQUBzBTSBhfOg7oIGRINOQZXpXVkX_9WiOpQWkERZvRPohXuYVzoC9ikKhz3Wg2NvJuXVOad2C7MUeKvXvZBPPtQrxkHO5V9uNHo2uqsBnnbPHi8TEMzbw-2MsyvFYHUiQjTaRLHfiKP_6BMVgOGVx9dcFvgn3OVCsk4BWPsCHizimGxgj02Vm6kbnLwDNSqt8O__RnOzKVLwmJCUInRT0OTo6FV90n1RAmDKtrtQe4qYyZ2qehyN5r7Dbw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 1452,
+            "height": 1959,
+            "photo_reference": "AV-0GLeVsGBrpMvQ7nKNHee03_4obs4ACsSy6bAL1oFMb2G_bZ2dguRBGKPEQbGpGY6MJUMuu5at89_Iv7VRyXgrMTOg0CGiT0dGtJ-MQj0OzAooQypaZE5zOUCzGEL6KkCYfrSufh0Mlv7lqVGGNjy2NzaWOEqJ0DLY4Br_H0yrrCcvPFkYFa6HIlpiu5bmnA_Jk47B5JqtX_ZjXkfK6bLLhXUD4kG_lfn-nXPpN3_nHd752PTIt6V7UjTJpTfF42t0LNyNA2f_MUp17a9E2SSCvlu_iqs5A__bMBiZBJaVEQvsPo9vmvhGXBQ9ndYbSaXAhhH2hUkT4IcLXLRkmw97JGLrwYTGCjL-A5cT18s5NYj5YEqrvzAU3f1W2WtkuTwwr__Lth-qvEhgXpXVr9WCi27tXPP-6J3VR5qYTaCnwnm5",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLePzv4fZFR-skyN-rN1HNAKUJ1e4VXcxIy06euRW8sTVA5Ixfq8CodrrV7oo262_SWEdMmUT6E_VjkSblG3-l5KnFC--MdyjtBM-pCFpyewdHMqpQ1sb8a90azO_oW-FXpjT7eZygLWPx6TAPgeBs1AIUO6B-9gzvK_O4L8KViqz5wV_74dtVI7GgFsf06sI9yWniswo5DZvcJ0zHQB4vNeq5qCPeOFLM_Eo8nv5Cy7NvxvKS93GSUd2HrmxeKfgaCN9FPSEvuOKT0Tbox4RieiVEGFCpIAOXwwhd3RAEidvaCfABOJ7kazy7lpfG33L7qjaP693UUT8SIwSGjnGiyQnWQGIg4GzrlojA2y6O19B2sHZCVCBvZQdyMXgvQE4t9mE91bPeUFvDIMBwcXB6GzPPLZIcS_9lf3pHPuIEbmaA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111223389447681652236\">So KANEL</a>"
+            ]
+          },
+          {
+            "width": 1272,
+            "height": 884,
+            "photo_reference": "AV-0GLeuAZr33d_1p5Hh2iQzfGMBZkP_b4WySFTSzB9hhAUWzOaaDSg3JiZIMPGS-O2jzf-wCxe8OMV0MBw-Cq64Ptvx4XMSTH9Bq8Yz4CkhC1UQwp73muVx_l-G3rq48Hfzm4PRuK1XPbvSI1TSiPFWVk3vMnU5PaGV9_Qir86K3njCQF2jAQg6jXDGbPaNhaLXDRWfnCfR88Z8kOzo8tfAiFlUH6ehEjtiXUz0CdUdv-q3ggonyexcBOGJ7CwKCL0LBSztqg96cycVKSoSTVT0mbirZXPYrrFYRtWEx81IsQtKX8TNSeAqBMfO_1KfyUHsy7ivWGxkvftoS6j48W7oGH2lapscGE5l4v6vZRNYW898x-iLfmOHmF4SnEszEcdvFKU27y7df94ZFn5MaxcBMESvhfr9pvRmz7vKZm8jTZuRDw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLd30tDCD3l6Xa8vY9cvPTwNFkGbBHhZ17S_5NwpWHkHcTvj5Ln-GVob_DAgXlsogSzsREJGbatu5QMA5KT37N5VJ3k7U1p_5iFTbSu7k18ard2ZMNTnbvLtxqkdimxB3Sm6cUkzDmJqrR5JPOh5Ir88wVItftAP8LnPgpxUHOZw3lbHZuvnE-_ur75EZ4UswWFvnAMY7vVxWblqH5FXoYf8YK12ruS9wxMMnLsIXopaMN2yHFsXLZhbkJQjFHychDRQn87XZwZJLEB79fJwESMeOsfxzg2zjjCwRKQjlPBRXroI6sgXQHxq0MfWBIm9vT5UzeOW9FoU4UmzrsIQ18bYgppu0lnlRJONXix_kT6U92ISUZR4Pcs5pClfWsZlim2k-p0uIlAcHBtCA-Pt9_b7_x06ayCrM3nphjEqu1TIXw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101144538936627870814\">Sihem C</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLc2uZ7eEBp-MWMTYgSEy2RCc8R1rGytdPEufPJ8KuSEEvKsTQzlYG5wfl_jw_H5jJVYKwoTxUdXNNbHEJv-KHf8rC6RIkhgZNefFzIG9YbkvjD3HKkT_WIejwXxYIlsVS3ac3SAPDtvs3m2DMZV1EUjdoWJedH0iWSNl-zHYWhdF-_vUYhXPXQRn3ieYapwg075Hq8lMUO5skPO_qM30H0n1sq2xvugtNur5kPwKQFFRJT9qhNY1JAVqYj2ossVBpesAjnVm07MyRH2rWvFOiZYykH28lpwc_Ab2n4Z_JzxjIsFcPrkhPe2p7nbJjk341afrB5Dl3fi0eS8pcIggLDc39Al58rivMzRtiKShF6grGsAFNzX7Tew_3n32ekiUZQW0v7XRr7s7lvebArmpxB7WArwLZVycbgL1GIbb3MllA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102534220825310042622\">Romane A</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLe9r0G5dQf5BnHd9lO48mFQ7V9zKPu5wcC3LEeE5RxXVPWuMKkAsDJWXbolhUYikcgDfqwy0d4PHNLlyLSUr3osc3UKLmf0pwKKaIEuEXMD5utfrwXVIryVKeBXWAhfySOmF7s6NyLPnSM6c5Y3rzBpCga55IIAglRQdc3ZCn9ElwcuCZSB7u-jb1k0xnQW78x8tbj0gsUQaGQtGvEMuF-C3IKTKKk_b-mnVCbaryvnoHdISQFyPSo25X6zqg7kSSR3gf0zk8O78wdxWZcD9_6d0AziLbrIzoyKoLxDubMcZbXiXQTt5dGzhS3e1NNb2qs-NWVVvIHpINIydHGHjNUPj01coC2wnMg0OwwMmyDqm26tmzEss8hUlODG1sbXIKmURere0WavDcj--MMUVoAfRWQjPEnDlVl4yTBU6dgR7g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLdqq7P7Md4Kd7BPd1K4YL3oonxVwR0UTd5YaAaGOHwVOmRD4dTwtaoRE8-BapD7dCMJy-5YlJp_Tjltlce-YqIK3LA0DeIroXqx8_LX-l7PnqRSBE-Pt9wwbWhY1kQz077-n9uJOTwDW9l8w8RQoa_Cik9vmoAHVmC-1ulNY2-g_iEcBjhwx-eyjm3oWgaQfyyxPmb5G1HfuIEWUlc4o8yV7hpuWsF_NJhAJsQGfYGR9K_by4E_r3L1GHv9D3KiXznYZ51iL8txckVAc1NRim5-fYW0ojiJI3uavnacc-Ptiw249b-rgTEgbaEL4MxaQ13Ol4ody_SG1p8prUJ1X9ps--QvAHLVuzMTTeIr18tbVuOG2L80LkrCU86hx9FV87mOFOq7SeVE_hZKCTPYP6v2SO54Geek59V8GT2QVlrS3Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2048,
+            "photo_reference": "AV-0GLfFmh9jVr3ixi1f0wLi1NWw0zDtQ_jZbZu3E0z5rta6d7uFz9ZjGhz0Em1lRp9eaXoW37S6L_M9mZOKVN69YQ01DOfkcNxTryhpJcznR5XrTM6YuDF_YIuzT7DFL52hYWEvPvSbXDnHqGsTnoNIUeEy3WH1JFbb1QmFqTpFOP59kdqgYUb3zwF4LAwW0ygAsRUZZfKMDzrqBNKOPadyWKcdL2MbdRz4QgxHq8LuJskGfl7wB3vSnQFJU6_1q55UjsaHzekM6wBI3WL2Pt4fLrvyUSGrpu-pbN3yVQlXZbAnM32xgX0yW3qJre1BSlg6d2QnlA5XaFq6dqEpnZnffKQJbvrnEnHZ5EuuTojWGSeBC0MxmLO_syNaTCNXkEiaGe_oaWLePQn5fgBRHn1fQokIdJoQcJX9DTfu0dotVfx9HQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114132274912476358292\">Popote</a>"
+            ]
+          },
+          {
+            "width": 4186,
+            "height": 4800,
+            "photo_reference": "AV-0GLcgQd-uWYTV3723F46I8cR04jSR3_sIZqinHk19xQCFItWETTNqfXcXk1hE3ZiXzFKMGQdcP9KQlB1KNC3PfzA6mrV3v75yvRQONm35ebDLMvf0waOOw9JLVN2xor16brsGlvJDhcs2QoiJiWHAk2Fg_tQrRXu185612M6-XmXZKRdUL2lXvqkv90h0NhxC7Un2t_W2-Z83vXHcsnUGdl1e-8FyWfY61Py0dDxD-Gg5NJ2R5kK9GLdDY96J2UUwYzV6nlzCLlKKI_qxWsDlg9p6emGC7coJl3ELjULZxM6sVyYglBj5F4fabnCF9KMTda07ddYL70s7LucuwLtolY_j7WhXVEn5bOBBZWWb0Iue2ezmN_faJO3tqIlqRK0c3cZ61vm8SOQhPKbcHKKmUlEjnOLzVVFTp90dmUbVBPPMJQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111223389447681652236\">So KANEL</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5892
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 10:30 – 16:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 10:30 – 16:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur le menu, les repas sur place ou à emporter, l’accessibilité, l’ambiance, les équipements, les moyens de paiement ou les modalités de commande."
+    ],
+    "rejected": [],
+    "summary": "Restaurant Popote à Haubourdin, au 32 rue Léon Gambetta. Les horaires fournis indiquent une ouverture du lundi au vendredi de 10 h 30 à 16 h 30, et une fermeture le week-end."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "popote",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5892,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "8513b63b3938001a1749fee6675a6830a569720bd354227cde4efbb1f123ff86",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

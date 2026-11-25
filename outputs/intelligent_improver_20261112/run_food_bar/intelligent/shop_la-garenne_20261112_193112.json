@@ -1,0 +1,634 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:31:12",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-garenne",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-garenne",
+    "status": "found",
+    "data": {
+      "id": "5583",
+      "name": "La Garenne",
+      "shop_string_id": "la-garenne",
+      "unique_id": "0cc13e5446998121b05869f6a0623987",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54841",
+      "principal_cover": "54841",
+      "qr_code": null,
+      "phone_number": "+33320576704",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "90 Rue du Général Leclerc",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0207268",
+      "latitude": "50.6098742",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:22:58",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:22:58",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ1y0P2DzVwkcR4QTUOMXVaMM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ1y0P2DzVwkcR4QTUOMXVaMM\",\"rating\":4.7,\"user_rating_count\":347,\"google_maps_uri\":\"https://maps.google.com/?cid=14080739278012548321\",\"fetched_at\":\"2026-11-12T19:30:58+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-10T15:07:15+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Pap's\",\"uri\":\"https://www.google.com/maps/contrib/118443942445762345759/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJlXccH9ohKuWokwy811d85Zu07QzrUyd2DqI9yEOXzqA4p=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Très bon accueil. Cuisine maison.\\nAvec un ami, nous avons eu l'occasion de discuter avec le chef en fin de service, établissement transmis de père a fils.\\nBravo et merci a l'équipe.\",\"language_code\":\"\",\"publish_time\":\"2026-10-20T16:09:25+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Christophe Boutin\",\"uri\":\"https://www.google.com/maps/contrib/116372029629903687170/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKCGjJrRY0b5bFtp285S-H9IAq1-Ey_PhvNvSZwM4IQ6_bMbQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super découverte pour un dimanche midi que ce petit resto traditionnel avec sa cuisine du jour comme chez mamie pour un super tarif. Portions généreuses, personnel adorable. C'etait plein, pensez a réserver\",\"language_code\":\"\",\"publish_time\":\"2026-10-12T21:43:58+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Hélène Dewitte\",\"uri\":\"https://www.google.com/maps/contrib/101735087811270851561/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJ1clZHI1Y325f_BrNQKw3TcQMa2u8z2cF2X7ey97SZNqj_Pw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Nous avons passé un très bon moment à La Garenne. Accueil sympathique, équipe souriante et service attentionné.\\n\\nLes plats étaient généreux, bien présentés et délicieux, le tout dans une ambiance conviviale.\\n\\nUne adresse que je recommande sans hésiter. Nous reviendrons avec plaisir ! 👍😊\",\"language_code\":\"\",\"publish_time\":\"2026-09-09T13:48:27+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Stéph Maât\",\"uri\":\"https://www.google.com/maps/contrib/108140019785237942208/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXtbzgU8sfknWPMY4aQ_Jzo_KMgTV7rFnCvefsN5NP7YxsTuUhm=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-08T11:03:35+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"De Maret Brigitte\",\"uri\":\"https://www.google.com/maps/contrib/115673610262883226562/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKr41lYw7KQo-MycsIgWw9riLYHgnuzLe69Y82vqn2Na-etdw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:30:58",
+      "google_reviews_place_id": "ChIJ1y0P2DzVwkcR4QTUOMXVaMM",
+      "source_id": 5583,
+      "scope_type": "SHOP",
+      "scope_ref": "la-garenne",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "la-garenne"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54841",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5583_6af399428e8d5.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4642",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32229",
+            "source_hourly_id": "4642",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32230",
+            "source_hourly_id": "4642",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32231",
+            "source_hourly_id": "4642",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32232",
+            "source_hourly_id": "4642",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32233",
+            "source_hourly_id": "4642",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32234",
+            "source_hourly_id": "4642",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32235",
+            "source_hourly_id": "4642",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-garenne",
+      "google_place_id": "ChIJ1y0P2DzVwkcR4QTUOMXVaMM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 16:00",
+          "mardi: 11:00 – 16:00",
+          "mercredi: Fermé",
+          "jeudi: 11:00 – 16:00",
+          "vendredi: 11:00 – 16:00",
+          "samedi: Fermé",
+          "dimanche: 11:00 – 16:00"
+        ],
+        "photos": [
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLd_nz68eb-bo_TuC8NOJqEcrO66ohvvyue05LdxvqZ1wzK9qylpBLsr3k_jjPL8GORfEb09NrmyrCjojar23ZMcKBZWvakMvIzCwlZUHxg62ZSAW1QrM1jxhZwhAjMl2cVTsO2ldUxpqvaeUAbYSjuJXA3eVhwlt1G5CTCBVE1BGuf8o4qD1z6znJcHt1-_JuksnfY6ch6-6zEv4x7u1zjnn1exEKyrE3--NaowzAkn0PLxMKFPeZOAxeU3AuYpHhwwmqBBq-W_80D_XuH4w_tRmqFeMvkeUB9NUQWdCIs1jEJj8i8CbTzza4G0z0aioCUco91toraAsM7DRqxQZrdkbnyh5FTNYN3pWT7t8mQjaFLK-W9qDdmHosSnhS6et335QqdiVqiMKuRC_cjfBGUag6o-CleiKhwdypve4EE-OA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112675106520067893597\">corinne piras</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLeR1kP7kAkNl6kv_qcTx3csxfz8CctS7GjOFrDl2w6L3gmDAZB_RPzOMe3QSVnvpLGT9ys4V8hutrn56STFac_dLr7dNEZGusQ2Jp-7f74k-2y9QpeL6Mm9IhrodLeq0PKQvO6UaQKSAhZTCN67seY2PTAYbDqOL21MBGZtCKGvIBMF5l-ciobG5OJHP_WY6ck1c6eqSnip31kS6GjcfA0YIyIUmxcaW5uo2OIomJT3exyDiibx082Kh1GqxcqQ0Y9VdmKS_MGGBJMrNYMJKibZDGfeRt-feDvrpfYE_w9NecCt8mKWGRfPBM4cJoWxQhpMkwkqrEcw4AkMOesuZaNW9AAxVMFYU0FXraykB_2ZDm7nZBWLdPcBMZUaYiXlrwC41APAeH75KfGSUhMTv_OGwiQ0Uj9STAQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111376206666198451592\">sam sung</a>"
+            ]
+          },
+          {
+            "width": 1152,
+            "height": 2048,
+            "photo_reference": "AV-0GLfMTUm_5jnzJOawBh7Yuqh50b6pB59xczfDVrpPzeWnDR8vsTtsprWkZCC7lOCoDSS3dn_Sx4eNa74QE2HvGepcm-laCpCXszU70kSr0u1XfH7i5xUGrOWoaRSwLY3-EO6-eJNlA9TPZa9mXbUpIkxr9eX3N9e_0oIvqDBhv4WqFVKMMEf-x-Zca4flySBJON_a5mgm0Er9qQlzMj96aleE-0MymfmShvPWdfARAK8lyfR6OmNIAU_jdK6IsH7mgHY_OaoTAxnchibbKOHqXCXadIx9CVOSup1LqITm34YBNoOzZbQK1lFpGT19SSENjVdbyUgRGJPaYGruYqQgYiIojCB_WKZzdOcyWefreAABkQ-TNBDKfxHi7BDmp9qp7oFdtpGuvPOvxNnt_bxHvALFnhAyIigVUZJRu87arMx5IQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105915392127580725270\">Mélissa Mnf</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLdIQNC5QuEpqnJfrEI-VBAHnVpj67Vx7bXy3NNqxE1HCklafiD5DTKdBzH4LaBzFfRucrluB4v4QTDUynxEKrmJpSkTT9RWv3vhym45NpuVLdFPGss6bQ59HO7mVHWKfSZbtk2_JOBBSDqhZWMD2yfSCEpUCkECI1deR9SGhmTQ4U1TyGYJlKvw1XfWsynBWJHdoVcQvMNu9GMXGK2UQuoUo3yFseiF6vdwTDjeN86fHZm-xCSLYQQWPN7VaOU9xtAZ37rhUdWYiA5rnR6ctzHpPn9KpJzha-Bbx_YUkA8_9Goon-rSSomt6ML6igZS8aBjDVuW0dzmMvTsiC61nGQx_XZ-YVaVAv0OMQels3R_OuXwsA-HfwWJZfLUO-OlZe_rQqrFfkxUnrCqXd__ivDvafAHAj2nYb5B2ECKhUVrYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114958998875769364471\">Guillaume CM</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcqRRwlFAeq_yc49tAeX_IQir1NeFNt6vlbgkxPR_gxx-bbdECPM_HBiNSiuPxzwAMdSaZuUiY1J_UR7ikwcF0PIbWUwrOdmKaSo4bwLpXktsk6g0fHJBMryOjSrvQBkM6hwkq10qwMSSUdVyMEC5sNJ7IqR9ASnw7VtF66ZmieLKA1JiNt7W-dKLls5_TJ1GPW4mOjvlgV8j3-PJ83no1mGTDS5eyTTXADENWNHwvZWcU1eG8flUOGRGoZSlgqtVUcDgSTYzhm6D_iMJf3Tt67Z1GfoZTm0jpPvp5KzIOjtyUpyaCcHu070XF4RNSQ3Z971PcICllropo3sFnu87Do-GQ8ziYUgCJgWtKOOoN27UrGNkrpoD26HHm4IsmvpWt982OwGPBrp7885Y98ukRGbnJv",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100593116592006767632\">Magalie Waret</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLdso2mGAUeH44q9DHi0bh90Y9uI5XZ0SEdtHFmC6dEJjJmjwO3zMtu_8kQ_0xtKCqFOmnfZxcDTa0ilEPhyCHNBu0UYa34gh6OJUKSHV9JzfET1FMHSZfOUVZAl-RXfnXSHIu10sSrsbQeVk-lxIS-oji91D5AHDo37HqYEZ8oefB46kv04ZBXvdkirlkOEaw1kN8WOmg6Gt7EVkhATVju21HwhDSl8aLGqmTx7fA3XqxK9_h3OXM_BVY38SwyKaJh1KSItM-UlthuvIg8ZDaX-wc0MkY2QJGdja8LD9R_Rsr-QvU8RPoPMX8qWWmh9SgPz6It4suvkCZwl8bF8iH3k2mp0MopehEjHK91nobvEzdifRYBY8ZSPUDHN1kizMDVPIwQhBa467VT4yXBoyUknGQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114816138183185860152\">Océane Maës</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLfEPbJbkwQ8joSzhgd2qI7BdHTNmCzFYBxHkXAriAOM_ys3_g8Q5m3JDSxbdkJ6-lMdkL593tNlEpdzQeGQit2J4fVVndDyrawFEzhxDov9anfXWYZJaNFPu3EOyO-Ndj0Vfdu7nut8kQvOw6szeF79E5ka6VDW9cynHQgRL6UQmHK893zr0c1MZ73RYqfjE5in85vI6OmbU5--002mQE96E0Z7le_iMMykS7MTRIKBbRoxbjCdF0zJ2XrBYwAH2FIdVXhsmULG3dHhhhFjK1d8zhHsnU2feQHf1QsLWlS7xy8eY49eO9az8GyMlcYFq8BkgusHJnYB0VsD6AzeaUiAPaFRnNldBJ7aobo__cso2RS6OeXRRp7ojKoXhN1KGPgsJ3dpWfC21JPqkNjWQ9wIQNk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114455954343652925167\">Sylvie David</a>"
+            ]
+          },
+          {
+            "width": 3468,
+            "height": 4624,
+            "photo_reference": "AV-0GLfqPZUzL7SpS728TfeoTiQNBXgyphZ9Xzik0zdW1tCrV4MSNC9v8l0cD2NGJJiCF0062Cx-CH0k1gdPzzhB4gYQPndZZ3saPg92eI0Z1L_lOa9FHQwocyw0lkVony5x1CuwSZsOx88I0Ldm1VvGgvzBYM1wYWJCJ9vFQ_814KD7y-WdVW8ssCY0w3enHqKiTBK4dY-YjDCQFbAMPojb7r6Fi_Efb3ZleuqGi2pxceUcRxOC6MR-UnmcEapC6sdkbW-821tsy6y6F5-uA3kn0EkrxA_SIrr1pLXSO3FBalWRiRAox-KU_lYfjhV8AOGodCPkAramr-CNVZkBwmQwOChU2JBlHs6f28vlFc1wm68CZjzG5tOYv1RigcAujGFaII_RBBNAoctJoQ8_lnbPCE6s91lchsWE5Tn9-WHQE9TTUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114958998875769364471\">Guillaume CM</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2332,
+            "photo_reference": "AV-0GLcKZ-l2REvMQEjg9x9gexl0cxCwoGGxfmNc6u-tgDgm_PHH6erptKJLfV7Bo4IyInZRjAWpXanhY0GEjTYhZeN3qo-ZBuox6-1ovuM4QP1GXP1xQt3qnHHUXerQoTJTUqGggPuNQAYFmyskk7OnBVjjjX61_TUnKhV0TQ8drD2JxXaYC7Gnnq0zsB1SQXDGMijfKLcWbKpwO-QJT505B955Cs_TZQyVHtkT2fa2YnNYSCMgjRCIUCW9mLTq5rPJHFaaB9iSeL_GHTepqEyc0YFYWs7exRg9hEo27UHaTUUJcj2US2FgVhVvknZ_Dx-YaVgc_nMtlo1qvBgcZJNOx4SYRkHj_iXpf_0weG169iQN_TzL4AhR2YnGnOGzR2iVngcehZZ91_Ge23q5nJd86aZY2A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106583110571408847369\">Michel Denolf</a>"
+            ]
+          },
+          {
+            "width": 4608,
+            "height": 3456,
+            "photo_reference": "AV-0GLf-3k-mniThXPtJrz61Qsi1RCl6IlNE6bOMBbSe9HC9UZbTeBUSpWJUMn-B0Fmb_TnH9M0BowPI-_htL8zwXTQeAFTFkWi5hTA06gvzcltjVxGL-fWfFa48T-8FQgksjN4IBAt-uiute46tjVzVEqobpWWY-T6nHhy-8nM4WHaphdDjbFjf6IbZnmWvmCz6gcTCeDbOmraoANELbzTUN_RSmfAjIIgaBEe5QwF5_xiiKUHjnthgpHGUBqHkt8cDLD5mv3Fdp7qGMdYoXTYiUHybVDymmzn3xSWtk3N5LbBMqjyCee_anXZR073SXzl6gOtJa7U2OeQa2qkc6oFIilKXkTHhmBG2iEB1VxRp9xfOCsbhU9jKpWkITjGUsXQWDl1CJyvrBfOyTjbT33fpwIchgDOM8uw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105831014339833285402\">Romaric Lejaye</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5583
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-10T15:07:15+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Pap's",
+              "uri": "https://www.google.com/maps/contrib/118443942445762345759/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJlXccH9ohKuWokwy811d85Zu07QzrUyd2DqI9yEOXzqA4p=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Très bon accueil. Cuisine maison.\nAvec un ami, nous avons eu l'occasion de discuter avec le chef en fin de service, établissement transmis de père a fils.\nBravo et merci a l'équipe.",
+            "language_code": "",
+            "publish_time": "2026-10-20T16:09:25+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Christophe Boutin",
+              "uri": "https://www.google.com/maps/contrib/116372029629903687170/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKCGjJrRY0b5bFtp285S-H9IAq1-Ey_PhvNvSZwM4IQ6_bMbQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super découverte pour un dimanche midi que ce petit resto traditionnel avec sa cuisine du jour comme chez mamie pour un super tarif. Portions généreuses, personnel adorable. C'etait plein, pensez a réserver",
+            "language_code": "",
+            "publish_time": "2026-10-12T21:43:58+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Hélène Dewitte",
+              "uri": "https://www.google.com/maps/contrib/101735087811270851561/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJ1clZHI1Y325f_BrNQKw3TcQMa2u8z2cF2X7ey97SZNqj_Pw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Nous avons passé un très bon moment à La Garenne. Accueil sympathique, équipe souriante et service attentionné.\n\nLes plats étaient généreux, bien présentés et délicieux, le tout dans une ambiance conviviale.\n\nUne adresse que je recommande sans hésiter. Nous reviendrons avec plaisir ! 👍😊",
+            "language_code": "",
+            "publish_time": "2026-09-09T13:48:27+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Stéph Maât",
+              "uri": "https://www.google.com/maps/contrib/108140019785237942208/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXtbzgU8sfknWPMY4aQ_Jzo_KMgTV7rFnCvefsN5NP7YxsTuUhm=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-08T11:03:35+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "De Maret Brigitte",
+              "uri": "https://www.google.com/maps/contrib/115673610262883226562/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKr41lYw7KQo-MycsIgWw9riLYHgnuzLe69Y82vqn2Na-etdw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 347
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1085,
+        "bo": 47,
+        "front": 1038,
+        "estimated_cost_eur": 2.125
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "populaire",
+        "confidence": 0.81,
+        "source_url": "izilife://current",
+        "evidence": "« C'etait plein, pensez a réserver »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« petit resto traditionnel »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un dimanche midi »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un dimanche midi »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Avec un ami, nous avons eu l'occasion de discuter avec le chef en fin de service »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "moment-repas-a-table",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« Les plats étaient généreux, bien présentés et délicieux »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "petit-budget",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "« cuisine du jour comme chez mamie pour un super tarif »"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "« accueil sympathique »; « ambiance conviviale »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant traditionnel à la cuisine maison et aux portions généreuses, apprécié pour son accueil sympathique et son ambiance conviviale. Déjeuner à prix abordable ; pensez à réserver lorsque l’établissement est plein."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-garenne",
+    "operation": "ADD",
+    "tags": [
+      "populaire"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5583,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "5a30a3ece569f2c966cbdb0f2674b085da44ff552e5fa7295f972ffdc46fd151",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

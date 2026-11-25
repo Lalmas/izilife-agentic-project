@@ -1,0 +1,89 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "À notre arrivée pour notre réservation de ce soir"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "nous a dirigés vers l’étage"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Restaurant Maison / Bar à vins"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "la cuisine est exceptionnelles"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Bar à vins"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Bar à vins"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 11:45 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 19:00 – 22:00"
+        },
+        {
+          "string_id": "aperitif",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Bar à vins"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "Personnel très agréable, qui nous met tout de suite à l'aise"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis fournis incluent une expérience négative concernant l’accueil et l’installation à table."
+    ],
+    "summary": "Restaurant et bar à vins proposant déjeuner et dîner sur place. Les avis mentionnent une cuisine appréciée et un personnel accueillant, mais aussi une expérience négative liée à l’accueil."
+  },
+  "meta": {
+    "cache_key": "0825b326cf04fdbe042c61ad781e270d6f19a53d0c7cca3ba7a6ab541640d366",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

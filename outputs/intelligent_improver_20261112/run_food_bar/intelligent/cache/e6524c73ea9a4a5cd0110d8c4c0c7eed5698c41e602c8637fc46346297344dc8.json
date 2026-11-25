@@ -1,0 +1,77 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« l'un des meilleurs tartare que j'ai eu l'occasion de manger »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« Repas de famille »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« petite brasserie embiance familiale »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« très bonne cuisine, plat maison »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« repas de famille »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« petite brasserie embiance familiale »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« mercredi: 12:00 – 14:30 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "« vendredi: 12:00 – 14:30, 19:00 – 21:00 »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis divergent sur les prix : un les juge raisonnables, un autre trouve les boissons très chères.",
+      "Les données fournies ne précisent pas l’accessibilité, les régimes alimentaires, les moyens de paiement ni les modalités de commande ou d’emport."
+    ],
+    "summary": "Brasserie proposant une cuisine maison, appréciée notamment pour son tartare, avec une ambiance décrite comme familiale. Les horaires indiquent un service le midi, et le vendredi et le samedi également le soir."
+  },
+  "meta": {
+    "cache_key": "e6524c73ea9a4a5cd0110d8c4c0c7eed5698c41e602c8637fc46346297344dc8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

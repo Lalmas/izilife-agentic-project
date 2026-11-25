@@ -1,0 +1,824 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:36:45",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-des-weppes",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-bistrot-des-weppes",
+    "status": "found",
+    "data": {
+      "id": "5880",
+      "name": "Le Bistrot des Weppes",
+      "shop_string_id": "le-bistrot-des-weppes",
+      "unique_id": "5fd5959f22973db20f49b780ae427d85",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55136",
+      "principal_cover": "55136",
+      "qr_code": null,
+      "phone_number": "+33320978303",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "2 Rue du Capitaine Lheureux",
+      "additional_address": null,
+      "zip_code": "59184",
+      "city_id": "78",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9000094",
+      "latitude": "50.5625712",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:04:35",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:04:35",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJv9Kdupcr3UcRhBRV3SYjW5Y",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5880,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-des-weppes",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "sainghin-en-weppes",
+      "string_id": "le-bistrot-des-weppes"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55136",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5880_6af3a303a5e73.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4937",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34294",
+            "source_hourly_id": "4937",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34295",
+            "source_hourly_id": "4937",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34296",
+            "source_hourly_id": "4937",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34297",
+            "source_hourly_id": "4937",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34298",
+            "source_hourly_id": "4937",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34299",
+            "source_hourly_id": "4937",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 18:3",
+            "reclosure_hour": "22:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34300",
+            "source_hourly_id": "4937",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-des-weppes",
+      "google_place_id": "ChIJv9Kdupcr3UcRhBRV3SYjW5Y",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:45 – 14:00",
+          "mardi: 11:45 – 14:00",
+          "mercredi: 11:45 – 14:00",
+          "jeudi: 11:45 – 14:00",
+          "vendredi: 11:45 – 14:00, 18:30 – 22:00",
+          "samedi: 11:45 – 14:00, 18:30 – 22:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 768,
+            "height": 1024,
+            "photo_reference": "AV-0GLfwzNXhucLd9O27rXkk2ZpBV8hJNo8wntcCCRnXikRdHrPV7jG5dbt98yFENak6JqNdWiDRSQhHGD1T0eLJme83kmpjJyaSBxYB3L9aZVB_yCI_KLnwNanHPsGC4s3LotiGaAwqVvhQwO20TBA2X-tyrW26_10Eqom_PlFSqaDKPH6bVglz219dEtfbYwkCW2XZPd5oh_f7d2iGUi76KTeKYBhAbqggLdhN9rMYKJZhvXOQOaKc8x1_g4ehdUOzmMnJ_aApCuUTmDJ5daNuQvDbqGUkdTx7oMjSr7ovSsPqMN7atejKXH8oNGTZ3HaTimFYuQuXZEMB8mAqevDf6uwa_9GJlx-FLSK0uD5lrzIXdvcJcIa478VH-DmwIoXrpF3XJpgHRzd0G0dsw0ZeydKGNbK1fXIEkEWtMBN-wp4iDQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdne_0vngB8TNOAdIgmLdhrlnFhuYXWON_JTSSGEPjcDKNq2-Qr9muKt51TbThcOqIBuz-auI-VJMpHIfC69ZEWSWLJ2qxEHT2oDy0w5F-fJhIqXuiqTPFdxsNr6gL_FzcgG9VLcMQNJFNCwWOOVrpI6KtwIFUqcVgrFgYtdzmi5OsyD2tX-K0ehygleraYKZsoByovTQXoEM2M7415DoJgWezl-UycTIKoMd9v5b2sOkwPseIsuuzlsmXbgB4iFG7xJ_KeQNBmga1O72TVFLP2s42QAx37TOzeedpMZ48rRqIF36gvmL6dmclULh1aofM3USMygsp1mjj_iFz4gmEANCX9IqZqb3vYZI4hs4pYR1egIPGqwH4tHr2iiMWV-FSA719F1fW9JRjWKd45l7eiEKhDMXEy1mEexc-0dWVSFQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 768,
+            "height": 1024,
+            "photo_reference": "AV-0GLfBSiQ8mWDN1dHvJOSaNcxb1-aVDgobOxkzkJ1PaatsZ8QeNyPTU21gVX6ES5bpET0j90m9bBLNfx3B5xdlifyY99rrh0KSGecGO8CDLPIiT58ZG-depodWiiZwRCKPRxclwWRyivbrJ3P9I93-HSoQEryLG_bE8esER2v56XyasWIS3Qo5w2e7MOUJ9Z9QGBMIQIJynkVVFGznTWZ1wgGmWbHOPYF_GmOLlD-kEFTizzYgmeql_AqMTsUcQ6TX9FQK8982Bxc48pepYAd4L6czhuohBxUosNKRd6DwXy5yw_kIRT81yLpuR46Yh_YLAY0-PHI3oFpP0DIN0kCbW3QxNHCKljdC5tKgEosZkjzO8aFWB4d06n80Uh_KUTxQkvePnztqzuHGLcUgH4Rhu2xjvUr1CsPzIfep_wmJa6lE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 1500,
+            "height": 2000,
+            "photo_reference": "AV-0GLedc8tAMJvm70hGWdEb8r1w2I7mELndsYZ_ekan5iJhIA28n0P5gRXevaFNdD6Igo4V71McivsjFmfU8cqnD5pPBpgwdOuzg9C3ZLJ2KaJR6bTooCK8qHJNpFB5hxz2-G4MjciZJBy1x1xSARmlxSp7tYRTqLY-wa7HB7dF4m-gZEAPJk6ZMEueLJ94n1ELtJYxNuWA-_q_OcsjQjfXUWt5k0I33yjq5IT-Yj4xk6o8m-gM5FHRfVZzXphO4v78L8eVZrA6GxO8-WnbNTGQLnPaf6jXU1-P1ru4WhcdKPsYVD4WJ6JstaYGJGfEM3rVIghs88r_SRaoVcd1MKXBa_EkkEso5EaeyQ1AbeqyIcUxn66eWtNtS8kXXx7FKD5Pk8a5L-JZP_xU1PLDG-VsBVPUFsdb1EgainbMsNojdz9mfA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfDGwYn6Nf6KQN4yILzEyALwnlApcuY_O7X3RE9wD1K5ddN3Er_9OvshjTgUp-sed41gQjQJYGthGFSE9VAXB-zfF6oM2HbWg5BOaFIHfOdmdCw21R-QUoS_BzFrBqWHOmjZ9qKko549CNl_qpQ1wkmAuc7JO4Ml5-jOt-BhBKRGPrMLM25EDMWUxKg0eGMheK8SGlpQK_gSGLEZ2q_kg8GaRCm2LvxaJZqKOvad3nPAReV9PSoye5PrX_gVjMImIGXoKnbkuH4D6uTlxjJ5YBQFnRQSJUXdOC7ZAHZLQ0ftwf4YLZOfu2IedKF-YxVl9QDvrnQ0Z1nVeE8Lu6r6sGurh5RQ-7vj_-c5dMbRBqQ-WO42_wy_dy85mbuxht6R-zhwvPzlgPSk-ylfvivkADHnEvl-qSd6BNClkjqEJ-a",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfcQtVJbiXstf2HEsA69pGfzob2_wWdlLRKYVkhD6xV99UYte5rwq-YpNQ0dYh3IhjmFx9pA29wBazjlv9MAQhhbnGlU77ZrN1bvMY1Dd4uPcxPFv9VKSSyVr9HY8_E5EOQF5nrD7zu90xMKsksfo38xjqNiVLxkKjE6LuDxPd0-X5doYc8WljT90WRx5FLRJFiQNllkM6d6JyBL_smWAQ27ozkZkZcvyHQ4vfu6cxTSlDC-RMO_47VuTpuhQTYXlbR6GPz-gjClxWi8Zmlq57iTrFoIaCwP85CEykosMYtbVbZvvU7qx-xrVkHOJK2wcf7AjE8-n-U2n6RqRb1NVmILaCUn_j6YAIvEHK8tY37SSrj5rNuK9xjsuJEWIBlfMUq2-LeKibvd-hOKfzi7YWg1yi5iuyxhZucyOu6Wjqh",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 1512,
+            "height": 2016,
+            "photo_reference": "AV-0GLehBjC1YDv9gZaMWRRaFZmWbVMQPgE36QMaeOYOL-oyZJ1fOY-QUdGkcHPSMlg__P67rihO7WZJsaaly8crG875Ms0KCnGQQeOh9k1-39LbMsq3QQivWoMXurAibExRTNJJNti8Ic-drV3uiTjayk5TZcO02wu9SLvGWIV8vBxzgPmDs94iwUc-c0ADkR42mgN8pdUAfjCJy94sAxmtvxuPuxL3EeuN0qbADivDVLEQMqCLUufXTayB3gx7Cvc2NGjcTpvULumR-dgaEd_SSYtttp-xB5vM0g2xi5V_XW7sSOM06MpCf5GRUJeQ0W9gbEWpR8cN_unG-hO3l-GCUfSg6JJub0Htzc1yhqrjucx1JREvylLWSEROgeqxoG327BRzKpB0Jjj_JPw3nLMMRXpaWrnc0Zot_a1oVOt731rT",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108382691501574081953\">Le Bistrot des Weppes</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeSPsukr1q2UFqZv88e_bJ05aGMWSz9EdZ8k7uK2dmjKjjQwIac-Jv-6YAAdUwSsDmmuYBLLSNiaWwAIXDj3KDgxgurdPXST3YC7uIhTtFLciSf4B9LD42fATogDhwijIa6o4fo5DuMkw_C855GmLs2Pecf5PzpfjozgogIVUijQGrkt-tcQrGpdsQ5vPbCLX-UbhaHLMPbFl3zdb5GwGnBSBZ_rr2KgYOYmDx0Ju6m1PJ3xSFtIYhaRfKUnEMwIOzSgNZuC1nIX2hjjbDbLF4TiQ1IVAabnrEikZiWld9lIJ-UVEiPq4IMzmnD4k2weFD2ZxkDhqcx3LJqjITYOUpPVCblPwvNX1U5CfiQYZ0ZUtqeQXn-BSlnVXDIaqCpej1zzMlmGXaAjBhBSUpX9xf9moLj0qVzCQ8zPZ3oySTG8A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111650756946556886829\">Singe Urbain</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeLGbgtsoDQY3vAabPQ8DpyBqo3_UVaYKLS6BqjTAoxx1tYUcBFAV29bBGlIyNlbFMR7kCtJzi1Nb8crCGrqwUMJlNAGAflTe_E2twTKUrgw-QrvyaIinLX2pe3rZ054r4M8rsV_Tt0EJsGZqEJzpgWZ57cn-CQ270oqg79CkhvrQhPtK0yshjqT7UkFUlyzaiZH8fBLAYC_uNZ9TJdZeZQIRHlYgx0rBvQR_HfDPEjLwWfVSDMaeDjEb3eIszc5-iByAX7Z--g7K6T2iNd5IkKez-SZUZ6IJWSX-nGsqNawYWRIMYolT6cKchQV-dnOgPnxz9iWEUGkH0BVYuy9_VHYaP6nAAiq4NRxNJBmZl9Zfun--bzpQAv8u8k-qRzrgvXaKvopsHa3CJMhlORUwkYX_FPkWsmmHkv_4daNZz3TQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111650756946556886829\">Singe Urbain</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeBJkaVK5qfeYI4SrXXAs9eBNDZqf6Rkxcyx5Yt3Fsz7pSv7qEy-FZ_xJg2i3yKv23Y8nL8AIrqkMwzqbwi7bd03DahsPrpb6z4C5XEcvIbJU54ye9MWtxjzQHpDTGNzjLwQ7GcgmKNL72cE2XXFNQYyA8n_reHbwJc82dBcSPADLUrCwUvb1sRSSayWJR7-EtdiUAsmG344K2qCRs7mEr4UZ0tCaSWQybF5vhsdas9azLfJnpBnrRjubRf0RcPfD4WECznywUiFiPfEj38ugwReIgRowW4fX8t6zgIbSSanuaNHbN721luhduMWLGxYWqQtZxb6VX54z3qHGDLVq_e2fdo7Nm6Xxa1dc_g0XDL1bJ8JDYUKrGy1TYgv7juX7av9M-7w66pBeKrNBwuACpFrJlrHQZYsbPw0rnhUakVnA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113869179378770472159\">laura bastien</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5880
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 11:45 – 14:00"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 11:45 – 14:00, 18:30 – 22:00"
+        }
+      ]
+    },
+    "warnings": [
+      "Les horaires affichés dans current_izilife et sur les pages consultées ne concordent pas entièrement ; à confirmer directement auprès de l’établissement."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "adapte-aux-familles",
+          "confidence": 0.98,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Parfait pour passer un moment agréable en famille"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bien-pour-groupe",
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "en famille, entre amis, ou avec des collègues"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Service à table"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-apero",
+          "confidence": 0.93,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Que ce soit pour boire un verre"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "produits-locaux",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "produits frais locaux, issus de la région des Weppes"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "bon-pour-dejeuner-rapide",
+          "confidence": 0.94,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Formule Express dès 12 € HT"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Service à table"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_handicap",
+          "value": 1,
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "rampe d'accès PMR, toilettes adaptéés PMR"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_family",
+          "value": 1,
+          "confidence": 0.98,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Parfait pour passer un moment agréable en famille"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "adapted_to_groups",
+          "value": 1,
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "entre amis, ou avec des collègues"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.96,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Carbonade flamande — au pain d'épices et à la bière blonde"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "have_terrace",
+          "value": 1,
+          "confidence": 0.94,
+          "source_url": "https://fr.restaurantguru.com/Le-Bistrot-des-Weppes-Sainghin-en-Weppes",
+          "evidence": "Terrasse extérieure"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "chaleureux",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "atmosphère conviviale et chaleureuse"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "champetre",
+          "confidence": 0.98,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "au cœur de la campagne"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "Atmosphere",
+        "item": {
+          "string_id": "decontracte",
+          "confidence": 0.94,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "ambiance décontractée"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "lieu pour un déjeuner entre amis"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "dîner en famille"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "aperitif",
+          "confidence": 0.91,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "pour boire un verre"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DietType",
+        "item": {
+          "string_id": "vegetarien",
+          "confidence": 0.95,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Plat végétarien possible sur demande"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": {
+          "string_id": "francaise",
+          "confidence": 0.97,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Française"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "DishOrigin",
+        "item": {
+          "string_id": "belge",
+          "confidence": 0.91,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Carbonade flamande"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "carbonade-flamande",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Carbonade flamande"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "welsh",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Welsh"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Burger BW"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "saumon",
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Pavé de saumon"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "grillades",
+          "confidence": 0.97,
+          "source_url": "https://www.lebistrotdesweppes.fr/",
+          "evidence": "Grillade de la semaine"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-table",
+          "confidence": 0.97,
+          "source_url": "https://www.tripadvisor.fr/Restaurant_Review-g9565498-d27097479-Reviews-Le_Bistrot_Des_Weppes-Sainghin_en_Weppes_Nord_Hauts_de_France.html",
+          "evidence": "Service à table"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "a-emporter",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Livraison ou retrait à emporter"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "livraison",
+          "confidence": 0.99,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "livre vos plateaux repas directement au bureau"
+        },
+        "reason": "source non collectée"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "reservation-en-ligne",
+          "confidence": 0.95,
+          "source_url": "https://lesweppes.fr/restauration/le-bistrot-des-weppes-sainghin-en-weppes",
+          "evidence": "Réserver en ligne"
+        },
+        "reason": "source non collectée"
+      }
+    ],
+    "summary": "Bistrot-brasserie proposant une cuisine régionale faite maison, avec des produits frais locaux et des spécialités comme la carbonade flamande et le welsh. Accueil annoncé en famille, entre amis ou avec des collègues ; repas sur place, plateaux repas à emporter ou livrés, et accès PMR signalé. Les horaires en ligne diffèrent selon les sources."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-des-weppes",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "VisitMoment": [
+        "midi",
+        "soiree"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5880,
+    "changed": [
+      "ShopVisitMoment:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "3b2c18c52b26119e780ffd464affc361d12711d79f9947472bd2b15ceaefee00",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

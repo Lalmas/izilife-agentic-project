@@ -1,0 +1,35 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Avis : « rapide serieux prix correct ! »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Avis : « Pizza bonne sans plus »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les horaires en cache indiquent une ouverture 24 h/24, mais le cache est signalé comme incomplet et ces horaires n’ont pas été appliqués."
+    ],
+    "summary": "Pizzeria dont les avis mentionnent des pizzas et un service jugé rapide. Les informations fournies ne permettent pas de confirmer les services sur place ou à emporter."
+  },
+  "meta": {
+    "cache_key": "9e4c2564a5f372683ee8d8c68727e06d450666d94f53ad7f596d10c301e8f11b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

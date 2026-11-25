@@ -1,0 +1,60 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« La prise de commande par téléphone [est] rapide et le délai est court. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués chaque jour de 18:30 à 21:30."
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "pizza",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« 3 pizzas commandées »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués chaque jour de 18:30 à 21:30."
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "telephone",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« La prise de commande par téléphone »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas si la consommation sur place ou la vente à emporter sont proposées.",
+      "Aucune information explicite sur l’accessibilité, les équipements, les moyens de paiement ou les publics accueillis."
+    ],
+    "summary": "Pizzeria ouverte le soir tous les jours. Les avis mentionnent des pizzas garnies, des ingrédients de qualité et une commande par téléphone rapide."
+  },
+  "meta": {
+    "cache_key": "05c62fa8f3443a8f2f523b5f9134301bdefd60ed9e109654c272a4449f4079da",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

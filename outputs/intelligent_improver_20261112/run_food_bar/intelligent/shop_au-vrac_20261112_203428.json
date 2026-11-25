@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:34:28",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-vrac",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "au-vrac",
+    "status": "found",
+    "data": {
+      "id": "5867",
+      "name": "AU VRAC",
+      "shop_string_id": "au-vrac",
+      "unique_id": "e425ce35e0d86c8fe66ea4470940eb20",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "6",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55123",
+      "principal_cover": "55123",
+      "qr_code": null,
+      "phone_number": "+33320584824",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "3 Rue du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59251",
+      "city_id": "6",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9524216",
+      "latitude": "50.535984",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:02:45",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:02:45",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJsWLN418t3UcRIwRqRhJYvWA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5867,
+      "scope_type": "SHOP",
+      "scope_ref": "au-vrac",
+      "primary_category_ref": "cafe",
+      "closed_state_ref": "ouvert",
+      "city_ref": "allennes-les-marais",
+      "string_id": "au-vrac"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55123",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5867_6af3a295b45c6.png",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4924",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34203",
+            "source_hourly_id": "4924",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34204",
+            "source_hourly_id": "4924",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "15:30",
+            "closure_hour": "18:45",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34205",
+            "source_hourly_id": "4924",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34206",
+            "source_hourly_id": "4924",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34207",
+            "source_hourly_id": "4924",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34208",
+            "source_hourly_id": "4924",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 15:0",
+            "reclosure_hour": "18:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34209",
+            "source_hourly_id": "4924",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "au-vrac",
+      "google_place_id": "ChIJsWLN418t3UcRIwRqRhJYvWA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 15:30 – 18:45",
+          "mercredi: 10:00 – 13:00, 15:00 – 18:00",
+          "jeudi: 10:00 – 13:00",
+          "vendredi: 10:00 – 13:00, 15:00 – 18:30",
+          "samedi: 10:00 – 13:00, 15:00 – 18:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 971,
+            "height": 723,
+            "photo_reference": "AV-0GLft9ja8QiTzU1aYBGesIgkUjTYEnrV5a7sCE8i0tpXJ5hAcekbKHeAHYKtO_nEEq_4B9BOkj9uYbYvGGS7DCwCD7ltYY73O9ltczrpPWi065OQ0rqjzd3hZIUS-5Pph9o5AuB10BmsJ2sXSS9oLMSeFPn0IsRAj44_RHebUZBBjNMoD2krNVOfyyueujm2AT0BV6HDF2oIKolQr8QmJ3a1PD3e4csJBvPMy0wtyFu5O6GLUCA5LGec-xkozos-KDvIShZeSd036Y2rn314IlTp5gWpT_9Hc-77wsM87kZHOkPxyBTAVd6HK2XZIyAhxzwo3xAydRkDhGfWZUb8ajwxUDSIPs9uvIbZ6hd8EXRZYY1bZsaAQI21E0nLn5GpLRP32QWypnjG_wOJt9EmVUVmxDQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 969,
+            "height": 719,
+            "photo_reference": "AV-0GLfmfMWXjj6obGtNrMx4Ht1hI1MKpT_Oxb0N3Sz4YX_molIObiedjVVjaacwMr7tuF3rAIyG7hWMuLVGLLV8b6WfIYYJlaRRhVcYud4nCsn5-EVRSwwPzrA-56XskrPl3SL6ve5U6uwp53E6zGId4_HaiF1wFX8TT_rxqMmEgHkVL7_bbD7vxwATrXaifTewtY0appLp9V6st78DCdaDiEBufH7HquRyA4m_Cgf3RPkESMid210CBEf1SFe06U40wmDRwpKbMd1zLEaU-MWqVAYQMjuC5dX2bXYxI3JbGhVaQN5a22cgA63R9F5dUow9ch81srjaKE3jLIBuNcI4AH6oEqc33XL5Z7IpgW4KTni_9c5d71YzvhS2g1VgqiMXeXNgOv7phdqH2DzaSDQ5mjeoAQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 584,
+            "height": 724,
+            "photo_reference": "AV-0GLecMARvtooC6Al2iJIRpAMYaCB6itXDwOV1QkL8aFfYVcIpuoP13YqoSdaDQghbfBQKq0LjsuYubS3hOPV23Ebuc3cl_-9hEKZtXAAJwJMNjJ217mLlEMYWLzjH13B_C3aRFwxvGL7odFKKnqWqRc6VpUXE20tWAQZG515kWvOncPGHqCF7x1C_Yad79_zTZ0XHaQYsunaEwOS96NXkksZtroDw0JeqSCV9ttE_v9aC24iSBzep7inYXlSIADby0tqP89VT_NPLFpuAnv7aDxMaAS4eFvp9HAjOihirD_7Zb7lKIFkS1Iupw65oTDsTYJVhF5R-j2_dLwaXV6L5IdheM9IgS1-43Tobo0gGGxyKTAy0RPQNbMJg05IMrY43yYhw_bYNfFOc6-v6KN8XRMbQjXc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 581,
+            "height": 720,
+            "photo_reference": "AV-0GLfHSbH7LUlnUwVBSUWt0Mzq9MA3jK1B5YPpCtmnqREoJd1dw8ER8O9_rY-jl5KTwt3E1C2D_3V85W3vEIRhwCbCoHLZJJiwoG08g2CKaScNk1N8HrhA7_YIaKcUwUcOJI4K8DKyPtXLD1UxL02JOEW8hGSKgaJ5FiGgbQIUIOCjk-4nvYyS1onhPBDcHq6QfMrk1eRJyH19sm_om1-bmoyL3Qp6gUAjvFrrM6pqeehXIY5uqpEK5jx9TPzwgx_OlQBplUGkrUXm2TZuBCsrM72emt4mIgEVnWMcCyjF3ISrsbbSH3PYnR6aALy6PYFVePu1Q5ES70IQg-fYovPIyHDjnzWYFerEoISFHEF8MGOWEY1ejAgupcRXRqGVzJt-YjjAE4dDD7n462gi6J9AfpwwYlyyNWM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 964,
+            "height": 724,
+            "photo_reference": "AV-0GLcoHjtNMRVX9kJZeaie-m50zdNnbtT9WSOedo_sC09tXQhylQ8aZgdqefD7bqVvHjnRBSbOfuIakfh3Wxfquy_OB_Bfw3JyHJmoC4i2DKX47K5QMYiEVdoUssokgWtpPVnCEHJzH8DXqdGPSS9g_8rtEXv5MpA0l8IfwHj69SCVvSTRBtx6_NhB5JhwvbSS6TnijZLL4NPst4efAqWVuD49IPpnthw__pr8PZa5z6wy7bsNTpzkQFVKr9HLGTsFpRzdid1hK5W4caArvnHFQBp0hReT3fhtusa5kA0bqN0H9vhX_cGeZ8By1ebeUbLfgw5nmBEjWCV4eJSjIHDANhy-P65NoDXmkdulp-Js8qSJKKE6lGozm5IgVzZoFaVDwlNKGfYrhN8Vg7ODV0pHkvwqw26ph4Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 971,
+            "height": 724,
+            "photo_reference": "AV-0GLe_ymjIwNFir_EAAIMKmVRY__XmcKxkxys0Eht8C8d_SwZjyNRMJBHFPxXImsDcL9ofakGIudHvHZh1SItI_5zQum_7DGEGQkvqPFvRO0-SFQdjLlXus9CeyaN86iwUs1TruxRAnJVVIQ4DihCU2bse766zEvj4bUi1NT5vd8cUQEOtPD4VX5EggVqCdG9w5tJjoUV_43hrGmT7s7q6IK2rESzeGtKCJcSUy18qYjsV-1TVL_bA6EHjXS7FLhl1QOOOlAq6Q8WwAveTNn8kuQLEHQLEarzJZLD-0CRYziEn9wBP42nLJ5xbFRvZvifVvgV8RYg2lYIhuEgxtNYzwAT2SK63-Hz4QrnrUfhzDJA-7Jzqn1PwyGQoGZbOA_vWTc-ygPyiD3eEv5Y_dZBIwht-rWo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 967,
+            "height": 724,
+            "photo_reference": "AV-0GLdLASbBlyzIPsfp20HhKdmb8vk0OGfn2qK3rnWWRUOacO4stPBgWdnmZzKYXqgYjjRseSycYgnUuxlagWc3ugf2d7YFUVi7wr9MBg2XRp7UxAZjyJsKnuJmkZZ3EGiopepyDf7mzqSSyyMro8x018SYcZK2tN-Qc_XpA237xM4FiskltE1GxcmrTGNTWURzsf49NPV1lS8dn-lMHq-ZN9CbGCvFm7PW5VMP-ffLQLvqjngtOGO9hgj-hNO2jk2BerMiT8t2XtXu3edxQqJJz9M9sSB1gilj8NFqcaLUc0Mg10NjVaHRqSAS0SXqGO1sMc7bNujQsmpT1cF9yPR3ceVv0i6aCdzSRBF3n6PMUh0vt2d_8-7wekzXaWhxAjNJI8idkG5gOEHN5CpPSBRQWvCINEVvA0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 585,
+            "height": 725,
+            "photo_reference": "AV-0GLf6fKEA9F7o8eTULzD0QRQRXcD8GJnMikOBfiUzP9Y2RtbTzGcxhEEQYA4G52CQVuoyh3ICCZfKf_LiV2TF-5HaxYmuUYN__e_MEWVDKPytzUjxgE6lEgYW5f-2nMlqXaCU9MXeul31I2ND7vGm-1bOQ1H8blahAqnEmhbMw4sdhN4fmrKgHFAxn8uRnVGiOsbVHBla-OC3JsdpQhE-2Ncel9UV4s0kzuICvYmwVOW-pe-OzzFwUPUB4YiL1wo3fS1QFiLXFYeneJ9JiY2O_r7SOOF-C37b1-eXWXcyjJmKVWj9tETASJnWPePR6tIiKPvcDC6wlJgv27hylgIcBsuGrLPXFqhep5h95NlnRqaK1Hr2Rxdr_KELF-Z7iDvHN1drSvaHIGGikTvBch0bcwQdAbRl",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 582,
+            "height": 709,
+            "photo_reference": "AV-0GLeJ5uc-Gyd6pM9X2XNGCEL2OIn_2RUm5oChtnM413nEzMed7w5uPejujsfPebX39B76mj2886Cl6qEdezflEvXJ0SxOn70FpnzNaIG8R6CPqVi8i-yZ5LM8PObFxK7evHKBVdRE7t7k4GBIIT_9IEL40384EnjLRlbinX8FcCufkqXJ099Cfa8G9Ta4ArI30hKlAKxVlxtwSfR8j7PZWZCGFOgYt5Gxs5iTbIFrweJOvLWmhne4G5UFpcOkUREoqnj08dplNt1w3WwK7jIgDs_VrVyRPNNuRLlBZpu3-R9iREl-wOFfSjJphaStdqMFmMmMp91FVj8lmKDhhFQZdXLOkWp4-qAzzeEtlKPBCwIEGtmK1qtSmApu9gHW_s6uZZUaK96EgBDfTwtnc7oVo-yjyDKNdGs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          },
+          {
+            "width": 962,
+            "height": 718,
+            "photo_reference": "AV-0GLdy-3leeSjlLwIzqm2Kgyc-pbYHEejZ6Z_fZO4pJCDL3OJoTyBPcWcL3mwF0DsgrzZrvwQpZ-Ls0I5vQjgMMQMrStXWeaWHsgTXgVP2JBVvzPcnGLMPPVMpf9KBQINs8DKGrHkn5vmex8jws6fISoHuB4ISXbDYiCTyjoHkBggDubg_ziprlKNGp1xxNPRtMD0pERnPIzjEUddull-jQ1GFoN_Bd0Z-KQpAvY6oMOQDLriyVm2VYyhLTf6Td9Ady8BjosPyjdyxpSbUfVAowV7CTRDYnXP69wpeT7NS_APjrHkPnWTlUpoVm8wVFK6lm8ZRIDBqX6X_CdkdhSMJLERG88nVJy6r7jKPdC2WMYH1mbeAyQ1ipIG2w8ZWzHEMt7QsaldQbQrFhDaVBmbVztRE8YU18ck",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106812921460977958430\">AU VRAC</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5867
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne documentent pas suffisamment les services, produits, équipements ou publics pour attribuer des tags ou caractéristiques."
+    ],
+    "rejected": [],
+    "summary": "AU VRAC est référencé comme une boutique, catégorie « cafe », au 3 Rue du Général de Gaulle à Allennes-les-Marais. Des horaires d’ouverture sont renseignés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "au-vrac",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5867,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "305392e191b4d741f8610812d546b40f420962a4946ee755b84eee05dcffe91d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

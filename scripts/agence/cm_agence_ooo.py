@@ -230,7 +230,7 @@ def call_llm(system: str, user: str) -> str:
         return msg.content[0].text
     from openai import OpenAI
     client=OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-    r=client.chat.completions.create(model=os.getenv("OPENAI_MODEL","gpt-4o"),messages=[{"role":"system","content":system},{"role":"user","content":user}],max_tokens=1500)
+    r=client.chat.completions.create(model=os.getenv("OPENAI_MODEL","gpt-6-luna"),messages=[{"role":"system","content":system},{"role":"user","content":user}],max_tokens=1500)
     return r.choices[0].message.content
 
 

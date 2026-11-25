@@ -266,6 +266,20 @@ def dismiss_cookie_consent(page):
         page.evaluate("""() => { document.documentElement.style.overflow='auto'; document.body.style.overflow='auto'; }""")
     except Exception: pass
 
+def source_quality_image_url(url):
+    """Évite d'envoyer au BO les miniatures générées par les CDN.
+
+    Wix expose les vrais médias derrière une URL /v1/fill/ dimensionnée pour
+    l'écran (souvent 300x300), insuffisante pour une fiche produit. Une variante
+    1200px conserve le même média source tout en restant téléchargeable.
+    """
+    value=str(url or '').strip()
+    if 'static.wixstatic.com/media/' in value and '/v1/' in value:
+        base,tail=value.split('/v1/',1)
+        filename=tail.rsplit('/',1)[-1]
+        return f'{base}/v1/fill/w_1200,h_1200,al_c,q_90,enc_auto/{filename}'
+    return value
+
 def scrape_exact_url(page,url):
     try:
         page.goto(url,wait_until='domcontentloaded',timeout=45000)
@@ -311,7 +325,8 @@ def scrape_exact_url(page,url):
                 return {url:img.currentSrc||img.src||'',w:img.naturalWidth||0,h:img.naturalHeight||0,text:context};
             }).filter(x => /^https?:\/\//i.test(x.url) && x.w>=80 && x.h>=80 && x.text.length>1)""")
             for image in images:
-                line=f"IMAGE_URL: {image['url']}\nIMAGE_CONTEXT: {image['text']}"
+                resolved_url=source_quality_image_url(image['url'])
+                line=f"IMAGE_URL: {resolved_url}\nIMAGE_CONTEXT: {image['text']}"
                 if line not in image_contexts: image_contexts.append(line)
         except Exception: pass
         try:
@@ -574,6 +589,23 @@ def run(zone,env,file,dry_run,maximum,analyze_only=False,scope_refs=None,fixture
                     raise RuntimeError(f"Scope introuvable: {scope}/{ref} ({target.get('error',target)})")
                 target_item=target.get('item') if isinstance(target.get('item'),dict) else {}
                 print(f"Ligne {row_number} — scope vérifié : {scope}/{ref} — {target_item.get('name','')}",flush=True)
+                google_context=izilife_post('/scraper/agentPrepareGoogleEnrichment',{
+                    'scope_type':scope,'scope_ref':ref,'include_reviews':True,
+                },env,timeout=120)
+                if not google_context.get('success'):
+                    # Google enrichit le contexte, mais ne doit jamais empêcher
+                    # l'extraction explicite d'un menu/produit depuis le site.
+                    print(
+                        f"AVERTISSEMENT ligne {row_number} — préparation Google ignorée: "
+                        f"{google_context.get('error',google_context)}",
+                        flush=True,
+                    )
+                    google_context={}
+                else:
+                    print(
+                        f"Ligne {row_number} — Google: cache={google_context.get('cached',{}).get('has_google_json',False)} "
+                        f"reviews={google_context.get('reviews',{}).get('status','unknown')}", flush=True,
+                    )
                 row_items=row_skipped=0; details=[]; row_review=False; row_warnings=[]; row_image_errors=[]
                 for image_path in images:
                     if analyze_only:
@@ -708,7 +740,9 @@ def run(zone,env,file,dry_run,maximum,analyze_only=False,scope_refs=None,fixture
     print('Résultat:',json.dumps(stats,ensure_ascii=False))
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--zone',required=True);ap.add_argument('--env',choices=['local','staging','prod'],default='local');ap.add_argument('--file');ap.add_argument('--init',action='store_true');ap.add_argument('--dry-run',action='store_true');ap.add_argument('--analyze-only',action='store_true',help='Scrape et analyse les URL sans insérer ni modifier le classeur.');ap.add_argument('--fixture-file',help='JSON simulant les items LLM par URL, sans appeler le fournisseur IA.');ap.add_argument('--llm-provider',choices=['openai','claude'],help='Force le fournisseur pour l’analyse de contenu.');ap.add_argument('--scope-ref',action='append',dest='scope_refs',help='Limiter le traitement à une ou plusieurs références de scope.');ap.add_argument('--source-url',action='append',dest='source_urls',help='Limiter le diagnostic à une ou plusieurs URL exactes du classeur.');ap.add_argument('--max',type=int,default=100);a=ap.parse_args();init_sheet(a.zone,normalize_env(a.env)) if a.init else run(a.zone,a.env,a.file,a.dry_run,a.max,a.analyze_only,set(a.scope_refs or []),a.fixture_file,a.llm_provider,set(a.source_urls or []))
+    ap=argparse.ArgumentParser();ap.add_argument('--zone',required=True);ap.add_argument('--env',choices=['local','staging','prod'],default='local');ap.add_argument('--file');ap.add_argument('--init',action='store_true');ap.add_argument('--dry-run',action='store_true');ap.add_argument('--analyze-only',action='store_true',help='Scrape et analyse les URL sans insérer ni modifier le classeur.');ap.add_argument('--allow-ai',action='store_true',help='Autorise explicitement les appels IA payants; dry-run/analyze-only ne les désactivent pas.');ap.add_argument('--fixture-file',help='JSON simulant les items LLM par URL, sans appeler le fournisseur IA.');ap.add_argument('--llm-provider',choices=['openai','claude'],help='Force le fournisseur pour l’analyse de contenu.');ap.add_argument('--scope-ref',action='append',dest='scope_refs',help='Limiter le traitement à une ou plusieurs références de scope.');ap.add_argument('--source-url',action='append',dest='source_urls',help='Limiter le diagnostic à une ou plusieurs URL exactes du classeur.');ap.add_argument('--max',type=int,default=100);a=ap.parse_args();
+    if not a.init and not a.fixture_file and not a.allow_ai: ap.error('Appels IA bloqués par défaut: ajouter --allow-ai ou utiliser --fixture-file.')
+    init_sheet(a.zone,normalize_env(a.env)) if a.init else run(a.zone,a.env,a.file,a.dry_run,a.max,a.analyze_only,set(a.scope_refs or []),a.fixture_file,a.llm_provider,set(a.source_urls or []))
 
 if __name__=='__main__':
     from agent_excel_logger import run_logged

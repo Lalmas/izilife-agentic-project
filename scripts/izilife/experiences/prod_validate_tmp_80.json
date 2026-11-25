@@ -1,0 +1,93 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:53:57.020939",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 80,
+      "title": "Visite de Lille en bus",
+      "experience_type_string_id": "visite-guidee",
+      "source_url": "https://www.getyourguide.com/fr-fr/lille-l643/lille-visites-en-bus-t6997",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "visite-guidee",
+          "principal_activity_category_string_id": "culture",
+          "language_string_ids": [
+            "fr",
+            "en",
+            "de",
+            "nl",
+            "es",
+            "it",
+            "zn",
+            "ja",
+            "ru"
+          ],
+          "hobby_string_ids": [
+            "ville",
+            "visiter"
+          ],
+          "age_category_ids": [
+            "7"
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "a-voir-absolument",
+                "confidence": 0.9,
+                "evidence": "Découvrez les sites et monuments remarquables de Lille."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.8,
+                "evidence": "Circuit touristique commenté de Lille en bus."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "accessible_for_kids\":\"0\""
+              }
+            ],
+            "editorial": [
+              {
+                "type": "VisitWeather",
+                "string_id": "ensoleille",
+                "confidence": 0.7,
+                "evidence": "Circuit touristique commenté de Lille en bus."
+              }
+            ]
+          },
+          "session_contents": [],
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 80,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 123,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:54:03.514608"
+}

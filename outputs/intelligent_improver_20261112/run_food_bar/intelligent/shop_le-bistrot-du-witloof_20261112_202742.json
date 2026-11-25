@@ -1,0 +1,535 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:27:42",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-du-witloof",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-bistrot-du-witloof",
+    "status": "found",
+    "data": {
+      "id": "5823",
+      "name": "Le bistrot du Witloof",
+      "shop_string_id": "le-bistrot-du-witloof",
+      "unique_id": "749b6b244b562bda63ea30f233f2bd35",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55079",
+      "principal_cover": "55079",
+      "qr_code": null,
+      "phone_number": "+33788604915",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "4 Rue de la Marque",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1464769",
+      "latitude": "50.5471832",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:54:44",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:54:44",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJkaLGZ9HQwkcRb2rRc3bQlVA",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5823,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-du-witloof",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "le-bistrot-du-witloof"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55079",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5823_6af3a0b45acb4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4880",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33895",
+            "source_hourly_id": "4880",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33896",
+            "source_hourly_id": "4880",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33897",
+            "source_hourly_id": "4880",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33898",
+            "source_hourly_id": "4880",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33899",
+            "source_hourly_id": "4880",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33900",
+            "source_hourly_id": "4880",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 19:0",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33901",
+            "source_hourly_id": "4880",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-bistrot-du-witloof",
+      "google_place_id": "ChIJkaLGZ9HQwkcRb2rRc3bQlVA",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 12:00 – 13:30",
+          "mercredi: 12:00 – 13:30",
+          "jeudi: 12:00 – 13:30, 19:00 – 21:30",
+          "vendredi: 12:00 – 13:30, 19:00 – 21:30",
+          "samedi: 12:00 – 13:30, 19:00 – 21:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1000,
+            "height": 667,
+            "photo_reference": "AV-0GLdzSvoyFIoue4036yxRK5lw6grXbApz-PbqMkIfFdE9DNVZ5D4G8Xgj7QWEbR3aWx6FJwhJ1PnhrSgXgOI_PPo0aeSzHDmao1XPa-_oRTfRPNQ_-1rnSnlNEpfIPDcHvtBcWMTS-EQT55EyXLNSD6_-1sTa3M_B4N9TlbX7wu6IU8TTHBMoiwbNDKrYfdUqcXtDSRl8e3Q4vvXe05hOsZm2X41rMGayTg2N8n_jTP7dIN4b0KS38TbbawTXdZy7WxIAdO4KkLWIMkWm4QROvTz7VjK1reiw3Nr3uT64MjvkfweDELHMXlov6Ix9rtnEeRsO0bFtRroDvqcNsU6y-uJwxoKajQoT6vQjG0S87sdaV22FQDK_zVwwig07vVAgGNXlhCE_innl49Yn-vYSLCVXApA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114364557628472930057\">Le bistrot du Witloof</a>"
+            ]
+          },
+          {
+            "width": 1000,
+            "height": 667,
+            "photo_reference": "AV-0GLcH9QquTN3My2ah7tQO3ozAgk9jqbUu90eQw4q6_T7RJb3wZVY-6ytouioeSkA8Kct67L2841xhK6EhRYM0GjZuZ-ws9rPmzOPZbgzAtjo7LGG0P1_RABB7JInZ54ZRhvg2Qr0LkLKT52_hgtptFM67hQStOj8_C_w1ce20r8L4-uDBbRHnOa-abZWEVa-WotS7BfltzNpOcbXCVlOJ555z4CwVGsNJQwolWDabLpgM2qCFMcMlIVTTACM0dASqHA7oiS23N4oIHbC9HpJDby27AXjMVruIgMrR4pE91_CLum9q2yNgeAxxvc_jtIkEHLOH2Hq4TgulP14mcEiGAYd6g8UVKBVUTcdRL-ZYLr_Vgi7wLHg7EHc_d2C5dpKEjCaqVwLsmSduRjsjd2GPGK7jGrc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114364557628472930057\">Le bistrot du Witloof</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeOIH3A8K1j8KHfZPlGk-YmISCzsTJKCiEzjY5M289ynPf6RBEEomUXJmanuaVi37vEunwTzxdBU6nzcsFAmAF5iIIZYgzDZ-Zy1-KBRGtwtayJblwN2RygON_tKCtZlt-nBTd0sDUDHa0i5mgtYxuPCjnrOzi2ZhgkW0c_XWKn87213j0Ujolf_2EIJ6U38ak-Y8eRM2RF0kTgI6FA_B01vRlMvrzW-Ml2GfMXRaHBRmHN5TisYHZPYwsr1FWmCunG5ADwQgt1Q5Qqjxui7MY6ec3M0ApbB04-8J0KQ83NCdgQtv7v4OHSNUbovtJOERdUXdohH_o3sjPGgWc7RcaHkt6LvjGuNJQ1mZnNrCNpA_-AArKxj6IJbsu7MLhFZG4cubMyDSHMOXT3XsMjZKW79IYgeNNFPMwD4q68_XT0tw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110186714508366895123\">Sylvie D hondt</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3072,
+            "photo_reference": "AV-0GLdquXnV6paFr_Hb5Qeph9e-u1_oE0xXZdMGF6A6jaj4i9HMfrTbDD-b6rwHuFMN1THpXrxk2teWGFSh_XvQmOt01yIdb8hqXN3SxNGVgnIRrpQy-FRrf5X1BBJ8BCB2GFYDQ76USsB3P2yBre813DVst4se27nSMYkb17lb3Us9ovRrthINGSyUIJsQFfwTuP-zTk67qq_FWTgpE3eIAm4ygQFJq7QCh9xerO5AskHXSB-8Mmdom2_rZu1EdxUZo1_p684EYyupyWvMQ2Cy9QjEcVyU8pnOjPbSPD3NzWH7eXP-s33Y7NorzUeACf73f0TRkWY2TyUXHnSOzT_m9Gxq5fsTWUEWn6Pd-rTGYQYebhykThDQY8Zji977qYsgQI6HzEriyGxaW4kmRShf6lsXutJDssm8A4IJVnNBZhn1",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103375366712120368925\">Stf RD</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLfM1H8QfKIvfwa6QT2E2RawL5zx_MyJ03Uo5WBPnIKMsGqwnEKW5hP_S1upXpNJ7D7Psz_s0dZ7j0U-iUUjLXm7trOJ0txU86Q77nsQi9D8i6uvBsNTbJ0U6HWOo2eaJIzOsJpDBJFHZ5Yjs0T6hLpoKMha17-trMdMCc3oZTSXjrFYevI78oXOfmlj5ya6DxwwUoqkpqZ6u811TUgEL8kzMSrp05JhPOLj2BMkV9TyghDDjgdrrsTQAQi-gPfaX22K0Hd2fb0RL2I-fqYl8CARWjF_AeSrNBjP6CKR1crYYimVRNFPOAA-9mHoST9vIRRz0kNg4tfurrmMsLMtWXTxzrnJyM-VKqaLttd1-Vbxfjac1GMDbrmR31pDDdtK2yAoOuZtqgeAPVWuYEBBdnsNjVVWQ5QSFS_z_g1bZsie0w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101099202482454040515\">Mireille Collet</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeCvEizyQaHKAj3MmIxyATCR7IiTZ9hqDR99sqzutxUlTHAPJwUx4Dr6vpBYVDhGHzN_h36tciS7DvdtpMptjiB5zBzB2CNE9S2Ov4rF5v311eNRH4Ru6_snv4GiM0CkQ52Ou3zJ25HbEzlC4lVvS9_3QTiRA0vAuR5HwYhoks_MXq6zcGsaSN6NMXYqUlzK1xLw_-vhasJfpNKDWdQnp_etBh6SiHx7fZ68sZA-NP_ewdIcIgT-vnMxHCAf31vbqx8faRj8L2qOcmd8GRSrIjv7xF8kTrKvichzSnnSthp5wQzoSWi-scVZ4fb7AaWj2IsZ1x42EosB_U-YMFtTUTUa2yVLN_BnvsFLVBPV5KYreYt_LeL7-wjsaTWKaWDfIKz0l0gr2h4vbGPjAO_g-T_MtzMwTBRRNtbqfY-HmbPwA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114038427609927075450\">Ana</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLeOlPMqKPkAOxV2vRbHW6-SE9eMjRmzRvtilT49NglsvXquDcpUP3txy3I3DeG3vOUyTBtOd2MgpP_jbfs8F-5G-cr6fFY1KBbfLtEwLKKao7MtvnwjYtIz4pAAt-Iy3agtkiHof7_jfAvxG29CwnANazTSZ7eLUt8b93r9mfVUtCxg09-6zJAEWSV5LoV_iUTYGAClT7N3VV74kao3BVlfa8Srjr1MGL3OP7PhFEiHYsDQu9D3xc9o1UbzPYe5hRZzHDHd4mK3zSaVXWgYnirYoo_y4Vm_p4TMCjeTISWoHrKzvk-S-_t1RO64dHQYR0g2pkMnM0GcRVLauaCoxm8x68IaeyfwelXgJ0lUbiM8Evt82A1TEsizN-LLXhzMQt-lV0a1_sd2XYZHh9wtuL50J_fiXgoxrHKNE8Lui64CYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118176796152041551254\">Élise Bouchez</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfHdDl6G21vaC1terJYLBegw7KWWkGx898X2P2bTUXNJ-dAWvdRk-B_wyTNGghON6saB-qb9HnSWuxipR6zKK2TURedsHgdWu6RniaG42ojGPZ9OWLPHfHDlYP4rXiZ3E2vpA_oG95f_xuHXL7JqZ7aoZHfU-74siP9siJrpl76iVbIA_JHQFVBCKhyr8jmbIORVtN4XVXLENIz3igPa3vAhmTxhS4sETP-C2txZnP5avl18hQrgN71wQy2qZJFFtSFXHe-FpWiUKfXQtNlQOdbWK7bsekoTOrf5MKpQ3wm2DYK72zYajufHxm9kIcnyPaf-H0EX2x4N0i7OZUHAdH3Ax7aprqZvVQfs_-NAyG_E3pYuU2R5PFSYcskKx2qcchRe4BTqyt61kgxyJ4_V1PbGRs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110344622230772842550\">Gaëlle Noël</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLfPajL4MHuuO4H1H-t6qw8oDc_ShgwnkMYjcBrG9_x8vcOLmjPMckz1ZoZIT6paNnZQl9JLPS_hD-JxzalwX6pgIgUPx8hu4BGKz8EkEFepxkuOJlNcAltteoOZruaURuxY0jUkuALFhUQLX9RRmLp-6Kbk4i7r9ADxnfJ8IyRSrAQgX9UqLJysE0vmnlyvqnCj6doYrK48fgNXNfPMW0EOcKvRyDcwKg9wHsGMGtx5rQ07ugdmpODoKJLS5XUBL_N17CFiSbzWk1sMESTzV0IGQDGgCNqWha5FB4NDykIjNazos53KOSr8xhDnkDbIKoFV7Qr6FK17vHF7LtcicY5FCpznf4Co37xbhlb4pzBPjKfEQEwFSYXvc6Y0ol_VTja68p3I9lMFj6iL5AKB6ucLPA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113770244130214645478\">Camille P</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4080,
+            "photo_reference": "AV-0GLdlEWQt0ZEJjkNVlPLsoRd6KthJfUUOeU4udcaAB94GQ0HgWnxvcG-T1ZPklsazBluYbSlGkiheacs3cQDvhYrLQ-odcp8a2HOa7z-UlFULVNziUcMBkhDpXlWJLpYV4A3dXA6w1uRd3B_ELXWJjxGoE1oSa3JZnXlBdeyJcW6rdhG6FR1_UyzsYfpriMmjGTp6XzrQgPwzZJcS7GAx0lJ0L3DxHOaKl9rdOOzB1uhVhSN_FSx4jR6hkuWaSFlURwpR4TaaJZLSa3r6w7Kyl4iL6uZ9luhQvQYyjdta-pE1NCl1YwcvlDnBdt4bCIf5n0fcbsaOjHWddBLd8vxcxkkE-vnY5pIqa3dyjrs_wcpvDQnJaH8VeOdnJMhu7HmG3U22XJbM39fBoalK_9hLWfk7iw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112467761226339958559\">Matthieu HANSE</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5823
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.83,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref: restaurant"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:30"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 12:00 – 13:30"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données fournies ne précisent pas le menu, les régimes alimentaires, les services, l’accessibilité, les modes de commande ou de paiement, ni les équipements et ambiances. Leur absence de mention ne permet pas de conclure qu’ils sont indisponibles."
+    ],
+    "rejected": [
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "jeudi: 19:00 – 21:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant situé au 4 Rue de la Marque à Ennevelin. Les horaires fournis indiquent un service le midi du mardi au samedi, ainsi que le soir du jeudi au samedi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-bistrot-du-witloof",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {
+      "MealType": [
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5823,
+    "changed": [
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "915173f69a64541c75870007e8c4b36461ee4e700c932c0d55c11b565fa4c374",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 1142,
+  "proposal": {
+    "event_category_ref": "spectacle-de-magie",
+    "principal_activity_category_string_id": "spectacle-magie",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.84,
+    "evidence": [
+      "Le titre indique explicitement « Magicien ».",
+      "La catégorie « Spectacle de magie » correspond à l’activité annoncée."
+    ],
+    "doubts": [
+      {
+        "field": "format",
+        "reason": "Le titre ne précise pas si le spectacle comporte une forme d’humour ou de stand-up."
+      }
+    ]
+  }
+}

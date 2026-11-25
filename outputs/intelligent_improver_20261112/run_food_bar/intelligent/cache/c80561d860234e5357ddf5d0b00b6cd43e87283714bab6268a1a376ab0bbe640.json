@@ -1,0 +1,85 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "« Friterie » ; choix de plats, assiettes, américains, burgers"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Accueil très sympathique »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 11:30 à 13:30"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir indiqués de 18:30 à 21:30"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« Les Frites sont excellentes »"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "« américains,burgers »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires de service de 11:30 à 13:30"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir de 18:30 à 21:30"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "au-comptoir",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "« Je m’avance gentiment jusqu’au comptoir »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale un refus de priorité demandé pour une cliente titulaire d’une carte CMI et rapporte un problème de cheveux dans les frites ; il s’agit d’un témoignage individuel, pas d’une vérification indépendante."
+    ],
+    "summary": "Friterie proposant notamment des frites, des assiettes, des américains et des burgers, avec des portions décrites comme généreuses. Service indiqué le midi certains jours et en soirée du vendredi au dimanche."
+  },
+  "meta": {
+    "cache_key": "c80561d860234e5357ddf5d0b00b6cd43e87283714bab6268a1a376ab0bbe640",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

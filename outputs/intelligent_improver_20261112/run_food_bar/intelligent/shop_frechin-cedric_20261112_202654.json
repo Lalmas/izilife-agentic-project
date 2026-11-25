@@ -1,0 +1,487 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:26:54",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "frechin-cedric",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "frechin-cedric",
+    "status": "found",
+    "data": {
+      "id": "5817",
+      "name": "Frechin Cédric",
+      "shop_string_id": "frechin-cedric",
+      "unique_id": "4724b0716f31f437c29f20648ab13f7b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55073",
+      "principal_cover": "55073",
+      "qr_code": null,
+      "phone_number": "+33320855660",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "27 Rue Pierre Ogée",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "7",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.933124",
+      "latitude": "50.5283436",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:54:02",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:54:02",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJjdmxeVAs3UcROPDuodt2xWE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5817,
+      "scope_type": "SHOP",
+      "scope_ref": "frechin-cedric",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "annœullin",
+      "string_id": "frechin-cedric"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55073",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5817_6af3a08ad6121.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4874",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33853",
+            "source_hourly_id": "4874",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33854",
+            "source_hourly_id": "4874",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33855",
+            "source_hourly_id": "4874",
+            "day_id": "3",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33856",
+            "source_hourly_id": "4874",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33857",
+            "source_hourly_id": "4874",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33858",
+            "source_hourly_id": "4874",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "07:00",
+            "closure_hour": "13:00",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33859",
+            "source_hourly_id": "4874",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "frechin-cedric",
+      "google_place_id": "ChIJjdmxeVAs3UcROPDuodt2xWE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:00 – 13:00, 14:00 – 19:00",
+          "mardi: 07:00 – 13:00, 14:00 – 19:00",
+          "mercredi: Fermé",
+          "jeudi: 07:00 – 13:00, 14:00 – 19:00",
+          "vendredi: 07:00 – 13:00, 14:00 – 19:00",
+          "samedi: 07:00 – 13:00, 14:00 – 19:00",
+          "dimanche: 07:30 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfRqJzh5ZChsJdGS-vZHuPwJzDhdDlXLzlJ0HC4av8_8zlg2Wm8WRzZT3liqk2GAy1FfZIv00ksv9P7EFmcg9R1rgcN4bHg9qPUeNlgxIR6CpsEcaXGAQEkCeKysl-j4fOFxd7r1vcsp2OCAwec3DojnkNl9UtILMTSLiZfXE047Qms6RKIItixk0he5JVg6MsDsCiasY067I6VAqQQt3E8wAAM8c75F2lJafxK94o8NE7JEwwpFV9WygNCDoF13RoMNWu8VqQ7O7z1QUG7rqybjlZrlz_rvEZvU0wE0km54RPxfcv3tzonBVCvfS0tK6QOs91eaS3qH62cdnHunl2uwRjGi0D4Bb50zlIS1_DXAqpOTNz0YTbP3VHyueDYyAoZcN1uWy2UMkSTsY3gCxNH4y4ncrE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114228328189147012413\">Stephanie Colin</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1152,
+            "photo_reference": "AV-0GLeMjGbzx1hhN4EP5OQmDtb-DzxOQ66Evte7TSqinXdF7J7aO4B2HhpMAzd05uwqd0LYT60W1SwzDSEqJbIWr1qxpgSuPW4ut3IEPp3aBFjxfn3hQiFxDYts0Ix68rlR6sjn-P63yQeNXIuLP5D2-lEIoecOy2zmKxrjEjokX8B9CveHIRZvomQOYzBC-NmuN68LPghRUoDhgnmfmy3b3fsZ3BWJJELFfOB58mgHaxAhd75lhcEpQSmFdWqkPvZ1aGUeITt9ywAuz8vF18SyoCs2_4EqXw8y2yNXdtj6lfRVLcd9DDqOf5-WH0hxALc7cACtsMFImYOjS9VXde5RW1t7pFBOKjXwlG7mNDcxDTcx3xXBlnGjJyi1tVCWX4fmnpk3gVmr6p-mC-x0zldzYbQULDc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103237836575640411328\">EMMANUEL QUEVA</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLdhRr8Kn7Tj8M3WKM2EQyvIyIE40MW68Yvzexo0GQd_7_qYfieu3H-3aZgoAhCzOAV46q9ZDCExoF0-OVph85WOlcaPnga1Gj_Nej4lx9Wi3puDURQEIymyS2-WJ90OQ_ZRuw2dkTn5P7BCV0IUqj8cinzdGMMTX5mMdEXrcr9_djAf0pm3u4Hv4JiFJSBeG5t_q_-TZVe2NMQmgqHjgW3WSHkC1GQzYc6-h3DmTJ-H68vqe7l7agUsk525b7Mqa33fOckqVWduYHiQ_mKY2obY8a3HhP-U9WnLzT8rULoQPgkyLkLTobld09AP0UAKCE3S0G8pAjJBkrGONU94Xf3mco-W1cUNzFOfPGTbvU0WhcKjUoj8hFLSnhh13L5ZR8gxfMtrToEmJ3uAnws4wo9p1T8_7mEp9OqqHoOlLcxUdw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117796449080096450511\">leslie szczepaniak</a>"
+            ]
+          },
+          {
+            "width": 1600,
+            "height": 1200,
+            "photo_reference": "AV-0GLce2VrS5aOr0oGqhC1jLrQpTe9KHcNB2N9UPzxxT2Ud4_fHOM72CAwKUdSSvLsf8OmoaxZnQ1a0zLi3ADL2HxF-4qfqr2jgHGN2jJPWwOn6Kg9C5KpadyMPv_w98N-NDFcETeq634QX8qcUpnJQcKn9Tl_6HWV2MgWp7KZhtwPEfaWWd9X10stig-r1Gdsbz3X5h-wwwxbs3uG8-aFGctpKVOAeZhrMNyk_7A9IVFRj8h4V7w2NTOm7yv7ufkQ4rtGVoEdYlYRySRRYW0dYxTHqZm7txg-8Rk_V4PAyc2Wmm0cFwMvYGIxzAgZoBkCy--TVOElbItSuLUoMSVIIqCcsDjnGdXhHnZx8GR_RtyDczYDHVuqHbUHWJ5kzcVkNUUy47rbwSbZduvLLFGQiNcuuLKo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114806425004993445708\">Paula Malz</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdcR6FydGQCZlVyQDqWptQaAPpZDglF4UjvAea6jieiWzaAwLUVPyrAUCsj7wSV91as4p9lmLc1GzCGABqtHnWnZw3SjhXTEUVdGC30jQpqdHYOPeuRL-dezPVsK40WjQMqgON6-X_Xb0jwdrH8mLq8FcwSpvXUY2e9-hLw46anmybH6j41R9iUo2yZumqhQucs566eKhylHYQDRicOQo_-opjlHlbvvVdQ6NyCNft_Ks5qSFqN1uKz7gB4qWv2WKsm_QZnOTOdeogJH_UHE4hGD97nVF732oZm1YwCVKPWExNS1RL3Dop3rUC0hgeOP1G3BrRsJkVUSAjWQD_vhIa2yeoHnnBno7lLA7gWI9uVEjPZYafJy3tMbYAZkUlcN085MrQCDD-iCVVz3E1Isn1kqtjJPpY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101865030908024102713\">Sabine MAST (myrtilledu66)</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1080,
+            "photo_reference": "AV-0GLcGgrS43MLRIzCIrjJZanhTGm_Z4GWTkxjXb5D_dIhhq_mfq5xoOPIDfOnXjBSnra3YRIa58CGm3eVpuUV3snvaf4tIrtgksP0q6eVRKXWb3BjtiRhV525JLffGXHuo3yUr6mWMdGnpGKZVzzT3OvZldCJJRKFixnR4LM4nfJ3rjyX65E44PxldOBx7zkXuM7A_1EnqXm3rHFJoKCuR8fZTFwmamj_bpyqpjVsDP9yvZyp3fSs2br2FjZ19pjtKgE2fpcKhOMwQw7vxgssSH8UdPKfL9tWWVfSLDzN0cj6NIBIujzfJnleDCLAxkOwjV40tFt8JvvaJxyD3xCE9UIiU188OOgIkWvmoW1uF3FdDpjaJeukF7RuFcBX4hMU5Rx9DKaUTTO_lrSCDgu6jmvypMhWgjWc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109144039872170515621\">Delphine Frechin</a>"
+            ]
+          },
+          {
+            "width": 750,
+            "height": 1334,
+            "photo_reference": "AV-0GLezHG-tQgS6NudJXwk5tsgAPBRmcrzabBLssGWfUPmKRBiS67m3eAPoI5uBiyRPXxgRPlrMhp8KWbL4KgbOmEpicSRsZRTSmtLYYGE-DD78XBnbEArlC8iUT0l3Z4T5ncWHdbu1KMYnzYQjLgKGvSlBOn35BTh0wRQQk1xFpaQD37EWfZLGV4ECBzBntvoAQpx96OzueWrGvLifIo91BNJ8i82K38byHrq1YIvNgNYBQ2gbvsGMtcAOd6TIRUJQxr8plMJ77d8UzS41En_9knunngmMfakJM5JQ1CuHQsaTkeo85rrcO8U_u6NbAXqtiEo3C9X-sipERwHOIPLQ06RM6KLNPDglqWhu1jvjn9TqLQQaCwYz0jTJyqHaRWOIbNSR1J4vTxctP3Hhy60E2nrlsew",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114806425004993445708\">Paula Malz</a>"
+            ]
+          },
+          {
+            "width": 2048,
+            "height": 1152,
+            "photo_reference": "AV-0GLfNdQbOsur3D3iUo0c-ODI5i59Y2ykXfR3UfRJH3VUOqIvEuJhiB-hr8wf0RN6whtqu1v2TgD82tDfnQy1_OLqGh_4YFu05dm1ycCmnQ_NGdHXZSzUDtGOG6Vvk2E-Xxcxrjyta1P1WXC-k9ZPyAlPJSk9lN6xHK85HdYmLmivQuQxF7jL-an3ESvau2zAbS0eciNrbssP78OUulZPJpKD_jf_8ZYvQQdgF3ggT_SmfTgEjXu5nEE1GyMWJ0zAXBsa982VktFNQxqaESRo4g-7fjNfh56NubcFoDBiJRtkyT2L7AvNbTgUl_cgzRxYh4LBvN3ALPzb123yLeRrPnL_aQOpCthkHIAPnfjilArtSuFnXVRCy11e_-r4Gvyyks8cKPCNP_bploeUlzbSZ_gKSF9CnkJI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103237836575640411328\">EMMANUEL QUEVA</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLer-WUpnWVk_fouIdECccDsdJDTe-GkpZqDLIhN7ie6cfsarv-CgP5RMtUlrzUh4UOXZweyUpMFbzrzSEnRKQf8c3cdsk68CDV0wPU6hQpsFalXAb2oo0M6kO4QVYSW_VhPS5UCGlte5BgA72zm5zuaZBFN6SXrmUpB2Y3mbm6G1NJI2T5nq9hA3j-iQZeLqj1nw8yFQZTD1Tkik9tyYpmFCu7ULVUOR9MPnyEnLDvxnfg4aHJfPM533ex9jlB6kLzFrsUYCISFKphqnuA3hcvFF6ZctenL-WIxaXj7I652-7eizVZ9idfXH0QUlZAmjaFx4mMFAPySynhB-GfJqC38cmtdV_pFV8Z9WyDeDprD6CzbTaSjqw1m4ZonNYbMtCexdXeIihOdvpSmeye0YGU-aqs9GuaSphCp5ZH8U5D8",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100513022944309462494\">sylvie sury</a>"
+            ]
+          },
+          {
+            "width": 2982,
+            "height": 1507,
+            "photo_reference": "AV-0GLdoL2qXSbsIB5Lfm6-PqLsZMkak6qQpecg_islLCcTjaQbiEfjyYciInS_zrJU3gAlMpfJaXd0eM_h_hhYZHwggo15g2EdsjCE8SVncKz68CFrk9iDiV-4TfgmwfqBe1MB7TKi-cw3Lay4YwbQSfpCerCAAntjPAxbaXaL363nYm3ll4umKAklE_h1ZKHI7bBb0JHMAfUtdQG2HyuQ2gtCIZnQ4yGoEVJ0sRd1alKVAXu7zoGCyCMSXZ_GxvVrHpbIwmHPFJmn74GlS6LMSKLKZ_uadefvrHSov8JKYOzT7J2ba0UWWr2MkjcYS4wdEYCRfN8iqhzRral7WB4FfpHhAqiWLDiEorQqpiU6Pg9FbQs43y4b5jJZsxDWVrtHR42nZQ44JtkqZkz4KA1XNFtQGl7sAs-2PDNwGhVsF3kL_Wg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102003182390335215754\">Laëtitia PICAVEZ</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5817
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas les produits vendus, la consommation sur place, les modalités de commande, les moyens de paiement, l’accessibilité ni les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "matin",
+          "confidence": 0.93,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 07:00 – 13:00"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Frechin Cédric est référencé comme une boulangerie au 27 Rue Pierre Ogée, à Annœullin. Les horaires indiqués commencent à 7 h la plupart des jours d’ouverture."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "frechin-cedric",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5817,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "a9ebd2867f7591b86d6e3ee3cd898c0b71f2277e40e5c63c63b9c33b6484b070",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

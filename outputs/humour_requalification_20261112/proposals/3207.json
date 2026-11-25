@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3207,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La catégorie existante stand-up est cohérente avec un spectacle humoristique porté par un seul humoriste.",
+      "La description évoque les histoires de famille racontées avec humour."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le titre et la description ne précisent pas davantage la forme du spectacle ; ils ne prouvent ni une programmation de plusieurs humoristes, ni un spectacle solo écrit et mis en scène."
+      }
+    ]
+  }
+}

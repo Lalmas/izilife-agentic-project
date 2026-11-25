@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "event_id": 3263,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.91,
+    "evidence": [
+      "Le descriptif annonce un spectacle humoristique d’Étienne Lautrette, cohérent avec la catégorie existante stand-up."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le texte ne précise pas explicitement la forme stand-up, mais ne prouve pas non plus une autre forme permettant de recatégoriser."
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "draft-1",
+  "status": "review_before_import",
+  "target": {"scope_type": "PLACE", "scope_ref": "forum-des-sciences", "city": "villeneuve-d-ascq"},
+  "equipment": {
+    "category_ref": "planetarium",
+    "internal_id": "planetarium",
+    "name": "Planétarium",
+    "capacity": 114,
+    "pmr_places": 4,
+    "source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+    "media_candidates": [
+      {"role": "cover", "url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2560x1446-planetarium-2400x0-c-default.jpg"},
+      {"role": "gallery", "url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/istock-500667910-1600x1200-c-default.jpg"},
+      {"role": "gallery", "url": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/istock-151586226-1-1600x1200-c-default.jpg"}
+    ]
+  },
+  "object_on_public_place_ref": "planetarium",
+  "planetarium_prices": [
+    {"name": "Adulte", "price": 9, "currency": "EUR"},
+    {"name": "Adolescent 13-18 ans / tarif réduit planétarium", "price": 8, "currency": "EUR", "condition": "Selon âge ou justificatif"},
+    {"name": "Enfant jusqu'à 12 ans", "price": 4, "currency": "EUR"},
+    {"name": "Pass tribu 4 personnes, 1 activité", "price": 25, "currency": "EUR"},
+    {"name": "Pass tribu 4 personnes, 2 activités", "price": 35, "currency": "EUR"}
+  ],
+  "experiences": [
+    {"string_id": "forum-sciences-le-petit-ciel-etoile", "title": "Le petit ciel étoilé", "description": "Découverte du ciel nocturne, de la Lune et des constellations avec les jeunes enfants.", "minimum_age": 3, "duration_minutes": 45, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-petit-ciel-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": [{"day": "wednesday", "time": "15:00"}]},
+    {"string_id": "forum-sciences-a-la-belle-etoile", "title": "À la belle étoile", "description": "Observer les constellations visibles selon la saison et repérer la Lune ou les planètes.", "minimum_age": 6, "duration_minutes": 60, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-belle-etoile-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": [{"day": "saturday", "time": "15:00"}]},
+    {"string_id": "forum-sciences-legendes-etoilees", "title": "Légendes étoilées", "description": "Voyage parmi les mythes et légendes associés aux étoiles et aux constellations.", "minimum_age": 6, "duration_minutes": 60, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-legendes-etoilees-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": [{"day": "sunday", "time": "15:00"}]},
+    {"string_id": "forum-sciences-le-ciel-ce-soir", "title": "Le ciel ce soir", "description": "Repérer les astres du ciel nocturne : planètes, Lune, étoiles et Voie lactée.", "minimum_age": 9, "duration_minutes": 60, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-ciel-ce-soir-paysange-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": [{"day": "saturday", "time": "16:30"}]},
+    {"string_id": "forum-sciences-le-temps-vous-est-conte", "title": "Le temps vous est conté", "description": "Découvrir le temps et ses repères astronomiques sous le dôme.", "minimum_age": 9, "duration_minutes": 60, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-temps-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": []},
+    {"string_id": "forum-sciences-un-penchant-pour-les-saisons", "title": "Un penchant pour les saisons", "description": "Comprendre l'origine astronomique des saisons et les changements du ciel.", "minimum_age": 9, "duration_minutes": 75, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-saisons-800x0-c-default.png", "school_weekly": []},
+    {"string_id": "forum-sciences-l-odyssee-solaire", "title": "L’odyssée solaire", "description": "Explorer l'histoire du Soleil et la formation du Système solaire.", "minimum_age": 9, "duration_minutes": 75, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-odyssee-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": [{"day": "wednesday", "time": "16:30"}]},
+    {"string_id": "forum-sciences-biosignature-signal-detecte", "title": "Biosignature, signal détecté", "description": "Enquête cosmique sur la recherche de traces de vie dans le Système solaire et au-delà.", "minimum_age": 12, "duration_minutes": 75, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/2026-biosignature-paysage-ssbandeau-sstitre-800x0-c-default.png", "school_weekly": [{"day": "sunday", "time": "16:30"}]},
+    {"string_id": "forum-sciences-big-bang-l-appel-des-origines", "title": "Big Bang, l’appel des origines", "description": "Remonter aux origines de l'Univers et parcourir plus de treize milliards d'années d'histoire cosmique.", "minimum_age": 12, "duration_minutes": 75, "group": "planetarium", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/affiche-big-bang-paysage-sans-bandeau-sans-titre-800x0-c-default.png", "school_weekly": []},
+    {"string_id": "forum-sciences-tous-a-plumes", "title": "Tous à plumes!", "description": "Exposition sensorielle sur la diversité des oiseaux, leurs milieux et les menaces qui pèsent sur eux.", "duration_minutes": 75, "group": "exhibition", "start_date": "2026-10-03", "end_date": "2027-08-29", "adult_price": 8, "child_price": 0, "source_url": "https://forumdepartementaldessciences.fr/activites/tous-a-plumes/", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2026/08/22-forumdsciences-gabarit-sitewebpresentation-2560x1446px-1-scaled-2400x0-c-default.jpg"},
+    {"string_id": "forum-sciences-enigma", "title": "Enigma", "description": "Enquête scientifique interactive dans une ville fictive ; trois scénarios alternent sans calendrier publié.", "minimum_age": 7, "duration_minutes": 75, "group": "challenge", "adult_price": 8, "child_price": 0, "source_url": "https://forumdepartementaldessciences.fr/activites/enigma/", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2022/01/page-presentation-2560x1446-1-scaled-2400x0-c-default.jpg"},
+    {"string_id": "forum-sciences-croque-couleurs", "title": "Croque Couleurs", "description": "Parcours interactif et sensoriel pour explorer la perception et les symboliques des couleurs.", "minimum_age": 3, "maximum_age": 6, "duration_minutes": 75, "group": "exhibition", "start_date": "2026-02-14", "end_date": "2027-01-17", "adult_price": 8, "child_price": 0, "source_url": "https://forumdepartementaldessciences.fr/activites/croque-couleurs/", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2026/01/forumdsciences-gabarit-sitewebpresentation-2560x1446px-scaled-2400x0-c-default.jpg"},
+    {"string_id": "forum-sciences-espace-d-atom", "title": "Espace d’Atom", "description": "Mini-ateliers accompagnés pour découvrir les couleurs et expérimenter au rythme des enfants de 2 à 4 ans.", "minimum_age": 2, "maximum_age": 4, "duration_minutes": 60, "group": "workshop", "start_date": "2026-02-14", "end_date": "2027-01-17", "adult_price": 5, "child_price": 5, "source_url": "https://forumdepartementaldessciences.fr/activites/espace-datom/", "cover_candidate": "https://forumdepartementaldessciences.fr/wp-content/uploads/2024/07/atom-2560x1446-1-2400x0-c-default.png"}
+  ],
+  "planetarium_source_url": "https://forumdepartementaldessciences.fr/activites/le-planetarium/",
+  "tariff_source_url": "https://forumdepartementaldessciences.fr/informations-pratiques/ouverture-et-tarifs/",
+  "online_ticketing_status": "unavailable_on_source_site",
+  "phone": "03 59 73 96 00"
+}

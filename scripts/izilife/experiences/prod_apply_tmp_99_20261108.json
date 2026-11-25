@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T20:22:26.703488",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 99,
+      "title": "Lille côté marais à vélo",
+      "experience_type_string_id": null,
+      "source_url": "https://reservation.lilletourism.com/lille-cote-marais-a-velo.html",
+      "validation_blockers": [
+        "type"
+      ],
+      "duration": "1.00",
+      "duration_measurement_unity_string_id": "d",
+      "status": "validated",
+      "application": {
+        "success": true,
+        "tmp_id": 99,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 136,
+          "active": true,
+          "created": true
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T20:22:27.192377"
+}

@@ -1,0 +1,120 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons été en famille » et « réservé une grande table »"
+      },
+      {
+        "string_id": "moment-repas-a-table",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« réservé une grande table »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« réservé une grande table »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons été en famille »"
+      },
+      {
+        "string_id": "service-rapide",
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "« un très bon service, rapide »"
+      },
+      {
+        "string_id": "coups-de-coeur",
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« une véritable pépite »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« dans ce restaurant »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« réservé une grande table »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Nous avons été en famille »"
+      },
+      {
+        "field": "interior",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« La salle est décorée avec goût »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "« L’accueil est chaleureux »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:30 »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 18:30 – 22:30 »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 11:30 – 14:30 »"
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« mardi: 18:30 – 22:30 »"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à l’accueil chaleureux, apprécié pour sa cuisine faite maison et ses portions généreuses. Adapté aux repas en famille et en groupe, avec service rapide. Ouvert pour le déjeuner et le dîner selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "b4d6178df26a2c7e6f8b656a27dfdca29ed1d095a30275af0556aee7d6bb2d11",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

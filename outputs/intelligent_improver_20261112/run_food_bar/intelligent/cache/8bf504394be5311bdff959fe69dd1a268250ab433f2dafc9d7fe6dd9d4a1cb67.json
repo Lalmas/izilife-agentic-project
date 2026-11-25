@@ -1,0 +1,75 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "accueil chaleureux, familiale"
+      },
+      {
+        "string_id": "excellents-desserts",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "Un dessert maison bien servi et somptueux !"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "Un steak tartare au couteau excellent !"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "accueil chaleureux"
+        },
+        {
+          "string_id": "decontracte",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "ambiance agréable et conviviale"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Un steak tartare au couteau excellent !"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.67,
+          "source_url": "izilife://current",
+          "evidence": "vendredi: 09:30 – 15:00, 19:00 – 22:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "tartare",
+          "confidence": 0.97,
+          "source_url": "izilife://current",
+          "evidence": "Un steak tartare au couteau excellent !"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Les avis soulignent des plats faits maison, des portions généreuses, un steak tartare au couteau et un dessert maison, dans une ambiance agréable et conviviale."
+  },
+  "meta": {
+    "cache_key": "8bf504394be5311bdff959fe69dd1a268250ab433f2dafc9d7fe6dd9d4a1cb67",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:44:37.959911",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 55,
+      "title": "Lille Club Runner",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.helloasso.com/associations/club-runner",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "sport",
+          "sport_string_id": "running",
+          "minimal_age": "7",
+          "session_configuration": null,
+          "session_contents": [],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "bien-en-solo",
+                "confidence": 0.9,
+                "evidence": "Sorties collectives annoncées les lundis et mercredis à 19 h près de la Citadelle."
+              },
+              {
+                "string_id": "bien-pour-groupe",
+                "confidence": 0.9,
+                "evidence": "Sorties collectives annoncées les lundis et mercredis à 19 h près de la Citadelle."
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "accessible_for_kids\":\"0\""
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Sorties collectives annoncées les lundis et mercredis à 19 h près de la Citadelle."
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Sorties collectives annoncées les lundis et mercredis à 19 h près de la Citadelle."
+              }
+            ],
+            "editorial": []
+          },
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 55,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 97,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:44:43.605008"
+}

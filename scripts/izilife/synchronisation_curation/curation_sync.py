@@ -774,7 +774,7 @@ def run_apply(args: argparse.Namespace) -> int:
     inspector = Inspector(token, args.timeout)
     journal = {"format":"izilife-curation-apply-v1","plan":str(plan_path),"plan_sha256":hashlib.sha256(plan_path.read_bytes()).hexdigest(),"applied_at":datetime.now().isoformat(),"destination_env":env,"targets":{}}
     for key, item in report.get("targets", {}).items():
-        server_plan = item.get("server_plan") or {}
+        server_plan = inspector.post(env, PLAN_ENDPOINT, item["payload"]).get("plan", {}) if args.refresh_plan else (item.get("server_plan") or {})
         if item.get("status") != "PLANNED" or not server_plan.get("can_apply"):
             journal["targets"][key] = {"status":"SKIPPED","reason":item.get("error") or server_plan.get("blocked")}; continue
         payload = dict(item["payload"])
@@ -972,9 +972,27 @@ def run_media_move_apply(args: argparse.Namespace) -> int:
     return 2 if failed else 0
 
 
+def run_export_scopes(args: argparse.Namespace) -> int:
+    """Exporte l'inventaire paginé d'un environnement, sans aucune écriture distante."""
+    token = os.getenv("IZILIFE_AGENT_TOKEN", "").strip()
+    if not token:
+        raise RuntimeError("IZILIFE_AGENT_TOKEN manquant.")
+    items = Inspector(token, args.timeout).list_google_scopes(args.env)
+    output = Path(args.output).expanduser().resolve()
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"Inventaire {args.env}: {len(items)} scopes -> {output}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Synchronisation sélective de la curation iziLife")
     sub = parser.add_subparsers(dest="command", required=True)
+    export_scopes = sub.add_parser("export-scopes", help="Exporte en lecture seule les Place/Shop dotées d'un Google Place ID")
+    export_scopes.add_argument("--env", required=True, choices=list(ENVIRONMENTS))
+    export_scopes.add_argument("--output", required=True)
+    export_scopes.add_argument("--timeout", type=int, default=90)
+    export_scopes.set_defaults(func=run_export_scopes)
     audit = sub.add_parser("audit", help="Audit strictement en lecture seule des backends")
     audit.add_argument("--workbook", required=True)
     audit.add_argument("--envs", nargs="+", choices=list(ENVIRONMENTS), default=["local", "staging", "prod"])
@@ -1012,6 +1030,7 @@ def build_parser() -> argparse.ArgumentParser:
     apply_cmd.add_argument("--confirm-production")
     apply_cmd.add_argument("--journal")
     apply_cmd.add_argument("--timeout", type=int, default=180)
+    apply_cmd.add_argument("--refresh-plan", action="store_true", help="Recalcule le plan serveur avant application pour éviter un journal idempotent obsolète.")
     apply_cmd.set_defaults(func=run_apply)
     verify = sub.add_parser("verify", help="Relit les cibles après application")
     verify.add_argument("--plan", required=True)

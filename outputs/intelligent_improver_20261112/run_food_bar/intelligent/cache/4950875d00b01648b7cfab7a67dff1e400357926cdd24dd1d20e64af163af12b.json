@@ -1,0 +1,121 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.97,
+        "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+        "evidence": "Restauration rapide"
+      },
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.98,
+        "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+        "evidence": "Sur place"
+      },
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.91,
+        "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+        "evidence": "Restauration rapide; ouvert le midi lundi à jeudi"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+        "evidence": "Sur place"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.94,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Lundi 11:45 – 14:00"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.96,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Lundi 18:30 – 23:00"
+        }
+      ],
+      "KnowedMeal": [
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "https://www.ubereats.com/fr-en/store/buckets-burger/NNK1-ZLDSYeLk2DfeA6ccQ",
+          "evidence": "Menus beef burgers"
+        },
+        {
+          "string_id": "frites",
+          "confidence": 0.96,
+          "source_url": "izilife://current",
+          "evidence": "chicken burger et les frites"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.82,
+          "source_url": "https://www.ubereats.com/fr-en/store/buckets-burger/NNK1-ZLDSYeLk2DfeA6ccQ",
+          "evidence": "Menus chicken burgers"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "À emporter"
+        },
+        {
+          "string_id": "sur-place",
+          "confidence": 0.98,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Sur place"
+        },
+        {
+          "string_id": "livraison",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Livraison le soir uniquement"
+        }
+      ],
+      "PaiementMethod": [
+        {
+          "string_id": "especes",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Espèces"
+        },
+        {
+          "string_id": "cb",
+          "confidence": 0.97,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "CB"
+        },
+        {
+          "string_id": "carte-ticket-restaurant",
+          "confidence": 0.96,
+          "source_url": "https://www.eat-list.fr/loos-59120/restauration-rapide-4/bucket-s-burger-207849",
+          "evidence": "Tickets resto"
+        }
+      ]
+    },
+    "warnings": [
+      "Une source d’informations sur les entreprises indique que la société a cessé son activité le 30 septembre 2023, tandis que la fiche actuelle contient des avis datés de novembre 2026. Statut d’ouverture à vérifier. Source : https://www.societe.com/societe/bucket-s-burger-848134474.html"
+    ],
+    "summary": "Friterie et restauration rapide proposant notamment des burgers, dont un chicken burger, et des frites. Repas sur place, à emporter et livraison le soir ; horaires indiqués pour le déjeuner et le dîner."
+  },
+  "meta": {
+    "cache_key": "4950875d00b01648b7cfab7a67dff1e400357926cdd24dd1d20e64af163af12b",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

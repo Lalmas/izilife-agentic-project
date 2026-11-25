@@ -1,0 +1,508 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:07:48",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-saint-claude",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "le-saint-claude",
+    "status": "found",
+    "data": {
+      "id": "5732",
+      "name": "Le Saint Claude",
+      "shop_string_id": "le-saint-claude",
+      "unique_id": "c08350699bfd9a23b147105974289184",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54990",
+      "principal_cover": "54990",
+      "qr_code": null,
+      "phone_number": "+33320903490",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "30 Place du Général de Gaulle",
+      "additional_address": null,
+      "zip_code": "59147",
+      "city_id": "5",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9830556",
+      "latitude": "50.5438889",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:41:22",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:41:22",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJU8we3LAs3UcRP3cUXUmWabE",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJU8we3LAs3UcRP3cUXUmWabE\",\"rating\":3.8,\"user_rating_count\":97,\"google_maps_uri\":\"https://maps.google.com/?cid=12783914259106264895\",\"fetched_at\":\"2026-11-12T20:07:25+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":1,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-12-31T12:48:21+00:00\",\"relative_publish_time\":\"il y a 10 mois\",\"author\":{\"display_name\":\"Yann Chirot\",\"uri\":\"https://www.google.com/maps/contrib/102515161810169669801/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUK0yBRwKyNm5dv9JcC-BSn7gitMwTPyyGVovi6xq1aU5uOuFk=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-09-30T13:11:33+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Maxime Duchateau\",\"uri\":\"https://www.google.com/maps/contrib/116139209240716783971/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKMDdDBdg-mv9nmjoY3VrVBWG2hVroqtyFQcMQg8jAU9vhHEw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Serait il possible de mettre vos horaires a jour ? Je n'ai malheureusement pas pu récupérer mon colis ... J'ai des horaires coupés et a chaque fois que je passe vous etes fermé...Il est censé repartir demain, je n'aurai jamais pu le récupérer...\",\"language_code\":\"\",\"publish_time\":\"2025-07-17T18:31:17+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Déborah Gobert\",\"uri\":\"https://www.google.com/maps/contrib/111788939866095229688/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjWqI-Ama-sVrCOi23JnjeTpgu1HYXNPkMu03xnXG82aFLBEgurD=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Il faudrait mettre vos horaires à jour. Vous êtes sensés être ouvert ce jour et j'ai trouvé porte close pour déposer mon colis. Et c'est courant chez vous.\",\"language_code\":\"\",\"publish_time\":\"2025-07-03T09:31:56+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Marie-Christine Delobel\",\"uri\":\"https://www.google.com/maps/contrib/100753759363583309202/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocIrebSnwBQdU6F17zGBNow4cGe2SDF7f8LuicAkbE_4NhcD_A=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2025-06-26T10:43:54+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"DUCROCQ Sophie\",\"uri\":\"https://www.google.com/maps/contrib/108595740213925359355/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKCdV8-uMkRDF7l71nJQ03uEnrYQUseSvQ4paXIxYKIF2okaQ=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 20:07:25",
+      "google_reviews_place_id": "ChIJU8we3LAs3UcRP3cUXUmWabE",
+      "source_id": 5732,
+      "scope_type": "SHOP",
+      "scope_ref": "le-saint-claude",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "gondecourt",
+      "string_id": "le-saint-claude"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54990",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5732_6af39d92c9ceb.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4791",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33272",
+            "source_hourly_id": "4791",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33273",
+            "source_hourly_id": "4791",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33274",
+            "source_hourly_id": "4791",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33275",
+            "source_hourly_id": "4791",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33276",
+            "source_hourly_id": "4791",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:30",
+            "with_break": "1",
+            "reopening_hour": " 16:3",
+            "reclosure_hour": "20:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33277",
+            "source_hourly_id": "4791",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33278",
+            "source_hourly_id": "4791",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "le-saint-claude",
+      "google_place_id": "ChIJU8we3LAs3UcRP3cUXUmWabE",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:00 – 13:30, 16:30 – 20:00",
+          "mercredi: 10:00 – 13:30, 16:30 – 20:00",
+          "jeudi: 10:00 – 13:30, 16:30 – 20:00",
+          "vendredi: 10:00 – 13:30, 16:30 – 20:00",
+          "samedi: 10:00 – 20:00",
+          "dimanche: 10:00 – 13:30"
+        ],
+        "photos": [
+          {
+            "width": 1920,
+            "height": 1080,
+            "photo_reference": "AV-0GLcQY1Ochu1nOoXaGmrTIO8IGFFVfAkT6Cr57kUADVaCjONOePcg0XnEgtKuYI6fwX-3OHo4d3s2Mt_URf3pmmmo5B9F6l_kl60Dzmr3wfdA55Tj0NyoQsPq-jpuUpox9S48F7vG-WXR2b_5pYxLVMc0mx0aJwgkkGW9ES4jB3YQIeJ4JAlXwqJKa-1SxA5Wr83C4V8KNuB8XZzZv13F2p8xCbQCq0RyqUFNPi2yOysmDp8UyYxU5PF3L42D_6DsNes8gZArg6FKFbFBvoJqqHb8Cty_zOjV0Pi4Lt7Fh6KPtG3E2tnIMzrIYfdYjXPixO2JMljQd2nBGnsXtA5gon_MAUZQKYczDj7VMdVOVYuszxgX4qhylgmhDP-eyfunE0yI_Z-Gn2BmB1wWEUwRjIclFOY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111020136661242617547\">mario stef</a>"
+            ]
+          },
+          {
+            "width": 4160,
+            "height": 3120,
+            "photo_reference": "AV-0GLdNHWMDbPz5u0gfvJqUyZ7S_Gqu9cEAhsgblR59sq4KUjBLayn9hmpz-2sj7n9l2fNVVAFmbG2Pvehx_WRzOX4bZ8ZiaJFcv1gKtjCVCIEmn99t1Sfr8Z78UalFr3R4qibU3fDX_80Lj5lh2Gb5ylwsSWXLIslE8RymUyXsBZhxGCLSJxF6ubKS4zB2I1nOsVzqhe6egbHtcAmJDwy6gdN9W6rT8r88zCiF9VxLPMH-1c4lVgXE7iS68uYsmlyXpQqVlyoHLFSYkgtt_SrwePHckQefhFnFSSMXm93cj1Gk-AHo7C4HRZWQ8yWTLsBoDOxqekUqYzqoSRMjOGzBbjMEkViAgaKu9yBf_Lth2aRdyjQFy5KrltBK9z4hTp1r69q-MHCZ1IT_B-ilgCa_UbW2w5nhwUM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110086566950709433585\">Regis Bailly</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLejad4qFXyM0wUF2wyMS3Nn9PgYaqJSU-D25ZbHrhESpxx4VM_xDCmErr8Tn_J4ZlHmdFz8TCoCgt-DURsGuzzQqGC5_SuTaU3Bee5l6OJeart4sERFw8aSyIJqvFPI5zBFk1YeIE2yovy6tTPFjGnaYuq3wJxbmk5N6P3mLXjRRw8rqJ6Gm1Rz9rkejSvDAMwc-lrNb4YdNeMe_9j7a0EuObe25p7TkkmcoFChwmk1CmvWHMEsaXqyzrJgEUkHqoFKHZhQDY_p-gN5ZNQPIkKqhoJp6o5fbvM4htQm07sdzcg-Xyj5wGhdehnv-xGMHD6BAzmZAlaTVrUmaAjrtSm5XK9LG1iWJg4XMIC2mbq-Ptk5cMPaE2IV-MwcRxAPWW5Qashab0eXbGZqFQpCjq0FoLo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111020136661242617547\">mario stef</a>"
+            ]
+          },
+          {
+            "width": 3464,
+            "height": 4618,
+            "photo_reference": "AV-0GLf50WK3G1DxB7RhHawTmm4-uLaeHdE7g1k99A-z46TRaB9ywqwuzaGcEr7EgVqCU2RL-WjWIunwOULUjuC_khvlu5DEpfyFl2oSze6UMbAoVFNTj5tzTt5Necnh5hVsHWnH0-yUSXWq5Ckc3IfiQ2xUzlk2WLXFCX1u-fnaW43q-1qAxQVttY4fXAcYutSCmnGNzVCx5uIy4fagZF9k5WI2joByPmLzFRZuyVmu2VkCc--L6ftT4KrdW6h6VeoRJs2uhJb3KRNMg93drwLCCnXB3Nm3HFesaDHQGqlmzR-kZSEXSNydQoNVF2l_rv0c5C8Rd-B5uU2NCLFlJy2MRed4lnOBGmgVjxPq0BMT38rdx7RkZkT14NWwCBCx2beUf-jxdEkRhfcj2XcaxHPlkc8Lwh0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116733886158393770919\">emelinetchems Jendoubi</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLcleYZorPFZlvzv7neDCyG-KeXLDIgeqM9EnKPVeQReNCY_hncfQXacIcT4mMu9YeUWk-YG_4sSAJjPa1F_6BotjbgcMfUl0e3NgGcp7xRwSlsuBEdlTvE-96wi0xRec6GzAlactQW25O6ihcW-qp-sPdcflf1-CMrRNFbyhurscu5Kk9kctKlgUW1qYsAIDScI0yCFaFWQq7c6MNfmeb5wZ2c_EKVlnwcGKHWuR7C8x4iwp_8s9VKRGh4zWV8m5wm4HIFo2a0IJ37USXSpz9VvDM-YFTI_Uo0GX-3Bru3qI1MBYgCQzcaMfYJcpKOvF_FTS-7X0jYd4DR863jHJ-BAkvpC5-abyUoxQmAUdDBIufbSL6iW568YaHQgjwL75x1A2ZcDNJ9Pp0tFENMfqE60TQrMt1E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104878268191581210358\">Stephane Mazur</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5732
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 1,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-12-31T12:48:21+00:00",
+            "relative_publish_time": "il y a 10 mois",
+            "author": {
+              "display_name": "Yann Chirot",
+              "uri": "https://www.google.com/maps/contrib/102515161810169669801/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUK0yBRwKyNm5dv9JcC-BSn7gitMwTPyyGVovi6xq1aU5uOuFk=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-09-30T13:11:33+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Maxime Duchateau",
+              "uri": "https://www.google.com/maps/contrib/116139209240716783971/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKMDdDBdg-mv9nmjoY3VrVBWG2hVroqtyFQcMQg8jAU9vhHEw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Serait il possible de mettre vos horaires a jour ? Je n'ai malheureusement pas pu récupérer mon colis ... J'ai des horaires coupés et a chaque fois que je passe vous etes fermé...Il est censé repartir demain, je n'aurai jamais pu le récupérer...",
+            "language_code": "",
+            "publish_time": "2025-07-17T18:31:17+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Déborah Gobert",
+              "uri": "https://www.google.com/maps/contrib/111788939866095229688/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjWqI-Ama-sVrCOi23JnjeTpgu1HYXNPkMu03xnXG82aFLBEgurD=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Il faudrait mettre vos horaires à jour. Vous êtes sensés être ouvert ce jour et j'ai trouvé porte close pour déposer mon colis. Et c'est courant chez vous.",
+            "language_code": "",
+            "publish_time": "2025-07-03T09:31:56+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Marie-Christine Delobel",
+              "uri": "https://www.google.com/maps/contrib/100753759363583309202/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocIrebSnwBQdU6F17zGBNow4cGe2SDF7f8LuicAkbE_4NhcD_A=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2025-06-26T10:43:54+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "DUCROCQ Sophie",
+              "uri": "https://www.google.com/maps/contrib/108595740213925359355/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKCdV8-uMkRDF7l71nJQ03uEnrYQUseSvQ4paXIxYKIF2okaQ=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 3.8,
+        "user_rating_count": 97
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les informations fournies ne permettent pas d’établir les offres de restauration, les équipements, l’accessibilité, les modes de commande ou les moyens de paiement."
+    ],
+    "rejected": [],
+    "summary": "Le Saint Claude est répertorié comme une brasserie au 30 Place du Général de Gaulle, à Gondecourt."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "le-saint-claude",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5732,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e983c0b43971fc04d6fcdf7467746e33275c0a52e93ec219bb5a94cfc4887cc6",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

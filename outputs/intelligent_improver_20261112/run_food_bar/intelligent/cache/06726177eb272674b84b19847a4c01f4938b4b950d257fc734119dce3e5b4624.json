@@ -1,0 +1,46 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boulangerie",
+          "confidence": 1,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: boulangerie"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 06:30 – 13:00"
+        },
+        {
+          "string_id": "midi",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "dimanche: 07:00 – 12:30"
+        },
+        {
+          "string_id": "apres-midi",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 15:00 – 19:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie Thomas, située au 23 Rue Jean Baptiste Collette à Attiches. Les horaires indiquent une ouverture le matin, à midi et l’après-midi du mardi au dimanche. Un avis mentionne de « très bons produits » et un « très bon accueil »."
+  },
+  "meta": {
+    "cache_key": "06726177eb272674b84b19847a4c01f4938b4b950d257fc734119dce3e5b4624",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

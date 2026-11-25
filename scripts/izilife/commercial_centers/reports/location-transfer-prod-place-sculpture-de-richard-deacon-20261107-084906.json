@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "replayed": false,
+  "journal_id": 462,
+  "result": {
+    "created": true,
+    "copied": {
+      "identity_fields": [],
+      "media": 0
+    },
+    "repointed": {
+      "LocationEAPUseForEquipment": 0,
+      "children": 0,
+      "ElementExternalMedia": 0,
+      "ElementNewsPost": 0,
+      "ExternalPromo": 0
+    },
+    "excluded": [
+      {
+        "table": "PlacePaiementMethod",
+        "column": "place_id",
+        "count": 1,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      },
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 16,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Relation sans équivalent sur la destination, conservée sur la source archivée."
+      }
+    ],
+    "source_archived": true,
+    "destination_id": 42,
+    "destination_activated": true
+  }
+}

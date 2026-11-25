@@ -1,0 +1,27 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.72,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : restaurant."
+      }
+    ],
+    "editorial": [],
+    "warnings": [
+      "La fiche indique le commerce comme inactif et non référençable (is_active=0, listable=0)."
+    ],
+    "summary": "DelicesCousuMain est référencé comme restaurant rue Pierre et Marie Curie à Wattignies. Les horaires fournis indiquent une ouverture de 11 h à 19 h du lundi et du mardi, puis du jeudi au dimanche, avec fermeture le mercredi. La fiche est marquée inactive et non référençable."
+  },
+  "meta": {
+    "cache_key": "eb6ec273abb80ec9b289e47fbbe75dd4c3f4e229550bb555f1e3a69ac2f4f624",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

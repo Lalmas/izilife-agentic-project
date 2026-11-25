@@ -1,0 +1,565 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:27:50",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-de-la-place",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "cafe-de-la-place",
+    "status": "found",
+    "data": {
+      "id": "5570",
+      "name": "Café de la Place",
+      "shop_string_id": "cafe-de-la-place",
+      "unique_id": "e1897046d4248643a80a9d0b7ece3c49",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54826",
+      "principal_cover": "54826",
+      "qr_code": null,
+      "phone_number": "+33320614131",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Rue Jean Jaurès",
+      "additional_address": null,
+      "zip_code": "59710",
+      "city_id": "106",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1280458",
+      "latitude": "50.5403606",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:21:17",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:21:17",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ-fS0iiTRwkcRYQa5UlPvWHU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ-fS0iiTRwkcRYQa5UlPvWHU\",\"rating\":4.4,\"user_rating_count\":129,\"google_maps_uri\":\"https://maps.google.com/?cid=8455771441537287777\",\"fetched_at\":\"2026-11-12T19:27:37+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":4,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-29T15:56:08+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"yves coppens\",\"uri\":\"https://www.google.com/maps/contrib/115914498364587711250/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXu90sAN1tcJ5wM7DekuCSBsh1A-Ng11rKW-N_tkpSpyFt6AcRX=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Merci 🙏\",\"language_code\":\"\",\"publish_time\":\"2026-09-23T18:22:58+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Christian Monchaux\",\"uri\":\"https://www.google.com/maps/contrib/103210847046167131885/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVneE1kmG-5Sv8--LXtdknhUbr9bGHgHDnxxw7Tr-NOMWqERHGt=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super accueil et repas carrément bon super bien servi\",\"language_code\":\"\",\"publish_time\":\"2026-09-22T10:38:48+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Dada\",\"uri\":\"https://www.google.com/maps/contrib/113563976597282069603/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUEJy2CvZEyEkhVJD1mC-45RH3rFHAOISwYNL-13lwg_O0jFb5j=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le service était impeccable( Gwen), attentionné et professionnel. Le repas était délicieux du début à la fin ( Fred), avec des plats de qualité et très bien présentés. Une très belle expérience, je recommande sans hésiter !\",\"language_code\":\"\",\"publish_time\":\"2026-08-04T12:45:25+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"PATRICK LEFEBVRE\",\"uri\":\"https://www.google.com/maps/contrib/115481000455144462300/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK6anAcq5W3cGEMkEURCIuQmnt-3esmTlMqMZOY_n579LoXiw=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le Fredo\\nC'est un régal\\nMerci\",\"language_code\":\"\",\"publish_time\":\"2026-08-04T12:41:45+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"romain flahaut\",\"uri\":\"https://www.google.com/maps/contrib/112556985577008749083/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKF83wOiP9bsvro52RgUxBn2mDDHc49tmeYePGd8f_hnBl5VA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:27:37",
+      "google_reviews_place_id": "ChIJ-fS0iiTRwkcRYQa5UlPvWHU",
+      "source_id": 5570,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-place",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "ennevelin",
+      "string_id": "cafe-de-la-place"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54826",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5570_6af398ddb582f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4629",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32138",
+            "source_hourly_id": "4629",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32139",
+            "source_hourly_id": "4629",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32140",
+            "source_hourly_id": "4629",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32141",
+            "source_hourly_id": "4629",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32142",
+            "source_hourly_id": "4629",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "07:30",
+            "closure_hour": "20:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32143",
+            "source_hourly_id": "4629",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32144",
+            "source_hourly_id": "4629",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "08:00",
+            "closure_hour": "13:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "cafe-de-la-place",
+      "google_place_id": "ChIJ-fS0iiTRwkcRYQa5UlPvWHU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 07:30 – 20:00",
+          "mardi: 07:30 – 20:30",
+          "mercredi: 07:30 – 20:30",
+          "jeudi: 07:30 – 20:30",
+          "vendredi: 07:30 – 20:30",
+          "samedi: 08:00 – 13:30",
+          "dimanche: 08:00 – 13:30"
+        ],
+        "photos": [
+          {
+            "width": 960,
+            "height": 540,
+            "photo_reference": "AV-0GLfutwgwTZs604L_oHJMSnMX43SRFRHD9vDH1R88FaGf1kF1yRm_PT9Ba5a2j5gn5HCjkJn48Fhx_7aquGO0SClqMxonr_9BWAGje1_XjOdWhvwJKUYXK3paVnVNyefDqQ-2dYnxweZCJmUpsd1m4w5r572BlQZ4uEkUixpXB9UJy8DG5S9wrN8UorefqeQfr2W76rfq8vYuyhkCiIj_ixHdn-hr_W-bBtb3ZA1vl3M6g99FORthmBatWLY7a7W2hWRGol674ELe35a-HnuKVH_8ubRKCFzEQ8Bi076V0UrQ0OmMXxmidSwvpfvqHf1O8F2kn7BoeCODCsxo3Omx_GYwD5J8Mo4UmngW8-JKk8xYOCiwoCnhj4dvNo87zgVbgEanAxs7XFNPnjsiNnheiH2X12vJtQo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113376256253460077769\">La Place M.</a>"
+            ]
+          },
+          {
+            "width": 3614,
+            "height": 4800,
+            "photo_reference": "AV-0GLdEFO1g-0cz_ZGgmhxnKzehL639I3nWyGEF8U2PpUSs5weVYS0gdunOGJx4VEkgdU5tVzix7nwuy-6rjMIw4CBhx8dKtFyxU5J8Y-Mp2dmgcQbr1fxaYE6fbt_zZwAUrfkeo5NIr8HAzA1tkmIUyr1_O2LdFqNO5NK0NoqY8iTvWUlhvNz-C6FNojeBvrO_AZJJhHJ_VIvT5do5yCX8MCAiAAcF5XA3ZKsF2VTUOV7dLFoe92xbaRpg6zkIS7qWDnxkJsniasqNBt_k4S0hMB7rjMBmvjscv2WKCtYHtwKICYuQhkxoRQA0k8wXCTHmrhL4y1GDEEKFgDE246ATlWXfDclLvZGOn6rW2OFOEAARyXECZ2IrcagC8b1BCsJmrXmJzFdtjMqlZlYa23LrXmZKnSokMBr0ByMqq6rJ-PK0Bw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111507027924198413966\">Café de la Place</a>"
+            ]
+          },
+          {
+            "width": 4096,
+            "height": 2304,
+            "photo_reference": "AV-0GLcWD1RuoioCsSPR_AGDH1AO25xe05DMSGKyv6r59T89fiCJ3LwdWOiBbpsepBY5cpRv-RJ2RxoS9QwoT2tMAcwiHDgCQea7pFmYPwYs-kqAdZbSgZ-fx2GWNtudk9xdnaj30IqcA3FjI9TLe7l4KpWqg03-cicCTMLrCouDGE1Ni-AcKuoRvLk7tW6bBpc9bh7VzTdiU6LPmlE6XIZTAvri2WERBTAq2eahqxtKo-k3uZhjONsCkK-cWzKRK1L9zElDrFkeMXhXeWYVGmJ-WnLiYou4e2mFMRK749vtXVJ1RxOQrfotSPlkg41iy3d2IZaYsj8V6aWlBlNjGaTyBSHQCPyYf7aCRVLovW535ukPyRrQfEARjq8x2sPR-Wi0GcTKSKFqTmxlZP6Ezx3ExUllti5ZhcvjO0STRDYh9WqsRw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108633134900221192141\">Banana Power</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLekIh-n42lbJ7fiXhF_LBHRzP8pMLQ8ziT3seCnjzWNkKBENh3HlN4zr800VKfk5fQq5iaLtKT8eR3O5VW1GEW2jnsjf3OPvQvDlySQ9QTPR8lkpY5vmlFJHq6lnTcjHfPxiIn5CHzsFLKel_kxEzPoI88X84ks_FnDbWudG-ksqigHc91DHcHtUofc5dGY3VknPixyVLR8XT4h3mvu6fRoGbTyAcQZ8KsgH5hL4rSA4z6dmEpn5VCEA-53Ae0h_zWvR3NQOZE25jXrKhQoPZa617gRdEI70MUrvKEo1gjTrjiE0d0SXnRf3FJZhJQ3vUgn-3iaVmH4x-OcplWIb3lInQxqmmQdGd3QoCydUOeEgXyUuPGCxYllLOFxHC-FI57-O38K_mx02bIyWuTauNrtQuM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100071842446415081883\">Mickael Gorzyl</a>"
+            ]
+          },
+          {
+            "width": 2340,
+            "height": 4160,
+            "photo_reference": "AV-0GLeIQ40BTdm7hCHj0JnocavnYqjrVD0-URJhj-yPDnTvvv3adKCgipzEwyDsAxWWkkFW4XjiNmNSOm8eVuUSE4uljCa_o5jSNchy3Giu251EWtqwMy_wlVw84ZAtlN0IWtRpElGSymI9DYDW-2hCnLsDGZRmxHk-JYRrmeV-vLS_-0gAd0XuUDJ-kpOa2W_zz__AjRMWfr10UozN5fUxsVWiIViHTRhWETwi1FoC4hqN7SR2BhonP4L1wlDD-4J_8eAHJ4ARUxoER3jpfFgAO5Ndpab3-lMp00xQ97v3JGq0CKzPZy9WRfMaeu9PY9GSiXzm5j-j6NMAUgOHw7h8bBNOszrlHLyRi2q6tOkMNGp14U3CjTWJBn411L66ArkKbUb3rNE6j3egi3P_MRg9T9GnHSU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117753890382924673533\">Sylvia Michaud-V</a>"
+            ]
+          },
+          {
+            "width": 960,
+            "height": 1280,
+            "photo_reference": "AV-0GLcSHvO57Cgis0ZI7HglL4HERpov-LNd1UxxrlmZ5HDYwCzAciBytVSluI03nO91bwEL9mJiF3oial8dyy-ZIf519aocEqBSGP-sJdV9npaONqflM9OyCy0Esebi3YyycgOSq7KBcrLkLMxmP9VtoALTRqYX2L5i5ORAVM7vTVY8tMnQRRBvpB1jGARheC0qYE9CW67o48yCjQ4K2792NZVuPkORCYIv9Wwbe_3L2c3Sn954-kTBdDbptAi0nT4d5o1ynZwMdhusl6BNg74i_WQULn27m8M7rO0ggRbsSY8GNbEmppBEzJb5SX9AphOkkfvCNgQFKpzY3fIsdu2bBHZ-bbY1-RMdhzvh97u2e3kgti67KePpmE8onZ2J99kJW-azB1QzooL8IVy2_pXt9p8v-n9Y2HosH3lT0RPaNQKRYg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111507027924198413966\">Café de la Place</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLc2P9_Vz58eb5nQaYxB913kAg8R-yCKbD6MGGJ-gZL1zJ8CpZOhw-_HdT7WZqFWuOjmb2VVUd-0tOUlR5W9bs93gEXRzHveOroHhFPvYBkgccdv6j-RoHTerjlgCv0wodRR2kRRRT3iMNcr9Pq0S486GRsu6xYSvUX6WmFpKJBbTPXK-jZ4arutZualwrMe51HmxtdASWX3H-iAbfWfbmHYgXA0Jkzbdsqy9DTerZr6BubBjfHPbQjE1joyQVptKhNMbtZwlUenoKgwo1kqiP81RM1g5HqCpMjmqIIwP6Y_mcdTWMcX_DxUg6L9pggZ0r_Bln7YlWx53PxFEN4NZLpjHBiQFNJ7YmLdqg_bxkaQ7-vT_RuGaf_yBvYN7W4xuUEUpncu-wNWAu4xBmB24vTDpjc",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/112940869554185376599\">peter bruyland</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLc7vPPlBKppl5htX6o5pzM4Xwk8xWGNv9IvHRSB0mFkGarZHODwN8o3hVWg61Zzsc2VX7i_tPkeDly0EpCaJlzAwPOlVLdlwl_J46M7MvBdGofsdHaodQ4nOsvfv7uBj7HWjrdcDmoRTbuY3TGLyrNI9crqspnOlk9KGacbIlAbtp1QHOb8odzn13tG0P_86Jis5NS1R7DlLYgqJQaW4ykv2SaxDic4ZwMKrBpmkGOMVDbtQavm5FCrMshQe6WkdWXTC-ZoLz7x-RpoO0ihCLUyQxqgN0Dcn--JR4KSoiCZXds6csG8WAjE-hE_OSfBl7tgE17x1wqLFiIB8QmXRD3vBYvDTaIFObm_ApQXngWHGNh8Kg_Luk4WBTJcDiNMF1LBoQ1cgRMzuBLYqF-U4DFvTltq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117006608771108868706\">christophe chuin</a>"
+            ]
+          },
+          {
+            "width": 1505,
+            "height": 1600,
+            "photo_reference": "AV-0GLeJaAZhtZ7cbRgAAfSO80StbpABQEP_IJyiGy8IJ9nOOtv968FfFjbWAvOp1eXQ-TRvOnYjP3Ic0BVm85qIfBQ49j3rq_4x2wVQf7Uc3UgPhi2w9fhKDy8NbD39rx4ZucK0oNMTTQScd1ensjADne02iuk62kJ0VdhC1k8yvbpfn9mI3MsFvTN4KSUTEzMFAKu3hyPXgAGRorq9WnhkICM9C0K3NF7JhLTCHtCfRKgstM3_SxHbyy2YHZaRJsLcuA4WpCWFf4O4ky7AfQAsktR7d__U2GA7lsiweGqLAjzfbH6_Wq_4a-WN9CXFUQdonpJQ-HnkkFbznAFcsY1XjtZ_DDC-MNNpDE3_rRpsNF1zfYmFsDBYpO1ZWVDYN3VQdRpMiO7P3tCpGUziIMnXkDKBda9oAMomZsllbt9rL1iWsA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/111507027924198413966\">Café de la Place</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLf6CXtm97ZmhJ8cROxqrW2A2RWRu5TSHDQ_WYg-YlMt1N33d_pat4gQxkVzA0qlBUZx5LbLIcOcADBP9GNkfybhBhjde96-oxV4tTq84-0E46jxr8zbUH09azc_3kAvlvs-_Zji2t4vWyV-ie5pAQAi2DKV746j3VozZSl4paJQa-OYhS9j8vOGs0CZfiDmmWfqnLJ8QaBrpW-44gK38HjeyNmmaKC7ibmZdilepNHiFxWim5mrbi7mCNWG6veX6HW6HEyYwckt22IPn7bYvAJq0Z3RQc-yt6S6FXykNAjWz6r9l6QtwM78yVmZWwuRevopJvNxy-irwqG3etVb1iXiTFASeeT1YlADLet0ShwNS5tPP63lCz5Kthnvi6fqafTI9BoMMcSnYJ5Jzh0qBKsHqbs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101201836913342192689\">Graphique Mars</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5570
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 4,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-29T15:56:08+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "yves coppens",
+              "uri": "https://www.google.com/maps/contrib/115914498364587711250/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXu90sAN1tcJ5wM7DekuCSBsh1A-Ng11rKW-N_tkpSpyFt6AcRX=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Merci 🙏",
+            "language_code": "",
+            "publish_time": "2026-09-23T18:22:58+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Christian Monchaux",
+              "uri": "https://www.google.com/maps/contrib/103210847046167131885/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVneE1kmG-5Sv8--LXtdknhUbr9bGHgHDnxxw7Tr-NOMWqERHGt=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super accueil et repas carrément bon super bien servi",
+            "language_code": "",
+            "publish_time": "2026-09-22T10:38:48+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Dada",
+              "uri": "https://www.google.com/maps/contrib/113563976597282069603/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUEJy2CvZEyEkhVJD1mC-45RH3rFHAOISwYNL-13lwg_O0jFb5j=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le service était impeccable( Gwen), attentionné et professionnel. Le repas était délicieux du début à la fin ( Fred), avec des plats de qualité et très bien présentés. Une très belle expérience, je recommande sans hésiter !",
+            "language_code": "",
+            "publish_time": "2026-08-04T12:45:25+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "PATRICK LEFEBVRE",
+              "uri": "https://www.google.com/maps/contrib/115481000455144462300/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK6anAcq5W3cGEMkEURCIuQmnt-3esmTlMqMZOY_n579LoXiw=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le Fredo\nC'est un régal\nMerci",
+            "language_code": "",
+            "publish_time": "2026-08-04T12:41:45+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "romain flahaut",
+              "uri": "https://www.google.com/maps/contrib/112556985577008749083/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKF83wOiP9bsvro52RgUxBn2mDDHc49tmeYePGd8f_hnBl5VA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 129
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1076,
+        "bo": 38,
+        "front": 1038,
+        "estimated_cost_eur": 1.9
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.86,
+        "source_url": "izilife://current",
+        "evidence": "Le repas était délicieux du début à la fin."
+      }
+    ],
+    "editorial": {
+      "Hobby": [
+        {
+          "string_id": "boire",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: bar"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Café-bar à Ennevelin ; un avis mentionne un repas délicieux et bien servi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "cafe-de-la-place",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {
+      "can_eat_here": 1
+    },
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5570,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "848545080646777aed2e41090e5aded57761b91f381af52d3b894cb45d69a6f9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

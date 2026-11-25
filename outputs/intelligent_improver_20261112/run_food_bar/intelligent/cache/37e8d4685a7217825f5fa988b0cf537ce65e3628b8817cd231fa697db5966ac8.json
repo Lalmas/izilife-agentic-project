@@ -1,0 +1,77 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Nous y sommes allés en famille pour l'anniversaire de ma fille."
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "Le traiteur a régalé l'ensemble de nos invités."
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "Nous y sommes allés en famille pour l'anniversaire de ma fille."
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "Les plats ont ravi l’ensemble de nos invités."
+      },
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "primary_category_ref\":\"restaurant\""
+      }
+    ],
+    "editorial": {
+      "OrderMethod": [
+        {
+          "string_id": "livraison",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "livraison dans des box fraîcheur"
+        }
+      ],
+      "Occasion": [
+        {
+          "string_id": "anniversaire-adulte",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "fêter les 18 ans de notre fils"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "anniversaire",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "pour l'anniversaire de ma fille"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant-traiteur apprécié pour les repas de groupe et les anniversaires en famille ; buffet froid à la carte et livraison en box fraîcheur mentionnés."
+  },
+  "meta": {
+    "cache_key": "37e8d4685a7217825f5fa988b0cf537ce65e3628b8817cd231fa697db5966ac8",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:35:29",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "spot-bar-vivant-gourmand",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "spot-bar-vivant-gourmand",
+    "status": "found",
+    "data": {
+      "id": "5874",
+      "name": "SPOT, Bar vivant & gourmand",
+      "shop_string_id": "spot-bar-vivant-gourmand",
+      "unique_id": "8984b3f474e3cc6bccf6363b0bc66cc8",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "12",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55130",
+      "principal_cover": "55130",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "7 Rue Grande Campagne",
+      "additional_address": null,
+      "zip_code": "59242",
+      "city_id": "590",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1750651",
+      "latitude": "50.5270656",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:03:41",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:03:41",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJuUgjGwDRwkcRnGAGCAgReww",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5874,
+      "scope_type": "SHOP",
+      "scope_ref": "spot-bar-vivant-gourmand",
+      "primary_category_ref": "bar",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templeuve-en-pevele",
+      "string_id": "spot-bar-vivant-gourmand"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55130",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5874_6af3a2cd94580.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4930",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34245",
+            "source_hourly_id": "4930",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34246",
+            "source_hourly_id": "4930",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34247",
+            "source_hourly_id": "4930",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34248",
+            "source_hourly_id": "4930",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34249",
+            "source_hourly_id": "4930",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34250",
+            "source_hourly_id": "4930",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34251",
+            "source_hourly_id": "4930",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "16:00",
+            "closure_hour": "23:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "spot-bar-vivant-gourmand",
+      "google_place_id": "ChIJuUgjGwDRwkcRnGAGCAgReww",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 16:00 – 23:00",
+          "mardi: 16:00 – 23:00",
+          "mercredi: 16:00 – 23:00",
+          "jeudi: 16:00 – 23:00",
+          "vendredi: 16:00 – 23:00",
+          "samedi: 16:00 – 23:00",
+          "dimanche: 16:00 – 23:00"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 2701,
+            "photo_reference": "AV-0GLdLMAt26yTMvtvRBqyz7eB9iDQNMq_9WJjmTiBq6KzXSLxXhx9faM_k6ekpBU59zCJUQpi_ZDbaZEoU5Oua0Jts9NCkqlLYRy_MW7CDD-EEiBz-gbpEMUgLusi1N3vyn4FPUDI1SfsbAssbwTZdxtW7OWF2kbGkWw6evAE1WMPHZ5EOorgxwaE34_zzB5RUiV8DAp9DTTZtaY0lemAKEQg_7iWplt0sA3ZmlA9f1gbL_JvxJD1g78ySIsGwKa_IuVjn8MxLAYHfKcTvXW43GsmUiLiAPPwl1CaCQLJB0RY56Tms9G6aUMazdl2om-9ceG8_lUkkwA_42iQ7ENn730slMzHR7XS31y6jik_zC-4W2OOEM4xzy0n_dvAqjs5EpMl9Tr8F7kbz1POoEAB6suSdv-4O8EKpjTHOeZGYrHFJ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116427235048810434487\">Cedric Go</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 3765,
+            "photo_reference": "AV-0GLcKg3Zh4Y4y916fEcszTAD0mfHjJFgKeAWomhmageYVADWuLd7D5xKldBxGrIq226tskYnlRCwNV55HEaBf19Ql2EQGilUsSJ7hEs_-gl1pMyx17REfzYv0JnpuDOWsW6nEi3JlriymBQD412y_sYor54J255ir4zrebYQMZ-uJadlDGvGXE5PUMId6lEpG638cBGvem3OLNTW2Hi60rJKN7VL4nL4mcwbtCjucnZwnhykX71spckNvoMzCoYbOfIuyl3IeAEmPfaEttnqLfKayfV3BcewAK1E6umFBc999KR41JOuEWK4p305VC7FMTA_YDygPKIOa7DKLkwIMz_czNdh7QsgdaXRMrshGZJKyUVBqAdgQ_WZ8XL-7aVnR3sr4TgENF-9jm4b-_8XehS1ShKrA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100681626241834886789\">Antoine D.</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLdnaQtgbxgWcpl0AweiYmogvpouXVg3eX6Jd022mcak9cCB-e52pd3jODDlvBo0coMrCqn2qzmH9lX-FjWMOgJ2hN5X4_hEhP9_au2m6EnPfnxaZsvBu_etNlxXNrk9u3MF8vGGrsyqpinY6J3fDE11N-75CbdnKuiMlSdIvKZvK3-YXItb-hy2Z_mepGLMsTu5Lx45y42CLgKIbk2A9DqOJF1yNybtbx_faia2S2IekL4es5__Dw5Dbf7ZQZq_ITrf9JpfWNBHrXPSaV_8aV_lKZC8EYm_05G28QS77zlMg82bAdZnouXLUSUzw7JN_sKP42ueuMQwMfj5WvA8_9m9oDnT7-B4TAgdVR1u3qJ-D5vlRU3hdt7PIz_8xTlWS887SQcLHAUWOiy7Yn-UlUshN6w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103672366460236778855\">Lapin Cysoing</a>"
+            ]
+          },
+          {
+            "width": 1844,
+            "height": 4096,
+            "photo_reference": "AV-0GLe1JTWph5eTkrW-yUxC7VhKQRqre3XXp1TvkP-0r3ikrlmwLGxqpUACNXMRX39GTIpTKf_fSSikXXM4Paj3PNXaV46ecnUHC6_WBA7Iji9iC9Arz8b2_AQL1ZRnhFgxWP_ceAdwsKM0SMcp0eXI3bO0lT35ilyZ-KaVUsK-4i89BDRnsFGW7Ny4gGSX-ykGCA_Mc3jQXTzpeXIM_UeQp6loxjCH9clKPS62759dnK7I8n98QONl3FD3cnnNgqDY5KvnAkjSAHq9sM19YYVUKYZt6sy6iozAkbs4djxkOS6kshUi1mPFcSIpej0f0MwBfRb3WiHOnEAmQ5J9No_EmJABdAlN1G3N36CFkXPL0Y_JmkvnFpQWOrA2WsrD11GRvP1R0zQ4AO1sgDUduri2UY47Uvag",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102540540632626249680\">Thibault</a>"
+            ]
+          },
+          {
+            "width": 2759,
+            "height": 3835,
+            "photo_reference": "AV-0GLeP0MvveHOd5C_XvUFEh4WCkXeIfSQKdi3THyGCzYUCvkEECd6FFxODbhVF5C6bzi-4oSOUeHwClekPbH2bcnBIx6cVzi0FKqeMysN0xClBAitf8u8anPGjfqwJrA5DWTttJouRNXZGOE6R6Iv9nSfBgLTZvFT0rxq6Cgisk3H2urwlAYHX3rROjSh29dQyBoRy4j688AR8ddJ_WhtnhVCMeDxpbIjak2ZqnJyIcNWTranNfflT4N-0JjtZe0QSXYmFNJzrB8MrWhasPP7zgwI2m0lY6SDr9Hch-cQOu3aXxquppOExFfN3REuXIbTvCglqs4WOxZhDAIrfJKvsKI6oIXMy9-BwckJquU9VUo0vjK7x8HAPrxUT1NxeNnF9rprZm2Id1vnXyAnemxwyppJJR_uOIfw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100681626241834886789\">Antoine D.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcox5HblXAZbJ8k95fs5aQO9BvGrVVA_Wl9loPUzXuDEUKQH3tGGRTLPLpG7EyKnCS31C24pESJSZxqCG6LH9U_RrgvZ7mjwVIq-6Gb2MBu9Geh4yFy2GJjGNv5Pv5IpNyOrm7afCfKcGRJrdnPicsJQrnt6TP3zbm3M8ftWHGqRrtaB42sEO1wIs2D4oV6uqe_udWON6ynwSoHs5lu9vNNo2euKFOR73Sg7UMcJMq4wdk-B0E0mTmbRme-yDzQku7ZBTQoSf78hAax7dyf6Kfo2zCm0vkUmS9ZJqJdsyNXPZAVGutlPXohbQG6xTE1fpGNw9tAz4Wy38FctXZ1PrLIrG5CNCPP6CN-vI581Q2EJrMaea-Il3-0u-WdU9iDVugV9AvwllPn_Dmqg0GNEEGKLg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103848786731813851190\">Alexandre D</a>"
+            ]
+          },
+          {
+            "width": 1844,
+            "height": 4096,
+            "photo_reference": "AV-0GLcEi1UB3QWEO-wJV5xtRDAj8M4ewrNYfnjLgGqcwOvju9u8UVAzJjDBKJJTrVxSKtprKJZkrSk9GcNLLrLnFYUuLT9HAT0_tSP2V355QrSzdr702DN6z6l-ZnJslSdq0zP3ngyQ6XF715ULD0ANw8hxHmGHjBzbUP6QceqpnBm03eD7ZTSaCAj9PmDlJ5x-uoi8WqdHN14FVDLCQywwjLhntIjeKb3NcxzcKVQluG3qZPoCsC3Rvkz5-j0_myS94n8asD3peu_ub-en-65ZY7pKStD4PxRi9UzmoveP7eEMaDJidVuN3yvays48V4lLz9e7Z5x01KVO2OvHpEbGBXurngR85gdJm9b56FQOgfOd_shm722jKRjE2MnoTK1UopkniMBr7eHw0x82H9Tdc7XuG6NI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102540540632626249680\">Thibault</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 2701,
+            "photo_reference": "AV-0GLd-hDJfotKKgfyAObeBZrI7T3w2hk_IkQrAVzr8lfvaj3j5kTP2UpWJ2Zu_sc7h8_JypYUmrqHDaVz7hbonLDdmLkg8hPEiMoJG36vSH4EPds5R5W3gtkDWvlOdLlS-ztar7bftiEJVWxtQ8TVtg8WVQEhQwtCv0CGUTDb3y5yBfziOlg5Ftq77ojfkhXkVEZsOgn52qr7PM0TvjsLPuT-L-Tpn_6NqpDqpCimVHov2a-0TWkANNJdCEEU5tFNTjMgDoj8GdJNhJFf63_JzOT_3YH7npNt-m0nezpMHbdM9GnBLKI7i4aS5O3vwqDd66z4PId32AQdjCVYomzUUI9uYH3F6sPK6iqtytC7sZkzhEfXILbHq-hmIvJpSJGkdQTGo2Oo4RAxVCutsJkRoIi25sC5VjVy1KSPQv95TGlMU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/116427235048810434487\">Cedric Go</a>"
+            ]
+          },
+          {
+            "width": 2940,
+            "height": 3878,
+            "photo_reference": "AV-0GLfzo5CVYJXz6a6vgAwaRL8JXabYSyCvUt18NzQ0XVpoMe-nknoJxA-3Nv-uNey3tOMp1LKg7PAxa4twQAt3QtuATvQqcImhx9B5rOqUrHCPhm1jTpeV5tc-NYHAtVWmnac-BZiqnfkzokHTxewTK-BLe3U19M2xZ-vk4KTb1bnHCZcAhDk7ZSnKcQBrICnRIEB_toZoViqO7Xarv2xtdsMJFsy1pjyJ-uWviLv0I6VaHJ_Xd28Fn25I7t9n9Nu8oF7aTef19rvJLAyhf0-gcNxjzGjej2uGeeycQW6FSOoSXkWB-82dJwPpV_PcYFK2lqkIvKB3H6yGOkWRL3UZ1kAdrELA64U4kdWIuXMPcy2tnxBOjcKbP8hMdUHPcIUc8u1sA2MQuUqaQZImX54pwwpP_g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100681626241834886789\">Antoine D.</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdEWNI3oaoUv9wVyV79WzthkdzlcLyTM0YYEz2mmxTtfrLYfjeKaZ4_bm2QlLlRMbB-jq2kP2aQrVenjtOXpl6HdxliWYRIC-JaVdgfyQEInJESF3vY2R1KUAoX68UVOqdWMpZj2xS7jZ_VqOnTilY0jtq7rh7sY6eSV87-zmHZha9fFH9MswSACISyZuWHRYfhMK1LxbKZEnIuycGR_gYYccy88V8DzP_w4UQY_yIhSXjOyBhQ3VKEXsysb8NnsqvpXXOjauRSs5b9gXqTwz692KuWLe9bYZEStOie724sZknD2lPfd3bPyKxcoLo1bxAn7BsX61kMOZ2yb4qlKI456MZe0csv1ZOfBkW5uBf1BGWSYportJFwRCTHZM2lsG5Jkt0WtV4kGDB7QzKX4kn43Vz5ONk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114682690928485036216\">dede 59830</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5874
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Aucune information vérifiable sur le menu, les options alimentaires, la consommation sur place ou à emporter, l’accessibilité, les équipements, la musique, les activités, les publics, les moyens de paiement ou les modalités de commande."
+    ],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_drink_alcool",
+          "value": 1,
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : bar"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "sell_alcool",
+          "value": 1,
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : bar"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 16:00–23:00 tous les jours"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "soiree",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : 16:00–23:00 tous les jours"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Bar présenté comme « vivant & gourmand », ouvert tous les jours de 16 h à 23 h. Les détails sur l’offre et les services ne sont pas documentés."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "spot-bar-vivant-gourmand",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5874,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "554d9875ea8a7e7826cda23df5f693f9b719d51cc70ab30c3fc448fbc154242a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

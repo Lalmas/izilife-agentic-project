@@ -1,0 +1,65 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Viennoiseries au top […] très bon »; « les différents pains […] très très bons »"
+      },
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« les prix sont très raisonnable »; « prix qui sont raisonnables »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "croissant",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pain au chocolat, croissant »"
+        },
+        {
+          "string_id": "pain-au-chocolat",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« pain au chocolat »"
+        },
+        {
+          "string_id": "mille-feuille",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j'ai déja pris des millefeuilles »"
+        },
+        {
+          "string_id": "gateau",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« j’ai commandé deux gâteaux un framboisier et un trois chocolats »"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "matin",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "Horaires d’ouverture dès 06:30 du lundi au vendredi et dès 07:00 le week-end."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Boulangerie appréciée pour ses viennoiseries, pains et gâteaux, avec des prix jugés raisonnables. Ouverture matinale; les informations disponibles ne précisent pas la consommation sur place, l’accessibilité ni les moyens de paiement."
+  },
+  "meta": {
+    "cache_key": "153085a3bcb9da9f79150764724a65cef8c89a8101fe7685a2b0d675db0fb957",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

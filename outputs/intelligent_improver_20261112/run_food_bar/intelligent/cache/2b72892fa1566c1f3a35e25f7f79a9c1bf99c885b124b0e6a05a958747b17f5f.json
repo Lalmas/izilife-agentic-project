@@ -1,0 +1,48 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "frites",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« 5,20 € juste pour une toute petite frite »"
+        },
+        {
+          "string_id": "burger",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« burgers »"
+        },
+        {
+          "string_id": "sandwichs",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« sandwichs et burgers »"
+        }
+      ],
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« un accueil très sympathique »"
+        }
+      ]
+    },
+    "warnings": [
+      "Les avis sur le service sont contrastés : certains le trouvent agréable, tandis qu’un autre signale une attente d’une demi-heure. Un avis formule aussi des accusations d’hygiène, non vérifiées ici."
+    ],
+    "summary": "Friterie à Seclin proposant notamment des frites, des burgers et des sandwichs. Un avis décrit l’accueil comme sympathique et l’ambiance comme conviviale ; les retours sur le service sont mitigés."
+  },
+  "meta": {
+    "cache_key": "2b72892fa1566c1f3a35e25f7f79a9c1bf99c885b124b0e6a05a958747b17f5f",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

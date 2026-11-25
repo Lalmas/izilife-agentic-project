@@ -1,0 +1,508 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:23:02",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-frite-en-folie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-frite-en-folie",
+    "status": "found",
+    "data": {
+      "id": "5784",
+      "name": "La Frite en Folie",
+      "shop_string_id": "la-frite-en-folie",
+      "unique_id": "dc9cb2c123de877fa702d414f32b50d6",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "14",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55038",
+      "principal_cover": "55038",
+      "qr_code": null,
+      "phone_number": "+33327984619",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "40B Rue Suzanne Lanoy",
+      "additional_address": null,
+      "zip_code": "59490",
+      "city_id": "579",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.277723",
+      "latitude": "50.3570018",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:50:02",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:50:02",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJdwi2kDvBwkcRDeLhWNv9umQ",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5784,
+      "scope_type": "SHOP",
+      "scope_ref": "la-frite-en-folie",
+      "primary_category_ref": "friterie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "somain",
+      "string_id": "la-frite-en-folie"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55038",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5784_6af39f9b03bab.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4842",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33629",
+            "source_hourly_id": "4842",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33630",
+            "source_hourly_id": "4842",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33631",
+            "source_hourly_id": "4842",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33632",
+            "source_hourly_id": "4842",
+            "day_id": "4",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33633",
+            "source_hourly_id": "4842",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33634",
+            "source_hourly_id": "4842",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:45",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33635",
+            "source_hourly_id": "4842",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "11:45",
+            "closure_hour": "13:45",
+            "with_break": "1",
+            "reopening_hour": " 18:4",
+            "reclosure_hour": "21:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-frite-en-folie",
+      "google_place_id": "ChIJdwi2kDvBwkcRDeLhWNv9umQ",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 11:45 – 13:45, 18:45 – 21:45",
+          "mercredi: 11:45 – 13:45, 18:45 – 21:45",
+          "jeudi: Fermé",
+          "vendredi: 11:45 – 13:45, 18:45 – 21:45",
+          "samedi: 11:45 – 13:45, 18:45 – 21:45",
+          "dimanche: 11:45 – 13:45, 18:45 – 21:30"
+        ],
+        "photos": [
+          {
+            "width": 4096,
+            "height": 3072,
+            "photo_reference": "AV-0GLfv-_lY9xHksfRLDdpLQw5orQIMz91OoFEVfDmWeFwF3jyxcuLGVWuw3loFJv0Byxh11pdNtY2PSNokRfCKAqEvOPrQSHxyRzPR2Ksr08ZAHjxpYd092NEfX276kFV3i_aNWRg2KAiStZLxC5La1SdZxj03eSjobvS4r1VCW6e3wQnKCcOPUN5-9TrniYWBae0EPS7gJZoOAKj4N-9Fh2P6HHgs-brSq4j7Vrwl76Z_flcJrEF6se6-oO7qQU4zakri0i0o9n7NV50ns6Dkz80_VQnH8MTsLMCJyN5XJmOJhYEXOodnZUjMadIgNHdEEPNOARTq_aTzXCxcJDFC1_KbZjBuYeb3p4G_xq0fsVipkRpnHrvGFHkDuUs82SmfC3FdfPMSkzBHJ2Ral3X3ohtWsOqpMf1S4sA6crsAzZ3oxQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105862821096000023725\">FRÉDÉRIC Cabaret</a>"
+            ]
+          },
+          {
+            "width": 3432,
+            "height": 4576,
+            "photo_reference": "AV-0GLdrRlogQBCnQPKpHQlxaAt7ngFMRCdWiyKuOYhP90p7Ggyh25e9txuCVZZLmXHn-VJvoleSsC4vWm6Jyozdwb3f5hOLhyHQVnlIAX5DK3p5nccHt3Ie0d_-bQlB596YtFDKSb6mxlEXZiO_WF6xQ_f_2Bd3-vadP6qmLgLphMDgJfPCi8PYH9dXemInrlTmuULLntXajB1T12aQR9wCNXRi6sbIIZ_nG4GpPBKQHLF1IrbR9BEpt0c7Pd3gCrzxE44j7KVwxdRllVFdKvjaAIa-BMwVUiLB4uBe4MeNurQxNF0rcqk8Rv6Nouk9LB2epVITlRu5RocbPo_z-w0DRG4MwP1lYjmOQhmSNTOWXEBx2DR5bS2n_zW-6_0QVBlgbKk5SxFqxzhfIuvCb60NmIwVvlUe1TO6cHlvFeOU9V1Z",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106743875836216173856\">Jay Gogta</a>"
+            ]
+          },
+          {
+            "width": 3432,
+            "height": 4576,
+            "photo_reference": "AV-0GLcueob1Y6UWO_Ahj8eHk37D8efZz1Nb_U_cl-GgJJsoFyx535ikwJHKp1AEFF0NdIvj5v1I9St3M1QZN_Fyib7dNzgFs_tCGBeMD4oFLuemuB7_IfoGK3SyxWwc5rGn8TAC_-PeqAa2bug01HpBPHADQl09jgQcMIpYDZ-27VJudq-V0Iz3Amo3Nofn2tInYmHtUcGxIgMWbYw-DegKGUi7chGQcG16lY1Os64zio4DVJBjv0GiXwWb_kH05vfNfZ_-tY9f40iZ-73B4Egj0DR1-JscDEeX23n1yYJPAmhkooh_SAUuj_F4Bb0d-PnpwRKp-v31bon2Jfd5FgWVKOAJYx64pMHD0_ClaK3avm_GiO84vKoiihZpYZWlEC1iGIjUIflxWirRo2CGa38GmplDm-65MQ-BFlEVDUuDrAkk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106743875836216173856\">Jay Gogta</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 1920,
+            "photo_reference": "AV-0GLdDyG516S8vXpn8ntvi0lnwVhBYXHOPP8RtaAdt8uo4pRlUL7LmA4chb2fwxuTpb1466c-ox3kSPtOigaycc3sHsOkoiQQViKmbPCRABjlgkd7_kUgnPBwOl-qN6IQL6CKjTk7-MxFQO5acaJpGcLpDdy749Yp5zoOl0tryGP4LAwMiQ8iEdSl35guw9Hg3L8YCSyB7jc_3jWN2X-Kfp3mPCtEmsASXPtuhBT6sLM9OGFQ_ySe_sErjEL2Do8W9nFCjN2odVRvbZMPH5Q4bn2CkVlWfZwbq8Y7VlrwRdaQ0LAR-rzyFWAOtXPf6mUqDsti6tWz-tcq0-7Mai_MovTOiiuyvRiIY7NutkaIH0Al8S7tBTi-XyCZ3yWw8Jv8AiiHh-QsezyUd-cDZjL_10iEHkg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/108353557917784846485\">Karine cleppe</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLfgLqP7qUvUvc0gWYsMzeFz_ruo4TVkpri0lOYq3y5rlrMwGoza3i5irxZMJBgoOfYxT3ljstSVoVC6mNkv0qoOjd5bnpCU2wM4Uwu2j_VQ8CKNFmE6ftZuhrrJrGxCEWG7SLJozLtNB062Zgvlzloz7LHA8x1a4TXnQr0J0oopAohd-heV4kop_JTIZHZL3-48HvePL5Tvs6yFB3cZikeXSDxercvr8Vyufkh4IP-aVf2xCM_xi-TDQXGsG5QJ4XXWt08qRaaiHXti4TX7MhN1aMlaeFqmlF3SvR_07DrLFn8_ysoymxMys1a4iOIhANKjBWDiQnZyuJQwhxgqcB51B15urPyq4fQI0iFMS38pUmjVw56u5morhMzREoffA8Niw0arGTiGTzZhQ5HsD2FfNeBynuE",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100630301828548265482\">Cedric Caudron</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLdqZGvHChak_3xwGv_2XKmCL6Pj_WVI0S6udMGD2m2GRNgMFyr7LfX6dIV5x4PkyQuB3vHaGfkAxMgWBHJ9_d0XWBPPGRIO7m3RCkck19CmP6z_FKSV2-Si24ZfB-fy9zm0appcWKY2xGBM6szZHXXfm3HaDUIcF1BBAAkiR2asUBGfhezmURIZiS8EGdDcOTNxnoZX4fQFRDz_OZS3tWP5XyGCL983U9Uh53f45dsCcRyAzFdvoTo2jZvFUKGIOPKSAt4GqeIkB_iFGDBTonLj4zxXXyo-QqnuFSyu6sfB6eZLvqY-3o0NNvQHZFgwxz_c5lnukSV3s5N-pC6NMh6A0hgPfmNxhiRdx7UiLnLrKP5CPoTw5PcYQ5lZkAlkwY3-6jeXgESAFiitUgtCzvZU47hf-eECQG8o2T88eF0okQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105862821096000023725\">FRÉDÉRIC Cabaret</a>"
+            ]
+          },
+          {
+            "width": 3072,
+            "height": 4096,
+            "photo_reference": "AV-0GLfPzMdKnnHJHfC4SEl5YCk7gwkVbDPq1Y1azgRTycx75OzJFSCuhJ64gT3TyUbknJ7T25HPVeH5xR7jId6uVn06QVe4PlRuGzecc5nbOIMlw1Wl-iKGDzYGs3058C5LWgGZcolSBcKMmxuHmJ4O_oI463MY2ItbzU4b0n_Sq3AHllqoyxXrnTDU-2voBolHpjHxkj0KMxJSYhpHLbXHqI9UrxpAJVJLoX4ZHr8SORgA0wCGSAEt6lP9kynNmjjF1zO1Q9JtYHfwOal3DC50RexO58A6NLMFKB-dHLstI9do4K6WKim3Dw70e5r00elqryqnMWbmxQhY2j6FW3-GOC_vzkL3dtcFOKu-FtsnA3iNb-V3CcLrNwyN4QtacZzVtNryHmbYbdr-1Fs93F2JKu79yt8lnw3HvkGgy_7BTYORjg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105862821096000023725\">FRÉDÉRIC Cabaret</a>"
+            ]
+          },
+          {
+            "width": 3432,
+            "height": 4576,
+            "photo_reference": "AV-0GLcc7U04IYLL13crs74bFYOh6gwTA34AjSCbYUA6aRJkBP9aTbuT3_fo4hBhV-HsBYL-q0RqzKZqllZPKW8H9O2YGOW3vQtwrLLDMieP62IT0roea_Monlz_-6EJu3m_9aQM4M2IwX-Ab_9x_Squp_T-tSfj8qgqHvlM_cQyOtHk8pHGJd_D1PxiNQEPsq0wV3hrd8bS7Ei49SxJkt_YT5srIL1BU4YfRyFEbtKXIRZ3iTOzEMWWSda9suYFRnF4oPZa-uEvsoW_ZWMY8sP1uRmEnA_gNL9oN9YrcgcW82z2m9getDEiVzfS8JHKD1dLUl9NKma3xFfIWkh9FQNUH6ISfeRQ702PCiBm0mVGZoi97VT50QVbBh3mCyMxLKa73y3Vs8PZPCdmjNFCacovD9sCq0pgYwGRWeYA-Q35Ir_FPQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106743875836216173856\">Jay Gogta</a>"
+            ]
+          },
+          {
+            "width": 4618,
+            "height": 3464,
+            "photo_reference": "AV-0GLfQs72pCrqaB8likXj8TfoxTN3e50KfPAivy0xGojXRhF_r5fUXYAJe9B-NkXKc7LCLNNAJompvCeph16YpZXMOnFTeHJ7K9CHDUXq-hDyYtPmosl6nRjZqt9QW43nD4AF3AJ6eEagQLW8MBuneOoqsSv0Q3-OB2tB6bVDKXMRZZ7spuSIzX5tGhc9A-zAM9kSvBUW6WlPDCWrX6zq6Xj5Uoz5mfNVRAUXad48rBNObTow_nCUXsUj6CN4js9tvg9ZkMa8wuiGz0I1-lzgSVVzDs6WU9C8adxhPdJnPPa3V7JzP6fbq3CG0miPWWZ51S2WuGO8xJWBVcfCFcCMUYWoGs02qXUYHS3iol2pOgpjFXF777fFpgHy9Ab0wy8fx0icXwwVt1bfdwETVmVoKP-9qrYY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/103029230443342219073\">Stéphane Dupont</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AV-0GLczno6C-lG9zWV2oSuQkaJ3aS_aa141KhK6yZrQv7zqKwZUMtf2VJyP-vMwS4rD75eoGq00BdhHbaN707UA5m_jmSgv-ibEqbfQ2OKF6BTjPXMudk_WDsWSjxsQzhVi7KEc46lnzFogMcv7bkCaqrXHDDYBoAbjLTlbitws8ZwXfwScetnIA9f8BWHqihM9EzQbIMxhZoJjJWpJMN8ujftWsMsnb-R126fSn1gKVIIZmf4O_j-xM1tXG7oXgeJVq_VVo014htNokSRCbrmwykYnT2lMpTz2kDVtXQeFrsbNV120GJ4GtPjc_nBn_nFdXizQgAF8k6Kn_WxTDhWfABxQxoxrsL5rOVUfSYWKfYYyL_oslmQs6LPgf61AwdZkuUb5jiyXJYetvrqVSLaYiZsY6UM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117268661983386810398\">Cecile Pottier</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5784
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les équipements, les modes de commande ni les moyens de paiement."
+    ],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.75,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « friterie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "service-rapide",
+          "confidence": 0.65,
+          "source_url": "izilife://current",
+          "evidence": "Catégorie principale : « friterie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "KnowedMeal",
+        "item": {
+          "string_id": "frites",
+          "confidence": 0.85,
+          "source_url": "izilife://current",
+          "evidence": "Nom du commerce : « La Frite en Folie » ; catégorie : « friterie »."
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "La Frite en Folie est une friterie située à Somain."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-frite-en-folie",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5784,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "e95850063ad0342803cf6dc569498d896a6e325c1a08dca6517208e9460c96fc",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

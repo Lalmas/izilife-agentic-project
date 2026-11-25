@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "replayed": false,
+  "journal_id": 458,
+  "result": {
+    "created": false,
+    "copied": {
+      "identity_fields": [],
+      "media": 11
+    },
+    "repointed": {
+      "PrincipalCharacteristics": 1,
+      "Hourly": 0,
+      "HourlyContent": 0,
+      "SpecialMealTypeHourly": 0,
+      "Link": 0,
+      "LocationOtherCategory": 0,
+      "LocationEAPUseForCategory": 0,
+      "LocationEAPUseForEquipment": 0,
+      "LocationEAPUseForEvent": 0,
+      "children": 0,
+      "ElementExternalMedia": 0
+    },
+    "excluded": [
+      {
+        "table": "user_events",
+        "column": "target_type+target_id",
+        "count": 4,
+        "polymorphic": true,
+        "excluded": true,
+        "reason": "Famille transactionnelle/personnelle conservée sur la source archivée."
+      }
+    ],
+    "source_archived": true,
+    "destination_id": 41
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "« Petite brasserie comme on les aime, repas de qualité »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Les plats sont bons et généreux »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« ambiance conviviale »"
+        }
+      ]
+    },
+    "warnings": [
+      "Un avis signale que l'établissement était fermé un samedi matin malgré les horaires annoncés : « face à une porte fermée »."
+    ],
+    "summary": "Petite brasserie appréciée pour ses repas de qualité et généreux, son accueil sympathique et son ambiance conviviale. Vérifier les horaires avant de se déplacer."
+  },
+  "meta": {
+    "cache_key": "5ce51e657022782795a5e183f7b73e47fb61fb6f46b1b2e62698803feabb770a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

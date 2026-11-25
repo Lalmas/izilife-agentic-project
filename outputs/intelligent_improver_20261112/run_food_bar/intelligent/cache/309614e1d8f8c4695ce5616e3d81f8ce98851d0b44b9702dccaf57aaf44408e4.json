@@ -1,0 +1,57 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "\"primary_category_ref\":\"restaurant\""
+      },
+      {
+        "field": "play_music",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "izilife://current",
+        "evidence": "\"blind test musicale dans le restaurant\""
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "diner",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "\"lundi: 18:30 – 21:30\""
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "soiree",
+          "confidence": 0.92,
+          "source_url": "izilife://current",
+          "evidence": "\"lundi: 18:30 – 21:30\""
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "blind-test",
+          "confidence": 0.95,
+          "source_url": "izilife://current",
+          "evidence": "\"blind test musicale dans le restaurant\""
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Pizzeria appréciée pour ses pizzas garnies et l’accueil sympathique du patron. Ouverte le soir tous les jours ; un avis mentionne un blind test musical organisé dans le restaurant."
+  },
+  "meta": {
+    "cache_key": "309614e1d8f8c4695ce5616e3d81f8ce98851d0b44b9702dccaf57aaf44408e4",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

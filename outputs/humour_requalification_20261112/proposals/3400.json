@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "event_id": 3400,
+  "proposal": {
+    "event_category_ref": "one-man-show",
+    "principal_activity_category_string_id": "stand-up-et-one-man-show",
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.87,
+    "evidence": [
+      "Le titre annonce le nouveau spectacle de Tania Dutel.",
+      "La description indique qu’elle présente un quatrième spectacle inédit.",
+      "La source ne présente pas un plateau ni une programmation de plusieurs humoristes."
+    ],
+    "doubts": [
+      {
+        "field": "format",
+        "reason": "Le caractère solo est suggéré par la présentation du spectacle de Tania Dutel, mais n’est pas explicitement qualifié de spectacle solo dans la description."
+      }
+    ]
+  }
+}

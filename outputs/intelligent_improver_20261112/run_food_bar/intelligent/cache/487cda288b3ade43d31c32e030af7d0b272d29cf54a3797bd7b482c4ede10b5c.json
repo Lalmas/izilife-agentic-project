@@ -1,0 +1,74 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "« Une petite soirée entre amis un jeudi soir [...] on a super bien mangé »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« Une petite soirée entre amis »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« on a super bien mangé »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Une petite soirée entre amis »"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 du lundi au samedi."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 19:00 à 22:00 jeudi, vendredi et samedi."
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Horaires indiqués de 12:00 à 14:00 du lundi au samedi."
+        },
+        {
+          "string_id": "soiree",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "Avis mentionnant une soirée entre amis jeudi soir; horaires indiqués jusqu'à 22:00 jeudi, vendredi et samedi."
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant ouvert pour le déjeuner du lundi au samedi et le dîner du jeudi au samedi. Un avis récent évoque un repas réussi sur place entre amis."
+  },
+  "meta": {
+    "cache_key": "487cda288b3ade43d31c32e030af7d0b272d29cf54a3797bd7b482c4ede10b5c",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

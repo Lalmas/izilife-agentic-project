@@ -1,0 +1,757 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:22:00",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-petite-terrasse-restaurant-brasserie",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-petite-terrasse-restaurant-brasserie",
+    "status": "found",
+    "data": {
+      "id": "3878",
+      "name": "LA PETITE TERRASSE Restaurant-brasserie",
+      "shop_string_id": "la-petite-terrasse-restaurant-brasserie",
+      "unique_id": "d068ef821766c8b7876b2682bc41b54a",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "39431",
+      "principal_cover": "39431",
+      "qr_code": null,
+      "phone_number": "+33320620037",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "219BIS Rue du General de Gaulle",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "83",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0454677",
+      "latitude": "50.569988",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-08-16 15:25:41",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-08-16 15:25:41",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJbx0nDXTVwkcRFxEVEBXFQpY",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJbx0nDXTVwkcRFxEVEBXFQpY\",\"rating\":4.7,\"user_rating_count\":479,\"google_maps_uri\":\"https://maps.google.com/?cid=10827433148406894871\",\"fetched_at\":\"2026-11-12T19:21:47+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Cuisine travaillé avec soins, serveurs et serveuses très agréables.\\nIl faut que j’arrive à y venir plus souvent.\\nPour des prix que l’on se doit d’accepter en 2026.\\nÀ essayer, vous verrez, très bon rapport qualité / prix.\",\"language_code\":\"\",\"publish_time\":\"2026-11-11T13:03:20+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Marc Flament\",\"uri\":\"https://www.google.com/maps/contrib/103734284881841312834/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKhxV9J2WjeLVHMWs2WvfYhMOUhY3RqGJqO5GhsA__NuUtUlA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Super restaurant équipe au top produits frais de saison carte qui varie selon la saison.👍.👍\\nTrès bons cocktails et happy a hour au top avec planche a partager de qualité 🍸🥂\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T10:18:04+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Damien Latour\",\"uri\":\"https://www.google.com/maps/contrib/112390783912791771463/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUC55lTmQiZlUz0jOFofeSQYMrhZehr9cvNT9kVrajDlBQR6Ek=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-04T11:39:50+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Lucas Lefèvre\",\"uri\":\"https://www.google.com/maps/contrib/100737866503691606789/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUzxArOUi0xxJ9R5_JHy8EU2SV1mCZa1Fn-Fp7YfI9Jg9RUj68-8g=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-11-02T05:20:11+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Franck59\",\"uri\":\"https://www.google.com/maps/contrib/106147987500471313796/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLsoY91VMunLWrrD_ZgthvYXqj9OQtYuqT8GBPXaLqnzjLLBw=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Allez y les yeux fermés, c'est toujours avec un grand plaisir que nous y allons, cuisine faite maison, généreuse, délicieuse, avec un large choix de plats régionaux. Le personnel est sympatique et professionnel, les prix raisonnables. Je vous recommande cet endroit.\",\"language_code\":\"\",\"publish_time\":\"2026-11-01T07:48:33+00:00\",\"relative_publish_time\":\"il y a une semaine\",\"author\":{\"display_name\":\"Nath Lamand\",\"uri\":\"https://www.google.com/maps/contrib/117134230414558809860/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXV6wgJrr_COKb45RRBrlKvUm_8ztFV_9xrKAbN-nnTtmshLHHO2A=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:21:47",
+      "google_reviews_place_id": "ChIJbx0nDXTVwkcRFxEVEBXFQpY",
+      "source_id": 3878,
+      "scope_type": "SHOP",
+      "scope_ref": "la-petite-terrasse-restaurant-brasserie",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "templemars",
+      "string_id": "la-petite-terrasse-restaurant-brasserie"
+    },
+    "counts": {
+      "media": 11,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "39431",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba55859b1.jpg",
+            "sha1_hash": "848bb3f911d30982c2643cecd66229a039c7e07e",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39432",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba5622fbb.jpg",
+            "sha1_hash": "4f56ad0dc148f9dd4366d473f4128dd717e82ac2",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39433",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba569fded.jpg",
+            "sha1_hash": "efdae2eda6da9bde44d64ac74578e9a7d0f6f8dc",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39434",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba572f6fd.jpg",
+            "sha1_hash": "357dfc48e1c5c1ac6feb10eed9920e14c2d2114d",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39435",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba57a8535.jpg",
+            "sha1_hash": "d6dd231d0561648ae145d9b090ddd2bfb22dbd99",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39436",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba5817e18.jpg",
+            "sha1_hash": "2f3315af707407fe46ccffa0186c09f8c4954643",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39437",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba5898418.jpg",
+            "sha1_hash": "67e3fadfcc580398991c0ef3be68407f20be7bbd",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39438",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba590403c.jpg",
+            "sha1_hash": "6d679e9b47d071b44d393014953949c40097e613",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39439",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba5981895.jpg",
+            "sha1_hash": "674aec13307d46f9c8abe29ac16fec97a6c84169",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "39440",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3878_6a81ba59eed6d.jpg",
+            "sha1_hash": "2fb5640cbc0354b9ffa1fbbcb4f21efac9b2d01d",
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 11,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "2771",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "19384",
+            "source_hourly_id": "2771",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19385",
+            "source_hourly_id": "2771",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19386",
+            "source_hourly_id": "2771",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19387",
+            "source_hourly_id": "2771",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19388",
+            "source_hourly_id": "2771",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19389",
+            "source_hourly_id": "2771",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "12:00",
+            "closure_hour": "14:00",
+            "with_break": "1",
+            "reopening_hour": " 17:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "19390",
+            "source_hourly_id": "2771",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-petite-terrasse-restaurant-brasserie",
+      "google_place_id": "ChIJbx0nDXTVwkcRFxEVEBXFQpY",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 12:00 – 14:00",
+          "mardi: 12:00 – 14:00, 17:00 – 22:30",
+          "mercredi: 12:00 – 14:00, 17:00 – 22:30",
+          "jeudi: 12:00 – 14:00, 17:00 – 22:30",
+          "vendredi: 12:00 – 14:30, 17:00 – 22:30",
+          "samedi: 12:00 – 14:00, 17:00 – 22:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 2700,
+            "photo_reference": "AWCwydiHsf0GFYn2zIb_a3E13Nik3HGtZNp1db7tWM6dE0EwFx72RFluIMqIIEkwr9XX3lCahnbjTyLxBR9ViIlynYDopo4xvtqzi2Llfr9DH5O6yFk5dRJBgS8KSXRfOeMEi78hLQLGwT0ihUxJnxUyiNF0SEvnTBLU9wOg4gT8YxpEZJvJWaKAgFqrndDh_mfRYgqGklw5tji_vCmYeNjcT236XxReaK3YwHplC8m4jsakp4oqzXTBUfzHdJLOSjxAM5uwSNLRXlWcrSr15hQh7Eaz_eh13zkD3h25KKCc4XSd0wqDzbJQmvrFAtRznxTm3J_UObIr0bb3RY3CvirHICI-nYF9MisqlfBXn2yjDoWzwa-dDakBrg3_WJvE2X6WJ5dO1rxafq2i9YJBt_GKqdlUktE_rAARYmhiecLOpRahSGM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113862002422723966956\">LA PETITE TERRASSE restaurant-brasserie</a>"
+            ]
+          },
+          {
+            "width": 1086,
+            "height": 1448,
+            "photo_reference": "AWCwydjTG3uNvhVtA1yuW-nQr6euM00VhZ5YP7mpVllltaIUAX-S_PU5iudujQq8hfn38hu9jCeDzMG4lRxmPN6IyGjHpJTMDJILlJlcXdEOO0R2pCewrQ4EB12tmuxNiNKPVs2fOuKUXWhfgZhkXKOywVrJ-0SaRME7AAPj1a_GfGRiowxcSe8gKt-Tvuhm_FpMGphLxA85KWaLYUYf0Tyzzrzn9g90P8L4_3QLSXR7rusKqKT5guAH3joL3_A6zZvUK7aGBZhgrOzdbHSLTdqPVIDLNKpGe2R3WA7bjUUMswbLHiRyid-w8XWJ8ikVSVBzEipm1RuNhPp3OeXlpVDPmfk8ISnkvhjobuxbrYgMrEJc9XGHguT5ryzoCjnE9RQzDH5Ng44GOgRNaW-CQ5XAXKkHlaYXNNiXHUC8ddYqm7Y5LO3lk8QM0kbKjA-07Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113862002422723966956\">LA PETITE TERRASSE restaurant-brasserie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydiOjfKxNon_8pthmo4XR3f_gtczJUR2HkIPMmWUuGrwvgD3a6pbAjUBxOdAQ4zBBpKHnXEj-F7D0m_SuSW59uKsRKKUcTG9zgLLGddB8BKNnnZN-DwLVDvxbN8sZwBky20igMNPNo-8iKOqfROJJKCunTw9vl8fr1_-Z2GCqLL8tNc-0mjeSPJ3cJsAvNYcYLyYCerepLw1d3JFogzwjZ28xAptFw-uY7-JgcL5krfaMK19JIaOAafcWwpA-Vj-A25lTmc6IkwmkgZ4fjH_V57518dON0zbro8iQuRb6o9-iwhnfVXs8Jv9U7EMLMkkRkoqn1h0i-0hFUl2ku9abxn3zdr_RgO4d1QmKAq-Bwl-s47wPcbgubP_vOsdwHNaKEHqesZO88qgxUMlrVGux7Gi8INR-TGKA3fvr3Q8ua8Ji0cqslf1bjKmCckJMKfC",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110848529128557554651\">Maëlle Tardivat</a>"
+            ]
+          },
+          {
+            "width": 1355,
+            "height": 1800,
+            "photo_reference": "AWCwydgDnxdX67eED1mTz1KIUIuXZ5YPsoPPkvqytna8LZnEYM7R-IMF23qOitNyZpTUK0ekKe58dk1RCSrNedGph8WusKFztaegRlCFoi-0bL34wCaKcxSb12CIcE4rHW5KK9UgfAMoZUHGQF13Ege2MzO3Jq9Dy0iYOQICMNgLrsMGH8MF7TuSVBMprlqzTXCD5UMPslElKdYtOs2l7LuC-knA-5UCO56EM19ObGHEezkM9JqCfFtZRnRUnxRSy72r1anIuBvPpPpIY-Pz-wW7YJjZAF2FOdzn6zEsRu74ELTIqMylGWUa2Oa0XyxD1wQOax4rLW8YjmDVMyLfHfxhmJ9vRBIikJetpCw5jqeIkclxUhLzEUMMru2M9J0hY78WLPEE4kYI-By13GjayzxTtu36k73rvyUW7Dc6XCIoLtGjIuFjtghNIbR1AEkfhsOp",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113862002422723966956\">LA PETITE TERRASSE restaurant-brasserie</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AWCwydjiRFUTFGmLLWWo0sZvV1egCOTrmISVU8e-2NEQA4pGw3MF5l1CM9IIaOzS87ZF0-PrxdLvG9m-iKPK264fIKwBNZoMG_son5g1YfpgLa-6W1wv5dTad9xiN5ELZpNvepMb8b5B5PCnZ_HrzFKZk-f0nfOAiz8CBhVfc5bxNvvFH7olPB-dH0jSY4cXuRILzGukZebjMMdgoDoonyhTY-Ez7ntxZwZeukGGoL59ywdxugprYrel3S0z097H3eO7wrm2TfyuE37TlDEnaBCHuZwrHkkJN2wEYq9Fx9s5bVrAfDbT1RcwkjXsJM5qb234YAY-Ke4_uho9Kfd8jjRaXDorMNxi616-KW1aZHR8aUqibyE2YVSYCcH5BWdk9l0tDl7UW3RHI9ZZXimmSx8ziEX_D1mkRvhrOH2xKqdS-crb3DUAK_vd8-BenlDjwJVj",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113813222065751767604\">Thomas Oszustowicz</a>"
+            ]
+          },
+          {
+            "width": 1206,
+            "height": 1561,
+            "photo_reference": "AWCwydjscVGwD3NDRU1nXceCfVx6LR6rt3LDjtjQAUyw-kxKKvCXMC0cAdAxH_rpWb0qeo9uLxZABxd0SWpwP9k3bbc8VibNmqUuFmbqYn9qpVi_rdd39sRUcnWhg_x_mX7vM3MuXpAqlORQJWwEArrhtGDJp3pNiRu9hFpVQmml9bl7v1ydH9XEixpsL9hq10B49CbMSrEHNWhKysmpPkfQenmgjxJjAE2fJzzPs9DL-B4Fpq0AvBrXzonnqJ7AyEwyE5_VS1Ih7ZwWrc3wrdWQUriGsZwUJl4pX6QytZqGFunpc1obvkuNiYJYFaIoNz08ICHImigDrX6s_zWGJgjq-JCCITXiZxcCcJwdbWK6PRzrMv_s9Ok8XJ2BHga013bSLonnRbTPKhN7fa2D2No6lFKFj6Fy8anro6WhAqkyA-hvmO5pU8peoXlTNJp9ZUxq",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114752954544070531852\">Louise</a>"
+            ]
+          },
+          {
+            "width": 1290,
+            "height": 2293,
+            "photo_reference": "AWCwydg2nKkit0slVhLhkt5KNeCN2x109hjoKwAw5PBzz-6V8Jw3kbpsfqLKGc85zSdfExxgQlYzZDbVd-ZdJvRw41Xp--kmsmLBu0gJTCjBwAA83NZ3VnI6tasq0IKV0JEbixYhvSvf4slSmOhK_eekiyQVnPUXUOvke8u5BMsXUBqbVP2xvuyj4E3xku0QqZzT536uPkHH75vpeTqIuWVfLICwkgSsNyajlN-TMyLSRTDKTho4cZCaDw0qgOC93c7iLbZUvuhPkzXCGP9vwMAtZkl9T4hDcmzuyhPSoLgvZaxe7-OpEurInZaR8REH-TAsxKWYVl4s5lzy2jH0RMShntLbiXM__H4Lc79bA_Ix6NFJxMCtPkDK9CjPYE443vQ6CFP7ZGL5UYbE29f94xxTjBoMpe0dg9dheImSL0AduI2aD6E",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113862002422723966956\">LA PETITE TERRASSE restaurant-brasserie</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3472,
+            "photo_reference": "AWCwydgKIKc9n7BAPCz-IvSNutISfAxV1rZrAWMTuW_bFX-paP-0wGoCT-9UloX8pwX3U5eudIpTmktR2Hp24F0yK_7jV44r9HI3H0387E8C2ERbuHI5WjxT0Lf2borOtSQ1LQ8JN-Z6YQ-7QdhMjC-wbl9A-Qko7nvwMa6Ibi70NYT-e2FT1bVd_r62X8af4-g8Lo0qtDgg0f3mjNN8_sakSD86qu2TQRVkvkvLemh6cgsiVtP0_WQC31mscE8Ya-iYspK8WrGrwchv2_8ef_Ei-FOO_E6qPUOYTwIc3YtfD-LNA0iTnC53wh9v4GKXru9-pqjYHUprbCRFI9VBs94isU8DmGhuw0QrHU0z3GlisQK2jUETjSng1h7T4bLDGx25pgbwOp-AfhV_MW1_xe8cgx5tGVMVf0QVSwl3849dfEtDP11dFcEra1VPR3lVzEQX",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/115167429273470323867\">Clark Hawley</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AWCwyditCTqW-FwQqK6W9uxwV23DjXVSqFLVhu-7D4V5Htt5f4WSjuWDIH9YRpYr0Y6ulLta-vjWefAJsPF87YNOfVaIG_nBQQgQEP1p1iDpAt-OZj3zK7aVoZsqGs8THCo-UkTfKcmN2Q6vQs3aY3iIGlSd1aTEO1vYV5BR8Nf7FHNueK4yDkDj-_UicQHUfuVCTwPCUucXUeubNrfcgq0VFr1f2gWugtuJ77INzVwu7Ud6bYvpzBc5ByUrcmLQ1beqpX_z6I4u3Y07TMDG2eKbQ8j0B2D9LXY8VGV3y8i8z5X_BU5p-qd7m-MEW1stkWGb2dykuaTh_9yeW_WSXZjTIho4cOpoE1miQWqjHK6HwsKeoXva8Sjkifq0109L4mlFchT6mYsT6-iXmHKyBLUNkKdztGt25eaKOII7dgbZZSet1ECeXRpFX_9S7b6p3Ypg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109267609573508928657\">Céline Deleplancke</a>"
+            ]
+          },
+          {
+            "width": 1536,
+            "height": 2040,
+            "photo_reference": "AWCwydgEUCI9vYoQCP93eNG9dkB4k1_JmW-uBPOh630-ycbH9ZU2jMSvUVZaXnAER-YEsdF9-HvRtKoVLkIdA7LpjHtRrk359zdqPcmFyhF9jfSmXirFaxTfb1vQZKsWfV9oUQyR2AtVLPJSlf8_QRcUnI4Ei8OBHB6rrjSYGi7upkKMoy6K1kJsSpviOoBA6VAtiupvUedSVtkLEDCfAHXH32ZKBgixbFTrefTF3YfJw3OgxUYSYbQFHPtvbB_1WzeMtNmyuUSwZf8al5uyPCvR2sXCrzkWYIut7cAzsnjALFeo5T6fuPdERD1IpO6lomtpouPhzh-DxofIYM3F026GYlSQHLDPrIUnpCcWgjSWYZIyVKnpq9AiAlaraEB9QOvxeWA8U3-fBNyXf_SNrTgLvWT0i-YbYvJIJlezLRq2m3FY5WnV-WsCZ44GQB0uRQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113862002422723966956\">LA PETITE TERRASSE restaurant-brasserie</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 3878
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Cuisine travaillé avec soins, serveurs et serveuses très agréables.\nIl faut que j’arrive à y venir plus souvent.\nPour des prix que l’on se doit d’accepter en 2026.\nÀ essayer, vous verrez, très bon rapport qualité / prix.",
+            "language_code": "",
+            "publish_time": "2026-11-11T13:03:20+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Marc Flament",
+              "uri": "https://www.google.com/maps/contrib/103734284881841312834/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKhxV9J2WjeLVHMWs2WvfYhMOUhY3RqGJqO5GhsA__NuUtUlA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Super restaurant équipe au top produits frais de saison carte qui varie selon la saison.👍.👍\nTrès bons cocktails et happy a hour au top avec planche a partager de qualité 🍸🥂",
+            "language_code": "",
+            "publish_time": "2026-11-08T10:18:04+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Damien Latour",
+              "uri": "https://www.google.com/maps/contrib/112390783912791771463/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUC55lTmQiZlUz0jOFofeSQYMrhZehr9cvNT9kVrajDlBQR6Ek=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-04T11:39:50+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Lucas Lefèvre",
+              "uri": "https://www.google.com/maps/contrib/100737866503691606789/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUzxArOUi0xxJ9R5_JHy8EU2SV1mCZa1Fn-Fp7YfI9Jg9RUj68-8g=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-11-02T05:20:11+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Franck59",
+              "uri": "https://www.google.com/maps/contrib/106147987500471313796/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLsoY91VMunLWrrD_ZgthvYXqj9OQtYuqT8GBPXaLqnzjLLBw=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Allez y les yeux fermés, c'est toujours avec un grand plaisir que nous y allons, cuisine faite maison, généreuse, délicieuse, avec un large choix de plats régionaux. Le personnel est sympatique et professionnel, les prix raisonnables. Je vous recommande cet endroit.",
+            "language_code": "",
+            "publish_time": "2026-11-01T07:48:33+00:00",
+            "relative_publish_time": "il y a une semaine",
+            "author": {
+              "display_name": "Nath Lamand",
+              "uri": "https://www.google.com/maps/contrib/117134230414558809860/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXV6wgJrr_COKb45RRBrlKvUm_8ztFV_9xrKAbN-nnTtmshLHHO2A=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 479
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1057,
+        "bo": 19,
+        "front": 1038,
+        "estimated_cost_eur": 1.4249999999999998
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-cocktails",
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "Très bons cocktails"
+      },
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "happy a hour au top avec planche a partager"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.96,
+        "source_url": "izilife://current",
+        "evidence": "cuisine faite maison, généreuse, délicieuse"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "izilife://current",
+        "evidence": "Très bons cocktails"
+      }
+    ],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "happy a hour au top avec planche a partager"
+        },
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ],
+      "VisitMoment": [
+        {
+          "string_id": "midi",
+          "confidence": 0.91,
+          "source_url": "izilife://current",
+          "evidence": "lundi: 12:00 – 14:00"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.87,
+          "source_url": "izilife://current",
+          "evidence": "c'est toujours avec un grand plaisir que nous y allons"
+        },
+        "reason": "référence inconnue"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "diner",
+          "confidence": 0.89,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 17:00 – 22:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "debut-de-soiree",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "mardi: 17:00 – 22:30"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant-brasserie proposant une cuisine maison généreuse, des plats régionaux, des produits frais de saison, des cocktails et des planches à partager."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-petite-terrasse-restaurant-brasserie",
+    "operation": "ADD",
+    "tags": [
+      "excellents-cocktails",
+      "bon-pour-apero"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_alcool": 1
+    },
+    "editorial": {
+      "MealType": [
+        "aperitif",
+        "dejeuner"
+      ],
+      "VisitMoment": [
+        "midi"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 3878,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopMealType:+",
+      "ShopVisitMoment:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "d015bcdef1a3cc87f431f905bcf3c8f47cf1cf1d2c8849653f5bf2217a8f2b83",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

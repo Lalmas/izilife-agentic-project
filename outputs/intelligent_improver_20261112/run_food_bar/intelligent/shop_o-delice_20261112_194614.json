@@ -1,0 +1,668 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:46:14",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-delice",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "o-delice",
+    "status": "found",
+    "data": {
+      "id": "3751",
+      "name": "Ô Délice",
+      "shop_string_id": "o-delice",
+      "unique_id": "37038fd8b6214d5596f73239a4195438",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "38341",
+      "principal_cover": "38341",
+      "qr_code": null,
+      "phone_number": "+33320556606",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "210-212 Rue Colbert",
+      "additional_address": null,
+      "zip_code": "59000",
+      "city_id": "1",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0414024",
+      "latitude": "50.6335606",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-08-16 14:50:02",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-08-16 14:50:02",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJDZT1dXvVwkcRNdEiY6583Jg",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJDZT1dXvVwkcRNdEiY6583Jg\",\"rating\":4.4,\"user_rating_count\":401,\"google_maps_uri\":\"https://maps.google.com/?cid=11014815877070770485\",\"fetched_at\":\"2026-11-11T19:32:03+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T16:11:18+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Pierre Loze\",\"uri\":\"https://www.google.com/maps/contrib/113573061005625053493/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKWsPn5RqXUuAlTDaJIIQ7nrC8l9NF_EnTlEh_mkzFvSi9zLQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T16:11:14+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Aryanna Personal\",\"uri\":\"https://www.google.com/maps/contrib/117217796333932795465/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU2Fc4sPCYOj9xA5JDHicH8Voyw6OFzyC1rEmTWGCSqImd50UfF=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Le meilleur kebab de Lille, les cuisiner sont très gentil, le service et la nourriture sont au top\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T16:10:53+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Ludovic Fayon\",\"uri\":\"https://www.google.com/maps/contrib/103355713969947207148/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJdBORg_Xg2BwLQUJ1j05_5i5jc8ZK1x-ApjEc72Oy93ZSjVQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"TROP BON\",\"language_code\":\"\",\"publish_time\":\"2026-10-21T16:10:29+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Thomas Baras\",\"uri\":\"https://www.google.com/maps/contrib/105074770259925191684/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKow68YiXmGGntSGZ0NFHqGuccc7zhp6raKnfm_I5E3kFLLeQ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-15T18:29:27+00:00\",\"relative_publish_time\":\"il y a 3 semaines\",\"author\":{\"display_name\":\"Céleste HUMEAU\",\"uri\":\"https://www.google.com/maps/contrib/115596772878695566192/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocKCxEwH5CekduCgwKx9m2gitfeg3wAO62rlaVo6dA-Q0CDsnA=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 19:32:03",
+      "google_reviews_place_id": "ChIJDZT1dXvVwkcRNdEiY6583Jg",
+      "source_id": 3751,
+      "scope_type": "SHOP",
+      "scope_ref": "o-delice",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lille",
+      "string_id": "o-delice"
+    },
+    "counts": {
+      "media": 10,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "38341",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fa323dd.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38342",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fb03a15.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38343",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fb97a96.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38344",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fc09b1d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38345",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fc6fe2c.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38346",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b1fcdab4d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38347",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b2058a861.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38348",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b20601ef4.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38349",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b2064b29f.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          },
+          {
+            "source_id": "38350",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_3751_6a81b206b801d.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 10,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "2662",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "18621",
+            "source_hourly_id": "2662",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18622",
+            "source_hourly_id": "2662",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18623",
+            "source_hourly_id": "2662",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18624",
+            "source_hourly_id": "2662",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18625",
+            "source_hourly_id": "2662",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "23:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18626",
+            "source_hourly_id": "2662",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "11:00",
+            "closure_hour": "14:30",
+            "with_break": "1",
+            "reopening_hour": " 18:0",
+            "reclosure_hour": "22:30",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "18627",
+            "source_hourly_id": "2662",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "o-delice",
+      "google_place_id": "ChIJDZT1dXvVwkcRNdEiY6583Jg",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:00 – 14:30, 18:00 – 23:00",
+          "mardi: 11:00 – 14:30, 18:00 – 23:00",
+          "mercredi: 11:00 – 14:30, 18:00 – 23:00",
+          "jeudi: 11:00 – 14:30, 18:00 – 23:00",
+          "vendredi: 11:00 – 14:30, 18:00 – 23:00",
+          "samedi: 11:00 – 14:30, 18:00 – 22:30",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AWCwydhIimp5drjaennpP571c5eQr65HA-remUKBfnsDn0PbUALAEL6CedSw1dDRyO46PNvvJHuN4-hou5s_wDazuJ8K8yxB-HHnVZFRit6Dk9kEgAkmqXM8fEquowFryaAJoKaAHp6wkdTth1K2bQeE5uNhAlLVREJYrKR_QgvavoXFWzVi_tSLSsXknSEevx25A74ITPTbtbCw5TrkE2R1q7CAzWhPHtJEGxtbKurN-jg4CEDiHlHJZLMFG0D4QgybXgCH5mZ0f-B2Ar_30gYyie3WnKHyUugG-HXhVzY_85Es9QBNBDZ0eyIARc1HmAoC_1WNJrwQO5f8DVGkdjyik8jARPuBYzca4P87fhSMp0sNsM-BXA0x3d9qxiyBJr4NU2WQGepeohuOfYoQ3Vft5lSwQM72hq4wBjPlo3GyTlfxzw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100850099809140412668\">Leo Benkel</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AWCwydi4CxqYfBZDkUTjiv-bK27UYvaSElLqL852Bqz1n_mqZWvZrVxXXCcCwznj8wAmdCxSFWTLweHJs4jdcFCxehAEyUpYGkt1we1RJQpEXrGQhMSuwL1-rQK5LIYnFkyhFZTf4CDNmdC9IjeHidoajrUHw0KAuiSCKoLKUkvnbV8X4282QFC-WAA-0kTO857ftyhXa1JQAsGHE-ZS_P5V0Nc5aEMASLJd7O_Nw3nXLftdobEwvfZn_qEm-2KPuBRoL8iW0bMyXCyek5G2WcJQy0dSTzoMA8XDmGSJ7HsHsgTzgiyu22PUiQ-cRLljj5BzFIBrqM_VpiiM6evg4j79NMjabxKj4thPxcPEEaURW4Sm24ksGApVUCJaNoPAjwzmhU7DXSYJ0634M5LgOfIdljZ97hTEXhsvW-E46elyHPbmEA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118088432570885207985\">Burak Sivri</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AWCwydhcl1RlwnCnGAH0LgNU6nY-kXZ06Vtd5M-0CketUh-rsbcyAVSt9hQpn_gyzrJfF3GSv4RM6iL66uZVDn-UwBX2o6xgZZSyixZay2J0FcvsQU3ojrU6xnDpl4yl85CrXymClMdh7yaJ3H0KIE7jUHH6sAYXGTf_ClktfHW8XFGPJYUFXrjxPl6lrW0MOAIesgImJVcZF41oyZ7OV3isc13d3lPV2debTFWjSa2V9BkbhCuxEHMJl_xtnTJUmkIAfEDPxVeeQ8FDiNpUa8QprOsFp6cIMVYW3j0gvmdvGlsxz2eKvjo63Ps50L6cyBlAuujf_K4T-UA2Hy2LDvn9LtDkjgmjYmVmqehkz9yP4iQM0dwAS5_4ayWf4MuNiO4MTXWKqQpYTM9E4L3AI-ZrBtX_d-W8STLJ_D0PVRS3GstJBjJY",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118088432570885207985\">Burak Sivri</a>"
+            ]
+          },
+          {
+            "width": 1242,
+            "height": 2208,
+            "photo_reference": "AWCwydji9_jZj12M4oeF_phMJe4Zyf91_sNdMU6ubgE8L4t4a-YrFxlIxln8_1pbopVdZv9B6SLIMh9zfE_mq7yleSMzu-R1k-8us4eStZxAZl_iiBtwqNueQU-GvHKI22fYzhfAG-_fCkH6lnYabV6473dyb47YzJLlDdniSLpE9euQouAyAYDE_qfzrQlSgLAoGF62m94WRUsrWYpwuL96WE7SXMhhRue6_-bgejkJmgcmcQ3I3ZE4DFZFnh-GJbthTsV5Z4EHWFdYvPk82uaDFUshUFTVprD8l8E2gEmT3cZXkP3jnrQEl5pm4usVIbTzDyuVdZd-t_LqHNUPUN-S1PWFjAX9a1xESM7EA-4AlMplGp4yYCMy-n-aE46xzVd61BNuIV26FxMvHEhNrzKE1FL5pe3xz_qQ6UV6G3mrBJU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105405567185844075474\">Serrano Sarah</a>"
+            ]
+          },
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AWCwydh3S-fD5cZHPxWZPuFwlDDeL-zBPw-6un_CUvkfAHRd9hbCeRs6ffUGsqomjoHI0iyBqtdp-78WG1Z4W0-Nmaq_EQqfJmvoX8t4aG_ikGgYJfDzsWYAm8by7_EbPR5WS0NeFv030gIQL-IhrOhBj_3A1390xbez68s32BK_HxPs3YbxjkQq8xNjeJsKWs0ScBzhGRJ0AmtgyIhw5aaVxtGUxefNiuHKeNT64NPaK2TMzpaUPFUjIsvBQZsOhl9GnCrqhkt6LEp3cFi0lPNIQYWHMc_uIzLZxuCpMtDplrN59XDDdp59tjr83jf9yFKPK63F8jJOnH3-5VvLx0aPw92Y5lfEbpQhOBA33t5NcXn_nhsEro40fwVqvKo-DvX8gYkcz5voooOh4zmXPWvS28lcNF6XzUerZ1FOrnN5DY-uTH-0",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107988871071979858569\">faouzi khaled</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AWCwydhq8QmqX2BggRh5-HJxZN-OZ_wXnEfoyHX0t6JiBWA0XvUyB45xcrsuJ4pIgv3sGPWals4AJj3a1hlv37FP4L_g5iHpDkwmkLpdFQDEp2uVUls1922IXwnqUb58syIldhqDFPfKLauPyFWqq-vTvkI2NPt8_iljSh7zoiK3lsnJdTFzLg3TPBn9PzfyMG9pnhBuH9eX_Ten53k3myMiYalFrbwVTd_SKWuyO9tfZa3mTPtIUuP6zHaCo4Arkt-xDK5zgYlBxIaUYLSMYomkpDYwvJhlxP9AVTP7KZXtBjfk3sb4uIdZBNvtIR4jCzEEk1hVMDeHLYlIQalphUbtJjfliSs8p8of58LzyUC4n0iIL3-xkBM8rtMhB_5Iib2pfmY22ham-eLVFFKT2_W7Vaj0glm5r-YlMIiQcKwcEsjSLg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107988871071979858569\">faouzi khaled</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AWCwydgtSG1pVO6BnKNXd8_NCoOX1vvC-5AwC6ZqIcDebcsRmjCsK2SESVXqGXjvMPgONI17tzw6u4pemwOQiom4iGUs7bCQ-qcUtSL97p3VWZXzhcpgpxkY3U3S3GdJmc7PbrxymVrics5GRLDh1NzMun1OE7rEsRAPbo0xY4qVxNCKJcmcw_HppCZGdUJY-6e23LBKaKfHH7MGvHqe2ERHscSUpwJBw2k71ry8-I_ErTPRtW7Nj_0XDylG_5eoaJo1EymQocaTIE7hhe5npd9KhojSEXueqUvIg6B5OpSD3mHRj-vTiqYBxOlAiygw7SX2W0NVqQiqjkX4cEcgmsm2q_y5FyTZU4ytih3pUmhWNqc_DeIpuTfK9vC9HQ-NqVYPTY4B4x_zxmNQ9O7lAbQTYj-gR--_KD7pIQRwDx7Rwuo-07JQKxm5SDHrDL7LBw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117248917156222929193\">baptiste pamart</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 2268,
+            "photo_reference": "AWCwydhviNYnTFOFmHmsGuXEPVXnB9RF57md95xs1362qR-7r6rzhjMyteYFcrnIkKmu-R2hUj80DEikViaerw9pFbfxJXRs9Wm8c6wrypP75ZeEC7j2IeWu5spG55gBWd-R5vrcuK9NUrMPIDK6jC1o3a9cWBi_lAOkd0FoyioI26A63BYuq7ShFZD9KTkMj7maEx41A1nbPTt0PazqGiY6vqpV-Ku-2pDxlEiyfsU_KvQsoY0LGfsmKVM1poO-f-Oj5DMxA69avGFII5I9CiwQ-mkeRMfDrIXVf6cEIlYUDigROHcHnLZf4SPB5dwyC6UcBr_NaPgPLRZOsubwCsk9uhwnzhwNtN3l2FU6-W-EdFaQrbk8WekjCwoKJYMD2Gl37hRCqqxiXH3-96hcXGbcfxtJlUO1wjZZZeYtqH0zWCUUpA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100850099809140412668\">Leo Benkel</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AWCwydhZioOG2qx9P6Zj6akgM_VpkcGYYwD1wKpVsXqWwui7xS5Tp-Zgehct4B-KZHPUs_Qcydjhk_c5FBP06RIZqh-IfDZTeCvLsAy0lVpBpW8GZ2UoLna_dZShKFFI_fP4LtPY5OtKuCfx5POgWVWN1zoQdx2eGBg3TkqY9Vo1Pos_VxHP54H-b8Y9VLVBDcuaKdhP57i6XWscHI5_QFLDHlUxQQDLN7fFFp1VQOQidZ0CqwLRsbZveAIwAdaKiSKrI9PvDenygNK4468DS_hyXqWi6hTQgJ-fBgMv8PZ7ExgFImGyaGeesMhji3YqVTkc3uaXnTb28NxY-ErPiPB4jFS-6Vc26oLBninPr8wjRQjju0KtSkoGsYwMexd5SIAqQnEgVveT1Dhn2bTQuX_iLqH8IRkL-E0ChSSJya_nJR9Gkg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107988871071979858569\">faouzi khaled</a>"
+            ]
+          },
+          {
+            "width": 2976,
+            "height": 3968,
+            "photo_reference": "AWCwydik21YAHk6HsBpDCgxu1_WBHEIyFs3lmpJHRSxn0cv7op8ofzuqbeTMNab90bEOWptJsAZ2MPF6IWLP8gCR12WXd9pycrSp7Rbx4nDXHjrrS5Hj4Efq0i9DoZnl-yGUPDJQCYGDJEVjtXLt3TJPfhMrxBBZzNI8NPXGc2KEaFvHF4GcUonNtlIahvMrWeR_HOLwUbnK4GO4hKZkT2P6GzOHp-asquNdA9baEWqR63XY6UWkK9fHJ5FmopfhTiZNquRQ7GyfEodkHLKTnbvekkt1tdY7kY07AM-gYRlhox5EIU6DIbQCTBCeOhkqtXKDaem6HVOEKaCD996IZ_yakvfE17gHVgG5N9s7cSAodrEPI2PtZAAVf4n7AU8d3IZs_mxVUqLNi7_UW6NwST-DtETk9_Pjn1NMC4R8KutueiBmtw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/104976591828892605653\">A Franoux</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 3751
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-21T16:11:18+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Pierre Loze",
+              "uri": "https://www.google.com/maps/contrib/113573061005625053493/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKWsPn5RqXUuAlTDaJIIQ7nrC8l9NF_EnTlEh_mkzFvSi9zLQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-21T16:11:14+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Aryanna Personal",
+              "uri": "https://www.google.com/maps/contrib/117217796333932795465/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU2Fc4sPCYOj9xA5JDHicH8Voyw6OFzyC1rEmTWGCSqImd50UfF=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Le meilleur kebab de Lille, les cuisiner sont très gentil, le service et la nourriture sont au top",
+            "language_code": "",
+            "publish_time": "2026-10-21T16:10:53+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Ludovic Fayon",
+              "uri": "https://www.google.com/maps/contrib/103355713969947207148/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJdBORg_Xg2BwLQUJ1j05_5i5jc8ZK1x-ApjEc72Oy93ZSjVQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "TROP BON",
+            "language_code": "",
+            "publish_time": "2026-10-21T16:10:29+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Thomas Baras",
+              "uri": "https://www.google.com/maps/contrib/105074770259925191684/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKow68YiXmGGntSGZ0NFHqGuccc7zhp6raKnfm_I5E3kFLLeQ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-15T18:29:27+00:00",
+            "relative_publish_time": "il y a 3 semaines",
+            "author": {
+              "display_name": "Céleste HUMEAU",
+              "uri": "https://www.google.com/maps/contrib/115596772878695566192/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocKCxEwH5CekduCgwKx9m2gitfeg3wAO62rlaVo6dA-Q0CDsnA=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 19:32:03"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1137,
+        "bo": 99,
+        "front": 1038,
+        "estimated_cost_eur": 3.425
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "kebab",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Le meilleur kebab de Lille"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [],
+    "summary": "Restaurant à Lille, identifié comme kebab dans un avis fourni."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "o-delice",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {
+      "KnowedMeal": [
+        "kebab"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 3751,
+    "changed": [
+      "ShopKnowedMeal:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "60460e393c47973aee905c3f32a65adecbce97fe7612a1c10ff7885840e765d9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

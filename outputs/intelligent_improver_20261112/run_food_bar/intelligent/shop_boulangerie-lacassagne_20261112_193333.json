@@ -1,0 +1,608 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:33:33",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-lacassagne",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "boulangerie-lacassagne",
+    "status": "found",
+    "data": {
+      "id": "5592",
+      "name": "Boulangerie Lacassagne",
+      "shop_string_id": "boulangerie-lacassagne",
+      "unique_id": "fc6af2f22c18607f85878377eeaa6888",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "3",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54851",
+      "principal_cover": "54851",
+      "qr_code": null,
+      "phone_number": "+33320075534",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "125 Rue du Maréchal Foch",
+      "additional_address": null,
+      "zip_code": "59120",
+      "city_id": "55",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0158896",
+      "latitude": "50.6149321",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:24:08",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:24:08",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ3ykdejnVwkcRacGtlTYD4Hw",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ3ykdejnVwkcRacGtlTYD4Hw\",\"rating\":4.4,\"user_rating_count\":298,\"google_maps_uri\":\"https://maps.google.com/?cid=8998195588460560745\",\"fetched_at\":\"2026-11-12T19:33:20+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-27T09:20:04+00:00\",\"relative_publish_time\":\"il y a 2 semaines\",\"author\":{\"display_name\":\"Blackmoon\",\"uri\":\"https://www.google.com/maps/contrib/118213880799288126554/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXsVQiGUt9Doq4QwwXKElwrcamDJOPkfLq9LJZ8q3NjJZRjWzYZdA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T14:52:51+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"gre maroze\",\"uri\":\"https://www.google.com/maps/contrib/108879431851135818663/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjUzlFIsaoESxlUdVfTiZGs5g92Qvz0zoMx0Ixs-Ahor2UHTucc=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":1,\"text\":\"Pas sérieux et pas courtois. Ils annulent des commandes sans prévenir.\",\"language_code\":\"\",\"publish_time\":\"2026-10-09T05:26:33+00:00\",\"relative_publish_time\":\"il y a un mois\",\"author\":{\"display_name\":\"Zine Barca\",\"uri\":\"https://www.google.com/maps/contrib/117289468965837090616/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLzJudmeNZKgmP-2eBy-sDMLM0dQv8tM3YeQoEjsXsbYoXjUg=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Les produits sont excellents je nes jamais panger de pâtisserie et viennoiseries aussi bonne\",\"language_code\":\"\",\"publish_time\":\"2026-09-12T03:58:43+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Brian Grymonprez\",\"uri\":\"https://www.google.com/maps/contrib/112813603771281922540/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjU5UpfdwsN0D_mza5Oeyvq9HzqaWvj-T3D1mT9_U3Rff4eD7GcJ=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"Toujours un régal d'y aller. Je trouve le rapport qualité prix correct. De bonnes viennoiseries. La baguette graines est un régal. Le monsieur qui m'accueille a chaque fois est très gentil et à l'écoute. Leur sandwich est fait à la minute. Un thon crudités avec cornichons un régal.\",\"language_code\":\"\",\"publish_time\":\"2026-07-31T13:09:11+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Aurel Verryser\",\"uri\":\"https://www.google.com/maps/contrib/101580568756896639572/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocJCa7jTTemnivy8Qtw1cxDM1fS2nMWo13MyYqwMKY0qUf99uA=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:33:20",
+      "google_reviews_place_id": "ChIJ3ykdejnVwkcRacGtlTYD4Hw",
+      "source_id": 5592,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-lacassagne",
+      "primary_category_ref": "boulangerie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "loos",
+      "string_id": "boulangerie-lacassagne"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54851",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5592_6af399885ea52.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4652",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32299",
+            "source_hourly_id": "4652",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32300",
+            "source_hourly_id": "4652",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32301",
+            "source_hourly_id": "4652",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32302",
+            "source_hourly_id": "4652",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32303",
+            "source_hourly_id": "4652",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32304",
+            "source_hourly_id": "4652",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32305",
+            "source_hourly_id": "4652",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "06:00",
+            "closure_hour": "12:30",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "boulangerie-lacassagne",
+      "google_place_id": "ChIJ3ykdejnVwkcRacGtlTYD4Hw",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 06:00 – 19:00",
+          "mercredi: 06:00 – 19:00",
+          "jeudi: 06:00 – 19:00",
+          "vendredi: 06:00 – 19:00",
+          "samedi: 06:00 – 14:00",
+          "dimanche: 06:00 – 12:30"
+        ],
+        "photos": [
+          {
+            "width": 3000,
+            "height": 4000,
+            "photo_reference": "AV-0GLfSapCuVRlkNZrskXGRENHeHbxnFvbViyWqIP6nBM39m5ngnVDXinwsxLLx4H4syy8eeZkxCzAGd6pI8JfCnl2DzdOxbeOhWezIVNUp8mK7eF7-E2_nMq53kO6EDJIvz_NwuhbbGVqs60a71bp_jjoXD4rETZDOTzqpXajd5kY7fnl8DSeejd-mzrjJ5Nrno78iO2JdcKJQprunn9niPdS78MkD9Ki2QgNU8KsA6fzqFWniiO9iyFUQTPAERgM8LgYVn_y7rVcRFERv3iqU0j2U6t9Nm6w1nUSGXuDx5EviDdQFqQ5fjyNz5B0GRMynYieYksMsSgVzCjIOHOCbUFvuJnvnyvcpfHYL8KGwZYAMSN_juVWa1oGX7NLSaa3vjr7eLScNbytH6EKT86Cuzkz4Dw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101423442299423913393\">Isabelle LEVEQUE MARCHANT</a>"
+            ]
+          },
+          {
+            "width": 4000,
+            "height": 3000,
+            "photo_reference": "AV-0GLdbLXM6-Xsp5miTUukqMATtxZVnL-mzhBk8NyAPKyOtkFdf_lCBSb-y4Vglsij8jpoDk0_-J2QhU-i2wdFmEibIA3Df__bsGvHHs9GRadXZnbHbQfLY7fY1woeoGUnZxvn9wMLRM9mKplF4SSCQt5ZPuRA5dXb7Y6ltr0Ozc7u6nAqr1C-k9IGrGl4mOZqVh_1J7rQ0XZS41tNWsQZqZKjBrTaLz-L0RgpDm_JE6dpcfJgLu2HNJ3OLLOCbnn73ftT5lI9ml3dNa4UvBpPf3Oz6n6l1nfBdBNsWMlBeVunKIvyv9yR6RZqrp2sBNrgDkIKQ5dmS4w8LoGNC2GRo3Re94pLLSn2xzNFfoAnUKZPv9TzmwfDaEtZyWydxJ1T0E0rflonLmLKUji0Bu7py360SQrI",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101423442299423913393\">Isabelle LEVEQUE MARCHANT</a>"
+            ]
+          },
+          {
+            "width": 3096,
+            "height": 4128,
+            "photo_reference": "AV-0GLd08qXhfncbKj2s5kwp3dfMyRyMxohxyybnopq7vCH6YbQU4U6FGrjuYipsjENhB5kYJ9O_vUxMcovpBfAjjKnKxqdDb50yJTKvBdb8HkuQ5JOXSL73dIVqH2jWIYIHMNPwbSjEcyMWSiEBEyIyCisduYGT6H2Ip-ck0sR0-MU4qWW6aF2lVQUVQOeRCjCsLliL7cgaN8-7OXSHyp12Tn0qDROrPuYJpyHnpP_t95NA7FDDx9YlMoATMfhNh2HuKeEEX3iZD3bUWzO-baQOZI8pfjJirO3I50R3nzcg3xtWjjj0blI6qN97UdX8ZLrxcgf-oEW7rG__yc0_Fm2P11Cu2thmuSLyZSzwRL8u6CxYG5qViqfHKwWlEiC1Qfozhf5Alvarq1O1xXsXicyVSaaJKJU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/110033857218007496729\">cecile loiseleux</a>"
+            ]
+          },
+          {
+            "width": 1280,
+            "height": 1599,
+            "photo_reference": "AV-0GLcAt8a6tBfOYh5RAG7sGK8rsLKUKfUaXr6qdcMj-G_tQOqDGUv0qCrcH8Ae-oTIWw1CjGQsLi6xMEVwiU6C6oRCwfhQym3tdPCJiqbkpP50WmnXGPZ42okXja4TmMHEIsWa2oNazF7m5pv8uFKmXyMC_K3jF7oEWEhEyB7WFoS9wtvi331M1hY0fjGD1wTLmtKL55hMwwrb40-EoDyqMpFM5HAOab9DrTWhQbYW4UEcW5wntKv4OeefAfKlQyqToXbZO8APOoBkcBTXOR9GpHjtOP4HGU12lFeo11DNEqH4zbXtOvRZMEYeTgsUt3oCBe_PxnMxmczIx3a3ujX142woB7vC28mf1pBJ6E5A1JEaA0POf3XJCl_yGnHkINpRAByE_r23thfUudLA1dULJqEuXw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113221706851848030668\">Julie Delrue</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLdLjkl4nl_H1WqPlm-aoHhGW1FghSLcFeVMrvnKU97a4l4UZvTVctDX3ubaBC86ZdoE42VbvpsRWXpel9QtMjvVJTfrA8AG6jCseojYyrbo7KwyLP0ZeQ4ZVJpahKNvnso4AadJUfLUU0YiugCrQvJMeWeFqmc8Q28P8mb-MrmqxdH2m_UAItKVy29PDSnRLWa15ZETYxcrCLQHJQwHRaW2Whjq3R3QVJ9XFEhRZvKQRiFsAoLlHZSj7mYrABuv7jP2he8TEzt3sYyoaO30ffE-IfEus-ah6gW-lhVTA-lnnxt1Aml2ZzPZ_mJJaDtvLUd9XxBSmMTCJC_FvZ9pA-bbi6SUX679WcccX-r9EGPmpx_W5jGEpLKjsUA8Xem6cjsEj7gvU2N_qLWEFwhTcwCI-s9z",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/101423442299423913393\">Isabelle LEVEQUE MARCHANT</a>"
+            ]
+          },
+          {
+            "width": 2700,
+            "height": 4800,
+            "photo_reference": "AV-0GLfGY9pI5KJtSat8Eij_oV_5itMlYQK3qpNDhw-WFbe7VcOSsW4r6CCqQgVcZaW9yKWv6Zd2ze0A7wjuXL0eDd_UZRYR7Vts3JXfRsKGKOlWx2BuCLXe5feKFUifu8FnMRc3df1OpKioXVWlt1wWhoZ8iAf5dCPmkQ8gue9C4cfLOil7LZ1AU63kSE91k4zgB9FCvSyOm06ABdKGvUQJn-eV6k5mVI6oRHo-z485MslFBQVx7qTTi3-q3sDAf9MmyoSh_wR3j0Nvr8QLOgyH0WEujAQKhh7ub-mIF03iZxd_XdMNY5h8CT5LQhxmf1_sWm6ASWp6cdlxuw5wAsUiLCRaZXBqfm4SQ7U2L7Yh3X_LMGy7AWkjqX3zSyvyrKB-8Qc8RGhrwbQiJh23-2AHAJ8EJSs",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/105592159641731831257\">Paul-Emmanuel CHONG-WING</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1816,
+            "photo_reference": "AV-0GLdXaC4iEdQyskR9w-xGoqsFJvXGmY-UXZri9rz7JNwX1l9Ayy7RKQ2NnAPcUp-rXyi1DgoTz4uVwzBMXI1qFhuQCrzo6iiIYKilI5hRwvqqGcjY-6Tsu8AESKfPRAN4GYTefZ3I0ZW9s6zaCf5eOZukM9m8mVR-FBRnxuliPBRY6HHN8PYORW1C2ebibanu5XKK3YbHZGUMQ1V_W1adgudYvVYJVtxDSthgsvTNoXrFm7n4rMlaUTQE2GrE4-EBnMM2OxS25wa7lrU7cBzqU0-y1KGNTl0Qs44v-hwMV-Ht81y130YW1Sbh8qoNCYb0ZuMPJVgTpoEBlrQNsxrvcWw99DYMulqyFcx_T-s5yraOD8o7r-KhkCopWf6faJRzoxRIJpk4TwHoAvdpIaeEEgRYZZ4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/117761807130361285322\">virginie GAMEZ</a>"
+            ]
+          },
+          {
+            "width": 1824,
+            "height": 3648,
+            "photo_reference": "AV-0GLfKxnHNYYCKDwvQc6HRS49boBb8GEgUE18G3NNLRPPNrzRiMRG3QqkLs9ycGG0Ioz4htayGmF_IDMfdILa3_vZguiK4QBjhlidBd2k3D7wHFp2WgOBSbspWkgKZMQ4ruFtPCQG1hkhqoR98cwnOUQVR58dqZb0a9N3ckmSzyCETm6cQTLdj0VSYMQZ5SXTgFPVbArcflt45uzv1Lyffhx8Q2Gfy6m1OJAaUGgyt6iKhuJ0Htck-SaWlBQ2Z5aln9GnvuwMURVgx4Jhsk5TpyGcmHukohz5OC2j514nZmfg5gDbRXj-PCmEDqaT730YdZjFKPjyrrf03m18UHMyz-h9qIJSHuMCQrSzJtTtMoy6R7KjaPNTEuOAn0s_ouFkDqqWBcBRz2xv4j_r-oxbUaaQt9A",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/100458316152380511907\">Karten</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdLn_A4B9X3rBKaCUMIx09tCOSmqNiGY_VDB4YyiZ5UYo5914NB8PU7JrlyIxkYokNLRwqSVvTtA4CVG0sG7-7GPa8YwdDTgdUQ33h1zseDg0VTTxX7U7AY4sKAz4rh0xhHCT6nO1bY6WHN4Q0kFx4ubqt9T6PjVtaGm5L5So9OsADL_912Eos3fd2KhfQYfGcRdMqGn7B_E8-y-YVW_p68hMnnAuiD3fe7lpwoTikI4x7gF0YVaSSklSzEgtjXccTmTYML94eg5BbEXX46guHIGLMSTakJcuEl_vNREQYIwWenzQGsPlimQLSW6sKLZjZbf9TeYc6TabX6yfQ9NH3ygWZ77xuElyljU5Ujm6IknxWe4FjUtqH7gMm_XD9FDkAnUBo_htcve16N3ZaZq6AWK6k",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/118415681502650466658\">Charlotte Lambert</a>"
+            ]
+          },
+          {
+            "width": 663,
+            "height": 743,
+            "photo_reference": "AV-0GLfcGDRv-ZdIJGUqxuYcqrnVlJ6PCuG-gtH5Ps-UAxGRAXrHaasyLZk9CWLy6EoOL7KnE2VOQ9TYx4OI4CP7xw19K_guK-0saWaOFJDuzHVlRdlFGAV17jH7HWANwJHepGbTdtAY3OPdjIiHEm8sCniMs3gctfCR-7PdLwbMIYbDu1SbbNoWcaZ5x2Gkd6oW2TjvNZjQvHr4nkyOBoU81j0sjqem2ep8SoEweN-0ZkaKXficDd7y1_w2DcoH4OUT7tcFSY917HbwPVzdxBE-pgBJtjpGozGPqcBQxoRMFyw7Aly-C4CGi7vN8THZnqnr26s7X3MUTBvD9XZs8HCDnaddumnFzSBmIDfijdq3pJ3iAgZ2bICcgyqCaUtLvX_XP-zXqCNezIafAaESAGKuNIHEKvtZ1Lo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/113815573042772663091\">Nathyou</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5592
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-27T09:20:04+00:00",
+            "relative_publish_time": "il y a 2 semaines",
+            "author": {
+              "display_name": "Blackmoon",
+              "uri": "https://www.google.com/maps/contrib/118213880799288126554/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXsVQiGUt9Doq4QwwXKElwrcamDJOPkfLq9LJZ8q3NjJZRjWzYZdA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-10-09T14:52:51+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "gre maroze",
+              "uri": "https://www.google.com/maps/contrib/108879431851135818663/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjUzlFIsaoESxlUdVfTiZGs5g92Qvz0zoMx0Ixs-Ahor2UHTucc=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 1,
+            "text": "Pas sérieux et pas courtois. Ils annulent des commandes sans prévenir.",
+            "language_code": "",
+            "publish_time": "2026-10-09T05:26:33+00:00",
+            "relative_publish_time": "il y a un mois",
+            "author": {
+              "display_name": "Zine Barca",
+              "uri": "https://www.google.com/maps/contrib/117289468965837090616/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLzJudmeNZKgmP-2eBy-sDMLM0dQv8tM3YeQoEjsXsbYoXjUg=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Les produits sont excellents je nes jamais panger de pâtisserie et viennoiseries aussi bonne",
+            "language_code": "",
+            "publish_time": "2026-09-12T03:58:43+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Brian Grymonprez",
+              "uri": "https://www.google.com/maps/contrib/112813603771281922540/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjU5UpfdwsN0D_mza5Oeyvq9HzqaWvj-T3D1mT9_U3Rff4eD7GcJ=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Toujours un régal d'y aller. Je trouve le rapport qualité prix correct. De bonnes viennoiseries. La baguette graines est un régal. Le monsieur qui m'accueille a chaque fois est très gentil et à l'écoute. Leur sandwich est fait à la minute. Un thon crudités avec cornichons un régal.",
+            "language_code": "",
+            "publish_time": "2026-07-31T13:09:11+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Aurel Verryser",
+              "uri": "https://www.google.com/maps/contrib/101580568756896639572/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocJCa7jTTemnivy8Qtw1cxDM1fS2nMWo13MyYqwMKY0qUf99uA=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.4,
+        "user_rating_count": 298
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1093,
+        "bo": 55,
+        "front": 1038,
+        "estimated_cost_eur": 2.325
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-dejeuner-rapide",
+        "confidence": 0.91,
+        "source_url": "izilife://current",
+        "evidence": "« Leur sandwich est fait à la minute. »"
+      },
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.82,
+        "source_url": "izilife://current",
+        "evidence": "« De bonnes viennoiseries. »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Leur sandwich est fait à la minute. »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« pâtisserie et viennoiseries »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "excellents-patisseries",
+          "confidence": 0.94,
+          "source_url": "izilife://current",
+          "evidence": "« Les produits sont excellents » ; « pâtisserie et viennoiseries aussi bonne »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "repas-sur-le-pouce",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« Leur sandwich est fait à la minute. »"
+        },
+        "reason": "référence inconnue"
+      }
+    ],
+    "summary": "Boulangerie proposant notamment des pâtisseries, des viennoiseries et des sandwichs préparés à la minute. Les avis citent aussi la baguette aux graines."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "boulangerie-lacassagne",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-dejeuner-rapide",
+      "bon-pour-gouter"
+    ],
+    "principal_characteristics": {},
+    "editorial": {
+      "MealType": [
+        "dejeuner",
+        "gouter"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5592,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopMealType:+",
+      "ShopMealType:+"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "0fa048c344ad377d7d9e90ca29fe616d8b958022efb6036d8101056d097037d0",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

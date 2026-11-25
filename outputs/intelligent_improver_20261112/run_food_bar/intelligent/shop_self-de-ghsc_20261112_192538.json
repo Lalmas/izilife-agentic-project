@@ -1,0 +1,506 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:25:38",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "self-de-ghsc",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "self-de-ghsc",
+    "status": "found",
+    "data": {
+      "id": "5701",
+      "name": "Self de GHSC",
+      "shop_string_id": "self-de-ghsc",
+      "unique_id": "a9a0d7f5649286f4746880dd97578113",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "0",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54959",
+      "principal_cover": "54959",
+      "qr_code": null,
+      "phone_number": null,
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "0",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "48 Rue Lindberg",
+      "additional_address": null,
+      "zip_code": "59139",
+      "city_id": "92",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.0182971",
+      "latitude": "50.5462975",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:37:25",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:37:25",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJPSVjeQDTwkcRqjHIIzE5CxU",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJPSVjeQDTwkcRqjHIIzE5CxU\",\"rating\":5,\"user_rating_count\":3,\"google_maps_uri\":\"https://maps.google.com/?cid=1516368582756807082\",\"fetched_at\":\"2026-11-11T18:29:03+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-06-07T15:21:55+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Mwoe\",\"uri\":\"https://www.google.com/maps/contrib/113740146173164355994/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVI1jNzRTr-Ut0DQOnKVaCNSC97Klt4clGE9r4AbNVjk-ctCHZW=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-04-16T16:44:42+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"Romain Lapoulle\",\"uri\":\"https://www.google.com/maps/contrib/107328972284446728492/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXE69ncaRPBxFFaCwV0vewPot3kH6FQiYLpXWy1UosdWyN4_oJ_=s128-c0x00000000-cc-rp-mo\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"On mange assez bien ici, and le personnel est acceuillant ! C’est une grande raison pourquoi je fais mes stages à Seclin. L‘endroit est également propre et en bon état.\",\"language_code\":\"\",\"publish_time\":\"2025-10-31T19:31:30+00:00\",\"relative_publish_time\":\"il y a un an\",\"author\":{\"display_name\":\"Garret Girmus\",\"uri\":\"https://www.google.com/maps/contrib/106493711578823587967/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjW9EbpjCFLYAuBetccWp9ywhRoeHeyMDsvDm9NKqbDLp7vb-DpK=s128-c0x00000000-cc-rp-mo-ba5\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-11 18:29:03",
+      "google_reviews_place_id": "ChIJPSVjeQDTwkcRqjHIIzE5CxU",
+      "source_id": 5701,
+      "scope_type": "SHOP",
+      "scope_ref": "self-de-ghsc",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "wattignies",
+      "string_id": "self-de-ghsc"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54959",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5701_6af39ca5548a6.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4759",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33048",
+            "source_hourly_id": "4759",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33049",
+            "source_hourly_id": "4759",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33050",
+            "source_hourly_id": "4759",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33051",
+            "source_hourly_id": "4759",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33052",
+            "source_hourly_id": "4759",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "11:30",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33053",
+            "source_hourly_id": "4759",
+            "day_id": "6",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33054",
+            "source_hourly_id": "4759",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "self-de-ghsc",
+      "google_place_id": "ChIJPSVjeQDTwkcRqjHIIzE5CxU",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 11:30 – 14:00",
+          "mardi: 11:30 – 14:00",
+          "mercredi: 11:30 – 14:00",
+          "jeudi: 11:30 – 14:00",
+          "vendredi: 11:30 – 14:00",
+          "samedi: Fermé",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 3747,
+            "height": 2810,
+            "photo_reference": "AV-0GLcFIRXKhrzX7Xy7gamATWSf9JYRVogKY5K-4GFjTslpgssgsIASlAlTSmLH8GjpbhbZ27ooPTP-nyxdtC4eWetr7oO23yrKztYSnavQzi8VRYc-3WOxDA_l6chxHRXYPchiZYk8w3c8Jl9nyKomugfx5CL9XFEK8OXvbJqrO5DA2tnT-fpwuCKet-eF_9Gkm0f0k3I2rOE6jOryAMBnPcpaBher570nt4tS-LHmVJogX294iMhVsVP91e0tM_Zr_G-MLs_Cjbu0SwjadITlIQTQz6-8I17zpHfM6kNCNoNVUPPl3I1uJu9krLz0gZOpyLwnAZHeRYkmUecrypp0uwMOqieZNGJYduGm5os9-rRZ-8Hnv5rOEhoj5whApMn5Wb5cqdDsQHgngMooASjXVXy-1-x-9dQ0sqm40UY4WLGT",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106493711578823587967\">Garret Girmus</a>"
+            ]
+          },
+          {
+            "width": 3766,
+            "height": 2825,
+            "photo_reference": "AV-0GLcNLLabNaeXX1BjpQx-6d7SQnwO-YxahiKEXe_lK0Ao1TmKt5D209XRTTznyrbSmN9JO2UHwR8oGUh9luEOlnwlwLw_gAfeF3-wXjvuWwiG03cwYayw4v5hT6WaH1uzauE2cNlxODG2bFG4jw0t0tovom0Nc0-xxDHJZoJJdopP3o81rNdIvsRpNBxs7QFzG81QigCqCD85kTO0PRLN9XlrO0ZSAtibU6Jam4AAJv3eiBb_OqStPYq0meqgI-gW-EDfc2c6GE0SKiCr3f3DuiHXhbN4nU4UN-P26gIVa0wT6_5U2c9sWCo-iuVQfn3VfF3A5Iuw2lSPlnOPUssg-3N47QWBPU0Y8qWRxetgfy0cVj4rm1y7nUq1H4i6bW3P-6ibnJ8Zrp0EMDIQ8M99m_pniw7mjeD2sclO9tvnMJf9jA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106493711578823587967\">Garret Girmus</a>"
+            ]
+          },
+          {
+            "width": 3859,
+            "height": 2586,
+            "photo_reference": "AV-0GLfX11Z9d6PIBIzS4HwQLlR2Be0NvE2F1UvM56mSaPbj0cslq7dHIuoYnO7XIEf0HtmldcoqWEC69cvSc8JcpwuDyaxMeGzIpm2jSxWlddSGVpUi99ftci2-ODEH9iluJeLNvCzxtgpgfgOHMv8x54kFLV55XLbjFEcnE9RkvMJWpAlR2pUw27kuz_IbSaG4qxWMYEA2O2rPS969sz8LBD7iVxYMSvoAW8g8dyAaA68AAQBvW8fPjBJSw8LnM4MNElVLH7ADWYjVe3hpPoMr2PajL2U5o4xOjmKQwu2PFXX6BhkRR84J_FcP3BxIOVWy0lU-BTRUOgQrv_MJgHLKC3XyayHwCcg9_DRnSo7v0c1dydhO2bwZOVBvvkqeOeWCUXUEdVWiSMD8YLVUgz_adnxnzj4-MxV9y_BSkx30gMrx6Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106493711578823587967\">Garret Girmus</a>"
+            ]
+          },
+          {
+            "width": 3912,
+            "height": 2796,
+            "photo_reference": "AV-0GLffb3AHss6hW-utyP5YP825jgAozVDfBqGcH1KGRPIwCZsFY-vFmP906SRr-rWNGPZUw97sXysuRFG-79Amsf2zh8VmoiC4fszVxwBbmijKfyyZXX3mcX-aiouXbksUwG5pIAn9-U3hpkejAIVKkqHJRxN-YlcYeRxbI2jTCZ_S3v6G3bWyqbMPwbhxxWfnwd9uyZsWzYRhGSvvSs7yYv4-SOO4tywEGV1avV6WYTSIgZvpLeOeJJOXvYexFXCH0_73K6V2DyRKA3_KdZ6lmaopckl8IiZANuGSKTjDEDGdZiqx2Vn2zPlEJ5gzINX2Ev-O_8ULfS-fU9kqSgHtmaEJhvI1V7s2p2Mt9aoTxdPTpey-QamuNENeBEYV0BCg9op6gWSOuqaGI0ZYqHRWIZrEtaSEb6dzW6eWe1D_IIAxCQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106493711578823587967\">Garret Girmus</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5701
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "cache_fresh",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-06-07T15:21:55+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Mwoe",
+              "uri": "https://www.google.com/maps/contrib/113740146173164355994/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVI1jNzRTr-Ut0DQOnKVaCNSC97Klt4clGE9r4AbNVjk-ctCHZW=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-04-16T16:44:42+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "Romain Lapoulle",
+              "uri": "https://www.google.com/maps/contrib/107328972284446728492/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXE69ncaRPBxFFaCwV0vewPot3kH6FQiYLpXWy1UosdWyN4_oJ_=s128-c0x00000000-cc-rp-mo"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "On mange assez bien ici, and le personnel est acceuillant ! C’est une grande raison pourquoi je fais mes stages à Seclin. L‘endroit est également propre et en bon état.",
+            "language_code": "",
+            "publish_time": "2025-10-31T19:31:30+00:00",
+            "relative_publish_time": "il y a un an",
+            "author": {
+              "display_name": "Garret Girmus",
+              "uri": "https://www.google.com/maps/contrib/106493711578823587967/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjW9EbpjCFLYAuBetccWp9ywhRoeHeyMDsvDm9NKqbDLp7vb-DpK=s128-c0x00000000-cc-rp-mo-ba5"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "updated_at": "2026-11-11 18:29:03"
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1070,
+        "bo": 32,
+        "front": 1038,
+        "estimated_cost_eur": 1.75
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "La fiche indique is_active=\"0\" et listable=\"0\" ; vérifier son statut avant publication.",
+      "Les données ne précisent ni les plats, ni la vente à emporter, ni les modes de commande ou de paiement, ni l’accessibilité et les équipements."
+    ],
+    "rejected": [
+      {
+        "kind": "principal_characteristic",
+        "item": {
+          "field": "can_eat_here",
+          "value": 1,
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "primary_category_ref: restaurant; avis : « On mange assez bien ici »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "MealType",
+        "item": {
+          "string_id": "dejeuner",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–14:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "VisitMoment",
+        "item": {
+          "string_id": "midi",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du lundi au vendredi : 11:30–14:00"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Restaurant à Wattignies, ouvert en semaine de 11 h 30 à 14 h ; un avis indique qu’on y mange assez bien et que le personnel est accueillant."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "self-de-ghsc",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5701,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "76fb5b128f014b2ed2de8ff27a3c829f4e54ce3bc74584fa99ebf63203c34511",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

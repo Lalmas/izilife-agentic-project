@@ -1,0 +1,47 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "excellents-patisseries",
+        "confidence": 0.98,
+        "source_url": "izilife://current",
+        "evidence": "« les pâtisseries je n'en parle pas trop bon et léger »"
+      },
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.85,
+        "source_url": "izilife://current",
+        "evidence": "« Les sandwichs trop bon »"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Les sandwichs trop bon »"
+        },
+        {
+          "string_id": "gouter",
+          "confidence": 0.78,
+          "source_url": "izilife://current",
+          "evidence": "« les pâtisseries je n'en parle pas trop bon et léger »"
+        }
+      ]
+    },
+    "warnings": [
+      "Avis clients contrastés : un avis récent signale un accueil désagréable, tandis qu’un autre loue l’accueil et les produits."
+    ],
+    "summary": "Boulangerie-pâtisserie proposant notamment du pain, des viennoiseries, des pâtisseries et des sandwichs. Un avis mentionne aussi du pain pour les personnes diabétiques. Les informations fournies ne précisent pas les places assises, l’accessibilité, les moyens de paiement ni les modalités de commande."
+  },
+  "meta": {
+    "cache_key": "d3d320123c8a210bd22b28fc1de04ab9494bbba54597714e918a097983318c15",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

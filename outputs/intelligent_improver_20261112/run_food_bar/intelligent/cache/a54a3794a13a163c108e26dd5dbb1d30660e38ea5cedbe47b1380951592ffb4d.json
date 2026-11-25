@@ -1,0 +1,51 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "petit-budget",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "les prix sont corrects ; à des prix abordables"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "nous n'étions que 15"
+      },
+      {
+        "string_id": "lieu-de-vie-local",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "restaurant de quartier ; j'y vais régulièrement"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.95,
+        "source_url": "izilife://current",
+        "evidence": "les plats et l'accueil y sont excellents"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "nous n'étions que 15"
+      }
+    ],
+    "editorial": [],
+    "warnings": [],
+    "summary": "Restaurant de quartier proposant des plats du jour appréciés, à prix abordables, avec un accueil salué et une expérience positive pour un groupe de 15 personnes."
+  },
+  "meta": {
+    "cache_key": "a54a3794a13a163c108e26dd5dbb1d30660e38ea5cedbe47b1380951592ffb4d",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

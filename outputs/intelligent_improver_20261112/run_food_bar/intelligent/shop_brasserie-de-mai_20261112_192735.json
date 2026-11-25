@@ -1,0 +1,717 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T19:27:35",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-de-mai",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "brasserie-de-mai",
+    "status": "found",
+    "data": {
+      "id": "5568",
+      "name": "Brasserie de Mai",
+      "shop_string_id": "brasserie-de-mai",
+      "unique_id": "a23865c6d6f542bd506317c5a3951d9f",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "54824",
+      "principal_cover": "54824",
+      "qr_code": null,
+      "phone_number": "+33984211453",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "50 Rue Edouard Plachez",
+      "additional_address": null,
+      "zip_code": "62220",
+      "city_id": "867",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.9562372",
+      "latitude": "50.4917255",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:21:02",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:21:02",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJ-7r7Hmwt3UcRgIpAwUNkMKM",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": "{\"place_id\":\"ChIJ-7r7Hmwt3UcRgIpAwUNkMKM\",\"rating\":4.7,\"user_rating_count\":371,\"google_maps_uri\":\"https://maps.google.com/?cid=11759008869232183936\",\"fetched_at\":\"2026-11-12T19:27:18+01:00\",\"reviews\":[{\"name\":\"\",\"rating\":5,\"text\":\"Une très belle découverte au hasard de notre balade !\\n\\nNous sommes tombés sur la Brasserie de Mai un samedi, en plein marché, alors que nous cherchions désespérément un endroit sympathique où nous poser pour boire un café.\\n\\nBien qu’il s’agisse d’une brasserie artisanale, nous avons été très gentiment accueillis et servis en cafés, accompagnés d’une délicieuse spécialité locale : la tartine au maroilles !\\n\\nL’accueil était particulièrement chaleureux et convivial. Notre hôte, passionné et intarissable, a pris le temps de nous raconter l’histoire du lieu, de nous parler de ses bières et de partager quelques anecdotes locales. Nous sommes d’ailleurs repartis avec plusieurs bouteilles à déguster !\\n\\nLe lieu est plein de charme et semble également être un cadre formidable pour organiser des événements.\\n\\nUne très jolie découverte, totalement imprévue, comme on les aime lors de nos escapades. Merci pour ce beau moment de partage et d’authenticité !\",\"language_code\":\"\",\"publish_time\":\"2026-11-08T16:20:00+00:00\",\"relative_publish_time\":\"il y a moins d'une semaine\",\"author\":{\"display_name\":\"Aliette Balay\",\"uri\":\"https://www.google.com/maps/contrib/112848028770740523801/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLQIzjxWkkkHLWNlwBYXE7TLsZUQxumsGWuxrjI812YrKObyA=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-09-05T06:39:04+00:00\",\"relative_publish_time\":\"il y a 2 mois\",\"author\":{\"display_name\":\"Hervé DEBLOCK\",\"uri\":\"https://www.google.com/maps/contrib/100918311367493688919/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjXM27qP3FEl1amftTHV50e1bcrhXmLOheWIKm5S4Ty7CsVV-po=s128-c0x00000000-cc-rp-mo-ba2\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-08-04T14:07:50+00:00\",\"relative_publish_time\":\"il y a 3 mois\",\"author\":{\"display_name\":\"Dominique Poulin\",\"uri\":\"https://www.google.com/maps/contrib/102965868285501300337/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocLWW3qZ51pgFh5ybmSxYAyqSbkecbKRWb1a2LHBW9LYpExdrw=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":5,\"text\":\"\",\"language_code\":\"\",\"publish_time\":\"2026-05-21T15:22:54+00:00\",\"relative_publish_time\":\"il y a 5 mois\",\"author\":{\"display_name\":\"Laurent\",\"uri\":\"https://www.google.com/maps/contrib/107627004963087955127/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a-/ALV-UjVpy6ztGx9w9PDfebNfnSskA7TK0RxgYW8cCJfyF8duyoUImKZz=s128-c0x00000000-cc-rp-mo-ba4\"},\"google_maps_uri\":\"\"},{\"name\":\"\",\"rating\":4,\"text\":\"Un lieu a découvrir.\\nBon accueil\\nBâtiment ancien avec beaucoup de charme.\\nDégustation de bières et petits accompagnement, plus que sympathique.\\nLa partie compliqué reste le stationnement en ce centre ville.\",\"language_code\":\"\",\"publish_time\":\"2026-04-22T17:25:12+00:00\",\"relative_publish_time\":\"il y a 6 mois\",\"author\":{\"display_name\":\"Pierre\",\"uri\":\"https://www.google.com/maps/contrib/102530920148104990694/reviews\",\"photo_uri\":\"https://lh3.googleusercontent.com/a/ACg8ocK0wqP_GeVpkoqREfH6P2JYPG250vVRjgQsx9hbQXRHXDTCyw=s128-c0x00000000-cc-rp-mo-ba3\"},\"google_maps_uri\":\"\"}]}",
+      "google_reviews_updated_at": "2026-11-12 19:27:18",
+      "google_reviews_place_id": "ChIJ-7r7Hmwt3UcRgIpAwUNkMKM",
+      "source_id": 5568,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-mai",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "carvin",
+      "string_id": "brasserie-de-mai"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "54824",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5568_6af398ce0553a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4627",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "32124",
+            "source_hourly_id": "4627",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32125",
+            "source_hourly_id": "4627",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "12:30",
+            "with_break": "1",
+            "reopening_hour": " 14:0",
+            "reclosure_hour": "19:00",
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32126",
+            "source_hourly_id": "4627",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32127",
+            "source_hourly_id": "4627",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32128",
+            "source_hourly_id": "4627",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32129",
+            "source_hourly_id": "4627",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "10:00",
+            "closure_hour": "19:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "32130",
+            "source_hourly_id": "4627",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "brasserie-de-mai",
+      "google_place_id": "ChIJ-7r7Hmwt3UcRgIpAwUNkMKM",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 10:00 – 12:30, 14:00 – 19:00",
+          "mercredi: 10:00 – 19:00",
+          "jeudi: 10:00 – 19:00",
+          "vendredi: 10:00 – 21:00",
+          "samedi: 10:00 – 19:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 1448,
+            "height": 1086,
+            "photo_reference": "AV-0GLdJoZ09elcV14LX4InRfAhjxzSQ_nRIopnXKO-G2Qu5R-MEZQIebXA-F51xypRoHAhgrdXS3Imi6j6DE9v4hHtIAEiB_bwIQ2aCWNLZNiQwndrKWQGPpwWwSc7Q4Aj_CuXdCFNlmHfVPoE64MGoHNkHM3AcpcFGWs7GhnAqbRZhyNATXPxDsE3AsJlw-iqy03iKcd-zoGveeDbLVpinC6eflR-ALdXozSTyDy5hFAp_CkgPJOGw_9wowoS5bDJIznwv87fM3qCwBzkXiA1JodTtBaI8CgTLxEoH0-8eCmv-DDxdC3Wl7Ts2kUIzktfcdF2Ruh5pVjsEeMCDyByLyB8Jo_5e582oPn9w0jA96_8oU897-UZ4WuV9_HknspsaZnIGP9Xi6fIgGBRtGgGQrMKQ0QliuEpo_T3vfexg-iAOKQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 1200,
+            "height": 799,
+            "photo_reference": "AV-0GLfmNzfsdX5aOPKAQe_1Gk2JjK4gJEx9vBnNKIZjjTcFWp7hLs-_2MY8zPGCNQdIqHz6bkZX44aGTHCwF74EQqo7_bH5iDvpdb6qIWjsp6CpLDjPBc-G0fgUVmh5cf1bQQtS3uSbVh-VgfvIACMxH5YX60OqAPjCpOO2XhnAX2nqFw9SP_gjM98655yOOzKTy6M7V_b_94he9U-iuid4zpMkld-4CetXESGhyzbHimiLw6fGuy7M6GiJqJ0eFrS4hIJmaq0Yzl3jHdMbvHeXKubD4bpDoKu-XoprkFnKioXFzFA-JFBXNwdK4xuDlIL5NshLmsZHXMErzZZTP7ReJ04zfyeqrYcXX4RMn3Uj_g-UdDqh1sWnfb8ga2HlEfJoYxV8F6pKPUPdNNjqIiLbbZslYhbvNatWEDyd312-44bFjg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 3120,
+            "height": 4160,
+            "photo_reference": "AV-0GLdHinBnExqDqcNTjHf-cFPmYDdowz1YmxH1oM5aHllHDZkaBnX9_BJV_Yr4z12P460FtcAH6JuVbpGjeQSEhFZpfslmTE38OFcqivj1Awf0a_ptHPHYzlABQYM60HMzxxC93p7CM_Ng-iQTtplsumzfB889zA8F1ToUHS4IcA2YDFEr9qdTT5i_kcddWasktctP5uM7oshUQih1yUmLdQbm8X1BScjKJj1Zw4oajcOsxhIDcq7GP_g86_c4u-KkA0f4rqA8vnDDCTCX9LMYCoFtkuXLjl_dNjj-CQjI9-RpGPGzlRi8-w_8yXtSsJwehkLm6GRiygDBJIL8fpP2n5h0JVKCT-ac0F12bRc44hN0o9T3iKA6Du8et2LVfSNrAJwjtP8qQFXgOaf4kq5a1HZFfoU",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcDmzUvVLhprywqQ1xp3LJat0hgKizGU_kYwAQeLWZmF2MBLuWEi0fhFPezhtvkSMJ5xxhdES6nDmN6AfawvRVw0PoigbTKOr94l3V7qSxiOpm-No4L8YFiC1qFJ1kdQtjr73Qv70-f2dd-sW33G5-Ha5xzREtgwrxTxSbJWCII1eq_YuQ4rwiiMwI8IIvjPWR9XB-MRrwrNeEEyo6cJa4n08yvhxNBmHaxvLeplq-f61omHyXaiPty0RpwHozIV4DfQW1z8pKroyIukiwgpr_DWKepCn1JgTGVsar1velMxoFryA7S5GWNYjXMr6owKUrWOG7kQDnC6WESKLQSIj-cinkG_-B0cgSY0TFktb3czIRUQZ4WpyYxh5rlY2B_YignaC_dyP7lPZeTvM1LlT8Lwg4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106898817490099949465\">olivier marais</a>"
+            ]
+          },
+          {
+            "width": 2400,
+            "height": 2400,
+            "photo_reference": "AV-0GLc7HQ8fHpNQ-Exos7qhxebJn4IQY-UCQKkAGuuJMLvpeVCgig4Ad091JHQPWZo1DK9WyCqNQX7Ra__fgrVxGN2Us5AGPctYoVHk6AQlAYRAl2eVfY1CKOG7h3XHot8fLbjH3d8rQ71QQwpMCf_OWBZl18xkKgIvhZEVNKAK7W2Sy6VbJyNTklN15ThyeblV8mfYotnSG3u2KeQRLedPC51CulPpZwZ_Eji2JmReJvNr-ycAaNkQDgOVAI5PoUO60Fu_lyyQBRImJEa3xiYcC91SsQOM4g-K4U2dkELuN52M0AT2e4KuFAx19N4JFkGTgG8_aq1613CpmCDCgw-SGX3NGleFDq8SNEUIalg_q54ZVj9tEQ_VvscrmEXZA-Y_-fQ8PBVkygXU-__eqZezb8xfiwfEGOvybMF9Gt4nCfsH",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 2304,
+            "height": 4096,
+            "photo_reference": "AV-0GLcTiBgkGWxZs4dOmiGEpPBCy7MVIBJwJfBi4swfvTfx4Nyamehx9fSje77ZlLG7_JICGXWki8BGyfRjSpt-lll-AUPyJ1FMhSYc1c1iYBPjLLVXVe7-z3yGYOty7Uyr-hqv1qTcncodI39Opm-L5-67bk-xms60N4fEDkbxp8VVSYUm17J3wfeCR0QZsDfc1QibQEbj1hl7gXdNUSK53PU3A0SuP9LguqO6bsia8Pj6MJqZDqtFWRZ0E6ckBK9xQa1ewBO0fipibpfTAMIH2tqSumof2NZo2OWnZJGqjyBuTtmOWdfSPMoF6hyOozpUPUUqTHy0w5w1rRvPQQjAdS6sjipmuAT1EvNJK359GeI4NGluGHLxaplqflVO-bfUxPe_NG-2IPGM-TiEB6fp_n14n2t-vvYP3cX9PdWO54teFA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/107293359915162161992\">Daniel FASTYN</a>"
+            ]
+          },
+          {
+            "width": 4624,
+            "height": 3472,
+            "photo_reference": "AV-0GLcN9bZOC7eetO3VtO1T9kvi2kQ866KpU7HLH4g-2z3_9o-PgSU3IRsjbvWdFeNAizo3aY9KCU43NVGaf6ShrT96FczGqFXOqi7ST7LLcDGBbqa8k9huB5UecwCM0ydaJEeAMNwvn8ibZzOkNKB1qswR4ORd5epfwtjAYJBNvu70QUCJjl1SN8RQTbBSJyky3CZGRcQBImnky9-QUIYw8j1O675e6CYXIUisYGOG1la0jblLoOGA8ZRCbx4hsKaSbrSBL3cyw4nYsrUEEVEW2k3vI22X-Chq-mPOK8ts4RZ3BRC_O9GhACADu_4tHQpfjDMswkN3OoJgyJvdvvecpeVlWmHJwR35hdh40snMqWKxKCXBd_OqjW3EEUTI0iod6qprgzda-WWnB_2st_6Xyuhau0n0hEwnr_nr3xraZCQLrg",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 1960,
+            "photo_reference": "AV-0GLdinsrvFhaydFZOCQ_nPxZhgRmRhU8tmj_Lx7COD5IB9OwiiGqCP7TR8mYxGvY-ikjYI06vsgri7SVTUhw2MkITfKPYx12_wQOWC_ClqJpM0HC1StBXVLRZsDLbizgRQOEetOX6AjlKzWtX6Ygbb07F6XEW5D58bRvS8IzEHKS1PHOtoPxpGeXKCowgOmdt2CQqvZBjs00eB6w5BadE36E_5jpqG1Lr23DUbLS-J_64-MG8NbggxlTsyEd_r9b_MuywRUPCq523KKmcIu2CvJFgNMP3G_YXc00RkXniXFCmsC88LxKdFdNG8JdcPaUHWMe7voNdp1qP02IsGjfvJlSgG-WiSgD_Y7Gwi0WHe_caeMQrujyR4HrDvtaVPvlcZbRXQCtN6CMibfoST3_w4r1fbvWA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114096630927280608507\">Alain Dubois</a>"
+            ]
+          },
+          {
+            "width": 1800,
+            "height": 2400,
+            "photo_reference": "AV-0GLeGZk3XqGImqr8t8CxN3HcRrfTeIYZwh3tK0sidibsB_UWKlmuvit-vbpPdgPjdWs-SYi4Dfo5Fn0WEh5OLbw6PdcYJdId4jyGVd7_3HRsaDgbubEpY-ghjIJT-m26DH2hkD47hhtVrMMx1j69M7NcqI3A9vMT_aSMxuynBKfTsCrK4LyAq4dEVlXxaZszXOAFdWE0a8MdaL1Rymr52VPKjTZc63rRnOP8S9gwT-_TcYf8720IqT1UHEGGVpg7wuag0aUJgdAYTEQ6zgLSqYQH39I01D5UJPPJhcFw00FstConNH95jISD-1LP9WFB3Y4Y80n0qxyD-VN53EEM4qggZQI60hlA6LtWayVkp1_n7Ch--zUeEOSP4YIV4oBPIoXouirTBjj4vnm9hwe-DdLvREaAGPtqWHWxHF-SV-t9K6g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          },
+          {
+            "width": 1802,
+            "height": 2400,
+            "photo_reference": "AV-0GLc7dQcHGLt0kuQ6pi0QNvoGLOKmaZcMFOlIyIXxtNKA3p3CX_w02P-pWpkTqyP_v1J1yaTi6X4WUmTnQh3I_Ks5i5ESLGRMwQ8ReaYRNCSJr7S6MMtbLzNLIqkfTbw1OVEvhPQqntUG8OsjO1heEMAsiy4YGr8ou2NY_6IfcB24L5G_lFSI1JQLAOmik7bhxbqI6_ekrFxPvg1LgtVZJQzH1aGpednjmGJ_5nHArjuYXK2gg5zB8qHvO7aCLmSgx4_tjxoxJAw05rKyAZJvt_CX5JrYIrYIlD1cQOwjMDr1lRd5fF8E8J6MUJt43bO9V3CivkSGkdCrmHDCq5GNBPHEhnLOrlx4FjEp6sdUM4L38z2rarvng84j1c-bQKl_NlD5_v7jHhz7Czc-rGmrPiXv9d_D_119QE2k9pxqD0vuXw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/114292115527696730116\">Brasserie de Mai</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5568
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "refreshed",
+        "reviews": [
+          {
+            "name": "",
+            "rating": 5,
+            "text": "Une très belle découverte au hasard de notre balade !\n\nNous sommes tombés sur la Brasserie de Mai un samedi, en plein marché, alors que nous cherchions désespérément un endroit sympathique où nous poser pour boire un café.\n\nBien qu’il s’agisse d’une brasserie artisanale, nous avons été très gentiment accueillis et servis en cafés, accompagnés d’une délicieuse spécialité locale : la tartine au maroilles !\n\nL’accueil était particulièrement chaleureux et convivial. Notre hôte, passionné et intarissable, a pris le temps de nous raconter l’histoire du lieu, de nous parler de ses bières et de partager quelques anecdotes locales. Nous sommes d’ailleurs repartis avec plusieurs bouteilles à déguster !\n\nLe lieu est plein de charme et semble également être un cadre formidable pour organiser des événements.\n\nUne très jolie découverte, totalement imprévue, comme on les aime lors de nos escapades. Merci pour ce beau moment de partage et d’authenticité !",
+            "language_code": "",
+            "publish_time": "2026-11-08T16:20:00+00:00",
+            "relative_publish_time": "il y a moins d'une semaine",
+            "author": {
+              "display_name": "Aliette Balay",
+              "uri": "https://www.google.com/maps/contrib/112848028770740523801/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLQIzjxWkkkHLWNlwBYXE7TLsZUQxumsGWuxrjI812YrKObyA=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-09-05T06:39:04+00:00",
+            "relative_publish_time": "il y a 2 mois",
+            "author": {
+              "display_name": "Hervé DEBLOCK",
+              "uri": "https://www.google.com/maps/contrib/100918311367493688919/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjXM27qP3FEl1amftTHV50e1bcrhXmLOheWIKm5S4Ty7CsVV-po=s128-c0x00000000-cc-rp-mo-ba2"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-08-04T14:07:50+00:00",
+            "relative_publish_time": "il y a 3 mois",
+            "author": {
+              "display_name": "Dominique Poulin",
+              "uri": "https://www.google.com/maps/contrib/102965868285501300337/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocLWW3qZ51pgFh5ybmSxYAyqSbkecbKRWb1a2LHBW9LYpExdrw=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 5,
+            "text": "",
+            "language_code": "",
+            "publish_time": "2026-05-21T15:22:54+00:00",
+            "relative_publish_time": "il y a 5 mois",
+            "author": {
+              "display_name": "Laurent",
+              "uri": "https://www.google.com/maps/contrib/107627004963087955127/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a-/ALV-UjVpy6ztGx9w9PDfebNfnSskA7TK0RxgYW8cCJfyF8duyoUImKZz=s128-c0x00000000-cc-rp-mo-ba4"
+            },
+            "google_maps_uri": ""
+          },
+          {
+            "name": "",
+            "rating": 4,
+            "text": "Un lieu a découvrir.\nBon accueil\nBâtiment ancien avec beaucoup de charme.\nDégustation de bières et petits accompagnement, plus que sympathique.\nLa partie compliqué reste le stationnement en ce centre ville.",
+            "language_code": "",
+            "publish_time": "2026-04-22T17:25:12+00:00",
+            "relative_publish_time": "il y a 6 mois",
+            "author": {
+              "display_name": "Pierre",
+              "uri": "https://www.google.com/maps/contrib/102530920148104990694/reviews",
+              "photo_uri": "https://lh3.googleusercontent.com/a/ACg8ocK0wqP_GeVpkoqREfH6P2JYPG250vVRjgQsx9hbQXRHXDTCyw=s128-c0x00000000-cc-rp-mo-ba3"
+            },
+            "google_maps_uri": ""
+          }
+        ],
+        "rating": 4.7,
+        "user_rating_count": 371
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1075,
+        "bo": 37,
+        "front": 1038,
+        "estimated_cost_eur": 1.875
+      }
+    }
+  },
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-apero",
+        "confidence": 0.88,
+        "source_url": "izilife://current",
+        "evidence": "« Dégustation de bières et petits accompagnement »"
+      },
+      {
+        "string_id": "spot-pour-se-poser",
+        "confidence": 0.9,
+        "source_url": "izilife://current",
+        "evidence": "« un endroit sympathique où nous poser »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "« un cadre formidable pour organiser des événements »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.94,
+        "source_url": "izilife://current",
+        "evidence": "« accompagnés d’une délicieuse spécialité locale : la tartine au maroilles »"
+      },
+      {
+        "field": "can_drink_coffee",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« servis en cafés »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.99,
+        "source_url": "izilife://current",
+        "evidence": "« Dégustation de bières »"
+      },
+      {
+        "field": "sell_alcool",
+        "value": 1,
+        "confidence": 0.93,
+        "source_url": "izilife://current",
+        "evidence": "« repartis avec plusieurs bouteilles à déguster »"
+      },
+      {
+        "field": "adapted_to_groups",
+        "value": 1,
+        "confidence": 0.75,
+        "source_url": "izilife://current",
+        "evidence": "« un cadre formidable pour organiser des événements »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« L’accueil était particulièrement chaleureux et convivial »"
+        }
+      ],
+      "Hobby": [
+        {
+          "string_id": "cafe",
+          "confidence": 0.98,
+          "source_url": "izilife://current",
+          "evidence": "« servis en cafés »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "aperitif",
+          "confidence": 0.82,
+          "source_url": "izilife://current",
+          "evidence": "« Dégustation de bières et petits accompagnement »"
+        }
+      ],
+      "OrderMethod": [
+        {
+          "string_id": "a-emporter",
+          "confidence": 0.88,
+          "source_url": "izilife://current",
+          "evidence": "« repartis avec plusieurs bouteilles à déguster »"
+        }
+      ]
+    },
+    "warnings": [],
+    "rejected": [
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "consommation-sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« un endroit sympathique où nous poser »; servis en cafés et tartine au maroilles"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "tag",
+        "item": {
+          "string_id": "parfait-week-end",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "« un samedi, en plein marché »; « une très jolie découverte »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "biere",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous parler de ses bières »; « Dégustation de bières »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "Hobby",
+        "item": {
+          "string_id": "boire",
+          "confidence": 0.9,
+          "source_url": "izilife://current",
+          "evidence": "« nous cherchions [...] un endroit sympathique où nous poser pour boire un café »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      },
+      {
+        "kind": "editorial",
+        "family": "OrderMethod",
+        "item": {
+          "string_id": "sur-place",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "« nous poser pour boire un café »; « servis en cafés »"
+        },
+        "reason": "preuve non retrouvée mot pour mot dans la source"
+      }
+    ],
+    "summary": "Brasserie artisanale accueillante et conviviale, où l’on peut boire un café, déguster des bières avec de petits accompagnements et repartir avec des bouteilles. Une tartine au maroilles est mentionnée parmi les spécialités servies. Le lieu est aussi décrit comme adapté à l’organisation d’événements."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "brasserie-de-mai",
+    "operation": "ADD",
+    "tags": [
+      "bon-pour-apero",
+      "spot-pour-se-poser"
+    ],
+    "principal_characteristics": {
+      "can_eat_here": 1,
+      "can_drink_coffee": 1,
+      "can_drink_alcool": 1,
+      "sell_alcool": 1
+    },
+    "editorial": {
+      "Atmosphere": [
+        "chaleureux"
+      ],
+      "Hobby": [
+        "cafe"
+      ],
+      "MealType": [
+        "aperitif"
+      ],
+      "OrderMethod": [
+        "a-emporter"
+      ]
+    }
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5568,
+    "changed": [
+      "ShopCharactTag:+",
+      "ShopCharactTag:+",
+      "ShopAtmosphere:+",
+      "ShopHobby:+",
+      "ShopMealType:+",
+      "ShopOrderMethod:+",
+      "PrincipalCharacteristics"
+    ]
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": true,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "13f0857b0fcb99055f275aa1ccaffd92de24189e52e648d80ed1e24a01e634ae",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

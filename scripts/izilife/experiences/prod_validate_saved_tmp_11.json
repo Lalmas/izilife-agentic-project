@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:00:34.756465",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 11,
+      "title": "Découvrez la réalité virtuelle à travers des expériences uniques",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "needs_review",
+      "application": {
+        "success": true,
+        "tmp_id": 11,
+        "blockers": [
+          "unite_duree"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "unite_duree"
+          ]
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:00:34.946104"
+}

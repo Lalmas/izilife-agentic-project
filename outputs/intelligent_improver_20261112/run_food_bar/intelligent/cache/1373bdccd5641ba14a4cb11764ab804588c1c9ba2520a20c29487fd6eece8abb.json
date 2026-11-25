@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "bon-pour-gouter",
+        "confidence": 0.84,
+        "source_url": "izilife://current",
+        "evidence": "vend des tartes, des desserts, des brioches et des cakes"
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "gouter",
+          "confidence": 0.8,
+          "source_url": "izilife://current",
+          "evidence": "vend des tartes, des desserts, des brioches et des cakes"
+        },
+        {
+          "string_id": "petit-dejeuner",
+          "confidence": 0.72,
+          "source_url": "izilife://current",
+          "evidence": "vend des pains bio et des viennoiseries"
+        }
+      ]
+    },
+    "warnings": [
+      "Les données ne précisent pas la consommation sur place ou à emporter, l’accessibilité, les moyens de paiement, ni les équipements et services."
+    ],
+    "summary": "Boulangerie proposant des pains bio, des viennoiseries, des tartes, des desserts, des brioches et des cakes."
+  },
+  "meta": {
+    "cache_key": "1373bdccd5641ba14a4cb11764ab804588c1c9ba2520a20c29487fd6eece8abb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

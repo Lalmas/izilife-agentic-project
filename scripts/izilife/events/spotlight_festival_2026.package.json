@@ -1,0 +1,870 @@
+{
+  "schema_version": "izi.event.package.v1",
+  "package_kind": "EVENT_GRAPH",
+  "publication": {"activate": true},
+  "root": {
+    "type": "EVENT_SERIE",
+    "data": {
+      "name": "Spotlight Festival",
+      "string_id": "spotlight-festival",
+      "description": "Festival d'humour organisé par Le Spotlight dans la métropole lilloise.",
+      "event_category_ref": "festival",
+      "is_active": false
+    },
+    "sources": [
+      {
+        "url": "https://festival-spotlight.fr/",
+        "kind": "OFFICIAL"
+      }
+    ]
+  },
+  "events": [
+    {
+      "client_ref": "spotlight-festival-2026",
+      "relation": "ROOT_EDITION",
+      "data": {
+        "title": "Spotlight Festival — 4e édition",
+        "event_string_id": "spotlight-festival-2026",
+        "event_category_ref": "festival",
+        "start_date": "2026-11-13",
+        "start_hour": "00:00",
+        "end_date": "2026-11-29",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "source_url": "https://festival-spotlight.fr/programmation",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://festival-spotlight.fr/programmation",
+          "kind": "OFFICIAL_PROGRAM"
+        }
+      ]
+    },
+    {
+      "client_ref": "clement-blouin-13",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Clément Blouin — Magicien c'est pas un métier",
+        "event_string_id": "spotlight-festival-2026-clement-blouin-13",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-13",
+        "start_hour": "19:00",
+        "end_date": "2026-11-13",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462801",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462801",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462801",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "clement-blouin-14-19",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Clément Blouin — Magicien c'est pas un métier",
+        "event_string_id": "spotlight-festival-2026-clement-blouin-14-19",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-14",
+        "start_hour": "19:00",
+        "end_date": "2026-11-14",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462815",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462815",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/403932-clement-blouin-magicien-cest-pas-un-metier?eventDate=2462815",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "leo-hardt",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Léo Hardt — L'Écorché Mou",
+        "event_string_id": "spotlight-festival-2026-leo-hardt",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-16",
+        "start_hour": "19:00",
+        "end_date": "2026-11-16",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/166512-leo-hardt-lecorche-mou?eventDate=2737445",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/166512-leo-hardt-lecorche-mou?eventDate=2737445",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/166512-leo-hardt-lecorche-mou?eventDate=2737445",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "remy-golo",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Rémy Golo — Qui ?",
+        "event_string_id": "spotlight-festival-2026-remy-golo",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-16",
+        "start_hour": "21:00",
+        "end_date": "2026-11-16",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/491524-remy-golo-qui?eventDate=2899201",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/491524-remy-golo-qui?eventDate=2899201",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/491524-remy-golo-qui?eventDate=2899201",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "delphine-bougard",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Delphine Bougard — Balance ton Olympe",
+        "event_string_id": "spotlight-festival-2026-delphine-bougard",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-17",
+        "start_hour": "19:00",
+        "end_date": "2026-11-17",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/676655-delphine-bougard-balance-ton-olympe?eventDate=2608753",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/676655-delphine-bougard-balance-ton-olympe?eventDate=2608753",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/676655-delphine-bougard-balance-ton-olympe?eventDate=2608753",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "stephanie-machart",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Stéphanie Machart — Entre-deux",
+        "event_string_id": "spotlight-festival-2026-stephanie-machart",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-18",
+        "start_hour": "19:00",
+        "end_date": "2026-11-18",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/311503-stephanie-machart-entre-deux?eventDate=2953842",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/311503-stephanie-machart-entre-deux?eventDate=2953842",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/311503-stephanie-machart-entre-deux?eventDate=2953842",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "magali-gio",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Magali Gio — Bagage Cabine",
+        "event_string_id": "spotlight-festival-2026-magali-gio",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-18",
+        "start_hour": "21:00",
+        "end_date": "2026-11-18",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/653325-magali-gio-bagage-cabine?eventDate=2753986",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/653325-magali-gio-bagage-cabine?eventDate=2753986",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/653325-magali-gio-bagage-cabine?eventDate=2753986",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "antoine-leroux",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Antoine Leroux — MAGIC",
+        "event_string_id": "spotlight-festival-2026-antoine-leroux",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-19",
+        "start_hour": "19:00",
+        "end_date": "2026-11-19",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/152231-antoine-leroux-magic?eventDate=2591932",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/152231-antoine-leroux-magic?eventDate=2591932",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/152231-antoine-leroux-magic?eventDate=2591932",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "celine-riou",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Céline Riou — C'est drôle la vie",
+        "event_string_id": "spotlight-festival-2026-celine-riou",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-19",
+        "start_hour": "21:00",
+        "end_date": "2026-11-19",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/229713-celine-riou-cest-drole-la-vie?eventDate=2594396",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/229713-celine-riou-cest-drole-la-vie?eventDate=2594396",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/229713-celine-riou-cest-drole-la-vie?eventDate=2594396",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "nadia-richard-20",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Nadia Richard — Pourquoi j'attire les connards",
+        "event_string_id": "spotlight-festival-2026-nadia-richard-20",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-20",
+        "start_hour": "19:00",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2525384",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2525384",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2525384",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "florian-lex",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Florian Lex — Imparfaits",
+        "event_string_id": "spotlight-festival-2026-florian-lex",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-20",
+        "start_hour": "20:00",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "hem",
+        "address": "Le Zéphyr",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/685482-florian-lex-imparfaits?eventDate=2654239",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/685482-florian-lex-imparfaits?eventDate=2654239",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/685482-florian-lex-imparfaits?eventDate=2654239",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "christophe-aleveque",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Christophe Alévêque — Revue de Presse",
+        "event_string_id": "spotlight-festival-2026-christophe-aleveque",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-20",
+        "start_hour": "21:00",
+        "end_date": "2026-11-20",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/353076-christophe-aleveque-revue-de-presse?eventDate=2561323",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/353076-christophe-aleveque-revue-de-presse?eventDate=2561323",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/353076-christophe-aleveque-revue-de-presse?eventDate=2561323",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "patrick-chanfray",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Patrick Chanfray — Advienne que devra",
+        "event_string_id": "spotlight-festival-2026-patrick-chanfray",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-21",
+        "start_hour": "17:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/712135-patrick-chanfray-advienne-que-devra?eventDate=2744137",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/712135-patrick-chanfray-advienne-que-devra?eventDate=2744137",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/712135-patrick-chanfray-advienne-que-devra?eventDate=2744137",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "nadia-richard-21",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Nadia Richard — Pourquoi j'attire les connards",
+        "event_string_id": "spotlight-festival-2026-nadia-richard-21",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-21",
+        "start_hour": "19:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2555631",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2555631",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/660297-nadia-richard-pourquoi-jattire-les-connards?eventDate=2555631",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "edouard-deloignon",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Édouard Deloignon — Grandira plus tard",
+        "event_string_id": "spotlight-festival-2026-edouard-deloignon",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-21",
+        "start_hour": "20:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "hem",
+        "address": "Le Zéphyr",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/660703-edouard-deloignon-grandira-plus-tard?eventDate=2526770",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/660703-edouard-deloignon-grandira-plus-tard?eventDate=2526770",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/660703-edouard-deloignon-grandira-plus-tard?eventDate=2526770",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "thomas-deseur-21",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Thomas Deseur — Melon.",
+        "event_string_id": "spotlight-festival-2026-thomas-deseur-21",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-21",
+        "start_hour": "20:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Théâtre Sébastopol",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/713423-thomas-deseur-melon?eventDate=2747952",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/713423-thomas-deseur-melon?eventDate=2747952",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/713423-thomas-deseur-melon?eventDate=2747952",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "sandra-colombo",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Sandra Colombo — Que Faire des Cons ?",
+        "event_string_id": "spotlight-festival-2026-sandra-colombo",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-21",
+        "start_hour": "21:00",
+        "end_date": "2026-11-21",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/312777-sandra-colombo-que-faire-des-cons?eventDate=2674433",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/312777-sandra-colombo-que-faire-des-cons?eventDate=2674433",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/312777-sandra-colombo-que-faire-des-cons?eventDate=2674433",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "julie-conti",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Julie Conti — Nuances",
+        "event_string_id": "spotlight-festival-2026-julie-conti",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-24",
+        "start_hour": "19:00",
+        "end_date": "2026-11-24",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/797737-julie-conti-nuances?eventDate=3023660",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/797737-julie-conti-nuances?eventDate=3023660",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/797737-julie-conti-nuances?eventDate=3023660",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "lala-sagna",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Lala Sagna — La grande classe",
+        "event_string_id": "spotlight-festival-2026-lala-sagna",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-24",
+        "start_hour": "21:00",
+        "end_date": "2026-11-24",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/543635-lala-sagna-la-grande-classe?eventDate=2926641",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/543635-lala-sagna-la-grande-classe?eventDate=2926641",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/543635-lala-sagna-la-grande-classe?eventDate=2926641",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "remi-boyes-19",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Rémi Boyes — Bombus Terrestris",
+        "event_string_id": "spotlight-festival-2026-remi-boyes-19",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-25",
+        "start_hour": "19:00",
+        "end_date": "2026-11-25",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "remi-boyes-21",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Rémi Boyes — Bombus Terrestris",
+        "event_string_id": "spotlight-festival-2026-remi-boyes-21",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-25",
+        "start_hour": "21:00",
+        "end_date": "2026-11-25",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/652653-remi-boyes-bombus-terrestris?eventDate=2481984",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "sarah-lele",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Sarah Lélé — La mauvaise éducation",
+        "event_string_id": "spotlight-festival-2026-sarah-lele",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-26",
+        "start_hour": "19:00",
+        "end_date": "2026-11-26",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://festival-spotlight.fr/programmation",
+        "source_url": "https://festival-spotlight.fr/programmation",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://festival-spotlight.fr/programmation",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "cecile-marx",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Cécile Marx — Iconique",
+        "event_string_id": "spotlight-festival-2026-cecile-marx",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-26",
+        "start_hour": "20:00",
+        "end_date": "2026-11-26",
+        "end_hour": "23:59",
+        "city_ref": "marcq-en-baroeul",
+        "address": "Théâtre Charcot",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/684334-cecile-marx-iconique?eventDate=2649871",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/684334-cecile-marx-iconique?eventDate=2649871",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/684334-cecile-marx-iconique?eventDate=2649871",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "veronique-gallo-26",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Véronique Gallo — La vraie vie",
+        "event_string_id": "spotlight-festival-2026-veronique-gallo-26",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-26",
+        "start_hour": "21:00",
+        "end_date": "2026-11-26",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462486",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462486",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462486",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "marie-reno",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Marie Reno — Marie en solo",
+        "event_string_id": "spotlight-festival-2026-marie-reno",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-27",
+        "start_hour": "19:00",
+        "end_date": "2026-11-27",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/651360-marie-reno-marie-en-solo?eventDate=2477527",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/651360-marie-reno-marie-en-solo?eventDate=2477527",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/651360-marie-reno-marie-en-solo?eventDate=2477527",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "florence-mendez",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Florence Mendez — Délicate",
+        "event_string_id": "spotlight-festival-2026-florence-mendez",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-27",
+        "start_hour": "20:00",
+        "end_date": "2026-11-27",
+        "end_hour": "23:59",
+        "city_ref": "marcq-en-baroeul",
+        "address": "Théâtre Charcot",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/694189-florence-mendez-delicate?eventDate=2683568",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/694189-florence-mendez-delicate?eventDate=2683568",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/694189-florence-mendez-delicate?eventDate=2683568",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "veronique-gallo-27",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Véronique Gallo — La vraie vie",
+        "event_string_id": "spotlight-festival-2026-veronique-gallo-27",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-27",
+        "start_hour": "21:00",
+        "end_date": "2026-11-27",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462493",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462493",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462493",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "samuel-certenais",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Samuel Certenais — Garçon",
+        "event_string_id": "spotlight-festival-2026-samuel-certenais",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-28",
+        "start_hour": "17:00",
+        "end_date": "2026-11-28",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/463216-samuel-certenais-garcon?eventDate=2781188",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/463216-samuel-certenais-garcon?eventDate=2781188",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/463216-samuel-certenais-garcon?eventDate=2781188",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "sarah-anna",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Sarah-Anna — Salé",
+        "event_string_id": "spotlight-festival-2026-sarah-anna",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-28",
+        "start_hour": "19:00",
+        "end_date": "2026-11-28",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/653087-sarah-anna-dans-sale?eventDate=2482915",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/653087-sarah-anna-dans-sale?eventDate=2482915",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/653087-sarah-anna-dans-sale?eventDate=2482915",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "laura-calu",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Laura Calu — Senk",
+        "event_string_id": "spotlight-festival-2026-laura-calu",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-28",
+        "start_hour": "20:00",
+        "end_date": "2026-11-28",
+        "end_hour": "23:59",
+        "city_ref": "hem",
+        "address": "Le Zéphyr",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/719037-laura-callu-senk?eventDate=2765172",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/719037-laura-callu-senk?eventDate=2765172",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/719037-laura-callu-senk?eventDate=2765172",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "veronique-gallo-28",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Véronique Gallo — La vraie vie",
+        "event_string_id": "spotlight-festival-2026-veronique-gallo-28",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-28",
+        "start_hour": "21:00",
+        "end_date": "2026-11-28",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462500",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462500",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/647792-veronique-gallo-la-vraie-vie?eventDate=2462500",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "veronique-gallo-29",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Véronique Gallo — La vraie vie",
+        "event_string_id": "spotlight-festival-2026-veronique-gallo-29",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-29",
+        "start_hour": "16:00",
+        "end_date": "2026-11-29",
+        "end_hour": "23:59",
+        "city_ref": "bondues",
+        "address": "Espace Culturel de Bondues",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/730629-veronique-gallo-la-vraie-vie-a-lespace-culturel-de-bondues?eventDate=2808187",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/730629-veronique-gallo-la-vraie-vie-a-lespace-culturel-de-bondues?eventDate=2808187",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/730629-veronique-gallo-la-vraie-vie-a-lespace-culturel-de-bondues?eventDate=2808187",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    },
+    {
+      "client_ref": "thomas-croisiere",
+      "relation": "CHILD",
+      "parent_ref": "spotlight-festival-2026",
+      "data": {
+        "title": "Thomas Croisière — La comédie contre-attaque",
+        "event_string_id": "spotlight-festival-2026-thomas-croisiere",
+        "event_category_ref": "stand-up",
+        "start_date": "2026-11-29",
+        "start_hour": "17:00",
+        "end_date": "2026-11-29",
+        "end_hour": "23:59",
+        "city_ref": "lille",
+        "address": "Le Spotlight",
+        "access_link": "https://billetterie-spotlight.mapado.com/event/702022-thomas-croisiere-la-comedie-contre-attaque?eventDate=2709916",
+        "source_url": "https://billetterie-spotlight.mapado.com/event/702022-thomas-croisiere-la-comedie-contre-attaque?eventDate=2709916",
+        "is_active": false
+      },
+      "sources": [
+        {
+          "url": "https://billetterie-spotlight.mapado.com/event/702022-thomas-croisiere-la-comedie-contre-attaque?eventDate=2709916",
+          "kind": "OFFICIAL_TICKETING"
+        }
+      ]
+    }
+  ]
+}

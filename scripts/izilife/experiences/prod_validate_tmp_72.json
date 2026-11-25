@@ -1,0 +1,302 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:47:00.064327",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 72,
+      "title": "Atelier DIY cosmétiques naturels et bio",
+      "experience_type_string_id": "atelier",
+      "source_url": "https://www.babasport.fr/activites/1757-atelier-diy-d-initiation-a-la-fabrication-de-cosmetiques-naturels-et-bio-a-domicile-hauts-de-france",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "atelier",
+          "principal_activity_category_string_id": "cosmetique",
+          "minimal_age": "5",
+          "maximal_number_of_people": 14,
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "diy",
+            "fabrication-cosmetiques"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "evjf",
+            "anniversaire-adulte"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Saponification à froid",
+              "price": "50.00"
+            },
+            {
+              "name": "Gel douche au lait d'avoine",
+              "price": "25.00"
+            },
+            {
+              "name": "Dentifrice",
+              "price": "25.00"
+            },
+            {
+              "name": "Shampoing solide",
+              "price": "25.00"
+            },
+            {
+              "name": "Oléo Gel",
+              "price": "25.00"
+            },
+            {
+              "name": "Déodorant solide",
+              "price": "20.00"
+            },
+            {
+              "name": "Shampoing à barbe",
+              "price": "25.00"
+            },
+            {
+              "name": "Sticks à lèvres",
+              "price": "25.00"
+            },
+            {
+              "name": "Bougie de massage",
+              "price": "25.00"
+            },
+            {
+              "name": "Bombe de bain",
+              "price": "20.00"
+            },
+            {
+              "name": "Dentifrice pour enfant",
+              "price": "25.00"
+            },
+            {
+              "name": "Exfoliant visage",
+              "price": "20.00"
+            },
+            {
+              "name": "Après-shampoing solide",
+              "price": "25.00"
+            },
+            {
+              "name": "Soin cheveux au lait d'avoine",
+              "price": "25.00"
+            },
+            {
+              "name": "Vernis",
+              "price": "15.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.9,
+                "evidence": "Atelier DIY d’initiation à la fabrication de cosmétiques naturels et bio à domicile"
+              },
+              {
+                "string_id": "experience-immersive",
+                "confidence": 0.8,
+                "evidence": "Vous aurez l’occasion de partager un moment convivial , en réalisant vous-même un produit bon pour votre peau"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Accessible à partir de 12 ans"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Accessible à partir de 12 ans"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "De 1 à 14 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "convient aux petits comme aux grands"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 1,
+                "evidence": "Accessible à partir de 12 ans"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "En individuel ou en groupe"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "moment relaxant à deux"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "interior",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Activité en Intérieur"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Aucune mention spécifique"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.7,
+                "evidence": "moment relaxant à deux"
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://www.babasport.fr/images/uploads/activity_attachment/path/6944/Atelier_DIY_d_initiation___la_fabrication_de_cosm_tiques_naturels_et_bio_de_Lille_6.jpg?fit=scale-down&format=auto&metadata=none&quality=80&width=750",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 72,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 115,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:47:11.074375"
+}

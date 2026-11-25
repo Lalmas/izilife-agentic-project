@@ -1,0 +1,74 @@
+{
+  "tags": [
+    {
+      "string_id": "kids-friendly",
+      "confidence": 0.99,
+      "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+      "evidence": "Accueil enfants"
+    },
+    {
+      "string_id": "bon-wifi",
+      "confidence": 0.99,
+      "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+      "evidence": "Wifi"
+    }
+  ],
+  "principal_characteristics": [
+    {
+      "field": "adapted_to_family_with_children",
+      "value": 1,
+      "confidence": 0.99,
+      "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+      "evidence": "Accueil enfants"
+    },
+    {
+      "field": "wifi",
+      "value": 1,
+      "confidence": 0.99,
+      "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+      "evidence": "Wifi"
+    }
+  ],
+  "editorial": {
+    "DietType": [
+      {
+        "string_id": "vegetarien",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Offre végétarienne"
+      }
+    ],
+    "KnowedMeal": [
+      {
+        "string_id": "grillades",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "viande grillée"
+      }
+    ],
+    "OrderMethod": [
+      {
+        "string_id": "a-emporter",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "vente à emporter"
+      },
+      {
+        "string_id": "livraison",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "livraison"
+      },
+      {
+        "string_id": "click-and-collect",
+        "confidence": 0.99,
+        "source_url": "https://restaurants.hippopotamus.fr/france/hauts-de-france/nord/seclin/seclin",
+        "evidence": "Click & Collect"
+      }
+    ]
+  },
+  "warnings": [
+    "Proposition déterministe reconstruite depuis la page officielle après deux réponses JSON invalides du modèle."
+  ],
+  "summary": "Steakhouse familial avec accueil enfants, wifi, offre végétarienne, vente à emporter, livraison et Click & Collect."
+}

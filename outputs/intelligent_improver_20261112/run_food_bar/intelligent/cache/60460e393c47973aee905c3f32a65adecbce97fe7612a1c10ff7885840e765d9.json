@@ -1,0 +1,26 @@
+{
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {
+      "KnowedMeal": [
+        {
+          "string_id": "kebab",
+          "confidence": 0.99,
+          "source_url": "izilife://current",
+          "evidence": "Le meilleur kebab de Lille"
+        }
+      ]
+    },
+    "warnings": [],
+    "summary": "Restaurant à Lille, identifié comme kebab dans un avis fourni."
+  },
+  "meta": {
+    "cache_key": "60460e393c47973aee905c3f32a65adecbce97fe7612a1c10ff7885840e765d9",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

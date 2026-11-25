@@ -1,0 +1,14 @@
+{
+  "intelligent_targets": [
+    {
+      "scope_type": "PLACE",
+      "scope_ref": "palais-des-beaux-arts-de-lille",
+      "source_urls": ["https://pba.lille.fr/"],
+      "min_confidence": 0.8,
+      "with_ai": false
+    }
+  ],
+  "cover_targets": [
+    {"scope_type": "PLACE", "scope_ref": "palais-des-beaux-arts-de-lille"}
+  ]
+}

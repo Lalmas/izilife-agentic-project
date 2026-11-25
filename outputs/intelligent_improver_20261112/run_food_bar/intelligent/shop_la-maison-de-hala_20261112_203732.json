@@ -1,0 +1,476 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:37:32",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-maison-de-hala",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-maison-de-hala",
+    "status": "found",
+    "data": {
+      "id": "5887",
+      "name": "La maison de Hala",
+      "shop_string_id": "la-maison-de-hala",
+      "unique_id": "2ae4b0e8961055756c2ab01458343b5c",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "2",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55141",
+      "principal_cover": "55141",
+      "qr_code": null,
+      "phone_number": "+33764546683",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "59 Rue Gérard Pelisson",
+      "additional_address": null,
+      "zip_code": "59810",
+      "city_id": "51",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "3.1010101",
+      "latitude": "50.582624",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-11 00:05:19",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-11 00:05:19",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJw_-IPD3XwkcROe_CBx55YX0",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5887,
+      "scope_type": "SHOP",
+      "scope_ref": "la-maison-de-hala",
+      "primary_category_ref": "restaurant",
+      "closed_state_ref": "ouvert",
+      "city_ref": "lesquin",
+      "string_id": "la-maison-de-hala"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55141",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5887_6af3a32fdcc7a.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4944",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "34343",
+            "source_hourly_id": "4944",
+            "day_id": "1",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34344",
+            "source_hourly_id": "4944",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34345",
+            "source_hourly_id": "4944",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34346",
+            "source_hourly_id": "4944",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34347",
+            "source_hourly_id": "4944",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34348",
+            "source_hourly_id": "4944",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "16:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "34349",
+            "source_hourly_id": "4944",
+            "day_id": "7",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-maison-de-hala",
+      "google_place_id": "ChIJw_-IPD3XwkcROe_CBx55YX0",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: 09:00 – 16:00",
+          "mardi: 09:00 – 16:00",
+          "mercredi: 09:00 – 16:00",
+          "jeudi: 09:00 – 16:00",
+          "vendredi: 09:00 – 16:00",
+          "samedi: 09:00 – 16:00",
+          "dimanche: Fermé"
+        ],
+        "photos": [
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLdDQegebPwHHqX3eLCLi6p-9gPnKDEZjzyMKAKLY_OBtwo8Qu7Dc5G9M8Hlq4NCcn_ggX_bjAs4lCuB2MWDmZhM18tzx31f95ocogGGko6AsNJ3zAX2gdYTF4Rhk-aa9BhzqJa3DacWP9_YtCT_kYG-5MMDpqG6r40b31BP4fqxZlMPbY1xHJinf-a3ejDy0fci9v1FBNyrtcEkP2ZCyhAtB4DYvUsErLOs8n6Ul1Hic5_xIKmQUndMf51mXCOGsMuNecIUDRqDIxYynwuIDNpqXGF6AebFHGYV_GmmyIv2TIvkx5WOYscj1vPGygkDuAyNGTbqNkckMpKGmyQR4Bj8FH9UeQy5_125pUP2nhvPpNcF-68uuHQvrXxwC-MchLeBOEYXAmpL5AWDdS5LZ5Q1BsGMe9BRNr-UDsyMl2tt-w",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLc8f7j_upLlSvxRuGe4fuHB3DqyUtvLmp-HXhHATHAoUyG4RPk5ynFFnGFLmFoKfOLMLlF9NJs3em72tzV9F_zYtzHPE4H91IWIyLp4StB8IGNQnWfZcPrtzYZpyRTs7KTlQcqkGE8h8bDUhAp4agj-CyB5mQbLavF-g5d_kFsi4ryF_5m9x2EH5I_zkZpNA3fXUXuy4jdUgcofuIQc3Fogbm0rq-ATgXitnuTAquBoT4cq7DVCsB23zelXbKh80u_WZr86YPMKQBin6yJEGr2D56j3I_NJuBuIs57-tqCnbUESiFim_fnwx6lXwLBUJtoBbz3hq-NKZd5VY7naI71dWFCD56YsIADCAA6Q9QLjwJdTjEqo0N5GJLMmVs7MG2XeIH5ePSXDqMr7J8FOMS7P2jeobgqXIsLeF0fiszUF-Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 4032,
+            "height": 3024,
+            "photo_reference": "AV-0GLe9qONwy8PoQk3FJM10vrqfzDILIlPP4m0n-ZkNBn1iGyin3ZO5w1kTtAD-ga4DW-ppxQuIk2qLHCxGXwBRavk_Pongl3Ft0gI3KN6KMrz5_RQ8hpVbMXAkrwMH7sq6KjoonxMOtek8Xt6OKrtCCeQ99CTnWrEyyPAiTjxWc4FHVW-2mSTCH4YAKm58KPqiz4Io07RVLDYWEkTzLobVkekUB_TQc_1D2pla1FovloEw6I-HNCTuWNdzZQShBOWakq_WZWYX05Oz1Isis2S-NAd0W17pI8UzA9teJselZFpMBeUdPvI27wCOsH3nyjEki15DYaif5qaNfljDjhTV1tDV5OMVcxid6ncIOquMWNLDrbHdT8bACJaJVZGS7yAK5t7XFjf0W9zTbVwno3N5Dso9i-tojL5avIm2edv5t69aUQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLeKPAfOLyk0wPLceJ5eGHRwS6ocZNd-II2S7CxtU-cK9w9ESm8nZeCbobYgD3ZEOWt5myhZW1nuhGC5Wz9OtPrn4q1Mzp-dBKGKtJ5mfPUEj6m-EXTD1-tFw0k8B724osofbTRIKnbnXYVwVzbiJZR_8kD-ow0jNmypMhcP4okrjtO9H7DtZ7fi8pOSwN0eRl1s1o9FeM9PJH5W2bp3oLemjTOA4O_qapj5euAoGRPdU4A52pV4YbommFiyBxuH_PlpdD5FWBHEhWkTIo_G4MFzu4TVXIEf3zy9wFidTh_mJq-tbQ-MTMKH6LEd74YJ1z5-dMiU2GCt6dkF08hKwHLgCS47UlHFyF02SYppVIl_yNcV8VHeWxa6gtqhY0U64CTQNLtu5Y2MTIjqGswkML5ho_5Wvt5746q2i7-lYMSBsQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLc62kTjIy3s7nRJVG__BK5DcXfbrP7Jh5lANmXBCazcwLArvVLoyYXazNCfFCRQmg6Kp-EgOxONey6A4Ft7Zctsd0k4KHbRr_v-wo5E9iYKNafZmbAMfnHCsd4PPoZ3AgIkiOSMYUcFTnvKyxuFoN_VyuC_9r_lN5TRhnJ8Xnv7a3woWUqutXEt6kTE_tcqw2G4BAGFhGevsQXVIbUqNN8xi0bYvNedNmKVqX_TXBilf6eFqxy9Zew6bzVTUbIGopfsCf54uZYZnqEic7vZqmMMBiKSzATwgYbgTWYFD0Q62EG4pcbA4TiaukVY742A9UIdwy7d7TDp5IoyZWHfSc7weuQmDG9AelBPZsl5GTfd9xaigYx4H1myfqYbF5DXQtnuJSfmIPoQqzHQxkL78Jw2DI2uSWvBftRLgXxKbpwl5g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLejy8CCvCrrJjdmAx65gZDKafq9sdzZinNCTsT_knV5wXKq3T37QYscE4Cx-PdB8oKaNuzczguDwVSKHOU-o285OJ1ddfj-g5ASILODygGV4Ua_-Cu9nvaiEw1ItxQdATDAkoeG0w7AB9ze5Bg97kjk3AfqzU05w0_th8Z32WuK1I8pjA_XWJnrQAlCNrtsCjzKXHb6UpxDMJuMHWHRyjiPPaKhgAm1JQw8sdthy15nfm4XLPMasCIMMk6OsXQA49mF5r0O-Eid-xfU5yDObaxdjcqTvazMiEtVXVMGtnYIqLIWHFB6dzfzZ55rrZ3cNcuS1YBxqE7PKJPIR3aPU-WoAb2_6ICbCYEpc1I-09MrLfm_7uS829K1a67J49rhZmitlOdb7u-CHgPzQkgYICNlz-KPDtiSxdacsKrkF-aHgQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 4800,
+            "height": 3600,
+            "photo_reference": "AV-0GLeEtzyadXM6v9VEwAf9wtWnwBcGlTfGDgaK1FIfEdVjckK6bDI4Zo7R51sx4dhAAKE0JkfHeXRfQf_YZKO2BLsWf9YATwbDpdzXqpWJTTjFo_SKDoUXWUSu92t6kJf_4Syy20tCLhUYOmqMDHFKljZxkP0GfqxhBUHArYhxBPoCa2EBX__0xQGM08tUxnevmfyH757Qfs4wQlTUovRoCxmbKg0r9Bt5ZkS7IX6ABRnG1e-AvMN5YFOKJdizmUrv4bRw5gMB18x2KxCE51FE3f9kzshBAcilEomwqyfu22gQa1SGQhzjQviLRTpWwQwSfE35OUhEgqIQbuNExcYBvvfXWa8AYfQleW0V30kqIHpc-5gIo1RX4qnbMs7YWkaHJsMD5DHM2or0jZKKF8N4v5tCzi5sZarVU2T8nU4_TWbM",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 3600,
+            "height": 4800,
+            "photo_reference": "AV-0GLc0zCfLsKo1vs8adbmCRit5SNE1XSW6mPBKIKVwdEmF1Vkg2A1Xr5YEfUkMJbwpJpNM5outIyowyp_324b-XjTqJ9_Rtfy32KpeNacHAtTCce8sfN563RXTSKnYQzuqnzZBlfT_ef43sqqZhgluOc_LmeFEjoL_cmqnv-QgljkkZTZIEwt5iK1L7U8pZ1Z4cZhkP3rB5WTNJuO6hcxCr8ITy03GeUx_SBPUhq_pxnFhjEByxdb5vqatXxVUJjSiXl4Vu-oDDee8UP0j5Y1dt-uhTkWqbe5BUQrV8McwDl9glsce4cJYu9hzE4-0084Nk4yrxhLTrV66LZIVt6j3q5_GJ5ZWzNHfYxyJFZu8YoFGQKCBql72ZauAishzfJeGJ08XvjyiTQJCZPY-UhKMEzZe98BCv4ICecPVo6bDBdAjWw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLcgcBOHOfubI_8PE00_ssGjI7lZcvWwB2dPeyBFK9otnsiecGUtkdevOEXPouEywKMxeK0hA9Z8eF2z1W58HF3aBJNOMQXsERWE6EkfBlHIr8ylEMPYnc9Ui2kNCYPsLebQVACB6t0__rc6wCrApcWYOKiMMk9pV-WoY3rh9pju15_19agujcDtOS75XVSDDxpK8S_JfedauOW7rQ2tUwCd5dSkzRp4PSMjqEHz06YkMT4LfgxS0fciLtxH2v--kvhsozJZUQW8hNlDt3CsGKio_EdXs5m__WaRpkJLWsAzXhO4SOqKZDKRahGH4rkGDsCaTihxHbsaucPcl9Tw2qIUcZhzs6fhbujyRG0nKQo9WHUnFqKL63jCeW68IGQCi0DuGF7njsnT9f4R2B81kxNoXJHWYGEVUaIGNzEI1-MvGw",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          },
+          {
+            "width": 2160,
+            "height": 3840,
+            "photo_reference": "AV-0GLevgk53JDTVHotz9AdQulUtxHlZitA1uVwu75x5tlz9r-9UEGGccFS9I6Ym6Ks9IFnU6XKgQEpOHaz5ZrwQ3-U9T6pqqcrVNuNYzsfsCDKYXXys281AWDafILNFntOeM5lF8ICM_6q8NjnGuRjl9t0Nyz-cfcN2AwnXbDjn2HZym-8Vg94ShPdlpEFR1bJ4CQa7d1axrxAmm3zHGgEte-jgXe2krGgxjwDxbNN9QJZFCI6CvpxeItPv_tyhpN3TTdCd8P4bq5QQwqFRfJb4U6XU-N-94mKnFFh9jI8gYVeXvH_qSlA2O5hSr93CF1WE3fW8WCIIpCpHB3DqBpz-WSqDoPJSLK4Ui2YyxA_YQR-amlokMdFwY5jxIXG7qs_ZOoIhpDjqp1UbYBPgwoVtKER0Ij9IljrlRVweEwrkZbHkRA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/106853920972479199687\">La maison de Hala</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5887
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne précisent ni l’offre alimentaire, ni les modalités de consommation ou de commande, ni l’accessibilité, l’ambiance, les équipements ou les moyens de paiement."
+    ],
+    "rejected": [],
+    "summary": "La maison de Hala est répertoriée comme restaurant au 59 Rue Gérard Pelisson, à Lesquin. Les horaires indiqués sont du lundi au samedi, de 09:00 à 16:00 ; fermeture le dimanche. [source: izilife://current]"
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-maison-de-hala",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5887,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "c55044e84185b70238d3b838440f29da1dfaba1f8e46faece647910b6efaff6a",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

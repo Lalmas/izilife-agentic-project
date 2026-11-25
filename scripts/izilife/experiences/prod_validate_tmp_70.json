@@ -1,0 +1,256 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T15:46:33.662092",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 70,
+      "title": "Baptême d’ULM à Bondues",
+      "experience_type_string_id": "activite-collective",
+      "source_url": "https://www.babasport.fr/activites/4281-bapteme-d-ulm-a-bondues",
+      "validation_blockers": [],
+      "status": "validated",
+      "proposal": {
+        "experience": {
+          "experience_type_string_id": "activite-collective",
+          "principal_activity_category_string_id": "ulm",
+          "minimal_age": "5",
+          "additional_image_urls": [],
+          "language_string_ids": [
+            "fr"
+          ],
+          "hobby_string_ids": [
+            "vol-ulm"
+          ],
+          "object_string_ids": [],
+          "occasion_string_ids": [
+            "anniversaire-adulte",
+            "team-building-seminaire"
+          ],
+          "age_category_ids": [
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13"
+          ],
+          "session_configuration": null,
+          "session_contents": [],
+          "element_access_prices": [
+            {
+              "name": "Vol découverte 15'",
+              "price": "65.00"
+            },
+            {
+              "name": "Vol découverte 30'",
+              "price": "110.00"
+            },
+            {
+              "name": "Vol découverte 1h15",
+              "price": "220.00"
+            },
+            {
+              "name": "Vol découverte 1h45",
+              "price": "270.00"
+            }
+          ],
+          "editorial_signals": {
+            "tags": [
+              {
+                "string_id": "experience-forte",
+                "confidence": 0.9,
+                "evidence": "Un souvenir inoubliable, un plaisir intense, des sensations comme on les aime."
+              },
+              {
+                "string_id": "experience-originale",
+                "confidence": 0.8,
+                "evidence": "Une envie de voler ? Venez faire votre premier tour en ULM !"
+              }
+            ],
+            "principal_characteristics": [
+              {
+                "name": "is_for_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "À partir de 12 ans"
+              },
+              {
+                "name": "adapted_to_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "À partir de 12 ans"
+              },
+              {
+                "name": "adapted_to_groups",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Sélectionnez le nombre de participants par formule : Vol découverte 15' 65 € par personne 0 personne 1 personne 2 personnes 3 personnes 4 personnes 5 personnes"
+              },
+              {
+                "name": "adapted_to_family",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Sélectionnez le nombre de participants par formule : Vol découverte 15' 65 € par personne 0 personne 1 personne 2 personnes 3 personnes 4 personnes 5 personnes"
+              },
+              {
+                "name": "adapted_to_family_with_children",
+                "value": 0,
+                "confidence": 0.8,
+                "evidence": "À partir de 12 ans"
+              },
+              {
+                "name": "adapted_for_alone",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Maximum 1 personnes"
+              },
+              {
+                "name": "adapted_to_couple",
+                "value": 1,
+                "confidence": 0.9,
+                "evidence": "Sélectionnez le nombre de participants par formule : Vol découverte 15' 65 € par personne 0 personne 1 personne 2 personnes 3 personnes 4 personnes 5 personnes"
+              },
+              {
+                "name": "adapted_to_handicap",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Taille Maximum 190 cm Poids Maximum 95 kg"
+              },
+              {
+                "name": "adapted_to_strollers",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Taille Maximum 190 cm Poids Maximum 95 kg"
+              },
+              {
+                "name": "is_lgbtq_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique"
+              },
+              {
+                "name": "is_lgbtq_friendly_place",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention spécifique"
+              },
+              {
+                "name": "interior",
+                "value": 0,
+                "confidence": 0.9,
+                "evidence": "Extérieur"
+              },
+              {
+                "name": "can_eat_here",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de restauration"
+              },
+              {
+                "name": "can_drink_coffee",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de café"
+              },
+              {
+                "name": "can_have_tea_time",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de thé"
+              },
+              {
+                "name": "sell_tapas",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de tapas"
+              },
+              {
+                "name": "can_work",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de travail"
+              },
+              {
+                "name": "can_drink_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'alcool"
+              },
+              {
+                "name": "sell_alcool",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'alcool"
+              },
+              {
+                "name": "can_stay_for_sleep",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention d'hébergement"
+              },
+              {
+                "name": "play_music",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de musique"
+              },
+              {
+                "name": "can_danse",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de danse"
+              },
+              {
+                "name": "have_terrace",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de terrasse"
+              },
+              {
+                "name": "have_tv",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de TV"
+              },
+              {
+                "name": "wifi",
+                "value": 0,
+                "confidence": 0.5,
+                "evidence": "Pas de mention de WiFi"
+              },
+              {
+                "name": "is_adapted_for_date",
+                "value": 1,
+                "confidence": 0.8,
+                "evidence": "Parfait pour un date"
+              }
+            ],
+            "editorial": []
+          },
+          "primary_image_url": "https://www.babasport.fr/images/uploads/activity_attachment/path/17742/Plat_pays.jpg?fit=scale-down&format=auto&metadata=none&quality=80&width=750",
+          "session_warnings": [
+            "session_contents ignored without an explicit session_configuration"
+          ]
+        }
+      },
+      "provider": "openai",
+      "application": {
+        "success": true,
+        "tmp_id": 70,
+        "blockers": [],
+        "validation": {
+          "validated": true,
+          "experience_id": 113,
+          "active": true,
+          "created": false
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T15:46:49.329405"
+}

@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "event_id": 3247,
+  "proposal": {
+    "event_category_ref": "stand-up",
+    "principal_activity_category_string_id": null,
+    "sport_string_id": null,
+    "dance_string_id": null,
+    "music_style_string_id": null,
+    "artisan_technique_string_id": null,
+    "confidence": 0.82,
+    "evidence": [
+      "La description annonce un spectacle humoristique solo.",
+      "Aucune forme alternative précise, comme un one-man-show écrit et mis en scène ou un plateau de comedy club, n'est explicitement établie."
+    ],
+    "doubts": [
+      {
+        "field": "event_category_ref",
+        "reason": "Le contenu ne nomme pas explicitement la forme stand-up, mais ne prouve pas non plus une autre catégorie justifiant la recatégorisation."
+      }
+    ]
+  }
+}

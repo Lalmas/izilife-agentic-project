@@ -1,0 +1,32 @@
+{
+  "environment": "prod",
+  "mode": "validate",
+  "started_at": "2026-11-08T16:00:36.607697",
+  "staging": null,
+  "experiences": [
+    {
+      "tmp_id": 14,
+      "title": "Une nuit, un week-end dans une cabane perchée avec les Nids de Chlorofil",
+      "experience_type_string_id": "activite-collective",
+      "source_url": null,
+      "validation_blockers": [
+        "unite_duree"
+      ],
+      "status": "needs_review",
+      "application": {
+        "success": true,
+        "tmp_id": 14,
+        "blockers": [
+          "unite_duree"
+        ],
+        "validation": {
+          "validated": false,
+          "blockers": [
+            "unite_duree"
+          ]
+        }
+      }
+    }
+  ],
+  "completed_at": "2026-11-08T16:00:36.771927"
+}

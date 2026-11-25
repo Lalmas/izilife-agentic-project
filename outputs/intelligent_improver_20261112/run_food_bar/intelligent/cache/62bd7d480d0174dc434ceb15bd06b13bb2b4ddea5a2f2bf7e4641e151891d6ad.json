@@ -1,0 +1,41 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "repas-sur-le-pouce",
+        "confidence": 0.78,
+        "source_url": "izilife://current",
+        "evidence": "Catégorie principale : « friterie »."
+      }
+    ],
+    "principal_characteristics": [],
+    "editorial": {
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Horaires : lundi à samedi, 11:45–14:00."
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "izilife://current",
+          "evidence": "Horaires du soir indiqués chaque jour, 18:45–21:45 ou 22:45."
+        }
+      ]
+    },
+    "warnings": [
+      "Aucune information fournie sur la consommation sur place ou à emporter, les menus, l’accessibilité, les équipements, les moyens de paiement ou les modes de commande."
+    ],
+    "summary": "La Noyelloise est une friterie ouverte le midi et le soir selon les horaires fournis."
+  },
+  "meta": {
+    "cache_key": "62bd7d480d0174dc434ceb15bd06b13bb2b4ddea5a2f2bf7e4641e151891d6ad",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

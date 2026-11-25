@@ -1,0 +1,477 @@
+{
+  "schema_version": "izilife.enrichment.v1",
+  "generated_at": "2026-11-12T20:24:45",
+  "target": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-place-des-amis",
+    "env": "prod"
+  },
+  "sources": [],
+  "current_izilife": {
+    "type": "SHOP",
+    "string_id": "la-place-des-amis",
+    "status": "found",
+    "data": {
+      "id": "5797",
+      "name": "La Place des Amis",
+      "shop_string_id": "la-place-des-amis",
+      "unique_id": "94e1bddff527a2dd50b343b9c519706b",
+      "osm_node_id": null,
+      "road_id": null,
+      "address_id": null,
+      "is_active": "1",
+      "online_shop": "0",
+      "physical_shop": "1",
+      "shop_type": "0",
+      "is_itinerant": "0",
+      "itinerant_organisation_type": null,
+      "itinerant_vehicule_type": null,
+      "importance_in_city": null,
+      "is_owned_by_in_on_place": "0",
+      "is_multi_category_shop": "0",
+      "is_multi_category_principale_shop": "0",
+      "is_popup_store": "0",
+      "popup_store_start_date": null,
+      "popup_store_end_date": null,
+      "is_privatizable": "0",
+      "is_new_in_city": "0",
+      "opening_date": null,
+      "is_unusual_activity": "0",
+      "shopCategory_id": "13",
+      "secondShopCategory_id": null,
+      "thirdShopCategory_id": null,
+      "short_description": null,
+      "ai_description": null,
+      "principal_picture": "55051",
+      "principal_cover": "55051",
+      "qr_code": null,
+      "phone_number": "+33781154194",
+      "url_website": null,
+      "url_facebook": null,
+      "url_instagram": null,
+      "partner_id": null,
+      "listable": "1",
+      "listable_reason_id": null,
+      "listable_reason_text": null,
+      "network_id": null,
+      "self_delivery": "0",
+      "click_delivery_active": "0",
+      "click_collect_active": "0",
+      "click_collect_promo": "0",
+      "click_collect_promo_amount": "0",
+      "have_fidelity_program": "1",
+      "is_cold_relay_point": "0",
+      "is_dry_relay": "1",
+      "is_clothes_relay": "0",
+      "cold_food_for_delivery_tour": "0",
+      "tour_minimum_order": "0",
+      "self_delivery_minimum_order": "0",
+      "now_delivery_minimum_order": "0",
+      "click_collect_minimum_order": "0",
+      "is_food_shop": "1",
+      "is_in_food_planning_program": "0",
+      "is_in_scooter_delivery_program": "1",
+      "is_in_collaborative_delivery_program": "0",
+      "mail": null,
+      "haveTab": "0",
+      "receive_peoples": "0",
+      "have_toilets": "0",
+      "toilets_accessibility": "0",
+      "toilet_accessibility_minimum_buy": null,
+      "toilet_accessibility_minimum_buy_currency": null,
+      "basic_price": "0",
+      "basic_price_currency": null,
+      "shop_access_type": null,
+      "shop_booking_needed_for_access": null,
+      "access_text": null,
+      "access_link": null,
+      "address": "1 Place du Marché",
+      "additional_address": null,
+      "zip_code": "59112",
+      "city_id": "7",
+      "in_on_place": null,
+      "hourly_of_in_on_place": "0",
+      "google_maps_iframe": null,
+      "longitude": "2.934949",
+      "latitude": "50.530125",
+      "shop_location_frame": null,
+      "shop_country_code": "FR",
+      "health_pass": "0",
+      "created": "2026-11-10 23:51:28",
+      "updated": null,
+      "history": null,
+      "shop_hourly_text": null,
+      "shop_building_type": null,
+      "number_of_levels": "1",
+      "saving_default_language": "1",
+      "creation_date": "2026-11-10 23:51:28",
+      "is_speciality_business": "0",
+      "shop_origin_id": null,
+      "use_seperated_menu": "0",
+      "google_place_id": "ChIJhQKcff4t3UcREZqq75plm9M",
+      "is_verified": "0",
+      "is_claimed": "0",
+      "administrative_division_id": null,
+      "multi_category_management_type": null,
+      "completion_score": "0",
+      "completion_score_updated_at": null,
+      "is_degraded_mode": "0",
+      "closed_state_id": "1",
+      "google_reviews_json": null,
+      "google_reviews_updated_at": null,
+      "google_reviews_place_id": null,
+      "source_id": 5797,
+      "scope_type": "SHOP",
+      "scope_ref": "la-place-des-amis",
+      "primary_category_ref": "brasserie",
+      "closed_state_ref": "ouvert",
+      "city_ref": "annœullin",
+      "string_id": "la-place-des-amis"
+    },
+    "counts": {
+      "media": 1,
+      "links": 0,
+      "external_media": 0,
+      "ambiences": 0,
+      "characteristics": 0,
+      "other_categories": 0,
+      "equipment": 0,
+      "services": 0,
+      "eap": 0,
+      "products": 0,
+      "product_categories": 0,
+      "product_options": 0,
+      "hours": 1
+    },
+    "graph": {
+      "media": {
+        "items": [
+          {
+            "source_id": "55051",
+            "title": "Sans titre",
+            "description": null,
+            "integration_path": "sh_m_5797_6af39ff0d98e0.jpg",
+            "sha1_hash": null,
+            "is_active": "1",
+            "media_type_ref": "IMG",
+            "management_type_ref": "INT",
+            "is_principal": "1",
+            "storage_prefix": "statics/shops/"
+          }
+        ],
+        "total": 1,
+        "page": 1,
+        "page_size": 10
+      },
+      "external_media": {
+        "items": [],
+        "total": 0,
+        "page": 1,
+        "page_size": 10
+      },
+      "links": [],
+      "ambiences": [],
+      "characteristics": [],
+      "other_categories": [],
+      "products": {
+        "categories": [],
+        "items": [],
+        "option_groups": [],
+        "option_values": [],
+        "option_assignments": [],
+        "media": []
+      },
+      "equipment": [],
+      "equipment_media": [],
+      "services": [],
+      "eap": [],
+      "hours": {
+        "sets": [
+          {
+            "source_id": "4855",
+            "name": "Horaires par défaut",
+            "is_active": "1",
+            "is_current_hourly": "1",
+            "service_scope": "GENERAL",
+            "temporary_hourly_type": null,
+            "hourly_start_date": null,
+            "hourly_end_date": null,
+            "hourly_start_month": null,
+            "hourly_end_month": "1",
+            "with_annual_recurrence": "0"
+          }
+        ],
+        "content": [
+          {
+            "source_id": "33720",
+            "source_hourly_id": "4855",
+            "day_id": "1",
+            "closing_day": "1",
+            "opening_hour": null,
+            "closure_hour": "",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33721",
+            "source_hourly_id": "4855",
+            "day_id": "2",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33722",
+            "source_hourly_id": "4855",
+            "day_id": "3",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33723",
+            "source_hourly_id": "4855",
+            "day_id": "4",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33724",
+            "source_hourly_id": "4855",
+            "day_id": "5",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33725",
+            "source_hourly_id": "4855",
+            "day_id": "6",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "21:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          },
+          {
+            "source_id": "33726",
+            "source_hourly_id": "4855",
+            "day_id": "7",
+            "closing_day": "0",
+            "opening_hour": "09:00",
+            "closure_hour": "14:00",
+            "with_break": "0",
+            "reopening_hour": null,
+            "reclosure_hour": null,
+            "exceptional_hourly_day": null,
+            "service_scope": "GENERAL",
+            "is_overnight": "0"
+          }
+        ]
+      }
+    },
+    "google_enrichment": {
+      "success": true,
+      "scope_type": "SHOP",
+      "scope_ref": "la-place-des-amis",
+      "google_place_id": "ChIJhQKcff4t3UcREZqq75plm9M",
+      "source_order": [
+        "stored_google_json",
+        "playwright",
+        "google_places_api"
+      ],
+      "cached": {
+        "opening_hours": [
+          "lundi: Fermé",
+          "mardi: 09:00 – 21:00",
+          "mercredi: 09:00 – 21:00",
+          "jeudi: 09:00 – 21:00",
+          "vendredi: 09:00 – 21:00",
+          "samedi: 09:00 – 21:00",
+          "dimanche: 09:00 – 14:00"
+        ],
+        "photos": [
+          {
+            "width": 3271,
+            "height": 1899,
+            "photo_reference": "AV-0GLcw20XerqfdXCBmRJldPcuYcWzJdF5_NJ0Ng6AYmkKOgYtopjafv-bLj6AzuY6zHReVYFRLmlJTceDgUdo0NPxg2hq2Ds1JfbX6B7ObSUpbK55fUthNk6EJrDiRGCdpp4BnKBSN8jJ0m8TBShyVzk9cZ2NseA9TfCDmj5YU3xFrwKm1DdGKskoPde9Eq-lOMCiA4gXNXSjMcae5J9mVYIAPIbK6b5NZ4a3xN8i3CbtVVT8VGprWPX08xU3Hz82UlJA-LsmLV1gBqlJbr5NAfbloe0j_XctFjobeHQ43xEnx8FgyNYFKptnleQaHg3BTSbWq-IihpgI0fPM3Uyc7w3bwQICOy4TMx1AU-4f7gvCcrfFHO_8DMneJgeLrig4ruQem0bzmuGu_aDtShCf6Fzao_g",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 2662,
+            "photo_reference": "AV-0GLeE_alIkoc9tddTy_5P5VsYpFjx9ec2CwT8OFMhk-cdPmV7xhvpEJ0c5x_zzmQ-F02GzucfhTJvSslEHBS41XHFAE9Zmh8mcwlPdtCY_mV0Vx4EY0KbPglPoEkxthXv0suPtrdQg5wzCSdfFQKop4p-SvVGl30H1Nq-dXsfrLGdILwiulT0soJK0U70FRb79n5YtaS4C5n1JD65k4LkoaNPs5vEh8V8hDXNvp5fVcIdkdbGf41y5UNDduL2G9O84omstat9f4rQocKtMwjVvSr7oxBiXJG5CIY8Lvak6ISEPt22KMUG9PA6xtj3XtoNJk_M5YRYh_mpQxpcyQOu7DN3OFzhNs8BpbVnFZBrIhhmrXA0tYZ5VfAvVnFCCe-2hpK87PP4MvVmA6AwKaF9W3AFUAWzmT3Saa0G8QCeAxnK_Q",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLcpiuU1sBLkWx68oI_2XHjafh7p-tKe9KW79aQPTXlfMyhAlllYPTF0EVHKYuCEN9EDhifv06VmSlf-b0ceWXIAa_y1oHDd1SwwahqA10Q_lqpkRt87fT8EOahF9TOhrXUk45p0Wrkxes8YTGuMLiXN6bDmIx27MF2L20Ql2Vt40hT4-jbpyjstpxulFS9HRWuF3pFB_-r680c72LDS5ni2r93H56tg3lOCeElq8ugJH5BpzxwuXnddzS5GZfdMr4MsnewLvaQ-IZ-1zwQSsfngWF3WKlm3ABNadFeXCXV8TjWrbhLUivqQc4T_kIywfdXAc7LGv9oadY8NsIjJQ1hoWGspt6qq3ROgtjtD_bZ_wfzDj1eZf2K9nssxMhf2-BEho5GM4cFCVd0goGy7FB1MjOo",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 3295,
+            "photo_reference": "AV-0GLdkBqUNsgqgL5yqAUJ1PkSHA4WO3vMSzoK7c9BbVzT3Vkk2UJ8erR_3_PoOEB7LtuhOQ2SxZOIuoyV6wDtWo7MPArmB0mqCYtqvlLoRzzUHXaFlIN_MytzCDguAIw6b3vvEN5WIULL-jSaxNnHpMT3lExU6NC9wf_NMLqaxnm_Kh5_ek9NkosMwBeztXnxZpEhQJLm-sxjlBULYaeH7KmurYSU5RQhNyZMkeCBZ_Mo6LF8l-k98BTPn8sE8WXZfHWHvKocUisARRE6KUXSGdinVjPLvc2RFs4OTMLKnKz1RZlVK1aln-TW3t4AL_56BaVsSrK3GD1X6PkkPyIdUJmsw9XTRggQAm_3X8oMWrZd5lJJPnSP6oK7K4Cc2PzsOJZf_NbijX5ftEr4yy5vmGz12cxJ48MTaIIedZcp63MyLoA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLfTRaGltME7WxmhSr5gLtRLxWgvGZn6V44QjecxxczPHSbCTxEmqegI4f4gPsSknZezO7alBVCakEq1Wxd_EPMBYGMsCBVy9o2HHU1f0fASE5rRt9uhORyUx87ywBXri8sFbFephQZcmIkg1w4flJlC3TBRxz1CmeBiw-WA_JgBtl02cQmBxogyNo6S5t5F9EYUwelq1v6Ak2i_Q5s88iKlUj0eCP5WpYhMgQkxz_4kKpPcY2y1U1XcSqJPGn92FfqOiGNKm09RyhbfE_4Sy9gEi0lUShlPWK56WXmSzfYS-FwZhlxr4syP5ali8mFEVgloYkbe57vljfmaMFWXr_pPnUTy2LTsa8U7gSWqm7UKqNuk8EE4EPHNs_b3oKsx6ng_dtzpYcgbKYLHGjzJVSORBJh8vvk",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLd8YE_DjhFIRqyVkGeeJWJ9x15UTZGmVS5NucBG6tHqpd5Vbp2EIMKcp3n1owMB4Fx6_RrRTv5OUQTUH9ujyFn6JkWFkxMDsl-evUQuUOV96lGXQH95A0x1iuzHUc5aTKkd3VmPE2lY_Wl6Epc4QYepRe95jg60jTH3SPv_hUr334J-1h5tUKrYTALqS-rNCS21aAcVGnGOfDEpmfB8LvK-sW6AgwglpSAk1byIGwqQ-eyTTY_49WwbeyEl_zDL4Jed47U8nSToRbVM0Qr63-riVkrz4d_2BcUWgs6Pw-zvoR72Tvzxx-yDA6u6wU9O2kdDl_pA84G6YT8qKdGRYNGDFBfDghu1JCfs3n_DukxpW2jnw43-cNNkC2dAjug4gcH00-VQYBI7NaunADBuJrRstKwuUn5VMPqcHrIo1A-now",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 1080,
+            "height": 779,
+            "photo_reference": "AV-0GLcoBpdC0RVN85w6SLav1xxVkDLtnfsoqFOtOe6WrMI3sIuj89s1P7wEy7JXttK-dJ9dd7eHPL87BVXi9UUtz6GQPJ1OmSmkmnVf9m2Pywd1QCOBg3cuTdvMqfSYXaYvAukT-3qEDzMWwwxn4W9Th_vYhC8biiKx9cy7AAM2pLnwuee0bEbtqIzeYFWnK5is1lUO2Z2wvCWsMVgE3vuU-pDJkv1NfeWzGKlx8SZdll1LCv6tgl9kCxbYMz4iaKNUbWZ_bJINNwlvskMXfsrh5gRegg9nz4B-0g5uZ7EaQ6WjKli5s3FAanK6J00Joao6xPmPB61Cno8L3--7jD87IQonY70lQXSdEWgGtww4n0e52O7PQ-l1ihI2L78SHlDUI9dGgC9zOLpa8sHnWOIZbnST0PFL4TNwrfGPR2Nmd1e2bA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 3024,
+            "height": 4032,
+            "photo_reference": "AV-0GLdZrY15pvU2Y_fF6kPDTpEmbWzs1lkEf7VQ1PBbt32Lqd3dVuvovqsiqqZdPjHcSS3CL0JXurBcWWLVAabfVtuv2Lilrh21JXbBXOlU6wYzf7mpMU9Ho4hIaZJSZN2hc8aoh8pblPRgt-gkRuHQbd2vTGmzvq2sqnZe9jIx2sV1ozahxPQTsS5-rcBu_er58muA4MiX4HW5xjPW_RIJAaaT5qwlmBwC-gns4q5KeWMcan9ONtrpx0_uKClCnu5Ut6c0ye0lelKglAjVcpTW4ZLQxbj5hPebwInRg1ea3yUWnqcFyDn9u3zHQ1JM96VuJ6oQPXXhKZBUdKvUep4PUeQ30ldF1FxX5EcRkDSR9Zzxo1L3E3oxX7P6cvz3yXGwM3gQ_greFhAABuo4KwpEFcGOpN6L0TY5LwptVW6yI8oqSA",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/109435157970332516987\">ALAIN KARP</a>"
+            ]
+          },
+          {
+            "width": 4080,
+            "height": 3060,
+            "photo_reference": "AV-0GLeDG8a-J8LEZNkNwGaR3Lp55LeFdNr6HYqSEmT9OXiwXUL7gIe6-pBP9q5USUT0anj1HL8UqVqwBoWJkoLlkWaLrD9y8lKu1_lXVcb0snKD2NxdQw8ZD985N-5HzY8de4gbqSWZcuCD8JZ2tZzh8e8muryi4_HMX0mSZ7lZwZQavvRpmSRMc_3ib7le2raHE2gIzABRGjB6YF88qxcPAgFnmOb1O5KYvT3Riz2ygSy1HpVgTwq0NyoUrU13188FBRESA7oifFPREqv5nm8JNWEQ8wf88thdie6r0QtXzpHHcOtC20anvEFfrSUlmos1Wxi3bCgm_QEPWU8j-KDRd_uVjlZmBLS67WZR8BGe12fNlCxDV8AGv67Kf4T04MqK0uUBG1oYCWTvDqal6WdkeI-_FoKn7g4",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          },
+          {
+            "width": 3060,
+            "height": 4080,
+            "photo_reference": "AV-0GLcLhg2sG31W_nDPqFXHfk3HH1DE2Oqw8m3WY6g3VluMRZv8j4h7QISF_5d-n9CsXbkzqLzgMTZkZLEiM58oYYT1CKirA8psgLZL7aPjaAjiuTilD8jkrbq39f4591wArAS00cxbIWYJTdij3qxZvUlU1qDeOO9E-ubrtgne6jPKi8T64HxsNa4hQDjLJSxO_2qwU0cLeiJHBAmAhvg3sO2ExQ5sHIkog52wSV34h3nHc3qPH7uZVDOOEL2c7s9jwGo9nO-tRjUYuHCvW03N_hNZANPAdMFmFGeHry-pEFxl4XlLcNhylAXq8eFSmtCqPh5HUV2D_KpKU5vpYxkSB5mUtOa88NJeyUl2xQ8gvM0lnRnhc51SKemw4pDIVb8LSl-NDJWN-td_c-aHPXNtFLqYzeCBtXROGvPBEVCsdxh4JQ",
+            "html_attributions": [
+              "<a href=\"https://maps.google.com/maps/contrib/102982913666788370553\">La Place des Amis</a>"
+            ]
+          }
+        ],
+        "has_google_json": true
+      },
+      "applied_from_cache": {
+        "opening_hours": {
+          "created": false,
+          "skipped": true,
+          "reason": "Des horaires existent déjà.",
+          "scope_id": 5797
+        },
+        "photo": {
+          "skipped": true,
+          "reason": "media_exists"
+        }
+      },
+      "needs_playwright": {
+        "opening_hours": false,
+        "photos": false
+      },
+      "reviews": {
+        "status": "budget_exhausted",
+        "reviews": [],
+        "decision": null
+      },
+      "quota": {
+        "month": "2026-11-01",
+        "total": 1199,
+        "bo": 161,
+        "front": 1038,
+        "estimated_cost_eur": 4.9750000000000005
+      }
+    }
+  },
+  "proposal": {
+    "tags": [],
+    "principal_characteristics": [],
+    "editorial": {},
+    "warnings": [
+      "Les données fournies ne documentent pas suffisamment les services, l’ambiance ou les équipements pour attribuer des tags ou des caractéristiques.",
+      "Aucun avis n’est disponible dans les données fournies."
+    ],
+    "rejected": [],
+    "summary": "La Place des Amis est répertoriée comme une brasserie au 1 Place du Marché, 59112 Annœullin. Horaires indiqués : mardi à samedi, 9 h–21 h ; dimanche, 9 h–14 h ; fermé le lundi."
+  },
+  "apply_payload": {
+    "scope_type": "SHOP",
+    "scope_ref": "la-place-des-amis",
+    "operation": "ADD",
+    "tags": [],
+    "principal_characteristics": {},
+    "editorial": {}
+  },
+  "apply_result": {
+    "success": true,
+    "scope_type": "SHOP",
+    "scope_id": 5797,
+    "changed": []
+  },
+  "restaurant_classification": null,
+  "category_result": null,
+  "review_required": false,
+  "source_errors": [],
+  "meta": {
+    "cache_key": "7a7f550f3f02a5d7043fa0a09e40b6a633d9c3eb9be465262c54b371315d0297",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}

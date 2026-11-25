@@ -1,0 +1,91 @@
+{
+  "proposal": {
+    "tags": [
+      {
+        "string_id": "consommation-sur-place",
+        "confidence": 0.82,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« restaurant » ; « réserver votre table »"
+      },
+      {
+        "string_id": "bien-pour-groupe",
+        "confidence": 0.72,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« un simple moment de détente entre amis »"
+      },
+      {
+        "string_id": "adapte-aux-familles",
+        "confidence": 0.76,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« un dîner en famille »"
+      }
+    ],
+    "principal_characteristics": [
+      {
+        "field": "can_eat_here",
+        "value": 1,
+        "confidence": 0.97,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« Ce restaurant vous propose une cuisine traditionnelle française »"
+      },
+      {
+        "field": "adapted_to_family",
+        "value": 1,
+        "confidence": 0.76,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« un dîner en famille »"
+      },
+      {
+        "field": "can_drink_alcool",
+        "value": 1,
+        "confidence": 0.79,
+        "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+        "evidence": "« une sélection de vins fins »"
+      }
+    ],
+    "editorial": {
+      "Atmosphere": [
+        {
+          "string_id": "chaleureux",
+          "confidence": 0.9,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+          "evidence": "« dans un cadre chaleureux et convivial »"
+        }
+      ],
+      "MealType": [
+        {
+          "string_id": "dejeuner",
+          "confidence": 0.82,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+          "evidence": "« un déjeuner d'affaires »"
+        },
+        {
+          "string_id": "diner",
+          "confidence": 0.86,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+          "evidence": "« un dîner en famille »"
+        }
+      ],
+      "DishOrigin": [
+        {
+          "string_id": "francaise",
+          "confidence": 0.94,
+          "source_url": "https://restaurant.restaurants-de-france.fr/f/cafe-saint-landelin-6332185/",
+          "evidence": "« cuisine traditionnelle française »"
+        }
+      ]
+    },
+    "warnings": [
+      "Informations limitées : la page consultée indique un seul avis Google et aucun avis textuel."
+    ],
+    "summary": "Restaurant à Santes proposant une cuisine traditionnelle française avec des produits frais et de saison. La page mentionne déjeuner d’affaires, dîner en famille, moments entre amis et une sélection de vins."
+  },
+  "meta": {
+    "cache_key": "1eca49bf320ac4774ccd48e69641ae2ef30bb21b9fe0a9814e7089b5af6352bb",
+    "references_env": "local",
+    "analysis_only": false,
+    "provider": "openai",
+    "web_search": true,
+    "cache_hit": false
+  }
+}
